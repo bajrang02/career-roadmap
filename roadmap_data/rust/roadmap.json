@@ -1,0 +1,1265 @@
+{
+  "slug": "rust",
+  "title": "Rust",
+  "nodes": [
+    {
+      "id": "3nPTKH467-g4N0YBW0zpb",
+      "old_id": "3nPTKH467-g4N0YBW0zpb",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "oMiptPao4a2q92LjCy2NC",
+      "old_id": "3nPTKH467-g4N0YBW0zpb",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "1qgNC-F2wRmAE-UbQ1tzZ",
+      "old_id": "1qgNC-F2wRmAE-UbQ1tzZ",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "2Agwu9c_rJzdNjV4DUaFx",
+      "old_id": "2Agwu9c_rJzdNjV4DUaFx",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "w33P_0jGA6CV8uKi_d-bt",
+      "old_id": "w33P_0jGA6CV8uKi_d-bt",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "xMeeAFhcYrR_hjli3QOam",
+      "old_id": "xMeeAFhcYrR_hjli3QOam",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "old_id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "Rust",
+      "resources": []
+    },
+    {
+      "id": "if9eTna5NRTMStVwpSwDP",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "old_id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "Introduction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\testing@08qKtgnhJ3tlb5JKfTDf5.md"
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "old_id": "W4gEPRYmk5Y7y3PjI6fR7",
+      "type": "subtopic",
+      "label": "What is Rust?",
+      "resources": []
+    },
+    {
+      "id": "StxLh1r3qXqyRSqfJGird",
+      "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+      "type": "button",
+      "label": "Backend",
+      "resources": []
+    },
+    {
+      "id": "OIcmPSbdsuWapb6HZ4BEi",
+      "old_id": "cmSSwPPiiHwYh9ct14N6A",
+      "type": "button",
+      "label": "DevOps",
+      "resources": []
+    },
+    {
+      "id": "VhSEH_RoWFt1z2lial7xZ",
+      "old_id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Why use Rust?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\why-use-rust@VhSEH_RoWFt1z2lial7xZ.md"
+    },
+    {
+      "id": "OSaXhs52pEviq0EpWXxVX",
+      "old_id": "OSaXhs52pEviq0EpWXxVX",
+      "type": "label",
+      "label": "Environment Setup",
+      "resources": []
+    },
+    {
+      "id": "-IqA02ObYvXPW1ot6t_b9",
+      "old_id": "eYCNYtwXBjZwcPUe7QYZ-",
+      "type": "subtopic",
+      "label": "Installing Rust and Cargo",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rust-repl-rust-playground@eYCNYtwXBjZwcPUe7QYZ-.md"
+    },
+    {
+      "id": "oyP1ZyOgDC4nYEQXHwdVQ",
+      "old_id": "eYCNYtwXBjZwcPUe7QYZ-",
+      "type": "subtopic",
+      "label": "IDEs and Rust Toolchains",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rust-repl-rust-playground@eYCNYtwXBjZwcPUe7QYZ-.md"
+    },
+    {
+      "id": "eYCNYtwXBjZwcPUe7QYZ-",
+      "old_id": "eYCNYtwXBjZwcPUe7QYZ-",
+      "type": "subtopic",
+      "label": "Rust REPL (Rust Playground)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rust-repl-rust-playground@eYCNYtwXBjZwcPUe7QYZ-.md"
+    },
+    {
+      "id": "6E4pGifNfSAq6SbzfzFNT",
+      "old_id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "Language Basics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\testing@08qKtgnhJ3tlb5JKfTDf5.md"
+    },
+    {
+      "id": "fJH8kw4_0b2BDI1vozwY7",
+      "old_id": "fJH8kw4_0b2BDI1vozwY7",
+      "type": "label",
+      "label": "Syntax and Semantics",
+      "resources": []
+    },
+    {
+      "id": "Gw5E21W5zis-RUIgNSEV2",
+      "old_id": "yqp3UePmSlGyOYpxITis4",
+      "type": "subtopic",
+      "label": "Variables, DataTypes and Constants",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\pattern-matching--destructuring@yqp3UePmSlGyOYpxITis4.md"
+    },
+    {
+      "id": "u2wlnmE1uLaTqWw35UF0a",
+      "old_id": "yqp3UePmSlGyOYpxITis4",
+      "type": "subtopic",
+      "label": "Control Flow and Constructs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\pattern-matching--destructuring@yqp3UePmSlGyOYpxITis4.md"
+    },
+    {
+      "id": "5hKJaMKpeFEUi3S1Hpiyk",
+      "old_id": "yqp3UePmSlGyOYpxITis4",
+      "type": "subtopic",
+      "label": "Functions and Method Syntax",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\pattern-matching--destructuring@yqp3UePmSlGyOYpxITis4.md"
+    },
+    {
+      "id": "yqp3UePmSlGyOYpxITis4",
+      "old_id": "yqp3UePmSlGyOYpxITis4",
+      "type": "subtopic",
+      "label": "Pattern Matching & Destructuring",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\pattern-matching--destructuring@yqp3UePmSlGyOYpxITis4.md"
+    },
+    {
+      "id": "ok-T33GCsTCkB9ABDzCDG",
+      "old_id": "HpItJIkCXXiVOXO58si4G",
+      "type": "label",
+      "label": "Constructs",
+      "resources": []
+    },
+    {
+      "id": "FswpjWqqt8-BzUTsDDjel",
+      "old_id": "B-S1hE-ofNTutnkc2hJBf",
+      "type": "subtopic",
+      "label": "Enums",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\stack@B-S1hE-ofNTutnkc2hJBf.md"
+    },
+    {
+      "id": "Mi9mQ-8gyDPd8Mbu1zuHt",
+      "old_id": "JAgjrf5WDXiorZ6gFRzTc",
+      "type": "subtopic",
+      "label": "Structs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\hashmap@JAgjrf5WDXiorZ6gFRzTc.md"
+    },
+    {
+      "id": "SJMuIEuHp8X6nfLb0k0TU",
+      "old_id": "PskCueCc9pSxfnSzfdX-u",
+      "type": "subtopic",
+      "label": "Traits",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\vector@PskCueCc9pSxfnSzfdX-u.md"
+    },
+    {
+      "id": "HzWHDQZjA9OgVZEWrmhKf",
+      "old_id": "U9Bd-GO0QwYVLvESR4PTb",
+      "type": "subtopic",
+      "label": "Impl Blocks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rc@U9Bd-GO0QwYVLvESR4PTb.md"
+    },
+    {
+      "id": "LwSdC6ojcHe6z5TbudE4v",
+      "old_id": "HpItJIkCXXiVOXO58si4G",
+      "type": "label",
+      "label": "Data Structures",
+      "resources": []
+    },
+    {
+      "id": "FHZSxSiOZYNBEz6tu8wuF",
+      "old_id": "B-S1hE-ofNTutnkc2hJBf",
+      "type": "subtopic",
+      "label": "Integers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\stack@B-S1hE-ofNTutnkc2hJBf.md"
+    },
+    {
+      "id": "bjwJCGMx5ZfrH7vz3eLS7",
+      "old_id": "JAgjrf5WDXiorZ6gFRzTc",
+      "type": "subtopic",
+      "label": "Boolean",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\hashmap@JAgjrf5WDXiorZ6gFRzTc.md"
+    },
+    {
+      "id": "rNHHp1GgmRnKIYlZayi59",
+      "old_id": "PskCueCc9pSxfnSzfdX-u",
+      "type": "subtopic",
+      "label": "Floats",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\vector@PskCueCc9pSxfnSzfdX-u.md"
+    },
+    {
+      "id": "dXMJb2wDmmh2jie1AnPoK",
+      "old_id": "B-S1hE-ofNTutnkc2hJBf",
+      "type": "subtopic",
+      "label": "Character",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\stack@B-S1hE-ofNTutnkc2hJBf.md"
+    },
+    {
+      "id": "81_J7CwtUUjYPvKV_prg3",
+      "old_id": "JAgjrf5WDXiorZ6gFRzTc",
+      "type": "subtopic",
+      "label": "Tuple",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\hashmap@JAgjrf5WDXiorZ6gFRzTc.md"
+    },
+    {
+      "id": "Hu1jf46OpX44nam_UvYqc",
+      "old_id": "PskCueCc9pSxfnSzfdX-u",
+      "type": "subtopic",
+      "label": "String",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\vector@PskCueCc9pSxfnSzfdX-u.md"
+    },
+    {
+      "id": "2DbdHCjFzGHwCUETakaGh",
+      "old_id": "B-S1hE-ofNTutnkc2hJBf",
+      "type": "subtopic",
+      "label": "Array",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\stack@B-S1hE-ofNTutnkc2hJBf.md"
+    },
+    {
+      "id": "JAgjrf5WDXiorZ6gFRzTc",
+      "old_id": "JAgjrf5WDXiorZ6gFRzTc",
+      "type": "subtopic",
+      "label": "Hashmap",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\hashmap@JAgjrf5WDXiorZ6gFRzTc.md"
+    },
+    {
+      "id": "PskCueCc9pSxfnSzfdX-u",
+      "old_id": "PskCueCc9pSxfnSzfdX-u",
+      "type": "subtopic",
+      "label": "Vector",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\vector@PskCueCc9pSxfnSzfdX-u.md"
+    },
+    {
+      "id": "b1iYy4Hvkj47Q13V2HE4i",
+      "old_id": "jdndHBzmdgI6uYql6bO4W",
+      "type": "subtopic",
+      "label": "Hashset",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\binary-heap@jdndHBzmdgI6uYql6bO4W.md"
+    },
+    {
+      "id": "iR0ewc2yURqS7bfMWfoBi",
+      "old_id": "B-S1hE-ofNTutnkc2hJBf",
+      "type": "subtopic",
+      "label": "LinkedList",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\stack@B-S1hE-ofNTutnkc2hJBf.md"
+    },
+    {
+      "id": "B-S1hE-ofNTutnkc2hJBf",
+      "old_id": "B-S1hE-ofNTutnkc2hJBf",
+      "type": "subtopic",
+      "label": "Stack",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\stack@B-S1hE-ofNTutnkc2hJBf.md"
+    },
+    {
+      "id": "fq2NMV-QV9ayJl82ZWzov",
+      "old_id": "jdndHBzmdgI6uYql6bO4W",
+      "type": "subtopic",
+      "label": "Queue",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\binary-heap@jdndHBzmdgI6uYql6bO4W.md"
+    },
+    {
+      "id": "jdndHBzmdgI6uYql6bO4W",
+      "old_id": "B-S1hE-ofNTutnkc2hJBf",
+      "type": "subtopic",
+      "label": "Binary Heap",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\stack@B-S1hE-ofNTutnkc2hJBf.md"
+    },
+    {
+      "id": "jfdA_UG-Fm_3nQzrAbVv2",
+      "old_id": "HpItJIkCXXiVOXO58si4G",
+      "type": "label",
+      "label": "Ownership System",
+      "resources": []
+    },
+    {
+      "id": "2UQ3AuGkDbT0-54l0rOGM",
+      "old_id": "U9Bd-GO0QwYVLvESR4PTb",
+      "type": "subtopic",
+      "label": "Ownership Rules & Memory Safety",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rc@U9Bd-GO0QwYVLvESR4PTb.md"
+    },
+    {
+      "id": "-onH5vPffdcZFjjVcnEpk",
+      "old_id": "U9Bd-GO0QwYVLvESR4PTb",
+      "type": "subtopic",
+      "label": "Borrowing, References and Slices",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rc@U9Bd-GO0QwYVLvESR4PTb.md"
+    },
+    {
+      "id": "UdXq0H8599cDTKXaIlPqt",
+      "old_id": "U9Bd-GO0QwYVLvESR4PTb",
+      "type": "subtopic",
+      "label": "Deep Dive: Stack vs Heap",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rc@U9Bd-GO0QwYVLvESR4PTb.md"
+    },
+    {
+      "id": "HpItJIkCXXiVOXO58si4G",
+      "old_id": "HpItJIkCXXiVOXO58si4G",
+      "type": "label",
+      "label": "Advanced Data Structures",
+      "resources": []
+    },
+    {
+      "id": "LWgaZWTJVWLDes3HzflRh",
+      "old_id": "3nXJg5Y4SUug_dEAj0eQm",
+      "type": "subtopic",
+      "label": "BTreeMap",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\channels@3nXJg5Y4SUug_dEAj0eQm.md"
+    },
+    {
+      "id": "FsyLYRQP_rs4qL7IAj9Mo",
+      "old_id": "U9Bd-GO0QwYVLvESR4PTb",
+      "type": "subtopic",
+      "label": "BTreeSet",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rc@U9Bd-GO0QwYVLvESR4PTb.md"
+    },
+    {
+      "id": "U9Bd-GO0QwYVLvESR4PTb",
+      "old_id": "U9Bd-GO0QwYVLvESR4PTb",
+      "type": "subtopic",
+      "label": "RC",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rc@U9Bd-GO0QwYVLvESR4PTb.md"
+    },
+    {
+      "id": "yYmV5qkldu0FkDhOhWOXs",
+      "old_id": "3nXJg5Y4SUug_dEAj0eQm",
+      "type": "subtopic",
+      "label": "Arc",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\channels@3nXJg5Y4SUug_dEAj0eQm.md"
+    },
+    {
+      "id": "GbbeV3r27IBEKHyiyLqs6",
+      "old_id": "3nXJg5Y4SUug_dEAj0eQm",
+      "type": "subtopic",
+      "label": "Mutex",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\channels@3nXJg5Y4SUug_dEAj0eQm.md"
+    },
+    {
+      "id": "WzGl4DkANjUu7VC1AIWI-",
+      "old_id": "3nXJg5Y4SUug_dEAj0eQm",
+      "type": "subtopic",
+      "label": "RwLock",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\channels@3nXJg5Y4SUug_dEAj0eQm.md"
+    },
+    {
+      "id": "3nXJg5Y4SUug_dEAj0eQm",
+      "old_id": "U9Bd-GO0QwYVLvESR4PTb",
+      "type": "subtopic",
+      "label": "Channels",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rc@U9Bd-GO0QwYVLvESR4PTb.md"
+    },
+    {
+      "id": "X2gB0m-ZKSC4TJyIcwsMx",
+      "old_id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "Error Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\testing@08qKtgnhJ3tlb5JKfTDf5.md"
+    },
+    {
+      "id": "wQHkBydWsiGEOZMdKmz40",
+      "old_id": "LwqOxYY9E9MUDgz2M40uV",
+      "type": "subtopic",
+      "label": "Option and Result Enumerations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\custom-error-types-and-traits@LwqOxYY9E9MUDgz2M40uV.md"
+    },
+    {
+      "id": "pTC1ucmErVnMbNFnYLJK7",
+      "old_id": "LwqOxYY9E9MUDgz2M40uV",
+      "type": "subtopic",
+      "label": "Propagating Errors and `?` Operator",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\custom-error-types-and-traits@LwqOxYY9E9MUDgz2M40uV.md"
+    },
+    {
+      "id": "LwqOxYY9E9MUDgz2M40uV",
+      "old_id": "LwqOxYY9E9MUDgz2M40uV",
+      "type": "subtopic",
+      "label": "Custom Error Types and Traits",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\custom-error-types-and-traits@LwqOxYY9E9MUDgz2M40uV.md"
+    },
+    {
+      "id": "Zpowr_NGd-E2DC3g-oW9h",
+      "old_id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "Modules & Crates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\testing@08qKtgnhJ3tlb5JKfTDf5.md"
+    },
+    {
+      "id": "c_SdccEXEJyh4ymWzvCeX",
+      "old_id": "Op0-bdMV3kE9Be6Ot1aC6",
+      "type": "subtopic",
+      "label": "Code Organization & Namespacing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\publishing-on-cratesio@Op0-bdMV3kE9Be6Ot1aC6.md"
+    },
+    {
+      "id": "PkePVzV-b1pgFJP5xID5_",
+      "old_id": "Op0-bdMV3kE9Be6Ot1aC6",
+      "type": "subtopic",
+      "label": "Dependency Management with Cargo",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\publishing-on-cratesio@Op0-bdMV3kE9Be6Ot1aC6.md"
+    },
+    {
+      "id": "Op0-bdMV3kE9Be6Ot1aC6",
+      "old_id": "Op0-bdMV3kE9Be6Ot1aC6",
+      "type": "subtopic",
+      "label": "Publishing on Crates.io",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\publishing-on-cratesio@Op0-bdMV3kE9Be6Ot1aC6.md"
+    },
+    {
+      "id": "pehYc_xLrs6BFUbcpPTiJ",
+      "old_id": "eTpZXd8E2jVBmk_aSLZYV",
+      "type": "topic",
+      "label": "Concurrency & Parallelism",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\macros--metaprogramming@eTpZXd8E2jVBmk_aSLZYV.md"
+    },
+    {
+      "id": "pJN260pWQVO0gHxi1-_3U",
+      "old_id": "kVfBbsOHoixvqb4dYTG3Q",
+      "type": "subtopic",
+      "label": "Threads, Channels and Message Passing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\futures-and-asyncawait-paradigm@kVfBbsOHoixvqb4dYTG3Q.md"
+    },
+    {
+      "id": "n1Epl_nBuoXW2OE0IKYVR",
+      "old_id": "kVfBbsOHoixvqb4dYTG3Q",
+      "type": "subtopic",
+      "label": "Atomic Operations & Memory Barriers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\futures-and-asyncawait-paradigm@kVfBbsOHoixvqb4dYTG3Q.md"
+    },
+    {
+      "id": "kVfBbsOHoixvqb4dYTG3Q",
+      "old_id": "kVfBbsOHoixvqb4dYTG3Q",
+      "type": "subtopic",
+      "label": "Futures and Async/Await Paradigm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\futures-and-asyncawait-paradigm@kVfBbsOHoixvqb4dYTG3Q.md"
+    },
+    {
+      "id": "08qKtgnhJ3tlb5JKfTDf5",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Testing",
+      "resources": []
+    },
+    {
+      "id": "w9coeW9-crDxu0KC-9gEU",
+      "old_id": "HEqfA6An6ZeT3z4R610en",
+      "type": "subtopic",
+      "label": "Unit & Integration Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\mocking--property-based-testing@HEqfA6An6ZeT3z4R610en.md"
+    },
+    {
+      "id": "HEqfA6An6ZeT3z4R610en",
+      "old_id": "HEqfA6An6ZeT3z4R610en",
+      "type": "subtopic",
+      "label": "Mocking & Property Based Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\mocking--property-based-testing@HEqfA6An6ZeT3z4R610en.md"
+    },
+    {
+      "id": "zLKbYX0nnbfD5n3P_JRaS",
+      "old_id": "eTpZXd8E2jVBmk_aSLZYV",
+      "type": "topic",
+      "label": "Traits & Generics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\macros--metaprogramming@eTpZXd8E2jVBmk_aSLZYV.md"
+    },
+    {
+      "id": "_EicstELZcdesHiXFWJGu",
+      "old_id": "_hxwo_iAdOwlWBltv7i6i",
+      "type": "subtopic",
+      "label": "Trait Definitions & Implementations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\generics--type-level-programming@_hxwo_iAdOwlWBltv7i6i.md"
+    },
+    {
+      "id": "pRDgDtRIVpNM2CdhSOS3Q",
+      "old_id": "_hxwo_iAdOwlWBltv7i6i",
+      "type": "subtopic",
+      "label": "Trait Bounds and Associated Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\generics--type-level-programming@_hxwo_iAdOwlWBltv7i6i.md"
+    },
+    {
+      "id": "_hxwo_iAdOwlWBltv7i6i",
+      "old_id": "_hxwo_iAdOwlWBltv7i6i",
+      "type": "subtopic",
+      "label": "Generics & Type-Level Programming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\generics--type-level-programming@_hxwo_iAdOwlWBltv7i6i.md"
+    },
+    {
+      "id": "UZ56NKloehcxUFNuSeO19",
+      "old_id": "eTpZXd8E2jVBmk_aSLZYV",
+      "type": "topic",
+      "label": "Lifetimes & Borrow Checker",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\macros--metaprogramming@eTpZXd8E2jVBmk_aSLZYV.md"
+    },
+    {
+      "id": "R5HIVS-lyCp9b46aXqx2m",
+      "old_id": "7yVvMnvCvLbFa51pESx0j",
+      "type": "subtopic",
+      "label": "Explicit Lifetime Annotations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\covariant--contravariant-lifetimes@7yVvMnvCvLbFa51pESx0j.md"
+    },
+    {
+      "id": "qJI8GObmsxyc_tTtUEOAd",
+      "old_id": "7yVvMnvCvLbFa51pESx0j",
+      "type": "subtopic",
+      "label": "Lifetime Elision Rules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\covariant--contravariant-lifetimes@7yVvMnvCvLbFa51pESx0j.md"
+    },
+    {
+      "id": "7yVvMnvCvLbFa51pESx0j",
+      "old_id": "7yVvMnvCvLbFa51pESx0j",
+      "type": "subtopic",
+      "label": "Covariant & Contravariant Lifetimes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\covariant--contravariant-lifetimes@7yVvMnvCvLbFa51pESx0j.md"
+    },
+    {
+      "id": "eTpZXd8E2jVBmk_aSLZYV",
+      "old_id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "Macros & Metaprogramming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\testing@08qKtgnhJ3tlb5JKfTDf5.md"
+    },
+    {
+      "id": "AXWXXsww7Xkl3BYgtThNe",
+      "old_id": "Kb7KF7JCMaWFz-GuaQmQV",
+      "type": "subtopic",
+      "label": "Declarative Macros with macro_rules!",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\domain-specific-languages-dsls@Kb7KF7JCMaWFz-GuaQmQV.md"
+    },
+    {
+      "id": "bkVM1OIbv4XUpY6FQb8x_",
+      "old_id": "Kb7KF7JCMaWFz-GuaQmQV",
+      "type": "subtopic",
+      "label": "Procedural Macros & Custom Derive",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\domain-specific-languages-dsls@Kb7KF7JCMaWFz-GuaQmQV.md"
+    },
+    {
+      "id": "Kb7KF7JCMaWFz-GuaQmQV",
+      "old_id": "Kb7KF7JCMaWFz-GuaQmQV",
+      "type": "subtopic",
+      "label": "Domain Specific Languages (DSLs)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\domain-specific-languages-dsls@Kb7KF7JCMaWFz-GuaQmQV.md"
+    },
+    {
+      "id": "KomYBYxj0FTrJDYB3nU5B",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Web Development",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "9emZ0CCIMAx275G0dXZak",
+      "old_id": "9emZ0CCIMAx275G0dXZak",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "JH9PTRZi13t_dX6STd1Wr",
+      "old_id": "9emZ0CCIMAx275G0dXZak",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "VLKEl_NCu9JEA9qAQYm_a",
+      "old_id": "VLKEl_NCu9JEA9qAQYm_a",
+      "type": "label",
+      "label": "Ecosystem and Libraries",
+      "resources": []
+    },
+    {
+      "id": "duQ1RO1lqq793mfb5w31P",
+      "old_id": "ApjwY_70OGG_dNIC85oBD",
+      "type": "subtopic",
+      "label": "Axum",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rocket@ApjwY_70OGG_dNIC85oBD.md"
+    },
+    {
+      "id": "3Y90v2ysoMcyjDL24H7mC",
+      "old_id": "ApjwY_70OGG_dNIC85oBD",
+      "type": "subtopic",
+      "label": "Actix",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rocket@ApjwY_70OGG_dNIC85oBD.md"
+    },
+    {
+      "id": "n5t3MUqmvrcr36VIIOw0u",
+      "old_id": "ApjwY_70OGG_dNIC85oBD",
+      "type": "subtopic",
+      "label": "Leptos",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rocket@ApjwY_70OGG_dNIC85oBD.md"
+    },
+    {
+      "id": "GnSBtZoN9mAehRf5Eczng",
+      "old_id": "ApjwY_70OGG_dNIC85oBD",
+      "type": "subtopic",
+      "label": "Loco",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rocket@ApjwY_70OGG_dNIC85oBD.md"
+    },
+    {
+      "id": "ApjwY_70OGG_dNIC85oBD",
+      "old_id": "ApjwY_70OGG_dNIC85oBD",
+      "type": "subtopic",
+      "label": "Rocket",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rocket@ApjwY_70OGG_dNIC85oBD.md"
+    },
+    {
+      "id": "yu0f5gALho0e8wzV10yow",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Asynchronous Programming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "H0mctp3Bj2OYfIGFDWGfz",
+      "old_id": "3C9gCBAq3OQVb583S72D4",
+      "type": "subtopic",
+      "label": "Tokio",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\smol@3C9gCBAq3OQVb583S72D4.md"
+    },
+    {
+      "id": "_2uQInXPdOY-DpYTO1Prt",
+      "old_id": "3C9gCBAq3OQVb583S72D4",
+      "type": "subtopic",
+      "label": "async-std",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\smol@3C9gCBAq3OQVb583S72D4.md"
+    },
+    {
+      "id": "3C9gCBAq3OQVb583S72D4",
+      "old_id": "3C9gCBAq3OQVb583S72D4",
+      "type": "subtopic",
+      "label": "smol",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\smol@3C9gCBAq3OQVb583S72D4.md"
+    },
+    {
+      "id": "0pcBebcTENRVf9F-ClydB",
+      "old_id": "0pcBebcTENRVf9F-ClydB",
+      "type": "label",
+      "label": "Personal recommendation: Axum",
+      "resources": []
+    },
+    {
+      "id": "3pL0ARqk8uRNimopHSalW",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Networking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "TtajUXZpyNx9AmdUawm-8",
+      "old_id": "EHErECEYws05oi59OsZpC",
+      "type": "subtopic",
+      "label": "reqwest",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\serde@EHErECEYws05oi59OsZpC.md"
+    },
+    {
+      "id": "-MiN5ytI43EjgmWV55BhU",
+      "old_id": "ZXMKY0f7mqqlsvyH9u-LM",
+      "type": "subtopic",
+      "label": "hyper",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\json-rust@ZXMKY0f7mqqlsvyH9u-LM.md"
+    },
+    {
+      "id": "qi1pmsY8bPk8nbHiBIGha",
+      "old_id": "LmFog_qXrS9e5ARhV6OD_",
+      "type": "subtopic",
+      "label": "quinn",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\toml-rust@LmFog_qXrS9e5ARhV6OD_.md"
+    },
+    {
+      "id": "gcmKSLWfBqx4aPZOmyQsg",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Serialization / Deserialization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "EHErECEYws05oi59OsZpC",
+      "old_id": "LmFog_qXrS9e5ARhV6OD_",
+      "type": "subtopic",
+      "label": "Serde",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\toml-rust@LmFog_qXrS9e5ARhV6OD_.md"
+    },
+    {
+      "id": "ZXMKY0f7mqqlsvyH9u-LM",
+      "old_id": "LmFog_qXrS9e5ARhV6OD_",
+      "type": "subtopic",
+      "label": "json-rust",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\toml-rust@LmFog_qXrS9e5ARhV6OD_.md"
+    },
+    {
+      "id": "LmFog_qXrS9e5ARhV6OD_",
+      "old_id": "LmFog_qXrS9e5ARhV6OD_",
+      "type": "subtopic",
+      "label": "toml-rs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\toml-rust@LmFog_qXrS9e5ARhV6OD_.md"
+    },
+    {
+      "id": "_n7emeqzf5UTxVB5-385G",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Database and ORM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "UAXpBK3lfnq0Q4RcBehZ1",
+      "old_id": "EHErECEYws05oi59OsZpC",
+      "type": "subtopic",
+      "label": "Diesel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\serde@EHErECEYws05oi59OsZpC.md"
+    },
+    {
+      "id": "r2KembNZ2WIzLe87EB91K",
+      "old_id": "ZXMKY0f7mqqlsvyH9u-LM",
+      "type": "subtopic",
+      "label": "sqlx",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\json-rust@ZXMKY0f7mqqlsvyH9u-LM.md"
+    },
+    {
+      "id": "a2MLN7f-FvsgdmvP9ixlv",
+      "old_id": "LmFog_qXrS9e5ARhV6OD_",
+      "type": "subtopic",
+      "label": "rusqlite",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\toml-rust@LmFog_qXrS9e5ARhV6OD_.md"
+    },
+    {
+      "id": "Rv_Z-rbtELPZ1Nv0PZQmV",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Cryptography",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "f68x7r-qzaQfrzXnjOI2q",
+      "old_id": "w8nxQDxmfoUHkFV66TKiq",
+      "type": "subtopic",
+      "label": "rust-crypto",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\ring@w8nxQDxmfoUHkFV66TKiq.md"
+    },
+    {
+      "id": "hzzRFb5cyXkgUdLZxaozB",
+      "old_id": "hzzRFb5cyXkgUdLZxaozB",
+      "type": "subtopic",
+      "label": "sodiumoxide",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\sodiumoxide@hzzRFb5cyXkgUdLZxaozB.md"
+    },
+    {
+      "id": "w8nxQDxmfoUHkFV66TKiq",
+      "old_id": "hzzRFb5cyXkgUdLZxaozB",
+      "type": "subtopic",
+      "label": "ring",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\sodiumoxide@hzzRFb5cyXkgUdLZxaozB.md"
+    },
+    {
+      "id": "2Zyyf9q_CxmOW-z2pipL8",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "CLI Utilities",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "AId80IokM7NvGBVutmuGC",
+      "old_id": "YS0igALDqSanGDWva_vls",
+      "type": "subtopic",
+      "label": "clap",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\termion@YS0igALDqSanGDWva_vls.md"
+    },
+    {
+      "id": "_43912wPdXgLL8v-IMHX_",
+      "old_id": "YS0igALDqSanGDWva_vls",
+      "type": "subtopic",
+      "label": "structopt",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\termion@YS0igALDqSanGDWva_vls.md"
+    },
+    {
+      "id": "YS0igALDqSanGDWva_vls",
+      "old_id": "YS0igALDqSanGDWva_vls",
+      "type": "subtopic",
+      "label": "termion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\termion@YS0igALDqSanGDWva_vls.md"
+    },
+    {
+      "id": "uG-EmZVZ-jc3mswOT4-7l",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Game Development",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "uyrGki0jB7DXQ0HJe2-vY",
+      "old_id": "6wGShK9WEnXiby_Jm8sTO",
+      "type": "subtopic",
+      "label": "bevy",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\wgpu-rs@6wGShK9WEnXiby_Jm8sTO.md"
+    },
+    {
+      "id": "x9bmK_cLYpX0ebwjZUn4R",
+      "old_id": "qquYnrrzUlyd8738jzj1D",
+      "type": "subtopic",
+      "label": "fyrox",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\ggez@qquYnrrzUlyd8738jzj1D.md"
+    },
+    {
+      "id": "qquYnrrzUlyd8738jzj1D",
+      "old_id": "qquYnrrzUlyd8738jzj1D",
+      "type": "subtopic",
+      "label": "ggez",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\ggez@qquYnrrzUlyd8738jzj1D.md"
+    },
+    {
+      "id": "EtKhe3lgK3NoiBOjXRb2O",
+      "old_id": "6wGShK9WEnXiby_Jm8sTO",
+      "type": "subtopic",
+      "label": "macroquad",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\wgpu-rs@6wGShK9WEnXiby_Jm8sTO.md"
+    },
+    {
+      "id": "6wGShK9WEnXiby_Jm8sTO",
+      "old_id": "qquYnrrzUlyd8738jzj1D",
+      "type": "subtopic",
+      "label": "wgpu-rs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\ggez@qquYnrrzUlyd8738jzj1D.md"
+    },
+    {
+      "id": "T1LlJz5m5wnwBvKAEuGnP",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "GUI Development",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "Q71MnFDQBkZF1c2hj13pU",
+      "old_id": "QbdGnUoTLgMHO1NCQINIi",
+      "type": "subtopic",
+      "label": "tauri",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\relm@QbdGnUoTLgMHO1NCQINIi.md"
+    },
+    {
+      "id": "2Zp3m3Y7j6R1hK3DIVdkH",
+      "old_id": "QbdGnUoTLgMHO1NCQINIi",
+      "type": "subtopic",
+      "label": "gtk-rs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\relm@QbdGnUoTLgMHO1NCQINIi.md"
+    },
+    {
+      "id": "QbdGnUoTLgMHO1NCQINIi",
+      "old_id": "QbdGnUoTLgMHO1NCQINIi",
+      "type": "subtopic",
+      "label": "relm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\relm@QbdGnUoTLgMHO1NCQINIi.md"
+    },
+    {
+      "id": "RKXljexmLAceMYwg4D_uP",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Embedded and Systems",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "LzaO2cpDajXERqEYDjMl_",
+      "old_id": "ETYrk0s5Wn80XyntNG_t1",
+      "type": "subtopic",
+      "label": "embedded-hal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\nrf-hal@ETYrk0s5Wn80XyntNG_t1.md"
+    },
+    {
+      "id": "L01rVq2_H4rWzlKygW5kA",
+      "old_id": "ETYrk0s5Wn80XyntNG_t1",
+      "type": "subtopic",
+      "label": "rppal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\nrf-hal@ETYrk0s5Wn80XyntNG_t1.md"
+    },
+    {
+      "id": "ETYrk0s5Wn80XyntNG_t1",
+      "old_id": "ETYrk0s5Wn80XyntNG_t1",
+      "type": "subtopic",
+      "label": "nrf-hal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\nrf-hal@ETYrk0s5Wn80XyntNG_t1.md"
+    },
+    {
+      "id": "fusu4ZHH4-cjoouLr4F9U",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "WebAssembly (WASM)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "SUtBBqqDeR_yAkr669ZvE",
+      "old_id": "iyFHvZj_ntr_dX6WlL4E1",
+      "type": "subtopic",
+      "label": "wasm-bindgen",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\wasmer@iyFHvZj_ntr_dX6WlL4E1.md"
+    },
+    {
+      "id": "TSlj7mMUB5CDTy8uMFzKV",
+      "old_id": "iyFHvZj_ntr_dX6WlL4E1",
+      "type": "subtopic",
+      "label": "wasm-pack",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\wasmer@iyFHvZj_ntr_dX6WlL4E1.md"
+    },
+    {
+      "id": "iyFHvZj_ntr_dX6WlL4E1",
+      "old_id": "iyFHvZj_ntr_dX6WlL4E1",
+      "type": "subtopic",
+      "label": "wasmer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\wasmer@iyFHvZj_ntr_dX6WlL4E1.md"
+    },
+    {
+      "id": "7YKWYxogJq6X35IAUwcZF",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Debugging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "UkHXsAolmbk-MsJFfqObC",
+      "old_id": "p1w1iljGABgHoJjIRJYLY",
+      "type": "subtopic",
+      "label": "rust-gdb",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rust-lldb@p1w1iljGABgHoJjIRJYLY.md"
+    },
+    {
+      "id": "p1w1iljGABgHoJjIRJYLY",
+      "old_id": "p1w1iljGABgHoJjIRJYLY",
+      "type": "subtopic",
+      "label": "rust-lldb",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\rust-lldb@p1w1iljGABgHoJjIRJYLY.md"
+    },
+    {
+      "id": "65nbahPj9qAb9y8dF8Jnd",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Documenting with `rustdoc`",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "WduD9VIcYSs_JTnuMNyxk",
+      "old_id": "WduD9VIcYSs_JTnuMNyxk",
+      "type": "topic",
+      "label": "Performance and Profiling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\performance-and-profiling@WduD9VIcYSs_JTnuMNyxk.md"
+    },
+    {
+      "id": "clQ26LFV_9AdQ4evnaxUK",
+      "old_id": "clQ26LFV_9AdQ4evnaxUK",
+      "type": "subtopic",
+      "label": "Criterion.rs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\rust\\content\\criterionrs@clQ26LFV_9AdQ4evnaxUK.md"
+    },
+    {
+      "id": "w_rUaBorHFOY74S0JiEwM",
+      "old_id": "w_rUaBorHFOY74S0JiEwM",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "4U-HZQGH7kaWCB94Xy8Mh"
+    },
+    {
+      "source": "4U-HZQGH7kaWCB94Xy8Mh",
+      "target": "6E4pGifNfSAq6SbzfzFNT"
+    },
+    {
+      "source": "6E4pGifNfSAq6SbzfzFNT",
+      "target": "X2gB0m-ZKSC4TJyIcwsMx"
+    },
+    {
+      "source": "X2gB0m-ZKSC4TJyIcwsMx",
+      "target": "pTC1ucmErVnMbNFnYLJK7"
+    },
+    {
+      "source": "X2gB0m-ZKSC4TJyIcwsMx",
+      "target": "LwqOxYY9E9MUDgz2M40uV"
+    },
+    {
+      "source": "X2gB0m-ZKSC4TJyIcwsMx",
+      "target": "wQHkBydWsiGEOZMdKmz40"
+    },
+    {
+      "source": "X2gB0m-ZKSC4TJyIcwsMx",
+      "target": "Zpowr_NGd-E2DC3g-oW9h"
+    },
+    {
+      "source": "Zpowr_NGd-E2DC3g-oW9h",
+      "target": "PkePVzV-b1pgFJP5xID5_"
+    },
+    {
+      "source": "Zpowr_NGd-E2DC3g-oW9h",
+      "target": "c_SdccEXEJyh4ymWzvCeX"
+    },
+    {
+      "source": "Zpowr_NGd-E2DC3g-oW9h",
+      "target": "Op0-bdMV3kE9Be6Ot1aC6"
+    },
+    {
+      "source": "08qKtgnhJ3tlb5JKfTDf5",
+      "target": "pehYc_xLrs6BFUbcpPTiJ"
+    },
+    {
+      "source": "pehYc_xLrs6BFUbcpPTiJ",
+      "target": "zLKbYX0nnbfD5n3P_JRaS"
+    },
+    {
+      "source": "zLKbYX0nnbfD5n3P_JRaS",
+      "target": "pRDgDtRIVpNM2CdhSOS3Q"
+    },
+    {
+      "source": "zLKbYX0nnbfD5n3P_JRaS",
+      "target": "_EicstELZcdesHiXFWJGu"
+    },
+    {
+      "source": "zLKbYX0nnbfD5n3P_JRaS",
+      "target": "_hxwo_iAdOwlWBltv7i6i"
+    },
+    {
+      "source": "eTpZXd8E2jVBmk_aSLZYV",
+      "target": "Kb7KF7JCMaWFz-GuaQmQV"
+    },
+    {
+      "source": "eTpZXd8E2jVBmk_aSLZYV",
+      "target": "KomYBYxj0FTrJDYB3nU5B"
+    },
+    {
+      "source": "KomYBYxj0FTrJDYB3nU5B",
+      "target": "n5t3MUqmvrcr36VIIOw0u"
+    },
+    {
+      "source": "KomYBYxj0FTrJDYB3nU5B",
+      "target": "duQ1RO1lqq793mfb5w31P"
+    },
+    {
+      "source": "KomYBYxj0FTrJDYB3nU5B",
+      "target": "ApjwY_70OGG_dNIC85oBD"
+    },
+    {
+      "source": "KomYBYxj0FTrJDYB3nU5B",
+      "target": "yu0f5gALho0e8wzV10yow"
+    },
+    {
+      "source": "yu0f5gALho0e8wzV10yow",
+      "target": "3pL0ARqk8uRNimopHSalW"
+    },
+    {
+      "source": "3pL0ARqk8uRNimopHSalW",
+      "target": "gcmKSLWfBqx4aPZOmyQsg"
+    },
+    {
+      "source": "gcmKSLWfBqx4aPZOmyQsg",
+      "target": "_n7emeqzf5UTxVB5-385G"
+    },
+    {
+      "source": "_n7emeqzf5UTxVB5-385G",
+      "target": "Rv_Z-rbtELPZ1Nv0PZQmV"
+    },
+    {
+      "source": "Rv_Z-rbtELPZ1Nv0PZQmV",
+      "target": "2Zyyf9q_CxmOW-z2pipL8"
+    },
+    {
+      "source": "2Zyyf9q_CxmOW-z2pipL8",
+      "target": "uG-EmZVZ-jc3mswOT4-7l"
+    },
+    {
+      "source": "uG-EmZVZ-jc3mswOT4-7l",
+      "target": "T1LlJz5m5wnwBvKAEuGnP"
+    },
+    {
+      "source": "T1LlJz5m5wnwBvKAEuGnP",
+      "target": "RKXljexmLAceMYwg4D_uP"
+    },
+    {
+      "source": "RKXljexmLAceMYwg4D_uP",
+      "target": "fusu4ZHH4-cjoouLr4F9U"
+    },
+    {
+      "source": "fusu4ZHH4-cjoouLr4F9U",
+      "target": "iyFHvZj_ntr_dX6WlL4E1"
+    },
+    {
+      "source": "fusu4ZHH4-cjoouLr4F9U",
+      "target": "TSlj7mMUB5CDTy8uMFzKV"
+    },
+    {
+      "source": "fusu4ZHH4-cjoouLr4F9U",
+      "target": "SUtBBqqDeR_yAkr669ZvE"
+    },
+    {
+      "source": "fusu4ZHH4-cjoouLr4F9U",
+      "target": "7YKWYxogJq6X35IAUwcZF"
+    },
+    {
+      "source": "7YKWYxogJq6X35IAUwcZF",
+      "target": "65nbahPj9qAb9y8dF8Jnd"
+    },
+    {
+      "source": "65nbahPj9qAb9y8dF8Jnd",
+      "target": "WduD9VIcYSs_JTnuMNyxk"
+    },
+    {
+      "source": "WduD9VIcYSs_JTnuMNyxk",
+      "target": "clQ26LFV_9AdQ4evnaxUK"
+    },
+    {
+      "source": "65nbahPj9qAb9y8dF8Jnd",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    }
+  ]
+}

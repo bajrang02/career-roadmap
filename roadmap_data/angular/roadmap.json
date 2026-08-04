@@ -1,0 +1,1587 @@
+{
+  "slug": "angular",
+  "title": "Angular",
+  "nodes": [
+    {
+      "id": "VBjI-LQstODfimbRlHUFi",
+      "old_id": "TQT-lYCy59KN2BjwM_O8n",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "wKEXcCpW_ydTDPzv_rS_w",
+      "old_id": "wKEXcCpW_ydTDPzv_rS_w",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "rikJUpXHGXAEC74Szwj7s",
+      "old_id": "rikJUpXHGXAEC74Szwj7s",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "ol_HobKV3LkBYvgVYWoGB",
+      "old_id": "ol_HobKV3LkBYvgVYWoGB",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "dnM44vvHZW3dSpsVi546w",
+      "old_id": "dnM44vvHZW3dSpsVi546w",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "1OFkZp8kqo_f_pTrDqNoe",
+      "old_id": "1OFkZp8kqo_f_pTrDqNoe",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Ew6DgOvx6gtifE9v4YPkP",
+      "old_id": "Ew6DgOvx6gtifE9v4YPkP",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "xVapQFT9sTIPdeCXYD_lw",
+      "old_id": "YlxsmpEKCKm2_jXHT5fux",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "YlxsmpEKCKm2_jXHT5fux",
+      "old_id": "N3xAkfwQ-q0f_JEjKDQcO",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "CshWtCCFHbYXtztr-2iU1",
+      "old_id": "CshWtCCFHbYXtztr-2iU1",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "FTLS0mwJhuqsEHen7mqbk",
+      "old_id": "FTLS0mwJhuqsEHen7mqbk",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "t6zZwKzPHXT57Uqj4R2aI",
+      "old_id": "t6zZwKzPHXT57Uqj4R2aI",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "N3xAkfwQ-q0f_JEjKDQcO",
+      "old_id": "N3xAkfwQ-q0f_JEjKDQcO",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "HLnq8xMeb0NwnkVUtcFMj",
+      "old_id": "HLnq8xMeb0NwnkVUtcFMj",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+      "type": "title",
+      "label": "Angular",
+      "resources": []
+    },
+    {
+      "id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "ZSrQoNGKiR484uALMWO9F",
+      "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+      "type": "button",
+      "label": "TypeScript",
+      "resources": []
+    },
+    {
+      "id": "P5IZjP0g1_fnvHy3YTR4q",
+      "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+      "type": "button",
+      "label": "Frontend",
+      "resources": []
+    },
+    {
+      "id": "U0fJo2a3vnaodNJhfZ78I",
+      "old_id": "P5IZjP0g1_fnvHy3YTR4q",
+      "type": "button",
+      "label": "React",
+      "resources": []
+    },
+    {
+      "id": "iuSv7V59YxUZawN38Qlli",
+      "old_id": "ZSrQoNGKiR484uALMWO9F",
+      "type": "button",
+      "label": "Node.js",
+      "resources": []
+    },
+    {
+      "id": "DAwKHBng7Tytlcd2_8GOR",
+      "old_id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "type": "button",
+      "label": "JavaScript Roadmap",
+      "resources": []
+    },
+    {
+      "id": "KDd40JOAvZ8O1mfhTYB3K",
+      "old_id": "KDd40JOAvZ8O1mfhTYB3K",
+      "type": "topic",
+      "label": "Introduction to Angular",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\introduction-to-angular@KDd40JOAvZ8O1mfhTYB3K.md"
+    },
+    {
+      "id": "DE3cMpeRYuUPw2ADtfS-3",
+      "old_id": "DE3cMpeRYuUPw2ADtfS-3",
+      "type": "subtopic",
+      "label": "Angular Architecture",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\angular-architecture@DE3cMpeRYuUPw2ADtfS-3.md"
+    },
+    {
+      "id": "EbFRcy4s6yzzIApBqU77Y",
+      "old_id": "EbFRcy4s6yzzIApBqU77Y",
+      "type": "subtopic",
+      "label": "Setting up a New Project",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\setting-up-a-new-project@EbFRcy4s6yzzIApBqU77Y.md"
+    },
+    {
+      "id": "hpShWwL0M57ZAzqkB4I8t",
+      "old_id": "DE3cMpeRYuUPw2ADtfS-3",
+      "type": "subtopic",
+      "label": "Angular and History",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\angular-architecture@DE3cMpeRYuUPw2ADtfS-3.md"
+    },
+    {
+      "id": "zv1y-I1fIEXtTkb8tOQU0",
+      "old_id": "DAwKHBng7Tytlcd2_8GOR",
+      "type": "button",
+      "label": "Learn TypeScript Basics",
+      "resources": []
+    },
+    {
+      "id": "kGnKzCkQCNFEdgCBRtNuW",
+      "old_id": "kGnKzCkQCNFEdgCBRtNuW",
+      "type": "topic",
+      "label": "Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\components@kGnKzCkQCNFEdgCBRtNuW.md"
+    },
+    {
+      "id": "Mp056kNnwsRWeEXuhGPy-",
+      "old_id": "Mp056kNnwsRWeEXuhGPy-",
+      "type": "subtopic",
+      "label": "Component Anatomy",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\component-anatomy@Mp056kNnwsRWeEXuhGPy-.md"
+    },
+    {
+      "id": "dOMvz__EQjO-3p-Nzm-7P",
+      "old_id": "dOMvz__EQjO-3p-Nzm-7P",
+      "type": "subtopic",
+      "label": "Provider",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\provider@dOMvz__EQjO-3p-Nzm-7P.md"
+    },
+    {
+      "id": "uYHy2yhtTm6fQkKpYx3lU",
+      "old_id": "A5hlIbsEqnos4BLSDHKoH",
+      "type": "subtopic",
+      "label": "changeDetection",
+      "resources": []
+    },
+    {
+      "id": "-gUpm3OLUJl9iAyx6fmHN",
+      "old_id": "uYHy2yhtTm6fQkKpYx3lU",
+      "type": "subtopic",
+      "label": "Template",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\changedetection@uYHy2yhtTm6fQkKpYx3lU.md"
+    },
+    {
+      "id": "RcNHEh6kmbBK1PICbhAwr",
+      "old_id": "-gUpm3OLUJl9iAyx6fmHN",
+      "type": "subtopic",
+      "label": "Standalone",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\template@-gUpm3OLUJl9iAyx6fmHN.md"
+    },
+    {
+      "id": "doHDoAgp7T59KGSXPpQzZ",
+      "old_id": "dOMvz__EQjO-3p-Nzm-7P",
+      "type": "subtopic",
+      "label": "viewProvider",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\provider@dOMvz__EQjO-3p-Nzm-7P.md"
+    },
+    {
+      "id": "ctigvSYeFa77y3v7m11gk",
+      "old_id": "uYHy2yhtTm6fQkKpYx3lU",
+      "type": "subtopic",
+      "label": "Encapsulation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\changedetection@uYHy2yhtTm6fQkKpYx3lU.md"
+    },
+    {
+      "id": "cDN0PGo-zkcLmttxCiAI-",
+      "old_id": "gk9iXF7bHhf_HCpSLdY42",
+      "type": "subtopic",
+      "label": "Selector",
+      "resources": []
+    },
+    {
+      "id": "4XJKEmSrQfPxggHlAP30w",
+      "old_id": "-gUpm3OLUJl9iAyx6fmHN",
+      "type": "subtopic",
+      "label": "Styles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\template@-gUpm3OLUJl9iAyx6fmHN.md"
+    },
+    {
+      "id": "ghbrJhuGvscnNGCtVLh5_",
+      "old_id": "RcNHEh6kmbBK1PICbhAwr",
+      "type": "subtopic",
+      "label": "Imports",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\standalone@RcNHEh6kmbBK1PICbhAwr.md"
+    },
+    {
+      "id": "Szgr8dnZNi-z5i6raIJzW",
+      "old_id": "doHDoAgp7T59KGSXPpQzZ",
+      "type": "subtopic",
+      "label": "Metadata",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\viewprovider@doHDoAgp7T59KGSXPpQzZ.md"
+    },
+    {
+      "id": "19c7D-fWIJ3vYFT6h8ZfN",
+      "old_id": "19c7D-fWIJ3vYFT6h8ZfN",
+      "type": "topic",
+      "label": "Communication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\communication@19c7D-fWIJ3vYFT6h8ZfN.md"
+    },
+    {
+      "id": "TDyFjKrIZJnCjEZsojPNQ",
+      "old_id": "TDyFjKrIZJnCjEZsojPNQ",
+      "type": "subtopic",
+      "label": "Parent-Child Interaction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\parent-child-interaction@TDyFjKrIZJnCjEZsojPNQ.md"
+    },
+    {
+      "id": "v0XaLNZ-YrRqP-xv8wS43",
+      "old_id": "v0XaLNZ-YrRqP-xv8wS43",
+      "type": "subtopic",
+      "label": "ViewChild",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\viewchild@v0XaLNZ-YrRqP-xv8wS43.md"
+    },
+    {
+      "id": "oQl9etjoHiU2JgxieUOEH",
+      "old_id": "oQl9etjoHiU2JgxieUOEH",
+      "type": "subtopic",
+      "label": "ContentChild",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\contentchild@oQl9etjoHiU2JgxieUOEH.md"
+    },
+    {
+      "id": "nCpfj_35ZvW-NTygg06XZ",
+      "old_id": "Mp056kNnwsRWeEXuhGPy-",
+      "type": "subtopic",
+      "label": "Component Lifecycle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\component-anatomy@Mp056kNnwsRWeEXuhGPy-.md"
+    },
+    {
+      "id": "tC5ETtOuuUcybj1jI4CuG",
+      "old_id": "nCpfj_35ZvW-NTygg06XZ",
+      "type": "subtopic",
+      "label": "Dynamic Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\component-lifecycle@nCpfj_35ZvW-NTygg06XZ.md"
+    },
+    {
+      "id": "b_kdNS9PDupcUftslkf9i",
+      "old_id": "b_kdNS9PDupcUftslkf9i",
+      "type": "topic",
+      "label": "Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\modules@b_kdNS9PDupcUftslkf9i.md"
+    },
+    {
+      "id": "BCq5sgWQLiw0f7u7ZSAd2",
+      "old_id": "BCq5sgWQLiw0f7u7ZSAd2",
+      "type": "subtopic",
+      "label": "Module Architecture",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\module-architecture@BCq5sgWQLiw0f7u7ZSAd2.md"
+    },
+    {
+      "id": "ex8FOKrUlbu4MuEq2czyW",
+      "old_id": "Mp056kNnwsRWeEXuhGPy-",
+      "type": "subtopic",
+      "label": "Creating Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\component-anatomy@Mp056kNnwsRWeEXuhGPy-.md"
+    },
+    {
+      "id": "9YhTXybJw2gszlqFeBtW3",
+      "old_id": "BCq5sgWQLiw0f7u7ZSAd2",
+      "type": "subtopic",
+      "label": "Creating Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\module-architecture@BCq5sgWQLiw0f7u7ZSAd2.md"
+    },
+    {
+      "id": "w_BazXvINFyxDCHmlznfy",
+      "old_id": "9YhTXybJw2gszlqFeBtW3",
+      "type": "subtopic",
+      "label": "Feature Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\creating-modules@9YhTXybJw2gszlqFeBtW3.md"
+    },
+    {
+      "id": "bLERvEERmNI5AgxtEYokZ",
+      "old_id": "bLERvEERmNI5AgxtEYokZ",
+      "type": "subtopic",
+      "label": "Lazy Loading Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\lazy-loading-modules@bLERvEERmNI5AgxtEYokZ.md"
+    },
+    {
+      "id": "5b590c7s-2XJ0rgdCYxLa",
+      "old_id": "5b590c7s-2XJ0rgdCYxLa",
+      "type": "subtopic",
+      "label": "Dependencies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\dependencies@5b590c7s-2XJ0rgdCYxLa.md"
+    },
+    {
+      "id": "6fhe9xAi_RSVfa-KKbcbV",
+      "old_id": "6fhe9xAi_RSVfa-KKbcbV",
+      "type": "topic",
+      "label": "Templates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\templates@6fhe9xAi_RSVfa-KKbcbV.md"
+    },
+    {
+      "id": "XHpfHRIlFh19FJIE07u7i",
+      "old_id": "XHpfHRIlFh19FJIE07u7i",
+      "type": "subtopic",
+      "label": "Interpolation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\interpolation@XHpfHRIlFh19FJIE07u7i.md"
+    },
+    {
+      "id": "t2YOeMONlcnKBrVAo0JDc",
+      "old_id": "t2YOeMONlcnKBrVAo0JDc",
+      "type": "subtopic",
+      "label": "Template Statements",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\template-statements@t2YOeMONlcnKBrVAo0JDc.md"
+    },
+    {
+      "id": "WH5wlyOtrqFHBJx7RFJwS",
+      "old_id": "WH5wlyOtrqFHBJx7RFJwS",
+      "type": "topic",
+      "label": "Understand Binding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\understand-binding@WH5wlyOtrqFHBJx7RFJwS.md"
+    },
+    {
+      "id": "5vZkiH7HDwONIABLfNJ06",
+      "old_id": "5vZkiH7HDwONIABLfNJ06",
+      "type": "subtopic",
+      "label": "Data Binding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\data-binding@5vZkiH7HDwONIABLfNJ06.md"
+    },
+    {
+      "id": "TJOZfHtsLfwA0CZ2bd1b2",
+      "old_id": "TJOZfHtsLfwA0CZ2bd1b2",
+      "type": "subtopic",
+      "label": "Property Binding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\property-binding@TJOZfHtsLfwA0CZ2bd1b2.md"
+    },
+    {
+      "id": "FgsSyM6To7irpbivtOLEE",
+      "old_id": "FgsSyM6To7irpbivtOLEE",
+      "type": "subtopic",
+      "label": "Attribute Binding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\attribute-binding@FgsSyM6To7irpbivtOLEE.md"
+    },
+    {
+      "id": "bKnpirSvex4oE4lAjiSSV",
+      "old_id": "bKnpirSvex4oE4lAjiSSV",
+      "type": "subtopic",
+      "label": "Event Binding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\event-binding@bKnpirSvex4oE4lAjiSSV.md"
+    },
+    {
+      "id": "2UH79nCjgtY1Qz1YjUJYL",
+      "old_id": "2UH79nCjgtY1Qz1YjUJYL",
+      "type": "subtopic",
+      "label": "Two-way Binding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\two-way-binding@2UH79nCjgtY1Qz1YjUJYL.md"
+    },
+    {
+      "id": "VzvB_bads057YtG4ST4a2",
+      "old_id": "VzvB_bads057YtG4ST4a2",
+      "type": "subtopic",
+      "label": "Control Flow",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\control-flow@VzvB_bads057YtG4ST4a2.md"
+    },
+    {
+      "id": "VsU6713jeIjAOEZnF6gWx",
+      "old_id": "VsU6713jeIjAOEZnF6gWx",
+      "type": "subtopic",
+      "label": "@Input & @Output",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\input--output@VsU6713jeIjAOEZnF6gWx.md"
+    },
+    {
+      "id": "nyDry6ZWyEUuTq4pw-lU3",
+      "old_id": "nyDry6ZWyEUuTq4pw-lU3",
+      "type": "subtopic",
+      "label": "Template Ref Vars",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\template-ref-vars@nyDry6ZWyEUuTq4pw-lU3.md"
+    },
+    {
+      "id": "VsC7UmE_AumsBP8fC6to1",
+      "old_id": "VsC7UmE_AumsBP8fC6to1",
+      "type": "topic",
+      "label": "Template Syntax",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\template-syntax@VsC7UmE_AumsBP8fC6to1.md"
+    },
+    {
+      "id": "U1Zy2T-2ki9pDkXn9hn-I",
+      "old_id": "U1Zy2T-2ki9pDkXn9hn-I",
+      "type": "subtopic",
+      "label": "@if",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\if@U1Zy2T-2ki9pDkXn9hn-I.md"
+    },
+    {
+      "id": "ORdPDad4HWJAfcZuS-7yM",
+      "old_id": "ORdPDad4HWJAfcZuS-7yM",
+      "type": "subtopic",
+      "label": "@else",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\else@ORdPDad4HWJAfcZuS-7yM.md"
+    },
+    {
+      "id": "ys5untkSppGMFK-VsfuRt",
+      "old_id": "mRB-0CRdGwvxPqZbz08yj",
+      "type": "subtopic",
+      "label": "@else if",
+      "resources": []
+    },
+    {
+      "id": "2kYS9w1UzQFZ1zhf01m9L",
+      "old_id": "2kYS9w1UzQFZ1zhf01m9L",
+      "type": "subtopic",
+      "label": "@for",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\for@2kYS9w1UzQFZ1zhf01m9L.md"
+    },
+    {
+      "id": "nZuim4Fjq6jYOXcRTAEay",
+      "old_id": "nZuim4Fjq6jYOXcRTAEay",
+      "type": "subtopic",
+      "label": "@switch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\switch@nZuim4Fjq6jYOXcRTAEay.md"
+    },
+    {
+      "id": "cHC2MH50CbUSMRZV4QGJI",
+      "old_id": "cHC2MH50CbUSMRZV4QGJI",
+      "type": "subtopic",
+      "label": "@case",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\case@cHC2MH50CbUSMRZV4QGJI.md"
+    },
+    {
+      "id": "h4MMn0_qUN3YXEdMUJOyd",
+      "old_id": "h4MMn0_qUN3YXEdMUJOyd",
+      "type": "subtopic",
+      "label": "@default",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\default@h4MMn0_qUN3YXEdMUJOyd.md"
+    },
+    {
+      "id": "AwOM0ucg6W7TohdUd7KWT",
+      "old_id": "AwOM0ucg6W7TohdUd7KWT",
+      "type": "subtopic",
+      "label": "@let",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\let@AwOM0ucg6W7TohdUd7KWT.md"
+    },
+    {
+      "id": "ONy-0olujU_FGZM7Wvfr2",
+      "old_id": "ONy-0olujU_FGZM7Wvfr2",
+      "type": "subtopic",
+      "label": "@defer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\defer@ONy-0olujU_FGZM7Wvfr2.md"
+    },
+    {
+      "id": "j99WQxuTzGeBBVoReDp_y",
+      "old_id": "j99WQxuTzGeBBVoReDp_y",
+      "type": "topic",
+      "label": "Pipes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\pipes@j99WQxuTzGeBBVoReDp_y.md"
+    },
+    {
+      "id": "_-mTs_FMeob-ZGK-bb3j-",
+      "old_id": "CCLlL17z35brwlr-q2FDV",
+      "type": "subtopic",
+      "label": "Change Detection",
+      "resources": []
+    },
+    {
+      "id": "i2taHzQ5KLHjkkpbH4Ytd",
+      "old_id": "i2taHzQ5KLHjkkpbH4Ytd",
+      "type": "subtopic",
+      "label": "Common Pipes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\common-pipes@i2taHzQ5KLHjkkpbH4Ytd.md"
+    },
+    {
+      "id": "nZxZnzbQg9dz-SI65UHq9",
+      "old_id": "CCLlL17z35brwlr-q2FDV",
+      "type": "subtopic",
+      "label": "Pipes Precedence",
+      "resources": []
+    },
+    {
+      "id": "BOYXGfULJRiP-XOo_lNX3",
+      "old_id": "i2taHzQ5KLHjkkpbH4Ytd",
+      "type": "subtopic",
+      "label": "Custom Pipes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\common-pipes@i2taHzQ5KLHjkkpbH4Ytd.md"
+    },
+    {
+      "id": "kGzlumFdZFxTRZ3HnCGFO",
+      "old_id": "kGzlumFdZFxTRZ3HnCGFO",
+      "type": "topic",
+      "label": "Directives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\directives@kGzlumFdZFxTRZ3HnCGFO.md"
+    },
+    {
+      "id": "xk3v8p6vf8ntGj5c-IU4U",
+      "old_id": "xk3v8p6vf8ntGj5c-IU4U",
+      "type": "subtopic",
+      "label": "Structural Directives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\structural-directives@xk3v8p6vf8ntGj5c-IU4U.md"
+    },
+    {
+      "id": "xvwby0FTdIolRrV2j88fY",
+      "old_id": "xk3v8p6vf8ntGj5c-IU4U",
+      "type": "subtopic",
+      "label": "Attribute Directives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\structural-directives@xk3v8p6vf8ntGj5c-IU4U.md"
+    },
+    {
+      "id": "7GUvTMVzfdVEDBOz-tHUT",
+      "old_id": "xvwby0FTdIolRrV2j88fY",
+      "type": "subtopic",
+      "label": "Custom Directives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\attribute-directives@xvwby0FTdIolRrV2j88fY.md"
+    },
+    {
+      "id": "a74v78SvGtWduZpXs7wSq",
+      "old_id": "kGzlumFdZFxTRZ3HnCGFO",
+      "type": "topic",
+      "label": "Routing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\directives@kGzlumFdZFxTRZ3HnCGFO.md"
+    },
+    {
+      "id": "dbAS-hN1hoCsNJhkxXcGq",
+      "old_id": "dbAS-hN1hoCsNJhkxXcGq",
+      "type": "subtopic",
+      "label": "Configuration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\configuration@dbAS-hN1hoCsNJhkxXcGq.md"
+    },
+    {
+      "id": "ewbDdPYv2SJl_jW3RVHQs",
+      "old_id": "ewbDdPYv2SJl_jW3RVHQs",
+      "type": "subtopic",
+      "label": "Lazy Loading",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\lazy-loading@ewbDdPYv2SJl_jW3RVHQs.md"
+    },
+    {
+      "id": "1ZwdEL0Gx30Vv_Av3ZTGG",
+      "old_id": "1ZwdEL0Gx30Vv_Av3ZTGG",
+      "type": "subtopic",
+      "label": "Router Outlets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\router-outlets@1ZwdEL0Gx30Vv_Av3ZTGG.md"
+    },
+    {
+      "id": "8lFyuSx4MUcYRY2L8bZrq",
+      "old_id": "8lFyuSx4MUcYRY2L8bZrq",
+      "type": "subtopic",
+      "label": "Router Links",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\router-links@8lFyuSx4MUcYRY2L8bZrq.md"
+    },
+    {
+      "id": "YF_sG292HqawIX0siWhrv",
+      "old_id": "YF_sG292HqawIX0siWhrv",
+      "type": "subtopic",
+      "label": "Router Events",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\router-events@YF_sG292HqawIX0siWhrv.md"
+    },
+    {
+      "id": "PmC4zeaLpa5LoL4FhYXcG",
+      "old_id": "PmC4zeaLpa5LoL4FhYXcG",
+      "type": "subtopic",
+      "label": "Guards",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\guards@PmC4zeaLpa5LoL4FhYXcG.md"
+    },
+    {
+      "id": "CpsoIVoCKaZnM_-BbXbCh",
+      "old_id": "a74v78SvGtWduZpXs7wSq",
+      "type": "topic",
+      "label": "Services  & Remote Data",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\routing@a74v78SvGtWduZpXs7wSq.md"
+    },
+    {
+      "id": "8u9uHCRt9RU57erBy79PP",
+      "old_id": "8u9uHCRt9RU57erBy79PP",
+      "type": "subtopic",
+      "label": "Dependency Injection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\dependency-injection@8u9uHCRt9RU57erBy79PP.md"
+    },
+    {
+      "id": "Q36LQds8k_cSjijvXyWOM",
+      "old_id": "CpsoIVoCKaZnM_-BbXbCh",
+      "type": "topic",
+      "label": "Forms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\services---remote-data@CpsoIVoCKaZnM_-BbXbCh.md"
+    },
+    {
+      "id": "1d3Y4HVnqom8UOok-7EEf",
+      "old_id": "1d3Y4HVnqom8UOok-7EEf",
+      "type": "subtopic",
+      "label": "Reactive Forms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\reactive-forms@1d3Y4HVnqom8UOok-7EEf.md"
+    },
+    {
+      "id": "XC_K1Wahl2ySqOXoym4YU",
+      "old_id": "XC_K1Wahl2ySqOXoym4YU",
+      "type": "subtopic",
+      "label": "Typed Forms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\typed-forms@XC_K1Wahl2ySqOXoym4YU.md"
+    },
+    {
+      "id": "uDx4lPavwsJFBMzdQ70CS",
+      "old_id": "uDx4lPavwsJFBMzdQ70CS",
+      "type": "subtopic",
+      "label": "Template-driven Forms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\template-driven-forms@uDx4lPavwsJFBMzdQ70CS.md"
+    },
+    {
+      "id": "CpufN6DAOj5UNab9vnH0k",
+      "old_id": "CpufN6DAOj5UNab9vnH0k",
+      "type": "subtopic",
+      "label": "Dynamic Forms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\dynamic-forms@CpufN6DAOj5UNab9vnH0k.md"
+    },
+    {
+      "id": "kxRtLsB3y_th8j-HjmJgK",
+      "old_id": "kxRtLsB3y_th8j-HjmJgK",
+      "type": "subtopic",
+      "label": "Custom Validators",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\custom-validators@kxRtLsB3y_th8j-HjmJgK.md"
+    },
+    {
+      "id": "m5dgKgUR3ZqI9sBAzToev",
+      "old_id": "m5dgKgUR3ZqI9sBAzToev",
+      "type": "subtopic",
+      "label": "Control Value Accessor",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\control-value-accessor@m5dgKgUR3ZqI9sBAzToev.md"
+    },
+    {
+      "id": "8UY0HAvjY7bdbFpt-MM1u",
+      "old_id": "Q36LQds8k_cSjijvXyWOM",
+      "type": "topic",
+      "label": "HTTP Client",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\forms@Q36LQds8k_cSjijvXyWOM.md"
+    },
+    {
+      "id": "AKPhbg10xXjccO7UBh5eJ",
+      "old_id": "AKPhbg10xXjccO7UBh5eJ",
+      "type": "subtopic",
+      "label": "Setting Up the Client",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\setting-up-the-client@AKPhbg10xXjccO7UBh5eJ.md"
+    },
+    {
+      "id": "HjGAv3aV-p4ijYJ8XYIw3",
+      "old_id": "HjGAv3aV-p4ijYJ8XYIw3",
+      "type": "subtopic",
+      "label": "Making Requests",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\making-requests@HjGAv3aV-p4ijYJ8XYIw3.md"
+    },
+    {
+      "id": "xG7iSVOGcbxJbNv3xbNfc",
+      "old_id": "xG7iSVOGcbxJbNv3xbNfc",
+      "type": "subtopic",
+      "label": "Writing Interceptors",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\writing-interceptors@xG7iSVOGcbxJbNv3xbNfc.md"
+    },
+    {
+      "id": "lfp7PIjwITU5gBITQdirD",
+      "old_id": "8UY0HAvjY7bdbFpt-MM1u",
+      "type": "topic",
+      "label": "RxJS Basics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\http-client@8UY0HAvjY7bdbFpt-MM1u.md"
+    },
+    {
+      "id": "krXA6ua7E3m4IIpFkgQZe",
+      "old_id": "krXA6ua7E3m4IIpFkgQZe",
+      "type": "subtopic",
+      "label": "Observable Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\observable-pattern@krXA6ua7E3m4IIpFkgQZe.md"
+    },
+    {
+      "id": "b06Y5YrqBbHhWkK6Ws_1c",
+      "old_id": "b06Y5YrqBbHhWkK6Ws_1c",
+      "type": "subtopic",
+      "label": "Observable Lifecycle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\observable-lifecycle@b06Y5YrqBbHhWkK6Ws_1c.md"
+    },
+    {
+      "id": "e1ZmmxPZuogCNgtbPPWmd",
+      "old_id": "e1ZmmxPZuogCNgtbPPWmd",
+      "type": "subtopic",
+      "label": "RxJS vs Promises",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\rxjs-vs-promises@e1ZmmxPZuogCNgtbPPWmd.md"
+    },
+    {
+      "id": "ihsjIcF0tkhjs56458teE",
+      "old_id": "ihsjIcF0tkhjs56458teE",
+      "type": "subtopic",
+      "label": "Operators",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\operators@ihsjIcF0tkhjs56458teE.md"
+    },
+    {
+      "id": "nxUbl0eu3LsSL-Z8X6nP5",
+      "old_id": "nxUbl0eu3LsSL-Z8X6nP5",
+      "type": "subtopic",
+      "label": "Filtering",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\filtering@nxUbl0eu3LsSL-Z8X6nP5.md"
+    },
+    {
+      "id": "bJbbayFQ9WSJT9-qy0H5l",
+      "old_id": "bJbbayFQ9WSJT9-qy0H5l",
+      "type": "subtopic",
+      "label": "Rate Limiting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\rate-limiting@bJbbayFQ9WSJT9-qy0H5l.md"
+    },
+    {
+      "id": "kdMJHljMzGA3oRlh8Zvos",
+      "old_id": "kdMJHljMzGA3oRlh8Zvos",
+      "type": "subtopic",
+      "label": "Transformation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\transformation@kdMJHljMzGA3oRlh8Zvos.md"
+    },
+    {
+      "id": "IgUHqfVhiGpwxT9tY8O88",
+      "old_id": "IgUHqfVhiGpwxT9tY8O88",
+      "type": "subtopic",
+      "label": "Combination",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\combination@IgUHqfVhiGpwxT9tY8O88.md"
+    },
+    {
+      "id": "u1TG8i145o0RKhOR_5epf",
+      "old_id": "u1TG8i145o0RKhOR_5epf",
+      "type": "topic",
+      "label": "Signals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\signals@u1TG8i145o0RKhOR_5epf.md"
+    },
+    {
+      "id": "KAdtebWvgvMifIwd52yc4",
+      "old_id": "KAdtebWvgvMifIwd52yc4",
+      "type": "subtopic",
+      "label": "RxJS Interop",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\rxjs-interop@KAdtebWvgvMifIwd52yc4.md"
+    },
+    {
+      "id": "LcJyAfv9hjyUNXUVyPRP4",
+      "old_id": "LcJyAfv9hjyUNXUVyPRP4",
+      "type": "subtopic",
+      "label": "Inputs as Signals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\inputs-as-signals@LcJyAfv9hjyUNXUVyPRP4.md"
+    },
+    {
+      "id": "9HS9C3yq9EUcUy0ZUZk_H",
+      "old_id": "9HS9C3yq9EUcUy0ZUZk_H",
+      "type": "subtopic",
+      "label": "Queries as Signals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\queries-as-signals@9HS9C3yq9EUcUy0ZUZk_H.md"
+    },
+    {
+      "id": "IeU6ClS_yp6BYKdkQOJVf",
+      "old_id": "IeU6ClS_yp6BYKdkQOJVf",
+      "type": "subtopic",
+      "label": "Model Inputs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\model-inputs@IeU6ClS_yp6BYKdkQOJVf.md"
+    },
+    {
+      "id": "Mqe_s-nwBqAL6X7OGRHEN",
+      "old_id": "Mqe_s-nwBqAL6X7OGRHEN",
+      "type": "topic",
+      "label": "State Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\state-management@Mqe_s-nwBqAL6X7OGRHEN.md"
+    },
+    {
+      "id": "N9ZCPgFnFIUv4jMv1w5qK",
+      "old_id": "N9ZCPgFnFIUv4jMv1w5qK",
+      "type": "subtopic",
+      "label": "NGXS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\ngxs@N9ZCPgFnFIUv4jMv1w5qK.md"
+    },
+    {
+      "id": "ir94IdkF1tVAA8ZTD9r0N",
+      "old_id": "ir94IdkF1tVAA8ZTD9r0N",
+      "type": "subtopic",
+      "label": "NgRx",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\ngrx@ir94IdkF1tVAA8ZTD9r0N.md"
+    },
+    {
+      "id": "m4WBnx_9h01Jl6Q1sxi4Y",
+      "old_id": "m4WBnx_9h01Jl6Q1sxi4Y",
+      "type": "topic",
+      "label": "Zones",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\zones@m4WBnx_9h01Jl6Q1sxi4Y.md"
+    },
+    {
+      "id": "1x5pT607aKE-S-NCWB810",
+      "old_id": "1x5pT607aKE-S-NCWB810",
+      "type": "subtopic",
+      "label": "Zoneless Applications",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\zoneless-applications@1x5pT607aKE-S-NCWB810.md"
+    },
+    {
+      "id": "EbJib-XfZFF9bpCtL3aBs",
+      "old_id": "EbJib-XfZFF9bpCtL3aBs",
+      "type": "topic",
+      "label": "Developer Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\developer-tools@EbJib-XfZFF9bpCtL3aBs.md"
+    },
+    {
+      "id": "4YSk6I63Ew--zoXC3xmrC",
+      "old_id": "4YSk6I63Ew--zoXC3xmrC",
+      "type": "subtopic",
+      "label": "Angular CLI",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\angular-cli@4YSk6I63Ew--zoXC3xmrC.md"
+    },
+    {
+      "id": "FVH0lnbIZ2m5EfF2EJ2DW",
+      "old_id": "FVH0lnbIZ2m5EfF2EJ2DW",
+      "type": "subtopic",
+      "label": "Local Setup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\local-setup@FVH0lnbIZ2m5EfF2EJ2DW.md"
+    },
+    {
+      "id": "1fVi9AK6aLjt5QgAFbnGX",
+      "old_id": "1fVi9AK6aLjt5QgAFbnGX",
+      "type": "subtopic",
+      "label": "Deployment",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\deployment@1fVi9AK6aLjt5QgAFbnGX.md"
+    },
+    {
+      "id": "yhNGhduk__ow8VTLc6inZ",
+      "old_id": "yhNGhduk__ow8VTLc6inZ",
+      "type": "subtopic",
+      "label": "End-to-End Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\end-to-end-testing@yhNGhduk__ow8VTLc6inZ.md"
+    },
+    {
+      "id": "Uvr0pRk_fOzwRwqn0dQ6N",
+      "old_id": "Uvr0pRk_fOzwRwqn0dQ6N",
+      "type": "subtopic",
+      "label": "Schematics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\schematics@Uvr0pRk_fOzwRwqn0dQ6N.md"
+    },
+    {
+      "id": "Ax-s_xw3FO3Ocv-AnLbQD",
+      "old_id": "Ax-s_xw3FO3Ocv-AnLbQD",
+      "type": "subtopic",
+      "label": "Build Environments",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\build-environments@Ax-s_xw3FO3Ocv-AnLbQD.md"
+    },
+    {
+      "id": "TeWEy9I-hU6SH02Sy2S2S",
+      "old_id": "TeWEy9I-hU6SH02Sy2S2S",
+      "type": "subtopic",
+      "label": "CLI Builders",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\cli-builders@TeWEy9I-hU6SH02Sy2S2S.md"
+    },
+    {
+      "id": "MwtM1UAIfj4FJ-Y4CKDsP",
+      "old_id": "MwtM1UAIfj4FJ-Y4CKDsP",
+      "type": "subtopic",
+      "label": "AoT Compilation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\aot-compilation@MwtM1UAIfj4FJ-Y4CKDsP.md"
+    },
+    {
+      "id": "T3MmS3bvMMgCUbOk3ktU7",
+      "old_id": "ql7SyxrRmjpiXJ9hQeWPq",
+      "type": "subtopic",
+      "label": "DevTools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\language-service@ql7SyxrRmjpiXJ9hQeWPq.md"
+    },
+    {
+      "id": "ql7SyxrRmjpiXJ9hQeWPq",
+      "old_id": "ql7SyxrRmjpiXJ9hQeWPq",
+      "type": "subtopic",
+      "label": "Language Service",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\language-service@ql7SyxrRmjpiXJ9hQeWPq.md"
+    },
+    {
+      "id": "cl89U8atD6gw5rMGUm4Ix",
+      "old_id": "cl89U8atD6gw5rMGUm4Ix",
+      "type": "subtopic",
+      "label": "Libraries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\libraries@cl89U8atD6gw5rMGUm4Ix.md"
+    },
+    {
+      "id": "YHV5oFwLwphXf1wJTDZuG",
+      "old_id": "YHV5oFwLwphXf1wJTDZuG",
+      "type": "subtopic",
+      "label": "Using Libraries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\using-libraries@YHV5oFwLwphXf1wJTDZuG.md"
+    },
+    {
+      "id": "A1mYMg7cbcj6p_VkDf-Tz",
+      "old_id": "A1mYMg7cbcj6p_VkDf-Tz",
+      "type": "subtopic",
+      "label": "Creating Libraries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\creating-libraries@A1mYMg7cbcj6p_VkDf-Tz.md"
+    },
+    {
+      "id": "jfHaS8TqE4tcAo59K8Nkn",
+      "old_id": "EbJib-XfZFF9bpCtL3aBs",
+      "type": "topic",
+      "label": "SSR",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\developer-tools@EbJib-XfZFF9bpCtL3aBs.md"
+    },
+    {
+      "id": "b-0yQ74zHtAxI9aRLBohc",
+      "old_id": "b-0yQ74zHtAxI9aRLBohc",
+      "type": "topic",
+      "label": "SSG",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\ssg@b-0yQ74zHtAxI9aRLBohc.md"
+    },
+    {
+      "id": "kauQofxCmpktXPcnzid17",
+      "old_id": "kauQofxCmpktXPcnzid17",
+      "type": "subtopic",
+      "label": "AnalogJS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\analogjs@kauQofxCmpktXPcnzid17.md"
+    },
+    {
+      "id": "mm6c7GLQEwoQdAHdAYzGh",
+      "old_id": "mm6c7GLQEwoQdAHdAYzGh",
+      "type": "topic",
+      "label": "Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\security@mm6c7GLQEwoQdAHdAYzGh.md"
+    },
+    {
+      "id": "umUX4Hxk7srHlFR_Un-u7",
+      "old_id": "umUX4Hxk7srHlFR_Un-u7",
+      "type": "subtopic",
+      "label": "Cross-site Scripting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\cross-site-scripting@umUX4Hxk7srHlFR_Un-u7.md"
+    },
+    {
+      "id": "cgI9oeUHufA-ky_W1zENe",
+      "old_id": "cgI9oeUHufA-ky_W1zENe",
+      "type": "subtopic",
+      "label": "Sanitization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\sanitization@cgI9oeUHufA-ky_W1zENe.md"
+    },
+    {
+      "id": "XoYSuv1salCCHoI1cJkxv",
+      "old_id": "XoYSuv1salCCHoI1cJkxv",
+      "type": "subtopic",
+      "label": "Trusting Safe Values",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\trusting-safe-values@XoYSuv1salCCHoI1cJkxv.md"
+    },
+    {
+      "id": "5h7U0spwEUhB-hbjSlaeB",
+      "old_id": "5h7U0spwEUhB-hbjSlaeB",
+      "type": "subtopic",
+      "label": "Enforce Trusted Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\enforce-trusted-types@5h7U0spwEUhB-hbjSlaeB.md"
+    },
+    {
+      "id": "xH3RHPhsaqD9zIMms5OmX",
+      "old_id": "xH3RHPhsaqD9zIMms5OmX",
+      "type": "subtopic",
+      "label": "HTTP Vulnerabilities",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\http-vulnerabilities@xH3RHPhsaqD9zIMms5OmX.md"
+    },
+    {
+      "id": "Z1DZBbFI4oU6-KQg3wqMm",
+      "old_id": "Z1DZBbFI4oU6-KQg3wqMm",
+      "type": "subtopic",
+      "label": "Cross-site Request Forgery",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\cross-site-request-forgery@Z1DZBbFI4oU6-KQg3wqMm.md"
+    },
+    {
+      "id": "m2aw8vb4rz4IjshpoMyNx",
+      "old_id": "m2aw8vb4rz4IjshpoMyNx",
+      "type": "subtopic",
+      "label": "HttpClient CSRF",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\httpclient-csrf@m2aw8vb4rz4IjshpoMyNx.md"
+    },
+    {
+      "id": "ni00edsphJd7uBLCn7-Vw",
+      "old_id": "ni00edsphJd7uBLCn7-Vw",
+      "type": "subtopic",
+      "label": "XSRF protection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\xsrf-protection@ni00edsphJd7uBLCn7-Vw.md"
+    },
+    {
+      "id": "zd7YJGlcMFNFbsKUiW_XC",
+      "old_id": "zd7YJGlcMFNFbsKUiW_XC",
+      "type": "subtopic",
+      "label": "Cross-site Script Inclusion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\cross-site-script-inclusion@zd7YJGlcMFNFbsKUiW_XC.md"
+    },
+    {
+      "id": "VNG9DdXlS6R1OJ6Lrn4Lt",
+      "old_id": "VNG9DdXlS6R1OJ6Lrn4Lt",
+      "type": "topic",
+      "label": "Accessibility",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\accessibility@VNG9DdXlS6R1OJ6Lrn4Lt.md"
+    },
+    {
+      "id": "0FvH7KPs9ag02QkD1HEJ-",
+      "old_id": "0FvH7KPs9ag02QkD1HEJ-",
+      "type": "subtopic",
+      "label": "Attributes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\attributes@0FvH7KPs9ag02QkD1HEJ-.md"
+    },
+    {
+      "id": "CZ1YRyai8Ds-ry4A8jVbr",
+      "old_id": "CZ1YRyai8Ds-ry4A8jVbr",
+      "type": "subtopic",
+      "label": "UI Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\ui-components@CZ1YRyai8Ds-ry4A8jVbr.md"
+    },
+    {
+      "id": "0s-QhN5aZh2F3tLJFKEyR",
+      "old_id": "0s-QhN5aZh2F3tLJFKEyR",
+      "type": "subtopic",
+      "label": "Containers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\containers@0s-QhN5aZh2F3tLJFKEyR.md"
+    },
+    {
+      "id": "8i_JD1P4gIhY1rdldwLC2",
+      "old_id": "8i_JD1P4gIhY1rdldwLC2",
+      "type": "subtopic",
+      "label": "Routing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\routing@8i_JD1P4gIhY1rdldwLC2.md"
+    },
+    {
+      "id": "5-RCB8AiDbkdIFYNXKWge",
+      "old_id": "5-RCB8AiDbkdIFYNXKWge",
+      "type": "subtopic",
+      "label": "Link Identification",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\link-identification@5-RCB8AiDbkdIFYNXKWge.md"
+    },
+    {
+      "id": "STEHxJpwBZxFdQl0zUKxo",
+      "old_id": "STEHxJpwBZxFdQl0zUKxo",
+      "type": "topic",
+      "label": "Performance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\performance@STEHxJpwBZxFdQl0zUKxo.md"
+    },
+    {
+      "id": "CYjsXIOWtP5DJmYS-qR-s",
+      "old_id": "CYjsXIOWtP5DJmYS-qR-s",
+      "type": "subtopic",
+      "label": "Deferrable Views",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\deferrable-views@CYjsXIOWtP5DJmYS-qR-s.md"
+    },
+    {
+      "id": "1WIKjn3nxYDMIhBL17aYQ",
+      "old_id": "1WIKjn3nxYDMIhBL17aYQ",
+      "type": "subtopic",
+      "label": "Image Optimization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\image-optimization@1WIKjn3nxYDMIhBL17aYQ.md"
+    },
+    {
+      "id": "pRSR5PEbkJXAJ1LPyK-EE",
+      "old_id": "pRSR5PEbkJXAJ1LPyK-EE",
+      "type": "subtopic",
+      "label": "Zone Pollution",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\zone-pollution@pRSR5PEbkJXAJ1LPyK-EE.md"
+    },
+    {
+      "id": "yxUtSBzJPRcS-IuPsyp-W",
+      "old_id": "yxUtSBzJPRcS-IuPsyp-W",
+      "type": "subtopic",
+      "label": "Slow Computations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\slow-computations@yxUtSBzJPRcS-IuPsyp-W.md"
+    },
+    {
+      "id": "NY_MfBNgNmloiRGcIvfJ1",
+      "old_id": "NY_MfBNgNmloiRGcIvfJ1",
+      "type": "subtopic",
+      "label": "Hydration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\hydration@NY_MfBNgNmloiRGcIvfJ1.md"
+    },
+    {
+      "id": "lLa-OnHV6GzkNFZu29BIT",
+      "old_id": "lLa-OnHV6GzkNFZu29BIT",
+      "type": "topic",
+      "label": "Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\testing@lLa-OnHV6GzkNFZu29BIT.md"
+    },
+    {
+      "id": "HU1eTYB321C93qh_U7ioF",
+      "old_id": "HU1eTYB321C93qh_U7ioF",
+      "type": "subtopic",
+      "label": "Testing Services",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\testing-services@HU1eTYB321C93qh_U7ioF.md"
+    },
+    {
+      "id": "rH13NBFG02hnn5eABSNCY",
+      "old_id": "rH13NBFG02hnn5eABSNCY",
+      "type": "subtopic",
+      "label": "Testing Pipes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\testing-pipes@rH13NBFG02hnn5eABSNCY.md"
+    },
+    {
+      "id": "4xt0m5jkUqB4Z-krcFBuL",
+      "old_id": "4xt0m5jkUqB4Z-krcFBuL",
+      "type": "subtopic",
+      "label": "Testing Requests",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\testing-requests@4xt0m5jkUqB4Z-krcFBuL.md"
+    },
+    {
+      "id": "TGRZBizDy83JKg_MhnRdX",
+      "old_id": "TGRZBizDy83JKg_MhnRdX",
+      "type": "subtopic",
+      "label": "Services with Dependencies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\services-with-dependencies@TGRZBizDy83JKg_MhnRdX.md"
+    },
+    {
+      "id": "cXVy1lx2XqY_j8gxz-y60",
+      "old_id": "cXVy1lx2XqY_j8gxz-y60",
+      "type": "subtopic",
+      "label": "Component Bindings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\component-bindings@cXVy1lx2XqY_j8gxz-y60.md"
+    },
+    {
+      "id": "SGqb5k6OmWit8PA6ZT3js",
+      "old_id": "SGqb5k6OmWit8PA6ZT3js",
+      "type": "subtopic",
+      "label": "Testing Directives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\testing-directives@SGqb5k6OmWit8PA6ZT3js.md"
+    },
+    {
+      "id": "f5v74Uw54LsB4FgdN6eCd",
+      "old_id": "f5v74Uw54LsB4FgdN6eCd",
+      "type": "subtopic",
+      "label": "Debugging Tests",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\debugging-tests@f5v74Uw54LsB4FgdN6eCd.md"
+    },
+    {
+      "id": "0dYWO_Zvh9J5_6cRjRjvI",
+      "old_id": "0dYWO_Zvh9J5_6cRjRjvI",
+      "type": "subtopic",
+      "label": "Component Templates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\component-templates@0dYWO_Zvh9J5_6cRjRjvI.md"
+    },
+    {
+      "id": "bqA2bxPcZrqQ-6QE-YDK1",
+      "old_id": "0dYWO_Zvh9J5_6cRjRjvI",
+      "type": "subtopic",
+      "label": "Code Coverage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\component-templates@0dYWO_Zvh9J5_6cRjRjvI.md"
+    },
+    {
+      "id": "Xxyx3uzy5TpNhgR1IysMN",
+      "old_id": "Xxyx3uzy5TpNhgR1IysMN",
+      "type": "topic",
+      "label": "Internationalization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\internationalization@Xxyx3uzy5TpNhgR1IysMN.md"
+    },
+    {
+      "id": "W8OwpEw00xn0GxidlJjdc",
+      "old_id": "W8OwpEw00xn0GxidlJjdc",
+      "type": "subtopic",
+      "label": "Localize Package",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\localize-package@W8OwpEw00xn0GxidlJjdc.md"
+    },
+    {
+      "id": "dVKl3Z2Rnf6IB064v19Mi",
+      "old_id": "dVKl3Z2Rnf6IB064v19Mi",
+      "type": "subtopic",
+      "label": "Locales by ID",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\locales-by-id@dVKl3Z2Rnf6IB064v19Mi.md"
+    },
+    {
+      "id": "jL5amGV1BAX_V5cyTIH7d",
+      "old_id": "jL5amGV1BAX_V5cyTIH7d",
+      "type": "subtopic",
+      "label": "Translation Files",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\translation-files@jL5amGV1BAX_V5cyTIH7d.md"
+    },
+    {
+      "id": "9ISvaaJ815_cr_KW9vQhT",
+      "old_id": "9ISvaaJ815_cr_KW9vQhT",
+      "type": "subtopic",
+      "label": "Multiple Locales",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\multiple-locales@9ISvaaJ815_cr_KW9vQhT.md"
+    },
+    {
+      "id": "rYJq59Q0YdfK6n3x740Em",
+      "old_id": "rYJq59Q0YdfK6n3x740Em",
+      "type": "topic",
+      "label": "Animation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\animation@rYJq59Q0YdfK6n3x740Em.md"
+    },
+    {
+      "id": "Iv2d4sgODqMPzA9gH6RAw",
+      "old_id": "Iv2d4sgODqMPzA9gH6RAw",
+      "type": "subtopic",
+      "label": "Transitions & Triggers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\transitions--triggers@Iv2d4sgODqMPzA9gH6RAw.md"
+    },
+    {
+      "id": "Unjknmb4b2LY-nUVvvF7_",
+      "old_id": "Unjknmb4b2LY-nUVvvF7_",
+      "type": "subtopic",
+      "label": "Complex Sequences",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\complex-sequences@Unjknmb4b2LY-nUVvvF7_.md"
+    },
+    {
+      "id": "M1CU2Yq6dLp4yOuGV0fhF",
+      "old_id": "M1CU2Yq6dLp4yOuGV0fhF",
+      "type": "subtopic",
+      "label": "Reusable Animations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\reusable-animations@M1CU2Yq6dLp4yOuGV0fhF.md"
+    },
+    {
+      "id": "x91jWP81oCTeVEwzX8FbK",
+      "old_id": "x91jWP81oCTeVEwzX8FbK",
+      "type": "subtopic",
+      "label": "Route Transitions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\angular\\content\\route-transitions@x91jWP81oCTeVEwzX8FbK.md"
+    },
+    {
+      "id": "eRIUCGaDMDAz6kQYSN-AS",
+      "old_id": "U0fJo2a3vnaodNJhfZ78I",
+      "type": "button",
+      "label": "Vue.js",
+      "resources": []
+    },
+    {
+      "id": "4IpVbs5l5Qz-pw_WAFaPH",
+      "old_id": "4IpVbs5l5Qz-pw_WAFaPH",
+      "type": "linksgroup",
+      "label": "",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "DAwKHBng7Tytlcd2_8GOR"
+    },
+    {
+      "source": "DAwKHBng7Tytlcd2_8GOR",
+      "target": "KDd40JOAvZ8O1mfhTYB3K"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "EbFRcy4s6yzzIApBqU77Y"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "hpShWwL0M57ZAzqkB4I8t"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "DE3cMpeRYuUPw2ADtfS-3"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "zv1y-I1fIEXtTkb8tOQU0"
+    },
+    {
+      "source": "zv1y-I1fIEXtTkb8tOQU0",
+      "target": "kGnKzCkQCNFEdgCBRtNuW"
+    },
+    {
+      "source": "kGnKzCkQCNFEdgCBRtNuW",
+      "target": "b_kdNS9PDupcUftslkf9i"
+    },
+    {
+      "source": "b_kdNS9PDupcUftslkf9i",
+      "target": "6fhe9xAi_RSVfa-KKbcbV"
+    },
+    {
+      "source": "6fhe9xAi_RSVfa-KKbcbV",
+      "target": "kGzlumFdZFxTRZ3HnCGFO"
+    },
+    {
+      "source": "kGzlumFdZFxTRZ3HnCGFO",
+      "target": "a74v78SvGtWduZpXs7wSq"
+    },
+    {
+      "source": "a74v78SvGtWduZpXs7wSq",
+      "target": "CpsoIVoCKaZnM_-BbXbCh"
+    },
+    {
+      "source": "CpsoIVoCKaZnM_-BbXbCh",
+      "target": "8u9uHCRt9RU57erBy79PP"
+    },
+    {
+      "source": "CpsoIVoCKaZnM_-BbXbCh",
+      "target": "Q36LQds8k_cSjijvXyWOM"
+    },
+    {
+      "source": "Q36LQds8k_cSjijvXyWOM",
+      "target": "8UY0HAvjY7bdbFpt-MM1u"
+    },
+    {
+      "source": "8UY0HAvjY7bdbFpt-MM1u",
+      "target": "AKPhbg10xXjccO7UBh5eJ"
+    },
+    {
+      "source": "8UY0HAvjY7bdbFpt-MM1u",
+      "target": "lfp7PIjwITU5gBITQdirD"
+    },
+    {
+      "source": "lfp7PIjwITU5gBITQdirD",
+      "target": "krXA6ua7E3m4IIpFkgQZe"
+    },
+    {
+      "source": "u1TG8i145o0RKhOR_5epf",
+      "target": "Mqe_s-nwBqAL6X7OGRHEN"
+    },
+    {
+      "source": "Mqe_s-nwBqAL6X7OGRHEN",
+      "target": "m4WBnx_9h01Jl6Q1sxi4Y"
+    },
+    {
+      "source": "EbJib-XfZFF9bpCtL3aBs",
+      "target": "jfHaS8TqE4tcAo59K8Nkn"
+    },
+    {
+      "source": "jfHaS8TqE4tcAo59K8Nkn",
+      "target": "b-0yQ74zHtAxI9aRLBohc"
+    },
+    {
+      "source": "b-0yQ74zHtAxI9aRLBohc",
+      "target": "kauQofxCmpktXPcnzid17"
+    },
+    {
+      "source": "EbJib-XfZFF9bpCtL3aBs",
+      "target": "T3MmS3bvMMgCUbOk3ktU7"
+    },
+    {
+      "source": "b-0yQ74zHtAxI9aRLBohc",
+      "target": "mm6c7GLQEwoQdAHdAYzGh"
+    },
+    {
+      "source": "mm6c7GLQEwoQdAHdAYzGh",
+      "target": "VNG9DdXlS6R1OJ6Lrn4Lt"
+    },
+    {
+      "source": "VNG9DdXlS6R1OJ6Lrn4Lt",
+      "target": "0FvH7KPs9ag02QkD1HEJ-"
+    },
+    {
+      "source": "VNG9DdXlS6R1OJ6Lrn4Lt",
+      "target": "CZ1YRyai8Ds-ry4A8jVbr"
+    },
+    {
+      "source": "VNG9DdXlS6R1OJ6Lrn4Lt",
+      "target": "0s-QhN5aZh2F3tLJFKEyR"
+    },
+    {
+      "source": "VNG9DdXlS6R1OJ6Lrn4Lt",
+      "target": "8i_JD1P4gIhY1rdldwLC2"
+    },
+    {
+      "source": "VNG9DdXlS6R1OJ6Lrn4Lt",
+      "target": "5-RCB8AiDbkdIFYNXKWge"
+    },
+    {
+      "source": "lLa-OnHV6GzkNFZu29BIT",
+      "target": "Xxyx3uzy5TpNhgR1IysMN"
+    },
+    {
+      "source": "Xxyx3uzy5TpNhgR1IysMN",
+      "target": "9ISvaaJ815_cr_KW9vQhT"
+    },
+    {
+      "source": "rYJq59Q0YdfK6n3x740Em",
+      "target": "x91jWP81oCTeVEwzX8FbK"
+    },
+    {
+      "source": "rYJq59Q0YdfK6n3x740Em",
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    }
+  ]
+}

@@ -1,0 +1,832 @@
+[
+  {
+    "id": "z50iixpcCMe9sTh-gwTI3",
+    "old_id": "JfXwzkN29UGz17FYHHE3A",
+    "type": "topic",
+    "label": "MongoDB Basics",
+    "resources": []
+  },
+  {
+    "id": "cMfsRtvzvDZZJ0TqeUOxm",
+    "old_id": "W4gEPRYmk5Y7y3PjI6fR7",
+    "type": "subtopic",
+    "label": "SQL vs NoSQL",
+    "resources": []
+  },
+  {
+    "id": "tJljSlb5S_tZLZhZHHd_I",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "What is MongoDB?",
+    "resources": []
+  },
+  {
+    "id": "qh8MEbXKPVt8mqlarhUj0",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "When to use MongoDB?",
+    "resources": []
+  },
+  {
+    "id": "1UXfFROvcunyhkx0zB_1S",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "What is MongoDB Atlas?",
+    "resources": []
+  },
+  {
+    "id": "1pCWjSvjvbox5OpyWJ8Kv",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "MongoDB Terminology",
+    "resources": []
+  },
+  {
+    "id": "_UIfRdlj6BeEESw1FW9RH",
+    "old_id": "JfXwzkN29UGz17FYHHE3A",
+    "type": "topic",
+    "label": "Data Model & Data Types",
+    "resources": []
+  },
+  {
+    "id": "F4W9XBSbkpzWIrAhRBSRS",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "BSON vs JSON",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "6MqhN-PTf1PRzYCTxC8pn",
+    "old_id": "z6I9XgIGQYWUd5l9DIZRX",
+    "type": "subtopic",
+    "label": "Embedded Objects & Arrays",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\regular-expression@z6I9XgIGQYWUd5l9DIZRX.md"
+  },
+  {
+    "id": "4Cf_wcoByPqpOOpdbAJuq",
+    "old_id": "OGtR5D_DUCSci1lFBT83z",
+    "type": "subtopic",
+    "label": "Double",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\decimal128@OGtR5D_DUCSci1lFBT83z.md"
+  },
+  {
+    "id": "eU4XCnrf27FO3KCda8QYw",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "String",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "q6ZKxFcSAQ8bgUdGaDpuu",
+    "old_id": "OGtR5D_DUCSci1lFBT83z",
+    "type": "subtopic",
+    "label": "Array",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\decimal128@OGtR5D_DUCSci1lFBT83z.md"
+  },
+  {
+    "id": "QcdZKNcCtKls6P4YNXR2W",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Object",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "UM6jH6bAijYS0Hmw87UQ-",
+    "old_id": "OGtR5D_DUCSci1lFBT83z",
+    "type": "subtopic",
+    "label": "Binary Data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\decimal128@OGtR5D_DUCSci1lFBT83z.md"
+  },
+  {
+    "id": "kx_GOr51UMpdUAnS5u9qZ",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Undefined",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "mxd3-l3-NtPw53dEvhqm4",
+    "old_id": "OGtR5D_DUCSci1lFBT83z",
+    "type": "subtopic",
+    "label": "Object ID",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\decimal128@OGtR5D_DUCSci1lFBT83z.md"
+  },
+  {
+    "id": "hmo7zCZ1jKgobS5R0eBSD",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Boolean",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "T6cq--pute6-8aG7z6QKN",
+    "old_id": "OGtR5D_DUCSci1lFBT83z",
+    "type": "subtopic",
+    "label": "Date",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\decimal128@OGtR5D_DUCSci1lFBT83z.md"
+  },
+  {
+    "id": "g6AKQiFcY_8lsWRbkbZSC",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Null",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "z6I9XgIGQYWUd5l9DIZRX",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Regular Expression",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "UXO5i6nPa5CRW1z7FAn_S",
+    "old_id": "OGtR5D_DUCSci1lFBT83z",
+    "type": "subtopic",
+    "label": "JavaScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\decimal128@OGtR5D_DUCSci1lFBT83z.md"
+  },
+  {
+    "id": "XAS4jQlsHkttLDuSSsD2o",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Symbol",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "xKFZSKG2GPD-phY2HLMsx",
+    "old_id": "OGtR5D_DUCSci1lFBT83z",
+    "type": "subtopic",
+    "label": "Int32/Int",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\decimal128@OGtR5D_DUCSci1lFBT83z.md"
+  },
+  {
+    "id": "iJFDFdIN_N4-DlJwrFIiB",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Int64 / Long",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "zbFH2NRHZEOv5eKLL_HR0",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Timestamp",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "OGtR5D_DUCSci1lFBT83z",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Decimal128",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "jQSMLd6gG158tJDzo1k_1",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Min Key",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "QF7SL237FyBQdqvKUzop6",
+    "old_id": "QF7SL237FyBQdqvKUzop6",
+    "type": "subtopic",
+    "label": "Max Key",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\max-key@QF7SL237FyBQdqvKUzop6.md"
+  },
+  {
+    "id": "7SGYNo3oHlgm_1cwhWfw7",
+    "old_id": "PuRlxMpnjEZt3E3m7Hgzw",
+    "type": "topic",
+    "label": "Collections & Methods",
+    "resources": []
+  },
+  {
+    "id": "hC83jKoO_XFI83WpsdN_Z",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "Counting Documents",
+    "resources": []
+  },
+  {
+    "id": "mXdn4u5CiQRDE83qMiWZX",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "insert() and relevant",
+    "resources": []
+  },
+  {
+    "id": "iMpCEXRDXg0Kq9OFNywbI",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "find() and relevant",
+    "resources": []
+  },
+  {
+    "id": "liGbnGyQaG-Vqt6cuB91N",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "update() and relevant",
+    "resources": []
+  },
+  {
+    "id": "qjoLxSkfKbzG1sZUXnyw9",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "delete() and relevant",
+    "resources": []
+  },
+  {
+    "id": "yc2HqhjhIV6UU_2P-ykKB",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "bulkWrite() and relevant",
+    "resources": []
+  },
+  {
+    "id": "4h8NdcdXmNqJxLkVJqPtX",
+    "old_id": "2rlmLn_yQQV-7DpX1qT98",
+    "type": "subtopic",
+    "label": "validate()",
+    "resources": []
+  },
+  {
+    "id": "thOckmrCJ45NVNPNxm4eg",
+    "old_id": "9mmxYBtvPYZlvFjQvE-2N",
+    "type": "subtopic",
+    "label": "Read / Write Concerns",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\slice@9mmxYBtvPYZlvFjQvE-2N.md"
+  },
+  {
+    "id": "K9x7yQP59cB764Q5PqAs_",
+    "old_id": "9mmxYBtvPYZlvFjQvE-2N",
+    "type": "subtopic",
+    "label": "Cursors",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\slice@9mmxYBtvPYZlvFjQvE-2N.md"
+  },
+  {
+    "id": "s8El0Q22GD_rOZGlDtkgH",
+    "old_id": "9mmxYBtvPYZlvFjQvE-2N",
+    "type": "subtopic",
+    "label": "Retryable Reads / Writes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\slice@9mmxYBtvPYZlvFjQvE-2N.md"
+  },
+  {
+    "id": "B8SFhoVV8ei1Yz6vl57l_",
+    "old_id": "LC923iJhfiUDIs_0-9rc7",
+    "type": "topic",
+    "label": "Query Operators",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-security@LC923iJhfiUDIs_0-9rc7.md"
+  },
+  {
+    "id": "gakF5Zfgk7QIgg_UwqG_Y",
+    "old_id": "nk0V3o3oKuIb8A0gDECFJ",
+    "type": "subtopic",
+    "label": "$project",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\exclude@nk0V3o3oKuIb8A0gDECFJ.md"
+  },
+  {
+    "id": "sxDyp3bP-YhgmDMVUFTaA",
+    "old_id": "9mmxYBtvPYZlvFjQvE-2N",
+    "type": "subtopic",
+    "label": "$include",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\slice@9mmxYBtvPYZlvFjQvE-2N.md"
+  },
+  {
+    "id": "nk0V3o3oKuIb8A0gDECFJ",
+    "old_id": "9mmxYBtvPYZlvFjQvE-2N",
+    "type": "subtopic",
+    "label": "$exclude",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\slice@9mmxYBtvPYZlvFjQvE-2N.md"
+  },
+  {
+    "id": "9mmxYBtvPYZlvFjQvE-2N",
+    "old_id": "9mmxYBtvPYZlvFjQvE-2N",
+    "type": "subtopic",
+    "label": "$slice",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\slice@9mmxYBtvPYZlvFjQvE-2N.md"
+  },
+  {
+    "id": "2h8z2mrgRKSLKI-eBc3zM",
+    "old_id": "BxzMbF7cdvGPuy1EcRvWd",
+    "type": "subtopic",
+    "label": "$eq",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\type@BxzMbF7cdvGPuy1EcRvWd.md"
+  },
+  {
+    "id": "wbZb0RwmANH4ssF07cAar",
+    "old_id": "kV5Tmu9ocDnuPQvkx2W0u",
+    "type": "subtopic",
+    "label": "$gt",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\gte@kV5Tmu9ocDnuPQvkx2W0u.md"
+  },
+  {
+    "id": "5-MLEEigFPRloN7wLa05T",
+    "old_id": "Q8dr1JPEnLX0z4DiQwnAz",
+    "type": "subtopic",
+    "label": "$lt",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\ne@Q8dr1JPEnLX0z4DiQwnAz.md"
+  },
+  {
+    "id": "eOfsrmOQI0dJW6HV_myVH",
+    "old_id": "Q8dr1JPEnLX0z4DiQwnAz",
+    "type": "subtopic",
+    "label": "$lte",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\ne@Q8dr1JPEnLX0z4DiQwnAz.md"
+  },
+  {
+    "id": "kV5Tmu9ocDnuPQvkx2W0u",
+    "old_id": "Q8dr1JPEnLX0z4DiQwnAz",
+    "type": "subtopic",
+    "label": "$gte",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\ne@Q8dr1JPEnLX0z4DiQwnAz.md"
+  },
+  {
+    "id": "Q8dr1JPEnLX0z4DiQwnAz",
+    "old_id": "gakF5Zfgk7QIgg_UwqG_Y",
+    "type": "subtopic",
+    "label": "$ne",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\project@gakF5Zfgk7QIgg_UwqG_Y.md"
+  },
+  {
+    "id": "Wd20OKQYYuW_bT6U-yRxT",
+    "old_id": "wgfOjoGCGEQe6TbJo9fTu",
+    "type": "subtopic",
+    "label": "$in",
+    "resources": []
+  },
+  {
+    "id": "ZKHUCskdKQf4IaMUTN_e7",
+    "old_id": "wbZb0RwmANH4ssF07cAar",
+    "type": "subtopic",
+    "label": "$nin",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\gt@wbZb0RwmANH4ssF07cAar.md"
+  },
+  {
+    "id": "hPPoO8ysGeEGEQhdveiDO",
+    "old_id": "5-MLEEigFPRloN7wLa05T",
+    "type": "subtopic",
+    "label": "$all",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\lt@5-MLEEigFPRloN7wLa05T.md"
+  },
+  {
+    "id": "TJHVY8DRWbDKeT_pIPJay",
+    "old_id": "eOfsrmOQI0dJW6HV_myVH",
+    "type": "subtopic",
+    "label": "$elemMatch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\lte@eOfsrmOQI0dJW6HV_myVH.md"
+  },
+  {
+    "id": "-VMIkV6S6H1blngxLXk7Y",
+    "old_id": "Q8dr1JPEnLX0z4DiQwnAz",
+    "type": "subtopic",
+    "label": "$size",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\ne@Q8dr1JPEnLX0z4DiQwnAz.md"
+  },
+  {
+    "id": "12kfpSapv2uNxpHzLkFSL",
+    "old_id": "PmfjHFz-DW69pNh_t13Nm",
+    "type": "subtopic",
+    "label": "$exists",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\regex@PmfjHFz-DW69pNh_t13Nm.md"
+  },
+  {
+    "id": "BxzMbF7cdvGPuy1EcRvWd",
+    "old_id": "eOfsrmOQI0dJW6HV_myVH",
+    "type": "subtopic",
+    "label": "$type",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\lte@eOfsrmOQI0dJW6HV_myVH.md"
+  },
+  {
+    "id": "PmfjHFz-DW69pNh_t13Nm",
+    "old_id": "BxzMbF7cdvGPuy1EcRvWd",
+    "type": "subtopic",
+    "label": "$regex",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\type@BxzMbF7cdvGPuy1EcRvWd.md"
+  },
+  {
+    "id": "-62S4wRxHpIM2I59xjGun",
+    "old_id": "7xq_mdQOlUTuhfnogOl8h",
+    "type": "subtopic",
+    "label": "$and",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\nor@7xq_mdQOlUTuhfnogOl8h.md"
+  },
+  {
+    "id": "43BfjlUju-yJaGv-FaJty",
+    "old_id": "7xq_mdQOlUTuhfnogOl8h",
+    "type": "subtopic",
+    "label": "$or",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\nor@7xq_mdQOlUTuhfnogOl8h.md"
+  },
+  {
+    "id": "qaUj9916Fh4BtiLz_pwQs",
+    "old_id": "7xq_mdQOlUTuhfnogOl8h",
+    "type": "subtopic",
+    "label": "$not",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\nor@7xq_mdQOlUTuhfnogOl8h.md"
+  },
+  {
+    "id": "7xq_mdQOlUTuhfnogOl8h",
+    "old_id": "wgfOjoGCGEQe6TbJo9fTu",
+    "type": "subtopic",
+    "label": "$nor",
+    "resources": []
+  },
+  {
+    "id": "A9W2LsivDc0ialLp83fYP",
+    "old_id": "LC923iJhfiUDIs_0-9rc7",
+    "type": "topic",
+    "label": "Performance Optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-security@LC923iJhfiUDIs_0-9rc7.md"
+  },
+  {
+    "id": "haA1ltV6VzgJVJcJNMK0W",
+    "old_id": "haA1ltV6VzgJVJcJNMK0W",
+    "type": "topic",
+    "label": "Creating Indexes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\creating-indexes@haA1ltV6VzgJVJcJNMK0W.md"
+  },
+  {
+    "id": "SjPzR6JjdBeiqFsrRJPfW",
+    "old_id": "butGgZXGPTZI-sWx24bOr",
+    "type": "subtopic",
+    "label": "Single Field",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\expiring@butGgZXGPTZI-sWx24bOr.md"
+  },
+  {
+    "id": "eSb4WAfWxJu6R95pPX6wm",
+    "old_id": "butGgZXGPTZI-sWx24bOr",
+    "type": "subtopic",
+    "label": "Compound",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\expiring@butGgZXGPTZI-sWx24bOr.md"
+  },
+  {
+    "id": "PV_3TEYdtVZ2VCDZEOsu_",
+    "old_id": "K09-nD6xF5YJUQBBpFXMz",
+    "type": "subtopic",
+    "label": "Text",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\spark@K09-nD6xF5YJUQBBpFXMz.md"
+  },
+  {
+    "id": "butGgZXGPTZI-sWx24bOr",
+    "old_id": "butGgZXGPTZI-sWx24bOr",
+    "type": "subtopic",
+    "label": "Expiring",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\expiring@butGgZXGPTZI-sWx24bOr.md"
+  },
+  {
+    "id": "bqXlDnPuMQIKulD9cTvPf",
+    "old_id": "K09-nD6xF5YJUQBBpFXMz",
+    "type": "subtopic",
+    "label": "Geospatial Indexes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\spark@K09-nD6xF5YJUQBBpFXMz.md"
+  },
+  {
+    "id": "YidhAuVk_VGukx_FfJSz2",
+    "old_id": "K09-nD6xF5YJUQBBpFXMz",
+    "type": "subtopic",
+    "label": "Atlas Search Indexes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\spark@K09-nD6xF5YJUQBBpFXMz.md"
+  },
+  {
+    "id": "kG0ZeGatgvC1azZKMQiA_",
+    "old_id": "K09-nD6xF5YJUQBBpFXMz",
+    "type": "subtopic",
+    "label": "Query Optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\spark@K09-nD6xF5YJUQBBpFXMz.md"
+  },
+  {
+    "id": "gpihoIJkzSS1WOvmH2ueo",
+    "old_id": "LC923iJhfiUDIs_0-9rc7",
+    "type": "topic",
+    "label": "Aggregation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-security@LC923iJhfiUDIs_0-9rc7.md"
+  },
+  {
+    "id": "_c7itVw1R1_UB-NPtL-WI",
+    "old_id": "eDks8Jmsbq3_nHgLydyxP",
+    "type": "subtopic",
+    "label": "$match",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\pipelines-stages-and-operators@eDks8Jmsbq3_nHgLydyxP.md"
+  },
+  {
+    "id": "nz048lC4Q4S7fMVbxLGEk",
+    "old_id": "strw_oGTkZEH-o8zA4IRP",
+    "type": "subtopic",
+    "label": "$group",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\lookup@strw_oGTkZEH-o8zA4IRP.md"
+  },
+  {
+    "id": "BCWS8uV2pSWe7CX-VlnTg",
+    "old_id": "CfM0iyd2bNRIiDWTUkspd",
+    "type": "subtopic",
+    "label": "$sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\sum@CfM0iyd2bNRIiDWTUkspd.md"
+  },
+  {
+    "id": "dO2mJejkWBH903LG0dWgN",
+    "old_id": "AY-8KJGA9ZA6ay3rbURt3",
+    "type": "subtopic",
+    "label": "$project",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\unwind@AY-8KJGA9ZA6ay3rbURt3.md"
+  },
+  {
+    "id": "4CjjGPOy-385Bco_PeQwa",
+    "old_id": "strw_oGTkZEH-o8zA4IRP",
+    "type": "subtopic",
+    "label": "$skip",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\lookup@strw_oGTkZEH-o8zA4IRP.md"
+  },
+  {
+    "id": "AzUVaGnGv9uypJ31alR9r",
+    "old_id": "CfM0iyd2bNRIiDWTUkspd",
+    "type": "subtopic",
+    "label": "$limit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\sum@CfM0iyd2bNRIiDWTUkspd.md"
+  },
+  {
+    "id": "AY-8KJGA9ZA6ay3rbURt3",
+    "old_id": "CfM0iyd2bNRIiDWTUkspd",
+    "type": "subtopic",
+    "label": "$unwind",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\sum@CfM0iyd2bNRIiDWTUkspd.md"
+  },
+  {
+    "id": "strw_oGTkZEH-o8zA4IRP",
+    "old_id": "CfM0iyd2bNRIiDWTUkspd",
+    "type": "subtopic",
+    "label": "$lookup",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\sum@CfM0iyd2bNRIiDWTUkspd.md"
+  },
+  {
+    "id": "CfM0iyd2bNRIiDWTUkspd",
+    "old_id": "CfM0iyd2bNRIiDWTUkspd",
+    "type": "subtopic",
+    "label": "$sum",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\sum@CfM0iyd2bNRIiDWTUkspd.md"
+  },
+  {
+    "id": "eDks8Jmsbq3_nHgLydyxP",
+    "old_id": "AY-8KJGA9ZA6ay3rbURt3",
+    "type": "subtopic",
+    "label": "Pipelines, Stages and Operators",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\unwind@AY-8KJGA9ZA6ay3rbURt3.md"
+  },
+  {
+    "id": "aHcmsaqAfG5fC90VV-EHP",
+    "old_id": "LC923iJhfiUDIs_0-9rc7",
+    "type": "topic",
+    "label": "Transactions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-security@LC923iJhfiUDIs_0-9rc7.md"
+  },
+  {
+    "id": "6H2MMnEfS6uHGS-6pFo8u",
+    "old_id": "LC923iJhfiUDIs_0-9rc7",
+    "type": "topic",
+    "label": "Developer Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-security@LC923iJhfiUDIs_0-9rc7.md"
+  },
+  {
+    "id": "73REfcB_T0yBP-KQ0EYmF",
+    "old_id": "K09-nD6xF5YJUQBBpFXMz",
+    "type": "subtopic",
+    "label": "Language Drivers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\spark@K09-nD6xF5YJUQBBpFXMz.md"
+  },
+  {
+    "id": "JAosQ9tFj7y70lGQ0vHzC",
+    "old_id": "4L9UQ4oaaK3wZwOLIMa6T",
+    "type": "subtopic",
+    "label": "Kafka",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\query-optimization@4L9UQ4oaaK3wZwOLIMa6T.md"
+  },
+  {
+    "id": "K09-nD6xF5YJUQBBpFXMz",
+    "old_id": "butGgZXGPTZI-sWx24bOr",
+    "type": "subtopic",
+    "label": "Spark",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\expiring@butGgZXGPTZI-sWx24bOr.md"
+  },
+  {
+    "id": "kJJ-W6BV1ofIvuFT_PCcz",
+    "old_id": "4L9UQ4oaaK3wZwOLIMa6T",
+    "type": "subtopic",
+    "label": "Elastic Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\query-optimization@4L9UQ4oaaK3wZwOLIMa6T.md"
+  },
+  {
+    "id": "xaWDHCkcGm4oovPPxVMB9",
+    "old_id": "w1L-yFBM2AyeNBFyH5skW",
+    "type": "subtopic",
+    "label": "mongodump",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-audit@w1L-yFBM2AyeNBFyH5skW.md"
+  },
+  {
+    "id": "TKngxMNGMgrdO26D7eeSg",
+    "old_id": "K09-nD6xF5YJUQBBpFXMz",
+    "type": "subtopic",
+    "label": "mongorestore",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\spark@K09-nD6xF5YJUQBBpFXMz.md"
+  },
+  {
+    "id": "cOKQQ7SaiawWF49MdCGTh",
+    "old_id": "LC923iJhfiUDIs_0-9rc7",
+    "type": "topic",
+    "label": "Scaling MongoDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-security@LC923iJhfiUDIs_0-9rc7.md"
+  },
+  {
+    "id": "QrHT-H12AV4-V-y_nzmNk",
+    "old_id": "4L9UQ4oaaK3wZwOLIMa6T",
+    "type": "subtopic",
+    "label": "Replicasets",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\query-optimization@4L9UQ4oaaK3wZwOLIMa6T.md"
+  },
+  {
+    "id": "CijW3HCjVRZHQIBsQ9_0H",
+    "old_id": "4L9UQ4oaaK3wZwOLIMa6T",
+    "type": "subtopic",
+    "label": "Sharded Clusters",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\query-optimization@4L9UQ4oaaK3wZwOLIMa6T.md"
+  },
+  {
+    "id": "iVDxuERBjKMBHueEfqP0x",
+    "old_id": "4L9UQ4oaaK3wZwOLIMa6T",
+    "type": "subtopic",
+    "label": "Tuning Configuration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\query-optimization@4L9UQ4oaaK3wZwOLIMa6T.md"
+  },
+  {
+    "id": "XjB0uOnsYl4edzZWpQ-nm",
+    "old_id": "4L9UQ4oaaK3wZwOLIMa6T",
+    "type": "subtopic",
+    "label": "Indexing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\query-optimization@4L9UQ4oaaK3wZwOLIMa6T.md"
+  },
+  {
+    "id": "4L9UQ4oaaK3wZwOLIMa6T",
+    "old_id": "K09-nD6xF5YJUQBBpFXMz",
+    "type": "subtopic",
+    "label": "Query Optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\spark@K09-nD6xF5YJUQBBpFXMz.md"
+  },
+  {
+    "id": "LC923iJhfiUDIs_0-9rc7",
+    "old_id": "PuRlxMpnjEZt3E3m7Hgzw",
+    "type": "topic",
+    "label": "MongoDB Security",
+    "resources": []
+  },
+  {
+    "id": "yRJ6jeysFXBpwLEqvrdKk",
+    "old_id": "w1L-yFBM2AyeNBFyH5skW",
+    "type": "subtopic",
+    "label": "Role-based Access Control",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-audit@w1L-yFBM2AyeNBFyH5skW.md"
+  },
+  {
+    "id": "NV39oWwr7iB_dnlnD_Q6Y",
+    "old_id": "w1L-yFBM2AyeNBFyH5skW",
+    "type": "subtopic",
+    "label": "X.509 Certificate Auth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-audit@w1L-yFBM2AyeNBFyH5skW.md"
+  },
+  {
+    "id": "YuzMOO7kf2tO6V6WehqF_",
+    "old_id": "5F7zAAnvnVTTnBzOB7TSu",
+    "type": "subtopic",
+    "label": "Kerberos Authentication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\tls--ssl-encryption@5F7zAAnvnVTTnBzOB7TSu.md"
+  },
+  {
+    "id": "NoDNdno9UOlMrOC0Wga9E",
+    "old_id": "w1L-yFBM2AyeNBFyH5skW",
+    "type": "subtopic",
+    "label": "LDAP Proxy Auth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-audit@w1L-yFBM2AyeNBFyH5skW.md"
+  },
+  {
+    "id": "w1L-yFBM2AyeNBFyH5skW",
+    "old_id": "JAosQ9tFj7y70lGQ0vHzC",
+    "type": "subtopic",
+    "label": "MongoDB Audit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\kafka@JAosQ9tFj7y70lGQ0vHzC.md"
+  },
+  {
+    "id": "iJjqlTgXxHWC-8bh6uCGQ",
+    "old_id": "5F7zAAnvnVTTnBzOB7TSu",
+    "type": "subtopic",
+    "label": "Encryption at Rest",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\tls--ssl-encryption@5F7zAAnvnVTTnBzOB7TSu.md"
+  },
+  {
+    "id": "LpfuM6SuhlNNjBcHM68ee",
+    "old_id": "5F7zAAnvnVTTnBzOB7TSu",
+    "type": "subtopic",
+    "label": "Queryable Encryption",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\tls--ssl-encryption@5F7zAAnvnVTTnBzOB7TSu.md"
+  },
+  {
+    "id": "YJiWemHO1l5q9WhgoHyYd",
+    "old_id": "5F7zAAnvnVTTnBzOB7TSu",
+    "type": "subtopic",
+    "label": "Client-Side Field Level",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\tls--ssl-encryption@5F7zAAnvnVTTnBzOB7TSu.md"
+  },
+  {
+    "id": "5F7zAAnvnVTTnBzOB7TSu",
+    "old_id": "w1L-yFBM2AyeNBFyH5skW",
+    "type": "subtopic",
+    "label": "TLS / SSL Encryption",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mongodb\\content\\mongodb-audit@w1L-yFBM2AyeNBFyH5skW.md"
+  }
+]

@@ -1,0 +1,1549 @@
+{
+  "slug": "frontend",
+  "title": "Frontend",
+  "nodes": [
+    {
+      "id": "jJebnKe4JftMXZ1lCsipq",
+      "old_id": "iogwMmOvub2ZF4zgg6WyF",
+      "type": "title",
+      "label": "Front-end",
+      "resources": []
+    },
+    {
+      "id": "VlNNwIEDWqQXtqkHWJYzC",
+      "old_id": "_hYN0gEi9BL24nptEtXWU",
+      "type": "topic",
+      "label": "Internet",
+      "resources": []
+    },
+    {
+      "id": "yCnn-NfSxIybUQ2iTuUGq",
+      "old_id": "idLHBxhvcIqZTqmh_E8Az",
+      "type": "subtopic",
+      "label": "How does the internet work?",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "R12sArWVpbIs_PHxBqVaR",
+      "old_id": "os3Pa6W9SSNEzgmlBbglQ",
+      "type": "subtopic",
+      "label": "What is HTTP?",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "ZhSuu2VArnzPDp6dPQQSC",
+      "old_id": "3oInpqvTSSC5_K6i7j8N7",
+      "type": "subtopic",
+      "label": "What is Domain Name?",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "aqMaEY8gkKMikiqleV5EP",
+      "old_id": "gRjFXRwpOwoyd15PHVpdB",
+      "type": "subtopic",
+      "label": "What is hosting?",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "hkxw9jPGYphmjhTjw8766",
+      "old_id": "YKhuRbcUFzo0hTvuTq-Yl",
+      "type": "subtopic",
+      "label": "DNS and how it works?",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "P82WFaTPgQEPNp5IIuZ1Y",
+      "old_id": "CPRpuk76c9-wuIffEfu87",
+      "type": "subtopic",
+      "label": "Browsers and how they work?",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "yWG2VUkaF5IJVVut6AiSy",
+      "old_id": "U0Pn4yFrx6D4CwpUolzOm",
+      "type": "topic",
+      "label": "HTML",
+      "resources": [
+        {
+          "title": "MDN HTML Basics",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"
+        }
+      ]
+    },
+    {
+      "id": "PCirR2QiFYO89Fm-Ev3o1",
+      "old_id": "JdTNyawEIHeBgq5p2ELwy",
+      "type": "subtopic",
+      "label": "Learn the basics",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "z8-556o-PaHXjlytrawaF",
+      "old_id": "08aXk7pJXz4gkrXyrmGky",
+      "type": "subtopic",
+      "label": "Writing Semantic HTML",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "V5zucKEHnIPPjwHqsMPHF",
+      "old_id": "yxcsIStIXMiZslCu1DPV5",
+      "type": "subtopic",
+      "label": "Forms and Validations",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "iJIqi7ngpGHWAqtgdjgxB",
+      "old_id": "jZcqyxmIvdqnxGDhbHqxk",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "mH_qff8R7R6eLQ1tPHLgG",
+      "old_id": "yfirDE1KGIU9ryXQxg4qT",
+      "type": "subtopic",
+      "label": "SEO Basics",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "ZhJhf1M2OphYbEmduFq-9",
+      "old_id": "9oRqCFPmznk6bMFAtH0gZ",
+      "type": "topic",
+      "label": "CSS",
+      "resources": []
+    },
+    {
+      "id": "YFjzPKWDwzrgk2HUX952L",
+      "old_id": "zdnKDruFT-mwYhyItM5px",
+      "type": "subtopic",
+      "label": "Learn the basics",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "dXeYVMXv-3MRQ1ovOUuJW",
+      "old_id": "lmnqgHgt45-mXqKnW4Y_M",
+      "type": "subtopic",
+      "label": "Making Layouts",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "TKtWmArHn7elXRJdG6lDQ",
+      "old_id": "T04FRCIzpGmFMji5LiDQ5",
+      "type": "subtopic",
+      "label": "Responsive Design",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "ODcfFEorkfJNupoQygM53",
+      "old_id": "MD3yDMZpJqEcjQpJQtigd",
+      "type": "topic",
+      "label": "JavaScript",
+      "resources": []
+    },
+    {
+      "id": "A4brX0efjZ0FFPTB4r6U0",
+      "old_id": "ZHFZBySpPJwJH3UDwJ9HY",
+      "type": "subtopic",
+      "label": "Fetch API / Ajax (XHR)",
+      "resources": []
+    },
+    {
+      "id": "0MAogsAID9R04R5TTO2Qa",
+      "old_id": "f-zv32_OdWNMXej3w6q1J",
+      "type": "subtopic",
+      "label": "Learn DOM Manipulation",
+      "resources": []
+    },
+    {
+      "id": "wQSjQqwKHfn5RGPk34BWI",
+      "old_id": "HDznTGgbYd3Z-gtDWSt9M",
+      "type": "subtopic",
+      "label": "Learn the Basics",
+      "resources": []
+    },
+    {
+      "id": "MXnFhZlNB1zTsBFDyni9H",
+      "old_id": "hRzglhOCM-mgmA7sPQI_J",
+      "type": "topic",
+      "label": "VCS Hosting",
+      "resources": []
+    },
+    {
+      "id": "NIY7c4TQEEHx0hATu-k5C",
+      "old_id": "UDis-1MAyLHwxm4wdJrbE",
+      "type": "topic",
+      "label": "Version Control Systems",
+      "resources": []
+    },
+    {
+      "id": "R_I4SGYqLk5zze5I1zS_E",
+      "old_id": "mi9YYg2qoXHHZm4LMZZMi",
+      "type": "subtopic",
+      "label": "Git",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "IqvS1V-98cxko3e9sBQgP",
+      "old_id": "Jr2sD2Mn0oGGTnTYggWRZ",
+      "type": "topic",
+      "label": "Package Managers",
+      "resources": []
+    },
+    {
+      "id": "qmTVMJDsEhNIkiwE_UTYu",
+      "old_id": "YFe7BDbyGA_iiDUkx6oqq",
+      "type": "subtopic",
+      "label": "GitHub",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "zIoSJMX3cuzCgDYHjgbEh",
+      "old_id": "bxr3QfV0O9CTeAePaV-vc",
+      "type": "subtopic",
+      "label": "GitLab",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "DILBiQp7WWgSZ5hhtDW6A",
+      "old_id": "Uz1bEMwz1z_Bnm7IpZtUt",
+      "type": "subtopic",
+      "label": "Bitbucket",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "yrq3nOwFREzl-9EKnpU-e",
+      "old_id": "aHMTzaoKeju0JmnKcL5Zf",
+      "type": "subtopic",
+      "label": "yarn",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "SLxA5qJFp_28TRzr1BjxZ",
+      "old_id": "I8DtxaKfOiZV7z7cIjBp1",
+      "type": "subtopic",
+      "label": "pnpm",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "ib_FHinhrw8VuSet-xMF7",
+      "old_id": "ci4QooZfv4b4V_dbHdBVy",
+      "type": "subtopic",
+      "label": "npm",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "eXezX7CVNyC1RuyU_I4yP",
+      "old_id": "qluZto0GSnGcLKzo5aPvG",
+      "type": "topic",
+      "label": "Pick a Framework",
+      "resources": []
+    },
+    {
+      "id": "-bHFIiXnoUQSov64WI9yo",
+      "old_id": "_mAZxK-bYwb0YSGi3_TYf",
+      "type": "subtopic",
+      "label": "Angular",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "ERAdwL1G9M1bnx-fOm5ZA",
+      "old_id": "wULFs38svyl-2rFOZU_6O",
+      "type": "subtopic",
+      "label": "Vue.js",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "tG5v3O4lNIFc2uCnacPak",
+      "old_id": "uIal-YNBZj87IUQkpesPY",
+      "type": "subtopic",
+      "label": "React",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "ZR-qZ2Lcbu3FtqaMd3wM4",
+      "old_id": "a99SLXPb90SKSYlKnLZ2V",
+      "type": "subtopic",
+      "label": "Svelte",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "DxOSKnqAjZOPP-dq_U7oP",
+      "old_id": "76_HsxbNz3Hx_ceupTc7d",
+      "type": "subtopic",
+      "label": "Solid JS",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "N5DCb6bDfgUnSdHPLYY4g",
+      "old_id": "plpeLEvJgqN8v_koc8zMf",
+      "type": "subtopic",
+      "label": "Qwik",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "XDTD8el6OwuQ55wC-X4iV",
+      "old_id": "mVB2SuMdWlS4iboXkZmmi",
+      "type": "topic",
+      "label": "Writing CSS",
+      "resources": []
+    },
+    {
+      "id": "eghnfG4p7i-EDWfp3CQXC",
+      "old_id": "URZEGnsvxsqA6di6RPE-9",
+      "type": "subtopic",
+      "label": "Tailwind",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "nPg_YWpMJtlhU2t2UD_6B",
+      "old_id": "Hywq64knVVo-ueMDlWIlV",
+      "type": "topic",
+      "label": "CSS Architecture",
+      "resources": []
+    },
+    {
+      "id": "UTW1pP59dUehuf0zeHXqL",
+      "old_id": "OtOD2ta89JI6LB-b5Rn41",
+      "type": "topic",
+      "label": "CSS Preprocessors",
+      "resources": []
+    },
+    {
+      "id": "dRDmS072xeNLX7p_X565w",
+      "old_id": "tFTf8ShyBFo8WqHmRKGf3",
+      "type": "subtopic",
+      "label": "BEM",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "kukEE5rMSPa4NeNjx21kt",
+      "old_id": "bzo4iJ2GaxRX1g7COIrsO",
+      "type": "subtopic",
+      "label": "Sass",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "9WlPENh9g1xOv-zA64Tfg",
+      "old_id": "FuupAErYJB5_9EYcs8Ltg",
+      "type": "subtopic",
+      "label": "PostCSS",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "i9z0stM4uKu27Cz6NIgNX",
+      "old_id": "UUDkLxmojRYcDTpuyVFDj",
+      "type": "topic",
+      "label": "Build Tools",
+      "resources": []
+    },
+    {
+      "id": "9VcGfDBBD8YcKatj4VcH1",
+      "old_id": "f-3gf76yb-ihCOPTT30YX",
+      "type": "topic",
+      "label": "Linters and Formatters",
+      "resources": []
+    },
+    {
+      "id": "hkSc_1x09m7-7BO7WzlDT",
+      "old_id": "aQtOJsbkiuRhDqxhVWNlQ",
+      "type": "topic",
+      "label": "Module Bundlers",
+      "resources": []
+    },
+    {
+      "id": "NS-hwaWa5ebSmNNRoxFDp",
+      "old_id": "Fd8mOgQYENGkAU8W0LSkw",
+      "type": "subtopic",
+      "label": "Parcel",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "sCjErk7rfWAUvhl8Kfm3n",
+      "old_id": "gyF7FgAkwZ88w61m22Rjf",
+      "type": "subtopic",
+      "label": "Rollup",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "twufEtHgxcRUWAUQ9bXus",
+      "old_id": "3xtpc7w31zyKpNs8LTr6F",
+      "type": "subtopic",
+      "label": "Webpack",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "4W7UXfdKIUsm1bUrjdTVT",
+      "old_id": "t_hNHvx8q5HdzSoWmAEGo",
+      "type": "subtopic",
+      "label": "esbuild",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "0Awx3zEI5_gYEIrD7IVX6",
+      "old_id": "K4VjGtyD8zVFUMDMywTYM",
+      "type": "subtopic",
+      "label": "Vite",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "zbkpu_gvQ4mgCiZKzS1xv",
+      "old_id": "_TRZgdEjj_B-DQe2Vxrrm",
+      "type": "subtopic",
+      "label": "Prettier",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "NFjsI712_qP0IOmjuqXar",
+      "old_id": "8SvBv3DDaXg2G8m9Hf7-g",
+      "type": "subtopic",
+      "label": "ESLint",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "igg4_hb3XE3vuvY8ufV-4",
+      "old_id": "M-Oj3xklWJVhnuu_8M9LV",
+      "type": "topic",
+      "label": "Testing",
+      "resources": []
+    },
+    {
+      "id": "hVQ89f6G0LXEgHIOKHDYq",
+      "old_id": "-mSYXMk_uhUAoQAwBhxgp",
+      "type": "subtopic",
+      "label": "Vitest",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "g5itUjgRXd9vs9ujHezFl",
+      "old_id": "3JyKZE1jB43Hq3GlG1hvn",
+      "type": "subtopic",
+      "label": "Jest",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "jramLk8FGuaEH4YpHIyZT",
+      "old_id": "matNxmkGq8gg-UQ_cSNPd",
+      "type": "subtopic",
+      "label": "Playwright",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "DaynCz5RR26gjT6N6gTDL",
+      "old_id": "2MeMVJVJchEHBt2R3lyzw",
+      "type": "subtopic",
+      "label": "Cypress",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "U5mD5FmVx7VWeKxDpQxB5",
+      "old_id": "5W4R31waHlBLMPk8HEHjt",
+      "type": "topic",
+      "label": "Authentication Strategies",
+      "resources": []
+    },
+    {
+      "id": "RDWbG3Iui6IPgp0shvXtg",
+      "old_id": "yGexInV1evZLDnA6E4-Ta",
+      "type": "topic",
+      "label": "Web Security Basics",
+      "resources": []
+    },
+    {
+      "id": "AfH2zCbqzw0Nisg1yyISS",
+      "old_id": "AiFQoD09X9K36nmgsH1Aj",
+      "type": "subtopic",
+      "label": "CORS",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "uum7vOhOUR38vLuGZy8Oa",
+      "old_id": "smz9DaF6gwWdob_lyMYzt",
+      "type": "subtopic",
+      "label": "HTTPS",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "rmcm0CZbtNVC9LZ14-H6h",
+      "old_id": "xAu1DT2aO5IzvaDrjYB0M",
+      "type": "subtopic",
+      "label": "Content Security Policy",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "JanR7I_lNnUCXhCMGLdn-",
+      "old_id": "kUy5HzWZoQm4YEDM6SYnL",
+      "type": "subtopic",
+      "label": "OWASP Security Risks",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "ruoFa3M4bUE3Dg6GXSiUI",
+      "old_id": "bxdQ2Kh_6OA6zABiQDMzW",
+      "type": "topic",
+      "label": "Web Components",
+      "resources": []
+    },
+    {
+      "id": "hwPOGT0-duy3KfI8QaEwF",
+      "old_id": "E15W2UbKUcQ2SIEOKjHnF",
+      "type": "topic",
+      "label": "Type Checkers",
+      "resources": []
+    },
+    {
+      "id": "VxiQPgcYDFAT6WgSRWpIA",
+      "old_id": "9bxoRhitbZNn5b0IoJYBg",
+      "type": "subtopic",
+      "label": "Custom Elements",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "Hk8AVonOd693_y1sykPqd",
+      "old_id": "fexS9SQR_oUMMyvCFfQHx",
+      "type": "subtopic",
+      "label": "HTML Templates",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "-SpsNeOZBkQfDA-rwzgPg",
+      "old_id": "9uwJS2bEPM1-b5w-clIgW",
+      "type": "subtopic",
+      "label": "Shadow DOM",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "0asdhvwBH3gn-ercktV7A",
+      "old_id": "zNxwUyEsGPseh4i7l052C",
+      "type": "subtopic",
+      "label": "TypeScript",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "Cxspmb14_0i1tfw-ZLxEu",
+      "old_id": "9xcixG6DhtFqzvrdVC-iR",
+      "type": "topic",
+      "label": "SSR",
+      "resources": []
+    },
+    {
+      "id": "OL8I6nOZ8hGGWmtxg_Mv8",
+      "old_id": "E2W0AJDq7IWWEyTJeixyG",
+      "type": "subtopic",
+      "label": "Svelte",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "3TE_iYvbklXK0be-5f2M7",
+      "old_id": "5iKf8ERxF8x8-DjoxqpLz",
+      "type": "subtopic",
+      "label": "Vue.js",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "k6rp6Ua9qUEW_DA_fOg5u",
+      "old_id": "5EmJofW_K7cJuv71au2TV",
+      "type": "subtopic",
+      "label": "Angular",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "SGDf_rbfmFSHlxI-Czzlz",
+      "old_id": "9GxkJoUjCQxG6gx8_3SGV",
+      "type": "subtopic",
+      "label": "React",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "KJRkrFZIihCUBrOf579EU",
+      "old_id": "Bd2XFblDYF5a58H8rT-xD",
+      "type": "subtopic",
+      "label": "react-router",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "zNFYAJaSq0YZXL5Rpx1NX",
+      "old_id": "XEBjJw31qtoP0giNeTIOb",
+      "type": "subtopic",
+      "label": "Next.js",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "BBsXxkbbEG-gnbM1xXKrj",
+      "old_id": "bzDexz0i_3O-0CZxeVz__",
+      "type": "subtopic",
+      "label": "Nuxt.js",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "P4st_telfCwKLSAU2WsQP",
+      "old_id": "eLRQ4TTquWmk5ElFO8bUs",
+      "type": "subtopic",
+      "label": "Svelte Kit",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "L7AllJfKvClaam3y-u6DP",
+      "old_id": "pbcrQq92xWLdgHQjcv1B-",
+      "type": "topic",
+      "label": "GraphQL",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "5eUbDdOTOfaOhUlZAmmXW",
+      "old_id": "T8XBkJc3CQ0OeNbir3aIB",
+      "type": "subtopic",
+      "label": "Apollo",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "0moPO23ol33WsjVXSpTGf",
+      "old_id": "ao2xbMKjWdjJuYzmxWewu",
+      "type": "subtopic",
+      "label": "Relay Modern",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "n0q32YhWEIAUwbGXexoqV",
+      "old_id": "Byp3BhV5zTeER5tUPogqW",
+      "type": "topic",
+      "label": "Static Site Generators",
+      "resources": []
+    },
+    {
+      "id": "CMrss8E2W0eA6DVEqtPjT",
+      "old_id": "SUBnFEyi6Us6fXRh6D6TE",
+      "type": "subtopic",
+      "label": "Vuepress",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "XWJxV42Dpu2D3xDK10Pn3",
+      "old_id": "vKK8jvUcXrJF_VNJtrZ9F",
+      "type": "subtopic",
+      "label": "Nuxt.js",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "iUxXq7beg55y76dkwhM13",
+      "old_id": "rRf68iRg_Jtn_jGBayLxQ",
+      "type": "subtopic",
+      "label": "Astro",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "io0RHJWIcVxDhcYkV9d38",
+      "old_id": "hWWOyclt4hWJmbMvPBt5i",
+      "type": "subtopic",
+      "label": "Eleventy",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "V70884VcuXkfrfHyLGtUg",
+      "old_id": "2d9PRh48NLgCKvMRUP9Mp",
+      "type": "subtopic",
+      "label": "Next.js",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "PoM77O2OtxPELxfrW1wtl",
+      "old_id": "z2-TJ71VFM7LKPXaCKe2T",
+      "type": "topic",
+      "label": "PWAs",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "VOGKiG2EZVfCBAaa7Df0W",
+      "old_id": "1Cr9EEM5MLBlE8pquMlbZ",
+      "type": "topic",
+      "label": "Mobile Apps",
+      "resources": [],
+      "legend": {
+        "color": "#929292",
+        "label": "Order not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "dsTegXTyupjS8iU6I7Xiv",
+      "old_id": "kkmRxX5txOVNalze5qbFt",
+      "type": "subtopic",
+      "label": "React Native",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "dIQXjFEUAJAGxxfAYceHU",
+      "old_id": "E6CO-PPeanNHM3VmHlOj_",
+      "type": "subtopic",
+      "label": "Flutter",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "xmRv6-L45m5MDpHmdHFCL",
+      "old_id": "Lwn9ABE_c54DSVxC_Xqqd",
+      "type": "subtopic",
+      "label": "Ionic",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "KMA7NkxFbPoUDtFnGBFnj",
+      "old_id": "0shXGvdS3IlJgBvHoQuDm",
+      "type": "topic",
+      "label": "Desktop Apps",
+      "resources": []
+    },
+    {
+      "id": "OIcmPSbdsuWapb6HZ4BEi",
+      "old_id": "cmSSwPPiiHwYh9ct14N6A",
+      "type": "button",
+      "label": "TypeScript",
+      "resources": []
+    },
+    {
+      "id": "qXKNK_IsGS8-JgLK-Q9oU",
+      "old_id": "U309TNZ3yUYyAmP33dOt1",
+      "type": "button",
+      "label": "Nodejs",
+      "resources": []
+    },
+    {
+      "id": "mQHpSyMR4Rra4mqAslgiS",
+      "old_id": "oT8ChWye8YxdMuD0Ju9cb",
+      "type": "subtopic",
+      "label": "Electron",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "GJctl0tVXe4B70s35RkLT",
+      "old_id": "Wkhxb3Ax0Qlt61QpuwVXH",
+      "type": "subtopic",
+      "label": "Tauri",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "2MRvAK9G9RGM_auWytcKh",
+      "old_id": "vicOyCmPv4Nj_QQnP6_Y4",
+      "type": "subtopic",
+      "label": "Flutter",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      }
+    },
+    {
+      "id": "-DsETM9xLgHyGZthptj1Y",
+      "old_id": "xD5WfEP7Ez0oi3890UgmH",
+      "type": "subtopic",
+      "label": "PRPL Pattern",
+      "resources": []
+    },
+    {
+      "id": "xD5WfEP7Ez0oi3890UgmH",
+      "old_id": "xD5WfEP7Ez0oi3890UgmH",
+      "type": "subtopic",
+      "label": "RAIL Model",
+      "resources": []
+    },
+    {
+      "id": "X0Y3-IpPiFUCsNDK4RFxw",
+      "old_id": "3_sJHKTogkDoCjR518-OL",
+      "type": "subtopic",
+      "label": "Performance Metrics",
+      "resources": []
+    },
+    {
+      "id": "RIhHMHLsLLPhNl05Q9aBf",
+      "old_id": "3_sJHKTogkDoCjR518-OL",
+      "type": "subtopic",
+      "label": "Using Lighthouse",
+      "resources": []
+    },
+    {
+      "id": "3_sJHKTogkDoCjR518-OL",
+      "old_id": "xD5WfEP7Ez0oi3890UgmH",
+      "type": "subtopic",
+      "label": "Using DevTools",
+      "resources": []
+    },
+    {
+      "id": "mB3hZvAfRr6kCEbF6t-yz",
+      "old_id": "mB3hZvAfRr6kCEbF6t-yz",
+      "type": "button",
+      "label": "Performance Best Practices",
+      "resources": []
+    },
+    {
+      "id": "raoa-75p_DyBAycvy3yVv",
+      "old_id": "-DsETM9xLgHyGZthptj1Y",
+      "type": "subtopic",
+      "label": "Storage",
+      "resources": []
+    },
+    {
+      "id": "NDJR8UCoa31v45TBFP7we",
+      "old_id": "xD5WfEP7Ez0oi3890UgmH",
+      "type": "subtopic",
+      "label": "Web Sockets",
+      "resources": []
+    },
+    {
+      "id": "doPe92aUpo-8KWhi45lWK",
+      "old_id": "X0Y3-IpPiFUCsNDK4RFxw",
+      "type": "subtopic",
+      "label": "Server Sent Events",
+      "resources": []
+    },
+    {
+      "id": "TldWoXiqKxM4X3JONKAR7",
+      "old_id": "RIhHMHLsLLPhNl05Q9aBf",
+      "type": "subtopic",
+      "label": "Service Workers",
+      "resources": []
+    },
+    {
+      "id": "YbGGYoKJEx29PlvopUBiM",
+      "old_id": "YbGGYoKJEx29PlvopUBiM",
+      "type": "subtopic",
+      "label": "Location",
+      "resources": []
+    },
+    {
+      "id": "6AlcArOiJMhHXguAosDzn",
+      "old_id": "opu2bAsmdWHqWqtsCscLC",
+      "type": "subtopic",
+      "label": "Notifications",
+      "resources": []
+    },
+    {
+      "id": "Fd0hQh1DleM0gMzCpGou4",
+      "old_id": "opu2bAsmdWHqWqtsCscLC",
+      "type": "subtopic",
+      "label": "Device Orientation",
+      "resources": []
+    },
+    {
+      "id": "MAM1nuVk-h4AvTUk4nvmj",
+      "old_id": "opu2bAsmdWHqWqtsCscLC",
+      "type": "subtopic",
+      "label": "Payments",
+      "resources": []
+    },
+    {
+      "id": "opu2bAsmdWHqWqtsCscLC",
+      "old_id": "YbGGYoKJEx29PlvopUBiM",
+      "type": "subtopic",
+      "label": "Credentials",
+      "resources": []
+    },
+    {
+      "id": "h26uS3muFCabe6ekElZcI",
+      "old_id": "4W7UXfdKIUsm1bUrjdTVT",
+      "type": "subtopic",
+      "label": "SWC",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\frontend\\content\\esbuild@4W7UXfdKIUsm1bUrjdTVT.md"
+    },
+    {
+      "id": "dnVfC9N76qvTGKO9B-AW7",
+      "old_id": "dnVfC9N76qvTGKO9B-AW7",
+      "type": "label",
+      "label": "JWT, OAuth, SSO, Basic Auth, Session Auth",
+      "resources": []
+    },
+    {
+      "id": "qN-6iiXWgn5qSzK3o0Tjo",
+      "old_id": "qN-6iiXWgn5qSzK3o0Tjo",
+      "type": "legend",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "wA2fSYsbBYU02VJXAvUz8",
+      "old_id": "zNFYAJaSq0YZXL5Rpx1NX",
+      "type": "subtopic",
+      "label": "Astro",
+      "resources": [],
+      "legend": {
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\frontend\\content\\nextjs@zNFYAJaSq0YZXL5Rpx1NX.md"
+    },
+    {
+      "id": "_A1szF2RfITS21ZkihdVU",
+      "old_id": "dnVfC9N76qvTGKO9B-AW7",
+      "type": "label",
+      "label": "Browser APIs",
+      "resources": []
+    },
+    {
+      "id": "tJHq39GljlEahhhur11NE",
+      "old_id": "_A1szF2RfITS21ZkihdVU",
+      "type": "label",
+      "label": "Measure & Improve Perf.",
+      "resources": []
+    },
+    {
+      "id": "-sFboM4eFUMVq1tlPl-fV",
+      "old_id": "qXKNK_IsGS8-JgLK-Q9oU",
+      "type": "button",
+      "label": "Fullstack",
+      "resources": []
+    },
+    {
+      "id": "MfErpYwkJ0wiWJZEUVfrb",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "Visit Beginner Friendly Version",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "jJebnKe4JftMXZ1lCsipq",
+      "target": "VlNNwIEDWqQXtqkHWJYzC"
+    },
+    {
+      "source": "VlNNwIEDWqQXtqkHWJYzC",
+      "target": "yCnn-NfSxIybUQ2iTuUGq"
+    },
+    {
+      "source": "VlNNwIEDWqQXtqkHWJYzC",
+      "target": "R12sArWVpbIs_PHxBqVaR"
+    },
+    {
+      "source": "VlNNwIEDWqQXtqkHWJYzC",
+      "target": "ZhSuu2VArnzPDp6dPQQSC"
+    },
+    {
+      "source": "VlNNwIEDWqQXtqkHWJYzC",
+      "target": "aqMaEY8gkKMikiqleV5EP"
+    },
+    {
+      "source": "VlNNwIEDWqQXtqkHWJYzC",
+      "target": "hkxw9jPGYphmjhTjw8766"
+    },
+    {
+      "source": "VlNNwIEDWqQXtqkHWJYzC",
+      "target": "P82WFaTPgQEPNp5IIuZ1Y"
+    },
+    {
+      "source": null,
+      "target": "eghnfG4p7i-EDWfp3CQXC"
+    },
+    {
+      "source": null,
+      "target": "hVQ89f6G0LXEgHIOKHDYq"
+    },
+    {
+      "source": null,
+      "target": "dsTegXTyupjS8iU6I7Xiv"
+    },
+    {
+      "source": null,
+      "target": "mQHpSyMR4Rra4mqAslgiS"
+    },
+    {
+      "source": null,
+      "target": "mQHpSyMR4Rra4mqAslgiS"
+    },
+    {
+      "source": null,
+      "target": "0-AijuwIdYdGuiNnne4Yg"
+    },
+    {
+      "source": "VlNNwIEDWqQXtqkHWJYzC",
+      "target": "yWG2VUkaF5IJVVut6AiSy"
+    },
+    {
+      "source": "yWG2VUkaF5IJVVut6AiSy",
+      "target": "mH_qff8R7R6eLQ1tPHLgG"
+    },
+    {
+      "source": "ZhJhf1M2OphYbEmduFq-9",
+      "target": "YFjzPKWDwzrgk2HUX952L"
+    },
+    {
+      "source": "ZhJhf1M2OphYbEmduFq-9",
+      "target": "dXeYVMXv-3MRQ1ovOUuJW"
+    },
+    {
+      "source": "ZhJhf1M2OphYbEmduFq-9",
+      "target": "TKtWmArHn7elXRJdG6lDQ"
+    },
+    {
+      "source": "ZhJhf1M2OphYbEmduFq-9",
+      "target": "yWG2VUkaF5IJVVut6AiSy"
+    },
+    {
+      "source": "ODcfFEorkfJNupoQygM53",
+      "target": "ZhJhf1M2OphYbEmduFq-9"
+    },
+    {
+      "source": "ODcfFEorkfJNupoQygM53",
+      "target": "wQSjQqwKHfn5RGPk34BWI"
+    },
+    {
+      "source": "ODcfFEorkfJNupoQygM53",
+      "target": "0MAogsAID9R04R5TTO2Qa"
+    },
+    {
+      "source": "ODcfFEorkfJNupoQygM53",
+      "target": "A4brX0efjZ0FFPTB4r6U0"
+    },
+    {
+      "source": "ODcfFEorkfJNupoQygM53",
+      "target": "NIY7c4TQEEHx0hATu-k5C"
+    },
+    {
+      "source": "NIY7c4TQEEHx0hATu-k5C",
+      "target": "MXnFhZlNB1zTsBFDyni9H"
+    },
+    {
+      "source": "NIY7c4TQEEHx0hATu-k5C",
+      "target": "R_I4SGYqLk5zze5I1zS_E"
+    },
+    {
+      "source": "MXnFhZlNB1zTsBFDyni9H",
+      "target": "DILBiQp7WWgSZ5hhtDW6A"
+    },
+    {
+      "source": "MXnFhZlNB1zTsBFDyni9H",
+      "target": "IqvS1V-98cxko3e9sBQgP"
+    },
+    {
+      "source": "IqvS1V-98cxko3e9sBQgP",
+      "target": "SLxA5qJFp_28TRzr1BjxZ"
+    },
+    {
+      "source": "IqvS1V-98cxko3e9sBQgP",
+      "target": "ib_FHinhrw8VuSet-xMF7"
+    },
+    {
+      "source": "IqvS1V-98cxko3e9sBQgP",
+      "target": "yrq3nOwFREzl-9EKnpU-e"
+    },
+    {
+      "source": "IqvS1V-98cxko3e9sBQgP",
+      "target": "eXezX7CVNyC1RuyU_I4yP"
+    },
+    {
+      "source": "eXezX7CVNyC1RuyU_I4yP",
+      "target": "-bHFIiXnoUQSov64WI9yo"
+    },
+    {
+      "source": "eXezX7CVNyC1RuyU_I4yP",
+      "target": "tG5v3O4lNIFc2uCnacPak"
+    },
+    {
+      "source": "eXezX7CVNyC1RuyU_I4yP",
+      "target": "ERAdwL1G9M1bnx-fOm5ZA"
+    },
+    {
+      "source": "eXezX7CVNyC1RuyU_I4yP",
+      "target": "ZR-qZ2Lcbu3FtqaMd3wM4"
+    },
+    {
+      "source": "eXezX7CVNyC1RuyU_I4yP",
+      "target": "DxOSKnqAjZOPP-dq_U7oP"
+    },
+    {
+      "source": "eXezX7CVNyC1RuyU_I4yP",
+      "target": "N5DCb6bDfgUnSdHPLYY4g"
+    },
+    {
+      "source": "eXezX7CVNyC1RuyU_I4yP",
+      "target": "XDTD8el6OwuQ55wC-X4iV"
+    },
+    {
+      "source": "XDTD8el6OwuQ55wC-X4iV",
+      "target": "eghnfG4p7i-EDWfp3CQXC"
+    },
+    {
+      "source": "XDTD8el6OwuQ55wC-X4iV",
+      "target": "nPg_YWpMJtlhU2t2UD_6B"
+    },
+    {
+      "source": "dRDmS072xeNLX7p_X565w",
+      "target": "nPg_YWpMJtlhU2t2UD_6B"
+    },
+    {
+      "source": "nPg_YWpMJtlhU2t2UD_6B",
+      "target": "UTW1pP59dUehuf0zeHXqL"
+    },
+    {
+      "source": "i9z0stM4uKu27Cz6NIgNX",
+      "target": "hkSc_1x09m7-7BO7WzlDT"
+    },
+    {
+      "source": "i9z0stM4uKu27Cz6NIgNX",
+      "target": "9VcGfDBBD8YcKatj4VcH1"
+    },
+    {
+      "source": "hkSc_1x09m7-7BO7WzlDT",
+      "target": "0Awx3zEI5_gYEIrD7IVX6"
+    },
+    {
+      "source": "hkSc_1x09m7-7BO7WzlDT",
+      "target": "4W7UXfdKIUsm1bUrjdTVT"
+    },
+    {
+      "source": "hkSc_1x09m7-7BO7WzlDT",
+      "target": "twufEtHgxcRUWAUQ9bXus"
+    },
+    {
+      "source": "hkSc_1x09m7-7BO7WzlDT",
+      "target": "sCjErk7rfWAUvhl8Kfm3n"
+    },
+    {
+      "source": "hkSc_1x09m7-7BO7WzlDT",
+      "target": "NS-hwaWa5ebSmNNRoxFDp"
+    },
+    {
+      "source": "UTW1pP59dUehuf0zeHXqL",
+      "target": "i9z0stM4uKu27Cz6NIgNX"
+    },
+    {
+      "source": "i9z0stM4uKu27Cz6NIgNX",
+      "target": "igg4_hb3XE3vuvY8ufV-4"
+    },
+    {
+      "source": "igg4_hb3XE3vuvY8ufV-4",
+      "target": "jramLk8FGuaEH4YpHIyZT"
+    },
+    {
+      "source": "igg4_hb3XE3vuvY8ufV-4",
+      "target": "g5itUjgRXd9vs9ujHezFl"
+    },
+    {
+      "source": "igg4_hb3XE3vuvY8ufV-4",
+      "target": "U5mD5FmVx7VWeKxDpQxB5"
+    },
+    {
+      "source": "RDWbG3Iui6IPgp0shvXtg",
+      "target": "JanR7I_lNnUCXhCMGLdn-"
+    },
+    {
+      "source": "U5mD5FmVx7VWeKxDpQxB5",
+      "target": "RDWbG3Iui6IPgp0shvXtg"
+    },
+    {
+      "source": "RDWbG3Iui6IPgp0shvXtg",
+      "target": "ruoFa3M4bUE3Dg6GXSiUI"
+    },
+    {
+      "source": "ruoFa3M4bUE3Dg6GXSiUI",
+      "target": "Hk8AVonOd693_y1sykPqd"
+    },
+    {
+      "source": "ruoFa3M4bUE3Dg6GXSiUI",
+      "target": "hwPOGT0-duy3KfI8QaEwF"
+    },
+    {
+      "source": "hwPOGT0-duy3KfI8QaEwF",
+      "target": "0asdhvwBH3gn-ercktV7A"
+    },
+    {
+      "source": "3TE_iYvbklXK0be-5f2M7",
+      "target": "BBsXxkbbEG-gnbM1xXKrj"
+    },
+    {
+      "source": "OL8I6nOZ8hGGWmtxg_Mv8",
+      "target": "P4st_telfCwKLSAU2WsQP"
+    },
+    {
+      "source": "L7AllJfKvClaam3y-u6DP",
+      "target": "0moPO23ol33WsjVXSpTGf"
+    },
+    {
+      "source": "n0q32YhWEIAUwbGXexoqV",
+      "target": "VOGKiG2EZVfCBAaa7Df0W"
+    },
+    {
+      "source": "KMA7NkxFbPoUDtFnGBFnj",
+      "target": "mQHpSyMR4Rra4mqAslgiS"
+    },
+    {
+      "source": "KMA7NkxFbPoUDtFnGBFnj",
+      "target": "GJctl0tVXe4B70s35RkLT"
+    },
+    {
+      "source": "KMA7NkxFbPoUDtFnGBFnj",
+      "target": "2MRvAK9G9RGM_auWytcKh"
+    },
+    {
+      "source": "KMA7NkxFbPoUDtFnGBFnj",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    },
+    {
+      "source": "Cxspmb14_0i1tfw-ZLxEu",
+      "target": "L7AllJfKvClaam3y-u6DP"
+    },
+    {
+      "source": "hwPOGT0-duy3KfI8QaEwF",
+      "target": "Cxspmb14_0i1tfw-ZLxEu"
+    },
+    {
+      "source": "Cxspmb14_0i1tfw-ZLxEu",
+      "target": "SGDf_rbfmFSHlxI-Czzlz"
+    },
+    {
+      "source": "Cxspmb14_0i1tfw-ZLxEu",
+      "target": "k6rp6Ua9qUEW_DA_fOg5u"
+    },
+    {
+      "source": "Cxspmb14_0i1tfw-ZLxEu",
+      "target": "3TE_iYvbklXK0be-5f2M7"
+    },
+    {
+      "source": "Cxspmb14_0i1tfw-ZLxEu",
+      "target": "OL8I6nOZ8hGGWmtxg_Mv8"
+    },
+    {
+      "source": "SGDf_rbfmFSHlxI-Czzlz",
+      "target": "wA2fSYsbBYU02VJXAvUz8"
+    },
+    {
+      "source": "SGDf_rbfmFSHlxI-Czzlz",
+      "target": "KJRkrFZIihCUBrOf579EU"
+    },
+    {
+      "source": "L7AllJfKvClaam3y-u6DP",
+      "target": "PoM77O2OtxPELxfrW1wtl"
+    },
+    {
+      "source": "PoM77O2OtxPELxfrW1wtl",
+      "target": "mB3hZvAfRr6kCEbF6t-yz"
+    },
+    {
+      "source": "PoM77O2OtxPELxfrW1wtl",
+      "target": "3_sJHKTogkDoCjR518-OL"
+    },
+    {
+      "source": "PoM77O2OtxPELxfrW1wtl",
+      "target": "n0q32YhWEIAUwbGXexoqV"
+    },
+    {
+      "source": "SGDf_rbfmFSHlxI-Czzlz",
+      "target": "zNFYAJaSq0YZXL5Rpx1NX"
+    },
+    {
+      "source": "n0q32YhWEIAUwbGXexoqV",
+      "target": "io0RHJWIcVxDhcYkV9d38"
+    },
+    {
+      "source": "n0q32YhWEIAUwbGXexoqV",
+      "target": "XWJxV42Dpu2D3xDK10Pn3"
+    },
+    {
+      "source": "VOGKiG2EZVfCBAaa7Df0W",
+      "target": "xmRv6-L45m5MDpHmdHFCL"
+    },
+    {
+      "source": "VOGKiG2EZVfCBAaa7Df0W",
+      "target": "KMA7NkxFbPoUDtFnGBFnj"
+    },
+    {
+      "source": "PoM77O2OtxPELxfrW1wtl",
+      "target": "raoa-75p_DyBAycvy3yVv"
+    }
+  ]
+}

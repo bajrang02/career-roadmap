@@ -1,0 +1,1432 @@
+[
+  {
+    "id": "o3PyFTPgsW83BXocJQsDJ",
+    "old_id": "o3PyFTPgsW83BXocJQsDJ",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "77ufRs9I5bQ6-3oqeVEeP",
+    "old_id": "77ufRs9I5bQ6-3oqeVEeP",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "bYFNueU1BFB3eAQ8HXh7n",
+    "old_id": "bYFNueU1BFB3eAQ8HXh7n",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iogwMmOvub2ZF4zgg6WyF",
+    "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+    "type": "title",
+    "label": "Game Developer",
+    "resources": [],
+    "children": [
+      {
+        "id": "rQArtuVKGVgLn_fw9yO3b",
+        "old_id": "m1wX27XBWKXZcTMH2U1xp",
+        "type": "topic",
+        "label": "Client Side Development",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\game-mathematics@m1wX27XBWKXZcTMH2U1xp.md",
+        "children": [
+          {
+            "id": "SIvQYH0q1H29NgbtLq3L8",
+            "old_id": "SIvQYH0q1H29NgbtLq3L8",
+            "type": "button",
+            "label": "Server Side",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "m1wX27XBWKXZcTMH2U1xp",
+            "old_id": "wruw4qef0bf74oiA5JqHo",
+            "type": "topic",
+            "label": "Game Mathematics",
+            "resources": [],
+            "children": [
+              {
+                "id": "YTkOF_33oL1ZkA-loc_DP",
+                "old_id": "YTkOF_33oL1ZkA-loc_DP",
+                "type": "topic",
+                "label": "Curve",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\curve@YTkOF_33oL1ZkA-loc_DP.md",
+                "children": []
+              },
+              {
+                "id": "grRf-MmaXimDB4iODOV47",
+                "old_id": "grRf-MmaXimDB4iODOV47",
+                "type": "subtopic",
+                "label": "Linear Algebra",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\linear-algebra@grRf-MmaXimDB4iODOV47.md",
+                "children": []
+              },
+              {
+                "id": "Kg6Mg9ieUUGXWX9Lai7B0",
+                "old_id": "Kg6Mg9ieUUGXWX9Lai7B0",
+                "type": "subtopic",
+                "label": "Matrix",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\matrix@Kg6Mg9ieUUGXWX9Lai7B0.md",
+                "children": []
+              },
+              {
+                "id": "XABzEU9owCx9-zw1id9xU",
+                "old_id": "r5TcXQsU9s4NlAQIPvZ3U",
+                "type": "subtopic",
+                "label": "Linear Transformation",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\affine-space@r5TcXQsU9s4NlAQIPvZ3U.md",
+                "children": []
+              },
+              {
+                "id": "r5TcXQsU9s4NlAQIPvZ3U",
+                "old_id": "r5TcXQsU9s4NlAQIPvZ3U",
+                "type": "subtopic",
+                "label": "Affine Space",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\affine-space@r5TcXQsU9s4NlAQIPvZ3U.md",
+                "children": []
+              },
+              {
+                "id": "SkCreb6g4i-OFtJWhRYqO",
+                "old_id": "SkCreb6g4i-OFtJWhRYqO",
+                "type": "subtopic",
+                "label": "Affine Transformation",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\affine-transformation@SkCreb6g4i-OFtJWhRYqO.md",
+                "children": []
+              },
+              {
+                "id": "iIWEjpkNFBj4R5wQ0mcWY",
+                "old_id": "iIWEjpkNFBj4R5wQ0mcWY",
+                "type": "topic",
+                "label": "Orientation",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\orientation@iIWEjpkNFBj4R5wQ0mcWY.md",
+                "children": []
+              },
+              {
+                "id": "UTBnrQiZ6Bf96yJYIUf3b",
+                "old_id": "4YgbrXLXf5mfaL2tlYkzk",
+                "type": "topic",
+                "label": "Game Physics",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\programming-languages@4YgbrXLXf5mfaL2tlYkzk.md",
+                "children": [
+                  {
+                    "id": "fv5tivGad2P9GRZOodfn2",
+                    "old_id": "4YgbrXLXf5mfaL2tlYkzk",
+                    "type": "topic",
+                    "label": "Game Engine",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\programming-languages@4YgbrXLXf5mfaL2tlYkzk.md",
+                    "children": [
+                      {
+                        "id": "rNeOti8DDyWTMP9FB9kJ_",
+                        "old_id": "rNeOti8DDyWTMP9FB9kJ_",
+                        "type": "subtopic",
+                        "label": "Unity 3D",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\unity-3d@rNeOti8DDyWTMP9FB9kJ_.md",
+                        "children": []
+                      },
+                      {
+                        "id": "a6H-cZtp3A_fB8jnfMxBR",
+                        "old_id": "a6H-cZtp3A_fB8jnfMxBR",
+                        "type": "subtopic",
+                        "label": "Unreal Engine",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\unreal-engine@a6H-cZtp3A_fB8jnfMxBR.md",
+                        "children": []
+                      },
+                      {
+                        "id": "CeAUEN233L4IoFSZtIvvl",
+                        "old_id": "CeAUEN233L4IoFSZtIvvl",
+                        "type": "subtopic",
+                        "label": "Native",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\native@CeAUEN233L4IoFSZtIvvl.md",
+                        "children": []
+                      },
+                      {
+                        "id": "7OffO2mBmfBKqPBTZ9ngI",
+                        "old_id": "7OffO2mBmfBKqPBTZ9ngI",
+                        "type": "subtopic",
+                        "label": "Godot",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\godot@7OffO2mBmfBKqPBTZ9ngI.md",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "AdOfOJtLtNgDwuABb6orE",
+                    "old_id": "AdOfOJtLtNgDwuABb6orE",
+                    "type": "topic",
+                    "label": "Collision Detection",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\collision-detection@AdOfOJtLtNgDwuABb6orE.md",
+                    "children": []
+                  },
+                  {
+                    "id": "0D7KQlF-9ylmILTBBVxot",
+                    "old_id": "0D7KQlF-9ylmILTBBVxot",
+                    "type": "topic",
+                    "label": "Dynamics",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\dynamics@0D7KQlF-9ylmILTBBVxot.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "R_Fs6rdl2XtQ9aLOubMqL",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "P5IZjP0g1_fnvHy3YTR4q",
+    "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+    "type": "button",
+    "label": "Backend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "yLEyh5XJ3sl8eHD-PoSvJ",
+    "old_id": "yLEyh5XJ3sl8eHD-PoSvJ",
+    "type": "subtopic",
+    "label": "Vector",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\vector@yLEyh5XJ3sl8eHD-PoSvJ.md",
+    "children": []
+  },
+  {
+    "id": "XWxW2ZBw3LcQ4DRk4tgAG",
+    "old_id": "XWxW2ZBw3LcQ4DRk4tgAG",
+    "type": "subtopic",
+    "label": "Geometry",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\geometry@XWxW2ZBw3LcQ4DRk4tgAG.md",
+    "children": []
+  },
+  {
+    "id": "zPs_LlDvkfxvvCrk5fXB2",
+    "old_id": "zPs_LlDvkfxvvCrk5fXB2",
+    "type": "subtopic",
+    "label": "Quaternion",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\quaternion@zPs_LlDvkfxvvCrk5fXB2.md",
+    "children": []
+  },
+  {
+    "id": "L0J2kvveJNsmN9ueXhqKf",
+    "old_id": "L0J2kvveJNsmN9ueXhqKf",
+    "type": "subtopic",
+    "label": "Euler Angle",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\euler-angle@L0J2kvveJNsmN9ueXhqKf.md",
+    "children": []
+  },
+  {
+    "id": "nTiHZXRh2j3_FsBotmlGf",
+    "old_id": "nTiHZXRh2j3_FsBotmlGf",
+    "type": "subtopic",
+    "label": "Spline",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\spline@nTiHZXRh2j3_FsBotmlGf.md",
+    "children": []
+  },
+  {
+    "id": "m4AuHjEBnHS0wyATG-I1Z",
+    "old_id": "m4AuHjEBnHS0wyATG-I1Z",
+    "type": "subtopic",
+    "label": "Hermite",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\hermite@m4AuHjEBnHS0wyATG-I1Z.md",
+    "children": []
+  },
+  {
+    "id": "DUEEm9sAaZqSI-W-PFZ8f",
+    "old_id": "DUEEm9sAaZqSI-W-PFZ8f",
+    "type": "subtopic",
+    "label": "Bezier",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\bezier@DUEEm9sAaZqSI-W-PFZ8f.md",
+    "children": []
+  },
+  {
+    "id": "N9GoA3YvOaKwYjljj6NZv",
+    "old_id": "N9GoA3YvOaKwYjljj6NZv",
+    "type": "subtopic",
+    "label": "Catmull-Rom",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\catmull-rom@N9GoA3YvOaKwYjljj6NZv.md",
+    "children": []
+  },
+  {
+    "id": "5qfoD77wU4ETI7rUSy4Nc",
+    "old_id": "5qfoD77wU4ETI7rUSy4Nc",
+    "type": "topic",
+    "label": "Projection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\projection@5qfoD77wU4ETI7rUSy4Nc.md",
+    "children": []
+  },
+  {
+    "id": "LEJymJ2EaAW5FM5LgKW38",
+    "old_id": "LEJymJ2EaAW5FM5LgKW38",
+    "type": "subtopic",
+    "label": "Perspective",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\perspective@LEJymJ2EaAW5FM5LgKW38.md",
+    "children": []
+  },
+  {
+    "id": "d6C1qFv-Tad3AtMBDLI6r",
+    "old_id": "d6C1qFv-Tad3AtMBDLI6r",
+    "type": "subtopic",
+    "label": "Orthogonal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\orthogonal@d6C1qFv-Tad3AtMBDLI6r.md",
+    "children": []
+  },
+  {
+    "id": "HWtU4q-YPXxSi64t43VNF",
+    "old_id": "HWtU4q-YPXxSi64t43VNF",
+    "type": "subtopic",
+    "label": "Center of Mass",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\center-of-mass@HWtU4q-YPXxSi64t43VNF.md",
+    "children": []
+  },
+  {
+    "id": "6E2mkXuAzoYnrT1SEIA16",
+    "old_id": "6E2mkXuAzoYnrT1SEIA16",
+    "type": "subtopic",
+    "label": "Moment of Inertia",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\moment-of-inertia@6E2mkXuAzoYnrT1SEIA16.md",
+    "children": []
+  },
+  {
+    "id": "ejZMnxZ0QrN-jBqo9Vrj8",
+    "old_id": "ejZMnxZ0QrN-jBqo9Vrj8",
+    "type": "subtopic",
+    "label": "Acceleration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\acceleration@ejZMnxZ0QrN-jBqo9Vrj8.md",
+    "children": []
+  },
+  {
+    "id": "m2_wUW2VHMCXHnn5B91qr",
+    "old_id": "m2_wUW2VHMCXHnn5B91qr",
+    "type": "subtopic",
+    "label": "Joints",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\joints@m2_wUW2VHMCXHnn5B91qr.md",
+    "children": []
+  },
+  {
+    "id": "qduFRhmrzJ2sn0g7L-tza",
+    "old_id": "qduFRhmrzJ2sn0g7L-tza",
+    "type": "subtopic",
+    "label": "Force",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\force@qduFRhmrzJ2sn0g7L-tza.md",
+    "children": []
+  },
+  {
+    "id": "egOcxFTQP7vPIGrxcieuk",
+    "old_id": "egOcxFTQP7vPIGrxcieuk",
+    "type": "subtopic",
+    "label": "Restitution",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\restitution@egOcxFTQP7vPIGrxcieuk.md",
+    "children": []
+  },
+  {
+    "id": "Y7HYY5eq7OG42V9yQz0Q1",
+    "old_id": "Y7HYY5eq7OG42V9yQz0Q1",
+    "type": "subtopic",
+    "label": "Angular Velocity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\angular-velocity@Y7HYY5eq7OG42V9yQz0Q1.md",
+    "children": []
+  },
+  {
+    "id": "WzcmdW_fKHv3gwdBnvI0_",
+    "old_id": "WzcmdW_fKHv3gwdBnvI0_",
+    "type": "subtopic",
+    "label": "Buoyancy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\buoyancy@WzcmdW_fKHv3gwdBnvI0_.md",
+    "children": []
+  },
+  {
+    "id": "Z_U6abGV_wVkTGZ2LVkFK",
+    "old_id": "Z_U6abGV_wVkTGZ2LVkFK",
+    "type": "subtopic",
+    "label": "Linear Velocity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\linear-velocity@Z_U6abGV_wVkTGZ2LVkFK.md",
+    "children": []
+  },
+  {
+    "id": "Hz9R4YGYtD0jAur8rYist",
+    "old_id": "Hz9R4YGYtD0jAur8rYist",
+    "type": "subtopic",
+    "label": "Friction",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\friction@Hz9R4YGYtD0jAur8rYist.md",
+    "children": []
+  },
+  {
+    "id": "SuemqQuiePab0Qpm2EGy9",
+    "old_id": "SuemqQuiePab0Qpm2EGy9",
+    "type": "subtopic",
+    "label": "Narrow Phase",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\narrow-phase@SuemqQuiePab0Qpm2EGy9.md",
+    "children": [
+      {
+        "id": "vmRYaXNVCe0N73xG8bsEK",
+        "old_id": "vmRYaXNVCe0N73xG8bsEK",
+        "type": "subtopic",
+        "label": "Intersection",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\intersection@vmRYaXNVCe0N73xG8bsEK.md",
+        "children": [
+          {
+            "id": "kSMz7mZ243qMKtT_YD3AD",
+            "old_id": "kSMz7mZ243qMKtT_YD3AD",
+            "type": "subtopic",
+            "label": "SAT",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\sat@kSMz7mZ243qMKtT_YD3AD.md",
+            "children": []
+          },
+          {
+            "id": "lwd3Gz9bJEKCIwhXD6m-v",
+            "old_id": "lwd3Gz9bJEKCIwhXD6m-v",
+            "type": "subtopic",
+            "label": "GJK",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\gjk@lwd3Gz9bJEKCIwhXD6m-v.md",
+            "children": []
+          },
+          {
+            "id": "vWLKYK2KUzV1fO-vQunzW",
+            "old_id": "vWLKYK2KUzV1fO-vQunzW",
+            "type": "subtopic",
+            "label": "EPA",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\epa@vWLKYK2KUzV1fO-vQunzW.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "YLusnwCba7BIdKOYUoY6F",
+        "old_id": "vmRYaXNVCe0N73xG8bsEK",
+        "type": "subtopic",
+        "label": "Convexity",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\intersection@vmRYaXNVCe0N73xG8bsEK.md",
+        "children": [
+          {
+            "id": "pG_V12qhS4HevoP_KHTvh",
+            "old_id": "pG_V12qhS4HevoP_KHTvh",
+            "type": "subtopic",
+            "label": "Convex",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\convex@pG_V12qhS4HevoP_KHTvh.md",
+            "children": [
+              {
+                "id": "jixffcPBELkhoG0e7Te8g",
+                "old_id": "jixffcPBELkhoG0e7Te8g",
+                "type": "subtopic",
+                "label": "Convex Hull",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\convex-hull@jixffcPBELkhoG0e7Te8g.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AKd2UpITqBZV7cZszSRps",
+    "old_id": "AKd2UpITqBZV7cZszSRps",
+    "type": "subtopic",
+    "label": "Broad Phase",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\broad-phase@AKd2UpITqBZV7cZszSRps.md",
+    "children": [
+      {
+        "id": "PLR_4yoRifoTzkOR4c7ym",
+        "old_id": "1yK8TH4Pn7Ag8VQoug54i",
+        "type": "subtopic",
+        "label": "Bounding Volume",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\ccd@1yK8TH4Pn7Ag8VQoug54i.md",
+        "children": [
+          {
+            "id": "aTeYGd4JlPr5txNPyBezn",
+            "old_id": "aTeYGd4JlPr5txNPyBezn",
+            "type": "subtopic",
+            "label": "AABB",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\aabb@aTeYGd4JlPr5txNPyBezn.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jslk7Gy58VspO1uXGDgBp",
+    "old_id": "jslk7Gy58VspO1uXGDgBp",
+    "type": "subtopic",
+    "label": "Concave",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\concave@jslk7Gy58VspO1uXGDgBp.md",
+    "children": [
+      {
+        "id": "bgP9NpD0DJGqN4VCt65xP",
+        "old_id": "bgP9NpD0DJGqN4VCt65xP",
+        "type": "subtopic",
+        "label": "Convex Decomposition",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\convex-decomposition@bgP9NpD0DJGqN4VCt65xP.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "7nGtvbxoEAheiF4IPMfPf",
+    "old_id": "7nGtvbxoEAheiF4IPMfPf",
+    "type": "subtopic",
+    "label": "OBB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\obb@7nGtvbxoEAheiF4IPMfPf.md",
+    "children": []
+  },
+  {
+    "id": "9Fk3XSINBr2NNdbMtwsIK",
+    "old_id": "9Fk3XSINBr2NNdbMtwsIK",
+    "type": "subtopic",
+    "label": "Spatial Partitioning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\spatial-partitioning@9Fk3XSINBr2NNdbMtwsIK.md",
+    "children": [
+      {
+        "id": "STdvFYM9V0a36IkPXjvrB",
+        "old_id": "STdvFYM9V0a36IkPXjvrB",
+        "type": "subtopic",
+        "label": "Sort & Sweep",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\sort--sweep@STdvFYM9V0a36IkPXjvrB.md",
+        "children": []
+      },
+      {
+        "id": "FCc5xwb_G3VsDRXOcg3hV",
+        "old_id": "FCc5xwb_G3VsDRXOcg3hV",
+        "type": "subtopic",
+        "label": "BVH",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\bvh@FCc5xwb_G3VsDRXOcg3hV.md",
+        "children": [
+          {
+            "id": "XHFV4d6Ab4kWQ3-XcZTyT",
+            "old_id": "XHFV4d6Ab4kWQ3-XcZTyT",
+            "type": "subtopic",
+            "label": "DBVT",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\dbvt@XHFV4d6Ab4kWQ3-XcZTyT.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1yK8TH4Pn7Ag8VQoug54i",
+    "old_id": "1yK8TH4Pn7Ag8VQoug54i",
+    "type": "subtopic",
+    "label": "CCD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\ccd@1yK8TH4Pn7Ag8VQoug54i.md",
+    "children": []
+  },
+  {
+    "id": "4YgbrXLXf5mfaL2tlYkzk",
+    "old_id": "4YgbrXLXf5mfaL2tlYkzk",
+    "type": "topic",
+    "label": "Programming Languages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\programming-languages@4YgbrXLXf5mfaL2tlYkzk.md",
+    "children": [
+      {
+        "id": "jsq0UXnIIC0Z_nbK2w48f",
+        "old_id": "jsq0UXnIIC0Z_nbK2w48f",
+        "type": "subtopic",
+        "label": "C/C++",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\cc@jsq0UXnIIC0Z_nbK2w48f.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Ph3ZqmSnwwzUBUC-6dgf-",
+    "old_id": "Ph3ZqmSnwwzUBUC-6dgf-",
+    "type": "subtopic",
+    "label": "C#",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\c@Ph3ZqmSnwwzUBUC-6dgf-.md",
+    "children": []
+  },
+  {
+    "id": "AaRZiItRcn8fYb5R62vfT",
+    "old_id": "AaRZiItRcn8fYb5R62vfT",
+    "type": "subtopic",
+    "label": "GDScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\gdscript@AaRZiItRcn8fYb5R62vfT.md",
+    "children": []
+  },
+  {
+    "id": "ts9pWxUimvFqfNJYCmNNw",
+    "old_id": "ts9pWxUimvFqfNJYCmNNw",
+    "type": "subtopic",
+    "label": "Rust",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\rust@ts9pWxUimvFqfNJYCmNNw.md",
+    "children": []
+  },
+  {
+    "id": "AJp_QRLgSG5ETXDIjUjmm",
+    "old_id": "AJp_QRLgSG5ETXDIjUjmm",
+    "type": "subtopic",
+    "label": "Python",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\python@AJp_QRLgSG5ETXDIjUjmm.md",
+    "children": []
+  },
+  {
+    "id": "lIb5MeDoqVj6HycveOgTS",
+    "old_id": "CDYszS1U4v95GozB_drbt",
+    "type": "topic",
+    "label": "Computer Graphics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\advanced-rendering@CDYszS1U4v95GozB_drbt.md",
+    "children": [
+      {
+        "id": "JW5c_0JEtO-OiBoXUia6A",
+        "old_id": "JW5c_0JEtO-OiBoXUia6A",
+        "type": "subtopic",
+        "label": "Ray Tracing",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\ray-tracing@JW5c_0JEtO-OiBoXUia6A.md",
+        "children": []
+      },
+      {
+        "id": "vYNj9nzu90e9xlrzHULnP",
+        "old_id": "vYNj9nzu90e9xlrzHULnP",
+        "type": "subtopic",
+        "label": "Rasterization",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\rasterization@vYNj9nzu90e9xlrzHULnP.md",
+        "children": []
+      },
+      {
+        "id": "shSRnMf4NONuZ3TGPAoQc",
+        "old_id": "shSRnMf4NONuZ3TGPAoQc",
+        "type": "subtopic",
+        "label": "Graphics Pipeline",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\graphics-pipeline@shSRnMf4NONuZ3TGPAoQc.md",
+        "children": []
+      },
+      {
+        "id": "rmtxybcavWV6A53R4ZWgc",
+        "old_id": "rmtxybcavWV6A53R4ZWgc",
+        "type": "subtopic",
+        "label": "Sampling",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\sampling@rmtxybcavWV6A53R4ZWgc.md",
+        "children": []
+      },
+      {
+        "id": "qIrePusMuvcUva9LMDmDx",
+        "old_id": "qIrePusMuvcUva9LMDmDx",
+        "type": "subtopic",
+        "label": "Shader",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\shader@qIrePusMuvcUva9LMDmDx.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "WVgozaQPFbYthZLWMbNUg",
+    "old_id": "WVgozaQPFbYthZLWMbNUg",
+    "type": "subtopic",
+    "label": "Rendering Equation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\rendering-equation@WVgozaQPFbYthZLWMbNUg.md",
+    "children": []
+  },
+  {
+    "id": "eI2jym4AAz3ani-lreSKE",
+    "old_id": "THMmnx8p_P0X-dSPoHvst",
+    "type": "subtopic",
+    "label": "Reflection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\mapping@THMmnx8p_P0X-dSPoHvst.md",
+    "children": [
+      {
+        "id": "0g1z5G2dsF4PTIfFAG984",
+        "old_id": "0g1z5G2dsF4PTIfFAG984",
+        "type": "subtopic",
+        "label": "Diffuse",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\diffuse@0g1z5G2dsF4PTIfFAG984.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "odfZWKtPbb-lC35oeTCNV",
+    "old_id": "odfZWKtPbb-lC35oeTCNV",
+    "type": "subtopic",
+    "label": "Specular",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\specular@odfZWKtPbb-lC35oeTCNV.md",
+    "children": []
+  },
+  {
+    "id": "THMmnx8p_P0X-dSPoHvst",
+    "old_id": "THMmnx8p_P0X-dSPoHvst",
+    "type": "subtopic",
+    "label": "Mapping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\mapping@THMmnx8p_P0X-dSPoHvst.md",
+    "children": [
+      {
+        "id": "iBZ1JsEWI0xuLgUvfWfl-",
+        "old_id": "iBZ1JsEWI0xuLgUvfWfl-",
+        "type": "subtopic",
+        "label": "Texture",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\texture@iBZ1JsEWI0xuLgUvfWfl-.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "r4UkMd5QURbvJ3Jlr_H9H",
+    "old_id": "r4UkMd5QURbvJ3Jlr_H9H",
+    "type": "subtopic",
+    "label": "Bump",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\bump@r4UkMd5QURbvJ3Jlr_H9H.md",
+    "children": []
+  },
+  {
+    "id": "YGeGleEN203nokiZIYJN8",
+    "old_id": "YGeGleEN203nokiZIYJN8",
+    "type": "subtopic",
+    "label": "Parallax",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\parallax@YGeGleEN203nokiZIYJN8.md",
+    "children": []
+  },
+  {
+    "id": "9cBOfj58I4hBlxlQIyV9g",
+    "old_id": "9cBOfj58I4hBlxlQIyV9g",
+    "type": "subtopic",
+    "label": "Horizon",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\horizon@9cBOfj58I4hBlxlQIyV9g.md",
+    "children": []
+  },
+  {
+    "id": "1RdyzTI_TXqmct2bIbNh9",
+    "old_id": "1RdyzTI_TXqmct2bIbNh9",
+    "type": "subtopic",
+    "label": "Computer Animation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\computer-animation@1RdyzTI_TXqmct2bIbNh9.md",
+    "children": []
+  },
+  {
+    "id": "WK6fLWJq9Vh2ySVrSqd-U",
+    "old_id": "WK6fLWJq9Vh2ySVrSqd-U",
+    "type": "subtopic",
+    "label": "Color",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\color@WK6fLWJq9Vh2ySVrSqd-U.md",
+    "children": []
+  },
+  {
+    "id": "1S1qPogijW2SQCiF7KLZe",
+    "old_id": "1S1qPogijW2SQCiF7KLZe",
+    "type": "subtopic",
+    "label": "Visual Perception",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\visual-perception@1S1qPogijW2SQCiF7KLZe.md",
+    "children": []
+  },
+  {
+    "id": "RgC9TOc0wbr2QSuvrpIDV",
+    "old_id": "RgC9TOc0wbr2QSuvrpIDV",
+    "type": "subtopic",
+    "label": "Tone Reproduction",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\tone-reproduction@RgC9TOc0wbr2QSuvrpIDV.md",
+    "children": []
+  },
+  {
+    "id": "lNKSnx79jCQW0AM1bFITr",
+    "old_id": "lNKSnx79jCQW0AM1bFITr",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "bEF-DIgaMpKyRTw2uAB8R",
+    "old_id": "bEF-DIgaMpKyRTw2uAB8R",
+    "type": "label",
+    "label": "Getting deeper",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "DDN3mn0LTueBhjRzXFcbU",
+    "old_id": "DDN3mn0LTueBhjRzXFcbU",
+    "type": "subtopic",
+    "label": "Lighting and Shadow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\lighting-and-shadow@DDN3mn0LTueBhjRzXFcbU.md",
+    "children": []
+  },
+  {
+    "id": "ygtru6fqQ3gpFZRN_I8rP",
+    "old_id": "ygtru6fqQ3gpFZRN_I8rP",
+    "type": "subtopic",
+    "label": "Shadow Map",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\shadow-map@ygtru6fqQ3gpFZRN_I8rP.md",
+    "children": []
+  },
+  {
+    "id": "Wq8siopWTD7sylNi0575X",
+    "old_id": "Wq8siopWTD7sylNi0575X",
+    "type": "subtopic",
+    "label": "2D",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\2d@Wq8siopWTD7sylNi0575X.md",
+    "children": []
+  },
+  {
+    "id": "cv1-AwewuqJsZDBI3h84G",
+    "old_id": "cv1-AwewuqJsZDBI3h84G",
+    "type": "subtopic",
+    "label": "Cube",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\cube@cv1-AwewuqJsZDBI3h84G.md",
+    "children": []
+  },
+  {
+    "id": "Lu38SfZ38y89BffLRMmGk",
+    "old_id": "Lu38SfZ38y89BffLRMmGk",
+    "type": "subtopic",
+    "label": "Cascaded",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\cascaded@Lu38SfZ38y89BffLRMmGk.md",
+    "children": []
+  },
+  {
+    "id": "VLrcBE1vb6N5fw5YESCge",
+    "old_id": "VLrcBE1vb6N5fw5YESCge",
+    "type": "subtopic",
+    "label": "Light Source",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\light-source@VLrcBE1vb6N5fw5YESCge.md",
+    "children": []
+  },
+  {
+    "id": "foD8K7V0yIxgeXwl687Bv",
+    "old_id": "foD8K7V0yIxgeXwl687Bv",
+    "type": "subtopic",
+    "label": "Directional",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\directional@foD8K7V0yIxgeXwl687Bv.md",
+    "children": []
+  },
+  {
+    "id": "aNhyXWW2b7yKTv8y14zk9",
+    "old_id": "aNhyXWW2b7yKTv8y14zk9",
+    "type": "subtopic",
+    "label": "Point",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\point@aNhyXWW2b7yKTv8y14zk9.md",
+    "children": []
+  },
+  {
+    "id": "FetbhcK1RDt4izZ6NEUEP",
+    "old_id": "FetbhcK1RDt4izZ6NEUEP",
+    "type": "subtopic",
+    "label": "Spot",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\spot@FetbhcK1RDt4izZ6NEUEP.md",
+    "children": []
+  },
+  {
+    "id": "sC3omOmL2DOyTSvET5cDa",
+    "old_id": "sC3omOmL2DOyTSvET5cDa",
+    "type": "subtopic",
+    "label": "Infinite",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\infinite@sC3omOmL2DOyTSvET5cDa.md",
+    "children": []
+  },
+  {
+    "id": "OcxesFnB5wO6VXrHYnhz-",
+    "old_id": "OcxesFnB5wO6VXrHYnhz-",
+    "type": "subtopic",
+    "label": "Visibility and Occlusion",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\visibility-and-occlusion@OcxesFnB5wO6VXrHYnhz-.md",
+    "children": []
+  },
+  {
+    "id": "MlLYqO_8JDNOwKRvaM-bf",
+    "old_id": "MlLYqO_8JDNOwKRvaM-bf",
+    "type": "subtopic",
+    "label": "Occluder",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\occluder@MlLYqO_8JDNOwKRvaM-bf.md",
+    "children": []
+  },
+  {
+    "id": "1gdDeUPBRco10LpOxug4k",
+    "old_id": "1gdDeUPBRco10LpOxug4k",
+    "type": "subtopic",
+    "label": "Culling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\culling@1gdDeUPBRco10LpOxug4k.md",
+    "children": []
+  },
+  {
+    "id": "xP_VDMu1z9jiVnZaBFKJQ",
+    "old_id": "xP_VDMu1z9jiVnZaBFKJQ",
+    "type": "subtopic",
+    "label": "Clipping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\clipping@xP_VDMu1z9jiVnZaBFKJQ.md",
+    "children": []
+  },
+  {
+    "id": "2ocwC0P1-ZFmjA9EmA1lV",
+    "old_id": "2ocwC0P1-ZFmjA9EmA1lV",
+    "type": "subtopic",
+    "label": "Fog",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\fog@2ocwC0P1-ZFmjA9EmA1lV.md",
+    "children": []
+  },
+  {
+    "id": "UcLGWYu41Ok2NYdLNIY5C",
+    "old_id": "UcLGWYu41Ok2NYdLNIY5C",
+    "type": "subtopic",
+    "label": "Frustum",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\frustum@UcLGWYu41Ok2NYdLNIY5C.md",
+    "children": []
+  },
+  {
+    "id": "_1LkU258hzizSIgXipE0b",
+    "old_id": "_1LkU258hzizSIgXipE0b",
+    "type": "subtopic",
+    "label": "Light",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\light@_1LkU258hzizSIgXipE0b.md",
+    "children": []
+  },
+  {
+    "id": "lqfW8hkuN3vWtacrqBBtI",
+    "old_id": "lqfW8hkuN3vWtacrqBBtI",
+    "type": "subtopic",
+    "label": "Shadow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\shadow@lqfW8hkuN3vWtacrqBBtI.md",
+    "children": []
+  },
+  {
+    "id": "-r15srXTBLnUGokpXKclH",
+    "old_id": "-r15srXTBLnUGokpXKclH",
+    "type": "subtopic",
+    "label": "Polygon",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\polygon@-r15srXTBLnUGokpXKclH.md",
+    "children": []
+  },
+  {
+    "id": "GHfLMtgmc36OCvjQvW_Su",
+    "old_id": "GHfLMtgmc36OCvjQvW_Su",
+    "type": "subtopic",
+    "label": "Polyhedron",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\polyhedron@GHfLMtgmc36OCvjQvW_Su.md",
+    "children": []
+  },
+  {
+    "id": "AEAVc8Ih4fctSGGVJG0Np",
+    "old_id": "AEAVc8Ih4fctSGGVJG0Np",
+    "type": "subtopic",
+    "label": "Stencil Shadow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\stencil-shadow@AEAVc8Ih4fctSGGVJG0Np.md",
+    "children": []
+  },
+  {
+    "id": "Kx7O7RLp7aPGtOvK8e314",
+    "old_id": "CDYszS1U4v95GozB_drbt",
+    "type": "topic",
+    "label": "Graphics API",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\advanced-rendering@CDYszS1U4v95GozB_drbt.md",
+    "children": []
+  },
+  {
+    "id": "bgWFV09AtDv1yJS5t0EaB",
+    "old_id": "yPfhJSTFS7a72UcqF1ROK",
+    "type": "subtopic",
+    "label": "DirectX",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\vulkan@yPfhJSTFS7a72UcqF1ROK.md",
+    "children": []
+  },
+  {
+    "id": "ffa5-YxRhE3zhWg7KXQ4r",
+    "old_id": "yPfhJSTFS7a72UcqF1ROK",
+    "type": "subtopic",
+    "label": "OpenGL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\vulkan@yPfhJSTFS7a72UcqF1ROK.md",
+    "children": []
+  },
+  {
+    "id": "CeydBMwckqKll-2AgOlyd",
+    "old_id": "oEznLciLxZJaulMlBGgg4",
+    "type": "subtopic",
+    "label": "WebGL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\metal@oEznLciLxZJaulMlBGgg4.md",
+    "children": []
+  },
+  {
+    "id": "wYUDJb-q1rtM4w2QV3Wr1",
+    "old_id": "wYUDJb-q1rtM4w2QV3Wr1",
+    "type": "subtopic",
+    "label": "HLSL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\hlsl@wYUDJb-q1rtM4w2QV3Wr1.md",
+    "children": []
+  },
+  {
+    "id": "j8mWMFMQCEIPUzegDDsm1",
+    "old_id": "DvV32n3NoXNEej8Fsqqs2",
+    "type": "subtopic",
+    "label": "GLSL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\spir-v@DvV32n3NoXNEej8Fsqqs2.md",
+    "children": []
+  },
+  {
+    "id": "EVOiWAeZsIvjLTt3EYu-6",
+    "old_id": "yPfhJSTFS7a72UcqF1ROK",
+    "type": "subtopic",
+    "label": "OpenGL ES",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\vulkan@yPfhJSTFS7a72UcqF1ROK.md",
+    "children": []
+  },
+  {
+    "id": "oEznLciLxZJaulMlBGgg4",
+    "old_id": "EVOiWAeZsIvjLTt3EYu-6",
+    "type": "subtopic",
+    "label": "Metal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\opengl-es@EVOiWAeZsIvjLTt3EYu-6.md",
+    "children": []
+  },
+  {
+    "id": "yPfhJSTFS7a72UcqF1ROK",
+    "old_id": "yPfhJSTFS7a72UcqF1ROK",
+    "type": "subtopic",
+    "label": "Vulkan",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\vulkan@yPfhJSTFS7a72UcqF1ROK.md",
+    "children": []
+  },
+  {
+    "id": "DvV32n3NoXNEej8Fsqqs2",
+    "old_id": "DvV32n3NoXNEej8Fsqqs2",
+    "type": "subtopic",
+    "label": "SPIR-V",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\spir-v@DvV32n3NoXNEej8Fsqqs2.md",
+    "children": []
+  },
+  {
+    "id": "Hpf_CPmLpCSP8Qo07Kq1X",
+    "old_id": "CDYszS1U4v95GozB_drbt",
+    "type": "topic",
+    "label": "Game AI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\advanced-rendering@CDYszS1U4v95GozB_drbt.md",
+    "children": [
+      {
+        "id": "Ky-95ipdgyPZGAIdqwMCk",
+        "old_id": "mUyzX-DXnIKDl-r9o8d38",
+        "type": "subtopic",
+        "label": "Decision Making",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\movement@mUyzX-DXnIKDl-r9o8d38.md",
+        "children": []
+      },
+      {
+        "id": "Hpk8eOaOepERMmOvUgkxa",
+        "old_id": "CDYszS1U4v95GozB_drbt",
+        "type": "topic",
+        "label": "Game AI",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\advanced-rendering@CDYszS1U4v95GozB_drbt.md",
+        "children": [
+          {
+            "id": "CDYszS1U4v95GozB_drbt",
+            "old_id": "CDYszS1U4v95GozB_drbt",
+            "type": "topic",
+            "label": "Advanced Rendering",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\advanced-rendering@CDYszS1U4v95GozB_drbt.md",
+            "children": [
+              {
+                "id": "_i7BXZq-iLxQc3QZRMees",
+                "old_id": "XvFtMHrYsBREmuerE7CGc",
+                "type": "subtopic",
+                "label": "Real-time Ray Tracing",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\physically-based-rendering@XvFtMHrYsBREmuerE7CGc.md",
+                "children": [
+                  {
+                    "id": "qoIkw9o8iMx7MzUyVYoR2",
+                    "old_id": "qoIkw9o8iMx7MzUyVYoR2",
+                    "type": "subtopic",
+                    "label": "DirectX Ray Tracing",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\directx-ray-tracing@qoIkw9o8iMx7MzUyVYoR2.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "XvFtMHrYsBREmuerE7CGc",
+                "old_id": "XvFtMHrYsBREmuerE7CGc",
+                "type": "subtopic",
+                "label": "Physically-Based Rendering",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\physically-based-rendering@XvFtMHrYsBREmuerE7CGc.md",
+                "children": [
+                  {
+                    "id": "YrQgfjsdLCIUxrwflpEHO",
+                    "old_id": "YrQgfjsdLCIUxrwflpEHO",
+                    "type": "subtopic",
+                    "label": "Microsurface Scattering",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\microsurface-scattering@YrQgfjsdLCIUxrwflpEHO.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rwGivalwv2ozdSlVMSc4U",
+    "old_id": "rwGivalwv2ozdSlVMSc4U",
+    "type": "subtopic",
+    "label": "Decision Tree",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\decision-tree@rwGivalwv2ozdSlVMSc4U.md",
+    "children": []
+  },
+  {
+    "id": "aJa_2xkZuSjQ5bt6Kj5oe",
+    "old_id": "aJa_2xkZuSjQ5bt6Kj5oe",
+    "type": "subtopic",
+    "label": "State Machine",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\state-machine@aJa_2xkZuSjQ5bt6Kj5oe.md",
+    "children": []
+  },
+  {
+    "id": "ztoW8fBY73Es624A_tjd7",
+    "old_id": "ztoW8fBY73Es624A_tjd7",
+    "type": "subtopic",
+    "label": "Behavior Tree",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\behavior-tree@ztoW8fBY73Es624A_tjd7.md",
+    "children": []
+  },
+  {
+    "id": "4ZCVUpYrCT14d_JULulLe",
+    "old_id": "4ZCVUpYrCT14d_JULulLe",
+    "type": "subtopic",
+    "label": "Fuzzy Logic",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\fuzzy-logic@4ZCVUpYrCT14d_JULulLe.md",
+    "children": []
+  },
+  {
+    "id": "c6j-30p84vk3MZEF1R2hN",
+    "old_id": "c6j-30p84vk3MZEF1R2hN",
+    "type": "subtopic",
+    "label": "Markov System",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\markov-system@c6j-30p84vk3MZEF1R2hN.md",
+    "children": []
+  },
+  {
+    "id": "Cuc0xvCAkVyUtwOxO_Uua",
+    "old_id": "Cuc0xvCAkVyUtwOxO_Uua",
+    "type": "subtopic",
+    "label": "Goal Oriented Behavior",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\goal-oriented-behavior@Cuc0xvCAkVyUtwOxO_Uua.md",
+    "children": []
+  },
+  {
+    "id": "mUyzX-DXnIKDl-r9o8d38",
+    "old_id": "mUyzX-DXnIKDl-r9o8d38",
+    "type": "subtopic",
+    "label": "Movement",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\movement@mUyzX-DXnIKDl-r9o8d38.md",
+    "children": []
+  },
+  {
+    "id": "eoK70YRCz73GmzbNhh5kg",
+    "old_id": "QD9TfZn3yhGPVwiyJ6d0V",
+    "type": "subtopic",
+    "label": "Board Game",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\mcts@QD9TfZn3yhGPVwiyJ6d0V.md",
+    "children": []
+  },
+  {
+    "id": "oOjGqicW3eqRwWyIwJdBA",
+    "old_id": "QD9TfZn3yhGPVwiyJ6d0V",
+    "type": "subtopic",
+    "label": "Minimax",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\mcts@QD9TfZn3yhGPVwiyJ6d0V.md",
+    "children": []
+  },
+  {
+    "id": "KYCi4d475zZfNwlj6HZVD",
+    "old_id": "QD9TfZn3yhGPVwiyJ6d0V",
+    "type": "subtopic",
+    "label": "AB Pruning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\mcts@QD9TfZn3yhGPVwiyJ6d0V.md",
+    "children": []
+  },
+  {
+    "id": "QD9TfZn3yhGPVwiyJ6d0V",
+    "old_id": "QD9TfZn3yhGPVwiyJ6d0V",
+    "type": "subtopic",
+    "label": "MCTS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\mcts@QD9TfZn3yhGPVwiyJ6d0V.md",
+    "children": []
+  },
+  {
+    "id": "1G4wQLJCBBN0ynvbpc9DG",
+    "old_id": "1G4wQLJCBBN0ynvbpc9DG",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "laGrI97zR5SEwbYims5E5",
+    "old_id": "laGrI97zR5SEwbYims5E5",
+    "type": "label",
+    "label": "Maximise your skills",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ul5XnVwQCwr4ZaL4kBNpd",
+    "old_id": "ul5XnVwQCwr4ZaL4kBNpd",
+    "type": "subtopic",
+    "label": "Decision Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\decision-learning@ul5XnVwQCwr4ZaL4kBNpd.md",
+    "children": []
+  },
+  {
+    "id": "aw1BAGqrdBBmUwB6vMF_A",
+    "old_id": "aw1BAGqrdBBmUwB6vMF_A",
+    "type": "subtopic",
+    "label": "Naive Bayes Classifier",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\naive-bayes-classifier@aw1BAGqrdBBmUwB6vMF_A.md",
+    "children": []
+  },
+  {
+    "id": "sz1047M8_kScjth84yPwU",
+    "old_id": "sz1047M8_kScjth84yPwU",
+    "type": "subtopic",
+    "label": "Decision Tree Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\decision-tree-learning@sz1047M8_kScjth84yPwU.md",
+    "children": []
+  },
+  {
+    "id": "ltkEyfuDxExs7knqs79ya",
+    "old_id": "ltkEyfuDxExs7knqs79ya",
+    "type": "subtopic",
+    "label": "Deep Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\deep-learning@ltkEyfuDxExs7knqs79ya.md",
+    "children": []
+  },
+  {
+    "id": "AoH2r4EOHyZd8YaV24rBk",
+    "old_id": "AoH2r4EOHyZd8YaV24rBk",
+    "type": "subtopic",
+    "label": "Artificial Neural Network",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\artificial-neural-network@AoH2r4EOHyZd8YaV24rBk.md",
+    "children": []
+  },
+  {
+    "id": "rGEHTfdNeBAX3_XqC-vvI",
+    "old_id": "rGEHTfdNeBAX3_XqC-vvI",
+    "type": "subtopic",
+    "label": "Reinforcements Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\reinforcements-learning@rGEHTfdNeBAX3_XqC-vvI.md",
+    "children": []
+  },
+  {
+    "id": "9_OcZ9rzedDFfwEYxAghh",
+    "old_id": "9_OcZ9rzedDFfwEYxAghh",
+    "type": "subtopic",
+    "label": "Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\learning@9_OcZ9rzedDFfwEYxAghh.md",
+    "children": []
+  },
+  {
+    "id": "tDGnV8dGIFr_diz4HcEjr",
+    "old_id": "GDLysy3__cbYidEaOmFze",
+    "type": "subtopic",
+    "label": "Vulkan Ray Tracing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\optix@GDLysy3__cbYidEaOmFze.md",
+    "children": []
+  },
+  {
+    "id": "GDLysy3__cbYidEaOmFze",
+    "old_id": "GDLysy3__cbYidEaOmFze",
+    "type": "subtopic",
+    "label": "OptiX",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\optix@GDLysy3__cbYidEaOmFze.md",
+    "children": []
+  },
+  {
+    "id": "PuhXaRZ-Ql5PCqzMyz3en",
+    "old_id": "PuhXaRZ-Ql5PCqzMyz3en",
+    "type": "subtopic",
+    "label": "Translucency & Transparency",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\translucency--transparency@PuhXaRZ-Ql5PCqzMyz3en.md",
+    "children": []
+  },
+  {
+    "id": "H3hkafXO9zqEnWuwHa38P",
+    "old_id": "H3hkafXO9zqEnWuwHa38P",
+    "type": "subtopic",
+    "label": "Conservation of Energy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\conservation-of-energy@H3hkafXO9zqEnWuwHa38P.md",
+    "children": []
+  },
+  {
+    "id": "olY1ibR7kw1yJ58TfU-37",
+    "old_id": "olY1ibR7kw1yJ58TfU-37",
+    "type": "subtopic",
+    "label": "Metallicity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\game-developer\\content\\metallicity@olY1ibR7kw1yJ58TfU-37.md",
+    "children": []
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "Visit his GitHub",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "dlGf3ZdFXYx0Z6Viu2x-l",
+    "old_id": "gC8lsIdYLRzo3HzwVqtm1",
+    "type": "button",
+    "label": "API Design",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "3in61wmgTAqq7nSJm00p-",
+    "old_id": "3in61wmgTAqq7nSJm00p-",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  }
+]

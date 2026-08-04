@@ -1,0 +1,1398 @@
+[
+  {
+    "id": "9CPcys38Ir077u37jFe02",
+    "old_id": "9CPcys38Ir077u37jFe02",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "7aSscXd-UMNWOX7A_vxYh",
+    "old_id": "7aSscXd-UMNWOX7A_vxYh",
+    "type": "title",
+    "label": "Machine Learning",
+    "resources": [],
+    "children": [
+      {
+        "id": "MEL6y3vwiqwAV6FQihF34",
+        "old_id": "5DiaZkljhHAGPi9DkaH3b",
+        "type": "topic",
+        "label": "Introduction",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\statistics@5DiaZkljhHAGPi9DkaH3b.md",
+        "children": [
+          {
+            "id": "BzZd-d5t63dY97SRSIb0J",
+            "old_id": "BmpRzmsrrJ_5HVsocM36P",
+            "type": "subtopic",
+            "label": "Skills and Responsibilities",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "GHO6lN3GTiIRH1P70IRaZ",
+            "old_id": "7o6g0wQxHH9i9MMCoDq2C",
+            "type": "subtopic",
+            "label": "ML Engineer vs AI Engineer",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\bayes-theorem@7o6g0wQxHH9i9MMCoDq2C.md",
+            "children": []
+          },
+          {
+            "id": "FgzPlLUfGdlZPvPku0-Xl",
+            "old_id": "P576TdYcbE6v3RpJntiKw",
+            "type": "subtopic",
+            "label": "What is an ML Engineer?",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\random-variances-pdfs@P576TdYcbE6v3RpJntiKw.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "JqcGwkk1cuTnXA8SHpTKr",
+    "old_id": "JqcGwkk1cuTnXA8SHpTKr",
+    "type": "label",
+    "label": "Pre-requisites",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PUVM4XqV7j5nXBAbIAKwG",
+    "old_id": "QVnfsLmVBGkuXUGm5NK9T",
+    "type": "button",
+    "label": "Python Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iAWm99EoRnpzLlw6XDuaf",
+    "old_id": "iAWm99EoRnpzLlw6XDuaf",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "if9eTna5NRTMStVwpSwDP",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "jJukG4XxfFcID_VlQKqe-",
+    "old_id": "jJukG4XxfFcID_VlQKqe-",
+    "type": "subtopic",
+    "label": "Chain rule of derivation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\chain-rule-of-derivation@jJukG4XxfFcID_VlQKqe-.md",
+    "children": []
+  },
+  {
+    "id": "GN6SnI7RXIeW8JeD-qORW",
+    "old_id": "GN6SnI7RXIeW8JeD-qORW",
+    "type": "subtopic",
+    "label": "Derivatives, Partial Derivatives",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\derivatives-partial-derivatives@GN6SnI7RXIeW8JeD-qORW.md",
+    "children": []
+  },
+  {
+    "id": "p8q1Gtt9x19jw5_-YjAGh",
+    "old_id": "7o6g0wQxHH9i9MMCoDq2C",
+    "type": "subtopic",
+    "label": "Basics of Probability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\bayes-theorem@7o6g0wQxHH9i9MMCoDq2C.md",
+    "children": []
+  },
+  {
+    "id": "ZaoZ2XxicKuTDn4uxe52L",
+    "old_id": "PnOoShqB3z4LuUvp0Gh2e",
+    "type": "subtopic",
+    "label": "Descriptive Statistics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\pandas@PnOoShqB3z4LuUvp0Gh2e.md",
+    "children": []
+  },
+  {
+    "id": "P576TdYcbE6v3RpJntiKw",
+    "old_id": "GN6SnI7RXIeW8JeD-qORW",
+    "type": "subtopic",
+    "label": "Random Variances, PDFs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\derivatives-partial-derivatives@GN6SnI7RXIeW8JeD-qORW.md",
+    "children": []
+  },
+  {
+    "id": "7o6g0wQxHH9i9MMCoDq2C",
+    "old_id": "jJukG4XxfFcID_VlQKqe-",
+    "type": "subtopic",
+    "label": "Bayes Theorem",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\chain-rule-of-derivation@jJukG4XxfFcID_VlQKqe-.md",
+    "children": []
+  },
+  {
+    "id": "DUIrJwuYHlhJvZJT2acaY",
+    "old_id": "BmpRzmsrrJ_5HVsocM36P",
+    "type": "subtopic",
+    "label": "Inferential Statistics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MYZUJ1uHIaRd1Gb4ORzwG",
+    "old_id": "PnOoShqB3z4LuUvp0Gh2e",
+    "type": "subtopic",
+    "label": "Graphs & Charts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\pandas@PnOoShqB3z4LuUvp0Gh2e.md",
+    "children": []
+  },
+  {
+    "id": "NP1kjSk0ujU0Gx-ajNHlR",
+    "old_id": "Dvy7BnNzK55qbh_SgOk8m",
+    "type": "subtopic",
+    "label": "Conditionals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\loops@Dvy7BnNzK55qbh_SgOk8m.md",
+    "children": []
+  },
+  {
+    "id": "R9DQNc0AyAQ2HLpP4HOk6",
+    "old_id": "R9DQNc0AyAQ2HLpP4HOk6",
+    "type": "subtopic",
+    "label": "Data Structures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\data-structures@R9DQNc0AyAQ2HLpP4HOk6.md",
+    "children": []
+  },
+  {
+    "id": "fNTb9y3zs1HPYclAmu_Wv",
+    "old_id": "fNTb9y3zs1HPYclAmu_Wv",
+    "type": "subtopic",
+    "label": "Exceptions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\exceptions@fNTb9y3zs1HPYclAmu_Wv.md",
+    "children": []
+  },
+  {
+    "id": "-DJgS6l2qngfwurExlmmT",
+    "old_id": "-DJgS6l2qngfwurExlmmT",
+    "type": "subtopic",
+    "label": "Functions, Builtin Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\functions-builtin-functions@-DJgS6l2qngfwurExlmmT.md",
+    "children": []
+  },
+  {
+    "id": "Dvy7BnNzK55qbh_SgOk8m",
+    "old_id": "Dvy7BnNzK55qbh_SgOk8m",
+    "type": "subtopic",
+    "label": "Loops",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\loops@Dvy7BnNzK55qbh_SgOk8m.md",
+    "children": []
+  },
+  {
+    "id": "nN9BumBHi-c9HKFlgL2GH",
+    "old_id": "rzhVFzl5H5MWtcvr8ayRk",
+    "type": "topic",
+    "label": "Object Oriented Programming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\what-is-machine-learning@rzhVFzl5H5MWtcvr8ayRk.md",
+    "children": [
+      {
+        "id": "hWA7RtuqltMTmHdcCnmES",
+        "old_id": "GH6G-cCMU_WCXeJ1SiiCt",
+        "type": "topic",
+        "label": "Basic Syntax",
+        "resources": [],
+        "children": [
+          {
+            "id": "dEFLBGpiH6nbSMeR7ecaT",
+            "old_id": "dEFLBGpiH6nbSMeR7ecaT",
+            "type": "subtopic",
+            "label": "Variables and Data Types",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\variables-and-data-types@dEFLBGpiH6nbSMeR7ecaT.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "ybqwtlHG4HMm5lyUKW2SO",
+        "old_id": "rzhVFzl5H5MWtcvr8ayRk",
+        "type": "topic",
+        "label": "Essential libraries",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\what-is-machine-learning@rzhVFzl5H5MWtcvr8ayRk.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "nKE9sO-f2fdMiuLu2xby1",
+    "old_id": "PnOoShqB3z4LuUvp0Gh2e",
+    "type": "subtopic",
+    "label": "Numpy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\pandas@PnOoShqB3z4LuUvp0Gh2e.md",
+    "children": []
+  },
+  {
+    "id": "PnOoShqB3z4LuUvp0Gh2e",
+    "old_id": "DUIrJwuYHlhJvZJT2acaY",
+    "type": "subtopic",
+    "label": "Pandas",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\inferential-statistics@DUIrJwuYHlhJvZJT2acaY.md",
+    "children": []
+  },
+  {
+    "id": "OXbATvlhBXTQ1iRGwPUfb",
+    "old_id": "VYVLUxhp3XxxknNr5V966",
+    "type": "subtopic",
+    "label": "Matplotlib",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\seaborn@VYVLUxhp3XxxknNr5V966.md",
+    "children": []
+  },
+  {
+    "id": "VYVLUxhp3XxxknNr5V966",
+    "old_id": "nKE9sO-f2fdMiuLu2xby1",
+    "type": "subtopic",
+    "label": "Seaborn",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\numpy@nKE9sO-f2fdMiuLu2xby1.md",
+    "children": []
+  },
+  {
+    "id": "VdMhrAi48V-JXw544YTKI",
+    "old_id": "qRHeaD2udDaItAxmiIiUg",
+    "type": "subtopic",
+    "label": "Databases (SQL, No-SQL)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\other-data-formats@qRHeaD2udDaItAxmiIiUg.md",
+    "children": []
+  },
+  {
+    "id": "cxTriSZvrmXP4axKynIZW",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Internet",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\iot@KeGCHoJRHp-mBX-P5to4Y.md",
+    "children": []
+  },
+  {
+    "id": "s-wUPMaagyRupT2RdfHks",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\iot@KeGCHoJRHp-mBX-P5to4Y.md",
+    "children": []
+  },
+  {
+    "id": "dJZqe47kzRqYIG-4AZTlz",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Mobile Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\iot@KeGCHoJRHp-mBX-P5to4Y.md",
+    "children": []
+  },
+  {
+    "id": "KeGCHoJRHp-mBX-P5to4Y",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "subtopic",
+    "label": "IoT",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "kagKVPUyLtx8UPAFjRvbN",
+    "old_id": "m4vmnxRMBf7zwNnwrMEnk",
+    "type": "subtopic",
+    "label": "JSON",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\tuning@m4vmnxRMBf7zwNnwrMEnk.md",
+    "children": []
+  },
+  {
+    "id": "tq6WRwUpaCok9fX-0bY7m",
+    "old_id": "vBnqnIh_xSn0OuY9oQ5e-",
+    "type": "subtopic",
+    "label": "Parquet",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\prediction@vBnqnIh_xSn0OuY9oQ5e-.md",
+    "children": []
+  },
+  {
+    "id": "MWfdLCb_w06A0jqwUJUxl",
+    "old_id": "FVIdjmjfkM84nmGVw1S_c",
+    "type": "subtopic",
+    "label": "CSV",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "K9Si7kJe946CcGWBGmDsZ",
+    "old_id": "vyhrYvbmE9m8P-mjOsR7b",
+    "type": "subtopic",
+    "label": "Excel",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "qRHeaD2udDaItAxmiIiUg",
+    "old_id": "1BJGXWax6CONuFkaYR4Jm",
+    "type": "subtopic",
+    "label": "Other Data Formats",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MdhfkuKWTDCE73hczzG3D",
+    "old_id": "hWA7RtuqltMTmHdcCnmES",
+    "type": "topic",
+    "label": "Preprocessing Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\basic-syntax@hWA7RtuqltMTmHdcCnmES.md",
+    "children": []
+  },
+  {
+    "id": "5v0jRBYrRuVXQC90IseRG",
+    "old_id": "dEFLBGpiH6nbSMeR7ecaT",
+    "type": "subtopic",
+    "label": "Data Cleaning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\variables-and-data-types@dEFLBGpiH6nbSMeR7ecaT.md",
+    "children": []
+  },
+  {
+    "id": "y3-nWiDjlY6ZwqmxBUvhd",
+    "old_id": "NP1kjSk0ujU0Gx-ajNHlR",
+    "type": "subtopic",
+    "label": "Dimensionality Reduction",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\conditionals@NP1kjSk0ujU0Gx-ajNHlR.md",
+    "children": []
+  },
+  {
+    "id": "UmGdV94afOIbAL8MaxOWv",
+    "old_id": "R9DQNc0AyAQ2HLpP4HOk6",
+    "type": "subtopic",
+    "label": "Feature Engineering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\data-structures@R9DQNc0AyAQ2HLpP4HOk6.md",
+    "children": []
+  },
+  {
+    "id": "cigwKoltemM0q-M5O50Is",
+    "old_id": "fNTb9y3zs1HPYclAmu_Wv",
+    "type": "subtopic",
+    "label": "Feature Selection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\exceptions@fNTb9y3zs1HPYclAmu_Wv.md",
+    "children": []
+  },
+  {
+    "id": "iBkTNbk8Xz626F_a3Bo5J",
+    "old_id": "Dvy7BnNzK55qbh_SgOk8m",
+    "type": "subtopic",
+    "label": "Feature Scaling & Normalization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\loops@Dvy7BnNzK55qbh_SgOk8m.md",
+    "children": []
+  },
+  {
+    "id": "Yho0zf9F-ROhEnTxRMq_M",
+    "old_id": "Ddhph9saFgfMi-uUFGK75",
+    "type": "subtopic",
+    "label": "Semi-supervised Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\model-selection@Ddhph9saFgfMi-uUFGK75.md",
+    "children": [
+      {
+        "id": "Ns2zKn8BL_kTEI6O65pCp",
+        "old_id": "ZVbnAF9I1r8qWFFYG6nXv",
+        "type": "topic",
+        "label": "Types of Machine Learning",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\scikit-learn@ZVbnAF9I1r8qWFFYG6nXv.md",
+        "children": [
+          {
+            "id": "5MUwKGfSTKlam8KCG0A1U",
+            "old_id": "bIhGv4886V4RWJD3tX0a0",
+            "type": "subtopic",
+            "label": "Supervised Learning",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\data-loading@bIhGv4886V4RWJD3tX0a0.md",
+            "children": []
+          },
+          {
+            "id": "36ryjK5isV1MD4MgZP2Jn",
+            "old_id": "5xxAg18h74pDAUPy6P8NQ",
+            "type": "subtopic",
+            "label": "Unsupervised Learning",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\train---test-data@5xxAg18h74pDAUPy6P8NQ.md",
+            "children": []
+          },
+          {
+            "id": "ZVbnAF9I1r8qWFFYG6nXv",
+            "old_id": "gKu6tnpTO2PhDDMYp2u7F",
+            "type": "topic",
+            "label": "Scikit-learn",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\regression@gKu6tnpTO2PhDDMYp2u7F.md",
+            "children": [
+              {
+                "id": "-W2uAccH7Y2XIwhfl9mDF",
+                "old_id": "Ddhph9saFgfMi-uUFGK75",
+                "type": "subtopic",
+                "label": "Data Preparation",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\model-selection@Ddhph9saFgfMi-uUFGK75.md",
+                "children": []
+              },
+              {
+                "id": "bIhGv4886V4RWJD3tX0a0",
+                "old_id": "xGO1X9aZRgKcgzi6r1xq8",
+                "type": "subtopic",
+                "label": "Data Loading",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\linear-regression@xGO1X9aZRgKcgzi6r1xq8.md",
+                "children": []
+              },
+              {
+                "id": "5xxAg18h74pDAUPy6P8NQ",
+                "old_id": "S6kkjbImrp1fl3S6_2Uqx",
+                "type": "subtopic",
+                "label": "Train - Test Data",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "Ddhph9saFgfMi-uUFGK75",
+                "old_id": "NOJ-uL1ABewYriqMDVZ3M",
+                "type": "subtopic",
+                "label": "Model Selection",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "m4vmnxRMBf7zwNnwrMEnk",
+                "old_id": "FVIdjmjfkM84nmGVw1S_c",
+                "type": "subtopic",
+                "label": "Tuning",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "vBnqnIh_xSn0OuY9oQ5e-",
+                "old_id": "vyhrYvbmE9m8P-mjOsR7b",
+                "type": "subtopic",
+                "label": "Prediction",
+                "resources": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NC1A2SQVyc1n-KEf6yl-4",
+    "old_id": "KsmiWdxVbzAAtKeUoAs0r",
+    "type": "subtopic",
+    "label": "Reinforcement Learning",
+    "resources": [],
+    "children": [
+      {
+        "id": "Ns2zKn8BL_kTEI6O65pCp",
+        "old_id": "ZVbnAF9I1r8qWFFYG6nXv",
+        "type": "topic",
+        "label": "Types of Machine Learning",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\scikit-learn@ZVbnAF9I1r8qWFFYG6nXv.md",
+        "children": [
+          {
+            "id": "5MUwKGfSTKlam8KCG0A1U",
+            "old_id": "bIhGv4886V4RWJD3tX0a0",
+            "type": "subtopic",
+            "label": "Supervised Learning",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\data-loading@bIhGv4886V4RWJD3tX0a0.md",
+            "children": []
+          },
+          {
+            "id": "36ryjK5isV1MD4MgZP2Jn",
+            "old_id": "5xxAg18h74pDAUPy6P8NQ",
+            "type": "subtopic",
+            "label": "Unsupervised Learning",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\train---test-data@5xxAg18h74pDAUPy6P8NQ.md",
+            "children": []
+          },
+          {
+            "id": "ZVbnAF9I1r8qWFFYG6nXv",
+            "old_id": "gKu6tnpTO2PhDDMYp2u7F",
+            "type": "topic",
+            "label": "Scikit-learn",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\regression@gKu6tnpTO2PhDDMYp2u7F.md",
+            "children": [
+              {
+                "id": "-W2uAccH7Y2XIwhfl9mDF",
+                "old_id": "Ddhph9saFgfMi-uUFGK75",
+                "type": "subtopic",
+                "label": "Data Preparation",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\model-selection@Ddhph9saFgfMi-uUFGK75.md",
+                "children": []
+              },
+              {
+                "id": "bIhGv4886V4RWJD3tX0a0",
+                "old_id": "xGO1X9aZRgKcgzi6r1xq8",
+                "type": "subtopic",
+                "label": "Data Loading",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\linear-regression@xGO1X9aZRgKcgzi6r1xq8.md",
+                "children": []
+              },
+              {
+                "id": "5xxAg18h74pDAUPy6P8NQ",
+                "old_id": "S6kkjbImrp1fl3S6_2Uqx",
+                "type": "subtopic",
+                "label": "Train - Test Data",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "Ddhph9saFgfMi-uUFGK75",
+                "old_id": "NOJ-uL1ABewYriqMDVZ3M",
+                "type": "subtopic",
+                "label": "Model Selection",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "m4vmnxRMBf7zwNnwrMEnk",
+                "old_id": "FVIdjmjfkM84nmGVw1S_c",
+                "type": "subtopic",
+                "label": "Tuning",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "vBnqnIh_xSn0OuY9oQ5e-",
+                "old_id": "vyhrYvbmE9m8P-mjOsR7b",
+                "type": "subtopic",
+                "label": "Prediction",
+                "resources": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lgO7luG7-R_FY5nwFjRE0",
+    "old_id": "4Zk8qR6gQQIqZnQiR5fJE",
+    "type": "subtopic",
+    "label": "Self-supervised Learning",
+    "resources": [],
+    "children": [
+      {
+        "id": "Ns2zKn8BL_kTEI6O65pCp",
+        "old_id": "ZVbnAF9I1r8qWFFYG6nXv",
+        "type": "topic",
+        "label": "Types of Machine Learning",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\scikit-learn@ZVbnAF9I1r8qWFFYG6nXv.md",
+        "children": [
+          {
+            "id": "5MUwKGfSTKlam8KCG0A1U",
+            "old_id": "bIhGv4886V4RWJD3tX0a0",
+            "type": "subtopic",
+            "label": "Supervised Learning",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\data-loading@bIhGv4886V4RWJD3tX0a0.md",
+            "children": []
+          },
+          {
+            "id": "36ryjK5isV1MD4MgZP2Jn",
+            "old_id": "5xxAg18h74pDAUPy6P8NQ",
+            "type": "subtopic",
+            "label": "Unsupervised Learning",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\train---test-data@5xxAg18h74pDAUPy6P8NQ.md",
+            "children": []
+          },
+          {
+            "id": "ZVbnAF9I1r8qWFFYG6nXv",
+            "old_id": "gKu6tnpTO2PhDDMYp2u7F",
+            "type": "topic",
+            "label": "Scikit-learn",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\regression@gKu6tnpTO2PhDDMYp2u7F.md",
+            "children": [
+              {
+                "id": "-W2uAccH7Y2XIwhfl9mDF",
+                "old_id": "Ddhph9saFgfMi-uUFGK75",
+                "type": "subtopic",
+                "label": "Data Preparation",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\model-selection@Ddhph9saFgfMi-uUFGK75.md",
+                "children": []
+              },
+              {
+                "id": "bIhGv4886V4RWJD3tX0a0",
+                "old_id": "xGO1X9aZRgKcgzi6r1xq8",
+                "type": "subtopic",
+                "label": "Data Loading",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\linear-regression@xGO1X9aZRgKcgzi6r1xq8.md",
+                "children": []
+              },
+              {
+                "id": "5xxAg18h74pDAUPy6P8NQ",
+                "old_id": "S6kkjbImrp1fl3S6_2Uqx",
+                "type": "subtopic",
+                "label": "Train - Test Data",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "Ddhph9saFgfMi-uUFGK75",
+                "old_id": "NOJ-uL1ABewYriqMDVZ3M",
+                "type": "subtopic",
+                "label": "Model Selection",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "m4vmnxRMBf7zwNnwrMEnk",
+                "old_id": "FVIdjmjfkM84nmGVw1S_c",
+                "type": "subtopic",
+                "label": "Tuning",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "vBnqnIh_xSn0OuY9oQ5e-",
+                "old_id": "vyhrYvbmE9m8P-mjOsR7b",
+                "type": "subtopic",
+                "label": "Prediction",
+                "resources": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aHOjajXwkDMOssqW1VGrm",
+    "old_id": "V1r3R7GpKPCHpOGWZGTe6",
+    "type": "subtopic",
+    "label": " Logistic Regression ",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "_jS66rGAWecXH3zVF-5ds",
+    "old_id": "UroKGrecBkAE_1Q-FDdMi",
+    "type": "subtopic",
+    "label": "Support Vector Machines",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "JuTTbL_pm1ltGvhUsIzQd",
+    "old_id": "yNykVbSJSMGZudyzSKi-W",
+    "type": "subtopic",
+    "label": "Gradient Boosting Machines",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "arlmRF5pYglsbHb-HR-2x",
+    "old_id": "7QwPgqu86KDN-ZiSFPOBV",
+    "type": "subtopic",
+    "label": "Decision Trees, Random Forest",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "hfr2MU8QkVt9KhVi1Okpv",
+    "old_id": "0-6BV-MggAyD7g3JH45B7",
+    "type": "subtopic",
+    "label": "Polynomial Regression",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\elasticnet-regularization@0-6BV-MggAyD7g3JH45B7.md",
+    "children": []
+  },
+  {
+    "id": "9oWdnQd-vwVJi62JQLgJ5",
+    "old_id": "EYnbTXGj4MI7jdsYdvKSH",
+    "type": "topic",
+    "label": "What is Unsupervised Learning?",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "CBSGvGPoI53p7BezXNm6M",
+    "old_id": "vQI-4uFQJ6694nm1SCpDR",
+    "type": "topic",
+    "label": "Clustering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\dimensionality-reduction@vQI-4uFQJ6694nm1SCpDR.md",
+    "children": [
+      {
+        "id": "vQI-4uFQJ6694nm1SCpDR",
+        "old_id": "gKu6tnpTO2PhDDMYp2u7F",
+        "type": "topic",
+        "label": "Dimensionality Reduction",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\regression@gKu6tnpTO2PhDDMYp2u7F.md",
+        "children": [
+          {
+            "id": "K-x_L3z8JTSHwtTeHm4EG",
+            "old_id": "xGO1X9aZRgKcgzi6r1xq8",
+            "type": "subtopic",
+            "label": "Principal Component Analysis ",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\linear-regression@xGO1X9aZRgKcgzi6r1xq8.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BzUunjJrUMlh6K1NOOD87",
+    "old_id": "gm2HwFQOGIJ6nM2liORub",
+    "type": "subtopic",
+    "label": "Overlapping",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "jJ8cXfHV2LG5PJGZRTHxB",
+    "old_id": "UroKGrecBkAE_1Q-FDdMi",
+    "type": "subtopic",
+    "label": "Hierarchical",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "eErzKbR8sRNlrYcwNSRSh",
+    "old_id": "tpDkgmVPtANqAyRg2CHBE",
+    "type": "subtopic",
+    "label": "Exclusive",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "VrLaUipVKWvwnFF0ZbIlo",
+    "old_id": "7QwPgqu86KDN-ZiSFPOBV",
+    "type": "subtopic",
+    "label": "Probabilistic",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "owSUO9Ut9sggd1OiWr3O7",
+    "old_id": "V1r3R7GpKPCHpOGWZGTe6",
+    "type": "subtopic",
+    "label": "Autoencoders",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "EtU_9MOklVBvnvyg30Yfx",
+    "old_id": "2Uh0p_fptX-Js1F2gniQD",
+    "type": "topic",
+    "label": "What is Reinforcement Learning?",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PZ-WxKGTcWTrXmYI_inD_",
+    "old_id": "rDIg16eb6B6um1P8uMy51",
+    "type": "subtopic",
+    "label": "Policy Gradient",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\transformers@rDIg16eb6B6um1P8uMy51.md",
+    "children": []
+  },
+  {
+    "id": "4Vy6lW9vF_SWwbKLU0qno",
+    "old_id": "J1aGPkZqDZfUwpVmC88AL",
+    "type": "subtopic",
+    "label": "Actor-Critic Methods",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\multi-head-attention@J1aGPkZqDZfUwpVmC88AL.md",
+    "children": []
+  },
+  {
+    "id": "9o-ZT9oZIE3hCXD6eWZI0",
+    "old_id": "oTKC1o1OOnPiTh60a8yVc",
+    "type": "subtopic",
+    "label": "Deep-Q Networks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\self-attention@oTKC1o1OOnPiTh60a8yVc.md",
+    "children": []
+  },
+  {
+    "id": "wxq5dkrpgvs3axmLmeHCk",
+    "old_id": "sChxcuQ2OruKVx8P4wAK_",
+    "type": "subtopic",
+    "label": "Q-Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\attention-models@sChxcuQ2OruKVx8P4wAK_.md",
+    "children": []
+  },
+  {
+    "id": "mja35tndhAT5z_ysv-hDe",
+    "old_id": "anEGWHVpcp75e3jQrj_LZ",
+    "type": "subtopic",
+    "label": "Precision",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\roc-auc@anEGWHVpcp75e3jQrj_LZ.md",
+    "children": []
+  },
+  {
+    "id": "DH33Na9zz_WGmbD-Dxvq1",
+    "old_id": "7fOp3t283GeOn6Tf4kEuN",
+    "type": "subtopic",
+    "label": "Recall",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\log-loss@7fOp3t283GeOn6Tf4kEuN.md",
+    "children": []
+  },
+  {
+    "id": "7fOp3t283GeOn6Tf4kEuN",
+    "old_id": "LdUwTWfCIcowwC-e6q3ac",
+    "type": "subtopic",
+    "label": "Log Loss",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\lstm@LdUwTWfCIcowwC-e6q3ac.md",
+    "children": []
+  },
+  {
+    "id": "LWLqa61GK5ukYzHpjinYi",
+    "old_id": "gm2HwFQOGIJ6nM2liORub",
+    "type": "subtopic",
+    "label": "Forward propagation",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0meihv22e11GwqnRdSJ9g",
+    "old_id": "UroKGrecBkAE_1Q-FDdMi",
+    "type": "subtopic",
+    "label": "Back Propagation",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "8425N_E43Dv5mcmEcXRIa",
+    "old_id": "tpDkgmVPtANqAyRg2CHBE",
+    "type": "subtopic",
+    "label": "Perceptron, Multi-layer Perceptrons",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "RXTci1N6i6D9HqTbsLYIy",
+    "old_id": "KcfFjpxFTFxI6HR6hBPrl",
+    "type": "subtopic",
+    "label": "Activation Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\loss-functions@KcfFjpxFTFxI6HR6hBPrl.md",
+    "children": []
+  },
+  {
+    "id": "4dxZmLg0UEaaVEORupOOC",
+    "old_id": "2Uh0p_fptX-Js1F2gniQD",
+    "type": "topic",
+    "label": "Neural Network (NN) Basics",
+    "resources": [],
+    "children": [
+      {
+        "id": "A_Kx3pEj0jpnLJzdOpcQ9",
+        "old_id": "kGwoHXNNXdxLfPFAX8Edi",
+        "type": "topic",
+        "label": "Deep Learning Libraries",
+        "resources": [],
+        "children": [
+          {
+            "id": "_Z2miSW4PwILMRtBFajBn",
+            "old_id": "A_Kx3pEj0jpnLJzdOpcQ9",
+            "type": "topic",
+            "label": "Deep Learning Architectures",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\deep-learning-libraries@A_Kx3pEj0jpnLJzdOpcQ9.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KcfFjpxFTFxI6HR6hBPrl",
+    "old_id": "oyL0M2OP4NTNbIO3zq-Hz",
+    "type": "subtopic",
+    "label": "Loss Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\confusion-matrix@oyL0M2OP4NTNbIO3zq-Hz.md",
+    "children": []
+  },
+  {
+    "id": "eFw46u6SbFjl7CUMQIoby",
+    "old_id": "eFw46u6SbFjl7CUMQIoby",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "nKtNZ-LuCLRGQ3XKGz5WV",
+    "old_id": "eFw46u6SbFjl7CUMQIoby",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "1aX_vO5zxfTV8_kUIFHkR",
+    "old_id": "EXogp25SPW1bBfb1gRDAe",
+    "type": "subtopic",
+    "label": "Ridge",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\lasso@EXogp25SPW1bBfb1gRDAe.md",
+    "children": []
+  },
+  {
+    "id": "EXogp25SPW1bBfb1gRDAe",
+    "old_id": "DH33Na9zz_WGmbD-Dxvq1",
+    "type": "subtopic",
+    "label": "Lasso",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\recall@DH33Na9zz_WGmbD-Dxvq1.md",
+    "children": []
+  },
+  {
+    "id": "BtO2wH7YYqE25HShI6sd9",
+    "old_id": "kGwoHXNNXdxLfPFAX8Edi",
+    "type": "topic",
+    "label": "Convolutional Neural Network",
+    "resources": [],
+    "children": [
+      {
+        "id": "I-GEE7PvpQmhQSfZmxqwA",
+        "old_id": "rDIg16eb6B6um1P8uMy51",
+        "type": "subtopic",
+        "label": "Pooling",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\transformers@rDIg16eb6B6um1P8uMy51.md",
+        "children": []
+      },
+      {
+        "id": "YWxSI45e5K_4YOrvmh6LV",
+        "old_id": "sChxcuQ2OruKVx8P4wAK_",
+        "type": "subtopic",
+        "label": "Strides",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\attention-models@sChxcuQ2OruKVx8P4wAK_.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "a2PGTDnXKp759vFZzkjSF",
+    "old_id": "J1aGPkZqDZfUwpVmC88AL",
+    "type": "subtopic",
+    "label": "Padding",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\multi-head-attention@J1aGPkZqDZfUwpVmC88AL.md",
+    "children": []
+  },
+  {
+    "id": "MtoYStcZBduLSbjRuPjq0",
+    "old_id": "oTKC1o1OOnPiTh60a8yVc",
+    "type": "subtopic",
+    "label": "Convolution",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\self-attention@oTKC1o1OOnPiTh60a8yVc.md",
+    "children": []
+  },
+  {
+    "id": "gCGHtxqD4V_Ite_AXMspf",
+    "old_id": "kGwoHXNNXdxLfPFAX8Edi",
+    "type": "topic",
+    "label": "Applications of CNNs",
+    "resources": [],
+    "children": [
+      {
+        "id": "H0cscBaExZPNZuFubBUv7",
+        "old_id": "kGwoHXNNXdxLfPFAX8Edi",
+        "type": "topic",
+        "label": "Recurrent Neural Networks",
+        "resources": [],
+        "children": [
+          {
+            "id": "-tzeA13f2jYDm4aO5JciT",
+            "old_id": "kGwoHXNNXdxLfPFAX8Edi",
+            "type": "topic",
+            "label": "Attention Mechanisms",
+            "resources": [],
+            "children": [
+              {
+                "id": "oTKC1o1OOnPiTh60a8yVc",
+                "old_id": "vRS7DW2WUaXiHk9oJgg3z",
+                "type": "subtopic",
+                "label": "Self-Attention",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\k-fold-cross-validation@vRS7DW2WUaXiHk9oJgg3z.md",
+                "children": []
+              },
+              {
+                "id": "rDIg16eb6B6um1P8uMy51",
+                "old_id": "GKMhIXEuSKdW75-24Zopb",
+                "type": "subtopic",
+                "label": "Transformers",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\loocv@GKMhIXEuSKdW75-24Zopb.md",
+                "children": []
+              },
+              {
+                "id": "J1aGPkZqDZfUwpVmC88AL",
+                "old_id": "0meihv22e11GwqnRdSJ9g",
+                "type": "subtopic",
+                "label": "Multi-head Attention",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\back-propagation@0meihv22e11GwqnRdSJ9g.md",
+                "children": []
+              },
+              {
+                "id": "kvf2CUKBe4qSbZla4Brh3",
+                "old_id": "kGwoHXNNXdxLfPFAX8Edi",
+                "type": "topic",
+                "label": "Autoencoders",
+                "resources": [],
+                "children": [
+                  {
+                    "id": "IR0wVIcu1MxOOBiLBnn8S",
+                    "old_id": "Q6LFjtjC-NcUjpd4gijrd",
+                    "type": "topic",
+                    "label": "Generative Adversarial Networks",
+                    "resources": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "E4k6WgNXdnNoApR675VKb",
+    "old_id": "QbftToskhtBlTz1jyiRkb",
+    "type": "subtopic",
+    "label": "Image Classification",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\tokenization@QbftToskhtBlTz1jyiRkb.md",
+    "children": []
+  },
+  {
+    "id": "iSX9YExs1gS4L2CBQux5w",
+    "old_id": "pP0VeUSK9CDodgz-BQmrP",
+    "type": "subtopic",
+    "label": "Image Segmentation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\lemmatization@pP0VeUSK9CDodgz-BQmrP.md",
+    "children": []
+  },
+  {
+    "id": "jPvZdgye7cBf0bPMVGf7a",
+    "old_id": "UO1GEUe8e22uRB6DAxfpe",
+    "type": "subtopic",
+    "label": "Image & Video Recognition",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\stemming@UO1GEUe8e22uRB6DAxfpe.md",
+    "children": []
+  },
+  {
+    "id": "_eKuBhCCwUHnEGwHNQY-g",
+    "old_id": "sChxcuQ2OruKVx8P4wAK_",
+    "type": "subtopic",
+    "label": "Recommendation Systems",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\attention-models@sChxcuQ2OruKVx8P4wAK_.md",
+    "children": []
+  },
+  {
+    "id": "LpggrF1MMvAxtO9EJe3wY",
+    "old_id": "LdUwTWfCIcowwC-e6q3ac",
+    "type": "subtopic",
+    "label": "RNN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\lstm@LdUwTWfCIcowwC-e6q3ac.md",
+    "children": []
+  },
+  {
+    "id": "ZWDSLqxmfg3aPBZFH479q",
+    "old_id": "LdUwTWfCIcowwC-e6q3ac",
+    "type": "subtopic",
+    "label": "GRU",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\lstm@LdUwTWfCIcowwC-e6q3ac.md",
+    "children": []
+  },
+  {
+    "id": "LdUwTWfCIcowwC-e6q3ac",
+    "old_id": "GYcDMUlf0WqU3h5tGwYul",
+    "type": "subtopic",
+    "label": "LSTM",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "JVXe2QDQaqiJYPupIMhWe",
+    "old_id": "IA-wsmrm9BO0e10Zo-x4p",
+    "type": "topic",
+    "label": "Natural Language Processing",
+    "resources": [],
+    "children": [
+      {
+        "id": "Tv3sZvus76dmu0X9AqCIU",
+        "old_id": "Q6LFjtjC-NcUjpd4gijrd",
+        "type": "topic",
+        "label": "Explainable AI",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "QbftToskhtBlTz1jyiRkb",
+    "old_id": "rDIg16eb6B6um1P8uMy51",
+    "type": "subtopic",
+    "label": "Tokenization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\transformers@rDIg16eb6B6um1P8uMy51.md",
+    "children": []
+  },
+  {
+    "id": "pP0VeUSK9CDodgz-BQmrP",
+    "old_id": "J1aGPkZqDZfUwpVmC88AL",
+    "type": "subtopic",
+    "label": "Lemmatization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\multi-head-attention@J1aGPkZqDZfUwpVmC88AL.md",
+    "children": []
+  },
+  {
+    "id": "UO1GEUe8e22uRB6DAxfpe",
+    "old_id": "oTKC1o1OOnPiTh60a8yVc",
+    "type": "subtopic",
+    "label": "Stemming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\self-attention@oTKC1o1OOnPiTh60a8yVc.md",
+    "children": []
+  },
+  {
+    "id": "CaHbAXDIJQXcQ9DZqziod",
+    "old_id": "sChxcuQ2OruKVx8P4wAK_",
+    "type": "subtopic",
+    "label": "Embeddings",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\attention-models@sChxcuQ2OruKVx8P4wAK_.md",
+    "children": []
+  },
+  {
+    "id": "sChxcuQ2OruKVx8P4wAK_",
+    "old_id": "KcfFjpxFTFxI6HR6hBPrl",
+    "type": "subtopic",
+    "label": "Attention Models",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\loss-functions@KcfFjpxFTFxI6HR6hBPrl.md",
+    "children": []
+  },
+  {
+    "id": "hl06pnTWoMnzLmiOz9Sga",
+    "old_id": "UZq7Aq3nhidsXdsKeEnNF",
+    "type": "button",
+    "label": "AI & Data Scientist",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "KGFYqDgOVSFXd2lbg8vGx",
+    "old_id": "UZq7Aq3nhidsXdsKeEnNF",
+    "type": "button",
+    "label": "MLOps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "xcOlVnhYfnSCfzLpkcaRS",
+    "old_id": "UZq7Aq3nhidsXdsKeEnNF",
+    "type": "button",
+    "label": "AI Engineer",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "UZq7Aq3nhidsXdsKeEnNF",
+    "old_id": "f5WRewBlpeYMf71cPcXs-",
+    "type": "button",
+    "label": "AI Agents",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Ru8_xMyFxye1hyzCUYvnj",
+    "old_id": "7RSW-Pypf3QpZp4O21AGl",
+    "type": "subtopic",
+    "label": "TensorFlow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\pytorch@7RSW-Pypf3QpZp4O21AGl.md",
+    "children": []
+  },
+  {
+    "id": "zoXnXI4Wf5sxddHqYwQjP",
+    "old_id": "yKtRmgwrJ75VVz7_txZ-S",
+    "type": "subtopic",
+    "label": "Keras",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\scikit-learn@yKtRmgwrJ75VVz7_txZ-S.md",
+    "children": []
+  },
+  {
+    "id": "7RSW-Pypf3QpZp4O21AGl",
+    "old_id": "yKtRmgwrJ75VVz7_txZ-S",
+    "type": "subtopic",
+    "label": "PyTorch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\scikit-learn@yKtRmgwrJ75VVz7_txZ-S.md",
+    "children": []
+  },
+  {
+    "id": "yKtRmgwrJ75VVz7_txZ-S",
+    "old_id": "LpggrF1MMvAxtO9EJe3wY",
+    "type": "subtopic",
+    "label": "Scikit-learn",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\rnn@LpggrF1MMvAxtO9EJe3wY.md",
+    "children": []
+  },
+  {
+    "id": "0-6BV-MggAyD7g3JH45B7",
+    "old_id": "XmnWnPE1sVXheuc-M_Ew7",
+    "type": "subtopic",
+    "label": "ElasticNet Regularization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\determinants-inverse-of-matrix@XmnWnPE1sVXheuc-M_Ew7.md",
+    "children": []
+  },
+  {
+    "id": "vmERbhRIevLLNc7Ny2pWp",
+    "old_id": "99TI95HVGrXIYr-PIDxhC",
+    "type": "topic",
+    "label": "Why is it important?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\what-is-model-evaluation@99TI95HVGrXIYr-PIDxhC.md",
+    "children": [
+      {
+        "id": "5dKl6SUQhOsZfUtVR5hzw",
+        "old_id": "kGwoHXNNXdxLfPFAX8Edi",
+        "type": "topic",
+        "label": "Metrics to Evaluate",
+        "resources": [],
+        "children": [
+          {
+            "id": "oyL0M2OP4NTNbIO3zq-Hz",
+            "old_id": "7QwPgqu86KDN-ZiSFPOBV",
+            "type": "subtopic",
+            "label": "Confusion Matrix",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "anEGWHVpcp75e3jQrj_LZ",
+            "old_id": "ZWDSLqxmfg3aPBZFH479q",
+            "type": "subtopic",
+            "label": "ROC-AUC",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\gru@ZWDSLqxmfg3aPBZFH479q.md",
+            "children": []
+          },
+          {
+            "id": "FdNY8QUbPPpeHFgD8TTaD",
+            "old_id": "LpggrF1MMvAxtO9EJe3wY",
+            "type": "subtopic",
+            "label": "F1-Score",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\rnn@LpggrF1MMvAxtO9EJe3wY.md",
+            "children": []
+          },
+          {
+            "id": "3wib9UH0_OLhKjqKoZEMv",
+            "old_id": "FdNY8QUbPPpeHFgD8TTaD",
+            "type": "subtopic",
+            "label": "Accuracy",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\f1-score@FdNY8QUbPPpeHFgD8TTaD.md",
+            "children": []
+          },
+          {
+            "id": "0hi0LdCtj9Paimgfc-l1O",
+            "old_id": "kGwoHXNNXdxLfPFAX8Edi",
+            "type": "topic",
+            "label": "Validation Techniques",
+            "resources": [],
+            "children": [
+              {
+                "id": "vRS7DW2WUaXiHk9oJgg3z",
+                "old_id": "8425N_E43Dv5mcmEcXRIa",
+                "type": "subtopic",
+                "label": "K-Fold Cross Validation",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\perceptron-multi-layer-perceptrons@8425N_E43Dv5mcmEcXRIa.md",
+                "children": []
+              },
+              {
+                "id": "GKMhIXEuSKdW75-24Zopb",
+                "old_id": "LWLqa61GK5ukYzHpjinYi",
+                "type": "subtopic",
+                "label": "LOOCV",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\machine-learning\\content\\forward-propagation@LWLqa61GK5ukYzHpjinYi.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

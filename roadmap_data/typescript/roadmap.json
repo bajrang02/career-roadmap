@@ -1,0 +1,1052 @@
+{
+  "slug": "typescript",
+  "title": "Typescript",
+  "nodes": [
+    {
+      "id": "IkitRuGt2Pud6aootSJB-",
+      "old_id": "IkitRuGt2Pud6aootSJB-",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "_4my3Mfk5lxztykcJQ66s",
+      "old_id": "_4my3Mfk5lxztykcJQ66s",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "v-557S7JKWhkSPaDYi0BN",
+      "old_id": "v-557S7JKWhkSPaDYi0BN",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "h-SAVlYMgS3y0WmKNd9r9",
+      "old_id": "h-SAVlYMgS3y0WmKNd9r9",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+      "type": "title",
+      "label": "TypeScript",
+      "resources": []
+    },
+    {
+      "id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "DAwKHBng7Tytlcd2_8GOR",
+      "old_id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "type": "button",
+      "label": "JavaScript Roadmap",
+      "resources": []
+    },
+    {
+      "id": "KDd40JOAvZ8O1mfhTYB3K",
+      "old_id": "KDd40JOAvZ8O1mfhTYB3K",
+      "type": "topic",
+      "label": "Introduction to TypeScript",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\introduction-to-typescript@KDd40JOAvZ8O1mfhTYB3K.md"
+    },
+    {
+      "id": "Y3FQ2wGWFb1VciLEVEGUf",
+      "old_id": "Y3FQ2wGWFb1VciLEVEGUf",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "MQWzN_kXxVJMOYbRXSGJc",
+      "old_id": "MQWzN_kXxVJMOYbRXSGJc",
+      "type": "subtopic",
+      "label": "TypeScript vs JavaScript",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\typescript-vs-javascript@MQWzN_kXxVJMOYbRXSGJc.md"
+    },
+    {
+      "id": "dcLaEU_lb0z_QypL1ZhpX",
+      "old_id": "dcLaEU_lb0z_QypL1ZhpX",
+      "type": "subtopic",
+      "label": "TS and JS Interoperability",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\ts-and-js-interoperability@dcLaEU_lb0z_QypL1ZhpX.md"
+    },
+    {
+      "id": "dA8CNQOgJRDa0T7rmyS7f",
+      "old_id": "dA8CNQOgJRDa0T7rmyS7f",
+      "type": "subtopic",
+      "label": "Installation and Configuration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\installation-and-configuration@dA8CNQOgJRDa0T7rmyS7f.md"
+    },
+    {
+      "id": "DmqrX56d9KnBcOSwlJR2q",
+      "old_id": "DmqrX56d9KnBcOSwlJR2q",
+      "type": "subtopic",
+      "label": "tsconfig.json",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\tsconfigjson@DmqrX56d9KnBcOSwlJR2q.md"
+    },
+    {
+      "id": "RrExVb7l2gd0s_TlNdLeD",
+      "old_id": "RrExVb7l2gd0s_TlNdLeD",
+      "type": "subtopic",
+      "label": "Compiler Options",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\compiler-options@RrExVb7l2gd0s_TlNdLeD.md"
+    },
+    {
+      "id": "qdy4ZIY2EKgmPNdu_ndcg",
+      "old_id": "qdy4ZIY2EKgmPNdu_ndcg",
+      "type": "subtopic",
+      "label": "Running TypeScript",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\running-typescript@qdy4ZIY2EKgmPNdu_ndcg.md"
+    },
+    {
+      "id": "Iv_t13PSVzet5VPKFtAp1",
+      "old_id": "Iv_t13PSVzet5VPKFtAp1",
+      "type": "subtopic",
+      "label": "tsc",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\tsc@Iv_t13PSVzet5VPKFtAp1.md"
+    },
+    {
+      "id": "ZCM2_X4BiKh5FTCizrr-E",
+      "old_id": "ZCM2_X4BiKh5FTCizrr-E",
+      "type": "subtopic",
+      "label": "ts-node",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\ts-node@ZCM2_X4BiKh5FTCizrr-E.md"
+    },
+    {
+      "id": "_bZ71i36haWgHQTY0yMOx",
+      "old_id": "_bZ71i36haWgHQTY0yMOx",
+      "type": "subtopic",
+      "label": "TS Playground",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\ts-playground@_bZ71i36haWgHQTY0yMOx.md"
+    },
+    {
+      "id": "qcrGApxNzkGYxgcd7o45d",
+      "old_id": "qcrGApxNzkGYxgcd7o45d",
+      "type": "topic",
+      "label": "TypeScript Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\typescript-types@qcrGApxNzkGYxgcd7o45d.md"
+    },
+    {
+      "id": "OtdcYVLAgWsaKcaEjKOW1",
+      "old_id": "OtdcYVLAgWsaKcaEjKOW1",
+      "type": "label",
+      "label": "Primitive Types",
+      "resources": []
+    },
+    {
+      "id": "hfIHxa5i_5rEpjtzqEsic",
+      "old_id": "hfIHxa5i_5rEpjtzqEsic",
+      "type": "subtopic",
+      "label": "boolean",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\boolean@hfIHxa5i_5rEpjtzqEsic.md"
+    },
+    {
+      "id": "UH9d3cvGy_e67WFNFwCyf",
+      "old_id": "UH9d3cvGy_e67WFNFwCyf",
+      "type": "subtopic",
+      "label": "number",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\number@UH9d3cvGy_e67WFNFwCyf.md"
+    },
+    {
+      "id": "d8iV-IBZ6cSnH8Z5_HRmc",
+      "old_id": "d8iV-IBZ6cSnH8Z5_HRmc",
+      "type": "subtopic",
+      "label": "string",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\string@d8iV-IBZ6cSnH8Z5_HRmc.md"
+    },
+    {
+      "id": "yLlQg7BF--ZwRHbXBWfOi",
+      "old_id": "yLlQg7BF--ZwRHbXBWfOi",
+      "type": "subtopic",
+      "label": "void",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\void@yLlQg7BF--ZwRHbXBWfOi.md"
+    },
+    {
+      "id": "Sa6IZtM4XJstultz-pbh0",
+      "old_id": "Sa6IZtM4XJstultz-pbh0",
+      "type": "subtopic",
+      "label": "undefined",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\undefined@Sa6IZtM4XJstultz-pbh0.md"
+    },
+    {
+      "id": "cjAwawhZLo1qVQ93XIdm2",
+      "old_id": "cjAwawhZLo1qVQ93XIdm2",
+      "type": "subtopic",
+      "label": "null",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\null@cjAwawhZLo1qVQ93XIdm2.md"
+    },
+    {
+      "id": "SKqGm8fqxSRoE5HqDNqHB",
+      "old_id": "SKqGm8fqxSRoE5HqDNqHB",
+      "type": "label",
+      "label": "Object Types",
+      "resources": []
+    },
+    {
+      "id": "mVKsM7R4Ivpdhnbwt1aRb",
+      "old_id": "mVKsM7R4Ivpdhnbwt1aRb",
+      "type": "subtopic",
+      "label": "Interface",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\interface@mVKsM7R4Ivpdhnbwt1aRb.md"
+    },
+    {
+      "id": "tTSITP1W1ymS-njbFb8Ts",
+      "old_id": "tTSITP1W1ymS-njbFb8Ts",
+      "type": "subtopic",
+      "label": "Class",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\class@tTSITP1W1ymS-njbFb8Ts.md"
+    },
+    {
+      "id": "bfZIXHceDKDGQl-24kQpT",
+      "old_id": "bfZIXHceDKDGQl-24kQpT",
+      "type": "subtopic",
+      "label": "Enum",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\enum@bfZIXHceDKDGQl-24kQpT.md"
+    },
+    {
+      "id": "YbDuIo1BbZKEAZwmXlCdZ",
+      "old_id": "vnqvm_WiaKqpdxrW4wRGa",
+      "type": "subtopic",
+      "label": "Array",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\object@vnqvm_WiaKqpdxrW4wRGa.md"
+    },
+    {
+      "id": "jq-GD0DLyzrEXQKUmt5kv",
+      "old_id": "jq-GD0DLyzrEXQKUmt5kv",
+      "type": "subtopic",
+      "label": "Tuple",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\tuple@jq-GD0DLyzrEXQKUmt5kv.md"
+    },
+    {
+      "id": "bx8s7zcSqfKHhHLF45YWd",
+      "old_id": "bx8s7zcSqfKHhHLF45YWd",
+      "type": "label",
+      "label": "Top Types",
+      "resources": []
+    },
+    {
+      "id": "vnqvm_WiaKqpdxrW4wRGa",
+      "old_id": "vnqvm_WiaKqpdxrW4wRGa",
+      "type": "subtopic",
+      "label": "Object",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\object@vnqvm_WiaKqpdxrW4wRGa.md"
+    },
+    {
+      "id": "O2TYbd9i_OQwQk2dKh-ly",
+      "old_id": "O2TYbd9i_OQwQk2dKh-ly",
+      "type": "subtopic",
+      "label": "unknown",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\unknown@O2TYbd9i_OQwQk2dKh-ly.md"
+    },
+    {
+      "id": "yXiLegSlL7SveU8rBGj8U",
+      "old_id": "yXiLegSlL7SveU8rBGj8U",
+      "type": "subtopic",
+      "label": "any",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\any@yXiLegSlL7SveU8rBGj8U.md"
+    },
+    {
+      "id": "I_ZPF1QaS4gvwNNBDzW8w",
+      "old_id": "I_ZPF1QaS4gvwNNBDzW8w",
+      "type": "label",
+      "label": "Bottom Types",
+      "resources": []
+    },
+    {
+      "id": "0pi9VTbngcAIswuu5LIYg",
+      "old_id": "0pi9VTbngcAIswuu5LIYg",
+      "type": "subtopic",
+      "label": "never",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\never@0pi9VTbngcAIswuu5LIYg.md"
+    },
+    {
+      "id": "AYoKlh6xTM5FgiK4h2HFp",
+      "old_id": "AYoKlh6xTM5FgiK4h2HFp",
+      "type": "label",
+      "label": "Assertions",
+      "resources": []
+    },
+    {
+      "id": "pGFnTqi0-RSj0YRmNA5iy",
+      "old_id": "pGFnTqi0-RSj0YRmNA5iy",
+      "type": "subtopic",
+      "label": "as const",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\as-const@pGFnTqi0-RSj0YRmNA5iy.md"
+    },
+    {
+      "id": "Ba0baUbomrW9td_K8U-5L",
+      "old_id": "Ba0baUbomrW9td_K8U-5L",
+      "type": "subtopic",
+      "label": "as [type]",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\as-type@Ba0baUbomrW9td_K8U-5L.md"
+    },
+    {
+      "id": "afTNr36VqeXoJpHxm2IoS",
+      "old_id": "afTNr36VqeXoJpHxm2IoS",
+      "type": "subtopic",
+      "label": "as any",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\as-any@afTNr36VqeXoJpHxm2IoS.md"
+    },
+    {
+      "id": "mjaL5ocLnM8VQlhUxW6KU",
+      "old_id": "mjaL5ocLnM8VQlhUxW6KU",
+      "type": "subtopic",
+      "label": "Non-null Assertion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\non-null-assertion@mjaL5ocLnM8VQlhUxW6KU.md"
+    },
+    {
+      "id": "HD1UGOidp7JGKdW6CEdQ_",
+      "old_id": "HD1UGOidp7JGKdW6CEdQ_",
+      "type": "subtopic",
+      "label": "satisfies keyword",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\satisfies-keyword@HD1UGOidp7JGKdW6CEdQ_.md"
+    },
+    {
+      "id": "KUur-gfOBQodTS-irFet7",
+      "old_id": "KUur-gfOBQodTS-irFet7",
+      "type": "topic",
+      "label": "Type Inference",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\type-inference@KUur-gfOBQodTS-irFet7.md"
+    },
+    {
+      "id": "alMJCEyUZ90xz-2_g3YRj",
+      "old_id": "alMJCEyUZ90xz-2_g3YRj",
+      "type": "topic",
+      "label": "Type Compatibility",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\type-compatibility@alMJCEyUZ90xz-2_g3YRj.md"
+    },
+    {
+      "id": "qefnsugcveizVq2TORRgn",
+      "old_id": "qefnsugcveizVq2TORRgn",
+      "type": "topic",
+      "label": "Combining Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\combining-types@qefnsugcveizVq2TORRgn.md"
+    },
+    {
+      "id": "5z5w3yv1HbOpMlzEd4Iot",
+      "old_id": "5z5w3yv1HbOpMlzEd4Iot",
+      "type": "subtopic",
+      "label": "Union Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\union-types@5z5w3yv1HbOpMlzEd4Iot.md"
+    },
+    {
+      "id": "RWYXEZMODUrqwRWf_Lqi9",
+      "old_id": "RWYXEZMODUrqwRWf_Lqi9",
+      "type": "subtopic",
+      "label": "Intersection Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\intersection-types@RWYXEZMODUrqwRWf_Lqi9.md"
+    },
+    {
+      "id": "M_3O21zjppgWptIT5dtu8",
+      "old_id": "M_3O21zjppgWptIT5dtu8",
+      "type": "subtopic",
+      "label": "Type Aliases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\type-aliases@M_3O21zjppgWptIT5dtu8.md"
+    },
+    {
+      "id": "t1Tcesfq7bV2TkHcfD6lU",
+      "old_id": "t1Tcesfq7bV2TkHcfD6lU",
+      "type": "subtopic",
+      "label": "keyof Operator",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\keyof-operator@t1Tcesfq7bV2TkHcfD6lU.md"
+    },
+    {
+      "id": "cFZsxpYHDxm7IWwergb3r",
+      "old_id": "ib0jfZzukYOZ42AdJqt_W",
+      "type": "topic",
+      "label": "Type Guards / Narrowing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\classes@ib0jfZzukYOZ42AdJqt_W.md"
+    },
+    {
+      "id": "EDOU5a7UK17yp3PdFBJMc",
+      "old_id": "EDOU5a7UK17yp3PdFBJMc",
+      "type": "subtopic",
+      "label": "instanceof",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\instanceof@EDOU5a7UK17yp3PdFBJMc.md"
+    },
+    {
+      "id": "ZiOcFZy85p7tLzUkyKDei",
+      "old_id": "ZiOcFZy85p7tLzUkyKDei",
+      "type": "subtopic",
+      "label": "typeof",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\typeof@ZiOcFZy85p7tLzUkyKDei.md"
+    },
+    {
+      "id": "Wy2yIK5vgLjEcc9VjuQK5",
+      "old_id": "Wy2yIK5vgLjEcc9VjuQK5",
+      "type": "subtopic",
+      "label": "Equality",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\equality@Wy2yIK5vgLjEcc9VjuQK5.md"
+    },
+    {
+      "id": "Xonbxc7MvMEonKBvbkCAH",
+      "old_id": "Xonbxc7MvMEonKBvbkCAH",
+      "type": "subtopic",
+      "label": "Truthiness",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\truthiness@Xonbxc7MvMEonKBvbkCAH.md"
+    },
+    {
+      "id": "1DOSAieOmWUNNsQQrqf2m",
+      "old_id": "1DOSAieOmWUNNsQQrqf2m",
+      "type": "subtopic",
+      "label": "Type Predicates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\type-predicates@1DOSAieOmWUNNsQQrqf2m.md"
+    },
+    {
+      "id": "qOynVkDi1gFz0mxyJHjfJ",
+      "old_id": "ib0jfZzukYOZ42AdJqt_W",
+      "type": "topic",
+      "label": "TypeScript Functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\classes@ib0jfZzukYOZ42AdJqt_W.md"
+    },
+    {
+      "id": "9FIhHwDNzyKpb42NmSv3K",
+      "old_id": "9FIhHwDNzyKpb42NmSv3K",
+      "type": "subtopic",
+      "label": "Typing Functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\typing-functions@9FIhHwDNzyKpb42NmSv3K.md"
+    },
+    {
+      "id": "-0Zp6b8NjDyz9MAQE3HfS",
+      "old_id": "-0Zp6b8NjDyz9MAQE3HfS",
+      "type": "subtopic",
+      "label": "Function Overloading",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\function-overloading@-0Zp6b8NjDyz9MAQE3HfS.md"
+    },
+    {
+      "id": "aH1DxiG5xrdNlKutJ_gTz",
+      "old_id": "ib0jfZzukYOZ42AdJqt_W",
+      "type": "topic",
+      "label": "TypeScript Interfaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\classes@ib0jfZzukYOZ42AdJqt_W.md"
+    },
+    {
+      "id": "TxkEpoOiuUm-fXJuFVKcH",
+      "old_id": "TxkEpoOiuUm-fXJuFVKcH",
+      "type": "subtopic",
+      "label": "Types vs Interfaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\types-vs-interfaces@TxkEpoOiuUm-fXJuFVKcH.md"
+    },
+    {
+      "id": "O-9WQqidujLIEOTcOfy4n",
+      "old_id": "O-9WQqidujLIEOTcOfy4n",
+      "type": "subtopic",
+      "label": "Extending Interfaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\extending-interfaces@O-9WQqidujLIEOTcOfy4n.md"
+    },
+    {
+      "id": "fY40W8prpgiNqRL50w7ub",
+      "old_id": "fY40W8prpgiNqRL50w7ub",
+      "type": "subtopic",
+      "label": "Interface Declaration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\interface-declaration@fY40W8prpgiNqRL50w7ub.md"
+    },
+    {
+      "id": "lvtTSHH9yBTCiLng8btnI",
+      "old_id": "lvtTSHH9yBTCiLng8btnI",
+      "type": "subtopic",
+      "label": "Hybrid Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\hybrid-types@lvtTSHH9yBTCiLng8btnI.md"
+    },
+    {
+      "id": "ib0jfZzukYOZ42AdJqt_W",
+      "old_id": "ib0jfZzukYOZ42AdJqt_W",
+      "type": "topic",
+      "label": "Classes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\classes@ib0jfZzukYOZ42AdJqt_W.md"
+    },
+    {
+      "id": "3XrKbK5Od2eoM0BLaS4kU",
+      "old_id": "3XrKbK5Od2eoM0BLaS4kU",
+      "type": "subtopic",
+      "label": "Constructor Params",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\constructor-params@3XrKbK5Od2eoM0BLaS4kU.md"
+    },
+    {
+      "id": "oxzcYXxy2I7GI7nbvFYVa",
+      "old_id": "oxzcYXxy2I7GI7nbvFYVa",
+      "type": "subtopic",
+      "label": "Constructor Overloading",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\constructor-overloading@oxzcYXxy2I7GI7nbvFYVa.md"
+    },
+    {
+      "id": "RJ7on8WoxrKcXrR3qY5Rs",
+      "old_id": "RJ7on8WoxrKcXrR3qY5Rs",
+      "type": "subtopic",
+      "label": "Access Modifiers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\access-modifiers@RJ7on8WoxrKcXrR3qY5Rs.md"
+    },
+    {
+      "id": "tZFWeWHdOUJcCEtHfXH9p",
+      "old_id": "tZFWeWHdOUJcCEtHfXH9p",
+      "type": "subtopic",
+      "label": "Abstract Classes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\abstract-classes@tZFWeWHdOUJcCEtHfXH9p.md"
+    },
+    {
+      "id": "8P0-vb9nlnmz7iC4UvyJZ",
+      "old_id": "8P0-vb9nlnmz7iC4UvyJZ",
+      "type": "subtopic",
+      "label": "Inheritance vs Polymorphism",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\inheritance-vs-polymorphism@8P0-vb9nlnmz7iC4UvyJZ.md"
+    },
+    {
+      "id": "aknqutxN2WDQ4RFcT-szM",
+      "old_id": "aknqutxN2WDQ4RFcT-szM",
+      "type": "subtopic",
+      "label": "Method Overriding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\method-overriding@aknqutxN2WDQ4RFcT-szM.md"
+    },
+    {
+      "id": "4gaKqNtGLFqpk9WVKZl0v",
+      "old_id": "2F7vOL__v9dLBohA263aj",
+      "type": "topic",
+      "label": "Generics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\advanced-types@2F7vOL__v9dLBohA263aj.md"
+    },
+    {
+      "id": "T2-VAVfntouJOoWHpHZ3n",
+      "old_id": "T2-VAVfntouJOoWHpHZ3n",
+      "type": "subtopic",
+      "label": "Generic Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\generic-types@T2-VAVfntouJOoWHpHZ3n.md"
+    },
+    {
+      "id": "0NXHAOUYGIwuPwlN7r_B3",
+      "old_id": "0NXHAOUYGIwuPwlN7r_B3",
+      "type": "subtopic",
+      "label": "Generic Constraints",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\generic-constraints@0NXHAOUYGIwuPwlN7r_B3.md"
+    },
+    {
+      "id": "TRx3wvWnRdJJf5eL-GBG4",
+      "old_id": "2F7vOL__v9dLBohA263aj",
+      "type": "topic",
+      "label": "Decorators",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\advanced-types@2F7vOL__v9dLBohA263aj.md"
+    },
+    {
+      "id": "LSwUHfalnk5MgHt21PANb",
+      "old_id": "2F7vOL__v9dLBohA263aj",
+      "type": "topic",
+      "label": "Utility Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\advanced-types@2F7vOL__v9dLBohA263aj.md"
+    },
+    {
+      "id": "gBTem9Dp3IQLAkqGX4fOF",
+      "old_id": "gBTem9Dp3IQLAkqGX4fOF",
+      "type": "subtopic",
+      "label": "Partial",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\partial@gBTem9Dp3IQLAkqGX4fOF.md"
+    },
+    {
+      "id": "E88tHQvARkHURZwGaO02l",
+      "old_id": "E88tHQvARkHURZwGaO02l",
+      "type": "subtopic",
+      "label": "Pick",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\pick@E88tHQvARkHURZwGaO02l.md"
+    },
+    {
+      "id": "yjlxygHl8QONNUrdx-Q0A",
+      "old_id": "yjlxygHl8QONNUrdx-Q0A",
+      "type": "subtopic",
+      "label": "Omit",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\omit@yjlxygHl8QONNUrdx-Q0A.md"
+    },
+    {
+      "id": "IuO9-O_DQdDYuAbdGWdgb",
+      "old_id": "IuO9-O_DQdDYuAbdGWdgb",
+      "type": "subtopic",
+      "label": "Readonly",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\readonly@IuO9-O_DQdDYuAbdGWdgb.md"
+    },
+    {
+      "id": "DRdBmF5Dt_r09LoPOxOuq",
+      "old_id": "DRdBmF5Dt_r09LoPOxOuq",
+      "type": "subtopic",
+      "label": "Record",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\record@DRdBmF5Dt_r09LoPOxOuq.md"
+    },
+    {
+      "id": "0fvOXi9gJbEc7etqTggNE",
+      "old_id": "0fvOXi9gJbEc7etqTggNE",
+      "type": "subtopic",
+      "label": "Exclude",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\exclude@0fvOXi9gJbEc7etqTggNE.md"
+    },
+    {
+      "id": "IIAbAzXiVQm1JEi2MTMZN",
+      "old_id": "IIAbAzXiVQm1JEi2MTMZN",
+      "type": "subtopic",
+      "label": "Extract",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\extract@IIAbAzXiVQm1JEi2MTMZN.md"
+    },
+    {
+      "id": "_BAZlBEzE7ddr315OeHvl",
+      "old_id": "_BAZlBEzE7ddr315OeHvl",
+      "type": "subtopic",
+      "label": "NonNullable",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\nonnullable@_BAZlBEzE7ddr315OeHvl.md"
+    },
+    {
+      "id": "a7hl0iMZ-jcUACxqIYVqv",
+      "old_id": "a7hl0iMZ-jcUACxqIYVqv",
+      "type": "subtopic",
+      "label": "Parameters",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\parameters@a7hl0iMZ-jcUACxqIYVqv.md"
+    },
+    {
+      "id": "On75JR_UkiIlha0_qaSeu",
+      "old_id": "On75JR_UkiIlha0_qaSeu",
+      "type": "subtopic",
+      "label": "ReturnType",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\returntype@On75JR_UkiIlha0_qaSeu.md"
+    },
+    {
+      "id": "izGAjNtrh3BzQt3KiZX0W",
+      "old_id": "izGAjNtrh3BzQt3KiZX0W",
+      "type": "subtopic",
+      "label": "InstanceType",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\instancetype@izGAjNtrh3BzQt3KiZX0W.md"
+    },
+    {
+      "id": "aEhI_9mFWXRIZh1ZxTuzu",
+      "old_id": "aEhI_9mFWXRIZh1ZxTuzu",
+      "type": "subtopic",
+      "label": "Awaited",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\awaited@aEhI_9mFWXRIZh1ZxTuzu.md"
+    },
+    {
+      "id": "2F7vOL__v9dLBohA263aj",
+      "old_id": "2F7vOL__v9dLBohA263aj",
+      "type": "topic",
+      "label": "Advanced Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\advanced-types@2F7vOL__v9dLBohA263aj.md"
+    },
+    {
+      "id": "VQ-V9qIdKgnpSJg2UnpuB",
+      "old_id": "VQ-V9qIdKgnpSJg2UnpuB",
+      "type": "subtopic",
+      "label": "Mapped Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\mapped-types@VQ-V9qIdKgnpSJg2UnpuB.md"
+    },
+    {
+      "id": "ubGIhi-WLE0EopTYXzmPL",
+      "old_id": "ubGIhi-WLE0EopTYXzmPL",
+      "type": "subtopic",
+      "label": "Conditional Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\conditional-types@ubGIhi-WLE0EopTYXzmPL.md"
+    },
+    {
+      "id": "CWzGwvl6NwYCaLYSLIjqQ",
+      "old_id": "CWzGwvl6NwYCaLYSLIjqQ",
+      "type": "subtopic",
+      "label": "Literal Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\literal-types@CWzGwvl6NwYCaLYSLIjqQ.md"
+    },
+    {
+      "id": "xP25nGw42VqdfZ_9pDMXd",
+      "old_id": "xP25nGw42VqdfZ_9pDMXd",
+      "type": "subtopic",
+      "label": "Template Literal Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\template-literal-types@xP25nGw42VqdfZ_9pDMXd.md"
+    },
+    {
+      "id": "N8xBTJ74xv1E5hSLYZtze",
+      "old_id": "N8xBTJ74xv1E5hSLYZtze",
+      "type": "subtopic",
+      "label": "Recursive Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\recursive-types@N8xBTJ74xv1E5hSLYZtze.md"
+    },
+    {
+      "id": "sE9lqkkqwnsVJxTJv37YZ",
+      "old_id": "sE9lqkkqwnsVJxTJv37YZ",
+      "type": "topic",
+      "label": "TypeScript Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\typescript-modules@sE9lqkkqwnsVJxTJv37YZ.md"
+    },
+    {
+      "id": "EtVwQ4lnWi3IIFHGb2Qib",
+      "old_id": "EtVwQ4lnWi3IIFHGb2Qib",
+      "type": "subtopic",
+      "label": "Namespaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\namespaces@EtVwQ4lnWi3IIFHGb2Qib.md"
+    },
+    {
+      "id": "k_5y77k8ZZ9_O2WpWXWTY",
+      "old_id": "k_5y77k8ZZ9_O2WpWXWTY",
+      "type": "subtopic",
+      "label": "Ambient Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\ambient-modules@k_5y77k8ZZ9_O2WpWXWTY.md"
+    },
+    {
+      "id": "egQWk1n3p8Pep83yIwCtI",
+      "old_id": "egQWk1n3p8Pep83yIwCtI",
+      "type": "subtopic",
+      "label": "External Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\external-modules@egQWk1n3p8Pep83yIwCtI.md"
+    },
+    {
+      "id": "16TT8R4N-9tCfWmPetqMP",
+      "old_id": "16TT8R4N-9tCfWmPetqMP",
+      "type": "subtopic",
+      "label": "Namespace Augmentation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\namespace-augmentation@16TT8R4N-9tCfWmPetqMP.md"
+    },
+    {
+      "id": "JQwWeB1gkANSYfQmH69Bs",
+      "old_id": "JQwWeB1gkANSYfQmH69Bs",
+      "type": "subtopic",
+      "label": "Global Augmentation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\global-augmentation@JQwWeB1gkANSYfQmH69Bs.md"
+    },
+    {
+      "id": "RqZaWGxxNRItBhVwWKysc",
+      "old_id": "RqZaWGxxNRItBhVwWKysc",
+      "type": "topic",
+      "label": "Ecosystem",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\ecosystem@RqZaWGxxNRItBhVwWKysc.md"
+    },
+    {
+      "id": "fU8Vnw1DobM4iXl1Tq6EK",
+      "old_id": "fU8Vnw1DobM4iXl1Tq6EK",
+      "type": "subtopic",
+      "label": "Formatting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\formatting@fU8Vnw1DobM4iXl1Tq6EK.md"
+    },
+    {
+      "id": "8PcAPOrKisKRYPWamz4nV",
+      "old_id": "8PcAPOrKisKRYPWamz4nV",
+      "type": "subtopic",
+      "label": "Linting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\linting@8PcAPOrKisKRYPWamz4nV.md"
+    },
+    {
+      "id": "PCX3KcvMUW3mmQEepLTXp",
+      "old_id": "PCX3KcvMUW3mmQEepLTXp",
+      "type": "subtopic",
+      "label": "Useful Packages",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\useful-packages@PCX3KcvMUW3mmQEepLTXp.md"
+    },
+    {
+      "id": "I5uwfej5XMwR2N2gpBILh",
+      "old_id": "I5uwfej5XMwR2N2gpBILh",
+      "type": "subtopic",
+      "label": "Build Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\typescript\\content\\build-tools@I5uwfej5XMwR2N2gpBILh.md"
+    },
+    {
+      "id": "P5IZjP0g1_fnvHy3YTR4q",
+      "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+      "type": "button",
+      "label": "Frontend",
+      "resources": []
+    },
+    {
+      "id": "U0fJo2a3vnaodNJhfZ78I",
+      "old_id": "P5IZjP0g1_fnvHy3YTR4q",
+      "type": "button",
+      "label": "Backend",
+      "resources": []
+    },
+    {
+      "id": "iuSv7V59YxUZawN38Qlli",
+      "old_id": "ZSrQoNGKiR484uALMWO9F",
+      "type": "button",
+      "label": "Node.js",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "DAwKHBng7Tytlcd2_8GOR"
+    },
+    {
+      "source": "DAwKHBng7Tytlcd2_8GOR",
+      "target": "KDd40JOAvZ8O1mfhTYB3K"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "dcLaEU_lb0z_QypL1ZhpX"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "MQWzN_kXxVJMOYbRXSGJc"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "dA8CNQOgJRDa0T7rmyS7f"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "qdy4ZIY2EKgmPNdu_ndcg"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "qcrGApxNzkGYxgcd7o45d"
+    },
+    {
+      "source": "qcrGApxNzkGYxgcd7o45d",
+      "target": "_4my3Mfk5lxztykcJQ66s"
+    },
+    {
+      "source": "qcrGApxNzkGYxgcd7o45d",
+      "target": "KUur-gfOBQodTS-irFet7"
+    },
+    {
+      "source": "alMJCEyUZ90xz-2_g3YRj",
+      "target": "qefnsugcveizVq2TORRgn"
+    },
+    {
+      "source": "qefnsugcveizVq2TORRgn",
+      "target": "cFZsxpYHDxm7IWwergb3r"
+    },
+    {
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "Wy2yIK5vgLjEcc9VjuQK5"
+    },
+    {
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "EDOU5a7UK17yp3PdFBJMc"
+    },
+    {
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "ZiOcFZy85p7tLzUkyKDei"
+    },
+    {
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "Xonbxc7MvMEonKBvbkCAH"
+    },
+    {
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "1DOSAieOmWUNNsQQrqf2m"
+    },
+    {
+      "source": "cFZsxpYHDxm7IWwergb3r",
+      "target": "qOynVkDi1gFz0mxyJHjfJ"
+    },
+    {
+      "source": "qOynVkDi1gFz0mxyJHjfJ",
+      "target": "9FIhHwDNzyKpb42NmSv3K"
+    },
+    {
+      "source": "qOynVkDi1gFz0mxyJHjfJ",
+      "target": "aH1DxiG5xrdNlKutJ_gTz"
+    },
+    {
+      "source": "aH1DxiG5xrdNlKutJ_gTz",
+      "target": "TxkEpoOiuUm-fXJuFVKcH"
+    },
+    {
+      "source": "aH1DxiG5xrdNlKutJ_gTz",
+      "target": "O-9WQqidujLIEOTcOfy4n"
+    },
+    {
+      "source": "aH1DxiG5xrdNlKutJ_gTz",
+      "target": "fY40W8prpgiNqRL50w7ub"
+    },
+    {
+      "source": "aH1DxiG5xrdNlKutJ_gTz",
+      "target": "lvtTSHH9yBTCiLng8btnI"
+    },
+    {
+      "source": "4gaKqNtGLFqpk9WVKZl0v",
+      "target": "T2-VAVfntouJOoWHpHZ3n"
+    },
+    {
+      "source": "4gaKqNtGLFqpk9WVKZl0v",
+      "target": "0NXHAOUYGIwuPwlN7r_B3"
+    },
+    {
+      "source": "TRx3wvWnRdJJf5eL-GBG4",
+      "target": "LSwUHfalnk5MgHt21PANb"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "E88tHQvARkHURZwGaO02l"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "IuO9-O_DQdDYuAbdGWdgb"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "0fvOXi9gJbEc7etqTggNE"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "aEhI_9mFWXRIZh1ZxTuzu"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "a7hl0iMZ-jcUACxqIYVqv"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "_BAZlBEzE7ddr315OeHvl"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "On75JR_UkiIlha0_qaSeu"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "izGAjNtrh3BzQt3KiZX0W"
+    },
+    {
+      "source": "LSwUHfalnk5MgHt21PANb",
+      "target": "2F7vOL__v9dLBohA263aj"
+    },
+    {
+      "source": "2F7vOL__v9dLBohA263aj",
+      "target": "VQ-V9qIdKgnpSJg2UnpuB"
+    },
+    {
+      "source": "2F7vOL__v9dLBohA263aj",
+      "target": "sE9lqkkqwnsVJxTJv37YZ"
+    },
+    {
+      "source": "sE9lqkkqwnsVJxTJv37YZ",
+      "target": "JQwWeB1gkANSYfQmH69Bs"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": "sE9lqkkqwnsVJxTJv37YZ",
+      "target": "RqZaWGxxNRItBhVwWKysc"
+    },
+    {
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "fU8Vnw1DobM4iXl1Tq6EK"
+    },
+    {
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "8PcAPOrKisKRYPWamz4nV"
+    },
+    {
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "PCX3KcvMUW3mmQEepLTXp"
+    },
+    {
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "I5uwfej5XMwR2N2gpBILh"
+    },
+    {
+      "source": "RqZaWGxxNRItBhVwWKysc",
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    }
+  ]
+}

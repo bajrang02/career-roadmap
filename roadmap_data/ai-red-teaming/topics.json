@@ -1,0 +1,513 @@
+[
+  {
+    "id": "R9DQNc0AyAQ2HLpP4HOk6",
+    "old_id": "R9DQNc0AyAQ2HLpP4HOk6",
+    "type": "subtopic",
+    "label": "AI Security Fundamentals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\ai-security-fundamentals@R9DQNc0AyAQ2HLpP4HOk6.md"
+  },
+  {
+    "id": "fNTb9y3zs1HPYclAmu_Wv",
+    "old_id": "fNTb9y3zs1HPYclAmu_Wv",
+    "type": "subtopic",
+    "label": "Why Red Team AI Systems?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\why-red-team-ai-systems@fNTb9y3zs1HPYclAmu_Wv.md"
+  },
+  {
+    "id": "HFJIYcI16OMyM77fAw9af",
+    "old_id": "nhUKKWyBH80nyKfGT8ErC",
+    "type": "topic",
+    "label": "Introduction",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\infrastructure-security@nhUKKWyBH80nyKfGT8ErC.md"
+  },
+  {
+    "id": "1gyuEV519LjN-KpROoVwv",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Ethical Considerations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "Irkc9DgBfqSn72WaJqXEt",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Role of Red Teams",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "NvOJIv36Utpm7_kOZyr79",
+    "old_id": "887lc3tWCRH-sOHSxWgWJ",
+    "type": "subtopic",
+    "label": "Supervised Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\vulnerability-assessment@887lc3tWCRH-sOHSxWgWJ.md"
+  },
+  {
+    "id": "ZC0yKsu-CJC-LZKKo2pLD",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Unsupervised Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "Xqzc4mOKsVzwaUxLGjHya",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Reinforcement Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "RuKzVhd1nZphCrlW1wZGL",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Neural Networks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "3XJ-g0KvHP75U18mxCqgw",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Generative Models",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "8K-wCn2cLc7Vs_V4sC3sE",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Large Language Models",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Prompt Engineering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "WZkIHZkV2qDYbYF9KBBRi",
+    "old_id": "kgDsDlBk8W2aM6LyWpFY8",
+    "type": "subtopic",
+    "label": "Confidentiality, Integrity, Availability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\remote-code-execution@kgDsDlBk8W2aM6LyWpFY8.md"
+  },
+  {
+    "id": "RDOaTBWP3aIJPUp_kcafm",
+    "old_id": "887lc3tWCRH-sOHSxWgWJ",
+    "type": "subtopic",
+    "label": "Threat Modeling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\vulnerability-assessment@887lc3tWCRH-sOHSxWgWJ.md"
+  },
+  {
+    "id": "MupRvk_8Io2Hn7yEvU663",
+    "old_id": "887lc3tWCRH-sOHSxWgWJ",
+    "type": "subtopic",
+    "label": "Risk Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\vulnerability-assessment@887lc3tWCRH-sOHSxWgWJ.md"
+  },
+  {
+    "id": "887lc3tWCRH-sOHSxWgWJ",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "Vulnerability Assessment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\prompt-engineering@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "Ds8pqn4y9Npo7z6ubunvc",
+    "old_id": "kgDsDlBk8W2aM6LyWpFY8",
+    "type": "subtopic",
+    "label": "Jailbreak Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\remote-code-execution@kgDsDlBk8W2aM6LyWpFY8.md"
+  },
+  {
+    "id": "j7uLLpt8MkZ1rqM7UBPW4",
+    "old_id": "kgDsDlBk8W2aM6LyWpFY8",
+    "type": "subtopic",
+    "label": "Safety Filter Bypasses",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\remote-code-execution@kgDsDlBk8W2aM6LyWpFY8.md"
+  },
+  {
+    "id": "XOrAPDRhBvde9R-znEipH",
+    "old_id": "kgDsDlBk8W2aM6LyWpFY8",
+    "type": "subtopic",
+    "label": "Prompt Injection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\remote-code-execution@kgDsDlBk8W2aM6LyWpFY8.md"
+  },
+  {
+    "id": "1Xr7mxVekeAHzTL7G4eAZ",
+    "old_id": "uBXrri2bXVsNiM8fIHHOv",
+    "type": "topic",
+    "label": "Prompt Hacking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\model-vulnerabilities@uBXrri2bXVsNiM8fIHHOv.md"
+  },
+  {
+    "id": "5zHow4KZVpfhch5Aabeft",
+    "old_id": "5zHow4KZVpfhch5Aabeft",
+    "type": "subtopic",
+    "label": "Direct",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\direct@5zHow4KZVpfhch5Aabeft.md"
+  },
+  {
+    "id": "3_gJRtJSdm2iAfkwmcv0e",
+    "old_id": "3_gJRtJSdm2iAfkwmcv0e",
+    "type": "subtopic",
+    "label": "Indirect",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\indirect@3_gJRtJSdm2iAfkwmcv0e.md"
+  },
+  {
+    "id": "G1u_Kq4NeUsGX2qnUTuJU",
+    "old_id": "kgDsDlBk8W2aM6LyWpFY8",
+    "type": "subtopic",
+    "label": "Countermeasures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\remote-code-execution@kgDsDlBk8W2aM6LyWpFY8.md"
+  },
+  {
+    "id": "vhBu5x8INTtqvx6vcYAhE",
+    "old_id": "nhUKKWyBH80nyKfGT8ErC",
+    "type": "topic",
+    "label": "Code Injection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\infrastructure-security@nhUKKWyBH80nyKfGT8ErC.md"
+  },
+  {
+    "id": "uBXrri2bXVsNiM8fIHHOv",
+    "old_id": "nhUKKWyBH80nyKfGT8ErC",
+    "type": "topic",
+    "label": "Model Vulnerabilities",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\infrastructure-security@nhUKKWyBH80nyKfGT8ErC.md"
+  },
+  {
+    "id": "QFzLx5nc4rCCD8WVc20mo",
+    "old_id": "QFzLx5nc4rCCD8WVc20mo",
+    "type": "subtopic",
+    "label": "Model Weight Stealing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\model-weight-stealing@QFzLx5nc4rCCD8WVc20mo.md"
+  },
+  {
+    "id": "DQeOavZCoXpF3k_qRDABs",
+    "old_id": "DQeOavZCoXpF3k_qRDABs",
+    "type": "subtopic",
+    "label": "Unauthorized Access",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\unauthorized-access@DQeOavZCoXpF3k_qRDABs.md"
+  },
+  {
+    "id": "nD0_64ELEeJSN-0aZiR7i",
+    "old_id": "QFzLx5nc4rCCD8WVc20mo",
+    "type": "subtopic",
+    "label": "Data Poisoning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\model-weight-stealing@QFzLx5nc4rCCD8WVc20mo.md"
+  },
+  {
+    "id": "xjlttOti-_laPRn8a2fVy",
+    "old_id": "iE5PcswBHnu_EBFIacib0",
+    "type": "subtopic",
+    "label": "Adversarial Examples",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\model-inversion@iE5PcswBHnu_EBFIacib0.md"
+  },
+  {
+    "id": "iE5PcswBHnu_EBFIacib0",
+    "old_id": "DQeOavZCoXpF3k_qRDABs",
+    "type": "subtopic",
+    "label": "Model Inversion",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\unauthorized-access@DQeOavZCoXpF3k_qRDABs.md"
+  },
+  {
+    "id": "2Y0ZO-etpv3XIvunDLu-W",
+    "old_id": "nD0_64ELEeJSN-0aZiR7i",
+    "type": "subtopic",
+    "label": "Adversarial Training",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\data-poisoning@nD0_64ELEeJSN-0aZiR7i.md"
+  },
+  {
+    "id": "6gEHMhh6BGJI-ZYN27YPW",
+    "old_id": "xjlttOti-_laPRn8a2fVy",
+    "type": "subtopic",
+    "label": "Robust Model Design",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\adversarial-examples@xjlttOti-_laPRn8a2fVy.md"
+  },
+  {
+    "id": "7Km0mFpHguHYPs5UhHTsM",
+    "old_id": "iE5PcswBHnu_EBFIacib0",
+    "type": "subtopic",
+    "label": "Continuous Monitoring",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\model-inversion@iE5PcswBHnu_EBFIacib0.md"
+  },
+  {
+    "id": "aKzai0A8J55-OBXTnQih1",
+    "old_id": "JQ3bR8odXJfd-1RCEf3-Q",
+    "type": "subtopic",
+    "label": "Insecure Deserialization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\authorization@JQ3bR8odXJfd-1RCEf3-Q.md"
+  },
+  {
+    "id": "kgDsDlBk8W2aM6LyWpFY8",
+    "old_id": "887lc3tWCRH-sOHSxWgWJ",
+    "type": "subtopic",
+    "label": "Remote Code Execution",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\vulnerability-assessment@887lc3tWCRH-sOHSxWgWJ.md"
+  },
+  {
+    "id": "nhUKKWyBH80nyKfGT8ErC",
+    "old_id": "JDDG4KfhtIlw1rkNCzUli",
+    "type": "topic",
+    "label": "Infrastructure Security",
+    "resources": []
+  },
+  {
+    "id": "Tszl26iNBnQBdBEWOueDA",
+    "old_id": "JQ3bR8odXJfd-1RCEf3-Q",
+    "type": "subtopic",
+    "label": "API Protection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\authorization@JQ3bR8odXJfd-1RCEf3-Q.md"
+  },
+  {
+    "id": "J7gjlt2MBx7lOkOnfGvPF",
+    "old_id": "JQ3bR8odXJfd-1RCEf3-Q",
+    "type": "subtopic",
+    "label": "Authentication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\authorization@JQ3bR8odXJfd-1RCEf3-Q.md"
+  },
+  {
+    "id": "JQ3bR8odXJfd-1RCEf3-Q",
+    "old_id": "kgDsDlBk8W2aM6LyWpFY8",
+    "type": "subtopic",
+    "label": "Authentication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\remote-code-execution@kgDsDlBk8W2aM6LyWpFY8.md"
+  },
+  {
+    "id": "0bApnJTt-Z2IUf0X3OCYf",
+    "old_id": "65Lo60JQS5YlvvQ6KevXt",
+    "type": "subtopic",
+    "label": "Black Box Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\continuous-testing@65Lo60JQS5YlvvQ6KevXt.md"
+  },
+  {
+    "id": "Mrk_js5UVn4dRDw-Yco3Y",
+    "old_id": "65Lo60JQS5YlvvQ6KevXt",
+    "type": "subtopic",
+    "label": "White Box Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\continuous-testing@65Lo60JQS5YlvvQ6KevXt.md"
+  },
+  {
+    "id": "ZVNAMCP68XKRXVxF2-hBc",
+    "old_id": "65Lo60JQS5YlvvQ6KevXt",
+    "type": "subtopic",
+    "label": "Grey Box Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\continuous-testing@65Lo60JQS5YlvvQ6KevXt.md"
+  },
+  {
+    "id": "LVdYN9hyCyNPYn2Lz1y9b",
+    "old_id": "65Lo60JQS5YlvvQ6KevXt",
+    "type": "subtopic",
+    "label": "Automated vs Manual",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\continuous-testing@65Lo60JQS5YlvvQ6KevXt.md"
+  },
+  {
+    "id": "65Lo60JQS5YlvvQ6KevXt",
+    "old_id": "vhBu5x8INTtqvx6vcYAhE",
+    "type": "subtopic",
+    "label": "Continuous Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\code-injection@vhBu5x8INTtqvx6vcYAhE.md"
+  },
+  {
+    "id": "c8n8FcYKDOgPLQvV9xF5J",
+    "old_id": "BLnfNlA0C4yzy1dvifjwx",
+    "type": "subtopic",
+    "label": "Testing Platforms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\reporting-tools@BLnfNlA0C4yzy1dvifjwx.md"
+  },
+  {
+    "id": "59lkLcoqV4gq7f8Zm0X2p",
+    "old_id": "BLnfNlA0C4yzy1dvifjwx",
+    "type": "subtopic",
+    "label": "Monitoring Solutions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\reporting-tools@BLnfNlA0C4yzy1dvifjwx.md"
+  },
+  {
+    "id": "et1Xrr8ez-fmB0mAq8W_a",
+    "old_id": "BLnfNlA0C4yzy1dvifjwx",
+    "type": "subtopic",
+    "label": "Benchmark Datasets",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\reporting-tools@BLnfNlA0C4yzy1dvifjwx.md"
+  },
+  {
+    "id": "C1zO2xC0AqyV53p2YEPWg",
+    "old_id": "BLnfNlA0C4yzy1dvifjwx",
+    "type": "subtopic",
+    "label": "Custom Testing Scripts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\reporting-tools@BLnfNlA0C4yzy1dvifjwx.md"
+  },
+  {
+    "id": "BLnfNlA0C4yzy1dvifjwx",
+    "old_id": "65Lo60JQS5YlvvQ6KevXt",
+    "type": "subtopic",
+    "label": "Reporting Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\continuous-testing@65Lo60JQS5YlvvQ6KevXt.md"
+  },
+  {
+    "id": "s1xKK8HL5-QGZpcutiuvj",
+    "old_id": "HHjsFR6wRDqUd66PMDE_7",
+    "type": "subtopic",
+    "label": "Specialized Courses",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\industry-credentials@HHjsFR6wRDqUd66PMDE_7.md"
+  },
+  {
+    "id": "HHjsFR6wRDqUd66PMDE_7",
+    "old_id": "HHjsFR6wRDqUd66PMDE_7",
+    "type": "subtopic",
+    "label": "Industry Credentials",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\industry-credentials@HHjsFR6wRDqUd66PMDE_7.md"
+  },
+  {
+    "id": "MmwwRK4I9aRH_ha7duPqf",
+    "old_id": "s1xKK8HL5-QGZpcutiuvj",
+    "type": "subtopic",
+    "label": "Lab Environments",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\specialized-courses@s1xKK8HL5-QGZpcutiuvj.md"
+  },
+  {
+    "id": "2Imb64Px3ZQcBpSQjdc_G",
+    "old_id": "DpYsL0du37n40toH33fIr",
+    "type": "subtopic",
+    "label": "CTF Challenges",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\red-team-simulations@DpYsL0du37n40toH33fIr.md"
+  },
+  {
+    "id": "DpYsL0du37n40toH33fIr",
+    "old_id": "HHjsFR6wRDqUd66PMDE_7",
+    "type": "subtopic",
+    "label": "Red Team Simulations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\industry-credentials@HHjsFR6wRDqUd66PMDE_7.md"
+  },
+  {
+    "id": "LuKnmd9nSz9yLbTU_5Yp2",
+    "old_id": "MmwwRK4I9aRH_ha7duPqf",
+    "type": "subtopic",
+    "label": "Conferences",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\lab-environments@MmwwRK4I9aRH_ha7duPqf.md"
+  },
+  {
+    "id": "ZlR03pM-sqVFZNhD1gMSJ",
+    "old_id": "2Imb64Px3ZQcBpSQjdc_G",
+    "type": "subtopic",
+    "label": "Research Groups",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\ctf-challenges@2Imb64Px3ZQcBpSQjdc_G.md"
+  },
+  {
+    "id": "Smncq-n1OlnLAY27AFQOO",
+    "old_id": "DpYsL0du37n40toH33fIr",
+    "type": "subtopic",
+    "label": "Forums",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\red-team-simulations@DpYsL0du37n40toH33fIr.md"
+  },
+  {
+    "id": "xJYTRbPxMn0Xs5ea0Ygn6",
+    "old_id": "KAcCZ3zcv25R6HwzAsfUG",
+    "type": "subtopic",
+    "label": "LLM Security Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\responsible-disclosure@KAcCZ3zcv25R6HwzAsfUG.md"
+  },
+  {
+    "id": "FVsKivsJrIb82B0lpPmgw",
+    "old_id": "KAcCZ3zcv25R6HwzAsfUG",
+    "type": "subtopic",
+    "label": "Agentic AI Security",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\responsible-disclosure@KAcCZ3zcv25R6HwzAsfUG.md"
+  },
+  {
+    "id": "KAcCZ3zcv25R6HwzAsfUG",
+    "old_id": "c8n8FcYKDOgPLQvV9xF5J",
+    "type": "subtopic",
+    "label": "Responsible Disclosure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\testing-platforms@c8n8FcYKDOgPLQvV9xF5J.md"
+  },
+  {
+    "id": "-G8v_CNa8wO_g-46_RFQo",
+    "old_id": "WePO66_4-gNcSdE00WKmw",
+    "type": "subtopic",
+    "label": "Emerging Threats",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\industry-standards@WePO66_4-gNcSdE00WKmw.md"
+  },
+  {
+    "id": "soC-kcem1ISbnCQMa6BIB",
+    "old_id": "WePO66_4-gNcSdE00WKmw",
+    "type": "subtopic",
+    "label": "Advanced Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\industry-standards@WePO66_4-gNcSdE00WKmw.md"
+  },
+  {
+    "id": "VmaIHVsCpq2um_0cA33V3",
+    "old_id": "WePO66_4-gNcSdE00WKmw",
+    "type": "subtopic",
+    "label": "Research Opportunities",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\industry-standards@WePO66_4-gNcSdE00WKmw.md"
+  },
+  {
+    "id": "WePO66_4-gNcSdE00WKmw",
+    "old_id": "WePO66_4-gNcSdE00WKmw",
+    "type": "subtopic",
+    "label": "Industry Standards",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-red-teaming\\content\\industry-standards@WePO66_4-gNcSdE00WKmw.md"
+  }
+]

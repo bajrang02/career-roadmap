@@ -1,0 +1,1110 @@
+[
+  {
+    "id": "m1wX27XBWKXZcTMH2U1xp",
+    "old_id": "wruw4qef0bf74oiA5JqHo",
+    "type": "topic",
+    "label": "Learn the Fundamentals",
+    "resources": []
+  },
+  {
+    "id": "Zja25damM2vXMOYCyRZiq",
+    "old_id": "Zja25damM2vXMOYCyRZiq",
+    "type": "subtopic",
+    "label": "Test Oracles",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\test-oracles@Zja25damM2vXMOYCyRZiq.md"
+  },
+  {
+    "id": "1976f2-opqLqV4ImPJlt0",
+    "old_id": "1976f2-opqLqV4ImPJlt0",
+    "type": "subtopic",
+    "label": "Test Prioritization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\test-prioritization@1976f2-opqLqV4ImPJlt0.md"
+  },
+  {
+    "id": "pH9h2tjO6raO_g4W8EgKq",
+    "old_id": "pH9h2tjO6raO_g4W8EgKq",
+    "type": "subtopic",
+    "label": "Manage your Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\manage-your-testing@pH9h2tjO6raO_g4W8EgKq.md"
+  },
+  {
+    "id": "FE_Wp2RPWFDHNaQIBLqH6",
+    "old_id": "FE_Wp2RPWFDHNaQIBLqH6",
+    "type": "subtopic",
+    "label": "qTest",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\qtest@FE_Wp2RPWFDHNaQIBLqH6.md"
+  },
+  {
+    "id": "5Tn6Wtw8QE56LZ9BlRAmW",
+    "old_id": "5Tn6Wtw8QE56LZ9BlRAmW",
+    "type": "subtopic",
+    "label": "TestRail",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\testrail@5Tn6Wtw8QE56LZ9BlRAmW.md"
+  },
+  {
+    "id": "leiCCxLJgXCpk1a--mE83",
+    "old_id": "leiCCxLJgXCpk1a--mE83",
+    "type": "subtopic",
+    "label": "TestLink",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\testlink@leiCCxLJgXCpk1a--mE83.md"
+  },
+  {
+    "id": "aGvbxmZCHbbt9PgXL1ooJ",
+    "old_id": "aGvbxmZCHbbt9PgXL1ooJ",
+    "type": "subtopic",
+    "label": "Zephyr",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\zephyr@aGvbxmZCHbbt9PgXL1ooJ.md"
+  },
+  {
+    "id": "JInFH3JRvAxjvpIFKjUiP",
+    "old_id": "JInFH3JRvAxjvpIFKjUiP",
+    "type": "subtopic",
+    "label": "What is Quality Assurance?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\what-is-quality-assurance@JInFH3JRvAxjvpIFKjUiP.md"
+  },
+  {
+    "id": "vZv4Ow5bg_PbKoF557G9S",
+    "old_id": "vZv4Ow5bg_PbKoF557G9S",
+    "type": "subtopic",
+    "label": "QA Mindset",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\qa-mindset@vZv4Ow5bg_PbKoF557G9S.md"
+  },
+  {
+    "id": "uFOVuenPyOKZGgoJXkwRZ",
+    "old_id": "uFOVuenPyOKZGgoJXkwRZ",
+    "type": "subtopic",
+    "label": "Testing Approaches",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\testing-approaches@uFOVuenPyOKZGgoJXkwRZ.md"
+  },
+  {
+    "id": "y4QnZ2xQyc4x6Kr-eGBer",
+    "old_id": "y4QnZ2xQyc4x6Kr-eGBer",
+    "type": "subtopic",
+    "label": "White Box Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\white-box-testing@y4QnZ2xQyc4x6Kr-eGBer.md"
+  },
+  {
+    "id": "ZmWEG7Wu-h7bZe6pGxqDg",
+    "old_id": "ZmWEG7Wu-h7bZe6pGxqDg",
+    "type": "subtopic",
+    "label": "Gray Box Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\gray-box-testing@ZmWEG7Wu-h7bZe6pGxqDg.md"
+  },
+  {
+    "id": "2zfwE6uzGYc2qnvOZ47LB",
+    "old_id": "2zfwE6uzGYc2qnvOZ47LB",
+    "type": "subtopic",
+    "label": "Black Box Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\black-box-testing@2zfwE6uzGYc2qnvOZ47LB.md"
+  },
+  {
+    "id": "ZqgeqqZTGA-y7jVNyPCt4",
+    "old_id": "ZqgeqqZTGA-y7jVNyPCt4",
+    "type": "subtopic",
+    "label": "Project Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\project-management@ZqgeqqZTGA-y7jVNyPCt4.md"
+  },
+  {
+    "id": "wVqbs8Rh0WjLQqJZ0XiF0",
+    "old_id": "wVqbs8Rh0WjLQqJZ0XiF0",
+    "type": "subtopic",
+    "label": "Atlassian",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\atlassian@wVqbs8Rh0WjLQqJZ0XiF0.md"
+  },
+  {
+    "id": "xLPE9CqqiYz0miMFI3ThY",
+    "old_id": "xLPE9CqqiYz0miMFI3ThY",
+    "type": "subtopic",
+    "label": "Assembla",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\assembla@xLPE9CqqiYz0miMFI3ThY.md"
+  },
+  {
+    "id": "6bS1YjGJHARAUKTywYMU9",
+    "old_id": "6bS1YjGJHARAUKTywYMU9",
+    "type": "subtopic",
+    "label": "YouTrack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\youtrack@6bS1YjGJHARAUKTywYMU9.md"
+  },
+  {
+    "id": "dmfMp6ydjtHo6oKv97AzB",
+    "old_id": "dmfMp6ydjtHo6oKv97AzB",
+    "type": "subtopic",
+    "label": "Trello",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\trello@dmfMp6ydjtHo6oKv97AzB.md"
+  },
+  {
+    "id": "gQLbDFP00itL260i1BiDe",
+    "old_id": "gQLbDFP00itL260i1BiDe",
+    "type": "subtopic",
+    "label": "Testing Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\testing-techniques@gQLbDFP00itL260i1BiDe.md"
+  },
+  {
+    "id": "wmMIL-0ytz7a3JygyB-wc",
+    "old_id": "wmMIL-0ytz7a3JygyB-wc",
+    "type": "subtopic",
+    "label": "Load Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\load-testing@wmMIL-0ytz7a3JygyB-wc.md"
+  },
+  {
+    "id": "bapKhjye4oWQxTEZ4fl_c",
+    "old_id": "bapKhjye4oWQxTEZ4fl_c",
+    "type": "subtopic",
+    "label": "Performance Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\performance-testing@bapKhjye4oWQxTEZ4fl_c.md"
+  },
+  {
+    "id": "skrOrieK1T0hHj_mJBNsW",
+    "old_id": "skrOrieK1T0hHj_mJBNsW",
+    "type": "subtopic",
+    "label": "Stress Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\stress-testing@skrOrieK1T0hHj_mJBNsW.md"
+  },
+  {
+    "id": "MahtxMJD3ETHfgk_PQabQ",
+    "old_id": "MahtxMJD3ETHfgk_PQabQ",
+    "type": "subtopic",
+    "label": "Security Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\security-testing@MahtxMJD3ETHfgk_PQabQ.md"
+  },
+  {
+    "id": "zGzpjxz3nvVH9Eu3NOPbk",
+    "old_id": "zGzpjxz3nvVH9Eu3NOPbk",
+    "type": "subtopic",
+    "label": "Accessibility Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\accessibility-testing@zGzpjxz3nvVH9Eu3NOPbk.md"
+  },
+  {
+    "id": "vYIEsjTKoO1ciypGIDlil",
+    "old_id": "vYIEsjTKoO1ciypGIDlil",
+    "type": "subtopic",
+    "label": "Non-Functional Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\non-functional-testing@vYIEsjTKoO1ciypGIDlil.md"
+  },
+  {
+    "id": "o4xmFhw_ilWdhpCiEotck",
+    "old_id": "o4xmFhw_ilWdhpCiEotck",
+    "type": "subtopic",
+    "label": "Functional Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\functional-testing@o4xmFhw_ilWdhpCiEotck.md"
+  },
+  {
+    "id": "Ls_pezva7_ZW2HHn7RvO4",
+    "old_id": "Ls_pezva7_ZW2HHn7RvO4",
+    "type": "subtopic",
+    "label": "UAT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\uat@Ls_pezva7_ZW2HHn7RvO4.md"
+  },
+  {
+    "id": "2h6mJeIFCU72J7aggTvnQ",
+    "old_id": "2h6mJeIFCU72J7aggTvnQ",
+    "type": "subtopic",
+    "label": "Exploratory Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\exploratory-testing@2h6mJeIFCU72J7aggTvnQ.md"
+  },
+  {
+    "id": "Lve3xpC1FU91TQqoDOYv7",
+    "old_id": "Lve3xpC1FU91TQqoDOYv7",
+    "type": "subtopic",
+    "label": "Sanity Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\sanity-testing@Lve3xpC1FU91TQqoDOYv7.md"
+  },
+  {
+    "id": "XCeXiKvBblmDArfbWjDvw",
+    "old_id": "XCeXiKvBblmDArfbWjDvw",
+    "type": "subtopic",
+    "label": "Regression Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\regression-testing@XCeXiKvBblmDArfbWjDvw.md"
+  },
+  {
+    "id": "MVShii4LZiWW_gPTJzkty",
+    "old_id": "MVShii4LZiWW_gPTJzkty",
+    "type": "subtopic",
+    "label": "Smoke Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\smoke-testing@MVShii4LZiWW_gPTJzkty.md"
+  },
+  {
+    "id": "PMO3M33U6RuvNdINvqIAA",
+    "old_id": "PMO3M33U6RuvNdINvqIAA",
+    "type": "subtopic",
+    "label": "Unit Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\unit-testing@PMO3M33U6RuvNdINvqIAA.md"
+  },
+  {
+    "id": "a_vwz-onn6QEoc27N6oBc",
+    "old_id": "a_vwz-onn6QEoc27N6oBc",
+    "type": "subtopic",
+    "label": "Integration Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\integration-testing@a_vwz-onn6QEoc27N6oBc.md"
+  },
+  {
+    "id": "Pb3QkhSCgRByJHuPxVAlU",
+    "old_id": "wruw4qef0bf74oiA5JqHo",
+    "type": "topic",
+    "label": "SDLC Delivery Model",
+    "resources": []
+  },
+  {
+    "id": "zELjfWwfEYSc1YO8JLoJn",
+    "old_id": "7h-Xfp2Foiyn7-pI0w7ft",
+    "type": "subtopic",
+    "label": "V Model",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\waterfall@7h-Xfp2Foiyn7-pI0w7ft.md"
+  },
+  {
+    "id": "7h-Xfp2Foiyn7-pI0w7ft",
+    "old_id": "7h-Xfp2Foiyn7-pI0w7ft",
+    "type": "subtopic",
+    "label": "Waterfall",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\waterfall@7h-Xfp2Foiyn7-pI0w7ft.md"
+  },
+  {
+    "id": "47NXgbc1OTGE06qXxlQoh",
+    "old_id": "47NXgbc1OTGE06qXxlQoh",
+    "type": "subtopic",
+    "label": "Agile Model",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\agile-model@47NXgbc1OTGE06qXxlQoh.md"
+  },
+  {
+    "id": "cJyQx-LBcOL11nkK-P2JH",
+    "old_id": "cJyQx-LBcOL11nkK-P2JH",
+    "type": "subtopic",
+    "label": "Kanban",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\kanban@cJyQx-LBcOL11nkK-P2JH.md"
+  },
+  {
+    "id": "k3xPwDzA1WUEAwJ6-Q8PW",
+    "old_id": "k3xPwDzA1WUEAwJ6-Q8PW",
+    "type": "subtopic",
+    "label": "Scrum",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\scrum@k3xPwDzA1WUEAwJ6-Q8PW.md"
+  },
+  {
+    "id": "4SLrNPD_No05CKeAVDFn5",
+    "old_id": "Tdj051ANlwwpo03X1hjbF",
+    "type": "subtopic",
+    "label": "XP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\safe@Tdj051ANlwwpo03X1hjbF.md"
+  },
+  {
+    "id": "Tdj051ANlwwpo03X1hjbF",
+    "old_id": "Tdj051ANlwwpo03X1hjbF",
+    "type": "subtopic",
+    "label": "SAFe",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\safe@Tdj051ANlwwpo03X1hjbF.md"
+  },
+  {
+    "id": "daUEq4xlh4PIltSdiD4F2",
+    "old_id": "MArAzeZDZlQ1z7Cd7XmsW",
+    "type": "topic",
+    "label": "Manual Testing",
+    "resources": []
+  },
+  {
+    "id": "M78baCVYpsk7C6j-VPvPZ",
+    "old_id": "M78baCVYpsk7C6j-VPvPZ",
+    "type": "subtopic",
+    "label": "TDD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\tdd@M78baCVYpsk7C6j-VPvPZ.md"
+  },
+  {
+    "id": "2U8WRKkuF-YCEWtpgTspF",
+    "old_id": "2U8WRKkuF-YCEWtpgTspF",
+    "type": "subtopic",
+    "label": "Test Planning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\test-planning@2U8WRKkuF-YCEWtpgTspF.md"
+  },
+  {
+    "id": "ELnCFVRkO_s5qI_3Yzf5U",
+    "old_id": "ELnCFVRkO_s5qI_3Yzf5U",
+    "type": "subtopic",
+    "label": "Test Cases and Scenarios",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\test-cases-and-scenarios@ELnCFVRkO_s5qI_3Yzf5U.md"
+  },
+  {
+    "id": "RD0vRC-OL2ReYLT1leJMs",
+    "old_id": "RD0vRC-OL2ReYLT1leJMs",
+    "type": "subtopic",
+    "label": "Compatibility",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\compatibility@RD0vRC-OL2ReYLT1leJMs.md"
+  },
+  {
+    "id": "vP76hqx-8Pri7sxdJDGV5",
+    "old_id": "vP76hqx-8Pri7sxdJDGV5",
+    "type": "subtopic",
+    "label": "Verification and Validation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\verification-and-validation@vP76hqx-8Pri7sxdJDGV5.md"
+  },
+  {
+    "id": "pYkfl-4gMHRj9wIeH8RTP",
+    "old_id": "pYkfl-4gMHRj9wIeH8RTP",
+    "type": "subtopic",
+    "label": "HTML, CSS, JavaScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\html-css-javascript@pYkfl-4gMHRj9wIeH8RTP.md"
+  },
+  {
+    "id": "cHI05cf8fLh3XB1Bt6jNP",
+    "old_id": "cHI05cf8fLh3XB1Bt6jNP",
+    "type": "subtopic",
+    "label": "Browser / Dev Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\browser--dev-tools@cHI05cf8fLh3XB1Bt6jNP.md"
+  },
+  {
+    "id": "jn02FD5hjhZFVWaJjjNN3",
+    "old_id": "jn02FD5hjhZFVWaJjjNN3",
+    "type": "subtopic",
+    "label": "Ajax",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\ajax@jn02FD5hjhZFVWaJjjNN3.md"
+  },
+  {
+    "id": "qvlA7iIOvoWMXm5MCAysZ",
+    "old_id": "qvlA7iIOvoWMXm5MCAysZ",
+    "type": "subtopic",
+    "label": "Caching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\caching@qvlA7iIOvoWMXm5MCAysZ.md"
+  },
+  {
+    "id": "_2IwBNhB5SqbPRxGhZyhq",
+    "old_id": "_2IwBNhB5SqbPRxGhZyhq",
+    "type": "subtopic",
+    "label": "SWAs, PWAs, JAMStack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\swas-pwas-jamstack@_2IwBNhB5SqbPRxGhZyhq.md"
+  },
+  {
+    "id": "-2RU50LUPwCQ8XRaMslY-",
+    "old_id": "-2RU50LUPwCQ8XRaMslY-",
+    "type": "subtopic",
+    "label": "CSR vs SSR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\csr-vs-ssr@-2RU50LUPwCQ8XRaMslY-.md"
+  },
+  {
+    "id": "6cGPxfJ9ipij40hnmckxV",
+    "old_id": "6cGPxfJ9ipij40hnmckxV",
+    "type": "subtopic",
+    "label": "Responsive vs Adaptive",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\responsive-vs-adaptive@6cGPxfJ9ipij40hnmckxV.md"
+  },
+  {
+    "id": "_3HfVT8IDlcgvUM4h6A0_",
+    "old_id": "_3HfVT8IDlcgvUM4h6A0_",
+    "type": "subtopic",
+    "label": "Selenium IDE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\selenium-ide@_3HfVT8IDlcgvUM4h6A0_.md"
+  },
+  {
+    "id": "mX7bNNP7WjFdlsRK6qIgy",
+    "old_id": "mX7bNNP7WjFdlsRK6qIgy",
+    "type": "subtopic",
+    "label": "Ghost Inspector",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\ghost-inspector@mX7bNNP7WjFdlsRK6qIgy.md"
+  },
+  {
+    "id": "wUq-qEIh-tazYhgQQUqGG",
+    "old_id": "wUq-qEIh-tazYhgQQUqGG",
+    "type": "subtopic",
+    "label": "Bug Magnet",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\bugbug@wUq-qEIh-tazYhgQQUqGG.md"
+  },
+  {
+    "id": "cFhOYHgq1_MUSXjDI_fFN",
+    "old_id": "cFhOYHgq1_MUSXjDI_fFN",
+    "type": "subtopic",
+    "label": "Webdriver.io",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\webdriverio@cFhOYHgq1_MUSXjDI_fFN.md"
+  },
+  {
+    "id": "CHqfXjRRdS_c6XMnfVVx-",
+    "old_id": "CHqfXjRRdS_c6XMnfVVx-",
+    "type": "subtopic",
+    "label": "Playwright",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\playwright@CHqfXjRRdS_c6XMnfVVx-.md"
+  },
+  {
+    "id": "414xO4PX9rU0f39aC7awu",
+    "old_id": "414xO4PX9rU0f39aC7awu",
+    "type": "subtopic",
+    "label": "QA Wolf",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\qa-wolf@414xO4PX9rU0f39aC7awu.md"
+  },
+  {
+    "id": "iQ7xwiA6xmbLyRIkI7tXM",
+    "old_id": "iQ7xwiA6xmbLyRIkI7tXM",
+    "type": "subtopic",
+    "label": "Cypress",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\cypress@iQ7xwiA6xmbLyRIkI7tXM.md"
+  },
+  {
+    "id": "HP55XWH18THmCNjCq-gBl",
+    "old_id": "HP55XWH18THmCNjCq-gBl",
+    "type": "subtopic",
+    "label": "Jasmine",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\jasmine@HP55XWH18THmCNjCq-gBl.md"
+  },
+  {
+    "id": "Ta1leBdu-Y9LryB-0U-CT",
+    "old_id": "Ta1leBdu-Y9LryB-0U-CT",
+    "type": "subtopic",
+    "label": "Nightwatch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\nightwatch@Ta1leBdu-Y9LryB-0U-CT.md"
+  },
+  {
+    "id": "nf76o_NYm0-pSIVBFm7IH",
+    "old_id": "nf76o_NYm0-pSIVBFm7IH",
+    "type": "subtopic",
+    "label": "Robot",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\robot@nf76o_NYm0-pSIVBFm7IH.md"
+  },
+  {
+    "id": "s3HMrqNEVogftCIOZYO61",
+    "old_id": "s3HMrqNEVogftCIOZYO61",
+    "type": "subtopic",
+    "label": "Selenium",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\selenium@s3HMrqNEVogftCIOZYO61.md"
+  },
+  {
+    "id": "ZeJSeYs8fkZLQ-Pc3TqEM",
+    "old_id": "ZeJSeYs8fkZLQ-Pc3TqEM",
+    "type": "subtopic",
+    "label": "Jest",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\jest@ZeJSeYs8fkZLQ-Pc3TqEM.md"
+  },
+  {
+    "id": "YKHlLKIlL-Y4ZtHTLfApu",
+    "old_id": "YKHlLKIlL-Y4ZtHTLfApu",
+    "type": "subtopic",
+    "label": "Puppeteer",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\puppeteer@YKHlLKIlL-Y4ZtHTLfApu.md"
+  },
+  {
+    "id": "hU5OCnEe3tG206xuGsVFd",
+    "old_id": "mPaMQ5h8ZcXKOfcuSwB2-",
+    "type": "topic",
+    "label": "Frontend Automation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\backend-automation@mPaMQ5h8ZcXKOfcuSwB2-.md"
+  },
+  {
+    "id": "mPaMQ5h8ZcXKOfcuSwB2-",
+    "old_id": "SlUBbzLALC0FpwST6GeI4",
+    "type": "topic",
+    "label": "Backend Automation",
+    "resources": []
+  },
+  {
+    "id": "5cMhZ-7YMQ6ccs-AaIi-0",
+    "old_id": "5cMhZ-7YMQ6ccs-AaIi-0",
+    "type": "subtopic",
+    "label": "Cypress",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\cypress@5cMhZ-7YMQ6ccs-AaIi-0.md"
+  },
+  {
+    "id": "ZKOU7dWcrkKzTdt0wxwuO",
+    "old_id": "ZKOU7dWcrkKzTdt0wxwuO",
+    "type": "subtopic",
+    "label": "Playwright",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\playwright@ZKOU7dWcrkKzTdt0wxwuO.md"
+  },
+  {
+    "id": "eE9F3YviSpmgor6V5NMj5",
+    "old_id": "eE9F3YviSpmgor6V5NMj5",
+    "type": "subtopic",
+    "label": "Soap UI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\soap-ui@eE9F3YviSpmgor6V5NMj5.md"
+  },
+  {
+    "id": "8zXn8R9OGWTmreBpstj03",
+    "old_id": "8zXn8R9OGWTmreBpstj03",
+    "type": "subtopic",
+    "label": "Karateframework",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\karateframework@8zXn8R9OGWTmreBpstj03.md"
+  },
+  {
+    "id": "X_nLwzc1QmShivEjfy6v9",
+    "old_id": "X_nLwzc1QmShivEjfy6v9",
+    "type": "subtopic",
+    "label": "Postman / Newman",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\postman--newman@X_nLwzc1QmShivEjfy6v9.md"
+  },
+  {
+    "id": "gECIgOii7C5MzilSbQP9t",
+    "old_id": "gECIgOii7C5MzilSbQP9t",
+    "type": "subtopic",
+    "label": "REST Assured",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\rest-assured@gECIgOii7C5MzilSbQP9t.md"
+  },
+  {
+    "id": "ITtBvrJ8dsW-5LQV8tWgO",
+    "old_id": "ITtBvrJ8dsW-5LQV8tWgO",
+    "type": "topic",
+    "label": "Mobile Automation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\mobile-automation@ITtBvrJ8dsW-5LQV8tWgO.md"
+  },
+  {
+    "id": "stMeB1U3SfuefZ-yS8wGF",
+    "old_id": "stMeB1U3SfuefZ-yS8wGF",
+    "type": "subtopic",
+    "label": "Espresso",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\espresso@stMeB1U3SfuefZ-yS8wGF.md"
+  },
+  {
+    "id": "gZnNHDjFMI003Od7u2RNa",
+    "old_id": "gZnNHDjFMI003Od7u2RNa",
+    "type": "subtopic",
+    "label": "Detox",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\detox@gZnNHDjFMI003Od7u2RNa.md"
+  },
+  {
+    "id": "UIKUiCfSw5MkrRJZ3Ah3x",
+    "old_id": "UIKUiCfSw5MkrRJZ3Ah3x",
+    "type": "subtopic",
+    "label": "Appium",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\appium@UIKUiCfSw5MkrRJZ3Ah3x.md"
+  },
+  {
+    "id": "Q6eNkuRI6dPa9X44pwrea",
+    "old_id": "Q6eNkuRI6dPa9X44pwrea",
+    "type": "subtopic",
+    "label": "XCUITest",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\swifttesting@Q6eNkuRI6dPa9X44pwrea.md"
+  },
+  {
+    "id": "mmDIqSD6MU3ZhWREGI5E2",
+    "old_id": "mmDIqSD6MU3ZhWREGI5E2",
+    "type": "topic",
+    "label": "Accessibility Tests",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\accessibility-tests@mmDIqSD6MU3ZhWREGI5E2.md"
+  },
+  {
+    "id": "Lb1ctvpMcKIvsC0WQ5q43",
+    "old_id": "Lb1ctvpMcKIvsC0WQ5q43",
+    "type": "subtopic",
+    "label": "Wave",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\wave@Lb1ctvpMcKIvsC0WQ5q43.md"
+  },
+  {
+    "id": "_4jJ8YQeLcaT-z38kxRRR",
+    "old_id": "_4jJ8YQeLcaT-z38kxRRR",
+    "type": "subtopic",
+    "label": "AXE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\axe@_4jJ8YQeLcaT-z38kxRRR.md"
+  },
+  {
+    "id": "Xadg2WZTz6Cc_Ir9FsbgY",
+    "old_id": "Xadg2WZTz6Cc_Ir9FsbgY",
+    "type": "subtopic",
+    "label": "Chrome DevTools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\chrome-devtools@Xadg2WZTz6Cc_Ir9FsbgY.md"
+  },
+  {
+    "id": "wTfvbS62eyitDT8pLsVhj",
+    "old_id": "wsJXMvRbOTh_VXKhmhPmQ",
+    "type": "topic",
+    "label": "Load & Performance Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\security-testing@wsJXMvRbOTh_VXKhmhPmQ.md"
+  },
+  {
+    "id": "fkUxhrP3LhtIVgIP9Dxar",
+    "old_id": "fkUxhrP3LhtIVgIP9Dxar",
+    "type": "subtopic",
+    "label": "Lighthouse",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\lighthouse@fkUxhrP3LhtIVgIP9Dxar.md"
+  },
+  {
+    "id": "igbQfUpmMSKYyAOVkSCLM",
+    "old_id": "igbQfUpmMSKYyAOVkSCLM",
+    "type": "subtopic",
+    "label": "Webpage Test",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\webpage-test@igbQfUpmMSKYyAOVkSCLM.md"
+  },
+  {
+    "id": "J1Yx1VcO20Lc3r3PdGpUW",
+    "old_id": "J1Yx1VcO20Lc3r3PdGpUW",
+    "type": "subtopic",
+    "label": "Gatling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\gatling@J1Yx1VcO20Lc3r3PdGpUW.md"
+  },
+  {
+    "id": "Jcp29_ASj9QZ_DjDBIapJ",
+    "old_id": "Jcp29_ASj9QZ_DjDBIapJ",
+    "type": "subtopic",
+    "label": "K6",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\k6@Jcp29_ASj9QZ_DjDBIapJ.md"
+  },
+  {
+    "id": "j1DYOQbIUT1tw_9WIPBkE",
+    "old_id": "j1DYOQbIUT1tw_9WIPBkE",
+    "type": "subtopic",
+    "label": "Artillery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\artillery@j1DYOQbIUT1tw_9WIPBkE.md"
+  },
+  {
+    "id": "LGZlOPNYQp0O_vapnciEI",
+    "old_id": "LGZlOPNYQp0O_vapnciEI",
+    "type": "subtopic",
+    "label": "Vegeta",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\vegeta@LGZlOPNYQp0O_vapnciEI.md"
+  },
+  {
+    "id": "UeeDNUPZ61_HHgcaF9-__",
+    "old_id": "UeeDNUPZ61_HHgcaF9-__",
+    "type": "subtopic",
+    "label": "JMeter",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\jmeter@UeeDNUPZ61_HHgcaF9-__.md"
+  },
+  {
+    "id": "QjAJIfSQe7WjbyYdGWSP8",
+    "old_id": "QjAJIfSQe7WjbyYdGWSP8",
+    "type": "subtopic",
+    "label": "Locust",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\locust@QjAJIfSQe7WjbyYdGWSP8.md"
+  },
+  {
+    "id": "wsJXMvRbOTh_VXKhmhPmQ",
+    "old_id": "wsJXMvRbOTh_VXKhmhPmQ",
+    "type": "topic",
+    "label": "Security Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\security-testing@wsJXMvRbOTh_VXKhmhPmQ.md"
+  },
+  {
+    "id": "75-XdVA4BL6UrcvpC9grx",
+    "old_id": "75-XdVA4BL6UrcvpC9grx",
+    "type": "subtopic",
+    "label": "Authentication / Authorization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\authentication--authorization@75-XdVA4BL6UrcvpC9grx.md"
+  },
+  {
+    "id": "mKM27KrX1CEViOwz1EDtQ",
+    "old_id": "mKM27KrX1CEViOwz1EDtQ",
+    "type": "subtopic",
+    "label": "Vulnerability Scanning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\vulnerability-scanning@mKM27KrX1CEViOwz1EDtQ.md"
+  },
+  {
+    "id": "YV6ST78AH4J0i2Rw9zhZj",
+    "old_id": "YV6ST78AH4J0i2Rw9zhZj",
+    "type": "subtopic",
+    "label": "Secrets Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\secrets-management@YV6ST78AH4J0i2Rw9zhZj.md"
+  },
+  {
+    "id": "JR-MkszNvv96-S3DpyLeX",
+    "old_id": "JR-MkszNvv96-S3DpyLeX",
+    "type": "subtopic",
+    "label": "OWASP 10",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\owasp-10@JR-MkszNvv96-S3DpyLeX.md"
+  },
+  {
+    "id": "x3HEti8-xF9Mxe5ELBM9T",
+    "old_id": "x3HEti8-xF9Mxe5ELBM9T",
+    "type": "subtopic",
+    "label": " Attack Vectors",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\attack-vectors@x3HEti8-xF9Mxe5ELBM9T.md"
+  },
+  {
+    "id": "G-F6jQTOAZ2kQ36F-VrBB",
+    "old_id": "Pm-Wx7Z3jCUFcafetsQYi",
+    "type": "topic",
+    "label": "Email Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-testing@Pm-Wx7Z3jCUFcafetsQYi.md"
+  },
+  {
+    "id": "rFjtp3-cnaUmHiKfjPZBn",
+    "old_id": "rFjtp3-cnaUmHiKfjPZBn",
+    "type": "subtopic",
+    "label": "Mailinator",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\mailinator@rFjtp3-cnaUmHiKfjPZBn.md"
+  },
+  {
+    "id": "mIM9ausl_tSUNPUerIfEr",
+    "old_id": "mIM9ausl_tSUNPUerIfEr",
+    "type": "subtopic",
+    "label": "Gmail Tester",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\gmail-tester@mIM9ausl_tSUNPUerIfEr.md"
+  },
+  {
+    "id": "MyAAsHteSr4JCPEpqjsy9",
+    "old_id": "Pm-Wx7Z3jCUFcafetsQYi",
+    "type": "topic",
+    "label": "Reporting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-testing@Pm-Wx7Z3jCUFcafetsQYi.md"
+  },
+  {
+    "id": "o4nkmhEDGwi8yE6DSwZi5",
+    "old_id": "o4nkmhEDGwi8yE6DSwZi5",
+    "type": "subtopic",
+    "label": "TestRail",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\testrail@o4nkmhEDGwi8yE6DSwZi5.md"
+  },
+  {
+    "id": "jaHOo-vZGjTnABxQKMT3_",
+    "old_id": "jaHOo-vZGjTnABxQKMT3_",
+    "type": "subtopic",
+    "label": "Allure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\allure@jaHOo-vZGjTnABxQKMT3_.md"
+  },
+  {
+    "id": "5bNdrymdzqL0VbTqWt8r2",
+    "old_id": "5bNdrymdzqL0VbTqWt8r2",
+    "type": "subtopic",
+    "label": "jUnit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\junit@5bNdrymdzqL0VbTqWt8r2.md"
+  },
+  {
+    "id": "pJvijtG-a0vOq16EFu3Gr",
+    "old_id": "Pm-Wx7Z3jCUFcafetsQYi",
+    "type": "topic",
+    "label": "Monitoring & Logs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-testing@Pm-Wx7Z3jCUFcafetsQYi.md"
+  },
+  {
+    "id": "8CztIu0BOPZZRZsqR9asW",
+    "old_id": "8CztIu0BOPZZRZsqR9asW",
+    "type": "subtopic",
+    "label": "Grafana",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\grafana@8CztIu0BOPZZRZsqR9asW.md"
+  },
+  {
+    "id": "QnNUZQlQ2Jhv34daeIuW8",
+    "old_id": "QnNUZQlQ2Jhv34daeIuW8",
+    "type": "subtopic",
+    "label": "New Relic",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\new-relic@QnNUZQlQ2Jhv34daeIuW8.md"
+  },
+  {
+    "id": "iceaqeXRYXoGtagWn_B7b",
+    "old_id": "iceaqeXRYXoGtagWn_B7b",
+    "type": "subtopic",
+    "label": "RunScope",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\runscope@iceaqeXRYXoGtagWn_B7b.md"
+  },
+  {
+    "id": "H-2wWlKxD_Q1xVv99GlBj",
+    "old_id": "H-2wWlKxD_Q1xVv99GlBj",
+    "type": "subtopic",
+    "label": "Sentry",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\sentry@H-2wWlKxD_Q1xVv99GlBj.md"
+  },
+  {
+    "id": "DCZyXcx8H2MTPcyKOhn2_",
+    "old_id": "DCZyXcx8H2MTPcyKOhn2_",
+    "type": "subtopic",
+    "label": "Kibana",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\kibana@DCZyXcx8H2MTPcyKOhn2_.md"
+  },
+  {
+    "id": "Y2I_dcVZb4xZremXoajjx",
+    "old_id": "Y2I_dcVZb4xZremXoajjx",
+    "type": "subtopic",
+    "label": "Datadog",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\datadog@Y2I_dcVZb4xZremXoajjx.md"
+  },
+  {
+    "id": "DJDegO78Elo83eHjq8IHN",
+    "old_id": "DJDegO78Elo83eHjq8IHN",
+    "type": "subtopic",
+    "label": "Pager Duty",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\pager-duty@DJDegO78Elo83eHjq8IHN.md"
+  },
+  {
+    "id": "s8o5fXu3XHrMduh8snLwu",
+    "old_id": "Pm-Wx7Z3jCUFcafetsQYi",
+    "type": "topic",
+    "label": "Version Control System",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-testing@Pm-Wx7Z3jCUFcafetsQYi.md"
+  },
+  {
+    "id": "WrqKdOTRUiOnc1aIhTZeB",
+    "old_id": "WrqKdOTRUiOnc1aIhTZeB",
+    "type": "subtopic",
+    "label": "Git",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\git@WrqKdOTRUiOnc1aIhTZeB.md"
+  },
+  {
+    "id": "M6v8VUpVtw5blU2gi4F2r",
+    "old_id": "XoYsStVqfMeCHkGBlbRhD",
+    "type": "topic",
+    "label": "Repo Hosting Services",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\repo-hosting-services@XoYsStVqfMeCHkGBlbRhD.md"
+  },
+  {
+    "id": "v4gjV1qolrFXdESrY9bzG",
+    "old_id": "v4gjV1qolrFXdESrY9bzG",
+    "type": "subtopic",
+    "label": "GitHub",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\github@v4gjV1qolrFXdESrY9bzG.md"
+  },
+  {
+    "id": "4xlbvY7NS3cemSZsEQAkD",
+    "old_id": "4xlbvY7NS3cemSZsEQAkD",
+    "type": "subtopic",
+    "label": "Bitbucket",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\bitbucket@4xlbvY7NS3cemSZsEQAkD.md"
+  },
+  {
+    "id": "RfwyTgwfb_xu5H9N-8_s9",
+    "old_id": "RfwyTgwfb_xu5H9N-8_s9",
+    "type": "subtopic",
+    "label": "GitLab",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\gitlab@RfwyTgwfb_xu5H9N-8_s9.md"
+  },
+  {
+    "id": "-n2yAprKdWg3YVi2vp25d",
+    "old_id": "Pm-Wx7Z3jCUFcafetsQYi",
+    "type": "topic",
+    "label": "CI / CD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-testing@Pm-Wx7Z3jCUFcafetsQYi.md"
+  },
+  {
+    "id": "z1kZkWTL_RRPZY59aWylU",
+    "old_id": "z1kZkWTL_RRPZY59aWylU",
+    "type": "subtopic",
+    "label": "Circle CI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\circle-ci@z1kZkWTL_RRPZY59aWylU.md"
+  },
+  {
+    "id": "3oDyxhhbCCqxuCh1sT9VC",
+    "old_id": "3oDyxhhbCCqxuCh1sT9VC",
+    "type": "subtopic",
+    "label": "Drone",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\drone@3oDyxhhbCCqxuCh1sT9VC.md"
+  },
+  {
+    "id": "3l2dkN1vBy9johFhAgZhT",
+    "old_id": "3l2dkN1vBy9johFhAgZhT",
+    "type": "subtopic",
+    "label": "Jenkins",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\jenkins@3l2dkN1vBy9johFhAgZhT.md"
+  },
+  {
+    "id": "Rz1E97EQCxESu44dTQd5t",
+    "old_id": "Rz1E97EQCxESu44dTQd5t",
+    "type": "subtopic",
+    "label": "Travis CI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\travis-ci@Rz1E97EQCxESu44dTQd5t.md"
+  },
+  {
+    "id": "iW3oaTl7c3a1kNlCKy-13",
+    "old_id": "iW3oaTl7c3a1kNlCKy-13",
+    "type": "subtopic",
+    "label": "GitLab CI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\gitlab-ci@iW3oaTl7c3a1kNlCKy-13.md"
+  },
+  {
+    "id": "j4J5OhHEf7t-LVNkNVW3M",
+    "old_id": "j4J5OhHEf7t-LVNkNVW3M",
+    "type": "subtopic",
+    "label": "Bamboo",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\bamboo@j4J5OhHEf7t-LVNkNVW3M.md"
+  },
+  {
+    "id": "k3TBVtepeQEGzKGceDkPJ",
+    "old_id": "k3TBVtepeQEGzKGceDkPJ",
+    "type": "subtopic",
+    "label": "TeamCity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\teamcity@k3TBVtepeQEGzKGceDkPJ.md"
+  },
+  {
+    "id": "u0tKd7HZVN2gGv9Cz3jHz",
+    "old_id": "u0tKd7HZVN2gGv9Cz3jHz",
+    "type": "subtopic",
+    "label": "Azure DevOps Services",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\azure-devops-services@u0tKd7HZVN2gGv9Cz3jHz.md"
+  },
+  {
+    "id": "Pm-Wx7Z3jCUFcafetsQYi",
+    "old_id": "Pm-Wx7Z3jCUFcafetsQYi",
+    "type": "topic",
+    "label": "Headless Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-testing@Pm-Wx7Z3jCUFcafetsQYi.md"
+  },
+  {
+    "id": "XoYsStVqfMeCHkGBlbRhD",
+    "old_id": "Pm-Wx7Z3jCUFcafetsQYi",
+    "type": "topic",
+    "label": "Repo Hosting Services",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-testing@Pm-Wx7Z3jCUFcafetsQYi.md"
+  },
+  {
+    "id": "m0gT774b59xsSJKrrjTxq",
+    "old_id": "m0gT774b59xsSJKrrjTxq",
+    "type": "subtopic",
+    "label": "Zombie.js",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\zombiejs@m0gT774b59xsSJKrrjTxq.md"
+  },
+  {
+    "id": "sHyFCf7XQKxGxchaYxp2B",
+    "old_id": "sHyFCf7XQKxGxchaYxp2B",
+    "type": "subtopic",
+    "label": "Puppeteer",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\puppeteer@sHyFCf7XQKxGxchaYxp2B.md"
+  },
+  {
+    "id": "0TUq4KRbWTLsLuYI9sgi0",
+    "old_id": "0TUq4KRbWTLsLuYI9sgi0",
+    "type": "subtopic",
+    "label": "Playwright",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\playwright@0TUq4KRbWTLsLuYI9sgi0.md"
+  },
+  {
+    "id": "D7zGshmgwqWluF-W7OTWe",
+    "old_id": "D7zGshmgwqWluF-W7OTWe",
+    "type": "subtopic",
+    "label": "Cypress",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\cypress@D7zGshmgwqWluF-W7OTWe.md"
+  },
+  {
+    "id": "JO--NVMs3saUNjh3mcd7z",
+    "old_id": "JO--NVMs3saUNjh3mcd7z",
+    "type": "subtopic",
+    "label": "Headless Chrome",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-chrome@JO--NVMs3saUNjh3mcd7z.md"
+  },
+  {
+    "id": "ryoSezFNeiunCAZygCbaQ",
+    "old_id": "ryoSezFNeiunCAZygCbaQ",
+    "type": "subtopic",
+    "label": "Headless Fox",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\headless-fox@ryoSezFNeiunCAZygCbaQ.md"
+  },
+  {
+    "id": "-Sf7DLr8Ywoorrmsx3bfd",
+    "old_id": "-Sf7DLr8Ywoorrmsx3bfd",
+    "type": "subtopic",
+    "label": "HTML Unit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\qa\\content\\html-unit@-Sf7DLr8Ywoorrmsx3bfd.md"
+  }
+]

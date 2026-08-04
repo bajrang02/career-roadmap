@@ -1,0 +1,1177 @@
+{
+  "slug": "android",
+  "title": "Android",
+  "nodes": [
+    {
+      "id": "XmdyFfnM9BlqrEssRjczP",
+      "old_id": "XmdyFfnM9BlqrEssRjczP",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "cjH8XWlBk0ZBpvxGJ1gsn",
+      "old_id": "cjH8XWlBk0ZBpvxGJ1gsn",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "PF0TVwzQAg76Z1MdLNQk8",
+      "old_id": "PF0TVwzQAg76Z1MdLNQk8",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "bt3bz2BrOfKDwgYGu6_6S",
+      "old_id": "bt3bz2BrOfKDwgYGu6_6S",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "5Z9o-b3vBA-ITFg86zzYM",
+      "old_id": "5Z9o-b3vBA-ITFg86zzYM",
+      "type": "title",
+      "label": "Android",
+      "resources": []
+    },
+    {
+      "id": "DyPV3nTZO12NvkYUEiJWc",
+      "old_id": "DyPV3nTZO12NvkYUEiJWc",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "Suws-7f_6Z1ChpfcnxX2M",
+      "old_id": "Suws-7f_6Z1ChpfcnxX2M",
+      "type": "topic",
+      "label": "Pick a Language",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\pick-a-language@Suws-7f_6Z1ChpfcnxX2M.md"
+    },
+    {
+      "id": "qIzUv8-GgQnkqChEdgD50",
+      "old_id": "qIzUv8-GgQnkqChEdgD50",
+      "type": "subtopic",
+      "label": "Kotlin",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\kotlin@qIzUv8-GgQnkqChEdgD50.md"
+    },
+    {
+      "id": "RBABbkzD_uNFwEO-hssZO",
+      "old_id": "RBABbkzD_uNFwEO-hssZO",
+      "type": "subtopic",
+      "label": "Java",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\java@RBABbkzD_uNFwEO-hssZO.md"
+    },
+    {
+      "id": "HlUUGj3dOZ68t4gIjerXh",
+      "old_id": "HlUUGj3dOZ68t4gIjerXh",
+      "type": "topic",
+      "label": "The Fundamentals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\the-fundamentals@HlUUGj3dOZ68t4gIjerXh.md"
+    },
+    {
+      "id": "ZRGsokU313Ky-anWbWK6q",
+      "old_id": "ZRGsokU313Ky-anWbWK6q",
+      "type": "subtopic",
+      "label": "Development IDE",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\development-ide@ZRGsokU313Ky-anWbWK6q.md"
+    },
+    {
+      "id": "jl1FsQ5-WGKeFyaILNt_p",
+      "old_id": "jl1FsQ5-WGKeFyaILNt_p",
+      "type": "subtopic",
+      "label": "Basics of Kotlin",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\basics-of-kotlin@jl1FsQ5-WGKeFyaILNt_p.md"
+    },
+    {
+      "id": "j69erqfosSZMDlmKcnnn0",
+      "old_id": "j69erqfosSZMDlmKcnnn0",
+      "type": "subtopic",
+      "label": "Basics of OOP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\basics-of-oop@j69erqfosSZMDlmKcnnn0.md"
+    },
+    {
+      "id": "cNeT1dJDfgn0ndPzSxhSL",
+      "old_id": "cNeT1dJDfgn0ndPzSxhSL",
+      "type": "subtopic",
+      "label": "Data Structures and Algorithms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\data-structures-and-algorithms@cNeT1dJDfgn0ndPzSxhSL.md"
+    },
+    {
+      "id": "FVxNjbDBxgf6vkZWw1Awt",
+      "old_id": "FVxNjbDBxgf6vkZWw1Awt",
+      "type": "subtopic",
+      "label": "What is and how to use Gradle?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\what-is-and-how-to-use-gradle@FVxNjbDBxgf6vkZWw1Awt.md"
+    },
+    {
+      "id": "5m_7DvInF8C_4Ml1xVI6L",
+      "old_id": "5m_7DvInF8C_4Ml1xVI6L",
+      "type": "subtopic",
+      "label": "Create a Basic Hello World App",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\create-a-basic-hello-world-app@5m_7DvInF8C_4Ml1xVI6L.md"
+    },
+    {
+      "id": "5s1CqsYCOXjNroDHaGKGa",
+      "old_id": "5s1CqsYCOXjNroDHaGKGa",
+      "type": "topic",
+      "label": "Version Control",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\version-control@5s1CqsYCOXjNroDHaGKGa.md"
+    },
+    {
+      "id": "rqSZ2ATeHbOdIQE9Jlb0B",
+      "old_id": "rqSZ2ATeHbOdIQE9Jlb0B",
+      "type": "subtopic",
+      "label": "Git",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\git@rqSZ2ATeHbOdIQE9Jlb0B.md"
+    },
+    {
+      "id": "H-2eb8fLwz8IKYXbeSVKK",
+      "old_id": "H-2eb8fLwz8IKYXbeSVKK",
+      "type": "subtopic",
+      "label": "GitHub",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\github@H-2eb8fLwz8IKYXbeSVKK.md"
+    },
+    {
+      "id": "5LFZdUiFYYU_1sYsouyan",
+      "old_id": "5LFZdUiFYYU_1sYsouyan",
+      "type": "subtopic",
+      "label": "Bitbucket",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\bitbucket@5LFZdUiFYYU_1sYsouyan.md"
+    },
+    {
+      "id": "Q47BtQphp59NkkZoeNXmP",
+      "old_id": "Q47BtQphp59NkkZoeNXmP",
+      "type": "subtopic",
+      "label": "GitLab",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\gitlab@Q47BtQphp59NkkZoeNXmP.md"
+    },
+    {
+      "id": "-IvRbNv2swO63Xb9UqoHf",
+      "old_id": "-IvRbNv2swO63Xb9UqoHf",
+      "type": "label",
+      "label": "VCS Hosting",
+      "resources": []
+    },
+    {
+      "id": "5Li8J5iR_ZuyIlxX0LYei",
+      "old_id": "4_e76QafrB419S2INOeKd",
+      "type": "topic",
+      "label": "App Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\interface--navigation@4_e76QafrB419S2INOeKd.md"
+    },
+    {
+      "id": "nwuVlPmzwJ17mtVQ8Hi9w",
+      "old_id": "nwuVlPmzwJ17mtVQ8Hi9w",
+      "type": "subtopic",
+      "label": "Activity",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\activity@nwuVlPmzwJ17mtVQ8Hi9w.md"
+    },
+    {
+      "id": "PcHmU1c9hqKyzSjwlRPHk",
+      "old_id": "PcHmU1c9hqKyzSjwlRPHk",
+      "type": "subtopic",
+      "label": "Services",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\services@PcHmU1c9hqKyzSjwlRPHk.md"
+    },
+    {
+      "id": "nkcdjrswv0WCzUs48BAt9",
+      "old_id": "nkcdjrswv0WCzUs48BAt9",
+      "type": "subtopic",
+      "label": "Content Provider",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\content-provider@nkcdjrswv0WCzUs48BAt9.md"
+    },
+    {
+      "id": "tFuAToid1Fkmu96BDtW7K",
+      "old_id": "tFuAToid1Fkmu96BDtW7K",
+      "type": "subtopic",
+      "label": "Broadcast Receiver",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\broadcast-receiver@tFuAToid1Fkmu96BDtW7K.md"
+    },
+    {
+      "id": "hv_9imIQpthxEaMLXEUHI",
+      "old_id": "hv_9imIQpthxEaMLXEUHI",
+      "type": "subtopic",
+      "label": "Intent",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\intent@hv_9imIQpthxEaMLXEUHI.md"
+    },
+    {
+      "id": "FVg438cVBBzqJFkGWVbQM",
+      "old_id": "FVg438cVBBzqJFkGWVbQM",
+      "type": "subtopic",
+      "label": "Activity LifeCycle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\activity-lifecycle@FVg438cVBBzqJFkGWVbQM.md"
+    },
+    {
+      "id": "oUjetA2eduvQIeLcQlLcu",
+      "old_id": "oUjetA2eduvQIeLcQlLcu",
+      "type": "subtopic",
+      "label": "State Changes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\state-changes@oUjetA2eduvQIeLcQlLcu.md"
+    },
+    {
+      "id": "-O-G9bg36ut8NnZcdOaop",
+      "old_id": "-O-G9bg36ut8NnZcdOaop",
+      "type": "subtopic",
+      "label": "Tasks & Backstack",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\tasks--backstack@-O-G9bg36ut8NnZcdOaop.md"
+    },
+    {
+      "id": "gGdz3j33x0gfrFDp_rw8Z",
+      "old_id": "gGdz3j33x0gfrFDp_rw8Z",
+      "type": "subtopic",
+      "label": "Implicit Intents",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\implicit-intents@gGdz3j33x0gfrFDp_rw8Z.md"
+    },
+    {
+      "id": "TmIeCF3xVCe5Sy3ITmM31",
+      "old_id": "TmIeCF3xVCe5Sy3ITmM31",
+      "type": "subtopic",
+      "label": "Explicit Intents",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\explicit-intents@TmIeCF3xVCe5Sy3ITmM31.md"
+    },
+    {
+      "id": "b-sfh6NoS-APqaNKm5L5S",
+      "old_id": "b-sfh6NoS-APqaNKm5L5S",
+      "type": "subtopic",
+      "label": "Intent Filters",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\intent-filters@b-sfh6NoS-APqaNKm5L5S.md"
+    },
+    {
+      "id": "jePGzTejFe4ryA5qFFmjl",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Design & Architecture",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "Dp2DOX10u2xJUjB8Okhzh",
+      "old_id": "Dp2DOX10u2xJUjB8Okhzh",
+      "type": "subtopic",
+      "label": "Frame",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\box@Dp2DOX10u2xJUjB8Okhzh.md"
+    },
+    {
+      "id": "U8iMGGOd2EgPxSuwSG39Z",
+      "old_id": "U8iMGGOd2EgPxSuwSG39Z",
+      "type": "subtopic",
+      "label": "Linear",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\scaffold@U8iMGGOd2EgPxSuwSG39Z.md"
+    },
+    {
+      "id": "yE0qAQZiEC9R8WvCdskpr",
+      "old_id": "yE0qAQZiEC9R8WvCdskpr",
+      "type": "subtopic",
+      "label": "Relative",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\column--row@yE0qAQZiEC9R8WvCdskpr.md"
+    },
+    {
+      "id": "3fFNMhQIuuh-NRzSXYpXO",
+      "old_id": "3fFNMhQIuuh-NRzSXYpXO",
+      "type": "subtopic",
+      "label": "Constraint",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\constraint@3fFNMhQIuuh-NRzSXYpXO.md"
+    },
+    {
+      "id": "xIvplWfe-uDr9iHjPT1Mx",
+      "old_id": "xIvplWfe-uDr9iHjPT1Mx",
+      "type": "subtopic",
+      "label": "RecyclerView",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\recycleview@xIvplWfe-uDr9iHjPT1Mx.md"
+    },
+    {
+      "id": "ZuT4JTri-tZYmZkAthnH8",
+      "old_id": "ZuT4JTri-tZYmZkAthnH8",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "08Fx-PJiotcpN6ylmgI5d",
+      "old_id": "08Fx-PJiotcpN6ylmgI5d",
+      "type": "label",
+      "label": "Elements",
+      "resources": []
+    },
+    {
+      "id": "EfxxpCCgOleZwBW5z4UA8",
+      "old_id": "EfxxpCCgOleZwBW5z4UA8",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "znvZp24L-PcQwkSObtixs",
+      "old_id": "znvZp24L-PcQwkSObtixs",
+      "type": "subtopic",
+      "label": "TextView",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\textview@znvZp24L-PcQwkSObtixs.md"
+    },
+    {
+      "id": "2iDJrxjXOt7o2fPp2HfRl",
+      "old_id": "2iDJrxjXOt7o2fPp2HfRl",
+      "type": "subtopic",
+      "label": "Fragments",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\fragments@2iDJrxjXOt7o2fPp2HfRl.md"
+    },
+    {
+      "id": "boMz0HZlMAsLdCZlpUo-H",
+      "old_id": "boMz0HZlMAsLdCZlpUo-H",
+      "type": "subtopic",
+      "label": "EditText",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\textfield@boMz0HZlMAsLdCZlpUo-H.md"
+    },
+    {
+      "id": "Mtx0bY0drmaTw8sCM5YTl",
+      "old_id": "Mtx0bY0drmaTw8sCM5YTl",
+      "type": "subtopic",
+      "label": "Dialogs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\image@Mtx0bY0drmaTw8sCM5YTl.md"
+    },
+    {
+      "id": "WhfzFOUpm0DFEj7Oeq21R",
+      "old_id": "WhfzFOUpm0DFEj7Oeq21R",
+      "type": "subtopic",
+      "label": "Buttons",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\button@WhfzFOUpm0DFEj7Oeq21R.md"
+    },
+    {
+      "id": "BVgO9n7tGlVdiS72-hFSd",
+      "old_id": "BVgO9n7tGlVdiS72-hFSd",
+      "type": "subtopic",
+      "label": "Toast",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\text@BVgO9n7tGlVdiS72-hFSd.md"
+    },
+    {
+      "id": "A4rtNULX_MoV93IH1Lgqw",
+      "old_id": "A4rtNULX_MoV93IH1Lgqw",
+      "type": "subtopic",
+      "label": "ImageView",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\imageview@A4rtNULX_MoV93IH1Lgqw.md"
+    },
+    {
+      "id": "Z4Tbd5ClnqCXGPGG09F-G",
+      "old_id": "Z4Tbd5ClnqCXGPGG09F-G",
+      "type": "subtopic",
+      "label": "Bottom Sheet",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\bottomsheet@Z4Tbd5ClnqCXGPGG09F-G.md"
+    },
+    {
+      "id": "EzLjX4iRT7AxkAOsJYnSU",
+      "old_id": "EzLjX4iRT7AxkAOsJYnSU",
+      "type": "subtopic",
+      "label": "ListView",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\card@EzLjX4iRT7AxkAOsJYnSU.md"
+    },
+    {
+      "id": "amTxz7mS98lkhOrNMJXG_",
+      "old_id": "amTxz7mS98lkhOrNMJXG_",
+      "type": "subtopic",
+      "label": "Drawer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\tabrow@amTxz7mS98lkhOrNMJXG_.md"
+    },
+    {
+      "id": "pEBpXv3Jf1AzBNHlvVrG8",
+      "old_id": "pEBpXv3Jf1AzBNHlvVrG8",
+      "type": "subtopic",
+      "label": "Tabs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\icon@pEBpXv3Jf1AzBNHlvVrG8.md"
+    },
+    {
+      "id": "Xn1VQ-xOT67ZfJJTM4r1p",
+      "old_id": "Xn1VQ-xOT67ZfJJTM4r1p",
+      "type": "subtopic",
+      "label": "Animations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\dialog@Xn1VQ-xOT67ZfJJTM4r1p.md"
+    },
+    {
+      "id": "pntwSBbuIfYb8b7WBVfvI",
+      "old_id": "08Fx-PJiotcpN6ylmgI5d",
+      "type": "label",
+      "label": "Layouts",
+      "resources": []
+    },
+    {
+      "id": "qVXAZzZSD9BJBw0ZJsuEm",
+      "old_id": "ZuT4JTri-tZYmZkAthnH8",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "60Vm-77rseUqpMiFvp-dA",
+      "old_id": "60Vm-77rseUqpMiFvp-dA",
+      "type": "subtopic",
+      "label": "Jetpack Compose",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\jetpack-compose@60Vm-77rseUqpMiFvp-dA.md"
+    },
+    {
+      "id": "xV475jHTlLuHtpHZeXb7P",
+      "old_id": "xV475jHTlLuHtpHZeXb7P",
+      "type": "subtopic",
+      "label": "App Shortcuts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\app-shortcuts@xV475jHTlLuHtpHZeXb7P.md"
+    },
+    {
+      "id": "o5rzmnaQeiSh9ocvfJPpK",
+      "old_id": "o5rzmnaQeiSh9ocvfJPpK",
+      "type": "subtopic",
+      "label": "Navigation Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\navigation-components@o5rzmnaQeiSh9ocvfJPpK.md"
+    },
+    {
+      "id": "Bz-BkfzsDHAbAw3HD7WCd",
+      "old_id": "Bz-BkfzsDHAbAw3HD7WCd",
+      "type": "subtopic",
+      "label": "MVI",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\mvi@Bz-BkfzsDHAbAw3HD7WCd.md"
+    },
+    {
+      "id": "pSU-NZtjBh-u0WKTYfjk_",
+      "old_id": "pSU-NZtjBh-u0WKTYfjk_",
+      "type": "subtopic",
+      "label": "MVVM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\mvvm@pSU-NZtjBh-u0WKTYfjk_.md"
+    },
+    {
+      "id": "aF_xFIqTjQbENtC7pkXvJ",
+      "old_id": "aF_xFIqTjQbENtC7pkXvJ",
+      "type": "subtopic",
+      "label": "MVP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\mvp@aF_xFIqTjQbENtC7pkXvJ.md"
+    },
+    {
+      "id": "w1A6wPKSd3Yh2luuHV-aE",
+      "old_id": "w1A6wPKSd3Yh2luuHV-aE",
+      "type": "subtopic",
+      "label": "MVC",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\mvc@w1A6wPKSd3Yh2luuHV-aE.md"
+    },
+    {
+      "id": "ZF5XgO7I_J9928bD3CVXo",
+      "old_id": "ZF5XgO7I_J9928bD3CVXo",
+      "type": "subtopic",
+      "label": "Repository Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\repository-pattern@ZF5XgO7I_J9928bD3CVXo.md"
+    },
+    {
+      "id": "784fiIdKrQDlIm3VIiJQN",
+      "old_id": "784fiIdKrQDlIm3VIiJQN",
+      "type": "subtopic",
+      "label": "Builder Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\builder-pattern@784fiIdKrQDlIm3VIiJQN.md"
+    },
+    {
+      "id": "DeOxj6RzQBYfEWV-M1Ybm",
+      "old_id": "DeOxj6RzQBYfEWV-M1Ybm",
+      "type": "subtopic",
+      "label": "Factory Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\factory-pattern@DeOxj6RzQBYfEWV-M1Ybm.md"
+    },
+    {
+      "id": "N_auRfGKkeIIc-qiHLkR_",
+      "old_id": "N_auRfGKkeIIc-qiHLkR_",
+      "type": "subtopic",
+      "label": "Observer Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\observer-pattern@N_auRfGKkeIIc-qiHLkR_.md"
+    },
+    {
+      "id": "W-WTIiQml8dLK6i_V69JK",
+      "old_id": "W-WTIiQml8dLK6i_V69JK",
+      "type": "subtopic",
+      "label": "Flow",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\flow@W-WTIiQml8dLK6i_V69JK.md"
+    },
+    {
+      "id": "xk0vnWr7uESdzYRxwFjoK",
+      "old_id": "xk0vnWr7uESdzYRxwFjoK",
+      "type": "subtopic",
+      "label": "RxJava",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\rxjava@xk0vnWr7uESdzYRxwFjoK.md"
+    },
+    {
+      "id": "7rbsp1o5bzIJP11BRIoeG",
+      "old_id": "7rbsp1o5bzIJP11BRIoeG",
+      "type": "subtopic",
+      "label": "RxKotlin",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\rxkotlin@7rbsp1o5bzIJP11BRIoeG.md"
+    },
+    {
+      "id": "TiokceMGU9caqiR0lbFYL",
+      "old_id": "TiokceMGU9caqiR0lbFYL",
+      "type": "subtopic",
+      "label": "LiveData",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\livedata@TiokceMGU9caqiR0lbFYL.md"
+    },
+    {
+      "id": "ZbuCx3ygIZPRS_9fp0AJg",
+      "old_id": "cjH8XWlBk0ZBpvxGJ1gsn",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "qtXM9K7wyjOFuEMlZrB3C",
+      "old_id": "N_auRfGKkeIIc-qiHLkR_",
+      "type": "subtopic",
+      "label": "Dependency Injection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\observer-pattern@N_auRfGKkeIIc-qiHLkR_.md"
+    },
+    {
+      "id": "CK7Ce632fdTgxeFsRUVvd",
+      "old_id": "W-WTIiQml8dLK6i_V69JK",
+      "type": "subtopic",
+      "label": "Dagger",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\flow@W-WTIiQml8dLK6i_V69JK.md"
+    },
+    {
+      "id": "UMqZ-jmXKDXKuu8bzqDH_",
+      "old_id": "xk0vnWr7uESdzYRxwFjoK",
+      "type": "subtopic",
+      "label": "Koin",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\rxjava@xk0vnWr7uESdzYRxwFjoK.md"
+    },
+    {
+      "id": "ooo_k2k_vUBR_jQ7Ke6Et",
+      "old_id": "7rbsp1o5bzIJP11BRIoeG",
+      "type": "subtopic",
+      "label": "Hilt",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\rxkotlin@7rbsp1o5bzIJP11BRIoeG.md"
+    },
+    {
+      "id": "dc7k50PjCYZcElHhCk66p",
+      "old_id": "TiokceMGU9caqiR0lbFYL",
+      "type": "subtopic",
+      "label": "Kodein",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\livedata@TiokceMGU9caqiR0lbFYL.md"
+    },
+    {
+      "id": "0fNQWRxst8xRstIfPaPO6",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Storage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "PKql1HY0PLMfp50FRELXL",
+      "old_id": "ww0fTbdXwVr-QIOClU7ng",
+      "type": "subtopic",
+      "label": "Shared Preferences",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\apollo-android@ww0fTbdXwVr-QIOClU7ng.md"
+    },
+    {
+      "id": "GWq3s1iTxQOp1BstHscJ9",
+      "old_id": "GWq3s1iTxQOp1BstHscJ9",
+      "type": "subtopic",
+      "label": "DataStore",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\datastore@GWq3s1iTxQOp1BstHscJ9.md"
+    },
+    {
+      "id": "Bfg4So5RlI09zFNcburJd",
+      "old_id": "Bfg4So5RlI09zFNcburJd",
+      "type": "subtopic",
+      "label": "Room Database",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\room-database@Bfg4So5RlI09zFNcburJd.md"
+    },
+    {
+      "id": "A4kdaj6AFueUgPI7hwKi5",
+      "old_id": "A4kdaj6AFueUgPI7hwKi5",
+      "type": "subtopic",
+      "label": "File System",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\file-system@A4kdaj6AFueUgPI7hwKi5.md"
+    },
+    {
+      "id": "Yb6aKJMMCxU1QVltWg3Dr",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Network",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "dDMRYiqrKyOBnRRQc8zsp",
+      "old_id": "ww0fTbdXwVr-QIOClU7ng",
+      "type": "subtopic",
+      "label": "Retro",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\apollo-android@ww0fTbdXwVr-QIOClU7ng.md"
+    },
+    {
+      "id": "5pVuwOItAhUxxJX8ysAsn",
+      "old_id": "ww0fTbdXwVr-QIOClU7ng",
+      "type": "subtopic",
+      "label": "OkHttp",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\apollo-android@ww0fTbdXwVr-QIOClU7ng.md"
+    },
+    {
+      "id": "ww0fTbdXwVr-QIOClU7ng",
+      "old_id": "ww0fTbdXwVr-QIOClU7ng",
+      "type": "subtopic",
+      "label": "Apollo-Android",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\apollo-android@ww0fTbdXwVr-QIOClU7ng.md"
+    },
+    {
+      "id": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Asynchronism",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "i_cKmTnGAYw8xpHwZHjAd",
+      "old_id": "i_cKmTnGAYw8xpHwZHjAd",
+      "type": "subtopic",
+      "label": "Coroutines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\coroutines@i_cKmTnGAYw8xpHwZHjAd.md"
+    },
+    {
+      "id": "BeGrA5BDBMZP1Jy7n-wl-",
+      "old_id": "BeGrA5BDBMZP1Jy7n-wl-",
+      "type": "subtopic",
+      "label": "Threads",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\threads@BeGrA5BDBMZP1Jy7n-wl-.md"
+    },
+    {
+      "id": "zXsNEyRbb8UpEOAUv6FpY",
+      "old_id": "zXsNEyRbb8UpEOAUv6FpY",
+      "type": "subtopic",
+      "label": "RxJava",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\rxjava@zXsNEyRbb8UpEOAUv6FpY.md"
+    },
+    {
+      "id": "4h37WBpYxRRyw9oH8ge7o",
+      "old_id": "4h37WBpYxRRyw9oH8ge7o",
+      "type": "subtopic",
+      "label": "RxKotlin",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\rxkotlin@4h37WBpYxRRyw9oH8ge7o.md"
+    },
+    {
+      "id": "OAb_JD64uGm2tPoue7w6t",
+      "old_id": "OAb_JD64uGm2tPoue7w6t",
+      "type": "subtopic",
+      "label": "WorkManager",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\workmanager@OAb_JD64uGm2tPoue7w6t.md"
+    },
+    {
+      "id": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Common Services",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "Xv0es_z64vh-QzivMeAT3",
+      "old_id": "Xv0es_z64vh-QzivMeAT3",
+      "type": "subtopic",
+      "label": "Authentication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\authentication@Xv0es_z64vh-QzivMeAT3.md"
+    },
+    {
+      "id": "xB4evbD07n1VrHOIpowV4",
+      "old_id": "xB4evbD07n1VrHOIpowV4",
+      "type": "subtopic",
+      "label": "Crashlytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\crashlytics@xB4evbD07n1VrHOIpowV4.md"
+    },
+    {
+      "id": "1Tz-Shj_Tuz2U8llEAcLr",
+      "old_id": "1Tz-Shj_Tuz2U8llEAcLr",
+      "type": "subtopic",
+      "label": "Remote Config",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\remote-config@1Tz-Shj_Tuz2U8llEAcLr.md"
+    },
+    {
+      "id": "e3vHFaFFMV7kI9q6yf5e9",
+      "old_id": "e3vHFaFFMV7kI9q6yf5e9",
+      "type": "subtopic",
+      "label": "Cloud Messaging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\cloud-messaging@e3vHFaFFMV7kI9q6yf5e9.md"
+    },
+    {
+      "id": "3EEfKAd-ppIQpdQSEhbA1",
+      "old_id": "3EEfKAd-ppIQpdQSEhbA1",
+      "type": "subtopic",
+      "label": "FireStore",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\firestore@3EEfKAd-ppIQpdQSEhbA1.md"
+    },
+    {
+      "id": "2baqKY9TdQnPS8ydPlXEu",
+      "old_id": "2baqKY9TdQnPS8ydPlXEu",
+      "type": "label",
+      "label": "Firebase",
+      "resources": []
+    },
+    {
+      "id": "D4ZXQOKJkyFYNZIy-MJ9Y",
+      "old_id": "D4ZXQOKJkyFYNZIy-MJ9Y",
+      "type": "subtopic",
+      "label": "Google Admob",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\google-admob@D4ZXQOKJkyFYNZIy-MJ9Y.md"
+    },
+    {
+      "id": "m5rumeynEbS8T27pelr0-",
+      "old_id": "m5rumeynEbS8T27pelr0-",
+      "type": "subtopic",
+      "label": "Google Play Services",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\google-play-services@m5rumeynEbS8T27pelr0-.md"
+    },
+    {
+      "id": "S5FVF9rMgVSSDKXJW2GYb",
+      "old_id": "S5FVF9rMgVSSDKXJW2GYb",
+      "type": "subtopic",
+      "label": "Google Maps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\google-maps@S5FVF9rMgVSSDKXJW2GYb.md"
+    },
+    {
+      "id": "77F9F3oI5CPgwgM_hxWfa",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Linting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "zMbXQH17Q52opdbitPzj7",
+      "old_id": "zMbXQH17Q52opdbitPzj7",
+      "type": "subtopic",
+      "label": "Ktlint",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\ktlint@zMbXQH17Q52opdbitPzj7.md"
+    },
+    {
+      "id": "RUvuCp_JK5MQQT13SSHUV",
+      "old_id": "RUvuCp_JK5MQQT13SSHUV",
+      "type": "subtopic",
+      "label": "Detekt",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\detekt@RUvuCp_JK5MQQT13SSHUV.md"
+    },
+    {
+      "id": "6KbSUAoT_jTudFoIbwMpA",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Debugging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "VFOD4JrV8kZ2583G3oT95",
+      "old_id": "VFOD4JrV8kZ2583G3oT95",
+      "type": "subtopic",
+      "label": "Timber",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\timber@VFOD4JrV8kZ2583G3oT95.md"
+    },
+    {
+      "id": "3i4g9ZWgLxKb2UMgRJi4Q",
+      "old_id": "3i4g9ZWgLxKb2UMgRJi4Q",
+      "type": "subtopic",
+      "label": "Leak Canary",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\leak-canary@3i4g9ZWgLxKb2UMgRJi4Q.md"
+    },
+    {
+      "id": "7RKN1FNtRE_BE6QeAQrKb",
+      "old_id": "7RKN1FNtRE_BE6QeAQrKb",
+      "type": "subtopic",
+      "label": "Chucker",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\chucker@7RKN1FNtRE_BE6QeAQrKb.md"
+    },
+    {
+      "id": "ACUJlDDR0jqEohsFzWEoQ",
+      "old_id": "ACUJlDDR0jqEohsFzWEoQ",
+      "type": "subtopic",
+      "label": "Jetpack Benchmark",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\jetpack-benchmark@ACUJlDDR0jqEohsFzWEoQ.md"
+    },
+    {
+      "id": "ZOQm5OlzCA-h_yxywwDrW",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "-ONSC-ImGSELbamKmjIlH",
+      "old_id": "-ONSC-ImGSELbamKmjIlH",
+      "type": "subtopic",
+      "label": "Espresso",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\espresso@-ONSC-ImGSELbamKmjIlH.md"
+    },
+    {
+      "id": "gvGAwjk_nhEgxzZ_c3f6b",
+      "old_id": "gvGAwjk_nhEgxzZ_c3f6b",
+      "type": "subtopic",
+      "label": "JUnit",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\junit@gvGAwjk_nhEgxzZ_c3f6b.md"
+    },
+    {
+      "id": "kc6buUsLAeZeUb4Tk0apM",
+      "old_id": "kc6buUsLAeZeUb4Tk0apM",
+      "type": "topic",
+      "label": "Distribution",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\distribution@kc6buUsLAeZeUb4Tk0apM.md"
+    },
+    {
+      "id": "T7q_quNaIAuGi96OdnDT1",
+      "old_id": "T7q_quNaIAuGi96OdnDT1",
+      "type": "subtopic",
+      "label": "Firebase Distribution",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\firebase-distribution@T7q_quNaIAuGi96OdnDT1.md"
+    },
+    {
+      "id": "HgRdgi2Hu4C8YLG5PXfoo",
+      "old_id": "HgRdgi2Hu4C8YLG5PXfoo",
+      "type": "subtopic",
+      "label": "Google Playstore",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\google-playstore@HgRdgi2Hu4C8YLG5PXfoo.md"
+    },
+    {
+      "id": "_FSlD_qTz5Xo0x3pB6sZI",
+      "old_id": "_FSlD_qTz5Xo0x3pB6sZI",
+      "type": "subtopic",
+      "label": "Signed APK",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\signed-apk@_FSlD_qTz5Xo0x3pB6sZI.md"
+    },
+    {
+      "id": "FS7mpWrs6zdFRAAsegcyA",
+      "old_id": "FS7mpWrs6zdFRAAsegcyA",
+      "type": "label",
+      "label": "Ways to distribute",
+      "resources": []
+    },
+    {
+      "id": "gC8lsIdYLRzo3HzwVqtm1",
+      "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "label": "iOS",
+      "resources": []
+    },
+    {
+      "id": "9LKa-YjOMtO1j62Ukt0q0",
+      "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "label": "React Native",
+      "resources": []
+    },
+    {
+      "id": "uSLzfLPXxS5-P7ozscvjZ",
+      "old_id": "PkhQdVms2TGgnPrytCBPZ",
+      "type": "button",
+      "label": "Flutter",
+      "resources": []
+    },
+    {
+      "id": "4_e76QafrB419S2INOeKd",
+      "old_id": "4_e76QafrB419S2INOeKd",
+      "type": "topic",
+      "label": "Interface & Navigation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\android\\content\\interface--navigation@4_e76QafrB419S2INOeKd.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES"
+    },
+    {
+      "source": null,
+      "target": "NMznG9mo2wzNFnjhg990f"
+    },
+    {
+      "source": null,
+      "target": "gc_7cuIO2_joKlQRAPDfX"
+    },
+    {
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI"
+    },
+    {
+      "source": "5Z9o-b3vBA-ITFg86zzYM",
+      "target": "Suws-7f_6Z1ChpfcnxX2M"
+    },
+    {
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "qIzUv8-GgQnkqChEdgD50"
+    },
+    {
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "RBABbkzD_uNFwEO-hssZO"
+    },
+    {
+      "source": "Suws-7f_6Z1ChpfcnxX2M",
+      "target": "HlUUGj3dOZ68t4gIjerXh"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "ZRGsokU313Ky-anWbWK6q"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "jl1FsQ5-WGKeFyaILNt_p"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "j69erqfosSZMDlmKcnnn0"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "cNeT1dJDfgn0ndPzSxhSL"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "FVxNjbDBxgf6vkZWw1Awt"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "5m_7DvInF8C_4Ml1xVI6L"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "5s1CqsYCOXjNroDHaGKGa"
+    },
+    {
+      "source": "5s1CqsYCOXjNroDHaGKGa",
+      "target": "5Li8J5iR_ZuyIlxX0LYei"
+    },
+    {
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "HgRdgi2Hu4C8YLG5PXfoo"
+    },
+    {
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "T7q_quNaIAuGi96OdnDT1"
+    },
+    {
+      "source": null,
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "STQQbPa7PE3gbjMdL6P-t",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "5Li8J5iR_ZuyIlxX0LYei",
+      "target": "4_e76QafrB419S2INOeKd"
+    },
+    {
+      "source": "5Li8J5iR_ZuyIlxX0LYei",
+      "target": "nwuVlPmzwJ17mtVQ8Hi9w"
+    },
+    {
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "60Vm-77rseUqpMiFvp-dA"
+    },
+    {
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "xV475jHTlLuHtpHZeXb7P"
+    },
+    {
+      "source": "4_e76QafrB419S2INOeKd",
+      "target": "jePGzTejFe4ryA5qFFmjl"
+    },
+    {
+      "source": "jePGzTejFe4ryA5qFFmjl",
+      "target": "d1G8QZ82y7ez7rLskMZiv"
+    },
+    {
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "PKql1HY0PLMfp50FRELXL"
+    },
+    {
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "GWq3s1iTxQOp1BstHscJ9"
+    },
+    {
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "Bfg4So5RlI09zFNcburJd"
+    },
+    {
+      "source": "0fNQWRxst8xRstIfPaPO6",
+      "target": "A4kdaj6AFueUgPI7hwKi5"
+    },
+    {
+      "source": "Yb6aKJMMCxU1QVltWg3Dr",
+      "target": "cFYZ2C7yNnY6NHKUNP2Z4"
+    },
+    {
+      "source": "cFYZ2C7yNnY6NHKUNP2Z4",
+      "target": "ZEdn2yy-IwHN3kOYr2ZbC"
+    },
+    {
+      "source": "ZEdn2yy-IwHN3kOYr2ZbC",
+      "target": "77F9F3oI5CPgwgM_hxWfa"
+    },
+    {
+      "source": "77F9F3oI5CPgwgM_hxWfa",
+      "target": "ZOQm5OlzCA-h_yxywwDrW"
+    },
+    {
+      "source": "ZOQm5OlzCA-h_yxywwDrW",
+      "target": "6KbSUAoT_jTudFoIbwMpA"
+    },
+    {
+      "source": "6KbSUAoT_jTudFoIbwMpA",
+      "target": "kc6buUsLAeZeUb4Tk0apM"
+    },
+    {
+      "source": "6KbSUAoT_jTudFoIbwMpA",
+      "target": "ACUJlDDR0jqEohsFzWEoQ"
+    },
+    {
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "_FSlD_qTz5Xo0x3pB6sZI"
+    }
+  ]
+}

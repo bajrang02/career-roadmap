@@ -1,0 +1,1377 @@
+{
+  "slug": "design-system",
+  "title": "Design System",
+  "nodes": [
+    {
+      "id": "oHZ5JbApDEfh0_af8h1He",
+      "old_id": "oHZ5JbApDEfh0_af8h1He",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "w5aUEG9HC-XmarfhsTNaV",
+      "old_id": "w5aUEG9HC-XmarfhsTNaV",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "9z_V6GT_k0CUpi_RNa91F",
+      "old_id": "9z_V6GT_k0CUpi_RNa91F",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "21pccUw8Y00FpFjxJXFsS",
+      "old_id": "21pccUw8Y00FpFjxJXFsS",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "D-p4-EZLTiY15S078aSfD",
+      "old_id": "D-p4-EZLTiY15S078aSfD",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "C6u3MfTH06l-FQrF2Fl2L",
+      "old_id": "C6u3MfTH06l-FQrF2Fl2L",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "wXJmQeb9VnDhWOPow0DQ_",
+      "old_id": "wXJmQeb9VnDhWOPow0DQ_",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Iy-XknF5sqjWIYF1MWaat",
+      "old_id": "Iy-XknF5sqjWIYF1MWaat",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "dWZ4Tbbb1lsfHP1qy0Z9Z",
+      "old_id": "dWZ4Tbbb1lsfHP1qy0Z9Z",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "OjpMq77qldn4SwOFCDXhd",
+      "old_id": "OjpMq77qldn4SwOFCDXhd",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "rfg1MAPkP5mIXnvr0oTPl",
+      "old_id": "rfg1MAPkP5mIXnvr0oTPl",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "old_id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "Design System",
+      "resources": []
+    },
+    {
+      "id": "if9eTna5NRTMStVwpSwDP",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "uvnV1IjE8RV-FKDxHntUU",
+      "old_id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Understand he Basics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\project-management@JfXwzkN29UGz17FYHHE3A.md"
+    },
+    {
+      "id": "4PrkkoZ5fY-oow0O-bVhu",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "What is a Design System?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "old_id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Need of Design System",
+      "resources": []
+    },
+    {
+      "id": "w_rUaBorHFOY74S0JiEwM",
+      "old_id": "w_rUaBorHFOY74S0JiEwM",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "J5mU0v491qrm-mr1W3Msd",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Design System vs Component Library",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "6AIUtChWC_gK8Ax0UuBjd",
+      "old_id": "f5WRewBlpeYMf71cPcXs-",
+      "type": "button",
+      "label": "Frontend",
+      "resources": []
+    },
+    {
+      "id": "6r9XbwlBtHmJrhviG2cTD",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "What is Atomic Design",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "_3_tFOpQisx6DSP4Yc2E2",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Stakeholders Involved in Building",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "UZq7Aq3nhidsXdsKeEnNF",
+      "old_id": "f5WRewBlpeYMf71cPcXs-",
+      "type": "button",
+      "label": "Backend",
+      "resources": []
+    },
+    {
+      "id": "hauTvrBOAHgrUnO_m_kDM",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Design System Examples",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "de0TKvmFTDmKGZc5X7iFq",
+      "old_id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Terminology",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\project-management@JfXwzkN29UGz17FYHHE3A.md"
+    },
+    {
+      "id": "97cpJyKBKNAq1P_pQZH-t",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Component",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "vJ4WytrzY7j10mo8S3O1u",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Component Library",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "fPUuXrlchna3K00KcY4O6",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Design Language",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "kifE3JE2immnU1O3-toZf",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Governance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "mlBzJ2YvBr9QuOthKdj0p",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "7xPT8rUX3hjSWbxH_FfQs",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "4dzoZmkNHPedgLqLy93t8",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Pilot",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "jETJVuS_EczJiQASLqaQr",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Token",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "lUObv2N7eH3Jdnwwd5vmI",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "UI Kit",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "dUaoMARPabiD4DRqdkaer",
+      "old_id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Making a Design System",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\project-management@JfXwzkN29UGz17FYHHE3A.md"
+    },
+    {
+      "id": "-9I3fTpnQlmcZmIIuQiPe",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Making it from Scratch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "z5gBy7BjlBKwbYbxXtoDA",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Making it from Existing Design",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "8eWhvW2zDIxMGHaXl0Y9i",
+      "old_id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Existing Design Analysis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\project-management@JfXwzkN29UGz17FYHHE3A.md"
+    },
+    {
+      "id": "NKm-gXbt5Y7dDwKVkPHjX",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Performing a Visual Audit",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "CnsDoZ3gIaPeNbwHuZXYJ",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Identify Existing Design Process",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "jtjlvmiYtYGZtWJITn92P",
+      "old_id": "jtjlvmiYtYGZtWJITn92P",
+      "type": "label",
+      "label": "Identify Design Elements",
+      "resources": []
+    },
+    {
+      "id": "aak3227IDDJMh0MquQX6m",
+      "old_id": "2prUeRYbSJTYjo2quJIKs",
+      "type": "subtopic",
+      "label": "Icons",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\color@2prUeRYbSJTYjo2quJIKs.md"
+    },
+    {
+      "id": "-MrrapoyFWKhSeE2PZ9mb",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Visual Forms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "78RsPhsWpl00AbkwKXUxL",
+      "old_id": "2prUeRYbSJTYjo2quJIKs",
+      "type": "subtopic",
+      "label": "Sizing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\color@2prUeRYbSJTYjo2quJIKs.md"
+    },
+    {
+      "id": "GtLYBPJjdZwG0qgA7erk7",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Spaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "2prUeRYbSJTYjo2quJIKs",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Color",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "old_id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Typography",
+      "resources": []
+    },
+    {
+      "id": "rwcJIAXH2ooXpDvkQqrEX",
+      "old_id": "rfg1MAPkP5mIXnvr0oTPl",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "uMvaS418F2pxiJ4tYtLJ2",
+      "old_id": "jtjlvmiYtYGZtWJITn92P",
+      "type": "label",
+      "label": "Identify Components",
+      "resources": []
+    },
+    {
+      "id": "_dIMuXWI73ogboGjnLIpT",
+      "old_id": "aak3227IDDJMh0MquQX6m",
+      "type": "subtopic",
+      "label": "Avatar",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\icons@aak3227IDDJMh0MquQX6m.md"
+    },
+    {
+      "id": "UG4AIgJBfZpuhia4Y1K5v",
+      "old_id": "-MrrapoyFWKhSeE2PZ9mb",
+      "type": "subtopic",
+      "label": "Badges",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\visual-forms@-MrrapoyFWKhSeE2PZ9mb.md"
+    },
+    {
+      "id": "5DUobzueMZbScyTZTHpCS",
+      "old_id": "78RsPhsWpl00AbkwKXUxL",
+      "type": "subtopic",
+      "label": "Banners",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\sizing@78RsPhsWpl00AbkwKXUxL.md"
+    },
+    {
+      "id": "s6oqvHgwK4Cwyx-JENBbY",
+      "old_id": "GtLYBPJjdZwG0qgA7erk7",
+      "type": "subtopic",
+      "label": "Buttons",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\spaces@GtLYBPJjdZwG0qgA7erk7.md"
+    },
+    {
+      "id": "yLLAUGbGUHBTEDkZNK0fm",
+      "old_id": "5LCMzBnnS206t5EtgaUx8",
+      "type": "subtopic",
+      "label": "Cards",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\forms@5LCMzBnnS206t5EtgaUx8.md"
+    },
+    {
+      "id": "hzVwLVzAij6TgPTcNHyhv",
+      "old_id": "Ia1gYzepJOTvTro961eSj",
+      "type": "subtopic",
+      "label": "Dropdowns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\other@Ia1gYzepJOTvTro961eSj.md"
+    },
+    {
+      "id": "5LCMzBnnS206t5EtgaUx8",
+      "old_id": "2prUeRYbSJTYjo2quJIKs",
+      "type": "subtopic",
+      "label": "Forms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\color@2prUeRYbSJTYjo2quJIKs.md"
+    },
+    {
+      "id": "Ia1gYzepJOTvTro961eSj",
+      "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "...other",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\typography@ODQ8zrHc2rsc8PN-APKvz.md"
+    },
+    {
+      "id": "ILRDAnpfGHCZq-FBlbfDO",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "A/B Tests & Experiments",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "pRJ9wEPNfFx_6EYB501vk",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Regional Requirements",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "-b4GjLpL_ppDMJSiChTef",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Documentation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "JnaNZ9MfMrXQrjW2wABzB",
+      "old_id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Creating Design Language",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\project-management@JfXwzkN29UGz17FYHHE3A.md"
+    },
+    {
+      "id": "toyNbBB5tbyiJZkzuklIv",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Writing Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "fnlVIgsmyxj2UVCCjM-8g",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Tone of Voice",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "Zspu1SsuTE34PVmYePcs4",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Terminology",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "1RJrMVJf_3clM7E5OML-f",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Design Principles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "old_id": "W4gEPRYmk5Y7y3PjI6fR7",
+      "type": "subtopic",
+      "label": "Vision",
+      "resources": []
+    },
+    {
+      "id": "03t80lsT2te9B0rYpIB9v",
+      "old_id": "03t80lsT2te9B0rYpIB9v",
+      "type": "label",
+      "label": "Brand",
+      "resources": []
+    },
+    {
+      "id": "SY-FCki-0MaUv7zvw6keW",
+      "old_id": "dWZ4Tbbb1lsfHP1qy0Z9Z",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Wn8CylBz-hyl9-iXcUVTO",
+      "old_id": "toyNbBB5tbyiJZkzuklIv",
+      "type": "subtopic",
+      "label": "Monochrome Version",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\writing-guidelines@toyNbBB5tbyiJZkzuklIv.md"
+    },
+    {
+      "id": "FA3JsZgNhKrgNHVtVreol",
+      "old_id": "fnlVIgsmyxj2UVCCjM-8g",
+      "type": "subtopic",
+      "label": "Small Use Guidance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\tone-of-voice@fnlVIgsmyxj2UVCCjM-8g.md"
+    },
+    {
+      "id": "7n61402xwhIgJ7dPHg8q7",
+      "old_id": "Zspu1SsuTE34PVmYePcs4",
+      "type": "subtopic",
+      "label": "Placement Guidance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\terminology@Zspu1SsuTE34PVmYePcs4.md"
+    },
+    {
+      "id": "RmSFwKqL9yXXxGKZusKWX",
+      "old_id": "1RJrMVJf_3clM7E5OML-f",
+      "type": "subtopic",
+      "label": "Usage Guidance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\design-principles@1RJrMVJf_3clM7E5OML-f.md"
+    },
+    {
+      "id": "-6LPUMRm-SqvRVEWPDFl8",
+      "old_id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "File Formats",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\vision@cMfsRtvzvDZZJ0TqeUOxm.md"
+    },
+    {
+      "id": "82Due7XFcIKGY5I8cp9yr",
+      "old_id": "03t80lsT2te9B0rYpIB9v",
+      "type": "label",
+      "label": "Logo",
+      "resources": []
+    },
+    {
+      "id": "C4-NjCgai_t7QWvfj_d6x",
+      "old_id": "SY-FCki-0MaUv7zvw6keW",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "aLtOGjNFxaRzg0PI-ed99",
+      "old_id": "Wn8CylBz-hyl9-iXcUVTO",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\monochrome-version@Wn8CylBz-hyl9-iXcUVTO.md"
+    },
+    {
+      "id": "PlW8mHnOTyYnbtl0zUSG9",
+      "old_id": "FA3JsZgNhKrgNHVtVreol",
+      "type": "subtopic",
+      "label": "User Onboarding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\small-use-guidance@FA3JsZgNhKrgNHVtVreol.md"
+    },
+    {
+      "id": "bD-DjUbAA6l2eK1R9ITcK",
+      "old_id": "TiCNCRpMPgZUhn7JdaIZA",
+      "type": "subtopic",
+      "label": "Microcopy Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@TiCNCRpMPgZUhn7JdaIZA.md"
+    },
+    {
+      "id": "6-o1viBIrvHaefbcMIJMW",
+      "old_id": "82Due7XFcIKGY5I8cp9yr",
+      "type": "label",
+      "label": "Guidelines",
+      "resources": []
+    },
+    {
+      "id": "a53cl6ZKvYXxG25Ii2_zu",
+      "old_id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Defining Design Tokens",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\project-management@JfXwzkN29UGz17FYHHE3A.md"
+    },
+    {
+      "id": "hdHZ8LjWJm_kVkwAanQtC",
+      "old_id": "dWZ4Tbbb1lsfHP1qy0Z9Z",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "fW0cEy2SB0HDbiF7QA7Ev",
+      "old_id": "toyNbBB5tbyiJZkzuklIv",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\writing-guidelines@toyNbBB5tbyiJZkzuklIv.md"
+    },
+    {
+      "id": "__Pv19gRr2SFknVnfm0Mr",
+      "old_id": "fnlVIgsmyxj2UVCCjM-8g",
+      "type": "subtopic",
+      "label": "Functional Colors",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\tone-of-voice@fnlVIgsmyxj2UVCCjM-8g.md"
+    },
+    {
+      "id": "kxUnqpydDwB73IwrCPZM0",
+      "old_id": "Zspu1SsuTE34PVmYePcs4",
+      "type": "subtopic",
+      "label": "Dark Mode",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\terminology@Zspu1SsuTE34PVmYePcs4.md"
+    },
+    {
+      "id": "XDfxs5cgjSuTEprZi2Z5b",
+      "old_id": "1RJrMVJf_3clM7E5OML-f",
+      "type": "subtopic",
+      "label": "Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\design-principles@1RJrMVJf_3clM7E5OML-f.md"
+    },
+    {
+      "id": "sKui9mF1oCOZq5DJkAqyP",
+      "old_id": "03t80lsT2te9B0rYpIB9v",
+      "type": "label",
+      "label": "Colors",
+      "resources": []
+    },
+    {
+      "id": "faA8T0Am-XVRCuS6veAIN",
+      "old_id": "hdHZ8LjWJm_kVkwAanQtC",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "wQbMhC7q3qdKYf_pX5qL4",
+      "old_id": "fW0cEy2SB0HDbiF7QA7Ev",
+      "type": "subtopic",
+      "label": "Units",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\accessibility@fW0cEy2SB0HDbiF7QA7Ev.md"
+    },
+    {
+      "id": "8f2V-rM7soorTTvNo5Vcx",
+      "old_id": "__Pv19gRr2SFknVnfm0Mr",
+      "type": "subtopic",
+      "label": "Grid",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\functional-colors@__Pv19gRr2SFknVnfm0Mr.md"
+    },
+    {
+      "id": "djwnJq9Y_Hx1Ynw01wr_u",
+      "old_id": "kxUnqpydDwB73IwrCPZM0",
+      "type": "subtopic",
+      "label": "Breakpoints",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\dark-mode@kxUnqpydDwB73IwrCPZM0.md"
+    },
+    {
+      "id": "dXaYOwTAnYSlipNEBSV9l",
+      "old_id": "XDfxs5cgjSuTEprZi2Z5b",
+      "type": "subtopic",
+      "label": "Spacking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\guidelines@XDfxs5cgjSuTEprZi2Z5b.md"
+    },
+    {
+      "id": "z5RKq0GcdXMMTO4CZD4LP",
+      "old_id": "sKui9mF1oCOZq5DJkAqyP",
+      "type": "label",
+      "label": "Layout",
+      "resources": []
+    },
+    {
+      "id": "_pRY0ZewNcKBrm4xnAvbQ",
+      "old_id": "hdHZ8LjWJm_kVkwAanQtC",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "8YVCtgYRHR3VcpUJXMVwP",
+      "old_id": "fW0cEy2SB0HDbiF7QA7Ev",
+      "type": "subtopic",
+      "label": "Responsiveness",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\accessibility@fW0cEy2SB0HDbiF7QA7Ev.md"
+    },
+    {
+      "id": "Zl7MVllzJgObruYtlibKf",
+      "old_id": "__Pv19gRr2SFknVnfm0Mr",
+      "type": "subtopic",
+      "label": "Grid Relation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\functional-colors@__Pv19gRr2SFknVnfm0Mr.md"
+    },
+    {
+      "id": "L2NHddsv5RGR_BW0I3f4T",
+      "old_id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "type": "subtopic",
+      "label": "Readability",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\keywords@HDf2L4F1f8uUGpVaf7Y7z.md"
+    },
+    {
+      "id": "wFL9axjaPcVvI8XWduxgz",
+      "old_id": "Jab5LO0mGhTy1cU61Catu",
+      "type": "subtopic",
+      "label": "Performance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\guidelines@Jab5LO0mGhTy1cU61Catu.md"
+    },
+    {
+      "id": "lKmaeG9BWlaKFVrVEFuYQ",
+      "old_id": "ObM6oFLLQxiF6acWJA-tb",
+      "type": "label",
+      "label": "Typography",
+      "resources": []
+    },
+    {
+      "id": "Jab5LO0mGhTy1cU61Catu",
+      "old_id": "XDfxs5cgjSuTEprZi2Z5b",
+      "type": "subtopic",
+      "label": "Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\guidelines@XDfxs5cgjSuTEprZi2Z5b.md"
+    },
+    {
+      "id": "ObM6oFLLQxiF6acWJA-tb",
+      "old_id": "sKui9mF1oCOZq5DJkAqyP",
+      "type": "label",
+      "label": "Iconography",
+      "resources": []
+    },
+    {
+      "id": "DhrnZwQODG0P7D-27_3ec",
+      "old_id": "hjiJJg4KNr8lyktFQd868",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-text@hjiJJg4KNr8lyktFQd868.md"
+    },
+    {
+      "id": "SPK1i0XuHpNEWyi1iIxrV",
+      "old_id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "type": "subtopic",
+      "label": "Style",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\keywords@HDf2L4F1f8uUGpVaf7Y7z.md"
+    },
+    {
+      "id": "wiclAEEYioRgLmXFcKQ4E",
+      "old_id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "type": "subtopic",
+      "label": "Naming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\keywords@HDf2L4F1f8uUGpVaf7Y7z.md"
+    },
+    {
+      "id": "6Hmj_TeQ563jshqAAl__I",
+      "old_id": "eTxhpC3AQIMcUax6WFU9U",
+      "type": "subtopic",
+      "label": "Grid Relation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\guidelines@eTxhpC3AQIMcUax6WFU9U.md"
+    },
+    {
+      "id": "w3LS85eFerscaxb2Xp-dP",
+      "old_id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "type": "subtopic",
+      "label": "Sizes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\keywords@HDf2L4F1f8uUGpVaf7Y7z.md"
+    },
+    {
+      "id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "old_id": "kxUnqpydDwB73IwrCPZM0",
+      "type": "subtopic",
+      "label": "Keywords",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\dark-mode@kxUnqpydDwB73IwrCPZM0.md"
+    },
+    {
+      "id": "Y0KxHVrcNGHDao-38Oz3w",
+      "old_id": "eTxhpC3AQIMcUax6WFU9U",
+      "type": "subtopic",
+      "label": "Reserved Icons",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\guidelines@eTxhpC3AQIMcUax6WFU9U.md"
+    },
+    {
+      "id": "eTxhpC3AQIMcUax6WFU9U",
+      "old_id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "type": "subtopic",
+      "label": "Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\keywords@HDf2L4F1f8uUGpVaf7Y7z.md"
+    },
+    {
+      "id": "Hw_LQInG6OtSwDXch3Lvg",
+      "old_id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Creating Core Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\project-management@JfXwzkN29UGz17FYHHE3A.md"
+    },
+    {
+      "id": "h3TZY1yBkzLYUK6W7K7xs",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Avatar",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "hjiJJg4KNr8lyktFQd868",
+      "old_id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "type": "subtopic",
+      "label": "Input Text",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\keywords@HDf2L4F1f8uUGpVaf7Y7z.md"
+    },
+    {
+      "id": "kkqRIgdXWaJbX9CjLpwha",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Banner",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "LNsXQI8sE_5kzSD_iMLJA",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Badge",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "LWihkf4q5UawjLd84KQxN",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Button",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "rZ7d1C9swiqlRTbdJLZ0R",
+      "old_id": "2oCAzsk_y2Y2oHUi467dp",
+      "type": "subtopic",
+      "label": "Card",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\tooltip@2oCAzsk_y2Y2oHUi467dp.md"
+    },
+    {
+      "id": "yWEXfjzuzk99dxjZlG4Cq",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Carousel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "MtBSvKoyjdLd6DIdolLRi",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Dropdown",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "bzY_iXRnotct_WnNRTlbd",
+      "old_id": "iusI39fxcu2rbMXiosaM6",
+      "type": "subtopic",
+      "label": "Icon",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\textarea@iusI39fxcu2rbMXiosaM6.md"
+    },
+    {
+      "id": "F5_sxUnnGEdgF6BkA5T5x",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Input Checkbox",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "rN-_plAA5FkcQl03wsL18",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Input Radio",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "NISeaJUlDtQ0kSuyxmrOT",
+      "old_id": "hjiJJg4KNr8lyktFQd868",
+      "type": "subtopic",
+      "label": "Input Switch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-text@hjiJJg4KNr8lyktFQd868.md"
+    },
+    {
+      "id": "n1nUkMqGtPobZPJHCvPsk",
+      "old_id": "iusI39fxcu2rbMXiosaM6",
+      "type": "subtopic",
+      "label": "Select",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\textarea@iusI39fxcu2rbMXiosaM6.md"
+    },
+    {
+      "id": "iusI39fxcu2rbMXiosaM6",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Textarea",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "2T7tiM3Ew3H1U5iJR2TDb",
+      "old_id": "2oCAzsk_y2Y2oHUi467dp",
+      "type": "subtopic",
+      "label": "List",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\tooltip@2oCAzsk_y2Y2oHUi467dp.md"
+    },
+    {
+      "id": "JhnHOMIlU6mQcwvIpErUY",
+      "old_id": "2oCAzsk_y2Y2oHUi467dp",
+      "type": "subtopic",
+      "label": "Loading Indicator",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\tooltip@2oCAzsk_y2Y2oHUi467dp.md"
+    },
+    {
+      "id": "IjNitkG25vNo30rB4ckNV",
+      "old_id": "2oCAzsk_y2Y2oHUi467dp",
+      "type": "subtopic",
+      "label": "Modal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\tooltip@2oCAzsk_y2Y2oHUi467dp.md"
+    },
+    {
+      "id": "1vYR1EMyZhJA-znxnFBBb",
+      "old_id": "2oCAzsk_y2Y2oHUi467dp",
+      "type": "subtopic",
+      "label": "Tabs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\tooltip@2oCAzsk_y2Y2oHUi467dp.md"
+    },
+    {
+      "id": "-T7uL6a3lJ5-IIcDaG6IN",
+      "old_id": "2oCAzsk_y2Y2oHUi467dp",
+      "type": "subtopic",
+      "label": "Toast",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\tooltip@2oCAzsk_y2Y2oHUi467dp.md"
+    },
+    {
+      "id": "2oCAzsk_y2Y2oHUi467dp",
+      "old_id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Tooltip",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\input-switch@NISeaJUlDtQ0kSuyxmrOT.md"
+    },
+    {
+      "id": "jggrr5nZOe6FY3ZrZJTOw",
+      "old_id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Creating Core Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\project-management@JfXwzkN29UGz17FYHHE3A.md"
+    },
+    {
+      "id": "NC75JWJMKXeQB2fTo0ZQJ",
+      "old_id": "NC75JWJMKXeQB2fTo0ZQJ",
+      "type": "label",
+      "label": "Design",
+      "resources": []
+    },
+    {
+      "id": "ccpT9MPFbc3Ewjm1tFMsZ",
+      "old_id": "TiCNCRpMPgZUhn7JdaIZA",
+      "type": "subtopic",
+      "label": "Design Editor",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@TiCNCRpMPgZUhn7JdaIZA.md"
+    },
+    {
+      "id": "uO-2O0Jwh_DxrMAB9wxp1",
+      "old_id": "TiCNCRpMPgZUhn7JdaIZA",
+      "type": "subtopic",
+      "label": "Plugins",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@TiCNCRpMPgZUhn7JdaIZA.md"
+    },
+    {
+      "id": "CYY6nbQiC2pu5ATWmO6wA",
+      "old_id": "TiCNCRpMPgZUhn7JdaIZA",
+      "type": "subtopic",
+      "label": "Version Control",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@TiCNCRpMPgZUhn7JdaIZA.md"
+    },
+    {
+      "id": "TiCNCRpMPgZUhn7JdaIZA",
+      "old_id": "7n61402xwhIgJ7dPHg8q7",
+      "type": "subtopic",
+      "label": "Contribution Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\placement-guidance@7n61402xwhIgJ7dPHg8q7.md"
+    },
+    {
+      "id": "L5re9KKWvMfS9f-uggNPN",
+      "old_id": "21pccUw8Y00FpFjxJXFsS",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "sD6J4uY0G7YNLCVoQkxmg",
+      "old_id": "NC75JWJMKXeQB2fTo0ZQJ",
+      "type": "label",
+      "label": "Development",
+      "resources": []
+    },
+    {
+      "id": "VeLiPzbGr22_Mh_8T2Gnf",
+      "old_id": "ccpT9MPFbc3Ewjm1tFMsZ",
+      "type": "subtopic",
+      "label": "Component Catalog",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\design-editor@ccpT9MPFbc3Ewjm1tFMsZ.md"
+    },
+    {
+      "id": "k1Lwk_b6cLIeyQwc4RUh1",
+      "old_id": "uO-2O0Jwh_DxrMAB9wxp1",
+      "type": "subtopic",
+      "label": "Documentation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\plugins@uO-2O0Jwh_DxrMAB9wxp1.md"
+    },
+    {
+      "id": "zEqFAuH9zmKTLwwgx54pW",
+      "old_id": "CYY6nbQiC2pu5ATWmO6wA",
+      "type": "subtopic",
+      "label": "Code Style",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\version-control@CYY6nbQiC2pu5ATWmO6wA.md"
+    },
+    {
+      "id": "y8No8I0MltA91j4Q2toT0",
+      "old_id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "type": "subtopic",
+      "label": "Unit Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@xJ1LAAhiZvbZOLRVc1HZa.md"
+    },
+    {
+      "id": "yhP8EhyCWWRBLkYPyOFeg",
+      "old_id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "type": "subtopic",
+      "label": "Accessibility Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@xJ1LAAhiZvbZOLRVc1HZa.md"
+    },
+    {
+      "id": "ZLt1yJqinC8OSpqucC2dV",
+      "old_id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "type": "subtopic",
+      "label": "Semantic Versioning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@xJ1LAAhiZvbZOLRVc1HZa.md"
+    },
+    {
+      "id": "CfWCQNaCJGL-egRhFhc4B",
+      "old_id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "type": "subtopic",
+      "label": "Release Strategy",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@xJ1LAAhiZvbZOLRVc1HZa.md"
+    },
+    {
+      "id": "IVYe8oh1IWbUbxMZRxVQA",
+      "old_id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "type": "subtopic",
+      "label": "Commit Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@xJ1LAAhiZvbZOLRVc1HZa.md"
+    },
+    {
+      "id": "wd9ZHZmqV7wbLN-9V4EQy",
+      "old_id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "type": "subtopic",
+      "label": "PR Templates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@xJ1LAAhiZvbZOLRVc1HZa.md"
+    },
+    {
+      "id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "old_id": "TiCNCRpMPgZUhn7JdaIZA",
+      "type": "subtopic",
+      "label": "Contribution Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\contribution-guidelines@TiCNCRpMPgZUhn7JdaIZA.md"
+    },
+    {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Project Management",
+      "resources": []
+    },
+    {
+      "id": "TWx2jJqOyI3CXCOTQ106_",
+      "old_id": "21pccUw8Y00FpFjxJXFsS",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "POeLL32wtfV3SmBcVWzy6",
+      "old_id": "TM0coCBRbsUVXRNb--KnY",
+      "type": "label",
+      "label": "Task Management",
+      "resources": []
+    },
+    {
+      "id": "gMrX5600JqFDplriq-eU3",
+      "old_id": "xYqDmDpjwkShtL86nt-vY",
+      "type": "subtopic",
+      "label": "Roadmap",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\logging@xYqDmDpjwkShtL86nt-vY.md"
+    },
+    {
+      "id": "ruPXxVwmD9vSlS7rBZmA-",
+      "old_id": "uO-2O0Jwh_DxrMAB9wxp1",
+      "type": "subtopic",
+      "label": "Milestones",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\plugins@uO-2O0Jwh_DxrMAB9wxp1.md"
+    },
+    {
+      "id": "i39J0fk4DaPeNFIMbH0ap",
+      "old_id": "CYY6nbQiC2pu5ATWmO6wA",
+      "type": "subtopic",
+      "label": "Ticketing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\version-control@CYY6nbQiC2pu5ATWmO6wA.md"
+    },
+    {
+      "id": "ZnwVo1kqK9awZCwFd2Vti",
+      "old_id": "TM0coCBRbsUVXRNb--KnY",
+      "type": "label",
+      "label": "Analytics",
+      "resources": []
+    },
+    {
+      "id": "G8dOkM_4hP7wPF3QJ8y4g",
+      "old_id": "5znnOkpf9G9tdiMWB6Rut",
+      "type": "subtopic",
+      "label": "Component Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\service-and-health-metrics@5znnOkpf9G9tdiMWB6Rut.md"
+    },
+    {
+      "id": "xYqDmDpjwkShtL86nt-vY",
+      "old_id": "ccpT9MPFbc3Ewjm1tFMsZ",
+      "type": "subtopic",
+      "label": "Logging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\design-editor@ccpT9MPFbc3Ewjm1tFMsZ.md"
+    },
+    {
+      "id": "qiJGYYWL4naJX-MgZA9Ms",
+      "old_id": "cpAeotBxN8BCsU9RqTEue",
+      "type": "subtopic",
+      "label": "Tooling Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\faqs@cpAeotBxN8BCsU9RqTEue.md"
+    },
+    {
+      "id": "5znnOkpf9G9tdiMWB6Rut",
+      "old_id": "xYqDmDpjwkShtL86nt-vY",
+      "type": "subtopic",
+      "label": "Service and Health Metrics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\logging@xYqDmDpjwkShtL86nt-vY.md"
+    },
+    {
+      "id": "TM0coCBRbsUVXRNb--KnY",
+      "old_id": "NC75JWJMKXeQB2fTo0ZQJ",
+      "type": "label",
+      "label": "Communications",
+      "resources": []
+    },
+    {
+      "id": "eG8ranXuINtcqWfeMH5GW",
+      "old_id": "cpAeotBxN8BCsU9RqTEue",
+      "type": "subtopic",
+      "label": "Community Meetings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\faqs@cpAeotBxN8BCsU9RqTEue.md"
+    },
+    {
+      "id": "LWrrKrhwXfMDKgbFW5DuO",
+      "old_id": "cpAeotBxN8BCsU9RqTEue",
+      "type": "subtopic",
+      "label": "Communication Channel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\faqs@cpAeotBxN8BCsU9RqTEue.md"
+    },
+    {
+      "id": "YWoPoO9IW3vLZyxLL2fnT",
+      "old_id": "cpAeotBxN8BCsU9RqTEue",
+      "type": "subtopic",
+      "label": "Open Hours",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\faqs@cpAeotBxN8BCsU9RqTEue.md"
+    },
+    {
+      "id": "cpAeotBxN8BCsU9RqTEue",
+      "old_id": "5znnOkpf9G9tdiMWB6Rut",
+      "type": "subtopic",
+      "label": "FAQs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\design-system\\content\\service-and-health-metrics@5znnOkpf9G9tdiMWB6Rut.md"
+    },
+    {
+      "id": "f5WRewBlpeYMf71cPcXs-",
+      "old_id": "StxLh1r3qXqyRSqfJGird",
+      "type": "button",
+      "label": "UX Design",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "uvnV1IjE8RV-FKDxHntUU"
+    },
+    {
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "2rlmLn_yQQV-7DpX1qT98"
+    },
+    {
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "4PrkkoZ5fY-oow0O-bVhu"
+    },
+    {
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "J5mU0v491qrm-mr1W3Msd"
+    },
+    {
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "6r9XbwlBtHmJrhviG2cTD"
+    },
+    {
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "_3_tFOpQisx6DSP4Yc2E2"
+    },
+    {
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "hauTvrBOAHgrUnO_m_kDM"
+    },
+    {
+      "source": "uvnV1IjE8RV-FKDxHntUU",
+      "target": "de0TKvmFTDmKGZc5X7iFq"
+    },
+    {
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "97cpJyKBKNAq1P_pQZH-t"
+    },
+    {
+      "source": "vJ4WytrzY7j10mo8S3O1u",
+      "target": "de0TKvmFTDmKGZc5X7iFq"
+    },
+    {
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "fPUuXrlchna3K00KcY4O6"
+    },
+    {
+      "source": "kifE3JE2immnU1O3-toZf",
+      "target": "de0TKvmFTDmKGZc5X7iFq"
+    },
+    {
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "mlBzJ2YvBr9QuOthKdj0p"
+    },
+    {
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "7xPT8rUX3hjSWbxH_FfQs"
+    },
+    {
+      "source": "4dzoZmkNHPedgLqLy93t8",
+      "target": "de0TKvmFTDmKGZc5X7iFq"
+    },
+    {
+      "source": "jETJVuS_EczJiQASLqaQr",
+      "target": "de0TKvmFTDmKGZc5X7iFq"
+    },
+    {
+      "source": "lUObv2N7eH3Jdnwwd5vmI",
+      "target": "de0TKvmFTDmKGZc5X7iFq"
+    },
+    {
+      "source": "de0TKvmFTDmKGZc5X7iFq",
+      "target": "dUaoMARPabiD4DRqdkaer"
+    },
+    {
+      "source": "dUaoMARPabiD4DRqdkaer",
+      "target": "-9I3fTpnQlmcZmIIuQiPe"
+    },
+    {
+      "source": "dUaoMARPabiD4DRqdkaer",
+      "target": "z5gBy7BjlBKwbYbxXtoDA"
+    },
+    {
+      "source": "dUaoMARPabiD4DRqdkaer",
+      "target": "8eWhvW2zDIxMGHaXl0Y9i"
+    },
+    {
+      "source": "8eWhvW2zDIxMGHaXl0Y9i",
+      "target": "ILRDAnpfGHCZq-FBlbfDO"
+    },
+    {
+      "source": "8eWhvW2zDIxMGHaXl0Y9i",
+      "target": "pRJ9wEPNfFx_6EYB501vk"
+    },
+    {
+      "source": "8eWhvW2zDIxMGHaXl0Y9i",
+      "target": "-b4GjLpL_ppDMJSiChTef"
+    },
+    {
+      "source": "zSv63LkcNpHjAMB4eZewE",
+      "target": "JnaNZ9MfMrXQrjW2wABzB"
+    },
+    {
+      "source": "JnaNZ9MfMrXQrjW2wABzB",
+      "target": "a53cl6ZKvYXxG25Ii2_zu"
+    },
+    {
+      "source": "TWx2jJqOyI3CXCOTQ106_",
+      "target": "JfXwzkN29UGz17FYHHE3A"
+    }
+  ]
+}

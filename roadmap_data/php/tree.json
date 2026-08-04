@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "WobnwQysg22KeqQUfFq3c",
+    "old_id": "xz_XU3RNTleqzeG8jiL1j",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "33xDnONCKXab3GnA_QgR0",
+    "old_id": "33xDnONCKXab3GnA_QgR0",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "pc14qPNQD6yLbN54QCFrw",
+    "old_id": "pc14qPNQD6yLbN54QCFrw",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "4DITxbB38FakSCzjsQ0Js",
+    "old_id": "4DITxbB38FakSCzjsQ0Js",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "O-VQ9xI9U_dcv1eXC10Pm",
+    "old_id": "O-VQ9xI9U_dcv1eXC10Pm",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "k2geFuCziHUELrMsMYMom",
+    "old_id": "k2geFuCziHUELrMsMYMom",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "A_lYlCAkORf0LldseIxtz",
+    "old_id": "A_lYlCAkORf0LldseIxtz",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "CORVHVLE5hxVl5fd4jVhd",
+    "old_id": "CORVHVLE5hxVl5fd4jVhd",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "RjrP6TuYhXhW3uuZgqurX",
+    "old_id": "RjrP6TuYhXhW3uuZgqurX",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "BxU_vv4FsalsT1Hq0qRRK",
+    "old_id": "BxU_vv4FsalsT1Hq0qRRK",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iogwMmOvub2ZF4zgg6WyF",
+    "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+    "type": "title",
+    "label": "PHP",
+    "resources": [],
+    "children": [
+      {
+        "id": "_hYN0gEi9BL24nptEtXWU",
+        "old_id": "c1edrcSmHO_L2e9DGh7st",
+        "type": "topic",
+        "label": "Introduction to PHP",
+        "resources": [],
+        "children": [
+          {
+            "id": "_LhLDVZjLt1DoAP1NuUES",
+            "old_id": "oKbeLp4YB8rI1Q3vi0EnG",
+            "type": "subtopic",
+            "label": "What is PHP?",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "b2CuLrhsUNnb4OxI6RRAS",
+            "old_id": "_LhLDVZjLt1DoAP1NuUES",
+            "type": "subtopic",
+            "label": "Evolution and History",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\what-is-php@_LhLDVZjLt1DoAP1NuUES.md",
+            "children": []
+          },
+          {
+            "id": "6sHRQTcoKL3TlgNJlwyx8",
+            "old_id": "oKbeLp4YB8rI1Q3vi0EnG",
+            "type": "subtopic",
+            "label": "PHP Versions and Features",
+            "resources": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "OIcmPSbdsuWapb6HZ4BEi",
+    "old_id": "cmSSwPPiiHwYh9ct14N6A",
+    "type": "button",
+    "label": "Backend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "CH_K6mmFX_GdSzi2n1ID7",
+    "old_id": "-sFboM4eFUMVq1tlPl-fV",
+    "type": "button",
+    "label": "System Design",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-sFboM4eFUMVq1tlPl-fV",
+    "old_id": "qXKNK_IsGS8-JgLK-Q9oU",
+    "type": "button",
+    "label": "DevOps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "lGgcjbbv3WAMOEi_NUZYh",
+    "old_id": "lGgcjbbv3WAMOEi_NUZYh",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "36Y1HkHxhuxh2qVQB8NVE",
+    "old_id": "36Y1HkHxhuxh2qVQB8NVE",
+    "type": "subtopic",
+    "label": "WAMP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\wamp@36Y1HkHxhuxh2qVQB8NVE.md",
+    "children": []
+  },
+  {
+    "id": "-wniKEBwbF0Fi1fHpF-Gc",
+    "old_id": "-wniKEBwbF0Fi1fHpF-Gc",
+    "type": "subtopic",
+    "label": "XAMPP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\xampp@-wniKEBwbF0Fi1fHpF-Gc.md",
+    "children": []
+  },
+  {
+    "id": "t7p7TU2khaxsZPYAdwFAA",
+    "old_id": "t7p7TU2khaxsZPYAdwFAA",
+    "type": "subtopic",
+    "label": "MAMP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\mamp@t7p7TU2khaxsZPYAdwFAA.md",
+    "children": []
+  },
+  {
+    "id": "7LjxtrmgJtTJc0_kP83Tr",
+    "old_id": "7LjxtrmgJtTJc0_kP83Tr",
+    "type": "subtopic",
+    "label": "LAMP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\lamp@7LjxtrmgJtTJc0_kP83Tr.md",
+    "children": []
+  },
+  {
+    "id": "SCp3PCqxAYbM9iBgLCG4_",
+    "old_id": "SCp3PCqxAYbM9iBgLCG4_",
+    "type": "label",
+    "label": "Local Server",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2ykzBBdYhWuM-neGf0AWP",
+    "old_id": "2ykzBBdYhWuM-neGf0AWP",
+    "type": "subtopic",
+    "label": "echo",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\echo@2ykzBBdYhWuM-neGf0AWP.md",
+    "children": []
+  },
+  {
+    "id": "NQUmO90sqe7fnzod3Ia8H",
+    "old_id": "NQUmO90sqe7fnzod3Ia8H",
+    "type": "subtopic",
+    "label": "print",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\print@NQUmO90sqe7fnzod3Ia8H.md",
+    "children": []
+  },
+  {
+    "id": "wsC7OGXOyfCY4pLLNrR2v",
+    "old_id": "wsC7OGXOyfCY4pLLNrR2v",
+    "type": "subtopic",
+    "label": "print_r",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\print_r@wsC7OGXOyfCY4pLLNrR2v.md",
+    "children": []
+  },
+  {
+    "id": "d_Ei1E5a0j425i9Jf6ffd",
+    "old_id": "d_Ei1E5a0j425i9Jf6ffd",
+    "type": "label",
+    "label": "Output and Debugging",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "i_NRsOJNNp7AOqMgu5Jg8",
+    "old_id": "i_NRsOJNNp7AOqMgu5Jg8",
+    "type": "subtopic",
+    "label": "Associative Arrays",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\associative-arrays@i_NRsOJNNp7AOqMgu5Jg8.md",
+    "children": []
+  },
+  {
+    "id": "uARTOZ-ZwugSmbCJoRS5Y",
+    "old_id": "uARTOZ-ZwugSmbCJoRS5Y",
+    "type": "subtopic",
+    "label": "Multi-dimensional Arrays",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\multi-dimensional-arrays@uARTOZ-ZwugSmbCJoRS5Y.md",
+    "children": []
+  },
+  {
+    "id": "-McOv-ZPTGayX7Mx2Thw1",
+    "old_id": "-McOv-ZPTGayX7Mx2Thw1",
+    "type": "subtopic",
+    "label": "if/else",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\ifelse@-McOv-ZPTGayX7Mx2Thw1.md",
+    "children": []
+  },
+  {
+    "id": "bgJ9-m6Fiu3VCc-NZlbpn",
+    "old_id": "bgJ9-m6Fiu3VCc-NZlbpn",
+    "type": "subtopic",
+    "label": "switch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\switch@bgJ9-m6Fiu3VCc-NZlbpn.md",
+    "children": []
+  },
+  {
+    "id": "3gNzX-bw2iqur7U7-_W38",
+    "old_id": "3gNzX-bw2iqur7U7-_W38",
+    "type": "subtopic",
+    "label": "match",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\match@3gNzX-bw2iqur7U7-_W38.md",
+    "children": []
+  },
+  {
+    "id": "w0ntgFBhgGd5RUFd-qlPK",
+    "old_id": "1NXSk8VZDr89jQTTkOL7x",
+    "type": "subtopic",
+    "label": "Null Coalescing Operator",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\null-safe-operator@1NXSk8VZDr89jQTTkOL7x.md",
+    "children": []
+  },
+  {
+    "id": "VLRLymQmLfscrBfzXKvHi",
+    "old_id": "IhKjvT6CjRz4dsSU7SNQo",
+    "type": "subtopic",
+    "label": "Constants",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\arrays@IhKjvT6CjRz4dsSU7SNQo.md",
+    "children": []
+  },
+  {
+    "id": "mP1BIkqbWVVTU-zZv1ZL6",
+    "old_id": "mP1BIkqbWVVTU-zZv1ZL6",
+    "type": "subtopic",
+    "label": "Arrow Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\arrow-functions@mP1BIkqbWVVTU-zZv1ZL6.md",
+    "children": []
+  },
+  {
+    "id": "x7hA2KAzJIjc-prgCEw6V",
+    "old_id": "x7hA2KAzJIjc-prgCEw6V",
+    "type": "subtopic",
+    "label": "Callback Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\callback-functions@x7hA2KAzJIjc-prgCEw6V.md",
+    "children": []
+  },
+  {
+    "id": "D9ybK5INH5zSOcYMb5ZPi",
+    "old_id": "D9ybK5INH5zSOcYMb5ZPi",
+    "type": "subtopic",
+    "label": "Recursion",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\recursion@D9ybK5INH5zSOcYMb5ZPi.md",
+    "children": []
+  },
+  {
+    "id": "rtmytETfyyLdcXUC0QyzL",
+    "old_id": "rtmytETfyyLdcXUC0QyzL",
+    "type": "subtopic",
+    "label": "Variadic Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\variadic-functions@rtmytETfyyLdcXUC0QyzL.md",
+    "children": []
+  },
+  {
+    "id": "Kaaqu-mN7xvHN6CbIn616",
+    "old_id": "Kaaqu-mN7xvHN6CbIn616",
+    "type": "subtopic",
+    "label": "require",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\require@Kaaqu-mN7xvHN6CbIn616.md",
+    "children": []
+  },
+  {
+    "id": "-CyJbsg2ho3RvfzKnJj5C",
+    "old_id": "-CyJbsg2ho3RvfzKnJj5C",
+    "type": "subtopic",
+    "label": "require_once",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\require_once@-CyJbsg2ho3RvfzKnJj5C.md",
+    "children": []
+  },
+  {
+    "id": "hKfv7V6bl2LXssq9Ffi7C",
+    "old_id": "Kaaqu-mN7xvHN6CbIn616",
+    "type": "subtopic",
+    "label": "include",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\require@Kaaqu-mN7xvHN6CbIn616.md",
+    "children": []
+  },
+  {
+    "id": "SwtLDgyPmDry20qS4FBfH",
+    "old_id": "-CyJbsg2ho3RvfzKnJj5C",
+    "type": "subtopic",
+    "label": "include_once",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\require_once@-CyJbsg2ho3RvfzKnJj5C.md",
+    "children": []
+  },
+  {
+    "id": "CNrhogom5tjAOY6ancboh",
+    "old_id": "CNrhogom5tjAOY6ancboh",
+    "type": "label",
+    "label": "Include and Require Files",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "two4UycJaCfSp6jQqtTAb",
+    "old_id": "two4UycJaCfSp6jQqtTAb",
+    "type": "subtopic",
+    "label": "Writing Files",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\writing-files@two4UycJaCfSp6jQqtTAb.md",
+    "children": []
+  },
+  {
+    "id": "S9wTlkbv9-R6dohhZ47hs",
+    "old_id": "S9wTlkbv9-R6dohhZ47hs",
+    "type": "subtopic",
+    "label": "Reading Files",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\reading-files@S9wTlkbv9-R6dohhZ47hs.md",
+    "children": []
+  },
+  {
+    "id": "tgIyG6vHWpe9sz6lHmj5a",
+    "old_id": "tgIyG6vHWpe9sz6lHmj5a",
+    "type": "subtopic",
+    "label": "File Permissions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\file-permissions@tgIyG6vHWpe9sz6lHmj5a.md",
+    "children": []
+  },
+  {
+    "id": "xpvaGtnZo9BL3HfKCzsV_",
+    "old_id": "xpvaGtnZo9BL3HfKCzsV_",
+    "type": "label",
+    "label": "File Operations",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "t6N8bYfapkiiFMPdYmqpq",
+    "old_id": "t6N8bYfapkiiFMPdYmqpq",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "3oLk2mHY-nDgNXmaOZzEr",
+    "old_id": "RjrP6TuYhXhW3uuZgqurX",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "DB2cxZE58WCCavW2PNwmf",
+    "old_id": "two4UycJaCfSp6jQqtTAb",
+    "type": "subtopic",
+    "label": "JSON Processing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\writing-files@two4UycJaCfSp6jQqtTAb.md",
+    "children": []
+  },
+  {
+    "id": "MRDjEjbkMpk7shcWAoPOF",
+    "old_id": "S9wTlkbv9-R6dohhZ47hs",
+    "type": "subtopic",
+    "label": "CSV Processing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\reading-files@S9wTlkbv9-R6dohhZ47hs.md",
+    "children": []
+  },
+  {
+    "id": "ggkWo0DRSSDDkHpbiyUyf",
+    "old_id": "tgIyG6vHWpe9sz6lHmj5a",
+    "type": "subtopic",
+    "label": "XML Processing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\file-permissions@tgIyG6vHWpe9sz6lHmj5a.md",
+    "children": []
+  },
+  {
+    "id": "qEQHasW-P1aIenzurfCNB",
+    "old_id": "xpvaGtnZo9BL3HfKCzsV_",
+    "type": "label",
+    "label": "File Operations",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "IxzVu2Uxmtw9koAB7nP3J",
+    "old_id": "t6N8bYfapkiiFMPdYmqpq",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "tn_iIfaJZVtPK6vFds7FH",
+    "old_id": "tn_iIfaJZVtPK6vFds7FH",
+    "type": "topic",
+    "label": "HTTP Methods",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\http-methods@tn_iIfaJZVtPK6vFds7FH.md",
+    "children": []
+  },
+  {
+    "id": "GFYGFVfxkOoPI5mI4zSt1",
+    "old_id": "GFYGFVfxkOoPI5mI4zSt1",
+    "type": "subtopic",
+    "label": "$_GET",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\_get@GFYGFVfxkOoPI5mI4zSt1.md",
+    "children": []
+  },
+  {
+    "id": "qNG-a4iIO-puZsMwAMzYC",
+    "old_id": "GFYGFVfxkOoPI5mI4zSt1",
+    "type": "subtopic",
+    "label": "$_POST",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\_get@GFYGFVfxkOoPI5mI4zSt1.md",
+    "children": []
+  },
+  {
+    "id": "A6rfW4uJhyfAX2b18_EEC",
+    "old_id": "A6rfW4uJhyfAX2b18_EEC",
+    "type": "subtopic",
+    "label": "$_REQUEST",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\_request@A6rfW4uJhyfAX2b18_EEC.md",
+    "children": []
+  },
+  {
+    "id": "7Ja2at_N9tRTlvSGahrqn",
+    "old_id": "A6rfW4uJhyfAX2b18_EEC",
+    "type": "subtopic",
+    "label": "$_SERVER",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\_request@A6rfW4uJhyfAX2b18_EEC.md",
+    "children": []
+  },
+  {
+    "id": "1fD7xL7hD9Dv62ksAy-fF",
+    "old_id": "1fD7xL7hD9Dv62ksAy-fF",
+    "type": "label",
+    "label": "Super Global Variables",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "HNo8QO4aPbvgePiA4l6tq",
+    "old_id": "CGehmZjcgTWC7fQAvxmNW",
+    "type": "topic",
+    "label": "File Uploads",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\state-management@CGehmZjcgTWC7fQAvxmNW.md",
+    "children": [
+      {
+        "id": "CGehmZjcgTWC7fQAvxmNW",
+        "old_id": "LlcZe9eU0Qs5kqm-8DW28",
+        "type": "topic",
+        "label": "State Management",
+        "resources": [],
+        "children": [
+          {
+            "id": "so03-fK7E2WvTm6XsPq4i",
+            "old_id": "so03-fK7E2WvTm6XsPq4i",
+            "type": "subtopic",
+            "label": "Cookies",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\cookies@so03-fK7E2WvTm6XsPq4i.md",
+            "children": []
+          },
+          {
+            "id": "qobzzgzArNHLLn9Oiqc6G",
+            "old_id": "qobzzgzArNHLLn9Oiqc6G",
+            "type": "subtopic",
+            "label": "Sessions",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\sessions@qobzzgzArNHLLn9Oiqc6G.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "93oEIZttb85S23C1fLraP",
+    "old_id": "93oEIZttb85S23C1fLraP",
+    "type": "subtopic",
+    "label": "Input Validation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\input-validation@93oEIZttb85S23C1fLraP.md",
+    "children": []
+  },
+  {
+    "id": "DxqQrToZSayWplKdCkTgT",
+    "old_id": "DxqQrToZSayWplKdCkTgT",
+    "type": "subtopic",
+    "label": "XSS Prevention",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\xss-prevention@DxqQrToZSayWplKdCkTgT.md",
+    "children": []
+  },
+  {
+    "id": "801vB_JMas4ucriUmfrLg",
+    "old_id": "801vB_JMas4ucriUmfrLg",
+    "type": "subtopic",
+    "label": "SQL Injection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\sql-injection@801vB_JMas4ucriUmfrLg.md",
+    "children": []
+  },
+  {
+    "id": "J9yIXZTtwbFzH2u4dI1ep",
+    "old_id": "J9yIXZTtwbFzH2u4dI1ep",
+    "type": "subtopic",
+    "label": "CSRF Protection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\csrf-protection@J9yIXZTtwbFzH2u4dI1ep.md",
+    "children": []
+  },
+  {
+    "id": "JbWFfJiCRrXDhnuIx_lqx",
+    "old_id": "JbWFfJiCRrXDhnuIx_lqx",
+    "type": "subtopic",
+    "label": "Password Hashing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\password-hashing@JbWFfJiCRrXDhnuIx_lqx.md",
+    "children": []
+  },
+  {
+    "id": "HJJzKYXdK4BWITLP4APLZ",
+    "old_id": "HJJzKYXdK4BWITLP4APLZ",
+    "type": "subtopic",
+    "label": "Auth Mechanisms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\auth-mechanisms@HJJzKYXdK4BWITLP4APLZ.md",
+    "children": []
+  },
+  {
+    "id": "tfC1tCrbvH5J43WUpG9Yb",
+    "old_id": "tfC1tCrbvH5J43WUpG9Yb",
+    "type": "subtopic",
+    "label": "Sanitization Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\sanitization-techniques@tfC1tCrbvH5J43WUpG9Yb.md",
+    "children": []
+  },
+  {
+    "id": "ESNhqQpKQ-SmCOBDTObk-",
+    "old_id": "ESNhqQpKQ-SmCOBDTObk-",
+    "type": "label",
+    "label": "Basics of Security",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ViaJCS5_Zngyrm6F01s3J",
+    "old_id": "ViaJCS5_Zngyrm6F01s3J",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "cJtPz1RMN1qDE4eRdv4N_",
+    "old_id": "cJtPz1RMN1qDE4eRdv4N_",
+    "type": "subtopic",
+    "label": "PDO",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\pdo@cJtPz1RMN1qDE4eRdv4N_.md",
+    "children": []
+  },
+  {
+    "id": "YLuo0oZJzTCoiZoOSG57z",
+    "old_id": "YLuo0oZJzTCoiZoOSG57z",
+    "type": "subtopic",
+    "label": "MySQLi",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\mysqli@YLuo0oZJzTCoiZoOSG57z.md",
+    "children": []
+  },
+  {
+    "id": "6bK1pQ7pM3oowXyKNYIty",
+    "old_id": "6bK1pQ7pM3oowXyKNYIty",
+    "type": "label",
+    "label": "Database Connectivity",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "SeqGIfcLuveZ2z5ZSXcOd",
+    "old_id": "SeqGIfcLuveZ2z5ZSXcOd",
+    "type": "subtopic",
+    "label": "Object-Relational Mapping (ORM)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\object-relational-mapping-orm@SeqGIfcLuveZ2z5ZSXcOd.md",
+    "children": []
+  },
+  {
+    "id": "FY-F6n9j29hQrnFry3VGb",
+    "old_id": "FY-F6n9j29hQrnFry3VGb",
+    "type": "subtopic",
+    "label": "Database Transactions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\database-transactions@FY-F6n9j29hQrnFry3VGb.md",
+    "children": []
+  },
+  {
+    "id": "txUyPR_tdC8iTJV3RtvBz",
+    "old_id": "txUyPR_tdC8iTJV3RtvBz",
+    "type": "subtopic",
+    "label": "Connection Pooling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\connection-pooling@txUyPR_tdC8iTJV3RtvBz.md",
+    "children": []
+  },
+  {
+    "id": "M1nVsh_sCSFJRf6-7Ttsj",
+    "old_id": "M1nVsh_sCSFJRf6-7Ttsj",
+    "type": "subtopic",
+    "label": "Performance Optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\performance-optimization@M1nVsh_sCSFJRf6-7Ttsj.md",
+    "children": []
+  },
+  {
+    "id": "meplwvmHMtI3Sb_fyodzZ",
+    "old_id": "meplwvmHMtI3Sb_fyodzZ",
+    "type": "subtopic",
+    "label": "Database Migrations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\database-migrations@meplwvmHMtI3Sb_fyodzZ.md",
+    "children": []
+  },
+  {
+    "id": "pfX7PZgDo-QB2E35wTlwT",
+    "old_id": "6bK1pQ7pM3oowXyKNYIty",
+    "type": "label",
+    "label": "Advanced Database Techniques",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-uTMq6j24oe-_6XHfYfxE",
+    "old_id": "-uTMq6j24oe-_6XHfYfxE",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "zsscRQZIq5o0JZir9hlz-",
+    "old_id": "zsscRQZIq5o0JZir9hlz-",
+    "type": "subtopic",
+    "label": "Laravel",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\laravel@zsscRQZIq5o0JZir9hlz-.md",
+    "children": []
+  },
+  {
+    "id": "57VSMVePOr9qUD5x_LNdf",
+    "old_id": "57VSMVePOr9qUD5x_LNdf",
+    "type": "subtopic",
+    "label": "Symfony",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\symfony@57VSMVePOr9qUD5x_LNdf.md",
+    "children": []
+  },
+  {
+    "id": "Qz5SD_EDrAZBMBDyjpTtH",
+    "old_id": "Qz5SD_EDrAZBMBDyjpTtH",
+    "type": "label",
+    "label": "Popular Frameworks",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "yVFDu2aTiEZ4PWMdKdW2P",
+    "old_id": "yVFDu2aTiEZ4PWMdKdW2P",
+    "type": "subtopic",
+    "label": "Composer",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\composer@yVFDu2aTiEZ4PWMdKdW2P.md",
+    "children": []
+  },
+  {
+    "id": "xZf2jjnCVHwYfDH2hs9kR",
+    "old_id": "xZf2jjnCVHwYfDH2hs9kR",
+    "type": "subtopic",
+    "label": "Packagist",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\packagist@xZf2jjnCVHwYfDH2hs9kR.md",
+    "children": []
+  },
+  {
+    "id": "qFiTsf6Es-gwqe6J6bdL1",
+    "old_id": "qFiTsf6Es-gwqe6J6bdL1",
+    "type": "subtopic",
+    "label": "Autoloading",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\autoloading@qFiTsf6Es-gwqe6J6bdL1.md",
+    "children": []
+  },
+  {
+    "id": "CQwvbTXeYxm4yKTnbgQ-P",
+    "old_id": "CQwvbTXeYxm4yKTnbgQ-P",
+    "type": "label",
+    "label": "Package Management",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "CQksvYg9NAk4xhlAsYwlW",
+    "old_id": "Ckno7MXH8tSaegNekAiuL",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Ckno7MXH8tSaegNekAiuL",
+    "old_id": "Ckno7MXH8tSaegNekAiuL",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "NfBKKwG2GGBPppOjoLLBg",
+    "old_id": "NfBKKwG2GGBPppOjoLLBg",
+    "type": "subtopic",
+    "label": "PHPUnit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\phpunit@NfBKKwG2GGBPppOjoLLBg.md",
+    "children": []
+  },
+  {
+    "id": "d6MydchA52HIxfAUjmZui",
+    "old_id": "d6MydchA52HIxfAUjmZui",
+    "type": "subtopic",
+    "label": "Pest",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\pest@d6MydchA52HIxfAUjmZui.md",
+    "children": []
+  },
+  {
+    "id": "X0mFrPsMoaoVxe9FSJ0OQ",
+    "old_id": "X0mFrPsMoaoVxe9FSJ0OQ",
+    "type": "label",
+    "label": "Testing Tools",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "6eWgZVLV479oQzl0fu-Od",
+    "old_id": "PrG_5dyBblXsWYYRcOJMa",
+    "type": "topic",
+    "label": "Style Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\static-analysis@PrG_5dyBblXsWYYRcOJMa.md",
+    "children": [
+      {
+        "id": "PrG_5dyBblXsWYYRcOJMa",
+        "old_id": "PrG_5dyBblXsWYYRcOJMa",
+        "type": "topic",
+        "label": "Static Analysis",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\static-analysis@PrG_5dyBblXsWYYRcOJMa.md",
+        "children": [
+          {
+            "id": "12k71gNfwAcT9K5aLWgbZ",
+            "old_id": "JEa4aT95Uyfa5lp2MSa3r",
+            "type": "subtopic",
+            "label": "PHPStan",
+            "resources": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fSpvZ_4kGFMbFVCWhA8vn",
+    "old_id": "fSpvZ_4kGFMbFVCWhA8vn",
+    "type": "subtopic",
+    "label": "PHPCodeSniffer",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\phpcodesniffer@fSpvZ_4kGFMbFVCWhA8vn.md",
+    "children": []
+  },
+  {
+    "id": "r07k_hT2z2EiIBH4q3F7-",
+    "old_id": "r07k_hT2z2EiIBH4q3F7-",
+    "type": "subtopic",
+    "label": "PHP CS Fixer",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\php-cs-fixer@r07k_hT2z2EiIBH4q3F7-.md",
+    "children": []
+  },
+  {
+    "id": "B45YVzov8X_iOtneiFEqa",
+    "old_id": "B45YVzov8X_iOtneiFEqa",
+    "type": "subtopic",
+    "label": "Phan",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\phan@B45YVzov8X_iOtneiFEqa.md",
+    "children": []
+  },
+  {
+    "id": "T1XD93j6Lkpl88JSmys9b",
+    "old_id": "T1XD93j6Lkpl88JSmys9b",
+    "type": "subtopic",
+    "label": "Psalm",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\psalm@T1XD93j6Lkpl88JSmys9b.md",
+    "children": []
+  },
+  {
+    "id": "_3kirB7iU8ZHdwu3C6X3T",
+    "old_id": "_3kirB7iU8ZHdwu3C6X3T",
+    "type": "label",
+    "label": "External Integrations",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "KC6D81-T-FwQc7Osw1rlY",
+    "old_id": "KC6D81-T-FwQc7Osw1rlY",
+    "type": "subtopic",
+    "label": "cURL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\curl@KC6D81-T-FwQc7Osw1rlY.md",
+    "children": []
+  },
+  {
+    "id": "_Al4NXKVQAnk8OikwvXCL",
+    "old_id": "_Al4NXKVQAnk8OikwvXCL",
+    "type": "subtopic",
+    "label": "Guzzle",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\guzzle@_Al4NXKVQAnk8OikwvXCL.md",
+    "children": []
+  },
+  {
+    "id": "SD9k16UlVve9WtNMDA5Za",
+    "old_id": "SD9k16UlVve9WtNMDA5Za",
+    "type": "topic",
+    "label": "PHP-FIG",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\php-fig@SD9k16UlVve9WtNMDA5Za.md",
+    "children": [
+      {
+        "id": "3tONibbRgK7HCwGTE2Gqw",
+        "old_id": "JWFDtOx5U7A6qD1EoNcEz",
+        "type": "subtopic",
+        "label": "PSR Standards",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "wIaG8FvXY1l89Vmc2Rj-e",
+    "old_id": "wIaG8FvXY1l89Vmc2Rj-e",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "YCo5bnHpjGFfH9xCAgRJh",
+    "old_id": "wIaG8FvXY1l89Vmc2Rj-e",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "z1IO3hBgTht06oJutACrV",
+    "old_id": "z1IO3hBgTht06oJutACrV",
+    "type": "label",
+    "label": "Performance Optimization",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "_Dh78x_tPLqZweg--qZFQ",
+    "old_id": "_Dh78x_tPLqZweg--qZFQ",
+    "type": "subtopic",
+    "label": "Profiling Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\profiling-techniques@_Dh78x_tPLqZweg--qZFQ.md",
+    "children": []
+  },
+  {
+    "id": "Av-BMa57RvrLlAXLffOH0",
+    "old_id": "Av-BMa57RvrLlAXLffOH0",
+    "type": "subtopic",
+    "label": "Caching Strategies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\caching-strategies@Av-BMa57RvrLlAXLffOH0.md",
+    "children": []
+  },
+  {
+    "id": "bt7dK2PcOZ72B9HXPyMwL",
+    "old_id": "bt7dK2PcOZ72B9HXPyMwL",
+    "type": "subtopic",
+    "label": "Memory Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\memory-management@bt7dK2PcOZ72B9HXPyMwL.md",
+    "children": []
+  },
+  {
+    "id": "VpwwF8j5ZtXVSbzNfE7Sx",
+    "old_id": "VpwwF8j5ZtXVSbzNfE7Sx",
+    "type": "subtopic",
+    "label": "Configuration Tuning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\configuration-tuning@VpwwF8j5ZtXVSbzNfE7Sx.md",
+    "children": []
+  },
+  {
+    "id": "NieqZd1juaNYoZOrB7e31",
+    "old_id": "NieqZd1juaNYoZOrB7e31",
+    "type": "subtopic",
+    "label": "Opcode Caching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\opcode-caching@NieqZd1juaNYoZOrB7e31.md",
+    "children": []
+  },
+  {
+    "id": "VhyYNGhOdKKrz_-uTkrjD",
+    "old_id": "VhyYNGhOdKKrz_-uTkrjD",
+    "type": "subtopic",
+    "label": "Executing System Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\executing-system-commands@VhyYNGhOdKKrz_-uTkrjD.md",
+    "children": []
+  },
+  {
+    "id": "NTKUMgsKGYISIyhgOJPQn",
+    "old_id": "NTKUMgsKGYISIyhgOJPQn",
+    "type": "subtopic",
+    "label": "Process Control",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\process-control@NTKUMgsKGYISIyhgOJPQn.md",
+    "children": []
+  },
+  {
+    "id": "fitjnLYKLHJ2P5G7JAvzm",
+    "old_id": "fitjnLYKLHJ2P5G7JAvzm",
+    "type": "subtopic",
+    "label": "Environment Variables",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\environment-variables@fitjnLYKLHJ2P5G7JAvzm.md",
+    "children": []
+  },
+  {
+    "id": "DTaAZaU1CwzW7esoDhj85",
+    "old_id": "DTaAZaU1CwzW7esoDhj85",
+    "type": "subtopic",
+    "label": "Configuration Files",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\configuration-files@DTaAZaU1CwzW7esoDhj85.md",
+    "children": []
+  },
+  {
+    "id": "qp5Xi12c0qcSzTanzJq0Z",
+    "old_id": "qp5Xi12c0qcSzTanzJq0Z",
+    "type": "label",
+    "label": "System Interactions",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "VqqfBbME7nkMk7SeK4kxQ",
+    "old_id": "VqqfBbME7nkMk7SeK4kxQ",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "bnNgbziFgsgr0HtGkVTYW",
+    "old_id": "xz_XU3RNTleqzeG8jiL1j",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "KcavBCDfV-jrLoq33oGd5",
+    "old_id": "KcavBCDfV-jrLoq33oGd5",
+    "type": "label",
+    "label": "Debugging Tools",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "lFoHoMRywCWa056ii5cKQ",
+    "old_id": "lFoHoMRywCWa056ii5cKQ",
+    "type": "subtopic",
+    "label": "Xdebug",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\xdebug@lFoHoMRywCWa056ii5cKQ.md",
+    "children": []
+  },
+  {
+    "id": "KpQb5Zh3GUcbYUyXHvyu2",
+    "old_id": "KpQb5Zh3GUcbYUyXHvyu2",
+    "type": "subtopic",
+    "label": "Zend Debugger",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\zend-debugger@KpQb5Zh3GUcbYUyXHvyu2.md",
+    "children": []
+  },
+  {
+    "id": "0sSCn2V5p-m5zuE8ubCx_",
+    "old_id": "33xDnONCKXab3GnA_QgR0",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "nwsvebWwCbfmy2ks1q6Kh",
+    "old_id": "KcavBCDfV-jrLoq33oGd5",
+    "type": "label",
+    "label": "Web Servers",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "KMQqePqAjQ-ReDwHqeofx",
+    "old_id": "lFoHoMRywCWa056ii5cKQ",
+    "type": "subtopic",
+    "label": "Apache",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\xdebug@lFoHoMRywCWa056ii5cKQ.md",
+    "children": []
+  },
+  {
+    "id": "aspZpACHEKOsi_Er5FYPY",
+    "old_id": "KpQb5Zh3GUcbYUyXHvyu2",
+    "type": "subtopic",
+    "label": "Nginx",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\zend-debugger@KpQb5Zh3GUcbYUyXHvyu2.md",
+    "children": []
+  },
+  {
+    "id": "xz_XU3RNTleqzeG8jiL1j",
+    "old_id": "VqqfBbME7nkMk7SeK4kxQ",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "7uTIanigHQopkfWfPnDzb",
+    "old_id": "WobnwQysg22KeqQUfFq3c",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "AoGS-5MSkp8gtJFQVPSBE",
+    "old_id": "NieqZd1juaNYoZOrB7e31",
+    "type": "subtopic",
+    "label": "PHP-FPM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\php\\content\\opcode-caching@NieqZd1juaNYoZOrB7e31.md",
+    "children": []
+  },
+  {
+    "id": "5GM8QPK9cN34oEYoGshHn",
+    "old_id": "5GM8QPK9cN34oEYoGshHn",
+    "type": "button",
+    "label": "Visit DevOps Beginner Roadmap",
+    "resources": [],
+    "children": []
+  }
+]

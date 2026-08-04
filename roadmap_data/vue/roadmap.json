@@ -1,0 +1,1050 @@
+{
+  "slug": "vue",
+  "title": "Vue",
+  "nodes": [
+    {
+      "id": "sg9IjWWorT2lLEnUek-q5",
+      "old_id": "sg9IjWWorT2lLEnUek-q5",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "ua7DIYStv0V-G9f0vWE_W",
+      "old_id": "ua7DIYStv0V-G9f0vWE_W",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "aIYgUc_hEIZx_2P3OhCNh",
+      "old_id": "aIYgUc_hEIZx_2P3OhCNh",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+      "type": "title",
+      "label": "Vue",
+      "resources": []
+    },
+    {
+      "id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "ZSrQoNGKiR484uALMWO9F",
+      "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+      "type": "button",
+      "label": "TypeScript Roadmap",
+      "resources": []
+    },
+    {
+      "id": "P5IZjP0g1_fnvHy3YTR4q",
+      "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+      "type": "button",
+      "label": "Frontend Roadmap",
+      "resources": []
+    },
+    {
+      "id": "0EevuyZiyty3X3Jzpjl4y",
+      "old_id": "tU4Umtnfu01t9gLlnlK6b",
+      "type": "topic",
+      "label": "Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\conditional-rendering@tU4Umtnfu01t9gLlnlK6b.md"
+    },
+    {
+      "id": "XDvH2t3AJGevS17uM8TO6",
+      "old_id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "type": "button",
+      "label": "JavaScript Roadmap",
+      "resources": []
+    },
+    {
+      "id": "y9ToYDix-koRbR6FLydFw",
+      "old_id": "y9ToYDix-koRbR6FLydFw",
+      "type": "subtopic",
+      "label": "create-vue",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\create-vue@y9ToYDix-koRbR6FLydFw.md"
+    },
+    {
+      "id": "lsC4XcjZoMODK_3b_vilY",
+      "old_id": "lsC4XcjZoMODK_3b_vilY",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "VNBRlJkdH6NOOzGXUrbZK",
+      "old_id": "VNBRlJkdH6NOOzGXUrbZK",
+      "type": "subtopic",
+      "label": "Single File Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\single-file-components@VNBRlJkdH6NOOzGXUrbZK.md"
+    },
+    {
+      "id": "2HhKifjuDcP3eKpanRMEQ",
+      "old_id": "2HhKifjuDcP3eKpanRMEQ",
+      "type": "subtopic",
+      "label": "Component Registration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\component-registration@2HhKifjuDcP3eKpanRMEQ.md"
+    },
+    {
+      "id": "raEfI4GLMW2fOucka07VE",
+      "old_id": "raEfI4GLMW2fOucka07VE",
+      "type": "subtopic",
+      "label": "Props",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\props@raEfI4GLMW2fOucka07VE.md"
+    },
+    {
+      "id": "X0J3ogH3W8EQe68tLfcGL",
+      "old_id": "X0J3ogH3W8EQe68tLfcGL",
+      "type": "subtopic",
+      "label": "Events",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\events@X0J3ogH3W8EQe68tLfcGL.md"
+    },
+    {
+      "id": "swpyZFUO4UO3mW8Bvf1Te",
+      "old_id": "swpyZFUO4UO3mW8Bvf1Te",
+      "type": "subtopic",
+      "label": "v-model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-model@swpyZFUO4UO3mW8Bvf1Te.md"
+    },
+    {
+      "id": "4S5fVFsFDMbq05ld7n0sF",
+      "old_id": "4S5fVFsFDMbq05ld7n0sF",
+      "type": "subtopic",
+      "label": "Attribute Inheritance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\attribute-inheritance@4S5fVFsFDMbq05ld7n0sF.md"
+    },
+    {
+      "id": "VlcYnTHW5d4J_zLYupvu5",
+      "old_id": "tU4Umtnfu01t9gLlnlK6b",
+      "type": "topic",
+      "label": "Templates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\conditional-rendering@tU4Umtnfu01t9gLlnlK6b.md"
+    },
+    {
+      "id": "CGdw3PqLRb9OqFU5SqmE1",
+      "old_id": "tU4Umtnfu01t9gLlnlK6b",
+      "type": "topic",
+      "label": "Directives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\conditional-rendering@tU4Umtnfu01t9gLlnlK6b.md"
+    },
+    {
+      "id": "OpJ2NMKCGXQezpzURE45R",
+      "old_id": "Bx1Atxcf15AEaA1BiSIc6",
+      "type": "topic",
+      "label": "API Styles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\computed-properties@Bx1Atxcf15AEaA1BiSIc6.md"
+    },
+    {
+      "id": "PPUU3Rb73aCpT4zcyvlJE",
+      "old_id": "PPUU3Rb73aCpT4zcyvlJE",
+      "type": "subtopic",
+      "label": "Options API",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\options-api@PPUU3Rb73aCpT4zcyvlJE.md"
+    },
+    {
+      "id": "a0qwdQTunxEjQ9A5wpF-q",
+      "old_id": "a0qwdQTunxEjQ9A5wpF-q",
+      "type": "subtopic",
+      "label": "Composition API",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\composition-api@a0qwdQTunxEjQ9A5wpF-q.md"
+    },
+    {
+      "id": "qRm08uDZW-D8QDc-9sPX8",
+      "old_id": "tU4Umtnfu01t9gLlnlK6b",
+      "type": "topic",
+      "label": "App Configurations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\conditional-rendering@tU4Umtnfu01t9gLlnlK6b.md"
+    },
+    {
+      "id": "ftqDoGpwqqWQnu4NQSsMk",
+      "old_id": "dxwKfBxd5KYVkfEPMdHp-",
+      "type": "subtopic",
+      "label": "Rendering Lists",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\debugging@dxwKfBxd5KYVkfEPMdHp-.md"
+    },
+    {
+      "id": "1oIt_5OK-t2WaCgaYt9A8",
+      "old_id": "f7N4pAp_jBlT8_8owAcbG",
+      "type": "subtopic",
+      "label": "Error / Warn Handler",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\performance@f7N4pAp_jBlT8_8owAcbG.md"
+    },
+    {
+      "id": "gihxGgt177BK_EYsAfpx9",
+      "old_id": "f7N4pAp_jBlT8_8owAcbG",
+      "type": "subtopic",
+      "label": "Global Properties",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\performance@f7N4pAp_jBlT8_8owAcbG.md"
+    },
+    {
+      "id": "f7N4pAp_jBlT8_8owAcbG",
+      "old_id": "f7N4pAp_jBlT8_8owAcbG",
+      "type": "subtopic",
+      "label": "Performance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\performance@f7N4pAp_jBlT8_8owAcbG.md"
+    },
+    {
+      "id": "tU4Umtnfu01t9gLlnlK6b",
+      "old_id": "tU4Umtnfu01t9gLlnlK6b",
+      "type": "subtopic",
+      "label": "Conditional Rendering",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\conditional-rendering@tU4Umtnfu01t9gLlnlK6b.md"
+    },
+    {
+      "id": "NCIzs3jbQTv1xXhAaGfZN",
+      "old_id": "NCIzs3jbQTv1xXhAaGfZN",
+      "type": "subtopic",
+      "label": "v-text",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-text@NCIzs3jbQTv1xXhAaGfZN.md"
+    },
+    {
+      "id": "bZxtIBeIfeUcR32LZWrPW",
+      "old_id": "bZxtIBeIfeUcR32LZWrPW",
+      "type": "subtopic",
+      "label": "v-html",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-html@bZxtIBeIfeUcR32LZWrPW.md"
+    },
+    {
+      "id": "_TlbGTKFCMO0wdLbC6xHX",
+      "old_id": "Xv5oqDolAOVnNLXDQbeSc",
+      "type": "subtopic",
+      "label": "v-show",
+      "resources": []
+    },
+    {
+      "id": "xHj3W9Ig3MVuVlGyXchaP",
+      "old_id": "xHj3W9Ig3MVuVlGyXchaP",
+      "type": "subtopic",
+      "label": "v-if",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-if@xHj3W9Ig3MVuVlGyXchaP.md"
+    },
+    {
+      "id": "0CtAZQcFJexMiJfZ-mofv",
+      "old_id": "0CtAZQcFJexMiJfZ-mofv",
+      "type": "subtopic",
+      "label": "v-else",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-else@0CtAZQcFJexMiJfZ-mofv.md"
+    },
+    {
+      "id": "a9caVhderJaVo0v14w8WB",
+      "old_id": "a9caVhderJaVo0v14w8WB",
+      "type": "subtopic",
+      "label": "v-else-if",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-else-if@a9caVhderJaVo0v14w8WB.md"
+    },
+    {
+      "id": "3ftwRjQ9e1-qDT9BV53zr",
+      "old_id": "3ftwRjQ9e1-qDT9BV53zr",
+      "type": "subtopic",
+      "label": "v-for",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-for@3ftwRjQ9e1-qDT9BV53zr.md"
+    },
+    {
+      "id": "hVuRmhXVP65IPtuHTORjJ",
+      "old_id": "hVuRmhXVP65IPtuHTORjJ",
+      "type": "subtopic",
+      "label": "v-on",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-on@hVuRmhXVP65IPtuHTORjJ.md"
+    },
+    {
+      "id": "cuM9q9vYy8JpZPGeBffd1",
+      "old_id": "cuM9q9vYy8JpZPGeBffd1",
+      "type": "subtopic",
+      "label": "v-bind",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-bind@cuM9q9vYy8JpZPGeBffd1.md"
+    },
+    {
+      "id": "cxu2Wbt306SxM4JKQQqnL",
+      "old_id": "cxu2Wbt306SxM4JKQQqnL",
+      "type": "subtopic",
+      "label": "v-model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-model@cxu2Wbt306SxM4JKQQqnL.md"
+    },
+    {
+      "id": "m9pQ3daR3KiwRATcQysHA",
+      "old_id": "RrSekP8Ub01coegMwLP6a",
+      "type": "subtopic",
+      "label": "v-slot",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-cloak@RrSekP8Ub01coegMwLP6a.md"
+    },
+    {
+      "id": "T4gBws699f0L6_2KitOmO",
+      "old_id": "jFgWJnXJlysaz8pDkUKZf",
+      "type": "label",
+      "label": "Interpolation",
+      "resources": []
+    },
+    {
+      "id": "0bGhocvW0638QjfmkB1H1",
+      "old_id": "jFgWJnXJlysaz8pDkUKZf",
+      "type": "label",
+      "label": "Conditionals",
+      "resources": []
+    },
+    {
+      "id": "qS8aEgb48igiqQ_hDEm-b",
+      "old_id": "jFgWJnXJlysaz8pDkUKZf",
+      "type": "label",
+      "label": "Iterative",
+      "resources": []
+    },
+    {
+      "id": "5k9CrbzhNy9iiS6ez2UE6",
+      "old_id": "mlsrhioiEkqnRIL6O3hNa",
+      "type": "subtopic",
+      "label": "v-once",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-pre@mlsrhioiEkqnRIL6O3hNa.md"
+    },
+    {
+      "id": "mlsrhioiEkqnRIL6O3hNa",
+      "old_id": "cuM9q9vYy8JpZPGeBffd1",
+      "type": "subtopic",
+      "label": "v-pre",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-bind@cuM9q9vYy8JpZPGeBffd1.md"
+    },
+    {
+      "id": "MZ38pZ5MykwdjjWdpd6bQ",
+      "old_id": "jFgWJnXJlysaz8pDkUKZf",
+      "type": "label",
+      "label": "Event Binding",
+      "resources": []
+    },
+    {
+      "id": "jFgWJnXJlysaz8pDkUKZf",
+      "old_id": "jFgWJnXJlysaz8pDkUKZf",
+      "type": "label",
+      "label": "Templates",
+      "resources": []
+    },
+    {
+      "id": "RrSekP8Ub01coegMwLP6a",
+      "old_id": "RrSekP8Ub01coegMwLP6a",
+      "type": "subtopic",
+      "label": "v-cloak",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-cloak@RrSekP8Ub01coegMwLP6a.md"
+    },
+    {
+      "id": "RRPhAxIqvAcjZIcLe_N8-",
+      "old_id": "dxwKfBxd5KYVkfEPMdHp-",
+      "type": "subtopic",
+      "label": "Optimizing Renders",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\debugging@dxwKfBxd5KYVkfEPMdHp-.md"
+    },
+    {
+      "id": "dxwKfBxd5KYVkfEPMdHp-",
+      "old_id": "tU4Umtnfu01t9gLlnlK6b",
+      "type": "subtopic",
+      "label": "Debugging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\conditional-rendering@tU4Umtnfu01t9gLlnlK6b.md"
+    },
+    {
+      "id": "WiGG9_4G5y-AVA9byw6_g",
+      "old_id": "Bx1Atxcf15AEaA1BiSIc6",
+      "type": "topic",
+      "label": "Lifecycle Hooks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\computed-properties@Bx1Atxcf15AEaA1BiSIc6.md"
+    },
+    {
+      "id": "PQu4TyJOfCEaafW5th0e4",
+      "old_id": "Bx1Atxcf15AEaA1BiSIc6",
+      "type": "topic",
+      "label": "Forms Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\computed-properties@Bx1Atxcf15AEaA1BiSIc6.md"
+    },
+    {
+      "id": "NfB3HlZ3uwYK5xszvV50b",
+      "old_id": "NfB3HlZ3uwYK5xszvV50b",
+      "type": "subtopic",
+      "label": "Input Bindings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\input-bindings@NfB3HlZ3uwYK5xszvV50b.md"
+    },
+    {
+      "id": "gMFndBcrTC6FtGryqN6dX",
+      "old_id": "dSfrFLr8wKkLAOMJwtCTr",
+      "type": "subtopic",
+      "label": "v-model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\modifiers@dSfrFLr8wKkLAOMJwtCTr.md"
+    },
+    {
+      "id": "dSfrFLr8wKkLAOMJwtCTr",
+      "old_id": "dSfrFLr8wKkLAOMJwtCTr",
+      "type": "subtopic",
+      "label": "Modifiers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\modifiers@dSfrFLr8wKkLAOMJwtCTr.md"
+    },
+    {
+      "id": "4p6Gh2fMPA8hls_mWa5HR",
+      "old_id": "Bx1Atxcf15AEaA1BiSIc6",
+      "type": "topic",
+      "label": "Event Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\computed-properties@Bx1Atxcf15AEaA1BiSIc6.md"
+    },
+    {
+      "id": "b7iXwtUnELg_ShbCyTrNA",
+      "old_id": "b7iXwtUnELg_ShbCyTrNA",
+      "type": "subtopic",
+      "label": "Binding Events",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\binding-events@b7iXwtUnELg_ShbCyTrNA.md"
+    },
+    {
+      "id": "gVahaZNPktQuqdukFEbQH",
+      "old_id": "gVahaZNPktQuqdukFEbQH",
+      "type": "subtopic",
+      "label": "Inline / Method Handlers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\inline--method-handlers@gVahaZNPktQuqdukFEbQH.md"
+    },
+    {
+      "id": "Aaf7eA-5sbAD5Cs1MbdTQ",
+      "old_id": "Aaf7eA-5sbAD5Cs1MbdTQ",
+      "type": "subtopic",
+      "label": "Event Modifiers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\event-modifiers@Aaf7eA-5sbAD5Cs1MbdTQ.md"
+    },
+    {
+      "id": "BXw36wqhmi3gExXwFCIBd",
+      "old_id": "BXw36wqhmi3gExXwFCIBd",
+      "type": "subtopic",
+      "label": "Key Modifiers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\key-modifiers@BXw36wqhmi3gExXwFCIBd.md"
+    },
+    {
+      "id": "x0wl2Qz2LTP4Q2tThKAt3",
+      "old_id": "x0wl2Qz2LTP4Q2tThKAt3",
+      "type": "subtopic",
+      "label": "Mouse Button Modifiers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\mouse-button-modifiers@x0wl2Qz2LTP4Q2tThKAt3.md"
+    },
+    {
+      "id": "Bx1Atxcf15AEaA1BiSIc6",
+      "old_id": "1vHiAZliR19a2UtT3Ps0W",
+      "type": "topic",
+      "label": "Computed Properties",
+      "resources": []
+    },
+    {
+      "id": "Re7tv1U0LxYqE5ShFxQSf",
+      "old_id": "Re7tv1U0LxYqE5ShFxQSf",
+      "type": "subtopic",
+      "label": "Async Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\async-components@Re7tv1U0LxYqE5ShFxQSf.md"
+    },
+    {
+      "id": "SGsd08ZTu4H76s8cfbCKe",
+      "old_id": "SGsd08ZTu4H76s8cfbCKe",
+      "type": "subtopic",
+      "label": "Teleport Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\teleport-components@SGsd08ZTu4H76s8cfbCKe.md"
+    },
+    {
+      "id": "xwVbhOpQMPPB4G-lhro0B",
+      "old_id": "xwVbhOpQMPPB4G-lhro0B",
+      "type": "subtopic",
+      "label": "Provide / Inject",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\provide--inject@xwVbhOpQMPPB4G-lhro0B.md"
+    },
+    {
+      "id": "br1r8KIf5KInY5mk2xhA6",
+      "old_id": "br1r8KIf5KInY5mk2xhA6",
+      "type": "subtopic",
+      "label": "Custom Directives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\custom-directives@br1r8KIf5KInY5mk2xhA6.md"
+    },
+    {
+      "id": "_Nc8ivQrdpKuf8MwaV-K7",
+      "old_id": "_Nc8ivQrdpKuf8MwaV-K7",
+      "type": "subtopic",
+      "label": "Plugins",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\plugins@_Nc8ivQrdpKuf8MwaV-K7.md"
+    },
+    {
+      "id": "kdlXhbw_a81xdZtyK-pVa",
+      "old_id": "kdlXhbw_a81xdZtyK-pVa",
+      "type": "subtopic",
+      "label": "Watchers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\watchers@kdlXhbw_a81xdZtyK-pVa.md"
+    },
+    {
+      "id": "jkX66izOHVWqtyd6KZ0K6",
+      "old_id": "jkX66izOHVWqtyd6KZ0K6",
+      "type": "subtopic",
+      "label": "Slots",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\slots@jkX66izOHVWqtyd6KZ0K6.md"
+    },
+    {
+      "id": "w72iWpfaV9zTACCxSL4zI",
+      "old_id": "w72iWpfaV9zTACCxSL4zI",
+      "type": "label",
+      "label": "Animations",
+      "resources": []
+    },
+    {
+      "id": "SWpWg5J5N9ZfY_DaIigA5",
+      "old_id": "SWpWg5J5N9ZfY_DaIigA5",
+      "type": "subtopic",
+      "label": "Transition",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\transition@SWpWg5J5N9ZfY_DaIigA5.md"
+    },
+    {
+      "id": "HjzOYjS-7ZEBvElRJ8uN2",
+      "old_id": "HjzOYjS-7ZEBvElRJ8uN2",
+      "type": "subtopic",
+      "label": "Transition Group",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\transition-group@HjzOYjS-7ZEBvElRJ8uN2.md"
+    },
+    {
+      "id": "Z9szBPFXfqK_KsvzkR-rf",
+      "old_id": "Z9szBPFXfqK_KsvzkR-rf",
+      "type": "subtopic",
+      "label": "VueUse",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vueuse@Z9szBPFXfqK_KsvzkR-rf.md"
+    },
+    {
+      "id": "ixRG0xfEp4BmyvCR0mtoR",
+      "old_id": "ixRG0xfEp4BmyvCR0mtoR",
+      "type": "topic",
+      "label": "Routing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\routing@ixRG0xfEp4BmyvCR0mtoR.md"
+    },
+    {
+      "id": "COxkmvqe9jFtV9WtGjfbh",
+      "old_id": "COxkmvqe9jFtV9WtGjfbh",
+      "type": "subtopic",
+      "label": "Vue Router",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vue-router@COxkmvqe9jFtV9WtGjfbh.md"
+    },
+    {
+      "id": "izGdctxP_OvQNvaMwVIrh",
+      "old_id": "1nmGJFENMmI1WXAeUHeCt",
+      "type": "topic",
+      "label": "Forms",
+      "resources": []
+    },
+    {
+      "id": "BXz1utB_2eYzFvzSbFKx0",
+      "old_id": "BXz1utB_2eYzFvzSbFKx0",
+      "type": "subtopic",
+      "label": "FormKit",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\formkit@BXz1utB_2eYzFvzSbFKx0.md"
+    },
+    {
+      "id": "_Fmp8_z4SKWfKUE80_fqb",
+      "old_id": "_Fmp8_z4SKWfKUE80_fqb",
+      "type": "subtopic",
+      "label": "Vee Validate",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vee-validate@_Fmp8_z4SKWfKUE80_fqb.md"
+    },
+    {
+      "id": "6U_CAhAY_jyj_4Mzj_HL_",
+      "old_id": "6U_CAhAY_jyj_4Mzj_HL_",
+      "type": "subtopic",
+      "label": "Vuelidate",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vuelidate@6U_CAhAY_jyj_4Mzj_HL_.md"
+    },
+    {
+      "id": "Cm6mqXYp-G4mGfPxuU73_",
+      "old_id": "1nmGJFENMmI1WXAeUHeCt",
+      "type": "topic",
+      "label": "SSR",
+      "resources": []
+    },
+    {
+      "id": "822tGnM9jOkYh9aNlosPr",
+      "old_id": "1nmGJFENMmI1WXAeUHeCt",
+      "type": "topic",
+      "label": "SSG",
+      "resources": []
+    },
+    {
+      "id": "f2udJnT2q5eDmBZ_OKtmi",
+      "old_id": "_46COO0FGaFuCYwqaRRWy",
+      "type": "subtopic",
+      "label": "Quasar",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vitepress@_46COO0FGaFuCYwqaRRWy.md"
+    },
+    {
+      "id": "8xZxTLYq5m5_nkGh2lfUt",
+      "old_id": "_46COO0FGaFuCYwqaRRWy",
+      "type": "subtopic",
+      "label": "Nuxt.js",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vitepress@_46COO0FGaFuCYwqaRRWy.md"
+    },
+    {
+      "id": "_46COO0FGaFuCYwqaRRWy",
+      "old_id": "_46COO0FGaFuCYwqaRRWy",
+      "type": "subtopic",
+      "label": "VitePress",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vitepress@_46COO0FGaFuCYwqaRRWy.md"
+    },
+    {
+      "id": "LjEAviRMtPLwUUlfcof1h",
+      "old_id": "LjEAviRMtPLwUUlfcof1h",
+      "type": "subtopic",
+      "label": "Vitest",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vitest@LjEAviRMtPLwUUlfcof1h.md"
+    },
+    {
+      "id": "p5bUvgr_3H-A55ZnEExk8",
+      "old_id": "p5bUvgr_3H-A55ZnEExk8",
+      "type": "subtopic",
+      "label": "Vue Testing Library",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vue-testing-library@p5bUvgr_3H-A55ZnEExk8.md"
+    },
+    {
+      "id": "JbMKUVDMUygjXXmhndHVs",
+      "old_id": "JbMKUVDMUygjXXmhndHVs",
+      "type": "subtopic",
+      "label": "Cypress",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\cypress@JbMKUVDMUygjXXmhndHVs.md"
+    },
+    {
+      "id": "zqcE3bTnymdepV-Yc8qBl",
+      "old_id": "zqcE3bTnymdepV-Yc8qBl",
+      "type": "subtopic",
+      "label": "Playwright",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\playwright@zqcE3bTnymdepV-Yc8qBl.md"
+    },
+    {
+      "id": "q1PayNkcJHU43QCdChAXt",
+      "old_id": "sg9IjWWorT2lLEnUek-q5",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "TkzlmJ85O-e-KfMhTBwry",
+      "old_id": "LjEAviRMtPLwUUlfcof1h",
+      "type": "subtopic",
+      "label": "Tailwind CSS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vitest@LjEAviRMtPLwUUlfcof1h.md"
+    },
+    {
+      "id": "VNclt_QQthWb2u4xWI_uY",
+      "old_id": "p5bUvgr_3H-A55ZnEExk8",
+      "type": "subtopic",
+      "label": "Vuetify",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vue-testing-library@p5bUvgr_3H-A55ZnEExk8.md"
+    },
+    {
+      "id": "NMIh8rqLM5P-Uk65uHATn",
+      "old_id": "JbMKUVDMUygjXXmhndHVs",
+      "type": "subtopic",
+      "label": "Element UI",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\cypress@JbMKUVDMUygjXXmhndHVs.md"
+    },
+    {
+      "id": "uNLdPeShyAMpc-_JKMsnb",
+      "old_id": "uNLdPeShyAMpc-_JKMsnb",
+      "type": "label",
+      "label": "Testing",
+      "resources": []
+    },
+    {
+      "id": "5BmKlchM8LbBo2xFOP1wk",
+      "old_id": "5BmKlchM8LbBo2xFOP1wk",
+      "type": "label",
+      "label": "Styling",
+      "resources": []
+    },
+    {
+      "id": "9AwVtwIv6TfP9F4ulz2F0",
+      "old_id": "3RwIO-S8-xOYKNmfwk0pf",
+      "type": "topic",
+      "label": "State Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\mobile-apps@3RwIO-S8-xOYKNmfwk0pf.md"
+    },
+    {
+      "id": "MsPIwtv5b_mp567YlLkEU",
+      "old_id": "MsPIwtv5b_mp567YlLkEU",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "NIvjyhtTFC1gomtGQT_2t",
+      "old_id": "NIvjyhtTFC1gomtGQT_2t",
+      "type": "subtopic",
+      "label": "Pinia",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\pinia@NIvjyhtTFC1gomtGQT_2t.md"
+    },
+    {
+      "id": "ZLlz0Azfze-8k3z8HnVvE",
+      "old_id": "3RwIO-S8-xOYKNmfwk0pf",
+      "type": "topic",
+      "label": "API Calls",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\mobile-apps@3RwIO-S8-xOYKNmfwk0pf.md"
+    },
+    {
+      "id": "l2Rl6OQbL7kYvPlpYCZ0Z",
+      "old_id": "l2Rl6OQbL7kYvPlpYCZ0Z",
+      "type": "subtopic",
+      "label": "Apollo",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\apollo@l2Rl6OQbL7kYvPlpYCZ0Z.md"
+    },
+    {
+      "id": "n5IlN-wv4k0r16CvhoSpD",
+      "old_id": "n5IlN-wv4k0r16CvhoSpD",
+      "type": "subtopic",
+      "label": "Axios",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\axios@n5IlN-wv4k0r16CvhoSpD.md"
+    },
+    {
+      "id": "ufnt87swK61kxShLuVc1-",
+      "old_id": "ufnt87swK61kxShLuVc1-",
+      "type": "subtopic",
+      "label": "fetch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\fetch@ufnt87swK61kxShLuVc1-.md"
+    },
+    {
+      "id": "WSq_cDKQPZa_qmQlIdGXg",
+      "old_id": "WSq_cDKQPZa_qmQlIdGXg",
+      "type": "subtopic",
+      "label": "Tanstack Query",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\tanstack-query@WSq_cDKQPZa_qmQlIdGXg.md"
+    },
+    {
+      "id": "hqLe_qkIsVAisPw31NroU",
+      "old_id": "7ZP7XMaMxk1iOs3rgnuJy",
+      "type": "label",
+      "label": "GraphQL",
+      "resources": []
+    },
+    {
+      "id": "7ZP7XMaMxk1iOs3rgnuJy",
+      "old_id": "7ZP7XMaMxk1iOs3rgnuJy",
+      "type": "label",
+      "label": "HTTP",
+      "resources": []
+    },
+    {
+      "id": "3RwIO-S8-xOYKNmfwk0pf",
+      "old_id": "3RwIO-S8-xOYKNmfwk0pf",
+      "type": "topic",
+      "label": "Mobile Apps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\mobile-apps@3RwIO-S8-xOYKNmfwk0pf.md"
+    },
+    {
+      "id": "IsNzCdS05tbAK0D1zz0Sf",
+      "old_id": "IsNzCdS05tbAK0D1zz0Sf",
+      "type": "subtopic",
+      "label": "Capacitor",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\capacitor@IsNzCdS05tbAK0D1zz0Sf.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "XDvH2t3AJGevS17uM8TO6"
+    },
+    {
+      "source": "XDvH2t3AJGevS17uM8TO6",
+      "target": "kPzzrnb2DRHlJ7piaywDe"
+    },
+    {
+      "source": "kPzzrnb2DRHlJ7piaywDe",
+      "target": "y9ToYDix-koRbR6FLydFw"
+    },
+    {
+      "source": "kPzzrnb2DRHlJ7piaywDe",
+      "target": "0EevuyZiyty3X3Jzpjl4y"
+    },
+    {
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "2HhKifjuDcP3eKpanRMEQ"
+    },
+    {
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "VNBRlJkdH6NOOzGXUrbZK"
+    },
+    {
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "swpyZFUO4UO3mW8Bvf1Te"
+    },
+    {
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "4S5fVFsFDMbq05ld7n0sF"
+    },
+    {
+      "source": "0EevuyZiyty3X3Jzpjl4y",
+      "target": "VlcYnTHW5d4J_zLYupvu5"
+    },
+    {
+      "source": "VlcYnTHW5d4J_zLYupvu5",
+      "target": "CGdw3PqLRb9OqFU5SqmE1"
+    },
+    {
+      "source": "CGdw3PqLRb9OqFU5SqmE1",
+      "target": "aIYgUc_hEIZx_2P3OhCNh"
+    },
+    {
+      "source": "CGdw3PqLRb9OqFU5SqmE1",
+      "target": "_dQbXoFTJHaOARTWDUeHY"
+    },
+    {
+      "source": "_dQbXoFTJHaOARTWDUeHY",
+      "target": "tU4Umtnfu01t9gLlnlK6b"
+    },
+    {
+      "source": "_dQbXoFTJHaOARTWDUeHY",
+      "target": "qRm08uDZW-D8QDc-9sPX8"
+    },
+    {
+      "source": "qRm08uDZW-D8QDc-9sPX8",
+      "target": "1oIt_5OK-t2WaCgaYt9A8"
+    },
+    {
+      "source": "qRm08uDZW-D8QDc-9sPX8",
+      "target": "gihxGgt177BK_EYsAfpx9"
+    },
+    {
+      "source": "qRm08uDZW-D8QDc-9sPX8",
+      "target": "f7N4pAp_jBlT8_8owAcbG"
+    },
+    {
+      "source": "OpJ2NMKCGXQezpzURE45R",
+      "target": "PPUU3Rb73aCpT4zcyvlJE"
+    },
+    {
+      "source": "OpJ2NMKCGXQezpzURE45R",
+      "target": "a0qwdQTunxEjQ9A5wpF-q"
+    },
+    {
+      "source": "WiGG9_4G5y-AVA9byw6_g",
+      "target": "PQu4TyJOfCEaafW5th0e4"
+    },
+    {
+      "source": "PQu4TyJOfCEaafW5th0e4",
+      "target": "NfB3HlZ3uwYK5xszvV50b"
+    },
+    {
+      "source": "PQu4TyJOfCEaafW5th0e4",
+      "target": "gMFndBcrTC6FtGryqN6dX"
+    },
+    {
+      "source": "PQu4TyJOfCEaafW5th0e4",
+      "target": "dSfrFLr8wKkLAOMJwtCTr"
+    },
+    {
+      "source": "PQu4TyJOfCEaafW5th0e4",
+      "target": "4p6Gh2fMPA8hls_mWa5HR"
+    },
+    {
+      "source": "4p6Gh2fMPA8hls_mWa5HR",
+      "target": "b7iXwtUnELg_ShbCyTrNA"
+    },
+    {
+      "source": "4p6Gh2fMPA8hls_mWa5HR",
+      "target": "Bx1Atxcf15AEaA1BiSIc6"
+    },
+    {
+      "source": "Bx1Atxcf15AEaA1BiSIc6",
+      "target": "A5p6pqSOtLJybt4LrZ1St"
+    },
+    {
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "Re7tv1U0LxYqE5ShFxQSf"
+    },
+    {
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "SGsd08ZTu4H76s8cfbCKe"
+    },
+    {
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "xwVbhOpQMPPB4G-lhro0B"
+    },
+    {
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "br1r8KIf5KInY5mk2xhA6"
+    },
+    {
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "_Nc8ivQrdpKuf8MwaV-K7"
+    },
+    {
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "kdlXhbw_a81xdZtyK-pVa"
+    },
+    {
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "jkX66izOHVWqtyd6KZ0K6"
+    },
+    {
+      "source": "A5p6pqSOtLJybt4LrZ1St",
+      "target": "YTzOdnGWNKTjk8T1fcaiO"
+    },
+    {
+      "source": "YTzOdnGWNKTjk8T1fcaiO",
+      "target": "HOPgVo3xf0ZN8DmU9BDpo"
+    },
+    {
+      "source": "HOPgVo3xf0ZN8DmU9BDpo",
+      "target": "Z9szBPFXfqK_KsvzkR-rf"
+    },
+    {
+      "source": "YTzOdnGWNKTjk8T1fcaiO",
+      "target": "ixRG0xfEp4BmyvCR0mtoR"
+    },
+    {
+      "source": "ixRG0xfEp4BmyvCR0mtoR",
+      "target": "COxkmvqe9jFtV9WtGjfbh"
+    },
+    {
+      "source": "ixRG0xfEp4BmyvCR0mtoR",
+      "target": "izGdctxP_OvQNvaMwVIrh"
+    },
+    {
+      "source": "izGdctxP_OvQNvaMwVIrh",
+      "target": "BXz1utB_2eYzFvzSbFKx0"
+    },
+    {
+      "source": "izGdctxP_OvQNvaMwVIrh",
+      "target": "Cm6mqXYp-G4mGfPxuU73_"
+    },
+    {
+      "source": "Cm6mqXYp-G4mGfPxuU73_",
+      "target": "822tGnM9jOkYh9aNlosPr"
+    },
+    {
+      "source": "822tGnM9jOkYh9aNlosPr",
+      "target": "8xZxTLYq5m5_nkGh2lfUt"
+    },
+    {
+      "source": "822tGnM9jOkYh9aNlosPr",
+      "target": "_46COO0FGaFuCYwqaRRWy"
+    },
+    {
+      "source": "Cm6mqXYp-G4mGfPxuU73_",
+      "target": "8xZxTLYq5m5_nkGh2lfUt"
+    },
+    {
+      "source": "Cm6mqXYp-G4mGfPxuU73_",
+      "target": "sg9IjWWorT2lLEnUek-q5"
+    },
+    {
+      "source": "q1PayNkcJHU43QCdChAXt",
+      "target": "9AwVtwIv6TfP9F4ulz2F0"
+    },
+    {
+      "source": "9AwVtwIv6TfP9F4ulz2F0",
+      "target": "NIvjyhtTFC1gomtGQT_2t"
+    },
+    {
+      "source": "9AwVtwIv6TfP9F4ulz2F0",
+      "target": "ZLlz0Azfze-8k3z8HnVvE"
+    },
+    {
+      "source": "ZLlz0Azfze-8k3z8HnVvE",
+      "target": "l2Rl6OQbL7kYvPlpYCZ0Z"
+    },
+    {
+      "source": "ZLlz0Azfze-8k3z8HnVvE",
+      "target": "3RwIO-S8-xOYKNmfwk0pf"
+    },
+    {
+      "source": "3RwIO-S8-xOYKNmfwk0pf",
+      "target": "IsNzCdS05tbAK0D1zz0Sf"
+    },
+    {
+      "source": "3RwIO-S8-xOYKNmfwk0pf",
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    }
+  ]
+}

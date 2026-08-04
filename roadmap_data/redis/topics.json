@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "-3pADOHMDQ0H6ZKNjURyn",
+    "old_id": "OKW1e0f3kQ_wCb97ztjIN",
+    "type": "topic",
+    "label": "What is Redis?",
+    "resources": []
+  },
+  {
+    "id": "M-EXrTDeAEMz_IkEi-ab4",
+    "old_id": "eHuBz_zSZK3rubn7nkd7g",
+    "type": "subtopic",
+    "label": "In-memory Data Structure Store",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\cache@eHuBz_zSZK3rubn7nkd7g.md"
+  },
+  {
+    "id": "l2aXyO3STnhbFjvUXPpm2",
+    "old_id": "eHuBz_zSZK3rubn7nkd7g",
+    "type": "subtopic",
+    "label": "Key-value Database",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\cache@eHuBz_zSZK3rubn7nkd7g.md"
+  },
+  {
+    "id": "eHuBz_zSZK3rubn7nkd7g",
+    "old_id": "eHuBz_zSZK3rubn7nkd7g",
+    "type": "subtopic",
+    "label": "Cache",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\cache@eHuBz_zSZK3rubn7nkd7g.md"
+  },
+  {
+    "id": "mgGJTBU8ofvOzl9gYWhnG",
+    "old_id": "M-EXrTDeAEMz_IkEi-ab4",
+    "type": "subtopic",
+    "label": "Message Broker",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\in-memory-data-structure-store@M-EXrTDeAEMz_IkEi-ab4.md"
+  },
+  {
+    "id": "-TjnSOY8txYrhhxRV1OIl",
+    "old_id": "-TjnSOY8txYrhhxRV1OIl",
+    "type": "subtopic",
+    "label": "Caching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\caching@-TjnSOY8txYrhhxRV1OIl.md"
+  },
+  {
+    "id": "bVJASI7bfSYqYnNhX83ng",
+    "old_id": "-TjnSOY8txYrhhxRV1OIl",
+    "type": "subtopic",
+    "label": "Real-time Analytics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\caching@-TjnSOY8txYrhhxRV1OIl.md"
+  },
+  {
+    "id": "URxGmhZHr0Y8nyrYj0gJl",
+    "old_id": "bVJASI7bfSYqYnNhX83ng",
+    "type": "subtopic",
+    "label": "Session Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\real-time-analytics@bVJASI7bfSYqYnNhX83ng.md"
+  },
+  {
+    "id": "ZCyId3aIoLv3duxoJdk2P",
+    "old_id": "URxGmhZHr0Y8nyrYj0gJl",
+    "type": "subtopic",
+    "label": "Pub/Sub Messaging",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\session-management@URxGmhZHr0Y8nyrYj0gJl.md"
+  },
+  {
+    "id": "Fv1iGX22sApIEifM2IpJz",
+    "old_id": "ZCyId3aIoLv3duxoJdk2P",
+    "type": "subtopic",
+    "label": "Leaderboards and Counters",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\pubsub-messaging@ZCyId3aIoLv3duxoJdk2P.md"
+  },
+  {
+    "id": "8uRpPJ0iD4XnQPKruQc8P",
+    "old_id": "8uRpPJ0iD4XnQPKruQc8P",
+    "type": "subtopic",
+    "label": "Data Persistence Options",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\data-persistence-options@8uRpPJ0iD4XnQPKruQc8P.md"
+  },
+  {
+    "id": "uVewcyaFi1Pt2Gs0KrkfA",
+    "old_id": "uVewcyaFi1Pt2Gs0KrkfA",
+    "type": "subtopic",
+    "label": "Rich Data Structures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\rich-data-structures@uVewcyaFi1Pt2Gs0KrkfA.md"
+  },
+  {
+    "id": "5-3pd4rLDqRzMzSRVLdXh",
+    "old_id": "5-3pd4rLDqRzMzSRVLdXh",
+    "type": "subtopic",
+    "label": "High Performance and Scalability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\high-performance-and-scalability@5-3pd4rLDqRzMzSRVLdXh.md"
+  },
+  {
+    "id": "EvWiEx_AoxAht6sKxzW2l",
+    "old_id": "EvWiEx_AoxAht6sKxzW2l",
+    "type": "subtopic",
+    "label": "Redis vs SQL/NoSQL DBs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-vs-sqlnosql-dbs@EvWiEx_AoxAht6sKxzW2l.md"
+  },
+  {
+    "id": "1Af5H0BgdAsRdBCNdHz5v",
+    "old_id": "EvWiEx_AoxAht6sKxzW2l",
+    "type": "subtopic",
+    "label": "When to choose Redis?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-vs-sqlnosql-dbs@EvWiEx_AoxAht6sKxzW2l.md"
+  },
+  {
+    "id": "Bf_kLfmy7_uflqC9N0-jt",
+    "old_id": "Bf_kLfmy7_uflqC9N0-jt",
+    "type": "subtopic",
+    "label": "Using Package Managers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\using-package-managers@Bf_kLfmy7_uflqC9N0-jt.md"
+  },
+  {
+    "id": "yBZ79s6mzGdj5AnX2H_Hy",
+    "old_id": "yBZ79s6mzGdj5AnX2H_Hy",
+    "type": "subtopic",
+    "label": "Pre-compiled Binaries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\pre-compiled-binaries@yBZ79s6mzGdj5AnX2H_Hy.md"
+  },
+  {
+    "id": "TDxv0q7jlZ26uZYYlneem",
+    "old_id": "TDxv0q7jlZ26uZYYlneem",
+    "type": "subtopic",
+    "label": "Using Docker",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\using-docker@TDxv0q7jlZ26uZYYlneem.md"
+  },
+  {
+    "id": "43LvShQhmoWQ8Nye7fLkz",
+    "old_id": "43LvShQhmoWQ8Nye7fLkz",
+    "type": "subtopic",
+    "label": "Starting the Server",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\starting-the-server@43LvShQhmoWQ8Nye7fLkz.md"
+  },
+  {
+    "id": "BOGXTjmCLo6WI6mYDsqRu",
+    "old_id": "BOGXTjmCLo6WI6mYDsqRu",
+    "type": "subtopic",
+    "label": "Connecting using Redis CLI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\connecting-using-redis-cli@BOGXTjmCLo6WI6mYDsqRu.md"
+  },
+  {
+    "id": "NhcZM4nUQoSBBf_1qXi6l",
+    "old_id": "NhcZM4nUQoSBBf_1qXi6l",
+    "type": "subtopic",
+    "label": "Basic Commands / SET, GET",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\basic-commands--set-get@NhcZM4nUQoSBBf_1qXi6l.md"
+  },
+  {
+    "id": "DOdNkTY1yIMipWA2CD9xH",
+    "old_id": "DOdNkTY1yIMipWA2CD9xH",
+    "type": "subtopic",
+    "label": " and Getting Keys",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\setting-and-getting-keys@DOdNkTY1yIMipWA2CD9xH.md"
+  },
+  {
+    "id": "lV_MnUNTB2h925idX0YWk",
+    "old_id": "nS0DHhfy4wxHItgOFhulA",
+    "type": "subtopic",
+    "label": "DEL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\expire@nS0DHhfy4wxHItgOFhulA.md"
+  },
+  {
+    "id": "U84XgBFPyIbY0W5afH4cx",
+    "old_id": "U84XgBFPyIbY0W5afH4cx",
+    "type": "subtopic",
+    "label": "Overview of Data Types",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\overview-of-data-types@U84XgBFPyIbY0W5afH4cx.md"
+  },
+  {
+    "id": "ltF4vCT9ZA2XuUuHnuGnN",
+    "old_id": "ltF4vCT9ZA2XuUuHnuGnN",
+    "type": "subtopic",
+    "label": "SET",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\set@ltF4vCT9ZA2XuUuHnuGnN.md"
+  },
+  {
+    "id": "mQc4H2ZMMSVjh33LJY8mK",
+    "old_id": "mQc4H2ZMMSVjh33LJY8mK",
+    "type": "subtopic",
+    "label": "GET",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\get@mQc4H2ZMMSVjh33LJY8mK.md"
+  },
+  {
+    "id": "5K9qyC4mrhXYWOC8WSq8C",
+    "old_id": "5K9qyC4mrhXYWOC8WSq8C",
+    "type": "subtopic",
+    "label": "INCR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\incr@5K9qyC4mrhXYWOC8WSq8C.md"
+  },
+  {
+    "id": "t4BXPofF8OCqH5KHwdYVh",
+    "old_id": "t4BXPofF8OCqH5KHwdYVh",
+    "type": "subtopic",
+    "label": "DECR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\decr@t4BXPofF8OCqH5KHwdYVh.md"
+  },
+  {
+    "id": "cPWd53BO6tm-uy4gqLdtZ",
+    "old_id": "cPWd53BO6tm-uy4gqLdtZ",
+    "type": "subtopic",
+    "label": "APPEND",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\append@cPWd53BO6tm-uy4gqLdtZ.md"
+  },
+  {
+    "id": "eJQW986HM4Wf1o1i2FnXs",
+    "old_id": "eJQW986HM4Wf1o1i2FnXs",
+    "type": "subtopic",
+    "label": "STRLEN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\strlen@eJQW986HM4Wf1o1i2FnXs.md"
+  },
+  {
+    "id": "0v8uLWRCbAqEmKKdYaRQW",
+    "old_id": "cPWd53BO6tm-uy4gqLdtZ",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\append@cPWd53BO6tm-uy4gqLdtZ.md"
+  },
+  {
+    "id": "2_E2VwbjTgk4xxTFWfHuV",
+    "old_id": "2_E2VwbjTgk4xxTFWfHuV",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@2_E2VwbjTgk4xxTFWfHuV.md"
+  },
+  {
+    "id": "nS0DHhfy4wxHItgOFhulA",
+    "old_id": "nS0DHhfy4wxHItgOFhulA",
+    "type": "subtopic",
+    "label": "expire",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\expire@nS0DHhfy4wxHItgOFhulA.md"
+  },
+  {
+    "id": "Vll7VMmGWSI5XGZ9JpHyl",
+    "old_id": "nS0DHhfy4wxHItgOFhulA",
+    "type": "subtopic",
+    "label": "TTL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\expire@nS0DHhfy4wxHItgOFhulA.md"
+  },
+  {
+    "id": "Kq7G89KaZZMFkrH-9WZoS",
+    "old_id": "Kq7G89KaZZMFkrH-9WZoS",
+    "type": "subtopic",
+    "label": "LPUSH",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lpush@Kq7G89KaZZMFkrH-9WZoS.md"
+  },
+  {
+    "id": "jC8G1o7yFj7D_PGmOIgcD",
+    "old_id": "jC8G1o7yFj7D_PGmOIgcD",
+    "type": "subtopic",
+    "label": "RPUSH",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\rpush@jC8G1o7yFj7D_PGmOIgcD.md"
+  },
+  {
+    "id": "voa61RTWMJD3Sk8DNJoVQ",
+    "old_id": "voa61RTWMJD3Sk8DNJoVQ",
+    "type": "subtopic",
+    "label": "LPOP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lpop@voa61RTWMJD3Sk8DNJoVQ.md"
+  },
+  {
+    "id": "brUGqWZ287EWtvl9uUbNt",
+    "old_id": "brUGqWZ287EWtvl9uUbNt",
+    "type": "subtopic",
+    "label": "RPOP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\rpop@brUGqWZ287EWtvl9uUbNt.md"
+  },
+  {
+    "id": "8JTtBy6oD2wFYDizVkcVa",
+    "old_id": "8JTtBy6oD2wFYDizVkcVa",
+    "type": "subtopic",
+    "label": "LRANGE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lrange@8JTtBy6oD2wFYDizVkcVa.md"
+  },
+  {
+    "id": "hBFEUXtuzUTzWZKp2qWaZ",
+    "old_id": "hBFEUXtuzUTzWZKp2qWaZ",
+    "type": "subtopic",
+    "label": "LINDEX",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lindex@hBFEUXtuzUTzWZKp2qWaZ.md"
+  },
+  {
+    "id": "4oCcP9FxDJSDMHCEVBCNa",
+    "old_id": "8JTtBy6oD2wFYDizVkcVa",
+    "type": "subtopic",
+    "label": "LLEN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lrange@8JTtBy6oD2wFYDizVkcVa.md"
+  },
+  {
+    "id": "9KvHcS5F4Jj5ZXgIAdOQY",
+    "old_id": "4oCcP9FxDJSDMHCEVBCNa",
+    "type": "subtopic",
+    "label": "LMOVE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\llen@4oCcP9FxDJSDMHCEVBCNa.md"
+  },
+  {
+    "id": "eBeEUYY-IL_CMkcm31lUL",
+    "old_id": "0v8uLWRCbAqEmKKdYaRQW",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\more-commands@0v8uLWRCbAqEmKKdYaRQW.md"
+  },
+  {
+    "id": "XTwNCCtzXvZMdaex4gZEh",
+    "old_id": "2_E2VwbjTgk4xxTFWfHuV",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@2_E2VwbjTgk4xxTFWfHuV.md"
+  },
+  {
+    "id": "Qgkpr9vf9d6-vUg1o8XFj",
+    "old_id": "wY46Qj5Inw_ClBNI9PB_2",
+    "type": "topic",
+    "label": "Sets",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hashes@wY46Qj5Inw_ClBNI9PB_2.md"
+  },
+  {
+    "id": "xUKoQps69FFQrJeuhD1pz",
+    "old_id": "xUKoQps69FFQrJeuhD1pz",
+    "type": "subtopic",
+    "label": "SADD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\sadd@xUKoQps69FFQrJeuhD1pz.md"
+  },
+  {
+    "id": "mQ0ILns53n1By0Tq6xSZI",
+    "old_id": "mQ0ILns53n1By0Tq6xSZI",
+    "type": "subtopic",
+    "label": "SMEMBERS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\smembers@mQ0ILns53n1By0Tq6xSZI.md"
+  },
+  {
+    "id": "WQWVL5GT_scHdgfCtI7WT",
+    "old_id": "WQWVL5GT_scHdgfCtI7WT",
+    "type": "subtopic",
+    "label": "SREM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\srem@WQWVL5GT_scHdgfCtI7WT.md"
+  },
+  {
+    "id": "Ji5ghlcGJtlmErHFqVf3d",
+    "old_id": "Ji5ghlcGJtlmErHFqVf3d",
+    "type": "subtopic",
+    "label": "SISMEMBER",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\sismember@Ji5ghlcGJtlmErHFqVf3d.md"
+  },
+  {
+    "id": "5aLfNBewK4Dx017qVNO3T",
+    "old_id": "Ji5ghlcGJtlmErHFqVf3d",
+    "type": "subtopic",
+    "label": "SINTER",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\sismember@Ji5ghlcGJtlmErHFqVf3d.md"
+  },
+  {
+    "id": "2gZL4a9aWGKWLa89iyHTc",
+    "old_id": "5aLfNBewK4Dx017qVNO3T",
+    "type": "subtopic",
+    "label": "SCARD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\sinter@5aLfNBewK4Dx017qVNO3T.md"
+  },
+  {
+    "id": "6QoYa-N2BKNBaRtvNeVNm",
+    "old_id": "5aLfNBewK4Dx017qVNO3T",
+    "type": "subtopic",
+    "label": "SUNION",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\sinter@5aLfNBewK4Dx017qVNO3T.md"
+  },
+  {
+    "id": "JX5ajmcUmkshTO-mLF8lH",
+    "old_id": "2gZL4a9aWGKWLa89iyHTc",
+    "type": "subtopic",
+    "label": "SDIFF",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\scard@2gZL4a9aWGKWLa89iyHTc.md"
+  },
+  {
+    "id": "2SG4Hr9Tuv6cxmGkrKjYZ",
+    "old_id": "b48EUyFGUeSjtT5fOa_m6",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\more-commands@b48EUyFGUeSjtT5fOa_m6.md"
+  },
+  {
+    "id": "3hayYoSZepw7pppBubotg",
+    "old_id": "YhqqIGcdOk9Qwfhqpc0L-",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": []
+  },
+  {
+    "id": "b48EUyFGUeSjtT5fOa_m6",
+    "old_id": "0v8uLWRCbAqEmKKdYaRQW",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\more-commands@0v8uLWRCbAqEmKKdYaRQW.md"
+  },
+  {
+    "id": "Wl23Jh-ASJOQ850yjaTIU",
+    "old_id": "4-C4XqACUp4nvcMIj6djF",
+    "type": "topic",
+    "label": "Strings",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lists@4-C4XqACUp4nvcMIj6djF.md"
+  },
+  {
+    "id": "4-C4XqACUp4nvcMIj6djF",
+    "old_id": "4-C4XqACUp4nvcMIj6djF",
+    "type": "topic",
+    "label": "Lists",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lists@4-C4XqACUp4nvcMIj6djF.md"
+  },
+  {
+    "id": "wY46Qj5Inw_ClBNI9PB_2",
+    "old_id": "4-C4XqACUp4nvcMIj6djF",
+    "type": "topic",
+    "label": "Hashes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lists@4-C4XqACUp4nvcMIj6djF.md"
+  },
+  {
+    "id": "BOJzn9SWad9oRRdY_ub01",
+    "old_id": "BOJzn9SWad9oRRdY_ub01",
+    "type": "subtopic",
+    "label": "HSET",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hset@BOJzn9SWad9oRRdY_ub01.md"
+  },
+  {
+    "id": "MsKg9m5jFwHM2Bzjf-vdu",
+    "old_id": "MsKg9m5jFwHM2Bzjf-vdu",
+    "type": "subtopic",
+    "label": "HGET",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hget@MsKg9m5jFwHM2Bzjf-vdu.md"
+  },
+  {
+    "id": "TpR33sJ-tAjeG3jpGTvYR",
+    "old_id": "TpR33sJ-tAjeG3jpGTvYR",
+    "type": "subtopic",
+    "label": "HGETALL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hgetall@TpR33sJ-tAjeG3jpGTvYR.md"
+  },
+  {
+    "id": "E7xFZkqqbzokD5KGTn9zJ",
+    "old_id": "E7xFZkqqbzokD5KGTn9zJ",
+    "type": "subtopic",
+    "label": "HDEL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hdel@E7xFZkqqbzokD5KGTn9zJ.md"
+  },
+  {
+    "id": "adhLMuSmfYMRyWTwIgnyE",
+    "old_id": "adhLMuSmfYMRyWTwIgnyE",
+    "type": "subtopic",
+    "label": "HEXISTS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hexists@adhLMuSmfYMRyWTwIgnyE.md"
+  },
+  {
+    "id": "jtVnUD-na-WffMaS8qYfu",
+    "old_id": "3hayYoSZepw7pppBubotg",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@3hayYoSZepw7pppBubotg.md"
+  },
+  {
+    "id": "QTbkWZ7BpqYmBhUivccPu",
+    "old_id": "wY46Qj5Inw_ClBNI9PB_2",
+    "type": "topic",
+    "label": "Sorted Sets",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hashes@wY46Qj5Inw_ClBNI9PB_2.md"
+  },
+  {
+    "id": "0swsBD0sOY-o5lzibT999",
+    "old_id": "0swsBD0sOY-o5lzibT999",
+    "type": "subtopic",
+    "label": "ZADD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\zadd@0swsBD0sOY-o5lzibT999.md"
+  },
+  {
+    "id": "3pFChX6YIItrBz9lxu4XM",
+    "old_id": "3pFChX6YIItrBz9lxu4XM",
+    "type": "subtopic",
+    "label": "ZRANGE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\zrange@3pFChX6YIItrBz9lxu4XM.md"
+  },
+  {
+    "id": "OlbixGa5RmdqEt7snY04j",
+    "old_id": "OlbixGa5RmdqEt7snY04j",
+    "type": "subtopic",
+    "label": "ZRANGEBYSCORE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\zrangebyscore@OlbixGa5RmdqEt7snY04j.md"
+  },
+  {
+    "id": "m0FZDPwNE71zcwM_gUwz0",
+    "old_id": "m0FZDPwNE71zcwM_gUwz0",
+    "type": "subtopic",
+    "label": "ZREM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\zrem@m0FZDPwNE71zcwM_gUwz0.md"
+  },
+  {
+    "id": "W4v7FIQr2k-Vbm-HdfKog",
+    "old_id": "W4v7FIQr2k-Vbm-HdfKog",
+    "type": "subtopic",
+    "label": "ZINCRBY",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\zincrby@W4v7FIQr2k-Vbm-HdfKog.md"
+  },
+  {
+    "id": "AF_kWM4V8n5Ux06IgEVTl",
+    "old_id": "AF_kWM4V8n5Ux06IgEVTl",
+    "type": "subtopic",
+    "label": "ZRANK",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\zrank@AF_kWM4V8n5Ux06IgEVTl.md"
+  },
+  {
+    "id": "O-fZM_U-tW0pYtNzN_8Ax",
+    "old_id": "W4v7FIQr2k-Vbm-HdfKog",
+    "type": "subtopic",
+    "label": "ZCOUNT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\zincrby@W4v7FIQr2k-Vbm-HdfKog.md"
+  },
+  {
+    "id": "P6TDUCroLlEI7qePBFHIH",
+    "old_id": "0v8uLWRCbAqEmKKdYaRQW",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\more-commands@0v8uLWRCbAqEmKKdYaRQW.md"
+  },
+  {
+    "id": "lxevY15ZyP43s_JrEqMX7",
+    "old_id": "jtVnUD-na-WffMaS8qYfu",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@jtVnUD-na-WffMaS8qYfu.md"
+  },
+  {
+    "id": "o6e_CwxfPoU6qkfWkwKwj",
+    "old_id": "P6TDUCroLlEI7qePBFHIH",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\more-commands@P6TDUCroLlEI7qePBFHIH.md"
+  },
+  {
+    "id": "jCaVx5wvsvuyqtwh6m8si",
+    "old_id": "jCaVx5wvsvuyqtwh6m8si",
+    "type": "subtopic",
+    "label": "Naming Conventions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\naming-conventions@jCaVx5wvsvuyqtwh6m8si.md"
+  },
+  {
+    "id": "UlQHqw1dbxZnAKbsWsOgU",
+    "old_id": "UlQHqw1dbxZnAKbsWsOgU",
+    "type": "subtopic",
+    "label": "Retrieval by Pattern",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\retrieval-by-pattern@UlQHqw1dbxZnAKbsWsOgU.md"
+  },
+  {
+    "id": "OSIYDYPGz8Vgo9SU9GGH9",
+    "old_id": "UlQHqw1dbxZnAKbsWsOgU",
+    "type": "subtopic",
+    "label": "Expiration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\retrieval-by-pattern@UlQHqw1dbxZnAKbsWsOgU.md"
+  },
+  {
+    "id": "jrgaoDnt_RxTu79hk4hCD",
+    "old_id": "jrgaoDnt_RxTu79hk4hCD",
+    "type": "topic",
+    "label": "Atomicity in Redis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\atomicity-in-redis@jrgaoDnt_RxTu79hk4hCD.md"
+  },
+  {
+    "id": "LHlwjN3WHYUBUafzzwsWQ",
+    "old_id": "jrgaoDnt_RxTu79hk4hCD",
+    "type": "topic",
+    "label": "Pipelining",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\atomicity-in-redis@jrgaoDnt_RxTu79hk4hCD.md"
+  },
+  {
+    "id": "7JzeyTrkZ_1_yxMVrqvZU",
+    "old_id": "LHlwjN3WHYUBUafzzwsWQ",
+    "type": "topic",
+    "label": "Batch Operations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\pipelining@LHlwjN3WHYUBUafzzwsWQ.md"
+  },
+  {
+    "id": "0Q3AkE8leWAyYsww3-BHX",
+    "old_id": "cszjT3YK8oyhGpqLTQzwX",
+    "type": "topic",
+    "label": "Bitmaps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hyperloglog@cszjT3YK8oyhGpqLTQzwX.md"
+  },
+  {
+    "id": "B-YUFhPQNdr1KZNupmR5N",
+    "old_id": "B-YUFhPQNdr1KZNupmR5N",
+    "type": "subtopic",
+    "label": "SETBIT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\setbit@B-YUFhPQNdr1KZNupmR5N.md"
+  },
+  {
+    "id": "0HFLJfcrcSnAVTecG3P8W",
+    "old_id": "0HFLJfcrcSnAVTecG3P8W",
+    "type": "subtopic",
+    "label": "GETBIT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\getbit@0HFLJfcrcSnAVTecG3P8W.md"
+  },
+  {
+    "id": "jpcyXSSib7q4WBPmpgnXA",
+    "old_id": "jpcyXSSib7q4WBPmpgnXA",
+    "type": "subtopic",
+    "label": "BITCOUNT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\bitcount@jpcyXSSib7q4WBPmpgnXA.md"
+  },
+  {
+    "id": "tkrxArg_oYH0aQfM8NkD2",
+    "old_id": "tkrxArg_oYH0aQfM8NkD2",
+    "type": "subtopic",
+    "label": "BITOP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\bitop@tkrxArg_oYH0aQfM8NkD2.md"
+  },
+  {
+    "id": "Df1Eu7CuA-ARYii9JVvnm",
+    "old_id": "Df1Eu7CuA-ARYii9JVvnm",
+    "type": "subtopic",
+    "label": "BITPOS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\bitpos@Df1Eu7CuA-ARYii9JVvnm.md"
+  },
+  {
+    "id": "s7PEr-5TAm5EGJm0RSjPJ",
+    "old_id": "XTwNCCtzXvZMdaex4gZEh",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@XTwNCCtzXvZMdaex4gZEh.md"
+  },
+  {
+    "id": "cszjT3YK8oyhGpqLTQzwX",
+    "old_id": "cszjT3YK8oyhGpqLTQzwX",
+    "type": "topic",
+    "label": "HyperLogLog",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hyperloglog@cszjT3YK8oyhGpqLTQzwX.md"
+  },
+  {
+    "id": "8a4DmPZrX2xGZ7zdWxS63",
+    "old_id": "8a4DmPZrX2xGZ7zdWxS63",
+    "type": "subtopic",
+    "label": "PFADD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\pfadd@8a4DmPZrX2xGZ7zdWxS63.md"
+  },
+  {
+    "id": "JWT30KIJQHVw0MXI5sGR6",
+    "old_id": "JWT30KIJQHVw0MXI5sGR6",
+    "type": "subtopic",
+    "label": "PFCOUNT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\pfcount@JWT30KIJQHVw0MXI5sGR6.md"
+  },
+  {
+    "id": "s50jr_XOUcxh65-tGCKf5",
+    "old_id": "s50jr_XOUcxh65-tGCKf5",
+    "type": "subtopic",
+    "label": "PFMERGE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\pfmerge@s50jr_XOUcxh65-tGCKf5.md"
+  },
+  {
+    "id": "XPeCvikPuu6EJ8UcOLGPh",
+    "old_id": "s7PEr-5TAm5EGJm0RSjPJ",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@s7PEr-5TAm5EGJm0RSjPJ.md"
+  },
+  {
+    "id": "zXs_9n2yEb_eVi0WuOQKH",
+    "old_id": "cszjT3YK8oyhGpqLTQzwX",
+    "type": "topic",
+    "label": "Streams",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\hyperloglog@cszjT3YK8oyhGpqLTQzwX.md"
+  },
+  {
+    "id": "7isWhgrUA6M5IGM2U2tm4",
+    "old_id": "7isWhgrUA6M5IGM2U2tm4",
+    "type": "subtopic",
+    "label": "XADD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\xadd@7isWhgrUA6M5IGM2U2tm4.md"
+  },
+  {
+    "id": "4sKiAtX5aIL4NDsQkilNC",
+    "old_id": "4sKiAtX5aIL4NDsQkilNC",
+    "type": "subtopic",
+    "label": "XREAD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\xread@4sKiAtX5aIL4NDsQkilNC.md"
+  },
+  {
+    "id": "CiYFuYE8XudZkR6AW2NQ7",
+    "old_id": "CiYFuYE8XudZkR6AW2NQ7",
+    "type": "subtopic",
+    "label": "XRANGE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\xrange@CiYFuYE8XudZkR6AW2NQ7.md"
+  },
+  {
+    "id": "DQJCMEw13lELcw_AwLfrT",
+    "old_id": "DQJCMEw13lELcw_AwLfrT",
+    "type": "subtopic",
+    "label": "XLEN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\xlen@DQJCMEw13lELcw_AwLfrT.md"
+  },
+  {
+    "id": "zXlSBfa-Gi9_GhSYEzre3",
+    "old_id": "3hayYoSZepw7pppBubotg",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@3hayYoSZepw7pppBubotg.md"
+  },
+  {
+    "id": "4-z4hDKm86qQatYnmE21R",
+    "old_id": "b48EUyFGUeSjtT5fOa_m6",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\more-commands@b48EUyFGUeSjtT5fOa_m6.md"
+  },
+  {
+    "id": "_NiUdVQ85qnvryI38k_vQ",
+    "old_id": "9W_jaK1DSEZHRKdPcUM7h",
+    "type": "topic",
+    "label": "Geospatial Indexes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\pubsub@9W_jaK1DSEZHRKdPcUM7h.md"
+  },
+  {
+    "id": "U3N1EgHFs1-YUaB_VrJfw",
+    "old_id": "U3N1EgHFs1-YUaB_VrJfw",
+    "type": "subtopic",
+    "label": "GEOADD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\geoadd@U3N1EgHFs1-YUaB_VrJfw.md"
+  },
+  {
+    "id": "OWWDLuGTbdNwME7v2jxVP",
+    "old_id": "OWWDLuGTbdNwME7v2jxVP",
+    "type": "subtopic",
+    "label": "GEOSEARCH",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\geosearch@OWWDLuGTbdNwME7v2jxVP.md"
+  },
+  {
+    "id": "GNMjrLPkpTphneoQ0GoZF",
+    "old_id": "zXlSBfa-Gi9_GhSYEzre3",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@zXlSBfa-Gi9_GhSYEzre3.md"
+  },
+  {
+    "id": "FCbdKnkI1ZHGekT6yiGua",
+    "old_id": "4-z4hDKm86qQatYnmE21R",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\more-commands@4-z4hDKm86qQatYnmE21R.md"
+  },
+  {
+    "id": "9W_jaK1DSEZHRKdPcUM7h",
+    "old_id": "zXs_9n2yEb_eVi0WuOQKH",
+    "type": "topic",
+    "label": "Pub/Sub",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\streams@zXs_9n2yEb_eVi0WuOQKH.md"
+  },
+  {
+    "id": "55BCntuWlaQiLPqNtb-2i",
+    "old_id": "55BCntuWlaQiLPqNtb-2i",
+    "type": "subtopic",
+    "label": "SUBSCRIBE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\subscribe@55BCntuWlaQiLPqNtb-2i.md"
+  },
+  {
+    "id": "5gkZzm2F4vu6IxUoJLYbK",
+    "old_id": "5gkZzm2F4vu6IxUoJLYbK",
+    "type": "subtopic",
+    "label": "UNSUBSCRIBE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\unsubscribe@5gkZzm2F4vu6IxUoJLYbK.md"
+  },
+  {
+    "id": "gIPo-2CNqE1BsOaDzmkCU",
+    "old_id": "gIPo-2CNqE1BsOaDzmkCU",
+    "type": "subtopic",
+    "label": "PUBLISH",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\publish@gIPo-2CNqE1BsOaDzmkCU.md"
+  },
+  {
+    "id": "V-d6q-3Sf0dl5v8xiCQwl",
+    "old_id": "FCbdKnkI1ZHGekT6yiGua",
+    "type": "subtopic",
+    "label": "More Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\more-commands@FCbdKnkI1ZHGekT6yiGua.md"
+  },
+  {
+    "id": "MvyE_JUJej0UB9xe8Anfj",
+    "old_id": "GNMjrLPkpTphneoQ0GoZF",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@GNMjrLPkpTphneoQ0GoZF.md"
+  },
+  {
+    "id": "YHbWlKrQqptUDbaQVy0_A",
+    "old_id": "9W_jaK1DSEZHRKdPcUM7h",
+    "type": "topic",
+    "label": "Transactions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\pubsub@9W_jaK1DSEZHRKdPcUM7h.md"
+  },
+  {
+    "id": "c-y5Eck8VtSyIf8RAW9p7",
+    "old_id": "c-y5Eck8VtSyIf8RAW9p7",
+    "type": "subtopic",
+    "label": "WATCH",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\watch@c-y5Eck8VtSyIf8RAW9p7.md"
+  },
+  {
+    "id": "Ljy-Mc0EBBX4_vXfYZ5-4",
+    "old_id": "Ljy-Mc0EBBX4_vXfYZ5-4",
+    "type": "subtopic",
+    "label": "EXEC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\exec@Ljy-Mc0EBBX4_vXfYZ5-4.md"
+  },
+  {
+    "id": "U6hST1MkS16T2CHV3-Ise",
+    "old_id": "U6hST1MkS16T2CHV3-Ise",
+    "type": "subtopic",
+    "label": "MULTI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\multi@U6hST1MkS16T2CHV3-Ise.md"
+  },
+  {
+    "id": "msW0Wd2H-6FFNDnjC64t-",
+    "old_id": "MvyE_JUJej0UB9xe8Anfj",
+    "type": "subtopic",
+    "label": "Optimistic Locking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@MvyE_JUJej0UB9xe8Anfj.md"
+  },
+  {
+    "id": "Veb30QrPYNjUn13dtGbUr",
+    "old_id": "YHbWlKrQqptUDbaQVy0_A",
+    "type": "topic",
+    "label": "Lua Scripting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\transactions@YHbWlKrQqptUDbaQVy0_A.md"
+  },
+  {
+    "id": "rjeq3i9oX8IGyQzo--L3c",
+    "old_id": "rjeq3i9oX8IGyQzo--L3c",
+    "type": "subtopic",
+    "label": "EVAL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\eval@rjeq3i9oX8IGyQzo--L3c.md"
+  },
+  {
+    "id": "3X0x_PcJGWBVPL-LSVAln",
+    "old_id": "3X0x_PcJGWBVPL-LSVAln",
+    "type": "subtopic",
+    "label": "EVALSHA",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\evalsha@3X0x_PcJGWBVPL-LSVAln.md"
+  },
+  {
+    "id": "kF_nGo845XDwLkwcQt008",
+    "old_id": "MvyE_JUJej0UB9xe8Anfj",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@MvyE_JUJej0UB9xe8Anfj.md"
+  },
+  {
+    "id": "bQaek7f3dAaZfSUhwovm1",
+    "old_id": "Veb30QrPYNjUn13dtGbUr",
+    "type": "topic",
+    "label": "Persistence Options",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\lua-scripting@Veb30QrPYNjUn13dtGbUr.md"
+  },
+  {
+    "id": "D3pZdAjwPFMRxX1-iyu5-",
+    "old_id": "D3pZdAjwPFMRxX1-iyu5-",
+    "type": "subtopic",
+    "label": "How RDB Works?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\how-rdb-works@D3pZdAjwPFMRxX1-iyu5-.md"
+  },
+  {
+    "id": "_pb2DPrFUUZabKxWsuFUo",
+    "old_id": "_pb2DPrFUUZabKxWsuFUo",
+    "type": "subtopic",
+    "label": "Configuring Save Interval",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\configuring-save-interval@_pb2DPrFUUZabKxWsuFUo.md"
+  },
+  {
+    "id": "Z6yJwUkcDX08HoMyf1LwX",
+    "old_id": "vzp7DUpjklzIA0E9WxJQA",
+    "type": "subtopic",
+    "label": "Usecases / Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases--best-practices@vzp7DUpjklzIA0E9WxJQA.md"
+  },
+  {
+    "id": "PTj6oxvpw8vP295WvAI80",
+    "old_id": "PTj6oxvpw8vP295WvAI80",
+    "type": "subtopic",
+    "label": "How AOF Works?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\how-aof-works@PTj6oxvpw8vP295WvAI80.md"
+  },
+  {
+    "id": "ibaZ34-laQtUyxAsERi7o",
+    "old_id": "ibaZ34-laQtUyxAsERi7o",
+    "type": "subtopic",
+    "label": "AOF rewrite & compaction",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\aof-rewrite--compaction@ibaZ34-laQtUyxAsERi7o.md"
+  },
+  {
+    "id": "9ToKTUqbi-NV5Wcwb21PT",
+    "old_id": "9ToKTUqbi-NV5Wcwb21PT",
+    "type": "subtopic",
+    "label": "Truncation / Corruption",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\truncation--corruption@9ToKTUqbi-NV5Wcwb21PT.md"
+  },
+  {
+    "id": "VvOQUO22ZF8VvDSqHENNU",
+    "old_id": "VvOQUO22ZF8VvDSqHENNU",
+    "type": "subtopic",
+    "label": "Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases@VvOQUO22ZF8VvDSqHENNU.md"
+  },
+  {
+    "id": "vzp7DUpjklzIA0E9WxJQA",
+    "old_id": "vzp7DUpjklzIA0E9WxJQA",
+    "type": "subtopic",
+    "label": "Usecases / Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\usecases--best-practices@vzp7DUpjklzIA0E9WxJQA.md"
+  },
+  {
+    "id": "80035BzcB-fKCvD_3N8zE",
+    "old_id": "D3pZdAjwPFMRxX1-iyu5-",
+    "type": "subtopic",
+    "label": "No Persistence Option",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\how-rdb-works@D3pZdAjwPFMRxX1-iyu5-.md"
+  },
+  {
+    "id": "3S-qqOlfr60HR4VvDr4He",
+    "old_id": "PTj6oxvpw8vP295WvAI80",
+    "type": "subtopic",
+    "label": "RDB vs AOF Tradeoffs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\how-aof-works@PTj6oxvpw8vP295WvAI80.md"
+  },
+  {
+    "id": "S5Y26m1oHCQpB-oLCdtac",
+    "old_id": "3S-qqOlfr60HR4VvDr4He",
+    "type": "subtopic",
+    "label": "Hybrid Persistence",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\rdb-vs-aof-tradeoffs@3S-qqOlfr60HR4VvDr4He.md"
+  },
+  {
+    "id": "rSD8nJ-uNpHJVe5Hn66h7",
+    "old_id": "rSD8nJ-uNpHJVe5Hn66h7",
+    "type": "topic",
+    "label": "Replication Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\replication-basics@rSD8nJ-uNpHJVe5Hn66h7.md"
+  },
+  {
+    "id": "nci3OB1NE1zJHUPfZCOpT",
+    "old_id": "nci3OB1NE1zJHUPfZCOpT",
+    "type": "topic",
+    "label": "Redis Sentinel",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-sentinel@nci3OB1NE1zJHUPfZCOpT.md"
+  },
+  {
+    "id": "AQiCcHS6dBAAAPloxiXub",
+    "old_id": "AQiCcHS6dBAAAPloxiXub",
+    "type": "topic",
+    "label": "Clustering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\clustering@AQiCcHS6dBAAAPloxiXub.md"
+  },
+  {
+    "id": "Qy42paiTUsO8HIwbWTMui",
+    "old_id": "rSD8nJ-uNpHJVe5Hn66h7",
+    "type": "topic",
+    "label": "Authentication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\replication-basics@rSD8nJ-uNpHJVe5Hn66h7.md"
+  },
+  {
+    "id": "wsuKH7YwGDV6GYQbdhA4o",
+    "old_id": "Qy42paiTUsO8HIwbWTMui",
+    "type": "topic",
+    "label": "Network Security",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\authentication@Qy42paiTUsO8HIwbWTMui.md"
+  },
+  {
+    "id": "gdiWwTQg6A-BFHdQBmgmH",
+    "old_id": "wsuKH7YwGDV6GYQbdhA4o",
+    "type": "topic",
+    "label": "SSL/TLS Encryption",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\network-security@wsuKH7YwGDV6GYQbdhA4o.md"
+  },
+  {
+    "id": "q2Jw49QUWCUGIfcEC1bZI",
+    "old_id": "jBtEiylcedtaE6E20Uk4V",
+    "type": "subtopic",
+    "label": "INFO",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\monitor@jBtEiylcedtaE6E20Uk4V.md"
+  },
+  {
+    "id": "jBtEiylcedtaE6E20Uk4V",
+    "old_id": "jBtEiylcedtaE6E20Uk4V",
+    "type": "subtopic",
+    "label": "MONITOR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\monitor@jBtEiylcedtaE6E20Uk4V.md"
+  },
+  {
+    "id": "XBPwHgIsXupMsyoOFkJZ0",
+    "old_id": "y5FPSAi6T-5X9SUfR58_-",
+    "type": "subtopic",
+    "label": "RedisInsight",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\rediscommander@y5FPSAi6T-5X9SUfR58_-.md"
+  },
+  {
+    "id": "y5FPSAi6T-5X9SUfR58_-",
+    "old_id": "y5FPSAi6T-5X9SUfR58_-",
+    "type": "subtopic",
+    "label": "RedisCommander",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\rediscommander@y5FPSAi6T-5X9SUfR58_-.md"
+  },
+  {
+    "id": "xF0wQYmtwXYkrzvWg5gOO",
+    "old_id": "xF0wQYmtwXYkrzvWg5gOO",
+    "type": "subtopic",
+    "label": "Memory Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\memory-management@xF0wQYmtwXYkrzvWg5gOO.md"
+  },
+  {
+    "id": "Sd1ENOXSFCz1YqccXjr2A",
+    "old_id": "Sd1ENOXSFCz1YqccXjr2A",
+    "type": "subtopic",
+    "label": "Max Memory Policy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\max-memory-policy@Sd1ENOXSFCz1YqccXjr2A.md"
+  },
+  {
+    "id": "yaCWw2KjX58SaPajUAb0d",
+    "old_id": "yaCWw2KjX58SaPajUAb0d",
+    "type": "subtopic",
+    "label": "Slow Log Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\slow-log-analysis@yaCWw2KjX58SaPajUAb0d.md"
+  },
+  {
+    "id": "kgHwK4N-sfh6dHjd_D_me",
+    "old_id": "kgHwK4N-sfh6dHjd_D_me",
+    "type": "subtopic",
+    "label": "redis-benchmark",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-benchmark@kgHwK4N-sfh6dHjd_D_me.md"
+  },
+  {
+    "id": "2p5RF4lVYfRvYTo1Ofm-a",
+    "old_id": "2p5RF4lVYfRvYTo1Ofm-a",
+    "type": "subtopic",
+    "label": "Monitoring",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\monitoring@2p5RF4lVYfRvYTo1Ofm-a.md"
+  },
+  {
+    "id": "hLIT00Iz7rV56ZBIUhWYn",
+    "old_id": "hLIT00Iz7rV56ZBIUhWYn",
+    "type": "topic",
+    "label": "Redis Modules",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-modules@hLIT00Iz7rV56ZBIUhWYn.md"
+  },
+  {
+    "id": "jicsfYw56VrbRUt7M8c85",
+    "old_id": "jicsfYw56VrbRUt7M8c85",
+    "type": "subtopic",
+    "label": "RedisJSON",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redisjson@jicsfYw56VrbRUt7M8c85.md"
+  },
+  {
+    "id": "_GdTXcJO8uJlhPdfrmeXG",
+    "old_id": "_GdTXcJO8uJlhPdfrmeXG",
+    "type": "subtopic",
+    "label": "Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\search@_GdTXcJO8uJlhPdfrmeXG.md"
+  },
+  {
+    "id": "RBr8opWSh2TKXC8Fmdg0j",
+    "old_id": "RBr8opWSh2TKXC8Fmdg0j",
+    "type": "subtopic",
+    "label": "RedisTimeSeries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redistimeseries@RBr8opWSh2TKXC8Fmdg0j.md"
+  },
+  {
+    "id": "GwVL5CvbnHsiWb1hVh7lK",
+    "old_id": "GwVL5CvbnHsiWb1hVh7lK",
+    "type": "subtopic",
+    "label": "RedisBloom",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redisbloom@GwVL5CvbnHsiWb1hVh7lK.md"
+  },
+  {
+    "id": "giyKPtQ-pziA064P8OQD-",
+    "old_id": "giyKPtQ-pziA064P8OQD-",
+    "type": "topic",
+    "label": "redis.conf",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redisconf@giyKPtQ-pziA064P8OQD-.md"
+  },
+  {
+    "id": "wXRDsNGFckXV_CSiit5sN",
+    "old_id": "8lyXDuZJ-KHl4v2_8Ew1h",
+    "type": "topic",
+    "label": "Backup and Recovery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-enterprise@8lyXDuZJ-KHl4v2_8Ew1h.md"
+  },
+  {
+    "id": "Cb-KazR4PuR86VX5oT0zi",
+    "old_id": "8lyXDuZJ-KHl4v2_8Ew1h",
+    "type": "topic",
+    "label": "Upgrading Redis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-enterprise@8lyXDuZJ-KHl4v2_8Ew1h.md"
+  },
+  {
+    "id": "nUIfTkgm3PlSiqgun1BS7",
+    "old_id": "8lyXDuZJ-KHl4v2_8Ew1h",
+    "type": "topic",
+    "label": "Disaster Recovery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-enterprise@8lyXDuZJ-KHl4v2_8Ew1h.md"
+  },
+  {
+    "id": "8lyXDuZJ-KHl4v2_8Ew1h",
+    "old_id": "8lyXDuZJ-KHl4v2_8Ew1h",
+    "type": "topic",
+    "label": "Redis Enterprise",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\redis-enterprise@8lyXDuZJ-KHl4v2_8Ew1h.md"
+  },
+  {
+    "id": "cybF72wlJyJbHLUjitLvn",
+    "old_id": "ujs77bV8g8-FOm5hBtZFd",
+    "type": "subtopic",
+    "label": "Active-Active geo Distribution",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\security-and-compliance@ujs77bV8g8-FOm5hBtZFd.md"
+  },
+  {
+    "id": "sWOFnbh2EyaHRzquz1UeF",
+    "old_id": "ujs77bV8g8-FOm5hBtZFd",
+    "type": "subtopic",
+    "label": "Redis on Flash",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\security-and-compliance@ujs77bV8g8-FOm5hBtZFd.md"
+  },
+  {
+    "id": "ujs77bV8g8-FOm5hBtZFd",
+    "old_id": "ujs77bV8g8-FOm5hBtZFd",
+    "type": "subtopic",
+    "label": "Security and Compliance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\security-and-compliance@ujs77bV8g8-FOm5hBtZFd.md"
+  },
+  {
+    "id": "JlLwy69eQ1bPHAOOJNqjo",
+    "old_id": "JlLwy69eQ1bPHAOOJNqjo",
+    "type": "subtopic",
+    "label": "When to consider enterprise?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\redis\\content\\when-to-consider-enterprise@JlLwy69eQ1bPHAOOJNqjo.md"
+  }
+]

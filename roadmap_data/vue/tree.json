@@ -1,0 +1,656 @@
+[
+  {
+    "id": "ua7DIYStv0V-G9f0vWE_W",
+    "old_id": "ua7DIYStv0V-G9f0vWE_W",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iogwMmOvub2ZF4zgg6WyF",
+    "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+    "type": "title",
+    "label": "Vue",
+    "resources": [],
+    "children": [
+      {
+        "id": "XDvH2t3AJGevS17uM8TO6",
+        "old_id": "R_Fs6rdl2XtQ9aLOubMqL",
+        "type": "button",
+        "label": "JavaScript Roadmap",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "R_Fs6rdl2XtQ9aLOubMqL",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ZSrQoNGKiR484uALMWO9F",
+    "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+    "type": "button",
+    "label": "TypeScript Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "P5IZjP0g1_fnvHy3YTR4q",
+    "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+    "type": "button",
+    "label": "Frontend Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "lsC4XcjZoMODK_3b_vilY",
+    "old_id": "lsC4XcjZoMODK_3b_vilY",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "raEfI4GLMW2fOucka07VE",
+    "old_id": "raEfI4GLMW2fOucka07VE",
+    "type": "subtopic",
+    "label": "Props",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\props@raEfI4GLMW2fOucka07VE.md",
+    "children": []
+  },
+  {
+    "id": "X0J3ogH3W8EQe68tLfcGL",
+    "old_id": "X0J3ogH3W8EQe68tLfcGL",
+    "type": "subtopic",
+    "label": "Events",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\events@X0J3ogH3W8EQe68tLfcGL.md",
+    "children": []
+  },
+  {
+    "id": "OpJ2NMKCGXQezpzURE45R",
+    "old_id": "Bx1Atxcf15AEaA1BiSIc6",
+    "type": "topic",
+    "label": "API Styles",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\computed-properties@Bx1Atxcf15AEaA1BiSIc6.md",
+    "children": [
+      {
+        "id": "PPUU3Rb73aCpT4zcyvlJE",
+        "old_id": "PPUU3Rb73aCpT4zcyvlJE",
+        "type": "subtopic",
+        "label": "Options API",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\options-api@PPUU3Rb73aCpT4zcyvlJE.md",
+        "children": []
+      },
+      {
+        "id": "a0qwdQTunxEjQ9A5wpF-q",
+        "old_id": "a0qwdQTunxEjQ9A5wpF-q",
+        "type": "subtopic",
+        "label": "Composition API",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\composition-api@a0qwdQTunxEjQ9A5wpF-q.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "ftqDoGpwqqWQnu4NQSsMk",
+    "old_id": "dxwKfBxd5KYVkfEPMdHp-",
+    "type": "subtopic",
+    "label": "Rendering Lists",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\debugging@dxwKfBxd5KYVkfEPMdHp-.md",
+    "children": []
+  },
+  {
+    "id": "NCIzs3jbQTv1xXhAaGfZN",
+    "old_id": "NCIzs3jbQTv1xXhAaGfZN",
+    "type": "subtopic",
+    "label": "v-text",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-text@NCIzs3jbQTv1xXhAaGfZN.md",
+    "children": []
+  },
+  {
+    "id": "bZxtIBeIfeUcR32LZWrPW",
+    "old_id": "bZxtIBeIfeUcR32LZWrPW",
+    "type": "subtopic",
+    "label": "v-html",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-html@bZxtIBeIfeUcR32LZWrPW.md",
+    "children": []
+  },
+  {
+    "id": "_TlbGTKFCMO0wdLbC6xHX",
+    "old_id": "Xv5oqDolAOVnNLXDQbeSc",
+    "type": "subtopic",
+    "label": "v-show",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "xHj3W9Ig3MVuVlGyXchaP",
+    "old_id": "xHj3W9Ig3MVuVlGyXchaP",
+    "type": "subtopic",
+    "label": "v-if",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-if@xHj3W9Ig3MVuVlGyXchaP.md",
+    "children": []
+  },
+  {
+    "id": "0CtAZQcFJexMiJfZ-mofv",
+    "old_id": "0CtAZQcFJexMiJfZ-mofv",
+    "type": "subtopic",
+    "label": "v-else",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-else@0CtAZQcFJexMiJfZ-mofv.md",
+    "children": []
+  },
+  {
+    "id": "a9caVhderJaVo0v14w8WB",
+    "old_id": "a9caVhderJaVo0v14w8WB",
+    "type": "subtopic",
+    "label": "v-else-if",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-else-if@a9caVhderJaVo0v14w8WB.md",
+    "children": []
+  },
+  {
+    "id": "3ftwRjQ9e1-qDT9BV53zr",
+    "old_id": "3ftwRjQ9e1-qDT9BV53zr",
+    "type": "subtopic",
+    "label": "v-for",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-for@3ftwRjQ9e1-qDT9BV53zr.md",
+    "children": []
+  },
+  {
+    "id": "hVuRmhXVP65IPtuHTORjJ",
+    "old_id": "hVuRmhXVP65IPtuHTORjJ",
+    "type": "subtopic",
+    "label": "v-on",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-on@hVuRmhXVP65IPtuHTORjJ.md",
+    "children": []
+  },
+  {
+    "id": "cuM9q9vYy8JpZPGeBffd1",
+    "old_id": "cuM9q9vYy8JpZPGeBffd1",
+    "type": "subtopic",
+    "label": "v-bind",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-bind@cuM9q9vYy8JpZPGeBffd1.md",
+    "children": []
+  },
+  {
+    "id": "cxu2Wbt306SxM4JKQQqnL",
+    "old_id": "cxu2Wbt306SxM4JKQQqnL",
+    "type": "subtopic",
+    "label": "v-model",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-model@cxu2Wbt306SxM4JKQQqnL.md",
+    "children": []
+  },
+  {
+    "id": "m9pQ3daR3KiwRATcQysHA",
+    "old_id": "RrSekP8Ub01coegMwLP6a",
+    "type": "subtopic",
+    "label": "v-slot",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-cloak@RrSekP8Ub01coegMwLP6a.md",
+    "children": []
+  },
+  {
+    "id": "T4gBws699f0L6_2KitOmO",
+    "old_id": "jFgWJnXJlysaz8pDkUKZf",
+    "type": "label",
+    "label": "Interpolation",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0bGhocvW0638QjfmkB1H1",
+    "old_id": "jFgWJnXJlysaz8pDkUKZf",
+    "type": "label",
+    "label": "Conditionals",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "qS8aEgb48igiqQ_hDEm-b",
+    "old_id": "jFgWJnXJlysaz8pDkUKZf",
+    "type": "label",
+    "label": "Iterative",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "5k9CrbzhNy9iiS6ez2UE6",
+    "old_id": "mlsrhioiEkqnRIL6O3hNa",
+    "type": "subtopic",
+    "label": "v-once",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-pre@mlsrhioiEkqnRIL6O3hNa.md",
+    "children": []
+  },
+  {
+    "id": "mlsrhioiEkqnRIL6O3hNa",
+    "old_id": "cuM9q9vYy8JpZPGeBffd1",
+    "type": "subtopic",
+    "label": "v-pre",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-bind@cuM9q9vYy8JpZPGeBffd1.md",
+    "children": []
+  },
+  {
+    "id": "MZ38pZ5MykwdjjWdpd6bQ",
+    "old_id": "jFgWJnXJlysaz8pDkUKZf",
+    "type": "label",
+    "label": "Event Binding",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "jFgWJnXJlysaz8pDkUKZf",
+    "old_id": "jFgWJnXJlysaz8pDkUKZf",
+    "type": "label",
+    "label": "Templates",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "RrSekP8Ub01coegMwLP6a",
+    "old_id": "RrSekP8Ub01coegMwLP6a",
+    "type": "subtopic",
+    "label": "v-cloak",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\v-cloak@RrSekP8Ub01coegMwLP6a.md",
+    "children": []
+  },
+  {
+    "id": "RRPhAxIqvAcjZIcLe_N8-",
+    "old_id": "dxwKfBxd5KYVkfEPMdHp-",
+    "type": "subtopic",
+    "label": "Optimizing Renders",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\debugging@dxwKfBxd5KYVkfEPMdHp-.md",
+    "children": []
+  },
+  {
+    "id": "dxwKfBxd5KYVkfEPMdHp-",
+    "old_id": "tU4Umtnfu01t9gLlnlK6b",
+    "type": "subtopic",
+    "label": "Debugging",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\conditional-rendering@tU4Umtnfu01t9gLlnlK6b.md",
+    "children": []
+  },
+  {
+    "id": "WiGG9_4G5y-AVA9byw6_g",
+    "old_id": "Bx1Atxcf15AEaA1BiSIc6",
+    "type": "topic",
+    "label": "Lifecycle Hooks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\computed-properties@Bx1Atxcf15AEaA1BiSIc6.md",
+    "children": [
+      {
+        "id": "PQu4TyJOfCEaafW5th0e4",
+        "old_id": "Bx1Atxcf15AEaA1BiSIc6",
+        "type": "topic",
+        "label": "Forms Handling",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\computed-properties@Bx1Atxcf15AEaA1BiSIc6.md",
+        "children": [
+          {
+            "id": "NfB3HlZ3uwYK5xszvV50b",
+            "old_id": "NfB3HlZ3uwYK5xszvV50b",
+            "type": "subtopic",
+            "label": "Input Bindings",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\input-bindings@NfB3HlZ3uwYK5xszvV50b.md",
+            "children": []
+          },
+          {
+            "id": "gMFndBcrTC6FtGryqN6dX",
+            "old_id": "dSfrFLr8wKkLAOMJwtCTr",
+            "type": "subtopic",
+            "label": "v-model",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\modifiers@dSfrFLr8wKkLAOMJwtCTr.md",
+            "children": []
+          },
+          {
+            "id": "dSfrFLr8wKkLAOMJwtCTr",
+            "old_id": "dSfrFLr8wKkLAOMJwtCTr",
+            "type": "subtopic",
+            "label": "Modifiers",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\modifiers@dSfrFLr8wKkLAOMJwtCTr.md",
+            "children": []
+          },
+          {
+            "id": "4p6Gh2fMPA8hls_mWa5HR",
+            "old_id": "Bx1Atxcf15AEaA1BiSIc6",
+            "type": "topic",
+            "label": "Event Handling",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\computed-properties@Bx1Atxcf15AEaA1BiSIc6.md",
+            "children": [
+              {
+                "id": "b7iXwtUnELg_ShbCyTrNA",
+                "old_id": "b7iXwtUnELg_ShbCyTrNA",
+                "type": "subtopic",
+                "label": "Binding Events",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\binding-events@b7iXwtUnELg_ShbCyTrNA.md",
+                "children": []
+              },
+              {
+                "id": "Bx1Atxcf15AEaA1BiSIc6",
+                "old_id": "1vHiAZliR19a2UtT3Ps0W",
+                "type": "topic",
+                "label": "Computed Properties",
+                "resources": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gVahaZNPktQuqdukFEbQH",
+    "old_id": "gVahaZNPktQuqdukFEbQH",
+    "type": "subtopic",
+    "label": "Inline / Method Handlers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\inline--method-handlers@gVahaZNPktQuqdukFEbQH.md",
+    "children": []
+  },
+  {
+    "id": "Aaf7eA-5sbAD5Cs1MbdTQ",
+    "old_id": "Aaf7eA-5sbAD5Cs1MbdTQ",
+    "type": "subtopic",
+    "label": "Event Modifiers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\event-modifiers@Aaf7eA-5sbAD5Cs1MbdTQ.md",
+    "children": []
+  },
+  {
+    "id": "BXw36wqhmi3gExXwFCIBd",
+    "old_id": "BXw36wqhmi3gExXwFCIBd",
+    "type": "subtopic",
+    "label": "Key Modifiers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\key-modifiers@BXw36wqhmi3gExXwFCIBd.md",
+    "children": []
+  },
+  {
+    "id": "x0wl2Qz2LTP4Q2tThKAt3",
+    "old_id": "x0wl2Qz2LTP4Q2tThKAt3",
+    "type": "subtopic",
+    "label": "Mouse Button Modifiers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\mouse-button-modifiers@x0wl2Qz2LTP4Q2tThKAt3.md",
+    "children": []
+  },
+  {
+    "id": "w72iWpfaV9zTACCxSL4zI",
+    "old_id": "w72iWpfaV9zTACCxSL4zI",
+    "type": "label",
+    "label": "Animations",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "SWpWg5J5N9ZfY_DaIigA5",
+    "old_id": "SWpWg5J5N9ZfY_DaIigA5",
+    "type": "subtopic",
+    "label": "Transition",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\transition@SWpWg5J5N9ZfY_DaIigA5.md",
+    "children": []
+  },
+  {
+    "id": "HjzOYjS-7ZEBvElRJ8uN2",
+    "old_id": "HjzOYjS-7ZEBvElRJ8uN2",
+    "type": "subtopic",
+    "label": "Transition Group",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\transition-group@HjzOYjS-7ZEBvElRJ8uN2.md",
+    "children": []
+  },
+  {
+    "id": "_Fmp8_z4SKWfKUE80_fqb",
+    "old_id": "_Fmp8_z4SKWfKUE80_fqb",
+    "type": "subtopic",
+    "label": "Vee Validate",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vee-validate@_Fmp8_z4SKWfKUE80_fqb.md",
+    "children": []
+  },
+  {
+    "id": "6U_CAhAY_jyj_4Mzj_HL_",
+    "old_id": "6U_CAhAY_jyj_4Mzj_HL_",
+    "type": "subtopic",
+    "label": "Vuelidate",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vuelidate@6U_CAhAY_jyj_4Mzj_HL_.md",
+    "children": []
+  },
+  {
+    "id": "f2udJnT2q5eDmBZ_OKtmi",
+    "old_id": "_46COO0FGaFuCYwqaRRWy",
+    "type": "subtopic",
+    "label": "Quasar",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vitepress@_46COO0FGaFuCYwqaRRWy.md",
+    "children": []
+  },
+  {
+    "id": "LjEAviRMtPLwUUlfcof1h",
+    "old_id": "LjEAviRMtPLwUUlfcof1h",
+    "type": "subtopic",
+    "label": "Vitest",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vitest@LjEAviRMtPLwUUlfcof1h.md",
+    "children": []
+  },
+  {
+    "id": "p5bUvgr_3H-A55ZnEExk8",
+    "old_id": "p5bUvgr_3H-A55ZnEExk8",
+    "type": "subtopic",
+    "label": "Vue Testing Library",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vue-testing-library@p5bUvgr_3H-A55ZnEExk8.md",
+    "children": []
+  },
+  {
+    "id": "JbMKUVDMUygjXXmhndHVs",
+    "old_id": "JbMKUVDMUygjXXmhndHVs",
+    "type": "subtopic",
+    "label": "Cypress",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\cypress@JbMKUVDMUygjXXmhndHVs.md",
+    "children": []
+  },
+  {
+    "id": "zqcE3bTnymdepV-Yc8qBl",
+    "old_id": "zqcE3bTnymdepV-Yc8qBl",
+    "type": "subtopic",
+    "label": "Playwright",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\playwright@zqcE3bTnymdepV-Yc8qBl.md",
+    "children": []
+  },
+  {
+    "id": "q1PayNkcJHU43QCdChAXt",
+    "old_id": "sg9IjWWorT2lLEnUek-q5",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": [
+      {
+        "id": "9AwVtwIv6TfP9F4ulz2F0",
+        "old_id": "3RwIO-S8-xOYKNmfwk0pf",
+        "type": "topic",
+        "label": "State Management",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\mobile-apps@3RwIO-S8-xOYKNmfwk0pf.md",
+        "children": [
+          {
+            "id": "NIvjyhtTFC1gomtGQT_2t",
+            "old_id": "NIvjyhtTFC1gomtGQT_2t",
+            "type": "subtopic",
+            "label": "Pinia",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\pinia@NIvjyhtTFC1gomtGQT_2t.md",
+            "children": []
+          },
+          {
+            "id": "ZLlz0Azfze-8k3z8HnVvE",
+            "old_id": "3RwIO-S8-xOYKNmfwk0pf",
+            "type": "topic",
+            "label": "API Calls",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\mobile-apps@3RwIO-S8-xOYKNmfwk0pf.md",
+            "children": [
+              {
+                "id": "l2Rl6OQbL7kYvPlpYCZ0Z",
+                "old_id": "l2Rl6OQbL7kYvPlpYCZ0Z",
+                "type": "subtopic",
+                "label": "Apollo",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\apollo@l2Rl6OQbL7kYvPlpYCZ0Z.md",
+                "children": []
+              },
+              {
+                "id": "3RwIO-S8-xOYKNmfwk0pf",
+                "old_id": "3RwIO-S8-xOYKNmfwk0pf",
+                "type": "topic",
+                "label": "Mobile Apps",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\mobile-apps@3RwIO-S8-xOYKNmfwk0pf.md",
+                "children": [
+                  {
+                    "id": "IsNzCdS05tbAK0D1zz0Sf",
+                    "old_id": "IsNzCdS05tbAK0D1zz0Sf",
+                    "type": "subtopic",
+                    "label": "Capacitor",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\capacitor@IsNzCdS05tbAK0D1zz0Sf.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TkzlmJ85O-e-KfMhTBwry",
+    "old_id": "LjEAviRMtPLwUUlfcof1h",
+    "type": "subtopic",
+    "label": "Tailwind CSS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vitest@LjEAviRMtPLwUUlfcof1h.md",
+    "children": []
+  },
+  {
+    "id": "VNclt_QQthWb2u4xWI_uY",
+    "old_id": "p5bUvgr_3H-A55ZnEExk8",
+    "type": "subtopic",
+    "label": "Vuetify",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\vue-testing-library@p5bUvgr_3H-A55ZnEExk8.md",
+    "children": []
+  },
+  {
+    "id": "NMIh8rqLM5P-Uk65uHATn",
+    "old_id": "JbMKUVDMUygjXXmhndHVs",
+    "type": "subtopic",
+    "label": "Element UI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\cypress@JbMKUVDMUygjXXmhndHVs.md",
+    "children": []
+  },
+  {
+    "id": "uNLdPeShyAMpc-_JKMsnb",
+    "old_id": "uNLdPeShyAMpc-_JKMsnb",
+    "type": "label",
+    "label": "Testing",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "5BmKlchM8LbBo2xFOP1wk",
+    "old_id": "5BmKlchM8LbBo2xFOP1wk",
+    "type": "label",
+    "label": "Styling",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MsPIwtv5b_mp567YlLkEU",
+    "old_id": "MsPIwtv5b_mp567YlLkEU",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "n5IlN-wv4k0r16CvhoSpD",
+    "old_id": "n5IlN-wv4k0r16CvhoSpD",
+    "type": "subtopic",
+    "label": "Axios",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\axios@n5IlN-wv4k0r16CvhoSpD.md",
+    "children": []
+  },
+  {
+    "id": "ufnt87swK61kxShLuVc1-",
+    "old_id": "ufnt87swK61kxShLuVc1-",
+    "type": "subtopic",
+    "label": "fetch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\fetch@ufnt87swK61kxShLuVc1-.md",
+    "children": []
+  },
+  {
+    "id": "WSq_cDKQPZa_qmQlIdGXg",
+    "old_id": "WSq_cDKQPZa_qmQlIdGXg",
+    "type": "subtopic",
+    "label": "Tanstack Query",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\vue\\content\\tanstack-query@WSq_cDKQPZa_qmQlIdGXg.md",
+    "children": []
+  },
+  {
+    "id": "hqLe_qkIsVAisPw31NroU",
+    "old_id": "7ZP7XMaMxk1iOs3rgnuJy",
+    "type": "label",
+    "label": "GraphQL",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "7ZP7XMaMxk1iOs3rgnuJy",
+    "old_id": "7ZP7XMaMxk1iOs3rgnuJy",
+    "type": "label",
+    "label": "HTTP",
+    "resources": [],
+    "children": []
+  }
+]

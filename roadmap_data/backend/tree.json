@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "PbEblTb9tHmhrlJkUx0be",
+    "old_id": "ZzSXqvUjwOJpx-xNFVqif",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ZzSXqvUjwOJpx-xNFVqif",
+    "old_id": "ZzSXqvUjwOJpx-xNFVqif",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Uanw68R-mnUaSkg8QIUrD",
+    "old_id": "Uanw68R-mnUaSkg8QIUrD",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iogwMmOvub2ZF4zgg6WyF",
+    "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+    "type": "title",
+    "label": "Backend",
+    "resources": [],
+    "children": [
+      {
+        "id": "SiYUdtYMDImRPmV2_XPkH",
+        "old_id": "NVSQ4OtmvRp7p4cOEvKh7",
+        "type": "topic",
+        "label": "Internet",
+        "resources": [],
+        "children": [
+          {
+            "id": "yCnn-NfSxIybUQ2iTuUGq",
+            "old_id": "idLHBxhvcIqZTqmh_E8Az",
+            "type": "subtopic",
+            "label": "How does the internet work?",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "children": []
+          },
+          {
+            "id": "R12sArWVpbIs_PHxBqVaR",
+            "old_id": "os3Pa6W9SSNEzgmlBbglQ",
+            "type": "subtopic",
+            "label": "What is HTTP?",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "children": []
+          },
+          {
+            "id": "ZhSuu2VArnzPDp6dPQQSC",
+            "old_id": "3oInpqvTSSC5_K6i7j8N7",
+            "type": "subtopic",
+            "label": "What is Domain Name?",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "children": []
+          },
+          {
+            "id": "aqMaEY8gkKMikiqleV5EP",
+            "old_id": "gRjFXRwpOwoyd15PHVpdB",
+            "type": "subtopic",
+            "label": "What is hosting?",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "children": []
+          },
+          {
+            "id": "hkxw9jPGYphmjhTjw8766",
+            "old_id": "YKhuRbcUFzo0hTvuTq-Yl",
+            "type": "subtopic",
+            "label": "DNS and how it works?",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "children": []
+          },
+          {
+            "id": "P82WFaTPgQEPNp5IIuZ1Y",
+            "old_id": "CPRpuk76c9-wuIffEfu87",
+            "type": "subtopic",
+            "label": "Browsers and how they work?",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "children": []
+          },
+          {
+            "id": "2f0ZO6GJElfZ2Eis28Hzg",
+            "old_id": "uGqgITLdZbxJdGUihNqxV",
+            "type": "topic",
+            "label": "Pick a Language",
+            "resources": [],
+            "children": [
+              {
+                "id": "CWwh2abwqx4hAxpAGvhIx",
+                "old_id": "7qaMNu3lSvTNh7uKo5SVa",
+                "type": "subtopic",
+                "label": "Rust",
+                "resources": [],
+                "legend": {
+                  "color": "#4f7a28",
+                  "label": "Alternative Option / Pick this or purple"
+                },
+                "children": []
+              },
+              {
+                "id": "ezdqQW9wTUw93F6kjOzku",
+                "old_id": "f2sY4RLE0k8vVAfZFnxgj",
+                "type": "topic",
+                "label": "Version Control Systems",
+                "resources": [],
+                "children": [
+                  {
+                    "id": "NvUcSDWBhzJZ31nzT4UlE",
+                    "old_id": "I-NkKNiKBNB6f8QaFzRgU",
+                    "type": "topic",
+                    "label": "Repo Hosting Services",
+                    "resources": [],
+                    "children": [
+                      {
+                        "id": "r45b461NxLN6wBODJ5CNP",
+                        "old_id": "sJ04XNIM7JqzHnffWd5UM",
+                        "type": "topic",
+                        "label": "Relational Databases",
+                        "resources": [],
+                        "children": [
+                          {
+                            "id": "VPxOdjJtKAqmM5V0LR5OC",
+                            "old_id": "3z18KztSA_4OY7zwxpFbB",
+                            "type": "subtopic",
+                            "label": "MySQL",
+                            "resources": [],
+                            "legend": {
+                              "color": "#4f7a28",
+                              "label": "Alternative Option / Pick this or purple"
+                            },
+                            "children": []
+                          },
+                          {
+                            "id": "tD3i-8gBpMKCHB-ITyDiU",
+                            "old_id": "YXyxPWu91_gMdNwFdTfRO",
+                            "type": "subtopic",
+                            "label": "MariaDB",
+                            "resources": [],
+                            "legend": {
+                              "color": "#4f7a28",
+                              "label": "Alternative Option / Pick this or purple"
+                            },
+                            "children": []
+                          },
+                          {
+                            "id": "dEsTje8kfHwWjCI3zcgLC",
+                            "old_id": "ulpADspLetx1g61PqMGU8",
+                            "type": "subtopic",
+                            "label": "MS SQL",
+                            "resources": [],
+                            "legend": {
+                              "color": "#4f7a28",
+                              "label": "Alternative Option / Pick this or purple"
+                            },
+                            "children": []
+                          },
+                          {
+                            "id": "h1SAjQltHtztSt8QmRgab",
+                            "old_id": "bwQCmYPLWxGuE-GFmm3UG",
+                            "type": "subtopic",
+                            "label": "Oracle",
+                            "resources": [],
+                            "legend": {
+                              "color": "#4f7a28",
+                              "label": "Alternative Option / Pick this or purple"
+                            },
+                            "children": []
+                          },
+                          {
+                            "id": "FihTrMO56kj9jT8O_pO2T",
+                            "old_id": "lNsaFZwGE7vA0Km-Jfft4",
+                            "type": "subtopic",
+                            "label": "PostgreSQL",
+                            "resources": [],
+                            "legend": {
+                              "color": "#874efe",
+                              "label": "Personal Recommendation / Opinion"
+                            },
+                            "children": []
+                          },
+                          {
+                            "id": "EwvLPSI6AlZ4TnNIJTZA4",
+                            "old_id": "iGeAiNtqNadlJVDmd-p-g",
+                            "type": "topic",
+                            "label": "Learn about APIs",
+                            "resources": [],
+                            "children": [
+                              {
+                                "id": "lfNFDZZNdrB0lbEaMtU71",
+                                "old_id": "gVsbyjVssRCpAf6r-tF0O",
+                                "type": "subtopic",
+                                "label": "REST",
+                                "resources": [],
+                                "legend": {
+                                  "color": "#874efe",
+                                  "label": "Personal Recommendation / Opinion"
+                                },
+                                "children": []
+                              },
+                              {
+                                "id": "ELj8af7Mi38kUbaPJfCUR",
+                                "old_id": "T632e8R4J001IajMm9yp7",
+                                "type": "topic",
+                                "label": "Caching",
+                                "resources": [],
+                                "children": [
+                                  {
+                                    "id": "z1-eP4sV75GBEIdM4NvL9",
+                                    "old_id": "xPvVwGQw28uMeLYIWn8yn",
+                                    "type": "subtopic",
+                                    "label": "Server Side",
+                                    "resources": [],
+                                    "legend": {
+                                      "color": "#874efe",
+                                      "label": "Personal Recommendation / Opinion"
+                                    },
+                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\memcached@xPvVwGQw28uMeLYIWn8yn.md",
+                                    "children": [
+                                      {
+                                        "id": "xPvVwGQw28uMeLYIWn8yn",
+                                        "old_id": "DfDS2g4vh52wUPGJN3mfV",
+                                        "type": "subtopic",
+                                        "label": "Memcached",
+                                        "resources": [],
+                                        "legend": {
+                                          "color": "#4f7a28",
+                                          "label": "Alternative Option / Pick this or purple"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "Nq2BO53bHJdFT1rGZPjYx",
+                                    "old_id": "bIXcS6GrLumi6encivC_r",
+                                    "type": "subtopic",
+                                    "label": "CDN",
+                                    "resources": [],
+                                    "legend": {
+                                      "color": "#874efe",
+                                      "label": "Personal Recommendation / Opinion"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "KWTbEVX_WxS8jmSaAX3Fe",
+                                    "old_id": "VCs8QGDemoQSkB36h9PJK",
+                                    "type": "subtopic",
+                                    "label": "Client Side",
+                                    "resources": [],
+                                    "legend": {
+                                      "color": "#874efe",
+                                      "label": "Personal Recommendation / Opinion"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "RBrIP5KbVQ2F0ly7kMfTo",
+                                    "old_id": "Mu-HTzcpluvHTcfv0-nMw",
+                                    "type": "topic",
+                                    "label": "Web Security",
+                                    "resources": [],
+                                    "children": [
+                                      {
+                                        "id": "kGTALrvCpxyVCXHRmkI7s",
+                                        "old_id": "dlG1bVkDmjI3PEGpkm1xH",
+                                        "type": "subtopic",
+                                        "label": "scrypt",
+                                        "resources": [],
+                                        "legend": {
+                                          "color": "#874efe",
+                                          "label": "Personal Recommendation / Opinion"
+                                        },
+                                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\bcrypt@dlG1bVkDmjI3PEGpkm1xH.md",
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "JVN38r5jENoteia3YeIQ3",
+                                        "old_id": "dlG1bVkDmjI3PEGpkm1xH",
+                                        "type": "subtopic",
+                                        "label": "SHA",
+                                        "resources": [],
+                                        "legend": {
+                                          "color": "#874efe",
+                                          "label": "Personal Recommendation / Opinion"
+                                        },
+                                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\bcrypt@dlG1bVkDmjI3PEGpkm1xH.md",
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "jWwA6yX4Zjx-r_KpDaD3c",
+                                        "old_id": "WQkKdXwjbqov8KLR4Bn20",
+                                        "type": "subtopic",
+                                        "label": "MD5",
+                                        "resources": [],
+                                        "legend": {
+                                          "color": "#874efe",
+                                          "label": "Personal Recommendation / Opinion"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "dlG1bVkDmjI3PEGpkm1xH",
+                                        "old_id": "TJaO2ePry2wrNVasuj2me",
+                                        "type": "subtopic",
+                                        "label": "bcrypt",
+                                        "resources": [],
+                                        "legend": {
+                                          "color": "#874efe",
+                                          "label": "Personal Recommendation / Opinion"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "4_q73_Fz02yj45i7NcRlA",
+                                        "old_id": "4_q73_Fz02yj45i7NcRlA",
+                                        "type": "section",
+                                        "label": "",
+                                        "resources": [],
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "STQQbPa7PE3gbjMdL6P-t",
+                                        "old_id": "RFUPBl2Q9hBXP9HacPOo1",
+                                        "type": "topic",
+                                        "label": "Testing",
+                                        "resources": [],
+                                        "children": [
+                                          {
+                                            "id": "3OYm6b9f6WOrKi4KTOZYK",
+                                            "old_id": "J_kRwf-neWCW5DjfBmybt",
+                                            "type": "subtopic",
+                                            "label": "Unit Testing",
+                                            "resources": [],
+                                            "legend": {
+                                              "color": "#874efe",
+                                              "label": "Personal Recommendation / Opinion"
+                                            },
+                                            "children": []
+                                          },
+                                          {
+                                            "id": "381Kw1IMRv7CJp-Uf--qd",
+                                            "old_id": "U7mP1unVOQgVXCCuXh8De",
+                                            "type": "subtopic",
+                                            "label": "Integration Testing",
+                                            "resources": [],
+                                            "legend": {
+                                              "color": "#874efe",
+                                              "label": "Personal Recommendation / Opinion"
+                                            },
+                                            "children": []
+                                          },
+                                          {
+                                            "id": "NAGisfq2CgeK3SsuRjnMw",
+                                            "old_id": "Lcb9mmKc5k2UofZ0_o6Rs",
+                                            "type": "subtopic",
+                                            "label": "Functional Testing",
+                                            "resources": [],
+                                            "legend": {
+                                              "color": "#874efe",
+                                              "label": "Personal Recommendation / Opinion"
+                                            },
+                                            "children": []
+                                          },
+                                          {
+                                            "id": "mGfD7HfuP184lFkXZzGjG",
+                                            "old_id": "ZbqxpSU_yVIqn18nTHi7o",
+                                            "type": "topic",
+                                            "label": "CI / CD",
+                                            "resources": [],
+                                            "children": [
+                                              {
+                                                "id": "LJt27onEOeIBomiEMTyKd",
+                                                "old_id": "pNTfCAoFYG6YwBm5EOCvw",
+                                                "type": "topic",
+                                                "label": "More about Databases",
+                                                "resources": [],
+                                                "children": [
+                                                  {
+                                                    "id": "Z7jp_Juj5PffSxV7UZcBb",
+                                                    "old_id": "FHrVrP-ndnV8MsDKMxdsq",
+                                                    "type": "subtopic",
+                                                    "label": "ORMs",
+                                                    "resources": [],
+                                                    "legend": {
+                                                      "color": "#874efe",
+                                                      "label": "Personal Recommendation / Opinion"
+                                                    },
+                                                    "children": []
+                                                  },
+                                                  {
+                                                    "id": "qSAdfaGUfn8mtmDjHJi3z",
+                                                    "old_id": "4aBoOyTn1ALDRHYcfwzHf",
+                                                    "type": "subtopic",
+                                                    "label": "ACID",
+                                                    "resources": [],
+                                                    "legend": {
+                                                      "color": "#874efe",
+                                                      "label": "Personal Recommendation / Opinion"
+                                                    },
+                                                    "children": []
+                                                  },
+                                                  {
+                                                    "id": "rq_y_OBMD9AH_4aoecvAi",
+                                                    "old_id": "plXELtRHevUzYUL3doQSs",
+                                                    "type": "subtopic",
+                                                    "label": "Transactions",
+                                                    "resources": [],
+                                                    "legend": {
+                                                      "color": "#874efe",
+                                                      "label": "Personal Recommendation / Opinion"
+                                                    },
+                                                    "children": []
+                                                  },
+                                                  {
+                                                    "id": "bQnOAu863hsHdyNMNyJop",
+                                                    "old_id": "5pdTq6LCx8VXjd0-J1a1s",
+                                                    "type": "subtopic",
+                                                    "label": "N+1 Problem",
+                                                    "resources": [],
+                                                    "legend": {
+                                                      "color": "#874efe",
+                                                      "label": "Personal Recommendation / Opinion"
+                                                    },
+                                                    "children": []
+                                                  },
+                                                  {
+                                                    "id": "Ge2SnKBrQQrU-oGLz6TmT",
+                                                    "old_id": "50VkyrePI7pvgEyrWB1xN",
+                                                    "type": "subtopic",
+                                                    "label": "Normalization",
+                                                    "resources": [],
+                                                    "legend": {
+                                                      "color": "#874efe",
+                                                      "label": "Personal Recommendation / Opinion"
+                                                    },
+                                                    "children": []
+                                                  },
+                                                  {
+                                                    "id": "GwApfL4Yx-b5Y8dB9Vy__",
+                                                    "old_id": "--uLs-qyQYLn1WDir6KVt",
+                                                    "type": "subtopic",
+                                                    "label": "Failure Modes",
+                                                    "resources": [],
+                                                    "legend": {
+                                                      "color": "#874efe",
+                                                      "label": "Personal Recommendation / Opinion"
+                                                    },
+                                                    "children": []
+                                                  },
+                                                  {
+                                                    "id": "SYXJhanu0lFmGj2m2XXhS",
+                                                    "old_id": "rFgQmfporOARKXsmzAy64",
+                                                    "type": "subtopic",
+                                                    "label": "Profiling Perfor.",
+                                                    "resources": [],
+                                                    "legend": {
+                                                      "color": "#874efe",
+                                                      "label": "Personal Recommendation / Opinion"
+                                                    },
+                                                    "children": []
+                                                  },
+                                                  {
+                                                    "id": "95d9itpUZ4s9roZN8kG9x",
+                                                    "old_id": "h2QJvs2kJjVUTPe0u7lbI",
+                                                    "type": "topic",
+                                                    "label": "Scaling Databases",
+                                                    "resources": [],
+                                                    "children": [
+                                                      {
+                                                        "id": "y-xkHFE9YzhNIX3EiWspL",
+                                                        "old_id": "S9MgYBsbsQ47S7J0Qg8wi",
+                                                        "type": "subtopic",
+                                                        "label": "Database Indexes",
+                                                        "resources": [],
+                                                        "legend": {
+                                                          "color": "#874efe",
+                                                          "label": "Personal Recommendation / Opinion"
+                                                        },
+                                                        "children": []
+                                                      },
+                                                      {
+                                                        "id": "zWstl08R4uzqve4BdYurp",
+                                                        "old_id": "5dMoHdwlIIT8o3SE4JIJA",
+                                                        "type": "subtopic",
+                                                        "label": "Sharding Strategies",
+                                                        "resources": [],
+                                                        "legend": {
+                                                          "color": "#929292",
+                                                          "label": "Order not strict / Learn anytime"
+                                                        },
+                                                        "children": []
+                                                      },
+                                                      {
+                                                        "id": "wrl7HHWXOaxoKVlNZxZ6d",
+                                                        "old_id": "x4ws8SdWuAI2aH_kDauT0",
+                                                        "type": "subtopic",
+                                                        "label": "Data Replication",
+                                                        "resources": [],
+                                                        "legend": {
+                                                          "color": "#929292",
+                                                          "label": "Order not strict / Learn anytime"
+                                                        },
+                                                        "children": []
+                                                      },
+                                                      {
+                                                        "id": "LAdKDJ4LcMaDWqslMvE8X",
+                                                        "old_id": "w_wOm7K0vM0mdW1aoNkoS",
+                                                        "type": "subtopic",
+                                                        "label": "CAP Theorem",
+                                                        "resources": [],
+                                                        "legend": {
+                                                          "color": "#929292",
+                                                          "label": "Order not strict / Learn anytime"
+                                                        },
+                                                        "children": []
+                                                      },
+                                                      {
+                                                        "id": "ruK1Bf7XVIgOHguNFxYlY",
+                                                        "old_id": "sSG9zK0ZGTBSk-nFIOq8A",
+                                                        "type": "button",
+                                                        "label": "Software Design & Architecture",
+                                                        "resources": [],
+                                                        "children": [
+                                                          {
+                                                            "id": "9Fpoor-Os_9lvrwu5Zjh-",
+                                                            "old_id": "pcrqm3BuBvkpiv5KOgmHH",
+                                                            "type": "topic",
+                                                            "label": "Design and Development Principles",
+                                                            "resources": [],
+                                                            "children": [
+                                                              {
+                                                                "id": "6XIWO0MoE-ySl4qh_ihXa",
+                                                                "old_id": "SbNqTFqv0nGaEgFRPJTdF",
+                                                                "type": "subtopic",
+                                                                "label": "GOF Design Patterns",
+                                                                "resources": [],
+                                                                "legend": {
+                                                                  "color": "#874efe",
+                                                                  "label": "Personal Recommendation / Opinion"
+                                                                },
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "id": "BvHi5obg0L1JDZFKBzx9t",
+                                                                "old_id": "qrAayg7BD7kxb7_L2SJah",
+                                                                "type": "subtopic",
+                                                                "label": "Domain Driven Design",
+                                                                "resources": [],
+                                                                "legend": {
+                                                                  "color": "#874efe",
+                                                                  "label": "Personal Recommendation / Opinion"
+                                                                },
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "id": "I-PUAE2AzbEaUkW9vMaUM",
+                                                                "old_id": "2s5av-0dXEoxUdJDBkGAw",
+                                                                "type": "subtopic",
+                                                                "label": "Test Driven Development",
+                                                                "resources": [],
+                                                                "legend": {
+                                                                  "color": "#874efe",
+                                                                  "label": "Personal Recommendation / Opinion"
+                                                                },
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "id": "u8IRw5PuXGUcmxA0YYXgx",
+                                                                "old_id": "9f7ACjQRRLA7XKYnksZSf",
+                                                                "type": "subtopic",
+                                                                "label": "CQRS",
+                                                                "resources": [],
+                                                                "legend": {
+                                                                  "color": "#929292",
+                                                                  "label": "Order not strict / Learn anytime"
+                                                                },
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "id": "wqE-mkxvehOzOv8UyE39p",
+                                                                "old_id": "O9Rikw8IeZBubICKMEWfh",
+                                                                "type": "subtopic",
+                                                                "label": "Event Sourcing",
+                                                                "resources": [],
+                                                                "legend": {
+                                                                  "color": "#929292",
+                                                                  "label": "Order not strict / Learn anytime"
+                                                                },
+                                                                "children": []
+                                                              },
+                                                              {
+                                                                "id": "SGVwJme-jT_pbOTvems0v",
+                                                                "old_id": "xC2dMtwvHtn7bvkjoILGC",
+                                                                "type": "topic",
+                                                                "label": "Containerization vs Virtualization",
+                                                                "resources": [],
+                                                                "children": [
+                                                                  {
+                                                                    "id": "vDaxr8AIaPbG_3mHr0N6X",
+                                                                    "old_id": "94oRYuULJPdOMI1wihFrU",
+                                                                    "type": "button",
+                                                                    "label": "Kubernetes",
+                                                                    "resources": [],
+                                                                    "children": []
+                                                                  },
+                                                                  {
+                                                                    "id": "nJ5FpFgGCRaALcWmAKBKT",
+                                                                    "old_id": "ztkOqlGQWIilnsSAw0il9",
+                                                                    "type": "topic",
+                                                                    "label": "Message Brokers",
+                                                                    "resources": [],
+                                                                    "children": [
+                                                                      {
+                                                                        "id": "gKTSe9yQFVbPVlLzWB0hC",
+                                                                        "old_id": "nJ5FpFgGCRaALcWmAKBKT",
+                                                                        "type": "topic",
+                                                                        "label": "Search Engines",
+                                                                        "resources": [],
+                                                                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\message-brokers@nJ5FpFgGCRaALcWmAKBKT.md",
+                                                                        "children": [
+                                                                          {
+                                                                            "id": "fekyMpEnaGqjh1Cu4Nyc4",
+                                                                            "old_id": "RPxWYpvCIOvqxJSZXvbrg",
+                                                                            "type": "topic",
+                                                                            "label": "Web Servers",
+                                                                            "resources": [],
+                                                                            "children": [
+                                                                              {
+                                                                                "id": "z5AdThp9ByulmM9uekgm-",
+                                                                                "old_id": "EszP1HTjYUcKJlODbvIlQ",
+                                                                                "type": "subtopic",
+                                                                                "label": "Nginx",
+                                                                                "resources": [],
+                                                                                "legend": {
+                                                                                  "color": "#874efe",
+                                                                                  "label": "Personal Recommendation / Opinion"
+                                                                                },
+                                                                                "children": []
+                                                                              },
+                                                                              {
+                                                                                "id": "jjjonHTHHo-NiAf6p9xPv",
+                                                                                "old_id": "OV10LPpeU9WkCnLB2nbjh",
+                                                                                "type": "subtopic",
+                                                                                "label": "Apache",
+                                                                                "resources": [],
+                                                                                "legend": {
+                                                                                  "color": "#4f7a28",
+                                                                                  "label": "Alternative Option / Pick this or purple"
+                                                                                },
+                                                                                "children": []
+                                                                              },
+                                                                              {
+                                                                                "id": "5XGvep2qoti31bsyqNzrU",
+                                                                                "old_id": "fekyMpEnaGqjh1Cu4Nyc4",
+                                                                                "type": "topic",
+                                                                                "label": "Real-Time Data",
+                                                                                "resources": [],
+                                                                                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\learn-about-web-servers@fekyMpEnaGqjh1Cu4Nyc4.md",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "id": "RUSdlokJUcEYbCvq5FJBJ",
+                                                                                    "old_id": "nCUR4HAGITzZGQ9Ur-lwF",
+                                                                                    "type": "subtopic",
+                                                                                    "label": "Server Sent Events",
+                                                                                    "resources": [],
+                                                                                    "legend": {
+                                                                                      "color": "#874efe",
+                                                                                      "label": "Personal Recommendation / Opinion"
+                                                                                    },
+                                                                                    "children": []
+                                                                                  },
+                                                                                  {
+                                                                                    "id": "sVuIdAe08IWJVqAt4z-ag",
+                                                                                    "old_id": "AdD_qP2zWpDRF7fye4BAf",
+                                                                                    "type": "subtopic",
+                                                                                    "label": "WebSockets",
+                                                                                    "resources": [],
+                                                                                    "legend": {
+                                                                                      "color": "#874efe",
+                                                                                      "label": "Personal Recommendation / Opinion"
+                                                                                    },
+                                                                                    "children": []
+                                                                                  },
+                                                                                  {
+                                                                                    "id": "osvajAJlwGI3XnX0fE-kA",
+                                                                                    "old_id": "sVuIdAe08IWJVqAt4z-ag",
+                                                                                    "type": "subtopic",
+                                                                                    "label": "Long Polling",
+                                                                                    "resources": [],
+                                                                                    "legend": {
+                                                                                      "color": "#874efe",
+                                                                                      "label": "Personal Recommendation / Opinion"
+                                                                                    },
+                                                                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\websockets@sVuIdAe08IWJVqAt4z-ag.md",
+                                                                                    "children": []
+                                                                                  },
+                                                                                  {
+                                                                                    "id": "Tt7yr-ChHncJG0Ge1f0Xk",
+                                                                                    "old_id": "osvajAJlwGI3XnX0fE-kA",
+                                                                                    "type": "subtopic",
+                                                                                    "label": "Short Polling",
+                                                                                    "resources": [],
+                                                                                    "legend": {
+                                                                                      "color": "#874efe",
+                                                                                      "label": "Personal Recommendation / Opinion"
+                                                                                    },
+                                                                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\long--short-polling@osvajAJlwGI3XnX0fE-kA.md",
+                                                                                    "children": []
+                                                                                  },
+                                                                                  {
+                                                                                    "id": "T-5VzcfnC9gdSD9zJfGei",
+                                                                                    "old_id": "vDaxr8AIaPbG_3mHr0N6X",
+                                                                                    "type": "button",
+                                                                                    "label": "GraphQL",
+                                                                                    "resources": [],
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "id": "F8frGuv1dunOdcVJ_IiGs",
+                                                                                        "old_id": "CNTHlHWUKgX1iafCRmV9s",
+                                                                                        "type": "topic",
+                                                                                        "label": "NoSQL Databases",
+                                                                                        "resources": [],
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "id": "SHmbcMRsc3SygEDksJQBD",
+                                                                                            "old_id": "lk9FVM9b-vD6HrCgdMts5",
+                                                                                            "type": "topic",
+                                                                                            "label": "Building For Scale",
+                                                                                            "resources": [],
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "id": "yAWJWj4D761M0i8iERID3",
+                                                                                                "old_id": "T-5VzcfnC9gdSD9zJfGei",
+                                                                                                "type": "button",
+                                                                                                "label": "Basic Infrastructure Knowledge",
+                                                                                                "resources": [],
+                                                                                                "children": []
+                                                                                              },
+                                                                                              {
+                                                                                                "id": "f7iWBkC0X7yyCoP_YubVd",
+                                                                                                "old_id": "8IH45wy4nlKOmoXusIki3",
+                                                                                                "type": "subtopic",
+                                                                                                "label": "Migration Strategies",
+                                                                                                "resources": [],
+                                                                                                "legend": {
+                                                                                                  "color": "#874efe",
+                                                                                                  "label": "Personal Recommendation / Opinion"
+                                                                                                },
+                                                                                                "children": []
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "id": "tHiUpG9LN35E5RaHddMv5",
+                                                            "old_id": "vuQZVKbu31v9pPvUFO0PS",
+                                                            "type": "topic",
+                                                            "label": "Architectural Patterns",
+                                                            "resources": [],
+                                                            "children": [
+                                                              {
+                                                                "id": "Ke522R-4k6TDeiDRyZbbU",
+                                                                "old_id": "eEjwT_0m1ClZ1Mzk3Tpe1",
+                                                                "type": "subtopic",
+                                                                "label": "Monolithic Apps",
+                                                                "resources": [],
+                                                                "legend": {
+                                                                  "color": "#874efe",
+                                                                  "label": "Personal Recommendation / Opinion"
+                                                                },
+                                                                "children": []
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "ZsZvStCvKwFhlBYe9HGhl",
+                                                    "old_id": "ZsZvStCvKwFhlBYe9HGhl",
+                                                    "type": "subtopic",
+                                                    "label": "Migrations",
+                                                    "resources": [],
+                                                    "legend": {
+                                                      "color": "#874efe",
+                                                      "label": "Personal Recommendation / Opinion"
+                                                    },
+                                                    "children": []
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "UFd8PEg6IwJMXvuv8Ow1f",
+                                "old_id": "UFd8PEg6IwJMXvuv8Ow1f",
+                                "type": "section",
+                                "label": "",
+                                "resources": [],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": "kdulE3Z_BdbtRmq6T2KmR",
+                            "old_id": "h1SAjQltHtztSt8QmRgab",
+                            "type": "subtopic",
+                            "label": "SQLite",
+                            "resources": [],
+                            "legend": {
+                              "color": "#4f7a28",
+                              "label": "Alternative Option / Pick this or purple"
+                            },
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\oracle@h1SAjQltHtztSt8QmRgab.md",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "Ry_5Y-BK7HrkIc6X0JG1m",
+                        "old_id": "e4KQQInL16_RB4JdObH0I",
+                        "type": "subtopic",
+                        "label": "Bitbucket",
+                        "resources": [],
+                        "legend": {
+                          "color": "#4f7a28",
+                          "label": "Alternative Option / Pick this or purple"
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "Wcp-VDdFHipwa7hNAp1z_",
+                        "old_id": "yqA_KjfiUMC8BUu4IK9cy",
+                        "type": "subtopic",
+                        "label": "GitLab",
+                        "resources": [],
+                        "legend": {
+                          "color": "#4f7a28",
+                          "label": "Alternative Option / Pick this or purple"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "_I1E__wCIVrhjMk6IMieE",
+                    "old_id": "eyP1K2ve-C0gDYt6Hdgw0",
+                    "type": "subtopic",
+                    "label": "Git",
+                    "resources": [],
+                    "legend": {
+                      "color": "#874efe",
+                      "label": "Personal Recommendation / Opinion"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l9Wrq_Ad9-Ju4NIB0m5Ha",
+    "old_id": "uVNbFu2GDndpQFLkfGTKp",
+    "type": "subtopic",
+    "label": "PHP",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "children": []
+  },
+  {
+    "id": "BdXbcz4-ar3XOX0wIKzBp",
+    "old_id": "Of5xsnf0QtksCDnCCHKIv",
+    "type": "subtopic",
+    "label": "Go",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "8-lO-v6jCYYoklEJXULxN",
+    "old_id": "CyQ_GODtWgrz6Uikts5bJ",
+    "type": "subtopic",
+    "label": "JavaScript",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "ANeSwxJDJyQ-49pO2-CCI",
+    "old_id": "5HsVY274YCvC6DqqHlSDD",
+    "type": "subtopic",
+    "label": "Java",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "children": []
+  },
+  {
+    "id": "J_sVHsD72Yzyqb9KCIvAY",
+    "old_id": "FIPHmInvgJg9e8KqDAh2g",
+    "type": "subtopic",
+    "label": "Python",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "children": []
+  },
+  {
+    "id": "rImbMHLLfJwjf3l25vBkc",
+    "old_id": "f9zIA51FbZ4ppqkpWFXzX",
+    "type": "subtopic",
+    "label": "C#",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "children": []
+  },
+  {
+    "id": "SlH0Rl07yURDko2nDPfFy",
+    "old_id": "lEik_KnhW02L7xDMcutDa",
+    "type": "subtopic",
+    "label": "Ruby",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "children": []
+  },
+  {
+    "id": "ptD8EVqwFUYr4W5A_tABY",
+    "old_id": "eCkVAP0s0GKyY88M2fBDS",
+    "type": "subtopic",
+    "label": "GitHub",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "dLY0KafPstajCcSbslC4M",
+    "old_id": "jg0GK9Vk3j4ASFJAYTCg9",
+    "type": "subtopic",
+    "label": "HATEOAS",
+    "resources": [],
+    "legend": {
+      "color": "#929292",
+      "label": "Order not strict / Learn anytime"
+    },
+    "children": []
+  },
+  {
+    "id": "sNceS4MpSIjRkWhNDmrFg",
+    "old_id": "eZd-7w3ka8BhaAx8kGTgi",
+    "type": "subtopic",
+    "label": "JSON APIs",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "9cD5ag1L0GqHx4_zxc5JX",
+    "old_id": "DUfNRRq7b-9qrmi3Jl9cg",
+    "type": "subtopic",
+    "label": "Open API Specs",
+    "resources": [],
+    "legend": {
+      "color": "#929292",
+      "label": "Order not strict / Learn anytime"
+    },
+    "children": []
+  },
+  {
+    "id": "sSNf93azjuyMzQqIHE0Rh",
+    "old_id": "WcI3SBJRcNaE188PNbOVu",
+    "type": "subtopic",
+    "label": "SOAP",
+    "resources": [],
+    "legend": {
+      "color": "#929292",
+      "label": "Order not strict / Learn anytime"
+    },
+    "children": []
+  },
+  {
+    "id": "J-TOE2lT4At1mSdNoxPS1",
+    "old_id": "QWSfT7edQOzSqxErGjzEW",
+    "type": "subtopic",
+    "label": "gRPC",
+    "resources": [],
+    "legend": {
+      "color": "#929292",
+      "label": "Order not strict / Learn anytime"
+    },
+    "children": []
+  },
+  {
+    "id": "zp3bq38tMnutT2N0tktOW",
+    "old_id": "SuTsL6Hx2f9mGGkuz6qzR",
+    "type": "subtopic",
+    "label": "GraphQL",
+    "resources": [],
+    "legend": {
+      "color": "#929292",
+      "label": "Order not strict / Learn anytime"
+    },
+    "children": []
+  },
+  {
+    "id": "nkmIv3dNwre4yrULMgTh3",
+    "old_id": "hbD8zLd1zLo8cxe1Zzv_q",
+    "type": "subtopic",
+    "label": "Serverless",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "K55h3aqOGe6-hgVhiFisT",
+    "old_id": "3ihAuijCWt3qpmjhCvPAN",
+    "type": "subtopic",
+    "label": "Microservices",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "n14b7sfTOwsjKTpFC9EZ2",
+    "old_id": "qpFqX--0c3Ns3GcMTLwIV",
+    "type": "subtopic",
+    "label": "Service Mesh",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "tObmzWpjsJtK4GWhx6pwB",
+    "old_id": "VN_aqqc0Ud08WEfGm0RD0",
+    "type": "subtopic",
+    "label": "SOA",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "8DmabQJXlrT__COZrDVTV",
+    "old_id": "-Kl-yF0-CvcxFVftrIhc3",
+    "type": "subtopic",
+    "label": "Twelve Factor Apps",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "GPFRMcY1DEtRgnaZwJ3vW",
+    "old_id": "nWqysC_xHODqEUf0bHiac",
+    "type": "subtopic",
+    "label": "RabbitMQ",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "children": []
+  },
+  {
+    "id": "VoYSis1F1ZfTxMlQlXQKB",
+    "old_id": "jHzW3C8W4K0B-APmq20sQ",
+    "type": "subtopic",
+    "label": "Kafka",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "31ZlpfIPr9-5vYZqvjUeL",
+    "old_id": "SoLgdE9kMRb5TOPmiFNTg",
+    "type": "subtopic",
+    "label": "LXC",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Op-PSPNoyj6Ss9CS09AXh",
+    "old_id": "GWX9hx7Zi-hJEuQl_smnD",
+    "type": "subtopic",
+    "label": "Caddy",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "children": [
+      {
+        "id": "fekyMpEnaGqjh1Cu4Nyc4",
+        "old_id": "RPxWYpvCIOvqxJSZXvbrg",
+        "type": "topic",
+        "label": "Web Servers",
+        "resources": [],
+        "children": [
+          {
+            "id": "z5AdThp9ByulmM9uekgm-",
+            "old_id": "EszP1HTjYUcKJlODbvIlQ",
+            "type": "subtopic",
+            "label": "Nginx",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "children": []
+          },
+          {
+            "id": "jjjonHTHHo-NiAf6p9xPv",
+            "old_id": "OV10LPpeU9WkCnLB2nbjh",
+            "type": "subtopic",
+            "label": "Apache",
+            "resources": [],
+            "legend": {
+              "color": "#4f7a28",
+              "label": "Alternative Option / Pick this or purple"
+            },
+            "children": []
+          },
+          {
+            "id": "5XGvep2qoti31bsyqNzrU",
+            "old_id": "fekyMpEnaGqjh1Cu4Nyc4",
+            "type": "topic",
+            "label": "Real-Time Data",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\learn-about-web-servers@fekyMpEnaGqjh1Cu4Nyc4.md",
+            "children": [
+              {
+                "id": "RUSdlokJUcEYbCvq5FJBJ",
+                "old_id": "nCUR4HAGITzZGQ9Ur-lwF",
+                "type": "subtopic",
+                "label": "Server Sent Events",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "children": []
+              },
+              {
+                "id": "sVuIdAe08IWJVqAt4z-ag",
+                "old_id": "AdD_qP2zWpDRF7fye4BAf",
+                "type": "subtopic",
+                "label": "WebSockets",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "children": []
+              },
+              {
+                "id": "osvajAJlwGI3XnX0fE-kA",
+                "old_id": "sVuIdAe08IWJVqAt4z-ag",
+                "type": "subtopic",
+                "label": "Long Polling",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\websockets@sVuIdAe08IWJVqAt4z-ag.md",
+                "children": []
+              },
+              {
+                "id": "Tt7yr-ChHncJG0Ge1f0Xk",
+                "old_id": "osvajAJlwGI3XnX0fE-kA",
+                "type": "subtopic",
+                "label": "Short Polling",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\long--short-polling@osvajAJlwGI3XnX0fE-kA.md",
+                "children": []
+              },
+              {
+                "id": "T-5VzcfnC9gdSD9zJfGei",
+                "old_id": "vDaxr8AIaPbG_3mHr0N6X",
+                "type": "button",
+                "label": "GraphQL",
+                "resources": [],
+                "children": [
+                  {
+                    "id": "F8frGuv1dunOdcVJ_IiGs",
+                    "old_id": "CNTHlHWUKgX1iafCRmV9s",
+                    "type": "topic",
+                    "label": "NoSQL Databases",
+                    "resources": [],
+                    "children": [
+                      {
+                        "id": "SHmbcMRsc3SygEDksJQBD",
+                        "old_id": "lk9FVM9b-vD6HrCgdMts5",
+                        "type": "topic",
+                        "label": "Building For Scale",
+                        "resources": [],
+                        "children": [
+                          {
+                            "id": "yAWJWj4D761M0i8iERID3",
+                            "old_id": "T-5VzcfnC9gdSD9zJfGei",
+                            "type": "button",
+                            "label": "Basic Infrastructure Knowledge",
+                            "resources": [],
+                            "children": []
+                          },
+                          {
+                            "id": "f7iWBkC0X7yyCoP_YubVd",
+                            "old_id": "8IH45wy4nlKOmoXusIki3",
+                            "type": "subtopic",
+                            "label": "Migration Strategies",
+                            "resources": [],
+                            "legend": {
+                              "color": "#874efe",
+                              "label": "Personal Recommendation / Opinion"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0NJDgfe6eMa7qPUOI6Eya",
+    "old_id": "th-s4CCGHamJSHHWbRbtF",
+    "type": "subtopic",
+    "label": "MS IIS",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "children": [
+      {
+        "id": "fekyMpEnaGqjh1Cu4Nyc4",
+        "old_id": "RPxWYpvCIOvqxJSZXvbrg",
+        "type": "topic",
+        "label": "Web Servers",
+        "resources": [],
+        "children": [
+          {
+            "id": "z5AdThp9ByulmM9uekgm-",
+            "old_id": "EszP1HTjYUcKJlODbvIlQ",
+            "type": "subtopic",
+            "label": "Nginx",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "children": []
+          },
+          {
+            "id": "jjjonHTHHo-NiAf6p9xPv",
+            "old_id": "OV10LPpeU9WkCnLB2nbjh",
+            "type": "subtopic",
+            "label": "Apache",
+            "resources": [],
+            "legend": {
+              "color": "#4f7a28",
+              "label": "Alternative Option / Pick this or purple"
+            },
+            "children": []
+          },
+          {
+            "id": "5XGvep2qoti31bsyqNzrU",
+            "old_id": "fekyMpEnaGqjh1Cu4Nyc4",
+            "type": "topic",
+            "label": "Real-Time Data",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\learn-about-web-servers@fekyMpEnaGqjh1Cu4Nyc4.md",
+            "children": [
+              {
+                "id": "RUSdlokJUcEYbCvq5FJBJ",
+                "old_id": "nCUR4HAGITzZGQ9Ur-lwF",
+                "type": "subtopic",
+                "label": "Server Sent Events",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "children": []
+              },
+              {
+                "id": "sVuIdAe08IWJVqAt4z-ag",
+                "old_id": "AdD_qP2zWpDRF7fye4BAf",
+                "type": "subtopic",
+                "label": "WebSockets",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "children": []
+              },
+              {
+                "id": "osvajAJlwGI3XnX0fE-kA",
+                "old_id": "sVuIdAe08IWJVqAt4z-ag",
+                "type": "subtopic",
+                "label": "Long Polling",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\websockets@sVuIdAe08IWJVqAt4z-ag.md",
+                "children": []
+              },
+              {
+                "id": "Tt7yr-ChHncJG0Ge1f0Xk",
+                "old_id": "osvajAJlwGI3XnX0fE-kA",
+                "type": "subtopic",
+                "label": "Short Polling",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\long--short-polling@osvajAJlwGI3XnX0fE-kA.md",
+                "children": []
+              },
+              {
+                "id": "T-5VzcfnC9gdSD9zJfGei",
+                "old_id": "vDaxr8AIaPbG_3mHr0N6X",
+                "type": "button",
+                "label": "GraphQL",
+                "resources": [],
+                "children": [
+                  {
+                    "id": "F8frGuv1dunOdcVJ_IiGs",
+                    "old_id": "CNTHlHWUKgX1iafCRmV9s",
+                    "type": "topic",
+                    "label": "NoSQL Databases",
+                    "resources": [],
+                    "children": [
+                      {
+                        "id": "SHmbcMRsc3SygEDksJQBD",
+                        "old_id": "lk9FVM9b-vD6HrCgdMts5",
+                        "type": "topic",
+                        "label": "Building For Scale",
+                        "resources": [],
+                        "children": [
+                          {
+                            "id": "yAWJWj4D761M0i8iERID3",
+                            "old_id": "T-5VzcfnC9gdSD9zJfGei",
+                            "type": "button",
+                            "label": "Basic Infrastructure Knowledge",
+                            "resources": [],
+                            "children": []
+                          },
+                          {
+                            "id": "f7iWBkC0X7yyCoP_YubVd",
+                            "old_id": "8IH45wy4nlKOmoXusIki3",
+                            "type": "subtopic",
+                            "label": "Migration Strategies",
+                            "resources": [],
+                            "legend": {
+                              "color": "#874efe",
+                              "label": "Personal Recommendation / Opinion"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "g8GjkJAhvnSxXTZks0V1g",
+    "old_id": "xPvVwGQw28uMeLYIWn8yn",
+    "type": "subtopic",
+    "label": "Redis",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\memcached@xPvVwGQw28uMeLYIWn8yn.md",
+    "children": []
+  },
+  {
+    "id": "28U6q_X-NTYf7OSKHjoWH",
+    "old_id": "Xv09yYM-kt_kMbFWL7PCP",
+    "type": "subtopic",
+    "label": "MongoDB",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "qOlNzZ7U8LhIGukb67n7U",
+    "old_id": "28U6q_X-NTYf7OSKHjoWH",
+    "type": "subtopic",
+    "label": "CouchDB",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\mongodb@28U6q_X-NTYf7OSKHjoWH.md",
+    "children": []
+  },
+  {
+    "id": "BTNJfWemFKEeNeTyENXui",
+    "old_id": "zIP4lygeKaH1P-VYRMpdU",
+    "type": "subtopic",
+    "label": "Neo4j",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "G9AI_i3MkUE1BsO3_-PH7",
+    "old_id": "Xv09yYM-kt_kMbFWL7PCP",
+    "type": "subtopic",
+    "label": "Graceful Degradation",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "qAu-Y4KI2Z_y-EqiG86cR",
+    "old_id": "8IeJ7ktBmXW9hH7NRzbzm",
+    "type": "subtopic",
+    "label": "Throttling",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "JansCqGDyXecQkD1K7E7e",
+    "old_id": "WdGqs2CLc2cDPEjzEPoFj",
+    "type": "subtopic",
+    "label": "Backpressure",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "HoQdX7a4SnkFRU4RPQ-D5",
+    "old_id": "KWAhsjFJilEvMka5KXzY2",
+    "type": "subtopic",
+    "label": "Loadshifting",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "spkiQTPvXY4qrhhVUkoPV",
+    "old_id": "IQ1VmqKR6MzNOM_HrJMn_",
+    "type": "subtopic",
+    "label": "Circuit Breaker",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "osQlGGy38xMcKLtgZtWaZ",
+    "old_id": "16vCgVCVKx2T6PgR6eJxo",
+    "type": "subtopic",
+    "label": "Types of Scaling",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "4X-sbqpP0NDhM99bKdqIa",
+    "old_id": "G9AI_i3MkUE1BsO3_-PH7",
+    "type": "subtopic",
+    "label": "Instrumentation",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\graceful-degradation@G9AI_i3MkUE1BsO3_-PH7.md",
+    "children": []
+  },
+  {
+    "id": "QvMEEsXh0-rzn5hDGcmEv",
+    "old_id": "qAu-Y4KI2Z_y-EqiG86cR",
+    "type": "subtopic",
+    "label": "Monitoring",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\throttling@qAu-Y4KI2Z_y-EqiG86cR.md",
+    "children": []
+  },
+  {
+    "id": "neVRtPjIHP_VG7lHwfah0",
+    "old_id": "JansCqGDyXecQkD1K7E7e",
+    "type": "subtopic",
+    "label": "Telemetry",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\backpressure@JansCqGDyXecQkD1K7E7e.md",
+    "children": []
+  },
+  {
+    "id": "uSLzfLPXxS5-P7ozscvjZ",
+    "old_id": "PkhQdVms2TGgnPrytCBPZ",
+    "type": "button",
+    "label": "DevOps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "x-WBJjBd8u93ym5gtxGsR",
+    "old_id": "kGTALrvCpxyVCXHRmkI7s",
+    "type": "subtopic",
+    "label": "HTTPS",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\scrypt@kGTALrvCpxyVCXHRmkI7s.md",
+    "children": []
+  },
+  {
+    "id": "AAgciyxuDvS2B_c6FRMvT",
+    "old_id": "dlG1bVkDmjI3PEGpkm1xH",
+    "type": "subtopic",
+    "label": "OWASP Risks",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\bcrypt@dlG1bVkDmjI3PEGpkm1xH.md",
+    "children": []
+  },
+  {
+    "id": "0v3OsaghJEGHeXX0c5kqn",
+    "old_id": "AAgciyxuDvS2B_c6FRMvT",
+    "type": "subtopic",
+    "label": "SSL/TLS",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\owasp-risks@AAgciyxuDvS2B_c6FRMvT.md",
+    "children": []
+  },
+  {
+    "id": "LU6WUbkWKbPM1rb2_gEqa",
+    "old_id": "x-WBJjBd8u93ym5gtxGsR",
+    "type": "subtopic",
+    "label": "CORS",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\https@x-WBJjBd8u93ym5gtxGsR.md",
+    "children": []
+  },
+  {
+    "id": "TZ0BWOENPv6pQm8qYB8Ow",
+    "old_id": "0v3OsaghJEGHeXX0c5kqn",
+    "type": "subtopic",
+    "label": "Server Security",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\ssltls@0v3OsaghJEGHeXX0c5kqn.md",
+    "children": []
+  },
+  {
+    "id": "HgQBde1zLUFtlwB66PR6_",
+    "old_id": "LU6WUbkWKbPM1rb2_gEqa",
+    "type": "subtopic",
+    "label": "CSP",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\cors@LU6WUbkWKbPM1rb2_gEqa.md",
+    "children": []
+  },
+  {
+    "id": "sSG9zK0ZGTBSk-nFIOq8A",
+    "old_id": "sSG9zK0ZGTBSk-nFIOq8A",
+    "type": "button",
+    "label": "API Security Best Practices",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "qN-6iiXWgn5qSzK3o0Tjo",
+    "old_id": "qN-6iiXWgn5qSzK3o0Tjo",
+    "type": "legend",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MfErpYwkJ0wiWJZEUVfrb",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "Visit Beginner Friendly Version",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PY9G7KQy8bF6eIdr1ydHf",
+    "old_id": "lfNFDZZNdrB0lbEaMtU71",
+    "type": "subtopic",
+    "label": "Authentication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\rest@lfNFDZZNdrB0lbEaMtU71.md",
+    "children": []
+  },
+  {
+    "id": "UxS_mzVUjLigEwKrXnEeB",
+    "old_id": "PY9G7KQy8bF6eIdr1ydHf",
+    "type": "subtopic",
+    "label": "JWT",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\authentication@PY9G7KQy8bF6eIdr1ydHf.md",
+    "children": []
+  },
+  {
+    "id": "yRiJgjjv2s1uV9vgo3n8m",
+    "old_id": "UxS_mzVUjLigEwKrXnEeB",
+    "type": "subtopic",
+    "label": "Basic Authentication",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\jwt@UxS_mzVUjLigEwKrXnEeB.md",
+    "children": []
+  },
+  {
+    "id": "0rGj7FThLJZouSQUhnqGW",
+    "old_id": "yRiJgjjv2s1uV9vgo3n8m",
+    "type": "subtopic",
+    "label": "Token Authentication",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\basic-authentication@yRiJgjjv2s1uV9vgo3n8m.md",
+    "children": []
+  },
+  {
+    "id": "vp-muizdICcmU0gN8zmkS",
+    "old_id": "0rGj7FThLJZouSQUhnqGW",
+    "type": "subtopic",
+    "label": "OAuth",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\token-authentication@0rGj7FThLJZouSQUhnqGW.md",
+    "children": []
+  },
+  {
+    "id": "ffzsh8_5yRq85trFt9Xhk",
+    "old_id": "vp-muizdICcmU0gN8zmkS",
+    "type": "subtopic",
+    "label": "Cookie Based Auth",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\oauth@vp-muizdICcmU0gN8zmkS.md",
+    "children": []
+  },
+  {
+    "id": "z3EJBpgGm0_Uj3ymhypbX",
+    "old_id": "ffzsh8_5yRq85trFt9Xhk",
+    "type": "subtopic",
+    "label": "OpenID",
+    "resources": [],
+    "legend": {
+      "color": "#929292",
+      "label": "Order not strict / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\cookie-based-auth@ffzsh8_5yRq85trFt9Xhk.md",
+    "children": []
+  },
+  {
+    "id": "UCHtaePVxS-0kpqlYxbfC",
+    "old_id": "z3EJBpgGm0_Uj3ymhypbX",
+    "type": "subtopic",
+    "label": "SAML",
+    "resources": [],
+    "legend": {
+      "color": "#929292",
+      "label": "Order not strict / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\openid@z3EJBpgGm0_Uj3ymhypbX.md",
+    "children": []
+  },
+  {
+    "id": "Ms0TfvSRA1z7NGJAQhdqy",
+    "old_id": "Ms0TfvSRA1z7NGJAQhdqy",
+    "type": "label",
+    "label": "Hashing Algorithms",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "94oRYuULJPdOMI1wihFrU",
+    "old_id": "94oRYuULJPdOMI1wihFrU",
+    "type": "button",
+    "label": "Docker",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "NulaE1isWqn-feYHg4YQT",
+    "old_id": "GPFRMcY1DEtRgnaZwJ3vW",
+    "type": "subtopic",
+    "label": "Elasticsearch",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\rabbitmq@GPFRMcY1DEtRgnaZwJ3vW.md",
+    "children": []
+  },
+  {
+    "id": "iN_1EuIwCx_7lRBw1Io4U",
+    "old_id": "VoYSis1F1ZfTxMlQlXQKB",
+    "type": "subtopic",
+    "label": "Solr",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\kafka@VoYSis1F1ZfTxMlQlXQKB.md",
+    "children": []
+  },
+  {
+    "id": "M0iaSSdVPWaCUpyTG50Vf",
+    "old_id": "28U6q_X-NTYf7OSKHjoWH",
+    "type": "subtopic",
+    "label": "Redis",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\mongodb@28U6q_X-NTYf7OSKHjoWH.md",
+    "children": []
+  },
+  {
+    "id": "dwfEHInbX2eFiafM-nRMX",
+    "old_id": "qOlNzZ7U8LhIGukb67n7U",
+    "type": "subtopic",
+    "label": "DynamoDB",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\couchdb@qOlNzZ7U8LhIGukb67n7U.md",
+    "children": []
+  },
+  {
+    "id": "RyJFLLGieJ8Xjt-DlIayM",
+    "old_id": "28U6q_X-NTYf7OSKHjoWH",
+    "type": "subtopic",
+    "label": "Firebase",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\mongodb@28U6q_X-NTYf7OSKHjoWH.md",
+    "children": []
+  },
+  {
+    "id": "5T0ljwlHL0545ICCeehcQ",
+    "old_id": "qOlNzZ7U8LhIGukb67n7U",
+    "type": "subtopic",
+    "label": "RethinkDB",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\couchdb@qOlNzZ7U8LhIGukb67n7U.md",
+    "children": []
+  },
+  {
+    "id": "XbM4TDImSH-56NsITjyHK",
+    "old_id": "RyJFLLGieJ8Xjt-DlIayM",
+    "type": "subtopic",
+    "label": "Influx DB",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\firebase@RyJFLLGieJ8Xjt-DlIayM.md",
+    "children": []
+  },
+  {
+    "id": "WiAK70I0z-_bzbWNwiHUd",
+    "old_id": "5T0ljwlHL0545ICCeehcQ",
+    "type": "subtopic",
+    "label": "TimeScale",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\rethinkdb@5T0ljwlHL0545ICCeehcQ.md",
+    "children": []
+  },
+  {
+    "id": "gT6-z2vhdIQDzmR2K1g1U",
+    "old_id": "XbM4TDImSH-56NsITjyHK",
+    "type": "subtopic",
+    "label": "Cassandra",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\influx-db@XbM4TDImSH-56NsITjyHK.md",
+    "children": []
+  },
+  {
+    "id": "QZwTLOvjUTaSb_9deuxsR",
+    "old_id": "WiAK70I0z-_bzbWNwiHUd",
+    "type": "subtopic",
+    "label": "Base",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\timescaledb@WiAK70I0z-_bzbWNwiHUd.md",
+    "children": []
+  },
+  {
+    "id": "5xy66yQrz1P1w7n6PcAFq",
+    "old_id": "BTNJfWemFKEeNeTyENXui",
+    "type": "subtopic",
+    "label": "AWS Neptune",
+    "resources": [],
+    "legend": {
+      "color": "#4f7a28",
+      "label": "Alternative Option / Pick this or purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\neo4j@BTNJfWemFKEeNeTyENXui.md",
+    "children": []
+  },
+  {
+    "id": "Z01E67D6KjrShvQCHjGR7",
+    "old_id": "4X-sbqpP0NDhM99bKdqIa",
+    "type": "subtopic",
+    "label": "Observability",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\backend\\content\\instrumentation@4X-sbqpP0NDhM99bKdqIa.md",
+    "children": []
+  },
+  {
+    "id": "cnZFR67IbmEL-SkNwYc5S",
+    "old_id": "cnZFR67IbmEL-SkNwYc5S",
+    "type": "label",
+    "label": "Visit the DevOps Beginner Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "q1EM7Wog8l_MbYlKsb7Y5",
+    "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+    "type": "button",
+    "label": "Full Stack",
+    "resources": [],
+    "children": []
+  }
+]

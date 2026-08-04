@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "_hYN0gEi9BL24nptEtXWU",
+    "old_id": "c1edrcSmHO_L2e9DGh7st",
+    "type": "topic",
+    "label": "What is Engineering Management?",
+    "resources": []
+  },
+  {
+    "id": "oKbeLp4YB8rI1Q3vi0EnG",
+    "old_id": "oKbeLp4YB8rI1Q3vi0EnG",
+    "type": "subtopic",
+    "label": "EM vs Tech Lead vs IC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\em-vs-tech-lead-vs-ic@oKbeLp4YB8rI1Q3vi0EnG.md"
+  },
+  {
+    "id": "aSZ2uVCmpAdEPjJt6VKG4",
+    "old_id": "TqKJ44KCfjKsH5jXYdfTn",
+    "type": "subtopic",
+    "label": "People",
+    "resources": []
+  },
+  {
+    "id": "p9ecMvHCqjmvxf67di7pY",
+    "old_id": "iZFn0FaRdrGv_-_8zii_-",
+    "type": "subtopic",
+    "label": "Product",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\process@iZFn0FaRdrGv_-_8zii_-.md"
+  },
+  {
+    "id": "iZFn0FaRdrGv_-_8zii_-",
+    "old_id": "iZFn0FaRdrGv_-_8zii_-",
+    "type": "subtopic",
+    "label": "Process",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\process@iZFn0FaRdrGv_-_8zii_-.md"
+  },
+  {
+    "id": "FtWNnOE3zObmjS-Og26M3",
+    "old_id": "zpphxuz1vaPjnizUm2Qu-",
+    "type": "subtopic",
+    "label": "Architectural Decision-Making",
+    "resources": []
+  },
+  {
+    "id": "pduPcv2QPpVmVvDdK4CPi",
+    "old_id": "zpphxuz1vaPjnizUm2Qu-",
+    "type": "subtopic",
+    "label": "System Monitoring & Performance",
+    "resources": []
+  },
+  {
+    "id": "EyoVFmqOJbH1sAPHLISFt",
+    "old_id": "QUxpEK8smXRBs2gMdDInB",
+    "type": "subtopic",
+    "label": "Scaling Infrastructure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\legacy-system-retirement@QUxpEK8smXRBs2gMdDInB.md"
+  },
+  {
+    "id": "fBENrXdMhoGYgL_d96tgo",
+    "old_id": "iX4HPgoiEbc_gze1A01n4",
+    "type": "subtopic",
+    "label": "Software Engineering Background",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\system-design-and-architecture@iX4HPgoiEbc_gze1A01n4.md"
+  },
+  {
+    "id": "iX4HPgoiEbc_gze1A01n4",
+    "old_id": "iX4HPgoiEbc_gze1A01n4",
+    "type": "subtopic",
+    "label": "System Design and Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\system-design-and-architecture@iX4HPgoiEbc_gze1A01n4.md"
+  },
+  {
+    "id": "EY6Hk5wPd9Y_VA1UROk44",
+    "old_id": "EY6Hk5wPd9Y_VA1UROk44",
+    "type": "subtopic",
+    "label": "Technical Debt and Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\technical-debt-and-management@EY6Hk5wPd9Y_VA1UROk44.md"
+  },
+  {
+    "id": "_2xnTKt5yi__jj_WgcLa7",
+    "old_id": "_2xnTKt5yi__jj_WgcLa7",
+    "type": "subtopic",
+    "label": "Technical Documentation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\technical-documentation@_2xnTKt5yi__jj_WgcLa7.md"
+  },
+  {
+    "id": "40yK6XzI8lSxdiAXxtF75",
+    "old_id": "40yK6XzI8lSxdiAXxtF75",
+    "type": "subtopic",
+    "label": "Code Review Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\code-review-best-practices@40yK6XzI8lSxdiAXxtF75.md"
+  },
+  {
+    "id": "ikCJ8Ybu2AD1w5VuPNVAO",
+    "old_id": "ikCJ8Ybu2AD1w5VuPNVAO",
+    "type": "subtopic",
+    "label": "Technical Roadmapping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\technical-roadmapping@ikCJ8Ybu2AD1w5VuPNVAO.md"
+  },
+  {
+    "id": "H0aav5qKDNiNegJOGP2rx",
+    "old_id": "H0aav5qKDNiNegJOGP2rx",
+    "type": "subtopic",
+    "label": "Build vs Buy Evaluation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\build-vs-buy-evaluation@H0aav5qKDNiNegJOGP2rx.md"
+  },
+  {
+    "id": "d7zMBhMFgY9MwmKC9CVVh",
+    "old_id": "d7zMBhMFgY9MwmKC9CVVh",
+    "type": "subtopic",
+    "label": "Technical Risk Assessment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\technical-risk-assessment@d7zMBhMFgY9MwmKC9CVVh.md"
+  },
+  {
+    "id": "gAEmpSMvNyjmTa5q9oZSg",
+    "old_id": "gAEmpSMvNyjmTa5q9oZSg",
+    "type": "subtopic",
+    "label": "CI/CD Implementation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\cicd-implementation@gAEmpSMvNyjmTa5q9oZSg.md"
+  },
+  {
+    "id": "bpJPDbifPwS4ScOoATlEI",
+    "old_id": "bpJPDbifPwS4ScOoATlEI",
+    "type": "subtopic",
+    "label": "Development / Release Workflow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\development--release-workflow@bpJPDbifPwS4ScOoATlEI.md"
+  },
+  {
+    "id": "C2YsaZ32An_UXV8lB7opm",
+    "old_id": "C2YsaZ32An_UXV8lB7opm",
+    "type": "subtopic",
+    "label": "Technical Standards Setting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\technical-standards-setting@C2YsaZ32An_UXV8lB7opm.md"
+  },
+  {
+    "id": "sQCLhk__jvbityuuLlxiW",
+    "old_id": "o1xPrfg8iNWQpD12xsbQJ",
+    "type": "subtopic",
+    "label": "Security  Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\incident-management@o1xPrfg8iNWQpD12xsbQJ.md"
+  },
+  {
+    "id": "q5SJyM1d8cQzzAcR-kotB",
+    "old_id": "q5SJyM1d8cQzzAcR-kotB",
+    "type": "subtopic",
+    "label": "Testing Strategies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\testing-strategies@q5SJyM1d8cQzzAcR-kotB.md"
+  },
+  {
+    "id": "o1xPrfg8iNWQpD12xsbQJ",
+    "old_id": "o1xPrfg8iNWQpD12xsbQJ",
+    "type": "subtopic",
+    "label": "Incident Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\incident-management@o1xPrfg8iNWQpD12xsbQJ.md"
+  },
+  {
+    "id": "3na5mBIPl5f6mjEzkgD_C",
+    "old_id": "3na5mBIPl5f6mjEzkgD_C",
+    "type": "subtopic",
+    "label": "Hiring and Recruitment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\hiring-and-recruitment@3na5mBIPl5f6mjEzkgD_C.md"
+  },
+  {
+    "id": "tPDmXXjvFI_8-MTo_dEUw",
+    "old_id": "tPDmXXjvFI_8-MTo_dEUw",
+    "type": "subtopic",
+    "label": "Team Structure and Design",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\team-structure-and-design@tPDmXXjvFI_8-MTo_dEUw.md"
+  },
+  {
+    "id": "eJzYnoB6sArLjXRm51cM4",
+    "old_id": "eJzYnoB6sArLjXRm51cM4",
+    "type": "subtopic",
+    "label": "Performance Evaluations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\performance-evaluations@eJzYnoB6sArLjXRm51cM4.md"
+  },
+  {
+    "id": "0ULnfq0ZFJXgoLbKM1gxC",
+    "old_id": "0ULnfq0ZFJXgoLbKM1gxC",
+    "type": "subtopic",
+    "label": "Mentoring and Coaching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\mentoring-and-coaching@0ULnfq0ZFJXgoLbKM1gxC.md"
+  },
+  {
+    "id": "fhFSR_N4ZDTHINEinubHG",
+    "old_id": "fhFSR_N4ZDTHINEinubHG",
+    "type": "subtopic",
+    "label": "Career Development Planning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\career-development-planning@fhFSR_N4ZDTHINEinubHG.md"
+  },
+  {
+    "id": "bx2SMhR58ud45se5dK7qS",
+    "old_id": "bx2SMhR58ud45se5dK7qS",
+    "type": "subtopic",
+    "label": "Delegation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\delegation@bx2SMhR58ud45se5dK7qS.md"
+  },
+  {
+    "id": "QA5CR5f0geC_RQc_SOK-N",
+    "old_id": "QA5CR5f0geC_RQc_SOK-N",
+    "type": "subtopic",
+    "label": "Conflict Resolution",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\conflict-resolution@QA5CR5f0geC_RQc_SOK-N.md"
+  },
+  {
+    "id": "Az9GgkLFoat2t_sYRUBv5",
+    "old_id": "Az9GgkLFoat2t_sYRUBv5",
+    "type": "subtopic",
+    "label": "Feedback Delivery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\feedback-delivery@Az9GgkLFoat2t_sYRUBv5.md"
+  },
+  {
+    "id": "U_oOnDXkCE387r9olvMZB",
+    "old_id": "U_oOnDXkCE387r9olvMZB",
+    "type": "subtopic",
+    "label": "Team Motivation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\team-motivation@U_oOnDXkCE387r9olvMZB.md"
+  },
+  {
+    "id": "7PBmYoSmIgZT21a2Ip3_S",
+    "old_id": "7PBmYoSmIgZT21a2Ip3_S",
+    "type": "subtopic",
+    "label": "Trust / Influence Building",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\trust--influence-building@7PBmYoSmIgZT21a2Ip3_S.md"
+  },
+  {
+    "id": "b3qoH_LuW-Gz4N8WdGnZs",
+    "old_id": "b3qoH_LuW-Gz4N8WdGnZs",
+    "type": "subtopic",
+    "label": "One-on-One Meetings",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\one-on-one-meetings@b3qoH_LuW-Gz4N8WdGnZs.md"
+  },
+  {
+    "id": "e0ZuiCoS8sJ0XB1lNiz7_",
+    "old_id": "e0ZuiCoS8sJ0XB1lNiz7_",
+    "type": "subtopic",
+    "label": "Team Meetings",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\team-meetings@e0ZuiCoS8sJ0XB1lNiz7_.md"
+  },
+  {
+    "id": "gqKEgKjEu5sOf5Gl-HS-j",
+    "old_id": "gqKEgKjEu5sOf5Gl-HS-j",
+    "type": "subtopic",
+    "label": "Status Reporting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\status-reporting@gqKEgKjEu5sOf5Gl-HS-j.md"
+  },
+  {
+    "id": "TVqVlJqegLZRSkwNoHbBf",
+    "old_id": "TVqVlJqegLZRSkwNoHbBf",
+    "type": "subtopic",
+    "label": "Stakeholder Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\stakeholder-management@TVqVlJqegLZRSkwNoHbBf.md"
+  },
+  {
+    "id": "ZyNbSBd8plAZ5lt5OEUYu",
+    "old_id": "ZyNbSBd8plAZ5lt5OEUYu",
+    "type": "subtopic",
+    "label": "Cross-functional Collaboration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\cross-functional-collaboration@ZyNbSBd8plAZ5lt5OEUYu.md"
+  },
+  {
+    "id": "4v5yLKYVcMh0s7SQuf__C",
+    "old_id": "4v5yLKYVcMh0s7SQuf__C",
+    "type": "subtopic",
+    "label": "Resource Allocation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\resource-allocation@4v5yLKYVcMh0s7SQuf__C.md"
+  },
+  {
+    "id": "7BcToTqL78QmG4qb43X5Q",
+    "old_id": "7BcToTqL78QmG4qb43X5Q",
+    "type": "subtopic",
+    "label": "Sprint Planning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\sprint-planning@7BcToTqL78QmG4qb43X5Q.md"
+  },
+  {
+    "id": "-Qc6E3gkUUonfzifYqeJJ",
+    "old_id": "-Qc6E3gkUUonfzifYqeJJ",
+    "type": "subtopic",
+    "label": "Release Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\release-management@-Qc6E3gkUUonfzifYqeJJ.md"
+  },
+  {
+    "id": "mgw6M8I9qy1EoJpJV-gy1",
+    "old_id": "mgw6M8I9qy1EoJpJV-gy1",
+    "type": "subtopic",
+    "label": "Risk Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\risk-management@mgw6M8I9qy1EoJpJV-gy1.md"
+  },
+  {
+    "id": "hH-UDVFlgKoMJcI1ssDFv",
+    "old_id": "hH-UDVFlgKoMJcI1ssDFv",
+    "type": "subtopic",
+    "label": "Dependency management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\dependency-management@hH-UDVFlgKoMJcI1ssDFv.md"
+  },
+  {
+    "id": "n9gvPHn4c1U-l6v-W9v6r",
+    "old_id": "n9gvPHn4c1U-l6v-W9v6r",
+    "type": "subtopic",
+    "label": "Agile methodologies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\agile-methodologies@n9gvPHn4c1U-l6v-W9v6r.md"
+  },
+  {
+    "id": "SuT6q5lMMSyVkadlQp7iU",
+    "old_id": "SuT6q5lMMSyVkadlQp7iU",
+    "type": "subtopic",
+    "label": "Project Tracking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\project-tracking@SuT6q5lMMSyVkadlQp7iU.md"
+  },
+  {
+    "id": "PXobPGPgCX3_55w4UtxT9",
+    "old_id": "PXobPGPgCX3_55w4UtxT9",
+    "type": "subtopic",
+    "label": "Milestone Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\milestone-management@PXobPGPgCX3_55w4UtxT9.md"
+  },
+  {
+    "id": "C-lJJSjT8Cxw_UT3ocFsO",
+    "old_id": "C-lJJSjT8Cxw_UT3ocFsO",
+    "type": "subtopic",
+    "label": "Scope Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\scope-management@C-lJJSjT8Cxw_UT3ocFsO.md"
+  },
+  {
+    "id": "QWO5QFS7kXwfu3aa8IiRt",
+    "old_id": "QWO5QFS7kXwfu3aa8IiRt",
+    "type": "subtopic",
+    "label": "Timeline Estimation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\timeline-estimation@QWO5QFS7kXwfu3aa8IiRt.md"
+  },
+  {
+    "id": "Wd8FCEaGZBTvsD-k4t0r4",
+    "old_id": "Wd8FCEaGZBTvsD-k4t0r4",
+    "type": "subtopic",
+    "label": "KPI Definition",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\kpi-definition@Wd8FCEaGZBTvsD-k4t0r4.md"
+  },
+  {
+    "id": "idd92ZTBVUzptBl5jRdc3",
+    "old_id": "idd92ZTBVUzptBl5jRdc3",
+    "type": "subtopic",
+    "label": "Velocity Tracking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\velocity-tracking@idd92ZTBVUzptBl5jRdc3.md"
+  },
+  {
+    "id": "ZWWsuFm_G4kvvl_cv8l_t",
+    "old_id": "ZWWsuFm_G4kvvl_cv8l_t",
+    "type": "subtopic",
+    "label": "Quality Metrics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\quality-metrics@ZWWsuFm_G4kvvl_cv8l_t.md"
+  },
+  {
+    "id": "KPDHk7tl_BnIj_obnq3Kl",
+    "old_id": "KPDHk7tl_BnIj_obnq3Kl",
+    "type": "subtopic",
+    "label": "Team Health Metrics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\team-health-metrics@KPDHk7tl_BnIj_obnq3Kl.md"
+  },
+  {
+    "id": "g9WWa50V8ZbhIJgBRx0Nd",
+    "old_id": "g9WWa50V8ZbhIJgBRx0Nd",
+    "type": "subtopic",
+    "label": "Project Postmortems",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\project-postmortems@g9WWa50V8ZbhIJgBRx0Nd.md"
+  },
+  {
+    "id": "nC5dfGlxbLoXUAp2u-6Gl",
+    "old_id": "Imgt669vbUT_Iec2o4Gvt",
+    "type": "subtopic",
+    "label": "Product strategy alignment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\vendor-management@Imgt669vbUT_Iec2o4Gvt.md"
+  },
+  {
+    "id": "vhOHvfF_lfQrrOK6sGLTY",
+    "old_id": "76GjwwEYaEX_kh02OSpdr",
+    "type": "subtopic",
+    "label": "Business Case Development",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\competitive-analysis@76GjwwEYaEX_kh02OSpdr.md"
+  },
+  {
+    "id": "XinUWPahOdufmLYcEwMj_",
+    "old_id": "76GjwwEYaEX_kh02OSpdr",
+    "type": "subtopic",
+    "label": "ROI analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\competitive-analysis@76GjwwEYaEX_kh02OSpdr.md"
+  },
+  {
+    "id": "P2gIOt-i0sQEOMBo-XjZO",
+    "old_id": "76GjwwEYaEX_kh02OSpdr",
+    "type": "subtopic",
+    "label": "Market awareness",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\competitive-analysis@76GjwwEYaEX_kh02OSpdr.md"
+  },
+  {
+    "id": "76GjwwEYaEX_kh02OSpdr",
+    "old_id": "b3qoH_LuW-Gz4N8WdGnZs",
+    "type": "subtopic",
+    "label": "Competitive Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\one-on-one-meetings@b3qoH_LuW-Gz4N8WdGnZs.md"
+  },
+  {
+    "id": "oqjr26B27SHSYVQ4IFnA1",
+    "old_id": "Imgt669vbUT_Iec2o4Gvt",
+    "type": "subtopic",
+    "label": "Budget Planning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\vendor-management@Imgt669vbUT_Iec2o4Gvt.md"
+  },
+  {
+    "id": "iwwxnSVvCmZ57stXwzk8G",
+    "old_id": "Imgt669vbUT_Iec2o4Gvt",
+    "type": "subtopic",
+    "label": "Resource forecasting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\vendor-management@Imgt669vbUT_Iec2o4Gvt.md"
+  },
+  {
+    "id": "rbhZJZtRV1ZZ5QaYW77ry",
+    "old_id": "Imgt669vbUT_Iec2o4Gvt",
+    "type": "subtopic",
+    "label": "Cost Optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\vendor-management@Imgt669vbUT_Iec2o4Gvt.md"
+  },
+  {
+    "id": "Imgt669vbUT_Iec2o4Gvt",
+    "old_id": "76GjwwEYaEX_kh02OSpdr",
+    "type": "subtopic",
+    "label": "Vendor Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\competitive-analysis@76GjwwEYaEX_kh02OSpdr.md"
+  },
+  {
+    "id": "KA0y6KdVTjJFeX3frHUNo",
+    "old_id": "oqjr26B27SHSYVQ4IFnA1",
+    "type": "subtopic",
+    "label": "Company Culture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\budget-planning@oqjr26B27SHSYVQ4IFnA1.md"
+  },
+  {
+    "id": "tt02qGHSn4fPbpboZ1Ni_",
+    "old_id": "iwwxnSVvCmZ57stXwzk8G",
+    "type": "subtopic",
+    "label": "Change management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\resource-forecasting@iwwxnSVvCmZ57stXwzk8G.md"
+  },
+  {
+    "id": "mjMRNhPkeb4lEZXBb8Iot",
+    "old_id": "rbhZJZtRV1ZZ5QaYW77ry",
+    "type": "subtopic",
+    "label": "Organization structure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\cost-optimization@rbhZJZtRV1ZZ5QaYW77ry.md"
+  },
+  {
+    "id": "Zoz01JcNU69gr95IcWhYM",
+    "old_id": "Hb_rZe4k37Rr0enSh7woV",
+    "type": "subtopic",
+    "label": "Politics navigation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\cross-department-collaboration@Hb_rZe4k37Rr0enSh7woV.md"
+  },
+  {
+    "id": "Hb_rZe4k37Rr0enSh7woV",
+    "old_id": "Imgt669vbUT_Iec2o4Gvt",
+    "type": "subtopic",
+    "label": "Cross-department collaboration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\vendor-management@Imgt669vbUT_Iec2o4Gvt.md"
+  },
+  {
+    "id": "h7gEQNbGiabDA1q1Bk_IB",
+    "old_id": "7PBmYoSmIgZT21a2Ip3_S",
+    "type": "subtopic",
+    "label": "Emotional Intelligence",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\trust--influence-building@7PBmYoSmIgZT21a2Ip3_S.md"
+  },
+  {
+    "id": "ZuZuzwy-Frsn_PFJZVuAQ",
+    "old_id": "fYkKo8D35AHd8agr3YrIP",
+    "type": "subtopic",
+    "label": "Defining and Enforcing Values",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\blameless-post-mortems@fYkKo8D35AHd8agr3YrIP.md"
+  },
+  {
+    "id": "8Nro6PTkEkNugYBjQfJ6O",
+    "old_id": "PAjGn7ryiu0Ix88X9QS0Y",
+    "type": "subtopic",
+    "label": "Team Traditions and Rituals",
+    "resources": []
+  },
+  {
+    "id": "Vb3A4a-UpGTAEs-dVI66s",
+    "old_id": "PAjGn7ryiu0Ix88X9QS0Y",
+    "type": "subtopic",
+    "label": "Recognition programs",
+    "resources": []
+  },
+  {
+    "id": "LE3ykySYFL23KvuwxeBaR",
+    "old_id": "g9FvFKC715tZL2ZGlPl3N",
+    "type": "subtopic",
+    "label": "Social connections",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\bias-recognition--mitigation@g9FvFKC715tZL2ZGlPl3N.md"
+  },
+  {
+    "id": "6iM0n4faMNhk4mezS9AcG",
+    "old_id": "PAjGn7ryiu0Ix88X9QS0Y",
+    "type": "subtopic",
+    "label": "Inclusive environment creation",
+    "resources": []
+  },
+  {
+    "id": "njqjYPMQK3nGYtqHzUylo",
+    "old_id": "fYkKo8D35AHd8agr3YrIP",
+    "type": "subtopic",
+    "label": "Innovation fostering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\blameless-post-mortems@fYkKo8D35AHd8agr3YrIP.md"
+  },
+  {
+    "id": "aeD-kBZEr1NHFtAD8yHI_",
+    "old_id": "fYkKo8D35AHd8agr3YrIP",
+    "type": "subtopic",
+    "label": "Learning culture development",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\blameless-post-mortems@fYkKo8D35AHd8agr3YrIP.md"
+  },
+  {
+    "id": "74-7hDXaBVXYo6LJdgac_",
+    "old_id": "fYkKo8D35AHd8agr3YrIP",
+    "type": "subtopic",
+    "label": "Knowledge sharing practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\blameless-post-mortems@fYkKo8D35AHd8agr3YrIP.md"
+  },
+  {
+    "id": "Cq0OFaWqSRathZO-bxBrP",
+    "old_id": "fYkKo8D35AHd8agr3YrIP",
+    "type": "subtopic",
+    "label": "Technical excellence mindset",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\blameless-post-mortems@fYkKo8D35AHd8agr3YrIP.md"
+  },
+  {
+    "id": "fYkKo8D35AHd8agr3YrIP",
+    "old_id": "PAjGn7ryiu0Ix88X9QS0Y",
+    "type": "subtopic",
+    "label": "Blameless Post-mortems",
+    "resources": []
+  },
+  {
+    "id": "g9FvFKC715tZL2ZGlPl3N",
+    "old_id": "PAjGn7ryiu0Ix88X9QS0Y",
+    "type": "subtopic",
+    "label": "Bias Recognition / Mitigation",
+    "resources": []
+  },
+  {
+    "id": "Xaeb67Nqdi0kwvehQUYeJ",
+    "old_id": "Xaeb67Nqdi0kwvehQUYeJ",
+    "type": "subtopic",
+    "label": "Emergency protocols",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\emergency-protocols@Xaeb67Nqdi0kwvehQUYeJ.md"
+  },
+  {
+    "id": "LQ3YfAgJ4UaDgtnN-cMht",
+    "old_id": "LQ3YfAgJ4UaDgtnN-cMht",
+    "type": "subtopic",
+    "label": "War Room Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\war-room-management@LQ3YfAgJ4UaDgtnN-cMht.md"
+  },
+  {
+    "id": "irEwTIubCjORnlH27QpEo",
+    "old_id": "irEwTIubCjORnlH27QpEo",
+    "type": "subtopic",
+    "label": "Stakeholder Communication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\stakeholder-communication@irEwTIubCjORnlH27QpEo.md"
+  },
+  {
+    "id": "8zyK34SwHry2lrWchw0KZ",
+    "old_id": "8zyK34SwHry2lrWchw0KZ",
+    "type": "subtopic",
+    "label": "Post-incident analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\post-incident-analysis@8zyK34SwHry2lrWchw0KZ.md"
+  },
+  {
+    "id": "2fHcb1dAnf34APCAAlwnR",
+    "old_id": "2fHcb1dAnf34APCAAlwnR",
+    "type": "subtopic",
+    "label": "Service Recovery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\service-recovery@2fHcb1dAnf34APCAAlwnR.md"
+  },
+  {
+    "id": "2RwpGPegD2GyiiV6SVbbM",
+    "old_id": "2RwpGPegD2GyiiV6SVbbM",
+    "type": "subtopic",
+    "label": "Contingency planning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\contingency-planning@2RwpGPegD2GyiiV6SVbbM.md"
+  },
+  {
+    "id": "KOTzJ8e7mc0wmF46vrj3I",
+    "old_id": "KOTzJ8e7mc0wmF46vrj3I",
+    "type": "subtopic",
+    "label": "Disaster recovery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\disaster-recovery@KOTzJ8e7mc0wmF46vrj3I.md"
+  },
+  {
+    "id": "v6N7BH0B55gX0oNXb55D7",
+    "old_id": "v6N7BH0B55gX0oNXb55D7",
+    "type": "subtopic",
+    "label": "Business continuity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\business-continuity@v6N7BH0B55gX0oNXb55D7.md"
+  },
+  {
+    "id": "FNp4-RgPvfC76pJKjX56a",
+    "old_id": "FNp4-RgPvfC76pJKjX56a",
+    "type": "subtopic",
+    "label": "Security incident handling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\security-incident-handling@FNp4-RgPvfC76pJKjX56a.md"
+  },
+  {
+    "id": "kQG_wk66-51dA4Ly9ivjM",
+    "old_id": "kQG_wk66-51dA4Ly9ivjM",
+    "type": "subtopic",
+    "label": "Production issues management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\production-issues-management@kQG_wk66-51dA4Ly9ivjM.md"
+  },
+  {
+    "id": "mIUx8zAHWyPWPGvxuTK4y",
+    "old_id": "2RwpGPegD2GyiiV6SVbbM",
+    "type": "subtopic",
+    "label": "Contingency planning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\contingency-planning@2RwpGPegD2GyiiV6SVbbM.md"
+  },
+  {
+    "id": "nnoVA8W70hrNDxN3XQCVL",
+    "old_id": "KOTzJ8e7mc0wmF46vrj3I",
+    "type": "subtopic",
+    "label": "Disaster recovery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\disaster-recovery@KOTzJ8e7mc0wmF46vrj3I.md"
+  },
+  {
+    "id": "FwK-B7jRbBXVnuY9JxI1w",
+    "old_id": "v6N7BH0B55gX0oNXb55D7",
+    "type": "subtopic",
+    "label": "Business continuity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\business-continuity@v6N7BH0B55gX0oNXb55D7.md"
+  },
+  {
+    "id": "QFhhOgwz_bgZgOfKFg5XA",
+    "old_id": "FNp4-RgPvfC76pJKjX56a",
+    "type": "subtopic",
+    "label": "Security incident handling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\security-incident-handling@FNp4-RgPvfC76pJKjX56a.md"
+  },
+  {
+    "id": "tmY4Ktu6luFg5wKylJW76",
+    "old_id": "kQG_wk66-51dA4Ly9ivjM",
+    "type": "subtopic",
+    "label": "Production issues management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\production-issues-management@kQG_wk66-51dA4Ly9ivjM.md"
+  },
+  {
+    "id": "5MM1ccB1pmQcd3Uyjmbr7",
+    "old_id": "mIUx8zAHWyPWPGvxuTK4y",
+    "type": "subtopic",
+    "label": "Board presentations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\burnout-prevention@mIUx8zAHWyPWPGvxuTK4y.md"
+  },
+  {
+    "id": "CHothgVl8ulFthwS7uKqK",
+    "old_id": "nnoVA8W70hrNDxN3XQCVL",
+    "type": "subtopic",
+    "label": "Executive summaries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\critical-situation-leadership@nnoVA8W70hrNDxN3XQCVL.md"
+  },
+  {
+    "id": "uBrsV_EocAkRWEqJYjoZn",
+    "old_id": "FwK-B7jRbBXVnuY9JxI1w",
+    "type": "subtopic",
+    "label": "Strategic proposals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\emergency-staffing@FwK-B7jRbBXVnuY9JxI1w.md"
+  },
+  {
+    "id": "pLUOU2AmAJ9aJAmIlVD7D",
+    "old_id": "QFhhOgwz_bgZgOfKFg5XA",
+    "type": "subtopic",
+    "label": "Budget requests",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\stress-management@QFhhOgwz_bgZgOfKFg5XA.md"
+  },
+  {
+    "id": "QssXmeifoI3dtu-eXp8PK",
+    "old_id": "tmY4Ktu6luFg5wKylJW76",
+    "type": "subtopic",
+    "label": "Vision alignment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\work-life-balance-during-crises@tmY4Ktu6luFg5wKylJW76.md"
+  },
+  {
+    "id": "QEViLNgG4Uv9Q9PWig0u3",
+    "old_id": "5MM1ccB1pmQcd3Uyjmbr7",
+    "type": "subtopic",
+    "label": "Customer feedback integration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\board-presentations@5MM1ccB1pmQcd3Uyjmbr7.md"
+  },
+  {
+    "id": "V5s2i-L2tsZFNxMLN_e_U",
+    "old_id": "CHothgVl8ulFthwS7uKqK",
+    "type": "subtopic",
+    "label": "Technical customer support",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\executive-summaries@CHothgVl8ulFthwS7uKqK.md"
+  },
+  {
+    "id": "A-Aa7VdDAYfaMUZD_cWwP",
+    "old_id": "uBrsV_EocAkRWEqJYjoZn",
+    "type": "subtopic",
+    "label": "Customer success alignment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\strategic-proposals@uBrsV_EocAkRWEqJYjoZn.md"
+  },
+  {
+    "id": "2QwMcO27H3ygtLlWVplxr",
+    "old_id": "pLUOU2AmAJ9aJAmIlVD7D",
+    "type": "subtopic",
+    "label": "Feature prioritization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\budget-requests@pLUOU2AmAJ9aJAmIlVD7D.md"
+  },
+  {
+    "id": "tCT2syTMyEHCspDLXxk6R",
+    "old_id": "QssXmeifoI3dtu-eXp8PK",
+    "type": "subtopic",
+    "label": "Technical partnerships",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\vision-alignment@QssXmeifoI3dtu-eXp8PK.md"
+  },
+  {
+    "id": "WYoqfmk5ejB2UOiYXh4Zi",
+    "old_id": "QEViLNgG4Uv9Q9PWig0u3",
+    "type": "subtopic",
+    "label": "Vendor relationships",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\customer-feedback-integration@QEViLNgG4Uv9Q9PWig0u3.md"
+  },
+  {
+    "id": "xMN575nnnQJeHe2oJYw17",
+    "old_id": "V5s2i-L2tsZFNxMLN_e_U",
+    "type": "subtopic",
+    "label": "Technology partnerships",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\technical-customer-support@V5s2i-L2tsZFNxMLN_e_U.md"
+  },
+  {
+    "id": "f3P0fF4UzgVQZuMVTVmP1",
+    "old_id": "A-Aa7VdDAYfaMUZD_cWwP",
+    "type": "subtopic",
+    "label": "Integration management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\customer-success-alignment@A-Aa7VdDAYfaMUZD_cWwP.md"
+  },
+  {
+    "id": "ukmMMWacekcejEiEKCLzh",
+    "old_id": "2QwMcO27H3ygtLlWVplxr",
+    "type": "subtopic",
+    "label": "API strategy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\feature-prioritization@2QwMcO27H3ygtLlWVplxr.md"
+  },
+  {
+    "id": "Jctp5tPCK_vY35_bh7QFk",
+    "old_id": "tCT2syTMyEHCspDLXxk6R",
+    "type": "subtopic",
+    "label": "External collaboration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\technical-partnerships@tCT2syTMyEHCspDLXxk6R.md"
+  },
+  {
+    "id": "TQY4hjo56rDdlbzjs_-nl",
+    "old_id": "76GjwwEYaEX_kh02OSpdr",
+    "type": "subtopic",
+    "label": "Competitive Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\competitive-analysis@76GjwwEYaEX_kh02OSpdr.md"
+  },
+  {
+    "id": "QUxpEK8smXRBs2gMdDInB",
+    "old_id": "zpphxuz1vaPjnizUm2Qu-",
+    "type": "subtopic",
+    "label": "Legacy System Retirement",
+    "resources": []
+  },
+  {
+    "id": "gHhNi32MSBmqk-oKOy-uj",
+    "old_id": "Xaeb67Nqdi0kwvehQUYeJ",
+    "type": "subtopic",
+    "label": "Architecture documentation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\emergency-protocols@Xaeb67Nqdi0kwvehQUYeJ.md"
+  },
+  {
+    "id": "Kwy9O1z2hpeE0Sb3qtxEg",
+    "old_id": "LQ3YfAgJ4UaDgtnN-cMht",
+    "type": "subtopic",
+    "label": "Process documentation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\war-room-management@LQ3YfAgJ4UaDgtnN-cMht.md"
+  },
+  {
+    "id": "dTjp_rEl1ITZjvELqVtfv",
+    "old_id": "irEwTIubCjORnlH27QpEo",
+    "type": "subtopic",
+    "label": "Decision records",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\stakeholder-communication@irEwTIubCjORnlH27QpEo.md"
+  },
+  {
+    "id": "HUQ_-vU2pdBPyF0mBocHz",
+    "old_id": "8zyK34SwHry2lrWchw0KZ",
+    "type": "subtopic",
+    "label": "Lessons Learned",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\post-incident-analysis@8zyK34SwHry2lrWchw0KZ.md"
+  },
+  {
+    "id": "4-MCXFOkMGcN369OPG-vw",
+    "old_id": "2fHcb1dAnf34APCAAlwnR",
+    "type": "subtopic",
+    "label": "Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\service-recovery@2fHcb1dAnf34APCAAlwnR.md"
+  },
+  {
+    "id": "g6K9fxWdRQT5h_u4Y_bkq",
+    "old_id": "gHhNi32MSBmqk-oKOy-uj",
+    "type": "subtopic",
+    "label": "Mentoring Programs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\architecture-documentation@gHhNi32MSBmqk-oKOy-uj.md"
+  },
+  {
+    "id": "7t9jmv3_lRCEG5y5DA8bF",
+    "old_id": "dTjp_rEl1ITZjvELqVtfv",
+    "type": "subtopic",
+    "label": "Knowledge bases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\decision-records@dTjp_rEl1ITZjvELqVtfv.md"
+  },
+  {
+    "id": "S8-nwYKlG7YHL2dWwR303",
+    "old_id": "HUQ_-vU2pdBPyF0mBocHz",
+    "type": "subtopic",
+    "label": "Brown Bags",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\lessons-learned@HUQ_-vU2pdBPyF0mBocHz.md"
+  },
+  {
+    "id": "2LO0iWf-y3l4rA1n_oG1g",
+    "old_id": "4-MCXFOkMGcN369OPG-vw",
+    "type": "subtopic",
+    "label": "Tech Talks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\best-practices@4-MCXFOkMGcN369OPG-vw.md"
+  },
+  {
+    "id": "QMAIEkVFHrrP6lUWvd0S8",
+    "old_id": "QMAIEkVFHrrP6lUWvd0S8",
+    "type": "subtopic",
+    "label": "Migration planning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\migration-planning@QMAIEkVFHrrP6lUWvd0S8.md"
+  },
+  {
+    "id": "9mNLfntu1TPjcX3RoUeMq",
+    "old_id": "9mNLfntu1TPjcX3RoUeMq",
+    "type": "subtopic",
+    "label": "Legacy system retirement",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\legacy-system-retirement@9mNLfntu1TPjcX3RoUeMq.md"
+  },
+  {
+    "id": "jerPoyfCcwZbNuE_cl1hq",
+    "old_id": "jerPoyfCcwZbNuE_cl1hq",
+    "type": "subtopic",
+    "label": "Technology adoption",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\technology-adoption@jerPoyfCcwZbNuE_cl1hq.md"
+  },
+  {
+    "id": "f-52wRfPRrA9iniOMYQB7",
+    "old_id": "f-52wRfPRrA9iniOMYQB7",
+    "type": "subtopic",
+    "label": "Tool transitions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\tool-transitions@f-52wRfPRrA9iniOMYQB7.md"
+  },
+  {
+    "id": "ev9ZKygqETctLMSt1GAFU",
+    "old_id": "ev9ZKygqETctLMSt1GAFU",
+    "type": "subtopic",
+    "label": "Process changes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\process-changes@ev9ZKygqETctLMSt1GAFU.md"
+  },
+  {
+    "id": "1__zRE1iu1FDX9ynpWSBS",
+    "old_id": "1__zRE1iu1FDX9ynpWSBS",
+    "type": "subtopic",
+    "label": "Change strategy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\change-strategy@1__zRE1iu1FDX9ynpWSBS.md"
+  },
+  {
+    "id": "oGmtkOGVgA4huGJqkBEfj",
+    "old_id": "oGmtkOGVgA4huGJqkBEfj",
+    "type": "subtopic",
+    "label": "Impact assessment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\impact-assessment@oGmtkOGVgA4huGJqkBEfj.md"
+  },
+  {
+    "id": "34uOnta7dKOyZL0et_RC8",
+    "old_id": "34uOnta7dKOyZL0et_RC8",
+    "type": "subtopic",
+    "label": "Stakeholder management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\stakeholder-management@34uOnta7dKOyZL0et_RC8.md"
+  },
+  {
+    "id": "Mxi4g_PzT0oYc3NgR0UVg",
+    "old_id": "Mxi4g_PzT0oYc3NgR0UVg",
+    "type": "subtopic",
+    "label": "Communication planning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\communication-planning@Mxi4g_PzT0oYc3NgR0UVg.md"
+  },
+  {
+    "id": "vfp6VmWnhpre_eDORg7ht",
+    "old_id": "vfp6VmWnhpre_eDORg7ht",
+    "type": "subtopic",
+    "label": "Resistance management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\resistance-management@vfp6VmWnhpre_eDORg7ht.md"
+  },
+  {
+    "id": "5_CE3p5jMA1uEqFNfp7Kh",
+    "old_id": "5_CE3p5jMA1uEqFNfp7Kh",
+    "type": "subtopic",
+    "label": "Reorganizations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\reorganizations@5_CE3p5jMA1uEqFNfp7Kh.md"
+  },
+  {
+    "id": "ph0U4l2alVJ8lUJ96q7co",
+    "old_id": "ph0U4l2alVJ8lUJ96q7co",
+    "type": "subtopic",
+    "label": "Team mergers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\team-mergers@ph0U4l2alVJ8lUJ96q7co.md"
+  },
+  {
+    "id": "FayHWdUHHYFFBwnXx37Gk",
+    "old_id": "FayHWdUHHYFFBwnXx37Gk",
+    "type": "subtopic",
+    "label": "Role transitions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\role-transitions@FayHWdUHHYFFBwnXx37Gk.md"
+  },
+  {
+    "id": "eIlW4mZKNQfBsTDmZf7ex",
+    "old_id": "eIlW4mZKNQfBsTDmZf7ex",
+    "type": "subtopic",
+    "label": "Responsibility shifts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\responsibility-shifts@eIlW4mZKNQfBsTDmZf7ex.md"
+  },
+  {
+    "id": "y7YHIz7OI4sNfC_nhfLcu",
+    "old_id": "y7YHIz7OI4sNfC_nhfLcu",
+    "type": "subtopic",
+    "label": "Culture evolution",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\engineering-manager\\content\\culture-evolution@y7YHIz7OI4sNfC_nhfLcu.md"
+  }
+]

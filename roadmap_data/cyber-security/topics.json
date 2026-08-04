@@ -1,0 +1,2408 @@
+[
+  {
+    "id": "oimYzZYFXKjgvc7D4c-2u",
+    "old_id": "_hYN0gEi9BL24nptEtXWU",
+    "type": "topic",
+    "label": "Fundamental IT Skills",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\security-skills-and-knowledge@_hYN0gEi9BL24nptEtXWU.md"
+  },
+  {
+    "id": "Ih0YZt8u9vDwYo8y1t41n",
+    "old_id": "Ih0YZt8u9vDwYo8y1t41n",
+    "type": "subtopic",
+    "label": "Computer Hardware Components",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\computer-hardware-components@Ih0YZt8u9vDwYo8y1t41n.md"
+  },
+  {
+    "id": "F1QVCEmGkgvz-_H5lTxY2",
+    "old_id": "F1QVCEmGkgvz-_H5lTxY2",
+    "type": "subtopic",
+    "label": "Connection Types and their function",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\connection-types-and-their-function@F1QVCEmGkgvz-_H5lTxY2.md"
+  },
+  {
+    "id": "pJUhQin--BGMuXHPwx3JJ",
+    "old_id": "pJUhQin--BGMuXHPwx3JJ",
+    "type": "subtopic",
+    "label": "OS-Independent Troubleshooting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\os-independent-troubleshooting@pJUhQin--BGMuXHPwx3JJ.md"
+  },
+  {
+    "id": "_7RjH4Goi0x6Noy6za0rP",
+    "old_id": "_7RjH4Goi0x6Noy6za0rP",
+    "type": "subtopic",
+    "label": "Understand Basics of Popular Suites",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-basics-of-popular-suites@_7RjH4Goi0x6Noy6za0rP.md"
+  },
+  {
+    "id": "T0aU8ZQGShmF9uXhWY4sD",
+    "old_id": "T0aU8ZQGShmF9uXhWY4sD",
+    "type": "subtopic",
+    "label": "Basics of Computer Networking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\basics-of-computer-networking@T0aU8ZQGShmF9uXhWY4sD.md"
+  },
+  {
+    "id": "hwAUFLYpc_ftCfXq95dey",
+    "old_id": "hwAUFLYpc_ftCfXq95dey",
+    "type": "subtopic",
+    "label": "NFC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nfc@hwAUFLYpc_ftCfXq95dey.md"
+  },
+  {
+    "id": "fUBNKHNPXbemRYrnzH3VT",
+    "old_id": "fUBNKHNPXbemRYrnzH3VT",
+    "type": "subtopic",
+    "label": "WiFi",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wifi@fUBNKHNPXbemRYrnzH3VT.md"
+  },
+  {
+    "id": "DbWf5LdqiByPiJa4xHtl_",
+    "old_id": "DbWf5LdqiByPiJa4xHtl_",
+    "type": "subtopic",
+    "label": "Bluetooth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\bluetooth@DbWf5LdqiByPiJa4xHtl_.md"
+  },
+  {
+    "id": "KsZ63c3KQLLn373c5CZnp",
+    "old_id": "KsZ63c3KQLLn373c5CZnp",
+    "type": "subtopic",
+    "label": "Infrared",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\infrared@KsZ63c3KQLLn373c5CZnp.md"
+  },
+  {
+    "id": "E7yfALgu9E2auOYDOTmex",
+    "old_id": "E7yfALgu9E2auOYDOTmex",
+    "type": "subtopic",
+    "label": "iCloud",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\icloud@E7yfALgu9E2auOYDOTmex.md"
+  },
+  {
+    "id": "IOK_FluAv34j3Tj_NvwdO",
+    "old_id": "IOK_FluAv34j3Tj_NvwdO",
+    "type": "subtopic",
+    "label": "Google Suite",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\google-suite@IOK_FluAv34j3Tj_NvwdO.md"
+  },
+  {
+    "id": "-5haJATqlmj0SFSFAqN6A",
+    "old_id": "-5haJATqlmj0SFSFAqN6A",
+    "type": "subtopic",
+    "label": "MS Office Suite",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ms-office-suite@-5haJATqlmj0SFSFAqN6A.md"
+  },
+  {
+    "id": "wkuE_cChPZT2MHyGjUuU4",
+    "old_id": "wkuE_cChPZT2MHyGjUuU4",
+    "type": "subtopic",
+    "label": "HackTheBox",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\hackthebox@wkuE_cChPZT2MHyGjUuU4.md"
+  },
+  {
+    "id": "kht-L7_v-DbglMYUHuchp",
+    "old_id": "kht-L7_v-DbglMYUHuchp",
+    "type": "subtopic",
+    "label": "TryHackMe",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\tryhackme@kht-L7_v-DbglMYUHuchp.md"
+  },
+  {
+    "id": "W94wY_otBuvVW_-EFlKA6",
+    "old_id": "W94wY_otBuvVW_-EFlKA6",
+    "type": "subtopic",
+    "label": "VulnHub",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\vulnhub@W94wY_otBuvVW_-EFlKA6.md"
+  },
+  {
+    "id": "pou5xHwnz9Zsy5J6lNlKq",
+    "old_id": "pou5xHwnz9Zsy5J6lNlKq",
+    "type": "subtopic",
+    "label": "picoCTF",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\picoctf@pou5xHwnz9Zsy5J6lNlKq.md"
+  },
+  {
+    "id": "WCeJrvWl837m1BIjuA1Mu",
+    "old_id": "WCeJrvWl837m1BIjuA1Mu",
+    "type": "subtopic",
+    "label": "SANS Holiday Hack Challenge",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\sans-holiday-hack-challenge@WCeJrvWl837m1BIjuA1Mu.md"
+  },
+  {
+    "id": "lbAgU5lR1O7L_5mCbNz_D",
+    "old_id": "s86x24SHPEbbOB9lYNU-w",
+    "type": "subtopic",
+    "label": "CompTIA A+",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cism@s86x24SHPEbbOB9lYNU-w.md"
+  },
+  {
+    "id": "p34Qwlj2sjwEPR2ay1WOK",
+    "old_id": "p34Qwlj2sjwEPR2ay1WOK",
+    "type": "subtopic",
+    "label": "CompTIA Linux+",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\comptia-linux@p34Qwlj2sjwEPR2ay1WOK.md"
+  },
+  {
+    "id": "4RGbNOfMPDbBcvUFWTTCV",
+    "old_id": "4RGbNOfMPDbBcvUFWTTCV",
+    "type": "subtopic",
+    "label": "CompTIA Network+",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\comptia-network@4RGbNOfMPDbBcvUFWTTCV.md"
+  },
+  {
+    "id": "4RD22UZATfL8dc71YkJwQ",
+    "old_id": "4RD22UZATfL8dc71YkJwQ",
+    "type": "subtopic",
+    "label": "CCNA",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ccna@4RD22UZATfL8dc71YkJwQ.md"
+  },
+  {
+    "id": "AxeDcKK3cUtEojtHQPBw7",
+    "old_id": "AxeDcKK3cUtEojtHQPBw7",
+    "type": "subtopic",
+    "label": "CompTIA Security+",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\comptia-security@AxeDcKK3cUtEojtHQPBw7.md"
+  },
+  {
+    "id": "AAo7DXB7hyBzO6p05gx1i",
+    "old_id": "s86x24SHPEbbOB9lYNU-w",
+    "type": "subtopic",
+    "label": "CEH",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cism@s86x24SHPEbbOB9lYNU-w.md"
+  },
+  {
+    "id": "lqFp4VLY_S-5tAbhNQTew",
+    "old_id": "s86x24SHPEbbOB9lYNU-w",
+    "type": "subtopic",
+    "label": "CISA",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cism@s86x24SHPEbbOB9lYNU-w.md"
+  },
+  {
+    "id": "s86x24SHPEbbOB9lYNU-w",
+    "old_id": "s86x24SHPEbbOB9lYNU-w",
+    "type": "subtopic",
+    "label": "CISM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cism@s86x24SHPEbbOB9lYNU-w.md"
+  },
+  {
+    "id": "nlmATCTgHoIoMcEOW8bUW",
+    "old_id": "BqvijNoRzSGYLCMP-6hhr",
+    "type": "subtopic",
+    "label": "GSEC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cissp@BqvijNoRzSGYLCMP-6hhr.md"
+  },
+  {
+    "id": "t4h9rEKWz5Us0qJKXhxlX",
+    "old_id": "lqFp4VLY_S-5tAbhNQTew",
+    "type": "subtopic",
+    "label": "GPEN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cisa@lqFp4VLY_S-5tAbhNQTew.md"
+  },
+  {
+    "id": "rwniCTWfYpKP5gi02Pa9f",
+    "old_id": "s86x24SHPEbbOB9lYNU-w",
+    "type": "subtopic",
+    "label": "GWAPT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cism@s86x24SHPEbbOB9lYNU-w.md"
+  },
+  {
+    "id": "ZiUT-lyIBfHTzG-dwSy96",
+    "old_id": "AAo7DXB7hyBzO6p05gx1i",
+    "type": "subtopic",
+    "label": "GIAC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ceh@AAo7DXB7hyBzO6p05gx1i.md"
+  },
+  {
+    "id": "SwVGVP2bbCFs2uNg9Qtxb",
+    "old_id": "t4h9rEKWz5Us0qJKXhxlX",
+    "type": "subtopic",
+    "label": "OSCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\gpen@t4h9rEKWz5Us0qJKXhxlX.md"
+  },
+  {
+    "id": "rA1skdztev3-8VmAtIlmr",
+    "old_id": "rwniCTWfYpKP5gi02Pa9f",
+    "type": "subtopic",
+    "label": "CREST",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\gwapt@rwniCTWfYpKP5gi02Pa9f.md"
+  },
+  {
+    "id": "BqvijNoRzSGYLCMP-6hhr",
+    "old_id": "nlmATCTgHoIoMcEOW8bUW",
+    "type": "subtopic",
+    "label": "CISSP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\gsec@nlmATCTgHoIoMcEOW8bUW.md"
+  },
+  {
+    "id": "UY6xdt_V3YMkZxZ1hZLvW",
+    "old_id": "_hYN0gEi9BL24nptEtXWU",
+    "type": "topic",
+    "label": "Operating Systems",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\security-skills-and-knowledge@_hYN0gEi9BL24nptEtXWU.md"
+  },
+  {
+    "id": "BNUKEQ4YpZmIhSPQdkHgU",
+    "old_id": "BNUKEQ4YpZmIhSPQdkHgU",
+    "type": "subtopic",
+    "label": "Windows",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\windows@BNUKEQ4YpZmIhSPQdkHgU.md"
+  },
+  {
+    "id": "4frVcjYI1VlVU9hQgpwcT",
+    "old_id": "4frVcjYI1VlVU9hQgpwcT",
+    "type": "subtopic",
+    "label": "Linux",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\linux@4frVcjYI1VlVU9hQgpwcT.md"
+  },
+  {
+    "id": "dztwr-DSckggQbcNIi4_2",
+    "old_id": "dztwr-DSckggQbcNIi4_2",
+    "type": "subtopic",
+    "label": "MacOS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\macos@dztwr-DSckggQbcNIi4_2.md"
+  },
+  {
+    "id": "02aaEP9E5tlefeGBxf_Rj",
+    "old_id": "02aaEP9E5tlefeGBxf_Rj",
+    "type": "subtopic",
+    "label": "Installation and Configuration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\installation-and-configuration@02aaEP9E5tlefeGBxf_Rj.md"
+  },
+  {
+    "id": "yXOGqlufAZ69uiBzKFfh6",
+    "old_id": "yXOGqlufAZ69uiBzKFfh6",
+    "type": "subtopic",
+    "label": "Different Versions and Differences",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\different-versions-and-differences@yXOGqlufAZ69uiBzKFfh6.md"
+  },
+  {
+    "id": "MGitS_eJBoY99zOR-W3F4",
+    "old_id": "MGitS_eJBoY99zOR-W3F4",
+    "type": "subtopic",
+    "label": "Navigating using GUI and CLI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\navigating-using-gui-and-cli@MGitS_eJBoY99zOR-W3F4.md"
+  },
+  {
+    "id": "bTfL7cPOmBBFl-eHxUJI6",
+    "old_id": "bTfL7cPOmBBFl-eHxUJI6",
+    "type": "subtopic",
+    "label": "Understand Permissions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-permissions@bTfL7cPOmBBFl-eHxUJI6.md"
+  },
+  {
+    "id": "Ot3LGpM-CT_nKsNqIKIye",
+    "old_id": "Ot3LGpM-CT_nKsNqIKIye",
+    "type": "subtopic",
+    "label": "Installing Software and Applications",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\installing-software-and-applications@Ot3LGpM-CT_nKsNqIKIye.md"
+  },
+  {
+    "id": "zRXyoJMap9irOYo3AdHE8",
+    "old_id": "zRXyoJMap9irOYo3AdHE8",
+    "type": "subtopic",
+    "label": "Performing CRUD on Files",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\performing-crud-on-files@zRXyoJMap9irOYo3AdHE8.md"
+  },
+  {
+    "id": "xeRWOX1fWQDLNLWMAFTEe",
+    "old_id": "xeRWOX1fWQDLNLWMAFTEe",
+    "type": "subtopic",
+    "label": "Troubleshooting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\troubleshooting@xeRWOX1fWQDLNLWMAFTEe.md"
+  },
+  {
+    "id": "WDrSO7wBNn-2jB8mcyT7j",
+    "old_id": "WDrSO7wBNn-2jB8mcyT7j",
+    "type": "subtopic",
+    "label": "Common Commands",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\common-commands@WDrSO7wBNn-2jB8mcyT7j.md"
+  },
+  {
+    "id": "gSLr-Lc119eX9Ig-kDzJ2",
+    "old_id": "_hYN0gEi9BL24nptEtXWU",
+    "type": "topic",
+    "label": "Networking Knowledge",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\security-skills-and-knowledge@_hYN0gEi9BL24nptEtXWU.md"
+  },
+  {
+    "id": "OXUd1UPPsBhNoUGLKZJGV",
+    "old_id": "OXUd1UPPsBhNoUGLKZJGV",
+    "type": "subtopic",
+    "label": "Understand the OSI Model",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-the-osi-model@OXUd1UPPsBhNoUGLKZJGV.md"
+  },
+  {
+    "id": "ViF-mpR17MB3_KJ1rV8mS",
+    "old_id": "ViF-mpR17MB3_KJ1rV8mS",
+    "type": "subtopic",
+    "label": "Common Protocols and their Uses",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\common-protocols-and-their-uses@ViF-mpR17MB3_KJ1rV8mS.md"
+  },
+  {
+    "id": "0tx2QYDYXhm85iYrCWd9U",
+    "old_id": "0tx2QYDYXhm85iYrCWd9U",
+    "type": "subtopic",
+    "label": "Common Ports and their Uses",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\common-ports-and-their-uses@0tx2QYDYXhm85iYrCWd9U.md"
+  },
+  {
+    "id": "dJ0NUsODFhk52W2zZxoPh",
+    "old_id": "dJ0NUsODFhk52W2zZxoPh",
+    "type": "subtopic",
+    "label": "SSL and TLS Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ssl-and-tls-basics@dJ0NUsODFhk52W2zZxoPh.md"
+  },
+  {
+    "id": "umbMBQ0yYmB5PgWfY6zfO",
+    "old_id": "umbMBQ0yYmB5PgWfY6zfO",
+    "type": "subtopic",
+    "label": "Basics of NAS and SAN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\basics-of-nas-and-san@umbMBQ0yYmB5PgWfY6zfO.md"
+  },
+  {
+    "id": "E8Z7qFFW-I9ivr0HzoXCq",
+    "old_id": "E8Z7qFFW-I9ivr0HzoXCq",
+    "type": "subtopic",
+    "label": "Basics of Subnetting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\basics-of-subnetting@E8Z7qFFW-I9ivr0HzoXCq.md"
+  },
+  {
+    "id": "2nQfhnvBjJg1uDZ28aE4v",
+    "old_id": "2nQfhnvBjJg1uDZ28aE4v",
+    "type": "subtopic",
+    "label": "Public vs Private IP Addresses",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\public-vs-private-ip-addresses@2nQfhnvBjJg1uDZ28aE4v.md"
+  },
+  {
+    "id": "0TWwox-4pSwuXojI8ixFO",
+    "old_id": "0TWwox-4pSwuXojI8ixFO",
+    "type": "subtopic",
+    "label": "localhost",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\localhost@0TWwox-4pSwuXojI8ixFO.md"
+  },
+  {
+    "id": "W_oloLu2Euz5zRSy7v_T8",
+    "old_id": "W_oloLu2Euz5zRSy7v_T8",
+    "type": "subtopic",
+    "label": "loopback",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\loopback@W_oloLu2Euz5zRSy7v_T8.md"
+  },
+  {
+    "id": "PPIH1oHW4_ZDyD3U3shDg",
+    "old_id": "PPIH1oHW4_ZDyD3U3shDg",
+    "type": "subtopic",
+    "label": "CIDR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cidr@PPIH1oHW4_ZDyD3U3shDg.md"
+  },
+  {
+    "id": "f-v8qtweWXFY_Ryo3oYUF",
+    "old_id": "f-v8qtweWXFY_Ryo3oYUF",
+    "type": "subtopic",
+    "label": "subnet mask",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\subnet-mask@f-v8qtweWXFY_Ryo3oYUF.md"
+  },
+  {
+    "id": "5rKaFtjYx0n2iF8uTLs8X",
+    "old_id": "5rKaFtjYx0n2iF8uTLs8X",
+    "type": "subtopic",
+    "label": "default gateway",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\default-gateway@5rKaFtjYx0n2iF8uTLs8X.md"
+  },
+  {
+    "id": "d5Cv3EXf6OXW19yPJ4x6e",
+    "old_id": "gTozEpxJeG1NTkVBHH-05",
+    "type": "subtopic",
+    "label": "VLAN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\vpn@gTozEpxJeG1NTkVBHH-05.md"
+  },
+  {
+    "id": "gfpvDQz61I3zTB7tGu7vp",
+    "old_id": "ORIdKG8H97VkBUYpiDtXf",
+    "type": "subtopic",
+    "label": "DMZ",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dns@ORIdKG8H97VkBUYpiDtXf.md"
+  },
+  {
+    "id": "M52V7hmG4ORf4TIVw3W3J",
+    "old_id": "Kkd3f_0OYNCdpDgrJ-_Ju",
+    "type": "subtopic",
+    "label": "ARP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nat@Kkd3f_0OYNCdpDgrJ-_Ju.md"
+  },
+  {
+    "id": "ZTC5bLWEIQcdmowc7sk_E",
+    "old_id": "FdoqB2---uDAyz6xZjk_u",
+    "type": "subtopic",
+    "label": "VM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ip@FdoqB2---uDAyz6xZjk_u.md"
+  },
+  {
+    "id": "T4312p70FqRBkzVfWKMaR",
+    "old_id": "gTozEpxJeG1NTkVBHH-05",
+    "type": "subtopic",
+    "label": "DHCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\vpn@gTozEpxJeG1NTkVBHH-05.md"
+  },
+  {
+    "id": "ORIdKG8H97VkBUYpiDtXf",
+    "old_id": "ORIdKG8H97VkBUYpiDtXf",
+    "type": "subtopic",
+    "label": "DNS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dns@ORIdKG8H97VkBUYpiDtXf.md"
+  },
+  {
+    "id": "Kkd3f_0OYNCdpDgrJ-_Ju",
+    "old_id": "Kkd3f_0OYNCdpDgrJ-_Ju",
+    "type": "subtopic",
+    "label": "NAT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nat@Kkd3f_0OYNCdpDgrJ-_Ju.md"
+  },
+  {
+    "id": "FdoqB2---uDAyz6xZjk_u",
+    "old_id": "FdoqB2---uDAyz6xZjk_u",
+    "type": "subtopic",
+    "label": "IP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ip@FdoqB2---uDAyz6xZjk_u.md"
+  },
+  {
+    "id": "lwSFIbIX-xOZ0QK2sGFb1",
+    "old_id": "gTozEpxJeG1NTkVBHH-05",
+    "type": "subtopic",
+    "label": "Router",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\vpn@gTozEpxJeG1NTkVBHH-05.md"
+  },
+  {
+    "id": "r9byGV8XuBPzoqj5ZPf2W",
+    "old_id": "gTozEpxJeG1NTkVBHH-05",
+    "type": "subtopic",
+    "label": "Switch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\vpn@gTozEpxJeG1NTkVBHH-05.md"
+  },
+  {
+    "id": "gTozEpxJeG1NTkVBHH-05",
+    "old_id": "ANjrRn83gKjXDVj-2XMfM",
+    "type": "subtopic",
+    "label": "VPN",
+    "resources": []
+  },
+  {
+    "id": "LrwTMH_1fTd8iB9wJg-0t",
+    "old_id": "LrwTMH_1fTd8iB9wJg-0t",
+    "type": "subtopic",
+    "label": "MAN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\man@LrwTMH_1fTd8iB9wJg-0t.md"
+  },
+  {
+    "id": "xWxusBtMEWnd-6n7oqjHz",
+    "old_id": "xWxusBtMEWnd-6n7oqjHz",
+    "type": "subtopic",
+    "label": "LAN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\lan@xWxusBtMEWnd-6n7oqjHz.md"
+  },
+  {
+    "id": "vCkTJMkDXcQmwsmeNUAX5",
+    "old_id": "vCkTJMkDXcQmwsmeNUAX5",
+    "type": "subtopic",
+    "label": "WAN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wan@vCkTJMkDXcQmwsmeNUAX5.md"
+  },
+  {
+    "id": "QCVYF1rmPsMVtklBNDNaB",
+    "old_id": "QCVYF1rmPsMVtklBNDNaB",
+    "type": "subtopic",
+    "label": "WLAN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wlan@QCVYF1rmPsMVtklBNDNaB.md"
+  },
+  {
+    "id": "R5HEeh6jwpQDo27rz1KSH",
+    "old_id": "LrwTMH_1fTd8iB9wJg-0t",
+    "type": "subtopic",
+    "label": "DHCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\man@LrwTMH_1fTd8iB9wJg-0t.md"
+  },
+  {
+    "id": "r1IKvhpwg2umazLGlQZL1",
+    "old_id": "xWxusBtMEWnd-6n7oqjHz",
+    "type": "subtopic",
+    "label": "DNS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\lan@xWxusBtMEWnd-6n7oqjHz.md"
+  },
+  {
+    "id": "tf0TymdPHbplDHvuVIIh4",
+    "old_id": "vCkTJMkDXcQmwsmeNUAX5",
+    "type": "subtopic",
+    "label": "NTP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wan@vCkTJMkDXcQmwsmeNUAX5.md"
+  },
+  {
+    "id": "hN8p5YBcSaPm-byQUIz8L",
+    "old_id": "QCVYF1rmPsMVtklBNDNaB",
+    "type": "subtopic",
+    "label": "IPAM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wlan@QCVYF1rmPsMVtklBNDNaB.md"
+  },
+  {
+    "id": "P0ZhAXd_H-mTOMr13Ag31",
+    "old_id": "R5HEeh6jwpQDo27rz1KSH",
+    "type": "subtopic",
+    "label": "Star",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dhcp@R5HEeh6jwpQDo27rz1KSH.md"
+  },
+  {
+    "id": "9vEUVJ8NTh0wKyIE6-diY",
+    "old_id": "r1IKvhpwg2umazLGlQZL1",
+    "type": "subtopic",
+    "label": "Ring",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dns@r1IKvhpwg2umazLGlQZL1.md"
+  },
+  {
+    "id": "PYeF15e7iVB9seFrrO7W6",
+    "old_id": "tf0TymdPHbplDHvuVIIh4",
+    "type": "subtopic",
+    "label": "Mesh",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ntp@tf0TymdPHbplDHvuVIIh4.md"
+  },
+  {
+    "id": "0DWh4WmLK_ENDuqQmQcu4",
+    "old_id": "hN8p5YBcSaPm-byQUIz8L",
+    "type": "subtopic",
+    "label": "Bus",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ipam@hN8p5YBcSaPm-byQUIz8L.md"
+  },
+  {
+    "id": "8Mog890Lj-gVBpWa05EzT",
+    "old_id": "P0ZhAXd_H-mTOMr13Ag31",
+    "type": "subtopic",
+    "label": "SSH",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\star@P0ZhAXd_H-mTOMr13Ag31.md"
+  },
+  {
+    "id": "Ia6M1FKPNpqLDiWx7CwDh",
+    "old_id": "9vEUVJ8NTh0wKyIE6-diY",
+    "type": "subtopic",
+    "label": "RDP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ring@9vEUVJ8NTh0wKyIE6-diY.md"
+  },
+  {
+    "id": "ftYYMxRpVer-jgSswHLNa",
+    "old_id": "PYeF15e7iVB9seFrrO7W6",
+    "type": "subtopic",
+    "label": "FTP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\mesh@PYeF15e7iVB9seFrrO7W6.md"
+  },
+  {
+    "id": "YEy6o-clTBKZp1yOkLwNb",
+    "old_id": "0DWh4WmLK_ENDuqQmQcu4",
+    "type": "subtopic",
+    "label": "SFTP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\bus@0DWh4WmLK_ENDuqQmQcu4.md"
+  },
+  {
+    "id": "3Awm221OJHxXNLiL9yxfd",
+    "old_id": "3Awm221OJHxXNLiL9yxfd",
+    "type": "subtopic",
+    "label": "HTTP / HTTPS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\http--https@3Awm221OJHxXNLiL9yxfd.md"
+  },
+  {
+    "id": "LKK1A5-xawA7yCIAWHS8P",
+    "old_id": "LKK1A5-xawA7yCIAWHS8P",
+    "type": "subtopic",
+    "label": "SSL / TLS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ssl--tls@LKK1A5-xawA7yCIAWHS8P.md"
+  },
+  {
+    "id": "AjywuCZdBi9atGUbetlUL",
+    "old_id": "AjywuCZdBi9atGUbetlUL",
+    "type": "subtopic",
+    "label": "VMWare",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\vmware@AjywuCZdBi9atGUbetlUL.md"
+  },
+  {
+    "id": "vGVFhZXYOZOy4qFpLLbxp",
+    "old_id": "vGVFhZXYOZOy4qFpLLbxp",
+    "type": "subtopic",
+    "label": "VirtualBox",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\virtualbox@vGVFhZXYOZOy4qFpLLbxp.md"
+  },
+  {
+    "id": "BisNooct1vJDKaBKsGR7_",
+    "old_id": "BisNooct1vJDKaBKsGR7_",
+    "type": "subtopic",
+    "label": "esxi",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\esxi@BisNooct1vJDKaBKsGR7_.md"
+  },
+  {
+    "id": "jqX1A5hFF3Qznqup4lfiF",
+    "old_id": "jqX1A5hFF3Qznqup4lfiF",
+    "type": "subtopic",
+    "label": "proxmox",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\proxmox@jqX1A5hFF3Qznqup4lfiF.md"
+  },
+  {
+    "id": "CIoLaRv5I3sCr9tBnZHEi",
+    "old_id": "CIoLaRv5I3sCr9tBnZHEi",
+    "type": "subtopic",
+    "label": "Hypervisor",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\hypervisor@CIoLaRv5I3sCr9tBnZHEi.md"
+  },
+  {
+    "id": "251sxqoHggQ4sZ676iX5w",
+    "old_id": "251sxqoHggQ4sZ676iX5w",
+    "type": "subtopic",
+    "label": "VM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\vm@251sxqoHggQ4sZ676iX5w.md"
+  },
+  {
+    "id": "LocGETHz6ANYinNd5ZLsS",
+    "old_id": "LocGETHz6ANYinNd5ZLsS",
+    "type": "subtopic",
+    "label": "GuestOS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\guestos@LocGETHz6ANYinNd5ZLsS.md"
+  },
+  {
+    "id": "p7w3C94xjLwSMm5qA8XlL",
+    "old_id": "p7w3C94xjLwSMm5qA8XlL",
+    "type": "subtopic",
+    "label": "HostOS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\hostos@p7w3C94xjLwSMm5qA8XlL.md"
+  },
+  {
+    "id": "tk4iG5i1Ml9w9KRO1tGJU",
+    "old_id": "tk4iG5i1Ml9w9KRO1tGJU",
+    "type": "subtopic",
+    "label": "nslookup",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nslookup@tk4iG5i1Ml9w9KRO1tGJU.md"
+  },
+  {
+    "id": "jr8JlyqmN3p7Ol3_kD9AH",
+    "old_id": "jr8JlyqmN3p7Ol3_kD9AH",
+    "type": "subtopic",
+    "label": "iptables",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\iptables@jr8JlyqmN3p7Ol3_kD9AH.md"
+  },
+  {
+    "id": "k6UX0BJho5arjGD2RWPgH",
+    "old_id": "k6UX0BJho5arjGD2RWPgH",
+    "type": "subtopic",
+    "label": "Packet Sniffers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\packet-sniffers@k6UX0BJho5arjGD2RWPgH.md"
+  },
+  {
+    "id": "u-6xuZUyOrogh1bU4cwER",
+    "old_id": "u-6xuZUyOrogh1bU4cwER",
+    "type": "subtopic",
+    "label": "ipconfig",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ipconfig@u-6xuZUyOrogh1bU4cwER.md"
+  },
+  {
+    "id": "2M3PRbGzo14agbEPe32ww",
+    "old_id": "2M3PRbGzo14agbEPe32ww",
+    "type": "subtopic",
+    "label": "netstat",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\netstat@2M3PRbGzo14agbEPe32ww.md"
+  },
+  {
+    "id": "iJRQHzh5HXADuWpCouwxv",
+    "old_id": "iJRQHzh5HXADuWpCouwxv",
+    "type": "subtopic",
+    "label": "Port Scanners",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\port-scanners@iJRQHzh5HXADuWpCouwxv.md"
+  },
+  {
+    "id": "GuuY-Q6FZzfspB3wrH64r",
+    "old_id": "GuuY-Q6FZzfspB3wrH64r",
+    "type": "subtopic",
+    "label": "ping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ping@GuuY-Q6FZzfspB3wrH64r.md"
+  },
+  {
+    "id": "D2YYv1iTRGken75sHO0Gt",
+    "old_id": "D2YYv1iTRGken75sHO0Gt",
+    "type": "subtopic",
+    "label": "dig",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dig@D2YYv1iTRGken75sHO0Gt.md"
+  },
+  {
+    "id": "hkO3Ga6KctKODr4gos6qX",
+    "old_id": "hkO3Ga6KctKODr4gos6qX",
+    "type": "subtopic",
+    "label": "arp",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\arp@hkO3Ga6KctKODr4gos6qX.md"
+  },
+  {
+    "id": "K05mEAsjImyPge0hDtsU0",
+    "old_id": "K05mEAsjImyPge0hDtsU0",
+    "type": "subtopic",
+    "label": "Protocol Analyzers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\protocol-analyzers@K05mEAsjImyPge0hDtsU0.md"
+  },
+  {
+    "id": "xqwIEyGfdZFxk6QqbPswe",
+    "old_id": "xqwIEyGfdZFxk6QqbPswe",
+    "type": "subtopic",
+    "label": "nmap",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nmap@xqwIEyGfdZFxk6QqbPswe.md"
+  },
+  {
+    "id": "xFuWk7M-Vctk_xb7bHbWs",
+    "old_id": "xFuWk7M-Vctk_xb7bHbWs",
+    "type": "subtopic",
+    "label": "route",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\route@xFuWk7M-Vctk_xb7bHbWs.md"
+  },
+  {
+    "id": "y8GaUNpaCT1Ai88wPOk6d",
+    "old_id": "y8GaUNpaCT1Ai88wPOk6d",
+    "type": "subtopic",
+    "label": "tcpdump",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\tcpdump@y8GaUNpaCT1Ai88wPOk6d.md"
+  },
+  {
+    "id": "cSz9Qx3PGwmhq3SSKYKfg",
+    "old_id": "cSz9Qx3PGwmhq3SSKYKfg",
+    "type": "subtopic",
+    "label": "tracert",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\tracert@cSz9Qx3PGwmhq3SSKYKfg.md"
+  },
+  {
+    "id": "lG6afUOx3jSQFxbH92otL",
+    "old_id": "lG6afUOx3jSQFxbH92otL",
+    "type": "subtopic",
+    "label": "Kerberos",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\kerberos@lG6afUOx3jSQFxbH92otL.md"
+  },
+  {
+    "id": "lV3swvD6QGLmD9iVfbKIF",
+    "old_id": "lV3swvD6QGLmD9iVfbKIF",
+    "type": "subtopic",
+    "label": "LDAP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ldap@lV3swvD6QGLmD9iVfbKIF.md"
+  },
+  {
+    "id": "xL32OqDKm6O043TYgVV1r",
+    "old_id": "tH3RLnJseqOzRIbZMklHD",
+    "type": "subtopic",
+    "label": "SSO",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\radius@tH3RLnJseqOzRIbZMklHD.md"
+  },
+  {
+    "id": "tH3RLnJseqOzRIbZMklHD",
+    "old_id": "tH3RLnJseqOzRIbZMklHD",
+    "type": "subtopic",
+    "label": "RADIUS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\radius@tH3RLnJseqOzRIbZMklHD.md"
+  },
+  {
+    "id": "WXRaVCYwuGQsjJ5wyvbea",
+    "old_id": "vYvFuz7lAJXZ1vK_4999a",
+    "type": "subtopic",
+    "label": "Certificates",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\local-auth@vYvFuz7lAJXZ1vK_4999a.md"
+  },
+  {
+    "id": "vYvFuz7lAJXZ1vK_4999a",
+    "old_id": "vYvFuz7lAJXZ1vK_4999a",
+    "type": "subtopic",
+    "label": "Local Auth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\local-auth@vYvFuz7lAJXZ1vK_4999a.md"
+  },
+  {
+    "id": "_hYN0gEi9BL24nptEtXWU",
+    "old_id": "c1edrcSmHO_L2e9DGh7st",
+    "type": "topic",
+    "label": "Security Skills and Knowledge",
+    "resources": []
+  },
+  {
+    "id": "rzY_QsvnC1shDTPQ-til0",
+    "old_id": "rzY_QsvnC1shDTPQ-til0",
+    "type": "subtopic",
+    "label": "Understand Common Hacking Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-common-hacking-tools@rzY_QsvnC1shDTPQ-til0.md"
+  },
+  {
+    "id": "Lg7mz4zeCToEzZBFxYuaU",
+    "old_id": "Lg7mz4zeCToEzZBFxYuaU",
+    "type": "subtopic",
+    "label": "Understand Common Exploit Frameworks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-common-exploit-frameworks@Lg7mz4zeCToEzZBFxYuaU.md"
+  },
+  {
+    "id": "Rae-f9DHDZuwIwW6eRtKF",
+    "old_id": "Rae-f9DHDZuwIwW6eRtKF",
+    "type": "subtopic",
+    "label": "Understand Concept of Defense in Depth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-concept-of-defense-in-depth@Rae-f9DHDZuwIwW6eRtKF.md"
+  },
+  {
+    "id": "Ec6EairjFJLCHc7b-1xxe",
+    "old_id": "Ec6EairjFJLCHc7b-1xxe",
+    "type": "subtopic",
+    "label": "Understand Concept of Runbooks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-concept-of-runbooks@Ec6EairjFJLCHc7b-1xxe.md"
+  },
+  {
+    "id": "7KLGFfco-hw7a62kXtS3d",
+    "old_id": "7KLGFfco-hw7a62kXtS3d",
+    "type": "subtopic",
+    "label": "Understand Basics of Forensics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-basics-of-forensics@7KLGFfco-hw7a62kXtS3d.md"
+  },
+  {
+    "id": "_x3BgX93N-Pt1_JK7wk0p",
+    "old_id": "_x3BgX93N-Pt1_JK7wk0p",
+    "type": "subtopic",
+    "label": "Basics and Concepts of Threat Hunting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\basics-and-concepts-of-threat-hunting@_x3BgX93N-Pt1_JK7wk0p.md"
+  },
+  {
+    "id": "lcxAXtO6LoGd85nOFnLo8",
+    "old_id": "lcxAXtO6LoGd85nOFnLo8",
+    "type": "subtopic",
+    "label": "Basics of Vulnerability Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\basics-of-vulnerability-management@lcxAXtO6LoGd85nOFnLo8.md"
+  },
+  {
+    "id": "uoGA4T_-c-2ip_zfEUcJJ",
+    "old_id": "uoGA4T_-c-2ip_zfEUcJJ",
+    "type": "subtopic",
+    "label": "Basics of Reverse Engineering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\basics-of-reverse-engineering@uoGA4T_-c-2ip_zfEUcJJ.md"
+  },
+  {
+    "id": "NkAAQikwH-A6vrF8fWpuB",
+    "old_id": "NkAAQikwH-A6vrF8fWpuB",
+    "type": "subtopic",
+    "label": "Penetration Testing Rules of Engagement",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\penetration-testing-rules-of-engagement@NkAAQikwH-A6vrF8fWpuB.md"
+  },
+  {
+    "id": "PUgPgpKio4Npzs86qEXa7",
+    "old_id": "PUgPgpKio4Npzs86qEXa7",
+    "type": "subtopic",
+    "label": "Perimiter vs DMZ vs Segmentation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\perimiter-vs-dmz-vs-segmentation@PUgPgpKio4Npzs86qEXa7.md"
+  },
+  {
+    "id": "HavEL0u65ZxHt92TfbLzk",
+    "old_id": "HavEL0u65ZxHt92TfbLzk",
+    "type": "subtopic",
+    "label": "Core Concepts of Zero Trust",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\core-concepts-of-zero-trust@HavEL0u65ZxHt92TfbLzk.md"
+  },
+  {
+    "id": "kqT0FRLt9Ak9P8PhHldO-",
+    "old_id": "kqT0FRLt9Ak9P8PhHldO-",
+    "type": "subtopic",
+    "label": "Roles of Compliance and Auditors",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\roles-of-compliance-and-auditors@kqT0FRLt9Ak9P8PhHldO-.md"
+  },
+  {
+    "id": "ggAja18sBUUdCfVsT0vCv",
+    "old_id": "ggAja18sBUUdCfVsT0vCv",
+    "type": "subtopic",
+    "label": "Understand the Definition of Risk",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-the-definition-of-risk@ggAja18sBUUdCfVsT0vCv.md"
+  },
+  {
+    "id": "9asy3STW4oTYYHcUazaRj",
+    "old_id": "9asy3STW4oTYYHcUazaRj",
+    "type": "subtopic",
+    "label": "Understand Backups and Resiliency",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-backups-and-resiliency@9asy3STW4oTYYHcUazaRj.md"
+  },
+  {
+    "id": "H38Vb7xvuBJXVzgPBdRdT",
+    "old_id": "H38Vb7xvuBJXVzgPBdRdT",
+    "type": "subtopic",
+    "label": "Cyber Kill Chain",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cyber-kill-chain@H38Vb7xvuBJXVzgPBdRdT.md"
+  },
+  {
+    "id": "pnfVrOjDeG1uYAeqHxhJP",
+    "old_id": "pnfVrOjDeG1uYAeqHxhJP",
+    "type": "subtopic",
+    "label": "MFA & 2FA",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\mfa--2fa@pnfVrOjDeG1uYAeqHxhJP.md"
+  },
+  {
+    "id": "_S25EOGS3P8647zLM5i-g",
+    "old_id": "_S25EOGS3P8647zLM5i-g",
+    "type": "subtopic",
+    "label": "Operating System Hardening",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\operating-system-hardening@_S25EOGS3P8647zLM5i-g.md"
+  },
+  {
+    "id": "aDF7ZcOX9uR8l0W4aqhYn",
+    "old_id": "aDF7ZcOX9uR8l0W4aqhYn",
+    "type": "subtopic",
+    "label": "Understand Concept of Isolation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-concept-of-isolation@aDF7ZcOX9uR8l0W4aqhYn.md"
+  },
+  {
+    "id": "FJsEBOFexbDyAj86XWBCc",
+    "old_id": "FJsEBOFexbDyAj86XWBCc",
+    "type": "subtopic",
+    "label": "Basics of IDS and IPS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\basics-of-ids-and-ips@FJsEBOFexbDyAj86XWBCc.md"
+  },
+  {
+    "id": "bj5YX8zhlam0yoNckL8e4",
+    "old_id": "bj5YX8zhlam0yoNckL8e4",
+    "type": "subtopic",
+    "label": "Honeypots",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\honeypots@bj5YX8zhlam0yoNckL8e4.md"
+  },
+  {
+    "id": "WG7DdsxESm31VcLFfkVTz",
+    "old_id": "WG7DdsxESm31VcLFfkVTz",
+    "type": "subtopic",
+    "label": "Authentication vs Authorization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\authentication-vs-authorization@WG7DdsxESm31VcLFfkVTz.md"
+  },
+  {
+    "id": "7tDxTcKJNAUxbHLPCnPFO",
+    "old_id": "7tDxTcKJNAUxbHLPCnPFO",
+    "type": "subtopic",
+    "label": "Blue / Red / Purple Teams",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\blue--red--purple-teams@7tDxTcKJNAUxbHLPCnPFO.md"
+  },
+  {
+    "id": "XwRCZf-yHJsXVjaRfb3R4",
+    "old_id": "XwRCZf-yHJsXVjaRfb3R4",
+    "type": "subtopic",
+    "label": "False Negative / False Positive",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\false-negative--false-positive@XwRCZf-yHJsXVjaRfb3R4.md"
+  },
+  {
+    "id": "M6uwyD4ibguxytf1od-og",
+    "old_id": "M6uwyD4ibguxytf1od-og",
+    "type": "subtopic",
+    "label": "True Negative / True Positive",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\true-negative--true-positive@M6uwyD4ibguxytf1od-og.md"
+  },
+  {
+    "id": "wN5x5pY53B8d0yopa1z8F",
+    "old_id": "wN5x5pY53B8d0yopa1z8F",
+    "type": "subtopic",
+    "label": "Basics of Threat Intel, OSINT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\basics-of-threat-intel-osint@wN5x5pY53B8d0yopa1z8F.md"
+  },
+  {
+    "id": "zQx_VUS1zRmF4zCGjJD5-",
+    "old_id": "zQx_VUS1zRmF4zCGjJD5-",
+    "type": "subtopic",
+    "label": "Understand Handshakes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-handshakes@zQx_VUS1zRmF4zCGjJD5-.md"
+  },
+  {
+    "id": "uz6ELaLEu9U4fHVfnQiOa",
+    "old_id": "uz6ELaLEu9U4fHVfnQiOa",
+    "type": "subtopic",
+    "label": "Understand CIA Triad",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-cia-triad@uz6ELaLEu9U4fHVfnQiOa.md"
+  },
+  {
+    "id": "cvI8-sxY5i8lpelW9iY_5",
+    "old_id": "cvI8-sxY5i8lpelW9iY_5",
+    "type": "subtopic",
+    "label": "Privilege Escalation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\privilege-escalation@cvI8-sxY5i8lpelW9iY_5.md"
+  },
+  {
+    "id": "fyOYVqiBqyKC4aqc6-y0q",
+    "old_id": "fyOYVqiBqyKC4aqc6-y0q",
+    "type": "subtopic",
+    "label": "Web Based Attacks and OWASP10",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\web-based-attacks-and-owasp10@fyOYVqiBqyKC4aqc6-y0q.md"
+  },
+  {
+    "id": "v7CD_sHqLWbm9ibXXESIK",
+    "old_id": "v7CD_sHqLWbm9ibXXESIK",
+    "type": "subtopic",
+    "label": "Learn how Malware works and Types",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\learn-how-malware-works-and-types@v7CD_sHqLWbm9ibXXESIK.md"
+  },
+  {
+    "id": "Hoou7kWyfB2wx_yFHug_H",
+    "old_id": "Hoou7kWyfB2wx_yFHug_H",
+    "type": "subtopic",
+    "label": "nmap",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nmap@Hoou7kWyfB2wx_yFHug_H.md"
+  },
+  {
+    "id": "jJtS0mgCYc0wbjuXssDRO",
+    "old_id": "jJtS0mgCYc0wbjuXssDRO",
+    "type": "subtopic",
+    "label": "tracert",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\tracert@jJtS0mgCYc0wbjuXssDRO.md"
+  },
+  {
+    "id": "OUarb1oS1-PX_3OXNR0rV",
+    "old_id": "OUarb1oS1-PX_3OXNR0rV",
+    "type": "subtopic",
+    "label": "nslookup",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nslookup@OUarb1oS1-PX_3OXNR0rV.md"
+  },
+  {
+    "id": "W7iQUCjODGYgE4PjC5TZI",
+    "old_id": "IXNGFF4sOFbQ_aND-ELK0",
+    "type": "subtopic",
+    "label": "curl",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ipconfig@IXNGFF4sOFbQ_aND-ELK0.md"
+  },
+  {
+    "id": "Cclbt4bNfkHwFwZOvJuLK",
+    "old_id": "Cclbt4bNfkHwFwZOvJuLK",
+    "type": "subtopic",
+    "label": "hping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\hping@Cclbt4bNfkHwFwZOvJuLK.md"
+  },
+  {
+    "id": "yfTpp-ePuDB931FnvNB-Y",
+    "old_id": "yfTpp-ePuDB931FnvNB-Y",
+    "type": "subtopic",
+    "label": "ping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ping@yfTpp-ePuDB931FnvNB-Y.md"
+  },
+  {
+    "id": "fzdZF-nzIL69kaA7kwOCn",
+    "old_id": "XyaWZZ45axJMKXoWwsyFj",
+    "type": "subtopic",
+    "label": "arp",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dig@XyaWZZ45axJMKXoWwsyFj.md"
+  },
+  {
+    "id": "D2ptX6ja_HvFEafMIzWOy",
+    "old_id": "D2ptX6ja_HvFEafMIzWOy",
+    "type": "subtopic",
+    "label": "cat",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cat@D2ptX6ja_HvFEafMIzWOy.md"
+  },
+  {
+    "id": "9xbU_hrEOUtMm-Q09Fe6t",
+    "old_id": "9xbU_hrEOUtMm-Q09Fe6t",
+    "type": "subtopic",
+    "label": "dd",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dd@9xbU_hrEOUtMm-Q09Fe6t.md"
+  },
+  {
+    "id": "VNmrb5Dm4UKUgL8JBfhnE",
+    "old_id": "VNmrb5Dm4UKUgL8JBfhnE",
+    "type": "subtopic",
+    "label": "head",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\head@VNmrb5Dm4UKUgL8JBfhnE.md"
+  },
+  {
+    "id": "Dfz-6aug0juUpMmOJLCJ9",
+    "old_id": "762Wf_Eh-3zq69CZZiIjR",
+    "type": "subtopic",
+    "label": "grep",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\tail@762Wf_Eh-3zq69CZZiIjR.md"
+  },
+  {
+    "id": "Sm9bxKUElINHND8FdZ5f2",
+    "old_id": "Sm9bxKUElINHND8FdZ5f2",
+    "type": "subtopic",
+    "label": "wireshark",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wireshark@Sm9bxKUElINHND8FdZ5f2.md"
+  },
+  {
+    "id": "gNan93Mg9Ym2AF3Q2gqoi",
+    "old_id": "gNan93Mg9Ym2AF3Q2gqoi",
+    "type": "subtopic",
+    "label": "winhex",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\winhex@gNan93Mg9Ym2AF3Q2gqoi.md"
+  },
+  {
+    "id": "wspNQPmqWRjKoFm6x_bVw",
+    "old_id": "wspNQPmqWRjKoFm6x_bVw",
+    "type": "subtopic",
+    "label": "memdump",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\memdump@wspNQPmqWRjKoFm6x_bVw.md"
+  },
+  {
+    "id": "_jJhL1RtaqHJmlcWrd-Ak",
+    "old_id": "_jJhL1RtaqHJmlcWrd-Ak",
+    "type": "subtopic",
+    "label": "FTK Imager",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ftk-imager@_jJhL1RtaqHJmlcWrd-Ak.md"
+  },
+  {
+    "id": "bIwpjIoxSUZloxDuQNpMu",
+    "old_id": "bIwpjIoxSUZloxDuQNpMu",
+    "type": "subtopic",
+    "label": "autopsy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\autopsy@bIwpjIoxSUZloxDuQNpMu.md"
+  },
+  {
+    "id": "XyaWZZ45axJMKXoWwsyFj",
+    "old_id": "XyaWZZ45axJMKXoWwsyFj",
+    "type": "subtopic",
+    "label": "dig",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dig@XyaWZZ45axJMKXoWwsyFj.md"
+  },
+  {
+    "id": "762Wf_Eh-3zq69CZZiIjR",
+    "old_id": "762Wf_Eh-3zq69CZZiIjR",
+    "type": "subtopic",
+    "label": "tail",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\tail@762Wf_Eh-3zq69CZZiIjR.md"
+  },
+  {
+    "id": "IXNGFF4sOFbQ_aND-ELK0",
+    "old_id": "IXNGFF4sOFbQ_aND-ELK0",
+    "type": "subtopic",
+    "label": "ipconfig",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ipconfig@IXNGFF4sOFbQ_aND-ELK0.md"
+  },
+  {
+    "id": "jqWhR6oTyX6yolUBv71VC",
+    "old_id": "jqWhR6oTyX6yolUBv71VC",
+    "type": "subtopic",
+    "label": "Salting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\salting@jqWhR6oTyX6yolUBv71VC.md"
+  },
+  {
+    "id": "0UZmAECMnfioi-VeXcvg8",
+    "old_id": "0UZmAECMnfioi-VeXcvg8",
+    "type": "subtopic",
+    "label": "Hashing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\hashing@0UZmAECMnfioi-VeXcvg8.md"
+  },
+  {
+    "id": "rmR6HJqEhHDgX55Xy5BAW",
+    "old_id": "rmR6HJqEhHDgX55Xy5BAW",
+    "type": "subtopic",
+    "label": "Key Exchange",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\key-exchange@rmR6HJqEhHDgX55Xy5BAW.md"
+  },
+  {
+    "id": "fxyJxrf3mnFTa3wXk1MCW",
+    "old_id": "fxyJxrf3mnFTa3wXk1MCW",
+    "type": "subtopic",
+    "label": "PKI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\pki@fxyJxrf3mnFTa3wXk1MCW.md"
+  },
+  {
+    "id": "7svh9qaaPp0Hz23yinIye",
+    "old_id": "7svh9qaaPp0Hz23yinIye",
+    "type": "subtopic",
+    "label": "Private vs Public Keys",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\private-vs-public-keys@7svh9qaaPp0Hz23yinIye.md"
+  },
+  {
+    "id": "kxlg6rpfqqoBfmMMg3EkJ",
+    "old_id": "kxlg6rpfqqoBfmMMg3EkJ",
+    "type": "subtopic",
+    "label": "Obfuscation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\obfuscation@kxlg6rpfqqoBfmMMg3EkJ.md"
+  },
+  {
+    "id": "auR7fNyd77W2UA-PjXeJS",
+    "old_id": "auR7fNyd77W2UA-PjXeJS",
+    "type": "subtopic",
+    "label": "ATT&CK",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\attck@auR7fNyd77W2UA-PjXeJS.md"
+  },
+  {
+    "id": "7Bmp4x6gbvWMuVDdGRUGj",
+    "old_id": "7Bmp4x6gbvWMuVDdGRUGj",
+    "type": "subtopic",
+    "label": "Kill Chain",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\kill-chain@7Bmp4x6gbvWMuVDdGRUGj.md"
+  },
+  {
+    "id": "AY-hoPGnAZSd1ExaYX8LR",
+    "old_id": "AY-hoPGnAZSd1ExaYX8LR",
+    "type": "subtopic",
+    "label": "Diamond Model",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\diamond-model@AY-hoPGnAZSd1ExaYX8LR.md"
+  },
+  {
+    "id": "oRssaVG-K-JwlL6TAHhXw",
+    "old_id": "oRssaVG-K-JwlL6TAHhXw",
+    "type": "subtopic",
+    "label": "ISO",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\iso@oRssaVG-K-JwlL6TAHhXw.md"
+  },
+  {
+    "id": "SOkJUTd1NUKSwYMIprv4m",
+    "old_id": "SOkJUTd1NUKSwYMIprv4m",
+    "type": "subtopic",
+    "label": "NIST",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nist@SOkJUTd1NUKSwYMIprv4m.md"
+  },
+  {
+    "id": "fjEdufrZAfW4Rl6yDU8Hk",
+    "old_id": "fjEdufrZAfW4Rl6yDU8Hk",
+    "type": "subtopic",
+    "label": "RMF",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\rmf@fjEdufrZAfW4Rl6yDU8Hk.md"
+  },
+  {
+    "id": "sSihnptkoEqUsHjDpckhG",
+    "old_id": "sSihnptkoEqUsHjDpckhG",
+    "type": "subtopic",
+    "label": "CIS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cis@sSihnptkoEqUsHjDpckhG.md"
+  },
+  {
+    "id": "HjfgaSEZjW9BOXy_Ixzkk",
+    "old_id": "HjfgaSEZjW9BOXy_Ixzkk",
+    "type": "subtopic",
+    "label": "CSF",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\csf@HjfgaSEZjW9BOXy_Ixzkk.md"
+  },
+  {
+    "id": "c2kY3wZVFKZYxMARhLIwO",
+    "old_id": "c2kY3wZVFKZYxMARhLIwO",
+    "type": "subtopic",
+    "label": "SIEM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\siem@c2kY3wZVFKZYxMARhLIwO.md"
+  },
+  {
+    "id": "i0ulrA-GJrNhIVmzdWDrn",
+    "old_id": "i0ulrA-GJrNhIVmzdWDrn",
+    "type": "subtopic",
+    "label": "SOAR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\soar@i0ulrA-GJrNhIVmzdWDrn.md"
+  },
+  {
+    "id": "zR6djXnfTSFVEfvJonQjf",
+    "old_id": "zR6djXnfTSFVEfvJonQjf",
+    "type": "subtopic",
+    "label": "ParrotOS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\parrotos@zR6djXnfTSFVEfvJonQjf.md"
+  },
+  {
+    "id": "w6wXkoLrv0_d-Ah0txUHd",
+    "old_id": "w6wXkoLrv0_d-Ah0txUHd",
+    "type": "subtopic",
+    "label": "Kali Linux",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\kali-linux@w6wXkoLrv0_d-Ah0txUHd.md"
+  },
+  {
+    "id": "10qbxX8DCrfyH7tgYexxQ",
+    "old_id": "10qbxX8DCrfyH7tgYexxQ",
+    "type": "subtopic",
+    "label": "LOLBAS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\lolbas@10qbxX8DCrfyH7tgYexxQ.md"
+  },
+  {
+    "id": "KbFwL--xF-eYjGy8PZdrM",
+    "old_id": "KbFwL--xF-eYjGy8PZdrM",
+    "type": "subtopic",
+    "label": "Event Logs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\event-logs@KbFwL--xF-eYjGy8PZdrM.md"
+  },
+  {
+    "id": "7oFwRkmoZom8exMDtMslX",
+    "old_id": "7oFwRkmoZom8exMDtMslX",
+    "type": "subtopic",
+    "label": "syslogs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\syslogs@7oFwRkmoZom8exMDtMslX.md"
+  },
+  {
+    "id": "xXz-SwvXA2cLfdCd-hLtW",
+    "old_id": "xXz-SwvXA2cLfdCd-hLtW",
+    "type": "subtopic",
+    "label": "netflow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\netflow@xXz-SwvXA2cLfdCd-hLtW.md"
+  },
+  {
+    "id": "TIxEkfBrN6EXQ3IKP1B7u",
+    "old_id": "TIxEkfBrN6EXQ3IKP1B7u",
+    "type": "subtopic",
+    "label": "Packet Captures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\packet-captures@TIxEkfBrN6EXQ3IKP1B7u.md"
+  },
+  {
+    "id": "np0PwKy-EvIa_f_LC6Eem",
+    "old_id": "np0PwKy-EvIa_f_LC6Eem",
+    "type": "subtopic",
+    "label": "Firewall Logs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\firewall-logs@np0PwKy-EvIa_f_LC6Eem.md"
+  },
+  {
+    "id": "OAukNfV5T0KTnIF9jKYRF",
+    "old_id": "OAukNfV5T0KTnIF9jKYRF",
+    "type": "subtopic",
+    "label": "MAC-based",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\mac-based@OAukNfV5T0KTnIF9jKYRF.md"
+  },
+  {
+    "id": "6oAzYfwsHQYNVbi7c2Tly",
+    "old_id": "6oAzYfwsHQYNVbi7c2Tly",
+    "type": "subtopic",
+    "label": "NAC-based",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nac-based@6oAzYfwsHQYNVbi7c2Tly.md"
+  },
+  {
+    "id": "W7bcydXdwlubXF2PHKOuq",
+    "old_id": "W7bcydXdwlubXF2PHKOuq",
+    "type": "subtopic",
+    "label": "Port Blocking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\port-blocking@W7bcydXdwlubXF2PHKOuq.md"
+  },
+  {
+    "id": "FxuMJmDoDkIsPFp2iocFg",
+    "old_id": "FxuMJmDoDkIsPFp2iocFg",
+    "type": "subtopic",
+    "label": "Group Policy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\group-policy@FxuMJmDoDkIsPFp2iocFg.md"
+  },
+  {
+    "id": "8JM95sonFUhZCdaynUA_M",
+    "old_id": "8JM95sonFUhZCdaynUA_M",
+    "type": "subtopic",
+    "label": "ACLs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\acls@8JM95sonFUhZCdaynUA_M.md"
+  },
+  {
+    "id": "oFgyQYL3Ws-l7B5AF-bTR",
+    "old_id": "oFgyQYL3Ws-l7B5AF-bTR",
+    "type": "subtopic",
+    "label": "Sinkholes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\sinkholes@oFgyQYL3Ws-l7B5AF-bTR.md"
+  },
+  {
+    "id": "e-MDyUR3GEv-e4Qsx_5vV",
+    "old_id": "e-MDyUR3GEv-e4Qsx_5vV",
+    "type": "subtopic",
+    "label": "Patching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\patching@e-MDyUR3GEv-e4Qsx_5vV.md"
+  },
+  {
+    "id": "UF3BV1sEEOrqh5ilnfM1B",
+    "old_id": "UF3BV1sEEOrqh5ilnfM1B",
+    "type": "subtopic",
+    "label": "Jump Server",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\jump-server@UF3BV1sEEOrqh5ilnfM1B.md"
+  },
+  {
+    "id": "LEgJtu1GZKOtoAXyOGWLE",
+    "old_id": "LEgJtu1GZKOtoAXyOGWLE",
+    "type": "subtopic",
+    "label": "Endpoint Security",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\endpoint-security@LEgJtu1GZKOtoAXyOGWLE.md"
+  },
+  {
+    "id": "9Z6HPHPj4escSVDWftFEx",
+    "old_id": "9Z6HPHPj4escSVDWftFEx",
+    "type": "subtopic",
+    "label": "FTP vs SFTP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ftp-vs-sftp@9Z6HPHPj4escSVDWftFEx.md"
+  },
+  {
+    "id": "6ILPXeUDDmmYRiA_gNTSr",
+    "old_id": "6ILPXeUDDmmYRiA_gNTSr",
+    "type": "subtopic",
+    "label": "SSL vs TLS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ssl-vs-tls@6ILPXeUDDmmYRiA_gNTSr.md"
+  },
+  {
+    "id": "gNFVtBxSYP5Uw3o3tlJ0M",
+    "old_id": "gNFVtBxSYP5Uw3o3tlJ0M",
+    "type": "subtopic",
+    "label": "IPSEC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ipsec@gNFVtBxSYP5Uw3o3tlJ0M.md"
+  },
+  {
+    "id": "LLGXONul7JfZGUahnK0AZ",
+    "old_id": "LLGXONul7JfZGUahnK0AZ",
+    "type": "subtopic",
+    "label": "DNSSEC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dnssec@LLGXONul7JfZGUahnK0AZ.md"
+  },
+  {
+    "id": "z_fDvTgKw51Uepo6eMQd9",
+    "old_id": "z_fDvTgKw51Uepo6eMQd9",
+    "type": "subtopic",
+    "label": "LDAPS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\ldaps@z_fDvTgKw51Uepo6eMQd9.md"
+  },
+  {
+    "id": "_9lQSG6fn69Yd9rs1pQdL",
+    "old_id": "_9lQSG6fn69Yd9rs1pQdL",
+    "type": "subtopic",
+    "label": "SRTP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\srtp@_9lQSG6fn69Yd9rs1pQdL.md"
+  },
+  {
+    "id": "9rmDvycXFcsGOq3v-_ziD",
+    "old_id": "9rmDvycXFcsGOq3v-_ziD",
+    "type": "subtopic",
+    "label": "S/MIME",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\smime@9rmDvycXFcsGOq3v-_ziD.md"
+  },
+  {
+    "id": "3140n5prZYySsuBHjqGOJ",
+    "old_id": "3140n5prZYySsuBHjqGOJ",
+    "type": "subtopic",
+    "label": "Antivirus",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\antivirus@3140n5prZYySsuBHjqGOJ.md"
+  },
+  {
+    "id": "9QtY1hMJ7NKLFztYK-mHY",
+    "old_id": "9QtY1hMJ7NKLFztYK-mHY",
+    "type": "subtopic",
+    "label": "Antimalware",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\antimalware@9QtY1hMJ7NKLFztYK-mHY.md"
+  },
+  {
+    "id": "QvHWrmMzO8IvNQ234E_wf",
+    "old_id": "QvHWrmMzO8IvNQ234E_wf",
+    "type": "subtopic",
+    "label": "EDR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\edr@QvHWrmMzO8IvNQ234E_wf.md"
+  },
+  {
+    "id": "iolsTC-63d_1wzKGul-cT",
+    "old_id": "iolsTC-63d_1wzKGul-cT",
+    "type": "subtopic",
+    "label": "DLP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dlp@iolsTC-63d_1wzKGul-cT.md"
+  },
+  {
+    "id": "35oCRzhzpVfitQPL4K9KC",
+    "old_id": "35oCRzhzpVfitQPL4K9KC",
+    "type": "subtopic",
+    "label": "ACL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\acl@35oCRzhzpVfitQPL4K9KC.md"
+  },
+  {
+    "id": "tWDo5R3KU5KOjDdtv801x",
+    "old_id": "tWDo5R3KU5KOjDdtv801x",
+    "type": "subtopic",
+    "label": "Firewall & Nextgen Firewall",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\firewall--nextgen-firewall@tWDo5R3KU5KOjDdtv801x.md"
+  },
+  {
+    "id": "l5EnhOCnkN-RKvgrS9ylH",
+    "old_id": "l5EnhOCnkN-RKvgrS9ylH",
+    "type": "subtopic",
+    "label": "HIPS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\hips@l5EnhOCnkN-RKvgrS9ylH.md"
+  },
+  {
+    "id": "LIPtxl_oKZRcbvXT4EdNf",
+    "old_id": "LIPtxl_oKZRcbvXT4EdNf",
+    "type": "subtopic",
+    "label": "NIDS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nids@LIPtxl_oKZRcbvXT4EdNf.md"
+  },
+  {
+    "id": "7w9qj16OD4pUzq-ItdxeK",
+    "old_id": "7w9qj16OD4pUzq-ItdxeK",
+    "type": "subtopic",
+    "label": "NIPS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\nips@7w9qj16OD4pUzq-ItdxeK.md"
+  },
+  {
+    "id": "jWl1VWkZn3n1G2eHq6EnX",
+    "old_id": "jWl1VWkZn3n1G2eHq6EnX",
+    "type": "subtopic",
+    "label": "Host Based Firewall",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\host-based-firewall@jWl1VWkZn3n1G2eHq6EnX.md"
+  },
+  {
+    "id": "SLKwuLHHpC7D1FqrpPRAe",
+    "old_id": "SLKwuLHHpC7D1FqrpPRAe",
+    "type": "subtopic",
+    "label": "Sandboxing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\sandboxing@SLKwuLHHpC7D1FqrpPRAe.md"
+  },
+  {
+    "id": "1jwtExZzR9ABKvD_S9zFG",
+    "old_id": "1jwtExZzR9ABKvD_S9zFG",
+    "type": "subtopic",
+    "label": "EAP vs PEAP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\eap-vs-peap@1jwtExZzR9ABKvD_S9zFG.md"
+  },
+  {
+    "id": "HSCGbM2-aTnJWUX6jGaDP",
+    "old_id": "MBnDE0VyVh2u2p-r90jVk",
+    "type": "subtopic",
+    "label": "WPS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wpa-vs-wpa2-vs-wpa3-vs-wep@MBnDE0VyVh2u2p-r90jVk.md"
+  },
+  {
+    "id": "MBnDE0VyVh2u2p-r90jVk",
+    "old_id": "MBnDE0VyVh2u2p-r90jVk",
+    "type": "subtopic",
+    "label": "WPA vs WPA2 vs WPA3 vs WEP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wpa-vs-wpa2-vs-wpa3-vs-wep@MBnDE0VyVh2u2p-r90jVk.md"
+  },
+  {
+    "id": "w6V4JOtXKCMPAkKIQxvMg",
+    "old_id": "w6V4JOtXKCMPAkKIQxvMg",
+    "type": "subtopic",
+    "label": "Preparation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\preparation@w6V4JOtXKCMPAkKIQxvMg.md"
+  },
+  {
+    "id": "XsRoldaBXUSiGbvY1TjQd",
+    "old_id": "XsRoldaBXUSiGbvY1TjQd",
+    "type": "subtopic",
+    "label": "Identification",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\identification@XsRoldaBXUSiGbvY1TjQd.md"
+  },
+  {
+    "id": "l7WnKuR2HTD4Vf9U2TxkK",
+    "old_id": "l7WnKuR2HTD4Vf9U2TxkK",
+    "type": "subtopic",
+    "label": "Containment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\containment@l7WnKuR2HTD4Vf9U2TxkK.md"
+  },
+  {
+    "id": "N17xAIo7sgbB0nrIDMWju",
+    "old_id": "N17xAIo7sgbB0nrIDMWju",
+    "type": "subtopic",
+    "label": "Eradication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\eradication@N17xAIo7sgbB0nrIDMWju.md"
+  },
+  {
+    "id": "vFjbZAJq8OfLb3_tsc7oT",
+    "old_id": "vFjbZAJq8OfLb3_tsc7oT",
+    "type": "subtopic",
+    "label": "Recovery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\recovery@vFjbZAJq8OfLb3_tsc7oT.md"
+  },
+  {
+    "id": "ErRol7AT02HTn3umsPD_0",
+    "old_id": "ErRol7AT02HTn3umsPD_0",
+    "type": "subtopic",
+    "label": "Lessons Learned",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\lessons-learned@ErRol7AT02HTn3umsPD_0.md"
+  },
+  {
+    "id": "zqRaMmqcLfx400kJ-h0LO",
+    "old_id": "zqRaMmqcLfx400kJ-h0LO",
+    "type": "subtopic",
+    "label": "Zero Day",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\zero-day@zqRaMmqcLfx400kJ-h0LO.md"
+  },
+  {
+    "id": "HPlPGKs7NLqmBidHJkOZg",
+    "old_id": "HPlPGKs7NLqmBidHJkOZg",
+    "type": "subtopic",
+    "label": "Known vs Unknown",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\known-vs-unknown@HPlPGKs7NLqmBidHJkOZg.md"
+  },
+  {
+    "id": "l0BvDtwWoRSEjm6O0WDPy",
+    "old_id": "l0BvDtwWoRSEjm6O0WDPy",
+    "type": "subtopic",
+    "label": "APT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\apt@l0BvDtwWoRSEjm6O0WDPy.md"
+  },
+  {
+    "id": "rxzcAzHjzIc9lkWSw0fef",
+    "old_id": "rxzcAzHjzIc9lkWSw0fef",
+    "type": "subtopic",
+    "label": "VirusTotal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\virustotal@rxzcAzHjzIc9lkWSw0fef.md"
+  },
+  {
+    "id": "h__KxKa0Q74_egY7GOe-L",
+    "old_id": "h__KxKa0Q74_egY7GOe-L",
+    "type": "subtopic",
+    "label": "Joe Sandbox",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\joe-sandbox@h__KxKa0Q74_egY7GOe-L.md"
+  },
+  {
+    "id": "GZHFR43UzN0WIIxGKZOdX",
+    "old_id": "GZHFR43UzN0WIIxGKZOdX",
+    "type": "subtopic",
+    "label": "any.run",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\anyrun@GZHFR43UzN0WIIxGKZOdX.md"
+  },
+  {
+    "id": "lFt1k1Q-NlWWqyDA3gWD1",
+    "old_id": "lFt1k1Q-NlWWqyDA3gWD1",
+    "type": "subtopic",
+    "label": "urlvoid",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\urlvoid@lFt1k1Q-NlWWqyDA3gWD1.md"
+  },
+  {
+    "id": "lMiW2q-b72KUl-2S7M6Vb",
+    "old_id": "lMiW2q-b72KUl-2S7M6Vb",
+    "type": "subtopic",
+    "label": "urlscan",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\urlscan@lMiW2q-b72KUl-2S7M6Vb.md"
+  },
+  {
+    "id": "-RnlvUltJ9IDtH0HEnMbN",
+    "old_id": "-RnlvUltJ9IDtH0HEnMbN",
+    "type": "subtopic",
+    "label": "WHOIS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\whois@-RnlvUltJ9IDtH0HEnMbN.md"
+  },
+  {
+    "id": "7obusm5UtHwWMcMMEB3lt",
+    "old_id": "7obusm5UtHwWMcMMEB3lt",
+    "type": "subtopic",
+    "label": "Phishing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\phishing@7obusm5UtHwWMcMMEB3lt.md"
+  },
+  {
+    "id": "M65fCl72qlF0VTbGNT6du",
+    "old_id": "M65fCl72qlF0VTbGNT6du",
+    "type": "subtopic",
+    "label": "Whishing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\whishing@M65fCl72qlF0VTbGNT6du.md"
+  },
+  {
+    "id": "KSwl6sX2W47vUmytpm8LH",
+    "old_id": "KSwl6sX2W47vUmytpm8LH",
+    "type": "subtopic",
+    "label": "Whaling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\whaling@KSwl6sX2W47vUmytpm8LH.md"
+  },
+  {
+    "id": "d4U6Jq-CUB1nNN2OCFoum",
+    "old_id": "d4U6Jq-CUB1nNN2OCFoum",
+    "type": "subtopic",
+    "label": "Smishing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\smishing@d4U6Jq-CUB1nNN2OCFoum.md"
+  },
+  {
+    "id": "cbEMUyg_btIPjdx-XqIM5",
+    "old_id": "cbEMUyg_btIPjdx-XqIM5",
+    "type": "subtopic",
+    "label": "Spam vs Spim",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\spam-vs-spim@cbEMUyg_btIPjdx-XqIM5.md"
+  },
+  {
+    "id": "FD0bkmxNpPXiUB_NevEUf",
+    "old_id": "FD0bkmxNpPXiUB_NevEUf",
+    "type": "subtopic",
+    "label": "Shoulder Surfing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\shoulder-surfing@FD0bkmxNpPXiUB_NevEUf.md"
+  },
+  {
+    "id": "Iu0Qtk13RjrhHpSlm0uyh",
+    "old_id": "Iu0Qtk13RjrhHpSlm0uyh",
+    "type": "subtopic",
+    "label": "Dumpster Diving",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dumpster-diving@Iu0Qtk13RjrhHpSlm0uyh.md"
+  },
+  {
+    "id": "o-keJgF9hmifQ_hUD91iN",
+    "old_id": "o-keJgF9hmifQ_hUD91iN",
+    "type": "subtopic",
+    "label": "Tailgating",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\tailgating@o-keJgF9hmifQ_hUD91iN.md"
+  },
+  {
+    "id": "v9njgIxZyabJZ5iND3JGc",
+    "old_id": "v9njgIxZyabJZ5iND3JGc",
+    "type": "subtopic",
+    "label": "Zero day",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\zero-day@v9njgIxZyabJZ5iND3JGc.md"
+  },
+  {
+    "id": "O1VceThdxRlgQ6DcGyY7Y",
+    "old_id": "O1VceThdxRlgQ6DcGyY7Y",
+    "type": "subtopic",
+    "label": "Social Engineering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\social-engineering@O1VceThdxRlgQ6DcGyY7Y.md"
+  },
+  {
+    "id": "UU_inxa8Y2lLP2BRhdLDT",
+    "old_id": "UU_inxa8Y2lLP2BRhdLDT",
+    "type": "subtopic",
+    "label": "Reconnaissance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\reconnaissance@UU_inxa8Y2lLP2BRhdLDT.md"
+  },
+  {
+    "id": "ZEgxmvjWPp5NofLFz_FTJ",
+    "old_id": "ZEgxmvjWPp5NofLFz_FTJ",
+    "type": "subtopic",
+    "label": "Impersonation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\impersonation@ZEgxmvjWPp5NofLFz_FTJ.md"
+  },
+  {
+    "id": "dcvuKHq0nHgHLcLwtl4IJ",
+    "old_id": "dcvuKHq0nHgHLcLwtl4IJ",
+    "type": "subtopic",
+    "label": "Watering Hole Attack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\watering-hole-attack@dcvuKHq0nHgHLcLwtl4IJ.md"
+  },
+  {
+    "id": "cO70zHvHgBAH29khF-hBW",
+    "old_id": "cO70zHvHgBAH29khF-hBW",
+    "type": "subtopic",
+    "label": "Drive by Attack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\drive-by-attack@cO70zHvHgBAH29khF-hBW.md"
+  },
+  {
+    "id": "0LeDwj_tMaXjQBBOUJ5CL",
+    "old_id": "0LeDwj_tMaXjQBBOUJ5CL",
+    "type": "subtopic",
+    "label": "Typo Squatting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\typo-squatting@0LeDwj_tMaXjQBBOUJ5CL.md"
+  },
+  {
+    "id": "Q0i-plPQkb_NIvOQBVaDd",
+    "old_id": "Q0i-plPQkb_NIvOQBVaDd",
+    "type": "subtopic",
+    "label": "Brute Force vs Password Spray",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\brute-force-vs-password-spray@Q0i-plPQkb_NIvOQBVaDd.md"
+  },
+  {
+    "id": "IF5H0ZJ72XnqXti3jRWYF",
+    "old_id": "IF5H0ZJ72XnqXti3jRWYF",
+    "type": "subtopic",
+    "label": "DoS vs DDoS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dos-vs-ddos@IF5H0ZJ72XnqXti3jRWYF.md"
+  },
+  {
+    "id": "ODlVT6MhV-RVUbRMG0mHi",
+    "old_id": "ODlVT6MhV-RVUbRMG0mHi",
+    "type": "subtopic",
+    "label": "MITM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\mitm@ODlVT6MhV-RVUbRMG0mHi.md"
+  },
+  {
+    "id": "LteSouUtAj3JWWOzcjQPl",
+    "old_id": "LteSouUtAj3JWWOzcjQPl",
+    "type": "subtopic",
+    "label": "Spoofing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\spoofing@LteSouUtAj3JWWOzcjQPl.md"
+  },
+  {
+    "id": "O1fY2n40yjZtJUEeoItKr",
+    "old_id": "O1fY2n40yjZtJUEeoItKr",
+    "type": "subtopic",
+    "label": "Evil Twin",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\evil-twin@O1fY2n40yjZtJUEeoItKr.md"
+  },
+  {
+    "id": "urtsyYWViEzbqYLoNfQAh",
+    "old_id": "urtsyYWViEzbqYLoNfQAh",
+    "type": "subtopic",
+    "label": "DNS Poisoning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dns-poisoning@urtsyYWViEzbqYLoNfQAh.md"
+  },
+  {
+    "id": "LfWJJaT3fv0p6fUeS8b84",
+    "old_id": "LfWJJaT3fv0p6fUeS8b84",
+    "type": "subtopic",
+    "label": "Deauth Attack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\deauth-attack@LfWJJaT3fv0p6fUeS8b84.md"
+  },
+  {
+    "id": "u4hySof6if5hiONSaW-Uf",
+    "old_id": "u4hySof6if5hiONSaW-Uf",
+    "type": "subtopic",
+    "label": "VLAN Hopping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\vlan-hopping@u4hySof6if5hiONSaW-Uf.md"
+  },
+  {
+    "id": "Ee7LfbhwJbiWjJ3b_bbni",
+    "old_id": "Ee7LfbhwJbiWjJ3b_bbni",
+    "type": "subtopic",
+    "label": "Rogue Access Point",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\rogue-access-point@Ee7LfbhwJbiWjJ3b_bbni.md"
+  },
+  {
+    "id": "n8ZOZxNhlnw7DpzoXe_f_",
+    "old_id": "n8ZOZxNhlnw7DpzoXe_f_",
+    "type": "subtopic",
+    "label": "Buffer Overflow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\buffer-overflow@n8ZOZxNhlnw7DpzoXe_f_.md"
+  },
+  {
+    "id": "nOND14t7ISgSH3zNpV3F8",
+    "old_id": "nOND14t7ISgSH3zNpV3F8",
+    "type": "subtopic",
+    "label": "Memory Leak",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\memory-leak@nOND14t7ISgSH3zNpV3F8.md"
+  },
+  {
+    "id": "2jo1r9O_rCnDwRv1_4Wo-",
+    "old_id": "2jo1r9O_rCnDwRv1_4Wo-",
+    "type": "subtopic",
+    "label": "XSS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\xss@2jo1r9O_rCnDwRv1_4Wo-.md"
+  },
+  {
+    "id": "P-Am25WJV8cFd_KsX7cdj",
+    "old_id": "P-Am25WJV8cFd_KsX7cdj",
+    "type": "subtopic",
+    "label": "SQL Injection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\sql-injection@P-Am25WJV8cFd_KsX7cdj.md"
+  },
+  {
+    "id": "pK2iRArULlK-B3iSVo4-n",
+    "old_id": "pK2iRArULlK-B3iSVo4-n",
+    "type": "subtopic",
+    "label": "CSRF",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\csrf@pK2iRArULlK-B3iSVo4-n.md"
+  },
+  {
+    "id": "mIX8PsIGuwgPCGQZ6ok2H",
+    "old_id": "mIX8PsIGuwgPCGQZ6ok2H",
+    "type": "subtopic",
+    "label": "Replay Attack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\replay-attack@mIX8PsIGuwgPCGQZ6ok2H.md"
+  },
+  {
+    "id": "sMuKqf27y4iG0GrCdF5DN",
+    "old_id": "sMuKqf27y4iG0GrCdF5DN",
+    "type": "subtopic",
+    "label": "Pass the Hash",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\pass-the-hash@sMuKqf27y4iG0GrCdF5DN.md"
+  },
+  {
+    "id": "L0ROYh2DNlkybNDO2ezJY",
+    "old_id": "L0ROYh2DNlkybNDO2ezJY",
+    "type": "subtopic",
+    "label": "Directory Traversal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\directory-traversal@L0ROYh2DNlkybNDO2ezJY.md"
+  },
+  {
+    "id": "lv6fI3WeJawuCbwKtMRIh",
+    "old_id": "lv6fI3WeJawuCbwKtMRIh",
+    "type": "subtopic",
+    "label": "Stakeholders",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\stakeholders@lv6fI3WeJawuCbwKtMRIh.md"
+  },
+  {
+    "id": "05tH6WhToC615JTFN-TPc",
+    "old_id": "05tH6WhToC615JTFN-TPc",
+    "type": "subtopic",
+    "label": "HR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\hr@05tH6WhToC615JTFN-TPc.md"
+  },
+  {
+    "id": "C5bCIdPi0gGkY_r4qqoXZ",
+    "old_id": "C5bCIdPi0gGkY_r4qqoXZ",
+    "type": "subtopic",
+    "label": "Legal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\legal@C5bCIdPi0gGkY_r4qqoXZ.md"
+  },
+  {
+    "id": "05Gbgy6aawYlYIx38u8DE",
+    "old_id": "05Gbgy6aawYlYIx38u8DE",
+    "type": "subtopic",
+    "label": "Compliance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\compliance@05Gbgy6aawYlYIx38u8DE.md"
+  },
+  {
+    "id": "s9tHpzYRj2HCImwQhnjFM",
+    "old_id": "s9tHpzYRj2HCImwQhnjFM",
+    "type": "subtopic",
+    "label": "Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\management@s9tHpzYRj2HCImwQhnjFM.md"
+  },
+  {
+    "id": "vVaBQ5VtsE_ZeXbCOF8ux",
+    "old_id": "vVaBQ5VtsE_ZeXbCOF8ux",
+    "type": "topic",
+    "label": "Cloud Skills and Knowledge",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\cloud-skills-and-knowledge@vVaBQ5VtsE_ZeXbCOF8ux.md"
+  },
+  {
+    "id": "ThLsXkqLw--uddHz0spCH",
+    "old_id": "ThLsXkqLw--uddHz0spCH",
+    "type": "subtopic",
+    "label": "Understand the Concept of Security in the Cloud",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-the-concept-of-security-in-the-cloud@ThLsXkqLw--uddHz0spCH.md"
+  },
+  {
+    "id": "XL3FVeGFDhAl_gSol6Tjt",
+    "old_id": "XL3FVeGFDhAl_gSol6Tjt",
+    "type": "subtopic",
+    "label": "Understand the basics and general flow of deploying in the cloud",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-the-basics-and-general-flow-of-deploying-in-the-cloud@XL3FVeGFDhAl_gSol6Tjt.md"
+  },
+  {
+    "id": "KGjYM4Onr5GQf1Yv9IabI",
+    "old_id": "KGjYM4Onr5GQf1Yv9IabI",
+    "type": "subtopic",
+    "label": "Understand the differences between cloud and on-premises",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-the-differences-between-cloud-and-on-premises@KGjYM4Onr5GQf1Yv9IabI.md"
+  },
+  {
+    "id": "RJctUpvlUJGAdwBNtDSXw",
+    "old_id": "RJctUpvlUJGAdwBNtDSXw",
+    "type": "subtopic",
+    "label": "Understand the concept of Infrastructure as Code",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-the-concept-of-infrastructure-as-code@RJctUpvlUJGAdwBNtDSXw.md"
+  },
+  {
+    "id": "-83ltMEl3le3yD68OFnTM",
+    "old_id": "-83ltMEl3le3yD68OFnTM",
+    "type": "subtopic",
+    "label": "Understand the Concept of Serverless",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\understand-the-concept-of-serverless@-83ltMEl3le3yD68OFnTM.md"
+  },
+  {
+    "id": "sVw5KVNxPEatBRKb2ZbS_",
+    "old_id": "sVw5KVNxPEatBRKb2ZbS_",
+    "type": "subtopic",
+    "label": "SaaS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\saas@sVw5KVNxPEatBRKb2ZbS_.md"
+  },
+  {
+    "id": "PQ_np6O-4PK2V-r5lywQg",
+    "old_id": "PQ_np6O-4PK2V-r5lywQg",
+    "type": "subtopic",
+    "label": "PaaS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\paas@PQ_np6O-4PK2V-r5lywQg.md"
+  },
+  {
+    "id": "1nPifNUm-udLChIqLC_uK",
+    "old_id": "1nPifNUm-udLChIqLC_uK",
+    "type": "subtopic",
+    "label": "IaaS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\iaas@1nPifNUm-udLChIqLC_uK.md"
+  },
+  {
+    "id": "ecpMKP1cQXXsfKETDUrSf",
+    "old_id": "ecpMKP1cQXXsfKETDUrSf",
+    "type": "subtopic",
+    "label": "Private",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\private@ecpMKP1cQXXsfKETDUrSf.md"
+  },
+  {
+    "id": "ZDj7KBuyZsKyEMZViMoXW",
+    "old_id": "ZDj7KBuyZsKyEMZViMoXW",
+    "type": "subtopic",
+    "label": "Public",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\public@ZDj7KBuyZsKyEMZViMoXW.md"
+  },
+  {
+    "id": "ywRlTuTfh5-NHnv4ZyW1t",
+    "old_id": "ywRlTuTfh5-NHnv4ZyW1t",
+    "type": "subtopic",
+    "label": "Hybrid",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\hybrid@ywRlTuTfh5-NHnv4ZyW1t.md"
+  },
+  {
+    "id": "0LztOTc3NG3OujCVwlcVU",
+    "old_id": "0LztOTc3NG3OujCVwlcVU",
+    "type": "subtopic",
+    "label": "AWS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\aws@0LztOTc3NG3OujCVwlcVU.md"
+  },
+  {
+    "id": "tOLA5QPKi6LHl1ljsOMwX",
+    "old_id": "tOLA5QPKi6LHl1ljsOMwX",
+    "type": "subtopic",
+    "label": "GCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\gcp@tOLA5QPKi6LHl1ljsOMwX.md"
+  },
+  {
+    "id": "GklBi7Qx1akN_cS9UMrha",
+    "old_id": "GklBi7Qx1akN_cS9UMrha",
+    "type": "subtopic",
+    "label": "Azure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\azure@GklBi7Qx1akN_cS9UMrha.md"
+  },
+  {
+    "id": "2jsTgT7k8MeaDtx6RJhOP",
+    "old_id": "2jsTgT7k8MeaDtx6RJhOP",
+    "type": "subtopic",
+    "label": "S3",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\s3@2jsTgT7k8MeaDtx6RJhOP.md"
+  },
+  {
+    "id": "9OastXVfiG1YRMm68ecnn",
+    "old_id": "9OastXVfiG1YRMm68ecnn",
+    "type": "subtopic",
+    "label": "Dropbox",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\dropbox@9OastXVfiG1YRMm68ecnn.md"
+  },
+  {
+    "id": "4Man3Bd-ySLFlAdxbLOHw",
+    "old_id": "4Man3Bd-ySLFlAdxbLOHw",
+    "type": "subtopic",
+    "label": "Box",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\box@4Man3Bd-ySLFlAdxbLOHw.md"
+  },
+  {
+    "id": "MWqnhDKm9jXvDDjkeVNxm",
+    "old_id": "MWqnhDKm9jXvDDjkeVNxm",
+    "type": "subtopic",
+    "label": "OneDrive",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\onedrive@MWqnhDKm9jXvDDjkeVNxm.md"
+  },
+  {
+    "id": "fTZ4PqH-AMhYA_65w4wFO",
+    "old_id": "fTZ4PqH-AMhYA_65w4wFO",
+    "type": "subtopic",
+    "label": "Google Drive",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\google-drive@fTZ4PqH-AMhYA_65w4wFO.md"
+  },
+  {
+    "id": "Wqy6ki13hP5c0VhGYEhHj",
+    "old_id": "Wqy6ki13hP5c0VhGYEhHj",
+    "type": "subtopic",
+    "label": "iCloud",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\icloud@Wqy6ki13hP5c0VhGYEhHj.md"
+  },
+  {
+    "id": "_RnuQ7952N8GWZfPD60sJ",
+    "old_id": "_RnuQ7952N8GWZfPD60sJ",
+    "type": "topic",
+    "label": "Programming Skills",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\programming-skills@_RnuQ7952N8GWZfPD60sJ.md"
+  },
+  {
+    "id": "XiHvGy--OkPFfJeKA6-LP",
+    "old_id": "XiHvGy--OkPFfJeKA6-LP",
+    "type": "subtopic",
+    "label": "Python",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\python@XiHvGy--OkPFfJeKA6-LP.md"
+  },
+  {
+    "id": "jehVvdz8BnruKjqHMKu5v",
+    "old_id": "jehVvdz8BnruKjqHMKu5v",
+    "type": "subtopic",
+    "label": "Go",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\go@jehVvdz8BnruKjqHMKu5v.md"
+  },
+  {
+    "id": "2SThr6mHpX6rpW-gmsqxG",
+    "old_id": "2SThr6mHpX6rpW-gmsqxG",
+    "type": "subtopic",
+    "label": "JavaScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\javascript@2SThr6mHpX6rpW-gmsqxG.md"
+  },
+  {
+    "id": "8jj9hpe9jQIgCc8Txyw3O",
+    "old_id": "8jj9hpe9jQIgCc8Txyw3O",
+    "type": "subtopic",
+    "label": "C++",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\c@8jj9hpe9jQIgCc8Txyw3O.md"
+  },
+  {
+    "id": "tao0Bb_JR0Ubl62HO8plp",
+    "old_id": "tao0Bb_JR0Ubl62HO8plp",
+    "type": "subtopic",
+    "label": "Bash",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\bash@tao0Bb_JR0Ubl62HO8plp.md"
+  },
+  {
+    "id": "paY9x2VJA98FNGBFGRXp2",
+    "old_id": "paY9x2VJA98FNGBFGRXp2",
+    "type": "subtopic",
+    "label": "Power Shell",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\power-shell@paY9x2VJA98FNGBFGRXp2.md"
+  },
+  {
+    "id": "Jd9t8e9r29dHRsN40dDOk",
+    "old_id": "Jd9t8e9r29dHRsN40dDOk",
+    "type": "subtopic",
+    "label": "GTFOBINS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\gtfobins@Jd9t8e9r29dHRsN40dDOk.md"
+  },
+  {
+    "id": "Rnpx7VkhrBkSQTni6UuTR",
+    "old_id": "Rnpx7VkhrBkSQTni6UuTR",
+    "type": "subtopic",
+    "label": "WADCOMS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cyber-security\\content\\wadcoms@Rnpx7VkhrBkSQTni6UuTR.md"
+  }
+]

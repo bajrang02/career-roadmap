@@ -1,0 +1,254 @@
+[
+  {
+    "id": "_7uvOebQUI4xaSwtMjpEd",
+    "old_id": "rQArtuVKGVgLn_fw9yO3b",
+    "type": "topic",
+    "label": "Programming Fundamentals",
+    "resources": []
+  },
+  {
+    "id": "Vh81GnOUOZvDOlOyI5PwT",
+    "old_id": "Vh81GnOUOZvDOlOyI5PwT",
+    "type": "subtopic",
+    "label": "Python",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\python@Vh81GnOUOZvDOlOyI5PwT.md"
+  },
+  {
+    "id": "vdVq3RQvQF3mF8PQc6DMg",
+    "old_id": "vdVq3RQvQF3mF8PQc6DMg",
+    "type": "subtopic",
+    "label": "Go",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\go@vdVq3RQvQF3mF8PQc6DMg.md"
+  },
+  {
+    "id": "mMzqJF2KQ49TDEk5F3VAI",
+    "old_id": "mMzqJF2KQ49TDEk5F3VAI",
+    "type": "subtopic",
+    "label": "Bash",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\bash@mMzqJF2KQ49TDEk5F3VAI.md"
+  },
+  {
+    "id": "oUhlUoWQQ1txx_sepD5ev",
+    "old_id": "oUhlUoWQQ1txx_sepD5ev",
+    "type": "topic",
+    "label": "Version Control Systems",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\cicd@oUhlUoWQQ1txx_sepD5ev.md"
+  },
+  {
+    "id": "06T5CbZAGJU6fJhCmqCC8",
+    "old_id": "06T5CbZAGJU6fJhCmqCC8",
+    "type": "subtopic",
+    "label": "Git",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\git@06T5CbZAGJU6fJhCmqCC8.md"
+  },
+  {
+    "id": "7t7jSb3YgyWlhgCe8Se1I",
+    "old_id": "7t7jSb3YgyWlhgCe8Se1I",
+    "type": "subtopic",
+    "label": "GitHub",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\github@7t7jSb3YgyWlhgCe8Se1I.md"
+  },
+  {
+    "id": "00GZcwe25QYi7rDzaOoMt",
+    "old_id": "tKeejLv8Q7QX40UtOjpav",
+    "type": "topic",
+    "label": "Cloud Computing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\containerization@tKeejLv8Q7QX40UtOjpav.md"
+  },
+  {
+    "id": "u3E7FGW4Iwdsu61KYFxCX",
+    "old_id": "u3E7FGW4Iwdsu61KYFxCX",
+    "type": "subtopic",
+    "label": "AWS / Azure / GCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\aws--azure--gcp@u3E7FGW4Iwdsu61KYFxCX.md"
+  },
+  {
+    "id": "kbfucfIO5KCsuv3jKbHTa",
+    "old_id": "kbfucfIO5KCsuv3jKbHTa",
+    "type": "subtopic",
+    "label": "Cloud-native ML Services",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\cloud-native-ml-services@kbfucfIO5KCsuv3jKbHTa.md"
+  },
+  {
+    "id": "tKeejLv8Q7QX40UtOjpav",
+    "old_id": "tKeejLv8Q7QX40UtOjpav",
+    "type": "topic",
+    "label": "Containerization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\containerization@tKeejLv8Q7QX40UtOjpav.md"
+  },
+  {
+    "id": "XIdCvT-4HyyglHJLRrHlz",
+    "old_id": "XIdCvT-4HyyglHJLRrHlz",
+    "type": "subtopic",
+    "label": "Docker",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\docker@XIdCvT-4HyyglHJLRrHlz.md"
+  },
+  {
+    "id": "XQoK9l-xtN2J8ZV8dw53X",
+    "old_id": "XQoK9l-xtN2J8ZV8dw53X",
+    "type": "subtopic",
+    "label": "Kubernetes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\kubernetes@XQoK9l-xtN2J8ZV8dw53X.md"
+  },
+  {
+    "id": "ulka7VEVjz6ls5SnI6a6z",
+    "old_id": "qbaxC-hB857MKE6Uq_3-t",
+    "type": "topic",
+    "label": "Machine Learning Fundamentals",
+    "resources": []
+  },
+  {
+    "id": "VykbCu7LWIx8fQpqKzoA7",
+    "old_id": "qbaxC-hB857MKE6Uq_3-t",
+    "type": "topic",
+    "label": "Data Engineering Fundamentals",
+    "resources": []
+  },
+  {
+    "id": "cOg3ejZRYE-u-M0c89IjM",
+    "old_id": "cOg3ejZRYE-u-M0c89IjM",
+    "type": "subtopic",
+    "label": "Data Pipelines",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\data-pipelines@cOg3ejZRYE-u-M0c89IjM.md"
+  },
+  {
+    "id": "wOogVDV4FIDLXVPwFqJ8C",
+    "old_id": "wOogVDV4FIDLXVPwFqJ8C",
+    "type": "subtopic",
+    "label": "Data Lakes & Warehouses",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\data-lakes--warehouses@wOogVDV4FIDLXVPwFqJ8C.md"
+  },
+  {
+    "id": "Berd78HvnulNEGOsHCf8n",
+    "old_id": "Berd78HvnulNEGOsHCf8n",
+    "type": "subtopic",
+    "label": "Data Ingestion Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\data-ingestion-architecture@Berd78HvnulNEGOsHCf8n.md"
+  },
+  {
+    "id": "pVSlVHXIap0unFxLGM-lQ",
+    "old_id": "pVSlVHXIap0unFxLGM-lQ",
+    "type": "subtopic",
+    "label": "Airflow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\lime@pVSlVHXIap0unFxLGM-lQ.md"
+  },
+  {
+    "id": "UljuqA89_SlCSDWWMD_C_",
+    "old_id": "UljuqA89_SlCSDWWMD_C_",
+    "type": "subtopic",
+    "label": "Spark",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\spark@UljuqA89_SlCSDWWMD_C_.md"
+  },
+  {
+    "id": "fMNwzhgLgHlAZJ9NvKikR",
+    "old_id": "fMNwzhgLgHlAZJ9NvKikR",
+    "type": "subtopic",
+    "label": "Kafka",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\kafka@fMNwzhgLgHlAZJ9NvKikR.md"
+  },
+  {
+    "id": "o6GQ3-8DgDtHzdX6yeg1w",
+    "old_id": "o6GQ3-8DgDtHzdX6yeg1w",
+    "type": "subtopic",
+    "label": "Flink",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\flink@o6GQ3-8DgDtHzdX6yeg1w.md"
+  },
+  {
+    "id": "iTsEHVCo6KGq7H2HMgy5S",
+    "old_id": "l1xasxQy2vAY34NWaqKEe",
+    "type": "topic",
+    "label": "MLOps Principles",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\mlops-components@l1xasxQy2vAY34NWaqKEe.md"
+  },
+  {
+    "id": "l1xasxQy2vAY34NWaqKEe",
+    "old_id": "qbaxC-hB857MKE6Uq_3-t",
+    "type": "topic",
+    "label": "MLOps Components",
+    "resources": []
+  },
+  {
+    "id": "kHDSwlSq8WkLey4EJIQSR",
+    "old_id": "kHDSwlSq8WkLey4EJIQSR",
+    "type": "subtopic",
+    "label": "Version Control",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\version-control@kHDSwlSq8WkLey4EJIQSR.md"
+  },
+  {
+    "id": "a6vawajw7BpL6plH_nuAz",
+    "old_id": "a6vawajw7BpL6plH_nuAz",
+    "type": "subtopic",
+    "label": "CI/CD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\cicd@a6vawajw7BpL6plH_nuAz.md"
+  },
+  {
+    "id": "fes7M--Y8i08_zeP98tVV",
+    "old_id": "fes7M--Y8i08_zeP98tVV",
+    "type": "subtopic",
+    "label": "Orchestration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\orchestration@fes7M--Y8i08_zeP98tVV.md"
+  },
+  {
+    "id": "fGGWKmAJ50Ke6wWJBEgby",
+    "old_id": "fGGWKmAJ50Ke6wWJBEgby",
+    "type": "subtopic",
+    "label": "Experiment Tracking & Model Registry",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\experiment-tracking@fGGWKmAJ50Ke6wWJBEgby.md"
+  },
+  {
+    "id": "6XgP_2NLuiw654zvTyueT",
+    "old_id": "6XgP_2NLuiw654zvTyueT",
+    "type": "subtopic",
+    "label": "Data Lineage & Feature Stores",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\data-lineage@6XgP_2NLuiw654zvTyueT.md"
+  },
+  {
+    "id": "zsW1NRb0dMgS-KzWsI0QU",
+    "old_id": "zsW1NRb0dMgS-KzWsI0QU",
+    "type": "subtopic",
+    "label": "Model Training & Serving",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\model-training--serving@zsW1NRb0dMgS-KzWsI0QU.md"
+  },
+  {
+    "id": "r4fbUwD83uYumEO1X8f09",
+    "old_id": "r4fbUwD83uYumEO1X8f09",
+    "type": "subtopic",
+    "label": "Monitoring & Observability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\monitoring--observability@r4fbUwD83uYumEO1X8f09.md"
+  },
+  {
+    "id": "sf67bSL7HAx6iN7S6MYKs",
+    "old_id": "sf67bSL7HAx6iN7S6MYKs",
+    "type": "topic",
+    "label": "Infrastructure as Code",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\mlops\\content\\infrastructure-as-code@sf67bSL7HAx6iN7S6MYKs.md"
+  }
+]

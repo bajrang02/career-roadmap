@@ -1,0 +1,1463 @@
+[
+  {
+    "id": "WSYIFni7G2C9Jr0pwuami",
+    "old_id": "fY8LEcCRTKUVEqLH1Qlc0",
+    "type": "topic",
+    "label": "Introduction",
+    "resources": []
+  },
+  {
+    "id": "WB2PRVI9C6RIbJ6l9zdbd",
+    "old_id": "WB2PRVI9C6RIbJ6l9zdbd",
+    "type": "subtopic",
+    "label": "What is Data Engineering?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\what-is-data-engineering@WB2PRVI9C6RIbJ6l9zdbd.md"
+  },
+  {
+    "id": "jJukG4XxfFcID_VlQKqe-",
+    "old_id": "jJukG4XxfFcID_VlQKqe-",
+    "type": "subtopic",
+    "label": "Data Engineering vs Data Science",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-engineering-vs-data-science@jJukG4XxfFcID_VlQKqe-.md"
+  },
+  {
+    "id": "3BxbkrBp8veZj38zdwN8s",
+    "old_id": "_MpdVlvvkrsgzigYMZ_P8",
+    "type": "subtopic",
+    "label": "Skills and Responsibilities",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\choosing-the-right-technologies@_MpdVlvvkrsgzigYMZ_P8.md"
+  },
+  {
+    "id": "Ouph2bHeLQsrHl45ar4Cs",
+    "old_id": "_MpdVlvvkrsgzigYMZ_P8",
+    "type": "subtopic",
+    "label": "Data Engineering Lifecycle",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\choosing-the-right-technologies@_MpdVlvvkrsgzigYMZ_P8.md"
+  },
+  {
+    "id": "_MpdVlvvkrsgzigYMZ_P8",
+    "old_id": "_MpdVlvvkrsgzigYMZ_P8",
+    "type": "subtopic",
+    "label": "Choosing the Right Technologies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\choosing-the-right-technologies@_MpdVlvvkrsgzigYMZ_P8.md"
+  },
+  {
+    "id": "_2Ofq3Df-VRXDgKyveZ0U",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "topic",
+    "label": "Programming Skills",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "ILs5azr4L_uLK0CDFKVaz",
+    "old_id": "ILs5azr4L_uLK0CDFKVaz",
+    "type": "subtopic",
+    "label": "Python",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\python@ILs5azr4L_uLK0CDFKVaz.md"
+  },
+  {
+    "id": "LZ4t8CoCjGWMzE0hScTGZ",
+    "old_id": "LZ4t8CoCjGWMzE0hScTGZ",
+    "type": "subtopic",
+    "label": "Java",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\java@LZ4t8CoCjGWMzE0hScTGZ.md"
+  },
+  {
+    "id": "WHJXJ5ukJd-tK_3LFLJBg",
+    "old_id": "WHJXJ5ukJd-tK_3LFLJBg",
+    "type": "subtopic",
+    "label": "Scala",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\scala@WHJXJ5ukJd-tK_3LFLJBg.md"
+  },
+  {
+    "id": "4z2i5NXTo9h3YY0kJvRrz",
+    "old_id": "4z2i5NXTo9h3YY0kJvRrz",
+    "type": "subtopic",
+    "label": "Go",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\go@4z2i5NXTo9h3YY0kJvRrz.md"
+  },
+  {
+    "id": "fqmn6DPOA5MH7UWYv6ayn",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "topic",
+    "label": "Data Structures and Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "02TADW_PPVtTU_rWV3jf1",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "topic",
+    "label": "Git and GitHub",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "FXQ_QsljK59zDULLgTqCB",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "topic",
+    "label": "Linux Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "cgkzFMmQils2sYj4NW8VW",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "topic",
+    "label": "Networking Fundamentals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "c1dadtQgbqXwcsQhI6de0",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Distributed Systems Basics",
+    "resources": []
+  },
+  {
+    "id": "AWf1y87pd1JFW71cZ_iE1",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Data Generation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\iot@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "wydtifF3ZhMWCbVt8Hd2t",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "subtopic",
+    "label": "Data Storage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "CvCOkyWcgzaUJec_v5F4L",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "subtopic",
+    "label": "Data Ingestion",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "RspQLpkICyHUmthLlxQ84",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "subtopic",
+    "label": "Data Serving",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "w3cfuNC-IdUKA7CEXs0fT",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Data Engineering Lifecycle",
+    "resources": []
+  },
+  {
+    "id": "zGKTlMUzhrbVbqpLZBsMZ",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Sources of Data",
+    "resources": []
+  },
+  {
+    "id": "qRHeaD2udDaItAxmiIiUg",
+    "old_id": "1BJGXWax6CONuFkaYR4Jm",
+    "type": "subtopic",
+    "label": "Database",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\transactions@1BJGXWax6CONuFkaYR4Jm.md"
+  },
+  {
+    "id": "cxTriSZvrmXP4axKynIZW",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\iot@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "s-wUPMaagyRupT2RdfHks",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Logs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\iot@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "dJZqe47kzRqYIG-4AZTlz",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Mobile Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\iot@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "KeGCHoJRHp-mBX-P5to4Y",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "subtopic",
+    "label": "IoT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-serving@RspQLpkICyHUmthLlxQ84.md"
+  },
+  {
+    "id": "wDDWQgMVBYK4WcmHq_d6l",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Data Collection Considerations",
+    "resources": []
+  },
+  {
+    "id": "g4UC0go7OPCJYJlac9w-i",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Database Fundamentals",
+    "resources": []
+  },
+  {
+    "id": "kVPEoUX-ZAGwstieD20Qa",
+    "old_id": "OfH_UXnxvGQgwlNQwOEfS",
+    "type": "subtopic",
+    "label": "Data Normalization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\star-vs-snowflake-schema@OfH_UXnxvGQgwlNQwOEfS.md"
+  },
+  {
+    "id": "SlQHO8n97F7-_fc6EUXlj",
+    "old_id": "OfH_UXnxvGQgwlNQwOEfS",
+    "type": "subtopic",
+    "label": "Data Modelling Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\star-vs-snowflake-schema@OfH_UXnxvGQgwlNQwOEfS.md"
+  },
+  {
+    "id": "AslPFjoakcC44CmPB5nuw",
+    "old_id": "OfH_UXnxvGQgwlNQwOEfS",
+    "type": "subtopic",
+    "label": "CAP Theorem",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\star-vs-snowflake-schema@OfH_UXnxvGQgwlNQwOEfS.md"
+  },
+  {
+    "id": "-VQQmIUGesnrT1N6kH5et",
+    "old_id": "OfH_UXnxvGQgwlNQwOEfS",
+    "type": "subtopic",
+    "label": "OLTP vs OLAP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\star-vs-snowflake-schema@OfH_UXnxvGQgwlNQwOEfS.md"
+  },
+  {
+    "id": "5KgPfywItqLFQRnIZldZH",
+    "old_id": "OfH_UXnxvGQgwlNQwOEfS",
+    "type": "subtopic",
+    "label": "Slowly Changing Dimension - SCD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\star-vs-snowflake-schema@OfH_UXnxvGQgwlNQwOEfS.md"
+  },
+  {
+    "id": "k_XSLLwb0Jk0Dd1sw-MpR",
+    "old_id": "OfH_UXnxvGQgwlNQwOEfS",
+    "type": "subtopic",
+    "label": "Horizontal vs Vertical Scaling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\star-vs-snowflake-schema@OfH_UXnxvGQgwlNQwOEfS.md"
+  },
+  {
+    "id": "OfH_UXnxvGQgwlNQwOEfS",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Star vs Snowflake Schema",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\iot@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "cslVSSKBMO7I6CpO7vG1H",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Relational Databases",
+    "resources": []
+  },
+  {
+    "id": "2rRVWPON-o3MvpgZmrU_A",
+    "old_id": "1BJGXWax6CONuFkaYR4Jm",
+    "type": "subtopic",
+    "label": "Learn SQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\transactions@1BJGXWax6CONuFkaYR4Jm.md"
+  },
+  {
+    "id": "ilbFKqhfYyykjJ7cOngwx",
+    "old_id": "1BJGXWax6CONuFkaYR4Jm",
+    "type": "subtopic",
+    "label": "Indexing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\transactions@1BJGXWax6CONuFkaYR4Jm.md"
+  },
+  {
+    "id": "1BJGXWax6CONuFkaYR4Jm",
+    "old_id": "OfH_UXnxvGQgwlNQwOEfS",
+    "type": "subtopic",
+    "label": "Transactions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\star-vs-snowflake-schema@OfH_UXnxvGQgwlNQwOEfS.md"
+  },
+  {
+    "id": "_bFj6rbLuqeQB5MjJZpd6",
+    "old_id": "PJcxM60h85Po0AAkSj7nr",
+    "type": "subtopic",
+    "label": "MySQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\oracle@PJcxM60h85Po0AAkSj7nr.md"
+  },
+  {
+    "id": "__JFgwxeDLvz8p7DAJnsc",
+    "old_id": "YxnIQh6Y5ic795-YsajB8",
+    "type": "subtopic",
+    "label": "PostgreSQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\ms-sql@YxnIQh6Y5ic795-YsajB8.md"
+  },
+  {
+    "id": "p7S_6O9Qq722r-F4bl6G3",
+    "old_id": "PJcxM60h85Po0AAkSj7nr",
+    "type": "subtopic",
+    "label": "MariaDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\oracle@PJcxM60h85Po0AAkSj7nr.md"
+  },
+  {
+    "id": "YZ4G1-6VJ7VdsphdcBTf9",
+    "old_id": "YxnIQh6Y5ic795-YsajB8",
+    "type": "subtopic",
+    "label": "Aurora DB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\ms-sql@YxnIQh6Y5ic795-YsajB8.md"
+  },
+  {
+    "id": "PJcxM60h85Po0AAkSj7nr",
+    "old_id": "YxnIQh6Y5ic795-YsajB8",
+    "type": "subtopic",
+    "label": "Oracle",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\ms-sql@YxnIQh6Y5ic795-YsajB8.md"
+  },
+  {
+    "id": "YxnIQh6Y5ic795-YsajB8",
+    "old_id": "YxnIQh6Y5ic795-YsajB8",
+    "type": "subtopic",
+    "label": "MS SQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\ms-sql@YxnIQh6Y5ic795-YsajB8.md"
+  },
+  {
+    "id": "uZYQ8tqTriXt_JIOjcM9_",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "NoSQL Databsases",
+    "resources": []
+  },
+  {
+    "id": "sGkAOVl3C-xIIAdtDH9jq",
+    "old_id": "sGkAOVl3C-xIIAdtDH9jq",
+    "type": "topic",
+    "label": "Document",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\document@sGkAOVl3C-xIIAdtDH9jq.md"
+  },
+  {
+    "id": "04V0Bcgjusfqdw0b-Aw4W",
+    "old_id": "-IesOBWPSIlbgvTjBqHcb",
+    "type": "subtopic",
+    "label": "MongoDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\couchdb@-IesOBWPSIlbgvTjBqHcb.md"
+  },
+  {
+    "id": "_F53cV3ln2yu0ics5BFfx",
+    "old_id": "-IesOBWPSIlbgvTjBqHcb",
+    "type": "subtopic",
+    "label": "ElasticSearch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\couchdb@-IesOBWPSIlbgvTjBqHcb.md"
+  },
+  {
+    "id": "goL_GqVVTVxXQMGBw992b",
+    "old_id": "-IesOBWPSIlbgvTjBqHcb",
+    "type": "subtopic",
+    "label": "CosmosDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\couchdb@-IesOBWPSIlbgvTjBqHcb.md"
+  },
+  {
+    "id": "-IesOBWPSIlbgvTjBqHcb",
+    "old_id": "-IesOBWPSIlbgvTjBqHcb",
+    "type": "subtopic",
+    "label": "CouchDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\couchdb@-IesOBWPSIlbgvTjBqHcb.md"
+  },
+  {
+    "id": "fBD6ZQoMac8w4kMJw_Jrd",
+    "old_id": "sGkAOVl3C-xIIAdtDH9jq",
+    "type": "topic",
+    "label": "Column",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\document@sGkAOVl3C-xIIAdtDH9jq.md"
+  },
+  {
+    "id": "QYR8ESN7xhi4ZxcoiZbgn",
+    "old_id": "04V0Bcgjusfqdw0b-Aw4W",
+    "type": "subtopic",
+    "label": "Cassandra",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mongodb@04V0Bcgjusfqdw0b-Aw4W.md"
+  },
+  {
+    "id": "ltZftFsiOo12AkQ-04N3B",
+    "old_id": "_F53cV3ln2yu0ics5BFfx",
+    "type": "subtopic",
+    "label": "BigTable",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\elasticsearch@_F53cV3ln2yu0ics5BFfx.md"
+  },
+  {
+    "id": "Uho9OOWSG0bUpyH4P6hKk",
+    "old_id": "goL_GqVVTVxXQMGBw992b",
+    "type": "subtopic",
+    "label": "HBase",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\cosmosdb@goL_GqVVTVxXQMGBw992b.md"
+  },
+  {
+    "id": "W6RnhoD7fW2xzVwnyJEDr",
+    "old_id": "SuHHSWAIiiVg2TY3rBIPD",
+    "type": "topic",
+    "label": "Graph",
+    "resources": []
+  },
+  {
+    "id": "TG63YRbSKL1F9vlUVF1VY",
+    "old_id": "04V0Bcgjusfqdw0b-Aw4W",
+    "type": "subtopic",
+    "label": "Neo4j",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mongodb@04V0Bcgjusfqdw0b-Aw4W.md"
+  },
+  {
+    "id": "atAK4zGXIbxZvfBTzFEIe",
+    "old_id": "_F53cV3ln2yu0ics5BFfx",
+    "type": "subtopic",
+    "label": "Neptune",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\elasticsearch@_F53cV3ln2yu0ics5BFfx.md"
+  },
+  {
+    "id": "fSlBjoNVKstJjWO7rS69V",
+    "old_id": "fBD6ZQoMac8w4kMJw_Jrd",
+    "type": "topic",
+    "label": "Key-Value",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\column@fBD6ZQoMac8w4kMJw_Jrd.md"
+  },
+  {
+    "id": "dW_eC4vR8BrvKG9wxmEBc",
+    "old_id": "QYR8ESN7xhi4ZxcoiZbgn",
+    "type": "subtopic",
+    "label": "Redis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\cassandra@QYR8ESN7xhi4ZxcoiZbgn.md"
+  },
+  {
+    "id": "KYUh29Ok1aeOviboGDS_i",
+    "old_id": "ltZftFsiOo12AkQ-04N3B",
+    "type": "subtopic",
+    "label": "Memcached",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\bigtable@ltZftFsiOo12AkQ-04N3B.md"
+  },
+  {
+    "id": "BDfpCDOxXZ-Tp0Abj_CVW",
+    "old_id": "omrg8QcYmTdQLBKV47b7o",
+    "type": "subtopic",
+    "label": "DynamoDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\amazon-redshift@omrg8QcYmTdQLBKV47b7o.md"
+  },
+  {
+    "id": "dc3lJI27hJ3zZ45UCVqM1",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "What is Data Warehouse?",
+    "resources": []
+  },
+  {
+    "id": "J854xPM1X0BWlhtJw7Hs_",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Data Warehousing Architectures",
+    "resources": []
+  },
+  {
+    "id": "ArOoKuf9scAURs8NRjAru",
+    "old_id": "D7qtosIbsQuIY3OWl_Hwc",
+    "type": "topic",
+    "label": "Data Warehouse",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-mesh@D7qtosIbsQuIY3OWl_Hwc.md"
+  },
+  {
+    "id": "Je2in1n8bMaknyeH79Zbv",
+    "old_id": "oqxNr0Lj34mgRi5Z5wJt_",
+    "type": "subtopic",
+    "label": "Google BigQuery",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\realtime@oqxNr0Lj34mgRi5Z5wJt_.md"
+  },
+  {
+    "id": "W3l1_66fsIqR3MqgBJUmU",
+    "old_id": "omrg8QcYmTdQLBKV47b7o",
+    "type": "subtopic",
+    "label": "Snowflake",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\amazon-redshift@omrg8QcYmTdQLBKV47b7o.md"
+  },
+  {
+    "id": "omrg8QcYmTdQLBKV47b7o",
+    "old_id": "Uho9OOWSG0bUpyH4P6hKk",
+    "type": "subtopic",
+    "label": "Amazon Redshift",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\hbase@Uho9OOWSG0bUpyH4P6hKk.md"
+  },
+  {
+    "id": "c6Pf3kFcC4iV4a7mPc-WH",
+    "old_id": "D7qtosIbsQuIY3OWl_Hwc",
+    "type": "subtopic",
+    "label": "Data Mart",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-mesh@D7qtosIbsQuIY3OWl_Hwc.md"
+  },
+  {
+    "id": "y0Lxz_wVyQ6lr1hvCsufa",
+    "old_id": "D7qtosIbsQuIY3OWl_Hwc",
+    "type": "topic",
+    "label": "Data Lake",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-mesh@D7qtosIbsQuIY3OWl_Hwc.md"
+  },
+  {
+    "id": "fhfyoWekmYvEs-jdP2mJo",
+    "old_id": "oqxNr0Lj34mgRi5Z5wJt_",
+    "type": "subtopic",
+    "label": "Databricks Delta Lake",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\realtime@oqxNr0Lj34mgRi5Z5wJt_.md"
+  },
+  {
+    "id": "Pf0_CBGkmSEfWDQ2_iFXr",
+    "old_id": "oqxNr0Lj34mgRi5Z5wJt_",
+    "type": "subtopic",
+    "label": "Snowflake",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\realtime@oqxNr0Lj34mgRi5Z5wJt_.md"
+  },
+  {
+    "id": "senZEYC9k-C_C4EAYDNeU",
+    "old_id": "oqxNr0Lj34mgRi5Z5wJt_",
+    "type": "subtopic",
+    "label": "Onehouse",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\realtime@oqxNr0Lj34mgRi5Z5wJt_.md"
+  },
+  {
+    "id": "D7qtosIbsQuIY3OWl_Hwc",
+    "old_id": "SuHHSWAIiiVg2TY3rBIPD",
+    "type": "topic",
+    "label": "Data Mesh",
+    "resources": []
+  },
+  {
+    "id": "-x3QLMYhC67VJQ6EW6BrJ",
+    "old_id": "n_KJkm6wet6yUdFGfpE8s",
+    "type": "subtopic",
+    "label": "Data Fabric",
+    "resources": []
+  },
+  {
+    "id": "OiWleAdMbPtisrJpk2eSJ",
+    "old_id": "n_KJkm6wet6yUdFGfpE8s",
+    "type": "subtopic",
+    "label": "Data Hub",
+    "resources": []
+  },
+  {
+    "id": "14CycunRC1p2qTRn-ncoy",
+    "old_id": "n_KJkm6wet6yUdFGfpE8s",
+    "type": "subtopic",
+    "label": "Metadata-first Architecture",
+    "resources": []
+  },
+  {
+    "id": "ZnGX8pg4GagdSalg_P0oq",
+    "old_id": "n_KJkm6wet6yUdFGfpE8s",
+    "type": "subtopic",
+    "label": "Serverless Options",
+    "resources": []
+  },
+  {
+    "id": "lDeSL9qvgQgyAMcWXF7Fr",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Cloud Computing",
+    "resources": []
+  },
+  {
+    "id": "YLfyb_ycgz1hu0yW8SPNE",
+    "old_id": "n_KJkm6wet6yUdFGfpE8s",
+    "type": "subtopic",
+    "label": "Cloud Architectures",
+    "resources": []
+  },
+  {
+    "id": "AHLsBfPfBJOhLlJ-64GcK",
+    "old_id": "BNGdJSmrNE90rwPa4JoWj",
+    "type": "subtopic",
+    "label": "Amazon EC2 ( Compute)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-factory-etl@BNGdJSmrNE90rwPa4JoWj.md"
+  },
+  {
+    "id": "tbut25IZI2aU7TkI9fFYV",
+    "old_id": "nD36-PXHzOXePM7j9u_O_",
+    "type": "subtopic",
+    "label": "S3 (Storage)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\glue-etl@nD36-PXHzOXePM7j9u_O_.md"
+  },
+  {
+    "id": "GtFk7phYGfXUhxanicYNQ",
+    "old_id": "nD36-PXHzOXePM7j9u_O_",
+    "type": "subtopic",
+    "label": "Amazon RDS (Database)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\glue-etl@nD36-PXHzOXePM7j9u_O_.md"
+  },
+  {
+    "id": "nD36-PXHzOXePM7j9u_O_",
+    "old_id": "nD36-PXHzOXePM7j9u_O_",
+    "type": "subtopic",
+    "label": "Amazon RDS (Database)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\glue-etl@nD36-PXHzOXePM7j9u_O_.md"
+  },
+  {
+    "id": "-yi-xk-kv0njW9GdytiAQ",
+    "old_id": "KcW4z48pk2x6IjQhZs_Ub",
+    "type": "subtopic",
+    "label": "Azure Virtual Machines",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\yarn@KcW4z48pk2x6IjQhZs_Ub.md"
+  },
+  {
+    "id": "gzbEGCUwMsD1gL4nW668g",
+    "old_id": "BNGdJSmrNE90rwPa4JoWj",
+    "type": "subtopic",
+    "label": "Azure Blob Storage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-factory-etl@BNGdJSmrNE90rwPa4JoWj.md"
+  },
+  {
+    "id": "iIZ3g70KRwEJCBNaONd2d",
+    "old_id": "BNGdJSmrNE90rwPa4JoWj",
+    "type": "subtopic",
+    "label": "Azure SQL Database",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-factory-etl@BNGdJSmrNE90rwPa4JoWj.md"
+  },
+  {
+    "id": "BNGdJSmrNE90rwPa4JoWj",
+    "old_id": "nD36-PXHzOXePM7j9u_O_",
+    "type": "subtopic",
+    "label": "Data Factory (ETL)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\glue-etl@nD36-PXHzOXePM7j9u_O_.md"
+  },
+  {
+    "id": "-cU86vJWJmlmPHXDCo31o",
+    "old_id": "KcW4z48pk2x6IjQhZs_Ub",
+    "type": "subtopic",
+    "label": "Compute Engine (Compute)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\yarn@KcW4z48pk2x6IjQhZs_Ub.md"
+  },
+  {
+    "id": "2lqvArZdwRX0t3P3yovEH",
+    "old_id": "KcW4z48pk2x6IjQhZs_Ub",
+    "type": "subtopic",
+    "label": "Google Cloud Storage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\yarn@KcW4z48pk2x6IjQhZs_Ub.md"
+  },
+  {
+    "id": "9-wQWQIdAxQmMaJC9ojPg",
+    "old_id": "KcW4z48pk2x6IjQhZs_Ub",
+    "type": "subtopic",
+    "label": "Cloud SQL (Database)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\yarn@KcW4z48pk2x6IjQhZs_Ub.md"
+  },
+  {
+    "id": "YWgVUyIvBRW8eTVR5y73P",
+    "old_id": "KcW4z48pk2x6IjQhZs_Ub",
+    "type": "subtopic",
+    "label": "Dataflow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\yarn@KcW4z48pk2x6IjQhZs_Ub.md"
+  },
+  {
+    "id": "GN1Xh3kA25ge-wTbdiSio",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Types of Data Ingestion",
+    "resources": []
+  },
+  {
+    "id": "f-a3Hy1ldnvSv8W2mFiJK",
+    "old_id": "oqxNr0Lj34mgRi5Z5wJt_",
+    "type": "subtopic",
+    "label": "Batch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\realtime@oqxNr0Lj34mgRi5Z5wJt_.md"
+  },
+  {
+    "id": "4fugNG5sEDl0kgmN3Mezk",
+    "old_id": "oqxNr0Lj34mgRi5Z5wJt_",
+    "type": "subtopic",
+    "label": "Hybrid",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\realtime@oqxNr0Lj34mgRi5Z5wJt_.md"
+  },
+  {
+    "id": "wwPO5Uc6qnwYgibrbPn7y",
+    "old_id": "oqxNr0Lj34mgRi5Z5wJt_",
+    "type": "subtopic",
+    "label": "Streaming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\realtime@oqxNr0Lj34mgRi5Z5wJt_.md"
+  },
+  {
+    "id": "oqxNr0Lj34mgRi5Z5wJt_",
+    "old_id": "omrg8QcYmTdQLBKV47b7o",
+    "type": "subtopic",
+    "label": "Realtime",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\amazon-redshift@omrg8QcYmTdQLBKV47b7o.md"
+  },
+  {
+    "id": "fqTPu70MJyXBmqYUgCJ_r",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Data Pipelines",
+    "resources": []
+  },
+  {
+    "id": "nShDMih1HmubBczxu4cfU",
+    "old_id": "_IiKTZDF_b57l79X6lsq6",
+    "type": "subtopic",
+    "label": "Extract Data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\luigi@_IiKTZDF_b57l79X6lsq6.md"
+  },
+  {
+    "id": "TjsxMNyWO3YGwg6zEIid4",
+    "old_id": "y5Aaxe-P68HC5kNsIi88q",
+    "type": "subtopic",
+    "label": "Transform Data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\load-data@y5Aaxe-P68HC5kNsIi88q.md"
+  },
+  {
+    "id": "y5Aaxe-P68HC5kNsIi88q",
+    "old_id": "y5Aaxe-P68HC5kNsIi88q",
+    "type": "subtopic",
+    "label": "Load Data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\load-data@y5Aaxe-P68HC5kNsIi88q.md"
+  },
+  {
+    "id": "vfO5Dz6ppsNtbGiQwpUs7",
+    "old_id": "i54fx-NV6nWzQVCdi0aKL",
+    "type": "subtopic",
+    "label": "Apache Airflow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\sentry@i54fx-NV6nWzQVCdi0aKL.md"
+  },
+  {
+    "id": "SgYLIkMtLVPlw8Qo5j0Fb",
+    "old_id": "_IiKTZDF_b57l79X6lsq6",
+    "type": "subtopic",
+    "label": "dbt",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\luigi@_IiKTZDF_b57l79X6lsq6.md"
+  },
+  {
+    "id": "_IiKTZDF_b57l79X6lsq6",
+    "old_id": "y5Aaxe-P68HC5kNsIi88q",
+    "type": "subtopic",
+    "label": "Luigi",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\load-data@y5Aaxe-P68HC5kNsIi88q.md"
+  },
+  {
+    "id": "TAh4__7U58J7fduU9a1Ol",
+    "old_id": "i54fx-NV6nWzQVCdi0aKL",
+    "type": "subtopic",
+    "label": "Perfect",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\sentry@i54fx-NV6nWzQVCdi0aKL.md"
+  },
+  {
+    "id": "hB0y8A2U3owpAbTUb7LN5",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Cluster Computing Basics",
+    "resources": []
+  },
+  {
+    "id": "Ad10evrGQuYRl5GaMhQwu",
+    "old_id": "wpZfbIFtfiUSLMASk4t7f",
+    "type": "subtopic",
+    "label": "What is Cluster Computing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\cluster-management-tools@wpZfbIFtfiUSLMASk4t7f.md"
+  },
+  {
+    "id": "1LLF4466grFDlT9p_WLsi",
+    "old_id": "9lSjQBM2hWrkujxZjhQHE",
+    "type": "subtopic",
+    "label": "Distributed File Systems",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\hdfs@9lSjQBM2hWrkujxZjhQHE.md"
+  },
+  {
+    "id": "ccc6_SzDwXpCL1WbFuPNA",
+    "old_id": "wpZfbIFtfiUSLMASk4t7f",
+    "type": "subtopic",
+    "label": "Job Scheduling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\cluster-management-tools@wpZfbIFtfiUSLMASk4t7f.md"
+  },
+  {
+    "id": "wpZfbIFtfiUSLMASk4t7f",
+    "old_id": "wpZfbIFtfiUSLMASk4t7f",
+    "type": "subtopic",
+    "label": "Cluster Management Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\cluster-management-tools@wpZfbIFtfiUSLMASk4t7f.md"
+  },
+  {
+    "id": "I_IueX1DFp-LmBwr1-suX",
+    "old_id": "pjm_qShAiFk3JsX4Z2d8G",
+    "type": "subtopic",
+    "label": "Kubernetes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\apache-hadoop-yarn@pjm_qShAiFk3JsX4Z2d8G.md"
+  },
+  {
+    "id": "pjm_qShAiFk3JsX4Z2d8G",
+    "old_id": "pjm_qShAiFk3JsX4Z2d8G",
+    "type": "subtopic",
+    "label": "Apache Hadoop YARN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\apache-hadoop-yarn@pjm_qShAiFk3JsX4Z2d8G.md"
+  },
+  {
+    "id": "9lSjQBM2hWrkujxZjhQHE",
+    "old_id": "wpZfbIFtfiUSLMASk4t7f",
+    "type": "subtopic",
+    "label": "HDFS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\cluster-management-tools@wpZfbIFtfiUSLMASk4t7f.md"
+  },
+  {
+    "id": "03BHmPhYkZrJwRvQdmxxr",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Big Data Tools",
+    "resources": []
+  },
+  {
+    "id": "0pH2U4GOj8zK3lgkh_r5M",
+    "old_id": "KcW4z48pk2x6IjQhZs_Ub",
+    "type": "subtopic",
+    "label": "HDFS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\yarn@KcW4z48pk2x6IjQhZs_Ub.md"
+  },
+  {
+    "id": "__tWu5uZYnmnuR-qO9SOR",
+    "old_id": "qHMtJFYcGmESiz_VwRwiI",
+    "type": "subtopic",
+    "label": "MapReduce",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\apache-spark@qHMtJFYcGmESiz_VwRwiI.md"
+  },
+  {
+    "id": "KcW4z48pk2x6IjQhZs_Ub",
+    "old_id": "BNGdJSmrNE90rwPa4JoWj",
+    "type": "subtopic",
+    "label": "YARN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\data-factory-etl@BNGdJSmrNE90rwPa4JoWj.md"
+  },
+  {
+    "id": "qHMtJFYcGmESiz_VwRwiI",
+    "old_id": "KcW4z48pk2x6IjQhZs_Ub",
+    "type": "subtopic",
+    "label": "Apache Spark",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\yarn@KcW4z48pk2x6IjQhZs_Ub.md"
+  },
+  {
+    "id": "eTHitN2erd6z8-MZiXE9s",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Containers & Orchestration",
+    "resources": []
+  },
+  {
+    "id": "OQ3RqVgWEMxpAtrrjOG5U",
+    "old_id": "i54fx-NV6nWzQVCdi0aKL",
+    "type": "subtopic",
+    "label": "Docker",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\sentry@i54fx-NV6nWzQVCdi0aKL.md"
+  },
+  {
+    "id": "kcgDW6AFW7WXzXMTPE6J-",
+    "old_id": "i54fx-NV6nWzQVCdi0aKL",
+    "type": "subtopic",
+    "label": "Kubernetes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\sentry@i54fx-NV6nWzQVCdi0aKL.md"
+  },
+  {
+    "id": "8qEgXYZEbDWC73SQSflDY",
+    "old_id": "i54fx-NV6nWzQVCdi0aKL",
+    "type": "subtopic",
+    "label": "Google Cloud GKE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\sentry@i54fx-NV6nWzQVCdi0aKL.md"
+  },
+  {
+    "id": "eVqcYI2Sy2Dldl3SfxB2C",
+    "old_id": "i54fx-NV6nWzQVCdi0aKL",
+    "type": "subtopic",
+    "label": "AWS EKS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\sentry@i54fx-NV6nWzQVCdi0aKL.md"
+  },
+  {
+    "id": "k2SJ4ELGa4B2ZERDAk1uj",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "CI/CD",
+    "resources": []
+  },
+  {
+    "id": "IYIO4S3DO5xkLD__XT5Dp",
+    "old_id": "8dXD4ddR_USEbAJhUMcB6",
+    "type": "subtopic",
+    "label": "GitLab CI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\unit-testing@8dXD4ddR_USEbAJhUMcB6.md"
+  },
+  {
+    "id": "CewITBPtfVs32LD5Acb2E",
+    "old_id": "CewITBPtfVs32LD5Acb2E",
+    "type": "subtopic",
+    "label": "Circle CI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\circle-ci@CewITBPtfVs32LD5Acb2E.md"
+  },
+  {
+    "id": "N8vpCfSdZCADwO_qceWBK",
+    "old_id": "CewITBPtfVs32LD5Acb2E",
+    "type": "subtopic",
+    "label": "GitHub Actions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\circle-ci@CewITBPtfVs32LD5Acb2E.md"
+  },
+  {
+    "id": "PUzHbjwntTSj1REL_dAov",
+    "old_id": "N8vpCfSdZCADwO_qceWBK",
+    "type": "subtopic",
+    "label": "ArgoCD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\github-actions@N8vpCfSdZCADwO_qceWBK.md"
+  },
+  {
+    "id": "dk5FQl7Pk3-O5eF7dKwmp",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Monitoring",
+    "resources": []
+  },
+  {
+    "id": "3QsgoKKxAoyj2LWJ8ad-7",
+    "old_id": "yyJJGinOv3M21MFuqJs0j",
+    "type": "subtopic",
+    "label": "Prometheus",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\best-practices@yyJJGinOv3M21MFuqJs0j.md"
+  },
+  {
+    "id": "Zoa4JEGrSKjVwUNer4Go1",
+    "old_id": "i54fx-NV6nWzQVCdi0aKL",
+    "type": "subtopic",
+    "label": "Datadog",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\sentry@i54fx-NV6nWzQVCdi0aKL.md"
+  },
+  {
+    "id": "i54fx-NV6nWzQVCdi0aKL",
+    "old_id": "_IiKTZDF_b57l79X6lsq6",
+    "type": "subtopic",
+    "label": "Sentry",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\luigi@_IiKTZDF_b57l79X6lsq6.md"
+  },
+  {
+    "id": "r1KmASWAa_MOqQOC9gvvF",
+    "old_id": "yyJJGinOv3M21MFuqJs0j",
+    "type": "subtopic",
+    "label": "New Relic",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\best-practices@yyJJGinOv3M21MFuqJs0j.md"
+  },
+  {
+    "id": "DZoxLu-j1vq5leoXLRZqt",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Testing",
+    "resources": []
+  },
+  {
+    "id": "NIG53tyoEiLtwf6LvBZId",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "Integration Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "8dXD4ddR_USEbAJhUMcB6",
+    "old_id": "PUzHbjwntTSj1REL_dAov",
+    "type": "subtopic",
+    "label": "Unit Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\argocd@PUzHbjwntTSj1REL_dAov.md"
+  },
+  {
+    "id": "mC9sWeC_wYHeJJHJAvxpI",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "End-to-End Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "E4ND5XaMDGDLtlV7wTzi6",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "Functional Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "5qe0q_llTzzNVudbONMYo",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "A/B Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "qoMRpAITA7R_KOrwGDPAb",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "Load Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "woa5K4Dt9L6aBzlJMNS31",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "Smoke Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "dAvizeYvv92KMeAvSDmey",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Messaging Systems",
+    "resources": []
+  },
+  {
+    "id": "1qju7UlcMo2Ebp4a3BGxH",
+    "old_id": "yyJJGinOv3M21MFuqJs0j",
+    "type": "subtopic",
+    "label": "What and why use them?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\best-practices@yyJJGinOv3M21MFuqJs0j.md"
+  },
+  {
+    "id": "VefHaP7rIOcZVFzglyn66",
+    "old_id": "yyJJGinOv3M21MFuqJs0j",
+    "type": "subtopic",
+    "label": "Async vs Sync Communication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\best-practices@yyJJGinOv3M21MFuqJs0j.md"
+  },
+  {
+    "id": "IZvL-1Xi0R9IuwJ30FDm4",
+    "old_id": "yyJJGinOv3M21MFuqJs0j",
+    "type": "subtopic",
+    "label": "Messages vs Streams",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\best-practices@yyJJGinOv3M21MFuqJs0j.md"
+  },
+  {
+    "id": "yyJJGinOv3M21MFuqJs0j",
+    "old_id": "i54fx-NV6nWzQVCdi0aKL",
+    "type": "subtopic",
+    "label": "Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\sentry@i54fx-NV6nWzQVCdi0aKL.md"
+  },
+  {
+    "id": "fTpx6m8U0506ZLCdDU5OG",
+    "old_id": "uFeiTRobSymkvCinhwmZV",
+    "type": "subtopic",
+    "label": "Apache Kafka",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\aws-sns@uFeiTRobSymkvCinhwmZV.md"
+  },
+  {
+    "id": "ERcgPTACqYo9BXoRdLjbd",
+    "old_id": "uFeiTRobSymkvCinhwmZV",
+    "type": "subtopic",
+    "label": "RabbitMQ",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\aws-sns@uFeiTRobSymkvCinhwmZV.md"
+  },
+  {
+    "id": "uIU5Yncp6hGDcNO1fpjUS",
+    "old_id": "uFeiTRobSymkvCinhwmZV",
+    "type": "subtopic",
+    "label": "AWS SQS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\aws-sns@uFeiTRobSymkvCinhwmZV.md"
+  },
+  {
+    "id": "uFeiTRobSymkvCinhwmZV",
+    "old_id": "uFeiTRobSymkvCinhwmZV",
+    "type": "subtopic",
+    "label": "AWS SNS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\aws-sns@uFeiTRobSymkvCinhwmZV.md"
+  },
+  {
+    "id": "jgz7L8OSuqRNcf9buuMTj",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Infrastructure as Code - IaC",
+    "resources": []
+  },
+  {
+    "id": "GyC2JctG-Gi0R_qx1lTeg",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "Declarative vs Imperative",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "9xoBZgKT9uAGsjc1soelY",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "Idempotency",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "Rzk6HlMosx3FN_JD5kELZ",
+    "old_id": "WUfJCLTajyLNK19gAAvoW",
+    "type": "subtopic",
+    "label": "Reusability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\environmental-management@WUfJCLTajyLNK19gAAvoW.md"
+  },
+  {
+    "id": "WUfJCLTajyLNK19gAAvoW",
+    "old_id": "8dXD4ddR_USEbAJhUMcB6",
+    "type": "subtopic",
+    "label": "Environmental Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\unit-testing@8dXD4ddR_USEbAJhUMcB6.md"
+  },
+  {
+    "id": "N-xRhdOTHijAymcTWPXPJ",
+    "old_id": "fTpx6m8U0506ZLCdDU5OG",
+    "type": "subtopic",
+    "label": "Terraform",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\apache-kafka@fTpx6m8U0506ZLCdDU5OG.md"
+  },
+  {
+    "id": "WdlC0HhJ5YESfjXmdMnLU",
+    "old_id": "ERcgPTACqYo9BXoRdLjbd",
+    "type": "subtopic",
+    "label": "OpenTofu",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\rabbitmq@ERcgPTACqYo9BXoRdLjbd.md"
+  },
+  {
+    "id": "OKJ3HTfreitk2JdrfeLIK",
+    "old_id": "uIU5Yncp6hGDcNO1fpjUS",
+    "type": "subtopic",
+    "label": "AWS CDK",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\aws-sqs@uIU5Yncp6hGDcNO1fpjUS.md"
+  },
+  {
+    "id": "1A98uTo8l_GQSrFxu5N2X",
+    "old_id": "uFeiTRobSymkvCinhwmZV",
+    "type": "subtopic",
+    "label": "Google Deployment  Mgr.",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\aws-sns@uFeiTRobSymkvCinhwmZV.md"
+  },
+  {
+    "id": "V30v5RLQrWSMBUIsZQG1o",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "topic",
+    "label": "Data Analytics",
+    "resources": []
+  },
+  {
+    "id": "zA5QqqBMsqymdiPGFdUnt",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "topic",
+    "label": "Business Intelligence",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "6Nr5FAGT_oOPZwZWdv7hl",
+    "old_id": "VQv-c7buU2l-IDzRZBMRo",
+    "type": "subtopic",
+    "label": "Microsoft Power BI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mlops@VQv-c7buU2l-IDzRZBMRo.md"
+  },
+  {
+    "id": "FfU6Vwf0PXva91FoqxFgp",
+    "old_id": "bbwTKPHjGl08UiOqI9IiY",
+    "type": "subtopic",
+    "label": "Streamlit",
+    "resources": []
+  },
+  {
+    "id": "gqEAOwHFrQiYSejNUdV7-",
+    "old_id": "bbwTKPHjGl08UiOqI9IiY",
+    "type": "subtopic",
+    "label": "Tableu",
+    "resources": []
+  },
+  {
+    "id": "fY0eZzz0aTXm2lelk8l3g",
+    "old_id": "bbwTKPHjGl08UiOqI9IiY",
+    "type": "subtopic",
+    "label": "Looker",
+    "resources": []
+  },
+  {
+    "id": "JpuiYsipNWBcrjmn2ji6b",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "topic",
+    "label": "Reverse ETL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "LMFREK9dH_7qzx_s2xCjI",
+    "old_id": "VQv-c7buU2l-IDzRZBMRo",
+    "type": "subtopic",
+    "label": "ETL vs Reverse ETL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mlops@VQv-c7buU2l-IDzRZBMRo.md"
+  },
+  {
+    "id": "mBOGrJIUaatBe2PnJM2NK",
+    "old_id": "VQv-c7buU2l-IDzRZBMRo",
+    "type": "subtopic",
+    "label": "Reverse ETL Usecases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mlops@VQv-c7buU2l-IDzRZBMRo.md"
+  },
+  {
+    "id": "vZGDtlyt_yj4szcPTw3cv",
+    "old_id": "VQv-c7buU2l-IDzRZBMRo",
+    "type": "subtopic",
+    "label": "Census",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mlops@VQv-c7buU2l-IDzRZBMRo.md"
+  },
+  {
+    "id": "8vqjI-uFwJIr_TBEVyM_3",
+    "old_id": "VQv-c7buU2l-IDzRZBMRo",
+    "type": "subtopic",
+    "label": "Segment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mlops@VQv-c7buU2l-IDzRZBMRo.md"
+  },
+  {
+    "id": "8NTe5-XQ5tKAWUyg1rnzb",
+    "old_id": "VQv-c7buU2l-IDzRZBMRo",
+    "type": "subtopic",
+    "label": "Hightouch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mlops@VQv-c7buU2l-IDzRZBMRo.md"
+  },
+  {
+    "id": "HDVhttLNMLmIAVEOBCOQ3",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "topic",
+    "label": "Authentication vs Authorization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "2PqRgrYuJi_pPhOS0AkoP",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "topic",
+    "label": "Encryption",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "ZAKo9Svb8TQ6KkmOnfB5x",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "topic",
+    "label": "Tokenization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "2Wu1Ufm2l1nrytz1mAxmJ",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "topic",
+    "label": "Data Masking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "rUiYUV4ps6NYYYRwUnjuM",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "topic",
+    "label": "Data Obfuscation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "cStrYgFZA2NuYq8TdWWP_",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "subtopic",
+    "label": "Data Quality",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "pKewO7Ef3GBXL4MDK62QG",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "subtopic",
+    "label": "Data Lineage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "a5gzM8msXibxD58eVDkM-",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "subtopic",
+    "label": "Metadata Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "ghAbtfB5KtbboNjijL1Zf",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "subtopic",
+    "label": "Data Interoperability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "iuNP6W0A2GLTE2PK5y68u",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "subtopic",
+    "label": "Data Quality",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "MuPHohc7mJzcH5QdJ-K46",
+    "old_id": "V2BXsn5AmC93PSW0HLMgi",
+    "type": "subtopic",
+    "label": "GDPR",
+    "resources": []
+  },
+  {
+    "id": "g1VwuSupohuDAT2O4hTXx",
+    "old_id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "type": "subtopic",
+    "label": "ECPA",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\eu-ai-act@tdqhFFvQ2dQVeQh1qTHjV.md"
+  },
+  {
+    "id": "tdqhFFvQ2dQVeQh1qTHjV",
+    "old_id": "jzsScqhz8Z0DLlk2gjVEl",
+    "type": "subtopic",
+    "label": "EU AI Act",
+    "resources": []
+  },
+  {
+    "id": "S8XMtFKWlnUqADElFp0Zw",
+    "old_id": "VQv-c7buU2l-IDzRZBMRo",
+    "type": "topic",
+    "label": "Machine Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-engineer\\content\\mlops@VQv-c7buU2l-IDzRZBMRo.md"
+  },
+  {
+    "id": "VQv-c7buU2l-IDzRZBMRo",
+    "old_id": "bbwTKPHjGl08UiOqI9IiY",
+    "type": "topic",
+    "label": "MLOps",
+    "resources": []
+  }
+]

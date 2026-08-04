@@ -1,0 +1,1208 @@
+{
+  "slug": "data-analyst",
+  "title": "Data Analyst",
+  "nodes": [
+    {
+      "id": "s53kNESX2DeFOZX5X4C1w",
+      "old_id": "s53kNESX2DeFOZX5X4C1w",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "vjPbrUxt7m9mi_-41gepg",
+      "old_id": "BEqkEZcUGy9OPWuwVyrh7",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "eYtoaWaZyQbfAVq8d3tFE",
+      "old_id": "eYtoaWaZyQbfAVq8d3tFE",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "IKDpwowMgjPy_91gd8hBJ",
+      "old_id": "IKDpwowMgjPy_91gd8hBJ",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "U90uRMtULJfxfX5D4Lvet",
+      "old_id": "U90uRMtULJfxfX5D4Lvet",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "mM_v9xK6A6p3-02lc1Xsw",
+      "old_id": "4UNRDLVOlXSR5u6tdypth",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "NdLvmwQiqaHevxiaz6Bcx",
+      "old_id": "NdLvmwQiqaHevxiaz6Bcx",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "gVDCgxnwW0ueuay58qLfa",
+      "old_id": "gVDCgxnwW0ueuay58qLfa",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+      "type": "title",
+      "label": "Data Analyst",
+      "resources": []
+    },
+    {
+      "id": "3xp2fogAVmwXQhdzhZDWR",
+      "old_id": "l1SnPc4EMqGdaIAhIQfrT",
+      "type": "topic",
+      "label": "Introduction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\data-visualisation-libraries@l1SnPc4EMqGdaIAhIQfrT.md"
+    },
+    {
+      "id": "uSLzfLPXxS5-P7ozscvjZ",
+      "old_id": "PkhQdVms2TGgnPrytCBPZ",
+      "type": "button",
+      "label": "AI and Data Scientist Roadmap",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "yCnn-NfSxIybUQ2iTuUGq",
+      "old_id": "idLHBxhvcIqZTqmh_E8Az",
+      "type": "subtopic",
+      "label": "What is Data Analytics",
+      "resources": []
+    },
+    {
+      "id": "Lsapbmg-eMIYJAHpV97nO",
+      "old_id": "R12sArWVpbIs_PHxBqVaR",
+      "type": "topic",
+      "label": "Types of Data Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\key-concepts-of-data@R12sArWVpbIs_PHxBqVaR.md"
+    },
+    {
+      "id": "hWDh0ooidbqZb000ENVok",
+      "old_id": "jowh4CFLQiFzKaaElyCuQ",
+      "type": "subtopic",
+      "label": "Descriptive Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\visualisation@jowh4CFLQiFzKaaElyCuQ.md"
+    },
+    {
+      "id": "j7DA2J3speSaBsZAV4M0v",
+      "old_id": "j7DA2J3speSaBsZAV4M0v",
+      "type": "subtopic",
+      "label": "Diagnostic Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\diagnostic-analytics@j7DA2J3speSaBsZAV4M0v.md"
+    },
+    {
+      "id": "3WZORRCwme3HsaKew23Z5",
+      "old_id": "3WZORRCwme3HsaKew23Z5",
+      "type": "subtopic",
+      "label": "Predictive Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\predictive-analytics@3WZORRCwme3HsaKew23Z5.md"
+    },
+    {
+      "id": "DFMR-0MbmVCCrJu0I9JWG",
+      "old_id": "g_EBQizZsIe-vn8ir6FTv",
+      "type": "subtopic",
+      "label": "Prescriptive Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\r@g_EBQizZsIe-vn8ir6FTv.md"
+    },
+    {
+      "id": "R12sArWVpbIs_PHxBqVaR",
+      "old_id": "os3Pa6W9SSNEzgmlBbglQ",
+      "type": "subtopic",
+      "label": "Key Concepts of Data",
+      "resources": []
+    },
+    {
+      "id": "mDUSpexdq3ITV6qokwSJl",
+      "old_id": "YReKRRgE_2dWfGGdBQqbf",
+      "type": "subtopic",
+      "label": "Collection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\upper--lower--proper@YReKRRgE_2dWfGGdBQqbf.md"
+    },
+    {
+      "id": "nC7tViln4UyQFYP_-fyjB",
+      "old_id": "jowh4CFLQiFzKaaElyCuQ",
+      "type": "subtopic",
+      "label": "Cleanup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\visualisation@jowh4CFLQiFzKaaElyCuQ.md"
+    },
+    {
+      "id": "XFnw4_dQYSzm96-srWa7X",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "Exploration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "jowh4CFLQiFzKaaElyCuQ",
+      "old_id": "jowh4CFLQiFzKaaElyCuQ",
+      "type": "subtopic",
+      "label": "Visualisation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\visualisation@jowh4CFLQiFzKaaElyCuQ.md"
+    },
+    {
+      "id": "2pUq-7hu5EjGpowz98YoV",
+      "old_id": "U55hwR0HRCIz2cveVR8FZ",
+      "type": "subtopic",
+      "label": "Statistical Analysis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\machine-learning@U55hwR0HRCIz2cveVR8FZ.md"
+    },
+    {
+      "id": "U55hwR0HRCIz2cveVR8FZ",
+      "old_id": "jowh4CFLQiFzKaaElyCuQ",
+      "type": "subtopic",
+      "label": "Machine Learning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\visualisation@jowh4CFLQiFzKaaElyCuQ.md"
+    },
+    {
+      "id": "sgXIjVTbwdwdYoaxN3XBM",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Analysis / Reporting with Excel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "wME4MSldOWlMB54ekpReS",
+      "old_id": "SIiIfcy-jeiRoDlxw385V",
+      "type": "subtopic",
+      "label": "IF",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\concat@SIiIfcy-jeiRoDlxw385V.md"
+    },
+    {
+      "id": "yBlJrNo9eO470dLp6OaQZ",
+      "old_id": "D5Q6o6ydr1j51kB0ASFPE",
+      "type": "subtopic",
+      "label": "DATEDIF",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\trim@D5Q6o6ydr1j51kB0ASFPE.md"
+    },
+    {
+      "id": "9sIP-jpNjtA1JPCBjTf-H",
+      "old_id": "YReKRRgE_2dWfGGdBQqbf",
+      "type": "subtopic",
+      "label": "VLOOKUP / HLOOKUP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\upper--lower--proper@YReKRRgE_2dWfGGdBQqbf.md"
+    },
+    {
+      "id": "dke_pySrqYZZ7K3rprnIT",
+      "old_id": "YReKRRgE_2dWfGGdBQqbf",
+      "type": "subtopic",
+      "label": "REPLACE / SUBSTITUTE",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\upper--lower--proper@YReKRRgE_2dWfGGdBQqbf.md"
+    },
+    {
+      "id": "YReKRRgE_2dWfGGdBQqbf",
+      "old_id": "U55hwR0HRCIz2cveVR8FZ",
+      "type": "subtopic",
+      "label": "UPPER / LOWER / PROPER",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\machine-learning@U55hwR0HRCIz2cveVR8FZ.md"
+    },
+    {
+      "id": "SIiIfcy-jeiRoDlxw385V",
+      "old_id": "YReKRRgE_2dWfGGdBQqbf",
+      "type": "subtopic",
+      "label": "CONCAT",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\upper--lower--proper@YReKRRgE_2dWfGGdBQqbf.md"
+    },
+    {
+      "id": "D5Q6o6ydr1j51kB0ASFPE",
+      "old_id": "YReKRRgE_2dWfGGdBQqbf",
+      "type": "subtopic",
+      "label": "TRIM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\upper--lower--proper@YReKRRgE_2dWfGGdBQqbf.md"
+    },
+    {
+      "id": "FDYunL9KJkR_tHEcUV2iC",
+      "old_id": "SIiIfcy-jeiRoDlxw385V",
+      "type": "subtopic",
+      "label": "AVERAGE",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\concat@SIiIfcy-jeiRoDlxw385V.md"
+    },
+    {
+      "id": "uAdxP1ZkgzcU8JcWjvw6d",
+      "old_id": "D5Q6o6ydr1j51kB0ASFPE",
+      "type": "subtopic",
+      "label": "COUNT",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\trim@D5Q6o6ydr1j51kB0ASFPE.md"
+    },
+    {
+      "id": "_FO80Cm2iAD_bThmnsEgp",
+      "old_id": "FDYunL9KJkR_tHEcUV2iC",
+      "type": "subtopic",
+      "label": "SUM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\average@FDYunL9KJkR_tHEcUV2iC.md"
+    },
+    {
+      "id": "F3-cr5onkWqKKPRdxu8lV",
+      "old_id": "uAdxP1ZkgzcU8JcWjvw6d",
+      "type": "subtopic",
+      "label": "MIN / MAX",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\count@uAdxP1ZkgzcU8JcWjvw6d.md"
+    },
+    {
+      "id": "5GarFKYApjrhxHBLNPVnJ",
+      "old_id": "5GarFKYApjrhxHBLNPVnJ",
+      "type": "label",
+      "label": "Learn Common Functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\learn-common-functions@5GarFKYApjrhxHBLNPVnJ.md"
+    },
+    {
+      "id": "KBqpT6IbJCgJ0TRy3ey-H",
+      "old_id": "4UNRDLVOlXSR5u6tdypth",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "Vk3JErqxpnPY44iyfkLMl",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "Charting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "2DDJUFr0AJTVR2Whj8zub",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "Pivot Tables",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "i2uEcaO4bJhcZ5ayRs2CQ",
+      "old_id": "l1SnPc4EMqGdaIAhIQfrT",
+      "type": "topic",
+      "label": "Learn a Programming Lang.",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\data-visualisation-libraries@l1SnPc4EMqGdaIAhIQfrT.md"
+    },
+    {
+      "id": "4UNRDLVOlXSR5u6tdypth",
+      "old_id": "4UNRDLVOlXSR5u6tdypth",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "g_EBQizZsIe-vn8ir6FTv",
+      "old_id": "g_EBQizZsIe-vn8ir6FTv",
+      "type": "subtopic",
+      "label": "R",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\r@g_EBQizZsIe-vn8ir6FTv.md"
+    },
+    {
+      "id": "M1QtGTLyygIjePoCfvjve",
+      "old_id": "l1SnPc4EMqGdaIAhIQfrT",
+      "type": "topic",
+      "label": "Data Manipulation Libraries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\data-visualisation-libraries@l1SnPc4EMqGdaIAhIQfrT.md"
+    },
+    {
+      "id": "8OXmF2Gn6TYJotBRvDjqA",
+      "old_id": "TucngXKNptbeo3PtdJHX8",
+      "type": "subtopic",
+      "label": "Pandas",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\pandas@TucngXKNptbeo3PtdJHX8.md"
+    },
+    {
+      "id": "l1SnPc4EMqGdaIAhIQfrT",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Data Visualisation Libraries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "uGkXxdMXUMY-3fQFS1jK8",
+      "old_id": "E0hIgQEeZlEidr4HtUFrL",
+      "type": "subtopic",
+      "label": "Matplotlib",
+      "resources": []
+    },
+    {
+      "id": "y__UHXe2DD-IB7bvMF1-X",
+      "old_id": "v8TfY-b4W5ygOv7r-syHq",
+      "type": "subtopic",
+      "label": "Dplyr",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\dplyr@v8TfY-b4W5ygOv7r-syHq.md"
+    },
+    {
+      "id": "E0hIgQEeZlEidr4HtUFrL",
+      "old_id": "g_EBQizZsIe-vn8ir6FTv",
+      "type": "subtopic",
+      "label": "Ggplot2",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\r@g_EBQizZsIe-vn8ir6FTv.md"
+    },
+    {
+      "id": "_sjXCLHHTbZromJYn6fnu",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Data Collection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "tYPeLCxbqvMFlTkCGjdHg",
+      "old_id": "t_BRtEharsrOZxoyX0OzV",
+      "type": "subtopic",
+      "label": "Databases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\data-transformation@t_BRtEharsrOZxoyX0OzV.md"
+    },
+    {
+      "id": "iWOK0mRY-hAGxMnHYJ0tt",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "CSV Files",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "4DFcXSSHxg5wv0uXLIRij",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "APIs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "qQ64ZhSlbbWu9pP8KTE67",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "Web Scraping",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "E6cpb6kvluJM8OGuDcFBT",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Data Cleanup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "X9WmfHOks82BIAzs6abqO",
+      "old_id": "t_BRtEharsrOZxoyX0OzV",
+      "type": "subtopic",
+      "label": "Handling Missing Data",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\data-transformation@t_BRtEharsrOZxoyX0OzV.md"
+    },
+    {
+      "id": "Xltm7B-8TZ1-igLjVJXoR",
+      "old_id": "t_BRtEharsrOZxoyX0OzV",
+      "type": "subtopic",
+      "label": "Removing Duplicates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\data-transformation@t_BRtEharsrOZxoyX0OzV.md"
+    },
+    {
+      "id": "-rQ8h_6NFxEOhxXgo7LHo",
+      "old_id": "t_BRtEharsrOZxoyX0OzV",
+      "type": "subtopic",
+      "label": "Finding Outliers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\data-transformation@t_BRtEharsrOZxoyX0OzV.md"
+    },
+    {
+      "id": "t_BRtEharsrOZxoyX0OzV",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "Data Transformation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "TucngXKNptbeo3PtdJHX8",
+      "old_id": "v8TfY-b4W5ygOv7r-syHq",
+      "type": "subtopic",
+      "label": "Pandas",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\dplyr@v8TfY-b4W5ygOv7r-syHq.md"
+    },
+    {
+      "id": "v8TfY-b4W5ygOv7r-syHq",
+      "old_id": "E0hIgQEeZlEidr4HtUFrL",
+      "type": "subtopic",
+      "label": "Dplyr",
+      "resources": []
+    },
+    {
+      "id": "il6KQXVPGBza5libN38ib",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Descriptive Analysis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "2ldO-_ZnIg364Eo8Jyfgr",
+      "old_id": "lTycWscyFPi-BtkNg9cdm",
+      "type": "subtopic",
+      "label": "Dispersion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\regression@lTycWscyFPi-BtkNg9cdm.md"
+    },
+    {
+      "id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "old_id": "U55hwR0HRCIz2cveVR8FZ",
+      "type": "subtopic",
+      "label": "Distribution Space",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\machine-learning@U55hwR0HRCIz2cveVR8FZ.md"
+    },
+    {
+      "id": "923KGEUG9ofBm7dYkkrxz",
+      "old_id": "tSxtyJhL5wjU0XJcjsJmm",
+      "type": "subtopic",
+      "label": "Mean",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\range@tSxtyJhL5wjU0XJcjsJmm.md"
+    },
+    {
+      "id": "qdXoikVh2xkJkOQNKcyvb",
+      "old_id": "ict4JkoVM-AzPbp9bDztg",
+      "type": "subtopic",
+      "label": "Median",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\variance@ict4JkoVM-AzPbp9bDztg.md"
+    },
+    {
+      "id": "fY8zVG2tVbmtx5OhY7hj-",
+      "old_id": "SJLeose5vZU8w_18C8_t0",
+      "type": "subtopic",
+      "label": "Mode",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\power-bi@SJLeose5vZU8w_18C8_t0.md"
+    },
+    {
+      "id": "yn1sstYMO9du3rpfQqNs9",
+      "old_id": "SJLeose5vZU8w_18C8_t0",
+      "type": "subtopic",
+      "label": "Average",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\power-bi@SJLeose5vZU8w_18C8_t0.md"
+    },
+    {
+      "id": "tSxtyJhL5wjU0XJcjsJmm",
+      "old_id": "ict4JkoVM-AzPbp9bDztg",
+      "type": "subtopic",
+      "label": "Range",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\variance@ict4JkoVM-AzPbp9bDztg.md"
+    },
+    {
+      "id": "ict4JkoVM-AzPbp9bDztg",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "Variance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "MXIP8ekH4YtczODKM_G_l",
+      "old_id": "lTycWscyFPi-BtkNg9cdm",
+      "type": "subtopic",
+      "label": "Standard Deviation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\regression@lTycWscyFPi-BtkNg9cdm.md"
+    },
+    {
+      "id": "VfcCRRqwLxkYpIX0ZKNNX",
+      "old_id": "lTycWscyFPi-BtkNg9cdm",
+      "type": "subtopic",
+      "label": "Skewness",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\regression@lTycWscyFPi-BtkNg9cdm.md"
+    },
+    {
+      "id": "PqGO8AU1zE2ZdtqrIrOkZ",
+      "old_id": "lTycWscyFPi-BtkNg9cdm",
+      "type": "subtopic",
+      "label": "Kurtosis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\regression@lTycWscyFPi-BtkNg9cdm.md"
+    },
+    {
+      "id": "BJTVa4ur_bJB7mMtD2-hQ",
+      "old_id": "Fyqg3MRcwY7g-Q3gjiqwK",
+      "type": "subtopic",
+      "label": "Central Tendency",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\distribution-shape@Fyqg3MRcwY7g-Q3gjiqwK.md"
+    },
+    {
+      "id": "Sz2Y8HLbSmDjSKAJztDql",
+      "old_id": "n3M49lgNPn28hm7kzki-a",
+      "type": "subtopic",
+      "label": "Tableau",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\ggplot2@n3M49lgNPn28hm7kzki-a.md"
+    },
+    {
+      "id": "SJLeose5vZU8w_18C8_t0",
+      "old_id": "ict4JkoVM-AzPbp9bDztg",
+      "type": "subtopic",
+      "label": "Power BI",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\variance@ict4JkoVM-AzPbp9bDztg.md"
+    },
+    {
+      "id": "tvDdXwaRPsUSTqJGaLS3P",
+      "old_id": "muFy-C2agCX9vR_NU7UZF",
+      "type": "subtopic",
+      "label": "Matplotlib",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\funnel-charts@muFy-C2agCX9vR_NU7UZF.md"
+    },
+    {
+      "id": "-cJb8gEBvdVFf7FlgG3Ud",
+      "old_id": "n3M49lgNPn28hm7kzki-a",
+      "type": "subtopic",
+      "label": "Seaborn",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\ggplot2@n3M49lgNPn28hm7kzki-a.md"
+    },
+    {
+      "id": "n3M49lgNPn28hm7kzki-a",
+      "old_id": "SJLeose5vZU8w_18C8_t0",
+      "type": "subtopic",
+      "label": "ggplot2",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\power-bi@SJLeose5vZU8w_18C8_t0.md"
+    },
+    {
+      "id": "EVk1H-QLtTlpG7lVEenDt",
+      "old_id": "K9xwm_Vpdup9ujYqlD9F3",
+      "type": "subtopic",
+      "label": "Bar Charts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\pie-charts@K9xwm_Vpdup9ujYqlD9F3.md"
+    },
+    {
+      "id": "v9T0DX56jFNhUz9nzubzS",
+      "old_id": "muFy-C2agCX9vR_NU7UZF",
+      "type": "subtopic",
+      "label": "Line Chart",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\funnel-charts@muFy-C2agCX9vR_NU7UZF.md"
+    },
+    {
+      "id": "A5YQv7D4qRcskdZ64XldH",
+      "old_id": "muFy-C2agCX9vR_NU7UZF",
+      "type": "subtopic",
+      "label": "Scatter Plot",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\funnel-charts@muFy-C2agCX9vR_NU7UZF.md"
+    },
+    {
+      "id": "muFy-C2agCX9vR_NU7UZF",
+      "old_id": "n3M49lgNPn28hm7kzki-a",
+      "type": "subtopic",
+      "label": "Funnel Charts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\ggplot2@n3M49lgNPn28hm7kzki-a.md"
+    },
+    {
+      "id": "FEyBFZLaGJqTC-IUEcOVS",
+      "old_id": "K9xwm_Vpdup9ujYqlD9F3",
+      "type": "subtopic",
+      "label": "Histograms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\pie-charts@K9xwm_Vpdup9ujYqlD9F3.md"
+    },
+    {
+      "id": "329BrtmXjXNLfi1SFfdeo",
+      "old_id": "K9xwm_Vpdup9ujYqlD9F3",
+      "type": "subtopic",
+      "label": "Stacked Charts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\pie-charts@K9xwm_Vpdup9ujYqlD9F3.md"
+    },
+    {
+      "id": "G8resQXEVEHCaQfDlt3nj",
+      "old_id": "K9xwm_Vpdup9ujYqlD9F3",
+      "type": "subtopic",
+      "label": "Heatmap",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\pie-charts@K9xwm_Vpdup9ujYqlD9F3.md"
+    },
+    {
+      "id": "K9xwm_Vpdup9ujYqlD9F3",
+      "old_id": "muFy-C2agCX9vR_NU7UZF",
+      "type": "subtopic",
+      "label": "Pie Charts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\funnel-charts@muFy-C2agCX9vR_NU7UZF.md"
+    },
+    {
+      "id": "2g19zjEASJw2ve57hxpr0",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Data Visualisation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "TeewVruErSsD4VLXcaDxp",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Statistical Analysis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "Xygwu0m5TeYT6S_8FKKXh",
+      "old_id": "lTycWscyFPi-BtkNg9cdm",
+      "type": "subtopic",
+      "label": "Hypothesis Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\regression@lTycWscyFPi-BtkNg9cdm.md"
+    },
+    {
+      "id": "murioZ0NdrTix_lqSGz-8",
+      "old_id": "lTycWscyFPi-BtkNg9cdm",
+      "type": "subtopic",
+      "label": "Correlation Analysis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\regression@lTycWscyFPi-BtkNg9cdm.md"
+    },
+    {
+      "id": "lTycWscyFPi-BtkNg9cdm",
+      "old_id": "ict4JkoVM-AzPbp9bDztg",
+      "type": "subtopic",
+      "label": "Regression",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\variance@ict4JkoVM-AzPbp9bDztg.md"
+    },
+    {
+      "id": "mCUW07rx74_dUNi7OGVlj",
+      "old_id": "lTycWscyFPi-BtkNg9cdm",
+      "type": "subtopic",
+      "label": "Visualizing Distributions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\regression@lTycWscyFPi-BtkNg9cdm.md"
+    },
+    {
+      "id": "f4GuzeokP9w_gwtOquP0g",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Machine Learning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "XdBwqLoYYiLJNlWPBEDUj",
+      "old_id": "Xygwu0m5TeYT6S_8FKKXh",
+      "type": "subtopic",
+      "label": "Reinforcement Learning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\hypothesis-testing@Xygwu0m5TeYT6S_8FKKXh.md"
+    },
+    {
+      "id": "FntL9E2yVAYwIrlANDNKE",
+      "old_id": "murioZ0NdrTix_lqSGz-8",
+      "type": "subtopic",
+      "label": "Unsupervised Learning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\correlation-analysis@murioZ0NdrTix_lqSGz-8.md"
+    },
+    {
+      "id": "FIYCkGXofKMsXmsqHSMh9",
+      "old_id": "lTycWscyFPi-BtkNg9cdm",
+      "type": "subtopic",
+      "label": "Supervised Learning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\regression@lTycWscyFPi-BtkNg9cdm.md"
+    },
+    {
+      "id": "vHDm_9Lh4EqvXNYSOBaqZ",
+      "old_id": "XdBwqLoYYiLJNlWPBEDUj",
+      "type": "subtopic",
+      "label": "Decision Trees",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\reinforcement-learning@XdBwqLoYYiLJNlWPBEDUj.md"
+    },
+    {
+      "id": "zbUw5PyVsdccbgDTRHg7d",
+      "old_id": "SStzU_iXSvI_9QWbvGNou",
+      "type": "subtopic",
+      "label": "Naive Byes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\knn@SStzU_iXSvI_9QWbvGNou.md"
+    },
+    {
+      "id": "h2xF5bZeUByDgsAi4dga2",
+      "old_id": "ofOQKAIu4rezWmgZeE-KT",
+      "type": "subtopic",
+      "label": "K-Means Clustering",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\logistic-regression@ofOQKAIu4rezWmgZeE-KT.md"
+    },
+    {
+      "id": "7ikA373qH88HBx5irCgIH",
+      "old_id": "Fwwve0j-KDfc605IIgmil",
+      "type": "subtopic",
+      "label": "Model Evaluation Techniques",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\parallel-processing@Fwwve0j-KDfc605IIgmil.md"
+    },
+    {
+      "id": "_aUQZWUhFRvNu0MZ8CPit",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Big Data Technologies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\deep-learning-optional@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "m1IfG2sEedUxMXrv_B8GW",
+      "old_id": "iTmtpXe7dR4XKslgpsk2q",
+      "type": "subtopic",
+      "label": "Big Data Concepts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\data-storage-solutions@iTmtpXe7dR4XKslgpsk2q.md"
+    },
+    {
+      "id": "SStzU_iXSvI_9QWbvGNou",
+      "old_id": "FntL9E2yVAYwIrlANDNKE",
+      "type": "subtopic",
+      "label": "KNN",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\unsupervised-learning@FntL9E2yVAYwIrlANDNKE.md"
+    },
+    {
+      "id": "ofOQKAIu4rezWmgZeE-KT",
+      "old_id": "Fwwve0j-KDfc605IIgmil",
+      "type": "subtopic",
+      "label": "Logistic Regression",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\parallel-processing@Fwwve0j-KDfc605IIgmil.md"
+    },
+    {
+      "id": "Fwwve0j-KDfc605IIgmil",
+      "old_id": "FIYCkGXofKMsXmsqHSMh9",
+      "type": "subtopic",
+      "label": "Parallel Processing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\supervised-learning@FIYCkGXofKMsXmsqHSMh9.md"
+    },
+    {
+      "id": "wECWIRMlWNoTxz5eKwaSf",
+      "old_id": "fqCAH4Enc4AAJHoSkk2Pe",
+      "type": "subtopic",
+      "label": "Hadoop",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\mpi@fqCAH4Enc4AAJHoSkk2Pe.md"
+    },
+    {
+      "id": "vaiigToDh4522rtWamuSM",
+      "old_id": "eAM9orCNwzqh34uvGBVm8",
+      "type": "subtopic",
+      "label": "Spark",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\mapreduce@eAM9orCNwzqh34uvGBVm8.md"
+    },
+    {
+      "id": "fqCAH4Enc4AAJHoSkk2Pe",
+      "old_id": "eAM9orCNwzqh34uvGBVm8",
+      "type": "subtopic",
+      "label": "MPI",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\mapreduce@eAM9orCNwzqh34uvGBVm8.md"
+    },
+    {
+      "id": "eAM9orCNwzqh34uvGBVm8",
+      "old_id": "Fwwve0j-KDfc605IIgmil",
+      "type": "subtopic",
+      "label": "MapReduce",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\parallel-processing@Fwwve0j-KDfc605IIgmil.md"
+    },
+    {
+      "id": "SiYUdtYMDImRPmV2_XPkH",
+      "old_id": "NVSQ4OtmvRp7p4cOEvKh7",
+      "type": "topic",
+      "label": "Deep Learning (Optional)",
+      "resources": []
+    },
+    {
+      "id": "gGHsKcS92StK5FolzmVvm",
+      "old_id": "LJSqfz6aYJbCe_bK8EWI1",
+      "type": "subtopic",
+      "label": "Neural Networks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\pytorch@LJSqfz6aYJbCe_bK8EWI1.md"
+    },
+    {
+      "id": "XlCv2OirEfuBFa4ranyyE",
+      "old_id": "Gocm98_tRg5BGxKcP-7zg",
+      "type": "subtopic",
+      "label": "CNNs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\rnn@Gocm98_tRg5BGxKcP-7zg.md"
+    },
+    {
+      "id": "Gocm98_tRg5BGxKcP-7zg",
+      "old_id": "LJSqfz6aYJbCe_bK8EWI1",
+      "type": "subtopic",
+      "label": "RNN",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\pytorch@LJSqfz6aYJbCe_bK8EWI1.md"
+    },
+    {
+      "id": "FJ4Sx477FWxyDsQr0R8rl",
+      "old_id": "DFv-eiYDicF4cA4jgVk9_",
+      "type": "subtopic",
+      "label": "Tensorflow",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\natural-language-processing@DFv-eiYDicF4cA4jgVk9_.md"
+    },
+    {
+      "id": "LJSqfz6aYJbCe_bK8EWI1",
+      "old_id": "wECWIRMlWNoTxz5eKwaSf",
+      "type": "subtopic",
+      "label": "Pytorch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\hadoop@wECWIRMlWNoTxz5eKwaSf.md"
+    },
+    {
+      "id": "bHPJ6yOHtUq5EjJBSrJUE",
+      "old_id": "DFv-eiYDicF4cA4jgVk9_",
+      "type": "subtopic",
+      "label": "Image Recognition",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\natural-language-processing@DFv-eiYDicF4cA4jgVk9_.md"
+    },
+    {
+      "id": "DFv-eiYDicF4cA4jgVk9_",
+      "old_id": "LJSqfz6aYJbCe_bK8EWI1",
+      "type": "subtopic",
+      "label": "Natural Language Processing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\pytorch@LJSqfz6aYJbCe_bK8EWI1.md"
+    },
+    {
+      "id": "ma5qE4EbrnFqnWm8-koQX",
+      "old_id": "ma5qE4EbrnFqnWm8-koQX",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "9dfYjsY9P25QrQIqW5_m5",
+      "old_id": "vPVfEbf1N9Pm-OGipCAFs",
+      "type": "label",
+      "label": "Popular ML Algorithms",
+      "resources": []
+    },
+    {
+      "id": "1DgiVLBYwEDPiRf11C2NS",
+      "old_id": "FZQddsp5MWxd5UCtzjKRt",
+      "type": "label",
+      "label": "Learn Different Techniques",
+      "resources": []
+    },
+    {
+      "id": "vPVfEbf1N9Pm-OGipCAFs",
+      "old_id": "vPVfEbf1N9Pm-OGipCAFs",
+      "type": "label",
+      "label": "Machine Learning Types",
+      "resources": []
+    },
+    {
+      "id": "qoTejLLexhNdpCwhfpDwn",
+      "old_id": "FZQddsp5MWxd5UCtzjKRt",
+      "type": "label",
+      "label": "Using Libraries for Cleanup",
+      "resources": []
+    },
+    {
+      "id": "iTmtpXe7dR4XKslgpsk2q",
+      "old_id": "eAM9orCNwzqh34uvGBVm8",
+      "type": "subtopic",
+      "label": "Data Storage Solutions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\data-analyst\\content\\mapreduce@eAM9orCNwzqh34uvGBVm8.md"
+    },
+    {
+      "id": "aopqiF0Svmpq94g6OQBX0",
+      "old_id": "NsoLCA-sJ8W9N4TrMzV8-",
+      "type": "label",
+      "label": "1",
+      "resources": []
+    },
+    {
+      "id": "ClwrtyoxnU-slBd3nQ6zG",
+      "old_id": "NsoLCA-sJ8W9N4TrMzV8-",
+      "type": "label",
+      "label": "2",
+      "resources": []
+    },
+    {
+      "id": "NsoLCA-sJ8W9N4TrMzV8-",
+      "old_id": "NsoLCA-sJ8W9N4TrMzV8-",
+      "type": "label",
+      "label": "3",
+      "resources": []
+    },
+    {
+      "id": "VVU8uggtiOrRNaN-IzatG",
+      "old_id": "VVU8uggtiOrRNaN-IzatG",
+      "type": "button",
+      "label": "Python",
+      "resources": []
+    },
+    {
+      "id": "BnvNJCHnPsTo25Hn0dN9v",
+      "old_id": "BnvNJCHnPsTo25Hn0dN9v",
+      "type": "button",
+      "label": "Learn SQL",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": null,
+      "target": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "source": "3xp2fogAVmwXQhdzhZDWR",
+      "target": null
+    },
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "3xp2fogAVmwXQhdzhZDWR"
+    },
+    {
+      "source": null,
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "VlNNwIEDWqQXtqkHWJYzC",
+      "target": "yCnn-NfSxIybUQ2iTuUGq"
+    },
+    {
+      "source": "3xp2fogAVmwXQhdzhZDWR",
+      "target": "yCnn-NfSxIybUQ2iTuUGq"
+    },
+    {
+      "source": "3xp2fogAVmwXQhdzhZDWR",
+      "target": "Lsapbmg-eMIYJAHpV97nO"
+    },
+    {
+      "source": "Lsapbmg-eMIYJAHpV97nO",
+      "target": "hWDh0ooidbqZb000ENVok"
+    },
+    {
+      "source": "3xp2fogAVmwXQhdzhZDWR",
+      "target": "R12sArWVpbIs_PHxBqVaR"
+    },
+    {
+      "source": "3xp2fogAVmwXQhdzhZDWR",
+      "target": "zF-aibk1m_zAsafT04efn"
+    },
+    {
+      "source": "zF-aibk1m_zAsafT04efn",
+      "target": "sgXIjVTbwdwdYoaxN3XBM"
+    },
+    {
+      "source": "l1SnPc4EMqGdaIAhIQfrT",
+      "target": "uGkXxdMXUMY-3fQFS1jK8"
+    },
+    {
+      "source": "M1QtGTLyygIjePoCfvjve",
+      "target": "y__UHXe2DD-IB7bvMF1-X"
+    },
+    {
+      "source": "M1QtGTLyygIjePoCfvjve",
+      "target": "8OXmF2Gn6TYJotBRvDjqA"
+    },
+    {
+      "source": "l1SnPc4EMqGdaIAhIQfrT",
+      "target": "E0hIgQEeZlEidr4HtUFrL"
+    },
+    {
+      "source": "r1ZlPtp7j6PFIdgrFrOx0",
+      "target": "_sjXCLHHTbZromJYn6fnu"
+    },
+    {
+      "source": "_sjXCLHHTbZromJYn6fnu",
+      "target": "tYPeLCxbqvMFlTkCGjdHg"
+    },
+    {
+      "source": "_sjXCLHHTbZromJYn6fnu",
+      "target": "iWOK0mRY-hAGxMnHYJ0tt"
+    },
+    {
+      "source": "_sjXCLHHTbZromJYn6fnu",
+      "target": "4DFcXSSHxg5wv0uXLIRij"
+    },
+    {
+      "source": "_sjXCLHHTbZromJYn6fnu",
+      "target": "qQ64ZhSlbbWu9pP8KTE67"
+    },
+    {
+      "source": "_sjXCLHHTbZromJYn6fnu",
+      "target": "E6cpb6kvluJM8OGuDcFBT"
+    },
+    {
+      "source": "E6cpb6kvluJM8OGuDcFBT",
+      "target": "Xltm7B-8TZ1-igLjVJXoR"
+    },
+    {
+      "source": "E6cpb6kvluJM8OGuDcFBT",
+      "target": "X9WmfHOks82BIAzs6abqO"
+    },
+    {
+      "source": "E6cpb6kvluJM8OGuDcFBT",
+      "target": "-rQ8h_6NFxEOhxXgo7LHo"
+    },
+    {
+      "source": "E6cpb6kvluJM8OGuDcFBT",
+      "target": "t_BRtEharsrOZxoyX0OzV"
+    },
+    {
+      "source": "E6cpb6kvluJM8OGuDcFBT",
+      "target": "Yx0ICrkjMA_VQdS9DROMb"
+    },
+    {
+      "source": "Yx0ICrkjMA_VQdS9DROMb",
+      "target": "il6KQXVPGBza5libN38ib"
+    },
+    {
+      "source": "il6KQXVPGBza5libN38ib",
+      "target": "2g19zjEASJw2ve57hxpr0"
+    },
+    {
+      "source": "il6KQXVPGBza5libN38ib",
+      "target": "nYqQXh3j-d5mpOhyTO6dW"
+    },
+    {
+      "source": "2g19zjEASJw2ve57hxpr0",
+      "target": "TeewVruErSsD4VLXcaDxp"
+    },
+    {
+      "source": "TeewVruErSsD4VLXcaDxp",
+      "target": "Xygwu0m5TeYT6S_8FKKXh"
+    },
+    {
+      "source": "TeewVruErSsD4VLXcaDxp",
+      "target": "murioZ0NdrTix_lqSGz-8"
+    },
+    {
+      "source": "TeewVruErSsD4VLXcaDxp",
+      "target": "g45cn450Awr2W5hadxKY3"
+    },
+    {
+      "source": "g45cn450Awr2W5hadxKY3",
+      "target": "f4GuzeokP9w_gwtOquP0g"
+    },
+    {
+      "source": "f4GuzeokP9w_gwtOquP0g",
+      "target": "_aUQZWUhFRvNu0MZ8CPit"
+    },
+    {
+      "source": "il6KQXVPGBza5libN38ib",
+      "target": "mCUW07rx74_dUNi7OGVlj"
+    },
+    {
+      "source": "_aUQZWUhFRvNu0MZ8CPit",
+      "target": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "29NGSuCu_LZ2DhGNwq4UE"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "NhmKafQe87sR8hqPBWszq"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "owMhaho3OruAkPEVjfIk1"
+    },
+    {
+      "source": "yvdfoly5WHHTq2Puss355",
+      "target": "XzXLGjJr2F8Ln7gP0e5N8"
+    },
+    {
+      "source": "lse0W6_nPrjGJGW2bVFfM",
+      "target": "XzXLGjJr2F8Ln7gP0e5N8"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "_aUQZWUhFRvNu0MZ8CPit",
+      "target": "m1IfG2sEedUxMXrv_B8GW"
+    },
+    {
+      "source": "YDomoxzf-65sru6XVu0_X",
+      "target": "r1ZlPtp7j6PFIdgrFrOx0"
+    },
+    {
+      "source": "TeewVruErSsD4VLXcaDxp",
+      "target": "lTycWscyFPi-BtkNg9cdm"
+    },
+    {
+      "source": "BnvNJCHnPsTo25Hn0dN9v",
+      "target": "YDomoxzf-65sru6XVu0_X"
+    }
+  ]
+}

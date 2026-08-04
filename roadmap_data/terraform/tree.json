@@ -1,0 +1,588 @@
+[
+  {
+    "id": "PWsbqxaFSeU64B8E7ONZn",
+    "old_id": "PWsbqxaFSeU64B8E7ONZn",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2e8USwDY3mi53rDIGnQOq",
+    "old_id": "2e8USwDY3mi53rDIGnQOq",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-PDYmhSQlGbLLFBJQ-Fo3",
+    "old_id": "-PDYmhSQlGbLLFBJQ-Fo3",
+    "type": "title",
+    "label": "Mastering Terraform",
+    "resources": [],
+    "children": [
+      {
+        "id": "h6qRrUe-bn25s0UkxU600",
+        "old_id": "UlH9oNKGD37RPAapiPe19",
+        "type": "topic",
+        "label": "Introduction",
+        "resources": [],
+        "children": [
+          {
+            "id": "twR3k9D-qDr1CbyW6K0Fs",
+            "old_id": "CU9V3iRdssamsG-xMouXT",
+            "type": "subtopic",
+            "label": "What is Infrastructure as Code?",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\what-is-terraform@CU9V3iRdssamsG-xMouXT.md",
+            "children": []
+          },
+          {
+            "id": "CU9V3iRdssamsG-xMouXT",
+            "old_id": "CU9V3iRdssamsG-xMouXT",
+            "type": "subtopic",
+            "label": "What is Terraform?",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\what-is-terraform@CU9V3iRdssamsG-xMouXT.md",
+            "children": []
+          },
+          {
+            "id": "hRIDJHIxWc5Iav7tsu8l-",
+            "old_id": "hRIDJHIxWc5Iav7tsu8l-",
+            "type": "subtopic",
+            "label": "Usecases and Benefits",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\usecases-and-benefits@hRIDJHIxWc5Iav7tsu8l-.md",
+            "children": []
+          },
+          {
+            "id": "UsINvx84pBF1hp8XoLF4c",
+            "old_id": "UsINvx84pBF1hp8XoLF4c",
+            "type": "subtopic",
+            "label": "CaC vs IaC",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\cac-vs-iac@UsINvx84pBF1hp8XoLF4c.md",
+            "children": []
+          },
+          {
+            "id": "AYtBLFU1nowEq-EVlXrEZ",
+            "old_id": "AYtBLFU1nowEq-EVlXrEZ",
+            "type": "subtopic",
+            "label": "Installing Terraform",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\installing-terraform@AYtBLFU1nowEq-EVlXrEZ.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PstbOGqR_4C2WWV8CWXes",
+    "old_id": "PstbOGqR_4C2WWV8CWXes",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ePdD5Qwq665Rc17ML4-wp",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "DevOps Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "EIsex6gNHDRYHn0o2spzi",
+    "old_id": "EIsex6gNHDRYHn0o2spzi",
+    "type": "subtopic",
+    "label": "depends_on",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\depends_on@EIsex6gNHDRYHn0o2spzi.md",
+    "children": []
+  },
+  {
+    "id": "kyScfijEntX9H1mp7tmej",
+    "old_id": "kyScfijEntX9H1mp7tmej",
+    "type": "subtopic",
+    "label": "count",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\count@kyScfijEntX9H1mp7tmej.md",
+    "children": []
+  },
+  {
+    "id": "gcdg_GhAacIWzv19ITTE_",
+    "old_id": "gcdg_GhAacIWzv19ITTE_",
+    "type": "subtopic",
+    "label": "for_each",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\for_each@gcdg_GhAacIWzv19ITTE_.md",
+    "children": []
+  },
+  {
+    "id": "5FLOFTP_nCa3qi1wbV4qE",
+    "old_id": "5FLOFTP_nCa3qi1wbV4qE",
+    "type": "subtopic",
+    "label": "provider",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\provider@5FLOFTP_nCa3qi1wbV4qE.md",
+    "children": []
+  },
+  {
+    "id": "0A8zTuCXVmcruJdfH3cNu",
+    "old_id": "0A8zTuCXVmcruJdfH3cNu",
+    "type": "subtopic",
+    "label": "lifecycle",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\lifecycle@0A8zTuCXVmcruJdfH3cNu.md",
+    "children": []
+  },
+  {
+    "id": "U2n2BtyUrOFLnw9SZYV_w",
+    "old_id": "LDpj-LY_SOXzno04D-Y25",
+    "type": "subtopic",
+    "label": "Validation Rules",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\terraform-apply@LDpj-LY_SOXzno04D-Y25.md",
+    "children": []
+  },
+  {
+    "id": "31fa8kBzCEn-uCrTSoPM4",
+    "old_id": "iIjUG_N_mQtLHG25v4-xg",
+    "type": "subtopic",
+    "label": "Output Syntax",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\terraform-registry@iIjUG_N_mQtLHG25v4-xg.md",
+    "children": []
+  },
+  {
+    "id": "8giL6H5944M2L0rwxjPso",
+    "old_id": "31fa8kBzCEn-uCrTSoPM4",
+    "type": "subtopic",
+    "label": "Sensitive Outputs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\output-syntax@31fa8kBzCEn-uCrTSoPM4.md",
+    "children": []
+  },
+  {
+    "id": "LDxAXmTKyvogvgUpvN5pT",
+    "old_id": "LPI13FILvkD55hWcWbPrV",
+    "type": "subtopic",
+    "label": "terraform plan",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\terraform-destroy@LPI13FILvkD55hWcWbPrV.md",
+    "children": []
+  },
+  {
+    "id": "vAFFgKSthyj_3Lxt-Z6pg",
+    "old_id": "0xVXwjWPFXDGRw_3p6th6",
+    "type": "subtopic",
+    "label": "graph",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\mv@0xVXwjWPFXDGRw_3p6th6.md",
+    "children": []
+  },
+  {
+    "id": "Y-mgCkDpawt5NrMwDH9Ki",
+    "old_id": "Y-mgCkDpawt5NrMwDH9Ki",
+    "type": "subtopic",
+    "label": "list",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\list@Y-mgCkDpawt5NrMwDH9Ki.md",
+    "children": []
+  },
+  {
+    "id": "kw32gb4HSeCEoBwkeziS_",
+    "old_id": "jvHtSRLuCXJrGIiesgbE-",
+    "type": "subtopic",
+    "label": "output",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\-replace-option-in-apply@jvHtSRLuCXJrGIiesgbE-.md",
+    "children": []
+  },
+  {
+    "id": "GseYuG9wT8H9R_enxWzuQ",
+    "old_id": "16vLOPP9lTCuBh0q-UVMk",
+    "type": "subtopic",
+    "label": "State Locking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\sensitive-data@16vLOPP9lTCuBh0q-UVMk.md",
+    "children": []
+  },
+  {
+    "id": "L7wAMGi_yU-Bbc9fXlmxZ",
+    "old_id": "16vLOPP9lTCuBh0q-UVMk",
+    "type": "subtopic",
+    "label": "Import Existing Resources",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\sensitive-data@16vLOPP9lTCuBh0q-UVMk.md",
+    "children": []
+  },
+  {
+    "id": "a0rUMnYluVUGhyhlDK5S8",
+    "old_id": "16vLOPP9lTCuBh0q-UVMk",
+    "type": "subtopic",
+    "label": "Splitting State Files",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\sensitive-data@16vLOPP9lTCuBh0q-UVMk.md",
+    "children": []
+  },
+  {
+    "id": "1T35eNO18qoyXcX7S-Jox",
+    "old_id": "16vLOPP9lTCuBh0q-UVMk",
+    "type": "subtopic",
+    "label": "Versioning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\sensitive-data@16vLOPP9lTCuBh0q-UVMk.md",
+    "children": []
+  },
+  {
+    "id": "16vLOPP9lTCuBh0q-UVMk",
+    "old_id": "LPI13FILvkD55hWcWbPrV",
+    "type": "subtopic",
+    "label": "Sensitive Data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\terraform-destroy@LPI13FILvkD55hWcWbPrV.md",
+    "children": []
+  },
+  {
+    "id": "jvHtSRLuCXJrGIiesgbE-",
+    "old_id": "jvHtSRLuCXJrGIiesgbE-",
+    "type": "subtopic",
+    "label": "-replace option in apply",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\-replace-option-in-apply@jvHtSRLuCXJrGIiesgbE-.md",
+    "children": []
+  },
+  {
+    "id": "7DZB2VeyuouFXOdFEfeZt",
+    "old_id": "gTMPK0tfs2JYgoL7SAGW6",
+    "type": "subtopic",
+    "label": "show",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\modules-best-practices@gTMPK0tfs2JYgoL7SAGW6.md",
+    "children": []
+  },
+  {
+    "id": "uR6Vjm8cek9JRzZV0iTXh",
+    "old_id": "0xVXwjWPFXDGRw_3p6th6",
+    "type": "subtopic",
+    "label": "rm",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\mv@0xVXwjWPFXDGRw_3p6th6.md",
+    "children": []
+  },
+  {
+    "id": "0xVXwjWPFXDGRw_3p6th6",
+    "old_id": "iE6NdThx-kEII7M6kWKYE",
+    "type": "subtopic",
+    "label": "mv",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "nx53xkJqovG-KCxZwihF1",
+    "old_id": "nx53xkJqovG-KCxZwihF1",
+    "type": "label",
+    "label": "Basic / Advanced Commands",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "AAg_iFggkEZNL12-6nkgK",
+    "old_id": "gTMPK0tfs2JYgoL7SAGW6",
+    "type": "subtopic",
+    "label": "Published Modules Usage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\modules-best-practices@gTMPK0tfs2JYgoL7SAGW6.md",
+    "children": []
+  },
+  {
+    "id": "wQN1QrK9VB_fHlXrBzDoU",
+    "old_id": "gTMPK0tfs2JYgoL7SAGW6",
+    "type": "subtopic",
+    "label": "Creating Local Modules",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\modules-best-practices@gTMPK0tfs2JYgoL7SAGW6.md",
+    "children": []
+  },
+  {
+    "id": "NsBJTYH9KXvjJuhPzjE_L",
+    "old_id": "gTMPK0tfs2JYgoL7SAGW6",
+    "type": "subtopic",
+    "label": "Inputs / Outputs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\modules-best-practices@gTMPK0tfs2JYgoL7SAGW6.md",
+    "children": []
+  },
+  {
+    "id": "gTMPK0tfs2JYgoL7SAGW6",
+    "old_id": "0xVXwjWPFXDGRw_3p6th6",
+    "type": "subtopic",
+    "label": "Modules Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\mv@0xVXwjWPFXDGRw_3p6th6.md",
+    "children": []
+  },
+  {
+    "id": "wSh7bbPswcFAzOicX8VPx",
+    "old_id": "uR6Vjm8cek9JRzZV0iTXh",
+    "type": "subtopic",
+    "label": "state pull / push",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\rm@uR6Vjm8cek9JRzZV0iTXh.md",
+    "children": []
+  },
+  {
+    "id": "Os6AOXp1CVI_Bh3NYnX17",
+    "old_id": "wSh7bbPswcFAzOicX8VPx",
+    "type": "subtopic",
+    "label": "state replace-provider",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\state-pull--push@wSh7bbPswcFAzOicX8VPx.md",
+    "children": []
+  },
+  {
+    "id": "Trpi2ZlnXZVYJCibE2bQ8",
+    "old_id": "Os6AOXp1CVI_Bh3NYnX17",
+    "type": "subtopic",
+    "label": "state force-unlock",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\state-replace-provider@Os6AOXp1CVI_Bh3NYnX17.md",
+    "children": []
+  },
+  {
+    "id": "Vxo_gNdFl3CZXV7GLPqjD",
+    "old_id": "z0PcbgpHbR6Fm07-On4P8",
+    "type": "subtopic",
+    "label": "Trivy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\compliance--sentinel@z0PcbgpHbR6Fm07-On4P8.md",
+    "children": []
+  },
+  {
+    "id": "MUkbLTMzmaVWbAJj6G3aj",
+    "old_id": "Vxo_gNdFl3CZXV7GLPqjD",
+    "type": "subtopic",
+    "label": "KICS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\trivy@Vxo_gNdFl3CZXV7GLPqjD.md",
+    "children": []
+  },
+  {
+    "id": "ljj7ngl1N4ezCXQ0o6Y8x",
+    "old_id": "z0PcbgpHbR6Fm07-On4P8",
+    "type": "subtopic",
+    "label": "Checkov",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\compliance--sentinel@z0PcbgpHbR6Fm07-On4P8.md",
+    "children": []
+  },
+  {
+    "id": "PkhQdVms2TGgnPrytCBPZ",
+    "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+    "type": "button",
+    "label": "Linux",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0ltIBoCTdLQADzs8viS2o",
+    "old_id": "PkhQdVms2TGgnPrytCBPZ",
+    "type": "button",
+    "label": "DevOps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PwK_kgd6t_7E09jMyQg-8",
+    "old_id": "PkhQdVms2TGgnPrytCBPZ",
+    "type": "button",
+    "label": "Docker",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "4QNj-D7gcWARDRWCUSgCL",
+    "old_id": "PwK_kgd6t_7E09jMyQg-8",
+    "type": "button",
+    "label": "Kubernetes",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "6zFuSNOfbPaYIE_t--2nr",
+    "old_id": "6zFuSNOfbPaYIE_t--2nr",
+    "type": "subtopic",
+    "label": "Version Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\version-management@6zFuSNOfbPaYIE_t--2nr.md",
+    "children": [
+      {
+        "id": "ECcHo0KTDN27MuVTC-Fwy",
+        "old_id": "QSftI21seX6I_xPonlfmU",
+        "type": "topic",
+        "label": "Scaling Terraform",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\testing@QSftI21seX6I_xPonlfmU.md",
+        "children": [
+          {
+            "id": "zCU02_5Pide5BZiuMuqEU",
+            "old_id": "weIlGqGN15U8BH1yE9moA",
+            "type": "subtopic",
+            "label": "Splitting Large State",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\github-actions@weIlGqGN15U8BH1yE9moA.md",
+            "children": []
+          },
+          {
+            "id": "RtwZy60ruRpskmgr1qYYf",
+            "old_id": "q1I5X_UBGH9LyF7UKHl_u",
+            "type": "subtopic",
+            "label": "Parallelism",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "wL3WWhjPEgFmumOmCPRDf",
+            "old_id": "RtwZy60ruRpskmgr1qYYf",
+            "type": "subtopic",
+            "label": "Deployment Workflow",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\parallelism@RtwZy60ruRpskmgr1qYYf.md",
+            "children": []
+          },
+          {
+            "id": "AEtW6j2GcfZz7IXk4sM6c",
+            "old_id": "wL3WWhjPEgFmumOmCPRDf",
+            "type": "subtopic",
+            "label": "Terragrunt",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\deployment-workflow@wL3WWhjPEgFmumOmCPRDf.md",
+            "children": []
+          },
+          {
+            "id": "oANePqjkwtNMwvV-_W0B7",
+            "old_id": "AEtW6j2GcfZz7IXk4sM6c",
+            "type": "subtopic",
+            "label": "Infracost",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\terragrunt@AEtW6j2GcfZz7IXk4sM6c.md",
+            "children": []
+          },
+          {
+            "id": "3MnZK2V5KhBhw67SyUVPk",
+            "old_id": "ECcHo0KTDN27MuVTC-Fwy",
+            "type": "topic",
+            "label": "Security",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\scaling-terraform@ECcHo0KTDN27MuVTC-Fwy.md",
+            "children": [
+              {
+                "id": "uVz9WwVAgMu1ZU0qjqVnc",
+                "old_id": "oANePqjkwtNMwvV-_W0B7",
+                "type": "subtopic",
+                "label": "Secret Management",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\infracost@oANePqjkwtNMwvV-_W0B7.md",
+                "children": []
+              },
+              {
+                "id": "z0PcbgpHbR6Fm07-On4P8",
+                "old_id": "uVz9WwVAgMu1ZU0qjqVnc",
+                "type": "subtopic",
+                "label": "Compliance / Sentinel",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\secret-management@uVz9WwVAgMu1ZU0qjqVnc.md",
+                "children": []
+              },
+              {
+                "id": "NSWG79dEygyl6pb54wLrE",
+                "old_id": "uVz9WwVAgMu1ZU0qjqVnc",
+                "type": "subtopic",
+                "label": "Terrascan",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\secret-management@uVz9WwVAgMu1ZU0qjqVnc.md",
+                "children": []
+              },
+              {
+                "id": "erxow5xNRj01WepdFOhVf",
+                "old_id": "3MnZK2V5KhBhw67SyUVPk",
+                "type": "topic",
+                "label": "HCP",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\security@3MnZK2V5KhBhw67SyUVPk.md",
+                "children": [
+                  {
+                    "id": "K_7dB-5cCYzGbwYXXaoiY",
+                    "old_id": "NSWG79dEygyl6pb54wLrE",
+                    "type": "subtopic",
+                    "label": "What and when to use HCP?",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\terrascan@NSWG79dEygyl6pb54wLrE.md",
+                    "children": []
+                  },
+                  {
+                    "id": "elW7IMBSF0ydmlb7rtI1o",
+                    "old_id": "K_7dB-5cCYzGbwYXXaoiY",
+                    "type": "subtopic",
+                    "label": "Enterprise Features",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\what-and-when-to-use-hcp@K_7dB-5cCYzGbwYXXaoiY.md",
+                    "children": []
+                  },
+                  {
+                    "id": "RPcsyhIG027uP7KF0hwaY",
+                    "old_id": "elW7IMBSF0ydmlb7rtI1o",
+                    "type": "subtopic",
+                    "label": "Authentication",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\enterprise-features@elW7IMBSF0ydmlb7rtI1o.md",
+                    "children": []
+                  },
+                  {
+                    "id": "JoUWF6AQoreELxFHNi9oo",
+                    "old_id": "RPcsyhIG027uP7KF0hwaY",
+                    "type": "subtopic",
+                    "label": "Workspaces",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\authentication@RPcsyhIG027uP7KF0hwaY.md",
+                    "children": []
+                  },
+                  {
+                    "id": "Z6dG92afC8SGwCFNTx4ac",
+                    "old_id": "JoUWF6AQoreELxFHNi9oo",
+                    "type": "subtopic",
+                    "label": "VCS Integration",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\workspaces@JoUWF6AQoreELxFHNi9oo.md",
+                    "children": []
+                  },
+                  {
+                    "id": "nU1WoRtxRF9KeNhzuwNUB",
+                    "old_id": "Z6dG92afC8SGwCFNTx4ac",
+                    "type": "subtopic",
+                    "label": "Run Tasks",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\terraform\\content\\vcs-integration@Z6dG92afC8SGwCFNTx4ac.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

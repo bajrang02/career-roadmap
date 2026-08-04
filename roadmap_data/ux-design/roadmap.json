@@ -1,0 +1,1199 @@
+{
+  "slug": "ux-design",
+  "title": "Ux Design",
+  "nodes": [
+    {
+      "id": "ni18gXdtdggAI4P8HG0h5",
+      "old_id": "UVjYjf0frEacBLo-gegK-",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "UVjYjf0frEacBLo-gegK-",
+      "old_id": "UVjYjf0frEacBLo-gegK-",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "kPYDO-8dOqviVg33HgkaY",
+      "old_id": "kPYDO-8dOqviVg33HgkaY",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "tcn_QdJHQlpG1t6udFNXq",
+      "old_id": "Xm5ZZDvriOWFWXBtd2TeM",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "fzq6qo5CG6CkIgI7Y7bMn",
+      "old_id": "UVjYjf0frEacBLo-gegK-",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "3oo6PeHghXixNr2a4FWvt",
+      "old_id": "3oo6PeHghXixNr2a4FWvt",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "WQntKm1lyBLwvDdYXG5AJ",
+      "old_id": "WQntKm1lyBLwvDdYXG5AJ",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "YvybHSbUUnnhcpSvBWkZh",
+      "old_id": "YvybHSbUUnnhcpSvBWkZh",
+      "type": "title",
+      "label": "UX Design",
+      "resources": []
+    },
+    {
+      "id": "liUKYf7UghuPk25xMPPYj",
+      "old_id": "GgBazWfF2OvOqkuo3DO2L",
+      "type": "topic",
+      "label": "Human Decision Making",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\measuring-the-impact@GgBazWfF2OvOqkuo3DO2L.md"
+    },
+    {
+      "id": "DsvCptlLWLq7-VvVhRXsy",
+      "old_id": "DsvCptlLWLq7-VvVhRXsy",
+      "type": "label",
+      "label": "Buzzwords to lookout for",
+      "resources": []
+    },
+    {
+      "id": "6ffY5wO-XhkiDJJ5YcI0x",
+      "old_id": "6ffY5wO-XhkiDJJ5YcI0x",
+      "type": "subtopic",
+      "label": "Nudge Theory",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\nudge-theory@6ffY5wO-XhkiDJJ5YcI0x.md"
+    },
+    {
+      "id": "K22gvF9DLt0Ikc80yZLCb",
+      "old_id": "K22gvF9DLt0Ikc80yZLCb",
+      "type": "subtopic",
+      "label": "Persuasive Technology",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\persuasive-technology@K22gvF9DLt0Ikc80yZLCb.md"
+    },
+    {
+      "id": "zYCBEUqZVlvjlAKnh5cPQ",
+      "old_id": "zYCBEUqZVlvjlAKnh5cPQ",
+      "type": "subtopic",
+      "label": "Behavior Design",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\behavior-design@zYCBEUqZVlvjlAKnh5cPQ.md"
+    },
+    {
+      "id": "D553-nVELaB5gdxtoKSVc",
+      "old_id": "D553-nVELaB5gdxtoKSVc",
+      "type": "subtopic",
+      "label": "Behavioral Science",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\behavioral-science@D553-nVELaB5gdxtoKSVc.md"
+    },
+    {
+      "id": "_lv6GJ0wlMfhJ7PHRGQ_V",
+      "old_id": "_lv6GJ0wlMfhJ7PHRGQ_V",
+      "type": "subtopic",
+      "label": "Behavioral Economics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\behavioral-economics@_lv6GJ0wlMfhJ7PHRGQ_V.md"
+    },
+    {
+      "id": "V5u2kv7Io7825rn1_zKJD",
+      "old_id": "V5u2kv7Io7825rn1_zKJD",
+      "type": "label",
+      "label": "Frameworks",
+      "resources": []
+    },
+    {
+      "id": "2NlgbLeLBYwZX2u2rKkIO",
+      "old_id": "2NlgbLeLBYwZX2u2rKkIO",
+      "type": "subtopic",
+      "label": "BJ Fogg's Behavior Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\bj-foggs-behavior-model@2NlgbLeLBYwZX2u2rKkIO.md"
+    },
+    {
+      "id": "kcG4IpneJzA6di0uqTiwb",
+      "old_id": "kcG4IpneJzA6di0uqTiwb",
+      "type": "subtopic",
+      "label": "CREATE Action Funnel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\create-action-funnel@kcG4IpneJzA6di0uqTiwb.md"
+    },
+    {
+      "id": "0Df110GZcDw5wbAe1eKoA",
+      "old_id": "0Df110GZcDw5wbAe1eKoA",
+      "type": "subtopic",
+      "label": "Spectrum of Thinking Interventions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\spectrum-of-thinking-interventions@0Df110GZcDw5wbAe1eKoA.md"
+    },
+    {
+      "id": "kWA8CvocP1pkom2N7O4gb",
+      "old_id": "kWA8CvocP1pkom2N7O4gb",
+      "type": "subtopic",
+      "label": "Dual Process Theory",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\dual-process-theory@kWA8CvocP1pkom2N7O4gb.md"
+    },
+    {
+      "id": "lRBC8VYJPsR65LHDuuIsL",
+      "old_id": "lRBC8VYJPsR65LHDuuIsL",
+      "type": "subtopic",
+      "label": "BJ Fogg's Behavior Grid",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\bj-foggs-behavior-grid@lRBC8VYJPsR65LHDuuIsL.md"
+    },
+    {
+      "id": "PLLTcrHkhd1KYaMSRKALp",
+      "old_id": "PLLTcrHkhd1KYaMSRKALp",
+      "type": "subtopic",
+      "label": "Nir Eyal's Hook Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\nir-eyals-hook-model@PLLTcrHkhd1KYaMSRKALp.md"
+    },
+    {
+      "id": "X1AroUI8Fge_lRpKab4A9",
+      "old_id": "X1AroUI8Fge_lRpKab4A9",
+      "type": "subtopic",
+      "label": "Cue Routine Reward Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\cue-routine-reward-model@X1AroUI8Fge_lRpKab4A9.md"
+    },
+    {
+      "id": "PTZROvpPtEvu06szwmt4K",
+      "old_id": "PTZROvpPtEvu06szwmt4K",
+      "type": "topic",
+      "label": "Support Conscious Action",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\support-conscious-action@PTZROvpPtEvu06szwmt4K.md"
+    },
+    {
+      "id": "SLXjoYL-lhPef8s9V3jpf",
+      "old_id": "SLXjoYL-lhPef8s9V3jpf",
+      "type": "subtopic",
+      "label": "Educate & Encourage User",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\educate--encourage-user@SLXjoYL-lhPef8s9V3jpf.md"
+    },
+    {
+      "id": "e9n9an1PGxDPGkLCOHIwz",
+      "old_id": "e9n9an1PGxDPGkLCOHIwz",
+      "type": "subtopic",
+      "label": "Help User think about their Action",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\help-user-think-about-their-action@e9n9an1PGxDPGkLCOHIwz.md"
+    },
+    {
+      "id": "zVXJPpqZvUFIxTGVrr0rN",
+      "old_id": "zVXJPpqZvUFIxTGVrr0rN",
+      "type": "topic",
+      "label": "Cheating",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\cheating@zVXJPpqZvUFIxTGVrr0rN.md"
+    },
+    {
+      "id": "IpKCXqf_PkxIllwmiIZsq",
+      "old_id": "IpKCXqf_PkxIllwmiIZsq",
+      "type": "subtopic",
+      "label": "Defaulting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\defaulting@IpKCXqf_PkxIllwmiIZsq.md"
+    },
+    {
+      "id": "Ix5Fll_dAINWLxVF2DXFI",
+      "old_id": "Ix5Fll_dAINWLxVF2DXFI",
+      "type": "subtopic",
+      "label": "Making it Incidental",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\making-it-incidental@Ix5Fll_dAINWLxVF2DXFI.md"
+    },
+    {
+      "id": "ZufrLRNkMoJ4e2T-vWxCR",
+      "old_id": "ZufrLRNkMoJ4e2T-vWxCR",
+      "type": "subtopic",
+      "label": "Automate the Act of Repetition",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\automate-the-act-of-repetition@ZufrLRNkMoJ4e2T-vWxCR.md"
+    },
+    {
+      "id": "y6CqgqTvOt-LrvTnPJkQQ",
+      "old_id": "y6CqgqTvOt-LrvTnPJkQQ",
+      "type": "topic",
+      "label": "Make or Change Habits",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-or-change-habits@y6CqgqTvOt-LrvTnPJkQQ.md"
+    },
+    {
+      "id": "TG0y546UrqLyWXGTjDYBb",
+      "old_id": "-61prALJPwj43JtUcO5le",
+      "type": "label",
+      "label": "New Behavior",
+      "resources": []
+    },
+    {
+      "id": "-61prALJPwj43JtUcO5le",
+      "old_id": "-61prALJPwj43JtUcO5le",
+      "type": "label",
+      "label": "Existing Behavior",
+      "resources": []
+    },
+    {
+      "id": "S2TgqNDjvmcJTaXncM09u",
+      "old_id": "S2TgqNDjvmcJTaXncM09u",
+      "type": "subtopic",
+      "label": "Help user Avoiding the Cue",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\help-user-avoiding-the-cue@S2TgqNDjvmcJTaXncM09u.md"
+    },
+    {
+      "id": "_C-55tciBzc6_Kyk6272k",
+      "old_id": "_C-55tciBzc6_Kyk6272k",
+      "type": "subtopic",
+      "label": "Replace the Routine",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\replace-the-routine@_C-55tciBzc6_Kyk6272k.md"
+    },
+    {
+      "id": "0MbrHG-VDrdZqQ0jWtiDo",
+      "old_id": "0MbrHG-VDrdZqQ0jWtiDo",
+      "type": "subtopic",
+      "label": "Use Consciousness to Interfere",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\use-consciousness-to-interfere@0MbrHG-VDrdZqQ0jWtiDo.md"
+    },
+    {
+      "id": "d1dXGCHmMF2EFpL5yKVJA",
+      "old_id": "d1dXGCHmMF2EFpL5yKVJA",
+      "type": "subtopic",
+      "label": "Mindfulness to Avoid Acting on the Cue",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\mindfulness-to-avoid-acting-on-the-cue@d1dXGCHmMF2EFpL5yKVJA.md"
+    },
+    {
+      "id": "B0gg7Z5JL9m9Srb89KcN5",
+      "old_id": "B0gg7Z5JL9m9Srb89KcN5",
+      "type": "subtopic",
+      "label": "Crowd Out Old Habit with New Behavior",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\crowd-out-old-habit-with-new-behavior@B0gg7Z5JL9m9Srb89KcN5.md"
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "w_QWN80zCf1tsVROeyuvo",
+      "old_id": "GgBazWfF2OvOqkuo3DO2L",
+      "type": "topic",
+      "label": "Behavior Change Strategies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\measuring-the-impact@GgBazWfF2OvOqkuo3DO2L.md"
+    },
+    {
+      "id": "ifG_Cp4d_9v4FdUkRkN2A",
+      "old_id": "ifG_Cp4d_9v4FdUkRkN2A",
+      "type": "label",
+      "label": "Classifying Behavior",
+      "resources": []
+    },
+    {
+      "id": "0abyvwi8Rf8nNjUbY0qq1",
+      "old_id": "0abyvwi8Rf8nNjUbY0qq1",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "q1WX2Cp4k4-o1T1vgL8FH",
+      "old_id": "GgBazWfF2OvOqkuo3DO2L",
+      "type": "topic",
+      "label": "Understanding the Product",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\measuring-the-impact@GgBazWfF2OvOqkuo3DO2L.md"
+    },
+    {
+      "id": "sQeGE1Q_7y15-n4LXS8s2",
+      "old_id": "4nmx07v1O-rHYl84dutEU",
+      "type": "label",
+      "label": "Clarify Product",
+      "resources": []
+    },
+    {
+      "id": "7J8F9dn1jGaVlhLVVRPrG",
+      "old_id": "7J8F9dn1jGaVlhLVVRPrG",
+      "type": "subtopic",
+      "label": "Target Outcome",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\target-outcome@7J8F9dn1jGaVlhLVVRPrG.md"
+    },
+    {
+      "id": "FRn2MaR0-ehSD3zmwXcCI",
+      "old_id": "FRn2MaR0-ehSD3zmwXcCI",
+      "type": "subtopic",
+      "label": "Target Actor",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\target-actor@FRn2MaR0-ehSD3zmwXcCI.md"
+    },
+    {
+      "id": "AXn-N15U_z4OagClNoXrW",
+      "old_id": "AXn-N15U_z4OagClNoXrW",
+      "type": "subtopic",
+      "label": "Target Action",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\target-action@AXn-N15U_z4OagClNoXrW.md"
+    },
+    {
+      "id": "4nmx07v1O-rHYl84dutEU",
+      "old_id": "4nmx07v1O-rHYl84dutEU",
+      "type": "label",
+      "label": "Define Target Users  ",
+      "resources": []
+    },
+    {
+      "id": "s2KJ5kNv9UcnsP0QKIKQ7",
+      "old_id": "s2KJ5kNv9UcnsP0QKIKQ7",
+      "type": "subtopic",
+      "label": "Create User Personas",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\create-user-personas@s2KJ5kNv9UcnsP0QKIKQ7.md"
+    },
+    {
+      "id": "803UQ48IOF6XplL6s2R16",
+      "old_id": "mFXXwHxZ0ZHjw31iAQaH-",
+      "type": "label",
+      "label": "Existing Business Model",
+      "resources": []
+    },
+    {
+      "id": "SGO9hHju49_py0n0ASGBe",
+      "old_id": "SGO9hHju49_py0n0ASGBe",
+      "type": "subtopic",
+      "label": "Business Model Canvas",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\business-model-canvas@SGO9hHju49_py0n0ASGBe.md"
+    },
+    {
+      "id": "sc8jJ_77CrkQuxIJYk28Q",
+      "old_id": "sc8jJ_77CrkQuxIJYk28Q",
+      "type": "subtopic",
+      "label": "Lean Canvas",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\lean-canvas@sc8jJ_77CrkQuxIJYk28Q.md"
+    },
+    {
+      "id": "mFXXwHxZ0ZHjw31iAQaH-",
+      "old_id": "mFXXwHxZ0ZHjw31iAQaH-",
+      "type": "label",
+      "label": "New Business Model",
+      "resources": []
+    },
+    {
+      "id": "GI06-DbGyJlQXq5Tyi-aH",
+      "old_id": "GI06-DbGyJlQXq5Tyi-aH",
+      "type": "subtopic",
+      "label": "Business Model Inspirator",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\business-model-inspirator@GI06-DbGyJlQXq5Tyi-aH.md"
+    },
+    {
+      "id": "HUZ5n2MRHzQPyjwX2h6Q4",
+      "old_id": "HUZ5n2MRHzQPyjwX2h6Q4",
+      "type": "subtopic",
+      "label": "Competitor Analysis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\competitor-analysis@HUZ5n2MRHzQPyjwX2h6Q4.md"
+    },
+    {
+      "id": "F9gpGTRwXq08jNo5pPKm6",
+      "old_id": "F9gpGTRwXq08jNo5pPKm6",
+      "type": "subtopic",
+      "label": "Five Forces Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\five-forces-model@F9gpGTRwXq08jNo5pPKm6.md"
+    },
+    {
+      "id": "XiEn1OGFY1bMCoB0Pk8N_",
+      "old_id": "XiEn1OGFY1bMCoB0Pk8N_",
+      "type": "subtopic",
+      "label": "SWOT Analysis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\swot-analysis@XiEn1OGFY1bMCoB0Pk8N_.md"
+    },
+    {
+      "id": "D1JzUxHFpT9-xjoLsvsCY",
+      "old_id": "D1JzUxHFpT9-xjoLsvsCY",
+      "type": "label",
+      "label": "Business Model",
+      "resources": []
+    },
+    {
+      "id": "r6D07cN0Mg4YXsiRSrl1_",
+      "old_id": "GgBazWfF2OvOqkuo3DO2L",
+      "type": "topic",
+      "label": "Conceptual Design",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\measuring-the-impact@GgBazWfF2OvOqkuo3DO2L.md"
+    },
+    {
+      "id": "N6tD-O5IFvSr0-UTlBAAp",
+      "old_id": "N6tD-O5IFvSr0-UTlBAAp",
+      "type": "label",
+      "label": "Create Product Backlog",
+      "resources": []
+    },
+    {
+      "id": "tkbkpvHlWQeOnReanR8J7",
+      "old_id": "tkbkpvHlWQeOnReanR8J7",
+      "type": "subtopic",
+      "label": "User Stories",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\user-stories@tkbkpvHlWQeOnReanR8J7.md"
+    },
+    {
+      "id": "NQg3zCnDg7qdtH7bL2XLl",
+      "old_id": "NQg3zCnDg7qdtH7bL2XLl",
+      "type": "label",
+      "label": "Things to lookout for",
+      "resources": []
+    },
+    {
+      "id": "QNJ-LxfYtR8lbnmuy2Qm9",
+      "old_id": "QNJ-LxfYtR8lbnmuy2Qm9",
+      "type": "subtopic",
+      "label": "In general, keep it short and simple",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\in-general-keep-it-short-and-simple@QNJ-LxfYtR8lbnmuy2Qm9.md"
+    },
+    {
+      "id": "vAu2c45c7DgoRydHR2tvD",
+      "old_id": "vAu2c45c7DgoRydHR2tvD",
+      "type": "subtopic",
+      "label": "Make it easy to understand and complete",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-it-easy-to-understand-and-complete@vAu2c45c7DgoRydHR2tvD.md"
+    },
+    {
+      "id": "8YePym3cQtoVY0DJQLllK",
+      "old_id": "8YePym3cQtoVY0DJQLllK",
+      "type": "subtopic",
+      "label": "Make progress visible to user",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-progress-visible-to-user@8YePym3cQtoVY0DJQLllK.md"
+    },
+    {
+      "id": "D3LVYuCDHD6-kU8GhXokf",
+      "old_id": "D3LVYuCDHD6-kU8GhXokf",
+      "type": "subtopic",
+      "label": "Make progress meaningful to reward user",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-progress-meaningful-to-reward-user@D3LVYuCDHD6-kU8GhXokf.md"
+    },
+    {
+      "id": "94V3wUtZ0NMm_0Vb1pBju",
+      "old_id": "94V3wUtZ0NMm_0Vb1pBju",
+      "type": "subtopic",
+      "label": "Make successful completion clearly visible",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-successful-completion-clearly-visible@94V3wUtZ0NMm_0Vb1pBju.md"
+    },
+    {
+      "id": "sKGv31mHcykV4mYugn9SH",
+      "old_id": "sKGv31mHcykV4mYugn9SH",
+      "type": "label",
+      "label": "Deliverables",
+      "resources": []
+    },
+    {
+      "id": "0KEqAjHFBjfmGA1bKzXuD",
+      "old_id": "0KEqAjHFBjfmGA1bKzXuD",
+      "type": "subtopic",
+      "label": "Customer Experience Map by Mel Edwards",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\customer-experience-map-by-mel-edwards@0KEqAjHFBjfmGA1bKzXuD.md"
+    },
+    {
+      "id": "JCP5_jyvh9u7hxp379iW2",
+      "old_id": "JCP5_jyvh9u7hxp379iW2",
+      "type": "subtopic",
+      "label": "Simple Flowchart",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\simple-flowchart@JCP5_jyvh9u7hxp379iW2.md"
+    },
+    {
+      "id": "nccToz_0FUvHMJytpDpM0",
+      "old_id": "nccToz_0FUvHMJytpDpM0",
+      "type": "subtopic",
+      "label": "Event-driven Process Chain Model (EPC)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\event-driven-process-chain-model-epc@nccToz_0FUvHMJytpDpM0.md"
+    },
+    {
+      "id": "jy5jtSEyNE8iJpad27rPX",
+      "old_id": "jy5jtSEyNE8iJpad27rPX",
+      "type": "subtopic",
+      "label": "Business Process Model & Notation (BPMN)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\business-process-model--notation-bpmn@jy5jtSEyNE8iJpad27rPX.md"
+    },
+    {
+      "id": "6yCBFwntQ_KxFmmGTJ8iR",
+      "old_id": "GgBazWfF2OvOqkuo3DO2L",
+      "type": "topic",
+      "label": "Prototyping",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\measuring-the-impact@GgBazWfF2OvOqkuo3DO2L.md"
+    },
+    {
+      "id": "90_M5qABC1vZ1nsXVyqFJ",
+      "old_id": "90_M5qABC1vZ1nsXVyqFJ",
+      "type": "subtopic",
+      "label": "Good Layout Rules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\good-layout-rules@90_M5qABC1vZ1nsXVyqFJ.md"
+    },
+    {
+      "id": "ekTWlRH0AJFQW22L0D4qQ",
+      "old_id": "ekTWlRH0AJFQW22L0D4qQ",
+      "type": "label",
+      "label": "Wireframing",
+      "resources": []
+    },
+    {
+      "id": "t46s6Piyd8MoJYzdDTsjr",
+      "old_id": "t46s6Piyd8MoJYzdDTsjr",
+      "type": "subtopic",
+      "label": "Figma",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\figma@t46s6Piyd8MoJYzdDTsjr.md"
+    },
+    {
+      "id": "HI_urBhPqT0m3AeBQJIej",
+      "old_id": "HI_urBhPqT0m3AeBQJIej",
+      "type": "subtopic",
+      "label": "Adobe XD",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\adobe-xd@HI_urBhPqT0m3AeBQJIej.md"
+    },
+    {
+      "id": "nb7Ql1gvxqEucsGnIWTyY",
+      "old_id": "nb7Ql1gvxqEucsGnIWTyY",
+      "type": "subtopic",
+      "label": "Sketch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\sketch@nb7Ql1gvxqEucsGnIWTyY.md"
+    },
+    {
+      "id": "fZkARg6kPXPemYW1vDMTe",
+      "old_id": "fZkARg6kPXPemYW1vDMTe",
+      "type": "subtopic",
+      "label": "Balsamiq",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\balsamiq@fZkARg6kPXPemYW1vDMTe.md"
+    },
+    {
+      "id": "u-5aejF7WUpuvk2QKGbeO",
+      "old_id": "u-5aejF7WUpuvk2QKGbeO",
+      "type": "label",
+      "label": "When attention is fleeting and scarce",
+      "resources": []
+    },
+    {
+      "id": "U4ZEFUcghr9XjSyf-0Np7",
+      "old_id": "U4ZEFUcghr9XjSyf-0Np7",
+      "type": "subtopic",
+      "label": "Call to Action",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\call-to-action@U4ZEFUcghr9XjSyf-0Np7.md"
+    },
+    {
+      "id": "G4Ap91NgZfkV-54EuWe-Z",
+      "old_id": "G4Ap91NgZfkV-54EuWe-Z",
+      "type": "subtopic",
+      "label": "Status Reports",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\status-reports@G4Ap91NgZfkV-54EuWe-Z.md"
+    },
+    {
+      "id": "mzWd-xSr7sO2RgfPbKy4T",
+      "old_id": "mzWd-xSr7sO2RgfPbKy4T",
+      "type": "subtopic",
+      "label": "How-to-Tips",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\how-to-tips@mzWd-xSr7sO2RgfPbKy4T.md"
+    },
+    {
+      "id": "wFWidrOZ5EHPgo9uuUclK",
+      "old_id": "wFWidrOZ5EHPgo9uuUclK",
+      "type": "subtopic",
+      "label": "Reminders & Planning Prompts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\reminders--planning-prompts@wFWidrOZ5EHPgo9uuUclK.md"
+    },
+    {
+      "id": "jsCKUH1HKQi_5kGvYbVtI",
+      "old_id": "jsCKUH1HKQi_5kGvYbVtI",
+      "type": "label",
+      "label": "with many chances to influence user",
+      "resources": []
+    },
+    {
+      "id": "9vA3ZWMiKG6NiEqGDvcFR",
+      "old_id": "9vA3ZWMiKG6NiEqGDvcFR",
+      "type": "subtopic",
+      "label": "Decision-Making Support",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\decision-making-support@9vA3ZWMiKG6NiEqGDvcFR.md"
+    },
+    {
+      "id": "JSBiw0C6aq1LhA33y79PM",
+      "old_id": "JSBiw0C6aq1LhA33y79PM",
+      "type": "subtopic",
+      "label": "Behavior Change Games",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\behavior-change-games@JSBiw0C6aq1LhA33y79PM.md"
+    },
+    {
+      "id": "fbIur1tEIdNDE6gls4Bru",
+      "old_id": "fbIur1tEIdNDE6gls4Bru",
+      "type": "subtopic",
+      "label": "Gamification",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\gamification@fbIur1tEIdNDE6gls4Bru.md"
+    },
+    {
+      "id": "eYZf67rnhOksfh44hnzHg",
+      "old_id": "eYZf67rnhOksfh44hnzHg",
+      "type": "subtopic",
+      "label": "Planners",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\planners@eYZf67rnhOksfh44hnzHg.md"
+    },
+    {
+      "id": "esWGzYUJwv7_xGjq6kpVE",
+      "old_id": "esWGzYUJwv7_xGjq6kpVE",
+      "type": "subtopic",
+      "label": "Reminders",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\reminders@esWGzYUJwv7_xGjq6kpVE.md"
+    },
+    {
+      "id": "FoKtBRuTuMD2SZDHLWS-5",
+      "old_id": "FoKtBRuTuMD2SZDHLWS-5",
+      "type": "subtopic",
+      "label": "Social Sharing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\social-sharing@FoKtBRuTuMD2SZDHLWS-5.md"
+    },
+    {
+      "id": "g-bcan_JnjJfg0_fMOb64",
+      "old_id": "g-bcan_JnjJfg0_fMOb64",
+      "type": "subtopic",
+      "label": "Goal Trackers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\goal-trackers@g-bcan_JnjJfg0_fMOb64.md"
+    },
+    {
+      "id": "f0n2JKxpcuP0JW-h4CvwN",
+      "old_id": "f0n2JKxpcuP0JW-h4CvwN",
+      "type": "subtopic",
+      "label": "Tutorials",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\tutorials@f0n2JKxpcuP0JW-h4CvwN.md"
+    },
+    {
+      "id": "NPUtT6QqPa5YdybFHdAQE",
+      "old_id": "NPUtT6QqPa5YdybFHdAQE",
+      "type": "label",
+      "label": "UX Patterns",
+      "resources": []
+    },
+    {
+      "id": "VUf72i5hYaLR_8ul9EzmM",
+      "old_id": "GgBazWfF2OvOqkuo3DO2L",
+      "type": "topic",
+      "label": "UX Best Practices",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\measuring-the-impact@GgBazWfF2OvOqkuo3DO2L.md"
+    },
+    {
+      "id": "IjqH_Ev2fDWG0QDQ9c9eN",
+      "old_id": "IjqH_Ev2fDWG0QDQ9c9eN",
+      "type": "subtopic",
+      "label": "Clear the Page of Distractions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\clear-the-page-of-distractions@IjqH_Ev2fDWG0QDQ9c9eN.md"
+    },
+    {
+      "id": "hDj3HaYAM7K1UJmP_T52n",
+      "old_id": "hDj3HaYAM7K1UJmP_T52n",
+      "type": "subtopic",
+      "label": "Make it Clear, Where to Act",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-it-clear-where-to-act@hDj3HaYAM7K1UJmP_T52n.md"
+    },
+    {
+      "id": "FXJpJDIp-JBc0-0z4PIRo",
+      "old_id": "FXJpJDIp-JBc0-0z4PIRo",
+      "type": "subtopic",
+      "label": "Tell User what the Action is and ask for it",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\tell-user-what-the-action-is-and-ask-for-it@FXJpJDIp-JBc0-0z4PIRo.md"
+    },
+    {
+      "id": "T3JsbjelcUdDkvjQ8PU2f",
+      "old_id": "T3JsbjelcUdDkvjQ8PU2f",
+      "type": "label",
+      "label": "Getting Users Attention",
+      "resources": []
+    },
+    {
+      "id": "p-Umr7oMAafTRjVawBQfX",
+      "old_id": "p-Umr7oMAafTRjVawBQfX",
+      "type": "label",
+      "label": "Getting Positive Intuitive Reaction",
+      "resources": []
+    },
+    {
+      "id": "ahhffBkmd-feroleBrhJm",
+      "old_id": "ahhffBkmd-feroleBrhJm",
+      "type": "subtopic",
+      "label": "Make UI Professional and Beautiful",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-ui-professional-and-beautiful@ahhffBkmd-feroleBrhJm.md"
+    },
+    {
+      "id": "C1NwA0Pivoo73GANoOaPi",
+      "old_id": "C1NwA0Pivoo73GANoOaPi",
+      "type": "subtopic",
+      "label": "Deploy Social Proof",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\deploy-social-proof@C1NwA0Pivoo73GANoOaPi.md"
+    },
+    {
+      "id": "C5dKHIIgBzxtBpFgDs-hB",
+      "old_id": "C5dKHIIgBzxtBpFgDs-hB",
+      "type": "subtopic",
+      "label": "Deploy Strong Authority on Subject",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\deploy-strong-authority-on-subject@C5dKHIIgBzxtBpFgDs-hB.md"
+    },
+    {
+      "id": "m30ePaw_qa36m9Rv9NSFf",
+      "old_id": "m30ePaw_qa36m9Rv9NSFf",
+      "type": "subtopic",
+      "label": "Be Authentic and Personal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\be-authentic-and-personal@m30ePaw_qa36m9Rv9NSFf.md"
+    },
+    {
+      "id": "nD4XaBOKa74aLlPkT0Q3w",
+      "old_id": "nD4XaBOKa74aLlPkT0Q3w",
+      "type": "label",
+      "label": "Get a favorable Conscious Evaluation",
+      "resources": []
+    },
+    {
+      "id": "jBQtuiHGl3eyCTZG85Vz5",
+      "old_id": "jBQtuiHGl3eyCTZG85Vz5",
+      "type": "subtopic",
+      "label": "Prime User-Relevant Associations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\prime-user-relevant-associations@jBQtuiHGl3eyCTZG85Vz5.md"
+    },
+    {
+      "id": "zXinWCEH4LlYvXekLK0Ju",
+      "old_id": "zXinWCEH4LlYvXekLK0Ju",
+      "type": "subtopic",
+      "label": "Leverage Loss-Aversion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\leverage-loss-aversion@zXinWCEH4LlYvXekLK0Ju.md"
+    },
+    {
+      "id": "iKHU0O0z6gCunCgv_aZye",
+      "old_id": "iKHU0O0z6gCunCgv_aZye",
+      "type": "subtopic",
+      "label": "Use Peer Comparisons",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\use-peer-comparisons@iKHU0O0z6gCunCgv_aZye.md"
+    },
+    {
+      "id": "6Mvm8SrISyTT99AJ-VFaW",
+      "old_id": "6Mvm8SrISyTT99AJ-VFaW",
+      "type": "subtopic",
+      "label": "Use Competition",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\use-competition@6Mvm8SrISyTT99AJ-VFaW.md"
+    },
+    {
+      "id": "4AzPOKXUN32CkgchRMrRY",
+      "old_id": "4AzPOKXUN32CkgchRMrRY",
+      "type": "subtopic",
+      "label": "Avoid Cognitive Overhead",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\avoid-cognitive-overhead@4AzPOKXUN32CkgchRMrRY.md"
+    },
+    {
+      "id": "8wxlu4KA2iu9CJa1UAUll",
+      "old_id": "8wxlu4KA2iu9CJa1UAUll",
+      "type": "subtopic",
+      "label": "Avoid Choice Overload",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\avoid-choice-overload@8wxlu4KA2iu9CJa1UAUll.md"
+    },
+    {
+      "id": "iQNvKhwhvbis4Yn1ZxQua",
+      "old_id": "iQNvKhwhvbis4Yn1ZxQua",
+      "type": "subtopic",
+      "label": "Avoid Direct Payments",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\avoid-direct-payments@iQNvKhwhvbis4Yn1ZxQua.md"
+    },
+    {
+      "id": "mTpG4uiYuBQIZA5eWVIpP",
+      "old_id": "mTpG4uiYuBQIZA5eWVIpP",
+      "type": "label",
+      "label": "Creating Urgency to Act Now",
+      "resources": []
+    },
+    {
+      "id": "S9rJr8pc-Ln8BxG0suBWa",
+      "old_id": "1pzONoWafLAeX8eWbH-Dz",
+      "type": "subtopic",
+      "label": "Frame Text to Avoid Temporal Myopia",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-reward-scarce@1pzONoWafLAeX8eWbH-Dz.md"
+    },
+    {
+      "id": "kR-UbUFdELVeiPJqT0GlZ",
+      "old_id": "1pzONoWafLAeX8eWbH-Dz",
+      "type": "subtopic",
+      "label": "Remind of Prior Commitment to Act",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-reward-scarce@1pzONoWafLAeX8eWbH-Dz.md"
+    },
+    {
+      "id": "dOL2z6ULpmzRD5N3MrYCy",
+      "old_id": "1pzONoWafLAeX8eWbH-Dz",
+      "type": "subtopic",
+      "label": "Make Commitment to Friends",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-reward-scarce@1pzONoWafLAeX8eWbH-Dz.md"
+    },
+    {
+      "id": "1pzONoWafLAeX8eWbH-Dz",
+      "old_id": "1pzONoWafLAeX8eWbH-Dz",
+      "type": "subtopic",
+      "label": "Make Reward Scarce",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\make-reward-scarce@1pzONoWafLAeX8eWbH-Dz.md"
+    },
+    {
+      "id": "nlu4DdEQG072Oy2BbCBKi",
+      "old_id": "nlu4DdEQG072Oy2BbCBKi",
+      "type": "label",
+      "label": "Make sure Users can do it Easily",
+      "resources": []
+    },
+    {
+      "id": "EmDgiwaknBz5lXr1rwalE",
+      "old_id": "EmDgiwaknBz5lXr1rwalE",
+      "type": "subtopic",
+      "label": "Elicit Implementation Intentions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\elicit-implementation-intentions@EmDgiwaknBz5lXr1rwalE.md"
+    },
+    {
+      "id": "wE5gt1vMgbF3csA61VO2-",
+      "old_id": "gqOnzmiLQHmIXuEe4jG2e",
+      "type": "subtopic",
+      "label": "Default Everything",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\deploy-peer-comparisons@gqOnzmiLQHmIXuEe4jG2e.md"
+    },
+    {
+      "id": "gf7et64xCqkYBrP9HwWs_",
+      "old_id": "gqOnzmiLQHmIXuEe4jG2e",
+      "type": "subtopic",
+      "label": "Lessen the Burden of Action / Info",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\deploy-peer-comparisons@gqOnzmiLQHmIXuEe4jG2e.md"
+    },
+    {
+      "id": "gqOnzmiLQHmIXuEe4jG2e",
+      "old_id": "gqOnzmiLQHmIXuEe4jG2e",
+      "type": "subtopic",
+      "label": "Deploy Peer Comparisons",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\deploy-peer-comparisons@gqOnzmiLQHmIXuEe4jG2e.md"
+    },
+    {
+      "id": "Xm5ZZDvriOWFWXBtd2TeM",
+      "old_id": "ni18gXdtdggAI4P8HG0h5",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "GgBazWfF2OvOqkuo3DO2L",
+      "old_id": "GgBazWfF2OvOqkuo3DO2L",
+      "type": "topic",
+      "label": "Measuring the Impact",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\measuring-the-impact@GgBazWfF2OvOqkuo3DO2L.md"
+    },
+    {
+      "id": "Q4xBz9f3yyZi2F_aZ5ixL",
+      "old_id": "Emby09Nsm_j6uNreT58r6",
+      "type": "subtopic",
+      "label": "Incremental A/B Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\gather-lessons-prioritize--integrate@Emby09Nsm_j6uNreT58r6.md"
+    },
+    {
+      "id": "-_T2nzp1vV1jUcpsC5DI3",
+      "old_id": "-_T2nzp1vV1jUcpsC5DI3",
+      "type": "subtopic",
+      "label": "Multivariate Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\multivariate-testing@-_T2nzp1vV1jUcpsC5DI3.md"
+    },
+    {
+      "id": "M-ghIECr0h_9RUgtpkjX8",
+      "old_id": "M-ghIECr0h_9RUgtpkjX8",
+      "type": "label",
+      "label": "Testing",
+      "resources": []
+    },
+    {
+      "id": "Emby09Nsm_j6uNreT58r6",
+      "old_id": "-_T2nzp1vV1jUcpsC5DI3",
+      "type": "subtopic",
+      "label": "Gather Lessons, Prioritize & Integrate",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ux-design\\content\\multivariate-testing@-_T2nzp1vV1jUcpsC5DI3.md"
+    },
+    {
+      "id": "dlGf3ZdFXYx0Z6Viu2x-l",
+      "old_id": "gC8lsIdYLRzo3HzwVqtm1",
+      "type": "button",
+      "label": "Design System",
+      "resources": []
+    },
+    {
+      "id": "9LKa-YjOMtO1j62Ukt0q0",
+      "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "label": "Frontend",
+      "resources": []
+    },
+    {
+      "id": "fMfC7VJEq94e19h9i1vAG",
+      "old_id": "fMfC7VJEq94e19h9i1vAG",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES"
+    },
+    {
+      "source": null,
+      "target": "NMznG9mo2wzNFnjhg990f"
+    },
+    {
+      "source": null,
+      "target": "gc_7cuIO2_joKlQRAPDfX"
+    },
+    {
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI"
+    },
+    {
+      "source": "YvybHSbUUnnhcpSvBWkZh",
+      "target": "liUKYf7UghuPk25xMPPYj"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "D553-nVELaB5gdxtoKSVc"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "K22gvF9DLt0Ikc80yZLCb"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "6ffY5wO-XhkiDJJ5YcI0x"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "_lv6GJ0wlMfhJ7PHRGQ_V"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "zYCBEUqZVlvjlAKnh5cPQ"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "w_QWN80zCf1tsVROeyuvo"
+    },
+    {
+      "source": "w_QWN80zCf1tsVROeyuvo",
+      "target": "lRBC8VYJPsR65LHDuuIsL"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "2NlgbLeLBYwZX2u2rKkIO"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "kcG4IpneJzA6di0uqTiwb"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "0Df110GZcDw5wbAe1eKoA"
+    },
+    {
+      "source": "liUKYf7UghuPk25xMPPYj",
+      "target": "kWA8CvocP1pkom2N7O4gb"
+    },
+    {
+      "source": "w_QWN80zCf1tsVROeyuvo",
+      "target": "zVXJPpqZvUFIxTGVrr0rN"
+    },
+    {
+      "source": "PTZROvpPtEvu06szwmt4K",
+      "target": "SLXjoYL-lhPef8s9V3jpf"
+    },
+    {
+      "source": "zVXJPpqZvUFIxTGVrr0rN",
+      "target": "IpKCXqf_PkxIllwmiIZsq"
+    },
+    {
+      "source": "zVXJPpqZvUFIxTGVrr0rN",
+      "target": "Ix5Fll_dAINWLxVF2DXFI"
+    },
+    {
+      "source": "zVXJPpqZvUFIxTGVrr0rN",
+      "target": "ZufrLRNkMoJ4e2T-vWxCR"
+    },
+    {
+      "source": "w_QWN80zCf1tsVROeyuvo",
+      "target": "q1WX2Cp4k4-o1T1vgL8FH"
+    },
+    {
+      "source": "q1WX2Cp4k4-o1T1vgL8FH",
+      "target": "sQeGE1Q_7y15-n4LXS8s2"
+    },
+    {
+      "source": "q1WX2Cp4k4-o1T1vgL8FH",
+      "target": "4nmx07v1O-rHYl84dutEU"
+    },
+    {
+      "source": "q1WX2Cp4k4-o1T1vgL8FH",
+      "target": "D1JzUxHFpT9-xjoLsvsCY"
+    },
+    {
+      "source": "q1WX2Cp4k4-o1T1vgL8FH",
+      "target": "r6D07cN0Mg4YXsiRSrl1_"
+    },
+    {
+      "source": "6yCBFwntQ_KxFmmGTJ8iR",
+      "target": "90_M5qABC1vZ1nsXVyqFJ"
+    },
+    {
+      "source": "6yCBFwntQ_KxFmmGTJ8iR",
+      "target": "VUf72i5hYaLR_8ul9EzmM"
+    },
+    {
+      "source": "VUf72i5hYaLR_8ul9EzmM",
+      "target": "GgBazWfF2OvOqkuo3DO2L"
+    },
+    {
+      "source": "GgBazWfF2OvOqkuo3DO2L",
+      "target": "M-ghIECr0h_9RUgtpkjX8"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": "Pm-Wx7Z3jCUFcafetsQYi",
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": "GgBazWfF2OvOqkuo3DO2L",
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    }
+  ]
+}

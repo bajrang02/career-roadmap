@@ -1,0 +1,644 @@
+[
+  {
+    "id": "IzMY2P54llvbVixWxAl7H",
+    "old_id": "wOyWgfUDwC3ORsLI8H5A0",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "AZoEY2N7PqAQgUl04E3KF",
+    "old_id": "EhPhMi4v4KT3vEUrInsxF",
+    "type": "title",
+    "label": "Building APIs",
+    "resources": [],
+    "children": [
+      {
+        "id": "duKkpzPjUU_-8kyJGHqRX",
+        "old_id": "awdoiCHz7Yc3kYac_iy-a",
+        "type": "topic",
+        "label": "Learn the Basics",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\building-json--restful-apis@awdoiCHz7Yc3kYac_iy-a.md",
+        "children": [
+          {
+            "id": "r8M3quACGO2piu0u_R4hO",
+            "old_id": "Wghrrm4Riz2t7F41H5GK-",
+            "type": "subtopic",
+            "label": "What are APIs",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "2HdKzAIQi15pr3YHHrbPp",
+            "old_id": "mbDiNvkeYo9v3T_DN5uNl",
+            "type": "subtopic",
+            "label": "HTTP",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "P-rGIk50Bg7nFmWieAW07",
+            "old_id": "aBXHVaEfcChnyF4FPlqHp",
+            "type": "subtopic",
+            "label": "URL, Query & Path Parameters",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "TX_hg7EobNJhmWKsMCaT1",
+            "old_id": "MKVcPM2EzAr2_Ieyp9Fu3",
+            "type": "subtopic",
+            "label": "Content Negotiation",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\graphql-apis@MKVcPM2EzAr2_Ieyp9Fu3.md",
+            "children": []
+          },
+          {
+            "id": "KG3wO86F8Of27fU7QRcsn",
+            "old_id": "MKVcPM2EzAr2_Ieyp9Fu3",
+            "type": "subtopic",
+            "label": "Understand TCP / IP",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\graphql-apis@MKVcPM2EzAr2_Ieyp9Fu3.md",
+            "children": []
+          },
+          {
+            "id": "v4nJYD9yiIEUviLPhVTCD",
+            "old_id": "5CxU3inGcSHp-TDg3BQiY",
+            "type": "subtopic",
+            "label": "Basics of DNS",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+            "children": []
+          },
+          {
+            "id": "o8i093VQv-T5Qf1yGqU0R",
+            "old_id": "5R9yKfN1vItuv__HgCwP7",
+            "type": "topic",
+            "label": "Different API Styles",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\api-documentation-tools@5R9yKfN1vItuv__HgCwP7.md",
+            "children": [
+              {
+                "id": "wTrcPqj0KpoeOvJf7k3iI",
+                "old_id": "wTrcPqj0KpoeOvJf7k3iI",
+                "type": "section",
+                "label": "",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "awdoiCHz7Yc3kYac_iy-a",
+                "old_id": "qHEzyDhqjQSa6vs5UDm_M",
+                "type": "topic",
+                "label": "Building JSON / RESTful APIs",
+                "resources": [],
+                "children": [
+                  {
+                    "id": "junprE7dbMyeovApqhSgr",
+                    "old_id": "junprE7dbMyeovApqhSgr",
+                    "type": "section",
+                    "label": "",
+                    "resources": [],
+                    "children": []
+                  },
+                  {
+                    "id": "iHtjFSkQWMoUNdltNttEd",
+                    "old_id": "iHtjFSkQWMoUNdltNttEd",
+                    "type": "section",
+                    "label": "",
+                    "resources": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ACALE93mL4gnX5ThRIdRp",
+    "old_id": "p0C6D4Rt2y_U9atm7X_kt",
+    "type": "subtopic",
+    "label": "HTTP Versions",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "rADHM-6NAxEjzmgiHefDX",
+    "old_id": "ZGD2Y4TgLOzn-mDEhZGXX",
+    "type": "subtopic",
+    "label": "HTTP Methods",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "7szYyzLifKsepNU0c2KnN",
+    "old_id": "--pZRMVsKFEAhMIgDpGwC",
+    "type": "subtopic",
+    "label": "HTTP Status Codes",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "rE-0yibRH6B2UBKp351cf",
+    "old_id": "3iwD_eyT4XZRQNIorTF3a",
+    "type": "subtopic",
+    "label": "HTTP Headers",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "UFuX8wcxZQ7dvaQF_2Yp8",
+    "old_id": "2tNyxd-8rFQoOsQIClP4O",
+    "type": "subtopic",
+    "label": "Cookies",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "BvwdASMvuNQ9DNgzdSZ4o",
+    "old_id": "MKVcPM2EzAr2_Ieyp9Fu3",
+    "type": "subtopic",
+    "label": "RESTful APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\graphql-apis@MKVcPM2EzAr2_Ieyp9Fu3.md",
+    "children": []
+  },
+  {
+    "id": "TVR-SkErlOHbDKLBGfxep",
+    "old_id": "MKVcPM2EzAr2_Ieyp9Fu3",
+    "type": "subtopic",
+    "label": "Simple JSON APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\graphql-apis@MKVcPM2EzAr2_Ieyp9Fu3.md",
+    "children": []
+  },
+  {
+    "id": "Wwd-0PjrtViMFWxRGaQey",
+    "old_id": "dqslZ1FfJjCqkWhxY5JGD",
+    "type": "subtopic",
+    "label": "SOAP APIs",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MKVcPM2EzAr2_Ieyp9Fu3",
+    "old_id": "WVSgaWgGJKqJYumpdPTCG",
+    "type": "subtopic",
+    "label": "GraphQL APIs",
+    "resources": [],
+    "children": [
+      {
+        "id": "iA0C1mFlM_73GcL9XNJmF",
+        "old_id": "MSeNU5cURBInhPlvnhVfO",
+        "type": "button",
+        "label": "Visit GraphQL Roadmap",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "9WI_z34jIFXwoUQuChyRU",
+    "old_id": "5CxU3inGcSHp-TDg3BQiY",
+    "type": "subtopic",
+    "label": "REST Principles",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+    "children": []
+  },
+  {
+    "id": "b3qRTLwCC_9uDoPGrd9Bu",
+    "old_id": "5CxU3inGcSHp-TDg3BQiY",
+    "type": "subtopic",
+    "label": "URI Design",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+    "children": []
+  },
+  {
+    "id": "itILK2SXvLvAjk1Kul7EK",
+    "old_id": "zXxEiM5HeOn7W-Vue0tQf",
+    "type": "subtopic",
+    "label": "Versioning Strategies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\handling-crud-operations@zXxEiM5HeOn7W-Vue0tQf.md",
+    "children": []
+  },
+  {
+    "id": "pgJDzP3pJjhjr5wTRtPJO",
+    "old_id": "5CxU3inGcSHp-TDg3BQiY",
+    "type": "subtopic",
+    "label": "Pagination",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+    "children": []
+  },
+  {
+    "id": "O7wjldZ3yTA2s_F-UnJw_",
+    "old_id": "5CxU3inGcSHp-TDg3BQiY",
+    "type": "subtopic",
+    "label": "Rate Limiting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+    "children": []
+  },
+  {
+    "id": "20KEgZH6cu_UokqWpV-9I",
+    "old_id": "5CxU3inGcSHp-TDg3BQiY",
+    "type": "subtopic",
+    "label": "Idempotency",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+    "children": []
+  },
+  {
+    "id": "LByD1vhzunhY1uY1YGZHP",
+    "old_id": "5CxU3inGcSHp-TDg3BQiY",
+    "type": "subtopic",
+    "label": "HATEOAS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+    "children": []
+  },
+  {
+    "id": "zXxEiM5HeOn7W-Vue0tQf",
+    "old_id": "5CxU3inGcSHp-TDg3BQiY",
+    "type": "subtopic",
+    "label": "Handling CRUD Operations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+    "children": []
+  },
+  {
+    "id": "8tELdagrOaGCf3nMVs8t3",
+    "old_id": "5CxU3inGcSHp-TDg3BQiY",
+    "type": "subtopic",
+    "label": "Error Handling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\rfc-7807----problem-details@5CxU3inGcSHp-TDg3BQiY.md",
+    "children": [
+      {
+        "id": "5CxU3inGcSHp-TDg3BQiY",
+        "old_id": "MKVcPM2EzAr2_Ieyp9Fu3",
+        "type": "subtopic",
+        "label": "RFC 7807 -  Problem Details for APIs",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\graphql-apis@MKVcPM2EzAr2_Ieyp9Fu3.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "qAolZHf_jp8hCdtqHZwC8",
+    "old_id": "KQAus72RGqx5f-3-YeJby",
+    "type": "subtopic",
+    "label": "HTTP Caching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\postman@KQAus72RGqx5f-3-YeJby.md",
+    "children": []
+  },
+  {
+    "id": "0FzHERK5AeYL5wv1FBJbH",
+    "old_id": "dZTe_kxIUQsc9N3w920aR",
+    "type": "subtopic",
+    "label": "Basic Auth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\abac@dZTe_kxIUQsc9N3w920aR.md",
+    "children": []
+  },
+  {
+    "id": "QTH7sy9uQZWl6ieBz7erY",
+    "old_id": "KQAus72RGqx5f-3-YeJby",
+    "type": "subtopic",
+    "label": "Token Based Auth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\postman@KQAus72RGqx5f-3-YeJby.md",
+    "children": []
+  },
+  {
+    "id": "tWg68AHLIr1gIZA1za3jp",
+    "old_id": "KQAus72RGqx5f-3-YeJby",
+    "type": "subtopic",
+    "label": "JWT ",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\postman@KQAus72RGqx5f-3-YeJby.md",
+    "children": []
+  },
+  {
+    "id": "TLuNtQ6HKYQXmglyVk8-t",
+    "old_id": "KQAus72RGqx5f-3-YeJby",
+    "type": "subtopic",
+    "label": "OAuth 2.0",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\postman@KQAus72RGqx5f-3-YeJby.md",
+    "children": []
+  },
+  {
+    "id": "eQWoy4CpYP3TJL2bbhPB_",
+    "old_id": "boYX1QcJullypfX4sevdy",
+    "type": "subtopic",
+    "label": "Session Based Auth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+    "children": []
+  },
+  {
+    "id": "5RY7AlfRQydjxWK65Z4cv",
+    "old_id": "OpS2NX1lPTOtfjV1wKtC4",
+    "type": "subtopic",
+    "label": "Swagger / Open API",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\stoplight@OpS2NX1lPTOtfjV1wKtC4.md",
+    "children": []
+  },
+  {
+    "id": "KQAus72RGqx5f-3-YeJby",
+    "old_id": "CDLaORTdB5PWk7VbcU1bz",
+    "type": "subtopic",
+    "label": "Postman",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "LxWHkhlikUaMT2G8YmVDQ",
+    "old_id": "OpS2NX1lPTOtfjV1wKtC4",
+    "type": "subtopic",
+    "label": "Readme.com",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\stoplight@OpS2NX1lPTOtfjV1wKtC4.md",
+    "children": []
+  },
+  {
+    "id": "OpS2NX1lPTOtfjV1wKtC4",
+    "old_id": "KQAus72RGqx5f-3-YeJby",
+    "type": "subtopic",
+    "label": "Stoplight",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\postman@KQAus72RGqx5f-3-YeJby.md",
+    "children": []
+  },
+  {
+    "id": "G70wvcOM1Isrx5ZBvS2xP",
+    "old_id": "q1yaf-RbHIQsOqfzjn4k4",
+    "type": "subtopic",
+    "label": "Common Vulnerabilities",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\best-practices@q1yaf-RbHIQsOqfzjn4k4.md",
+    "children": []
+  },
+  {
+    "id": "q1yaf-RbHIQsOqfzjn4k4",
+    "old_id": "KQAus72RGqx5f-3-YeJby",
+    "type": "subtopic",
+    "label": "Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\postman@KQAus72RGqx5f-3-YeJby.md",
+    "children": [
+      {
+        "id": "92-ebM0EwQ3nLjZKtvCZX",
+        "old_id": "MSeNU5cURBInhPlvnhVfO",
+        "type": "button",
+        "label": "API Security Best Practices",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "nQpczZUcn-TvrfT80dv0Q",
+    "old_id": "boYX1QcJullypfX4sevdy",
+    "type": "subtopic",
+    "label": "Performance Metrics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+    "children": []
+  },
+  {
+    "id": "PrvRCR4HCdGar0vcUbG_a",
+    "old_id": "boYX1QcJullypfX4sevdy",
+    "type": "subtopic",
+    "label": "Caching Strategies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+    "children": []
+  },
+  {
+    "id": "p5wsniYnOS7cbHd92RxGk",
+    "old_id": "boYX1QcJullypfX4sevdy",
+    "type": "subtopic",
+    "label": "Load Balancing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+    "children": []
+  },
+  {
+    "id": "tPVtRV818D8zAAuNbqPNa",
+    "old_id": "boYX1QcJullypfX4sevdy",
+    "type": "subtopic",
+    "label": "Rate Limiting / Throttling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+    "children": []
+  },
+  {
+    "id": "-qdwBg7HvwlbLy3IKCRij",
+    "old_id": "boYX1QcJullypfX4sevdy",
+    "type": "subtopic",
+    "label": "Profiling and Monitoring",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+    "children": []
+  },
+  {
+    "id": "DQcAV59vr1-ZRnMfbLXpu",
+    "old_id": "XD1vDtrRQFbLyKJaD1AlA",
+    "type": "subtopic",
+    "label": "Performance Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\error-handling--retries@XD1vDtrRQFbLyKJaD1AlA.md",
+    "children": []
+  },
+  {
+    "id": "--mmTKhG58_elbUqyn90G",
+    "old_id": "iNsXTtcIHsI_i-mCfjGYn",
+    "type": "subtopic",
+    "label": "Synchronous vs Asynchronous APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\server-sent-events@iNsXTtcIHsI_i-mCfjGYn.md",
+    "children": []
+  },
+  {
+    "id": "oMfOBkVsgiLvFLicOUdx6",
+    "old_id": "PrvRCR4HCdGar0vcUbG_a",
+    "type": "subtopic",
+    "label": "Event Driven Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\caching-strategies@PrvRCR4HCdGar0vcUbG_a.md",
+    "children": []
+  },
+  {
+    "id": "MJeUD4fOHaJu1oxk4uQ-x",
+    "old_id": "p5wsniYnOS7cbHd92RxGk",
+    "type": "subtopic",
+    "label": "API Gateways",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\load-balancing@p5wsniYnOS7cbHd92RxGk.md",
+    "children": []
+  },
+  {
+    "id": "PPeBbooE121zrgNwpVTiA",
+    "old_id": "-qdwBg7HvwlbLy3IKCRij",
+    "type": "subtopic",
+    "label": "Microservices Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\profiling-and-monitoring@-qdwBg7HvwlbLy3IKCRij.md",
+    "children": []
+  },
+  {
+    "id": "IkPZel5zxXWIx90Qx7fZI",
+    "old_id": "mXCKtLUvwVJkHrpHzOecq",
+    "type": "subtopic",
+    "label": "Messaging Queues",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\pii@mXCKtLUvwVJkHrpHzOecq.md",
+    "children": [
+      {
+        "id": "H22jAI2W5QLL-b1rq-c56",
+        "old_id": "boYX1QcJullypfX4sevdy",
+        "type": "subtopic",
+        "label": "Rabbit MQ",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+        "children": []
+      },
+      {
+        "id": "boYX1QcJullypfX4sevdy",
+        "old_id": "q1yaf-RbHIQsOqfzjn4k4",
+        "type": "subtopic",
+        "label": "Kafka",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\best-practices@q1yaf-RbHIQsOqfzjn4k4.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "75NVxS0iwoQXxOHCkWQxH",
+    "old_id": "X68HXAAV-nKo-V4Fu1o72",
+    "type": "subtopic",
+    "label": "Webhooks vs Polling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\batch-processing@X68HXAAV-nKo-V4Fu1o72.md",
+    "children": []
+  },
+  {
+    "id": "X68HXAAV-nKo-V4Fu1o72",
+    "old_id": "boYX1QcJullypfX4sevdy",
+    "type": "subtopic",
+    "label": "Batch Processing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+    "children": []
+  },
+  {
+    "id": "JvmW78cDm84GNhq8VEYZp",
+    "old_id": "iNsXTtcIHsI_i-mCfjGYn",
+    "type": "subtopic",
+    "label": "Unit Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\server-sent-events@iNsXTtcIHsI_i-mCfjGYn.md",
+    "children": []
+  },
+  {
+    "id": "qZELS5vw2feS7QfyD7spX",
+    "old_id": "iNsXTtcIHsI_i-mCfjGYn",
+    "type": "subtopic",
+    "label": "Integration Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\server-sent-events@iNsXTtcIHsI_i-mCfjGYn.md",
+    "children": []
+  },
+  {
+    "id": "6lm3wy9WTAERTqXCn6pFt",
+    "old_id": "iNsXTtcIHsI_i-mCfjGYn",
+    "type": "subtopic",
+    "label": "Functional Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\server-sent-events@iNsXTtcIHsI_i-mCfjGYn.md",
+    "children": []
+  },
+  {
+    "id": "7JNEx_cbqnAx3esvwZMOd",
+    "old_id": "iNsXTtcIHsI_i-mCfjGYn",
+    "type": "subtopic",
+    "label": "Load Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\server-sent-events@iNsXTtcIHsI_i-mCfjGYn.md",
+    "children": []
+  },
+  {
+    "id": "NqeBglhzukVMMEF9p2CXc",
+    "old_id": "iNsXTtcIHsI_i-mCfjGYn",
+    "type": "subtopic",
+    "label": "Contract Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\server-sent-events@iNsXTtcIHsI_i-mCfjGYn.md",
+    "children": []
+  },
+  {
+    "id": "XD1vDtrRQFbLyKJaD1AlA",
+    "old_id": "boYX1QcJullypfX4sevdy",
+    "type": "subtopic",
+    "label": "Error Handling / Retries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\kafka@boYX1QcJullypfX4sevdy.md",
+    "children": []
+  },
+  {
+    "id": "PstbOGqR_4C2WWV8CWXes",
+    "old_id": "PstbOGqR_4C2WWV8CWXes",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "4fauwiq2CJnzDA7Z9Pmeo",
+    "old_id": "eYziHRN-gsg9qr8Yddu2K",
+    "type": "button",
+    "label": "Backend Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "eYziHRN-gsg9qr8Yddu2K",
+    "old_id": "eYziHRN-gsg9qr8Yddu2K",
+    "type": "button",
+    "label": "DevOps Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "1DrqtOwxCuFtWQXQ6ZALp",
+    "old_id": "MKVcPM2EzAr2_Ieyp9Fu3",
+    "type": "subtopic",
+    "label": "gRPC APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\api-design\\content\\graphql-apis@MKVcPM2EzAr2_Ieyp9Fu3.md",
+    "children": []
+  }
+]

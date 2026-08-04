@@ -1,0 +1,1710 @@
+{
+  "slug": "devrel",
+  "title": "Devrel",
+  "nodes": [
+    {
+      "id": "BL1Bq50iSyBK89CKVdnIe",
+      "old_id": "Vtf0uaqE8v-EBNZyIXr3f",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "OruiFfh8ofq3RHcp1BqPm",
+      "old_id": "OruiFfh8ofq3RHcp1BqPm",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "klvPKcIs_vb6INETr_psf",
+      "old_id": "klvPKcIs_vb6INETr_psf",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Vtf0uaqE8v-EBNZyIXr3f",
+      "old_id": "Vtf0uaqE8v-EBNZyIXr3f",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "DDP-1_bb5y9YrbN9ioWOi",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+      "type": "title",
+      "label": "DevRel",
+      "resources": []
+    },
+    {
+      "id": "SiYUdtYMDImRPmV2_XPkH",
+      "old_id": "NVSQ4OtmvRp7p4cOEvKh7",
+      "type": "topic",
+      "label": "What is DevRel?",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "KP28dl1I9hxM130gIPxSZ",
+      "old_id": "N9HXTCQq2wfC-QurSofE_",
+      "type": "subtopic",
+      "label": "History and Evolution",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\importance-of-devrel@N9HXTCQq2wfC-QurSofE_.md"
+    },
+    {
+      "id": "No-UnhdGmtLW9uFGLy-ca",
+      "old_id": "UhMk8g5MMhvi3kWLLI6B1",
+      "type": "subtopic",
+      "label": "Developer Experience",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\developer-marketing@UhMk8g5MMhvi3kWLLI6B1.md"
+    },
+    {
+      "id": "BooGiYTMoS0N5eobwjPHY",
+      "old_id": "UhMk8g5MMhvi3kWLLI6B1",
+      "type": "subtopic",
+      "label": "Developer Journey",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\developer-marketing@UhMk8g5MMhvi3kWLLI6B1.md"
+    },
+    {
+      "id": "UhMk8g5MMhvi3kWLLI6B1",
+      "old_id": "b_cpVSBEPJOjRR9wFqte3",
+      "type": "subtopic",
+      "label": "Developer Marketing",
+      "resources": []
+    },
+    {
+      "id": "N9HXTCQq2wfC-QurSofE_",
+      "old_id": "UhMk8g5MMhvi3kWLLI6B1",
+      "type": "subtopic",
+      "label": "Importance of DevRel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\developer-marketing@UhMk8g5MMhvi3kWLLI6B1.md"
+    },
+    {
+      "id": "X-NGIOPzGZZPOOnCzrsZb",
+      "old_id": "X-NGIOPzGZZPOOnCzrsZb",
+      "type": "label",
+      "label": "Key Concepts",
+      "resources": []
+    },
+    {
+      "id": "TPklnBmbtRSSBUdOmBcdF",
+      "old_id": "X-NGIOPzGZZPOOnCzrsZb",
+      "type": "label",
+      "label": "Key Responsibilities",
+      "resources": []
+    },
+    {
+      "id": "7MCmY1bABGPfmzjErADvg",
+      "old_id": "IxRvVvX9Fax08YUbVob4s",
+      "type": "subtopic",
+      "label": "Advocacy",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-loop@IxRvVvX9Fax08YUbVob4s.md"
+    },
+    {
+      "id": "EjqJkyojhO7f1uFHIoyGY",
+      "old_id": "IxRvVvX9Fax08YUbVob4s",
+      "type": "subtopic",
+      "label": "Education",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-loop@IxRvVvX9Fax08YUbVob4s.md"
+    },
+    {
+      "id": "1NFcpGzCJylRPbFYdD9bB",
+      "old_id": "IxRvVvX9Fax08YUbVob4s",
+      "type": "subtopic",
+      "label": "Community Support",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-loop@IxRvVvX9Fax08YUbVob4s.md"
+    },
+    {
+      "id": "_3ZnPUl4kzzuM0bKQ8IAq",
+      "old_id": "IxRvVvX9Fax08YUbVob4s",
+      "type": "subtopic",
+      "label": "Content Creation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-loop@IxRvVvX9Fax08YUbVob4s.md"
+    },
+    {
+      "id": "IxRvVvX9Fax08YUbVob4s",
+      "old_id": "KP28dl1I9hxM130gIPxSZ",
+      "type": "subtopic",
+      "label": "Feedback Loop",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\history-and-evolution@KP28dl1I9hxM130gIPxSZ.md"
+    },
+    {
+      "id": "LRZ8yxTfEGCXsYp4N1_uD",
+      "old_id": "0ntOE6PSdMl_EXB9gdgIv",
+      "type": "topic",
+      "label": "Public Speaking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\writing-skills@0ntOE6PSdMl_EXB9gdgIv.md"
+    },
+    {
+      "id": "0ntOE6PSdMl_EXB9gdgIv",
+      "old_id": "SiYUdtYMDImRPmV2_XPkH",
+      "type": "topic",
+      "label": "Writing Skills",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\what-is-devrel@SiYUdtYMDImRPmV2_XPkH.md"
+    },
+    {
+      "id": "c0w241EL0Kh4ek76IgsEs",
+      "old_id": "KP28dl1I9hxM130gIPxSZ",
+      "type": "subtopic",
+      "label": "Blog Posts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\history-and-evolution@KP28dl1I9hxM130gIPxSZ.md"
+    },
+    {
+      "id": "X0xUzEP0S6SyspvqyoDDk",
+      "old_id": "c0w241EL0Kh4ek76IgsEs",
+      "type": "subtopic",
+      "label": "Technical Documentation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\blog-posts@c0w241EL0Kh4ek76IgsEs.md"
+    },
+    {
+      "id": "urbtoZtuJryK-6TJ3lmRN",
+      "old_id": "X0xUzEP0S6SyspvqyoDDk",
+      "type": "subtopic",
+      "label": "Social Media",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\technical-documentation@X0xUzEP0S6SyspvqyoDDk.md"
+    },
+    {
+      "id": "PFjF2PnYpSbvd24jb_D2G",
+      "old_id": "LRZ8yxTfEGCXsYp4N1_uD",
+      "type": "topic",
+      "label": "Presentation Techniques",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\public-speaking@LRZ8yxTfEGCXsYp4N1_uD.md"
+    },
+    {
+      "id": "vH_ECVYSQ3Fg-DASO1EgK",
+      "old_id": "7MCmY1bABGPfmzjErADvg",
+      "type": "subtopic",
+      "label": "Rules of Three",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\advocacy@7MCmY1bABGPfmzjErADvg.md"
+    },
+    {
+      "id": "_FZNqUKgPkzbgOPoiSLSU",
+      "old_id": "EjqJkyojhO7f1uFHIoyGY",
+      "type": "subtopic",
+      "label": "PechaKucha",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\education@EjqJkyojhO7f1uFHIoyGY.md"
+    },
+    {
+      "id": "Y0GUZynSXjITDOA-TP6LH",
+      "old_id": "1NFcpGzCJylRPbFYdD9bB",
+      "type": "subtopic",
+      "label": "Storytelling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\community-support@1NFcpGzCJylRPbFYdD9bB.md"
+    },
+    {
+      "id": "uwvvWmcZnFqLoHRDFXFyW",
+      "old_id": "_3ZnPUl4kzzuM0bKQ8IAq",
+      "type": "subtopic",
+      "label": "Mind Mapping",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\content-creation@_3ZnPUl4kzzuM0bKQ8IAq.md"
+    },
+    {
+      "id": "SNhrYZsmyDHN_JWh0eZy2",
+      "old_id": "IxRvVvX9Fax08YUbVob4s",
+      "type": "subtopic",
+      "label": "Visualization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-loop@IxRvVvX9Fax08YUbVob4s.md"
+    },
+    {
+      "id": "iKYmUvWFT_C0wnO0iB6gM",
+      "old_id": "PFjF2PnYpSbvd24jb_D2G",
+      "type": "topic",
+      "label": "Engaging Audience",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\presentation-techniques@PFjF2PnYpSbvd24jb_D2G.md"
+    },
+    {
+      "id": "VTGsmk3p4RVXiNhDmx2l8",
+      "old_id": "vH_ECVYSQ3Fg-DASO1EgK",
+      "type": "subtopic",
+      "label": "The Hook",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\rules-of-three@vH_ECVYSQ3Fg-DASO1EgK.md"
+    },
+    {
+      "id": "LixiZj3-QcmQgGAqaaDr6",
+      "old_id": "_FZNqUKgPkzbgOPoiSLSU",
+      "type": "subtopic",
+      "label": "Contrast Principle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\pechakucha@_FZNqUKgPkzbgOPoiSLSU.md"
+    },
+    {
+      "id": "tbIAEStaoVWnEWbdk7EGc",
+      "old_id": "Y0GUZynSXjITDOA-TP6LH",
+      "type": "subtopic",
+      "label": "Handouts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\storytelling@Y0GUZynSXjITDOA-TP6LH.md"
+    },
+    {
+      "id": "2iRt9E42i_ej4woKCW_s2",
+      "old_id": "uwvvWmcZnFqLoHRDFXFyW",
+      "type": "subtopic",
+      "label": "Repetition & Reinforcement",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\mind-mapping@uwvvWmcZnFqLoHRDFXFyW.md"
+    },
+    {
+      "id": "Xf-Lxi1cKReo4yDLylBbL",
+      "old_id": "iKYmUvWFT_C0wnO0iB6gM",
+      "type": "topic",
+      "label": "Handling Q&A",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\engaging-audience@iKYmUvWFT_C0wnO0iB6gM.md"
+    },
+    {
+      "id": "UdUDngq425NYSvIuOd7St",
+      "old_id": "VTGsmk3p4RVXiNhDmx2l8",
+      "type": "subtopic",
+      "label": "Active Listening",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\the-hook@VTGsmk3p4RVXiNhDmx2l8.md"
+    },
+    {
+      "id": "jyScVS-sYMcZcH3hOwbMK",
+      "old_id": "LixiZj3-QcmQgGAqaaDr6",
+      "type": "subtopic",
+      "label": "Anticipate Questions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\contrast-principle@LixiZj3-QcmQgGAqaaDr6.md"
+    },
+    {
+      "id": "rhs6QwxZ7PZthLfi38FJn",
+      "old_id": "tbIAEStaoVWnEWbdk7EGc",
+      "type": "subtopic",
+      "label": "Be Concise",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\handouts@tbIAEStaoVWnEWbdk7EGc.md"
+    },
+    {
+      "id": "VSOdD9KKF_Qz8nbRdHNo3",
+      "old_id": "Nta8pUncwNQxJlqF6h1AT",
+      "type": "subtopic",
+      "label": "Managing Difficult Questions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\recognition-programs@Nta8pUncwNQxJlqF6h1AT.md"
+    },
+    {
+      "id": "yJygbi8cnp3oz2EFl2MR0",
+      "old_id": "0ntOE6PSdMl_EXB9gdgIv",
+      "type": "topic",
+      "label": "Community Engagement",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\writing-skills@0ntOE6PSdMl_EXB9gdgIv.md"
+    },
+    {
+      "id": "C2w8R4tNy2lOhhWU9l32s",
+      "old_id": "c0w241EL0Kh4ek76IgsEs",
+      "type": "subtopic",
+      "label": "Event Participation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\blog-posts@c0w241EL0Kh4ek76IgsEs.md"
+    },
+    {
+      "id": "gvMbo22eRxqOzszc_w4Gz",
+      "old_id": "X0xUzEP0S6SyspvqyoDDk",
+      "type": "subtopic",
+      "label": "Online Communities",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\technical-documentation@X0xUzEP0S6SyspvqyoDDk.md"
+    },
+    {
+      "id": "SJf9e7SQnzYVHoRWl0i6P",
+      "old_id": "urbtoZtuJryK-6TJ3lmRN",
+      "type": "subtopic",
+      "label": "Networking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\social-media@urbtoZtuJryK-6TJ3lmRN.md"
+    },
+    {
+      "id": "POcRkF3dnnUCt2WQX71B-",
+      "old_id": "POcRkF3dnnUCt2WQX71B-",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "4t3XhDI8YLK6ucf5YyvdU",
+      "old_id": "POcRkF3dnnUCt2WQX71B-",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "_4Ubxcll8Qub02pbrhLxr",
+      "old_id": "4t3XhDI8YLK6ucf5YyvdU",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "0gSwPbeglDlcfW9wNOdjE",
+      "old_id": "4t3XhDI8YLK6ucf5YyvdU",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "aSYXa25_0O2qQl1O-N3xl",
+      "old_id": "0ntOE6PSdMl_EXB9gdgIv",
+      "type": "topic",
+      "label": "Basic Programming Skills",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\writing-skills@0ntOE6PSdMl_EXB9gdgIv.md"
+    },
+    {
+      "id": "_xPaDBsBUmWfkIivfFur4",
+      "old_id": "_xPaDBsBUmWfkIivfFur4",
+      "type": "button",
+      "label": "Python",
+      "resources": []
+    },
+    {
+      "id": "3JxlHbXbFJs5La3FfrYdv",
+      "old_id": "_xPaDBsBUmWfkIivfFur4",
+      "type": "button",
+      "label": "JavaScript",
+      "resources": []
+    },
+    {
+      "id": "gnOX9WQScsTWMCK6IKcuR",
+      "old_id": "3JxlHbXbFJs5La3FfrYdv",
+      "type": "button",
+      "label": "Go",
+      "resources": []
+    },
+    {
+      "id": "0L5OfMDGnVY8Pij-g3tfH",
+      "old_id": "gnOX9WQScsTWMCK6IKcuR",
+      "type": "button",
+      "label": "Rust",
+      "resources": []
+    },
+    {
+      "id": "h0hAaK8iXjX0Gw_mE4TtY",
+      "old_id": "3JxlHbXbFJs5La3FfrYdv",
+      "type": "button",
+      "label": "Node.js",
+      "resources": []
+    },
+    {
+      "id": "KdFYmj36M2jrGfsYkukpo",
+      "old_id": "aSYXa25_0O2qQl1O-N3xl",
+      "type": "topic",
+      "label": "IDEs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\basic-programming-skills@aSYXa25_0O2qQl1O-N3xl.md"
+    },
+    {
+      "id": "j5nNSYI8s-cH8EA6G1EWY",
+      "old_id": "gvMbo22eRxqOzszc_w4Gz",
+      "type": "subtopic",
+      "label": "VS Code",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\online-communities@gvMbo22eRxqOzszc_w4Gz.md"
+    },
+    {
+      "id": "NCnKS435DCl-8vilr1_XE",
+      "old_id": "SJf9e7SQnzYVHoRWl0i6P",
+      "type": "subtopic",
+      "label": "JetBrains IDEs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\networking@SJf9e7SQnzYVHoRWl0i6P.md"
+    },
+    {
+      "id": "sUEZHmKxtjO9gXKJoOdbF",
+      "old_id": "aSYXa25_0O2qQl1O-N3xl",
+      "type": "topic",
+      "label": "APIs & SDKs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\basic-programming-skills@aSYXa25_0O2qQl1O-N3xl.md"
+    },
+    {
+      "id": "pqp9FLRJRDDEnni72KHmv",
+      "old_id": "C2w8R4tNy2lOhhWU9l32s",
+      "type": "subtopic",
+      "label": "Writing Documentation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\event-participation@C2w8R4tNy2lOhhWU9l32s.md"
+    },
+    {
+      "id": "h6R3Vyq0U8t8WL3G5xC2l",
+      "old_id": "gvMbo22eRxqOzszc_w4Gz",
+      "type": "subtopic",
+      "label": "Building SDKs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\online-communities@gvMbo22eRxqOzszc_w4Gz.md"
+    },
+    {
+      "id": "7Q6_tdRaeb8BgreG8Mw-a",
+      "old_id": "SJf9e7SQnzYVHoRWl0i6P",
+      "type": "subtopic",
+      "label": "Understanding APIs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\networking@SJf9e7SQnzYVHoRWl0i6P.md"
+    },
+    {
+      "id": "x6KFf4akYuUYkNhrUwj1r",
+      "old_id": "sUEZHmKxtjO9gXKJoOdbF",
+      "type": "topic",
+      "label": "Version Control",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\apis--sdks@sUEZHmKxtjO9gXKJoOdbF.md"
+    },
+    {
+      "id": "a-i1mgF3VAxbbpA1gMWyK",
+      "old_id": "j5nNSYI8s-cH8EA6G1EWY",
+      "type": "subtopic",
+      "label": "Git",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\vs-code@j5nNSYI8s-cH8EA6G1EWY.md"
+    },
+    {
+      "id": "8O1AgUKXe35kdiYD02dyt",
+      "old_id": "NCnKS435DCl-8vilr1_XE",
+      "type": "subtopic",
+      "label": "GitHub",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\jetbrains-ides@NCnKS435DCl-8vilr1_XE.md"
+    },
+    {
+      "id": "J2WunUJBzYw_D5cQH_pnH",
+      "old_id": "8O1AgUKXe35kdiYD02dyt",
+      "type": "subtopic",
+      "label": "Managing Discussions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\github@8O1AgUKXe35kdiYD02dyt.md"
+    },
+    {
+      "id": "vCoEJyS4qMWTTiL17PmWr",
+      "old_id": "J2WunUJBzYw_D5cQH_pnH",
+      "type": "subtopic",
+      "label": "Issues & Pull Requests",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\managing-discussions@J2WunUJBzYw_D5cQH_pnH.md"
+    },
+    {
+      "id": "x3qTqhR1uA5CXqULIJqL8",
+      "old_id": "vCoEJyS4qMWTTiL17PmWr",
+      "type": "subtopic",
+      "label": "Labelling and Cleanup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\issues--pull-requests@vCoEJyS4qMWTTiL17PmWr.md"
+    },
+    {
+      "id": "v_lDqjtxjRK67GsbtxXgT",
+      "old_id": "x3qTqhR1uA5CXqULIJqL8",
+      "type": "subtopic",
+      "label": "Milestones & Releases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\labelling-and-cleanup@x3qTqhR1uA5CXqULIJqL8.md"
+    },
+    {
+      "id": "7ZFTmlQHYQKNjKprwV8zk",
+      "old_id": "v_lDqjtxjRK67GsbtxXgT",
+      "type": "subtopic",
+      "label": "Public Backlog",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\milestones--releases@v_lDqjtxjRK67GsbtxXgT.md"
+    },
+    {
+      "id": "GvmXdWiwITgWzx_f5_ick",
+      "old_id": "usorG1GkkvGAZ0h_AGHVk",
+      "type": "topic",
+      "label": "Building a Community",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\event-management@usorG1GkkvGAZ0h_AGHVk.md"
+    },
+    {
+      "id": "UKi3waPx2pozvZf2aQ52s",
+      "old_id": "oWXfov-mOF47d7Vffyp3t",
+      "type": "subtopic",
+      "label": "Identifying Audience",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-collection@oWXfov-mOF47d7Vffyp3t.md"
+    },
+    {
+      "id": "WItTQ1QboHoRkqeHJzCM9",
+      "old_id": "4ZvzY_xGO5BZOmfqj0TTq",
+      "type": "subtopic",
+      "label": "Platform Selection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\community-guidelines@4ZvzY_xGO5BZOmfqj0TTq.md"
+    },
+    {
+      "id": "hPJM4QXxeqTxPlvJ2_D3_",
+      "old_id": "4ZvzY_xGO5BZOmfqj0TTq",
+      "type": "subtopic",
+      "label": "Initial Outreach",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\community-guidelines@4ZvzY_xGO5BZOmfqj0TTq.md"
+    },
+    {
+      "id": "4ZvzY_xGO5BZOmfqj0TTq",
+      "old_id": "7ZFTmlQHYQKNjKprwV8zk",
+      "type": "subtopic",
+      "label": "Community Guidelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\public-backlog@7ZFTmlQHYQKNjKprwV8zk.md"
+    },
+    {
+      "id": "er9ukuBvY-F4F8S1qbbjU",
+      "old_id": "a-i1mgF3VAxbbpA1gMWyK",
+      "type": "subtopic",
+      "label": "Code of Conduct",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\git@a-i1mgF3VAxbbpA1gMWyK.md"
+    },
+    {
+      "id": "8I59U-nnkhQv8ldRuqQlb",
+      "old_id": "er9ukuBvY-F4F8S1qbbjU",
+      "type": "subtopic",
+      "label": "Rules and Policies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\code-of-conduct@er9ukuBvY-F4F8S1qbbjU.md"
+    },
+    {
+      "id": "-6cf3RT4-cbwvLYIkCosF",
+      "old_id": "usorG1GkkvGAZ0h_AGHVk",
+      "type": "topic",
+      "label": "Community Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\event-management@usorG1GkkvGAZ0h_AGHVk.md"
+    },
+    {
+      "id": "d_dKF87OnRWoWj3Bf1uFf",
+      "old_id": "Nta8pUncwNQxJlqF6h1AT",
+      "type": "subtopic",
+      "label": "Moderation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\recognition-programs@Nta8pUncwNQxJlqF6h1AT.md"
+    },
+    {
+      "id": "8ls5kQvDgvwLbIrwYg1OL",
+      "old_id": "Nta8pUncwNQxJlqF6h1AT",
+      "type": "subtopic",
+      "label": "Conflict Resolution",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\recognition-programs@Nta8pUncwNQxJlqF6h1AT.md"
+    },
+    {
+      "id": "6yLt4Ia52Jke9i5kJQvAC",
+      "old_id": "Nta8pUncwNQxJlqF6h1AT",
+      "type": "subtopic",
+      "label": "Encouraging Participation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\recognition-programs@Nta8pUncwNQxJlqF6h1AT.md"
+    },
+    {
+      "id": "Nta8pUncwNQxJlqF6h1AT",
+      "old_id": "2iRt9E42i_ej4woKCW_s2",
+      "type": "subtopic",
+      "label": "Recognition Programs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\repetition--reinforcement@2iRt9E42i_ej4woKCW_s2.md"
+    },
+    {
+      "id": "usorG1GkkvGAZ0h_AGHVk",
+      "old_id": "x6KFf4akYuUYkNhrUwj1r",
+      "type": "topic",
+      "label": "Event Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\version-control@x6KFf4akYuUYkNhrUwj1r.md"
+    },
+    {
+      "id": "RQk3uOikjQYRyTu7vuAG7",
+      "old_id": "oWXfov-mOF47d7Vffyp3t",
+      "type": "subtopic",
+      "label": "Planning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-collection@oWXfov-mOF47d7Vffyp3t.md"
+    },
+    {
+      "id": "C9--J8gGZENQKn-QcZK4M",
+      "old_id": "oWXfov-mOF47d7Vffyp3t",
+      "type": "subtopic",
+      "label": "Promotion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-collection@oWXfov-mOF47d7Vffyp3t.md"
+    },
+    {
+      "id": "1m1keusP-PTjEwy0dCJJL",
+      "old_id": "oWXfov-mOF47d7Vffyp3t",
+      "type": "subtopic",
+      "label": "Execution",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-collection@oWXfov-mOF47d7Vffyp3t.md"
+    },
+    {
+      "id": "kmcOYDvu1vq7AQPllZvv0",
+      "old_id": "oWXfov-mOF47d7Vffyp3t",
+      "type": "subtopic",
+      "label": "Post Event Followup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-collection@oWXfov-mOF47d7Vffyp3t.md"
+    },
+    {
+      "id": "_Qe_0RksYpX7Spzgc6Fw3",
+      "old_id": "oWXfov-mOF47d7Vffyp3t",
+      "type": "subtopic",
+      "label": "Surveys",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-collection@oWXfov-mOF47d7Vffyp3t.md"
+    },
+    {
+      "id": "oWXfov-mOF47d7Vffyp3t",
+      "old_id": "4ZvzY_xGO5BZOmfqj0TTq",
+      "type": "subtopic",
+      "label": "Feedback Collection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\community-guidelines@4ZvzY_xGO5BZOmfqj0TTq.md"
+    },
+    {
+      "id": "B1IdobUaGeBLI2CgsFg8H",
+      "old_id": "71BBFjaON1NJi4rOHKW6K",
+      "type": "topic",
+      "label": "Blogging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\social-media@71BBFjaON1NJi4rOHKW6K.md"
+    },
+    {
+      "id": "uzMfR6Yd9Jvjn8i5RpC1Q",
+      "old_id": "mWcMSKnUQamUykBxND-Ju",
+      "type": "subtopic",
+      "label": "Topic Selection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\example-apps@mWcMSKnUQamUykBxND-Ju.md"
+    },
+    {
+      "id": "l6-mzgDTXg2EPkyZyZ6TC",
+      "old_id": "_QHUpFW4kZ5SBaP7stXY2",
+      "type": "subtopic",
+      "label": "Writing Process",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\recording@_QHUpFW4kZ5SBaP7stXY2.md"
+    },
+    {
+      "id": "zVBy8o66FdZueg-2v3gaw",
+      "old_id": "lG1FH7Q-YX5pG-7mMtbSR",
+      "type": "subtopic",
+      "label": "SEO Basics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\analytics-and-optimization@lG1FH7Q-YX5pG-7mMtbSR.md"
+    },
+    {
+      "id": "lWbhkjrECTwZYO66T0swh",
+      "old_id": "klvPKcIs_vb6INETr_psf",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "2QiQW9tygpeaES8Wp1Kw6",
+      "old_id": "kmcOYDvu1vq7AQPllZvv0",
+      "type": "subtopic",
+      "label": "Guest Blogging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\post-event-followup@kmcOYDvu1vq7AQPllZvv0.md"
+    },
+    {
+      "id": "nlzI2fG3SwC5Q42qXcXPX",
+      "old_id": "_Qe_0RksYpX7Spzgc6Fw3",
+      "type": "subtopic",
+      "label": "Cross-Promotion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\surveys@_Qe_0RksYpX7Spzgc6Fw3.md"
+    },
+    {
+      "id": "w1ZooDCDOkbL1EAa5Hx3d",
+      "old_id": "oWXfov-mOF47d7Vffyp3t",
+      "type": "subtopic",
+      "label": "Collaborations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\feedback-collection@oWXfov-mOF47d7Vffyp3t.md"
+    },
+    {
+      "id": "bRzzc137OlmivEGdhv5Ew",
+      "old_id": "71BBFjaON1NJi4rOHKW6K",
+      "type": "topic",
+      "label": "Video Production",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\social-media@71BBFjaON1NJi4rOHKW6K.md"
+    },
+    {
+      "id": "6zK9EJDKBC89UArY7sfgs",
+      "old_id": "D7_iNPEKxFv0gw-fsNNrZ",
+      "type": "subtopic",
+      "label": "Editing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\animations--graphics@D7_iNPEKxFv0gw-fsNNrZ.md"
+    },
+    {
+      "id": "_QHUpFW4kZ5SBaP7stXY2",
+      "old_id": "C9--J8gGZENQKn-QcZK4M",
+      "type": "subtopic",
+      "label": "Recording",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\promotion@C9--J8gGZENQKn-QcZK4M.md"
+    },
+    {
+      "id": "rLDRkUht9K1m4noMAIgKU",
+      "old_id": "lG1FH7Q-YX5pG-7mMtbSR",
+      "type": "subtopic",
+      "label": "Scripting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\analytics-and-optimization@lG1FH7Q-YX5pG-7mMtbSR.md"
+    },
+    {
+      "id": "OUWVqJImrmsZpAtRrUYNH",
+      "old_id": "D7_iNPEKxFv0gw-fsNNrZ",
+      "type": "subtopic",
+      "label": "Animations & Graphics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\animations--graphics@D7_iNPEKxFv0gw-fsNNrZ.md"
+    },
+    {
+      "id": "pEMNcm_wJNmOkWm57L1pA",
+      "old_id": "LwNa3u9Lf88ju5w7CvSN5",
+      "type": "topic",
+      "label": "Video Production",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\support@LwNa3u9Lf88ju5w7CvSN5.md"
+    },
+    {
+      "id": "iPaFjacZ7hSWriSEqUmHc",
+      "old_id": "71BBFjaON1NJi4rOHKW6K",
+      "type": "topic",
+      "label": "Live Streaming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\social-media@71BBFjaON1NJi4rOHKW6K.md"
+    },
+    {
+      "id": "ioEUqMXOt-mn_6zB2xIBx",
+      "old_id": "lWbhkjrECTwZYO66T0swh",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Mdp4bBlhVbGohJkVlsDar",
+      "old_id": "meZDgDJMy4aH5VqS-NJL4",
+      "type": "subtopic",
+      "label": "X",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\streamyard@meZDgDJMy4aH5VqS-NJL4.md"
+    },
+    {
+      "id": "OY5rn3XTbmz4LzSLRcNmw",
+      "old_id": "w1ZooDCDOkbL1EAa5Hx3d",
+      "type": "subtopic",
+      "label": "YouTube",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\collaborations@w1ZooDCDOkbL1EAa5Hx3d.md"
+    },
+    {
+      "id": "Xuol8J2F54u4H88IPxVPs",
+      "old_id": "Xuol8J2F54u4H88IPxVPs",
+      "type": "label",
+      "label": "Platform Selection",
+      "resources": []
+    },
+    {
+      "id": "QlWam-kHv8G_-yx3ClP9s",
+      "old_id": "meZDgDJMy4aH5VqS-NJL4",
+      "type": "subtopic",
+      "label": "Twitch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\streamyard@meZDgDJMy4aH5VqS-NJL4.md"
+    },
+    {
+      "id": "meZDgDJMy4aH5VqS-NJL4",
+      "old_id": "nlzI2fG3SwC5Q42qXcXPX",
+      "type": "subtopic",
+      "label": "Streamyard",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\cross-promotion@nlzI2fG3SwC5Q42qXcXPX.md"
+    },
+    {
+      "id": "D7_iNPEKxFv0gw-fsNNrZ",
+      "old_id": "RQk3uOikjQYRyTu7vuAG7",
+      "type": "subtopic",
+      "label": "Animations & Graphics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\planning@RQk3uOikjQYRyTu7vuAG7.md"
+    },
+    {
+      "id": "8aiLVG4clveX1Luiehvxr",
+      "old_id": "4ZvzY_xGO5BZOmfqj0TTq",
+      "type": "subtopic",
+      "label": "Technical Setup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\community-guidelines@4ZvzY_xGO5BZOmfqj0TTq.md"
+    },
+    {
+      "id": "tRywPj_2VyjSLjxYJtYZd",
+      "old_id": "er9ukuBvY-F4F8S1qbbjU",
+      "type": "subtopic",
+      "label": "Video",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\code-of-conduct@er9ukuBvY-F4F8S1qbbjU.md"
+    },
+    {
+      "id": "7y4vHk_jgNTW6Q1WoqYDc",
+      "old_id": "8I59U-nnkhQv8ldRuqQlb",
+      "type": "subtopic",
+      "label": "Audio",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\rules-and-policies@8I59U-nnkhQv8ldRuqQlb.md"
+    },
+    {
+      "id": "71BBFjaON1NJi4rOHKW6K",
+      "old_id": "usorG1GkkvGAZ0h_AGHVk",
+      "type": "topic",
+      "label": "Social Media",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\event-management@usorG1GkkvGAZ0h_AGHVk.md"
+    },
+    {
+      "id": "7jS0tkU5hNdpA8DsxlsVl",
+      "old_id": "ioEUqMXOt-mn_6zB2xIBx",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "6BqkO4XOspJg0-9GNLtUp",
+      "old_id": "Mdp4bBlhVbGohJkVlsDar",
+      "type": "subtopic",
+      "label": "X",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\x@Mdp4bBlhVbGohJkVlsDar.md"
+    },
+    {
+      "id": "6UR59TigEZ0NaixbaUIqn",
+      "old_id": "OY5rn3XTbmz4LzSLRcNmw",
+      "type": "subtopic",
+      "label": "LinkedIn",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\youtube@OY5rn3XTbmz4LzSLRcNmw.md"
+    },
+    {
+      "id": "beyPlK5E92ZL4R5VsEVT5",
+      "old_id": "Xuol8J2F54u4H88IPxVPs",
+      "type": "label",
+      "label": "Platform Selection",
+      "resources": []
+    },
+    {
+      "id": "ZMManUnO-9EQqi-xmLt5r",
+      "old_id": "QlWam-kHv8G_-yx3ClP9s",
+      "type": "subtopic",
+      "label": "Facebook",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\twitch@QlWam-kHv8G_-yx3ClP9s.md"
+    },
+    {
+      "id": "UAkGV9_I6qiKZMr1aqQCm",
+      "old_id": "meZDgDJMy4aH5VqS-NJL4",
+      "type": "subtopic",
+      "label": "Instagram",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\streamyard@meZDgDJMy4aH5VqS-NJL4.md"
+    },
+    {
+      "id": "TGXPxTFv9EhsfS5uWR5gS",
+      "old_id": "CfYvM0PZsFAhAMrghgvmZ",
+      "type": "subtopic",
+      "label": "Content Strategy",
+      "resources": []
+    },
+    {
+      "id": "lG1FH7Q-YX5pG-7mMtbSR",
+      "old_id": "1m1keusP-PTjEwy0dCJJL",
+      "type": "subtopic",
+      "label": "Analytics and Optimization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\execution@1m1keusP-PTjEwy0dCJJL.md"
+    },
+    {
+      "id": "l2P44pL9eF8xarBwC_CVO",
+      "old_id": "CfYvM0PZsFAhAMrghgvmZ",
+      "type": "subtopic",
+      "label": "Consistent Posting",
+      "resources": []
+    },
+    {
+      "id": "WIH216mHg2OiSebzQYI-f",
+      "old_id": "CfYvM0PZsFAhAMrghgvmZ",
+      "type": "subtopic",
+      "label": "Engaging Content",
+      "resources": []
+    },
+    {
+      "id": "ZWkpgvXIzjN3_fOyhVEv0",
+      "old_id": "AwMwMU9hg_gCKPP4tykHb",
+      "type": "subtopic",
+      "label": "Creating Brand Voice",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\developer-satisfaction@AwMwMU9hg_gCKPP4tykHb.md"
+    },
+    {
+      "id": "NWxAxiDgvlGpvqdkzqnOH",
+      "old_id": "CfYvM0PZsFAhAMrghgvmZ",
+      "type": "subtopic",
+      "label": "Tracking Engagement",
+      "resources": []
+    },
+    {
+      "id": "46iMfYgC7fCZLCy-qzl1B",
+      "old_id": "CfYvM0PZsFAhAMrghgvmZ",
+      "type": "subtopic",
+      "label": "Data-Driven Strategy Shift",
+      "resources": []
+    },
+    {
+      "id": "g3M6nfLr0DMcn-NCFF7nZ",
+      "old_id": "LwNa3u9Lf88ju5w7CvSN5",
+      "type": "topic",
+      "label": "Documentation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\support@LwNa3u9Lf88ju5w7CvSN5.md"
+    },
+    {
+      "id": "RLf08xKMjlt6S9-MFiTo-",
+      "old_id": "mWcMSKnUQamUykBxND-Ju",
+      "type": "subtopic",
+      "label": "User Guides",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\example-apps@mWcMSKnUQamUykBxND-Ju.md"
+    },
+    {
+      "id": "7IJO_jDpZUdlr_n5rBJ6O",
+      "old_id": "mWcMSKnUQamUykBxND-Ju",
+      "type": "subtopic",
+      "label": "API References",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\example-apps@mWcMSKnUQamUykBxND-Ju.md"
+    },
+    {
+      "id": "6ubk20TBIL3_VrrRMe8tO",
+      "old_id": "mWcMSKnUQamUykBxND-Ju",
+      "type": "subtopic",
+      "label": "Tutorials",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\example-apps@mWcMSKnUQamUykBxND-Ju.md"
+    },
+    {
+      "id": "xy9Kqtwrh5IhYHaqEhvl_",
+      "old_id": "LwNa3u9Lf88ju5w7CvSN5",
+      "type": "topic",
+      "label": "Sample Projects",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\support@LwNa3u9Lf88ju5w7CvSN5.md"
+    },
+    {
+      "id": "pGJrCyYhLLGUnv6LxpYUe",
+      "old_id": "mWcMSKnUQamUykBxND-Ju",
+      "type": "subtopic",
+      "label": "Code Samples",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\example-apps@mWcMSKnUQamUykBxND-Ju.md"
+    },
+    {
+      "id": "mWcMSKnUQamUykBxND-Ju",
+      "old_id": "D7_iNPEKxFv0gw-fsNNrZ",
+      "type": "subtopic",
+      "label": "Example Apps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\animations--graphics@D7_iNPEKxFv0gw-fsNNrZ.md"
+    },
+    {
+      "id": "omnUSgUHZg2DmnOUJ0Xo1",
+      "old_id": "mWcMSKnUQamUykBxND-Ju",
+      "type": "subtopic",
+      "label": "Use Case Based",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\example-apps@mWcMSKnUQamUykBxND-Ju.md"
+    },
+    {
+      "id": "LwNa3u9Lf88ju5w7CvSN5",
+      "old_id": "71BBFjaON1NJi4rOHKW6K",
+      "type": "topic",
+      "label": "Support",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\social-media@71BBFjaON1NJi4rOHKW6K.md"
+    },
+    {
+      "id": "oGTIvAY3zYgoiC63FQRSd",
+      "old_id": "mh1BZDVkc-VwA8aQAmDhO",
+      "type": "subtopic",
+      "label": "Forums",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\insights--recommendations@mh1BZDVkc-VwA8aQAmDhO.md"
+    },
+    {
+      "id": "j6tr3mAaKqTuEFTRSCsrK",
+      "old_id": "mWcMSKnUQamUykBxND-Ju",
+      "type": "subtopic",
+      "label": "Issue Tracking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\example-apps@mWcMSKnUQamUykBxND-Ju.md"
+    },
+    {
+      "id": "4GCQ3stXxW1HrlAVC0qDl",
+      "old_id": "omnUSgUHZg2DmnOUJ0Xo1",
+      "type": "subtopic",
+      "label": "FAQs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\use-case-based@omnUSgUHZg2DmnOUJ0Xo1.md"
+    },
+    {
+      "id": "EBbvzM7n8Pqprksxb2QNd",
+      "old_id": "beyPlK5E92ZL4R5VsEVT5",
+      "type": "label",
+      "label": "Live Support",
+      "resources": []
+    },
+    {
+      "id": "weyCcboaekqf5NuVAOxfU",
+      "old_id": "mh1BZDVkc-VwA8aQAmDhO",
+      "type": "subtopic",
+      "label": "Office Hours",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\insights--recommendations@mh1BZDVkc-VwA8aQAmDhO.md"
+    },
+    {
+      "id": "1fc0iWwOkheUJ7d0np86L",
+      "old_id": "weyCcboaekqf5NuVAOxfU",
+      "type": "subtopic",
+      "label": "Webinars",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\office-hours@weyCcboaekqf5NuVAOxfU.md"
+    },
+    {
+      "id": "DCj1teu8Hp82EKnakFRPn",
+      "old_id": "psk3bo-nSskboAoVTjlpz",
+      "type": "topic",
+      "label": "Key Metrics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\tools@psk3bo-nSskboAoVTjlpz.md"
+    },
+    {
+      "id": "afR1VviBs2w0k8UmP38vn",
+      "old_id": "x8RIrK2VB-LBFbt6hAcQb",
+      "type": "subtopic",
+      "label": "Community Growth",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\social-media-analytics@x8RIrK2VB-LBFbt6hAcQb.md"
+    },
+    {
+      "id": "RXj0yB7KsIOM5whwtyBBU",
+      "old_id": "AwMwMU9hg_gCKPP4tykHb",
+      "type": "subtopic",
+      "label": "Engagement Rates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\developer-satisfaction@AwMwMU9hg_gCKPP4tykHb.md"
+    },
+    {
+      "id": "yhDBZfUAjumFHpUZtmLg3",
+      "old_id": "AwMwMU9hg_gCKPP4tykHb",
+      "type": "subtopic",
+      "label": "Content Performance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\developer-satisfaction@AwMwMU9hg_gCKPP4tykHb.md"
+    },
+    {
+      "id": "AwMwMU9hg_gCKPP4tykHb",
+      "old_id": "psk3bo-nSskboAoVTjlpz",
+      "type": "subtopic",
+      "label": "Developer Satisfaction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\tools@psk3bo-nSskboAoVTjlpz.md"
+    },
+    {
+      "id": "psk3bo-nSskboAoVTjlpz",
+      "old_id": "CfYvM0PZsFAhAMrghgvmZ",
+      "type": "topic",
+      "label": "Tools",
+      "resources": []
+    },
+    {
+      "id": "8xrhjG9qmbsoBC3F8zS-b",
+      "old_id": "I7RBMfoD30OstVLeTrMs9",
+      "type": "subtopic",
+      "label": "Google Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\publishing@I7RBMfoD30OstVLeTrMs9.md"
+    },
+    {
+      "id": "x8RIrK2VB-LBFbt6hAcQb",
+      "old_id": "AwMwMU9hg_gCKPP4tykHb",
+      "type": "subtopic",
+      "label": "Social Media Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\developer-satisfaction@AwMwMU9hg_gCKPP4tykHb.md"
+    },
+    {
+      "id": "AL3-UzREwTpsADTU0YtRW",
+      "old_id": "x8RIrK2VB-LBFbt6hAcQb",
+      "type": "subtopic",
+      "label": "Platform Specific Analytics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\social-media-analytics@x8RIrK2VB-LBFbt6hAcQb.md"
+    },
+    {
+      "id": "N1uh7dVKfSPT7w0MlKzWO",
+      "old_id": "DCj1teu8Hp82EKnakFRPn",
+      "type": "topic",
+      "label": "Reporting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\key-metrics@DCj1teu8Hp82EKnakFRPn.md"
+    },
+    {
+      "id": "U2QKCu6TvDuxSNRfdM74n",
+      "old_id": "wcfrXA9zWZ4Taey7mR2yG",
+      "type": "subtopic",
+      "label": "Regular Reports",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\thought-leadership@wcfrXA9zWZ4Taey7mR2yG.md"
+    },
+    {
+      "id": "0dRnUlgze87eq2FVU_mWp",
+      "old_id": "mh1BZDVkc-VwA8aQAmDhO",
+      "type": "subtopic",
+      "label": "Data Visualization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\insights--recommendations@mh1BZDVkc-VwA8aQAmDhO.md"
+    },
+    {
+      "id": "mh1BZDVkc-VwA8aQAmDhO",
+      "old_id": "pGJrCyYhLLGUnv6LxpYUe",
+      "type": "subtopic",
+      "label": "Insights & Recommendations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\code-samples@pGJrCyYhLLGUnv6LxpYUe.md"
+    },
+    {
+      "id": "wcfrXA9zWZ4Taey7mR2yG",
+      "old_id": "mh1BZDVkc-VwA8aQAmDhO",
+      "type": "topic",
+      "label": "Thought Leadership",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\insights--recommendations@mh1BZDVkc-VwA8aQAmDhO.md"
+    },
+    {
+      "id": "I7RBMfoD30OstVLeTrMs9",
+      "old_id": "x8RIrK2VB-LBFbt6hAcQb",
+      "type": "subtopic",
+      "label": "Publishing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\social-media-analytics@x8RIrK2VB-LBFbt6hAcQb.md"
+    },
+    {
+      "id": "QrDqUGWC2t9r6p4aR8I5g",
+      "old_id": "ue0NaNnNpF7UhvJ8j0Yuo",
+      "type": "subtopic",
+      "label": "Media Appearances",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\conference-speaking@ue0NaNnNpF7UhvJ8j0Yuo.md"
+    },
+    {
+      "id": "ue0NaNnNpF7UhvJ8j0Yuo",
+      "old_id": "I7RBMfoD30OstVLeTrMs9",
+      "type": "subtopic",
+      "label": "Conference Speaking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\publishing@I7RBMfoD30OstVLeTrMs9.md"
+    },
+    {
+      "id": "HN2gNsYYRLVOOdy_r8FKJ",
+      "old_id": "4ygpqUK70hI5r1AmmfMZq",
+      "type": "topic",
+      "label": "Building a Personal Brand",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\networking-strategies@4ygpqUK70hI5r1AmmfMZq.md"
+    },
+    {
+      "id": "4ygpqUK70hI5r1AmmfMZq",
+      "old_id": "wcfrXA9zWZ4Taey7mR2yG",
+      "type": "topic",
+      "label": "Networking Strategies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\thought-leadership@wcfrXA9zWZ4Taey7mR2yG.md"
+    },
+    {
+      "id": "HIIqlnZ4Vad_1o4F0lkv-",
+      "old_id": "QrDqUGWC2t9r6p4aR8I5g",
+      "type": "subtopic",
+      "label": "Meetups",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\media-appearances@QrDqUGWC2t9r6p4aR8I5g.md"
+    },
+    {
+      "id": "lMbj0WdoEia_tdpO5rXph",
+      "old_id": "NhQUDVA9q1hnV44EKapbU",
+      "type": "subtopic",
+      "label": "Online Communities",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\open-source@NhQUDVA9q1hnV44EKapbU.md"
+    },
+    {
+      "id": "NhQUDVA9q1hnV44EKapbU",
+      "old_id": "ue0NaNnNpF7UhvJ8j0Yuo",
+      "type": "subtopic",
+      "label": "Open-Source",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\conference-speaking@ue0NaNnNpF7UhvJ8j0Yuo.md"
+    },
+    {
+      "id": "bwwk6ESNyEJa3fCAIKPwh",
+      "old_id": "4ygpqUK70hI5r1AmmfMZq",
+      "type": "topic",
+      "label": "Continuous Learning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devrel\\content\\networking-strategies@4ygpqUK70hI5r1AmmfMZq.md"
+    },
+    {
+      "id": "Hi6E8R4-iQtZVnus3np_5",
+      "old_id": "_xPaDBsBUmWfkIivfFur4",
+      "type": "button",
+      "label": "API Design",
+      "resources": []
+    },
+    {
+      "id": "6mHmGW_Ib6DhELxRzCA_k",
+      "old_id": "6mHmGW_Ib6DhELxRzCA_k",
+      "type": "button",
+      "label": "Visit his Blog",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "SiYUdtYMDImRPmV2_XPkH"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "KP28dl1I9hxM130gIPxSZ"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "N9HXTCQq2wfC-QurSofE_"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "7MCmY1bABGPfmzjErADvg"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "EjqJkyojhO7f1uFHIoyGY"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "1NFcpGzCJylRPbFYdD9bB"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "_3ZnPUl4kzzuM0bKQ8IAq"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "IxRvVvX9Fax08YUbVob4s"
+    },
+    {
+      "source": "SiYUdtYMDImRPmV2_XPkH",
+      "target": "ocnvHsixvBpr2fvjtqFmU"
+    },
+    {
+      "source": null,
+      "target": "vH_ECVYSQ3Fg-DASO1EgK"
+    },
+    {
+      "source": null,
+      "target": "_FZNqUKgPkzbgOPoiSLSU"
+    },
+    {
+      "source": null,
+      "target": "Y0GUZynSXjITDOA-TP6LH"
+    },
+    {
+      "source": null,
+      "target": "uwvvWmcZnFqLoHRDFXFyW"
+    },
+    {
+      "source": null,
+      "target": "SNhrYZsmyDHN_JWh0eZy2"
+    },
+    {
+      "source": "0ntOE6PSdMl_EXB9gdgIv",
+      "target": "urbtoZtuJryK-6TJ3lmRN"
+    },
+    {
+      "source": null,
+      "target": "VTGsmk3p4RVXiNhDmx2l8"
+    },
+    {
+      "source": null,
+      "target": "LixiZj3-QcmQgGAqaaDr6"
+    },
+    {
+      "source": null,
+      "target": "tbIAEStaoVWnEWbdk7EGc"
+    },
+    {
+      "source": null,
+      "target": "2iRt9E42i_ej4woKCW_s2"
+    },
+    {
+      "source": null,
+      "target": "iKYmUvWFT_C0wnO0iB6gM"
+    },
+    {
+      "source": null,
+      "target": "UdUDngq425NYSvIuOd7St"
+    },
+    {
+      "source": null,
+      "target": "jyScVS-sYMcZcH3hOwbMK"
+    },
+    {
+      "source": null,
+      "target": "rhs6QwxZ7PZthLfi38FJn"
+    },
+    {
+      "source": null,
+      "target": "VSOdD9KKF_Qz8nbRdHNo3"
+    },
+    {
+      "source": null,
+      "target": "Xf-Lxi1cKReo4yDLylBbL"
+    },
+    {
+      "source": null,
+      "target": "SJf9e7SQnzYVHoRWl0i6P"
+    },
+    {
+      "source": "ocnvHsixvBpr2fvjtqFmU",
+      "target": "0ntOE6PSdMl_EXB9gdgIv"
+    },
+    {
+      "source": "ocnvHsixvBpr2fvjtqFmU",
+      "target": "LRZ8yxTfEGCXsYp4N1_uD"
+    },
+    {
+      "source": "yJygbi8cnp3oz2EFl2MR0",
+      "target": "SJf9e7SQnzYVHoRWl0i6P"
+    },
+    {
+      "source": "ocnvHsixvBpr2fvjtqFmU",
+      "target": "vfypDCmYXeqPxm6lIly2r"
+    },
+    {
+      "source": "aSYXa25_0O2qQl1O-N3xl",
+      "target": "vfypDCmYXeqPxm6lIly2r"
+    },
+    {
+      "source": "vfypDCmYXeqPxm6lIly2r",
+      "target": "KdFYmj36M2jrGfsYkukpo"
+    },
+    {
+      "source": null,
+      "target": "NCnKS435DCl-8vilr1_XE"
+    },
+    {
+      "source": null,
+      "target": "NCnKS435DCl-8vilr1_XE"
+    },
+    {
+      "source": "KdFYmj36M2jrGfsYkukpo",
+      "target": "NCnKS435DCl-8vilr1_XE"
+    },
+    {
+      "source": "vfypDCmYXeqPxm6lIly2r",
+      "target": "sUEZHmKxtjO9gXKJoOdbF"
+    },
+    {
+      "source": null,
+      "target": "7Q6_tdRaeb8BgreG8Mw-a"
+    },
+    {
+      "source": null,
+      "target": "7Q6_tdRaeb8BgreG8Mw-a"
+    },
+    {
+      "source": "sUEZHmKxtjO9gXKJoOdbF",
+      "target": "7Q6_tdRaeb8BgreG8Mw-a"
+    },
+    {
+      "source": "sUEZHmKxtjO9gXKJoOdbF",
+      "target": "x6KFf4akYuUYkNhrUwj1r"
+    },
+    {
+      "source": null,
+      "target": "8O1AgUKXe35kdiYD02dyt"
+    },
+    {
+      "source": null,
+      "target": "8O1AgUKXe35kdiYD02dyt"
+    },
+    {
+      "source": null,
+      "target": "8O1AgUKXe35kdiYD02dyt"
+    },
+    {
+      "source": "GvmXdWiwITgWzx_f5_ick",
+      "target": "UKi3waPx2pozvZf2aQ52s"
+    },
+    {
+      "source": "GvmXdWiwITgWzx_f5_ick",
+      "target": "WItTQ1QboHoRkqeHJzCM9"
+    },
+    {
+      "source": "GvmXdWiwITgWzx_f5_ick",
+      "target": "hPJM4QXxeqTxPlvJ2_D3_"
+    },
+    {
+      "source": "GvmXdWiwITgWzx_f5_ick",
+      "target": "4ZvzY_xGO5BZOmfqj0TTq"
+    },
+    {
+      "source": "GvmXdWiwITgWzx_f5_ick",
+      "target": "-6cf3RT4-cbwvLYIkCosF"
+    },
+    {
+      "source": "-6cf3RT4-cbwvLYIkCosF",
+      "target": "d_dKF87OnRWoWj3Bf1uFf"
+    },
+    {
+      "source": "-6cf3RT4-cbwvLYIkCosF",
+      "target": "usorG1GkkvGAZ0h_AGHVk"
+    },
+    {
+      "source": "usorG1GkkvGAZ0h_AGHVk",
+      "target": "RQk3uOikjQYRyTu7vuAG7"
+    },
+    {
+      "source": "usorG1GkkvGAZ0h_AGHVk",
+      "target": "bOPFruKA5esJUu-fJLp8n"
+    },
+    {
+      "source": "bOPFruKA5esJUu-fJLp8n",
+      "target": "B1IdobUaGeBLI2CgsFg8H"
+    },
+    {
+      "source": null,
+      "target": "uzMfR6Yd9Jvjn8i5RpC1Q"
+    },
+    {
+      "source": "bOPFruKA5esJUu-fJLp8n",
+      "target": "bRzzc137OlmivEGdhv5Ew"
+    },
+    {
+      "source": "bRzzc137OlmivEGdhv5Ew",
+      "target": "rLDRkUht9K1m4noMAIgKU"
+    },
+    {
+      "source": "pEMNcm_wJNmOkWm57L1pA",
+      "target": "iPaFjacZ7hSWriSEqUmHc"
+    },
+    {
+      "source": "iPaFjacZ7hSWriSEqUmHc",
+      "target": "ioEUqMXOt-mn_6zB2xIBx"
+    },
+    {
+      "source": null,
+      "target": "8aiLVG4clveX1Luiehvxr"
+    },
+    {
+      "source": null,
+      "target": "7jS0tkU5hNdpA8DsxlsVl"
+    },
+    {
+      "source": "71BBFjaON1NJi4rOHKW6K",
+      "target": "7jS0tkU5hNdpA8DsxlsVl"
+    },
+    {
+      "source": "iPaFjacZ7hSWriSEqUmHc",
+      "target": "71BBFjaON1NJi4rOHKW6K"
+    },
+    {
+      "source": "TGXPxTFv9EhsfS5uWR5gS",
+      "target": "ZWkpgvXIzjN3_fOyhVEv0"
+    },
+    {
+      "source": "TGXPxTFv9EhsfS5uWR5gS",
+      "target": "WIH216mHg2OiSebzQYI-f"
+    },
+    {
+      "source": "TGXPxTFv9EhsfS5uWR5gS",
+      "target": "l2P44pL9eF8xarBwC_CVO"
+    },
+    {
+      "source": "lG1FH7Q-YX5pG-7mMtbSR",
+      "target": "NWxAxiDgvlGpvqdkzqnOH"
+    },
+    {
+      "source": "71BBFjaON1NJi4rOHKW6K",
+      "target": "YUpo12YGiraLuyN0EHBKe"
+    },
+    {
+      "source": "YUpo12YGiraLuyN0EHBKe",
+      "target": "g3M6nfLr0DMcn-NCFF7nZ"
+    },
+    {
+      "source": "g3M6nfLr0DMcn-NCFF7nZ",
+      "target": "xy9Kqtwrh5IhYHaqEhvl_"
+    },
+    {
+      "source": "g3M6nfLr0DMcn-NCFF7nZ",
+      "target": "6ubk20TBIL3_VrrRMe8tO"
+    },
+    {
+      "source": "g3M6nfLr0DMcn-NCFF7nZ",
+      "target": "7IJO_jDpZUdlr_n5rBJ6O"
+    },
+    {
+      "source": "g3M6nfLr0DMcn-NCFF7nZ",
+      "target": "RLf08xKMjlt6S9-MFiTo-"
+    },
+    {
+      "source": "xy9Kqtwrh5IhYHaqEhvl_",
+      "target": "pGJrCyYhLLGUnv6LxpYUe"
+    },
+    {
+      "source": "xy9Kqtwrh5IhYHaqEhvl_",
+      "target": "mWcMSKnUQamUykBxND-Ju"
+    },
+    {
+      "source": "xy9Kqtwrh5IhYHaqEhvl_",
+      "target": "omnUSgUHZg2DmnOUJ0Xo1"
+    },
+    {
+      "source": "xy9Kqtwrh5IhYHaqEhvl_",
+      "target": "LwNa3u9Lf88ju5w7CvSN5"
+    },
+    {
+      "source": null,
+      "target": "oGTIvAY3zYgoiC63FQRSd"
+    },
+    {
+      "source": null,
+      "target": "j6tr3mAaKqTuEFTRSCsrK"
+    },
+    {
+      "source": null,
+      "target": "4GCQ3stXxW1HrlAVC0qDl"
+    },
+    {
+      "source": "LwNa3u9Lf88ju5w7CvSN5",
+      "target": "oGTIvAY3zYgoiC63FQRSd"
+    },
+    {
+      "source": "LwNa3u9Lf88ju5w7CvSN5",
+      "target": "j6tr3mAaKqTuEFTRSCsrK"
+    },
+    {
+      "source": "LwNa3u9Lf88ju5w7CvSN5",
+      "target": "4GCQ3stXxW1HrlAVC0qDl"
+    },
+    {
+      "source": "LwNa3u9Lf88ju5w7CvSN5",
+      "target": "rDZoFZFaTG-_eKCKVzuU_"
+    },
+    {
+      "source": "rDZoFZFaTG-_eKCKVzuU_",
+      "target": "DCj1teu8Hp82EKnakFRPn"
+    },
+    {
+      "source": "DCj1teu8Hp82EKnakFRPn",
+      "target": "psk3bo-nSskboAoVTjlpz"
+    },
+    {
+      "source": "DCj1teu8Hp82EKnakFRPn",
+      "target": "AwMwMU9hg_gCKPP4tykHb"
+    },
+    {
+      "source": "psk3bo-nSskboAoVTjlpz",
+      "target": "8xrhjG9qmbsoBC3F8zS-b"
+    },
+    {
+      "source": "rDZoFZFaTG-_eKCKVzuU_",
+      "target": "N1uh7dVKfSPT7w0MlKzWO"
+    },
+    {
+      "source": "rDZoFZFaTG-_eKCKVzuU_",
+      "target": "bLs4BQ15ajuM6kdYjDBVB"
+    },
+    {
+      "source": "bLs4BQ15ajuM6kdYjDBVB",
+      "target": "wcfrXA9zWZ4Taey7mR2yG"
+    },
+    {
+      "source": "wcfrXA9zWZ4Taey7mR2yG",
+      "target": "I7RBMfoD30OstVLeTrMs9"
+    },
+    {
+      "source": "bLs4BQ15ajuM6kdYjDBVB",
+      "target": "HN2gNsYYRLVOOdy_r8FKJ"
+    },
+    {
+      "source": "4ygpqUK70hI5r1AmmfMZq",
+      "target": "HIIqlnZ4Vad_1o4F0lkv-"
+    },
+    {
+      "source": "4ygpqUK70hI5r1AmmfMZq",
+      "target": "lMbj0WdoEia_tdpO5rXph"
+    },
+    {
+      "source": "4ygpqUK70hI5r1AmmfMZq",
+      "target": "NhQUDVA9q1hnV44EKapbU"
+    },
+    {
+      "source": "bwwk6ESNyEJa3fCAIKPwh",
+      "target": "efMgmXBHUjeBY2g19-o6p"
+    },
+    {
+      "source": "GvmXdWiwITgWzx_f5_ick",
+      "target": "9KGr7c7SKxXq3kn8In0I2"
+    },
+    {
+      "source": "x6KFf4akYuUYkNhrUwj1r",
+      "target": "9KGr7c7SKxXq3kn8In0I2"
+    }
+  ]
+}

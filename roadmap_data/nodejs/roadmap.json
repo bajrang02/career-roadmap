@@ -1,0 +1,1596 @@
+{
+  "slug": "nodejs",
+  "title": "Nodejs",
+  "nodes": [
+    {
+      "id": "lY0EOkj4UwEQtbHbEnlwS",
+      "old_id": "lY0EOkj4UwEQtbHbEnlwS",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "XWHqY5mvMV3eYkysx0Zfp",
+      "old_id": "XWHqY5mvMV3eYkysx0Zfp",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "bMMlYdl4jaQnT-rRHGfBc",
+      "old_id": "bMMlYdl4jaQnT-rRHGfBc",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "GKLqJSMrljLEoBM_smemV",
+      "old_id": "GKLqJSMrljLEoBM_smemV",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "AoZfjDaReVr2O4qsoc4vM",
+      "old_id": "AoZfjDaReVr2O4qsoc4vM",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "dEbEgIsHqZpHFAvr5X0x3",
+      "old_id": "CWqY6-O_dPj_Y37kf_S8o",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "CWqY6-O_dPj_Y37kf_S8o",
+      "old_id": "pk5vi2vyY4h8obhkaim2c",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "k7wjZ_qFjqBLJlxsNkoK-",
+      "old_id": "k7wjZ_qFjqBLJlxsNkoK-",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "_FZLVUJZlMUkDB2imFhH_",
+      "old_id": "_FZLVUJZlMUkDB2imFhH_",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iYn8WyQohBdoi35AxL4-z",
+      "old_id": "iYn8WyQohBdoi35AxL4-z",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "0PrEMLItU5sYKGVCUNt-x",
+      "old_id": "0PrEMLItU5sYKGVCUNt-x",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "pk5vi2vyY4h8obhkaim2c",
+      "old_id": "pk5vi2vyY4h8obhkaim2c",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "Gwet2IxFjSbwkn_hSERlZ",
+      "old_id": "Gwet2IxFjSbwkn_hSERlZ",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "hgAgTyNSF4hFhwf4hdbX_",
+      "old_id": "hgAgTyNSF4hFhwf4hdbX_",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "ztNOp7Rs6jcpjUR2vszxU",
+      "old_id": "ztNOp7Rs6jcpjUR2vszxU",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "gLEIlNbhJ2CzjjPCflwog",
+      "old_id": "gLEIlNbhJ2CzjjPCflwog",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iyVufU8xJqKnMThnRTJTu",
+      "old_id": "iyVufU8xJqKnMThnRTJTu",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "PCnnW6w1BsBIIKsM-H9P1",
+      "old_id": "PCnnW6w1BsBIIKsM-H9P1",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+      "type": "title",
+      "label": "Node.js",
+      "resources": []
+    },
+    {
+      "id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "YD5y17K5nqmWaBwYcufZO",
+      "old_id": "YD5y17K5nqmWaBwYcufZO",
+      "type": "legend",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "DAwKHBng7Tytlcd2_8GOR",
+      "old_id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "type": "button",
+      "label": "JavaScript Roadmap",
+      "resources": []
+    },
+    {
+      "id": "KDd40JOAvZ8O1mfhTYB3K",
+      "old_id": "KDd40JOAvZ8O1mfhTYB3K",
+      "type": "topic",
+      "label": "Introduction to Node.js",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\introduction-to-nodejs@KDd40JOAvZ8O1mfhTYB3K.md"
+    },
+    {
+      "id": "Mp056kNnwsRWeEXuhGPy-",
+      "old_id": "Mp056kNnwsRWeEXuhGPy-",
+      "type": "subtopic",
+      "label": "What is Node.js?",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\what-is-nodejs@Mp056kNnwsRWeEXuhGPy-.md"
+    },
+    {
+      "id": "ex8FOKrUlbu4MuEq2czyW",
+      "old_id": "Mp056kNnwsRWeEXuhGPy-",
+      "type": "subtopic",
+      "label": "Why use Node.js?",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\what-is-nodejs@Mp056kNnwsRWeEXuhGPy-.md"
+    },
+    {
+      "id": "Vrcv5px-3fqmyJnQv3WBK",
+      "old_id": "ex8FOKrUlbu4MuEq2czyW",
+      "type": "subtopic",
+      "label": "History of Node.js",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\why-use-nodejs@ex8FOKrUlbu4MuEq2czyW.md"
+    },
+    {
+      "id": "ebVb0anYmbD1Y9ZTFXKFp",
+      "old_id": "ebVb0anYmbD1Y9ZTFXKFp",
+      "type": "subtopic",
+      "label": "Node.js vs Browser",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\nodejs-vs-browser@ebVb0anYmbD1Y9ZTFXKFp.md"
+    },
+    {
+      "id": "uPJqdMQQJRkTMMhNORDeH",
+      "old_id": "uPJqdMQQJRkTMMhNORDeH",
+      "type": "subtopic",
+      "label": "Running Node.js Code",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\running-nodejs-code@uPJqdMQQJRkTMMhNORDeH.md"
+    },
+    {
+      "id": "mbGFT6S7mL3bHHEZv0_s2",
+      "old_id": "mbGFT6S7mL3bHHEZv0_s2",
+      "type": "topic",
+      "label": "Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\modules@mbGFT6S7mL3bHHEZv0_s2.md"
+    },
+    {
+      "id": "mhjswf17nhq075NTYV5gE",
+      "old_id": "mhjswf17nhq075NTYV5gE",
+      "type": "subtopic",
+      "label": "CommonJS",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\commonjs@mhjswf17nhq075NTYV5gE.md"
+    },
+    {
+      "id": "mKccfWOhC1Aj4VnaOqryA",
+      "old_id": "mKccfWOhC1Aj4VnaOqryA",
+      "type": "subtopic",
+      "label": "ESM",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\esm@mKccfWOhC1Aj4VnaOqryA.md"
+    },
+    {
+      "id": "EEnmOcDKPZzY_O1NwP_5j",
+      "old_id": "EEnmOcDKPZzY_O1NwP_5j",
+      "type": "subtopic",
+      "label": "Creating & Importing",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\creating--importing@EEnmOcDKPZzY_O1NwP_5j.md"
+    },
+    {
+      "id": "PEGHvFT2Eg-1OyfhxYu22",
+      "old_id": "PEGHvFT2Eg-1OyfhxYu22",
+      "type": "subtopic",
+      "label": "[global] keyword",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\global-keyword@PEGHvFT2Eg-1OyfhxYu22.md"
+    },
+    {
+      "id": "jQJ9aOKtg-O-GhWk5OgCK",
+      "old_id": "jQJ9aOKtg-O-GhWk5OgCK",
+      "type": "topic",
+      "label": "npm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\npm@jQJ9aOKtg-O-GhWk5OgCK.md"
+    },
+    {
+      "id": "l24OMkPAEDnEDAVAMrMuG",
+      "old_id": "l24OMkPAEDnEDAVAMrMuG",
+      "type": "subtopic",
+      "label": "Global Installation",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\global-installation@l24OMkPAEDnEDAVAMrMuG.md"
+    },
+    {
+      "id": "oYeux7PbveYaVwXRzAg5x",
+      "old_id": "oYeux7PbveYaVwXRzAg5x",
+      "type": "subtopic",
+      "label": "Local Installation",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\local-installation@oYeux7PbveYaVwXRzAg5x.md"
+    },
+    {
+      "id": "W3YkN2Hc_-3WvvlmR6Kmv",
+      "old_id": "W3YkN2Hc_-3WvvlmR6Kmv",
+      "type": "label",
+      "label": "Installing Packages",
+      "resources": []
+    },
+    {
+      "id": "bYBz12FUiJ1qLgdQSGyGK",
+      "old_id": "bYBz12FUiJ1qLgdQSGyGK",
+      "type": "subtopic",
+      "label": "Updating Packages",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\updating-packages@bYBz12FUiJ1qLgdQSGyGK.md"
+    },
+    {
+      "id": "64pgc7rcgboFcNYuOlX8e",
+      "old_id": "64pgc7rcgboFcNYuOlX8e",
+      "type": "subtopic",
+      "label": "Running Scripts",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\running-scripts@64pgc7rcgboFcNYuOlX8e.md"
+    },
+    {
+      "id": "WvxCGVKLvTUVEHeOcUQPg",
+      "old_id": "WvxCGVKLvTUVEHeOcUQPg",
+      "type": "subtopic",
+      "label": "npm workspaces",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\npm-workspaces@WvxCGVKLvTUVEHeOcUQPg.md"
+    },
+    {
+      "id": "Uh9hmEy7o1EJLg4E--ku2",
+      "old_id": "Uh9hmEy7o1EJLg4E--ku2",
+      "type": "subtopic",
+      "label": "Creating Packages",
+      "resources": [],
+      "legend": {
+        "color": "#000",
+        "label": "Advanced Topics / pick these at last"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\creating-packages@Uh9hmEy7o1EJLg4E--ku2.md"
+    },
+    {
+      "id": "dOlzIXBfAPmbY542lNOe6",
+      "old_id": "dOlzIXBfAPmbY542lNOe6",
+      "type": "subtopic",
+      "label": "Semantic Versioning",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\semantic-versioning@dOlzIXBfAPmbY542lNOe6.md"
+    },
+    {
+      "id": "t_kfKdNSKVBPYQ9zF9VqQ",
+      "old_id": "t_kfKdNSKVBPYQ9zF9VqQ",
+      "type": "topic",
+      "label": "Error Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\error-handling@t_kfKdNSKVBPYQ9zF9VqQ.md"
+    },
+    {
+      "id": "Wg7KSpAPxjeFMxC6PBnHO",
+      "old_id": "Wg7KSpAPxjeFMxC6PBnHO",
+      "type": "subtopic",
+      "label": "JavaScript Errors",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\javascript-errors@Wg7KSpAPxjeFMxC6PBnHO.md"
+    },
+    {
+      "id": "05YY-AhLKzn4Ypr4eow5E",
+      "old_id": "05YY-AhLKzn4Ypr4eow5E",
+      "type": "subtopic",
+      "label": "System Errors",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\system-errors@05YY-AhLKzn4Ypr4eow5E.md"
+    },
+    {
+      "id": "wQ4i6_a1EFk9HHc6Sll-3",
+      "old_id": "wQ4i6_a1EFk9HHc6Sll-3",
+      "type": "subtopic",
+      "label": "User Specified Errors",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\user-specified-errors@wQ4i6_a1EFk9HHc6Sll-3.md"
+    },
+    {
+      "id": "do-tdCUfDtiZHBg4ZO3dC",
+      "old_id": "do-tdCUfDtiZHBg4ZO3dC",
+      "type": "subtopic",
+      "label": "Assertion Errors",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\assertion-errors@do-tdCUfDtiZHBg4ZO3dC.md"
+    },
+    {
+      "id": "M0puvsEXH3aniCw0gPjVd",
+      "old_id": "M0puvsEXH3aniCw0gPjVd",
+      "type": "label",
+      "label": "Types of Errors",
+      "resources": []
+    },
+    {
+      "id": "uzOmaTZrHhBxx5plb345Z",
+      "old_id": "uzOmaTZrHhBxx5plb345Z",
+      "type": "subtopic",
+      "label": "Uncaught Exceptions",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\uncaught-exceptions@uzOmaTZrHhBxx5plb345Z.md"
+    },
+    {
+      "id": "3MpxV23lNpuKg0--e_9m7",
+      "old_id": "3MpxV23lNpuKg0--e_9m7",
+      "type": "subtopic",
+      "label": "Handling Async Errors",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\handling-async-errors@3MpxV23lNpuKg0--e_9m7.md"
+    },
+    {
+      "id": "wIieXdFtoZWJ-ht8qqWbp",
+      "old_id": "wIieXdFtoZWJ-ht8qqWbp",
+      "type": "subtopic",
+      "label": "Callstack / Stack Trace",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\callstack--stack-trace@wIieXdFtoZWJ-ht8qqWbp.md"
+    },
+    {
+      "id": "XEGTeGWw05xWYOfUo3POE",
+      "old_id": "XEGTeGWw05xWYOfUo3POE",
+      "type": "subtopic",
+      "label": "Using Debugger",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\using-debugger@XEGTeGWw05xWYOfUo3POE.md"
+    },
+    {
+      "id": "YdpJ-DUo8Q5ATRmF4s4YS",
+      "old_id": "YdpJ-DUo8Q5ATRmF4s4YS",
+      "type": "subtopic",
+      "label": "npx",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\npx@YdpJ-DUo8Q5ATRmF4s4YS.md"
+    },
+    {
+      "id": "uE7fvHSTSdebMf5RsNyaY",
+      "old_id": "wEK77A6MPQBCBUSJKMiaY",
+      "type": "topic",
+      "label": "Async Programming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\working-with-files@wEK77A6MPQBCBUSJKMiaY.md"
+    },
+    {
+      "id": "QcOqhuKWOUUUBSiu5Oelv",
+      "old_id": "QcOqhuKWOUUUBSiu5Oelv",
+      "type": "subtopic",
+      "label": "Promises",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\promises@QcOqhuKWOUUUBSiu5Oelv.md"
+    },
+    {
+      "id": "a26qNCyMcT5GsVzxeNCLk",
+      "old_id": "a26qNCyMcT5GsVzxeNCLk",
+      "type": "subtopic",
+      "label": "async/await",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\asyncawait@a26qNCyMcT5GsVzxeNCLk.md"
+    },
+    {
+      "id": "GwInWcbQn18PnzKGXzmln",
+      "old_id": "GwInWcbQn18PnzKGXzmln",
+      "type": "subtopic",
+      "label": "Callbacks",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\callbacks@GwInWcbQn18PnzKGXzmln.md"
+    },
+    {
+      "id": "W2Dbj4Y78Bgdx7og5xkrg",
+      "old_id": "W2Dbj4Y78Bgdx7og5xkrg",
+      "type": "subtopic",
+      "label": "setTimeout",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\settimeout@W2Dbj4Y78Bgdx7og5xkrg.md"
+    },
+    {
+      "id": "T5I-mFKK6bKzXrzkECI0P",
+      "old_id": "T5I-mFKK6bKzXrzkECI0P",
+      "type": "subtopic",
+      "label": "setInterval",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\setinterval@T5I-mFKK6bKzXrzkECI0P.md"
+    },
+    {
+      "id": "YvTPpoIiSqjDYi0Q10kWh",
+      "old_id": "YvTPpoIiSqjDYi0Q10kWh",
+      "type": "subtopic",
+      "label": "setImmediate",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\setimmediate@YvTPpoIiSqjDYi0Q10kWh.md"
+    },
+    {
+      "id": "ATu9-29yJWcDOik5FTOgf",
+      "old_id": "ATu9-29yJWcDOik5FTOgf",
+      "type": "subtopic",
+      "label": "process.nextTick",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\processnexttick@ATu9-29yJWcDOik5FTOgf.md"
+    },
+    {
+      "id": "2y0pHOHxtkv-X-a6ltLJu",
+      "old_id": "2y0pHOHxtkv-X-a6ltLJu",
+      "type": "label",
+      "label": "Writing Async Code",
+      "resources": []
+    },
+    {
+      "id": "bgEHTBYzRDJqZ6gLqLbsz",
+      "old_id": "bgEHTBYzRDJqZ6gLqLbsz",
+      "type": "subtopic",
+      "label": "Event Emitter",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\event-emitter@bgEHTBYzRDJqZ6gLqLbsz.md"
+    },
+    {
+      "id": "b679H8gEBuvrHQ8ik7e96",
+      "old_id": "b679H8gEBuvrHQ8ik7e96",
+      "type": "subtopic",
+      "label": "Event Loop",
+      "resources": [],
+      "legend": {
+        "color": "#000",
+        "label": "Advanced Topics / pick these at last"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\event-loop@b679H8gEBuvrHQ8ik7e96.md"
+    },
+    {
+      "id": "wEK77A6MPQBCBUSJKMiaY",
+      "old_id": "wEK77A6MPQBCBUSJKMiaY",
+      "type": "topic",
+      "label": "Working with Files",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\working-with-files@wEK77A6MPQBCBUSJKMiaY.md"
+    },
+    {
+      "id": "QT2QE2FLkyUDpwMKYkFQL",
+      "old_id": "QT2QE2FLkyUDpwMKYkFQL",
+      "type": "subtopic",
+      "label": "process.cwd()",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\processcwd@QT2QE2FLkyUDpwMKYkFQL.md"
+    },
+    {
+      "id": "Blzb-fdQZMu6Xq5JDJW0_",
+      "old_id": "Blzb-fdQZMu6Xq5JDJW0_",
+      "type": "subtopic",
+      "label": "path module",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\path-module@Blzb-fdQZMu6Xq5JDJW0_.md"
+    },
+    {
+      "id": "b1r1X3XCoPSayQjDBcy54",
+      "old_id": "b1r1X3XCoPSayQjDBcy54",
+      "type": "subtopic",
+      "label": "fs module",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\fs-module@b1r1X3XCoPSayQjDBcy54.md"
+    },
+    {
+      "id": "1AaGG660rvZlNYMOA35qO",
+      "old_id": "1AaGG660rvZlNYMOA35qO",
+      "type": "subtopic",
+      "label": "__dirname",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\__dirname@1AaGG660rvZlNYMOA35qO.md"
+    },
+    {
+      "id": "P2gdwx1qCxvg1Ppfw0aqQ",
+      "old_id": "P2gdwx1qCxvg1Ppfw0aqQ",
+      "type": "subtopic",
+      "label": "__filename",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\__filename@P2gdwx1qCxvg1Ppfw0aqQ.md"
+    },
+    {
+      "id": "CWH0ZsxJ8beLvwMYJyH52",
+      "old_id": "CWH0ZsxJ8beLvwMYJyH52",
+      "type": "subtopic",
+      "label": "glob",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\glob@CWH0ZsxJ8beLvwMYJyH52.md"
+    },
+    {
+      "id": "HYTw74rrd7kkOemCxfT9I",
+      "old_id": "HYTw74rrd7kkOemCxfT9I",
+      "type": "subtopic",
+      "label": "globby",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\globby@HYTw74rrd7kkOemCxfT9I.md"
+    },
+    {
+      "id": "zDmWGRrgwq3Gjfkyk6crK",
+      "old_id": "zDmWGRrgwq3Gjfkyk6crK",
+      "type": "subtopic",
+      "label": "fs-extra",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\fs-extra@zDmWGRrgwq3Gjfkyk6crK.md"
+    },
+    {
+      "id": "een1zhvgN_33Cu6OiWtyX",
+      "old_id": "een1zhvgN_33Cu6OiWtyX",
+      "type": "subtopic",
+      "label": "chokidar",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\chokidar@een1zhvgN_33Cu6OiWtyX.md"
+    },
+    {
+      "id": "ugV0EkY69hs8sa4fE-GYP",
+      "old_id": "ugV0EkY69hs8sa4fE-GYP",
+      "type": "label",
+      "label": "Opensource Packages",
+      "resources": []
+    },
+    {
+      "id": "Ce-dP-OXu0mEm30rzp2hW",
+      "old_id": "Ce-dP-OXu0mEm30rzp2hW",
+      "type": "topic",
+      "label": "Command Line Apps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\command-line-apps@Ce-dP-OXu0mEm30rzp2hW.md"
+    },
+    {
+      "id": "fE9C7Resn4EcL-hYHbsaZ",
+      "old_id": "fE9C7Resn4EcL-hYHbsaZ",
+      "type": "subtopic",
+      "label": "dotenv package",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\dotenv-package@fE9C7Resn4EcL-hYHbsaZ.md"
+    },
+    {
+      "id": "wthXp2YGg3eTMbxsek77C",
+      "old_id": "wthXp2YGg3eTMbxsek77C",
+      "type": "subtopic",
+      "label": "process.env",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\processenv@wthXp2YGg3eTMbxsek77C.md"
+    },
+    {
+      "id": "XteNExIZN3_g95_dPCopY",
+      "old_id": "XteNExIZN3_g95_dPCopY",
+      "type": "subtopic",
+      "label": "Exitting / Exit Codes",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\exitting--exit-codes@XteNExIZN3_g95_dPCopY.md"
+    },
+    {
+      "id": "Te9D5ImyMSot506CnstPW",
+      "old_id": "Te9D5ImyMSot506CnstPW",
+      "type": "label",
+      "label": "Environment Variables",
+      "resources": []
+    },
+    {
+      "id": "betuntelnEMSHdatO6VPl",
+      "old_id": "betuntelnEMSHdatO6VPl",
+      "type": "subtopic",
+      "label": "process.stdin",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\processstdin@betuntelnEMSHdatO6VPl.md"
+    },
+    {
+      "id": "xgsKrUdfB0g0DMQCLK3aY",
+      "old_id": "xgsKrUdfB0g0DMQCLK3aY",
+      "type": "subtopic",
+      "label": "prompts package",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\prompts-package@xgsKrUdfB0g0DMQCLK3aY.md"
+    },
+    {
+      "id": "WFJJtIqVoBIhK10XY-d7l",
+      "old_id": "WFJJtIqVoBIhK10XY-d7l",
+      "type": "subtopic",
+      "label": "Inquirer Package",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\inquirer-package@WFJJtIqVoBIhK10XY-d7l.md"
+    },
+    {
+      "id": "iI8FZWu3zJ43zYBvwp2XZ",
+      "old_id": "iI8FZWu3zJ43zYBvwp2XZ",
+      "type": "label",
+      "label": "Taking Input",
+      "resources": []
+    },
+    {
+      "id": "lQm-5WxQQTk7ym-_X8Ql6",
+      "old_id": "lQm-5WxQQTk7ym-_X8Ql6",
+      "type": "label",
+      "label": "Printing Output",
+      "resources": []
+    },
+    {
+      "id": "N2vR1_NyDn4rYLXJzxWBZ",
+      "old_id": "N2vR1_NyDn4rYLXJzxWBZ",
+      "type": "subtopic",
+      "label": "stdout / stderr",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\stdout--stderr@N2vR1_NyDn4rYLXJzxWBZ.md"
+    },
+    {
+      "id": "V4OWIC1cnw8EFyu26Y_dA",
+      "old_id": "V4OWIC1cnw8EFyu26Y_dA",
+      "type": "subtopic",
+      "label": "chalk package",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\chalk-package@V4OWIC1cnw8EFyu26Y_dA.md"
+    },
+    {
+      "id": "PHLdJylzNZDJBGi8FFsfO",
+      "old_id": "PHLdJylzNZDJBGi8FFsfO",
+      "type": "subtopic",
+      "label": "figlet package",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\figlet-package@PHLdJylzNZDJBGi8FFsfO.md"
+    },
+    {
+      "id": "iW9je5Pq7bjxWZDERv_p5",
+      "old_id": "iW9je5Pq7bjxWZDERv_p5",
+      "type": "subtopic",
+      "label": "cli-progress",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\cli-progress@iW9je5Pq7bjxWZDERv_p5.md"
+    },
+    {
+      "id": "lT2DDRtbFfEjb_cmsQx8i",
+      "old_id": "lT2DDRtbFfEjb_cmsQx8i",
+      "type": "subtopic",
+      "label": "process.argv",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\processargv@lT2DDRtbFfEjb_cmsQx8i.md"
+    },
+    {
+      "id": "BxxLQUI7JcQgF6TK3L5uU",
+      "old_id": "BxxLQUI7JcQgF6TK3L5uU",
+      "type": "subtopic",
+      "label": "commander",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\commander@BxxLQUI7JcQgF6TK3L5uU.md"
+    },
+    {
+      "id": "NUoma-b5IJUuOssS3yut8",
+      "old_id": "NUoma-b5IJUuOssS3yut8",
+      "type": "label",
+      "label": "Command line args",
+      "resources": []
+    },
+    {
+      "id": "fFVCb6aZWRHdNDFt5C09R",
+      "old_id": "Ce-dP-OXu0mEm30rzp2hW",
+      "type": "topic",
+      "label": "Building & Consuming APIs",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\command-line-apps@Ce-dP-OXu0mEm30rzp2hW.md"
+    },
+    {
+      "id": "1vq_KcYR_pkfp1MtXaL75",
+      "old_id": "1vq_KcYR_pkfp1MtXaL75",
+      "type": "subtopic",
+      "label": "Express.js",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\expressjs@1vq_KcYR_pkfp1MtXaL75.md"
+    },
+    {
+      "id": "WkU_rI4i-UmNSxb5F9TI-",
+      "old_id": "WkU_rI4i-UmNSxb5F9TI-",
+      "type": "subtopic",
+      "label": "fastify",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\fastify@WkU_rI4i-UmNSxb5F9TI-.md"
+    },
+    {
+      "id": "tGD8XLHnfspfv8CbguGwV",
+      "old_id": "tGD8XLHnfspfv8CbguGwV",
+      "type": "subtopic",
+      "label": "NestJS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\nestjs@tGD8XLHnfspfv8CbguGwV.md"
+    },
+    {
+      "id": "Xa-lA1wbZ9JZ_XpXfhhw5",
+      "old_id": "Xa-lA1wbZ9JZ_XpXfhhw5",
+      "type": "subtopic",
+      "label": "Hono",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\hono@Xa-lA1wbZ9JZ_XpXfhhw5.md"
+    },
+    {
+      "id": "wyBsJ-NSYBS0QfPHPl0j7",
+      "old_id": "wyBsJ-NSYBS0QfPHPl0j7",
+      "type": "label",
+      "label": "Frameworks",
+      "resources": []
+    },
+    {
+      "id": "Sjc1YDtbzXyLQH711_3nj",
+      "old_id": "Sjc1YDtbzXyLQH711_3nj",
+      "type": "subtopic",
+      "label": "http module",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\http-module@Sjc1YDtbzXyLQH711_3nj.md"
+    },
+    {
+      "id": "BOLiZg8YDKADMwP01U5ph",
+      "old_id": "BOLiZg8YDKADMwP01U5ph",
+      "type": "subtopic",
+      "label": "axios",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\axios@BOLiZg8YDKADMwP01U5ph.md"
+    },
+    {
+      "id": "-_2letLUta5Ymc5eEOKhn",
+      "old_id": "-_2letLUta5Ymc5eEOKhn",
+      "type": "subtopic",
+      "label": "ky",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\ky@-_2letLUta5Ymc5eEOKhn.md"
+    },
+    {
+      "id": "B_3rTGQxJneMREXoi2gQn",
+      "old_id": "B_3rTGQxJneMREXoi2gQn",
+      "type": "subtopic",
+      "label": "fetch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\fetch@B_3rTGQxJneMREXoi2gQn.md"
+    },
+    {
+      "id": "6stiDKubT6XVAOGiJ6wsx",
+      "old_id": "6stiDKubT6XVAOGiJ6wsx",
+      "type": "subtopic",
+      "label": "got package",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\got-package@6stiDKubT6XVAOGiJ6wsx.md"
+    },
+    {
+      "id": "oZIte_LbYlggtiOQWhroc",
+      "old_id": "oZIte_LbYlggtiOQWhroc",
+      "type": "label",
+      "label": "Making API Calls",
+      "resources": []
+    },
+    {
+      "id": "7u2WMxjLx3mMtn0cha4M7",
+      "old_id": "7u2WMxjLx3mMtn0cha4M7",
+      "type": "subtopic",
+      "label": "jsonwebtoken",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\jsonwebtoken@7u2WMxjLx3mMtn0cha4M7.md"
+    },
+    {
+      "id": "mIyv6S9a5dCHkk-JhhjKV",
+      "old_id": "mIyv6S9a5dCHkk-JhhjKV",
+      "type": "subtopic",
+      "label": "passport.js",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\passportjs@mIyv6S9a5dCHkk-JhhjKV.md"
+    },
+    {
+      "id": "aHmeIcvZGVF0SwZe4vuvz",
+      "old_id": "aHmeIcvZGVF0SwZe4vuvz",
+      "type": "label",
+      "label": "Authentication",
+      "resources": []
+    },
+    {
+      "id": "swp4wBgA7z-sd64VDkMrw",
+      "old_id": "fFVCb6aZWRHdNDFt5C09R",
+      "type": "topic",
+      "label": "Monitor Changes (Dev)",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\building--consuming-apis@fFVCb6aZWRHdNDFt5C09R.md"
+    },
+    {
+      "id": "812bVEzxwTsYzLG_PmLqN",
+      "old_id": "812bVEzxwTsYzLG_PmLqN",
+      "type": "subtopic",
+      "label": "--watch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\--watch@812bVEzxwTsYzLG_PmLqN.md"
+    },
+    {
+      "id": "2Ym2jMvov0lZ79aJFaw29",
+      "old_id": "812bVEzxwTsYzLG_PmLqN",
+      "type": "subtopic",
+      "label": "nodemon",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\--watch@812bVEzxwTsYzLG_PmLqN.md"
+    },
+    {
+      "id": "J0ErCAZT5B97ZMogU2JHd",
+      "old_id": "J0ErCAZT5B97ZMogU2JHd",
+      "type": "topic",
+      "label": "Template Engines",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\template-engines@J0ErCAZT5B97ZMogU2JHd.md"
+    },
+    {
+      "id": "L-_N7OxxuHCXsdWYBgZGu",
+      "old_id": "L-_N7OxxuHCXsdWYBgZGu",
+      "type": "subtopic",
+      "label": "ejs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\ejs@L-_N7OxxuHCXsdWYBgZGu.md"
+    },
+    {
+      "id": "O67e2qyhxP5joR5LGyZ2N",
+      "old_id": "O67e2qyhxP5joR5LGyZ2N",
+      "type": "subtopic",
+      "label": "pug",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\pug@O67e2qyhxP5joR5LGyZ2N.md"
+    },
+    {
+      "id": "f2DyjBIglAZ6NoHaRnlzt",
+      "old_id": "f2DyjBIglAZ6NoHaRnlzt",
+      "type": "subtopic",
+      "label": "marko",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\marko@f2DyjBIglAZ6NoHaRnlzt.md"
+    },
+    {
+      "id": "5l-lZ8gwVLqqAF_n99vIO",
+      "old_id": "5l-lZ8gwVLqqAF_n99vIO",
+      "type": "topic",
+      "label": "Working with Databases",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\working-with-databases@5l-lZ8gwVLqqAF_n99vIO.md"
+    },
+    {
+      "id": "NDf-o-WECK02mVnZ8IFxy",
+      "old_id": "NDf-o-WECK02mVnZ8IFxy",
+      "type": "subtopic",
+      "label": "Mongoose",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\mongoose@NDf-o-WECK02mVnZ8IFxy.md"
+    },
+    {
+      "id": "3Qxtf8n6gJYdnRsuqa52Q",
+      "old_id": "3Qxtf8n6gJYdnRsuqa52Q",
+      "type": "subtopic",
+      "label": "Prisma",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\prisma@3Qxtf8n6gJYdnRsuqa52Q.md"
+    },
+    {
+      "id": "5WqLm53CHDT5uBoMH-iPl",
+      "old_id": "5WqLm53CHDT5uBoMH-iPl",
+      "type": "subtopic",
+      "label": "Native Drivers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\native-drivers@5WqLm53CHDT5uBoMH-iPl.md"
+    },
+    {
+      "id": "mkQ4QoFyoneFCVmAanByl",
+      "old_id": "mkQ4QoFyoneFCVmAanByl",
+      "type": "label",
+      "label": "NoSQL DBs",
+      "resources": []
+    },
+    {
+      "id": "HDDnt79_PCB5JU-KnHKUh",
+      "old_id": "HDDnt79_PCB5JU-KnHKUh",
+      "type": "subtopic",
+      "label": "Knex",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\knex@HDDnt79_PCB5JU-KnHKUh.md"
+    },
+    {
+      "id": "JXQF9H4_N0rM7ZDKcCZNn",
+      "old_id": "JXQF9H4_N0rM7ZDKcCZNn",
+      "type": "subtopic",
+      "label": "Drizzle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\drizzle@JXQF9H4_N0rM7ZDKcCZNn.md"
+    },
+    {
+      "id": "rk5FtAPDi1TpvWd0yBbtl",
+      "old_id": "rk5FtAPDi1TpvWd0yBbtl",
+      "type": "subtopic",
+      "label": "TypeORM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\typeorm@rk5FtAPDi1TpvWd0yBbtl.md"
+    },
+    {
+      "id": "fOm-ktIaLqrmA0zln0Bga",
+      "old_id": "fOm-ktIaLqrmA0zln0Bga",
+      "type": "subtopic",
+      "label": "Sequelize",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\sequelize@fOm-ktIaLqrmA0zln0Bga.md"
+    },
+    {
+      "id": "O7Cy2g_GPxKU6vPfEmNyi",
+      "old_id": "O7Cy2g_GPxKU6vPfEmNyi",
+      "type": "subtopic",
+      "label": "Prisma",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\prisma@O7Cy2g_GPxKU6vPfEmNyi.md"
+    },
+    {
+      "id": "KpC-QYKalUp7VUvnMKBoW",
+      "old_id": "KpC-QYKalUp7VUvnMKBoW",
+      "type": "subtopic",
+      "label": "Native Drivers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\native-drivers@KpC-QYKalUp7VUvnMKBoW.md"
+    },
+    {
+      "id": "oz3NrL3JEsLiShfBRVJQG",
+      "old_id": "oz3NrL3JEsLiShfBRVJQG",
+      "type": "label",
+      "label": "Relational",
+      "resources": []
+    },
+    {
+      "id": "90NIFfbWjTbyKZKwyJlfI",
+      "old_id": "5l-lZ8gwVLqqAF_n99vIO",
+      "type": "topic",
+      "label": "Testing",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\working-with-databases@5l-lZ8gwVLqqAF_n99vIO.md"
+    },
+    {
+      "id": "qjToBaMenW3SDtEfoCbQ6",
+      "old_id": "qjToBaMenW3SDtEfoCbQ6",
+      "type": "subtopic",
+      "label": "Vitest",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\vitest@qjToBaMenW3SDtEfoCbQ6.md"
+    },
+    {
+      "id": "oSLpy31XEcA2nRq9ks_LJ",
+      "old_id": "oSLpy31XEcA2nRq9ks_LJ",
+      "type": "subtopic",
+      "label": "node:test",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\nodetest@oSLpy31XEcA2nRq9ks_LJ.md"
+    },
+    {
+      "id": "5xrbKv2stKPJRv7Vzf9nM",
+      "old_id": "5xrbKv2stKPJRv7Vzf9nM",
+      "type": "subtopic",
+      "label": "Jest",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\jest@5xrbKv2stKPJRv7Vzf9nM.md"
+    },
+    {
+      "id": "Ix-g9pgJjEI04bSfROvlq",
+      "old_id": "Ix-g9pgJjEI04bSfROvlq",
+      "type": "subtopic",
+      "label": "Playwright",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\playwright@Ix-g9pgJjEI04bSfROvlq.md"
+    },
+    {
+      "id": "3Fh3-V1kCZtlUTvEoloIO",
+      "old_id": "3Fh3-V1kCZtlUTvEoloIO",
+      "type": "subtopic",
+      "label": "Cypress",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\cypress@3Fh3-V1kCZtlUTvEoloIO.md"
+    },
+    {
+      "id": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "old_id": "KzUmXkwrmU_ssVBjSHAiY",
+      "type": "topic",
+      "label": "Logging",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\threads@KzUmXkwrmU_ssVBjSHAiY.md"
+    },
+    {
+      "id": "Oe9cQCz2lwSaot7miZOta",
+      "old_id": "Oe9cQCz2lwSaot7miZOta",
+      "type": "subtopic",
+      "label": "Winston",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\winston@Oe9cQCz2lwSaot7miZOta.md"
+    },
+    {
+      "id": "CTHFGgtXFpke4aPhh5vRY",
+      "old_id": "CTHFGgtXFpke4aPhh5vRY",
+      "type": "subtopic",
+      "label": "Morgan",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\morgan@CTHFGgtXFpke4aPhh5vRY.md"
+    },
+    {
+      "id": "af7n-J7VvbdpZh9lwA773",
+      "old_id": "KzUmXkwrmU_ssVBjSHAiY",
+      "type": "topic",
+      "label": "Keep app Running",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\threads@KzUmXkwrmU_ssVBjSHAiY.md"
+    },
+    {
+      "id": "7WAuMMyelUbgwEHtnMmJv",
+      "old_id": "7WAuMMyelUbgwEHtnMmJv",
+      "type": "subtopic",
+      "label": "pm2 ",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\pm2@7WAuMMyelUbgwEHtnMmJv.md"
+    },
+    {
+      "id": "KzUmXkwrmU_ssVBjSHAiY",
+      "old_id": "KzUmXkwrmU_ssVBjSHAiY",
+      "type": "topic",
+      "label": "Threads",
+      "resources": [],
+      "legend": {
+        "color": "#000",
+        "label": "Advanced Topics / pick these at last"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\threads@KzUmXkwrmU_ssVBjSHAiY.md"
+    },
+    {
+      "id": "lzPrWD3pxQmpbqgYPL-zW",
+      "old_id": "lzPrWD3pxQmpbqgYPL-zW",
+      "type": "subtopic",
+      "label": "Child Process",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\child-process@lzPrWD3pxQmpbqgYPL-zW.md"
+    },
+    {
+      "id": "PkQ_sQ0YFPCZGx4BRgG0t",
+      "old_id": "PkQ_sQ0YFPCZGx4BRgG0t",
+      "type": "subtopic",
+      "label": "Cluster",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\cluster@PkQ_sQ0YFPCZGx4BRgG0t.md"
+    },
+    {
+      "id": "bH2Iv3BX0ZiWD3lOmC_m_",
+      "old_id": "bH2Iv3BX0ZiWD3lOmC_m_",
+      "type": "subtopic",
+      "label": "Worker Threads",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\worker-threads@bH2Iv3BX0ZiWD3lOmC_m_.md"
+    },
+    {
+      "id": "WrnjjUDXQwwMXQjmgK72U",
+      "old_id": "WrnjjUDXQwwMXQjmgK72U",
+      "type": "topic",
+      "label": "Streams",
+      "resources": [],
+      "legend": {
+        "color": "#000",
+        "label": "Advanced Topics / pick these at last"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\streams@WrnjjUDXQwwMXQjmgK72U.md"
+    },
+    {
+      "id": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "old_id": "WrnjjUDXQwwMXQjmgK72U",
+      "type": "topic",
+      "label": "Debugging",
+      "resources": [],
+      "legend": {
+        "color": "#9900ff",
+        "label": "Intermediate Topics / pick these next"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\streams@WrnjjUDXQwwMXQjmgK72U.md"
+    },
+    {
+      "id": "oU9I7KBZoTSXXFmYscEIq",
+      "old_id": "oU9I7KBZoTSXXFmYscEIq",
+      "type": "subtopic",
+      "label": "Memory Leaks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\memory-leaks@oU9I7KBZoTSXXFmYscEIq.md"
+    },
+    {
+      "id": "DcmGcVlEHL4IV7yPMDpVa",
+      "old_id": "DcmGcVlEHL4IV7yPMDpVa",
+      "type": "subtopic",
+      "label": "node --inspect",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\node---inspect@DcmGcVlEHL4IV7yPMDpVa.md"
+    },
+    {
+      "id": "CvkjlOpT34lOHgzQHL40s",
+      "old_id": "CvkjlOpT34lOHgzQHL40s",
+      "type": "subtopic",
+      "label": "Using APM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\using-apm@CvkjlOpT34lOHgzQHL40s.md"
+    },
+    {
+      "id": "SJ01N7vMZkNiIuMYQhdpj",
+      "old_id": "SJ01N7vMZkNiIuMYQhdpj",
+      "type": "subtopic",
+      "label": "Garbage Collection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\garbage-collection@SJ01N7vMZkNiIuMYQhdpj.md"
+    },
+    {
+      "id": "M62lAWBOrTe99TfpFOQ-Y",
+      "old_id": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "type": "topic",
+      "label": "Common Built-in Modules",
+      "resources": [],
+      "legend": {
+        "color": "#38761d",
+        "label": "Beginner Topics / start with these"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\nodejs\\content\\debugging@ZLNUuDKhJ03Kw7xMVc7IR.md"
+    },
+    {
+      "id": "OIcmPSbdsuWapb6HZ4BEi",
+      "old_id": "cmSSwPPiiHwYh9ct14N6A",
+      "type": "button",
+      "label": "Visit Backend Roadmap",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "DAwKHBng7Tytlcd2_8GOR"
+    },
+    {
+      "source": "DAwKHBng7Tytlcd2_8GOR",
+      "target": "KDd40JOAvZ8O1mfhTYB3K"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "Mp056kNnwsRWeEXuhGPy-"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "ex8FOKrUlbu4MuEq2czyW"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "Vrcv5px-3fqmyJnQv3WBK"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "ebVb0anYmbD1Y9ZTFXKFp"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "uPJqdMQQJRkTMMhNORDeH"
+    },
+    {
+      "source": "KDd40JOAvZ8O1mfhTYB3K",
+      "target": "mbGFT6S7mL3bHHEZv0_s2"
+    },
+    {
+      "source": "mbGFT6S7mL3bHHEZv0_s2",
+      "target": "jQJ9aOKtg-O-GhWk5OgCK"
+    },
+    {
+      "source": "jQJ9aOKtg-O-GhWk5OgCK",
+      "target": "t_kfKdNSKVBPYQ9zF9VqQ"
+    },
+    {
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "QT2QE2FLkyUDpwMKYkFQL"
+    },
+    {
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "Blzb-fdQZMu6Xq5JDJW0_"
+    },
+    {
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "b1r1X3XCoPSayQjDBcy54"
+    },
+    {
+      "source": "wEK77A6MPQBCBUSJKMiaY",
+      "target": "Ce-dP-OXu0mEm30rzp2hW"
+    },
+    {
+      "source": "swp4wBgA7z-sd64VDkMrw",
+      "target": "812bVEzxwTsYzLG_PmLqN"
+    },
+    {
+      "source": "swp4wBgA7z-sd64VDkMrw",
+      "target": "2Ym2jMvov0lZ79aJFaw29"
+    },
+    {
+      "source": "Ce-dP-OXu0mEm30rzp2hW",
+      "target": "XteNExIZN3_g95_dPCopY"
+    },
+    {
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "O67e2qyhxP5joR5LGyZ2N"
+    },
+    {
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "L-_N7OxxuHCXsdWYBgZGu"
+    },
+    {
+      "source": "J0ErCAZT5B97ZMogU2JHd",
+      "target": "f2DyjBIglAZ6NoHaRnlzt"
+    },
+    {
+      "source": "5l-lZ8gwVLqqAF_n99vIO",
+      "target": "90NIFfbWjTbyKZKwyJlfI"
+    },
+    {
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "qjToBaMenW3SDtEfoCbQ6"
+    },
+    {
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "oSLpy31XEcA2nRq9ks_LJ"
+    },
+    {
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "3Fh3-V1kCZtlUTvEoloIO"
+    },
+    {
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "Ix-g9pgJjEI04bSfROvlq"
+    },
+    {
+      "source": "90NIFfbWjTbyKZKwyJlfI",
+      "target": "b7ZAEqo0ZU6TNf18Bo0mI"
+    },
+    {
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "Oe9cQCz2lwSaot7miZOta"
+    },
+    {
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "CTHFGgtXFpke4aPhh5vRY"
+    },
+    {
+      "source": "b7ZAEqo0ZU6TNf18Bo0mI",
+      "target": "af7n-J7VvbdpZh9lwA773"
+    },
+    {
+      "source": "af7n-J7VvbdpZh9lwA773",
+      "target": "7WAuMMyelUbgwEHtnMmJv"
+    },
+    {
+      "source": "af7n-J7VvbdpZh9lwA773",
+      "target": "KzUmXkwrmU_ssVBjSHAiY"
+    },
+    {
+      "source": "KzUmXkwrmU_ssVBjSHAiY",
+      "target": "lzPrWD3pxQmpbqgYPL-zW"
+    },
+    {
+      "source": "KzUmXkwrmU_ssVBjSHAiY",
+      "target": "WrnjjUDXQwwMXQjmgK72U"
+    },
+    {
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "oU9I7KBZoTSXXFmYscEIq"
+    },
+    {
+      "source": "oU9I7KBZoTSXXFmYscEIq",
+      "target": "SJ01N7vMZkNiIuMYQhdpj"
+    },
+    {
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "DcmGcVlEHL4IV7yPMDpVa"
+    },
+    {
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "CvkjlOpT34lOHgzQHL40s"
+    },
+    {
+      "source": "WrnjjUDXQwwMXQjmgK72U",
+      "target": "ZLNUuDKhJ03Kw7xMVc7IR"
+    },
+    {
+      "source": "KMA7NkxFbPoUDtFnGBFnj",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    },
+    {
+      "source": "wBKp8Q5D6WhjVVsD89UHl",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    },
+    {
+      "source": "ZLNUuDKhJ03Kw7xMVc7IR",
+      "target": "M62lAWBOrTe99TfpFOQ-Y"
+    },
+    {
+      "source": "M62lAWBOrTe99TfpFOQ-Y",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    }
+  ]
+}

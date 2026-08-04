@@ -1,0 +1,978 @@
+[
+  {
+    "id": "28Iu61OKR6_3BBmO8M5lg",
+    "old_id": "q_oYxEPUvEylwjAyDA5FL",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0dVq5C16sFyWglWitQQdD",
+    "old_id": "ofcYD3hTVEMeRptkHsVer",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Vdw0GAnxhDCj_C3XDxNDF",
+    "old_id": "q_oYxEPUvEylwjAyDA5FL",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Z4MOOqNXpHkxWe0PJ7hjt",
+    "old_id": "3_CBtQLv0X6GzUEtq7jyp",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "I7PI9n8QfW9_tCWOdw7yY",
+    "old_id": "deHK6yEdytCu2ACvVC0bs",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "3_CBtQLv0X6GzUEtq7jyp",
+    "old_id": "3_CBtQLv0X6GzUEtq7jyp",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "aq0gNWINbAQFG28HLJgCF",
+    "old_id": "ofcYD3hTVEMeRptkHsVer",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Ji35JsKgUQXN4DJGEgTAC",
+    "old_id": "Ji35JsKgUQXN4DJGEgTAC",
+    "type": "title",
+    "label": "AI and Data Scientist",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "aStaDENn5PhEa-cFvNzXa",
+    "old_id": "kBdt_t2SvVsY3blfubWIz",
+    "type": "topic",
+    "label": "Mathematics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\machine-learning@kBdt_t2SvVsY3blfubWIz.md",
+    "children": []
+  },
+  {
+    "id": "4WZL_fzJ3cZdWLLDoWN8D",
+    "old_id": "4WZL_fzJ3cZdWLLDoWN8D",
+    "type": "topic",
+    "label": "Statistics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\statistics@4WZL_fzJ3cZdWLLDoWN8D.md",
+    "children": []
+  },
+  {
+    "id": "gWMvD83hVXeTmCuHGIiOL",
+    "old_id": "eOFoGKveaHaBm_6ppJUtA",
+    "type": "todo",
+    "label": "Linear Algebra, Calculus, Mathematical Analysis",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "HclEU3v8OdC_Oq7ONvApt",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Mathematics for Machine Learning",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "mwPJh33MEUQ4Co_LiVEOb",
+    "old_id": "mwPJh33MEUQ4Co_LiVEOb",
+    "type": "todo",
+    "label": "Differential Calculus ",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Py2ZgxmPRQ620cuOj_Cig",
+    "old_id": "Py2ZgxmPRQ620cuOj_Cig",
+    "type": "resourceButton",
+    "label": "Coursera: Algebra and Differential Calculus",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Y9YJdARIRqqCBCy3GVYdA",
+    "old_id": "n2JFGwFxTuOviW6kHO1Uv",
+    "type": "todo",
+    "label": "Statistics, CLT",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "O-9EsoKrMpfkcGIBKnSty",
+    "old_id": "R0lIHKW2JmXQp79hoGU6x",
+    "type": "resourceButton",
+    "label": "Coursera: Introduction to Statistics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "XJXIkWVDIrPJ-bVIvX0ZO",
+    "old_id": "n2JFGwFxTuOviW6kHO1Uv",
+    "type": "todo",
+    "label": "Hypothesis Testing",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "5_wxpYdzweUkSMugiKV94",
+    "old_id": "R0lIHKW2JmXQp79hoGU6x",
+    "type": "resourceButton",
+    "label": "Coursera: Hypothesis Testing",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "jxJtwbiCvxHqmkWkE7zdx",
+    "old_id": "n2JFGwFxTuOviW6kHO1Uv",
+    "type": "todo",
+    "label": "Probability and Sampling",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "jIeLbbE0KYjoQo0t0CVXm",
+    "old_id": "R0lIHKW2JmXQp79hoGU6x",
+    "type": "resourceButton",
+    "label": "Coursera: Probability and Statistics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "mJq9b50MJM9o9dLhx40iN",
+    "old_id": "n2JFGwFxTuOviW6kHO1Uv",
+    "type": "todo",
+    "label": "AB Testing",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "lrDei3AUInJZ1ISDxOxdT",
+    "old_id": "bdAl2ne0fsE1R02wWdIK9",
+    "type": "resourceButton",
+    "label": "Practitioner's Guide to Statistical Tests",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "R0lIHKW2JmXQp79hoGU6x",
+    "old_id": "Py2ZgxmPRQ620cuOj_Cig",
+    "type": "resourceButton",
+    "label": "Step by Step Process for Planning an A/B Test",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "v68nwX914qCwHDSwY_ZhG",
+    "old_id": "n2JFGwFxTuOviW6kHO1Uv",
+    "type": "todo",
+    "label": "Increasing Test Sensitivity",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "G6wxStgN1ShtD6RR2xVc-",
+    "old_id": "bdAl2ne0fsE1R02wWdIK9",
+    "type": "resourceButton",
+    "label": "Minimum Detectable Effect",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Pu6kiJ0YOvtD6AypKWkfJ",
+    "old_id": "bdAl2ne0fsE1R02wWdIK9",
+    "type": "resourceButton",
+    "label": "Paper: Improving Test Sensitivity",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "usXkw57ukCuc9gAw6E5Td",
+    "old_id": "bdAl2ne0fsE1R02wWdIK9",
+    "type": "resourceButton",
+    "label": "Paper: Improving Sensitivity (CUPED)",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "T0suD_0uw6nSq7NOFBoNQ",
+    "old_id": "bdAl2ne0fsE1R02wWdIK9",
+    "type": "resourceButton",
+    "label": "CUPED at Booking.com",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Vx5zD4Y-6yLxorD8kNvop",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Doordash: CUPAC",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "bdAl2ne0fsE1R02wWdIK9",
+    "old_id": "R0lIHKW2JmXQp79hoGU6x",
+    "type": "resourceButton",
+    "label": "Netflix: Stratification",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "n2JFGwFxTuOviW6kHO1Uv",
+    "old_id": "mwPJh33MEUQ4Co_LiVEOb",
+    "type": "todo",
+    "label": "Ratio Metrics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "nW_wSh-PoSlmOONP48UDD",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Microsoft: Delta Method in Metric Analytics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "KiaiatCPngkVem7Bw3s0T",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Paper: Ratio Metrics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "o_Ddc5iv9y4ZLUjmUTvP-",
+    "old_id": "wOqfPAZ24GxUrkxVRRyT5",
+    "type": "label",
+    "label": "1",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "B3ZzcZspEctJ2kX6At0tb",
+    "old_id": "qRxvTDjpoW1GuQ771syXb",
+    "type": "label",
+    "label": "2",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Io-XP7K1_siYDrlwFmbEx",
+    "old_id": "wOqfPAZ24GxUrkxVRRyT5",
+    "type": "label",
+    "label": "3",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Gd2egqKZPnbPW1W2jw4j8",
+    "old_id": "kBdt_t2SvVsY3blfubWIz",
+    "type": "topic",
+    "label": "Econometrics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\machine-learning@kBdt_t2SvVsY3blfubWIz.md",
+    "children": []
+  },
+  {
+    "id": "GFlPWkEVwPlxPhOitG1xH",
+    "old_id": "GFlPWkEVwPlxPhOitG1xH",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "_uOgVh3d8lAlbTgYNJFpt",
+    "old_id": "Xd_mdvQdbCWcucpSTcDz1",
+    "type": "label",
+    "label": ">",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "qRxvTDjpoW1GuQ771syXb",
+    "old_id": "qRxvTDjpoW1GuQ771syXb",
+    "type": "label",
+    "label": ">",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "TAN0BhW1tm0t3eNHOmOZ8",
+    "old_id": "93tag4KlRPagkbdpY4lVT",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "5wqI-L_vEpqtvXZEAbfqE",
+    "old_id": "93tag4KlRPagkbdpY4lVT",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "hvFSTxMfMXPysDinI0oH8",
+    "old_id": "SG6DkcQM4NdgTSu2MR8Q5",
+    "type": "label",
+    "label": "<",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "YT5_iofe0kQ-wVjd54RT8",
+    "old_id": "YT5_iofe0kQ-wVjd54RT8",
+    "type": "label",
+    "label": "<",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ct0yUXFnbSXCw4HGIh3hh",
+    "old_id": "Jsyv0X1BPlP0Vi_oklxHA",
+    "type": "label",
+    "label": "^",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "_-qXa7MhA16X2BBdaWw4f",
+    "old_id": "_-qXa7MhA16X2BBdaWw4f",
+    "type": "label",
+    "label": "^",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "EyjiTmb9kck4OoNtbde1x",
+    "old_id": "Jsyv0X1BPlP0Vi_oklxHA",
+    "type": "label",
+    "label": "^",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "WmbvaP_zRGs_WhYK30YqM",
+    "old_id": "qRxvTDjpoW1GuQ771syXb",
+    "type": "label",
+    "label": "<",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "y6xXsc-uSAmRDnNuyhqH2",
+    "old_id": "eOFoGKveaHaBm_6ppJUtA",
+    "type": "todo",
+    "label": "Pre-requisites of Econometrics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2rt4WE9cE93K6vDM-c-IL",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Fundamentals of Econometrics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "h19k9Fn5XPh3_pKEC8Ftp",
+    "old_id": "eOFoGKveaHaBm_6ppJUtA",
+    "type": "todo",
+    "label": "Regression, Timeseries, Fitting Distributions",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Eu7OT0Q7mtrMseUVumGXA",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Intro to Econometrics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "hVOt_Ya86r_SIXJBkLXBj",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Coursera: Econometrics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "YU_5XufdA-zfhM0fXxGYs",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Kaggle: Learn Time Series",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "9mB3u8st5yhM7HfVWWqFZ",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Kaggle: Time Series Basics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "FwuC8d9ocHeDxi8MSIPH6",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "ARIMA model for Time Series",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "53Z3qm-zP4u7_KqSD_XlB",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Time Series Models",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "LVLv69h57rnKPKpa0Cj4h",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Forecasting Task with Solution",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "FrY1Yl6yvLYA5zjBNKRVx",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Coursera: Linear Regression",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "XLDWuSt4tI4gnmqMFdpmy",
+    "old_id": "Qa85hEVe2kz62k9Pj4QCA",
+    "type": "topic",
+    "label": "Coding",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\mlops@Qa85hEVe2kz62k9Pj4QCA.md",
+    "children": []
+  },
+  {
+    "id": "z9R4_7UWeLz66RptYvcEI",
+    "old_id": "Jsyv0X1BPlP0Vi_oklxHA",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "AIFkyjgGB7AXmCG6D1bzs",
+    "old_id": "Jsyv0X1BPlP0Vi_oklxHA",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Jsyv0X1BPlP0Vi_oklxHA",
+    "old_id": "_-qXa7MhA16X2BBdaWw4f",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MVrAqizgkoAs2aghN8TgV",
+    "old_id": "uPzzUpI0--7OWDfNeBIjt",
+    "type": "todo",
+    "label": "Learn Python Programming Language",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "aRYOzyqvWmarRmNaPKqxI",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Learn Python: Kaggle",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "eUQRHOSQq0hjwH0LuGDqY",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Google's Python Class",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "R2WD0NKP7oM27aHr9SpO6",
+    "old_id": "iJv3Ii5B5TK8i5mN2mLs2",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "36wmSfRpWOnprqPo4C7QA",
+    "old_id": "iJv3Ii5B5TK8i5mN2mLs2",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "StBCykpzpM4g9PRFeSNXa",
+    "old_id": "eOFoGKveaHaBm_6ppJUtA",
+    "type": "todo",
+    "label": "Data Structures and Algorithms (Python)",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "lhLL1ycUWgeX_d5gd-g8g",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Study Plans - Leetcode",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "4_5Q9PesKAtnLlT-NAm3z",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Algorithmic Excercises",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Bh3vUHjY9So8vWli_464_",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Algorithms Specialization",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Im0tXXn3GC-FUq2aMHgwm",
+    "old_id": "eOFoGKveaHaBm_6ppJUtA",
+    "type": "todo",
+    "label": "Learn SQL",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "22XRxoVJX-hIdinkFICPU",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "SQL Tutorial",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "l1027SBZxTHKzqWw98Ee-",
+    "old_id": "kBdt_t2SvVsY3blfubWIz",
+    "type": "topic",
+    "label": "Exploratory Data Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\machine-learning@kBdt_t2SvVsY3blfubWIz.md",
+    "children": []
+  },
+  {
+    "id": "YJ2fIGILZJjobx5CAD6QW",
+    "old_id": "wOqfPAZ24GxUrkxVRRyT5",
+    "type": "label",
+    "label": "5",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "JaN8YhMeN3whAe2TCXvw9",
+    "old_id": "uPzzUpI0--7OWDfNeBIjt",
+    "type": "todo",
+    "label": "Data understanding, Data Analysis and Visualization",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "wG3LU8181BGihDVYJVI09",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Exploratory Data Analysis with Python and Pandas",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "R4MhS5WFGaGOLNq6SRpy0",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Exploratory Data Analysis for Machine Learning",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "mpPs2k7oT7EWrhQwaoPXr",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Python for Data Visualization: Matplotlib & Seaborn",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ofcYD3hTVEMeRptkHsVer",
+    "old_id": "GFlPWkEVwPlxPhOitG1xH",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "kBdt_t2SvVsY3blfubWIz",
+    "old_id": "4WZL_fzJ3cZdWLLDoWN8D",
+    "type": "topic",
+    "label": "Machine Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\statistics@4WZL_fzJ3cZdWLLDoWN8D.md",
+    "children": []
+  },
+  {
+    "id": "wOqfPAZ24GxUrkxVRRyT5",
+    "old_id": "qRxvTDjpoW1GuQ771syXb",
+    "type": "label",
+    "label": "6",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "oeNjgke33Daibit1E6Rqr",
+    "old_id": "q_oYxEPUvEylwjAyDA5FL",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "FdBih8tlGPPy97YWq463y",
+    "old_id": "uPzzUpI0--7OWDfNeBIjt",
+    "type": "todo",
+    "label": "Classic ML (Sup., Unsup.), Advanced ML (Ensembles, NNs)",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MyBAdtFSNVOnpw1BPQNky",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Open Machine Learning Course - Open Data Science",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "qCjcQWK1RGUU6K3dljow2",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Machine Learning Specialization",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "erDpbh0iRTfoUQrU4uEMs",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "Pattern Recognition & ML by Christopher m. Bishop",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "9yKXxruT8s9KBEFf_Twd0",
+    "old_id": "bsj2IHFXur-qqDSI4B1wg",
+    "type": "resourceButton",
+    "label": "GitHub repository with notes & code from the eBook above",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "41yv5UhFw3kHIrAMQb6qy",
+    "old_id": "deHK6yEdytCu2ACvVC0bs",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "cjvVLN0XjrKPn6o20oMmc",
+    "old_id": "Qa85hEVe2kz62k9Pj4QCA",
+    "type": "topic",
+    "label": "Deep Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\mlops@Qa85hEVe2kz62k9Pj4QCA.md",
+    "children": []
+  },
+  {
+    "id": "rarV0SS26NyqAHkYeqsfa",
+    "old_id": "Sehg_WX_mnMCRlKrvwWzc",
+    "type": "label",
+    "label": "7",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iJv3Ii5B5TK8i5mN2mLs2",
+    "old_id": "iJv3Ii5B5TK8i5mN2mLs2",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "eOFoGKveaHaBm_6ppJUtA",
+    "old_id": "n2JFGwFxTuOviW6kHO1Uv",
+    "type": "todo",
+    "label": "Fully Connected, CNN, RNN, LSTM, Transformers, TL",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "4TyV6lDCVCOIOhmY9bgPC",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Deep Learning Specialization",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-rl87TRJZTWqbQmW95NAi",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Deep Learning Book",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "54pd0lYYLvuNYmuaOZbrT",
+    "old_id": "lm3BCmHTcd-_cOIc_dDmU",
+    "type": "resourceButton",
+    "label": "Attention is all you need",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "lm3BCmHTcd-_cOIc_dDmU",
+    "old_id": "R0lIHKW2JmXQp79hoGU6x",
+    "type": "resourceButton",
+    "label": "The Illustrated Transformer",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "deHK6yEdytCu2ACvVC0bs",
+    "old_id": "ofcYD3hTVEMeRptkHsVer",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "C85MXDnb-d0eVur0DLGr-",
+    "old_id": "q_oYxEPUvEylwjAyDA5FL",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Sehg_WX_mnMCRlKrvwWzc",
+    "old_id": "wOqfPAZ24GxUrkxVRRyT5",
+    "type": "label",
+    "label": "8",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Qa85hEVe2kz62k9Pj4QCA",
+    "old_id": "kBdt_t2SvVsY3blfubWIz",
+    "type": "topic",
+    "label": "MLOps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\machine-learning@kBdt_t2SvVsY3blfubWIz.md",
+    "children": []
+  },
+  {
+    "id": "bsj2IHFXur-qqDSI4B1wg",
+    "old_id": "bdAl2ne0fsE1R02wWdIK9",
+    "type": "resourceButton",
+    "label": "MLOps Specialization",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "uPzzUpI0--7OWDfNeBIjt",
+    "old_id": "eOFoGKveaHaBm_6ppJUtA",
+    "type": "todo",
+    "label": "Deployment Models, CI/CD",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "q_oYxEPUvEylwjAyDA5FL",
+    "old_id": "ofcYD3hTVEMeRptkHsVer",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "qnjDifLlSYoxWd5GmuQXd",
+    "old_id": "qnjDifLlSYoxWd5GmuQXd",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0bn7U-9YoeOqPXTnrMpfz",
+    "old_id": "FGJcnSeI5Fgn2bxfY9DEd",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "13tRO2lYWb0m8LwjAcdIY",
+    "old_id": "FGJcnSeI5Fgn2bxfY9DEd",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "uBSNhZB4PuEKY1bkzoZGG",
+    "old_id": "Xd_mdvQdbCWcucpSTcDz1",
+    "type": "label",
+    "label": ">",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-5YUJmODVX62RchBu-G0y",
+    "old_id": "Xd_mdvQdbCWcucpSTcDz1",
+    "type": "label",
+    "label": ">",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "wt-ifu9mv7Ydc_-Gaqv-V",
+    "old_id": "SG6DkcQM4NdgTSu2MR8Q5",
+    "type": "label",
+    "label": "<",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "93tag4KlRPagkbdpY4lVT",
+    "old_id": "qRxvTDjpoW1GuQ771syXb",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "DEW_GsNVEf75P63SvEQwB",
+    "old_id": "SG6DkcQM4NdgTSu2MR8Q5",
+    "type": "label",
+    "label": "<",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "nAi-ndQiOiYCuAMqtDZ1I",
+    "old_id": "SG6DkcQM4NdgTSu2MR8Q5",
+    "type": "label",
+    "label": "<",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ftUWZ9y0YFc4geCEaCEAq",
+    "old_id": "Xd_mdvQdbCWcucpSTcDz1",
+    "type": "label",
+    "label": ">",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "SG6DkcQM4NdgTSu2MR8Q5",
+    "old_id": "YT5_iofe0kQ-wVjd54RT8",
+    "type": "label",
+    "label": "<",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "FGJcnSeI5Fgn2bxfY9DEd",
+    "old_id": "Jsyv0X1BPlP0Vi_oklxHA",
+    "type": "label",
+    "label": "V",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PV5ACkfJLhJOUZ2qnobhZ",
+    "old_id": "Xd_mdvQdbCWcucpSTcDz1",
+    "type": "label",
+    "label": ">",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Xd_mdvQdbCWcucpSTcDz1",
+    "old_id": "WmbvaP_zRGs_WhYK30YqM",
+    "type": "label",
+    "label": ">",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "IDGTOlC_h3rt_3ZF4x8bG",
+    "old_id": "IDGTOlC_h3rt_3ZF4x8bG",
+    "type": "label",
+    "label": "Keep Learning",
+    "resources": [],
+    "children": []
+  }
+]

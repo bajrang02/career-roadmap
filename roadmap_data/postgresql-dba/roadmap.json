@@ -1,0 +1,1838 @@
+{
+  "slug": "postgresql-dba",
+  "title": "Postgresql Dba",
+  "nodes": [
+    {
+      "id": "LyLFP5Kqx60f2ABDGTA-c",
+      "old_id": "LyLFP5Kqx60f2ABDGTA-c",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "nqRjLCEL647UnNdBfNXY9",
+      "old_id": "nqRjLCEL647UnNdBfNXY9",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "QfyHG6cVuKQ3iqdEtoFSU",
+      "old_id": "QfyHG6cVuKQ3iqdEtoFSU",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "PO-0otvLzR0IdSjr3qrHi",
+      "old_id": "V9-jvWUQjcjFWO14IwsuU",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "uhaumgDGlmTZxRGoZ_R0Z",
+      "old_id": "uhaumgDGlmTZxRGoZ_R0Z",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "1zofI1RXzy1el0L0Pjxtx",
+      "old_id": "1zofI1RXzy1el0L0Pjxtx",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "L4zzOZ0ZQnziJTXiOeMhP",
+      "old_id": "L4zzOZ0ZQnziJTXiOeMhP",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "xi5uZ_VOH4rVNu_0ZLAX9",
+      "old_id": "xi5uZ_VOH4rVNu_0ZLAX9",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "cc_6hISv1nfvZb0UXierZ",
+      "old_id": "cc_6hISv1nfvZb0UXierZ",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "92MmgBQ4x0d2GeDCVtCNN",
+      "old_id": "92MmgBQ4x0d2GeDCVtCNN",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Ah3lQJ1nNiHmclKD3E25r",
+      "old_id": "Ah3lQJ1nNiHmclKD3E25r",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "T83jSeQ6bB_lW1WIH3GWv",
+      "old_id": "T83jSeQ6bB_lW1WIH3GWv",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+      "type": "title",
+      "label": "PostgreSQL",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "lDIy56RyC1XM7IfORsSLD",
+      "old_id": "lDIy56RyC1XM7IfORsSLD",
+      "type": "topic",
+      "label": "Introduction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\introduction@lDIy56RyC1XM7IfORsSLD.md"
+    },
+    {
+      "id": "soar-NBWCr4xVKj7ttfnc",
+      "old_id": "soar-NBWCr4xVKj7ttfnc",
+      "type": "subtopic",
+      "label": "What are Relational Databases?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\what-are-relational-databases@soar-NBWCr4xVKj7ttfnc.md"
+    },
+    {
+      "id": "p3AmRr_y_ZBKzAU5eh7OU",
+      "old_id": "p3AmRr_y_ZBKzAU5eh7OU",
+      "type": "subtopic",
+      "label": "RDBMS Benefits and Limitations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\rdbms-benefits-and-limitations@p3AmRr_y_ZBKzAU5eh7OU.md"
+    },
+    {
+      "id": "IAKERTzTpTds5kZLMCapM",
+      "old_id": "IAKERTzTpTds5kZLMCapM",
+      "type": "subtopic",
+      "label": "PostgreSQL vs Other RDBMS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\postgresql-vs-other-rdbms@IAKERTzTpTds5kZLMCapM.md"
+    },
+    {
+      "id": "D0doJTtLu-1MmFOfavCXN",
+      "old_id": "D0doJTtLu-1MmFOfavCXN",
+      "type": "subtopic",
+      "label": "PostgreSQL vs NoSQL Databases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\postgresql-vs-nosql-databases@D0doJTtLu-1MmFOfavCXN.md"
+    },
+    {
+      "id": "-M9EFgiDSSAzj9ISk-aeh",
+      "old_id": "VjQ71xorBoxxDn-wSmUjm",
+      "type": "topic",
+      "label": "Basic RDBMS Concepts",
+      "resources": []
+    },
+    {
+      "id": "RoYP1tYw5dvhmkVTo1HS-",
+      "old_id": "_BSR2mo1lyXEFXbKYb1ZG",
+      "type": "topic",
+      "label": "Object Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\high-level-database-concepts@_BSR2mo1lyXEFXbKYb1ZG.md"
+    },
+    {
+      "id": "xVocG4LuFdtphwoOxiJTa",
+      "old_id": "xVocG4LuFdtphwoOxiJTa",
+      "type": "subtopic",
+      "label": "Queries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\queries@xVocG4LuFdtphwoOxiJTa.md"
+    },
+    {
+      "id": "4Pw7udOMIsiaKr7w9CRxc",
+      "old_id": "4Pw7udOMIsiaKr7w9CRxc",
+      "type": "subtopic",
+      "label": "Data Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\data-types@4Pw7udOMIsiaKr7w9CRxc.md"
+    },
+    {
+      "id": "Rd3RLpyLMGQZzrxQrxDGo",
+      "old_id": "Rd3RLpyLMGQZzrxQrxDGo",
+      "type": "subtopic",
+      "label": "Rows",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\rows@Rd3RLpyLMGQZzrxQrxDGo.md"
+    },
+    {
+      "id": "cty2IjgS1BWltbYmuxxuV",
+      "old_id": "cty2IjgS1BWltbYmuxxuV",
+      "type": "subtopic",
+      "label": "Columns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\columns@cty2IjgS1BWltbYmuxxuV.md"
+    },
+    {
+      "id": "W8NhR4SqteMLfso8AD6H8",
+      "old_id": "W8NhR4SqteMLfso8AD6H8",
+      "type": "subtopic",
+      "label": "Tables",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\tables@W8NhR4SqteMLfso8AD6H8.md"
+    },
+    {
+      "id": "mF6qAlo2ULJ3lECG2m0h7",
+      "old_id": "mF6qAlo2ULJ3lECG2m0h7",
+      "type": "subtopic",
+      "label": "Schemas",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\schemas@mF6qAlo2ULJ3lECG2m0h7.md"
+    },
+    {
+      "id": "DU-D3-j9h6i9Nj5ci8hlX",
+      "old_id": "Qk14b9WyeCp9RV9WAwojt",
+      "type": "subtopic",
+      "label": "Databases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\query-processing@Qk14b9WyeCp9RV9WAwojt.md"
+    },
+    {
+      "id": "mDVbjdVN0spY7dI_8k1YW",
+      "old_id": "_BSR2mo1lyXEFXbKYb1ZG",
+      "type": "topic",
+      "label": "Relational Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\high-level-database-concepts@_BSR2mo1lyXEFXbKYb1ZG.md"
+    },
+    {
+      "id": "-LuxJvI5IaOx6NqzK0d8S",
+      "old_id": "-LuxJvI5IaOx6NqzK0d8S",
+      "type": "subtopic",
+      "label": "Domains",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\domains@-LuxJvI5IaOx6NqzK0d8S.md"
+    },
+    {
+      "id": "XvZMSveMWqmAlXOxwWzdk",
+      "old_id": "XvZMSveMWqmAlXOxwWzdk",
+      "type": "subtopic",
+      "label": "Attributes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\attributes@XvZMSveMWqmAlXOxwWzdk.md"
+    },
+    {
+      "id": "vJhvgGwNV3JB-wWn_0gMb",
+      "old_id": "vJhvgGwNV3JB-wWn_0gMb",
+      "type": "subtopic",
+      "label": "Tuples",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\tuples@vJhvgGwNV3JB-wWn_0gMb.md"
+    },
+    {
+      "id": "2hM2IPAnNYq-LlEbcFp2Z",
+      "old_id": "2hM2IPAnNYq-LlEbcFp2Z",
+      "type": "subtopic",
+      "label": "Relations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\relations@2hM2IPAnNYq-LlEbcFp2Z.md"
+    },
+    {
+      "id": "j9ikSpCD3yM5pTRFuJjZs",
+      "old_id": "j9ikSpCD3yM5pTRFuJjZs",
+      "type": "subtopic",
+      "label": "Constraints",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\constraints@j9ikSpCD3yM5pTRFuJjZs.md"
+    },
+    {
+      "id": "91eOGK8mtJulWRlhKyv0F",
+      "old_id": "91eOGK8mtJulWRlhKyv0F",
+      "type": "subtopic",
+      "label": "NULL",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\null@91eOGK8mtJulWRlhKyv0F.md"
+    },
+    {
+      "id": "_BSR2mo1lyXEFXbKYb1ZG",
+      "old_id": "_BSR2mo1lyXEFXbKYb1ZG",
+      "type": "topic",
+      "label": "High Level Database Concepts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\high-level-database-concepts@_BSR2mo1lyXEFXbKYb1ZG.md"
+    },
+    {
+      "id": "9u7DPbfybqmldisiePq0m",
+      "old_id": "9u7DPbfybqmldisiePq0m",
+      "type": "subtopic",
+      "label": "ACID",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\acid@9u7DPbfybqmldisiePq0m.md"
+    },
+    {
+      "id": "-_ADJsTVGAgXq7_-8bdIO",
+      "old_id": "-_ADJsTVGAgXq7_-8bdIO",
+      "type": "subtopic",
+      "label": "MVCC",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\mvcc@-_ADJsTVGAgXq7_-8bdIO.md"
+    },
+    {
+      "id": "yFG_hVD3dB_qK8yphrRY5",
+      "old_id": "yFG_hVD3dB_qK8yphrRY5",
+      "type": "subtopic",
+      "label": "Transactions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\transactions@yFG_hVD3dB_qK8yphrRY5.md"
+    },
+    {
+      "id": "9sadNsbHLqejbRPHWhx-w",
+      "old_id": "Qk14b9WyeCp9RV9WAwojt",
+      "type": "subtopic",
+      "label": "Write-ahead Log",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\query-processing@Qk14b9WyeCp9RV9WAwojt.md"
+    },
+    {
+      "id": "Qk14b9WyeCp9RV9WAwojt",
+      "old_id": "Qk14b9WyeCp9RV9WAwojt",
+      "type": "subtopic",
+      "label": "Query Processing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\query-processing@Qk14b9WyeCp9RV9WAwojt.md"
+    },
+    {
+      "id": "5MjJIAcn5zABCK6JsFf4k",
+      "old_id": "5MjJIAcn5zABCK6JsFf4k",
+      "type": "subtopic",
+      "label": "Using Docker",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\using-docker@5MjJIAcn5zABCK6JsFf4k.md"
+    },
+    {
+      "id": "pEtQy1nuW98YUwrbfs7Np",
+      "old_id": "pEtQy1nuW98YUwrbfs7Np",
+      "type": "subtopic",
+      "label": "Package Managers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\package-managers@pEtQy1nuW98YUwrbfs7Np.md"
+    },
+    {
+      "id": "mMf2Mq9atIKk37IMWuoJs",
+      "old_id": "mMf2Mq9atIKk37IMWuoJs",
+      "type": "subtopic",
+      "label": "Connect using `psql`",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\connect-using-psql@mMf2Mq9atIKk37IMWuoJs.md"
+    },
+    {
+      "id": "6SCcxpkpLmmRe0rS8WAPZ",
+      "old_id": "6SCcxpkpLmmRe0rS8WAPZ",
+      "type": "subtopic",
+      "label": "Deployment in Cloud",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\deployment-in-cloud@6SCcxpkpLmmRe0rS8WAPZ.md"
+    },
+    {
+      "id": "7OIljP-vhWasB78rZPEGQ",
+      "old_id": "7OIljP-vhWasB78rZPEGQ",
+      "type": "label",
+      "label": "Managing Postgres",
+      "resources": []
+    },
+    {
+      "id": "P1Hm6ZlrhCRxbxOJkBHlL",
+      "old_id": "P1Hm6ZlrhCRxbxOJkBHlL",
+      "type": "subtopic",
+      "label": "Using `systemd`",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\using-systemd@P1Hm6ZlrhCRxbxOJkBHlL.md"
+    },
+    {
+      "id": "a4j0Rs8Tl6-k9WP5zjaep",
+      "old_id": "a4j0Rs8Tl6-k9WP5zjaep",
+      "type": "subtopic",
+      "label": "Using `pg_ctl`",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\using-pg_ctl@a4j0Rs8Tl6-k9WP5zjaep.md"
+    },
+    {
+      "id": "v3SoKmeCh6uxKW5GAAMje",
+      "old_id": "v3SoKmeCh6uxKW5GAAMje",
+      "type": "subtopic",
+      "label": "Using `pg_ctlcluster`",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\using-pg_ctlcluster@v3SoKmeCh6uxKW5GAAMje.md"
+    },
+    {
+      "id": "hftk9puFrq1P-LSVAupLm",
+      "old_id": "hftk9puFrq1P-LSVAupLm",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "FtPiBWMFhjakyXsmSL_CI",
+      "old_id": "VjQ71xorBoxxDn-wSmUjm",
+      "type": "topic",
+      "label": "Installation and Setup",
+      "resources": []
+    },
+    {
+      "id": "ANUgfkADLI_du7iRvnUdi",
+      "old_id": "VjQ71xorBoxxDn-wSmUjm",
+      "type": "topic",
+      "label": "Learn SQL",
+      "resources": []
+    },
+    {
+      "id": "h0v46Glkt60lHmdq5B5mY",
+      "old_id": "h0v46Glkt60lHmdq5B5mY",
+      "type": "label",
+      "label": "DDL Queries",
+      "resources": []
+    },
+    {
+      "id": "KMdF9efNGULualk5o1W0_",
+      "old_id": "KMdF9efNGULualk5o1W0_",
+      "type": "subtopic",
+      "label": "For Schemas",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\for-schemas@KMdF9efNGULualk5o1W0_.md"
+    },
+    {
+      "id": "ga8ZiuPc42XvZ3-iVh8T1",
+      "old_id": "ga8ZiuPc42XvZ3-iVh8T1",
+      "type": "subtopic",
+      "label": "ForTables",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\fortables@ga8ZiuPc42XvZ3-iVh8T1.md"
+    },
+    {
+      "id": "fvEgtFP7xvkq_D4hYw3gz",
+      "old_id": "fvEgtFP7xvkq_D4hYw3gz",
+      "type": "subtopic",
+      "label": "Data Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\data-types@fvEgtFP7xvkq_D4hYw3gz.md"
+    },
+    {
+      "id": "FeqeChgV-XTMJD4slWfni",
+      "old_id": "h0v46Glkt60lHmdq5B5mY",
+      "type": "label",
+      "label": "DML Queries",
+      "resources": []
+    },
+    {
+      "id": "BEJyz0ohCglDucxfyuAy4",
+      "old_id": "KMdF9efNGULualk5o1W0_",
+      "type": "subtopic",
+      "label": "Querying Data",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\for-schemas@KMdF9efNGULualk5o1W0_.md"
+    },
+    {
+      "id": "dd2lTNsNzYdfB7rRFMNmC",
+      "old_id": "ga8ZiuPc42XvZ3-iVh8T1",
+      "type": "subtopic",
+      "label": "Filtering Data",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\fortables@ga8ZiuPc42XvZ3-iVh8T1.md"
+    },
+    {
+      "id": "G2NKhjlZqAY9l32H0LPNQ",
+      "old_id": "umNNMpJh4Al1dEpT6YkrA",
+      "type": "subtopic",
+      "label": "Modifying Data",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\import--export-using-copy@umNNMpJh4Al1dEpT6YkrA.md"
+    },
+    {
+      "id": "Hura0LImG9pyPxaEIDo3X",
+      "old_id": "umNNMpJh4Al1dEpT6YkrA",
+      "type": "subtopic",
+      "label": "Joining Tables",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\import--export-using-copy@umNNMpJh4Al1dEpT6YkrA.md"
+    },
+    {
+      "id": "umNNMpJh4Al1dEpT6YkrA",
+      "old_id": "fvEgtFP7xvkq_D4hYw3gz",
+      "type": "subtopic",
+      "label": "Import / Export Using `COPY`",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\data-types@fvEgtFP7xvkq_D4hYw3gz.md"
+    },
+    {
+      "id": "ghgyAXJ72dZmF2JpDvu9U",
+      "old_id": "_wTgE6bRG5FsjKSnR3UdQ",
+      "type": "subtopic",
+      "label": "Transactions",
+      "resources": []
+    },
+    {
+      "id": "_Y-omKcWZOxto-xJka7su",
+      "old_id": "_Y-omKcWZOxto-xJka7su",
+      "type": "subtopic",
+      "label": "Subqueries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\subqueries@_Y-omKcWZOxto-xJka7su.md"
+    },
+    {
+      "id": "uwd_CaeHQQ3ZWojbmtbPh",
+      "old_id": "uwd_CaeHQQ3ZWojbmtbPh",
+      "type": "subtopic",
+      "label": "Grouping",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\grouping@uwd_CaeHQQ3ZWojbmtbPh.md"
+    },
+    {
+      "id": "fsZvmH210bC_3dBD_X8-z",
+      "old_id": "fsZvmH210bC_3dBD_X8-z",
+      "type": "subtopic",
+      "label": "CTE",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\cte@fsZvmH210bC_3dBD_X8-z.md"
+    },
+    {
+      "id": "fTsoMSLcXU1mgd5-vekbT",
+      "old_id": "fTsoMSLcXU1mgd5-vekbT",
+      "type": "subtopic",
+      "label": "Lateral Join",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\lateral-join@fTsoMSLcXU1mgd5-vekbT.md"
+    },
+    {
+      "id": "kOwhnSZBwIhIbIsoAXQ50",
+      "old_id": "kOwhnSZBwIhIbIsoAXQ50",
+      "type": "subtopic",
+      "label": "Set Operations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\set-operations@kOwhnSZBwIhIbIsoAXQ50.md"
+    },
+    {
+      "id": "JA4Ltc-6oE7kqbP5TvQGO",
+      "old_id": "JA4Ltc-6oE7kqbP5TvQGO",
+      "type": "label",
+      "label": "Advanced Topics",
+      "resources": []
+    },
+    {
+      "id": "T819BZ-CZgUX_BY7Gna0J",
+      "old_id": "VjQ71xorBoxxDn-wSmUjm",
+      "type": "topic",
+      "label": "Configuring",
+      "resources": []
+    },
+    {
+      "id": "yl3gxfQs4nOE0N7uGqR0d",
+      "old_id": "VAf9VzPx70hUf4H6i3Z2t",
+      "type": "subtopic",
+      "label": "Resource Usage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\adding-extra-extensions@VAf9VzPx70hUf4H6i3Z2t.md"
+    },
+    {
+      "id": "9VmQ-vN3nPyf1pTFIcj40",
+      "old_id": "9VmQ-vN3nPyf1pTFIcj40",
+      "type": "subtopic",
+      "label": "Write-ahead Log",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\write-ahead-log@9VmQ-vN3nPyf1pTFIcj40.md"
+    },
+    {
+      "id": "zoaqBP0Jbf0HpTH8Q3LkJ",
+      "old_id": "zoaqBP0Jbf0HpTH8Q3LkJ",
+      "type": "subtopic",
+      "label": "Vacuums",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\vacuums@zoaqBP0Jbf0HpTH8Q3LkJ.md"
+    },
+    {
+      "id": "A3YTrZSUxNBq77iIrNdZ4",
+      "old_id": "A3YTrZSUxNBq77iIrNdZ4",
+      "type": "subtopic",
+      "label": "Replication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\replication@A3YTrZSUxNBq77iIrNdZ4.md"
+    },
+    {
+      "id": "hOPwVdIzesselbsI_rRxt",
+      "old_id": "hOPwVdIzesselbsI_rRxt",
+      "type": "subtopic",
+      "label": "Query Planner",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\query-planner@hOPwVdIzesselbsI_rRxt.md"
+    },
+    {
+      "id": "3pLn1mhRnekG537ejHUYA",
+      "old_id": "3pLn1mhRnekG537ejHUYA",
+      "type": "subtopic",
+      "label": "Checkpoints / Background Writer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\checkpoints--background-writer@3pLn1mhRnekG537ejHUYA.md"
+    },
+    {
+      "id": "507TY35b8iExakbBMrHgZ",
+      "old_id": "VAf9VzPx70hUf4H6i3Z2t",
+      "type": "subtopic",
+      "label": "Reporting Logging & Statistics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\adding-extra-extensions@VAf9VzPx70hUf4H6i3Z2t.md"
+    },
+    {
+      "id": "VAf9VzPx70hUf4H6i3Z2t",
+      "old_id": "VAf9VzPx70hUf4H6i3Z2t",
+      "type": "subtopic",
+      "label": "Adding Extra Extensions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\adding-extra-extensions@VAf9VzPx70hUf4H6i3Z2t.md"
+    },
+    {
+      "id": "2Zg8R5gs9LMQOcOMZtoPk",
+      "old_id": "VjQ71xorBoxxDn-wSmUjm",
+      "type": "topic",
+      "label": "Security",
+      "resources": []
+    },
+    {
+      "id": "S20aJB-VuSpXYyd0-0S8c",
+      "old_id": "S20aJB-VuSpXYyd0-0S8c",
+      "type": "subtopic",
+      "label": "Object Privileges",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\object-privileges@S20aJB-VuSpXYyd0-0S8c.md"
+    },
+    {
+      "id": "o1WSsw-ZIaAb8JF3P0mfR",
+      "old_id": "o1WSsw-ZIaAb8JF3P0mfR",
+      "type": "subtopic",
+      "label": "Grant / Revoke",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\grant--revoke@o1WSsw-ZIaAb8JF3P0mfR.md"
+    },
+    {
+      "id": "t18XjeHP4uRyERdqhHpl5",
+      "old_id": "09QX_zjCUajxUqcNZKy0x",
+      "type": "subtopic",
+      "label": "Default Privileges",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\advanced-topics@09QX_zjCUajxUqcNZKy0x.md"
+    },
+    {
+      "id": "09QX_zjCUajxUqcNZKy0x",
+      "old_id": "09QX_zjCUajxUqcNZKy0x",
+      "type": "subtopic",
+      "label": "Advanced Topics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\advanced-topics@09QX_zjCUajxUqcNZKy0x.md"
+    },
+    {
+      "id": "bokFf6VNrLcilI9Hid386",
+      "old_id": "bokFf6VNrLcilI9Hid386",
+      "type": "subtopic",
+      "label": "Row-Level Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\row-level-security@bokFf6VNrLcilI9Hid386.md"
+    },
+    {
+      "id": "GvpIJF-eaGELwcpWq5_3r",
+      "old_id": "GvpIJF-eaGELwcpWq5_3r",
+      "type": "subtopic",
+      "label": "SELinux",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\selinux@GvpIJF-eaGELwcpWq5_3r.md"
+    },
+    {
+      "id": "gb75xOcAr-q8TcA6_l1GZ",
+      "old_id": "gb75xOcAr-q8TcA6_l1GZ",
+      "type": "subtopic",
+      "label": "Authentication Models",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\authentication-models@gb75xOcAr-q8TcA6_l1GZ.md"
+    },
+    {
+      "id": "l0lpaPy12JFCJ-RRYVSqz",
+      "old_id": "l0lpaPy12JFCJ-RRYVSqz",
+      "type": "subtopic",
+      "label": "Roles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\roles@l0lpaPy12JFCJ-RRYVSqz.md"
+    },
+    {
+      "id": "Y2W29M4piaQsTn2cpyR7Q",
+      "old_id": "Y2W29M4piaQsTn2cpyR7Q",
+      "type": "subtopic",
+      "label": "pg_hba.conf",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pg_hbaconf@Y2W29M4piaQsTn2cpyR7Q.md"
+    },
+    {
+      "id": "EKwO6edtFnUw8cPCcVwKJ",
+      "old_id": "EKwO6edtFnUw8cPCcVwKJ",
+      "type": "subtopic",
+      "label": "SSL Settings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\ssl-settings@EKwO6edtFnUw8cPCcVwKJ.md"
+    },
+    {
+      "id": "zlqSX0tl7HD9C1yEGkvoM",
+      "old_id": "VjQ71xorBoxxDn-wSmUjm",
+      "type": "topic",
+      "label": "Infrastructure Skills",
+      "resources": []
+    },
+    {
+      "id": "cJYlZJ9f3kdptNrTlpMNU",
+      "old_id": "Z2PuOmgOqScGFbhvrvrA1",
+      "type": "subtopic",
+      "label": "Using `pg_upgrade`",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\postgresql-anonymizer@Z2PuOmgOqScGFbhvrvrA1.md"
+    },
+    {
+      "id": "MVVWAf9Hk3Fom-wBhO64R",
+      "old_id": "MVVWAf9Hk3Fom-wBhO64R",
+      "type": "subtopic",
+      "label": "Using Logical Replication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\using-logical-replication@MVVWAf9Hk3Fom-wBhO64R.md"
+    },
+    {
+      "id": "rNp3ZC6axkcKtAWYCPvdR",
+      "old_id": "rNp3ZC6axkcKtAWYCPvdR",
+      "type": "subtopic",
+      "label": "Simple Stateful Setup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\simple-stateful-setup@rNp3ZC6axkcKtAWYCPvdR.md"
+    },
+    {
+      "id": "QHbdwiMQ8otxnVIUVV2NT",
+      "old_id": "QHbdwiMQ8otxnVIUVV2NT",
+      "type": "subtopic",
+      "label": "Helm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\helm@QHbdwiMQ8otxnVIUVV2NT.md"
+    },
+    {
+      "id": "nRJKfjW2UrmKmVUrGIfCC",
+      "old_id": "nRJKfjW2UrmKmVUrGIfCC",
+      "type": "subtopic",
+      "label": "Operators",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\operators@nRJKfjW2UrmKmVUrGIfCC.md"
+    },
+    {
+      "id": "Z2PuOmgOqScGFbhvrvrA1",
+      "old_id": "Z2PuOmgOqScGFbhvrvrA1",
+      "type": "subtopic",
+      "label": "PostgreSQL Anonymizer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\postgresql-anonymizer@Z2PuOmgOqScGFbhvrvrA1.md"
+    },
+    {
+      "id": "V8_zJRwOX9664bUvAGgff",
+      "old_id": "V8_zJRwOX9664bUvAGgff",
+      "type": "subtopic",
+      "label": "HAProxy",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\haproxy@V8_zJRwOX9664bUvAGgff.md"
+    },
+    {
+      "id": "IkB28gO0LK1q1-KjdI9Oz",
+      "old_id": "IkB28gO0LK1q1-KjdI9Oz",
+      "type": "subtopic",
+      "label": "Consul",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\consul@IkB28gO0LK1q1-KjdI9Oz.md"
+    },
+    {
+      "id": "xk2G-HUS-dviNW3BAMmJv",
+      "old_id": "xk2G-HUS-dviNW3BAMmJv",
+      "type": "subtopic",
+      "label": "KeepAlived",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\keepalived@xk2G-HUS-dviNW3BAMmJv.md"
+    },
+    {
+      "id": "kCw6oEVGdKokCz4wYizIT",
+      "old_id": "kCw6oEVGdKokCz4wYizIT",
+      "type": "subtopic",
+      "label": "Etcd",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\etcd@kCw6oEVGdKokCz4wYizIT.md"
+    },
+    {
+      "id": "XmBeM01NAy-_nfyNdk9ZV",
+      "old_id": "XmBeM01NAy-_nfyNdk9ZV",
+      "type": "subtopic",
+      "label": "Prometheus",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\prometheus@XmBeM01NAy-_nfyNdk9ZV.md"
+    },
+    {
+      "id": "z3VD68R2uyu1s-3giRxKr",
+      "old_id": "z3VD68R2uyu1s-3giRxKr",
+      "type": "subtopic",
+      "label": "Zabbix",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\zabbix@z3VD68R2uyu1s-3giRxKr.md"
+    },
+    {
+      "id": "WiOgUt5teG9UVRa6zo4h3",
+      "old_id": "SNnc8CIKuHUAEZaJ_qEar",
+      "type": "subtopic",
+      "label": "check_pgactivity",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\resource-usage--provisioning--capacity-planning@SNnc8CIKuHUAEZaJ_qEar.md"
+    },
+    {
+      "id": "aXG68inOu3trBWOmg9Yqx",
+      "old_id": "aXG68inOu3trBWOmg9Yqx",
+      "type": "subtopic",
+      "label": "temBoard",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\temboard@aXG68inOu3trBWOmg9Yqx.md"
+    },
+    {
+      "id": "DDPuDDUFxubWZmWXCmF7L",
+      "old_id": "DDPuDDUFxubWZmWXCmF7L",
+      "type": "subtopic",
+      "label": "check_pgbackrest",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\check_pgbackrest@DDPuDDUFxubWZmWXCmF7L.md"
+    },
+    {
+      "id": "-XhONB0FBA6UslbDWoTDv",
+      "old_id": "-XhONB0FBA6UslbDWoTDv",
+      "type": "subtopic",
+      "label": "barman",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\barman@-XhONB0FBA6UslbDWoTDv.md"
+    },
+    {
+      "id": "4gQSzH-WKFAvmkwlX_oyR",
+      "old_id": "4gQSzH-WKFAvmkwlX_oyR",
+      "type": "subtopic",
+      "label": "WAL-G",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\wal-g@4gQSzH-WKFAvmkwlX_oyR.md"
+    },
+    {
+      "id": "5LLYxCj22RE6Nf0fVm8GO",
+      "old_id": "5LLYxCj22RE6Nf0fVm8GO",
+      "type": "subtopic",
+      "label": "pgbackrest",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pgbackrest@5LLYxCj22RE6Nf0fVm8GO.md"
+    },
+    {
+      "id": "Id_17Ya-NUvoXxijAZvmW",
+      "old_id": "Id_17Ya-NUvoXxijAZvmW",
+      "type": "subtopic",
+      "label": "pg_probackup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pg_probackup@Id_17Ya-NUvoXxijAZvmW.md"
+    },
+    {
+      "id": "XZ922juBJ8Om0WyGtSYT5",
+      "old_id": "XZ922juBJ8Om0WyGtSYT5",
+      "type": "subtopic",
+      "label": "pg_dump",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pg_dump@XZ922juBJ8Om0WyGtSYT5.md"
+    },
+    {
+      "id": "QmV-J6fPYQ5CcdGUkBs7y",
+      "old_id": "QmV-J6fPYQ5CcdGUkBs7y",
+      "type": "subtopic",
+      "label": "pg_dumpall",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pg_dumpall@QmV-J6fPYQ5CcdGUkBs7y.md"
+    },
+    {
+      "id": "YSprRhPHkzV8SzDYpIVmp",
+      "old_id": "te4PZaqt6-5Qu8rU0w6a1",
+      "type": "subtopic",
+      "label": "pg_restore",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\backup-validation-procedures@te4PZaqt6-5Qu8rU0w6a1.md"
+    },
+    {
+      "id": "XYaVsj5_48CSnoTSGXBbN",
+      "old_id": "XYaVsj5_48CSnoTSGXBbN",
+      "type": "subtopic",
+      "label": "pg_basebackup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pg_basebackup@XYaVsj5_48CSnoTSGXBbN.md"
+    },
+    {
+      "id": "te4PZaqt6-5Qu8rU0w6a1",
+      "old_id": "te4PZaqt6-5Qu8rU0w6a1",
+      "type": "subtopic",
+      "label": "Backup Validation Procedures",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\backup-validation-procedures@te4PZaqt6-5Qu8rU0w6a1.md"
+    },
+    {
+      "id": "aKQI7aX4bT_39bZgjmfoW",
+      "old_id": "aKQI7aX4bT_39bZgjmfoW",
+      "type": "subtopic",
+      "label": "PgBouncer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pgbouncer@aKQI7aX4bT_39bZgjmfoW.md"
+    },
+    {
+      "id": "3V1PPIeB0i9qNUsT8-4O-",
+      "old_id": "3V1PPIeB0i9qNUsT8-4O-",
+      "type": "subtopic",
+      "label": "PgBouncer Alternatives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pgbouncer-alternatives@3V1PPIeB0i9qNUsT8-4O-.md"
+    },
+    {
+      "id": "Bf2zDZzFifTcULQLTgo3P",
+      "old_id": "Bf2zDZzFifTcULQLTgo3P",
+      "type": "label",
+      "label": "Connection Pooling",
+      "resources": []
+    },
+    {
+      "id": "rmsIw9CQa1qcQ_REw76NK",
+      "old_id": "rmsIw9CQa1qcQ_REw76NK",
+      "type": "subtopic",
+      "label": "Logical Replication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\logical-replication@rmsIw9CQa1qcQ_REw76NK.md"
+    },
+    {
+      "id": "MwLlVbqceQ-GTgPJlgoQY",
+      "old_id": "MwLlVbqceQ-GTgPJlgoQY",
+      "type": "subtopic",
+      "label": "Streaming Replication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\streaming-replication@MwLlVbqceQ-GTgPJlgoQY.md"
+    },
+    {
+      "id": "oLEw-0OJNVb0NtJXwEvVA",
+      "old_id": "oLEw-0OJNVb0NtJXwEvVA",
+      "type": "label",
+      "label": "Replication",
+      "resources": []
+    },
+    {
+      "id": "MhvAej3EBOtNyugTxGRD6",
+      "old_id": "BEiM6o6lMRF_g9BKmfbrL",
+      "type": "label",
+      "label": "Anonymization",
+      "resources": []
+    },
+    {
+      "id": "Maec9Io8FTVVn3bu5uw79",
+      "old_id": "BEiM6o6lMRF_g9BKmfbrL",
+      "type": "label",
+      "label": "Upgrade Procedures",
+      "resources": []
+    },
+    {
+      "id": "AZ_6pNlCVU_bGkecvnLEy",
+      "old_id": "BEiM6o6lMRF_g9BKmfbrL",
+      "type": "label",
+      "label": "Cluster Management",
+      "resources": []
+    },
+    {
+      "id": "mm0K_8TFicrYdZQvWFkH4",
+      "old_id": "TZvZ_jNjWnM535ZktyhQN",
+      "type": "subtopic",
+      "label": "Patroni",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\patroni-alternatives@TZvZ_jNjWnM535ZktyhQN.md"
+    },
+    {
+      "id": "TZvZ_jNjWnM535ZktyhQN",
+      "old_id": "TZvZ_jNjWnM535ZktyhQN",
+      "type": "subtopic",
+      "label": "Patroni Alternatives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\patroni-alternatives@TZvZ_jNjWnM535ZktyhQN.md"
+    },
+    {
+      "id": "h1PbeATiyrCni1ukpDbUo",
+      "old_id": "4ESFSjY5k92rOjeFTIV2J",
+      "type": "label",
+      "label": "Kubernetes Deployment",
+      "resources": []
+    },
+    {
+      "id": "BEiM6o6lMRF_g9BKmfbrL",
+      "old_id": "HiTZlR-asfVa80gY0ear1",
+      "type": "label",
+      "label": "Monitoring",
+      "resources": []
+    },
+    {
+      "id": "4ESFSjY5k92rOjeFTIV2J",
+      "old_id": "BEiM6o6lMRF_g9BKmfbrL",
+      "type": "label",
+      "label": "Load Balancing / Discovery",
+      "resources": []
+    },
+    {
+      "id": "ZqeSG0CHxGiCzoVkwee17",
+      "old_id": "udps7QnflC827FJEJOa4z",
+      "type": "label",
+      "label": "3rd Party",
+      "resources": []
+    },
+    {
+      "id": "HiTZlR-asfVa80gY0ear1",
+      "old_id": "HiTZlR-asfVa80gY0ear1",
+      "type": "label",
+      "label": "Builtin Tools",
+      "resources": []
+    },
+    {
+      "id": "SNnc8CIKuHUAEZaJ_qEar",
+      "old_id": "SNnc8CIKuHUAEZaJ_qEar",
+      "type": "subtopic",
+      "label": "Resource Usage / Provisioning / Capacity Planning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\resource-usage--provisioning--capacity-planning@SNnc8CIKuHUAEZaJ_qEar.md"
+    },
+    {
+      "id": "e5s7-JRqNy-OhfnjTScZI",
+      "old_id": "VjQ71xorBoxxDn-wSmUjm",
+      "type": "topic",
+      "label": "Learn to Automate",
+      "resources": []
+    },
+    {
+      "id": "-clI2RmfhK8F8beHULaIB",
+      "old_id": "-clI2RmfhK8F8beHULaIB",
+      "type": "subtopic",
+      "label": "Shell Scripts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\shell-scripts@-clI2RmfhK8F8beHULaIB.md"
+    },
+    {
+      "id": "j5YeixkCKRv0sfq_gFVr9",
+      "old_id": "j5YeixkCKRv0sfq_gFVr9",
+      "type": "subtopic",
+      "label": "Any Programming Language",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\any-programming-language@j5YeixkCKRv0sfq_gFVr9.md"
+    },
+    {
+      "id": "OGRy7USAwdS-LY1ySoApZ",
+      "old_id": "OGRy7USAwdS-LY1ySoApZ",
+      "type": "label",
+      "label": "Configuration Management",
+      "resources": []
+    },
+    {
+      "id": "RqSfBR_RuvHrwHfPn1jwZ",
+      "old_id": "RqSfBR_RuvHrwHfPn1jwZ",
+      "type": "subtopic",
+      "label": "Ansible",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\ansible@RqSfBR_RuvHrwHfPn1jwZ.md"
+    },
+    {
+      "id": "Q_B9dlXNMXZIRYQC74uIf",
+      "old_id": "Q_B9dlXNMXZIRYQC74uIf",
+      "type": "subtopic",
+      "label": "Salt",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\salt@Q_B9dlXNMXZIRYQC74uIf.md"
+    },
+    {
+      "id": "7EHZ9YsNjCyTAN-LDWYMS",
+      "old_id": "7EHZ9YsNjCyTAN-LDWYMS",
+      "type": "subtopic",
+      "label": "Chef",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\chef@7EHZ9YsNjCyTAN-LDWYMS.md"
+    },
+    {
+      "id": "e39bceamU-lq3F2pmLz6v",
+      "old_id": "e39bceamU-lq3F2pmLz6v",
+      "type": "subtopic",
+      "label": "Puppet",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\puppet@e39bceamU-lq3F2pmLz6v.md"
+    },
+    {
+      "id": "dKQCVkcZtmiT3grOBax04",
+      "old_id": "jsv3UNZuDaksU49g6Xjm0",
+      "type": "label",
+      "label": "Migrations",
+      "resources": []
+    },
+    {
+      "id": "AtZcMhy2Idmgonp5O8RSQ",
+      "old_id": "AtZcMhy2Idmgonp5O8RSQ",
+      "type": "subtopic",
+      "label": "Practical Patterns / Antipatterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\practical-patterns--antipatterns@AtZcMhy2Idmgonp5O8RSQ.md"
+    },
+    {
+      "id": "3Lcy7kBKeV6hx9Ctp_20M",
+      "old_id": "3Lcy7kBKeV6hx9Ctp_20M",
+      "type": "subtopic",
+      "label": "Migration Related Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\migration-related-tools@3Lcy7kBKeV6hx9Ctp_20M.md"
+    },
+    {
+      "id": "cc4S7ugIphyBZr-f6X0qi",
+      "old_id": "cc4S7ugIphyBZr-f6X0qi",
+      "type": "subtopic",
+      "label": "Bulk Loading / Processing Data",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\bulk-loading--processing-data@cc4S7ugIphyBZr-f6X0qi.md"
+    },
+    {
+      "id": "OiGRtLsc28Tv35vIut6B6",
+      "old_id": "OiGRtLsc28Tv35vIut6B6",
+      "type": "subtopic",
+      "label": "Data Partitioning",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\data-partitioning@OiGRtLsc28Tv35vIut6B6.md"
+    },
+    {
+      "id": "r6Blr7Q4wOnvJ-m6NvPyP",
+      "old_id": "r6Blr7Q4wOnvJ-m6NvPyP",
+      "type": "subtopic",
+      "label": "Sharding Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\sharding-patterns@r6Blr7Q4wOnvJ-m6NvPyP.md"
+    },
+    {
+      "id": "Fcl7AD2M6WrMbxdvnl-ub",
+      "old_id": "Fcl7AD2M6WrMbxdvnl-ub",
+      "type": "subtopic",
+      "label": "Normalization / Normal Forms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\normalization--normal-forms@Fcl7AD2M6WrMbxdvnl-ub.md"
+    },
+    {
+      "id": "x0wCPs7cFL6eYJtzwNR-B",
+      "old_id": "x0wCPs7cFL6eYJtzwNR-B",
+      "type": "label",
+      "label": "Queues",
+      "resources": []
+    },
+    {
+      "id": "rnXcM62rgq3p6FQ9AWW1R",
+      "old_id": "rnXcM62rgq3p6FQ9AWW1R",
+      "type": "subtopic",
+      "label": "Patterns / Antipatterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\patterns--antipatterns@rnXcM62rgq3p6FQ9AWW1R.md"
+    },
+    {
+      "id": "WCBWPubUS84r3tOXpnZT3",
+      "old_id": "WCBWPubUS84r3tOXpnZT3",
+      "type": "subtopic",
+      "label": "PgQ",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pgq@WCBWPubUS84r3tOXpnZT3.md"
+    },
+    {
+      "id": "jsv3UNZuDaksU49g6Xjm0",
+      "old_id": "x0wCPs7cFL6eYJtzwNR-B",
+      "type": "label",
+      "label": "Data and Processing",
+      "resources": []
+    },
+    {
+      "id": "_WTzpL-AciqaT0QGudYGL",
+      "old_id": "_WTzpL-AciqaT0QGudYGL",
+      "type": "label",
+      "label": "Low Level Internals",
+      "resources": []
+    },
+    {
+      "id": "v2J6PZT0fHvqA7GwlqBU7",
+      "old_id": "v2J6PZT0fHvqA7GwlqBU7",
+      "type": "subtopic",
+      "label": "Processes & Memory Architecture",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\processes--memory-architecture@v2J6PZT0fHvqA7GwlqBU7.md"
+    },
+    {
+      "id": "dJzJP1uo4kVFThWgglPfk",
+      "old_id": "dJzJP1uo4kVFThWgglPfk",
+      "type": "subtopic",
+      "label": "Vacuum Processing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\vacuum-processing@dJzJP1uo4kVFThWgglPfk.md"
+    },
+    {
+      "id": "KeBUzfrkorgFWpR8A-xmJ",
+      "old_id": "KeBUzfrkorgFWpR8A-xmJ",
+      "type": "subtopic",
+      "label": "Buffer Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\buffer-management@KeBUzfrkorgFWpR8A-xmJ.md"
+    },
+    {
+      "id": "pOkafV7nDHme4jk-hA8Cn",
+      "old_id": "pOkafV7nDHme4jk-hA8Cn",
+      "type": "subtopic",
+      "label": "Lock Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\lock-management@pOkafV7nDHme4jk-hA8Cn.md"
+    },
+    {
+      "id": "gweDHAB58gKswdwfpnRQT",
+      "old_id": "gweDHAB58gKswdwfpnRQT",
+      "type": "subtopic",
+      "label": "Physical Storage and File Layout",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\physical-storage-and-file-layout@gweDHAB58gKswdwfpnRQT.md"
+    },
+    {
+      "id": "lDuBFA7cEMnd7Cl9MDgnf",
+      "old_id": "lDuBFA7cEMnd7Cl9MDgnf",
+      "type": "subtopic",
+      "label": "System Catalog",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\system-catalog@lDuBFA7cEMnd7Cl9MDgnf.md"
+    },
+    {
+      "id": "msm4QCAA-MRVI1psf6tt3",
+      "old_id": "msm4QCAA-MRVI1psf6tt3",
+      "type": "subtopic",
+      "label": "Per-User, Per-Database Setting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\per-user-per-database-setting@msm4QCAA-MRVI1psf6tt3.md"
+    },
+    {
+      "id": "4VrT_K9cZZ0qE1EheSQy0",
+      "old_id": "4VrT_K9cZZ0qE1EheSQy0",
+      "type": "subtopic",
+      "label": "Storage Parameters",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\storage-parameters@4VrT_K9cZZ0qE1EheSQy0.md"
+    },
+    {
+      "id": "FNiWebesMOSYuYeNHmfEA",
+      "old_id": "FNiWebesMOSYuYeNHmfEA",
+      "type": "label",
+      "label": "Workload-Dependant Tuning",
+      "resources": []
+    },
+    {
+      "id": "VekAMpcrugHGuvSbyPZVv",
+      "old_id": "VekAMpcrugHGuvSbyPZVv",
+      "type": "subtopic",
+      "label": "OLTP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\oltp@VekAMpcrugHGuvSbyPZVv.md"
+    },
+    {
+      "id": "WI3-7hFAnJw5f7GIn-5kp",
+      "old_id": "WI3-7hFAnJw5f7GIn-5kp",
+      "type": "subtopic",
+      "label": "OLAP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\olap@WI3-7hFAnJw5f7GIn-5kp.md"
+    },
+    {
+      "id": "rHDlm78yroRrrAAcabEAl",
+      "old_id": "rHDlm78yroRrrAAcabEAl",
+      "type": "subtopic",
+      "label": "HTAP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\htap@rHDlm78yroRrrAAcabEAl.md"
+    },
+    {
+      "id": "Ur23UVs_nXaltytF1WJD8",
+      "old_id": "Ur23UVs_nXaltytF1WJD8",
+      "type": "subtopic",
+      "label": "PL/pgSQL",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\plpgsql@Ur23UVs_nXaltytF1WJD8.md"
+    },
+    {
+      "id": "LiF2Yh818D-zEF58v5Fgr",
+      "old_id": "LiF2Yh818D-zEF58v5Fgr",
+      "type": "subtopic",
+      "label": "Procedures and Functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\procedures-and-functions@LiF2Yh818D-zEF58v5Fgr.md"
+    },
+    {
+      "id": "ps2KK88QA1n5udn2ochIn",
+      "old_id": "ps2KK88QA1n5udn2ochIn",
+      "type": "subtopic",
+      "label": "Triggers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\triggers@ps2KK88QA1n5udn2ochIn.md"
+    },
+    {
+      "id": "A1LGOqqaka0ILcYwybclP",
+      "old_id": "A1LGOqqaka0ILcYwybclP",
+      "type": "subtopic",
+      "label": "Recursive CTE",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\recursive-cte@A1LGOqqaka0ILcYwybclP.md"
+    },
+    {
+      "id": "iQqEC1CnVAoM7x455jO_S",
+      "old_id": "iQqEC1CnVAoM7x455jO_S",
+      "type": "subtopic",
+      "label": "Aggregate and Window functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\aggregate-and-window-functions@iQqEC1CnVAoM7x455jO_S.md"
+    },
+    {
+      "id": "wn4ccLOsN1n0fhUHnvid4",
+      "old_id": "wn4ccLOsN1n0fhUHnvid4",
+      "type": "label",
+      "label": "Operating System Tools",
+      "resources": []
+    },
+    {
+      "id": "pvj33qDiG3sSjtiW6sUra",
+      "old_id": "pvj33qDiG3sSjtiW6sUra",
+      "type": "subtopic",
+      "label": "top",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\top@pvj33qDiG3sSjtiW6sUra.md"
+    },
+    {
+      "id": "0hRQtRsteGDnKO5XgLF1R",
+      "old_id": "0hRQtRsteGDnKO5XgLF1R",
+      "type": "subtopic",
+      "label": "sysstat",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\sysstat@0hRQtRsteGDnKO5XgLF1R.md"
+    },
+    {
+      "id": "n8oHT7YwhHhFdU5_7DZ_F",
+      "old_id": "n8oHT7YwhHhFdU5_7DZ_F",
+      "type": "subtopic",
+      "label": "iotop",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\iotop@n8oHT7YwhHhFdU5_7DZ_F.md"
+    },
+    {
+      "id": "zexZ__L0kaSUxjRP-1Uhz",
+      "old_id": "wn4ccLOsN1n0fhUHnvid4",
+      "type": "label",
+      "label": "Profiling Tools",
+      "resources": []
+    },
+    {
+      "id": "yIdUhfE2ZTQhDAdQsXrnH",
+      "old_id": "pvj33qDiG3sSjtiW6sUra",
+      "type": "subtopic",
+      "label": "gdb",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\top@pvj33qDiG3sSjtiW6sUra.md"
+    },
+    {
+      "id": "C_cUfEufYeUlAdVfdUvsK",
+      "old_id": "0hRQtRsteGDnKO5XgLF1R",
+      "type": "subtopic",
+      "label": "strace",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\sysstat@0hRQtRsteGDnKO5XgLF1R.md"
+    },
+    {
+      "id": "QarPFu_wU6-F9P5YHo6CO",
+      "old_id": "n8oHT7YwhHhFdU5_7DZ_F",
+      "type": "subtopic",
+      "label": "ebpf",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\iotop@n8oHT7YwhHhFdU5_7DZ_F.md"
+    },
+    {
+      "id": "wH447bS-csqmGbk-jaGqp",
+      "old_id": "wH447bS-csqmGbk-jaGqp",
+      "type": "subtopic",
+      "label": "perf-tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\perf-tools@wH447bS-csqmGbk-jaGqp.md"
+    },
+    {
+      "id": "-CIezYPHTcXJF_p4T55-c",
+      "old_id": "-CIezYPHTcXJF_p4T55-c",
+      "type": "subtopic",
+      "label": "Core Dumps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\core-dumps@-CIezYPHTcXJF_p4T55-c.md"
+    },
+    {
+      "id": "Uu08Kq8FE8k60XpenSW3q",
+      "old_id": "Uu08Kq8FE8k60XpenSW3q",
+      "type": "label",
+      "label": "Log Analysis",
+      "resources": []
+    },
+    {
+      "id": "V2iW8tJQXwsRknnZXoHGd",
+      "old_id": "V2iW8tJQXwsRknnZXoHGd",
+      "type": "subtopic",
+      "label": "pgBadger",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pgbadger@V2iW8tJQXwsRknnZXoHGd.md"
+    },
+    {
+      "id": "ISuU1lWH_zVDlCHnWXbf9",
+      "old_id": "ISuU1lWH_zVDlCHnWXbf9",
+      "type": "subtopic",
+      "label": "pgCluu",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pgcluu@ISuU1lWH_zVDlCHnWXbf9.md"
+    },
+    {
+      "id": "HJCRntic0aGVvdmCN45aP",
+      "old_id": "pvj33qDiG3sSjtiW6sUra",
+      "type": "subtopic",
+      "label": "awk",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\top@pvj33qDiG3sSjtiW6sUra.md"
+    },
+    {
+      "id": "cFtrSgboZRJ3Q63eaqEBf",
+      "old_id": "0hRQtRsteGDnKO5XgLF1R",
+      "type": "subtopic",
+      "label": "grep",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\sysstat@0hRQtRsteGDnKO5XgLF1R.md"
+    },
+    {
+      "id": "hVL6OtsXrE8BvjKpRjB-9",
+      "old_id": "n8oHT7YwhHhFdU5_7DZ_F",
+      "type": "subtopic",
+      "label": "sed",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\iotop@n8oHT7YwhHhFdU5_7DZ_F.md"
+    },
+    {
+      "id": "shk69Z5f0lxNWHP75T2OQ",
+      "old_id": "shk69Z5f0lxNWHP75T2OQ",
+      "type": "label",
+      "label": "Posgres System Views",
+      "resources": []
+    },
+    {
+      "id": "_NL5pGGTLNxCFx4axOqfu",
+      "old_id": "_NL5pGGTLNxCFx4axOqfu",
+      "type": "subtopic",
+      "label": "pg_stat_activity",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pg_stat_activity@_NL5pGGTLNxCFx4axOqfu.md"
+    },
+    {
+      "id": "wLMGOUaULW7ZALRr-shTz",
+      "old_id": "wLMGOUaULW7ZALRr-shTz",
+      "type": "subtopic",
+      "label": "pg_stat_statements",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pg_stat_statements@wLMGOUaULW7ZALRr-shTz.md"
+    },
+    {
+      "id": "7KjUtZMy9sNJMny47ybS1",
+      "old_id": "7KjUtZMy9sNJMny47ybS1",
+      "type": "label",
+      "label": "Posgres Tools",
+      "resources": []
+    },
+    {
+      "id": "TytU0IpWgwhr4w4W4H3Vx",
+      "old_id": "TytU0IpWgwhr4w4W4H3Vx",
+      "type": "subtopic",
+      "label": "pgcenter",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pgcenter@TytU0IpWgwhr4w4W4H3Vx.md"
+    },
+    {
+      "id": "K2YbL7Gg1eUHokcxpqLcv",
+      "old_id": "K2YbL7Gg1eUHokcxpqLcv",
+      "type": "label",
+      "label": "Query Analysis",
+      "resources": []
+    },
+    {
+      "id": "n2OjwxzIHnATraRWi5Ddl",
+      "old_id": "n2OjwxzIHnATraRWi5Ddl",
+      "type": "subtopic",
+      "label": "EXPLAIN",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\explain@n2OjwxzIHnATraRWi5Ddl.md"
+    },
+    {
+      "id": "rVlncpLO20WK6mjyqLerL",
+      "old_id": "rVlncpLO20WK6mjyqLerL",
+      "type": "subtopic",
+      "label": "Depesz",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\depesz@rVlncpLO20WK6mjyqLerL.md"
+    },
+    {
+      "id": "9RyMU36KEP__-RzTTz_eo",
+      "old_id": "9RyMU36KEP__-RzTTz_eo",
+      "type": "subtopic",
+      "label": "PEV2",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\pev2@9RyMU36KEP__-RzTTz_eo.md"
+    },
+    {
+      "id": "xEu5n6U9-WKVxjlT5YUgx",
+      "old_id": "xEu5n6U9-WKVxjlT5YUgx",
+      "type": "subtopic",
+      "label": "Tensor",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\tensor@xEu5n6U9-WKVxjlT5YUgx.md"
+    },
+    {
+      "id": "UZ1vRFRjiQAVu6BygqwEL",
+      "old_id": "UZ1vRFRjiQAVu6BygqwEL",
+      "type": "subtopic",
+      "label": "explain.dalibo.com",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\explaindalibocom@UZ1vRFRjiQAVu6BygqwEL.md"
+    },
+    {
+      "id": "fFsO0ayNwjSzeyl2LRjlg",
+      "old_id": "fFsO0ayNwjSzeyl2LRjlg",
+      "type": "label",
+      "label": "Techniques",
+      "resources": []
+    },
+    {
+      "id": "QWi84EjdHw5ChYsuwUhPC",
+      "old_id": "QWi84EjdHw5ChYsuwUhPC",
+      "type": "subtopic",
+      "label": "USE",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\use@QWi84EjdHw5ChYsuwUhPC.md"
+    },
+    {
+      "id": "qBkpTmfbyCv2L-OJW9pPI",
+      "old_id": "qBkpTmfbyCv2L-OJW9pPI",
+      "type": "subtopic",
+      "label": "RED",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\red@qBkpTmfbyCv2L-OJW9pPI.md"
+    },
+    {
+      "id": "oX-bdPPjaHJnQKgUhDSF2",
+      "old_id": "oX-bdPPjaHJnQKgUhDSF2",
+      "type": "subtopic",
+      "label": "Golden Signals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\golden-signals@oX-bdPPjaHJnQKgUhDSF2.md"
+    },
+    {
+      "id": "FDuiJyU1yWUQ9IsfS3CeZ",
+      "old_id": "FDuiJyU1yWUQ9IsfS3CeZ",
+      "type": "topic",
+      "label": "Schema Design Patterns / Anti-patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\schema-design-patterns--anti-patterns@FDuiJyU1yWUQ9IsfS3CeZ.md"
+    },
+    {
+      "id": "G9DB1ZQjgXaHxJ4Lm6xGx",
+      "old_id": "G9DB1ZQjgXaHxJ4Lm6xGx",
+      "type": "topic",
+      "label": "SQL Query Patterns / Anti-patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\sql-query-patterns--anti-patterns@G9DB1ZQjgXaHxJ4Lm6xGx.md"
+    },
+    {
+      "id": "Dhhyg23dBMyAKCFwZmu71",
+      "old_id": "NhodBD8myUTljNdn3y40I",
+      "type": "topic",
+      "label": "Indexes and their Usecases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\get-involved-in-development@NhodBD8myUTljNdn3y40I.md"
+    },
+    {
+      "id": "jihXOJq9zYlDOpvJvpFO-",
+      "old_id": "jihXOJq9zYlDOpvJvpFO-",
+      "type": "subtopic",
+      "label": "B-Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\b-tree@jihXOJq9zYlDOpvJvpFO-.md"
+    },
+    {
+      "id": "2yWYyXt1uLOdQg4YsgdVq",
+      "old_id": "2yWYyXt1uLOdQg4YsgdVq",
+      "type": "subtopic",
+      "label": "Hash",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\hash@2yWYyXt1uLOdQg4YsgdVq.md"
+    },
+    {
+      "id": "2chGkn5Y_WTjYllpgL0LJ",
+      "old_id": "2chGkn5Y_WTjYllpgL0LJ",
+      "type": "subtopic",
+      "label": "GiST",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\gist@2chGkn5Y_WTjYllpgL0LJ.md"
+    },
+    {
+      "id": "LT5qRETR3pAI8Tk6k5idg",
+      "old_id": "LT5qRETR3pAI8Tk6k5idg",
+      "type": "subtopic",
+      "label": "SP-GiST",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\sp-gist@LT5qRETR3pAI8Tk6k5idg.md"
+    },
+    {
+      "id": "FJhJyDWOj9w_Rd_uKcouT",
+      "old_id": "FJhJyDWOj9w_Rd_uKcouT",
+      "type": "subtopic",
+      "label": "GIN",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\gin@FJhJyDWOj9w_Rd_uKcouT.md"
+    },
+    {
+      "id": "43oFhZuXjJd4QHbUoLtft",
+      "old_id": "43oFhZuXjJd4QHbUoLtft",
+      "type": "subtopic",
+      "label": "BRIN",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\brin@43oFhZuXjJd4QHbUoLtft.md"
+    },
+    {
+      "id": "NhodBD8myUTljNdn3y40I",
+      "old_id": "NhodBD8myUTljNdn3y40I",
+      "type": "topic",
+      "label": "Get Involved in Development",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\get-involved-in-development@NhodBD8myUTljNdn3y40I.md"
+    },
+    {
+      "id": "8H7hJhGKxr1nrjkHv9Xao",
+      "old_id": "8H7hJhGKxr1nrjkHv9Xao",
+      "type": "subtopic",
+      "label": "Mailing Lists",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\mailing-lists@8H7hJhGKxr1nrjkHv9Xao.md"
+    },
+    {
+      "id": "Jy0G0ZnHPOM8hba_PbwuA",
+      "old_id": "Jy0G0ZnHPOM8hba_PbwuA",
+      "type": "subtopic",
+      "label": "Reviewing Patches",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\reviewing-patches@Jy0G0ZnHPOM8hba_PbwuA.md"
+    },
+    {
+      "id": "eQzMU_KyQmHJQ6gzyk0-1",
+      "old_id": "eQzMU_KyQmHJQ6gzyk0-1",
+      "type": "subtopic",
+      "label": "Writing Patches",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\postgresql-dba\\content\\writing-patches@eQzMU_KyQmHJQ6gzyk0-1.md"
+    },
+    {
+      "id": "X3IC3D4MqkxpS6s99vdj-",
+      "old_id": "X3IC3D4MqkxpS6s99vdj-",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "gC8lsIdYLRzo3HzwVqtm1",
+      "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "label": "MongoDB",
+      "resources": []
+    },
+    {
+      "id": "uSLzfLPXxS5-P7ozscvjZ",
+      "old_id": "PkhQdVms2TGgnPrytCBPZ",
+      "type": "button",
+      "label": "Backend",
+      "resources": []
+    },
+    {
+      "id": "7RR4BlugrhJQpI0MeMj8V",
+      "old_id": "7RR4BlugrhJQpI0MeMj8V",
+      "type": "button",
+      "label": "DevOps Roadmap",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "lDIy56RyC1XM7IfORsSLD",
+      "target": "D0doJTtLu-1MmFOfavCXN"
+    },
+    {
+      "source": "lDIy56RyC1XM7IfORsSLD",
+      "target": "soar-NBWCr4xVKj7ttfnc"
+    },
+    {
+      "source": "lDIy56RyC1XM7IfORsSLD",
+      "target": "p3AmRr_y_ZBKzAU5eh7OU"
+    },
+    {
+      "source": "lDIy56RyC1XM7IfORsSLD",
+      "target": "IAKERTzTpTds5kZLMCapM"
+    },
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "lDIy56RyC1XM7IfORsSLD"
+    },
+    {
+      "source": "lDIy56RyC1XM7IfORsSLD",
+      "target": "-M9EFgiDSSAzj9ISk-aeh"
+    },
+    {
+      "source": "-M9EFgiDSSAzj9ISk-aeh",
+      "target": "RoYP1tYw5dvhmkVTo1HS-"
+    },
+    {
+      "source": "RoYP1tYw5dvhmkVTo1HS-",
+      "target": "mDVbjdVN0spY7dI_8k1YW"
+    },
+    {
+      "source": "-M9EFgiDSSAzj9ISk-aeh",
+      "target": "_BSR2mo1lyXEFXbKYb1ZG"
+    },
+    {
+      "source": "-M9EFgiDSSAzj9ISk-aeh",
+      "target": "FtPiBWMFhjakyXsmSL_CI"
+    },
+    {
+      "source": "7RoBFFZ0V_9T-z2vYjX75",
+      "target": "ZqeSG0CHxGiCzoVkwee17"
+    },
+    {
+      "source": "7RoBFFZ0V_9T-z2vYjX75",
+      "target": "HiTZlR-asfVa80gY0ear1"
+    },
+    {
+      "source": "FtPiBWMFhjakyXsmSL_CI",
+      "target": "ANUgfkADLI_du7iRvnUdi"
+    },
+    {
+      "source": "ANUgfkADLI_du7iRvnUdi",
+      "target": "T819BZ-CZgUX_BY7Gna0J"
+    },
+    {
+      "source": "T819BZ-CZgUX_BY7Gna0J",
+      "target": "507TY35b8iExakbBMrHgZ"
+    },
+    {
+      "source": "T819BZ-CZgUX_BY7Gna0J",
+      "target": "2Zg8R5gs9LMQOcOMZtoPk"
+    },
+    {
+      "source": "2Zg8R5gs9LMQOcOMZtoPk",
+      "target": "gb75xOcAr-q8TcA6_l1GZ"
+    },
+    {
+      "source": "2Zg8R5gs9LMQOcOMZtoPk",
+      "target": "l0lpaPy12JFCJ-RRYVSqz"
+    },
+    {
+      "source": "2Zg8R5gs9LMQOcOMZtoPk",
+      "target": "EKwO6edtFnUw8cPCcVwKJ"
+    },
+    {
+      "source": "2Zg8R5gs9LMQOcOMZtoPk",
+      "target": "zlqSX0tl7HD9C1yEGkvoM"
+    },
+    {
+      "source": "zlqSX0tl7HD9C1yEGkvoM",
+      "target": "e5s7-JRqNy-OhfnjTScZI"
+    },
+    {
+      "source": "xi5uZ_VOH4rVNu_0ZLAX9",
+      "target": "C0MAuAb1CfohTuTMkCjso"
+    },
+    {
+      "source": "C0MAuAb1CfohTuTMkCjso",
+      "target": "ctKJI9oHts6Agrg4eFfjy"
+    },
+    {
+      "source": "TJSsoD5U78tOydPhxuPzK",
+      "target": "g007fG2EVP9RDAq7wKaP4"
+    },
+    {
+      "source": "p3aTmNDWH7hCJUy3YYG65",
+      "target": "C_cUfEufYeUlAdVfdUvsK"
+    },
+    {
+      "source": "QfyHG6cVuKQ3iqdEtoFSU",
+      "target": "yjCh_34KRPysCR_1-ham3"
+    },
+    {
+      "source": "xOLVCPum_oCJo00obtZfJ",
+      "target": "G9DB1ZQjgXaHxJ4Lm6xGx"
+    },
+    {
+      "source": "FDuiJyU1yWUQ9IsfS3CeZ",
+      "target": "Dhhyg23dBMyAKCFwZmu71"
+    },
+    {
+      "source": "Dhhyg23dBMyAKCFwZmu71",
+      "target": "jihXOJq9zYlDOpvJvpFO-"
+    },
+    {
+      "source": "Dhhyg23dBMyAKCFwZmu71",
+      "target": "2chGkn5Y_WTjYllpgL0LJ"
+    },
+    {
+      "source": "Dhhyg23dBMyAKCFwZmu71",
+      "target": "LT5qRETR3pAI8Tk6k5idg"
+    },
+    {
+      "source": "Dhhyg23dBMyAKCFwZmu71",
+      "target": "NhodBD8myUTljNdn3y40I"
+    },
+    {
+      "source": "NhodBD8myUTljNdn3y40I",
+      "target": "8H7hJhGKxr1nrjkHv9Xao"
+    },
+    {
+      "source": "NhodBD8myUTljNdn3y40I",
+      "target": "Jy0G0ZnHPOM8hba_PbwuA"
+    },
+    {
+      "source": "NhodBD8myUTljNdn3y40I",
+      "target": "eQzMU_KyQmHJQ6gzyk0-1"
+    },
+    {
+      "source": null,
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "STQQbPa7PE3gbjMdL6P-t",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "NhodBD8myUTljNdn3y40I",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    }
+  ]
+}

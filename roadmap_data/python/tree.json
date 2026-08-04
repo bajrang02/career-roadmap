@@ -1,0 +1,932 @@
+[
+  {
+    "id": "7qkVORlOiHO2gVIC0spiJ",
+    "old_id": "7qkVORlOiHO2gVIC0spiJ",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "DYVswTR2tgKfRIkQ3WGDW",
+    "old_id": "DYVswTR2tgKfRIkQ3WGDW",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "jKeTTySc4iyJY29xLqNNQ",
+    "old_id": "jKeTTySc4iyJY29xLqNNQ",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": [
+      {
+        "id": "WQOYjuwKIWB2meea4JnsV",
+        "old_id": "WQOYjuwKIWB2meea4JnsV",
+        "type": "topic",
+        "label": "Testing",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\testing@WQOYjuwKIWB2meea4JnsV.md",
+        "children": [
+          {
+            "id": "jPFOiwbqfaGshaGDBWb5x",
+            "old_id": "jPFOiwbqfaGshaGDBWb5x",
+            "type": "subtopic",
+            "label": "tox",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\tox@jPFOiwbqfaGshaGDBWb5x.md",
+            "children": []
+          },
+          {
+            "id": "b4he_RO17C3ScNeUd6v2b",
+            "old_id": "b4he_RO17C3ScNeUd6v2b",
+            "type": "subtopic",
+            "label": "unittest / pyUnit",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\unittest--pyunit@b4he_RO17C3ScNeUd6v2b.md",
+            "children": []
+          },
+          {
+            "id": "aVclygxoA9ePU5IxaORSH",
+            "old_id": "aVclygxoA9ePU5IxaORSH",
+            "type": "subtopic",
+            "label": "doctest",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\doctest@aVclygxoA9ePU5IxaORSH.md",
+            "children": []
+          },
+          {
+            "id": "3FDwJpesfelEyJrNWtm0V",
+            "old_id": "3FDwJpesfelEyJrNWtm0V",
+            "type": "subtopic",
+            "label": "pytest",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pytest@3FDwJpesfelEyJrNWtm0V.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "RW1wSb7P-AZWXa_znXytT",
+    "old_id": "KFFbnOBa-y5r58w2pUf15",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "I0lCQskv_MEITj9xTEetZ",
+    "old_id": "I0lCQskv_MEITj9xTEetZ",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-Bdnmm4sceeOS3oBa214C",
+    "old_id": "-Bdnmm4sceeOS3oBa214C",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "nvL0Yb5peOKtN6J3bHlRt",
+    "old_id": "nvL0Yb5peOKtN6J3bHlRt",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "LgWrLnoO7qkmpqJs35kyZ",
+    "old_id": "LgWrLnoO7qkmpqJs35kyZ",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "hIQe_B-68ENL-GFg6GmnD",
+    "old_id": "iogwMmOvub2ZF4zgg6WyF",
+    "type": "title",
+    "label": "Python",
+    "resources": [],
+    "children": [
+      {
+        "id": "GISOFMKvnBys0O0IMpz2J",
+        "old_id": "JDDG4KfhtIlw1rkNCzUli",
+        "type": "topic",
+        "label": "Learn the Basics",
+        "resources": [],
+        "children": [
+          {
+            "id": "6xRncUs3_vxVbDur567QA",
+            "old_id": "6xRncUs3_vxVbDur567QA",
+            "type": "subtopic",
+            "label": "Basic Syntax",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\basic-syntax@6xRncUs3_vxVbDur567QA.md",
+            "children": []
+          },
+          {
+            "id": "dEFLBGpiH6nbSMeR7ecaT",
+            "old_id": "dEFLBGpiH6nbSMeR7ecaT",
+            "type": "subtopic",
+            "label": "Variables and Data Types",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\variables-and-data-types@dEFLBGpiH6nbSMeR7ecaT.md",
+            "children": []
+          },
+          {
+            "id": "NP1kjSk0ujU0Gx-ajNHlR",
+            "old_id": "Dvy7BnNzK55qbh_SgOk8m",
+            "type": "subtopic",
+            "label": "Conditionals",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\loops@Dvy7BnNzK55qbh_SgOk8m.md",
+            "children": []
+          },
+          {
+            "id": "Dvy7BnNzK55qbh_SgOk8m",
+            "old_id": "Dvy7BnNzK55qbh_SgOk8m",
+            "type": "subtopic",
+            "label": "Loops",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\loops@Dvy7BnNzK55qbh_SgOk8m.md",
+            "children": []
+          },
+          {
+            "id": "R9DQNc0AyAQ2HLpP4HOk6",
+            "old_id": "R9DQNc0AyAQ2HLpP4HOk6",
+            "type": "subtopic",
+            "label": "Type Casting",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\type-casting@R9DQNc0AyAQ2HLpP4HOk6.md",
+            "children": []
+          },
+          {
+            "id": "fNTb9y3zs1HPYclAmu_Wv",
+            "old_id": "fNTb9y3zs1HPYclAmu_Wv",
+            "type": "subtopic",
+            "label": "Exceptions",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\exceptions@fNTb9y3zs1HPYclAmu_Wv.md",
+            "children": []
+          },
+          {
+            "id": "-DJgS6l2qngfwurExlmmT",
+            "old_id": "-DJgS6l2qngfwurExlmmT",
+            "type": "subtopic",
+            "label": "Functions, Builtin Functions",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\functions-builtin-functions@-DJgS6l2qngfwurExlmmT.md",
+            "children": []
+          },
+          {
+            "id": "UT_SR7G-LYtzqooWrEtF1",
+            "old_id": "UT_SR7G-LYtzqooWrEtF1",
+            "type": "subtopic",
+            "label": "Lists",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\lists@UT_SR7G-LYtzqooWrEtF1.md",
+            "children": []
+          },
+          {
+            "id": "bc9CL_HMT-R6nXO1eR-gP",
+            "old_id": "bc9CL_HMT-R6nXO1eR-gP",
+            "type": "subtopic",
+            "label": "Dictionaries",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\dictionaries@bc9CL_HMT-R6nXO1eR-gP.md",
+            "children": []
+          },
+          {
+            "id": "VJSIbYJcy2MC6MOFBrqXi",
+            "old_id": "VJSIbYJcy2MC6MOFBrqXi",
+            "type": "topic",
+            "label": "Data Structures & Algorithms",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\data-structures--algorithms@VJSIbYJcy2MC6MOFBrqXi.md",
+            "children": [
+              {
+                "id": "OPD4WdMO7q4gRZMcRCQh1",
+                "old_id": "kIuns7FOwapwtFLKo1phQ",
+                "type": "subtopic",
+                "label": "Arrays and Linked Lists",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "274uk28wzxn6EKWQzLpHs",
+                "old_id": "274uk28wzxn6EKWQzLpHs",
+                "type": "topic",
+                "label": "Modules",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\modules@274uk28wzxn6EKWQzLpHs.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "R_Fs6rdl2XtQ9aLOubMqL",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Y3FQ2wGWFb1VciLEVEGUf",
+    "old_id": "Y3FQ2wGWFb1VciLEVEGUf",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "OQpi63qND2KBXVvKBNMST",
+    "old_id": "U0fJo2a3vnaodNJhfZ78I",
+    "type": "button",
+    "label": "Backend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iuSv7V59YxUZawN38Qlli",
+    "old_id": "ZSrQoNGKiR484uALMWO9F",
+    "type": "button",
+    "label": "AI / Data Science",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "i7xIGiXU-k5UIKHIhQPjE",
+    "old_id": "i7xIGiXU-k5UIKHIhQPjE",
+    "type": "subtopic",
+    "label": "Tuples",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\tuples@i7xIGiXU-k5UIKHIhQPjE.md",
+    "children": []
+  },
+  {
+    "id": "soZFqivM3YBuljeX6PoaX",
+    "old_id": "soZFqivM3YBuljeX6PoaX",
+    "type": "subtopic",
+    "label": "Sets",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\sets@soZFqivM3YBuljeX6PoaX.md",
+    "children": []
+  },
+  {
+    "id": "0NlRczh6ZEaFLlT6LORWz",
+    "old_id": "rSfg5M65LyZldhrdWOr90",
+    "type": "subtopic",
+    "label": "Heaps, Stacks and Queues",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "DG4fi1e5ec2BVckPLsTJS",
+    "old_id": "0-m8jVuDKE8hX1QorKGTM",
+    "type": "subtopic",
+    "label": "Hash Tables",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "uJIqgsqUbE62Tyo3K75Qx",
+    "old_id": "7NZlydjm4432vLY1InBS7",
+    "type": "subtopic",
+    "label": "Binary Search Tree",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "kLBgy_nxxjE8SxdVi04bq",
+    "old_id": "94KnPMQdNTOwQkUv37tAk",
+    "type": "subtopic",
+    "label": "Recursion",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "vvTmjcWCVclOPY4f_5uB0",
+    "old_id": "YNptpfK9qv2ovmkUXLkJT",
+    "type": "subtopic",
+    "label": "Sorting Algorithms",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iogwMmOvub2ZF4zgg6WyF",
+    "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+    "type": "title",
+    "label": "Python",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "JDDG4KfhtIlw1rkNCzUli",
+    "old_id": "VJSIbYJcy2MC6MOFBrqXi",
+    "type": "topic",
+    "label": "Learn the Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\data-structures--algorithms@VJSIbYJcy2MC6MOFBrqXi.md",
+    "children": []
+  },
+  {
+    "id": "kIuns7FOwapwtFLKo1phQ",
+    "old_id": "kIuns7FOwapwtFLKo1phQ",
+    "type": "subtopic",
+    "label": "Arrays and Linked Lists",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "rSfg5M65LyZldhrdWOr90",
+    "old_id": "rSfg5M65LyZldhrdWOr90",
+    "type": "subtopic",
+    "label": "Heaps, Stacks and Queues",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0-m8jVuDKE8hX1QorKGTM",
+    "old_id": "0-m8jVuDKE8hX1QorKGTM",
+    "type": "subtopic",
+    "label": "Hash Tables",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "7NZlydjm4432vLY1InBS7",
+    "old_id": "7NZlydjm4432vLY1InBS7",
+    "type": "subtopic",
+    "label": "Binary Search Tree",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "94KnPMQdNTOwQkUv37tAk",
+    "old_id": "94KnPMQdNTOwQkUv37tAk",
+    "type": "subtopic",
+    "label": "Recursion",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "YNptpfK9qv2ovmkUXLkJT",
+    "old_id": "YNptpfK9qv2ovmkUXLkJT",
+    "type": "subtopic",
+    "label": "Sorting Algorithms",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "08XifLQ20c4FKI_4AWNBQ",
+    "old_id": "08XifLQ20c4FKI_4AWNBQ",
+    "type": "subtopic",
+    "label": "Builtin",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\builtin@08XifLQ20c4FKI_4AWNBQ.md",
+    "children": []
+  },
+  {
+    "id": "l7k0qTYe42wYBTlT2-1cy",
+    "old_id": "l7k0qTYe42wYBTlT2-1cy",
+    "type": "subtopic",
+    "label": "Custom",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\custom@l7k0qTYe42wYBTlT2-1cy.md",
+    "children": []
+  },
+  {
+    "id": "aWHgAk959DPUZL46CeRiI",
+    "old_id": "aWHgAk959DPUZL46CeRiI",
+    "type": "topic",
+    "label": "Lambdas",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\lambdas@aWHgAk959DPUZL46CeRiI.md",
+    "children": []
+  },
+  {
+    "id": "pIluLJkySqn_gI_GykV6G",
+    "old_id": "pIluLJkySqn_gI_GykV6G",
+    "type": "topic",
+    "label": "Decorators",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\decorators@pIluLJkySqn_gI_GykV6G.md",
+    "children": []
+  },
+  {
+    "id": "aB1LSQjDEQb_BxueOcnxU",
+    "old_id": "P_Di-XPSDITmU3xKQew8G",
+    "type": "topic",
+    "label": "Iterators",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\object-oriented-programming@P_Di-XPSDITmU3xKQew8G.md",
+    "children": []
+  },
+  {
+    "id": "7t6mJBsaFMWPi7o9fbhhq",
+    "old_id": "P_Di-XPSDITmU3xKQew8G",
+    "type": "topic",
+    "label": "Regular Expressions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\object-oriented-programming@P_Di-XPSDITmU3xKQew8G.md",
+    "children": [
+      {
+        "id": "P_Di-XPSDITmU3xKQew8G",
+        "old_id": "P_Di-XPSDITmU3xKQew8G",
+        "type": "topic",
+        "label": "Object Oriented Programming",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\object-oriented-programming@P_Di-XPSDITmU3xKQew8G.md",
+        "children": [
+          {
+            "id": "qeCMw-sJ2FR4UxvU9DDzv",
+            "old_id": "qeCMw-sJ2FR4UxvU9DDzv",
+            "type": "topic",
+            "label": "Package Managers",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\package-managers@qeCMw-sJ2FR4UxvU9DDzv.md",
+            "children": [
+              {
+                "id": "uXd2B01GVBEQNXQE8RATT",
+                "old_id": "uXd2B01GVBEQNXQE8RATT",
+                "type": "subtopic",
+                "label": "Poetry",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\poetry@uXd2B01GVBEQNXQE8RATT.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "AqwzR8dZKLQIoj_6KKZ3t",
+            "old_id": "AqwzR8dZKLQIoj_6KKZ3t",
+            "type": "subtopic",
+            "label": "Classes",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\classes@AqwzR8dZKLQIoj_6KKZ3t.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S0FLE70szSVUPI0CDEQK7",
+    "old_id": "S0FLE70szSVUPI0CDEQK7",
+    "type": "subtopic",
+    "label": "Inheritance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\inheritance@S0FLE70szSVUPI0CDEQK7.md",
+    "children": []
+  },
+  {
+    "id": "zAS4YiEJ6VPsyABrkIG8i",
+    "old_id": "zAS4YiEJ6VPsyABrkIG8i",
+    "type": "subtopic",
+    "label": "Methods, Dunder",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\methods@zAS4YiEJ6VPsyABrkIG8i.md",
+    "children": []
+  },
+  {
+    "id": "1dfOTOGsOk5XE3bnZs8Ht",
+    "old_id": "1dfOTOGsOk5XE3bnZs8Ht",
+    "type": "subtopic",
+    "label": "PyPI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pypi@1dfOTOGsOk5XE3bnZs8Ht.md",
+    "children": []
+  },
+  {
+    "id": "iVhQnp6hpgVZDNJ0XoVra",
+    "old_id": "p3Frfs6oxpuciUzeCEsvb",
+    "type": "subtopic",
+    "label": "Pip",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\uv@p3Frfs6oxpuciUzeCEsvb.md",
+    "children": []
+  },
+  {
+    "id": "uh67D1u-Iv5cZamRgFEJg",
+    "old_id": "uh67D1u-Iv5cZamRgFEJg",
+    "type": "subtopic",
+    "label": "Conda",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\conda@uh67D1u-Iv5cZamRgFEJg.md",
+    "children": []
+  },
+  {
+    "id": "4gtmtYWYRWqwLdZRL0XMg",
+    "old_id": "4gtmtYWYRWqwLdZRL0XMg",
+    "type": "topic",
+    "label": "List Comprehensions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\list-comprehensions@4gtmtYWYRWqwLdZRL0XMg.md",
+    "children": []
+  },
+  {
+    "id": "jnLIVRrWxcX3yq3Op91Vr",
+    "old_id": "jnLIVRrWxcX3yq3Op91Vr",
+    "type": "topic",
+    "label": "Generator Expressions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\generator-expressions@jnLIVRrWxcX3yq3Op91Vr.md",
+    "children": []
+  },
+  {
+    "id": "4GU5HNi3W8yFkImVY9ZpW",
+    "old_id": "4GU5HNi3W8yFkImVY9ZpW",
+    "type": "topic",
+    "label": "Paradigms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\paradigms@4GU5HNi3W8yFkImVY9ZpW.md",
+    "children": []
+  },
+  {
+    "id": "KAXF2kUAOvtBZhY8G9rkI",
+    "old_id": "KAXF2kUAOvtBZhY8G9rkI",
+    "type": "topic",
+    "label": "Context Manager",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\context-manager@KAXF2kUAOvtBZhY8G9rkI.md",
+    "children": []
+  },
+  {
+    "id": "0-ShORjGnQlAdcwjtxdEB",
+    "old_id": "0-ShORjGnQlAdcwjtxdEB",
+    "type": "topic",
+    "label": "Learn a Framework",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\learn-a-framework@0-ShORjGnQlAdcwjtxdEB.md",
+    "children": [
+      {
+        "id": "u4nRzWQ4zhDFMOrZ2I_uJ",
+        "old_id": "u4nRzWQ4zhDFMOrZ2I_uJ",
+        "type": "topic",
+        "label": "Concurrency",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\concurrency@u4nRzWQ4zhDFMOrZ2I_uJ.md",
+        "children": [
+          {
+            "id": "HSY5OUc_M5S6OcFXPRtkx",
+            "old_id": "HSY5OUc_M5S6OcFXPRtkx",
+            "type": "subtopic",
+            "label": "Multiprocessing",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\multiprocessing@HSY5OUc_M5S6OcFXPRtkx.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xOUj3Uz6UZgm7j6RvIvDO",
+    "old_id": "xOUj3Uz6UZgm7j6RvIvDO",
+    "type": "label",
+    "label": "Synchronous",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "DHtskqATeAVKgaazdhXKD",
+    "old_id": "DHtskqATeAVKgaazdhXKD",
+    "type": "subtopic",
+    "label": "Pyramid",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pyramid@DHtskqATeAVKgaazdhXKD.md",
+    "children": []
+  },
+  {
+    "id": "7zcpXN3krnS3tMRWVNIVe",
+    "old_id": "7zcpXN3krnS3tMRWVNIVe",
+    "type": "subtopic",
+    "label": "Plotly Dash",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\plotly-dash@7zcpXN3krnS3tMRWVNIVe.md",
+    "children": []
+  },
+  {
+    "id": "FFy2S2eFDyahPltEzucF8",
+    "old_id": "FFy2S2eFDyahPltEzucF8",
+    "type": "label",
+    "label": "Asynchronous",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "InUJIGmTnf0X4cSoLuCEQ",
+    "old_id": "InUJIGmTnf0X4cSoLuCEQ",
+    "type": "subtopic",
+    "label": "gevent",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\gevent@InUJIGmTnf0X4cSoLuCEQ.md",
+    "children": []
+  },
+  {
+    "id": "IBVAvFtN4mnIPbIuyUvEb",
+    "old_id": "IBVAvFtN4mnIPbIuyUvEb",
+    "type": "subtopic",
+    "label": "aiohttp",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\aiohttp@IBVAvFtN4mnIPbIuyUvEb.md",
+    "children": []
+  },
+  {
+    "id": "zey2C6BdzsHJAlb_K3qrP",
+    "old_id": "zey2C6BdzsHJAlb_K3qrP",
+    "type": "subtopic",
+    "label": "Tornado",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\tornado@zey2C6BdzsHJAlb_K3qrP.md",
+    "children": []
+  },
+  {
+    "id": "9RGpqsj9jHz0_-r7EvRcw",
+    "old_id": "9RGpqsj9jHz0_-r7EvRcw",
+    "type": "subtopic",
+    "label": "Sanic",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\sanic@9RGpqsj9jHz0_-r7EvRcw.md",
+    "children": []
+  },
+  {
+    "id": "NYOaEGM47I2oqnroxyVZV",
+    "old_id": "NYOaEGM47I2oqnroxyVZV",
+    "type": "label",
+    "label": "Synchronous + Asynchronous",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "XeQSmvAsGSTi8dd7QVHxn",
+    "old_id": "XeQSmvAsGSTi8dd7QVHxn",
+    "type": "subtopic",
+    "label": "Fast API",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\fast-api@XeQSmvAsGSTi8dd7QVHxn.md",
+    "children": []
+  },
+  {
+    "id": "x1V8GjdjANTnhP6YXMbgC",
+    "old_id": "x1V8GjdjANTnhP6YXMbgC",
+    "type": "subtopic",
+    "label": "Django",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\django@x1V8GjdjANTnhP6YXMbgC.md",
+    "children": []
+  },
+  {
+    "id": "HKsGyRzntjh1UbRZSWh_4",
+    "old_id": "HKsGyRzntjh1UbRZSWh_4",
+    "type": "subtopic",
+    "label": "Flask",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\flask@HKsGyRzntjh1UbRZSWh_4.md",
+    "children": []
+  },
+  {
+    "id": "bS7WeVKm2kEElu3sBKcIC",
+    "old_id": "bS7WeVKm2kEElu3sBKcIC",
+    "type": "subtopic",
+    "label": "GIL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\gil@bS7WeVKm2kEElu3sBKcIC.md",
+    "children": []
+  },
+  {
+    "id": "UIx0XYaOgXXlYbbQtjiPq",
+    "old_id": "UIx0XYaOgXXlYbbQtjiPq",
+    "type": "subtopic",
+    "label": "Threading",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\threading@UIx0XYaOgXXlYbbQtjiPq.md",
+    "children": []
+  },
+  {
+    "id": "Mow7RvropbC4ZGDpcGZmw",
+    "old_id": "Mow7RvropbC4ZGDpcGZmw",
+    "type": "subtopic",
+    "label": "Asynchrony",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\asynchrony@Mow7RvropbC4ZGDpcGZmw.md",
+    "children": []
+  },
+  {
+    "id": "p3Frfs6oxpuciUzeCEsvb",
+    "old_id": "p3Frfs6oxpuciUzeCEsvb",
+    "type": "subtopic",
+    "label": "uv",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\uv@p3Frfs6oxpuciUzeCEsvb.md",
+    "children": []
+  },
+  {
+    "id": "GHKAY9gOykEbxkEeR30wL",
+    "old_id": "GHKAY9gOykEbxkEeR30wL",
+    "type": "subtopic",
+    "label": "pyproject.toml",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pyprojecttoml@GHKAY9gOykEbxkEeR30wL.md",
+    "children": []
+  },
+  {
+    "id": "yDP0K1gXlDmVSgTtGJaPY",
+    "old_id": "yDP0K1gXlDmVSgTtGJaPY",
+    "type": "label",
+    "label": "Configuration",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "IWq-tfkz-pSC1ztZl60vM",
+    "old_id": "IWq-tfkz-pSC1ztZl60vM",
+    "type": "subtopic",
+    "label": "Pipenv",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pipenv@IWq-tfkz-pSC1ztZl60vM.md",
+    "children": []
+  },
+  {
+    "id": "_IXXTSwQOgYzYIUuKVWNE",
+    "old_id": "_IXXTSwQOgYzYIUuKVWNE",
+    "type": "subtopic",
+    "label": "virtualenv",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\virtualenv@_IXXTSwQOgYzYIUuKVWNE.md",
+    "children": []
+  },
+  {
+    "id": "N5VaKMbgQ0V_BC5tadV65",
+    "old_id": "N5VaKMbgQ0V_BC5tadV65",
+    "type": "subtopic",
+    "label": "pyenv",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pyenv@N5VaKMbgQ0V_BC5tadV65.md",
+    "children": []
+  },
+  {
+    "id": "lkST4ErYyBfrCcpsuptzh",
+    "old_id": "lkST4ErYyBfrCcpsuptzh",
+    "type": "label",
+    "label": "Environments",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "1PXApuUpPmJjgi12cmWo4",
+    "old_id": "1PXApuUpPmJjgi12cmWo4",
+    "type": "topic",
+    "label": "Static Typing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\static-typing@1PXApuUpPmJjgi12cmWo4.md",
+    "children": [
+      {
+        "id": "W3VALz5evFo1qqkQbMN1R",
+        "old_id": "W3VALz5evFo1qqkQbMN1R",
+        "type": "subtopic",
+        "label": "Pydantic",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pydantic@W3VALz5evFo1qqkQbMN1R.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "KFFbnOBa-y5r58w2pUf15",
+    "old_id": "KFFbnOBa-y5r58w2pUf15",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "gIcJ3bUVQXqO1Wx4gUKd5",
+    "old_id": "o1wi39VnjnFfWIC8XcuAK",
+    "type": "subtopic",
+    "label": "mypy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\typing@o1wi39VnjnFfWIC8XcuAK.md",
+    "children": []
+  },
+  {
+    "id": "1q9HWgu9jDTK757hTNOmE",
+    "old_id": "1q9HWgu9jDTK757hTNOmE",
+    "type": "subtopic",
+    "label": "pyright",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pyright@1q9HWgu9jDTK757hTNOmE.md",
+    "children": []
+  },
+  {
+    "id": "9mFR_ueXbIB2IrkqU2s85",
+    "old_id": "9mFR_ueXbIB2IrkqU2s85",
+    "type": "subtopic",
+    "label": "pyre",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\pyre@9mFR_ueXbIB2IrkqU2s85.md",
+    "children": []
+  },
+  {
+    "id": "0F0ppU_ClIUKZ23Q6BVZp",
+    "old_id": "0F0ppU_ClIUKZ23Q6BVZp",
+    "type": "topic",
+    "label": "Code Formatting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\code-formatting@0F0ppU_ClIUKZ23Q6BVZp.md",
+    "children": [
+      {
+        "id": "tsh_vbhzKz1-H9Vh69tsK",
+        "old_id": "tsh_vbhzKz1-H9Vh69tsK",
+        "type": "subtopic",
+        "label": "yapf",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\yapf@tsh_vbhzKz1-H9Vh69tsK.md",
+        "children": []
+      },
+      {
+        "id": "DS6nuAUhUYcqiJDmQisKM",
+        "old_id": "DS6nuAUhUYcqiJDmQisKM",
+        "type": "subtopic",
+        "label": "black",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\black@DS6nuAUhUYcqiJDmQisKM.md",
+        "children": []
+      },
+      {
+        "id": "6cB0pvUO1-gvCtgqozP-Q",
+        "old_id": "6cB0pvUO1-gvCtgqozP-Q",
+        "type": "subtopic",
+        "label": "ruff",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\ruff@6cB0pvUO1-gvCtgqozP-Q.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "ZFyKLneWQyUks5zSi_-kw",
+    "old_id": "ZFyKLneWQyUks5zSi_-kw",
+    "type": "label",
+    "label": "Documentation",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "maYNuTKYyZndxk1z29-UY",
+    "old_id": "maYNuTKYyZndxk1z29-UY",
+    "type": "subtopic",
+    "label": "Sphinx",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\sphinx@maYNuTKYyZndxk1z29-UY.md",
+    "children": []
+  },
+  {
+    "id": "_94NrQ3quc4t_PPOsFSN0",
+    "old_id": "_94NrQ3quc4t_PPOsFSN0",
+    "type": "topic",
+    "label": "Common Packages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\common-packages@_94NrQ3quc4t_PPOsFSN0.md",
+    "children": []
+  },
+  {
+    "id": "SSnzpijHLO5_l7DNEoMfx",
+    "old_id": "SSnzpijHLO5_l7DNEoMfx",
+    "type": "subtopic",
+    "label": "nose",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "o1wi39VnjnFfWIC8XcuAK",
+    "old_id": "o1wi39VnjnFfWIC8XcuAK",
+    "type": "subtopic",
+    "label": "typing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\python\\content\\typing@o1wi39VnjnFfWIC8XcuAK.md",
+    "children": []
+  },
+  {
+    "id": "U0fJo2a3vnaodNJhfZ78I",
+    "old_id": "P5IZjP0g1_fnvHy3YTR4q",
+    "type": "button",
+    "label": "DevOps",
+    "resources": [],
+    "children": []
+  }
+]

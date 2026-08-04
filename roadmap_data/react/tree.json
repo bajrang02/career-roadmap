@@ -1,0 +1,1079 @@
+[
+  {
+    "id": "NeJdgNbsxiUjt_GBzub6Z",
+    "old_id": "NeJdgNbsxiUjt_GBzub6Z",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "FkTj8n1pIAGa1nf93MUKC",
+    "old_id": "FkTj8n1pIAGa1nf93MUKC",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "l4RmWQLIK1NOOm6QTQMBa",
+    "old_id": "l4RmWQLIK1NOOm6QTQMBa",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iogwMmOvub2ZF4zgg6WyF",
+    "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+    "type": "title",
+    "label": "React",
+    "resources": [],
+    "children": [
+      {
+        "id": "XDvH2t3AJGevS17uM8TO6",
+        "old_id": "R_Fs6rdl2XtQ9aLOubMqL",
+        "type": "button",
+        "label": "JavaScript Roadmap",
+        "resources": [],
+        "children": [
+          {
+            "id": "tU4Umtnfu01t9gLlnlK6b",
+            "old_id": "tU4Umtnfu01t9gLlnlK6b",
+            "type": "topic",
+            "label": "CLI Tools",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\cli-tools@tU4Umtnfu01t9gLlnlK6b.md",
+            "children": [
+              {
+                "id": "y9ToYDix-koRbR6FLydFw",
+                "old_id": "y9ToYDix-koRbR6FLydFw",
+                "type": "subtopic",
+                "label": "Vite",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation (Opinion)"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\vite@y9ToYDix-koRbR6FLydFw.md",
+                "children": []
+              },
+              {
+                "id": "79K4xgljcoSHkCYI1D55O",
+                "old_id": "0uiGsC5SWavNdlFqizkKe",
+                "type": "topic",
+                "label": "Components",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\rendering@0uiGsC5SWavNdlFqizkKe.md",
+                "children": [
+                  {
+                    "id": "8mw4TxlLN4ZKAlLl-_NVV",
+                    "old_id": "8mw4TxlLN4ZKAlLl-_NVV",
+                    "type": "subtopic",
+                    "label": "Functional Components",
+                    "resources": [],
+                    "legend": {
+                      "color": "#874efe",
+                      "label": "Personal Recommendation (Opinion)"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\functional-components@8mw4TxlLN4ZKAlLl-_NVV.md",
+                    "children": []
+                  },
+                  {
+                    "id": "0uiGsC5SWavNdlFqizkKe",
+                    "old_id": "0uiGsC5SWavNdlFqizkKe",
+                    "type": "topic",
+                    "label": "Rendering",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\rendering@0uiGsC5SWavNdlFqizkKe.md",
+                    "children": [
+                      {
+                        "id": "LbLQhonBqzxHU6B-L--Vq",
+                        "old_id": "thfnymb_UIiKxakKfiua5",
+                        "type": "topic",
+                        "label": "Hooks",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\component--libraries@thfnymb_UIiKxakKfiua5.md",
+                        "children": [
+                          {
+                            "id": "HX75SExuzR5AP7TQ94qid",
+                            "old_id": "HX75SExuzR5AP7TQ94qid",
+                            "type": "subtopic",
+                            "label": "Creating Custom Hooks",
+                            "resources": [],
+                            "legend": {
+                              "color": "#874efe",
+                              "label": "Personal Recommendation (Opinion)"
+                            },
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\creating-custom-hooks@HX75SExuzR5AP7TQ94qid.md",
+                            "children": []
+                          },
+                          {
+                            "id": "mkyU0ug8MXxV4biHuOity",
+                            "old_id": "mkyU0ug8MXxV4biHuOity",
+                            "type": "subtopic",
+                            "label": "Hooks Best Practices",
+                            "resources": [],
+                            "legend": {
+                              "color": "#874efe",
+                              "label": "Personal Recommendation (Opinion)"
+                            },
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\hooks-best-practices@mkyU0ug8MXxV4biHuOity.md",
+                            "children": []
+                          },
+                          {
+                            "id": "NStw6bi_pPB49K41BFSgo",
+                            "old_id": "thfnymb_UIiKxakKfiua5",
+                            "type": "topic",
+                            "label": "Routers",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\component--libraries@thfnymb_UIiKxakKfiua5.md",
+                            "children": [
+                              {
+                                "id": "jvp43wFkKlGQX2y7IxkbM",
+                                "old_id": "jvp43wFkKlGQX2y7IxkbM",
+                                "type": "subtopic",
+                                "label": "React Router",
+                                "resources": [],
+                                "legend": {
+                                  "color": "#874efe",
+                                  "label": "Personal Recommendation (Opinion)"
+                                },
+                                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-router@jvp43wFkKlGQX2y7IxkbM.md",
+                                "children": []
+                              },
+                              {
+                                "id": "I7_mX4h-Yywp1YyTJRKXI",
+                                "old_id": "thfnymb_UIiKxakKfiua5",
+                                "type": "topic",
+                                "label": "State Management",
+                                "resources": [],
+                                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\component--libraries@thfnymb_UIiKxakKfiua5.md",
+                                "children": [
+                                  {
+                                    "id": "yI6XiNW04EL78UL4lkVgd",
+                                    "old_id": "yI6XiNW04EL78UL4lkVgd",
+                                    "type": "subtopic",
+                                    "label": "Jotai",
+                                    "resources": [],
+                                    "legend": {
+                                      "color": "#874efe",
+                                      "label": "Personal Recommendation (Opinion)"
+                                    },
+                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\jotai@yI6XiNW04EL78UL4lkVgd.md",
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "DfrCkbD-HEHwLymv10zb5",
+                                    "old_id": "thfnymb_UIiKxakKfiua5",
+                                    "type": "topic",
+                                    "label": "Writing CSS",
+                                    "resources": [],
+                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\component--libraries@thfnymb_UIiKxakKfiua5.md",
+                                    "children": [
+                                      {
+                                        "id": "thfnymb_UIiKxakKfiua5",
+                                        "old_id": "thfnymb_UIiKxakKfiua5",
+                                        "type": "topic",
+                                        "label": "Component / Libraries",
+                                        "resources": [],
+                                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\component--libraries@thfnymb_UIiKxakKfiua5.md",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "R_Fs6rdl2XtQ9aLOubMqL",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ZSrQoNGKiR484uALMWO9F",
+    "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+    "type": "button",
+    "label": "TypeScript Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "P5IZjP0g1_fnvHy3YTR4q",
+    "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+    "type": "button",
+    "label": "Frontend Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "HMTUjok_ZAcrP6YobWs3T",
+    "old_id": "HMTUjok_ZAcrP6YobWs3T",
+    "type": "label",
+    "label": "Component Basics",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "WREBxWSNQDD_6fzpHL6CE",
+    "old_id": "WREBxWSNQDD_6fzpHL6CE",
+    "type": "subtopic",
+    "label": "JSX",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\jsx@WREBxWSNQDD_6fzpHL6CE.md",
+    "children": []
+  },
+  {
+    "id": "RFuy3Eho3mnW1GpP08BVw",
+    "old_id": "RFuy3Eho3mnW1GpP08BVw",
+    "type": "subtopic",
+    "label": "Props vs State",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\props-vs-state@RFuy3Eho3mnW1GpP08BVw.md",
+    "children": []
+  },
+  {
+    "id": "aE6XBgH23135_9QmD4ff2",
+    "old_id": "aE6XBgH23135_9QmD4ff2",
+    "type": "subtopic",
+    "label": "Conditional Rendering",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\conditional-rendering@aE6XBgH23135_9QmD4ff2.md",
+    "children": []
+  },
+  {
+    "id": "4T59gdcwdXqj9kCuK7cfp",
+    "old_id": "4T59gdcwdXqj9kCuK7cfp",
+    "type": "subtopic",
+    "label": "Composition",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\composition@4T59gdcwdXqj9kCuK7cfp.md",
+    "children": []
+  },
+  {
+    "id": "8OBlgDRUg-CTgDXY-QHyO",
+    "old_id": "8OBlgDRUg-CTgDXY-QHyO",
+    "type": "subtopic",
+    "label": "Component Lifecycle",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\component-lifecycle@8OBlgDRUg-CTgDXY-QHyO.md",
+    "children": []
+  },
+  {
+    "id": "HeWVCPHqVnnbOn6zIim4K",
+    "old_id": "HeWVCPHqVnnbOn6zIim4K",
+    "type": "subtopic",
+    "label": "Lists and Keys",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\lists-and-keys@HeWVCPHqVnnbOn6zIim4K.md",
+    "children": []
+  },
+  {
+    "id": "vdumdIglnouf1KyGIGZnc",
+    "old_id": "vdumdIglnouf1KyGIGZnc",
+    "type": "subtopic",
+    "label": "Render Props",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\render-props@vdumdIglnouf1KyGIGZnc.md",
+    "children": []
+  },
+  {
+    "id": "_zNAOhFWMcWqP4oxNPCXF",
+    "old_id": "_zNAOhFWMcWqP4oxNPCXF",
+    "type": "subtopic",
+    "label": "Refs",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\refs@_zNAOhFWMcWqP4oxNPCXF.md",
+    "children": []
+  },
+  {
+    "id": "Nex2HcTOYIbfqUzXyxSMY",
+    "old_id": "Nex2HcTOYIbfqUzXyxSMY",
+    "type": "subtopic",
+    "label": "Events",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\events@Nex2HcTOYIbfqUzXyxSMY.md",
+    "children": []
+  },
+  {
+    "id": "zOENl96GUZRw2PP2KxIck",
+    "old_id": "zOENl96GUZRw2PP2KxIck",
+    "type": "subtopic",
+    "label": "High Order Components",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\high-order-components@zOENl96GUZRw2PP2KxIck.md",
+    "children": []
+  },
+  {
+    "id": "mkmz1JuNsTOR1D4vqilCX",
+    "old_id": "mkmz1JuNsTOR1D4vqilCX",
+    "type": "label",
+    "label": "Basic Hooks",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "YEpkbNzEMzS6wAKg85J_N",
+    "old_id": "FK59Zsm5ENA9g11XWCan_",
+    "type": "subtopic",
+    "label": "useState",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\usestate@FK59Zsm5ENA9g11XWCan_.md",
+    "children": []
+  },
+  {
+    "id": "8OnzX03hkZ9K9i__tjmFX",
+    "old_id": "8OnzX03hkZ9K9i__tjmFX",
+    "type": "subtopic",
+    "label": "useEffect",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\useeffect@8OnzX03hkZ9K9i__tjmFX.md",
+    "children": []
+  },
+  {
+    "id": "EyspErq0ByXTgkgk3SGUz",
+    "old_id": "EyspErq0ByXTgkgk3SGUz",
+    "type": "label",
+    "label": "Common Hooks",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "dgoDNDtW2_q9R9yhkXrcz",
+    "old_id": "dgoDNDtW2_q9R9yhkXrcz",
+    "type": "subtopic",
+    "label": "useCallback",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\usecallback@dgoDNDtW2_q9R9yhkXrcz.md",
+    "children": []
+  },
+  {
+    "id": "t_laNdMmdLApYszqXRdWg",
+    "old_id": "t_laNdMmdLApYszqXRdWg",
+    "type": "subtopic",
+    "label": "useRef",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\useref@t_laNdMmdLApYszqXRdWg.md",
+    "children": []
+  },
+  {
+    "id": "w3bNp7OkehI1gjx8NzlC8",
+    "old_id": "w3bNp7OkehI1gjx8NzlC8",
+    "type": "subtopic",
+    "label": "useMemo",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\usememo@w3bNp7OkehI1gjx8NzlC8.md",
+    "children": []
+  },
+  {
+    "id": "v48Mv0wQqjXbvy8x6gDjQ",
+    "old_id": "v48Mv0wQqjXbvy8x6gDjQ",
+    "type": "subtopic",
+    "label": "useReducer",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\usereducer@v48Mv0wQqjXbvy8x6gDjQ.md",
+    "children": []
+  },
+  {
+    "id": "D5_O-uElftYGQr_bTU_se",
+    "old_id": "D5_O-uElftYGQr_bTU_se",
+    "type": "subtopic",
+    "label": "useContext",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\usecontext@D5_O-uElftYGQr_bTU_se.md",
+    "children": []
+  },
+  {
+    "id": "FK59Zsm5ENA9g11XWCan_",
+    "old_id": "FK59Zsm5ENA9g11XWCan_",
+    "type": "subtopic",
+    "label": "useState",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\usestate@FK59Zsm5ENA9g11XWCan_.md",
+    "children": []
+  },
+  {
+    "id": "zWL8VLx_g0SWubavJDs6i",
+    "old_id": "jvp43wFkKlGQX2y7IxkbM",
+    "type": "subtopic",
+    "label": "Tanstack Router",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-router@jvp43wFkKlGQX2y7IxkbM.md",
+    "children": []
+  },
+  {
+    "id": "10uL0r388lKh8pWYWqRZD",
+    "old_id": "10uL0r388lKh8pWYWqRZD",
+    "type": "subtopic",
+    "label": "Context",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\context@10uL0r388lKh8pWYWqRZD.md",
+    "children": []
+  },
+  {
+    "id": "nl5imPsdY2oEWlg-9TTuk",
+    "old_id": "nl5imPsdY2oEWlg-9TTuk",
+    "type": "subtopic",
+    "label": "Zustand",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\zustand@nl5imPsdY2oEWlg-9TTuk.md",
+    "children": []
+  },
+  {
+    "id": "MnDgQq9Vcxsu3wDqv5uh2",
+    "old_id": "MnDgQq9Vcxsu3wDqv5uh2",
+    "type": "topic",
+    "label": "Headless Component Libraries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\headless-component-libraries@MnDgQq9Vcxsu3wDqv5uh2.md",
+    "children": [
+      {
+        "id": "XL9XOV2h0BAuA5cFcM5L_",
+        "old_id": "XL9XOV2h0BAuA5cFcM5L_",
+        "type": "subtopic",
+        "label": "Radix UI",
+        "resources": [],
+        "legend": {
+          "color": "#874efe",
+          "label": "Personal Recommendation (Opinion)"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\radix-ui@XL9XOV2h0BAuA5cFcM5L_.md",
+        "children": []
+      },
+      {
+        "id": "RvDfKoa_HIW3QDBfkPv3m",
+        "old_id": "RvDfKoa_HIW3QDBfkPv3m",
+        "type": "subtopic",
+        "label": "React Aria",
+        "resources": [],
+        "legend": {
+          "color": "#19a323",
+          "label": "Alternative Option (Pick this or purple)"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-aria@RvDfKoa_HIW3QDBfkPv3m.md",
+        "children": []
+      },
+      {
+        "id": "kiCTo0U6VgNON8rv_Ktlj",
+        "old_id": "kiCTo0U6VgNON8rv_Ktlj",
+        "type": "subtopic",
+        "label": "Ark UI",
+        "resources": [],
+        "legend": {
+          "color": "#19a323",
+          "label": "Alternative Option (Pick this or purple)"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\ark-ui@kiCTo0U6VgNON8rv_Ktlj.md",
+        "children": []
+      },
+      {
+        "id": "b4AP2OggxFAwsQtUwiUJJ",
+        "old_id": "nK1DhEXBKVhvSR1P_vzgj",
+        "type": "topic",
+        "label": "API Calls",
+        "resources": [],
+        "children": [
+          {
+            "id": "-AKmITUmSGIflJG-eGkm5",
+            "old_id": "-AKmITUmSGIflJG-eGkm5",
+            "type": "section",
+            "label": "",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "e_lwZ-a72-tAan2KDX6k3",
+            "old_id": "nK1DhEXBKVhvSR1P_vzgj",
+            "type": "topic",
+            "label": "Testing",
+            "resources": [],
+            "children": [
+              {
+                "id": "cQllxv7qGbRtM9O5llgN6",
+                "old_id": "cQllxv7qGbRtM9O5llgN6",
+                "type": "subtopic",
+                "label": "react-testing-library",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation (Opinion)"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-testing-library@cQllxv7qGbRtM9O5llgN6.md",
+                "children": []
+              },
+              {
+                "id": "zN7Ps1puD-YpHbKi1pHH8",
+                "old_id": "zN7Ps1puD-YpHbKi1pHH8",
+                "type": "subtopic",
+                "label": "Cypress",
+                "resources": [],
+                "legend": {
+                  "color": "#19a323",
+                  "label": "Alternative Option (Pick this or purple)"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\cypress@zN7Ps1puD-YpHbKi1pHH8.md",
+                "children": []
+              },
+              {
+                "id": "W-atg_Msa9uPLr6RXAKSb",
+                "old_id": "nK1DhEXBKVhvSR1P_vzgj",
+                "type": "topic",
+                "label": "Frameworks",
+                "resources": [],
+                "children": [
+                  {
+                    "id": "HdWq9ue0JdwmwqSIN2OD_",
+                    "old_id": "-WjJBYCmRRj08n_9HxohY",
+                    "type": "subtopic",
+                    "label": "Next.js",
+                    "resources": [],
+                    "legend": {
+                      "color": "#874efe",
+                      "label": "Personal Recommendation (Opinion)"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-router@-WjJBYCmRRj08n_9HxohY.md",
+                    "children": []
+                  },
+                  {
+                    "id": "KHcC5pFN3qLnsbPPKpYd2",
+                    "old_id": "nK1DhEXBKVhvSR1P_vzgj",
+                    "type": "topic",
+                    "label": "Forms",
+                    "resources": [],
+                    "children": [
+                      {
+                        "id": "_5ht0PAdVOJWPzTRS1mVg",
+                        "old_id": "_5ht0PAdVOJWPzTRS1mVg",
+                        "type": "subtopic",
+                        "label": "React Hook Form",
+                        "resources": [],
+                        "legend": {
+                          "color": "#874efe",
+                          "label": "Personal Recommendation (Opinion)"
+                        },
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-hook-form@_5ht0PAdVOJWPzTRS1mVg.md",
+                        "children": []
+                      },
+                      {
+                        "id": "UNlvRp6k3_RDoTAAIEfJ1",
+                        "old_id": "nK1DhEXBKVhvSR1P_vzgj",
+                        "type": "topic",
+                        "label": "Types & Validation",
+                        "resources": [],
+                        "children": [
+                          {
+                            "id": "K3RZ8ESxWCpLKHePF87Hy",
+                            "old_id": "K3RZ8ESxWCpLKHePF87Hy",
+                            "type": "subtopic",
+                            "label": "Zod",
+                            "resources": [],
+                            "legend": {
+                              "color": "#874efe",
+                              "label": "Personal Recommendation (Opinion)"
+                            },
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\zod@K3RZ8ESxWCpLKHePF87Hy.md",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KO3viVIJJREtxXxsocN7j",
+    "old_id": "akVNUPOqaTXaSHoQFlkP_",
+    "type": "subtopic",
+    "label": "Tailwind CSS",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\panda-css@akVNUPOqaTXaSHoQFlkP_.md",
+    "children": [
+      {
+        "id": "DfrCkbD-HEHwLymv10zb5",
+        "old_id": "thfnymb_UIiKxakKfiua5",
+        "type": "topic",
+        "label": "Writing CSS",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\component--libraries@thfnymb_UIiKxakKfiua5.md",
+        "children": [
+          {
+            "id": "thfnymb_UIiKxakKfiua5",
+            "old_id": "thfnymb_UIiKxakKfiua5",
+            "type": "topic",
+            "label": "Component / Libraries",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\component--libraries@thfnymb_UIiKxakKfiua5.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "akVNUPOqaTXaSHoQFlkP_",
+    "old_id": "akVNUPOqaTXaSHoQFlkP_",
+    "type": "subtopic",
+    "label": "Panda CSS",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\panda-css@akVNUPOqaTXaSHoQFlkP_.md",
+    "children": []
+  },
+  {
+    "id": "uqphqAnlcJOLnwHZs5jWu",
+    "old_id": "uqphqAnlcJOLnwHZs5jWu",
+    "type": "subtopic",
+    "label": "Chakra UI",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\chakra-ui@uqphqAnlcJOLnwHZs5jWu.md",
+    "children": []
+  },
+  {
+    "id": "gy7eBxPOlwG8BvxHVLDQ9",
+    "old_id": "gy7eBxPOlwG8BvxHVLDQ9",
+    "type": "subtopic",
+    "label": "Material UI",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\material-ui@gy7eBxPOlwG8BvxHVLDQ9.md",
+    "children": []
+  },
+  {
+    "id": "njKsYNkwTXPQ1NjlGKXab",
+    "old_id": "njKsYNkwTXPQ1NjlGKXab",
+    "type": "subtopic",
+    "label": "Shadcn UI",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\shadcn-ui@njKsYNkwTXPQ1NjlGKXab.md",
+    "children": []
+  },
+  {
+    "id": "awoEhwPKjUcR84XGL6Som",
+    "old_id": "akVNUPOqaTXaSHoQFlkP_",
+    "type": "subtopic",
+    "label": "CSS Modules",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\panda-css@akVNUPOqaTXaSHoQFlkP_.md",
+    "children": []
+  },
+  {
+    "id": "8nMbfGxe3STMbrAVcqHHh",
+    "old_id": "8nMbfGxe3STMbrAVcqHHh",
+    "type": "subtopic",
+    "label": "Apollo",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\apollo@8nMbfGxe3STMbrAVcqHHh.md",
+    "children": []
+  },
+  {
+    "id": "cLfM342sZfsCwmPPxQpEI",
+    "old_id": "cLfM342sZfsCwmPPxQpEI",
+    "type": "subtopic",
+    "label": "Relay",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\relay@cLfM342sZfsCwmPPxQpEI.md",
+    "children": []
+  },
+  {
+    "id": "9M5jRu0pj8KMvg9f-2oqZ",
+    "old_id": "9M5jRu0pj8KMvg9f-2oqZ",
+    "type": "subtopic",
+    "label": "urql",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\urql@9M5jRu0pj8KMvg9f-2oqZ.md",
+    "children": []
+  },
+  {
+    "id": "zWcMFfyiWJddGbiIhmdKm",
+    "old_id": "KNAlIYCENB4VMuQGqJNk3",
+    "type": "label",
+    "label": "GraphQL",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-ea1KsXEyz-4voHXklG_J",
+    "old_id": "-ea1KsXEyz-4voHXklG_J",
+    "type": "subtopic",
+    "label": "swr",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\swr@-ea1KsXEyz-4voHXklG_J.md",
+    "children": []
+  },
+  {
+    "id": "5EPmbiNdP_vhIXclv_GjV",
+    "old_id": "5EPmbiNdP_vhIXclv_GjV",
+    "type": "subtopic",
+    "label": "react-query",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\tanstack-query@5EPmbiNdP_vhIXclv_GjV.md",
+    "children": []
+  },
+  {
+    "id": "ElqWQClryfSYdL7P_mgYK",
+    "old_id": "ElqWQClryfSYdL7P_mgYK",
+    "type": "subtopic",
+    "label": "Axios",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\axios@ElqWQClryfSYdL7P_mgYK.md",
+    "children": []
+  },
+  {
+    "id": "h49-tjEkKcq7d7ikRHIOx",
+    "old_id": "h49-tjEkKcq7d7ikRHIOx",
+    "type": "subtopic",
+    "label": "rtk-query",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\rtk-query@h49-tjEkKcq7d7ikRHIOx.md",
+    "children": []
+  },
+  {
+    "id": "KNAlIYCENB4VMuQGqJNk3",
+    "old_id": "KNAlIYCENB4VMuQGqJNk3",
+    "type": "label",
+    "label": "REST",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "opa61u9gYgSpoPtxp58wu",
+    "old_id": "opa61u9gYgSpoPtxp58wu",
+    "type": "subtopic",
+    "label": "Jest",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\jest@opa61u9gYgSpoPtxp58wu.md",
+    "children": []
+  },
+  {
+    "id": "LULjhsPNONyI5912DKzPw",
+    "old_id": "LULjhsPNONyI5912DKzPw",
+    "type": "subtopic",
+    "label": "Vitest",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\vitest@LULjhsPNONyI5912DKzPw.md",
+    "children": []
+  },
+  {
+    "id": "g39P0c6M2sHNoUPs0m8tr",
+    "old_id": "g39P0c6M2sHNoUPs0m8tr",
+    "type": "subtopic",
+    "label": "Playwright",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\playwright@g39P0c6M2sHNoUPs0m8tr.md",
+    "children": []
+  },
+  {
+    "id": "_HoZkE7FH-v3wI_722ZTF",
+    "old_id": "-WjJBYCmRRj08n_9HxohY",
+    "type": "subtopic",
+    "label": "Astro",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-router@-WjJBYCmRRj08n_9HxohY.md",
+    "children": []
+  },
+  {
+    "id": "-WjJBYCmRRj08n_9HxohY",
+    "old_id": "-WjJBYCmRRj08n_9HxohY",
+    "type": "subtopic",
+    "label": "react-router",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-router@-WjJBYCmRRj08n_9HxohY.md",
+    "children": []
+  },
+  {
+    "id": "gr1CaLvL7tFOkIRywSsID",
+    "old_id": "gr1CaLvL7tFOkIRywSsID",
+    "type": "subtopic",
+    "label": "Formik",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\formik@gr1CaLvL7tFOkIRywSsID.md",
+    "children": []
+  },
+  {
+    "id": "ElgRwv5LSVg5FXGx-2K2s",
+    "old_id": "ElgRwv5LSVg5FXGx-2K2s",
+    "type": "subtopic",
+    "label": "TypeScript",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation (Opinion)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\typescript@ElgRwv5LSVg5FXGx-2K2s.md",
+    "children": []
+  },
+  {
+    "id": "SUeXDkmOLipdRP4fSrZOH",
+    "old_id": "_F3WMxhzaK9F8_-zHDDMF",
+    "type": "topic",
+    "label": "Server APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\suspense@_F3WMxhzaK9F8_-zHDDMF.md",
+    "children": []
+  },
+  {
+    "id": "WzoB5B6SdOI4Mzv6U51nY",
+    "old_id": "y2dI1DVLWKAkv6VRpgaQa",
+    "type": "subtopic",
+    "label": "react spring",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\gsock@y2dI1DVLWKAkv6VRpgaQa.md",
+    "children": []
+  },
+  {
+    "id": "y2dI1DVLWKAkv6VRpgaQa",
+    "old_id": "y2dI1DVLWKAkv6VRpgaQa",
+    "type": "subtopic",
+    "label": "GSock",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\gsock@y2dI1DVLWKAkv6VRpgaQa.md",
+    "children": []
+  },
+  {
+    "id": "_F3WMxhzaK9F8_-zHDDMF",
+    "old_id": "_F3WMxhzaK9F8_-zHDDMF",
+    "type": "topic",
+    "label": "Suspense",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\suspense@_F3WMxhzaK9F8_-zHDDMF.md",
+    "children": []
+  },
+  {
+    "id": "DcDggX4OmmwvJGHwuV86t",
+    "old_id": "txARr3lgTvy-vJCj5zAb1",
+    "type": "topic",
+    "label": "Portals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\mobile-applications@txARr3lgTvy-vJCj5zAb1.md",
+    "children": [
+      {
+        "id": "txARr3lgTvy-vJCj5zAb1",
+        "old_id": "txARr3lgTvy-vJCj5zAb1",
+        "type": "topic",
+        "label": "Mobile Applications",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\mobile-applications@txARr3lgTvy-vJCj5zAb1.md",
+        "children": [
+          {
+            "id": "NvXAq1vN2wpncdW-yTL4c",
+            "old_id": "NvXAq1vN2wpncdW-yTL4c",
+            "type": "subtopic",
+            "label": "React Native",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation (Opinion)"
+            },
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\react-native@NvXAq1vN2wpncdW-yTL4c.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5xCbPG6RMI0OEAI4aXKC7",
+    "old_id": "5xCbPG6RMI0OEAI4aXKC7",
+    "type": "legend",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "1kbrCI5JS0c9wbzxXpgFU",
+    "old_id": "10uL0r388lKh8pWYWqRZD",
+    "type": "subtopic",
+    "label": "MobX",
+    "resources": [],
+    "legend": {
+      "color": "#19a323",
+      "label": "Alternative Option (Pick this or purple)"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react\\content\\context@10uL0r388lKh8pWYWqRZD.md",
+    "children": []
+  }
+]

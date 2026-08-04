@@ -1,0 +1,857 @@
+[
+  {
+    "id": "Z4uVzAoNzcAkyjd-lp3_M",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Pick a Language",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "HVD9G3JlLBsAg111vQILj",
+    "old_id": "9h1mz0xAUvPrnRm9VndJF",
+    "type": "subtopic",
+    "label": "JavaScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\ruby@9h1mz0xAUvPrnRm9VndJF.md"
+  },
+  {
+    "id": "gjZZOwmYkXQHPfg9Ynz80",
+    "old_id": "9h1mz0xAUvPrnRm9VndJF",
+    "type": "subtopic",
+    "label": "Java",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\ruby@9h1mz0xAUvPrnRm9VndJF.md"
+  },
+  {
+    "id": "OkdM_PJge70j5tsjT2Esl",
+    "old_id": "9h1mz0xAUvPrnRm9VndJF",
+    "type": "subtopic",
+    "label": "Go",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\ruby@9h1mz0xAUvPrnRm9VndJF.md"
+  },
+  {
+    "id": "BZvNEZjCNuHPg5SkX90bt",
+    "old_id": "9h1mz0xAUvPrnRm9VndJF",
+    "type": "subtopic",
+    "label": "C#",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\ruby@9h1mz0xAUvPrnRm9VndJF.md"
+  },
+  {
+    "id": "IWmq4UFB5j6O3UJfarh1u",
+    "old_id": "9h1mz0xAUvPrnRm9VndJF",
+    "type": "subtopic",
+    "label": "C++",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\ruby@9h1mz0xAUvPrnRm9VndJF.md"
+  },
+  {
+    "id": "XyRCXhZjQFcDNaUSNNQV-",
+    "old_id": "9h1mz0xAUvPrnRm9VndJF",
+    "type": "subtopic",
+    "label": "Python",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\ruby@9h1mz0xAUvPrnRm9VndJF.md"
+  },
+  {
+    "id": "acgRMEuL4ZGGRHpZ7kXSo",
+    "old_id": "9h1mz0xAUvPrnRm9VndJF",
+    "type": "subtopic",
+    "label": "Rust",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\ruby@9h1mz0xAUvPrnRm9VndJF.md"
+  },
+  {
+    "id": "9h1mz0xAUvPrnRm9VndJF",
+    "old_id": "9h1mz0xAUvPrnRm9VndJF",
+    "type": "subtopic",
+    "label": "Ruby",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\ruby@9h1mz0xAUvPrnRm9VndJF.md"
+  },
+  {
+    "id": "ebQdTOAOV54WBToHmFtBk",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Programming Fundamentals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "kE6qddRhO8C5ur3JbeuhF",
+    "old_id": "kE6qddRhO8C5ur3JbeuhF",
+    "type": "subtopic",
+    "label": "Language Syntax",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\language-syntax@kE6qddRhO8C5ur3JbeuhF.md"
+  },
+  {
+    "id": "G74Xp8_EMZO2oEzNTRAli",
+    "old_id": "G74Xp8_EMZO2oEzNTRAli",
+    "type": "subtopic",
+    "label": "Control Structures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\control-structures@G74Xp8_EMZO2oEzNTRAli.md"
+  },
+  {
+    "id": "Cu08m5JOfvrPUDGony144",
+    "old_id": "Cu08m5JOfvrPUDGony144",
+    "type": "subtopic",
+    "label": "Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\functions@Cu08m5JOfvrPUDGony144.md"
+  },
+  {
+    "id": "QFR1FMOf2OV3n3jcDnOCP",
+    "old_id": "QFR1FMOf2OV3n3jcDnOCP",
+    "type": "subtopic",
+    "label": "OOP Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\oop-basics@QFR1FMOf2OV3n3jcDnOCP.md"
+  },
+  {
+    "id": "tvy3Vic8Vp-Ie2x_OyZ5b",
+    "old_id": "tvy3Vic8Vp-Ie2x_OyZ5b",
+    "type": "subtopic",
+    "label": "Pseudo Code",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\pseudo-code@tvy3Vic8Vp-Ie2x_OyZ5b.md"
+  },
+  {
+    "id": "jvWuYXWRtt_ePawc4q1Tg",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "What are Data Structures?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "8_GkF9zhRL8tvT2qu-bGj",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Why are Data Structures Important?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "iTlpa9A7h33FkUAv0UaVZ",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Basic Data Structures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "lxY3ErxJ_D3zkSAXIBUpv",
+    "old_id": "lxY3ErxJ_D3zkSAXIBUpv",
+    "type": "subtopic",
+    "label": "Array",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\array@lxY3ErxJ_D3zkSAXIBUpv.md"
+  },
+  {
+    "id": "bRu9u8pEAQ1TmKygjIjyI",
+    "old_id": "bRu9u8pEAQ1TmKygjIjyI",
+    "type": "subtopic",
+    "label": "Linked Lists",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\linked-lists@bRu9u8pEAQ1TmKygjIjyI.md"
+  },
+  {
+    "id": "jvKRykGNy140FlquF2fcK",
+    "old_id": "jvKRykGNy140FlquF2fcK",
+    "type": "subtopic",
+    "label": "Stacks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\stacks@jvKRykGNy140FlquF2fcK.md"
+  },
+  {
+    "id": "v0phjC75jhmE1z-f9ZMck",
+    "old_id": "v0phjC75jhmE1z-f9ZMck",
+    "type": "subtopic",
+    "label": "Queues",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\queues@v0phjC75jhmE1z-f9ZMck.md"
+  },
+  {
+    "id": "kSy-8ubESdmIX4Fyl8TSu",
+    "old_id": "kSy-8ubESdmIX4Fyl8TSu",
+    "type": "subtopic",
+    "label": "Hash Tables",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\hash-tables@kSy-8ubESdmIX4Fyl8TSu.md"
+  },
+  {
+    "id": "VotdHk0_bI3CeoIf-KoKu",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Algorithmic Complexity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "unaYmPzK761Eh_iZMLeRC",
+    "old_id": "HosRc0hczubBHrWxCzEJj",
+    "type": "subtopic",
+    "label": "Time vs Space Complexity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\how-to-calculate-complexity@HosRc0hczubBHrWxCzEJj.md"
+  },
+  {
+    "id": "HosRc0hczubBHrWxCzEJj",
+    "old_id": "HosRc0hczubBHrWxCzEJj",
+    "type": "subtopic",
+    "label": "How to Calculate Complexity?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\how-to-calculate-complexity@HosRc0hczubBHrWxCzEJj.md"
+  },
+  {
+    "id": "nqnO1Wz3gYIMR98_BnF2V",
+    "old_id": "v0LrabYYOKzV4oCXOK2Rs",
+    "type": "subtopic",
+    "label": "Common Runtimes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\asymptotic-notation@v0LrabYYOKzV4oCXOK2Rs.md"
+  },
+  {
+    "id": "_bpV8MkVOY8ZatTXYaEE4",
+    "old_id": "_bpV8MkVOY8ZatTXYaEE4",
+    "type": "subtopic",
+    "label": "Constant",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\constant@_bpV8MkVOY8ZatTXYaEE4.md"
+  },
+  {
+    "id": "Cnceet0yroFHzn8npAir8",
+    "old_id": "Cnceet0yroFHzn8npAir8",
+    "type": "subtopic",
+    "label": "Logarithmic",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\logarithmic@Cnceet0yroFHzn8npAir8.md"
+  },
+  {
+    "id": "HOpL-4jYhOe0LNrrkPrET",
+    "old_id": "HOpL-4jYhOe0LNrrkPrET",
+    "type": "subtopic",
+    "label": "Linear",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\linear@HOpL-4jYhOe0LNrrkPrET.md"
+  },
+  {
+    "id": "QKhmM_IG1FkBudfdrf1aT",
+    "old_id": "QKhmM_IG1FkBudfdrf1aT",
+    "type": "subtopic",
+    "label": "Polynomial",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\polynomial@QKhmM_IG1FkBudfdrf1aT.md"
+  },
+  {
+    "id": "xqzaYJBvlsNtT6qZ59ktv",
+    "old_id": "xqzaYJBvlsNtT6qZ59ktv",
+    "type": "subtopic",
+    "label": "Exponential",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\exponential@xqzaYJBvlsNtT6qZ59ktv.md"
+  },
+  {
+    "id": "wclY3cmt1fBNYjLsmijdW",
+    "old_id": "wclY3cmt1fBNYjLsmijdW",
+    "type": "subtopic",
+    "label": "Factorial",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\factorial@wclY3cmt1fBNYjLsmijdW.md"
+  },
+  {
+    "id": "v0LrabYYOKzV4oCXOK2Rs",
+    "old_id": "v0LrabYYOKzV4oCXOK2Rs",
+    "type": "subtopic",
+    "label": "Asymptotic Notation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\asymptotic-notation@v0LrabYYOKzV4oCXOK2Rs.md"
+  },
+  {
+    "id": "oylTfop_JDPHJ3jYuA2Nq",
+    "old_id": "CkUi93TvTkEm2_isHNvqr",
+    "type": "subtopic",
+    "label": "Big-O Notation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\big--notation@CkUi93TvTkEm2_isHNvqr.md"
+  },
+  {
+    "id": "Ex6tzu6gwrarWm1CNFufO",
+    "old_id": "CkUi93TvTkEm2_isHNvqr",
+    "type": "subtopic",
+    "label": "Big-θ Notation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\big--notation@CkUi93TvTkEm2_isHNvqr.md"
+  },
+  {
+    "id": "CkUi93TvTkEm2_isHNvqr",
+    "old_id": "CkUi93TvTkEm2_isHNvqr",
+    "type": "subtopic",
+    "label": "Big-Ω Notation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\big--notation@CkUi93TvTkEm2_isHNvqr.md"
+  },
+  {
+    "id": "WzFkdkcbL8ea9DBkjfSwa",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Sorting Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "zUDKCJCQHLW4c_6A349R3",
+    "old_id": "yMv9Oa3hsgT8Adx6m_rdL",
+    "type": "subtopic",
+    "label": "Bubble Sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap-sort@yMv9Oa3hsgT8Adx6m_rdL.md"
+  },
+  {
+    "id": "k0UBAj3hOYab4mUziOYyW",
+    "old_id": "yMv9Oa3hsgT8Adx6m_rdL",
+    "type": "subtopic",
+    "label": "Merge Sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap-sort@yMv9Oa3hsgT8Adx6m_rdL.md"
+  },
+  {
+    "id": "liJfTV5ajAFZcfwBdVGpU",
+    "old_id": "yMv9Oa3hsgT8Adx6m_rdL",
+    "type": "subtopic",
+    "label": "Insertion Sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap-sort@yMv9Oa3hsgT8Adx6m_rdL.md"
+  },
+  {
+    "id": "LgEV0Wm4avrOqR8bV5GXW",
+    "old_id": "yMv9Oa3hsgT8Adx6m_rdL",
+    "type": "subtopic",
+    "label": "Quick Sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap-sort@yMv9Oa3hsgT8Adx6m_rdL.md"
+  },
+  {
+    "id": "SMgBHvqXLD6Cgr2nix4wR",
+    "old_id": "yMv9Oa3hsgT8Adx6m_rdL",
+    "type": "subtopic",
+    "label": "Selection Sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap-sort@yMv9Oa3hsgT8Adx6m_rdL.md"
+  },
+  {
+    "id": "yMv9Oa3hsgT8Adx6m_rdL",
+    "old_id": "yMv9Oa3hsgT8Adx6m_rdL",
+    "type": "subtopic",
+    "label": "Heap Sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap-sort@yMv9Oa3hsgT8Adx6m_rdL.md"
+  },
+  {
+    "id": "z_Cf_alLAYSCyYtNviRcO",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Search Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "AtX-PeI8nY4-5bA-xLla0",
+    "old_id": "Wt74MRKaZcs8lYvfqjffT",
+    "type": "subtopic",
+    "label": "Linear Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\binary-search@Wt74MRKaZcs8lYvfqjffT.md"
+  },
+  {
+    "id": "Wt74MRKaZcs8lYvfqjffT",
+    "old_id": "Wt74MRKaZcs8lYvfqjffT",
+    "type": "subtopic",
+    "label": "Binary Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\binary-search@Wt74MRKaZcs8lYvfqjffT.md"
+  },
+  {
+    "id": "r2Jagzbx0qOG-VtxBY-mz",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Tree Data Structures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "2Od5lNc6fCM6Gyj_axj4n",
+    "old_id": "YJsAQWJpLwVN6oCxNwNAn",
+    "type": "subtopic",
+    "label": "Tree Traversal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\search-algorithms@YJsAQWJpLwVN6oCxNwNAn.md"
+  },
+  {
+    "id": "YJsAQWJpLwVN6oCxNwNAn",
+    "old_id": "YJsAQWJpLwVN6oCxNwNAn",
+    "type": "subtopic",
+    "label": "Search Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\search-algorithms@YJsAQWJpLwVN6oCxNwNAn.md"
+  },
+  {
+    "id": "pfg-qclOpvlsGMdlZ1aoj",
+    "old_id": "gR8KcOIADUxS8hdiEaGZy",
+    "type": "subtopic",
+    "label": "Breadth First Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\depth-first-search@gR8KcOIADUxS8hdiEaGZy.md"
+  },
+  {
+    "id": "gR8KcOIADUxS8hdiEaGZy",
+    "old_id": "gR8KcOIADUxS8hdiEaGZy",
+    "type": "subtopic",
+    "label": "Depth First Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\depth-first-search@gR8KcOIADUxS8hdiEaGZy.md"
+  },
+  {
+    "id": "iCA7UKZih4ItDmDNEC8Q-",
+    "old_id": "j6_DyKiyG1wBuygQkxWB7",
+    "type": "subtopic",
+    "label": "In-Order Traversal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\post-order-traversal@j6_DyKiyG1wBuygQkxWB7.md"
+  },
+  {
+    "id": "BMEoO65zsX51H4Js1gcWI",
+    "old_id": "j6_DyKiyG1wBuygQkxWB7",
+    "type": "subtopic",
+    "label": "Pre-Order Traversal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\post-order-traversal@j6_DyKiyG1wBuygQkxWB7.md"
+  },
+  {
+    "id": "j6_DyKiyG1wBuygQkxWB7",
+    "old_id": "j6_DyKiyG1wBuygQkxWB7",
+    "type": "subtopic",
+    "label": "Post-Order Traversal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\post-order-traversal@j6_DyKiyG1wBuygQkxWB7.md"
+  },
+  {
+    "id": "RPU5CGp2Li5lk0UB-zNHT",
+    "old_id": "R3Coq0TG1_cSOXzXWgpuI",
+    "type": "subtopic",
+    "label": "Binary Trees",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap@R3Coq0TG1_cSOXzXWgpuI.md"
+  },
+  {
+    "id": "UYm7unZfXd9Ge5EYV4odb",
+    "old_id": "R3Coq0TG1_cSOXzXWgpuI",
+    "type": "subtopic",
+    "label": "Binary Search Trees",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap@R3Coq0TG1_cSOXzXWgpuI.md"
+  },
+  {
+    "id": "5MCgKpylPzDZaGBEUU51r",
+    "old_id": "R3Coq0TG1_cSOXzXWgpuI",
+    "type": "subtopic",
+    "label": "AVL Trees",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap@R3Coq0TG1_cSOXzXWgpuI.md"
+  },
+  {
+    "id": "2F6BcbAzICynOK3oEj-Is",
+    "old_id": "R3Coq0TG1_cSOXzXWgpuI",
+    "type": "subtopic",
+    "label": "B-Trees",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap@R3Coq0TG1_cSOXzXWgpuI.md"
+  },
+  {
+    "id": "j_r1tB16bA7R3yDAWN7Oj",
+    "old_id": "j_r1tB16bA7R3yDAWN7Oj",
+    "type": "topic",
+    "label": "Graph Data Structures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\graph-data-structures@j_r1tB16bA7R3yDAWN7Oj.md"
+  },
+  {
+    "id": "XVw2_dL3uN0SOWmjH1Uao",
+    "old_id": "VnKm_j7McUW9Lo0iKyPUp",
+    "type": "subtopic",
+    "label": "Directed Graph",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\undirected-graph@VnKm_j7McUW9Lo0iKyPUp.md"
+  },
+  {
+    "id": "VnKm_j7McUW9Lo0iKyPUp",
+    "old_id": "VnKm_j7McUW9Lo0iKyPUp",
+    "type": "subtopic",
+    "label": "Undirected Graph",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\undirected-graph@VnKm_j7McUW9Lo0iKyPUp.md"
+  },
+  {
+    "id": "LW5HZMca4lvhbbA8KYaOa",
+    "old_id": "YJsAQWJpLwVN6oCxNwNAn",
+    "type": "subtopic",
+    "label": "Search Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\search-algorithms@YJsAQWJpLwVN6oCxNwNAn.md"
+  },
+  {
+    "id": "c7LdXJPv-5M-NPKSCXYuB",
+    "old_id": "pfg-qclOpvlsGMdlZ1aoj",
+    "type": "subtopic",
+    "label": "Breadth First Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\breadth-first-search@pfg-qclOpvlsGMdlZ1aoj.md"
+  },
+  {
+    "id": "NrPO7vF8Z1WzmA9Ca3Y_E",
+    "old_id": "gR8KcOIADUxS8hdiEaGZy",
+    "type": "subtopic",
+    "label": "Depth First Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\depth-first-search@gR8KcOIADUxS8hdiEaGZy.md"
+  },
+  {
+    "id": "N-qvYirxpORcaTslvlOL0",
+    "old_id": "LW5HZMca4lvhbbA8KYaOa",
+    "type": "subtopic",
+    "label": "Shortest Path Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\search-algorithms@LW5HZMca4lvhbbA8KYaOa.md"
+  },
+  {
+    "id": "87UugvReiywF0E7Acos9U",
+    "old_id": "c7LdXJPv-5M-NPKSCXYuB",
+    "type": "subtopic",
+    "label": "Dijkstra's Algorithm",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\breadth-first-search@c7LdXJPv-5M-NPKSCXYuB.md"
+  },
+  {
+    "id": "7CgGwdwHnOmISmEPtJegN",
+    "old_id": "AabJqPUwFVBVS02YPDPvL",
+    "type": "subtopic",
+    "label": "Bellman-Ford Algoritm",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\a-algorithm@AabJqPUwFVBVS02YPDPvL.md"
+  },
+  {
+    "id": "Ktqau1VkVrnnVYByqcacM",
+    "old_id": "N-qvYirxpORcaTslvlOL0",
+    "type": "subtopic",
+    "label": "Minimum Spanning Tree",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\shortest-path-algorithms@N-qvYirxpORcaTslvlOL0.md"
+  },
+  {
+    "id": "yEWnYjW0ZLVhsLc9rH4ae",
+    "old_id": "87UugvReiywF0E7Acos9U",
+    "type": "subtopic",
+    "label": "Prim's Algorithm",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\dijkstras-algorithm@87UugvReiywF0E7Acos9U.md"
+  },
+  {
+    "id": "F3bPbwIdCNMzL7QXEYJK3",
+    "old_id": "AabJqPUwFVBVS02YPDPvL",
+    "type": "subtopic",
+    "label": "Kruskal's Algorithm",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\a-algorithm@AabJqPUwFVBVS02YPDPvL.md"
+  },
+  {
+    "id": "KnyUHDvpDTUO0EkAs9pT8",
+    "old_id": "VMV4F-SPKWn9CtpHXEjeN",
+    "type": "topic",
+    "label": "Advanced Data Structures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\platforms-to-practice@VMV4F-SPKWn9CtpHXEjeN.md"
+  },
+  {
+    "id": "zy3wpb1MjizfUfx9_rZy2",
+    "old_id": "zy3wpb1MjizfUfx9_rZy2",
+    "type": "subtopic",
+    "label": "Trie",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\trie@zy3wpb1MjizfUfx9_rZy2.md"
+  },
+  {
+    "id": "iFNS3x9wVRIjpixct6H7x",
+    "old_id": "iFNS3x9wVRIjpixct6H7x",
+    "type": "subtopic",
+    "label": "Segment Trees",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\segment-trees@iFNS3x9wVRIjpixct6H7x.md"
+  },
+  {
+    "id": "V9SWO58kaMsU1NT7q26WG",
+    "old_id": "V9SWO58kaMsU1NT7q26WG",
+    "type": "subtopic",
+    "label": "Fenwick Trees",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\fenwick-trees@V9SWO58kaMsU1NT7q26WG.md"
+  },
+  {
+    "id": "La8XAT0BWvqRCrvQxtZIp",
+    "old_id": "La8XAT0BWvqRCrvQxtZIp",
+    "type": "subtopic",
+    "label": "Disjoint Set (Union-Find)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\disjoint-set-union-find@La8XAT0BWvqRCrvQxtZIp.md"
+  },
+  {
+    "id": "zprVkxpojaxNo0LQar3Ex",
+    "old_id": "zprVkxpojaxNo0LQar3Ex",
+    "type": "subtopic",
+    "label": "Suffix Trees and Arrays",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\suffix-trees-and-arrays@zprVkxpojaxNo0LQar3Ex.md"
+  },
+  {
+    "id": "kSpgFuAHyzySWlGBLOHZR",
+    "old_id": "VMV4F-SPKWn9CtpHXEjeN",
+    "type": "topic",
+    "label": "Complex Data Structures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\platforms-to-practice@VMV4F-SPKWn9CtpHXEjeN.md"
+  },
+  {
+    "id": "2G6vn7K11_mPQQ7_IXJ96",
+    "old_id": "o0fNAhJ1LsCdmGzY2ni_x",
+    "type": "subtopic",
+    "label": "B/B+ Trees",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\2-3-trees@o0fNAhJ1LsCdmGzY2ni_x.md"
+  },
+  {
+    "id": "TQu-OBpvR-aQfMByUcwyM",
+    "old_id": "o0fNAhJ1LsCdmGzY2ni_x",
+    "type": "subtopic",
+    "label": "Skip List",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\2-3-trees@o0fNAhJ1LsCdmGzY2ni_x.md"
+  },
+  {
+    "id": "uxErZ4gLeKqwhrUG88InQ",
+    "old_id": "o0fNAhJ1LsCdmGzY2ni_x",
+    "type": "subtopic",
+    "label": "ISAM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\2-3-trees@o0fNAhJ1LsCdmGzY2ni_x.md"
+  },
+  {
+    "id": "o0fNAhJ1LsCdmGzY2ni_x",
+    "old_id": "o0fNAhJ1LsCdmGzY2ni_x",
+    "type": "subtopic",
+    "label": "2-3 Trees",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\2-3-trees@o0fNAhJ1LsCdmGzY2ni_x.md"
+  },
+  {
+    "id": "Ar7GEGfI9O_dLPbIEVhF_",
+    "old_id": "VMV4F-SPKWn9CtpHXEjeN",
+    "type": "topic",
+    "label": "Indexing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\platforms-to-practice@VMV4F-SPKWn9CtpHXEjeN.md"
+  },
+  {
+    "id": "4noav5w_8GrMTXN1Lxm5h",
+    "old_id": "ZXUfeyfC5oSKkGktXuK8t",
+    "type": "subtopic",
+    "label": "Linear",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\tree-based@ZXUfeyfC5oSKkGktXuK8t.md"
+  },
+  {
+    "id": "ZXUfeyfC5oSKkGktXuK8t",
+    "old_id": "ZXUfeyfC5oSKkGktXuK8t",
+    "type": "subtopic",
+    "label": "Tree-Based",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\tree-based@ZXUfeyfC5oSKkGktXuK8t.md"
+  },
+  {
+    "id": "Y1Uz6XRbR1YqFtO4akiPA",
+    "old_id": "VMV4F-SPKWn9CtpHXEjeN",
+    "type": "topic",
+    "label": "Problem Solving Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\platforms-to-practice@VMV4F-SPKWn9CtpHXEjeN.md"
+  },
+  {
+    "id": "5T2y6Iqi-I_zOtLkeSPzY",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Brute Force",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "mKoC5o__gLSTjAlq8iXkV",
+    "old_id": "mKoC5o__gLSTjAlq8iXkV",
+    "type": "subtopic",
+    "label": "Backtracking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\backtracking@mKoC5o__gLSTjAlq8iXkV.md"
+  },
+  {
+    "id": "qUlqyTjk3XKF9DEm6Lsgb",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Greedy Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "RiS8KZs3YBE6mKWPHszMp",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Randomised Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "xchWhsizaKgYuHPC4Tz9H",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Divide and COnquer",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "4ZAzcwP0oPGZ9Rw042V8-",
+    "old_id": "JcchUF_U99zkFpXp3VT2R",
+    "type": "subtopic",
+    "label": "Recursion",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\kth-element@JcchUF_U99zkFpXp3VT2R.md"
+  },
+  {
+    "id": "jKAZNybU9cxufNBdFsqsP",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Dynamic Programming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "itvhUXbe9dr9JN5ga2jYy",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Two Pointer Technique",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "gbHVR-ojRxv9I0E5eSlWy",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Sliding Window Technique",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "VMV4F-SPKWn9CtpHXEjeN",
+    "old_id": "VMV4F-SPKWn9CtpHXEjeN",
+    "type": "topic",
+    "label": "Platforms to Practice",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\platforms-to-practice@VMV4F-SPKWn9CtpHXEjeN.md"
+  },
+  {
+    "id": "waM_j5mbe_XoA7h8u4vFN",
+    "old_id": "8-7phxPp1D1mv2yubpLBo",
+    "type": "subtopic",
+    "label": "Leetcode",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\edabit@8-7phxPp1D1mv2yubpLBo.md"
+  },
+  {
+    "id": "8-7phxPp1D1mv2yubpLBo",
+    "old_id": "8-7phxPp1D1mv2yubpLBo",
+    "type": "subtopic",
+    "label": "Edabit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\edabit@8-7phxPp1D1mv2yubpLBo.md"
+  },
+  {
+    "id": "J_No8GTa92DcwPtua30wL",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Fast and Slow Pointers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "L1FIJAluyxG6CGaVLM20O",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Cyclic Sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "S2mBvlFTd673XcXxisD5P",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Merge Intervals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "JcchUF_U99zkFpXp3VT2R",
+    "old_id": "PouN8aPuA0lDxqZibLMVT",
+    "type": "subtopic",
+    "label": "Kth Element",
+    "resources": []
+  },
+  {
+    "id": "MGb8ufztTK75aXAyEAuaf",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Two Heaps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "gaaRAL3HR48Qj9rz1CkDU",
+    "old_id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "type": "subtopic",
+    "label": "Multi-threaded",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\island-traversal@q9qLI6HzOJ0vYaIVrZ5CU.md"
+  },
+  {
+    "id": "q9qLI6HzOJ0vYaIVrZ5CU",
+    "old_id": "mKoC5o__gLSTjAlq8iXkV",
+    "type": "subtopic",
+    "label": "Island traversal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\backtracking@mKoC5o__gLSTjAlq8iXkV.md"
+  },
+  {
+    "id": "R3Coq0TG1_cSOXzXWgpuI",
+    "old_id": "R3Coq0TG1_cSOXzXWgpuI",
+    "type": "subtopic",
+    "label": "Heap",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\heap@R3Coq0TG1_cSOXzXWgpuI.md"
+  },
+  {
+    "id": "AabJqPUwFVBVS02YPDPvL",
+    "old_id": "NrPO7vF8Z1WzmA9Ca3Y_E",
+    "type": "subtopic",
+    "label": "A* Algorithm",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\datastructures-and-algorithms\\content\\depth-first-search@NrPO7vF8Z1WzmA9Ca3Y_E.md"
+  }
+]

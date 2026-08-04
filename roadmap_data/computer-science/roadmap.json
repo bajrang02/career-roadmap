@@ -1,0 +1,1877 @@
+{
+  "slug": "computer-science",
+  "title": "Computer Science",
+  "nodes": [
+    {
+      "id": "IKc5ueq_Y6eapjmKMHiwc",
+      "old_id": "diInbFoBy8YracmAhlDsu",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "nvEMP1hlIMmuQGOldXL5M",
+      "old_id": "nvEMP1hlIMmuQGOldXL5M",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "-bpOzgBk5Bn5WWgk8Pu5v",
+      "old_id": "-bpOzgBk5Bn5WWgk8Pu5v",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Pk--VU4Dn0UQYxc5mDykI",
+      "old_id": "Pk--VU4Dn0UQYxc5mDykI",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "IxvLv_S2luYMSVXlsxrHt",
+      "old_id": "IxvLv_S2luYMSVXlsxrHt",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "c_44fjH3QZw0OvRIkRobf",
+      "old_id": "c_44fjH3QZw0OvRIkRobf",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "2bhY7aSAJTF_v0SH0TVgq",
+      "old_id": "2bhY7aSAJTF_v0SH0TVgq",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "mB6Us4BvQ2LtuvNiZF6DQ",
+      "old_id": "mB6Us4BvQ2LtuvNiZF6DQ",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "K6FQHGJep6HwEYlgjjQjJ",
+      "old_id": "K6FQHGJep6HwEYlgjjQjJ",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "2_aaf2bJha7U5B7L1jwA2",
+      "old_id": "2_aaf2bJha7U5B7L1jwA2",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "znQvyhgDMgdMHOtDmIya0",
+      "old_id": "znQvyhgDMgdMHOtDmIya0",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "iogwMmOvub2ZF4zgg6WyF",
+      "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+      "type": "title",
+      "label": "Computer Science",
+      "resources": []
+    },
+    {
+      "id": "R_Fs6rdl2XtQ9aLOubMqL",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "ZSrQoNGKiR484uALMWO9F",
+      "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+      "type": "button",
+      "label": "API Design",
+      "resources": []
+    },
+    {
+      "id": "P5IZjP0g1_fnvHy3YTR4q",
+      "old_id": "dlGf3ZdFXYx0Z6Viu2x-l",
+      "type": "button",
+      "label": "Data Structures & Algorithms",
+      "resources": []
+    },
+    {
+      "id": "FFDNXuerzZhDzDuGnr06q",
+      "old_id": "LOTsf9hmAVwt06ZulhoIi",
+      "type": "linksgroup",
+      "label": "Other Resources",
+      "resources": []
+    },
+    {
+      "id": "LOTsf9hmAVwt06ZulhoIi",
+      "old_id": "LOTsf9hmAVwt06ZulhoIi",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "tU4Umtnfu01t9gLlnlK6b",
+      "old_id": "tU4Umtnfu01t9gLlnlK6b",
+      "type": "topic",
+      "label": "Pick a Language",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\pick-a-language@tU4Umtnfu01t9gLlnlK6b.md"
+    },
+    {
+      "id": "RlKZzs44biQPgxD0tK1qx",
+      "old_id": "RlKZzs44biQPgxD0tK1qx",
+      "type": "subtopic",
+      "label": "Python",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\python@RlKZzs44biQPgxD0tK1qx.md"
+    },
+    {
+      "id": "mWW88VnkqWgDz02qw5zU-",
+      "old_id": "mWW88VnkqWgDz02qw5zU-",
+      "type": "subtopic",
+      "label": "Go",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\go@mWW88VnkqWgDz02qw5zU-.md"
+    },
+    {
+      "id": "jHKCLfLml8oZyj4829gx0",
+      "old_id": "jHKCLfLml8oZyj4829gx0",
+      "type": "subtopic",
+      "label": "C#",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\c@jHKCLfLml8oZyj4829gx0.md"
+    },
+    {
+      "id": "1bDjg-KBDKRmE6f1MWY8l",
+      "old_id": "1bDjg-KBDKRmE6f1MWY8l",
+      "type": "subtopic",
+      "label": "Rust",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\rust@1bDjg-KBDKRmE6f1MWY8l.md"
+    },
+    {
+      "id": "1kQJs-3Aw8Bi7d_Xh67zS",
+      "old_id": "1kQJs-3Aw8Bi7d_Xh67zS",
+      "type": "subtopic",
+      "label": "C++",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\c@1kQJs-3Aw8Bi7d_Xh67zS.md"
+    },
+    {
+      "id": "n4IsklfYJXFIyF1rGWuEa",
+      "old_id": "n4IsklfYJXFIyF1rGWuEa",
+      "type": "subtopic",
+      "label": "C",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\c@n4IsklfYJXFIyF1rGWuEa.md"
+    },
+    {
+      "id": "1lQSUFrrIGq19nUnM92-I",
+      "old_id": "1lQSUFrrIGq19nUnM92-I",
+      "type": "subtopic",
+      "label": "Java",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\java@1lQSUFrrIGq19nUnM92-I.md"
+    },
+    {
+      "id": "NM7q5REW1sJgMhxJhPpLT",
+      "old_id": "UpBrpmrUwYUB9eesNxCq5",
+      "type": "topic",
+      "label": "Data Structures",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\asymptotic-notation@UpBrpmrUwYUB9eesNxCq5.md"
+    },
+    {
+      "id": "gr8BK6vq4AVwp_aUozZmf",
+      "old_id": "gr8BK6vq4AVwp_aUozZmf",
+      "type": "subtopic",
+      "label": "Linked List",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\linked-list@gr8BK6vq4AVwp_aUozZmf.md"
+    },
+    {
+      "id": "hJB5gO9tosRlC4UmdSNzl",
+      "old_id": "hJB5gO9tosRlC4UmdSNzl",
+      "type": "subtopic",
+      "label": "Stack",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\stack@hJB5gO9tosRlC4UmdSNzl.md"
+    },
+    {
+      "id": "JI990pDX2jjNe6IH_Y_t0",
+      "old_id": "JI990pDX2jjNe6IH_Y_t0",
+      "type": "subtopic",
+      "label": "Queue",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\queue@JI990pDX2jjNe6IH_Y_t0.md"
+    },
+    {
+      "id": "G2dN2FO0SN_I-5AhO_EUk",
+      "old_id": "G2dN2FO0SN_I-5AhO_EUk",
+      "type": "subtopic",
+      "label": "Hash Table",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\hash-table@G2dN2FO0SN_I-5AhO_EUk.md"
+    },
+    {
+      "id": "TwW6SO2IXqkxJXVjLzdwU",
+      "old_id": "TwW6SO2IXqkxJXVjLzdwU",
+      "type": "subtopic",
+      "label": "Array",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\array@TwW6SO2IXqkxJXVjLzdwU.md"
+    },
+    {
+      "id": "_eWqiWUmOj0zUo_Ix3j1O",
+      "old_id": "_eWqiWUmOj0zUo_Ix3j1O",
+      "type": "subtopic",
+      "label": "Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\tree@_eWqiWUmOj0zUo_Ix3j1O.md"
+    },
+    {
+      "id": "G9dnegZ6zNvxrCZ3O_b_z",
+      "old_id": "G9dnegZ6zNvxrCZ3O_b_z",
+      "type": "subtopic",
+      "label": "Binary Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\binary-tree@G9dnegZ6zNvxrCZ3O_b_z.md"
+    },
+    {
+      "id": "et7l85gnxjvzD2tDyHT_T",
+      "old_id": "et7l85gnxjvzD2tDyHT_T",
+      "type": "subtopic",
+      "label": "Binary Search Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\binary-search-tree@et7l85gnxjvzD2tDyHT_T.md"
+    },
+    {
+      "id": "Q8ZJNeTbc22Q08Mra-McY",
+      "old_id": "Q8ZJNeTbc22Q08Mra-McY",
+      "type": "subtopic",
+      "label": "Full Binary Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\full-binary-tree@Q8ZJNeTbc22Q08Mra-McY.md"
+    },
+    {
+      "id": "Jx1WWCjm8jkfAGtHv15n1",
+      "old_id": "Jx1WWCjm8jkfAGtHv15n1",
+      "type": "subtopic",
+      "label": "Complete Binary Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\complete-binary-tree@Jx1WWCjm8jkfAGtHv15n1.md"
+    },
+    {
+      "id": "ZaWGLvZyu4sIPn-zwVISN",
+      "old_id": "ZaWGLvZyu4sIPn-zwVISN",
+      "type": "subtopic",
+      "label": " Balanced Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\balanced-tree@ZaWGLvZyu4sIPn-zwVISN.md"
+    },
+    {
+      "id": "w4sxmZR1BjX6wlrZmuOlf",
+      "old_id": "w4sxmZR1BjX6wlrZmuOlf",
+      "type": "subtopic",
+      "label": "Unbalanced Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\unbalanced-tree@w4sxmZR1BjX6wlrZmuOlf.md"
+    },
+    {
+      "id": "vQm046o6ozcvLoqg9L6eL",
+      "old_id": "vQm046o6ozcvLoqg9L6eL",
+      "type": "subtopic",
+      "label": "Graph",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\graph@vQm046o6ozcvLoqg9L6eL.md"
+    },
+    {
+      "id": "6Jy8SXHuYA08h9iLjKFWR",
+      "old_id": "6Jy8SXHuYA08h9iLjKFWR",
+      "type": "subtopic",
+      "label": "Directed Graph",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\directed-graph@6Jy8SXHuYA08h9iLjKFWR.md"
+    },
+    {
+      "id": "QGx8it2N_85PiPVjpTGK_",
+      "old_id": "QGx8it2N_85PiPVjpTGK_",
+      "type": "subtopic",
+      "label": "Undirected Graph",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\undirected-graph@QGx8it2N_85PiPVjpTGK_.md"
+    },
+    {
+      "id": "L4xtWOdqGUf4SbJkoOsNM",
+      "old_id": "L4xtWOdqGUf4SbJkoOsNM",
+      "type": "subtopic",
+      "label": "Spanning Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\spanning-tree@L4xtWOdqGUf4SbJkoOsNM.md"
+    },
+    {
+      "id": "Y12FonomjizN8-jM8AyCi",
+      "old_id": "Y12FonomjizN8-jM8AyCi",
+      "type": "label",
+      "label": "Representation",
+      "resources": []
+    },
+    {
+      "id": "HZ1kk0TQ13FLC9t13BZl5",
+      "old_id": "HZ1kk0TQ13FLC9t13BZl5",
+      "type": "subtopic",
+      "label": "Adjacency Matrix",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\adjacency-matrix@HZ1kk0TQ13FLC9t13BZl5.md"
+    },
+    {
+      "id": "rTnKJcPniUtqvfOyC88N0",
+      "old_id": "rTnKJcPniUtqvfOyC88N0",
+      "type": "subtopic",
+      "label": "Adjacency List",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\adjacency-list@rTnKJcPniUtqvfOyC88N0.md"
+    },
+    {
+      "id": "pw3ZCC3HKU7D5SQwte4vE",
+      "old_id": "pw3ZCC3HKU7D5SQwte4vE",
+      "type": "subtopic",
+      "label": "Heap",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\heap@pw3ZCC3HKU7D5SQwte4vE.md"
+    },
+    {
+      "id": "UpBrpmrUwYUB9eesNxCq5",
+      "old_id": "UpBrpmrUwYUB9eesNxCq5",
+      "type": "topic",
+      "label": "Asymptotic Notation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\asymptotic-notation@UpBrpmrUwYUB9eesNxCq5.md"
+    },
+    {
+      "id": "c-NrTtJuNihbHzyPEOKTW",
+      "old_id": "c-NrTtJuNihbHzyPEOKTW",
+      "type": "subtopic",
+      "label": "Big O",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\big-o@c-NrTtJuNihbHzyPEOKTW.md"
+    },
+    {
+      "id": "ThLpVZQIJ4diY5m0dik8m",
+      "old_id": "ThLpVZQIJ4diY5m0dik8m",
+      "type": "subtopic",
+      "label": "Big-Theta",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\big-theta@ThLpVZQIJ4diY5m0dik8m.md"
+    },
+    {
+      "id": "X33735aeAVSlJ6yv9GS-h",
+      "old_id": "X33735aeAVSlJ6yv9GS-h",
+      "type": "subtopic",
+      "label": "Big Omega",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\big-omega@X33735aeAVSlJ6yv9GS-h.md"
+    },
+    {
+      "id": "AorTduRt5FU6ZxuZo6H6p",
+      "old_id": "AorTduRt5FU6ZxuZo6H6p",
+      "type": "label",
+      "label": "Common Runtimes",
+      "resources": []
+    },
+    {
+      "id": "3F_QBv_sU39ehOxpurF88",
+      "old_id": "3F_QBv_sU39ehOxpurF88",
+      "type": "subtopic",
+      "label": "Constant",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\constant@3F_QBv_sU39ehOxpurF88.md"
+    },
+    {
+      "id": "nnlMNkQn1HU4U9yPbV9kQ",
+      "old_id": "nnlMNkQn1HU4U9yPbV9kQ",
+      "type": "subtopic",
+      "label": "Logarithmic",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\logarithmic@nnlMNkQn1HU4U9yPbV9kQ.md"
+    },
+    {
+      "id": "jymhjv8GiFALQpox6aZeu",
+      "old_id": "jymhjv8GiFALQpox6aZeu",
+      "type": "subtopic",
+      "label": "Linear",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\linear@jymhjv8GiFALQpox6aZeu.md"
+    },
+    {
+      "id": "sVFvpsAO1_ZH9aliEj9aF",
+      "old_id": "sVFvpsAO1_ZH9aliEj9aF",
+      "type": "subtopic",
+      "label": "Polynomial",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\polynomial@sVFvpsAO1_ZH9aliEj9aF.md"
+    },
+    {
+      "id": "5mMLr6tWbiSZuox1lx0_B",
+      "old_id": "5mMLr6tWbiSZuox1lx0_B",
+      "type": "subtopic",
+      "label": "Exponential",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\exponential@5mMLr6tWbiSZuox1lx0_B.md"
+    },
+    {
+      "id": "m0umGQNdvg95UiNpQZsQN",
+      "old_id": "m0umGQNdvg95UiNpQZsQN",
+      "type": "subtopic",
+      "label": "Factorial",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\factorial@m0umGQNdvg95UiNpQZsQN.md"
+    },
+    {
+      "id": "7a6-AnBI-3tAU1dkOvPkx",
+      "old_id": "vxvWZhnYGvF_XmpgYZaF0",
+      "type": "topic",
+      "label": "Common Algorithms",
+      "resources": []
+    },
+    {
+      "id": "3YVSwyAWpOFGRNB2ORlTP",
+      "old_id": "rGPwumQxXvHokyYU2vXxP",
+      "type": "label",
+      "label": "Recursion",
+      "resources": []
+    },
+    {
+      "id": "0_qNhprnXU3i8koW3XTdD",
+      "old_id": "hna0HLu0l4NTNNpyGqlW5",
+      "type": "subtopic",
+      "label": "Tail Recursion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\mfu-cache@hna0HLu0l4NTNNpyGqlW5.md"
+    },
+    {
+      "id": "iLEOuQgUgU5Jc38iXDpp5",
+      "old_id": "iLEOuQgUgU5Jc38iXDpp5",
+      "type": "subtopic",
+      "label": "Non-Tail Recursion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\non-tail-recursion@iLEOuQgUgU5Jc38iXDpp5.md"
+    },
+    {
+      "id": "6NOTA9CTNjvXUYbvcEmV2",
+      "old_id": "6NJT_BEA5GZlrLYKKIeZH",
+      "type": "label",
+      "label": "Caches",
+      "resources": []
+    },
+    {
+      "id": "cEsboPT8nLvo0Zt0_oBq6",
+      "old_id": "n11ujPI3of-52l2KW2CDQ",
+      "type": "subtopic",
+      "label": "LRU Cache",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\lfu-cache@n11ujPI3of-52l2KW2CDQ.md"
+    },
+    {
+      "id": "hna0HLu0l4NTNNpyGqlW5",
+      "old_id": "hna0HLu0l4NTNNpyGqlW5",
+      "type": "subtopic",
+      "label": "MFU Cache",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\mfu-cache@hna0HLu0l4NTNNpyGqlW5.md"
+    },
+    {
+      "id": "rGPwumQxXvHokyYU2vXxP",
+      "old_id": "rGPwumQxXvHokyYU2vXxP",
+      "type": "label",
+      "label": "Searching",
+      "resources": []
+    },
+    {
+      "id": "8kTg4O9MrTHRUrp6U-ctA",
+      "old_id": "XwyqBK9rgP1MMcJrdIzm5",
+      "type": "subtopic",
+      "label": "Binary Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\linear-search@XwyqBK9rgP1MMcJrdIzm5.md"
+    },
+    {
+      "id": "XwyqBK9rgP1MMcJrdIzm5",
+      "old_id": "hna0HLu0l4NTNNpyGqlW5",
+      "type": "subtopic",
+      "label": "Linear Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\mfu-cache@hna0HLu0l4NTNNpyGqlW5.md"
+    },
+    {
+      "id": "6NJT_BEA5GZlrLYKKIeZH",
+      "old_id": "rGPwumQxXvHokyYU2vXxP",
+      "type": "label",
+      "label": "Sorting",
+      "resources": []
+    },
+    {
+      "id": "4wGBYFZpcdTt97WTbSazx",
+      "old_id": "4wGBYFZpcdTt97WTbSazx",
+      "type": "subtopic",
+      "label": "Bubble Sort",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\bubble-sort@4wGBYFZpcdTt97WTbSazx.md"
+    },
+    {
+      "id": "rOsHFXQm5jNz0RyZQ5ZGs",
+      "old_id": "rOsHFXQm5jNz0RyZQ5ZGs",
+      "type": "subtopic",
+      "label": "Selection Sort",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\selection-sort@rOsHFXQm5jNz0RyZQ5ZGs.md"
+    },
+    {
+      "id": "ujDCW6zZE8dV_fpNf-oIl",
+      "old_id": "ujDCW6zZE8dV_fpNf-oIl",
+      "type": "subtopic",
+      "label": "Insertion Sort",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\insertion-sort@ujDCW6zZE8dV_fpNf-oIl.md"
+    },
+    {
+      "id": "CovrRsBY-sYW_xSegcN6N",
+      "old_id": "CovrRsBY-sYW_xSegcN6N",
+      "type": "subtopic",
+      "label": "Heap Sort",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\heap-sort@CovrRsBY-sYW_xSegcN6N.md"
+    },
+    {
+      "id": "be0Q8GW9ZX1JbPrBvbMji",
+      "old_id": "be0Q8GW9ZX1JbPrBvbMji",
+      "type": "subtopic",
+      "label": "Quick Sort",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\quick-sort@be0Q8GW9ZX1JbPrBvbMji.md"
+    },
+    {
+      "id": "Bh-whDbcCjl3m6mRm9w02",
+      "old_id": "Bh-whDbcCjl3m6mRm9w02",
+      "type": "subtopic",
+      "label": "Merge Sort",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\merge-sort@Bh-whDbcCjl3m6mRm9w02.md"
+    },
+    {
+      "id": "c-de-kUN0nzCH3rZJ9wpy",
+      "old_id": "8H_2ODi3qM_Hv80VH0hGE",
+      "type": "label",
+      "label": "Tree",
+      "resources": []
+    },
+    {
+      "id": "psTN5N66xoFHFopgd5faW",
+      "old_id": "psTN5N66xoFHFopgd5faW",
+      "type": "subtopic",
+      "label": "Pre-Order Traversal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\pre-order-traversal@psTN5N66xoFHFopgd5faW.md"
+    },
+    {
+      "id": "KTrgf14Q6rg2f0v4dqq2s",
+      "old_id": "KTrgf14Q6rg2f0v4dqq2s",
+      "type": "subtopic",
+      "label": "In-Order Traversal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\in-order-traversal@KTrgf14Q6rg2f0v4dqq2s.md"
+    },
+    {
+      "id": "4_oGXwjzSY5cX9n7L4iAA",
+      "old_id": "4_oGXwjzSY5cX9n7L4iAA",
+      "type": "subtopic",
+      "label": "Post Order Traversal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\post-order-traversal@4_oGXwjzSY5cX9n7L4iAA.md"
+    },
+    {
+      "id": "Ke_ch4fnuKIiGAXUM_LPP",
+      "old_id": "Ke_ch4fnuKIiGAXUM_LPP",
+      "type": "subtopic",
+      "label": "Breadth First Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\breadth-first-search@Ke_ch4fnuKIiGAXUM_LPP.md"
+    },
+    {
+      "id": "chzP5_t2gMi6MstxEzCi5",
+      "old_id": "chzP5_t2gMi6MstxEzCi5",
+      "type": "subtopic",
+      "label": "Depth First Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\depth-first-search@chzP5_t2gMi6MstxEzCi5.md"
+    },
+    {
+      "id": "snRTZUq3QMJVpdJLemAqr",
+      "old_id": "snRTZUq3QMJVpdJLemAqr",
+      "type": "label",
+      "label": "Graphs",
+      "resources": []
+    },
+    {
+      "id": "vcV6TEM_PqXxtThdfMKGw",
+      "old_id": "vcV6TEM_PqXxtThdfMKGw",
+      "type": "subtopic",
+      "label": "Breadth First Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\breadth-first-search@vcV6TEM_PqXxtThdfMKGw.md"
+    },
+    {
+      "id": "Yf5gOIe7oiL19MjEVcpdw",
+      "old_id": "Yf5gOIe7oiL19MjEVcpdw",
+      "type": "subtopic",
+      "label": "Depth First Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\depth-first-search@Yf5gOIe7oiL19MjEVcpdw.md"
+    },
+    {
+      "id": "eY4nK2lPYsrR-a_8y2sao",
+      "old_id": "eY4nK2lPYsrR-a_8y2sao",
+      "type": "subtopic",
+      "label": "Bellman Ford's Algorithm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\bellman-fords-algorithm@eY4nK2lPYsrR-a_8y2sao.md"
+    },
+    {
+      "id": "oJstm-8c-4seWbIWcNgDv",
+      "old_id": "oJstm-8c-4seWbIWcNgDv",
+      "type": "subtopic",
+      "label": "Dijkstra's Algorithm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\dijkstras-algorithm@oJstm-8c-4seWbIWcNgDv.md"
+    },
+    {
+      "id": "Yrk2PLUa-_FAPlhCkMl3e",
+      "old_id": "Yrk2PLUa-_FAPlhCkMl3e",
+      "type": "subtopic",
+      "label": "A* Algorithm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\a-algorithm@Yrk2PLUa-_FAPlhCkMl3e.md"
+    },
+    {
+      "id": "6JcfglgWW6LmaLLZy1Qqc",
+      "old_id": "6JcfglgWW6LmaLLZy1Qqc",
+      "type": "label",
+      "label": "Back Tracking",
+      "resources": []
+    },
+    {
+      "id": "aBjBHpq_OajgQjxdCobXD",
+      "old_id": "aBjBHpq_OajgQjxdCobXD",
+      "type": "subtopic",
+      "label": "Finding Hamiltonian Paths",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\finding-hamiltonian-paths@aBjBHpq_OajgQjxdCobXD.md"
+    },
+    {
+      "id": "HlAmTY1udqDT2mTfBU9P-",
+      "old_id": "HlAmTY1udqDT2mTfBU9P-",
+      "type": "subtopic",
+      "label": "Solving N Queen Problem",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\solving-n-queen-problem@HlAmTY1udqDT2mTfBU9P-.md"
+    },
+    {
+      "id": "nODFT-i2YsxUVsgwWkIWn",
+      "old_id": "nODFT-i2YsxUVsgwWkIWn",
+      "type": "subtopic",
+      "label": "Maze Solving Problem",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\maze-solving-problem@nODFT-i2YsxUVsgwWkIWn.md"
+    },
+    {
+      "id": "NcKW_3vJWL_rVlDBB_Qjs",
+      "old_id": "NcKW_3vJWL_rVlDBB_Qjs",
+      "type": "subtopic",
+      "label": "The Knight's Tour Problem",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\the-knights-tour-problem@NcKW_3vJWL_rVlDBB_Qjs.md"
+    },
+    {
+      "id": "bxMi8XrUUxcnmRquiLfz4",
+      "old_id": "bxMi8XrUUxcnmRquiLfz4",
+      "type": "label",
+      "label": "Greedy Algorithms",
+      "resources": []
+    },
+    {
+      "id": "l3X9UrEYTWs5kBXI1NNCf",
+      "old_id": "l3X9UrEYTWs5kBXI1NNCf",
+      "type": "subtopic",
+      "label": "Dijkstra's Algorithm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\dijkstras-algorithm@l3X9UrEYTWs5kBXI1NNCf.md"
+    },
+    {
+      "id": "QrcijPiVT3bgqfkF-6ssi",
+      "old_id": "QrcijPiVT3bgqfkF-6ssi",
+      "type": "subtopic",
+      "label": "Huffman Coding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\huffman-coding@QrcijPiVT3bgqfkF-6ssi.md"
+    },
+    {
+      "id": "Wqhg7E-lOz1oNcRXjUej8",
+      "old_id": "Wqhg7E-lOz1oNcRXjUej8",
+      "type": "subtopic",
+      "label": "Kruskal's Algorithm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\kruskals-algorithm@Wqhg7E-lOz1oNcRXjUej8.md"
+    },
+    {
+      "id": "Hqw2eGtgfbVggqXBnIOdI",
+      "old_id": "Hqw2eGtgfbVggqXBnIOdI",
+      "type": "subtopic",
+      "label": "Ford-Fulkerson Algorithm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\ford-fulkerson-algorithm@Hqw2eGtgfbVggqXBnIOdI.md"
+    },
+    {
+      "id": "znpFIKwMJlepKJ8dH3kvC",
+      "old_id": "znpFIKwMJlepKJ8dH3kvC",
+      "type": "subtopic",
+      "label": "Prim's Algorithm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\prims-algorithm@znpFIKwMJlepKJ8dH3kvC.md"
+    },
+    {
+      "id": "l5--4opvZoc_seVn__5R3",
+      "old_id": "l5--4opvZoc_seVn__5R3",
+      "type": "subtopic",
+      "label": "Rabin-Karp Algorithm",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\rabin-karp-algorithm@l5--4opvZoc_seVn__5R3.md"
+    },
+    {
+      "id": "n11ujPI3of-52l2KW2CDQ",
+      "old_id": "hna0HLu0l4NTNNpyGqlW5",
+      "type": "subtopic",
+      "label": "LFU Cache",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\mfu-cache@hna0HLu0l4NTNNpyGqlW5.md"
+    },
+    {
+      "id": "NUWk-7IXmMU-4TT-oS8fF",
+      "old_id": "vjMqqFsTxSjaiYxmliwLi",
+      "type": "topic",
+      "label": "String Search & Manipulations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\endianess@vjMqqFsTxSjaiYxmliwLi.md"
+    },
+    {
+      "id": "L4M5yFRKKR2axKXGcIA7d",
+      "old_id": "L4M5yFRKKR2axKXGcIA7d",
+      "type": "subtopic",
+      "label": "Search Pattern in Text",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\search-pattern-in-text@L4M5yFRKKR2axKXGcIA7d.md"
+    },
+    {
+      "id": "Ld1TUNS8713coMNvwhNIJ",
+      "old_id": "L4M5yFRKKR2axKXGcIA7d",
+      "type": "subtopic",
+      "label": "Suffix Arrays",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\search-pattern-in-text@L4M5yFRKKR2axKXGcIA7d.md"
+    },
+    {
+      "id": "g3b0kt1fCAjjYyS2WelWi",
+      "old_id": "g3b0kt1fCAjjYyS2WelWi",
+      "type": "subtopic",
+      "label": "Brute Force Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\brute-force-search@g3b0kt1fCAjjYyS2WelWi.md"
+    },
+    {
+      "id": "8abFKMfaV9H8F38I0DcMT",
+      "old_id": "8abFKMfaV9H8F38I0DcMT",
+      "type": "subtopic",
+      "label": "Knuth-Morris Pratt",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\knuth-morris-pratt@8abFKMfaV9H8F38I0DcMT.md"
+    },
+    {
+      "id": "p6qub32jcaGloHXUDUrlG",
+      "old_id": "p6qub32jcaGloHXUDUrlG",
+      "type": "subtopic",
+      "label": "Boyer-Moore",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\boyer-moore@p6qub32jcaGloHXUDUrlG.md"
+    },
+    {
+      "id": "Km5LvcJpyntrW2iA8h5e3",
+      "old_id": "Km5LvcJpyntrW2iA8h5e3",
+      "type": "subtopic",
+      "label": "Robin-Karp",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\robin-karp@Km5LvcJpyntrW2iA8h5e3.md"
+    },
+    {
+      "id": "E9hf1ux1KKGHvvAShm67w",
+      "old_id": "E9hf1ux1KKGHvvAShm67w",
+      "type": "subtopic",
+      "label": "Substring Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\substring-search@E9hf1ux1KKGHvvAShm67w.md"
+    },
+    {
+      "id": "-bawIWfrYuAxy8cP-AGFS",
+      "old_id": "vjMqqFsTxSjaiYxmliwLi",
+      "type": "topic",
+      "label": "Floating Point Math",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\endianess@vjMqqFsTxSjaiYxmliwLi.md"
+    },
+    {
+      "id": "vjMqqFsTxSjaiYxmliwLi",
+      "old_id": "7a6-AnBI-3tAU1dkOvPkx",
+      "type": "topic",
+      "label": "Endianess",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\common-algorithms@7a6-AnBI-3tAU1dkOvPkx.md"
+    },
+    {
+      "id": "U8AgY6I-62mN5Ohg9MsG6",
+      "old_id": "U8AgY6I-62mN5Ohg9MsG6",
+      "type": "subtopic",
+      "label": "Big Endian",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\big-endian@U8AgY6I-62mN5Ohg9MsG6.md"
+    },
+    {
+      "id": "rD_5n5bjiNMVC0cPhEVyG",
+      "old_id": "rD_5n5bjiNMVC0cPhEVyG",
+      "type": "subtopic",
+      "label": "Little Endian",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\little-endian@rD_5n5bjiNMVC0cPhEVyG.md"
+    },
+    {
+      "id": "DMuMsEowpevTCALtziwTB",
+      "old_id": "vjMqqFsTxSjaiYxmliwLi",
+      "type": "topic",
+      "label": "Common UML Diagrams",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\endianess@vjMqqFsTxSjaiYxmliwLi.md"
+    },
+    {
+      "id": "04hpfxI2x958tQI-0clsp",
+      "old_id": "04hpfxI2x958tQI-0clsp",
+      "type": "subtopic",
+      "label": "Unicode",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\unicode@04hpfxI2x958tQI-0clsp.md"
+    },
+    {
+      "id": "hmwsNp60alS43kJg4A_Og",
+      "old_id": "hmwsNp60alS43kJg4A_Og",
+      "type": "subtopic",
+      "label": "ASCII",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\ascii@hmwsNp60alS43kJg4A_Og.md"
+    },
+    {
+      "id": "DtG9EJonWi4_2oQ4fWOKY",
+      "old_id": "DMuMsEowpevTCALtziwTB",
+      "type": "topic",
+      "label": "Character Encodings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\common-uml-diagrams@DMuMsEowpevTCALtziwTB.md"
+    },
+    {
+      "id": "FZ8znJSz8PvQlnEyRLXmQ",
+      "old_id": "FZ8znJSz8PvQlnEyRLXmQ",
+      "type": "subtopic",
+      "label": "Class Diagrams",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\class-diagrams@FZ8znJSz8PvQlnEyRLXmQ.md"
+    },
+    {
+      "id": "dVvYbrcaxHLpvtX6HbS7g",
+      "old_id": "dVvYbrcaxHLpvtX6HbS7g",
+      "type": "subtopic",
+      "label": "Usecase Diagrams",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\usecase-diagrams@dVvYbrcaxHLpvtX6HbS7g.md"
+    },
+    {
+      "id": "ptfRNiU0mC0Q5SLA_FWZu",
+      "old_id": "ptfRNiU0mC0Q5SLA_FWZu",
+      "type": "subtopic",
+      "label": "Activity Diagrams",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\activity-diagrams@ptfRNiU0mC0Q5SLA_FWZu.md"
+    },
+    {
+      "id": "X0CKM9LaJUrgI5gIdqFvU",
+      "old_id": "X0CKM9LaJUrgI5gIdqFvU",
+      "type": "subtopic",
+      "label": "Statemachine Diagrams",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\statemachine-diagrams@X0CKM9LaJUrgI5gIdqFvU.md"
+    },
+    {
+      "id": "gaUT5K2xS-WQMrIA0Bkb_",
+      "old_id": "gaUT5K2xS-WQMrIA0Bkb_",
+      "type": "subtopic",
+      "label": "Sequence Diagrams",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\sequence-diagrams@gaUT5K2xS-WQMrIA0Bkb_.md"
+    },
+    {
+      "id": "-De1hU2ONGwhQmUpsyrCO",
+      "old_id": "YLCmZvoLkhOk9wlgYW2Ms",
+      "type": "topic",
+      "label": "Design Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\complexity-classes@YLCmZvoLkhOk9wlgYW2Ms.md"
+    },
+    {
+      "id": "iPN9mSyFwYZER5HSkj6oL",
+      "old_id": "iPN9mSyFwYZER5HSkj6oL",
+      "type": "subtopic",
+      "label": "GoF Design Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\gof-design-patterns@iPN9mSyFwYZER5HSkj6oL.md"
+    },
+    {
+      "id": "BGhJNtszbYJtKyhqr2jax",
+      "old_id": "BGhJNtszbYJtKyhqr2jax",
+      "type": "subtopic",
+      "label": "Architectural Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\architectural-patterns@BGhJNtszbYJtKyhqr2jax.md"
+    },
+    {
+      "id": "J7DKRklMtJ94Y-18Jo50r",
+      "old_id": "J7DKRklMtJ94Y-18Jo50r",
+      "type": "subtopic",
+      "label": "Dependency Injection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\dependency-injection@J7DKRklMtJ94Y-18Jo50r.md"
+    },
+    {
+      "id": "PpFQ0zmObZLvmBvqhTEMz",
+      "old_id": "PpFQ0zmObZLvmBvqhTEMz",
+      "type": "subtopic",
+      "label": "Null Object Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\null-object-pattern@PpFQ0zmObZLvmBvqhTEMz.md"
+    },
+    {
+      "id": "_2Jddpz_cdwyeIgrg5qt_",
+      "old_id": "_2Jddpz_cdwyeIgrg5qt_",
+      "type": "subtopic",
+      "label": "Type Object Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\type-object-pattern@_2Jddpz_cdwyeIgrg5qt_.md"
+    },
+    {
+      "id": "cdNi0EYrQ5nsgNxFVnXL8",
+      "old_id": "YLCmZvoLkhOk9wlgYW2Ms",
+      "type": "topic",
+      "label": "Basic Math Skills",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\complexity-classes@YLCmZvoLkhOk9wlgYW2Ms.md"
+    },
+    {
+      "id": "HZ3_xyphbjhBPwwQo_rHH",
+      "old_id": "HZ3_xyphbjhBPwwQo_rHH",
+      "type": "subtopic",
+      "label": "Probability",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\probability@HZ3_xyphbjhBPwwQo_rHH.md"
+    },
+    {
+      "id": "lWnAY0DgrUOmT6yqnxeBN",
+      "old_id": "lWnAY0DgrUOmT6yqnxeBN",
+      "type": "subtopic",
+      "label": "Combinatorics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\combinatorics@lWnAY0DgrUOmT6yqnxeBN.md"
+    },
+    {
+      "id": "YLCmZvoLkhOk9wlgYW2Ms",
+      "old_id": "DMuMsEowpevTCALtziwTB",
+      "type": "topic",
+      "label": "Complexity Classes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\common-uml-diagrams@DMuMsEowpevTCALtziwTB.md"
+    },
+    {
+      "id": "3aM17dPKNi8tRJsW8lesI",
+      "old_id": "3aM17dPKNi8tRJsW8lesI",
+      "type": "subtopic",
+      "label": "P",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\p@3aM17dPKNi8tRJsW8lesI.md"
+    },
+    {
+      "id": "ewXUHpOnjm8YrLhce1dAQ",
+      "old_id": "ewXUHpOnjm8YrLhce1dAQ",
+      "type": "subtopic",
+      "label": "NP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\np@ewXUHpOnjm8YrLhce1dAQ.md"
+    },
+    {
+      "id": "mJJ8DGUpBuHEJ7I6UTy1T",
+      "old_id": "mJJ8DGUpBuHEJ7I6UTy1T",
+      "type": "subtopic",
+      "label": "NP Hard",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\np-hard@mJJ8DGUpBuHEJ7I6UTy1T.md"
+    },
+    {
+      "id": "Lwkz7qozXRlVNA20zJbSw",
+      "old_id": "Lwkz7qozXRlVNA20zJbSw",
+      "type": "topic",
+      "label": "NP Complete",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\np-complete@Lwkz7qozXRlVNA20zJbSw.md"
+    },
+    {
+      "id": "0btHNkzWL1w_-pUgU_k2y",
+      "old_id": "0btHNkzWL1w_-pUgU_k2y",
+      "type": "subtopic",
+      "label": "P = NP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\p--np@0btHNkzWL1w_-pUgU_k2y.md"
+    },
+    {
+      "id": "ZG-hWjVoS3p9XfrtBL0sD",
+      "old_id": "ZG-hWjVoS3p9XfrtBL0sD",
+      "type": "subtopic",
+      "label": "Travelling Salesman Problem",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\travelling-salesman-problem@ZG-hWjVoS3p9XfrtBL0sD.md"
+    },
+    {
+      "id": "yHeCRPhfAOWiggZeUHPU9",
+      "old_id": "yHeCRPhfAOWiggZeUHPU9",
+      "type": "subtopic",
+      "label": "Knapsack Problem",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\knapsack-problem@yHeCRPhfAOWiggZeUHPU9.md"
+    },
+    {
+      "id": "4QVVYjDODMWsjnrE-4UBs",
+      "old_id": "4QVVYjDODMWsjnrE-4UBs",
+      "type": "subtopic",
+      "label": "Longest Path Problem",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\longest-path-problem@4QVVYjDODMWsjnrE-4UBs.md"
+    },
+    {
+      "id": "4qUVacMEz3XFiL_dMre6P",
+      "old_id": "zvlTQ0A-My4QDrslp_lru",
+      "type": "topic",
+      "label": "Tries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\databases@zvlTQ0A-My4QDrslp_lru.md"
+    },
+    {
+      "id": "7DF3UhefOSqqTuccH8c8X",
+      "old_id": "zvlTQ0A-My4QDrslp_lru",
+      "type": "topic",
+      "label": "Balanced Search Trees",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\databases@zvlTQ0A-My4QDrslp_lru.md"
+    },
+    {
+      "id": "OUistS7H7hQQxVV-lOg39",
+      "old_id": "OUistS7H7hQQxVV-lOg39",
+      "type": "subtopic",
+      "label": "AVL Trees",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\avl-trees@OUistS7H7hQQxVV-lOg39.md"
+    },
+    {
+      "id": "eOL0_SzxBn7_xhNcBDi2D",
+      "old_id": "eOL0_SzxBn7_xhNcBDi2D",
+      "type": "subtopic",
+      "label": "Red / Black Trees",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\red--black-trees@eOL0_SzxBn7_xhNcBDi2D.md"
+    },
+    {
+      "id": "3jiV9R82qxpqIGfpEq_wK",
+      "old_id": "3jiV9R82qxpqIGfpEq_wK",
+      "type": "subtopic",
+      "label": "2 3 Search Trees",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\2-3-search-trees@3jiV9R82qxpqIGfpEq_wK.md"
+    },
+    {
+      "id": "IaPd_zuLbiOCwoSHQLoIG",
+      "old_id": "IaPd_zuLbiOCwoSHQLoIG",
+      "type": "subtopic",
+      "label": "2 3 4 Trees",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\2-3-4-trees@IaPd_zuLbiOCwoSHQLoIG.md"
+    },
+    {
+      "id": "UOYeM-hqIKCrB9hGez4Q_",
+      "old_id": "UOYeM-hqIKCrB9hGez4Q_",
+      "type": "subtopic",
+      "label": "K-ary / M-ary Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\k-ary--m-ary-tree@UOYeM-hqIKCrB9hGez4Q_.md"
+    },
+    {
+      "id": "s0Pi6CemUUsmZSEu2j2gH",
+      "old_id": "s0Pi6CemUUsmZSEu2j2gH",
+      "type": "subtopic",
+      "label": "B-Tree",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\b-tree@s0Pi6CemUUsmZSEu2j2gH.md"
+    },
+    {
+      "id": "w-fvEiSJysywR3AOAB0ve",
+      "old_id": "zvlTQ0A-My4QDrslp_lru",
+      "type": "topic",
+      "label": "System Design",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\databases@zvlTQ0A-My4QDrslp_lru.md"
+    },
+    {
+      "id": "-34WGppX6QC5fkCvfCghp",
+      "old_id": "-34WGppX6QC5fkCvfCghp",
+      "type": "subtopic",
+      "label": "Horizontal vs Vertical Scaling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\horizontal-vs-vertical-scaling@-34WGppX6QC5fkCvfCghp.md"
+    },
+    {
+      "id": "xDiS0HmrEoPjkQg9x2O3o",
+      "old_id": "xDiS0HmrEoPjkQg9x2O3o",
+      "type": "subtopic",
+      "label": "Load Balancing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\load-balancing@xDiS0HmrEoPjkQg9x2O3o.md"
+    },
+    {
+      "id": "wAsZ-M5N9ERufQnBaXbAE",
+      "old_id": "wAsZ-M5N9ERufQnBaXbAE",
+      "type": "subtopic",
+      "label": "Clustering",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\clustering@wAsZ-M5N9ERufQnBaXbAE.md"
+    },
+    {
+      "id": "4u5w9QCptLWuY9O7_UU8V",
+      "old_id": "4u5w9QCptLWuY9O7_UU8V",
+      "type": "subtopic",
+      "label": "Caching",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\caching@4u5w9QCptLWuY9O7_UU8V.md"
+    },
+    {
+      "id": "r8V9bZpc98SrLvXc070bZ",
+      "old_id": "r8V9bZpc98SrLvXc070bZ",
+      "type": "subtopic",
+      "label": "CDN",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\cdn@r8V9bZpc98SrLvXc070bZ.md"
+    },
+    {
+      "id": "qLLJ_ehC8tSRfXsorYMQz",
+      "old_id": "qLLJ_ehC8tSRfXsorYMQz",
+      "type": "subtopic",
+      "label": "Proxy",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\proxy@qLLJ_ehC8tSRfXsorYMQz.md"
+    },
+    {
+      "id": "GZI8EsEqiMJX3fSbO_E-7",
+      "old_id": "GZI8EsEqiMJX3fSbO_E-7",
+      "type": "subtopic",
+      "label": "CAP Theorem",
+      "resources": []
+    },
+    {
+      "id": "LCPEzpyAuHY3ggN3nYrNN",
+      "old_id": "LCPEzpyAuHY3ggN3nYrNN",
+      "type": "subtopic",
+      "label": "Queues",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\queues@LCPEzpyAuHY3ggN3nYrNN.md"
+    },
+    {
+      "id": "X1wv7xV69IEzepg8bF8oZ",
+      "old_id": "X1wv7xV69IEzepg8bF8oZ",
+      "type": "subtopic",
+      "label": "Architectural Styles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\architectural-styles@X1wv7xV69IEzepg8bF8oZ.md"
+    },
+    {
+      "id": "Kvz3Sn7L8CxP5ZXO1hlcU",
+      "old_id": "Kvz3Sn7L8CxP5ZXO1hlcU",
+      "type": "subtopic",
+      "label": "REST",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\rest@Kvz3Sn7L8CxP5ZXO1hlcU.md"
+    },
+    {
+      "id": "DeE_dZecLmKCjePovTfFS",
+      "old_id": "DeE_dZecLmKCjePovTfFS",
+      "type": "subtopic",
+      "label": "GraphQL",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\graphql@DeE_dZecLmKCjePovTfFS.md"
+    },
+    {
+      "id": "M4vdwAbjLPrLjWUsG_P1I",
+      "old_id": "M4vdwAbjLPrLjWUsG_P1I",
+      "type": "subtopic",
+      "label": "gRPC",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\grpc@M4vdwAbjLPrLjWUsG_P1I.md"
+    },
+    {
+      "id": "YMO9oD_sbzyDZPNU2xZwe",
+      "old_id": "YMO9oD_sbzyDZPNU2xZwe",
+      "type": "subtopic",
+      "label": "Cloud Design Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\cloud-design-patterns@YMO9oD_sbzyDZPNU2xZwe.md"
+    },
+    {
+      "id": "XeJi6TwpI5Uaszj00Uv_2",
+      "old_id": "XeJi6TwpI5Uaszj00Uv_2",
+      "type": "subtopic",
+      "label": "Long Polling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\long-polling@XeJi6TwpI5Uaszj00Uv_2.md"
+    },
+    {
+      "id": "gGmNJ8dK28iqrlQHPz6md",
+      "old_id": "gGmNJ8dK28iqrlQHPz6md",
+      "type": "subtopic",
+      "label": "Short Polling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\short-polling@gGmNJ8dK28iqrlQHPz6md.md"
+    },
+    {
+      "id": "bVjI14VismTHNCyA0mEBP",
+      "old_id": "bVjI14VismTHNCyA0mEBP",
+      "type": "subtopic",
+      "label": "Web Sockets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\web-sockets@bVjI14VismTHNCyA0mEBP.md"
+    },
+    {
+      "id": "JckRqZA8C6IqQLPpTCgf4",
+      "old_id": "JckRqZA8C6IqQLPpTCgf4",
+      "type": "subtopic",
+      "label": "SSE",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\sse@JckRqZA8C6IqQLPpTCgf4.md"
+    },
+    {
+      "id": "zvlTQ0A-My4QDrslp_lru",
+      "old_id": "YLCmZvoLkhOk9wlgYW2Ms",
+      "type": "topic",
+      "label": "Databases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\complexity-classes@YLCmZvoLkhOk9wlgYW2Ms.md"
+    },
+    {
+      "id": "nprZscHdC_RdRIcGeGyVk",
+      "old_id": "nprZscHdC_RdRIcGeGyVk",
+      "type": "subtopic",
+      "label": "SQL vs NoSQL Databases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\sql-vs-nosql-databases@nprZscHdC_RdRIcGeGyVk.md"
+    },
+    {
+      "id": "Rw7QjLC8hLtXSwmU_9kHC",
+      "old_id": "Rw7QjLC8hLtXSwmU_9kHC",
+      "type": "subtopic",
+      "label": "Normalization / Denormalization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\normalization--denormalization@Rw7QjLC8hLtXSwmU_9kHC.md"
+    },
+    {
+      "id": "XnxxEmr2TyW2kOpB4gtR5",
+      "old_id": "XnxxEmr2TyW2kOpB4gtR5",
+      "type": "subtopic",
+      "label": "Entity-Relationship Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\entity-relationship-model@XnxxEmr2TyW2kOpB4gtR5.md"
+    },
+    {
+      "id": "ii1vF74u3yrFNlw_21b3B",
+      "old_id": "ii1vF74u3yrFNlw_21b3B",
+      "type": "subtopic",
+      "label": "DDL",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\ddl@ii1vF74u3yrFNlw_21b3B.md"
+    },
+    {
+      "id": "tcQSH-eAvJUZuePTDjAIb",
+      "old_id": "tcQSH-eAvJUZuePTDjAIb",
+      "type": "subtopic",
+      "label": "DML",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\dml@tcQSH-eAvJUZuePTDjAIb.md"
+    },
+    {
+      "id": "05lkb3B86Won7Rkf-8DeD",
+      "old_id": "05lkb3B86Won7Rkf-8DeD",
+      "type": "subtopic",
+      "label": "DQL",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\dql@05lkb3B86Won7Rkf-8DeD.md"
+    },
+    {
+      "id": "4bUmfuP2qgcli8I2Vm9zh",
+      "old_id": "4bUmfuP2qgcli8I2Vm9zh",
+      "type": "subtopic",
+      "label": "DCL",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\dcl@4bUmfuP2qgcli8I2Vm9zh.md"
+    },
+    {
+      "id": "_sm63rZNKoibVndeNgOpW",
+      "old_id": "_sm63rZNKoibVndeNgOpW",
+      "type": "subtopic",
+      "label": "Locking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\locking@_sm63rZNKoibVndeNgOpW.md"
+    },
+    {
+      "id": "W5B-v-BFcCRmuN0L1m6PI",
+      "old_id": "W5B-v-BFcCRmuN0L1m6PI",
+      "type": "subtopic",
+      "label": "ACID Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\acid-model@W5B-v-BFcCRmuN0L1m6PI.md"
+    },
+    {
+      "id": "q3nRhTYS5wg9tYnQe2sCF",
+      "old_id": "q3nRhTYS5wg9tYnQe2sCF",
+      "type": "subtopic",
+      "label": "BASE",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\base@q3nRhTYS5wg9tYnQe2sCF.md"
+    },
+    {
+      "id": "uqfeiQ9K--QkGNwks4kjk",
+      "old_id": "uqfeiQ9K--QkGNwks4kjk",
+      "type": "subtopic",
+      "label": "CAP Theorem",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\cap-theorem@uqfeiQ9K--QkGNwks4kjk.md"
+    },
+    {
+      "id": "g6HeyLptaAYx9QBKuHQyM",
+      "old_id": "g6HeyLptaAYx9QBKuHQyM",
+      "type": "subtopic",
+      "label": "PACELC",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\pacelc@g6HeyLptaAYx9QBKuHQyM.md"
+    },
+    {
+      "id": "BEbsUA39kZ5itqCwD585f",
+      "old_id": "BEbsUA39kZ5itqCwD585f",
+      "type": "subtopic",
+      "label": "Indexes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\indexes@BEbsUA39kZ5itqCwD585f.md"
+    },
+    {
+      "id": "lOj_ReWI1kQ3WajJZYOWU",
+      "old_id": "lOj_ReWI1kQ3WajJZYOWU",
+      "type": "subtopic",
+      "label": "Views",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\views@lOj_ReWI1kQ3WajJZYOWU.md"
+    },
+    {
+      "id": "KhvYJtSCUBOpEZXjHpQde",
+      "old_id": "KhvYJtSCUBOpEZXjHpQde",
+      "type": "subtopic",
+      "label": "Transactions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\transactions@KhvYJtSCUBOpEZXjHpQde.md"
+    },
+    {
+      "id": "FjhZGhzJjYyDn0PShKmpX",
+      "old_id": "FjhZGhzJjYyDn0PShKmpX",
+      "type": "subtopic",
+      "label": "Stored Procedures",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\stored-procedures@FjhZGhzJjYyDn0PShKmpX.md"
+    },
+    {
+      "id": "3r21avMlo0xFB9i7PHccX",
+      "old_id": "3r21avMlo0xFB9i7PHccX",
+      "type": "subtopic",
+      "label": "Database Federation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\database-federation@3r21avMlo0xFB9i7PHccX.md"
+    },
+    {
+      "id": "WUEmEtlszbISSIWDKpvg6",
+      "old_id": "WUEmEtlszbISSIWDKpvg6",
+      "type": "subtopic",
+      "label": "Replication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\replication@WUEmEtlszbISSIWDKpvg6.md"
+    },
+    {
+      "id": "3K65efPag2076dy-MeTg4",
+      "old_id": "3K65efPag2076dy-MeTg4",
+      "type": "subtopic",
+      "label": "Sharding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\sharding@3K65efPag2076dy-MeTg4.md"
+    },
+    {
+      "id": "zG5t3HqbZnh9CGRqp1Sb-",
+      "old_id": "JnJbJtsqKbVETY2vdLqCO",
+      "type": "topic",
+      "label": "Networking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\security@JnJbJtsqKbVETY2vdLqCO.md"
+    },
+    {
+      "id": "pZ5x_zDYGzW9VxYycyXtN",
+      "old_id": "pZ5x_zDYGzW9VxYycyXtN",
+      "type": "subtopic",
+      "label": "OSI Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\osi-model@pZ5x_zDYGzW9VxYycyXtN.md"
+    },
+    {
+      "id": "Fed5y1D95WPpqoVg7kmob",
+      "old_id": "Fed5y1D95WPpqoVg7kmob",
+      "type": "subtopic",
+      "label": "TCP/IP Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\tcpip-model@Fed5y1D95WPpqoVg7kmob.md"
+    },
+    {
+      "id": "fYjoXB4rnkM5gg46sqVz5",
+      "old_id": "fYjoXB4rnkM5gg46sqVz5",
+      "type": "subtopic",
+      "label": "DNS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\dns@fYjoXB4rnkM5gg46sqVz5.md"
+    },
+    {
+      "id": "2tUwl-br-SRuwADSzmQag",
+      "old_id": "2tUwl-br-SRuwADSzmQag",
+      "type": "subtopic",
+      "label": "HTTP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\http@2tUwl-br-SRuwADSzmQag.md"
+    },
+    {
+      "id": "3pu2bGhoCLFIs6kNanwtz",
+      "old_id": "3pu2bGhoCLFIs6kNanwtz",
+      "type": "subtopic",
+      "label": "TLS & HTTPS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\tls--https@3pu2bGhoCLFIs6kNanwtz.md"
+    },
+    {
+      "id": "u-c-UFegRb7xqsmvj9gVb",
+      "old_id": "u-c-UFegRb7xqsmvj9gVb",
+      "type": "subtopic",
+      "label": "Sockets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\sockets@u-c-UFegRb7xqsmvj9gVb.md"
+    },
+    {
+      "id": "JnJbJtsqKbVETY2vdLqCO",
+      "old_id": "JnJbJtsqKbVETY2vdLqCO",
+      "type": "topic",
+      "label": "Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\security@JnJbJtsqKbVETY2vdLqCO.md"
+    },
+    {
+      "id": "bDZ34BPm3lX06ERSE10cY",
+      "old_id": "EX_e4B6G07zTb4JjJ7482",
+      "type": "subtopic",
+      "label": "Public Key Cryptography",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\hashing-algorithms@EX_e4B6G07zTb4JjJ7482.md"
+    },
+    {
+      "id": "7r7o8pYhFHVAJIv0wNT6X",
+      "old_id": "7r7o8pYhFHVAJIv0wNT6X",
+      "type": "subtopic",
+      "label": "Hashing / Encryption / Encoding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\hashing--encryption--encoding@7r7o8pYhFHVAJIv0wNT6X.md"
+    },
+    {
+      "id": "EX_e4B6G07zTb4JjJ7482",
+      "old_id": "7r7o8pYhFHVAJIv0wNT6X",
+      "type": "subtopic",
+      "label": "Hashing Algorithms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\hashing--encryption--encoding@7r7o8pYhFHVAJIv0wNT6X.md"
+    },
+    {
+      "id": "3rPSp135TdSCyvXzEzn4p",
+      "old_id": "3rPSp135TdSCyvXzEzn4p",
+      "type": "subtopic",
+      "label": "OWASP Top 10",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\owasp-top-10@3rPSp135TdSCyvXzEzn4p.md"
+    },
+    {
+      "id": "-emdKpD5uRNuvem5rbFXJ",
+      "old_id": "K96ggeWqd5OwoNnkL04pc",
+      "type": "topic",
+      "label": "How Computers Work",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\skip-lists@K96ggeWqd5OwoNnkL04pc.md"
+    },
+    {
+      "id": "1eglba39q426Nh0E0qcdj",
+      "old_id": "GDLKJkKgB-i7n0YcV2NDa",
+      "type": "subtopic",
+      "label": "How CPU Executes Programs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\how-computers-calculate@GDLKJkKgB-i7n0YcV2NDa.md"
+    },
+    {
+      "id": "GDLKJkKgB-i7n0YcV2NDa",
+      "old_id": "GDLKJkKgB-i7n0YcV2NDa",
+      "type": "subtopic",
+      "label": "How Computers Calculate",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\how-computers-calculate@GDLKJkKgB-i7n0YcV2NDa.md"
+    },
+    {
+      "id": "U3379F4AO1KSmGtVmPr27",
+      "old_id": "U3379F4AO1KSmGtVmPr27",
+      "type": "subtopic",
+      "label": "Registers and RAM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\registers-and-ram@U3379F4AO1KSmGtVmPr27.md"
+    },
+    {
+      "id": "AxiGqbteK7ZSXEUt_zckH",
+      "old_id": "AxiGqbteK7ZSXEUt_zckH",
+      "type": "subtopic",
+      "label": "Instructions and Programs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\instructions-and-programs@AxiGqbteK7ZSXEUt_zckH.md"
+    },
+    {
+      "id": "DjTQjMbika4_yTzrBpcmB",
+      "old_id": "KmPaeu9L_ljttFtmT-oja",
+      "type": "subtopic",
+      "label": "CPU Cache",
+      "resources": []
+    },
+    {
+      "id": "ETEUA7jaEGyOEX8tAVNWs",
+      "old_id": "K96ggeWqd5OwoNnkL04pc",
+      "type": "topic",
+      "label": "Processes and Threads",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\skip-lists@K96ggeWqd5OwoNnkL04pc.md"
+    },
+    {
+      "id": "RbdT5MOE4L-E7PPWKRITX",
+      "old_id": "RbdT5MOE4L-E7PPWKRITX",
+      "type": "subtopic",
+      "label": "Process Forking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\process-forking@RbdT5MOE4L-E7PPWKRITX.md"
+    },
+    {
+      "id": "jVsZFTzyrYEDyR8LiBQL0",
+      "old_id": "jVsZFTzyrYEDyR8LiBQL0",
+      "type": "subtopic",
+      "label": "Memory Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\memory-management@jVsZFTzyrYEDyR8LiBQL0.md"
+    },
+    {
+      "id": "O6-vG3FuoYet4D0hbiyrv",
+      "old_id": "O6-vG3FuoYet4D0hbiyrv",
+      "type": "subtopic",
+      "label": "Lock / Mutex / Semaphore",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\lock--mutex--semaphore@O6-vG3FuoYet4D0hbiyrv.md"
+    },
+    {
+      "id": "xUo5Ox_HTgGyeQMDIkVyK",
+      "old_id": "xUo5Ox_HTgGyeQMDIkVyK",
+      "type": "subtopic",
+      "label": "Concurrency in Multiple Cores",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\concurrency-in-multiple-cores@xUo5Ox_HTgGyeQMDIkVyK.md"
+    },
+    {
+      "id": "Ge2nagN86ofa2y-yYR1lv",
+      "old_id": "Ge2nagN86ofa2y-yYR1lv",
+      "type": "subtopic",
+      "label": "Scheduling Algorithms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\scheduling-algorithms@Ge2nagN86ofa2y-yYR1lv.md"
+    },
+    {
+      "id": "cpQvB0qMDL3-NWret7oeA",
+      "old_id": "cpQvB0qMDL3-NWret7oeA",
+      "type": "subtopic",
+      "label": "CPU Interrupts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\cpu-interrupts@cpQvB0qMDL3-NWret7oeA.md"
+    },
+    {
+      "id": "IEX6v_MYpE5Ylk_28K2ZU",
+      "old_id": "IEX6v_MYpE5Ylk_28K2ZU",
+      "type": "subtopic",
+      "label": "Processes vs Threads",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\processes-vs-threads@IEX6v_MYpE5Ylk_28K2ZU.md"
+    },
+    {
+      "id": "C1eNsPjiQo8INbvL2Lt7L",
+      "old_id": "K96ggeWqd5OwoNnkL04pc",
+      "type": "topic",
+      "label": "K-D Trees",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\skip-lists@K96ggeWqd5OwoNnkL04pc.md"
+    },
+    {
+      "id": "K96ggeWqd5OwoNnkL04pc",
+      "old_id": "JnJbJtsqKbVETY2vdLqCO",
+      "type": "topic",
+      "label": "Skip Lists",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\security@JnJbJtsqKbVETY2vdLqCO.md"
+    },
+    {
+      "id": "diInbFoBy8YracmAhlDsu",
+      "old_id": "diInbFoBy8YracmAhlDsu",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "pLBfkzi0qfgVRqi_4AmMI",
+      "old_id": "pLBfkzi0qfgVRqi_4AmMI",
+      "type": "subtopic",
+      "label": "Co-NP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\co-np@pLBfkzi0qfgVRqi_4AmMI.md"
+    },
+    {
+      "id": "hTPLcuOW7eEE5oYhNfmOG",
+      "old_id": "-bawIWfrYuAxy8cP-AGFS",
+      "type": "topic",
+      "label": "Bitwise Operators",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\computer-science\\content\\floating-point-math@-bawIWfrYuAxy8cP-AGFS.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": null,
+      "target": "GV_zWF6rSWg5bqgiXhOEf"
+    },
+    {
+      "source": "tU4Umtnfu01t9gLlnlK6b",
+      "target": "RlKZzs44biQPgxD0tK1qx"
+    },
+    {
+      "source": "tU4Umtnfu01t9gLlnlK6b",
+      "target": "jHKCLfLml8oZyj4829gx0"
+    },
+    {
+      "source": "tU4Umtnfu01t9gLlnlK6b",
+      "target": "n4IsklfYJXFIyF1rGWuEa"
+    },
+    {
+      "source": "tU4Umtnfu01t9gLlnlK6b",
+      "target": "1bDjg-KBDKRmE6f1MWY8l"
+    },
+    {
+      "source": "tU4Umtnfu01t9gLlnlK6b",
+      "target": "NM7q5REW1sJgMhxJhPpLT"
+    },
+    {
+      "source": "NM7q5REW1sJgMhxJhPpLT",
+      "target": "JI990pDX2jjNe6IH_Y_t0"
+    },
+    {
+      "source": "NM7q5REW1sJgMhxJhPpLT",
+      "target": "G2dN2FO0SN_I-5AhO_EUk"
+    },
+    {
+      "source": "NM7q5REW1sJgMhxJhPpLT",
+      "target": "gr8BK6vq4AVwp_aUozZmf"
+    },
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "tU4Umtnfu01t9gLlnlK6b"
+    },
+    {
+      "source": "NM7q5REW1sJgMhxJhPpLT",
+      "target": "vQm046o6ozcvLoqg9L6eL"
+    },
+    {
+      "source": "NM7q5REW1sJgMhxJhPpLT",
+      "target": "UpBrpmrUwYUB9eesNxCq5"
+    },
+    {
+      "source": "UpBrpmrUwYUB9eesNxCq5",
+      "target": "7a6-AnBI-3tAU1dkOvPkx"
+    },
+    {
+      "source": "NUWk-7IXmMU-4TT-oS8fF",
+      "target": "-bawIWfrYuAxy8cP-AGFS"
+    },
+    {
+      "source": "-bawIWfrYuAxy8cP-AGFS",
+      "target": "vjMqqFsTxSjaiYxmliwLi"
+    },
+    {
+      "source": "vjMqqFsTxSjaiYxmliwLi",
+      "target": "U8AgY6I-62mN5Ohg9MsG6"
+    },
+    {
+      "source": "vjMqqFsTxSjaiYxmliwLi",
+      "target": "DtG9EJonWi4_2oQ4fWOKY"
+    },
+    {
+      "source": "DMuMsEowpevTCALtziwTB",
+      "target": "FZ8znJSz8PvQlnEyRLXmQ"
+    },
+    {
+      "source": "DMuMsEowpevTCALtziwTB",
+      "target": "-De1hU2ONGwhQmUpsyrCO"
+    },
+    {
+      "source": "-De1hU2ONGwhQmUpsyrCO",
+      "target": "iPN9mSyFwYZER5HSkj6oL"
+    },
+    {
+      "source": "-De1hU2ONGwhQmUpsyrCO",
+      "target": "BGhJNtszbYJtKyhqr2jax"
+    },
+    {
+      "source": "-De1hU2ONGwhQmUpsyrCO",
+      "target": "J7DKRklMtJ94Y-18Jo50r"
+    },
+    {
+      "source": "-De1hU2ONGwhQmUpsyrCO",
+      "target": "PpFQ0zmObZLvmBvqhTEMz"
+    },
+    {
+      "source": "-De1hU2ONGwhQmUpsyrCO",
+      "target": "_2Jddpz_cdwyeIgrg5qt_"
+    },
+    {
+      "source": "-De1hU2ONGwhQmUpsyrCO",
+      "target": "cdNi0EYrQ5nsgNxFVnXL8"
+    },
+    {
+      "source": "cdNi0EYrQ5nsgNxFVnXL8",
+      "target": "HZ3_xyphbjhBPwwQo_rHH"
+    },
+    {
+      "source": "cdNi0EYrQ5nsgNxFVnXL8",
+      "target": "YLCmZvoLkhOk9wlgYW2Ms"
+    },
+    {
+      "source": "YLCmZvoLkhOk9wlgYW2Ms",
+      "target": "4qUVacMEz3XFiL_dMre6P"
+    },
+    {
+      "source": "7DF3UhefOSqqTuccH8c8X",
+      "target": "w-fvEiSJysywR3AOAB0ve"
+    },
+    {
+      "source": "w-fvEiSJysywR3AOAB0ve",
+      "target": "-34WGppX6QC5fkCvfCghp"
+    },
+    {
+      "source": "w-fvEiSJysywR3AOAB0ve",
+      "target": "zvlTQ0A-My4QDrslp_lru"
+    },
+    {
+      "source": "zvlTQ0A-My4QDrslp_lru",
+      "target": "zG5t3HqbZnh9CGRqp1Sb-"
+    },
+    {
+      "source": "zG5t3HqbZnh9CGRqp1Sb-",
+      "target": "u-c-UFegRb7xqsmvj9gVb"
+    },
+    {
+      "source": "zG5t3HqbZnh9CGRqp1Sb-",
+      "target": "JnJbJtsqKbVETY2vdLqCO"
+    },
+    {
+      "source": "JnJbJtsqKbVETY2vdLqCO",
+      "target": "7r7o8pYhFHVAJIv0wNT6X"
+    },
+    {
+      "source": "JnJbJtsqKbVETY2vdLqCO",
+      "target": "bDZ34BPm3lX06ERSE10cY"
+    },
+    {
+      "source": "JnJbJtsqKbVETY2vdLqCO",
+      "target": "EX_e4B6G07zTb4JjJ7482"
+    },
+    {
+      "source": "JnJbJtsqKbVETY2vdLqCO",
+      "target": "3rPSp135TdSCyvXzEzn4p"
+    },
+    {
+      "source": "JnJbJtsqKbVETY2vdLqCO",
+      "target": "-emdKpD5uRNuvem5rbFXJ"
+    },
+    {
+      "source": "-emdKpD5uRNuvem5rbFXJ",
+      "target": "1eglba39q426Nh0E0qcdj"
+    },
+    {
+      "source": "-emdKpD5uRNuvem5rbFXJ",
+      "target": "ETEUA7jaEGyOEX8tAVNWs"
+    },
+    {
+      "source": "ETEUA7jaEGyOEX8tAVNWs",
+      "target": "O6-vG3FuoYet4D0hbiyrv"
+    },
+    {
+      "source": "ETEUA7jaEGyOEX8tAVNWs",
+      "target": "xUo5Ox_HTgGyeQMDIkVyK"
+    }
+  ]
+}

@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "rQArtuVKGVgLn_fw9yO3b",
+    "old_id": "m1wX27XBWKXZcTMH2U1xp",
+    "type": "topic",
+    "label": "Server-Side Development",
+    "resources": []
+  },
+  {
+    "id": "mUCidjOsVLMAVDf2jmV5F",
+    "old_id": "6ilqzjvI4J1pUCmTJ33PA",
+    "type": "topic",
+    "label": "TCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\programming-languages@6ilqzjvI4J1pUCmTJ33PA.md"
+  },
+  {
+    "id": "XxBl-zO7CF6DpOZ2bMDxJ",
+    "old_id": "XxBl-zO7CF6DpOZ2bMDxJ",
+    "type": "subtopic",
+    "label": "Checksum",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\checksum@XxBl-zO7CF6DpOZ2bMDxJ.md"
+  },
+  {
+    "id": "zTCmPUp9j5P1wpGgiboMa",
+    "old_id": "zTCmPUp9j5P1wpGgiboMa",
+    "type": "subtopic",
+    "label": "Segment Structure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\segment-structure@zTCmPUp9j5P1wpGgiboMa.md"
+  },
+  {
+    "id": "5sI3RHaLudq4TfpjoYeOp",
+    "old_id": "5sI3RHaLudq4TfpjoYeOp",
+    "type": "subtopic",
+    "label": "Connection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\connection@5sI3RHaLudq4TfpjoYeOp.md"
+  },
+  {
+    "id": "LkGI0VpJ3WkpPHkJhJgWk",
+    "old_id": "LkGI0VpJ3WkpPHkJhJgWk",
+    "type": "subtopic",
+    "label": "Resource Usage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\resource-usage@LkGI0VpJ3WkpPHkJhJgWk.md"
+  },
+  {
+    "id": "5bJUcx3v4dpdlIsx7bFvK",
+    "old_id": "5bJUcx3v4dpdlIsx7bFvK",
+    "type": "subtopic",
+    "label": "Data Transfer",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\data-transfer@5bJUcx3v4dpdlIsx7bFvK.md"
+  },
+  {
+    "id": "1l5dhQWYPhUSg-cy5pSlK",
+    "old_id": "1l5dhQWYPhUSg-cy5pSlK",
+    "type": "subtopic",
+    "label": "Max Segment Scaling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\max-segment-scaling@1l5dhQWYPhUSg-cy5pSlK.md"
+  },
+  {
+    "id": "zvBKjceXRSfEe_3MDCEL5",
+    "old_id": "zvBKjceXRSfEe_3MDCEL5",
+    "type": "subtopic",
+    "label": "Window Scaling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\window-scaling@zvBKjceXRSfEe_3MDCEL5.md"
+  },
+  {
+    "id": "6KAYNPLEFMp6Jha8FLMAU",
+    "old_id": "6KAYNPLEFMp6Jha8FLMAU",
+    "type": "subtopic",
+    "label": "Timestamp",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\timestamp@6KAYNPLEFMp6Jha8FLMAU.md"
+  },
+  {
+    "id": "3OMu3RM-6pMjqY1jAmC2-",
+    "old_id": "3OMu3RM-6pMjqY1jAmC2-",
+    "type": "subtopic",
+    "label": "Out-of-Band Data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\out-of-band-data@3OMu3RM-6pMjqY1jAmC2-.md"
+  },
+  {
+    "id": "SPpOO25b7wpajWDIrKi1u",
+    "old_id": "SPpOO25b7wpajWDIrKi1u",
+    "type": "subtopic",
+    "label": "Selective Ack.",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\selective-ack@SPpOO25b7wpajWDIrKi1u.md"
+  },
+  {
+    "id": "1GML0Jsfdb1Fn-0PNryiQ",
+    "old_id": "1GML0Jsfdb1Fn-0PNryiQ",
+    "type": "subtopic",
+    "label": "Congestion Control",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\congestion-control@1GML0Jsfdb1Fn-0PNryiQ.md"
+  },
+  {
+    "id": "X2KHWgQZDHSVDsTRMUwSj",
+    "old_id": "vFM311xSa5OqNVove2f6j",
+    "type": "subtopic",
+    "label": "Reliable Transmission",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\error-detection@vFM311xSa5OqNVove2f6j.md"
+  },
+  {
+    "id": "lDVD-3i64Mk7-KPJrXmFH",
+    "old_id": "lDVD-3i64Mk7-KPJrXmFH",
+    "type": "subtopic",
+    "label": "Flow Control",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\flow-control@lDVD-3i64Mk7-KPJrXmFH.md"
+  },
+  {
+    "id": "vFM311xSa5OqNVove2f6j",
+    "old_id": "lDVD-3i64Mk7-KPJrXmFH",
+    "type": "subtopic",
+    "label": "Error Detection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\flow-control@lDVD-3i64Mk7-KPJrXmFH.md"
+  },
+  {
+    "id": "w6ysmcsBn9jJ8xMvg7hcD",
+    "old_id": "w6ysmcsBn9jJ8xMvg7hcD",
+    "type": "subtopic",
+    "label": "Max Segment Size",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\max-segment-size@w6ysmcsBn9jJ8xMvg7hcD.md"
+  },
+  {
+    "id": "MwLWDlciJOq_0n5S3GoF-",
+    "old_id": "MwLWDlciJOq_0n5S3GoF-",
+    "type": "subtopic",
+    "label": "Vulnerability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\vulnerability@MwLWDlciJOq_0n5S3GoF-.md"
+  },
+  {
+    "id": "TbXJO__4xSnzK1fvvJK86",
+    "old_id": "TbXJO__4xSnzK1fvvJK86",
+    "type": "subtopic",
+    "label": "Denial of Service",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\denial-of-service@TbXJO__4xSnzK1fvvJK86.md"
+  },
+  {
+    "id": "ubRiY3jdh3iS3diN482IU",
+    "old_id": "ubRiY3jdh3iS3diN482IU",
+    "type": "subtopic",
+    "label": "Connection Hijacking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\connection-hijacking@ubRiY3jdh3iS3diN482IU.md"
+  },
+  {
+    "id": "ZLTfpRZ0rF-mtd7Z0R2WF",
+    "old_id": "ZLTfpRZ0rF-mtd7Z0R2WF",
+    "type": "subtopic",
+    "label": "Veto",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\veto@ZLTfpRZ0rF-mtd7Z0R2WF.md"
+  },
+  {
+    "id": "IMyHwnXxJK6oFxzOMLxjS",
+    "old_id": "6ilqzjvI4J1pUCmTJ33PA",
+    "type": "topic",
+    "label": "UDP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\programming-languages@6ilqzjvI4J1pUCmTJ33PA.md"
+  },
+  {
+    "id": "Vh81GnOUOZvDOlOyI5PwT",
+    "old_id": "Vh81GnOUOZvDOlOyI5PwT",
+    "type": "subtopic",
+    "label": "Reliability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\reliability@Vh81GnOUOZvDOlOyI5PwT.md"
+  },
+  {
+    "id": "wD_HWc9YxPhlkilt585pg",
+    "old_id": "wD_HWc9YxPhlkilt585pg",
+    "type": "subtopic",
+    "label": "Datagram",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\datagram@wD_HWc9YxPhlkilt585pg.md"
+  },
+  {
+    "id": "jsNsyrGzegVnjIF2l52vI",
+    "old_id": "jsNsyrGzegVnjIF2l52vI",
+    "type": "subtopic",
+    "label": "Congestion Control",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\congestion-control@jsNsyrGzegVnjIF2l52vI.md"
+  },
+  {
+    "id": "tBOvBpDi3SOKZjAmkxdM0",
+    "old_id": "tBOvBpDi3SOKZjAmkxdM0",
+    "type": "subtopic",
+    "label": "Checksum",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\checksum@tBOvBpDi3SOKZjAmkxdM0.md"
+  },
+  {
+    "id": "CCxVnrGDKa1EROXgF_OAm",
+    "old_id": "CCxVnrGDKa1EROXgF_OAm",
+    "type": "subtopic",
+    "label": "Packet Structure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\packet-structure@CCxVnrGDKa1EROXgF_OAm.md"
+  },
+  {
+    "id": "RfTcTUjaXyp49FnUf44MK",
+    "old_id": "6ilqzjvI4J1pUCmTJ33PA",
+    "type": "topic",
+    "label": "TCP vs UDP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\programming-languages@6ilqzjvI4J1pUCmTJ33PA.md"
+  },
+  {
+    "id": "MoyBGT9bscUe8vMN4J0bG",
+    "old_id": "MoyBGT9bscUe8vMN4J0bG",
+    "type": "subtopic",
+    "label": "Reliable vs Unreliable",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\reliable-vs-unreliable@MoyBGT9bscUe8vMN4J0bG.md"
+  },
+  {
+    "id": "WMdCDmFsytsF2AWQXfzC8",
+    "old_id": "WMdCDmFsytsF2AWQXfzC8",
+    "type": "subtopic",
+    "label": "Ordered vs Unordered",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ordered-vs-unordered@WMdCDmFsytsF2AWQXfzC8.md"
+  },
+  {
+    "id": "OYXKtl4A-vaK6yGO6hS6n",
+    "old_id": "OYXKtl4A-vaK6yGO6hS6n",
+    "type": "subtopic",
+    "label": "Heavy vs Lightweight",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\heavy-vs-lightweight@OYXKtl4A-vaK6yGO6hS6n.md"
+  },
+  {
+    "id": "JE3uZ5U6oe6dVzsmglTl2",
+    "old_id": "JE3uZ5U6oe6dVzsmglTl2",
+    "type": "subtopic",
+    "label": "Packet vs Datagram",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\packet-vs-datagram@JE3uZ5U6oe6dVzsmglTl2.md"
+  },
+  {
+    "id": "pJw8fN1dt3BABtZVz7wGE",
+    "old_id": "pJw8fN1dt3BABtZVz7wGE",
+    "type": "subtopic",
+    "label": "Streaming vs Broadcast",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\streaming-vs-broadcast@pJw8fN1dt3BABtZVz7wGE.md"
+  },
+  {
+    "id": "tg94V7K0mgYhpkUMp_Scv",
+    "old_id": "6ilqzjvI4J1pUCmTJ33PA",
+    "type": "topic",
+    "label": "IP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\programming-languages@6ilqzjvI4J1pUCmTJ33PA.md"
+  },
+  {
+    "id": "5kF1fqr-mn5-15e3aMa9k",
+    "old_id": "5kF1fqr-mn5-15e3aMa9k",
+    "type": "subtopic",
+    "label": "Capability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\capability@5kF1fqr-mn5-15e3aMa9k.md"
+  },
+  {
+    "id": "2jDV-ovvrkBbTTLk5VbR9",
+    "old_id": "2jDV-ovvrkBbTTLk5VbR9",
+    "type": "subtopic",
+    "label": "Reliability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\reliability@2jDV-ovvrkBbTTLk5VbR9.md"
+  },
+  {
+    "id": "OzY-LPcfj1sBm_0F0WbIJ",
+    "old_id": "OzY-LPcfj1sBm_0F0WbIJ",
+    "type": "subtopic",
+    "label": "Link Capacity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\link-capacity@OzY-LPcfj1sBm_0F0WbIJ.md"
+  },
+  {
+    "id": "YPvm8XD_FaFYCQ-b7-KsH",
+    "old_id": "YPvm8XD_FaFYCQ-b7-KsH",
+    "type": "topic",
+    "label": "Function",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\function@YPvm8XD_FaFYCQ-b7-KsH.md"
+  },
+  {
+    "id": "jnQAzUUnwpJgoRuRIFtSe",
+    "old_id": "jnQAzUUnwpJgoRuRIFtSe",
+    "type": "subtopic",
+    "label": "Datagram Construction",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\datagram-construction@jnQAzUUnwpJgoRuRIFtSe.md"
+  },
+  {
+    "id": "3ZcJNDCHw2pFzewmoB-03",
+    "old_id": "3ZcJNDCHw2pFzewmoB-03",
+    "type": "subtopic",
+    "label": "IP Addressing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ip-addressing@3ZcJNDCHw2pFzewmoB-03.md"
+  },
+  {
+    "id": "bYb7nA-Vn9e6VtdbUT3tq",
+    "old_id": "bYb7nA-Vn9e6VtdbUT3tq",
+    "type": "subtopic",
+    "label": "Routing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\routing@bYb7nA-Vn9e6VtdbUT3tq.md"
+  },
+  {
+    "id": "r2OeI7YC1BLLfctC8q69W",
+    "old_id": "r2OeI7YC1BLLfctC8q69W",
+    "type": "topic",
+    "label": "Transactions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\transactions@r2OeI7YC1BLLfctC8q69W.md"
+  },
+  {
+    "id": "JI_wUdT2hjsrvbIhLvHcT",
+    "old_id": "JI_wUdT2hjsrvbIhLvHcT",
+    "type": "subtopic",
+    "label": "ARP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\arp@JI_wUdT2hjsrvbIhLvHcT.md"
+  },
+  {
+    "id": "yNytLrQAMKBw4t73YRL3J",
+    "old_id": "yNytLrQAMKBw4t73YRL3J",
+    "type": "subtopic",
+    "label": "DNS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\dns@yNytLrQAMKBw4t73YRL3J.md"
+  },
+  {
+    "id": "aTHJh-xw8soCxC1bIDdXm",
+    "old_id": "aTHJh-xw8soCxC1bIDdXm",
+    "type": "subtopic",
+    "label": "DHCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\dhcp@aTHJh-xw8soCxC1bIDdXm.md"
+  },
+  {
+    "id": "NH2eQ1_nij1icTgoO027b",
+    "old_id": "qkO0s9zR0sAnjTRWcrLQY",
+    "type": "topic",
+    "label": "Category",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\security@qkO0s9zR0sAnjTRWcrLQY.md"
+  },
+  {
+    "id": "pHVB0K8Vtk3ToD6n_f1wv",
+    "old_id": "pHVB0K8Vtk3ToD6n_f1wv",
+    "type": "subtopic",
+    "label": "IPv4",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ipv4@pHVB0K8Vtk3ToD6n_f1wv.md"
+  },
+  {
+    "id": "TqBlAMfhARhlJed6xD7eg",
+    "old_id": "FX8ASd-QzTUFDHzBB93WK",
+    "type": "subtopic",
+    "label": "IPv6",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\tls@FX8ASd-QzTUFDHzBB93WK.md"
+  },
+  {
+    "id": "qkO0s9zR0sAnjTRWcrLQY",
+    "old_id": "qkO0s9zR0sAnjTRWcrLQY",
+    "type": "topic",
+    "label": "Security",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\security@qkO0s9zR0sAnjTRWcrLQY.md"
+  },
+  {
+    "id": "FX8ASd-QzTUFDHzBB93WK",
+    "old_id": "FX8ASd-QzTUFDHzBB93WK",
+    "type": "subtopic",
+    "label": "TLS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\tls@FX8ASd-QzTUFDHzBB93WK.md"
+  },
+  {
+    "id": "6ilqzjvI4J1pUCmTJ33PA",
+    "old_id": "6ilqzjvI4J1pUCmTJ33PA",
+    "type": "topic",
+    "label": "Programming Languages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\programming-languages@6ilqzjvI4J1pUCmTJ33PA.md"
+  },
+  {
+    "id": "E4H3hniIW6hKpH3Qr--N5",
+    "old_id": "E4H3hniIW6hKpH3Qr--N5",
+    "type": "subtopic",
+    "label": "C/C++",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\cc@E4H3hniIW6hKpH3Qr--N5.md"
+  },
+  {
+    "id": "DuyUc9a-47Uz03yr4aeyg",
+    "old_id": "DuyUc9a-47Uz03yr4aeyg",
+    "type": "subtopic",
+    "label": "C#",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\c@DuyUc9a-47Uz03yr4aeyg.md"
+  },
+  {
+    "id": "LG8JPL1po-gEs1V5JyC8F",
+    "old_id": "LG8JPL1po-gEs1V5JyC8F",
+    "type": "subtopic",
+    "label": "Java",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\java@LG8JPL1po-gEs1V5JyC8F.md"
+  },
+  {
+    "id": "QGtGx5LBEWa1DD3Y7ztUy",
+    "old_id": "d5iQYn97vuoxJnCFGPdOa",
+    "type": "subtopic",
+    "label": "Erlang",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\go@d5iQYn97vuoxJnCFGPdOa.md"
+  },
+  {
+    "id": "ufufnULqsglE5VhEIAdSI",
+    "old_id": "ufufnULqsglE5VhEIAdSI",
+    "type": "subtopic",
+    "label": "JavaScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\javascript@ufufnULqsglE5VhEIAdSI.md"
+  },
+  {
+    "id": "d5iQYn97vuoxJnCFGPdOa",
+    "old_id": "d5iQYn97vuoxJnCFGPdOa",
+    "type": "subtopic",
+    "label": "Go",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\go@d5iQYn97vuoxJnCFGPdOa.md"
+  },
+  {
+    "id": "HvpuFTCknHPhnFkhmhRc4",
+    "old_id": "3QSLUMKD0G08N3MIb1cG7",
+    "type": "topic",
+    "label": "Socket Programming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\multithreading@3QSLUMKD0G08N3MIb1cG7.md"
+  },
+  {
+    "id": "H21PanCggDfQt34-JzgfO",
+    "old_id": "H21PanCggDfQt34-JzgfO",
+    "type": "subtopic",
+    "label": "Byte Manipulation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\byte-manipulation@H21PanCggDfQt34-JzgfO.md"
+  },
+  {
+    "id": "SBA7pa9o0AM0ZEBepd7UM",
+    "old_id": "SBA7pa9o0AM0ZEBepd7UM",
+    "type": "subtopic",
+    "label": "Address Conversion",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\address-conversion@SBA7pa9o0AM0ZEBepd7UM.md"
+  },
+  {
+    "id": "OAyMj6uLSv1yJ87YAjyZu",
+    "old_id": "OAyMj6uLSv1yJ87YAjyZu",
+    "type": "subtopic",
+    "label": "Descriptor",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\descriptor@OAyMj6uLSv1yJ87YAjyZu.md"
+  },
+  {
+    "id": "a2pcxVTGdAPw8aLvdr19M",
+    "old_id": "a2pcxVTGdAPw8aLvdr19M",
+    "type": "subtopic",
+    "label": "API",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\api@a2pcxVTGdAPw8aLvdr19M.md"
+  },
+  {
+    "id": "U_tZFM80W3xJx8jj4skCr",
+    "old_id": "U_tZFM80W3xJx8jj4skCr",
+    "type": "subtopic",
+    "label": "BSD Socket",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\bsd-socket@U_tZFM80W3xJx8jj4skCr.md"
+  },
+  {
+    "id": "GfTXffisLyQgp66zcQ7Py",
+    "old_id": "GfTXffisLyQgp66zcQ7Py",
+    "type": "subtopic",
+    "label": "Winsock",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\winsock@GfTXffisLyQgp66zcQ7Py.md"
+  },
+  {
+    "id": "TS6dz61rUSxm-SqmK6JKe",
+    "old_id": "3QSLUMKD0G08N3MIb1cG7",
+    "type": "topic",
+    "label": "Serialization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\multithreading@3QSLUMKD0G08N3MIb1cG7.md"
+  },
+  {
+    "id": "y0ZJQQfi8Qx6sB4WnZlP5",
+    "old_id": "y0ZJQQfi8Qx6sB4WnZlP5",
+    "type": "subtopic",
+    "label": "JSON",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\json@y0ZJQQfi8Qx6sB4WnZlP5.md"
+  },
+  {
+    "id": "v43K6srds7m5SQFqNaY0T",
+    "old_id": "v43K6srds7m5SQFqNaY0T",
+    "type": "subtopic",
+    "label": "XML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\xml@v43K6srds7m5SQFqNaY0T.md"
+  },
+  {
+    "id": "uHcUSVLz_2-Usk6ckSvwr",
+    "old_id": "uHcUSVLz_2-Usk6ckSvwr",
+    "type": "subtopic",
+    "label": "YAML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\yaml@uHcUSVLz_2-Usk6ckSvwr.md"
+  },
+  {
+    "id": "l8iEC3g0ICSfmIE1MxcUl",
+    "old_id": "l8iEC3g0ICSfmIE1MxcUl",
+    "type": "subtopic",
+    "label": "TOML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\toml@l8iEC3g0ICSfmIE1MxcUl.md"
+  },
+  {
+    "id": "w2zbab_6Gxw6AWS0N759U",
+    "old_id": "w2zbab_6Gxw6AWS0N759U",
+    "type": "subtopic",
+    "label": "Protobuf",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\protobuf@w2zbab_6Gxw6AWS0N759U.md"
+  },
+  {
+    "id": "3QSLUMKD0G08N3MIb1cG7",
+    "old_id": "3QSLUMKD0G08N3MIb1cG7",
+    "type": "topic",
+    "label": "Multithreading",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\multithreading@3QSLUMKD0G08N3MIb1cG7.md"
+  },
+  {
+    "id": "idmrgKgVWVLZYANbXiZnS",
+    "old_id": "cw7WdFfL5HpeZ_n8wYk2t",
+    "type": "topic",
+    "label": "Synchronization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\message-queues@cw7WdFfL5HpeZ_n8wYk2t.md"
+  },
+  {
+    "id": "6k25amPkU9lnZ7FMNn_T6",
+    "old_id": "6k25amPkU9lnZ7FMNn_T6",
+    "type": "subtopic",
+    "label": "Barrier",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\barrier@6k25amPkU9lnZ7FMNn_T6.md"
+  },
+  {
+    "id": "lVXfA_oZr82mFfBvLnnRK",
+    "old_id": "xR6pERldq4wPl9GVLHAhT",
+    "type": "subtopic",
+    "label": "Spinlock",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\condition-variable@xR6pERldq4wPl9GVLHAhT.md"
+  },
+  {
+    "id": "G_BEJKkJ1_Nc43aosy_iS",
+    "old_id": "zbIbPlqTNSbJUkqH9iLQv",
+    "type": "subtopic",
+    "label": "Mutex",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\future--promises@zbIbPlqTNSbJUkqH9iLQv.md"
+  },
+  {
+    "id": "DYvzGc_r0SlOArPPc1gNI",
+    "old_id": "Yw2wS2ZcJNeApH7LqNMv3",
+    "type": "subtopic",
+    "label": "Semaphore",
+    "resources": []
+  },
+  {
+    "id": "zbIbPlqTNSbJUkqH9iLQv",
+    "old_id": "zbIbPlqTNSbJUkqH9iLQv",
+    "type": "subtopic",
+    "label": "Future & Promises",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\future--promises@zbIbPlqTNSbJUkqH9iLQv.md"
+  },
+  {
+    "id": "o0Y_hM0KXUApfsXG4PvOY",
+    "old_id": "o0Y_hM0KXUApfsXG4PvOY",
+    "type": "subtopic",
+    "label": "Coroutine",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\coroutine@o0Y_hM0KXUApfsXG4PvOY.md"
+  },
+  {
+    "id": "SXOEMkcVYBsRza6BPmmwy",
+    "old_id": "SXOEMkcVYBsRza6BPmmwy",
+    "type": "subtopic",
+    "label": "Channel",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\channel@SXOEMkcVYBsRza6BPmmwy.md"
+  },
+  {
+    "id": "xR6pERldq4wPl9GVLHAhT",
+    "old_id": "xR6pERldq4wPl9GVLHAhT",
+    "type": "subtopic",
+    "label": "Condition Variable",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\condition-variable@xR6pERldq4wPl9GVLHAhT.md"
+  },
+  {
+    "id": "IeD-oQ1bkwlKNC-R0lJjZ",
+    "old_id": "TVJrlUsg30YIM1yjsZfJI",
+    "type": "subtopic",
+    "label": "Thread Local Storage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\fiber@TVJrlUsg30YIM1yjsZfJI.md"
+  },
+  {
+    "id": "mW2L_9NckgPRH7g5W9NHq",
+    "old_id": "mW2L_9NckgPRH7g5W9NHq",
+    "type": "subtopic",
+    "label": "Windows",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\windows@mW2L_9NckgPRH7g5W9NHq.md"
+  },
+  {
+    "id": "HU0yUyl89WD8WnR9PJn7l",
+    "old_id": "HU0yUyl89WD8WnR9PJn7l",
+    "type": "subtopic",
+    "label": "pthread",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\pthread@HU0yUyl89WD8WnR9PJn7l.md"
+  },
+  {
+    "id": "3use5vuLBJTk40wOg9S-X",
+    "old_id": "TVJrlUsg30YIM1yjsZfJI",
+    "type": "subtopic",
+    "label": "Sharding",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\fiber@TVJrlUsg30YIM1yjsZfJI.md"
+  },
+  {
+    "id": "TVJrlUsg30YIM1yjsZfJI",
+    "old_id": "TVJrlUsg30YIM1yjsZfJI",
+    "type": "subtopic",
+    "label": "Fiber",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\fiber@TVJrlUsg30YIM1yjsZfJI.md"
+  },
+  {
+    "id": "tGQu18PWDatW7HvkTP-uh",
+    "old_id": "cw7WdFfL5HpeZ_n8wYk2t",
+    "type": "topic",
+    "label": "Programming Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\message-queues@cw7WdFfL5HpeZ_n8wYk2t.md"
+  },
+  {
+    "id": "gB-TYpgUDV47bxznNJhYn",
+    "old_id": "gB-TYpgUDV47bxznNJhYn",
+    "type": "subtopic",
+    "label": "Design Patterns",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\design-patterns@gB-TYpgUDV47bxznNJhYn.md"
+  },
+  {
+    "id": "FKOhe21PVlaKIoZI4hd49",
+    "old_id": "FKOhe21PVlaKIoZI4hd49",
+    "type": "subtopic",
+    "label": "TDD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\tdd@FKOhe21PVlaKIoZI4hd49.md"
+  },
+  {
+    "id": "uTlxyDOtvt_Qp0gXLWO-j",
+    "old_id": "uTlxyDOtvt_Qp0gXLWO-j",
+    "type": "subtopic",
+    "label": "Dependency Injection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\dependency-injection@uTlxyDOtvt_Qp0gXLWO-j.md"
+  },
+  {
+    "id": "1c6EqGv1g-d8M1i0vKImb",
+    "old_id": "1c6EqGv1g-d8M1i0vKImb",
+    "type": "subtopic",
+    "label": "Dump Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\dump-analysis@1c6EqGv1g-d8M1i0vKImb.md"
+  },
+  {
+    "id": "HXSWvhgT4L5w6xgOO-3kj",
+    "old_id": "HXSWvhgT4L5w6xgOO-3kj",
+    "type": "subtopic",
+    "label": "Functional Programming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\functional-programming@HXSWvhgT4L5w6xgOO-3kj.md"
+  },
+  {
+    "id": "FLFaGZDg2MSG6_YHnWETM",
+    "old_id": "cw7WdFfL5HpeZ_n8wYk2t",
+    "type": "topic",
+    "label": "Databases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\message-queues@cw7WdFfL5HpeZ_n8wYk2t.md"
+  },
+  {
+    "id": "QMNUAKAuRI9lyf2_jUPsj",
+    "old_id": "QMNUAKAuRI9lyf2_jUPsj",
+    "type": "subtopic",
+    "label": "MS SQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ms-sql@QMNUAKAuRI9lyf2_jUPsj.md"
+  },
+  {
+    "id": "HsBqd08Ro0VJnx0FlumMQ",
+    "old_id": "HsBqd08Ro0VJnx0FlumMQ",
+    "type": "subtopic",
+    "label": "MySQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\mysql@HsBqd08Ro0VJnx0FlumMQ.md"
+  },
+  {
+    "id": "dAiEwN7phwMyaitvM5kRl",
+    "old_id": "dAiEwN7phwMyaitvM5kRl",
+    "type": "subtopic",
+    "label": "PostgreSQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\postgresql@dAiEwN7phwMyaitvM5kRl.md"
+  },
+  {
+    "id": "9vc7sFE_XakYXtKRMxLXi",
+    "old_id": "9vc7sFE_XakYXtKRMxLXi",
+    "type": "subtopic",
+    "label": "DynamoDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\dynamodb@9vc7sFE_XakYXtKRMxLXi.md"
+  },
+  {
+    "id": "HYxtPW401-J6aYcTuiGnx",
+    "old_id": "HYxtPW401-J6aYcTuiGnx",
+    "type": "subtopic",
+    "label": "MongoDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\mongodb@HYxtPW401-J6aYcTuiGnx.md"
+  },
+  {
+    "id": "1jqSxk1nwByiQa1De81F3",
+    "old_id": "1jqSxk1nwByiQa1De81F3",
+    "type": "subtopic",
+    "label": "Cassandra",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\cassandra@1jqSxk1nwByiQa1De81F3.md"
+  },
+  {
+    "id": "6KTj_giX2k9l2lPd_Fp-d",
+    "old_id": "6KTj_giX2k9l2lPd_Fp-d",
+    "type": "subtopic",
+    "label": "Couchbase",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\couchbase@6KTj_giX2k9l2lPd_Fp-d.md"
+  },
+  {
+    "id": "7YNaELVcoV7DV1Fa06USi",
+    "old_id": "7YNaELVcoV7DV1Fa06USi",
+    "type": "subtopic",
+    "label": "Redis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\redis@7YNaELVcoV7DV1Fa06USi.md"
+  },
+  {
+    "id": "ayeezKxQkXAPJMTShsOBU",
+    "old_id": "ayeezKxQkXAPJMTShsOBU",
+    "type": "subtopic",
+    "label": "Memcached",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\memcached@ayeezKxQkXAPJMTShsOBU.md"
+  },
+  {
+    "id": "OyxWMFy8s7Lxko_K89fjo",
+    "old_id": "OyxWMFy8s7Lxko_K89fjo",
+    "type": "subtopic",
+    "label": "ORM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\orm@OyxWMFy8s7Lxko_K89fjo.md"
+  },
+  {
+    "id": "dt_SmZuwklLimhupvjxC1",
+    "old_id": "dt_SmZuwklLimhupvjxC1",
+    "type": "subtopic",
+    "label": "DAL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\dal@dt_SmZuwklLimhupvjxC1.md"
+  },
+  {
+    "id": "1788KFqsQBkYARqA0T5GX",
+    "old_id": "cw7WdFfL5HpeZ_n8wYk2t",
+    "type": "topic",
+    "label": "Cipher",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\message-queues@cw7WdFfL5HpeZ_n8wYk2t.md"
+  },
+  {
+    "id": "PSvPjaVtko71BeIA-hYqf",
+    "old_id": "PSvPjaVtko71BeIA-hYqf",
+    "type": "subtopic",
+    "label": "SSL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ssl@PSvPjaVtko71BeIA-hYqf.md"
+  },
+  {
+    "id": "YxaroYL_Az0vKRCeu2jsp",
+    "old_id": "cw7WdFfL5HpeZ_n8wYk2t",
+    "type": "topic",
+    "label": "RPC / REST",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\message-queues@cw7WdFfL5HpeZ_n8wYk2t.md"
+  },
+  {
+    "id": "Oq3GQ5gBUxIl1Qe8NB3LB",
+    "old_id": "Oq3GQ5gBUxIl1Qe8NB3LB",
+    "type": "subtopic",
+    "label": "REST",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\rest@Oq3GQ5gBUxIl1Qe8NB3LB.md"
+  },
+  {
+    "id": "_uqTTBUYAzDHbEUkDzmzg",
+    "old_id": "_uqTTBUYAzDHbEUkDzmzg",
+    "type": "subtopic",
+    "label": "gRPC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\grpc@_uqTTBUYAzDHbEUkDzmzg.md"
+  },
+  {
+    "id": "cw7WdFfL5HpeZ_n8wYk2t",
+    "old_id": "zbIbPlqTNSbJUkqH9iLQv",
+    "type": "topic",
+    "label": "Message Queues",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\future--promises@zbIbPlqTNSbJUkqH9iLQv.md"
+  },
+  {
+    "id": "gL7hubTh3qiMyUWeAZNwI",
+    "old_id": "gL7hubTh3qiMyUWeAZNwI",
+    "type": "subtopic",
+    "label": "Apache Kafka",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\apache-kafka@gL7hubTh3qiMyUWeAZNwI.md"
+  },
+  {
+    "id": "UESjGrFyUbNf4pQamaBoy",
+    "old_id": "UESjGrFyUbNf4pQamaBoy",
+    "type": "subtopic",
+    "label": "RabbitMQ",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\rabbitmq@UESjGrFyUbNf4pQamaBoy.md"
+  },
+  {
+    "id": "_jd91rrAXGbJI9RhXlSx8",
+    "old_id": "dkCVwuy8GKeEi3VJar_Zo",
+    "type": "topic",
+    "label": "Multithreading",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ai@dkCVwuy8GKeEi3VJar_Zo.md"
+  },
+  {
+    "id": "KUQEgHldZPOLwFoXqQ2vM",
+    "old_id": "KUQEgHldZPOLwFoXqQ2vM",
+    "type": "topic",
+    "label": "Actor Model",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\actor-model@KUQEgHldZPOLwFoXqQ2vM.md"
+  },
+  {
+    "id": "SsOz9Pj6Jc_55PgpmziL6",
+    "old_id": "SsOz9Pj6Jc_55PgpmziL6",
+    "type": "subtopic",
+    "label": "Akk.net (C#)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\akknet-c@SsOz9Pj6Jc_55PgpmziL6.md"
+  },
+  {
+    "id": "eAEpEUVZcSKO9uCIlMN5y",
+    "old_id": "eAEpEUVZcSKO9uCIlMN5y",
+    "type": "subtopic",
+    "label": "Akka (Java)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\akka-java@eAEpEUVZcSKO9uCIlMN5y.md"
+  },
+  {
+    "id": "ThBxS9xIMt9OrXfnto3rW",
+    "old_id": "ThBxS9xIMt9OrXfnto3rW",
+    "type": "topic",
+    "label": "Asynchronous",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\asynchronous@ThBxS9xIMt9OrXfnto3rW.md"
+  },
+  {
+    "id": "7mYpgn2gr-5vAYW-UR7_x",
+    "old_id": "7mYpgn2gr-5vAYW-UR7_x",
+    "type": "topic",
+    "label": "Reactor",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\reactor@7mYpgn2gr-5vAYW-UR7_x.md"
+  },
+  {
+    "id": "5-5toy2CblZPCV9d5QPEo",
+    "old_id": "5-5toy2CblZPCV9d5QPEo",
+    "type": "subtopic",
+    "label": "select",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\select@5-5toy2CblZPCV9d5QPEo.md"
+  },
+  {
+    "id": "D9Yeyn8phDhB1ohMWccgr",
+    "old_id": "D9Yeyn8phDhB1ohMWccgr",
+    "type": "subtopic",
+    "label": "WSA Poll",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\wsa-poll@D9Yeyn8phDhB1ohMWccgr.md"
+  },
+  {
+    "id": "qaWv4gxnnj3uX8lEm9KQ4",
+    "old_id": "qaWv4gxnnj3uX8lEm9KQ4",
+    "type": "subtopic",
+    "label": "epoll",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\epoll@qaWv4gxnnj3uX8lEm9KQ4.md"
+  },
+  {
+    "id": "caK32NMMrn-3BGAXZoPPr",
+    "old_id": "caK32NMMrn-3BGAXZoPPr",
+    "type": "subtopic",
+    "label": "kqueue",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\kqueue@caK32NMMrn-3BGAXZoPPr.md"
+  },
+  {
+    "id": "Tvxe2NemcH21y-eB4bosv",
+    "old_id": "Tvxe2NemcH21y-eB4bosv",
+    "type": "topic",
+    "label": "Proactor",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\proactor@Tvxe2NemcH21y-eB4bosv.md"
+  },
+  {
+    "id": "7pgdOZomhGilBTwfJLMbm",
+    "old_id": "7pgdOZomhGilBTwfJLMbm",
+    "type": "subtopic",
+    "label": "IOCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\iocp@7pgdOZomhGilBTwfJLMbm.md"
+  },
+  {
+    "id": "YH7u1FKh85wz78J0stuzS",
+    "old_id": "YH7u1FKh85wz78J0stuzS",
+    "type": "subtopic",
+    "label": "io_uring",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\io_uring@YH7u1FKh85wz78J0stuzS.md"
+  },
+  {
+    "id": "94hJX1iGifDzIuaU3zU5j",
+    "old_id": "94hJX1iGifDzIuaU3zU5j",
+    "type": "subtopic",
+    "label": "Registered IO",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\registered-io@94hJX1iGifDzIuaU3zU5j.md"
+  },
+  {
+    "id": "LKPcEeqBOPhQOztD3cM3T",
+    "old_id": "LKPcEeqBOPhQOztD3cM3T",
+    "type": "topic",
+    "label": "Task-Based",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\task-based@LKPcEeqBOPhQOztD3cM3T.md"
+  },
+  {
+    "id": "f-L_eaZd0EjBW9-n9Pllt",
+    "old_id": "f-L_eaZd0EjBW9-n9Pllt",
+    "type": "subtopic",
+    "label": "goroutine (Go)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\goroutine-go@f-L_eaZd0EjBW9-n9Pllt.md"
+  },
+  {
+    "id": "RT9XvlxvIM_hHTtNmbva3",
+    "old_id": "RT9XvlxvIM_hHTtNmbva3",
+    "type": "subtopic",
+    "label": "Concurrency (Java)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\concurrency-java@RT9XvlxvIM_hHTtNmbva3.md"
+  },
+  {
+    "id": "mAXMpUDmhGOncnCRrENJv",
+    "old_id": "mAXMpUDmhGOncnCRrENJv",
+    "type": "subtopic",
+    "label": "Asnc-await (C#)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\asnc-await-c@mAXMpUDmhGOncnCRrENJv.md"
+  },
+  {
+    "id": "tiG0mZpLJ2zUr2IPYyhnv",
+    "old_id": "tiG0mZpLJ2zUr2IPYyhnv",
+    "type": "subtopic",
+    "label": "Thread Building Block (C++)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\thread-building-block-c@tiG0mZpLJ2zUr2IPYyhnv.md"
+  },
+  {
+    "id": "Vl-WW0LThrQTOO_tFl51B",
+    "old_id": "LVwGXmZhMewGQy61qwNyu",
+    "type": "topic",
+    "label": "Reactive Approach",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\reactive-approach@LVwGXmZhMewGQy61qwNyu.md"
+  },
+  {
+    "id": "yWj70LpF4LKB8J6GbYvsq",
+    "old_id": "yWj70LpF4LKB8J6GbYvsq",
+    "type": "subtopic",
+    "label": "OORP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\oorp@yWj70LpF4LKB8J6GbYvsq.md"
+  },
+  {
+    "id": "xDYOvIbXc-iJ2zOKqe0YL",
+    "old_id": "xDYOvIbXc-iJ2zOKqe0YL",
+    "type": "subtopic",
+    "label": "FRP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\frp@xDYOvIbXc-iJ2zOKqe0YL.md"
+  },
+  {
+    "id": "p0P3ZGq_QTCop0vMwe7P3",
+    "old_id": "p0P3ZGq_QTCop0vMwe7P3",
+    "type": "topic",
+    "label": "Reactive Model",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\reactive-model@p0P3ZGq_QTCop0vMwe7P3.md"
+  },
+  {
+    "id": "l5QTk408Ubagw8XzRAfoZ",
+    "old_id": "l5QTk408Ubagw8XzRAfoZ",
+    "type": "subtopic",
+    "label": "Synchrony",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\synchrony@l5QTk408Ubagw8XzRAfoZ.md"
+  },
+  {
+    "id": "zFx1jjt1hKgCpYHFTzbZZ",
+    "old_id": "zFx1jjt1hKgCpYHFTzbZZ",
+    "type": "subtopic",
+    "label": "Determinism",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\determinism@zFx1jjt1hKgCpYHFTzbZZ.md"
+  },
+  {
+    "id": "3Eat22rFjUl4eTtGz8u4N",
+    "old_id": "3Eat22rFjUl4eTtGz8u4N",
+    "type": "subtopic",
+    "label": "Update Process",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\update-process@3Eat22rFjUl4eTtGz8u4N.md"
+  },
+  {
+    "id": "LVwGXmZhMewGQy61qwNyu",
+    "old_id": "LVwGXmZhMewGQy61qwNyu",
+    "type": "topic",
+    "label": "Reactive Approach",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\reactive-approach@LVwGXmZhMewGQy61qwNyu.md"
+  },
+  {
+    "id": "hhtqvFfTCuVPT0OPu4Y1a",
+    "old_id": "dkCVwuy8GKeEi3VJar_Zo",
+    "type": "topic",
+    "label": "Cloud",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ai@dkCVwuy8GKeEi3VJar_Zo.md"
+  },
+  {
+    "id": "73uoFNGcCALxIuRNbebav",
+    "old_id": "73uoFNGcCALxIuRNbebav",
+    "type": "subtopic",
+    "label": "Azure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\azure@73uoFNGcCALxIuRNbebav.md"
+  },
+  {
+    "id": "wD6dUrS-tP2gpCHPghFp5",
+    "old_id": "wD6dUrS-tP2gpCHPghFp5",
+    "type": "subtopic",
+    "label": "GCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\gcp@wD6dUrS-tP2gpCHPghFp5.md"
+  },
+  {
+    "id": "Rkx2A6oWsddlCTseZlpRU",
+    "old_id": "Rkx2A6oWsddlCTseZlpRU",
+    "type": "subtopic",
+    "label": "AWS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\aws@Rkx2A6oWsddlCTseZlpRU.md"
+  },
+  {
+    "id": "DOmbRRK_RRPElOuTB7AAK",
+    "old_id": "DOmbRRK_RRPElOuTB7AAK",
+    "type": "subtopic",
+    "label": "Serverless",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\serverless@DOmbRRK_RRPElOuTB7AAK.md"
+  },
+  {
+    "id": "XCJvgUSS7-oDR-XGdDY33",
+    "old_id": "dkCVwuy8GKeEi3VJar_Zo",
+    "type": "topic",
+    "label": "Data Clustering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ai@dkCVwuy8GKeEi3VJar_Zo.md"
+  },
+  {
+    "id": "yrWiWJMSyTWxDakJbqacu",
+    "old_id": "yrWiWJMSyTWxDakJbqacu",
+    "type": "subtopic",
+    "label": "Apache Spark",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\apache-spark@yrWiWJMSyTWxDakJbqacu.md"
+  },
+  {
+    "id": "k3FJY26SVxdZx4MLLE25h",
+    "old_id": "dkCVwuy8GKeEi3VJar_Zo",
+    "type": "topic",
+    "label": "Containerization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ai@dkCVwuy8GKeEi3VJar_Zo.md"
+  },
+  {
+    "id": "zW_7VLeEHQp8fp_f5N__0",
+    "old_id": "zW_7VLeEHQp8fp_f5N__0",
+    "type": "subtopic",
+    "label": "Docker",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\docker@zW_7VLeEHQp8fp_f5N__0.md"
+  },
+  {
+    "id": "yAf7VDX7dyaT5AdlNnuKD",
+    "old_id": "yAf7VDX7dyaT5AdlNnuKD",
+    "type": "subtopic",
+    "label": "Docker Compose",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\docker-compose@yAf7VDX7dyaT5AdlNnuKD.md"
+  },
+  {
+    "id": "lUBUUoETjfADmM4OPtwwX",
+    "old_id": "lUBUUoETjfADmM4OPtwwX",
+    "type": "subtopic",
+    "label": "Kubernetes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\kubernetes@lUBUUoETjfADmM4OPtwwX.md"
+  },
+  {
+    "id": "dkCVwuy8GKeEi3VJar_Zo",
+    "old_id": "dkCVwuy8GKeEi3VJar_Zo",
+    "type": "topic",
+    "label": "AI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\ai@dkCVwuy8GKeEi3VJar_Zo.md"
+  },
+  {
+    "id": "XvvlvDKfYRCcYtTdWohsd",
+    "old_id": "XvvlvDKfYRCcYtTdWohsd",
+    "type": "topic",
+    "label": "Cloud ML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\cloud-ml@XvvlvDKfYRCcYtTdWohsd.md"
+  },
+  {
+    "id": "U0RlO_puezQPZP0-iBXgW",
+    "old_id": "U0RlO_puezQPZP0-iBXgW",
+    "type": "subtopic",
+    "label": "Amazon ML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\amazon-ml@U0RlO_puezQPZP0-iBXgW.md"
+  },
+  {
+    "id": "vBqwmlzoT5XVEhV9IeGso",
+    "old_id": "vBqwmlzoT5XVEhV9IeGso",
+    "type": "subtopic",
+    "label": "Azure ML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\azure-ml@vBqwmlzoT5XVEhV9IeGso.md"
+  },
+  {
+    "id": "jkWvfp4GqckYPQ48GtjlR",
+    "old_id": "jkWvfp4GqckYPQ48GtjlR",
+    "type": "topic",
+    "label": "Deep Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\deep-learning@jkWvfp4GqckYPQ48GtjlR.md"
+  },
+  {
+    "id": "iJE9RnKC8QjPnsFeZAbtl",
+    "old_id": "iJE9RnKC8QjPnsFeZAbtl",
+    "type": "subtopic",
+    "label": "TensorFlow",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\tensorflow@iJE9RnKC8QjPnsFeZAbtl.md"
+  },
+  {
+    "id": "LTSIfq10qDJMTCnIIyqvb",
+    "old_id": "LTSIfq10qDJMTCnIIyqvb",
+    "type": "subtopic",
+    "label": "Pytorch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\server-side-game-developer\\content\\pytorch@LTSIfq10qDJMTCnIIyqvb.md"
+  }
+]

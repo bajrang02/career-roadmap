@@ -1,0 +1,998 @@
+[
+  {
+    "id": "tBybxRQEnlt6VuyTyCJD7",
+    "old_id": "tBybxRQEnlt6VuyTyCJD7",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "CFx-6pflED10ZqubRgROI",
+    "old_id": "CFx-6pflED10ZqubRgROI",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-PDYmhSQlGbLLFBJQ-Fo3",
+    "old_id": "-PDYmhSQlGbLLFBJQ-Fo3",
+    "type": "title",
+    "label": "iOS Developer",
+    "resources": [],
+    "children": [
+      {
+        "id": "MrdIb9F-wSEbUz7KRnH3t",
+        "old_id": "oOaMz9A5DZvrjxovMztXz",
+        "type": "topic",
+        "label": "Pick a Language",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\objective-c@oOaMz9A5DZvrjxovMztXz.md",
+        "children": [
+          {
+            "id": "oOaMz9A5DZvrjxovMztXz",
+            "old_id": "mk02yV7_XHkgp2xdNIxaU",
+            "type": "topic",
+            "label": "Objective-C",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\core-programming-concepts@mk02yV7_XHkgp2xdNIxaU.md",
+            "children": [
+              {
+                "id": "0BSX80W1TJ_Ia_Zh2zKyK",
+                "old_id": "aALIiAxKz4f7B_EYyhBCi",
+                "type": "subtopic",
+                "label": "Objective-C Basics",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\concurrency-gcd-asyncawait@aALIiAxKz4f7B_EYyhBCi.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "KJ7fM-V0_azY_lzmhjJAN",
+            "old_id": "IAPzuN51xvrZJ5TFB23Q9",
+            "type": "topic",
+            "label": "Swift (Recommended)",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\interoperability-with-swift@IAPzuN51xvrZJ5TFB23Q9.md",
+            "children": [
+              {
+                "id": "z4-1Gc95JKYAn2RPFc7hw",
+                "old_id": "IAPzuN51xvrZJ5TFB23Q9",
+                "type": "subtopic",
+                "label": "History and Why Swift?",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\interoperability-with-swift@IAPzuN51xvrZJ5TFB23Q9.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ZkNulHQAqhiFTO3CRC_mW",
+    "old_id": "fboebSmquyJyozsMRJDtK",
+    "type": "subtopic",
+    "label": "Benefits over Objective-C",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\swift-basics@fboebSmquyJyozsMRJDtK.md",
+    "children": []
+  },
+  {
+    "id": "fboebSmquyJyozsMRJDtK",
+    "old_id": "IAPzuN51xvrZJ5TFB23Q9",
+    "type": "subtopic",
+    "label": "Swift Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\interoperability-with-swift@IAPzuN51xvrZJ5TFB23Q9.md",
+    "children": []
+  },
+  {
+    "id": "IAPzuN51xvrZJ5TFB23Q9",
+    "old_id": "sEBLtbSm478D0XCSpu5mC",
+    "type": "subtopic",
+    "label": "Interoperability with Swift",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "IdGdLNgJI3WmONEFsMq-d",
+    "old_id": "5VguZoP4h40rTWkxWxaxU",
+    "type": "subtopic",
+    "label": "Core OS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\metal@5VguZoP4h40rTWkxWxaxU.md",
+    "children": []
+  },
+  {
+    "id": "LHM7gNgTtfn_QDW-oQskD",
+    "old_id": "leozxW-5fAOfkKbQM4FD1",
+    "type": "subtopic",
+    "label": "Core Services",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\cocoa-touch@leozxW-5fAOfkKbQM4FD1.md",
+    "children": []
+  },
+  {
+    "id": "kRE9xT3mT9Si4NwJr9yGi",
+    "old_id": "5VguZoP4h40rTWkxWxaxU",
+    "type": "subtopic",
+    "label": "Core Graphics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\metal@5VguZoP4h40rTWkxWxaxU.md",
+    "children": []
+  },
+  {
+    "id": "_mRs6ctH0IsSSi-cwV2b8",
+    "old_id": "5VguZoP4h40rTWkxWxaxU",
+    "type": "subtopic",
+    "label": "Core Animation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\metal@5VguZoP4h40rTWkxWxaxU.md",
+    "children": []
+  },
+  {
+    "id": "UKgiSQvR9cryQT50t7riZ",
+    "old_id": "5VguZoP4h40rTWkxWxaxU",
+    "type": "subtopic",
+    "label": "AVFoundation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\metal@5VguZoP4h40rTWkxWxaxU.md",
+    "children": []
+  },
+  {
+    "id": "6zE_M0_oVpwW0B9qFSRgP",
+    "old_id": "5VguZoP4h40rTWkxWxaxU",
+    "type": "subtopic",
+    "label": "Core Image",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\metal@5VguZoP4h40rTWkxWxaxU.md",
+    "children": []
+  },
+  {
+    "id": "4bAABCfTvxchS5C5NlAro",
+    "old_id": "5VguZoP4h40rTWkxWxaxU",
+    "type": "subtopic",
+    "label": "Core Audio",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\metal@5VguZoP4h40rTWkxWxaxU.md",
+    "children": []
+  },
+  {
+    "id": "5VguZoP4h40rTWkxWxaxU",
+    "old_id": "5VguZoP4h40rTWkxWxaxU",
+    "type": "subtopic",
+    "label": "Metal",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\metal@5VguZoP4h40rTWkxWxaxU.md",
+    "children": []
+  },
+  {
+    "id": "aajK9mfO6_Kt2uFS4pn-5",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "Visit his LinkedIn",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "QifWR7WSJJTcTK2IfczxG",
+    "old_id": "a-QDI7Ei-B5BRHbicFcfG",
+    "type": "subtopic",
+    "label": "Git",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\mvc@a-QDI7Ei-B5BRHbicFcfG.md",
+    "children": []
+  },
+  {
+    "id": "A1TFKVjGU5RbeTF_zxJlu",
+    "old_id": "FwwqAchMC6qdnXbqg45he",
+    "type": "subtopic",
+    "label": "Components",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\interface-overview@FwwqAchMC6qdnXbqg45he.md",
+    "children": []
+  },
+  {
+    "id": "se9w7mT1XJLGlmWUhH4Uv",
+    "old_id": "A1TFKVjGU5RbeTF_zxJlu",
+    "type": "subtopic",
+    "label": "Views",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\components@A1TFKVjGU5RbeTF_zxJlu.md",
+    "children": []
+  },
+  {
+    "id": "mfWdkUm1RhjygtMyInXiD",
+    "old_id": "se9w7mT1XJLGlmWUhH4Uv",
+    "type": "subtopic",
+    "label": "View Controllers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\views@se9w7mT1XJLGlmWUhH4Uv.md",
+    "children": []
+  },
+  {
+    "id": "0o3V_zveN1xCIt7rayrCF",
+    "old_id": "A1TFKVjGU5RbeTF_zxJlu",
+    "type": "subtopic",
+    "label": "Basic Interfaces",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\components@A1TFKVjGU5RbeTF_zxJlu.md",
+    "children": []
+  },
+  {
+    "id": "a2CqrCJSxGfHq6_Y9f_re",
+    "old_id": "0o3V_zveN1xCIt7rayrCF",
+    "type": "subtopic",
+    "label": "Storyboards",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\basic-interfaces@0o3V_zveN1xCIt7rayrCF.md",
+    "children": []
+  },
+  {
+    "id": "FXUrfyvuIIOH7VDnT_E0z",
+    "old_id": "RwvC4Pi18_1phcrJL-9iu",
+    "type": "subtopic",
+    "label": "Navigation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\xibs@RwvC4Pi18_1phcrJL-9iu.md",
+    "children": []
+  },
+  {
+    "id": "cwVcNDTBBulBY2m4Wzn4G",
+    "old_id": "FXUrfyvuIIOH7VDnT_E0z",
+    "type": "subtopic",
+    "label": "View Transitions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\navigation@FXUrfyvuIIOH7VDnT_E0z.md",
+    "children": []
+  },
+  {
+    "id": "QVg4_8EXeQBJbleryy8c1",
+    "old_id": "A1TFKVjGU5RbeTF_zxJlu",
+    "type": "subtopic",
+    "label": "Declarative Syntax",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\components@A1TFKVjGU5RbeTF_zxJlu.md",
+    "children": []
+  },
+  {
+    "id": "xkH7Llut6uP2-8iTMw76F",
+    "old_id": "QVg4_8EXeQBJbleryy8c1",
+    "type": "subtopic",
+    "label": "Components",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\declarative-syntax@QVg4_8EXeQBJbleryy8c1.md",
+    "children": []
+  },
+  {
+    "id": "RvyOkQelc-GChQGJyEx72",
+    "old_id": "xkH7Llut6uP2-8iTMw76F",
+    "type": "subtopic",
+    "label": "State Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\components@xkH7Llut6uP2-8iTMw76F.md",
+    "children": []
+  },
+  {
+    "id": "mgUCYztUpKINqIZikT4Bh",
+    "old_id": "YvuYJceeNNfLBpq2-3iiL",
+    "type": "subtopic",
+    "label": "Views and Modifiers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\building-interfaces@YvuYJceeNNfLBpq2-3iiL.md",
+    "children": []
+  },
+  {
+    "id": "02VAK4GMkN6nDHf1zqwPA",
+    "old_id": "mgUCYztUpKINqIZikT4Bh",
+    "type": "subtopic",
+    "label": "Navigation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\views-and-modifiers@mgUCYztUpKINqIZikT4Bh.md",
+    "children": []
+  },
+  {
+    "id": "2tmR1yE5daz2HB4IV5qwI",
+    "old_id": "02VAK4GMkN6nDHf1zqwPA",
+    "type": "subtopic",
+    "label": "View Transitions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\navigation@02VAK4GMkN6nDHf1zqwPA.md",
+    "children": []
+  },
+  {
+    "id": "tUbMr1pGlw4JwMuW311JJ",
+    "old_id": "XX5rCd_yTHvOfYif4Kpbl",
+    "type": "subtopic",
+    "label": "Navigation Controllers, Segues",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\views-view-controllers@XX5rCd_yTHvOfYif4Kpbl.md",
+    "children": []
+  },
+  {
+    "id": "mUMDZsgzCB6cs_K6pfUY1",
+    "old_id": "tUbMr1pGlw4JwMuW311JJ",
+    "type": "subtopic",
+    "label": "Navigation Stacks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\navigation-controllers-segues@tUbMr1pGlw4JwMuW311JJ.md",
+    "children": []
+  },
+  {
+    "id": "gqd6zjxP_qFj4Ru-6LARo",
+    "old_id": "tUbMr1pGlw4JwMuW311JJ",
+    "type": "subtopic",
+    "label": "Pushing Presenting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\navigation-controllers-segues@tUbMr1pGlw4JwMuW311JJ.md",
+    "children": []
+  },
+  {
+    "id": "jb89kQxDhZND3vQo0EH7r",
+    "old_id": "gqd6zjxP_qFj4Ru-6LARo",
+    "type": "subtopic",
+    "label": "Modals and Navigation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\pushing-presenting@gqd6zjxP_qFj4Ru-6LARo.md",
+    "children": []
+  },
+  {
+    "id": "_TdwE3ffeJqxaR5nu2i4T",
+    "old_id": "tBybxRQEnlt6VuyTyCJD7",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "IBr2P7dknWTnZ2a-fFCqN",
+    "old_id": "gqd6zjxP_qFj4Ru-6LARo",
+    "type": "subtopic",
+    "label": "Navigation View",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\pushing-presenting@gqd6zjxP_qFj4Ru-6LARo.md",
+    "children": []
+  },
+  {
+    "id": "my77jLU2qxU7bQ7_Fx2iH",
+    "old_id": "jb89kQxDhZND3vQo0EH7r",
+    "type": "subtopic",
+    "label": "NavigationLink",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\modals-and-navigation@jb89kQxDhZND3vQo0EH7r.md",
+    "children": []
+  },
+  {
+    "id": "4pmjLa7WvwV7D3RZlM6Hp",
+    "old_id": "my77jLU2qxU7bQ7_Fx2iH",
+    "type": "subtopic",
+    "label": "Presenting / Dismissing views",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\navigationlink@my77jLU2qxU7bQ7_Fx2iH.md",
+    "children": []
+  },
+  {
+    "id": "knDbJw2PEIMyr0TpZLsLM",
+    "old_id": "knDbJw2PEIMyr0TpZLsLM",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": [
+      {
+        "id": "28HMXXBJWd3n-ZPgeQRDa",
+        "old_id": "ajPGMwoaFb1UFWTtpi5kd",
+        "type": "topic",
+        "label": "Reactive Programming",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\architectural-patterns@ajPGMwoaFb1UFWTtpi5kd.md",
+        "children": [
+          {
+            "id": "W6gdCIkqSFo70guQ6cKCT",
+            "old_id": "_TdwE3ffeJqxaR5nu2i4T",
+            "type": "section",
+            "label": "",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "WaoIITgpj3XEyqDKw6cG_",
+            "old_id": "W6gdCIkqSFo70guQ6cKCT",
+            "type": "section",
+            "label": "",
+            "resources": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-QDI7Ei-B5BRHbicFcfG",
+    "old_id": "NhC0SBZgUFGjMLNICvbTI",
+    "type": "subtopic",
+    "label": "MVC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\tca@NhC0SBZgUFGjMLNICvbTI.md",
+    "children": []
+  },
+  {
+    "id": "lVNrnUK6p4eifKRVSnOje",
+    "old_id": "taTxZw2c3xS18JOwgkNHM",
+    "type": "subtopic",
+    "label": "MVP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\mvvm@taTxZw2c3xS18JOwgkNHM.md",
+    "children": []
+  },
+  {
+    "id": "taTxZw2c3xS18JOwgkNHM",
+    "old_id": "FoqlB7xBIrV4yUp4ReBkw",
+    "type": "subtopic",
+    "label": "MVVM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\oop@FoqlB7xBIrV4yUp4ReBkw.md",
+    "children": []
+  },
+  {
+    "id": "iLT2jAkQg-Ex0zSLquNfl",
+    "old_id": "MIuTOvy_E4lZOOzNE-H-B",
+    "type": "subtopic",
+    "label": "MVVM-C",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "mTdnDPGYSDupM9VBNdXRg",
+    "old_id": "NhC0SBZgUFGjMLNICvbTI",
+    "type": "subtopic",
+    "label": "VIPER",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\tca@NhC0SBZgUFGjMLNICvbTI.md",
+    "children": []
+  },
+  {
+    "id": "NhC0SBZgUFGjMLNICvbTI",
+    "old_id": "taTxZw2c3xS18JOwgkNHM",
+    "type": "subtopic",
+    "label": "TCA",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\mvvm@taTxZw2c3xS18JOwgkNHM.md",
+    "children": []
+  },
+  {
+    "id": "noBaDV_PvCTzqPyw9eO4H",
+    "old_id": "IBr2P7dknWTnZ2a-fFCqN",
+    "type": "subtopic",
+    "label": "Publishers / Subscribers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\navigation-view@IBr2P7dknWTnZ2a-fFCqN.md",
+    "children": []
+  },
+  {
+    "id": "GAn12SsVR_mPxOaOVckdz",
+    "old_id": "my77jLU2qxU7bQ7_Fx2iH",
+    "type": "subtopic",
+    "label": "Operators & Pipelines",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\navigationlink@my77jLU2qxU7bQ7_Fx2iH.md",
+    "children": []
+  },
+  {
+    "id": "pY_zaMcFpeFDLgVk2W0Vy",
+    "old_id": "4pmjLa7WvwV7D3RZlM6Hp",
+    "type": "subtopic",
+    "label": "Combine and MVVM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\presenting--dismissing-views@4pmjLa7WvwV7D3RZlM6Hp.md",
+    "children": []
+  },
+  {
+    "id": "k232wKg7XCb_ngjZ5Mwsy",
+    "old_id": "noBaDV_PvCTzqPyw9eO4H",
+    "type": "subtopic",
+    "label": "Observables & observers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\publishers--subscribers@noBaDV_PvCTzqPyw9eO4H.md",
+    "children": []
+  },
+  {
+    "id": "1xYZdnlI6JSJzNvmz4-0v",
+    "old_id": "GAn12SsVR_mPxOaOVckdz",
+    "type": "subtopic",
+    "label": "Subjects",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\operators--pipelines@GAn12SsVR_mPxOaOVckdz.md",
+    "children": []
+  },
+  {
+    "id": "g_1f5a6tIB5V_36NjgtL5",
+    "old_id": "pY_zaMcFpeFDLgVk2W0Vy",
+    "type": "subtopic",
+    "label": "RxSwift with MVVM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\combine-and-mvvm@pY_zaMcFpeFDLgVk2W0Vy.md",
+    "children": []
+  },
+  {
+    "id": "t7IYTY8tVjC_xzM1n8wts",
+    "old_id": "1xYZdnlI6JSJzNvmz4-0v",
+    "type": "subtopic",
+    "label": "Operators",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\subjects@1xYZdnlI6JSJzNvmz4-0v.md",
+    "children": []
+  },
+  {
+    "id": "UqA01PT86_w_JzN6KZBku",
+    "old_id": "t7IYTY8tVjC_xzM1n8wts",
+    "type": "subtopic",
+    "label": "Schedulers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\operators@t7IYTY8tVjC_xzM1n8wts.md",
+    "children": []
+  },
+  {
+    "id": "5V7nxQKmmHWSMSBCRxkaF",
+    "old_id": "noBaDV_PvCTzqPyw9eO4H",
+    "type": "subtopic",
+    "label": "Understanding and using Closures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\publishers--subscribers@noBaDV_PvCTzqPyw9eO4H.md",
+    "children": []
+  },
+  {
+    "id": "S-D-PnHA7COd2Dp6U2XO4",
+    "old_id": "GAn12SsVR_mPxOaOVckdz",
+    "type": "subtopic",
+    "label": "Capturing Values & Memory Mgmt.",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\operators--pipelines@GAn12SsVR_mPxOaOVckdz.md",
+    "children": []
+  },
+  {
+    "id": "WhOpzFvv21QQV3aS6XbXr",
+    "old_id": "pY_zaMcFpeFDLgVk2W0Vy",
+    "type": "subtopic",
+    "label": "Callback Hell",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\combine-and-mvvm@pY_zaMcFpeFDLgVk2W0Vy.md",
+    "children": []
+  },
+  {
+    "id": "6gfqFy3H6SLt06oJ1kt5A",
+    "old_id": "ysaBCl_TtWqelirptQp7P",
+    "type": "topic",
+    "label": "Data Persistence",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\async--await@ysaBCl_TtWqelirptQp7P.md",
+    "children": [
+      {
+        "id": "H4-Dp2WTA6HAZiFRQdLjx",
+        "old_id": "-aLGB3cDXZHIhVU3t-Ve4",
+        "type": "subtopic",
+        "label": "Core Data",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\concurrency@-aLGB3cDXZHIhVU3t-Ve4.md",
+        "children": []
+      },
+      {
+        "id": "ImS1FqVicQImMw-y1ze7y",
+        "old_id": "H4-Dp2WTA6HAZiFRQdLjx",
+        "type": "subtopic",
+        "label": "User Defaults",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\core-data@H4-Dp2WTA6HAZiFRQdLjx.md",
+        "children": []
+      },
+      {
+        "id": "8v_eP0j85TnB33XyYAzrT",
+        "old_id": "ImS1FqVicQImMw-y1ze7y",
+        "type": "subtopic",
+        "label": "Keychain",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\user-defaults@ImS1FqVicQImMw-y1ze7y.md",
+        "children": []
+      },
+      {
+        "id": "_bkRbqVXKNCnRvEFCM6mN",
+        "old_id": "8v_eP0j85TnB33XyYAzrT",
+        "type": "subtopic",
+        "label": "File System",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\keychain@8v_eP0j85TnB33XyYAzrT.md",
+        "children": []
+      },
+      {
+        "id": "3qjQbrCUchJn1bJTBWrQF",
+        "old_id": "_bkRbqVXKNCnRvEFCM6mN",
+        "type": "subtopic",
+        "label": "SQLite",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\file-system@_bkRbqVXKNCnRvEFCM6mN.md",
+        "children": []
+      },
+      {
+        "id": "WYV4YG_sLvC4S5ptFFdrF",
+        "old_id": "6gfqFy3H6SLt06oJ1kt5A",
+        "type": "topic",
+        "label": "JSON / XML",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\data-persistence@6gfqFy3H6SLt06oJ1kt5A.md",
+        "children": [
+          {
+            "id": "UTVh1RHRWb5eA-S7ayLp8",
+            "old_id": "5V7nxQKmmHWSMSBCRxkaF",
+            "type": "subtopic",
+            "label": "Parsing",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\understanding-and-using-closures@5V7nxQKmmHWSMSBCRxkaF.md",
+            "children": []
+          },
+          {
+            "id": "JoNoM-utp8MaL1H0oXDta",
+            "old_id": "WYV4YG_sLvC4S5ptFFdrF",
+            "type": "topic",
+            "label": "Networking",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\json--xml@WYV4YG_sLvC4S5ptFFdrF.md",
+            "children": [
+              {
+                "id": "GjY5qCU1rjB0D58qHQtAR",
+                "old_id": "H4-Dp2WTA6HAZiFRQdLjx",
+                "type": "subtopic",
+                "label": "HTTP / HTTPs",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\core-data@H4-Dp2WTA6HAZiFRQdLjx.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8rYjSCgRiJMHTNxOU6vgG",
+    "old_id": "UTVh1RHRWb5eA-S7ayLp8",
+    "type": "subtopic",
+    "label": "Serializing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\parsing@UTVh1RHRWb5eA-S7ayLp8.md",
+    "children": []
+  },
+  {
+    "id": "3Qw-qmy5iAE61mPbIY4Q2",
+    "old_id": "GjY5qCU1rjB0D58qHQtAR",
+    "type": "subtopic",
+    "label": "REST",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\http--https@GjY5qCU1rjB0D58qHQtAR.md",
+    "children": []
+  },
+  {
+    "id": "9o7d3aN0YFfNNUeVoJrhs",
+    "old_id": "3Qw-qmy5iAE61mPbIY4Q2",
+    "type": "subtopic",
+    "label": "GraphQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\rest@3Qw-qmy5iAE61mPbIY4Q2.md",
+    "children": []
+  },
+  {
+    "id": "WPJACNeI6jX9GGB1roeTp",
+    "old_id": "9o7d3aN0YFfNNUeVoJrhs",
+    "type": "subtopic",
+    "label": "URLSession",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\graphql@9o7d3aN0YFfNNUeVoJrhs.md",
+    "children": []
+  },
+  {
+    "id": "nJeBisdKtN43ntkXnPCVF",
+    "old_id": "WPJACNeI6jX9GGB1roeTp",
+    "type": "subtopic",
+    "label": "Alamofire",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\urlsession@WPJACNeI6jX9GGB1roeTp.md",
+    "children": []
+  },
+  {
+    "id": "aROcI1RucAyu-gHn-tVnj",
+    "old_id": "UTVh1RHRWb5eA-S7ayLp8",
+    "type": "subtopic",
+    "label": "GCD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\parsing@UTVh1RHRWb5eA-S7ayLp8.md",
+    "children": []
+  },
+  {
+    "id": "mdAV4JlF08q-ZQpb5C3q6",
+    "old_id": "aROcI1RucAyu-gHn-tVnj",
+    "type": "subtopic",
+    "label": "Operation Queues",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\gcd@aROcI1RucAyu-gHn-tVnj.md",
+    "children": [
+      {
+        "id": "fbloF-u4XwdHLmBS9flZm",
+        "old_id": "JoNoM-utp8MaL1H0oXDta",
+        "type": "topic",
+        "label": "Concurrency and Multithreading",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\networking@JoNoM-utp8MaL1H0oXDta.md",
+        "children": [
+          {
+            "id": "Tv8-WUcKiZMLHuunQwise",
+            "old_id": "fbloF-u4XwdHLmBS9flZm",
+            "type": "topic",
+            "label": "Dependency Manager",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\concurrency-and-multithreading@fbloF-u4XwdHLmBS9flZm.md",
+            "children": [
+              {
+                "id": "KFkX8_Hv9SCFeCtZMZIQM",
+                "old_id": "epr1sOEZIAOwlgb8bre7r",
+                "type": "subtopic",
+                "label": "Swift Package Manager",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\cocoapods@epr1sOEZIAOwlgb8bre7r.md",
+                "children": []
+              },
+              {
+                "id": "pZVPsgvCpP3zUgBM4i0CF",
+                "old_id": "Tv8-WUcKiZMLHuunQwise",
+                "type": "topic",
+                "label": "Frameworks & Library",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\dependency-manager@Tv8-WUcKiZMLHuunQwise.md",
+                "children": [
+                  {
+                    "id": "MaHtZSIPxDzrnB33_9OdV",
+                    "old_id": "3GtrUXvLgvXK3G8cXRb-P",
+                    "type": "subtopic",
+                    "label": "XCFramework",
+                    "resources": [],
+                    "children": []
+                  },
+                  {
+                    "id": "1DZYPqvgY6GtwMCS7N2y-",
+                    "old_id": "pZVPsgvCpP3zUgBM4i0CF",
+                    "type": "topic",
+                    "label": "Accessibility",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\frameworks--library@pZVPsgvCpP3zUgBM4i0CF.md",
+                    "children": [
+                      {
+                        "id": "0nei6iwP4Pgi_j4vVi_Qt",
+                        "old_id": "Lrb4HZYrZU7SJlbedZp7U",
+                        "type": "subtopic",
+                        "label": "Dynamic Type",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\dynamic-library@Lrb4HZYrZU7SJlbedZp7U.md",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "epr1sOEZIAOwlgb8bre7r",
+    "old_id": "aROcI1RucAyu-gHn-tVnj",
+    "type": "subtopic",
+    "label": "CocoaPods",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\gcd@aROcI1RucAyu-gHn-tVnj.md",
+    "children": []
+  },
+  {
+    "id": "tIHjjNTXJWcNgkO6TB9ea",
+    "old_id": "epr1sOEZIAOwlgb8bre7r",
+    "type": "subtopic",
+    "label": "Carthage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\cocoapods@epr1sOEZIAOwlgb8bre7r.md",
+    "children": []
+  },
+  {
+    "id": "RuXuHQhMt2nywk43LgGeJ",
+    "old_id": "MaHtZSIPxDzrnB33_9OdV",
+    "type": "subtopic",
+    "label": "Static Library",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\xcframework@MaHtZSIPxDzrnB33_9OdV.md",
+    "children": []
+  },
+  {
+    "id": "Lrb4HZYrZU7SJlbedZp7U",
+    "old_id": "RuXuHQhMt2nywk43LgGeJ",
+    "type": "subtopic",
+    "label": "Dynamic Library",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\static-library@RuXuHQhMt2nywk43LgGeJ.md",
+    "children": []
+  },
+  {
+    "id": "h34LaYQ3JYN2AZPMDqpmO",
+    "old_id": "MaHtZSIPxDzrnB33_9OdV",
+    "type": "subtopic",
+    "label": "Accessibility Inspector",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\xcframework@MaHtZSIPxDzrnB33_9OdV.md",
+    "children": []
+  },
+  {
+    "id": "trAMZVA4tDB7b_qAgiWNW",
+    "old_id": "RuXuHQhMt2nywk43LgGeJ",
+    "type": "subtopic",
+    "label": "Voice Over",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\static-library@RuXuHQhMt2nywk43LgGeJ.md",
+    "children": []
+  },
+  {
+    "id": "tRGa3-KBDwc7pCZi7Bdh0",
+    "old_id": "tBybxRQEnlt6VuyTyCJD7",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "k3uHcF0CsyHr6PK95UwR1",
+    "old_id": "gqd6zjxP_qFj4Ru-6LARo",
+    "type": "subtopic",
+    "label": "ARKit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\pushing-presenting@gqd6zjxP_qFj4Ru-6LARo.md",
+    "children": []
+  },
+  {
+    "id": "Jsu5f6QASpuvpky_W5q-O",
+    "old_id": "jb89kQxDhZND3vQo0EH7r",
+    "type": "subtopic",
+    "label": "HealthKit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\modals-and-navigation@jb89kQxDhZND3vQo0EH7r.md",
+    "children": []
+  },
+  {
+    "id": "H5F9P5xeQiHhWhS6jEzp5",
+    "old_id": "Jsu5f6QASpuvpky_W5q-O",
+    "type": "subtopic",
+    "label": "GameKit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\healthkit@Jsu5f6QASpuvpky_W5q-O.md",
+    "children": []
+  },
+  {
+    "id": "XOXsjaQ-YyuAMpVCqH8KG",
+    "old_id": "H5F9P5xeQiHhWhS6jEzp5",
+    "type": "subtopic",
+    "label": "MapKit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\gamekit@H5F9P5xeQiHhWhS6jEzp5.md",
+    "children": []
+  },
+  {
+    "id": "7s9Elv80TbZX_-NZpyutj",
+    "old_id": "XOXsjaQ-YyuAMpVCqH8KG",
+    "type": "subtopic",
+    "label": "Core ML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\mapkit@XOXsjaQ-YyuAMpVCqH8KG.md",
+    "children": []
+  },
+  {
+    "id": "NnTC3R8goZQTXHmfHKHbM",
+    "old_id": "MaHtZSIPxDzrnB33_9OdV",
+    "type": "subtopic",
+    "label": "SwiftLint",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\xcframework@MaHtZSIPxDzrnB33_9OdV.md",
+    "children": []
+  },
+  {
+    "id": "F5796wzm5Ar6sQt-1y8vH",
+    "old_id": "RuXuHQhMt2nywk43LgGeJ",
+    "type": "subtopic",
+    "label": "Tailor",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\static-library@RuXuHQhMt2nywk43LgGeJ.md",
+    "children": []
+  },
+  {
+    "id": "Y24WWPej0C7-FiBeXpvl3",
+    "old_id": "F5796wzm5Ar6sQt-1y8vH",
+    "type": "subtopic",
+    "label": "Profiling Instruments",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\tailor@F5796wzm5Ar6sQt-1y8vH.md",
+    "children": []
+  },
+  {
+    "id": "zcKDSUL7_3D-eN-rtu9Cm",
+    "old_id": "tRGa3-KBDwc7pCZi7Bdh0",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "xZmBJVq5FHNdm1BDuZbbS",
+    "old_id": "k3uHcF0CsyHr6PK95UwR1",
+    "type": "subtopic",
+    "label": "XCTest",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\arkit@k3uHcF0CsyHr6PK95UwR1.md",
+    "children": []
+  },
+  {
+    "id": "ZQSUKPbXZl5yKra2ap8JR",
+    "old_id": "Jsu5f6QASpuvpky_W5q-O",
+    "type": "subtopic",
+    "label": "XCUITest",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\healthkit@Jsu5f6QASpuvpky_W5q-O.md",
+    "children": []
+  },
+  {
+    "id": "SBlLNfyWzzhdFNtNtkLet",
+    "old_id": "e7qVpQeu2iQL0c9MOMCVe",
+    "type": "subtopic",
+    "label": "Latest iOS SDK",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\latest-swift-version@e7qVpQeu2iQL0c9MOMCVe.md",
+    "children": []
+  },
+  {
+    "id": "0dbdUmWvTIJ0fkUuLp9gR",
+    "old_id": "SBlLNfyWzzhdFNtNtkLet",
+    "type": "subtopic",
+    "label": "New Feature Announcements",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ios\\content\\latest-ios-sdk@SBlLNfyWzzhdFNtNtkLet.md",
+    "children": []
+  },
+  {
+    "id": "4fauwiq2CJnzDA7Z9Pmeo",
+    "old_id": "eYziHRN-gsg9qr8Yddu2K",
+    "type": "button",
+    "label": "Android",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "eYziHRN-gsg9qr8Yddu2K",
+    "old_id": "eYziHRN-gsg9qr8Yddu2K",
+    "type": "button",
+    "label": "Flutter",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "kcOaZuvgtQ1ptjTvKfd2l",
+    "old_id": "eYziHRN-gsg9qr8Yddu2K",
+    "type": "button",
+    "label": "React Native",
+    "resources": [],
+    "children": []
+  }
+]

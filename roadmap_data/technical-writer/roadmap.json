@@ -1,0 +1,943 @@
+{
+  "slug": "technical-writer",
+  "title": "Technical Writer",
+  "nodes": [
+    {
+      "id": "C1UYq0kwAatvnq8ondEGr",
+      "old_id": "C1UYq0kwAatvnq8ondEGr",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "Tea_v904u6tNFuMBzkVft",
+      "old_id": "Tea_v904u6tNFuMBzkVft",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "dqJMYRZ0lm1Iw-MavHli-",
+      "old_id": "dqJMYRZ0lm1Iw-MavHli-",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "5Z9o-b3vBA-ITFg86zzYM",
+      "old_id": "5Z9o-b3vBA-ITFg86zzYM",
+      "type": "title",
+      "label": "Technical Writer",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "HlUUGj3dOZ68t4gIjerXh",
+      "old_id": "HlUUGj3dOZ68t4gIjerXh",
+      "type": "topic",
+      "label": "Introduction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\introduction@HlUUGj3dOZ68t4gIjerXh.md"
+    },
+    {
+      "id": "ZRGsokU313Ky-anWbWK6q",
+      "old_id": "ZRGsokU313Ky-anWbWK6q",
+      "type": "subtopic",
+      "label": "Who is a Technical Writer?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\who-is-a-technical-writer@ZRGsokU313Ky-anWbWK6q.md"
+    },
+    {
+      "id": "jl1FsQ5-WGKeFyaILNt_p",
+      "old_id": "jl1FsQ5-WGKeFyaILNt_p",
+      "type": "subtopic",
+      "label": "What is Technical Writing?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\what-is-technical-writing@jl1FsQ5-WGKeFyaILNt_p.md"
+    },
+    {
+      "id": "j69erqfosSZMDlmKcnnn0",
+      "old_id": "j69erqfosSZMDlmKcnnn0",
+      "type": "subtopic",
+      "label": "Role of Technical Writers in Organizations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\role-of-technical-writers-inorganizations@j69erqfosSZMDlmKcnnn0.md"
+    },
+    {
+      "id": "cNeT1dJDfgn0ndPzSxhSL",
+      "old_id": "cNeT1dJDfgn0ndPzSxhSL",
+      "type": "subtopic",
+      "label": "Forms of Technical Writing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\forms-of-technical-writing@cNeT1dJDfgn0ndPzSxhSL.md"
+    },
+    {
+      "id": "FVxNjbDBxgf6vkZWw1Awt",
+      "old_id": "FVxNjbDBxgf6vkZWw1Awt",
+      "type": "subtopic",
+      "label": "Growth as a Technical Writer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\growth-as-a-technical-writer@FVxNjbDBxgf6vkZWw1Awt.md"
+    },
+    {
+      "id": "8rjUZ9NZPGwVRGmk6Dlyb",
+      "old_id": "O-dZEkmU0tP3dUIUPM6YJ",
+      "type": "topic",
+      "label": "Required Skills",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-research@O-dZEkmU0tP3dUIUPM6YJ.md"
+    },
+    {
+      "id": "DubLTESNn3wvEH_bKQZbP",
+      "old_id": "DubLTESNn3wvEH_bKQZbP",
+      "type": "subtopic",
+      "label": "Technology Expertise",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\technology-expertise@DubLTESNn3wvEH_bKQZbP.md"
+    },
+    {
+      "id": "kNIiAJrvrNoOAllUbRtUB",
+      "old_id": "kNIiAJrvrNoOAllUbRtUB",
+      "type": "subtopic",
+      "label": "Language Proficiency",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\language-proficiency@kNIiAJrvrNoOAllUbRtUB.md"
+    },
+    {
+      "id": "7-3tqRUpntoQP4nK_nul5",
+      "old_id": "7-3tqRUpntoQP4nK_nul5",
+      "type": "subtopic",
+      "label": "Written Communication Proficiency",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\written-communication-proficiency@7-3tqRUpntoQP4nK_nul5.md"
+    },
+    {
+      "id": "_5xFbl2BHx0f2u9HmSVS8",
+      "old_id": "O-dZEkmU0tP3dUIUPM6YJ",
+      "type": "topic",
+      "label": "Tooling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-research@O-dZEkmU0tP3dUIUPM6YJ.md"
+    },
+    {
+      "id": "jC3ZrpskBqzxiV6SKf4Uf",
+      "old_id": "jC3ZrpskBqzxiV6SKf4Uf",
+      "type": "subtopic",
+      "label": "Publishing Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\publishing-tools@jC3ZrpskBqzxiV6SKf4Uf.md"
+    },
+    {
+      "id": "cSZbTOB0FPPOlGzy-MkSi",
+      "old_id": "cSZbTOB0FPPOlGzy-MkSi",
+      "type": "subtopic",
+      "label": "Plagiarism Checker",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\plagiarism-checker@cSZbTOB0FPPOlGzy-MkSi.md"
+    },
+    {
+      "id": "Am_ocP3r0HM45LYfMcQxM",
+      "old_id": "Am_ocP3r0HM45LYfMcQxM",
+      "type": "subtopic",
+      "label": "Editing Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\editing-tools@Am_ocP3r0HM45LYfMcQxM.md"
+    },
+    {
+      "id": "ffJyulu9GPB_TDqjeJYyV",
+      "old_id": "ffJyulu9GPB_TDqjeJYyV",
+      "type": "subtopic",
+      "label": "Git / Version Control",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\git--version-control@ffJyulu9GPB_TDqjeJYyV.md"
+    },
+    {
+      "id": "TJ1iuzQ9u_WbrllRQkgm_",
+      "old_id": "TJ1iuzQ9u_WbrllRQkgm_",
+      "type": "subtopic",
+      "label": "Markdown",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\markdown@TJ1iuzQ9u_WbrllRQkgm_.md"
+    },
+    {
+      "id": "0XWiraeoicNBbaGYQnNZr",
+      "old_id": "0XWiraeoicNBbaGYQnNZr",
+      "type": "subtopic",
+      "label": "Research Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\research-tools@0XWiraeoicNBbaGYQnNZr.md"
+    },
+    {
+      "id": "sdoFe4A3y_-Zp3mlrJ5r8",
+      "old_id": "sdoFe4A3y_-Zp3mlrJ5r8",
+      "type": "subtopic",
+      "label": "Blogging Platforms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\blogging-platforms@sdoFe4A3y_-Zp3mlrJ5r8.md"
+    },
+    {
+      "id": "FD-8LQ_g2_O_i2Qwp-Gpv",
+      "old_id": "FD-8LQ_g2_O_i2Qwp-Gpv",
+      "type": "subtopic",
+      "label": "SEO Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\seo-tools@FD-8LQ_g2_O_i2Qwp-Gpv.md"
+    },
+    {
+      "id": "yYLsG2LuPaNUuhXSVev_0",
+      "old_id": "O-dZEkmU0tP3dUIUPM6YJ",
+      "type": "topic",
+      "label": "Best Practices",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-research@O-dZEkmU0tP3dUIUPM6YJ.md"
+    },
+    {
+      "id": "27muFD1Ld1gF6hhIh22sG",
+      "old_id": "27muFD1Ld1gF6hhIh22sG",
+      "type": "subtopic",
+      "label": "Story Telling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\story-telling@27muFD1Ld1gF6hhIh22sG.md"
+    },
+    {
+      "id": "lxSSjgtqJk-PtRp4hARDw",
+      "old_id": "lxSSjgtqJk-PtRp4hARDw",
+      "type": "subtopic",
+      "label": "Subtle Selling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\subtle-selling@lxSSjgtqJk-PtRp4hARDw.md"
+    },
+    {
+      "id": "Ezz2e4lYLD_bdNNwvsV_y",
+      "old_id": "Ezz2e4lYLD_bdNNwvsV_y",
+      "type": "subtopic",
+      "label": "Content Structure",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-structure@Ezz2e4lYLD_bdNNwvsV_y.md"
+    },
+    {
+      "id": "a1ChwDwztjZBi79y38AGa",
+      "old_id": "a1ChwDwztjZBi79y38AGa",
+      "type": "subtopic",
+      "label": "Call to Actions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\call-to-actions@a1ChwDwztjZBi79y38AGa.md"
+    },
+    {
+      "id": "8qSL2esjsA3YYuB4d7B9z",
+      "old_id": "8qSL2esjsA3YYuB4d7B9z",
+      "type": "subtopic",
+      "label": "References",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\references@8qSL2esjsA3YYuB4d7B9z.md"
+    },
+    {
+      "id": "WmOvQYlnedX0QgC5Adeen",
+      "old_id": "WmOvQYlnedX0QgC5Adeen",
+      "type": "subtopic",
+      "label": "Crafting Great Titles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\crafting-great-titles@WmOvQYlnedX0QgC5Adeen.md"
+    },
+    {
+      "id": "7FGMPztd6ouvqemcGhIol",
+      "old_id": "7FGMPztd6ouvqemcGhIol",
+      "type": "subtopic",
+      "label": "Content Objectives & Intent",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-objectives--intent@7FGMPztd6ouvqemcGhIol.md"
+    },
+    {
+      "id": "UuV51vM2JT_LFFXORSwru",
+      "old_id": "UuV51vM2JT_LFFXORSwru",
+      "type": "subtopic",
+      "label": "User Persona",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\user-persona@UuV51vM2JT_LFFXORSwru.md"
+    },
+    {
+      "id": "cnEVPsqZqs9ZdyqmOuLGA",
+      "old_id": "cnEVPsqZqs9ZdyqmOuLGA",
+      "type": "subtopic",
+      "label": "Writing Style Guides",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\writing-style-guides@cnEVPsqZqs9ZdyqmOuLGA.md"
+    },
+    {
+      "id": "O-dZEkmU0tP3dUIUPM6YJ",
+      "old_id": "O-dZEkmU0tP3dUIUPM6YJ",
+      "type": "topic",
+      "label": "Content Research",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-research@O-dZEkmU0tP3dUIUPM6YJ.md"
+    },
+    {
+      "id": "SX4vL_JEHrwqHdThyqKKO",
+      "old_id": "SX4vL_JEHrwqHdThyqKKO",
+      "type": "subtopic",
+      "label": "Topic Score",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\topic-score@SX4vL_JEHrwqHdThyqKKO.md"
+    },
+    {
+      "id": "JtFLW5WwH5Ixmnb0qikia",
+      "old_id": "JtFLW5WwH5Ixmnb0qikia",
+      "type": "subtopic",
+      "label": "Keyword Volume",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\keyword-volume@JtFLW5WwH5Ixmnb0qikia.md"
+    },
+    {
+      "id": "QMehC1tmWPVWaTsiV9sFC",
+      "old_id": "QMehC1tmWPVWaTsiV9sFC",
+      "type": "subtopic",
+      "label": "Communities & Forums",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\communities--forums@QMehC1tmWPVWaTsiV9sFC.md"
+    },
+    {
+      "id": "IZqyEqkrBoEfLBwIQwJl6",
+      "old_id": "IZqyEqkrBoEfLBwIQwJl6",
+      "type": "subtopic",
+      "label": "Search Trends",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\search-trends@IZqyEqkrBoEfLBwIQwJl6.md"
+    },
+    {
+      "id": "xFMsHYYxC0hLueY9xxART",
+      "old_id": "xFMsHYYxC0hLueY9xxART",
+      "type": "subtopic",
+      "label": "Support Request Evaluation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\support-request-evaluation@xFMsHYYxC0hLueY9xxART.md"
+    },
+    {
+      "id": "xV8mox1WnSbl2jAGqQpeg",
+      "old_id": "O-dZEkmU0tP3dUIUPM6YJ",
+      "type": "topic",
+      "label": "Types of Technical Content",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-research@O-dZEkmU0tP3dUIUPM6YJ.md"
+    },
+    {
+      "id": "d9mTdwqx6QWKYO5PA_rDH",
+      "old_id": "d9mTdwqx6QWKYO5PA_rDH",
+      "type": "subtopic",
+      "label": "Product Content",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\product-content@d9mTdwqx6QWKYO5PA_rDH.md"
+    },
+    {
+      "id": "UFuMiHtWq1M8dS8547lOp",
+      "old_id": "UFuMiHtWq1M8dS8547lOp",
+      "type": "subtopic",
+      "label": "General Product Prose",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\general-product-prose@UFuMiHtWq1M8dS8547lOp.md"
+    },
+    {
+      "id": "C-eVVtF6Yabp2a6XvMeh_",
+      "old_id": "C-eVVtF6Yabp2a6XvMeh_",
+      "type": "subtopic",
+      "label": "How-to Guides",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\how-to-guides@C-eVVtF6Yabp2a6XvMeh_.md"
+    },
+    {
+      "id": "e8oNoXw1KLY4jDzojIXyk",
+      "old_id": "e8oNoXw1KLY4jDzojIXyk",
+      "type": "topic",
+      "label": "Developer Docs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\developer-docs@e8oNoXw1KLY4jDzojIXyk.md"
+    },
+    {
+      "id": "FgyBWRtE34VNqBt_5QhAf",
+      "old_id": "FgyBWRtE34VNqBt_5QhAf",
+      "type": "subtopic",
+      "label": "User Goals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\user-goals@FgyBWRtE34VNqBt_5QhAf.md"
+    },
+    {
+      "id": "2pNW7wDGih_m73lhGZRg6",
+      "old_id": "2pNW7wDGih_m73lhGZRg6",
+      "type": "subtopic",
+      "label": "Developer Journey",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\developer-journey@2pNW7wDGih_m73lhGZRg6.md"
+    },
+    {
+      "id": "jYhfx6RETFgDulyNqdTBy",
+      "old_id": "jYhfx6RETFgDulyNqdTBy",
+      "type": "subtopic",
+      "label": "Docs Structure",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\docs-structure@jYhfx6RETFgDulyNqdTBy.md"
+    },
+    {
+      "id": "z5_73Q7dWbBd4m_OrdZlH",
+      "old_id": "e8oNoXw1KLY4jDzojIXyk",
+      "type": "topic",
+      "label": "API Reference",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\developer-docs@e8oNoXw1KLY4jDzojIXyk.md"
+    },
+    {
+      "id": "iBBeZopD8SNo7sWTohMim",
+      "old_id": "FgyBWRtE34VNqBt_5QhAf",
+      "type": "subtopic",
+      "label": "Docs Generation Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\user-goals@FgyBWRtE34VNqBt_5QhAf.md"
+    },
+    {
+      "id": "co-35BsWMrD6PXohpFqba",
+      "old_id": "2pNW7wDGih_m73lhGZRg6",
+      "type": "subtopic",
+      "label": "API Definitions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\developer-journey@2pNW7wDGih_m73lhGZRg6.md"
+    },
+    {
+      "id": "e_bsYrZ0eQqduURg2ybX4",
+      "old_id": "e8oNoXw1KLY4jDzojIXyk",
+      "type": "topic",
+      "label": "Help Content",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\developer-docs@e8oNoXw1KLY4jDzojIXyk.md"
+    },
+    {
+      "id": "8fJcJi96Ige6z2PBuTquC",
+      "old_id": "FgyBWRtE34VNqBt_5QhAf",
+      "type": "subtopic",
+      "label": "Troubleshooting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\user-goals@FgyBWRtE34VNqBt_5QhAf.md"
+    },
+    {
+      "id": "7w1SjK-LV9SBZJ673eAUd",
+      "old_id": "2pNW7wDGih_m73lhGZRg6",
+      "type": "subtopic",
+      "label": "Developer Support",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\developer-journey@2pNW7wDGih_m73lhGZRg6.md"
+    },
+    {
+      "id": "How-4Re1NhxPLDoshUM-G",
+      "old_id": "jYhfx6RETFgDulyNqdTBy",
+      "type": "subtopic",
+      "label": "Platform Support",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\docs-structure@jYhfx6RETFgDulyNqdTBy.md"
+    },
+    {
+      "id": "mJ1s5-SGd_tj8y0LLZxYg",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Technical Content Marketing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "O1apL6I_g9DQl8VbL3X4W",
+      "old_id": "O1apL6I_g9DQl8VbL3X4W",
+      "type": "subtopic",
+      "label": "ICP & Buyer Persona",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\icp--buyer-persona@O1apL6I_g9DQl8VbL3X4W.md"
+    },
+    {
+      "id": "EhhKxYPtoLztZXBXl3ZGl",
+      "old_id": "EhhKxYPtoLztZXBXl3ZGl",
+      "type": "subtopic",
+      "label": "Buyer Journey & Content Funnel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\buyer-journey--content-funnel@EhhKxYPtoLztZXBXl3ZGl.md"
+    },
+    {
+      "id": "-IBL9S4DelIi07w_fmrX3",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Content SEO",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "UphVii3y4T_PkRMqFJ4r_",
+      "old_id": "UphVii3y4T_PkRMqFJ4r_",
+      "type": "subtopic",
+      "label": "Backlinking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\backlinking@UphVii3y4T_PkRMqFJ4r_.md"
+    },
+    {
+      "id": "eAioe6b7w8pV2Dvawl_fw",
+      "old_id": "EmxmGa120msnjywTqqmKX",
+      "type": "subtopic",
+      "label": "Short-tail Keywords",
+      "resources": []
+    },
+    {
+      "id": "2LAvq7W11WMIubSprlK_l",
+      "old_id": "3CsG9cxi0gWKkZET0aBRq",
+      "type": "subtopic",
+      "label": "Long-Tail Keywords",
+      "resources": []
+    },
+    {
+      "id": "IA6TuXmOZr_-Y3HLHqxp0",
+      "old_id": "enC9YBYV6zdl4qy2c1dI4",
+      "type": "subtopic",
+      "label": "SEO Keywords",
+      "resources": []
+    },
+    {
+      "id": "5dnZe0oCIzb5qGwgI6pwH",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Top-funnel Content",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "wBDjGa2PgdmeXxHnILFjY",
+      "old_id": "wBDjGa2PgdmeXxHnILFjY",
+      "type": "subtopic",
+      "label": "Pillar Content",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\pillar-content@wBDjGa2PgdmeXxHnILFjY.md"
+    },
+    {
+      "id": "7S2lymeBZSMBZSsmei7us",
+      "old_id": "7S2lymeBZSMBZSsmei7us",
+      "type": "subtopic",
+      "label": "Awareness Blog Posts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\awareness-blog-posts@7S2lymeBZSMBZSsmei7us.md"
+    },
+    {
+      "id": "HoNQSWy82ybT0YmejCzRb",
+      "old_id": "HoNQSWy82ybT0YmejCzRb",
+      "type": "subtopic",
+      "label": "Research Reports",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\research-reports@HoNQSWy82ybT0YmejCzRb.md"
+    },
+    {
+      "id": "Q2KD70IKwBXAH3UQgeZpp",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Mid-funnel Content",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "XDX2QxMUkUok2fcS3tFki",
+      "old_id": "XDX2QxMUkUok2fcS3tFki",
+      "type": "subtopic",
+      "label": "Generic Gated Content",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\generic-gated-content@XDX2QxMUkUok2fcS3tFki.md"
+    },
+    {
+      "id": "Xa7yBWcbP2aPs4u0C4cLJ",
+      "old_id": "Xa7yBWcbP2aPs4u0C4cLJ",
+      "type": "subtopic",
+      "label": "White-papers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\white-papers@Xa7yBWcbP2aPs4u0C4cLJ.md"
+    },
+    {
+      "id": "5zQpravkqwafvwXVOuNPX",
+      "old_id": "5zQpravkqwafvwXVOuNPX",
+      "type": "subtopic",
+      "label": "eBook",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\ebook@5zQpravkqwafvwXVOuNPX.md"
+    },
+    {
+      "id": "vo1udIIRpxNZCpA3g32F3",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Bottom-funnel Content",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "2wjRA_pQ9cCG9Ww994FEM",
+      "old_id": "2wjRA_pQ9cCG9Ww994FEM",
+      "type": "subtopic",
+      "label": "Comparative Posts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\comparative-posts@2wjRA_pQ9cCG9Ww994FEM.md"
+    },
+    {
+      "id": "K459CcDrcPMJCimIcCzM6",
+      "old_id": "K459CcDrcPMJCimIcCzM6",
+      "type": "subtopic",
+      "label": "Tutorials",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\tutorials@K459CcDrcPMJCimIcCzM6.md"
+    },
+    {
+      "id": "-GZXLc9RjY6eWkKC1K_Rg",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Release Notes / Product Announcements",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "W44q1iEj7RKM55-9jabMJ",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Customer Case-Studies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "pgrKfp1trcIxhDdvLk95g",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Frequently Asked Questions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "tAFenZA0MFhMPE5cevNuD",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Technical Website Copy",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "XyFEYDJvJpGZ7qSdoSZeI",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Content Optimization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "TbSBCITdLswhVB82fErTP",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Content Analysis",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "qpOfqbgLy5TzlNQEyt6DG",
+      "old_id": "qpOfqbgLy5TzlNQEyt6DG",
+      "type": "subtopic",
+      "label": "Link Shorteners / Tracking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\link-shorteners--tracking@qpOfqbgLy5TzlNQEyt6DG.md"
+    },
+    {
+      "id": "hlhBgI3SvU3tMtNaHtu8k",
+      "old_id": "hlhBgI3SvU3tMtNaHtu8k",
+      "type": "subtopic",
+      "label": "Platform Tracking and Metrics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\platform-tracking-and-metrics@hlhBgI3SvU3tMtNaHtu8k.md"
+    },
+    {
+      "id": "UiXn-CnPcLWAflKJzaJ2a",
+      "old_id": "UiXn-CnPcLWAflKJzaJ2a",
+      "type": "subtopic",
+      "label": "Conversion Tracking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\conversion-tracking@UiXn-CnPcLWAflKJzaJ2a.md"
+    },
+    {
+      "id": "JgdrXG7MX1gGuNG9uyubA",
+      "old_id": "JgdrXG7MX1gGuNG9uyubA",
+      "type": "subtopic",
+      "label": "Content Aging & Timelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-aging--timelines@JgdrXG7MX1gGuNG9uyubA.md"
+    },
+    {
+      "id": "mrqBxsNRl1CQEKtuYSy9F",
+      "old_id": "mrqBxsNRl1CQEKtuYSy9F",
+      "type": "topic",
+      "label": "Content Distribution",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution@mrqBxsNRl1CQEKtuYSy9F.md"
+    },
+    {
+      "id": "NIxIhMEOxrUR8nbjbF_Fp",
+      "old_id": "NIxIhMEOxrUR8nbjbF_Fp",
+      "type": "subtopic",
+      "label": "Canonical Link",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\canonical-link@NIxIhMEOxrUR8nbjbF_Fp.md"
+    },
+    {
+      "id": "AarJ887P-SFRnKaOOv9yw",
+      "old_id": "AarJ887P-SFRnKaOOv9yw",
+      "type": "subtopic",
+      "label": "OpenGraph Data",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\opengraph-data@AarJ887P-SFRnKaOOv9yw.md"
+    },
+    {
+      "id": "m9-DqsQfeukmhjhIfCph-",
+      "old_id": "m9-DqsQfeukmhjhIfCph-",
+      "type": "subtopic",
+      "label": "Content Distribution Channels",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution-channels@m9-DqsQfeukmhjhIfCph-.md"
+    },
+    {
+      "id": "_cAGbAswDhOqpoiiikPbD",
+      "old_id": "_cAGbAswDhOqpoiiikPbD",
+      "type": "subtopic",
+      "label": "Content Distribution Amplification Strategies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\technical-writer\\content\\content-distribution-amplification-strategies@_cAGbAswDhOqpoiiikPbD.md"
+    },
+    {
+      "id": "D5Gn7dAWlTB-Q0bbPc6ka",
+      "old_id": "D5Gn7dAWlTB-Q0bbPc6ka",
+      "type": "button",
+      "label": "Visit their Website",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES"
+    },
+    {
+      "source": null,
+      "target": "NMznG9mo2wzNFnjhg990f"
+    },
+    {
+      "source": null,
+      "target": "gc_7cuIO2_joKlQRAPDfX"
+    },
+    {
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "ZRGsokU313Ky-anWbWK6q"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "jl1FsQ5-WGKeFyaILNt_p"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "j69erqfosSZMDlmKcnnn0"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "cNeT1dJDfgn0ndPzSxhSL"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "FVxNjbDBxgf6vkZWw1Awt"
+    },
+    {
+      "source": "5Z9o-b3vBA-ITFg86zzYM",
+      "target": "HlUUGj3dOZ68t4gIjerXh"
+    },
+    {
+      "source": "HlUUGj3dOZ68t4gIjerXh",
+      "target": "8rjUZ9NZPGwVRGmk6Dlyb"
+    },
+    {
+      "source": "8rjUZ9NZPGwVRGmk6Dlyb",
+      "target": "7-3tqRUpntoQP4nK_nul5"
+    },
+    {
+      "source": "8rjUZ9NZPGwVRGmk6Dlyb",
+      "target": "_5xFbl2BHx0f2u9HmSVS8"
+    },
+    {
+      "source": "_5xFbl2BHx0f2u9HmSVS8",
+      "target": "jC3ZrpskBqzxiV6SKf4Uf"
+    },
+    {
+      "source": "_5xFbl2BHx0f2u9HmSVS8",
+      "target": "cSZbTOB0FPPOlGzy-MkSi"
+    },
+    {
+      "source": "_5xFbl2BHx0f2u9HmSVS8",
+      "target": "ffJyulu9GPB_TDqjeJYyV"
+    },
+    {
+      "source": "_5xFbl2BHx0f2u9HmSVS8",
+      "target": "0XWiraeoicNBbaGYQnNZr"
+    },
+    {
+      "source": "_5xFbl2BHx0f2u9HmSVS8",
+      "target": "yYLsG2LuPaNUuhXSVev_0"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "27muFD1Ld1gF6hhIh22sG"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "lxSSjgtqJk-PtRp4hARDw"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "Ezz2e4lYLD_bdNNwvsV_y"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "a1ChwDwztjZBi79y38AGa"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "8qSL2esjsA3YYuB4d7B9z"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "WmOvQYlnedX0QgC5Adeen"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "7FGMPztd6ouvqemcGhIol"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "UuV51vM2JT_LFFXORSwru"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "cnEVPsqZqs9ZdyqmOuLGA"
+    },
+    {
+      "source": "yYLsG2LuPaNUuhXSVev_0",
+      "target": "O-dZEkmU0tP3dUIUPM6YJ"
+    },
+    {
+      "source": "O-dZEkmU0tP3dUIUPM6YJ",
+      "target": "xV8mox1WnSbl2jAGqQpeg"
+    },
+    {
+      "source": "xV8mox1WnSbl2jAGqQpeg",
+      "target": "C-eVVtF6Yabp2a6XvMeh_"
+    },
+    {
+      "source": "O-dZEkmU0tP3dUIUPM6YJ",
+      "target": "SX4vL_JEHrwqHdThyqKKO"
+    },
+    {
+      "source": "xV8mox1WnSbl2jAGqQpeg",
+      "target": "mJ1s5-SGd_tj8y0LLZxYg"
+    },
+    {
+      "source": "mJ1s5-SGd_tj8y0LLZxYg",
+      "target": "-IBL9S4DelIi07w_fmrX3"
+    },
+    {
+      "source": null,
+      "target": "eAioe6b7w8pV2Dvawl_fw"
+    },
+    {
+      "source": "-IBL9S4DelIi07w_fmrX3",
+      "target": "5dnZe0oCIzb5qGwgI6pwH"
+    },
+    {
+      "source": "5dnZe0oCIzb5qGwgI6pwH",
+      "target": "wBDjGa2PgdmeXxHnILFjY"
+    },
+    {
+      "source": "5dnZe0oCIzb5qGwgI6pwH",
+      "target": "Q2KD70IKwBXAH3UQgeZpp"
+    },
+    {
+      "source": "Q2KD70IKwBXAH3UQgeZpp",
+      "target": "XDX2QxMUkUok2fcS3tFki"
+    },
+    {
+      "source": "Q2KD70IKwBXAH3UQgeZpp",
+      "target": "vo1udIIRpxNZCpA3g32F3"
+    },
+    {
+      "source": "XyFEYDJvJpGZ7qSdoSZeI",
+      "target": "TbSBCITdLswhVB82fErTP"
+    },
+    {
+      "source": "TbSBCITdLswhVB82fErTP",
+      "target": "JgdrXG7MX1gGuNG9uyubA"
+    },
+    {
+      "source": "TbSBCITdLswhVB82fErTP",
+      "target": "mrqBxsNRl1CQEKtuYSy9F"
+    },
+    {
+      "source": "mrqBxsNRl1CQEKtuYSy9F",
+      "target": "NIxIhMEOxrUR8nbjbF_Fp"
+    },
+    {
+      "source": "mrqBxsNRl1CQEKtuYSy9F",
+      "target": "m9-DqsQfeukmhjhIfCph-"
+    },
+    {
+      "source": "mrqBxsNRl1CQEKtuYSy9F",
+      "target": "_cAGbAswDhOqpoiiikPbD"
+    },
+    {
+      "source": "mrqBxsNRl1CQEKtuYSy9F",
+      "target": "KEP_DmmmIbG5zdC0dj6a_"
+    }
+  ]
+}

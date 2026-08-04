@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "ZRB7mytelAk8pg5gsu2Xs",
+    "old_id": "ZRB7mytelAk8pg5gsu2Xs",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MtX03b7FVvVq6kDKfmidT",
+    "old_id": "MtX03b7FVvVq6kDKfmidT",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "9tkYqqVy0v42G4tijnDAP",
+    "old_id": "9tkYqqVy0v42G4tijnDAP",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "uDsTnM22jHuGBvJfRgv9v",
+    "old_id": "uDsTnM22jHuGBvJfRgv9v",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "CK9zYMrsw7Rl1ux4PU5wl",
+    "old_id": "CK9zYMrsw7Rl1ux4PU5wl",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Qq13cf04JGzV_H3glm_D5",
+    "old_id": "Qq13cf04JGzV_H3glm_D5",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "5Z9o-b3vBA-ITFg86zzYM",
+    "old_id": "5Z9o-b3vBA-ITFg86zzYM",
+    "type": "title",
+    "label": "Git and GitHub",
+    "resources": [],
+    "children": [
+      {
+        "id": "HlUUGj3dOZ68t4gIjerXh",
+        "old_id": "HlUUGj3dOZ68t4gIjerXh",
+        "type": "topic",
+        "label": "Learn the Basics",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\learn-the-basics@HlUUGj3dOZ68t4gIjerXh.md",
+        "children": [
+          {
+            "id": "bY6b1GV2XQQ52NOx8gWFj",
+            "old_id": "bY6b1GV2XQQ52NOx8gWFj",
+            "type": "subtopic",
+            "label": "What is Version Control?",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\what-is-version-control@bY6b1GV2XQQ52NOx8gWFj.md",
+            "children": []
+          },
+          {
+            "id": "dhIx1GnynvbSUriqYLUt0",
+            "old_id": "dhIx1GnynvbSUriqYLUt0",
+            "type": "subtopic",
+            "label": "Why use Version Control?",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\why-use-version-control@dhIx1GnynvbSUriqYLUt0.md",
+            "children": []
+          },
+          {
+            "id": "_jSTrYN9G8EsGHkbusKPU",
+            "old_id": "_jSTrYN9G8EsGHkbusKPU",
+            "type": "subtopic",
+            "label": "Git vs Other VCS",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\git-vs-other-vcs@_jSTrYN9G8EsGHkbusKPU.md",
+            "children": []
+          },
+          {
+            "id": "v7hCNbgPByi3YiLSs46BK",
+            "old_id": "v7hCNbgPByi3YiLSs46BK",
+            "type": "subtopic",
+            "label": "Installing Git Locally",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\installing-git-locally@v7hCNbgPByi3YiLSs46BK.md",
+            "children": []
+          },
+          {
+            "id": "PtU5Qwfzn3N1i3oRlCGoR",
+            "old_id": "bXfCUG3h1TIFPgD4WUDph",
+            "type": "topic",
+            "label": "What is a Repository",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\branching-basics@bXfCUG3h1TIFPgD4WUDph.md",
+            "children": [
+              {
+                "id": "bXfCUG3h1TIFPgD4WUDph",
+                "old_id": "bXfCUG3h1TIFPgD4WUDph",
+                "type": "topic",
+                "label": "Branching Basics",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\branching-basics@bXfCUG3h1TIFPgD4WUDph.md",
+                "children": [
+                  {
+                    "id": "OegitQ5Ngjvd3ZfMpfrkM",
+                    "old_id": "OegitQ5Ngjvd3ZfMpfrkM",
+                    "type": "subtopic",
+                    "label": "Creating Branch",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\creating-branch@OegitQ5Ngjvd3ZfMpfrkM.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "1iOkbO5juk2LO-WZHx_W6",
+    "old_id": "1iOkbO5juk2LO-WZHx_W6",
+    "type": "subtopic",
+    "label": "git init",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\git-init@1iOkbO5juk2LO-WZHx_W6.md",
+    "children": []
+  },
+  {
+    "id": "NMCWgzhhfUvFOMO5GbF_u",
+    "old_id": "NMCWgzhhfUvFOMO5GbF_u",
+    "type": "subtopic",
+    "label": "git config",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\git-config@NMCWgzhhfUvFOMO5GbF_u.md",
+    "children": []
+  },
+  {
+    "id": "tVvxC5JQgUb_B8kOqYpD8",
+    "old_id": "tVvxC5JQgUb_B8kOqYpD8",
+    "type": "subtopic",
+    "label": "Local vs Global Config",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\local-vs-global-config@tVvxC5JQgUb_B8kOqYpD8.md",
+    "children": []
+  },
+  {
+    "id": "hzL8j8473CoyFf5ab2f_B",
+    "old_id": "hzL8j8473CoyFf5ab2f_B",
+    "type": "label",
+    "label": "Repository Initialization",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "XB_mRInocRU6nPjt_iOo5",
+    "old_id": "XB_mRInocRU6nPjt_iOo5",
+    "type": "label",
+    "label": "Intro and Git Commands",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Sv36oxTZwlUv-i1K28NeP",
+    "old_id": "Sv36oxTZwlUv-i1K28NeP",
+    "type": "subtopic",
+    "label": "Working Directory",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\working-directory@Sv36oxTZwlUv-i1K28NeP.md",
+    "children": []
+  },
+  {
+    "id": "h71Tx3nkfUrnhaqcHlDkQ",
+    "old_id": "h71Tx3nkfUrnhaqcHlDkQ",
+    "type": "subtopic",
+    "label": "Staging Area",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\staging-area@h71Tx3nkfUrnhaqcHlDkQ.md",
+    "children": []
+  },
+  {
+    "id": "2_z3R7seCvQVj-Na4H1SV",
+    "old_id": "2_z3R7seCvQVj-Na4H1SV",
+    "type": "subtopic",
+    "label": "Committing Changes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\committing-changes@2_z3R7seCvQVj-Na4H1SV.md",
+    "children": []
+  },
+  {
+    "id": "oz2oRAhaEQb0Fm3aRJQG8",
+    "old_id": "IfUm5D_zNaUKMd4HX4Fi4",
+    "type": "subtopic",
+    "label": ".gitignore",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\viewing-commit-history@IfUm5D_zNaUKMd4HX4Fi4.md",
+    "children": []
+  },
+  {
+    "id": "IfUm5D_zNaUKMd4HX4Fi4",
+    "old_id": "IfUm5D_zNaUKMd4HX4Fi4",
+    "type": "subtopic",
+    "label": "Viewing Commit History",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\viewing-commit-history@IfUm5D_zNaUKMd4HX4Fi4.md",
+    "children": []
+  },
+  {
+    "id": "_dPOVUbxApx0pfKPH8fgr",
+    "old_id": "_dPOVUbxApx0pfKPH8fgr",
+    "type": "subtopic",
+    "label": "Renaming Branch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\renaming-branch@_dPOVUbxApx0pfKPH8fgr.md",
+    "children": []
+  },
+  {
+    "id": "1uDenoQ6zu7CT69FR2iQB",
+    "old_id": "1uDenoQ6zu7CT69FR2iQB",
+    "type": "subtopic",
+    "label": "Deleting Branch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\deleting-branch@1uDenoQ6zu7CT69FR2iQB.md",
+    "children": []
+  },
+  {
+    "id": "PtRo-wGiNAagZ6CykfvMr",
+    "old_id": "PtRo-wGiNAagZ6CykfvMr",
+    "type": "subtopic",
+    "label": "Checkout Branch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\checkout-branch@PtRo-wGiNAagZ6CykfvMr.md",
+    "children": []
+  },
+  {
+    "id": "sNuy6NMjLOEkJlqdEjFPq",
+    "old_id": "sNuy6NMjLOEkJlqdEjFPq",
+    "type": "subtopic",
+    "label": "Merging Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\merging-basics@sNuy6NMjLOEkJlqdEjFPq.md",
+    "children": []
+  },
+  {
+    "id": "qZFtRABvlBbVvsy6T00J2",
+    "old_id": "qZFtRABvlBbVvsy6T00J2",
+    "type": "subtopic",
+    "label": "GitHub Interface",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-interface@qZFtRABvlBbVvsy6T00J2.md",
+    "children": []
+  },
+  {
+    "id": "GS3f1FKFVKT0-GJQrgCm8",
+    "old_id": "GS3f1FKFVKT0-GJQrgCm8",
+    "type": "subtopic",
+    "label": "Setting up Profile",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\setting-up-profile@GS3f1FKFVKT0-GJQrgCm8.md",
+    "children": [
+      {
+        "id": "KbVvFVQ4k77R2_ddsc7WT",
+        "old_id": "KbVvFVQ4k77R2_ddsc7WT",
+        "type": "subtopic",
+        "label": "Profile Readme",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\profile-readme@KbVvFVQ4k77R2_ddsc7WT.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "c_FO6xMixrrMo6iisfsvl",
+    "old_id": "c_FO6xMixrrMo6iisfsvl",
+    "type": "subtopic",
+    "label": "Creating Repositories",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\creating-repositories@c_FO6xMixrrMo6iisfsvl.md",
+    "children": [
+      {
+        "id": "HEqBbw_A4ZbJI5zEy8ViN",
+        "old_id": "HEqBbw_A4ZbJI5zEy8ViN",
+        "type": "subtopic",
+        "label": "Private vs Public",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\private-vs-public@HEqBbw_A4ZbJI5zEy8ViN.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "sBQOInoFBU9XfkPZ-JlyT",
+    "old_id": "sBQOInoFBU9XfkPZ-JlyT",
+    "type": "subtopic",
+    "label": "Managing Remotes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\managing-remotes@sBQOInoFBU9XfkPZ-JlyT.md",
+    "children": []
+  },
+  {
+    "id": "ZVMCh9om37ee1qsecFa-N",
+    "old_id": "ZVMCh9om37ee1qsecFa-N",
+    "type": "subtopic",
+    "label": "Pushing / Pulling Changes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\pushing--pulling-changes@ZVMCh9om37ee1qsecFa-N.md",
+    "children": []
+  },
+  {
+    "id": "Gybnekbd1rJKTOf4hJ4Sh",
+    "old_id": "Gybnekbd1rJKTOf4hJ4Sh",
+    "type": "subtopic",
+    "label": "Fetch without Merge",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\fetch-without-merge@Gybnekbd1rJKTOf4hJ4Sh.md",
+    "children": []
+  },
+  {
+    "id": "d_GNnB6PBINz1jxGNWAE-",
+    "old_id": "zLSGqFLjw2kodmMwurzrY",
+    "type": "topic",
+    "label": "Collaboration on GitHub",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "l1Wf7Pe_ah8ycCgslfSK4",
+    "old_id": "l1Wf7Pe_ah8ycCgslfSK4",
+    "type": "subtopic",
+    "label": "Forking vs Cloning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\forking-vs-cloning@l1Wf7Pe_ah8ycCgslfSK4.md",
+    "children": []
+  },
+  {
+    "id": "crdllx5cH_seIpgVPvHg_",
+    "old_id": "x6eILrLCQrVpz4j8uOuy6",
+    "type": "subtopic",
+    "label": "Issues",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\pull-requests@x6eILrLCQrVpz4j8uOuy6.md",
+    "children": []
+  },
+  {
+    "id": "1Koej79yTv-OAswVZwgGq",
+    "old_id": "sBQOInoFBU9XfkPZ-JlyT",
+    "type": "subtopic",
+    "label": "Cloning Repositories",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\managing-remotes@sBQOInoFBU9XfkPZ-JlyT.md",
+    "children": []
+  },
+  {
+    "id": "x6eILrLCQrVpz4j8uOuy6",
+    "old_id": "x6eILrLCQrVpz4j8uOuy6",
+    "type": "subtopic",
+    "label": "Pull Requests",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\pull-requests@x6eILrLCQrVpz4j8uOuy6.md",
+    "children": [
+      {
+        "id": "8lXXVFkgK6n5IHaYkYe3l",
+        "old_id": "8lXXVFkgK6n5IHaYkYe3l",
+        "type": "subtopic",
+        "label": "PR from a Fork",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\pr-from-a-fork@8lXXVFkgK6n5IHaYkYe3l.md",
+        "children": []
+      },
+      {
+        "id": "r-u1vTpUyuvsB0revOU0C",
+        "old_id": "r-u1vTpUyuvsB0revOU0C",
+        "type": "subtopic",
+        "label": "Collaborators",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\collaborators@r-u1vTpUyuvsB0revOU0C.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "aFuWO8Z74Lbiwh9F27Yrh",
+    "old_id": "aFuWO8Z74Lbiwh9F27Yrh",
+    "type": "label",
+    "label": "Creating PR",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "y4DkB5NvTh41IeT0G2gr-",
+    "old_id": "y4DkB5NvTh41IeT0G2gr-",
+    "type": "subtopic",
+    "label": "Labelling Issues / PRs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\labelling-issues--prs@y4DkB5NvTh41IeT0G2gr-.md",
+    "children": []
+  },
+  {
+    "id": "dQS1V0zZxeKhHhUo3STBK",
+    "old_id": "dQS1V0zZxeKhHhUo3STBK",
+    "type": "subtopic",
+    "label": "Saved Replies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\saved-replies@dQS1V0zZxeKhHhUo3STBK.md",
+    "children": []
+  },
+  {
+    "id": "oWMaOWU06juoIuzXNe-wt",
+    "old_id": "oWMaOWU06juoIuzXNe-wt",
+    "type": "subtopic",
+    "label": "Mentions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\mentions@oWMaOWU06juoIuzXNe-wt.md",
+    "children": []
+  },
+  {
+    "id": "XstmIysIi_lWo6RzszLBt",
+    "old_id": "XstmIysIi_lWo6RzszLBt",
+    "type": "subtopic",
+    "label": "Reactions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\reactions@XstmIysIi_lWo6RzszLBt.md",
+    "children": []
+  },
+  {
+    "id": "Lw3oG5flufLskTN1AGIGc",
+    "old_id": "Lw3oG5flufLskTN1AGIGc",
+    "type": "label",
+    "label": "Commenting",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0rHDUbAdXqH9zQW2VfJ8v",
+    "old_id": "zLSGqFLjw2kodmMwurzrY",
+    "type": "topic",
+    "label": "Merge Strategies",
+    "resources": [],
+    "children": [
+      {
+        "id": "agtPWS8j6i6wQPk10cy8E",
+        "old_id": "Z-srOhYFGVEKDexlJ6cjt",
+        "type": "subtopic",
+        "label": "Fast-Forward vs Non-FF",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\squash@Z-srOhYFGVEKDexlJ6cjt.md",
+        "children": []
+      },
+      {
+        "id": "Z-srOhYFGVEKDexlJ6cjt",
+        "old_id": "Z-srOhYFGVEKDexlJ6cjt",
+        "type": "subtopic",
+        "label": "Squash",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\squash@Z-srOhYFGVEKDexlJ6cjt.md",
+        "children": []
+      },
+      {
+        "id": "9Dt4Gyiiq5jteWSKxsRMK",
+        "old_id": "eFf2fesrs-1aVM5tH3ORQ",
+        "type": "subtopic",
+        "label": "Handling Conflicts",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\cherry-picking-commits@eFf2fesrs-1aVM5tH3ORQ.md",
+        "children": []
+      },
+      {
+        "id": "eFf2fesrs-1aVM5tH3ORQ",
+        "old_id": "eFf2fesrs-1aVM5tH3ORQ",
+        "type": "subtopic",
+        "label": "Cherry Picking Commits",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\cherry-picking-commits@eFf2fesrs-1aVM5tH3ORQ.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "99FVJ3Zs8n6lr8L95mG6g",
+    "old_id": "Z-srOhYFGVEKDexlJ6cjt",
+    "type": "subtopic",
+    "label": "Rebase",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\squash@Z-srOhYFGVEKDexlJ6cjt.md",
+    "children": []
+  },
+  {
+    "id": "7lRUYWNSpHvJ-QyIE8RMa",
+    "old_id": "7lRUYWNSpHvJ-QyIE8RMa",
+    "type": "subtopic",
+    "label": "Commit Messages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\commit-messages@7lRUYWNSpHvJ-QyIE8RMa.md",
+    "children": []
+  },
+  {
+    "id": "ks1Pip-RM-UWD6zuF2j4n",
+    "old_id": "ks1Pip-RM-UWD6zuF2j4n",
+    "type": "subtopic",
+    "label": "Branch Naming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\branch-naming@ks1Pip-RM-UWD6zuF2j4n.md",
+    "children": []
+  },
+  {
+    "id": "GwDNk2HBjASr_NWIL4G3-",
+    "old_id": "GwDNk2HBjASr_NWIL4G3-",
+    "type": "subtopic",
+    "label": "PR Guidelines",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\pr-guidelines@GwDNk2HBjASr_NWIL4G3-.md",
+    "children": []
+  },
+  {
+    "id": "1Ulxl4VUvRSfyCPpi-iv8",
+    "old_id": "1Ulxl4VUvRSfyCPpi-iv8",
+    "type": "subtopic",
+    "label": "Markdown",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\markdown@1Ulxl4VUvRSfyCPpi-iv8.md",
+    "children": []
+  },
+  {
+    "id": "WIVr7JxO1AJTNObW8mtY3",
+    "old_id": "WIVr7JxO1AJTNObW8mtY3",
+    "type": "subtopic",
+    "label": "Project Readme",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\project-readme@WIVr7JxO1AJTNObW8mtY3.md",
+    "children": []
+  },
+  {
+    "id": "lONqOqD-4slxa9B5i9ADX",
+    "old_id": "Ddkss13_qDJTquDHbVTVs",
+    "type": "subtopic",
+    "label": "GitHub Wikis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\citation-files@Ddkss13_qDJTquDHbVTVs.md",
+    "children": []
+  },
+  {
+    "id": "i3AbARgzQtxtlB-1AS8zv",
+    "old_id": "i3AbARgzQtxtlB-1AS8zv",
+    "type": "subtopic",
+    "label": "Clean Git History",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\clean-git-history@i3AbARgzQtxtlB-1AS8zv.md",
+    "children": []
+  },
+  {
+    "id": "RMrxQLhrINO5g4Mhxh5qS",
+    "old_id": "RMrxQLhrINO5g4Mhxh5qS",
+    "type": "subtopic",
+    "label": "GitHub Organizations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-organizations@RMrxQLhrINO5g4Mhxh5qS.md",
+    "children": []
+  },
+  {
+    "id": "_ft-uvXt6s_xrcMT3fbSF",
+    "old_id": "_ft-uvXt6s_xrcMT3fbSF",
+    "type": "subtopic",
+    "label": "Collaborators / Members",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\collaborators--members@_ft-uvXt6s_xrcMT3fbSF.md",
+    "children": []
+  },
+  {
+    "id": "wydgCxR5VnieBpRolXt8i",
+    "old_id": "wydgCxR5VnieBpRolXt8i",
+    "type": "subtopic",
+    "label": "Teams within Organization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\teams-within-organization@wydgCxR5VnieBpRolXt8i.md",
+    "children": []
+  },
+  {
+    "id": "RFJgfuxoVxt22QlwLI5mW",
+    "old_id": "RFJgfuxoVxt22QlwLI5mW",
+    "type": "subtopic",
+    "label": "Kanban Boards",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\kanban-boards@RFJgfuxoVxt22QlwLI5mW.md",
+    "children": []
+  },
+  {
+    "id": "sxvT2hGko2PDRBoBrCGWD",
+    "old_id": "sxvT2hGko2PDRBoBrCGWD",
+    "type": "subtopic",
+    "label": "Roadmaps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\roadmaps@sxvT2hGko2PDRBoBrCGWD.md",
+    "children": []
+  },
+  {
+    "id": "TNBz5755PhI6iKxTQTqcS",
+    "old_id": "TNBz5755PhI6iKxTQTqcS",
+    "type": "subtopic",
+    "label": "Automations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\automations@TNBz5755PhI6iKxTQTqcS.md",
+    "children": []
+  },
+  {
+    "id": "snWQHCQECZyUXHdn6ppIk",
+    "old_id": "snWQHCQECZyUXHdn6ppIk",
+    "type": "subtopic",
+    "label": "GitHub Discussions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-discussions@snWQHCQECZyUXHdn6ppIk.md",
+    "children": []
+  },
+  {
+    "id": "dLr55Om7IOvI53c1DgTKc",
+    "old_id": "dLr55Om7IOvI53c1DgTKc",
+    "type": "subtopic",
+    "label": "git revert",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\git-revert@dLr55Om7IOvI53c1DgTKc.md",
+    "children": []
+  },
+  {
+    "id": "zsU6R2zvJKnYNU2ac4o4p",
+    "old_id": "zsU6R2zvJKnYNU2ac4o4p",
+    "type": "subtopic",
+    "label": "Client vs Server Hooks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\client-vs-server-hooks@zsU6R2zvJKnYNU2ac4o4p.md",
+    "children": []
+  },
+  {
+    "id": "jzYjHx-gIKSP8dQUTqWVw",
+    "old_id": "jzYjHx-gIKSP8dQUTqWVw",
+    "type": "subtopic",
+    "label": "commit-msg",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\commit-msg@jzYjHx-gIKSP8dQUTqWVw.md",
+    "children": []
+  },
+  {
+    "id": "SANEQI2rgOtsMQyn4qUCq",
+    "old_id": "SANEQI2rgOtsMQyn4qUCq",
+    "type": "subtopic",
+    "label": "post-checkout",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\post-checkout@SANEQI2rgOtsMQyn4qUCq.md",
+    "children": []
+  },
+  {
+    "id": "buxb5TpzQ-xxn0vqtGdS3",
+    "old_id": "buxb5TpzQ-xxn0vqtGdS3",
+    "type": "subtopic",
+    "label": "post-update",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\post-update@buxb5TpzQ-xxn0vqtGdS3.md",
+    "children": []
+  },
+  {
+    "id": "HhpAIzYMlMiQ9msrYZyDB",
+    "old_id": "HhpAIzYMlMiQ9msrYZyDB",
+    "type": "subtopic",
+    "label": "pre-commit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\pre-commit@HhpAIzYMlMiQ9msrYZyDB.md",
+    "children": []
+  },
+  {
+    "id": "j5kWEUKwBFg5EMm8-61K9",
+    "old_id": "j5kWEUKwBFg5EMm8-61K9",
+    "type": "subtopic",
+    "label": "pre-push",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\pre-push@j5kWEUKwBFg5EMm8-61K9.md",
+    "children": []
+  },
+  {
+    "id": "fEdLEowaTG4nyqxV5BPbk",
+    "old_id": "fEdLEowaTG4nyqxV5BPbk",
+    "type": "label",
+    "label": "Common Hooks",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "fjAFNjNNbPOzme9Uk_fDV",
+    "old_id": "fjAFNjNNbPOzme9Uk_fDV",
+    "type": "topic",
+    "label": "Submodules",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\submodules@fjAFNjNNbPOzme9Uk_fDV.md",
+    "children": [
+      {
+        "id": "x4bnsPVTiX2xOCSyrgWpF",
+        "old_id": "d0-u_-_vtPK8tnUpnj_NB",
+        "type": "subtopic",
+        "label": "Adding / Updating",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\what-and-why-use@d0-u_-_vtPK8tnUpnj_NB.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "d0-u_-_vtPK8tnUpnj_NB",
+    "old_id": "d0-u_-_vtPK8tnUpnj_NB",
+    "type": "subtopic",
+    "label": "What and Why use?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\what-and-why-use@d0-u_-_vtPK8tnUpnj_NB.md",
+    "children": []
+  },
+  {
+    "id": "h9cf_dh_pwjialOXOlNW-",
+    "old_id": "AmetdCURXXob5TUsikAab",
+    "type": "topic",
+    "label": "GitHub CLI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-actions@AmetdCURXXob5TUsikAab.md",
+    "children": [
+      {
+        "id": "AmetdCURXXob5TUsikAab",
+        "old_id": "AmetdCURXXob5TUsikAab",
+        "type": "topic",
+        "label": "GitHub Actions",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-actions@AmetdCURXXob5TUsikAab.md",
+        "children": [
+          {
+            "id": "PUnYNBrAZWoZiopjtNgnA",
+            "old_id": "Ni3HKVLanFvSrJ3u8i5I1",
+            "type": "subtopic",
+            "label": "Usecases",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\what-are-these@Ni3HKVLanFvSrJ3u8i5I1.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vHfpoVbOW0DHNtiy0VN4X",
+    "old_id": "vHfpoVbOW0DHNtiy0VN4X",
+    "type": "subtopic",
+    "label": "Installation and Setup",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\installation-and-setup@vHfpoVbOW0DHNtiy0VN4X.md",
+    "children": []
+  },
+  {
+    "id": "lw4zHuhtxIO4kDvbyiVfq",
+    "old_id": "lw4zHuhtxIO4kDvbyiVfq",
+    "type": "subtopic",
+    "label": "Repository management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\repository-management@lw4zHuhtxIO4kDvbyiVfq.md",
+    "children": []
+  },
+  {
+    "id": "kGnZifvXbHBf5zXIsfAQw",
+    "old_id": "kGnZifvXbHBf5zXIsfAQw",
+    "type": "subtopic",
+    "label": "Issue Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\issue-management@kGnZifvXbHBf5zXIsfAQw.md",
+    "children": []
+  },
+  {
+    "id": "s3MzDYFPMASqiS8UnvWzW",
+    "old_id": "Y0EWgPsS4kZxH3y53jNxY",
+    "type": "subtopic",
+    "label": "Pull Requests",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\use-in-automation@Y0EWgPsS4kZxH3y53jNxY.md",
+    "children": []
+  },
+  {
+    "id": "p6rq3lQ9YRrTqwcc31O23",
+    "old_id": "p6rq3lQ9YRrTqwcc31O23",
+    "type": "subtopic",
+    "label": "YAML Syntax",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\yaml-syntax@p6rq3lQ9YRrTqwcc31O23.md",
+    "children": []
+  },
+  {
+    "id": "55uHPFNwYPVZx8Cy3c985",
+    "old_id": "55uHPFNwYPVZx8Cy3c985",
+    "type": "subtopic",
+    "label": "Workflow Triggers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\workflow-triggers@55uHPFNwYPVZx8Cy3c985.md",
+    "children": []
+  },
+  {
+    "id": "uS1H9KoKGNONvETCuFBbz",
+    "old_id": "uS1H9KoKGNONvETCuFBbz",
+    "type": "subtopic",
+    "label": "Scheduled Worfklows",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\scheduled-worfklows@uS1H9KoKGNONvETCuFBbz.md",
+    "children": []
+  },
+  {
+    "id": "6QwlY3dEvjfAOPALcWKXQ",
+    "old_id": "6QwlY3dEvjfAOPALcWKXQ",
+    "type": "subtopic",
+    "label": "Workflow Runners",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\workflow-runners@6QwlY3dEvjfAOPALcWKXQ.md",
+    "children": []
+  },
+  {
+    "id": "BnPiTu1Jw2kIW560a2A5T",
+    "old_id": "BnPiTu1Jw2kIW560a2A5T",
+    "type": "subtopic",
+    "label": "Workflow Context",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\workflow-context@BnPiTu1Jw2kIW560a2A5T.md",
+    "children": []
+  },
+  {
+    "id": "aflP7oWsQzAr4YPo2LLiQ",
+    "old_id": "aflP7oWsQzAr4YPo2LLiQ",
+    "type": "subtopic",
+    "label": "Secrets and Env Vars",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\secrets-and-env-vars@aflP7oWsQzAr4YPo2LLiQ.md",
+    "children": []
+  },
+  {
+    "id": "HMNhzzV6ApTKj4I_FOmUB",
+    "old_id": "HMNhzzV6ApTKj4I_FOmUB",
+    "type": "subtopic",
+    "label": "Caching Dependencies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\caching-dependencies@HMNhzzV6ApTKj4I_FOmUB.md",
+    "children": []
+  },
+  {
+    "id": "alysXC4b1hGi9ZdQ5-40y",
+    "old_id": "alysXC4b1hGi9ZdQ5-40y",
+    "type": "subtopic",
+    "label": "Storing Artifacts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\storing-artifacts@alysXC4b1hGi9ZdQ5-40y.md",
+    "children": []
+  },
+  {
+    "id": "jc4R1zhd1YeCEbVuxwJWy",
+    "old_id": "jc4R1zhd1YeCEbVuxwJWy",
+    "type": "subtopic",
+    "label": "Workflow Status",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\workflow-status@jc4R1zhd1YeCEbVuxwJWy.md",
+    "children": []
+  },
+  {
+    "id": "SsogoCgJIbeTD6tk8UhTe",
+    "old_id": "SsogoCgJIbeTD6tk8UhTe",
+    "type": "subtopic",
+    "label": "Marketplace Actions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\marketplace-actions@SsogoCgJIbeTD6tk8UhTe.md",
+    "children": []
+  },
+  {
+    "id": "Ni3HKVLanFvSrJ3u8i5I1",
+    "old_id": "Ni3HKVLanFvSrJ3u8i5I1",
+    "type": "subtopic",
+    "label": "What are these?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\what-are-these@Ni3HKVLanFvSrJ3u8i5I1.md",
+    "children": []
+  },
+  {
+    "id": "Y0EWgPsS4kZxH3y53jNxY",
+    "old_id": "Y0EWgPsS4kZxH3y53jNxY",
+    "type": "subtopic",
+    "label": "Use in Automation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\use-in-automation@Y0EWgPsS4kZxH3y53jNxY.md",
+    "children": []
+  },
+  {
+    "id": "sFf1PdFfmEdQxsEntfeFq",
+    "old_id": "sFf1PdFfmEdQxsEntfeFq",
+    "type": "topic",
+    "label": "Git Patch",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\git-patch@sFf1PdFfmEdQxsEntfeFq.md",
+    "children": []
+  },
+  {
+    "id": "lSCnKhmRr6xrKVYxO8idD",
+    "old_id": "lSCnKhmRr6xrKVYxO8idD",
+    "type": "subtopic",
+    "label": "REST API",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\rest-api@lSCnKhmRr6xrKVYxO8idD.md",
+    "children": []
+  },
+  {
+    "id": "560GJXFTt7DPdJjKtSDOo",
+    "old_id": "560GJXFTt7DPdJjKtSDOo",
+    "type": "subtopic",
+    "label": "GitHub Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-apps@560GJXFTt7DPdJjKtSDOo.md",
+    "children": []
+  },
+  {
+    "id": "vhdGUhMAyre_Xya6IxZ-t",
+    "old_id": "rqPCHh25xX_ROMr-ULpaw",
+    "type": "topic",
+    "label": "GitHub Sponsors",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-packages@rqPCHh25xX_ROMr-ULpaw.md",
+    "children": []
+  },
+  {
+    "id": "ZHplGidvhxEIC3HN8KqRa",
+    "old_id": "ZHplGidvhxEIC3HN8KqRa",
+    "type": "subtopic",
+    "label": "Deploying Static Websites",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\deploying-static-websites@ZHplGidvhxEIC3HN8KqRa.md",
+    "children": []
+  },
+  {
+    "id": "VdoxEWaU56-QCbHFRw649",
+    "old_id": "VdoxEWaU56-QCbHFRw649",
+    "type": "subtopic",
+    "label": "Custom Domains",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\custom-domains@VdoxEWaU56-QCbHFRw649.md",
+    "children": []
+  },
+  {
+    "id": "iwfNYDlAgbA_rpWYcoHCC",
+    "old_id": "iwfNYDlAgbA_rpWYcoHCC",
+    "type": "subtopic",
+    "label": "Static Site Generators",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\static-site-generators@iwfNYDlAgbA_rpWYcoHCC.md",
+    "children": []
+  },
+  {
+    "id": "pFyMiyNQ16-kP7jKaKKEU",
+    "old_id": "R20LXLLEzNn-SpyFDMRXj",
+    "type": "topic",
+    "label": "GitHub Education",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-marketplace@R20LXLLEzNn-SpyFDMRXj.md",
+    "children": [
+      {
+        "id": "XRSVRl6iHncMmgSXoB7Lq",
+        "old_id": "XRSVRl6iHncMmgSXoB7Lq",
+        "type": "subtopic",
+        "label": "Student Developer Pack",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\student-developer-pack@XRSVRl6iHncMmgSXoB7Lq.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Pg6G4fzYb_RUhANeRKlRX",
+    "old_id": "Pg6G4fzYb_RUhANeRKlRX",
+    "type": "subtopic",
+    "label": "GitHub Classroom",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-classroom@Pg6G4fzYb_RUhANeRKlRX.md",
+    "children": []
+  },
+  {
+    "id": "B1KiSOt2b8t8FYD7Jxw2A",
+    "old_id": "B1KiSOt2b8t8FYD7Jxw2A",
+    "type": "subtopic",
+    "label": "Campus Program",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\campus-program@B1KiSOt2b8t8FYD7Jxw2A.md",
+    "children": []
+  },
+  {
+    "id": "R20LXLLEzNn-SpyFDMRXj",
+    "old_id": "R20LXLLEzNn-SpyFDMRXj",
+    "type": "topic",
+    "label": "GitHub Marketplace",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-marketplace@R20LXLLEzNn-SpyFDMRXj.md",
+    "children": []
+  },
+  {
+    "id": "4slyjdk2Eeg5VYY6gCDG6",
+    "old_id": "4slyjdk2Eeg5VYY6gCDG6",
+    "type": "topic",
+    "label": "GitHub Models",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-models@4slyjdk2Eeg5VYY6gCDG6.md",
+    "children": []
+  },
+  {
+    "id": "iWn3zDMOfLLjSp6f1jQoE",
+    "old_id": "f2PG4t6iVtfIH8BVe5H7f",
+    "type": "topic",
+    "label": "GitHub Copilot",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\git-github\\content\\github-security@f2PG4t6iVtfIH8BVe5H7f.md",
+    "children": []
+  },
+  {
+    "id": "P8nE-yRpa7NmoTENNv-Qz",
+    "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+    "type": "button",
+    "label": "Frontend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "N0zxK2dVGTxmMLEsvkRGl",
+    "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+    "type": "button",
+    "label": "Backend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "xU5kwxmH2Ir9e2xKTH82n",
+    "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+    "type": "button",
+    "label": "DevOps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "OIcmPSbdsuWapb6HZ4BEi",
+    "old_id": "cmSSwPPiiHwYh9ct14N6A",
+    "type": "button",
+    "label": "Full-stack",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MfErpYwkJ0wiWJZEUVfrb",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "Visit the Beginner Version",
+    "resources": [],
+    "children": []
+  }
+]

@@ -1,0 +1,1084 @@
+{
+  "slug": "react-native",
+  "title": "React Native",
+  "nodes": [
+    {
+      "id": "tR7FOWmBDYg6bn5d4YHzd",
+      "old_id": "tR7FOWmBDYg6bn5d4YHzd",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "hJobfOyzU-1jqdExFilz7",
+      "old_id": "hJobfOyzU-1jqdExFilz7",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "noLJjbjKyQ4AWA4TuB6-6",
+      "old_id": "noLJjbjKyQ4AWA4TuB6-6",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "Bv-5PX8sSIddQmKtC0NQ-",
+      "old_id": "Bv-5PX8sSIddQmKtC0NQ-",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "pGSRxZZEutXQu1nncm9Uy",
+      "old_id": "pGSRxZZEutXQu1nncm9Uy",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "ZMHUVvTmbR_OmXTs1k0Sf",
+      "old_id": "ZMHUVvTmbR_OmXTs1k0Sf",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Ikohtpq5aBCkJ6-73aaN4",
+      "old_id": "Ikohtpq5aBCkJ6-73aaN4",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "YcjFInaeQBknkTUfpgaYk",
+      "old_id": "YcjFInaeQBknkTUfpgaYk",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "old_id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "React Native",
+      "resources": []
+    },
+    {
+      "id": "if9eTna5NRTMStVwpSwDP",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Introduction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "old_id": "W4gEPRYmk5Y7y3PjI6fR7",
+      "type": "subtopic",
+      "label": "What is React Native?",
+      "resources": []
+    },
+    {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "old_id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Why use React Native?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\metro-bundler@VhSEH_RoWFt1z2lial7xZ.md"
+    },
+    {
+      "id": "w_rUaBorHFOY74S0JiEwM",
+      "old_id": "w_rUaBorHFOY74S0JiEwM",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "old_id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "React Native Alternatives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\metro-bundler@VhSEH_RoWFt1z2lial7xZ.md"
+    },
+    {
+      "id": "cSXsu17F1Oy34Wp6J-N3C",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Learn the Pre-requisites",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "1oUJXtHGQ29ZZU9sxwGo2",
+      "old_id": "0gH7vI_Hy7s9hO2TF6hR3",
+      "type": "subtopic",
+      "label": "JavaScript Basics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\props@0gH7vI_Hy7s9hO2TF6hR3.md"
+    },
+    {
+      "id": "SnF3xtzBh-x4Z_qUQUg7H",
+      "old_id": "0gH7vI_Hy7s9hO2TF6hR3",
+      "type": "subtopic",
+      "label": "CSS Basics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\props@0gH7vI_Hy7s9hO2TF6hR3.md"
+    },
+    {
+      "id": "k9_hVOBd9ZmC4HLuAf46v",
+      "old_id": "s5YKenJY2Xv_PZBSxegEm",
+      "type": "subtopic",
+      "label": "Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\jsx@s5YKenJY2Xv_PZBSxegEm.md"
+    },
+    {
+      "id": "V7r1Hqk9IXTfjkjAg7-BT",
+      "old_id": "0gH7vI_Hy7s9hO2TF6hR3",
+      "type": "subtopic",
+      "label": "State",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\props@0gH7vI_Hy7s9hO2TF6hR3.md"
+    },
+    {
+      "id": "s5YKenJY2Xv_PZBSxegEm",
+      "old_id": "0gH7vI_Hy7s9hO2TF6hR3",
+      "type": "subtopic",
+      "label": "JSX",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\props@0gH7vI_Hy7s9hO2TF6hR3.md"
+    },
+    {
+      "id": "0gH7vI_Hy7s9hO2TF6hR3",
+      "old_id": "0gH7vI_Hy7s9hO2TF6hR3",
+      "type": "subtopic",
+      "label": "Props",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\props@0gH7vI_Hy7s9hO2TF6hR3.md"
+    },
+    {
+      "id": "XDWpxBbW4vfJBO0jLtOZ5",
+      "old_id": "XDWpxBbW4vfJBO0jLtOZ5",
+      "type": "label",
+      "label": "React Basics",
+      "resources": []
+    },
+    {
+      "id": "lNmddXrT8IHVtWobh3-oq",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Environment Setup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "yW7nDDJbjmm8XKJI0hq3Q",
+      "old_id": "zzOyoDcAQYkNNv07TIKeZ",
+      "type": "subtopic",
+      "label": "Expo",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-tradeoffs@zzOyoDcAQYkNNv07TIKeZ.md"
+    },
+    {
+      "id": "uLH9eo2G09wGO80XtFI5x",
+      "old_id": "zzOyoDcAQYkNNv07TIKeZ",
+      "type": "subtopic",
+      "label": "create-expo-app",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-tradeoffs@zzOyoDcAQYkNNv07TIKeZ.md"
+    },
+    {
+      "id": "9eOwhh2k59nvH-ztuDNjg",
+      "old_id": "zzOyoDcAQYkNNv07TIKeZ",
+      "type": "subtopic",
+      "label": "Expo Snack",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-tradeoffs@zzOyoDcAQYkNNv07TIKeZ.md"
+    },
+    {
+      "id": "zzOyoDcAQYkNNv07TIKeZ",
+      "old_id": "zzOyoDcAQYkNNv07TIKeZ",
+      "type": "subtopic",
+      "label": "Expo Tradeoffs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-tradeoffs@zzOyoDcAQYkNNv07TIKeZ.md"
+    },
+    {
+      "id": "bxWLf0RDAl9Zaczkon9Rl",
+      "old_id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "React Native CLI",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\metro-bundler@VhSEH_RoWFt1z2lial7xZ.md"
+    },
+    {
+      "id": "VhSEH_RoWFt1z2lial7xZ",
+      "old_id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Metro Bundler",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\metro-bundler@VhSEH_RoWFt1z2lial7xZ.md"
+    },
+    {
+      "id": "T4AhL9Zls2iNZMituGdtl",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Development Workflow",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "KyKMZ8Aa5XUAIWelGTiSt",
+      "old_id": "KyKMZ8Aa5XUAIWelGTiSt",
+      "type": "subtopic",
+      "label": "Running on Device",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\running-on-device@KyKMZ8Aa5XUAIWelGTiSt.md"
+    },
+    {
+      "id": "fz-xz5Nbk5DHHcTUb9cBS",
+      "old_id": "fz-xz5Nbk5DHHcTUb9cBS",
+      "type": "label",
+      "label": "Debugging",
+      "resources": []
+    },
+    {
+      "id": "tOt_vvmnBtOUbgokmVa5P",
+      "old_id": "Dq490IqEJXoFZRnBFJI8N",
+      "type": "subtopic",
+      "label": "In-App Developer Menu",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\sourcemaps@Dq490IqEJXoFZRnBFJI8N.md"
+    },
+    {
+      "id": "wWwaEdnvBsvj6jD9LJ4Jj",
+      "old_id": "HHx3VSfV7xf6RqACrxjBf",
+      "type": "subtopic",
+      "label": "Enabling Fast Refresh",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\devtools@HHx3VSfV7xf6RqACrxjBf.md"
+    },
+    {
+      "id": "Tz-bRjQVkZedphelhAlWM",
+      "old_id": "Dq490IqEJXoFZRnBFJI8N",
+      "type": "subtopic",
+      "label": "LogBox",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\sourcemaps@Dq490IqEJXoFZRnBFJI8N.md"
+    },
+    {
+      "id": "Dq490IqEJXoFZRnBFJI8N",
+      "old_id": "Dq490IqEJXoFZRnBFJI8N",
+      "type": "subtopic",
+      "label": "Sourcemaps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\sourcemaps@Dq490IqEJXoFZRnBFJI8N.md"
+    },
+    {
+      "id": "HHx3VSfV7xf6RqACrxjBf",
+      "old_id": "Dq490IqEJXoFZRnBFJI8N",
+      "type": "subtopic",
+      "label": "DevTools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\sourcemaps@Dq490IqEJXoFZRnBFJI8N.md"
+    },
+    {
+      "id": "fnujIq6QAFB6bmTisuZ3T",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Core Components",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "OFhyYyxtrCBy_UUb5YBv5",
+      "old_id": "OFhyYyxtrCBy_UUb5YBv5",
+      "type": "subtopic",
+      "label": "Text",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\text@OFhyYyxtrCBy_UUb5YBv5.md"
+    },
+    {
+      "id": "Frz1RYp3y9OwRb-3t2e85",
+      "old_id": "Frz1RYp3y9OwRb-3t2e85",
+      "type": "subtopic",
+      "label": "Text Input",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\text-input@Frz1RYp3y9OwRb-3t2e85.md"
+    },
+    {
+      "id": "kkH9H9Qh1FD7sLItoWw69",
+      "old_id": "kkH9H9Qh1FD7sLItoWw69",
+      "type": "subtopic",
+      "label": "Button",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\button@kkH9H9Qh1FD7sLItoWw69.md"
+    },
+    {
+      "id": "E7N8tSg2amZW-vc-X46JU",
+      "old_id": "E7N8tSg2amZW-vc-X46JU",
+      "type": "subtopic",
+      "label": "Image",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\image@E7N8tSg2amZW-vc-X46JU.md"
+    },
+    {
+      "id": "GFGhnx5xUer2DdRI-SO4D",
+      "old_id": "GFGhnx5xUer2DdRI-SO4D",
+      "type": "subtopic",
+      "label": "ImageBackground",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\imagebackground@GFGhnx5xUer2DdRI-SO4D.md"
+    },
+    {
+      "id": "ouNTekf4VpZv-Vja8_bfM",
+      "old_id": "ouNTekf4VpZv-Vja8_bfM",
+      "type": "subtopic",
+      "label": "Switch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\switch@ouNTekf4VpZv-Vja8_bfM.md"
+    },
+    {
+      "id": "QOOZs9qtz49agfZwi6k1B",
+      "old_id": "QOOZs9qtz49agfZwi6k1B",
+      "type": "subtopic",
+      "label": "StatusBar",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\statusbar@QOOZs9qtz49agfZwi6k1B.md"
+    },
+    {
+      "id": "hHFR59RrdMIWxcQe72qCs",
+      "old_id": "hHFR59RrdMIWxcQe72qCs",
+      "type": "subtopic",
+      "label": "ActivityIndicator",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\activityindicator@hHFR59RrdMIWxcQe72qCs.md"
+    },
+    {
+      "id": "V34mZCkpoT49o-74XoATS",
+      "old_id": "V34mZCkpoT49o-74XoATS",
+      "type": "subtopic",
+      "label": "Modal",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\modal@V34mZCkpoT49o-74XoATS.md"
+    },
+    {
+      "id": "4BgVq-cZYEXgqktvlNnet",
+      "old_id": "4BgVq-cZYEXgqktvlNnet",
+      "type": "subtopic",
+      "label": "Pressable",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\pressable@4BgVq-cZYEXgqktvlNnet.md"
+    },
+    {
+      "id": "GrFL32pZ_eOmdJRzSlH8b",
+      "old_id": "h3ypxGxeHDCTxURHg6D2d",
+      "type": "subtopic",
+      "label": "View",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\listviews@h3ypxGxeHDCTxURHg6D2d.md"
+    },
+    {
+      "id": "UqCpoPzYio3ng3RFlbvZ7",
+      "old_id": "8bn1PFd9h0ek6_T-cl1cS",
+      "type": "subtopic",
+      "label": "SafeAreaView",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\keyboardavoidingview@8bn1PFd9h0ek6_T-cl1cS.md"
+    },
+    {
+      "id": "8bn1PFd9h0ek6_T-cl1cS",
+      "old_id": "8bn1PFd9h0ek6_T-cl1cS",
+      "type": "subtopic",
+      "label": "KeyboardAvoidingView",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\keyboardavoidingview@8bn1PFd9h0ek6_T-cl1cS.md"
+    },
+    {
+      "id": "x-OZCZcX6uhN3Yr5BAATn",
+      "old_id": "h3ypxGxeHDCTxURHg6D2d",
+      "type": "subtopic",
+      "label": "Listings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\listviews@h3ypxGxeHDCTxURHg6D2d.md"
+    },
+    {
+      "id": "yN283SRWoALOEZh9iTn-L",
+      "old_id": "m8Nu71Y61Ha_fLxdtWTkn",
+      "type": "subtopic",
+      "label": "ScrollView",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\refreshcontrol@m8Nu71Y61Ha_fLxdtWTkn.md"
+    },
+    {
+      "id": "h3ypxGxeHDCTxURHg6D2d",
+      "old_id": "h3ypxGxeHDCTxURHg6D2d",
+      "type": "subtopic",
+      "label": "ListViews",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\listviews@h3ypxGxeHDCTxURHg6D2d.md"
+    },
+    {
+      "id": "CYqLNGyOe9f9hVhbyUnTX",
+      "old_id": "gLJMD9X7chy8OxdALht8g",
+      "type": "subtopic",
+      "label": "FlatList",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\sectionlist@gLJMD9X7chy8OxdALht8g.md"
+    },
+    {
+      "id": "gLJMD9X7chy8OxdALht8g",
+      "old_id": "h3ypxGxeHDCTxURHg6D2d",
+      "type": "subtopic",
+      "label": "SectionList",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\listviews@h3ypxGxeHDCTxURHg6D2d.md"
+    },
+    {
+      "id": "m8Nu71Y61Ha_fLxdtWTkn",
+      "old_id": "gLJMD9X7chy8OxdALht8g",
+      "type": "subtopic",
+      "label": "RefreshControl",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\sectionlist@gLJMD9X7chy8OxdALht8g.md"
+    },
+    {
+      "id": "HiUbRfOv8OttFd85pDUHN",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Writing Platform Specific Code",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "KZIrRSYq_I-YzpFaYLuWi",
+      "old_id": "UQpyXrC2cs_jDXxVTlQOu",
+      "type": "subtopic",
+      "label": "Platform Module",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\react-native-web@UQpyXrC2cs_jDXxVTlQOu.md"
+    },
+    {
+      "id": "LLANnVosxOUCPTtuBfNgu",
+      "old_id": "UQpyXrC2cs_jDXxVTlQOu",
+      "type": "subtopic",
+      "label": "File Extensions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\react-native-web@UQpyXrC2cs_jDXxVTlQOu.md"
+    },
+    {
+      "id": "UQpyXrC2cs_jDXxVTlQOu",
+      "old_id": "UQpyXrC2cs_jDXxVTlQOu",
+      "type": "subtopic",
+      "label": "react-native-web",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\react-native-web@UQpyXrC2cs_jDXxVTlQOu.md"
+    },
+    {
+      "id": "ervpuL89myBW3oR9r-4lH",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Styling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "wB0D9koC6jpt1rzX8F07F",
+      "old_id": "KoXTwQUqPt_ZhOFuaelny",
+      "type": "subtopic",
+      "label": "Stylesheets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\accessibility@KoXTwQUqPt_ZhOFuaelny.md"
+    },
+    {
+      "id": "e-r3tuRZ3PzhFegES0oOm",
+      "old_id": "KoXTwQUqPt_ZhOFuaelny",
+      "type": "subtopic",
+      "label": "Layouts & Flexbox",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\accessibility@KoXTwQUqPt_ZhOFuaelny.md"
+    },
+    {
+      "id": "KoXTwQUqPt_ZhOFuaelny",
+      "old_id": "KoXTwQUqPt_ZhOFuaelny",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\accessibility@KoXTwQUqPt_ZhOFuaelny.md"
+    },
+    {
+      "id": "7GBV5sfOaGxHwpkNUvFWE",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Networking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "k7uVPyhbPgvO6HxAfxxYZ",
+      "old_id": "NdjmP1bZNYriV08vb-iRw",
+      "type": "subtopic",
+      "label": "Connectivity Status",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\storage@NdjmP1bZNYriV08vb-iRw.md"
+    },
+    {
+      "id": "aSCgax1M4wlmzkJSZV_fv",
+      "old_id": "f7KFPFS2-EA90pumYHM9T",
+      "type": "subtopic",
+      "label": "WebSockets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\fetch@f7KFPFS2-EA90pumYHM9T.md"
+    },
+    {
+      "id": "f7KFPFS2-EA90pumYHM9T",
+      "old_id": "f7KFPFS2-EA90pumYHM9T",
+      "type": "subtopic",
+      "label": "Fetch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\fetch@f7KFPFS2-EA90pumYHM9T.md"
+    },
+    {
+      "id": "CAQJaGs24wx1SqKOU44aB",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Push Notifications",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "GYdz9a1yLiewAeMRSyfLr",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Interactions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "A7ZIe8nlQnHU5g3LM3Eif",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "Touchables",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "xf7L5J42yQq3LE7lG2plp",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "Gesture Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "nk6zdVNRz_xE71mVUOFsi",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "Scrolling & Swiping",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "Jr2iuQqyCbx6CyTJj4Qz2",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "Screen Navigation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "3NLcPO-hqQV1EacoPLVrv",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "Animations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "dckRzKDKj-mLB3-OxwjPh",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "DeepLinking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "CGtVwhVGc8Vea5RfzJvQG",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "LRBHwYiT0Yyi18PwR49rc",
+      "old_id": "NdjmP1bZNYriV08vb-iRw",
+      "type": "subtopic",
+      "label": "Authentication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\storage@NdjmP1bZNYriV08vb-iRw.md"
+    },
+    {
+      "id": "ee4QqFTosXNcTgoQIok8i",
+      "old_id": "NdjmP1bZNYriV08vb-iRw",
+      "type": "subtopic",
+      "label": "Networking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\storage@NdjmP1bZNYriV08vb-iRw.md"
+    },
+    {
+      "id": "NdjmP1bZNYriV08vb-iRw",
+      "old_id": "f7KFPFS2-EA90pumYHM9T",
+      "type": "subtopic",
+      "label": "Storage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\fetch@f7KFPFS2-EA90pumYHM9T.md"
+    },
+    {
+      "id": "w0WW1kg_0BEMeLa1l2gb5",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Storage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "WsJGiMjHSQ6MpPd5wuP9h",
+      "old_id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "react-native-async-storage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\profiling@apXv-E6LvOuOMj3EpzwuA.md"
+    },
+    {
+      "id": "grThT8cvnrbgsa1mx2Dew",
+      "old_id": "grThT8cvnrbgsa1mx2Dew",
+      "type": "label",
+      "label": "Expo Ecosystem",
+      "resources": []
+    },
+    {
+      "id": "JgBfwmOgcVi_a96L5NGwr",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "expo-secure-store",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "9pvrXH5Drdsa1cr93UBdc",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "expo-file-system",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "oK8z23a_CjcDjBJ843_Jn",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "expo-sqlite",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "vZMsm-MtsqmQMD-MG6zJY",
+      "old_id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "Other Storage Options",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\profiling@apXv-E6LvOuOMj3EpzwuA.md"
+    },
+    {
+      "id": "G15Aey-Spax_iUHpm1v38",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "06gsRokwjxVa2xyLY4qAb",
+      "old_id": "spTzJMS7cE0cNa7tVQhVQ",
+      "type": "subtopic",
+      "label": "Jest",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\appium@spTzJMS7cE0cNa7tVQhVQ.md"
+    },
+    {
+      "id": "ZJvxa-sPRRWCiqHubqEEZ",
+      "old_id": "zam_qKfqtKuYyPGos1CrF",
+      "type": "label",
+      "label": "Component Tests",
+      "resources": []
+    },
+    {
+      "id": "81tmis0km2h1zsjS2HsP5",
+      "old_id": "spTzJMS7cE0cNa7tVQhVQ",
+      "type": "subtopic",
+      "label": "React Test Renderer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\appium@spTzJMS7cE0cNa7tVQhVQ.md"
+    },
+    {
+      "id": "-b4LfjCjkSZ6ZsSv3eFm6",
+      "old_id": "spTzJMS7cE0cNa7tVQhVQ",
+      "type": "subtopic",
+      "label": "React Native Testing Library",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\appium@spTzJMS7cE0cNa7tVQhVQ.md"
+    },
+    {
+      "id": "zam_qKfqtKuYyPGos1CrF",
+      "old_id": "zam_qKfqtKuYyPGos1CrF",
+      "type": "label",
+      "label": "E2E Testing",
+      "resources": []
+    },
+    {
+      "id": "3m7ANLJvtx3zie4y86MNU",
+      "old_id": "spTzJMS7cE0cNa7tVQhVQ",
+      "type": "subtopic",
+      "label": "Detox",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\appium@spTzJMS7cE0cNa7tVQhVQ.md"
+    },
+    {
+      "id": "spTzJMS7cE0cNa7tVQhVQ",
+      "old_id": "spTzJMS7cE0cNa7tVQhVQ",
+      "type": "subtopic",
+      "label": "Appium",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\appium@spTzJMS7cE0cNa7tVQhVQ.md"
+    },
+    {
+      "id": "NIJzKzWlsciAjxUpm4K2v",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Performance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "1U3AiCDWEVEKsofWtqavi",
+      "old_id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "Understand Frame Rates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\profiling@apXv-E6LvOuOMj3EpzwuA.md"
+    },
+    {
+      "id": "afwB90L-q2hIwrA0LtWbG",
+      "old_id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "Common Problem Sources",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\profiling@apXv-E6LvOuOMj3EpzwuA.md"
+    },
+    {
+      "id": "LL2ZkB7BuELyY2mPQhkAj",
+      "old_id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "Speeding up Builds",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\profiling@apXv-E6LvOuOMj3EpzwuA.md"
+    },
+    {
+      "id": "PyPjHnKIWpnFHal8RuSmX",
+      "old_id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "Optimizing Flatlist Config",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\profiling@apXv-E6LvOuOMj3EpzwuA.md"
+    },
+    {
+      "id": "u5I-EOnA_yt6AQsRX-qr0",
+      "old_id": "apXv-E6LvOuOMj3EpzwuA",
+      "type": "subtopic",
+      "label": "RAM Bundles + Inline Requires",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\profiling@apXv-E6LvOuOMj3EpzwuA.md"
+    },
+    {
+      "id": "apXv-E6LvOuOMj3EpzwuA",
+      "old_id": "oK8z23a_CjcDjBJ843_Jn",
+      "type": "subtopic",
+      "label": "Profiling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\expo-sqlite@oK8z23a_CjcDjBJ843_Jn.md"
+    },
+    {
+      "id": "0BMpZDc-1rSvETwX82zON",
+      "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "type": "topic",
+      "label": "Using Native Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\publishing-apps@4U-HZQGH7kaWCB94Xy8Mh.md"
+    },
+    {
+      "id": "b-1-JcwLSGMyH3gXS59lY",
+      "old_id": "wMxTB8WgU6e-oYMtQFCDY",
+      "type": "subtopic",
+      "label": "For iOS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\for-android@wMxTB8WgU6e-oYMtQFCDY.md"
+    },
+    {
+      "id": "wMxTB8WgU6e-oYMtQFCDY",
+      "old_id": "wMxTB8WgU6e-oYMtQFCDY",
+      "type": "subtopic",
+      "label": "For Android",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\for-android@wMxTB8WgU6e-oYMtQFCDY.md"
+    },
+    {
+      "id": "4U-HZQGH7kaWCB94Xy8Mh",
+      "old_id": "08qKtgnhJ3tlb5JKfTDf5",
+      "type": "topic",
+      "label": "Publishing Apps",
+      "resources": []
+    },
+    {
+      "id": "1s9Y1dUtjpW9pu74ipX99",
+      "old_id": "D8T9cZ5zKi_KZDr9tDpCf",
+      "type": "subtopic",
+      "label": "Apple App store",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\google-play-store@D8T9cZ5zKi_KZDr9tDpCf.md"
+    },
+    {
+      "id": "D8T9cZ5zKi_KZDr9tDpCf",
+      "old_id": "D8T9cZ5zKi_KZDr9tDpCf",
+      "type": "subtopic",
+      "label": "Google Play Store",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\react-native\\content\\google-play-store@D8T9cZ5zKi_KZDr9tDpCf.md"
+    },
+    {
+      "id": "f5WRewBlpeYMf71cPcXs-",
+      "old_id": "StxLh1r3qXqyRSqfJGird",
+      "type": "button",
+      "label": "React",
+      "resources": []
+    },
+    {
+      "id": "9CJ0oitK0ADsgwMvVZXdq",
+      "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+      "type": "button",
+      "label": "Flutter",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "JfXwzkN29UGz17FYHHE3A"
+    },
+    {
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "2rlmLn_yQQV-7DpX1qT98"
+    },
+    {
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "cMfsRtvzvDZZJ0TqeUOxm"
+    },
+    {
+      "source": "JfXwzkN29UGz17FYHHE3A",
+      "target": "ODQ8zrHc2rsc8PN-APKvz"
+    },
+    {
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "SnF3xtzBh-x4Z_qUQUg7H"
+    },
+    {
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "1oUJXtHGQ29ZZU9sxwGo2"
+    },
+    {
+      "source": "cSXsu17F1Oy34Wp6J-N3C",
+      "target": "lNmddXrT8IHVtWobh3-oq"
+    },
+    {
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "VhSEH_RoWFt1z2lial7xZ"
+    },
+    {
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "bxWLf0RDAl9Zaczkon9Rl"
+    },
+    {
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "yW7nDDJbjmm8XKJI0hq3Q"
+    },
+    {
+      "source": "lNmddXrT8IHVtWobh3-oq",
+      "target": "T4AhL9Zls2iNZMituGdtl"
+    },
+    {
+      "source": "T4AhL9Zls2iNZMituGdtl",
+      "target": "KyKMZ8Aa5XUAIWelGTiSt"
+    },
+    {
+      "source": "T4AhL9Zls2iNZMituGdtl",
+      "target": "fnujIq6QAFB6bmTisuZ3T"
+    },
+    {
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "GFGhnx5xUer2DdRI-SO4D"
+    },
+    {
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "kkH9H9Qh1FD7sLItoWw69"
+    },
+    {
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "OFhyYyxtrCBy_UUb5YBv5"
+    },
+    {
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "hHFR59RrdMIWxcQe72qCs"
+    },
+    {
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "V34mZCkpoT49o-74XoATS"
+    },
+    {
+      "source": "GrFL32pZ_eOmdJRzSlH8b",
+      "target": "8bn1PFd9h0ek6_T-cl1cS"
+    },
+    {
+      "source": "GrFL32pZ_eOmdJRzSlH8b",
+      "target": "UqCpoPzYio3ng3RFlbvZ7"
+    },
+    {
+      "source": "fnujIq6QAFB6bmTisuZ3T",
+      "target": "x-OZCZcX6uhN3Yr5BAATn"
+    },
+    {
+      "source": "HiUbRfOv8OttFd85pDUHN",
+      "target": "ervpuL89myBW3oR9r-4lH"
+    },
+    {
+      "source": "ervpuL89myBW3oR9r-4lH",
+      "target": "wB0D9koC6jpt1rzX8F07F"
+    },
+    {
+      "source": "ervpuL89myBW3oR9r-4lH",
+      "target": "7GBV5sfOaGxHwpkNUvFWE"
+    },
+    {
+      "source": "7GBV5sfOaGxHwpkNUvFWE",
+      "target": "CAQJaGs24wx1SqKOU44aB"
+    },
+    {
+      "source": "CAQJaGs24wx1SqKOU44aB",
+      "target": "GYdz9a1yLiewAeMRSyfLr"
+    },
+    {
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "nk6zdVNRz_xE71mVUOFsi"
+    },
+    {
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "Jr2iuQqyCbx6CyTJj4Qz2"
+    },
+    {
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "xf7L5J42yQq3LE7lG2plp"
+    },
+    {
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "3NLcPO-hqQV1EacoPLVrv"
+    },
+    {
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "A7ZIe8nlQnHU5g3LM3Eif"
+    },
+    {
+      "source": "GYdz9a1yLiewAeMRSyfLr",
+      "target": "dckRzKDKj-mLB3-OxwjPh"
+    },
+    {
+      "source": "dckRzKDKj-mLB3-OxwjPh",
+      "target": "CGtVwhVGc8Vea5RfzJvQG"
+    },
+    {
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "NdjmP1bZNYriV08vb-iRw"
+    },
+    {
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "ee4QqFTosXNcTgoQIok8i"
+    },
+    {
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "LRBHwYiT0Yyi18PwR49rc"
+    },
+    {
+      "source": "CGtVwhVGc8Vea5RfzJvQG",
+      "target": "w0WW1kg_0BEMeLa1l2gb5"
+    },
+    {
+      "source": "w0WW1kg_0BEMeLa1l2gb5",
+      "target": "G15Aey-Spax_iUHpm1v38"
+    },
+    {
+      "source": "G15Aey-Spax_iUHpm1v38",
+      "target": "tR7FOWmBDYg6bn5d4YHzd"
+    },
+    {
+      "source": "G15Aey-Spax_iUHpm1v38",
+      "target": "NIJzKzWlsciAjxUpm4K2v"
+    },
+    {
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "LL2ZkB7BuELyY2mPQhkAj"
+    },
+    {
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "PyPjHnKIWpnFHal8RuSmX"
+    },
+    {
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "afwB90L-q2hIwrA0LtWbG"
+    },
+    {
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "1U3AiCDWEVEKsofWtqavi"
+    },
+    {
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "u5I-EOnA_yt6AQsRX-qr0"
+    },
+    {
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "apXv-E6LvOuOMj3EpzwuA"
+    },
+    {
+      "source": "NIJzKzWlsciAjxUpm4K2v",
+      "target": "0BMpZDc-1rSvETwX82zON"
+    },
+    {
+      "source": "0BMpZDc-1rSvETwX82zON",
+      "target": "4U-HZQGH7kaWCB94Xy8Mh"
+    },
+    {
+      "source": "4U-HZQGH7kaWCB94Xy8Mh",
+      "target": "1s9Y1dUtjpW9pu74ipX99"
+    },
+    {
+      "source": "4U-HZQGH7kaWCB94Xy8Mh",
+      "target": "O5dely89N5UCMBeUfh8ud"
+    }
+  ]
+}

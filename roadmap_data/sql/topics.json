@@ -1,0 +1,897 @@
+[
+  {
+    "id": "R9DQNc0AyAQ2HLpP4HOk6",
+    "old_id": "R9DQNc0AyAQ2HLpP4HOk6",
+    "type": "subtopic",
+    "label": "What are Relational Databases?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\what-are-relational-databases@R9DQNc0AyAQ2HLpP4HOk6.md"
+  },
+  {
+    "id": "fNTb9y3zs1HPYclAmu_Wv",
+    "old_id": "fNTb9y3zs1HPYclAmu_Wv",
+    "type": "subtopic",
+    "label": "RDBMS Benefits and Limitations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\rdbms-benefits-and-limitations@fNTb9y3zs1HPYclAmu_Wv.md"
+  },
+  {
+    "id": "nhUKKWyBH80nyKfGT8ErC",
+    "old_id": "JDDG4KfhtIlw1rkNCzUli",
+    "type": "topic",
+    "label": "Learn the Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\basic-sql-syntax@JDDG4KfhtIlw1rkNCzUli.md"
+  },
+  {
+    "id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "old_id": "gx4KaFqKgJX9n9_ZGMqlZ",
+    "type": "subtopic",
+    "label": "SQL vs NoSQL Databases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\sql-vs-nosql-databases@gx4KaFqKgJX9n9_ZGMqlZ.md"
+  },
+  {
+    "id": "JDDG4KfhtIlw1rkNCzUli",
+    "old_id": "VJSIbYJcy2MC6MOFBrqXi",
+    "type": "topic",
+    "label": "Basic SQL Syntax",
+    "resources": []
+  },
+  {
+    "id": "6yoo7qC6X2jYDIjd3HIm7",
+    "old_id": "6yoo7qC6X2jYDIjd3HIm7",
+    "type": "subtopic",
+    "label": "SQL Keywords",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\sql-keywords@6yoo7qC6X2jYDIjd3HIm7.md"
+  },
+  {
+    "id": "tBzMDfCMh6MIagNaxCzin",
+    "old_id": "tBzMDfCMh6MIagNaxCzin",
+    "type": "subtopic",
+    "label": "Data Types",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\data-types@tBzMDfCMh6MIagNaxCzin.md"
+  },
+  {
+    "id": "ffwniprGJHZzJ7t3lQcXz",
+    "old_id": "ffwniprGJHZzJ7t3lQcXz",
+    "type": "subtopic",
+    "label": "Operators",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\operators@ffwniprGJHZzJ7t3lQcXz.md"
+  },
+  {
+    "id": "rmqXH29n1oXtZ8tvmcRFn",
+    "old_id": "rmqXH29n1oXtZ8tvmcRFn",
+    "type": "subtopic",
+    "label": "SELECT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\select@rmqXH29n1oXtZ8tvmcRFn.md"
+  },
+  {
+    "id": "mPj6BiK5FKKkIQ9WsWEo6",
+    "old_id": "mPj6BiK5FKKkIQ9WsWEo6",
+    "type": "subtopic",
+    "label": "INSERT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\insert@mPj6BiK5FKKkIQ9WsWEo6.md"
+  },
+  {
+    "id": "eu9dJFi6gBPMBdy08Y5Bb",
+    "old_id": "eu9dJFi6gBPMBdy08Y5Bb",
+    "type": "subtopic",
+    "label": "UPDATE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\update@eu9dJFi6gBPMBdy08Y5Bb.md"
+  },
+  {
+    "id": "ddtVaA4Ls6qRj-7OtTSIH",
+    "old_id": "ddtVaA4Ls6qRj-7OtTSIH",
+    "type": "subtopic",
+    "label": "DELETE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\delete@ddtVaA4Ls6qRj-7OtTSIH.md"
+  },
+  {
+    "id": "xPOeXK1EPBNG56vgfG-VV",
+    "old_id": "xPOeXK1EPBNG56vgfG-VV",
+    "type": "topic",
+    "label": "Data Definition Language (DDL)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\data-definition-language-ddl@xPOeXK1EPBNG56vgfG-VV.md"
+  },
+  {
+    "id": "K5vhqTJrdPK08Txv8zaEj",
+    "old_id": "K5vhqTJrdPK08Txv8zaEj",
+    "type": "subtopic",
+    "label": "Truncate Table",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\truncate-table@K5vhqTJrdPK08Txv8zaEj.md"
+  },
+  {
+    "id": "WjXlO42WL9saDS7RIGapt",
+    "old_id": "WjXlO42WL9saDS7RIGapt",
+    "type": "subtopic",
+    "label": "Alter Table",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\alter-table@WjXlO42WL9saDS7RIGapt.md"
+  },
+  {
+    "id": "epEpBxRosLhuAuKwp823r",
+    "old_id": "epEpBxRosLhuAuKwp823r",
+    "type": "subtopic",
+    "label": "Create Table",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\create-table@epEpBxRosLhuAuKwp823r.md"
+  },
+  {
+    "id": "YzJ6QmY2arMfRzMAPaI0T",
+    "old_id": "YzJ6QmY2arMfRzMAPaI0T",
+    "type": "subtopic",
+    "label": "Drop Table",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\drop-table@YzJ6QmY2arMfRzMAPaI0T.md"
+  },
+  {
+    "id": "WMSXi-eez_hHGDM8kUdWz",
+    "old_id": "WMSXi-eez_hHGDM8kUdWz",
+    "type": "topic",
+    "label": "Data Manipulation Language (DML)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\data-manipulation-language-dml@WMSXi-eez_hHGDM8kUdWz.md"
+  },
+  {
+    "id": "i8u8E_sne6XiKJo2FXDog",
+    "old_id": "i8u8E_sne6XiKJo2FXDog",
+    "type": "subtopic",
+    "label": "Select",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\select@i8u8E_sne6XiKJo2FXDog.md"
+  },
+  {
+    "id": "N1Racr3ZpU320gS545We8",
+    "old_id": "N1Racr3ZpU320gS545We8",
+    "type": "subtopic",
+    "label": "FROM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\from@N1Racr3ZpU320gS545We8.md"
+  },
+  {
+    "id": "WhYAy6f7Euk3E49-ot644",
+    "old_id": "WhYAy6f7Euk3E49-ot644",
+    "type": "subtopic",
+    "label": "WHERE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\where@WhYAy6f7Euk3E49-ot644.md"
+  },
+  {
+    "id": "NfCiSPrL4upMssukcw3Kh",
+    "old_id": "NfCiSPrL4upMssukcw3Kh",
+    "type": "subtopic",
+    "label": "ORDER BY",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\order-by@NfCiSPrL4upMssukcw3Kh.md"
+  },
+  {
+    "id": "14TKE6KhrH1yFtHcSZSXq",
+    "old_id": "14TKE6KhrH1yFtHcSZSXq",
+    "type": "subtopic",
+    "label": "GROUP BY",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\group-by@14TKE6KhrH1yFtHcSZSXq.md"
+  },
+  {
+    "id": "ytwCkSMTiTuemE0KVfAfy",
+    "old_id": "ytwCkSMTiTuemE0KVfAfy",
+    "type": "subtopic",
+    "label": "HAVING",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\having@ytwCkSMTiTuemE0KVfAfy.md"
+  },
+  {
+    "id": "4UQQYbjzwVxZOAxBuXKQS",
+    "old_id": "4UQQYbjzwVxZOAxBuXKQS",
+    "type": "subtopic",
+    "label": "JOINs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\joins@4UQQYbjzwVxZOAxBuXKQS.md"
+  },
+  {
+    "id": "-Hew0y53ziZK3epQnGA0O",
+    "old_id": "-Hew0y53ziZK3epQnGA0O",
+    "type": "subtopic",
+    "label": "INSERT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\insert@-Hew0y53ziZK3epQnGA0O.md"
+  },
+  {
+    "id": "KJJ6PYjTnr_3yU2mNPL9v",
+    "old_id": "KJJ6PYjTnr_3yU2mNPL9v",
+    "type": "subtopic",
+    "label": "UPDATE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\update@KJJ6PYjTnr_3yU2mNPL9v.md"
+  },
+  {
+    "id": "zWnvuHJLHr03PWkrW1wZZ",
+    "old_id": "zWnvuHJLHr03PWkrW1wZZ",
+    "type": "subtopic",
+    "label": "DELETE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\delete@zWnvuHJLHr03PWkrW1wZZ.md"
+  },
+  {
+    "id": "LX9nzJ4uqznHN4SksoDvr",
+    "old_id": "LX9nzJ4uqznHN4SksoDvr",
+    "type": "topic",
+    "label": "Aggregate Queries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\aggregate-queries@LX9nzJ4uqznHN4SksoDvr.md"
+  },
+  {
+    "id": "w4T3jFb0ilf1KNw-AvRXG",
+    "old_id": "w4T3jFb0ilf1KNw-AvRXG",
+    "type": "subtopic",
+    "label": "SUM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\sum@w4T3jFb0ilf1KNw-AvRXG.md"
+  },
+  {
+    "id": "9aHYrOQDkA84tlxcVK5aD",
+    "old_id": "9aHYrOQDkA84tlxcVK5aD",
+    "type": "subtopic",
+    "label": "COUNT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\count@9aHYrOQDkA84tlxcVK5aD.md"
+  },
+  {
+    "id": "Wou6YXLYUgomvcELh851L",
+    "old_id": "Wou6YXLYUgomvcELh851L",
+    "type": "subtopic",
+    "label": "AVG",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\avg@Wou6YXLYUgomvcELh851L.md"
+  },
+  {
+    "id": "bFEYMlqPZtTUYtDQxqHzT",
+    "old_id": "bFEYMlqPZtTUYtDQxqHzT",
+    "type": "subtopic",
+    "label": "MIN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\min@bFEYMlqPZtTUYtDQxqHzT.md"
+  },
+  {
+    "id": "YqDJq3fPxUZlwsdq0kJg7",
+    "old_id": "YqDJq3fPxUZlwsdq0kJg7",
+    "type": "subtopic",
+    "label": "MAX",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\max@YqDJq3fPxUZlwsdq0kJg7.md"
+  },
+  {
+    "id": "Zw8IHfCCMSxmVjx5Ho5ff",
+    "old_id": "Zw8IHfCCMSxmVjx5Ho5ff",
+    "type": "subtopic",
+    "label": "GROUP BY",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\group-by@Zw8IHfCCMSxmVjx5Ho5ff.md"
+  },
+  {
+    "id": "HhICJpCK5__b-itUoEBES",
+    "old_id": "HhICJpCK5__b-itUoEBES",
+    "type": "subtopic",
+    "label": "HAVING",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\having@HhICJpCK5__b-itUoEBES.md"
+  },
+  {
+    "id": "qBios3sZVhcJMpXmj9f7B",
+    "old_id": "8V6yw7kLaow-VVcv_K_pL",
+    "type": "topic",
+    "label": "Data Constraints",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\join-queries@8V6yw7kLaow-VVcv_K_pL.md"
+  },
+  {
+    "id": "Jlwmyq6CUQeDAlL4dazOP",
+    "old_id": "Jlwmyq6CUQeDAlL4dazOP",
+    "type": "subtopic",
+    "label": "Primary Key",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\primary-key@Jlwmyq6CUQeDAlL4dazOP.md"
+  },
+  {
+    "id": "DHz6sRLYhFeCbAcNJS8hm",
+    "old_id": "DHz6sRLYhFeCbAcNJS8hm",
+    "type": "subtopic",
+    "label": "Foreign Key",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\foreign-key@DHz6sRLYhFeCbAcNJS8hm.md"
+  },
+  {
+    "id": "5yGo8i7eplxtXOD_qfzOs",
+    "old_id": "5yGo8i7eplxtXOD_qfzOs",
+    "type": "subtopic",
+    "label": "Unique",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\unique@5yGo8i7eplxtXOD_qfzOs.md"
+  },
+  {
+    "id": "M4M_-vjM9GNy0NmXZneDA",
+    "old_id": "M4M_-vjM9GNy0NmXZneDA",
+    "type": "subtopic",
+    "label": "NOT NULL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\not-null@M4M_-vjM9GNy0NmXZneDA.md"
+  },
+  {
+    "id": "Q0h9Wfnl_W9ThOkv7Q17A",
+    "old_id": "Q0h9Wfnl_W9ThOkv7Q17A",
+    "type": "subtopic",
+    "label": "CHECK",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\check@Q0h9Wfnl_W9ThOkv7Q17A.md"
+  },
+  {
+    "id": "8V6yw7kLaow-VVcv_K_pL",
+    "old_id": "8V6yw7kLaow-VVcv_K_pL",
+    "type": "topic",
+    "label": "JOIN Queries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\join-queries@8V6yw7kLaow-VVcv_K_pL.md"
+  },
+  {
+    "id": "aaua13CkTxLOYXr8cAgPm",
+    "old_id": "aaua13CkTxLOYXr8cAgPm",
+    "type": "subtopic",
+    "label": "INNER JOIN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\inner-join@aaua13CkTxLOYXr8cAgPm.md"
+  },
+  {
+    "id": "X9cJJ8zLZCF2cOoqxwFfY",
+    "old_id": "X9cJJ8zLZCF2cOoqxwFfY",
+    "type": "subtopic",
+    "label": "LEFT JOIN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\left-join@X9cJJ8zLZCF2cOoqxwFfY.md"
+  },
+  {
+    "id": "shpgZkh1CLqUwjOaRtAFy",
+    "old_id": "shpgZkh1CLqUwjOaRtAFy",
+    "type": "subtopic",
+    "label": "RIGHT JOIN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\right-join@shpgZkh1CLqUwjOaRtAFy.md"
+  },
+  {
+    "id": "aS5zCyJRA779yHF0G2pje",
+    "old_id": "aS5zCyJRA779yHF0G2pje",
+    "type": "subtopic",
+    "label": "FULL OUTER JOIN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\full-outer-join@aS5zCyJRA779yHF0G2pje.md"
+  },
+  {
+    "id": "6qG0AVYd6Y1B8LOSDoMX9",
+    "old_id": "6qG0AVYd6Y1B8LOSDoMX9",
+    "type": "subtopic",
+    "label": "Self Join",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\self-join@6qG0AVYd6Y1B8LOSDoMX9.md"
+  },
+  {
+    "id": "7ow6tiSSCnTpv_GYQU017",
+    "old_id": "7ow6tiSSCnTpv_GYQU017",
+    "type": "subtopic",
+    "label": "Cross Join",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\cross-join@7ow6tiSSCnTpv_GYQU017.md"
+  },
+  {
+    "id": "86iZ8s8EdhSuYwgwAM_EO",
+    "old_id": "86iZ8s8EdhSuYwgwAM_EO",
+    "type": "topic",
+    "label": "Subqueries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\subqueries@86iZ8s8EdhSuYwgwAM_EO.md"
+  },
+  {
+    "id": "eXQ-TrTlqL5p2AdGnozkL",
+    "old_id": "eXQ-TrTlqL5p2AdGnozkL",
+    "type": "subtopic",
+    "label": "Scalar",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\scalar@eXQ-TrTlqL5p2AdGnozkL.md"
+  },
+  {
+    "id": "wmtt-3auWLdQWuVdwZLPd",
+    "old_id": "wmtt-3auWLdQWuVdwZLPd",
+    "type": "subtopic",
+    "label": "Column",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\column@wmtt-3auWLdQWuVdwZLPd.md"
+  },
+  {
+    "id": "aLDl75i8gtLRA2Ud-fMmQ",
+    "old_id": "aLDl75i8gtLRA2Ud-fMmQ",
+    "type": "subtopic",
+    "label": "Row",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\row@aLDl75i8gtLRA2Ud-fMmQ.md"
+  },
+  {
+    "id": "R9WDMRd-3wxsKH97-sT3n",
+    "old_id": "R9WDMRd-3wxsKH97-sT3n",
+    "type": "subtopic",
+    "label": "Table",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\table@R9WDMRd-3wxsKH97-sT3n.md"
+  },
+  {
+    "id": "xkPJ2MYiXmzC4yqQWyB_7",
+    "old_id": "xkPJ2MYiXmzC4yqQWyB_7",
+    "type": "subtopic",
+    "label": "Nested Subqueries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\nested-subqueries@xkPJ2MYiXmzC4yqQWyB_7.md"
+  },
+  {
+    "id": "JZqS3Xapw6mfSPVgFW7av",
+    "old_id": "JZqS3Xapw6mfSPVgFW7av",
+    "type": "subtopic",
+    "label": "Correlated Subqueries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\correlated-subqueries@JZqS3Xapw6mfSPVgFW7av.md"
+  },
+  {
+    "id": "vTMd0bqz4eTgLnhfgY61h",
+    "old_id": "vTMd0bqz4eTgLnhfgY61h",
+    "type": "topic",
+    "label": "Advanced Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\advanced-functions@vTMd0bqz4eTgLnhfgY61h.md"
+  },
+  {
+    "id": "o2SH4iQn1Ap2yDZ7cVYLO",
+    "old_id": "o2SH4iQn1Ap2yDZ7cVYLO",
+    "type": "subtopic",
+    "label": "FLOOR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\floor@o2SH4iQn1Ap2yDZ7cVYLO.md"
+  },
+  {
+    "id": "6vYFb_D1N_-tLWZftL-Az",
+    "old_id": "6vYFb_D1N_-tLWZftL-Az",
+    "type": "subtopic",
+    "label": "ABS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\abs@6vYFb_D1N_-tLWZftL-Az.md"
+  },
+  {
+    "id": "OUw--8zEq6lk5-6oySVHe",
+    "old_id": "OUw--8zEq6lk5-6oySVHe",
+    "type": "subtopic",
+    "label": "MOD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\mod@OUw--8zEq6lk5-6oySVHe.md"
+  },
+  {
+    "id": "9DntFiZV1AyaRPhYP5q6u",
+    "old_id": "9DntFiZV1AyaRPhYP5q6u",
+    "type": "subtopic",
+    "label": "ROUND",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\round@9DntFiZV1AyaRPhYP5q6u.md"
+  },
+  {
+    "id": "BAqJQvcguhIhzyII5LRH6",
+    "old_id": "BAqJQvcguhIhzyII5LRH6",
+    "type": "subtopic",
+    "label": "CEILING",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\ceiling@BAqJQvcguhIhzyII5LRH6.md"
+  },
+  {
+    "id": "5inpEqafeVCfqsURHzQQg",
+    "old_id": "5inpEqafeVCfqsURHzQQg",
+    "type": "subtopic",
+    "label": "CONCAT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\concat@5inpEqafeVCfqsURHzQQg.md"
+  },
+  {
+    "id": "RH8DLiQpDUWqw3U1522q5",
+    "old_id": "RH8DLiQpDUWqw3U1522q5",
+    "type": "subtopic",
+    "label": "LENGTH",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\length@RH8DLiQpDUWqw3U1522q5.md"
+  },
+  {
+    "id": "PnG_5D6q66NAKxXVOwA6N",
+    "old_id": "PnG_5D6q66NAKxXVOwA6N",
+    "type": "subtopic",
+    "label": "SUBSTRING",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\substring@PnG_5D6q66NAKxXVOwA6N.md"
+  },
+  {
+    "id": "VNbb3YPc0FtrROylRns8h",
+    "old_id": "VNbb3YPc0FtrROylRns8h",
+    "type": "subtopic",
+    "label": "REPLACE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\replace@VNbb3YPc0FtrROylRns8h.md"
+  },
+  {
+    "id": "Othfo7NvTVzfyL906PLM1",
+    "old_id": "Othfo7NvTVzfyL906PLM1",
+    "type": "subtopic",
+    "label": "UPPER",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\upper@Othfo7NvTVzfyL906PLM1.md"
+  },
+  {
+    "id": "knTG6pAq2mYP24WMa29xI",
+    "old_id": "knTG6pAq2mYP24WMa29xI",
+    "type": "subtopic",
+    "label": "LOWER",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\lower@knTG6pAq2mYP24WMa29xI.md"
+  },
+  {
+    "id": "W2ePJHdfEiEJ3ZKoRQKt_",
+    "old_id": "W2ePJHdfEiEJ3ZKoRQKt_",
+    "type": "subtopic",
+    "label": "CASE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\case@W2ePJHdfEiEJ3ZKoRQKt_.md"
+  },
+  {
+    "id": "KI6vngoYcHsnpIk8ErhhS",
+    "old_id": "KI6vngoYcHsnpIk8ErhhS",
+    "type": "subtopic",
+    "label": "NULLIF",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\nullif@KI6vngoYcHsnpIk8ErhhS.md"
+  },
+  {
+    "id": "k7lZe4QRt9q4InUImFmvx",
+    "old_id": "k7lZe4QRt9q4InUImFmvx",
+    "type": "subtopic",
+    "label": "COALESCE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\coalesce@k7lZe4QRt9q4InUImFmvx.md"
+  },
+  {
+    "id": "Ivqo2wa-_NhGU3vGd0pUI",
+    "old_id": "Ivqo2wa-_NhGU3vGd0pUI",
+    "type": "subtopic",
+    "label": "DATE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\date@Ivqo2wa-_NhGU3vGd0pUI.md"
+  },
+  {
+    "id": "88KlrMqSza9_YaD7Dv61p",
+    "old_id": "88KlrMqSza9_YaD7Dv61p",
+    "type": "subtopic",
+    "label": "TIME",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\time@88KlrMqSza9_YaD7Dv61p.md"
+  },
+  {
+    "id": "7hEqkoxkdAWmakGZsMJx-",
+    "old_id": "7hEqkoxkdAWmakGZsMJx-",
+    "type": "subtopic",
+    "label": "TIMESTAMP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\timestamp@7hEqkoxkdAWmakGZsMJx-.md"
+  },
+  {
+    "id": "BJ4fQvagTO0B5UtXblyx8",
+    "old_id": "BJ4fQvagTO0B5UtXblyx8",
+    "type": "subtopic",
+    "label": "DATEPART",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\datepart@BJ4fQvagTO0B5UtXblyx8.md"
+  },
+  {
+    "id": "1E1WdWOyqxbbdiIbw26dZ",
+    "old_id": "1E1WdWOyqxbbdiIbw26dZ",
+    "type": "subtopic",
+    "label": "DATEADD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\dateadd@1E1WdWOyqxbbdiIbw26dZ.md"
+  },
+  {
+    "id": "2tyezwOIxV6O84N-Q3Awh",
+    "old_id": "vTMd0bqz4eTgLnhfgY61h",
+    "type": "topic",
+    "label": "Views",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\advanced-functions@vTMd0bqz4eTgLnhfgY61h.md"
+  },
+  {
+    "id": "PcsGK4VBh0zNQIPZvNES4",
+    "old_id": "PcsGK4VBh0zNQIPZvNES4",
+    "type": "subtopic",
+    "label": "Creating Views",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\creating-views@PcsGK4VBh0zNQIPZvNES4.md"
+  },
+  {
+    "id": "3eE-l-P93nOXoWfLr8PSW",
+    "old_id": "3eE-l-P93nOXoWfLr8PSW",
+    "type": "subtopic",
+    "label": "Modifying Views",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\modifying-views@3eE-l-P93nOXoWfLr8PSW.md"
+  },
+  {
+    "id": "MIOuWWcCjLAmgzog2DBC3",
+    "old_id": "MIOuWWcCjLAmgzog2DBC3",
+    "type": "subtopic",
+    "label": "Dropping Views",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\dropping-views@MIOuWWcCjLAmgzog2DBC3.md"
+  },
+  {
+    "id": "LcljR70T-OnzSrJJDqOWf",
+    "old_id": "2tyezwOIxV6O84N-Q3Awh",
+    "type": "topic",
+    "label": "Indexes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\views@2tyezwOIxV6O84N-Q3Awh.md"
+  },
+  {
+    "id": "NtxGd6Vx-REBclry7lZuE",
+    "old_id": "NtxGd6Vx-REBclry7lZuE",
+    "type": "subtopic",
+    "label": "Managing Indexes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\managing-indexes@NtxGd6Vx-REBclry7lZuE.md"
+  },
+  {
+    "id": "Ps9Yv2s-bKvEegGAbPsiA",
+    "old_id": "Ps9Yv2s-bKvEegGAbPsiA",
+    "type": "subtopic",
+    "label": "Query Optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\query-optimization@Ps9Yv2s-bKvEegGAbPsiA.md"
+  },
+  {
+    "id": "OdaBXz2XBAVLsQ-m7xtAM",
+    "old_id": "UDqbT1y-YzBrljfKSz_RG",
+    "type": "topic",
+    "label": "Transactions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\advanced-sql@UDqbT1y-YzBrljfKSz_RG.md"
+  },
+  {
+    "id": "7sTW1vwUhCFOMXYjScVEt",
+    "old_id": "7sTW1vwUhCFOMXYjScVEt",
+    "type": "subtopic",
+    "label": "BEGIN",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\begin@7sTW1vwUhCFOMXYjScVEt.md"
+  },
+  {
+    "id": "3cMECz5QPVDOFrk5duObs",
+    "old_id": "3cMECz5QPVDOFrk5duObs",
+    "type": "subtopic",
+    "label": "COMMIT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\commit@3cMECz5QPVDOFrk5duObs.md"
+  },
+  {
+    "id": "xbD67KVlt3UhHpKh8HLx8",
+    "old_id": "xbD67KVlt3UhHpKh8HLx8",
+    "type": "subtopic",
+    "label": "ROLLBACK",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\rollback@xbD67KVlt3UhHpKh8HLx8.md"
+  },
+  {
+    "id": "pJtYvXUo81aZfPuRjIbMq",
+    "old_id": "pJtYvXUo81aZfPuRjIbMq",
+    "type": "subtopic",
+    "label": "SAVEPOINT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\savepoint@pJtYvXUo81aZfPuRjIbMq.md"
+  },
+  {
+    "id": "igg34gLPl3HYVAmRNFGcV",
+    "old_id": "igg34gLPl3HYVAmRNFGcV",
+    "type": "subtopic",
+    "label": "ACID",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\acid@igg34gLPl3HYVAmRNFGcV.md"
+  },
+  {
+    "id": "ujeq8EIFcrqkBjoFizsJM",
+    "old_id": "ujeq8EIFcrqkBjoFizsJM",
+    "type": "subtopic",
+    "label": "Transaction Isolation Levels",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\transaction-isolation-levels@ujeq8EIFcrqkBjoFizsJM.md"
+  },
+  {
+    "id": "R1ktDJpXOz0PTllAcBrdu",
+    "old_id": "UDqbT1y-YzBrljfKSz_RG",
+    "type": "topic",
+    "label": "Data Integrity & Security",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\advanced-sql@UDqbT1y-YzBrljfKSz_RG.md"
+  },
+  {
+    "id": "mBQ3Z8GlFcpIena3IB7D_",
+    "old_id": "mBQ3Z8GlFcpIena3IB7D_",
+    "type": "subtopic",
+    "label": "Data Integrity Constraints",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\data-integrity-constraints@mBQ3Z8GlFcpIena3IB7D_.md"
+  },
+  {
+    "id": "03qMopxzjx_-dZbYw9b7J",
+    "old_id": "03qMopxzjx_-dZbYw9b7J",
+    "type": "subtopic",
+    "label": "GRANT and Revoke",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\grant-and-revoke@03qMopxzjx_-dZbYw9b7J.md"
+  },
+  {
+    "id": "vhBZqqmUcEon6-Vwvla4q",
+    "old_id": "vhBZqqmUcEon6-Vwvla4q",
+    "type": "subtopic",
+    "label": "DB Security Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\db-security-best-practices@vhBZqqmUcEon6-Vwvla4q.md"
+  },
+  {
+    "id": "w7FNjdwqjY7X69aJqqBy4",
+    "old_id": "UDqbT1y-YzBrljfKSz_RG",
+    "type": "topic",
+    "label": "Stored Procedures & Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\advanced-sql@UDqbT1y-YzBrljfKSz_RG.md"
+  },
+  {
+    "id": "4rqCPpTb0dAgpheBKshRG",
+    "old_id": "UDqbT1y-YzBrljfKSz_RG",
+    "type": "topic",
+    "label": "Performance Optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\advanced-sql@UDqbT1y-YzBrljfKSz_RG.md"
+  },
+  {
+    "id": "9wOgP0i9G4HSeZGn2Gm7r",
+    "old_id": "9wOgP0i9G4HSeZGn2Gm7r",
+    "type": "subtopic",
+    "label": "Using Indexes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\using-indexes@9wOgP0i9G4HSeZGn2Gm7r.md"
+  },
+  {
+    "id": "C0dhS6uLf4TUSfvcWyXhv",
+    "old_id": "C0dhS6uLf4TUSfvcWyXhv",
+    "type": "subtopic",
+    "label": "Optimizing Joins",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\optimizing-joins@C0dhS6uLf4TUSfvcWyXhv.md"
+  },
+  {
+    "id": "UVTgbZrqpbYl1bQvQejcF",
+    "old_id": "UVTgbZrqpbYl1bQvQejcF",
+    "type": "subtopic",
+    "label": "Reducing Subqueries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\reducing-subqueries@UVTgbZrqpbYl1bQvQejcF.md"
+  },
+  {
+    "id": "w53CSY53nAAN0ux-XeJ4c",
+    "old_id": "w53CSY53nAAN0ux-XeJ4c",
+    "type": "subtopic",
+    "label": "Selective Projection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\selective-projection@w53CSY53nAAN0ux-XeJ4c.md"
+  },
+  {
+    "id": "C6P69YiFdS-ioPXMNfX07",
+    "old_id": "C6P69YiFdS-ioPXMNfX07",
+    "type": "subtopic",
+    "label": "Query Analysis Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\query-analysis-techniques@C6P69YiFdS-ioPXMNfX07.md"
+  },
+  {
+    "id": "UDqbT1y-YzBrljfKSz_RG",
+    "old_id": "UDqbT1y-YzBrljfKSz_RG",
+    "type": "topic",
+    "label": "Advanced SQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\advanced-sql@UDqbT1y-YzBrljfKSz_RG.md"
+  },
+  {
+    "id": "TjgwabhEtaSoYMLNr6q9l",
+    "old_id": "TjgwabhEtaSoYMLNr6q9l",
+    "type": "subtopic",
+    "label": "Recursive Queries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\recursive-queries@TjgwabhEtaSoYMLNr6q9l.md"
+  },
+  {
+    "id": "nwFaz9i-1s0WVrVaFsoqb",
+    "old_id": "nwFaz9i-1s0WVrVaFsoqb",
+    "type": "subtopic",
+    "label": "Pivot / Unpivot Operations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\pivot--unpivot-operations@nwFaz9i-1s0WVrVaFsoqb.md"
+  },
+  {
+    "id": "tBvXLLp5FKeSSN35Kj1X4",
+    "old_id": "tBvXLLp5FKeSSN35Kj1X4",
+    "type": "subtopic",
+    "label": "Window Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\window-functions@tBvXLLp5FKeSSN35Kj1X4.md"
+  },
+  {
+    "id": "tedQynR0xicVKhuR1oahw",
+    "old_id": "tedQynR0xicVKhuR1oahw",
+    "type": "subtopic",
+    "label": "Common Table Expressions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\common-table-expressions@tedQynR0xicVKhuR1oahw.md"
+  },
+  {
+    "id": "z5Sf0VU14ZCQ80kL1qOqc",
+    "old_id": "z5Sf0VU14ZCQ80kL1qOqc",
+    "type": "subtopic",
+    "label": "Dynamic SQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\dynamic-sql@z5Sf0VU14ZCQ80kL1qOqc.md"
+  },
+  {
+    "id": "zW27ZHdLwQY-85iqbBKQZ",
+    "old_id": "zW27ZHdLwQY-85iqbBKQZ",
+    "type": "subtopic",
+    "label": "Row_number",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\row_number@zW27ZHdLwQY-85iqbBKQZ.md"
+  },
+  {
+    "id": "cucCPw3KfetAP2OMFUs0X",
+    "old_id": "cucCPw3KfetAP2OMFUs0X",
+    "type": "subtopic",
+    "label": "rank",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\rank@cucCPw3KfetAP2OMFUs0X.md"
+  },
+  {
+    "id": "QM0ltgPu8lLLYc2MsTLj-",
+    "old_id": "QM0ltgPu8lLLYc2MsTLj-",
+    "type": "subtopic",
+    "label": "dense_rank",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\dense_rank@QM0ltgPu8lLLYc2MsTLj-.md"
+  },
+  {
+    "id": "aJJjaGunRrwyh9MjQfJt-",
+    "old_id": "aJJjaGunRrwyh9MjQfJt-",
+    "type": "subtopic",
+    "label": "lead",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\lead@aJJjaGunRrwyh9MjQfJt-.md"
+  },
+  {
+    "id": "BcXdxY6bld5c0YNFSKkh-",
+    "old_id": "BcXdxY6bld5c0YNFSKkh-",
+    "type": "subtopic",
+    "label": "lag",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\sql\\content\\lag@BcXdxY6bld5c0YNFSKkh-.md"
+  }
+]

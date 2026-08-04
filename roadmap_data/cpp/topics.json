@@ -1,0 +1,1518 @@
+[
+  {
+    "id": "ofwdZm05AUqCIWmfgGHk8",
+    "old_id": "ofwdZm05AUqCIWmfgGHk8",
+    "type": "subtopic",
+    "label": "Diamond Inheritance",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\diamond-inheritance@ofwdZm05AUqCIWmfgGHk8.md"
+  },
+  {
+    "id": "ZHjU60uzJTezADRhDTESG",
+    "old_id": "ZHjU60uzJTezADRhDTESG",
+    "type": "subtopic",
+    "label": "Forward Declaration",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\forward-declaration@ZHjU60uzJTezADRhDTESG.md"
+  },
+  {
+    "id": "NvODRFR0DLINB0RlPSsvt",
+    "old_id": "NvODRFR0DLINB0RlPSsvt",
+    "type": "topic",
+    "label": "Introduction to Language",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\introduction-to-language@NvODRFR0DLINB0RlPSsvt.md"
+  },
+  {
+    "id": "x_28LiDVshqWns_aIBsdx",
+    "old_id": "x_28LiDVshqWns_aIBsdx",
+    "type": "subtopic",
+    "label": "What is C++?",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\what-is-c@x_28LiDVshqWns_aIBsdx.md"
+  },
+  {
+    "id": "tl6VCQ5IEGDVyFcgj7jDm",
+    "old_id": "tl6VCQ5IEGDVyFcgj7jDm",
+    "type": "subtopic",
+    "label": "Why use C++",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\why-use-c@tl6VCQ5IEGDVyFcgj7jDm.md"
+  },
+  {
+    "id": "2Ag0t3LPryTF8khHLRfy-",
+    "old_id": "2Ag0t3LPryTF8khHLRfy-",
+    "type": "subtopic",
+    "label": "C vs C++",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\c-vs-c@2Ag0t3LPryTF8khHLRfy-.md"
+  },
+  {
+    "id": "Zc_TTzmM36yWsu3GvOy9x",
+    "old_id": "Zc_TTzmM36yWsu3GvOy9x",
+    "type": "topic",
+    "label": "Setting up your Environment",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\setting-up-your-environment@Zc_TTzmM36yWsu3GvOy9x.md"
+  },
+  {
+    "id": "0J_ltQEJh2g28OE2ZEYJj",
+    "old_id": "0J_ltQEJh2g28OE2ZEYJj",
+    "type": "subtopic",
+    "label": "Installing C++",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\installing-c@0J_ltQEJh2g28OE2ZEYJj.md"
+  },
+  {
+    "id": "ew0AfyadpXPRO0ZY3Z19k",
+    "old_id": "ew0AfyadpXPRO0ZY3Z19k",
+    "type": "subtopic",
+    "label": "Code Editors / IDEs",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\code-editors--ides@ew0AfyadpXPRO0ZY3Z19k.md"
+  },
+  {
+    "id": "SEq0D2Zg5WTsIDtd1hW9f",
+    "old_id": "SEq0D2Zg5WTsIDtd1hW9f",
+    "type": "subtopic",
+    "label": "Running your First Program",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\running-your-first-program@SEq0D2Zg5WTsIDtd1hW9f.md"
+  },
+  {
+    "id": "kl2JI_Wl47c5r8SYzxvCq",
+    "old_id": "MwznA4qfpNlv6sqSNjPZi",
+    "type": "topic",
+    "label": "Basic Operations",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\data-types@MwznA4qfpNlv6sqSNjPZi.md"
+  },
+  {
+    "id": "8aOSpZLWwZv_BEYiurhyR",
+    "old_id": "8aOSpZLWwZv_BEYiurhyR",
+    "type": "subtopic",
+    "label": "Arithmetic Operators",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\arithmetic-operators@8aOSpZLWwZv_BEYiurhyR.md"
+  },
+  {
+    "id": "Y9gq8WkDA_XGe68JkY2UZ",
+    "old_id": "Y9gq8WkDA_XGe68JkY2UZ",
+    "type": "subtopic",
+    "label": "Logical Operators",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\logical-operators@Y9gq8WkDA_XGe68JkY2UZ.md"
+  },
+  {
+    "id": "zE4iPSq2KsrDSByQ0sGK_",
+    "old_id": "zE4iPSq2KsrDSByQ0sGK_",
+    "type": "subtopic",
+    "label": "Bitwise Operators",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\bitwise-operators@zE4iPSq2KsrDSByQ0sGK_.md"
+  },
+  {
+    "id": "s5Gs4yF9TPh-psYmtPzks",
+    "old_id": "MwznA4qfpNlv6sqSNjPZi",
+    "type": "topic",
+    "label": "Control Flow & Statements",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\data-types@MwznA4qfpNlv6sqSNjPZi.md"
+  },
+  {
+    "id": "_IP_e1K9LhNHilYTDh7L5",
+    "old_id": "bjpFWxiCKGz28E-ukhZBp",
+    "type": "subtopic",
+    "label": "for / while / do while loops",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\if-else--switch--goto@bjpFWxiCKGz28E-ukhZBp.md"
+  },
+  {
+    "id": "bjpFWxiCKGz28E-ukhZBp",
+    "old_id": "bjpFWxiCKGz28E-ukhZBp",
+    "type": "subtopic",
+    "label": "if else / switch / goto",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\if-else--switch--goto@bjpFWxiCKGz28E-ukhZBp.md"
+  },
+  {
+    "id": "oYi3YOc1GC2Nfp71VOkJt",
+    "old_id": "MwznA4qfpNlv6sqSNjPZi",
+    "type": "topic",
+    "label": "Functions",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\data-types@MwznA4qfpNlv6sqSNjPZi.md"
+  },
+  {
+    "id": "obZIxRp0eMWdG7gplNIBc",
+    "old_id": "xjiFBVe-VGqCqWfkPVGKf",
+    "type": "subtopic",
+    "label": "Static Polymorphism",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\lambdas@xjiFBVe-VGqCqWfkPVGKf.md"
+  },
+  {
+    "id": "sgfqb22sdN4VRJYkhAVaf",
+    "old_id": "xjiFBVe-VGqCqWfkPVGKf",
+    "type": "subtopic",
+    "label": "Function Overloading",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\lambdas@xjiFBVe-VGqCqWfkPVGKf.md"
+  },
+  {
+    "id": "llCBeut_uc9IAe2oi4KZ9",
+    "old_id": "xjiFBVe-VGqCqWfkPVGKf",
+    "type": "subtopic",
+    "label": "Operator Overloading",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\lambdas@xjiFBVe-VGqCqWfkPVGKf.md"
+  },
+  {
+    "id": "xjiFBVe-VGqCqWfkPVGKf",
+    "old_id": "xjiFBVe-VGqCqWfkPVGKf",
+    "type": "subtopic",
+    "label": "Lambdas",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\lambdas@xjiFBVe-VGqCqWfkPVGKf.md"
+  },
+  {
+    "id": "MwznA4qfpNlv6sqSNjPZi",
+    "old_id": "MwznA4qfpNlv6sqSNjPZi",
+    "type": "topic",
+    "label": "Data Types",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\data-types@MwznA4qfpNlv6sqSNjPZi.md"
+  },
+  {
+    "id": "f1djN0GxoeVPr_0cl6vMq",
+    "old_id": "f1djN0GxoeVPr_0cl6vMq",
+    "type": "subtopic",
+    "label": "Static Typing",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\static-typing@f1djN0GxoeVPr_0cl6vMq.md"
+  },
+  {
+    "id": "i0EAFEUB-F0wBJWOtrl1A",
+    "old_id": "i0EAFEUB-F0wBJWOtrl1A",
+    "type": "subtopic",
+    "label": "Dynamic Typing",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\dynamic-typing@i0EAFEUB-F0wBJWOtrl1A.md"
+  },
+  {
+    "id": "r0yD1gfn03wTpEBi6zNsu",
+    "old_id": "r0yD1gfn03wTpEBi6zNsu",
+    "type": "subtopic",
+    "label": "RTTI",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\rtti@r0yD1gfn03wTpEBi6zNsu.md"
+  },
+  {
+    "id": "DWw8NxkLpIpiOSUaZZ1oA",
+    "old_id": "DWw8NxkLpIpiOSUaZZ1oA",
+    "type": "topic",
+    "label": "Pointers and References",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\pointers-and-references@DWw8NxkLpIpiOSUaZZ1oA.md"
+  },
+  {
+    "id": "uUzRKa9wGzdUwwmAg3FWr",
+    "old_id": "uUzRKa9wGzdUwwmAg3FWr",
+    "type": "subtopic",
+    "label": "References",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\references@uUzRKa9wGzdUwwmAg3FWr.md"
+  },
+  {
+    "id": "mSFwsTYvmg-GwG4_DEIEf",
+    "old_id": "mSFwsTYvmg-GwG4_DEIEf",
+    "type": "subtopic",
+    "label": "Memory Model",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\memory-model@mSFwsTYvmg-GwG4_DEIEf.md"
+  },
+  {
+    "id": "9aA_-IfQ9WmbPgwic0mFN",
+    "old_id": "9aA_-IfQ9WmbPgwic0mFN",
+    "type": "subtopic",
+    "label": "Lifetime of Objects",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\lifetime-of-objects@9aA_-IfQ9WmbPgwic0mFN.md"
+  },
+  {
+    "id": "ulvwm4rRPgkpgaqGgyH5a",
+    "old_id": "ulvwm4rRPgkpgaqGgyH5a",
+    "type": "subtopic",
+    "label": "Smart Pointers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\smart-pointers@ulvwm4rRPgkpgaqGgyH5a.md"
+  },
+  {
+    "id": "vUwSS-uX36OWZouO0wOcy",
+    "old_id": "vUwSS-uX36OWZouO0wOcy",
+    "type": "subtopic",
+    "label": "weak_ptr",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\weak_ptr@vUwSS-uX36OWZouO0wOcy.md"
+  },
+  {
+    "id": "b5jZIZD_U_CPg-_bdndjz",
+    "old_id": "b5jZIZD_U_CPg-_bdndjz",
+    "type": "subtopic",
+    "label": "shared_ptr",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\shared_ptr@b5jZIZD_U_CPg-_bdndjz.md"
+  },
+  {
+    "id": "k9c5seRkhgm_yHPpiz2X0",
+    "old_id": "k9c5seRkhgm_yHPpiz2X0",
+    "type": "subtopic",
+    "label": "unique_ptr",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\unique_ptr@k9c5seRkhgm_yHPpiz2X0.md"
+  },
+  {
+    "id": "uEGEmbxegATIrvGfobJb9",
+    "old_id": "uEGEmbxegATIrvGfobJb9",
+    "type": "subtopic",
+    "label": "Raw Pointers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\raw-pointers@uEGEmbxegATIrvGfobJb9.md"
+  },
+  {
+    "id": "Gld0nRs0sM8kRe8XmYolu",
+    "old_id": "Gld0nRs0sM8kRe8XmYolu",
+    "type": "subtopic",
+    "label": "New/Delete Operators",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\newdelete-operators@Gld0nRs0sM8kRe8XmYolu.md"
+  },
+  {
+    "id": "6w0WExQ4lGIGgok6Thq0s",
+    "old_id": "6w0WExQ4lGIGgok6Thq0s",
+    "type": "subtopic",
+    "label": "Memory Leakage",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\memory-leakage@6w0WExQ4lGIGgok6Thq0s.md"
+  },
+  {
+    "id": "Zw2AOTK5uc9BoKEpY7W1C",
+    "old_id": "Zw2AOTK5uc9BoKEpY7W1C",
+    "type": "topic",
+    "label": "Structuring Codebase",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\structuring-codebase@Zw2AOTK5uc9BoKEpY7W1C.md"
+  },
+  {
+    "id": "dKCYmxDNZubCVcR5rf8b-",
+    "old_id": "dKCYmxDNZubCVcR5rf8b-",
+    "type": "subtopic",
+    "label": "Scope",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\scope@dKCYmxDNZubCVcR5rf8b-.md"
+  },
+  {
+    "id": "iIdC7V8sojwyEqK1xMuHn",
+    "old_id": "iIdC7V8sojwyEqK1xMuHn",
+    "type": "subtopic",
+    "label": "Namespaces",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\namespaces@iIdC7V8sojwyEqK1xMuHn.md"
+  },
+  {
+    "id": "CK7yf8Bo7kfbV6x2tZTrh",
+    "old_id": "CK7yf8Bo7kfbV6x2tZTrh",
+    "type": "subtopic",
+    "label": "Headers / CPP Files",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\headers--cpp-files@CK7yf8Bo7kfbV6x2tZTrh.md"
+  },
+  {
+    "id": "CMlWNQwpywNhO9B6Yj6Me",
+    "old_id": "CMlWNQwpywNhO9B6Yj6Me",
+    "type": "topic",
+    "label": "Structures and Classes",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\structures-and-classes@CMlWNQwpywNhO9B6Yj6Me.md"
+  },
+  {
+    "id": "7sdEzZCIoarzznwO4XcCv",
+    "old_id": "WjHpueZDK-d3oDNMVZi9w",
+    "type": "subtopic",
+    "label": "Rule of Zero, Five, Three",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\multiple-inheritance@WjHpueZDK-d3oDNMVZi9w.md"
+  },
+  {
+    "id": "WjHpueZDK-d3oDNMVZi9w",
+    "old_id": "WjHpueZDK-d3oDNMVZi9w",
+    "type": "subtopic",
+    "label": "Multiple Inheritance",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\multiple-inheritance@WjHpueZDK-d3oDNMVZi9w.md"
+  },
+  {
+    "id": "b3-QYKNcW3LYCNOza3Olf",
+    "old_id": "b3-QYKNcW3LYCNOza3Olf",
+    "type": "subtopic",
+    "label": "Object Oriented Programming",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\object-oriented-programming@b3-QYKNcW3LYCNOza3Olf.md"
+  },
+  {
+    "id": "hNBErGNiegLsUJn_vgcOR",
+    "old_id": "hNBErGNiegLsUJn_vgcOR",
+    "type": "subtopic",
+    "label": "Virtual Methods",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\virtual-methods@hNBErGNiegLsUJn_vgcOR.md"
+  },
+  {
+    "id": "s99ImazcwCgAESxZd8ksa",
+    "old_id": "s99ImazcwCgAESxZd8ksa",
+    "type": "subtopic",
+    "label": "Virtual Tables",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\virtual-tables@s99ImazcwCgAESxZd8ksa.md"
+  },
+  {
+    "id": "7h1VivjCPDwriL7FirtFv",
+    "old_id": "7h1VivjCPDwriL7FirtFv",
+    "type": "subtopic",
+    "label": "Dynamic Polymorphism",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\dynamic-polymorphism@7h1VivjCPDwriL7FirtFv.md"
+  },
+  {
+    "id": "B2SGBENzUMl0SAjG4j91V",
+    "old_id": "-6fwJQOfsorgHkoQGp4T3",
+    "type": "topic",
+    "label": "Exception Handling",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\language-concepts@-6fwJQOfsorgHkoQGp4T3.md"
+  },
+  {
+    "id": "oWygnpwHq2poXQMTTSCpl",
+    "old_id": "NJud5SXBAUZ6Sr78kZ7jx",
+    "type": "subtopic",
+    "label": "Exit Codes",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\exceptions@NJud5SXBAUZ6Sr78kZ7jx.md"
+  },
+  {
+    "id": "NJud5SXBAUZ6Sr78kZ7jx",
+    "old_id": "NJud5SXBAUZ6Sr78kZ7jx",
+    "type": "subtopic",
+    "label": "Exceptions",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\exceptions@NJud5SXBAUZ6Sr78kZ7jx.md"
+  },
+  {
+    "id": "y4-P4UNC--rE1vni8HdTn",
+    "old_id": "y4-P4UNC--rE1vni8HdTn",
+    "type": "subtopic",
+    "label": "Access Violations",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\access-violations@y4-P4UNC--rE1vni8HdTn.md"
+  },
+  {
+    "id": "-6fwJQOfsorgHkoQGp4T3",
+    "old_id": "-6fwJQOfsorgHkoQGp4T3",
+    "type": "topic",
+    "label": "Language Concepts",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\language-concepts@-6fwJQOfsorgHkoQGp4T3.md"
+  },
+  {
+    "id": "CG01PTVgHtjfKvsJkJLGl",
+    "old_id": "CG01PTVgHtjfKvsJkJLGl",
+    "type": "subtopic",
+    "label": "auto (Automatic Type Deduction)",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\auto-automatic-type-deduction@CG01PTVgHtjfKvsJkJLGl.md"
+  },
+  {
+    "id": "PiMhw1oP9-NZEa6I9u4lX",
+    "old_id": "PiMhw1oP9-NZEa6I9u4lX",
+    "type": "subtopic",
+    "label": "Type Casting",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\type-casting@PiMhw1oP9-NZEa6I9u4lX.md"
+  },
+  {
+    "id": "_XB2Imyf23-6AOeoNLhYQ",
+    "old_id": "_XB2Imyf23-6AOeoNLhYQ",
+    "type": "subtopic",
+    "label": "static_cast",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\static_cast@_XB2Imyf23-6AOeoNLhYQ.md"
+  },
+  {
+    "id": "5g22glc97siQOcTkHbwan",
+    "old_id": "5g22glc97siQOcTkHbwan",
+    "type": "subtopic",
+    "label": "const_cast",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\const_cast@5g22glc97siQOcTkHbwan.md"
+  },
+  {
+    "id": "4BdFcuQ5KNW94cu2jz-vE",
+    "old_id": "4BdFcuQ5KNW94cu2jz-vE",
+    "type": "subtopic",
+    "label": "dynamic_cast",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\dynamic_cast@4BdFcuQ5KNW94cu2jz-vE.md"
+  },
+  {
+    "id": "ZMyFDJrpCauGrY5NZkOwg",
+    "old_id": "ZMyFDJrpCauGrY5NZkOwg",
+    "type": "subtopic",
+    "label": "reinterpret_cast",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\reinterpret_cast@ZMyFDJrpCauGrY5NZkOwg.md"
+  },
+  {
+    "id": "IDOlquv6jlfecwQoBwkGZ",
+    "old_id": "IDOlquv6jlfecwQoBwkGZ",
+    "type": "subtopic",
+    "label": "Undefined Behavior (UB)",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\undefined-behavior-ub@IDOlquv6jlfecwQoBwkGZ.md"
+  },
+  {
+    "id": "YSWN7nS8vA9nMldSUrZRT",
+    "old_id": "YSWN7nS8vA9nMldSUrZRT",
+    "type": "subtopic",
+    "label": "Argument Dependent Lookup (ADL)",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\argument-dependent-lookup-adl@YSWN7nS8vA9nMldSUrZRT.md"
+  },
+  {
+    "id": "Lt7ss59KZw9Jwqj234jm2",
+    "old_id": "Lt7ss59KZw9Jwqj234jm2",
+    "type": "subtopic",
+    "label": "Name Mangling",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\name-mangling@Lt7ss59KZw9Jwqj234jm2.md"
+  },
+  {
+    "id": "zKdlfZTRHwjtmRUGW9z9-",
+    "old_id": "zKdlfZTRHwjtmRUGW9z9-",
+    "type": "subtopic",
+    "label": "Macros",
+    "resources": [],
+    "legend": {
+      "color": "#000000",
+      "label": "Advanced Topics / Pick Later"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\macros@zKdlfZTRHwjtmRUGW9z9-.md"
+  },
+  {
+    "id": "DHdNBP7_ixjr6h-dIQ7g6",
+    "old_id": "DHdNBP7_ixjr6h-dIQ7g6",
+    "type": "topic",
+    "label": "Standard Library + STL",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\standard-library--stl@DHdNBP7_ixjr6h-dIQ7g6.md"
+  },
+  {
+    "id": "Ebu8gzbyyXEeJryeE0SpG",
+    "old_id": "Ebu8gzbyyXEeJryeE0SpG",
+    "type": "subtopic",
+    "label": "Iterators",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\iterators@Ebu8gzbyyXEeJryeE0SpG.md"
+  },
+  {
+    "id": "VeVxZ230xkesQsIDig8zQ",
+    "old_id": "VeVxZ230xkesQsIDig8zQ",
+    "type": "subtopic",
+    "label": "iostream",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\iostream@VeVxZ230xkesQsIDig8zQ.md"
+  },
+  {
+    "id": "whyj6Z4RXFsVQYRfYYn7B",
+    "old_id": "whyj6Z4RXFsVQYRfYYn7B",
+    "type": "subtopic",
+    "label": "Algorithms",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\algorithms@whyj6Z4RXFsVQYRfYYn7B.md"
+  },
+  {
+    "id": "yGvE6eHKlPMBB6rde0llR",
+    "old_id": "yGvE6eHKlPMBB6rde0llR",
+    "type": "subtopic",
+    "label": "Date / Time",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\date--time@yGvE6eHKlPMBB6rde0llR.md"
+  },
+  {
+    "id": "OXQUPqxzs1-giAACwl3X1",
+    "old_id": "OXQUPqxzs1-giAACwl3X1",
+    "type": "subtopic",
+    "label": "Multithreading",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\multithreading@OXQUPqxzs1-giAACwl3X1.md"
+  },
+  {
+    "id": "1pydf-SR0QUfVNuBEyvzc",
+    "old_id": "1pydf-SR0QUfVNuBEyvzc",
+    "type": "subtopic",
+    "label": "Containers",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\containers@1pydf-SR0QUfVNuBEyvzc.md"
+  },
+  {
+    "id": "-6AOrbuOE7DJCmxlcgCay",
+    "old_id": "-6AOrbuOE7DJCmxlcgCay",
+    "type": "topic",
+    "label": "Templates",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\templates@-6AOrbuOE7DJCmxlcgCay.md"
+  },
+  {
+    "id": "w4EIf58KP-Pq-yc0HlGxc",
+    "old_id": "w4EIf58KP-Pq-yc0HlGxc",
+    "type": "subtopic",
+    "label": "Variadic Templates",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\variadic-templates@w4EIf58KP-Pq-yc0HlGxc.md"
+  },
+  {
+    "id": "sObOuccY0PDeGG-9GrFDF",
+    "old_id": "sObOuccY0PDeGG-9GrFDF",
+    "type": "subtopic",
+    "label": "Template Specialization",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\template-specialization@sObOuccY0PDeGG-9GrFDF.md"
+  },
+  {
+    "id": "WptReUOwVth3C9-AVmMHF",
+    "old_id": "WptReUOwVth3C9-AVmMHF",
+    "type": "subtopic",
+    "label": "Type Traits",
+    "resources": [],
+    "legend": {
+      "color": "#000000",
+      "label": "Advanced Topics / Pick Later"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\type-traits@WptReUOwVth3C9-AVmMHF.md"
+  },
+  {
+    "id": "3C5UfejDX-1Z8ZF6C53xD",
+    "old_id": "3C5UfejDX-1Z8ZF6C53xD",
+    "type": "subtopic",
+    "label": "SFINAE",
+    "resources": [],
+    "legend": {
+      "color": "#000000",
+      "label": "Advanced Topics / Pick Later"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\sfinae@3C5UfejDX-1Z8ZF6C53xD.md"
+  },
+  {
+    "id": "6hTcmJwNnQstbWWzNCfTe",
+    "old_id": "1NYJtbdcdOB4-vIrnq4yX",
+    "type": "subtopic",
+    "label": "Full Template Specialization",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\partial-template-specialization@1NYJtbdcdOB4-vIrnq4yX.md"
+  },
+  {
+    "id": "1NYJtbdcdOB4-vIrnq4yX",
+    "old_id": "1NYJtbdcdOB4-vIrnq4yX",
+    "type": "subtopic",
+    "label": "Partial Template Specialization",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\partial-template-specialization@1NYJtbdcdOB4-vIrnq4yX.md"
+  },
+  {
+    "id": "fb3bnfKXjSIjPAk4b95lg",
+    "old_id": "qmHs6_BzND_xpMmls5YUH",
+    "type": "topic",
+    "label": "Idioms",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\debuggers@qmHs6_BzND_xpMmls5YUH.md"
+  },
+  {
+    "id": "xjUaIp8gGxkN-cp8emJ2M",
+    "old_id": "xjUaIp8gGxkN-cp8emJ2M",
+    "type": "subtopic",
+    "label": "Non-Copyable / Non-Moveable",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\non-copyable--non-moveable@xjUaIp8gGxkN-cp8emJ2M.md"
+  },
+  {
+    "id": "YvmjrZSAOmjhVPo05MJqN",
+    "old_id": "YvmjrZSAOmjhVPo05MJqN",
+    "type": "subtopic",
+    "label": "Erase-Remove",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\erase-remove@YvmjrZSAOmjhVPo05MJqN.md"
+  },
+  {
+    "id": "lxAzI42jQdaofzQ5MXebG",
+    "old_id": "lxAzI42jQdaofzQ5MXebG",
+    "type": "subtopic",
+    "label": "Copy and Swap",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\copy-and-swap@lxAzI42jQdaofzQ5MXebG.md"
+  },
+  {
+    "id": "O2Du5gHHxFxAI2u5uO8wu",
+    "old_id": "O2Du5gHHxFxAI2u5uO8wu",
+    "type": "subtopic",
+    "label": "Copy on Write",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\copy-on-write@O2Du5gHHxFxAI2u5uO8wu.md"
+  },
+  {
+    "id": "OmHDlLxCnH8RDdu5vx9fl",
+    "old_id": "OmHDlLxCnH8RDdu5vx9fl",
+    "type": "subtopic",
+    "label": "RAII",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\raii@OmHDlLxCnH8RDdu5vx9fl.md"
+  },
+  {
+    "id": "MEoWt8NKjPLVTeGgYf3cR",
+    "old_id": "MEoWt8NKjPLVTeGgYf3cR",
+    "type": "subtopic",
+    "label": "Pimpl",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\pimpl@MEoWt8NKjPLVTeGgYf3cR.md"
+  },
+  {
+    "id": "ttt-yeIi4BPWrgvW324W7",
+    "old_id": "ttt-yeIi4BPWrgvW324W7",
+    "type": "subtopic",
+    "label": "CRTP",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\crtp@ttt-yeIi4BPWrgvW324W7.md"
+  },
+  {
+    "id": "vvE1aUsWbF1OFcmMUHbJa",
+    "old_id": "qmHs6_BzND_xpMmls5YUH",
+    "type": "topic",
+    "label": "Standards",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\debuggers@qmHs6_BzND_xpMmls5YUH.md"
+  },
+  {
+    "id": "T6rCTv9Dxkm-tEA-l9XEv",
+    "old_id": "T6rCTv9Dxkm-tEA-l9XEv",
+    "type": "subtopic",
+    "label": "C++ 11 / 14",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\c-11--14@T6rCTv9Dxkm-tEA-l9XEv.md"
+  },
+  {
+    "id": "R2-qWGUxsTOeSHRuUzhd2",
+    "old_id": "R2-qWGUxsTOeSHRuUzhd2",
+    "type": "subtopic",
+    "label": "C++ 17",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\c-17@R2-qWGUxsTOeSHRuUzhd2.md"
+  },
+  {
+    "id": "o3no4a5_iMFzEAGs56-BJ",
+    "old_id": "o3no4a5_iMFzEAGs56-BJ",
+    "type": "subtopic",
+    "label": "C++ 20",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\c-20@o3no4a5_iMFzEAGs56-BJ.md"
+  },
+  {
+    "id": "sxbbKtg7kMNbkx7fXhjR9",
+    "old_id": "sxbbKtg7kMNbkx7fXhjR9",
+    "type": "subtopic",
+    "label": "Newest",
+    "resources": [],
+    "legend": {
+      "color": "#000000",
+      "label": "Advanced Topics / Pick Later"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\c-23@sxbbKtg7kMNbkx7fXhjR9.md"
+  },
+  {
+    "id": "PPg0V5EzGBeJsysg1215V",
+    "old_id": "PPg0V5EzGBeJsysg1215V",
+    "type": "subtopic",
+    "label": "C++ 0x",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\c-0x@PPg0V5EzGBeJsysg1215V.md"
+  },
+  {
+    "id": "qmHs6_BzND_xpMmls5YUH",
+    "old_id": "qmHs6_BzND_xpMmls5YUH",
+    "type": "topic",
+    "label": "Debuggers",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\debuggers@qmHs6_BzND_xpMmls5YUH.md"
+  },
+  {
+    "id": "VtPb8-AJKzhTB0QbMtoU4",
+    "old_id": "VtPb8-AJKzhTB0QbMtoU4",
+    "type": "subtopic",
+    "label": "Understanding Debugger Messages",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\understanding-debugger-messages@VtPb8-AJKzhTB0QbMtoU4.md"
+  },
+  {
+    "id": "sR_FxGZHoMCV9Iv7z2_SX",
+    "old_id": "sR_FxGZHoMCV9Iv7z2_SX",
+    "type": "subtopic",
+    "label": "Debugging Symbols",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\debugging-symbols@sR_FxGZHoMCV9Iv7z2_SX.md"
+  },
+  {
+    "id": "y8VCbGDUco9bzGRfIBD8R",
+    "old_id": "y8VCbGDUco9bzGRfIBD8R",
+    "type": "subtopic",
+    "label": "WinDBg",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\windbg@y8VCbGDUco9bzGRfIBD8R.md"
+  },
+  {
+    "id": "BmWsoL9c_Aag5nVlMsKm2",
+    "old_id": "BmWsoL9c_Aag5nVlMsKm2",
+    "type": "subtopic",
+    "label": "GDB",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\gdb@BmWsoL9c_Aag5nVlMsKm2.md"
+  },
+  {
+    "id": "FTMHsUiE8isD_OVZr62Xc",
+    "old_id": "h29eJG1hWHa7vMhSqtfV2",
+    "type": "topic",
+    "label": "Compilers",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\package-managers@h29eJG1hWHa7vMhSqtfV2.md"
+  },
+  {
+    "id": "DVckzBUMgk_lWThVkLyAT",
+    "old_id": "DVckzBUMgk_lWThVkLyAT",
+    "type": "subtopic",
+    "label": "Compiler Stages",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\compiler-stages@DVckzBUMgk_lWThVkLyAT.md"
+  },
+  {
+    "id": "hSG6Aux39X0cXi6ADy2al",
+    "old_id": "hSG6Aux39X0cXi6ADy2al",
+    "type": "subtopic",
+    "label": "Compilers and Features",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\compilers-and-features@hSG6Aux39X0cXi6ADy2al.md"
+  },
+  {
+    "id": "jVXFCo6puMxJ_ifn_uwim",
+    "old_id": "h29eJG1hWHa7vMhSqtfV2",
+    "type": "topic",
+    "label": "Build Systems",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\package-managers@h29eJG1hWHa7vMhSqtfV2.md"
+  },
+  {
+    "id": "ysnXvSHGBMMozBJyXpHl5",
+    "old_id": "ysnXvSHGBMMozBJyXpHl5",
+    "type": "subtopic",
+    "label": "CMAKE",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\cmake@ysnXvSHGBMMozBJyXpHl5.md"
+  },
+  {
+    "id": "t6rZLH7l8JQm99ax_fEJ9",
+    "old_id": "t6rZLH7l8JQm99ax_fEJ9",
+    "type": "subtopic",
+    "label": "Makefile",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\makefile@t6rZLH7l8JQm99ax_fEJ9.md"
+  },
+  {
+    "id": "HkUCD5A_M9bJxJRElkK0x",
+    "old_id": "HkUCD5A_M9bJxJRElkK0x",
+    "type": "subtopic",
+    "label": "Ninja",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\ninja@HkUCD5A_M9bJxJRElkK0x.md"
+  },
+  {
+    "id": "h29eJG1hWHa7vMhSqtfV2",
+    "old_id": "h29eJG1hWHa7vMhSqtfV2",
+    "type": "topic",
+    "label": "Package Managers",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\package-managers@h29eJG1hWHa7vMhSqtfV2.md"
+  },
+  {
+    "id": "PKG5pACLfRS2ogfzBX47_",
+    "old_id": "g0s0F4mLV16eNvMBflN2e",
+    "type": "subtopic",
+    "label": "vcpkg",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\nuget@g0s0F4mLV16eNvMBflN2e.md"
+  },
+  {
+    "id": "g0s0F4mLV16eNvMBflN2e",
+    "old_id": "g0s0F4mLV16eNvMBflN2e",
+    "type": "subtopic",
+    "label": "NuGet",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\nuget@g0s0F4mLV16eNvMBflN2e.md"
+  },
+  {
+    "id": "ky_UqizToTZHC_b77qFi2",
+    "old_id": "PKG5pACLfRS2ogfzBX47_",
+    "type": "subtopic",
+    "label": "Conan",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\vcpkg@PKG5pACLfRS2ogfzBX47_.md"
+  },
+  {
+    "id": "3ehBc2sKVlPj7dn4RVZCH",
+    "old_id": "g0s0F4mLV16eNvMBflN2e",
+    "type": "subtopic",
+    "label": "Spack",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\nuget@g0s0F4mLV16eNvMBflN2e.md"
+  },
+  {
+    "id": "4kkX5g_-plX9zVqr0ZoiR",
+    "old_id": "4kkX5g_-plX9zVqr0ZoiR",
+    "type": "topic",
+    "label": "Working with Libraries",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\working-with-libraries@4kkX5g_-plX9zVqr0ZoiR.md"
+  },
+  {
+    "id": "5mNqH_AEiLxUmgurNW1Fq",
+    "old_id": "5mNqH_AEiLxUmgurNW1Fq",
+    "type": "subtopic",
+    "label": "Library Inclusion",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\library-inclusion@5mNqH_AEiLxUmgurNW1Fq.md"
+  },
+  {
+    "id": "sLVs95EOeHZldoKY0L_dH",
+    "old_id": "sLVs95EOeHZldoKY0L_dH",
+    "type": "subtopic",
+    "label": "Licensing",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Beginner Topics / Start here"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\licensing@sLVs95EOeHZldoKY0L_dH.md"
+  },
+  {
+    "id": "1d7h5P1Q0RVHryKPVogQy",
+    "old_id": "1d7h5P1Q0RVHryKPVogQy",
+    "type": "subtopic",
+    "label": "Boost",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\boost@1d7h5P1Q0RVHryKPVogQy.md"
+  },
+  {
+    "id": "Eq3TKSFJ2F2mrTHAaU2J4",
+    "old_id": "Eq3TKSFJ2F2mrTHAaU2J4",
+    "type": "subtopic",
+    "label": "OpenCV",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\opencv@Eq3TKSFJ2F2mrTHAaU2J4.md"
+  },
+  {
+    "id": "nOkniNXfXwPPlOEJHJoGl",
+    "old_id": "nOkniNXfXwPPlOEJHJoGl",
+    "type": "subtopic",
+    "label": "POCO",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\poco@nOkniNXfXwPPlOEJHJoGl.md"
+  },
+  {
+    "id": "jpMCIWQko7p3ndezYHL4D",
+    "old_id": "jpMCIWQko7p3ndezYHL4D",
+    "type": "subtopic",
+    "label": "protobuf",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\protobuf@jpMCIWQko7p3ndezYHL4D.md"
+  },
+  {
+    "id": "621J9W4xCofumNZGo4TZT",
+    "old_id": "621J9W4xCofumNZGo4TZT",
+    "type": "subtopic",
+    "label": "gRPC",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\grpc@621J9W4xCofumNZGo4TZT.md"
+  },
+  {
+    "id": "j_eNHhs0J08Dt7HVbo4Q2",
+    "old_id": "j_eNHhs0J08Dt7HVbo4Q2",
+    "type": "subtopic",
+    "label": "Tensorflow",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\tensorflow@j_eNHhs0J08Dt7HVbo4Q2.md"
+  },
+  {
+    "id": "tEkvlJPAkD5fji-MMODL7",
+    "old_id": "tEkvlJPAkD5fji-MMODL7",
+    "type": "subtopic",
+    "label": "pybind11",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\pybind11@tEkvlJPAkD5fji-MMODL7.md"
+  },
+  {
+    "id": "q64qFxoCrR38RPsN2lC8x",
+    "old_id": "q64qFxoCrR38RPsN2lC8x",
+    "type": "subtopic",
+    "label": "spdlog",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\spdlog@q64qFxoCrR38RPsN2lC8x.md"
+  },
+  {
+    "id": "GGZJaYpRENaqloJzt0VtY",
+    "old_id": "GGZJaYpRENaqloJzt0VtY",
+    "type": "subtopic",
+    "label": "opencl",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\opencl@GGZJaYpRENaqloJzt0VtY.md"
+  },
+  {
+    "id": "1CqQgmHDeo1HlPdpUJS7H",
+    "old_id": "1CqQgmHDeo1HlPdpUJS7H",
+    "type": "subtopic",
+    "label": "fmt",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\fmt@1CqQgmHDeo1HlPdpUJS7H.md"
+  },
+  {
+    "id": "et-dXKPYuyVW6eV2K3CM8",
+    "old_id": "et-dXKPYuyVW6eV2K3CM8",
+    "type": "subtopic",
+    "label": "ranges_v3",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\ranges_v3@et-dXKPYuyVW6eV2K3CM8.md"
+  },
+  {
+    "id": "MrAM-viRaF8DSxB6sVdD9",
+    "old_id": "88pr5aN7cctZfDVVo-2ns",
+    "type": "subtopic",
+    "label": "gtest / gmock",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Intermediate Topics / Pick Next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\pytorch-c@88pr5aN7cctZfDVVo-2ns.md"
+  },
+  {
+    "id": "gAZ9Dqgj1_UkaLzVgzx1t",
+    "old_id": "gAZ9Dqgj1_UkaLzVgzx1t",
+    "type": "subtopic",
+    "label": "Qt",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\qt@gAZ9Dqgj1_UkaLzVgzx1t.md"
+  },
+  {
+    "id": "s13jQuaC6gw0Lab3Cbyy6",
+    "old_id": "s13jQuaC6gw0Lab3Cbyy6",
+    "type": "subtopic",
+    "label": "Catch2",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\catch2@s13jQuaC6gw0Lab3Cbyy6.md"
+  },
+  {
+    "id": "O0lVEMTAV1pq9sYCKQvh_",
+    "old_id": "88pr5aN7cctZfDVVo-2ns",
+    "type": "subtopic",
+    "label": "Orbit Profiler",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\pytorch-c@88pr5aN7cctZfDVVo-2ns.md"
+  },
+  {
+    "id": "88pr5aN7cctZfDVVo-2ns",
+    "old_id": "88pr5aN7cctZfDVVo-2ns",
+    "type": "subtopic",
+    "label": "PyTorch C++",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn if you want"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cpp\\content\\pytorch-c@88pr5aN7cctZfDVVo-2ns.md"
+  }
+]

@@ -1,0 +1,906 @@
+[
+  {
+    "id": "4zicbh7Wg2lmKSRhb6E-L",
+    "old_id": "4zicbh7Wg2lmKSRhb6E-L",
+    "type": "topic",
+    "label": "Understand the Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\understand-the-basics@4zicbh7Wg2lmKSRhb6E-L.md"
+  },
+  {
+    "id": "EGG99VA-PEdWdVxNDLtG_",
+    "old_id": "EGG99VA-PEdWdVxNDLtG_",
+    "type": "subtopic",
+    "label": "What is Software Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\what-is-software-architecture@EGG99VA-PEdWdVxNDLtG_.md"
+  },
+  {
+    "id": "eG38hT0rotYJ3G-t9df9R",
+    "old_id": "eG38hT0rotYJ3G-t9df9R",
+    "type": "subtopic",
+    "label": "What is a Software Architect",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\what-is-a-software-architect@eG38hT0rotYJ3G-t9df9R.md"
+  },
+  {
+    "id": "2sR4KULvAUUoOtopvsEBs",
+    "old_id": "2sR4KULvAUUoOtopvsEBs",
+    "type": "subtopic",
+    "label": "Levels of Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\levels-of-architecture@2sR4KULvAUUoOtopvsEBs.md"
+  },
+  {
+    "id": "Lqe47l4j-C4OwkbkwPYry",
+    "old_id": "Lqe47l4j-C4OwkbkwPYry",
+    "type": "subtopic",
+    "label": "Application Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\application-architecture@Lqe47l4j-C4OwkbkwPYry.md"
+  },
+  {
+    "id": "uGs-9xE3DMJxKhenltbFK",
+    "old_id": "uGs-9xE3DMJxKhenltbFK",
+    "type": "subtopic",
+    "label": "Solution Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\solution-architecture@uGs-9xE3DMJxKhenltbFK.md"
+  },
+  {
+    "id": "vlW07sc-FQnxPMjDMn8_F",
+    "old_id": "vlW07sc-FQnxPMjDMn8_F",
+    "type": "subtopic",
+    "label": "Enterprise Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\enterprise-architecture@vlW07sc-FQnxPMjDMn8_F.md"
+  },
+  {
+    "id": "rUxbG2S2nJuA1YVY6sjiX",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Responsibilities",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "lBtlDFPEQvQ_xtLtehU0S",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Important Skills to Learn",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "fBd2m8tMJmhuNSaakrpg4",
+    "old_id": "fBd2m8tMJmhuNSaakrpg4",
+    "type": "subtopic",
+    "label": "Design & Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\design--architecture@fBd2m8tMJmhuNSaakrpg4.md"
+  },
+  {
+    "id": "MSDo0nPk_ghRYkZS4MAQ_",
+    "old_id": "MSDo0nPk_ghRYkZS4MAQ_",
+    "type": "subtopic",
+    "label": "Decision Making",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\decision-making@MSDo0nPk_ghRYkZS4MAQ_.md"
+  },
+  {
+    "id": "lrtgF1RTaS4TCKww0aY6C",
+    "old_id": "lrtgF1RTaS4TCKww0aY6C",
+    "type": "subtopic",
+    "label": "Simplifying Things",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\simplifying-things@lrtgF1RTaS4TCKww0aY6C.md"
+  },
+  {
+    "id": "77KvWCA1oHSGgDKBTwjv7",
+    "old_id": "77KvWCA1oHSGgDKBTwjv7",
+    "type": "subtopic",
+    "label": "How to Code",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\how-to-code@77KvWCA1oHSGgDKBTwjv7.md"
+  },
+  {
+    "id": "5D-kbQ520k1D3fCtD01T7",
+    "old_id": "5D-kbQ520k1D3fCtD01T7",
+    "type": "subtopic",
+    "label": "Documentation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\documentation@5D-kbQ520k1D3fCtD01T7.md"
+  },
+  {
+    "id": "Ac49sOlQKblYK4FZuFHDR",
+    "old_id": "Ac49sOlQKblYK4FZuFHDR",
+    "type": "subtopic",
+    "label": "Communication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\communication@Ac49sOlQKblYK4FZuFHDR.md"
+  },
+  {
+    "id": "m0ZYdqPFDoHOPo18wKyvV",
+    "old_id": "m0ZYdqPFDoHOPo18wKyvV",
+    "type": "subtopic",
+    "label": "Estimate and Evaluate",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\estimate-and-evaluate@m0ZYdqPFDoHOPo18wKyvV.md"
+  },
+  {
+    "id": "otHQ6ye1xgkI1qb4tEHVF",
+    "old_id": "otHQ6ye1xgkI1qb4tEHVF",
+    "type": "subtopic",
+    "label": "Balance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\balance@otHQ6ye1xgkI1qb4tEHVF.md"
+  },
+  {
+    "id": "LSWlk9A3b6hco9Il_elao",
+    "old_id": "LSWlk9A3b6hco9Il_elao",
+    "type": "subtopic",
+    "label": "Consult & Coach",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\consult--coach@LSWlk9A3b6hco9Il_elao.md"
+  },
+  {
+    "id": "YW6j3Sg511dXToTcwSnOS",
+    "old_id": "YW6j3Sg511dXToTcwSnOS",
+    "type": "subtopic",
+    "label": "Marketing Skills",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\marketing-skills@YW6j3Sg511dXToTcwSnOS.md"
+  },
+  {
+    "id": "hFx3mLqh5omNxqI9lfaAQ",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Technical Skills",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "uoDtVFThaV6OMK2wXGfP5",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Programming Languages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "a5DB_hsD4bAf8BtHNFNPo",
+    "old_id": "a5DB_hsD4bAf8BtHNFNPo",
+    "type": "subtopic",
+    "label": "Java / Kotlin / Scala",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\java--kotlin--scala--swift@a5DB_hsD4bAf8BtHNFNPo.md"
+  },
+  {
+    "id": "j2Ph2QcKwmKlbaMHz1l_i",
+    "old_id": "j2Ph2QcKwmKlbaMHz1l_i",
+    "type": "subtopic",
+    "label": "Python",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\python@j2Ph2QcKwmKlbaMHz1l_i.md"
+  },
+  {
+    "id": "U_Hmzfjjs1jVtu2CZ0TlG",
+    "old_id": "U_Hmzfjjs1jVtu2CZ0TlG",
+    "type": "subtopic",
+    "label": "Ruby",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\ruby@U_Hmzfjjs1jVtu2CZ0TlG.md"
+  },
+  {
+    "id": "nKlM9k4qAh4wBFXqM-2kC",
+    "old_id": "nKlM9k4qAh4wBFXqM-2kC",
+    "type": "subtopic",
+    "label": "Go",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\go@nKlM9k4qAh4wBFXqM-2kC.md"
+  },
+  {
+    "id": "bhP5gMpRVebSFpCeHVXBj",
+    "old_id": "bhP5gMpRVebSFpCeHVXBj",
+    "type": "subtopic",
+    "label": "JavaScript / TypeScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\javascript--typescript@bhP5gMpRVebSFpCeHVXBj.md"
+  },
+  {
+    "id": "D1IXOBUrrXf5bXhVu9cmI",
+    "old_id": "D1IXOBUrrXf5bXhVu9cmI",
+    "type": "subtopic",
+    "label": ".NET Framework Based",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\net-framework-based@D1IXOBUrrXf5bXhVu9cmI.md"
+  },
+  {
+    "id": "_U0VoTkqM1d6NR13p5azS",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Patterns & Design Principles",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "AMDLJ_Bup-AY1chl_taV3",
+    "old_id": "AMDLJ_Bup-AY1chl_taV3",
+    "type": "subtopic",
+    "label": "OOP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\oop@AMDLJ_Bup-AY1chl_taV3.md"
+  },
+  {
+    "id": "jj5otph6mEYiR-oU5WVtT",
+    "old_id": "jj5otph6mEYiR-oU5WVtT",
+    "type": "subtopic",
+    "label": "MVC, MVP, MVVM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\mvc-mvp-mvvm@jj5otph6mEYiR-oU5WVtT.md"
+  },
+  {
+    "id": "RsnN5bt8OhSMjSFmVgw-X",
+    "old_id": "RsnN5bt8OhSMjSFmVgw-X",
+    "type": "subtopic",
+    "label": "CQRS, Eventual Consistency",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\cqrs-eventual-consistency@RsnN5bt8OhSMjSFmVgw-X.md"
+  },
+  {
+    "id": "AoWO2BIKG5X4JWir6kh5r",
+    "old_id": "AoWO2BIKG5X4JWir6kh5r",
+    "type": "subtopic",
+    "label": "Actors",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\actors@AoWO2BIKG5X4JWir6kh5r.md"
+  },
+  {
+    "id": "bbKEEk7dvfFZBBJaIjm0j",
+    "old_id": "bbKEEk7dvfFZBBJaIjm0j",
+    "type": "subtopic",
+    "label": "ACID, CAP Theorem",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\acid-cap-theorem@bbKEEk7dvfFZBBJaIjm0j.md"
+  },
+  {
+    "id": "QNG-KP01WQnq8o1-In1-n",
+    "old_id": "QNG-KP01WQnq8o1-In1-n",
+    "type": "subtopic",
+    "label": "SOLID",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\solid@QNG-KP01WQnq8o1-In1-n.md"
+  },
+  {
+    "id": "DnP66pjK3b8tCtYr05n2G",
+    "old_id": "DnP66pjK3b8tCtYr05n2G",
+    "type": "subtopic",
+    "label": "TDD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\tdd@DnP66pjK3b8tCtYr05n2G.md"
+  },
+  {
+    "id": "IIelzs8XYMPnXabFKRI51",
+    "old_id": "IIelzs8XYMPnXabFKRI51",
+    "type": "subtopic",
+    "label": "DDD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\ddd@IIelzs8XYMPnXabFKRI51.md"
+  },
+  {
+    "id": "diu8MyHxZuZSdhavYVj1T",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "ZEzYb-i55hBe9kK3bla94",
+    "old_id": "PyTuVs08_z4EhLwhTYzFu",
+    "type": "subtopic",
+    "label": "Git",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\github@PyTuVs08_z4EhLwhTYzFu.md"
+  },
+  {
+    "id": "CYnUg_okOcRrD7fSllxLW",
+    "old_id": "CYnUg_okOcRrD7fSllxLW",
+    "type": "subtopic",
+    "label": "Slack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\slack@CYnUg_okOcRrD7fSllxLW.md"
+  },
+  {
+    "id": "a6joS9WXg-rbw29_KfBd9",
+    "old_id": "a6joS9WXg-rbw29_KfBd9",
+    "type": "subtopic",
+    "label": "Trello",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\trello@a6joS9WXg-rbw29_KfBd9.md"
+  },
+  {
+    "id": "3bpd0iZTd3G-H8A7yrExY",
+    "old_id": "3bpd0iZTd3G-H8A7yrExY",
+    "type": "subtopic",
+    "label": "Atlassian Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\atlassian-tools@3bpd0iZTd3G-H8A7yrExY.md"
+  },
+  {
+    "id": "PyTuVs08_z4EhLwhTYzFu",
+    "old_id": "PyTuVs08_z4EhLwhTYzFu",
+    "type": "subtopic",
+    "label": "GitHub",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\github@PyTuVs08_z4EhLwhTYzFu.md"
+  },
+  {
+    "id": "SuMhTyaBS9vwASxAt39DH",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "OaLmlfkZid7hKqJ9G8oNV",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "FAXKxl3fWUFShYmoCsInZ",
+    "old_id": "FAXKxl3fWUFShYmoCsInZ",
+    "type": "subtopic",
+    "label": "Serverless",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\serverless@FAXKxl3fWUFShYmoCsInZ.md"
+  },
+  {
+    "id": "mka_DwiboH5sGFhXhk6ez",
+    "old_id": "mka_DwiboH5sGFhXhk6ez",
+    "type": "subtopic",
+    "label": "Client / Server",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\client--server@mka_DwiboH5sGFhXhk6ez.md"
+  },
+  {
+    "id": "05hLO2_A8Tr6cLJGFRhOh",
+    "old_id": "05hLO2_A8Tr6cLJGFRhOh",
+    "type": "subtopic",
+    "label": "Layered",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\layered@05hLO2_A8Tr6cLJGFRhOh.md"
+  },
+  {
+    "id": "j7OP6RD_IAU6HsyiGaynx",
+    "old_id": "j7OP6RD_IAU6HsyiGaynx",
+    "type": "subtopic",
+    "label": "Distributed Systems",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\distributed-systems@j7OP6RD_IAU6HsyiGaynx.md"
+  },
+  {
+    "id": "6uvmMgvOwGyuLC5TOhjFu",
+    "old_id": "6uvmMgvOwGyuLC5TOhjFu",
+    "type": "subtopic",
+    "label": "Service Oriented",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\service-oriented@6uvmMgvOwGyuLC5TOhjFu.md"
+  },
+  {
+    "id": "IzFTn5-tQuF_Z0cG_w6CW",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Security",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "7tBAD0ox9hTK4D483GTRo",
+    "old_id": "7tBAD0ox9hTK4D483GTRo",
+    "type": "subtopic",
+    "label": "Hashing Algorithms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\hashing-algorithms@7tBAD0ox9hTK4D483GTRo.md"
+  },
+  {
+    "id": "OpL2EqvHbUmFgnpuhtZPr",
+    "old_id": "OpL2EqvHbUmFgnpuhtZPr",
+    "type": "subtopic",
+    "label": "PKI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\pki@OpL2EqvHbUmFgnpuhtZPr.md"
+  },
+  {
+    "id": "KhqUK-7jdClu9M2Pq7x--",
+    "old_id": "KhqUK-7jdClu9M2Pq7x--",
+    "type": "subtopic",
+    "label": "OWASP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\owasp@KhqUK-7jdClu9M2Pq7x--.md"
+  },
+  {
+    "id": "KiwFXB6yd0go30zAFMTJt",
+    "old_id": "KiwFXB6yd0go30zAFMTJt",
+    "type": "subtopic",
+    "label": "Auth Strategies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\auth-strategies@KiwFXB6yd0go30zAFMTJt.md"
+  },
+  {
+    "id": "YCJYRA3b-YSm8vKmGUFk5",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Working with Data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "92GG4IRZ3FijumC94aL-T",
+    "old_id": "92GG4IRZ3FijumC94aL-T",
+    "type": "subtopic",
+    "label": "Hadoop, Spark, MapReduce",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\hadoop-spark-mapreduce@92GG4IRZ3FijumC94aL-T.md"
+  },
+  {
+    "id": "JUFE4OQhnXOt1J_MG-Sjf",
+    "old_id": "JUFE4OQhnXOt1J_MG-Sjf",
+    "type": "subtopic",
+    "label": "ETL, Datawarehouses",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\etl-datawarehouses@JUFE4OQhnXOt1J_MG-Sjf.md"
+  },
+  {
+    "id": "n5AcBt_u8qtTe3PP9svPZ",
+    "old_id": "n5AcBt_u8qtTe3PP9svPZ",
+    "type": "subtopic",
+    "label": "SQL Databases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\sql-databases@n5AcBt_u8qtTe3PP9svPZ.md"
+  },
+  {
+    "id": "57liQPaPyVpE-mdLnsbi0",
+    "old_id": "57liQPaPyVpE-mdLnsbi0",
+    "type": "subtopic",
+    "label": "NoSQL Databases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\nosql-databases@57liQPaPyVpE-mdLnsbi0.md"
+  },
+  {
+    "id": "a0baFv7hVWZGvS5VLh5ig",
+    "old_id": "a0baFv7hVWZGvS5VLh5ig",
+    "type": "subtopic",
+    "label": "Apache Spark",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\apache-spark@a0baFv7hVWZGvS5VLh5ig.md"
+  },
+  {
+    "id": "I_VjjmMK52_tS8qjQUspN",
+    "old_id": "I_VjjmMK52_tS8qjQUspN",
+    "type": "subtopic",
+    "label": "Hadoop",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\hadoop@I_VjjmMK52_tS8qjQUspN.md"
+  },
+  {
+    "id": "B5YtP8C1A0jB3MOdg0c_q",
+    "old_id": "B5YtP8C1A0jB3MOdg0c_q",
+    "type": "subtopic",
+    "label": "Datawarehouse Principles",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\datawarehouse-principles@B5YtP8C1A0jB3MOdg0c_q.md"
+  },
+  {
+    "id": "Ocn7-ctpnl71ZCZ_uV-uD",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "APIs & Integrations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "priDGksAvJ05YzakkTFtM",
+    "old_id": "priDGksAvJ05YzakkTFtM",
+    "type": "subtopic",
+    "label": "gRPC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\grpc@priDGksAvJ05YzakkTFtM.md"
+  },
+  {
+    "id": "fELnBA0eOoE-d9rSmDJ8l",
+    "old_id": "fELnBA0eOoE-d9rSmDJ8l",
+    "type": "subtopic",
+    "label": "ESB, SOAP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\esb-soap@fELnBA0eOoE-d9rSmDJ8l.md"
+  },
+  {
+    "id": "Sp3FdPT4F9YnTGvlE_vyq",
+    "old_id": "Sp3FdPT4F9YnTGvlE_vyq",
+    "type": "subtopic",
+    "label": "GraphQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\graphql@Sp3FdPT4F9YnTGvlE_vyq.md"
+  },
+  {
+    "id": "Ss43xwK1ydEToj6XmmCt7",
+    "old_id": "Ss43xwK1ydEToj6XmmCt7",
+    "type": "subtopic",
+    "label": "REST",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\rest@Ss43xwK1ydEToj6XmmCt7.md"
+  },
+  {
+    "id": "DwNda95-fE7LWnDA6u1LU",
+    "old_id": "DwNda95-fE7LWnDA6u1LU",
+    "type": "subtopic",
+    "label": "BPM, BPEL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\bpm-bpel@DwNda95-fE7LWnDA6u1LU.md"
+  },
+  {
+    "id": "4NVdEbmpQVHpBc7582S6E",
+    "old_id": "4NVdEbmpQVHpBc7582S6E",
+    "type": "subtopic",
+    "label": "Messaging Queues",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\messaging-queues@4NVdEbmpQVHpBc7582S6E.md"
+  },
+  {
+    "id": "j9Y2YbBKi3clO_sZ2L_hQ",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Web, Mobile",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "6FDGecsHbqY-cm32yTZJa",
+    "old_id": "C0g_kQFlte5siHMHwlHQb",
+    "type": "subtopic",
+    "label": "Functional Programming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\reactive-programming@C0g_kQFlte5siHMHwlHQb.md"
+  },
+  {
+    "id": "mCiYCbKIOVU34qil_q7Hg",
+    "old_id": "mCiYCbKIOVU34qil_q7Hg",
+    "type": "subtopic",
+    "label": "React, Vue, Angular",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\react-vue-angular@mCiYCbKIOVU34qil_q7Hg.md"
+  },
+  {
+    "id": "ulwgDCQi_BYx5lmll7pzU",
+    "old_id": "ulwgDCQi_BYx5lmll7pzU",
+    "type": "subtopic",
+    "label": "SPA, SSR, SSG",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\spa-ssr-ssg@ulwgDCQi_BYx5lmll7pzU.md"
+  },
+  {
+    "id": "vpko5Kyf6BZ5MHpxXOKaf",
+    "old_id": "vpko5Kyf6BZ5MHpxXOKaf",
+    "type": "subtopic",
+    "label": "Microfrontends",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\microfrontends@vpko5Kyf6BZ5MHpxXOKaf.md"
+  },
+  {
+    "id": "s0RvufK2PLMXtlsn2KAUN",
+    "old_id": "s0RvufK2PLMXtlsn2KAUN",
+    "type": "subtopic",
+    "label": "W3C and WHATWG",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\w3c-and-whatwg@s0RvufK2PLMXtlsn2KAUN.md"
+  },
+  {
+    "id": "C0g_kQFlte5siHMHwlHQb",
+    "old_id": "C0g_kQFlte5siHMHwlHQb",
+    "type": "subtopic",
+    "label": "Reactive Programming",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\reactive-programming@C0g_kQFlte5siHMHwlHQb.md"
+  },
+  {
+    "id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "old_id": "hjlkxYZS7Zf9En3IUS-Wm",
+    "type": "topic",
+    "label": "Frameworks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\frameworks@hjlkxYZS7Zf9En3IUS-Wm.md"
+  },
+  {
+    "id": "LQlzVxUxM3haWRwbhYHKY",
+    "old_id": "LQlzVxUxM3haWRwbhYHKY",
+    "type": "subtopic",
+    "label": "BABOK",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\babok@LQlzVxUxM3haWRwbhYHKY.md"
+  },
+  {
+    "id": "wFu9VO48EYbIQrsM8YUCj",
+    "old_id": "wFu9VO48EYbIQrsM8YUCj",
+    "type": "subtopic",
+    "label": "IAF",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\iaf@wFu9VO48EYbIQrsM8YUCj.md"
+  },
+  {
+    "id": "8FTKnAKNL9LnZBrw9YXqK",
+    "old_id": "8FTKnAKNL9LnZBrw9YXqK",
+    "type": "subtopic",
+    "label": "UML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\uml@8FTKnAKNL9LnZBrw9YXqK.md"
+  },
+  {
+    "id": "5TDTU22Fla2mRr6JeOcaY",
+    "old_id": "5TDTU22Fla2mRr6JeOcaY",
+    "type": "subtopic",
+    "label": "TOGAF",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\togaf@5TDTU22Fla2mRr6JeOcaY.md"
+  },
+  {
+    "id": "UyIwiIiKaa6LTQaqzbCam",
+    "old_id": "UyIwiIiKaa6LTQaqzbCam",
+    "type": "topic",
+    "label": "Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\management@UyIwiIiKaa6LTQaqzbCam.md"
+  },
+  {
+    "id": "hRug9yJKYacB9X_2cUalR",
+    "old_id": "hRug9yJKYacB9X_2cUalR",
+    "type": "subtopic",
+    "label": "PMI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\pmi@hRug9yJKYacB9X_2cUalR.md"
+  },
+  {
+    "id": "Rq1Wi-cHjS54SYo-Btp-e",
+    "old_id": "Rq1Wi-cHjS54SYo-Btp-e",
+    "type": "subtopic",
+    "label": "ITIL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\itil@Rq1Wi-cHjS54SYo-Btp-e.md"
+  },
+  {
+    "id": "SJ5lrlvyXgtAwOx4wvT2W",
+    "old_id": "SJ5lrlvyXgtAwOx4wvT2W",
+    "type": "subtopic",
+    "label": "Prince2",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\prince2@SJ5lrlvyXgtAwOx4wvT2W.md"
+  },
+  {
+    "id": "7rudOREGG-TTkCosU0hNw",
+    "old_id": "7rudOREGG-TTkCosU0hNw",
+    "type": "subtopic",
+    "label": "RUP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\rup@7rudOREGG-TTkCosU0hNw.md"
+  },
+  {
+    "id": "qwpsGRFgzAYstM7bJA2ZJ",
+    "old_id": "qwpsGRFgzAYstM7bJA2ZJ",
+    "type": "subtopic",
+    "label": "LeSS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\less@qwpsGRFgzAYstM7bJA2ZJ.md"
+  },
+  {
+    "id": "Bg7ru1q1j6pNB43HGxnHT",
+    "old_id": "Bg7ru1q1j6pNB43HGxnHT",
+    "type": "subtopic",
+    "label": "SaFE",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\safe@Bg7ru1q1j6pNB43HGxnHT.md"
+  },
+  {
+    "id": "O7H6dt3Z7EKohxfJzwbPM",
+    "old_id": "O7H6dt3Z7EKohxfJzwbPM",
+    "type": "subtopic",
+    "label": "Kanban",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\kanban@O7H6dt3Z7EKohxfJzwbPM.md"
+  },
+  {
+    "id": "PKqwKvoffm0unwcFwpojk",
+    "old_id": "PKqwKvoffm0unwcFwpojk",
+    "type": "subtopic",
+    "label": "Scrum",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\scrum@PKqwKvoffm0unwcFwpojk.md"
+  },
+  {
+    "id": "7fL9lSu4BD1wRjnZy9tM9",
+    "old_id": "7fL9lSu4BD1wRjnZy9tM9",
+    "type": "subtopic",
+    "label": "XP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\xp@7fL9lSu4BD1wRjnZy9tM9.md"
+  },
+  {
+    "id": "cBWJ6Duw99tSKr7U6OW3A",
+    "old_id": "cBWJ6Duw99tSKr7U6OW3A",
+    "type": "topic",
+    "label": "Networks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\networks@cBWJ6Duw99tSKr7U6OW3A.md"
+  },
+  {
+    "id": "Mt5W1IvuHevNXVRlh7z26",
+    "old_id": "Mt5W1IvuHevNXVRlh7z26",
+    "type": "subtopic",
+    "label": "OSI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\osi@Mt5W1IvuHevNXVRlh7z26.md"
+  },
+  {
+    "id": "UCCT7-E_QUKPg3jAsjobx",
+    "old_id": "UCCT7-E_QUKPg3jAsjobx",
+    "type": "subtopic",
+    "label": "TCP/IP Model",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\tcpip-model@UCCT7-E_QUKPg3jAsjobx.md"
+  },
+  {
+    "id": "Nq6o6Ty8VyNRsvg-UWp7D",
+    "old_id": "Nq6o6Ty8VyNRsvg-UWp7D",
+    "type": "subtopic",
+    "label": "HTTP, HTTPS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\http-https@Nq6o6Ty8VyNRsvg-UWp7D.md"
+  },
+  {
+    "id": "6_EOmU5GYGDGzmNoLY8cB",
+    "old_id": "6_EOmU5GYGDGzmNoLY8cB",
+    "type": "subtopic",
+    "label": "Proxies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\proxies@6_EOmU5GYGDGzmNoLY8cB.md"
+  },
+  {
+    "id": "Hqk_GGsFi14SI5fgPSoGV",
+    "old_id": "Hqk_GGsFi14SI5fgPSoGV",
+    "type": "subtopic",
+    "label": "Firewalls",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\firewalls@Hqk_GGsFi14SI5fgPSoGV.md"
+  },
+  {
+    "id": "EdJhuNhMSWjeVxGW-RZtL",
+    "old_id": "EdJhuNhMSWjeVxGW-RZtL",
+    "type": "topic",
+    "label": "Operations Knowledge",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\operations-knowledge@EdJhuNhMSWjeVxGW-RZtL.md"
+  },
+  {
+    "id": "igf9yp1lRdAlN5gyQ8HHC",
+    "old_id": "igf9yp1lRdAlN5gyQ8HHC",
+    "type": "subtopic",
+    "label": "Infrastructure as Code",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\infrastructure-as-code@igf9yp1lRdAlN5gyQ8HHC.md"
+  },
+  {
+    "id": "C0rKd5Rr27Z1_GleoEZxF",
+    "old_id": "C0rKd5Rr27Z1_GleoEZxF",
+    "type": "subtopic",
+    "label": "Cloud Providers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\cloud-providers@C0rKd5Rr27Z1_GleoEZxF.md"
+  },
+  {
+    "id": "WoXoVwkSqXTP5U8HtyJOL",
+    "old_id": "WoXoVwkSqXTP5U8HtyJOL",
+    "type": "subtopic",
+    "label": "Serverless Concepts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\serverless-concepts@WoXoVwkSqXTP5U8HtyJOL.md"
+  },
+  {
+    "id": "XnvlRrOhdoMsiGwGEhBro",
+    "old_id": "XnvlRrOhdoMsiGwGEhBro",
+    "type": "subtopic",
+    "label": "Linux / Unix",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\linux--unix@XnvlRrOhdoMsiGwGEhBro.md"
+  },
+  {
+    "id": "OErbfM-H3laFm47GCHNPI",
+    "old_id": "OErbfM-H3laFm47GCHNPI",
+    "type": "subtopic",
+    "label": "Service Mesh",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\service-mesh@OErbfM-H3laFm47GCHNPI.md"
+  },
+  {
+    "id": "isavRe4ANVn77ZX6gNSLH",
+    "old_id": "isavRe4ANVn77ZX6gNSLH",
+    "type": "subtopic",
+    "label": "CI / CD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\ci--cd@isavRe4ANVn77ZX6gNSLH.md"
+  },
+  {
+    "id": "l3oeo65FyV5HHvw5n_1wa",
+    "old_id": "l3oeo65FyV5HHvw5n_1wa",
+    "type": "subtopic",
+    "label": "Containers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\containers@l3oeo65FyV5HHvw5n_1wa.md"
+  },
+  {
+    "id": "CxceVdaNCyKDhs0huDtcL",
+    "old_id": "CxceVdaNCyKDhs0huDtcL",
+    "type": "subtopic",
+    "label": "Cloud Design Patterns",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\cloud-design-patterns@CxceVdaNCyKDhs0huDtcL.md"
+  },
+  {
+    "id": "8yALyPVUZPtd7LX3GrO1e",
+    "old_id": "8yALyPVUZPtd7LX3GrO1e",
+    "type": "topic",
+    "label": "Enterprise Software",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\enterprise-software@8yALyPVUZPtd7LX3GrO1e.md"
+  },
+  {
+    "id": "gdtI0H_PzzTj_aFQn_NeA",
+    "old_id": "gdtI0H_PzzTj_aFQn_NeA",
+    "type": "subtopic",
+    "label": "MS Dynamics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\ms-dynamics@gdtI0H_PzzTj_aFQn_NeA.md"
+  },
+  {
+    "id": "TxWAznp1tUtZ1MvThf9M1",
+    "old_id": "TxWAznp1tUtZ1MvThf9M1",
+    "type": "subtopic",
+    "label": "SAP ERP, HANA, Business Objects",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\sap-erp-hana-business-objects@TxWAznp1tUtZ1MvThf9M1.md"
+  },
+  {
+    "id": "YfYviOXqGVp9C6DuhqBrn",
+    "old_id": "YfYviOXqGVp9C6DuhqBrn",
+    "type": "subtopic",
+    "label": "EMC DMS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\emc-dms@YfYviOXqGVp9C6DuhqBrn.md"
+  },
+  {
+    "id": "5EVecZmvor09LjD7WR_Y9",
+    "old_id": "5EVecZmvor09LjD7WR_Y9",
+    "type": "subtopic",
+    "label": "IBM BPM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\ibm-bpm@5EVecZmvor09LjD7WR_Y9.md"
+  },
+  {
+    "id": "mOXyzdNn8W-9R99ffcnor",
+    "old_id": "mOXyzdNn8W-9R99ffcnor",
+    "type": "subtopic",
+    "label": "Salesforce",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\salesforce@mOXyzdNn8W-9R99ffcnor.md"
+  },
+  {
+    "id": "b6lCGw82qKpUmsxe1r1f5",
+    "old_id": "FAXKxl3fWUFShYmoCsInZ",
+    "type": "subtopic",
+    "label": "Microservices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-architect\\content\\serverless@FAXKxl3fWUFShYmoCsInZ.md"
+  }
+]

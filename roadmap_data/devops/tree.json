@@ -1,0 +1,1804 @@
+[
+  {
+    "id": "JizyX8jse920gpWcmoSED",
+    "old_id": "JizyX8jse920gpWcmoSED",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": [
+      {
+        "id": "1oYvpFG8LKT1JD6a_9J0m",
+        "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+        "type": "topic",
+        "label": "Provisioning",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+        "children": [
+          {
+            "id": "XA__697KgofsH28coQ-ma",
+            "old_id": "XA__697KgofsH28coQ-ma",
+            "type": "subtopic",
+            "label": "AWS CDK",
+            "resources": [],
+            "legend": {
+              "color": "#667113",
+              "label": "Alternative Option - Pick this or Purple"
+            },
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\aws-cdk@XA__697KgofsH28coQ-ma.md",
+            "children": []
+          },
+          {
+            "id": "V9sOxlNOyRp0Mghl7zudv",
+            "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+            "type": "topic",
+            "label": "Configuration Management",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+            "children": [
+              {
+                "id": "kv508kxzUj_CjZRb-TeRv",
+                "old_id": "TgBb4aL_9UkyU36CN4qvS",
+                "type": "subtopic",
+                "label": "Chef",
+                "resources": [],
+                "legend": {
+                  "color": "#667113",
+                  "label": "Alternative Option - Pick this or Purple"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloudformation@TgBb4aL_9UkyU36CN4qvS.md",
+                "children": []
+              },
+              {
+                "id": "yP1y8U3eblpzbaLiCGliU",
+                "old_id": "O0xZ3dy2zIDbOetVrgna6",
+                "type": "subtopic",
+                "label": "Puppet",
+                "resources": [],
+                "legend": {
+                  "color": "#667113",
+                  "label": "Alternative Option - Pick this or Purple"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\pulumi@O0xZ3dy2zIDbOetVrgna6.md",
+                "children": []
+              },
+              {
+                "id": "h9vVPOmdUSeEGVQQaSTH5",
+                "old_id": "XA__697KgofsH28coQ-ma",
+                "type": "subtopic",
+                "label": "Ansible",
+                "resources": [],
+                "legend": {
+                  "color": "#874efe",
+                  "label": "Personal Recommendation / Opinion"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\aws-cdk@XA__697KgofsH28coQ-ma.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPXgDee7rpQAX3FfTdA3J",
+    "old_id": "SPXgDee7rpQAX3FfTdA3J",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "45zz5L6lKJrF9JWgyj1Pz",
+    "old_id": "45zz5L6lKJrF9JWgyj1Pz",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "OY4ipeYrizxKKv9Z72iLR",
+    "old_id": "OY4ipeYrizxKKv9Z72iLR",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "fqBgeJj5fan4TT7K2E6c7",
+    "old_id": "fqBgeJj5fan4TT7K2E6c7",
+    "type": "title",
+    "label": "DevOps",
+    "resources": [],
+    "children": [
+      {
+        "id": "v5FGKQc-_7NYEsWjmTEuq",
+        "old_id": "43OZ35TemharSqfrst0Pv",
+        "type": "topic",
+        "label": "Learn a Programming Language",
+        "resources": [],
+        "children": [
+          {
+            "id": "npnMwSDEK2aLGgnuZZ4dO",
+            "old_id": "QCdemtWa2mE78poNXeqzr",
+            "type": "subtopic",
+            "label": "Go",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\javascript--nodejs@QCdemtWa2mE78poNXeqzr.md",
+            "children": []
+          },
+          {
+            "id": "TwVfCYMS9jSaJ6UyYmC-K",
+            "old_id": "eL62bKAoJCMsu7zPlgyhy",
+            "type": "subtopic",
+            "label": "Python",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rust@eL62bKAoJCMsu7zPlgyhy.md",
+            "children": []
+          },
+          {
+            "id": "QCdemtWa2mE78poNXeqzr",
+            "old_id": "eL62bKAoJCMsu7zPlgyhy",
+            "type": "subtopic",
+            "label": "JavaScript / Node.js",
+            "resources": [],
+            "legend": {
+              "color": "#667113",
+              "label": "Alternative Option - Pick this or Purple"
+            },
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rust@eL62bKAoJCMsu7zPlgyhy.md",
+            "children": []
+          },
+          {
+            "id": "qe84v529VbCyydl0BKFk2",
+            "old_id": "43OZ35TemharSqfrst0Pv",
+            "type": "topic",
+            "label": "Operating System",
+            "resources": [],
+            "children": [
+              {
+                "id": "UOQimp7QkM3sxmFvk5d3i",
+                "old_id": "uyDm1SpOQdpHjq9zBAdck",
+                "type": "subtopic",
+                "label": "Windows",
+                "resources": [],
+                "legend": {
+                  "color": "#667113",
+                  "label": "Alternative Option - Pick this or Purple"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\git@uyDm1SpOQdpHjq9zBAdck.md",
+                "children": []
+              },
+              {
+                "id": "wjJPzrFJBNYOD3SJLzW2M",
+                "old_id": "qe84v529VbCyydl0BKFk2",
+                "type": "topic",
+                "label": "Terminal Knowledge",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\operating-system@qe84v529VbCyydl0BKFk2.md",
+                "children": [
+                  {
+                    "id": "LvhFmlxz5uIy7k_nzx2Bv",
+                    "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+                    "type": "topic",
+                    "label": "Version Control Systems",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+                    "children": [
+                      {
+                        "id": "uyDm1SpOQdpHjq9zBAdck",
+                        "old_id": "-JGe6oHUuaAdakoOjTV5u",
+                        "type": "subtopic",
+                        "label": "Git",
+                        "resources": [],
+                        "legend": {
+                          "color": "#874efe",
+                          "label": "Personal Recommendation / Opinion"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Jt8BmtLUH6fHT2pGKoJs3",
+                    "old_id": "z6IBekR8Xl-6f8WEb05Nw",
+                    "type": "subtopic",
+                    "label": "Vim / Nano /  Emacs",
+                    "resources": [],
+                    "legend": {
+                      "color": "#874efe",
+                      "label": "Personal Recommendation / Opinion"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\power-shell@z6IBekR8Xl-6f8WEb05Nw.md",
+                    "children": []
+                  },
+                  {
+                    "id": "z6IBekR8Xl-6f8WEb05Nw",
+                    "old_id": "7mS6Y_BOAHNgM3OjyFtZ9",
+                    "type": "subtopic",
+                    "label": "Power Shell",
+                    "resources": [],
+                    "legend": {
+                      "color": "#667113",
+                      "label": "Alternative Option - Pick this or Purple"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rhel--derivatives@7mS6Y_BOAHNgM3OjyFtZ9.md",
+                    "children": []
+                  },
+                  {
+                    "id": "x-JWvG1iw86ULL9KrQmRu",
+                    "old_id": "z6IBekR8Xl-6f8WEb05Nw",
+                    "type": "subtopic",
+                    "label": "Process Monitoring",
+                    "resources": [],
+                    "legend": {
+                      "color": "#874efe",
+                      "label": "Personal Recommendation / Opinion"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\power-shell@z6IBekR8Xl-6f8WEb05Nw.md",
+                    "children": []
+                  },
+                  {
+                    "id": "gIEQDgKOsoEnSv8mpEzGH",
+                    "old_id": "zhNUK953p6tjREndk3yQZ",
+                    "type": "subtopic",
+                    "label": "Performance Monitoring",
+                    "resources": [],
+                    "legend": {
+                      "color": "#874efe",
+                      "label": "Personal Recommendation / Opinion"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\suse-linux@zhNUK953p6tjREndk3yQZ.md",
+                    "children": []
+                  },
+                  {
+                    "id": "OaqKLZe-XnngcDhDzCtRt",
+                    "old_id": "7mS6Y_BOAHNgM3OjyFtZ9",
+                    "type": "subtopic",
+                    "label": "Networking Tools",
+                    "resources": [],
+                    "legend": {
+                      "color": "#874efe",
+                      "label": "Personal Recommendation / Opinion"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rhel--derivatives@7mS6Y_BOAHNgM3OjyFtZ9.md",
+                    "children": []
+                  },
+                  {
+                    "id": "cUifrP7v55psTb20IZndf",
+                    "old_id": "OaqKLZe-XnngcDhDzCtRt",
+                    "type": "subtopic",
+                    "label": "Text Manipulation",
+                    "resources": [],
+                    "legend": {
+                      "color": "#874efe",
+                      "label": "Personal Recommendation / Opinion"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\networking-tools@OaqKLZe-XnngcDhDzCtRt.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PuXAPYA0bsMgwcnlwJxQn",
+    "old_id": "eL62bKAoJCMsu7zPlgyhy",
+    "type": "subtopic",
+    "label": "Ruby",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rust@eL62bKAoJCMsu7zPlgyhy.md",
+    "children": []
+  },
+  {
+    "id": "eL62bKAoJCMsu7zPlgyhy",
+    "old_id": "eL62bKAoJCMsu7zPlgyhy",
+    "type": "subtopic",
+    "label": "Rust",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rust@eL62bKAoJCMsu7zPlgyhy.md",
+    "children": []
+  },
+  {
+    "id": "LFXvvH86fAyJBtQVd7acq",
+    "old_id": "LFXvvH86fAyJBtQVd7acq",
+    "type": "legend",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "3A1SykJ5JxBFeVzSzDEWJ",
+    "old_id": "1b3VeGto7LzbiNNPolk7_",
+    "type": "label",
+    "label": "Linux",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "8hSJLQBKu8ablW2Lwxknv",
+    "old_id": "8hSJLQBKu8ablW2Lwxknv",
+    "type": "label",
+    "label": "Unix",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "cTqVab0VbVcn3W7i0wBrX",
+    "old_id": "z6IBekR8Xl-6f8WEb05Nw",
+    "type": "subtopic",
+    "label": "Ubuntu / Debian",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\power-shell@z6IBekR8Xl-6f8WEb05Nw.md",
+    "children": []
+  },
+  {
+    "id": "zhNUK953p6tjREndk3yQZ",
+    "old_id": "7mS6Y_BOAHNgM3OjyFtZ9",
+    "type": "subtopic",
+    "label": "SUSE Linux",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rhel--derivatives@7mS6Y_BOAHNgM3OjyFtZ9.md",
+    "children": []
+  },
+  {
+    "id": "7mS6Y_BOAHNgM3OjyFtZ9",
+    "old_id": "7mS6Y_BOAHNgM3OjyFtZ9",
+    "type": "subtopic",
+    "label": "RHEL / Derivatives",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rhel--derivatives@7mS6Y_BOAHNgM3OjyFtZ9.md",
+    "children": []
+  },
+  {
+    "id": "PiPHFimToormOPl1EtEe8",
+    "old_id": "-JGe6oHUuaAdakoOjTV5u",
+    "type": "subtopic",
+    "label": "FreeBSD",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "97cJYKqv7CPPUXkKNwM4x",
+    "old_id": "zhNUK953p6tjREndk3yQZ",
+    "type": "subtopic",
+    "label": "OpenBSD",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\suse-linux@zhNUK953p6tjREndk3yQZ.md",
+    "children": []
+  },
+  {
+    "id": "haiYSwNt3rjiiwCDszPk1",
+    "old_id": "7mS6Y_BOAHNgM3OjyFtZ9",
+    "type": "subtopic",
+    "label": "NetBSD",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\rhel--derivatives@7mS6Y_BOAHNgM3OjyFtZ9.md",
+    "children": []
+  },
+  {
+    "id": "syBIAL1mHbJLnTBoSxXI7",
+    "old_id": "Jt8BmtLUH6fHT2pGKoJs3",
+    "type": "subtopic",
+    "label": "Bash",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\vim--nano---emacs@Jt8BmtLUH6fHT2pGKoJs3.md",
+    "children": []
+  },
+  {
+    "id": "ZusrlGqCntlKDPOaTiWqI",
+    "old_id": "5zUf-LBQ0ByeP2hnAf9x1",
+    "type": "label",
+    "label": "Scripting",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "h10BH3OybHcIN2iDTSGkn",
+    "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+    "type": "topic",
+    "label": "VCS Hosting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+    "children": [
+      {
+        "id": "ot9I_IHdnq2yAMffrSrbN",
+        "old_id": "Z7SsBWgluZWr9iWb2e9XO",
+        "type": "subtopic",
+        "label": "GitHub",
+        "resources": [],
+        "legend": {
+          "color": "#874efe",
+          "label": "Personal Recommendation / Opinion"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\bitbucket@Z7SsBWgluZWr9iWb2e9XO.md",
+        "children": []
+      },
+      {
+        "id": "oQIB0KE0BibjIYmxrpPZS",
+        "old_id": "Z7SsBWgluZWr9iWb2e9XO",
+        "type": "subtopic",
+        "label": "GitLab",
+        "resources": [],
+        "legend": {
+          "color": "#667113",
+          "label": "Alternative Option - Pick this or Purple"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\bitbucket@Z7SsBWgluZWr9iWb2e9XO.md",
+        "children": []
+      },
+      {
+        "id": "Z7SsBWgluZWr9iWb2e9XO",
+        "old_id": "uyDm1SpOQdpHjq9zBAdck",
+        "type": "subtopic",
+        "label": "Bitbucket",
+        "resources": [],
+        "legend": {
+          "color": "#667113",
+          "label": "Alternative Option - Pick this or Purple"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\git@uyDm1SpOQdpHjq9zBAdck.md",
+        "children": []
+      },
+      {
+        "id": "CQhUflAcv1lhBnmDY0gaz",
+        "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+        "type": "topic",
+        "label": "Containers",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+        "children": [
+          {
+            "id": "qYRJYIZsmf-inMqKECRkI",
+            "old_id": "qYRJYIZsmf-inMqKECRkI",
+            "type": "subtopic",
+            "label": "LXC",
+            "resources": [],
+            "legend": {
+              "color": "#667113",
+              "label": "Alternative Option - Pick this or Purple"
+            },
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\lxc@qYRJYIZsmf-inMqKECRkI.md",
+            "children": []
+          },
+          {
+            "id": "jCWrnQNgjHKyhzd9dwOHz",
+            "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+            "type": "topic",
+            "label": "What is and how to setup X ?",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+            "children": [
+              {
+                "id": "PsbYeHGMd9E1UNqcaFQOz",
+                "old_id": "PsbYeHGMd9E1UNqcaFQOz",
+                "type": "section",
+                "label": "",
+                "resources": [],
+                "children": []
+              },
+              {
+                "id": "w5d24Sf8GDkLDLGUPxzS9",
+                "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+                "type": "topic",
+                "label": "Networking & Protocols",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+                "children": [
+                  {
+                    "id": "7crPw2SKw-TlsSe9kpZFQ",
+                    "old_id": "7crPw2SKw-TlsSe9kpZFQ",
+                    "type": "section",
+                    "label": "",
+                    "resources": [],
+                    "children": []
+                  },
+                  {
+                    "id": "2Wd9SlWGg6QtxgiUVLyZL",
+                    "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+                    "type": "topic",
+                    "label": "Cloud Providers",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+                    "children": [
+                      {
+                        "id": "9p_ufPj6QH9gHbWBQUmGw",
+                        "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+                        "type": "topic",
+                        "label": "Serverless",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F93XnRj0BLswJkzyRggLS",
+    "old_id": "F93XnRj0BLswJkzyRggLS",
+    "type": "subtopic",
+    "label": "Forward Proxy",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\forward-proxy@F93XnRj0BLswJkzyRggLS.md",
+    "children": []
+  },
+  {
+    "id": "f3tM2uo6LLSOmyeFfLc7h",
+    "old_id": "f3tM2uo6LLSOmyeFfLc7h",
+    "type": "subtopic",
+    "label": "Firewall",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\firewall@f3tM2uo6LLSOmyeFfLc7h.md",
+    "children": []
+  },
+  {
+    "id": "ukOrSeyK1ElOt9tTjCkfO",
+    "old_id": "ukOrSeyK1ElOt9tTjCkfO",
+    "type": "subtopic",
+    "label": "Nginx",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\nginx@ukOrSeyK1ElOt9tTjCkfO.md",
+    "children": []
+  },
+  {
+    "id": "dF3otkMMN09tgCzci8Jyv",
+    "old_id": "dF3otkMMN09tgCzci8Jyv",
+    "type": "subtopic",
+    "label": "Tomcat",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\tomcat@dF3otkMMN09tgCzci8Jyv.md",
+    "children": []
+  },
+  {
+    "id": "0_GMTcMeZv3A8dYkHRoW7",
+    "old_id": "0_GMTcMeZv3A8dYkHRoW7",
+    "type": "subtopic",
+    "label": "Apache",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\apache@0_GMTcMeZv3A8dYkHRoW7.md",
+    "children": []
+  },
+  {
+    "id": "54UZNO2q8M5FiA_XbcU_D",
+    "old_id": "54UZNO2q8M5FiA_XbcU_D",
+    "type": "subtopic",
+    "label": "Caddy",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\caddy@54UZNO2q8M5FiA_XbcU_D.md",
+    "children": []
+  },
+  {
+    "id": "5iJOE1QxMvf8BQ_8ssiI8",
+    "old_id": "5iJOE1QxMvf8BQ_8ssiI8",
+    "type": "subtopic",
+    "label": "IIS",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\iis@5iJOE1QxMvf8BQ_8ssiI8.md",
+    "children": []
+  },
+  {
+    "id": "R4XSY4TSjU1M7cW66zUqJ",
+    "old_id": "R4XSY4TSjU1M7cW66zUqJ",
+    "type": "subtopic",
+    "label": "Caching Server",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\caching-server@R4XSY4TSjU1M7cW66zUqJ.md",
+    "children": []
+  },
+  {
+    "id": "i8Sd9maB_BeFurULrHXNq",
+    "old_id": "1SvpHVBCjgNDcc1NeNWaq",
+    "type": "subtopic",
+    "label": "Load Balancer",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "children": []
+  },
+  {
+    "id": "eGF7iyigl57myx2ejpmNC",
+    "old_id": "qYRJYIZsmf-inMqKECRkI",
+    "type": "subtopic",
+    "label": "Reverse Proxy",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\lxc@qYRJYIZsmf-inMqKECRkI.md",
+    "children": []
+  },
+  {
+    "id": "P0acFNZ413MSKElHqCxr3",
+    "old_id": "ctor79Vd7EXDMdrLyUcu_",
+    "type": "subtopic",
+    "label": "Docker",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\azure@ctor79Vd7EXDMdrLyUcu_.md",
+    "children": []
+  },
+  {
+    "id": "1ieK6B_oqW8qOC6bdmiJe",
+    "old_id": "ctor79Vd7EXDMdrLyUcu_",
+    "type": "subtopic",
+    "label": "AWS",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\azure@ctor79Vd7EXDMdrLyUcu_.md",
+    "children": []
+  },
+  {
+    "id": "ctor79Vd7EXDMdrLyUcu_",
+    "old_id": "qYRJYIZsmf-inMqKECRkI",
+    "type": "subtopic",
+    "label": "Azure",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\lxc@qYRJYIZsmf-inMqKECRkI.md",
+    "children": []
+  },
+  {
+    "id": "zYrOxFQkl3KSe67fh3smD",
+    "old_id": "eJZdjheptmiwKsVokt7Io",
+    "type": "subtopic",
+    "label": "Google Cloud",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\contabo@eJZdjheptmiwKsVokt7Io.md",
+    "children": []
+  },
+  {
+    "id": "-h-kNVDNzZYnQAR_4lfXc",
+    "old_id": "eJZdjheptmiwKsVokt7Io",
+    "type": "subtopic",
+    "label": "Digital Ocean",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\contabo@eJZdjheptmiwKsVokt7Io.md",
+    "children": []
+  },
+  {
+    "id": "YUJf-6ccHvYjL_RzufQ-G",
+    "old_id": "eJZdjheptmiwKsVokt7Io",
+    "type": "subtopic",
+    "label": "Alibaba Cloud",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\contabo@eJZdjheptmiwKsVokt7Io.md",
+    "children": []
+  },
+  {
+    "id": "I327qPYGMcdayRR5WT0Ek",
+    "old_id": "eJZdjheptmiwKsVokt7Io",
+    "type": "subtopic",
+    "label": "Hetzner",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\contabo@eJZdjheptmiwKsVokt7Io.md",
+    "children": []
+  },
+  {
+    "id": "FaPf567JGRAg1MBlFj9Tk",
+    "old_id": "eJZdjheptmiwKsVokt7Io",
+    "type": "subtopic",
+    "label": "Heroku ",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\contabo@eJZdjheptmiwKsVokt7Io.md",
+    "children": []
+  },
+  {
+    "id": "eJZdjheptmiwKsVokt7Io",
+    "old_id": "ctor79Vd7EXDMdrLyUcu_",
+    "type": "subtopic",
+    "label": "Contabo",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\azure@ctor79Vd7EXDMdrLyUcu_.md",
+    "children": []
+  },
+  {
+    "id": "RDLmML_HS2c8J4D_U_KYe",
+    "old_id": "RDLmML_HS2c8J4D_U_KYe",
+    "type": "subtopic",
+    "label": "FTP / SFTP",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\ftp--sftp@RDLmML_HS2c8J4D_U_KYe.md",
+    "children": []
+  },
+  {
+    "id": "Vu955vdsYerCG8G6suqml",
+    "old_id": "Vu955vdsYerCG8G6suqml",
+    "type": "subtopic",
+    "label": "DNS",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\dns@Vu955vdsYerCG8G6suqml.md",
+    "children": []
+  },
+  {
+    "id": "ke-8MeuLx7AS2XjSsPhxe",
+    "old_id": "ke-8MeuLx7AS2XjSsPhxe",
+    "type": "subtopic",
+    "label": "HTTP",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\http@ke-8MeuLx7AS2XjSsPhxe.md",
+    "children": []
+  },
+  {
+    "id": "AJO3jtHvIICj8YKaSXl0U",
+    "old_id": "AJO3jtHvIICj8YKaSXl0U",
+    "type": "subtopic",
+    "label": "HTTPS",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\https@AJO3jtHvIICj8YKaSXl0U.md",
+    "children": []
+  },
+  {
+    "id": "0o6ejhfpmO4S8A6djVWva",
+    "old_id": "0o6ejhfpmO4S8A6djVWva",
+    "type": "subtopic",
+    "label": "SSL / TLS",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\ssl--tls@0o6ejhfpmO4S8A6djVWva.md",
+    "children": []
+  },
+  {
+    "id": "wcIRMLVm3SdEJWF9RPfn7",
+    "old_id": "QZ7bkY-MaEgxYoPDP3nma",
+    "type": "subtopic",
+    "label": "SSH",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\osi-model@QZ7bkY-MaEgxYoPDP3nma.md",
+    "children": []
+  },
+  {
+    "id": "E-lSLGzgOPrz-25ER2Hk7",
+    "old_id": "E-lSLGzgOPrz-25ER2Hk7",
+    "type": "subtopic",
+    "label": "White / Grey Listing",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\white--grey-listing@E-lSLGzgOPrz-25ER2Hk7.md",
+    "children": []
+  },
+  {
+    "id": "zJy9dOynWgLTDKI1iBluG",
+    "old_id": "zJy9dOynWgLTDKI1iBluG",
+    "type": "subtopic",
+    "label": "SMTP",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\smtp@zJy9dOynWgLTDKI1iBluG.md",
+    "children": []
+  },
+  {
+    "id": "5vUKHuItQfkarp7LtACvX",
+    "old_id": "5vUKHuItQfkarp7LtACvX",
+    "type": "subtopic",
+    "label": "DMARC",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\dmarc@5vUKHuItQfkarp7LtACvX.md",
+    "children": []
+  },
+  {
+    "id": "WMuXqa4b5wyRuYAQKQJRj",
+    "old_id": "WMuXqa4b5wyRuYAQKQJRj",
+    "type": "subtopic",
+    "label": "IMAP",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\imap@WMuXqa4b5wyRuYAQKQJRj.md",
+    "children": []
+  },
+  {
+    "id": "ewcJfnDFKXN8I5TLpXEaB",
+    "old_id": "ewcJfnDFKXN8I5TLpXEaB",
+    "type": "subtopic",
+    "label": "SPF",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\spf@ewcJfnDFKXN8I5TLpXEaB.md",
+    "children": []
+  },
+  {
+    "id": "fzO6xVTBxliu24f3W5zaU",
+    "old_id": "fzO6xVTBxliu24f3W5zaU",
+    "type": "subtopic",
+    "label": "POP3S",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\pop3s@fzO6xVTBxliu24f3W5zaU.md",
+    "children": []
+  },
+  {
+    "id": "RYCD78msIR2BPJoIP71aj",
+    "old_id": "RYCD78msIR2BPJoIP71aj",
+    "type": "subtopic",
+    "label": "Domain Keys",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\domain-keys@RYCD78msIR2BPJoIP71aj.md",
+    "children": []
+  },
+  {
+    "id": "n-pIspYFAk0vpHNbLbbLz",
+    "old_id": "n-pIspYFAk0vpHNbLbbLz",
+    "type": "label",
+    "label": "Email Protocols",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "QZ7bkY-MaEgxYoPDP3nma",
+    "old_id": "QZ7bkY-MaEgxYoPDP3nma",
+    "type": "subtopic",
+    "label": "OSI Model",
+    "resources": [],
+    "legend": {
+      "color": "#949494",
+      "label": "Order in Roadmap not Strict - Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\osi-model@QZ7bkY-MaEgxYoPDP3nma.md",
+    "children": []
+  },
+  {
+    "id": "LZDRgDxEZ3klp2PrrJFBX",
+    "old_id": "LZDRgDxEZ3klp2PrrJFBX",
+    "type": "subtopic",
+    "label": "Vercel",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\vercel@LZDRgDxEZ3klp2PrrJFBX.md",
+    "children": []
+  },
+  {
+    "id": "l8VAewSEXzoyqYFhoplJj",
+    "old_id": "l8VAewSEXzoyqYFhoplJj",
+    "type": "subtopic",
+    "label": "Cloudflare",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloudflare@l8VAewSEXzoyqYFhoplJj.md",
+    "children": []
+  },
+  {
+    "id": "mlrlf2McMI7IBhyEdq0Nf",
+    "old_id": "mlrlf2McMI7IBhyEdq0Nf",
+    "type": "subtopic",
+    "label": "Azure Functions",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\azure-functions@mlrlf2McMI7IBhyEdq0Nf.md",
+    "children": []
+  },
+  {
+    "id": "UfQrIJ-uMNJt9H_VM_Q5q",
+    "old_id": "UfQrIJ-uMNJt9H_VM_Q5q",
+    "type": "subtopic",
+    "label": "AWS Lambda",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\aws-lambda@UfQrIJ-uMNJt9H_VM_Q5q.md",
+    "children": []
+  },
+  {
+    "id": "hCKODV2b_l2uPit0YeP1M",
+    "old_id": "JXsctlXUUS1ie8nNEgIk9",
+    "type": "subtopic",
+    "label": "Netlify",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\gcp-functions@JXsctlXUUS1ie8nNEgIk9.md",
+    "children": []
+  },
+  {
+    "id": "TgBb4aL_9UkyU36CN4qvS",
+    "old_id": "TgBb4aL_9UkyU36CN4qvS",
+    "type": "subtopic",
+    "label": "CloudFormation",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloudformation@TgBb4aL_9UkyU36CN4qvS.md",
+    "children": []
+  },
+  {
+    "id": "O0xZ3dy2zIDbOetVrgna6",
+    "old_id": "O0xZ3dy2zIDbOetVrgna6",
+    "type": "subtopic",
+    "label": "Pulumi",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\pulumi@O0xZ3dy2zIDbOetVrgna6.md",
+    "children": []
+  },
+  {
+    "id": "nUBGf1rp9GK_pbagWCP9g",
+    "old_id": "nUBGf1rp9GK_pbagWCP9g",
+    "type": "subtopic",
+    "label": "Terraform",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\terraform@nUBGf1rp9GK_pbagWCP9g.md",
+    "children": []
+  },
+  {
+    "id": "aQJaouIaxIJChM-40M3HQ",
+    "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+    "type": "topic",
+    "label": "CI / CD Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+    "children": [
+      {
+        "id": "dUapFp3f0Rum-rf_Vk_b-",
+        "old_id": "dUapFp3f0Rum-rf_Vk_b-",
+        "type": "subtopic",
+        "label": "Jenkins",
+        "resources": [],
+        "legend": {
+          "color": "#667113",
+          "label": "Alternative Option - Pick this or Purple"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\jenkins@dUapFp3f0Rum-rf_Vk_b-.md",
+        "children": []
+      },
+      {
+        "id": "1-JneOQeGhox-CKrdiquq",
+        "old_id": "1-JneOQeGhox-CKrdiquq",
+        "type": "subtopic",
+        "label": "Circle CI",
+        "resources": [],
+        "legend": {
+          "color": "#874efe",
+          "label": "Personal Recommendation / Opinion"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\circle-ci@1-JneOQeGhox-CKrdiquq.md",
+        "children": []
+      },
+      {
+        "id": "TsXFx1wWikVBVoFUUDAMx",
+        "old_id": "TsXFx1wWikVBVoFUUDAMx",
+        "type": "subtopic",
+        "label": "Drone",
+        "resources": [],
+        "legend": {
+          "color": "#667113",
+          "label": "Alternative Option - Pick this or Purple"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\octopus-deploy@TsXFx1wWikVBVoFUUDAMx.md",
+        "children": []
+      },
+      {
+        "id": "JnWVCS1HbAyfCJzGt-WOH",
+        "old_id": "JnWVCS1HbAyfCJzGt-WOH",
+        "type": "subtopic",
+        "label": "GitHub Actions",
+        "resources": [],
+        "legend": {
+          "color": "#874efe",
+          "label": "Personal Recommendation / Opinion"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\github-actions@JnWVCS1HbAyfCJzGt-WOH.md",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "2KjSLLVTvl2G2KValw7S7",
+    "old_id": "2KjSLLVTvl2G2KValw7S7",
+    "type": "subtopic",
+    "label": "GitLab CI",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\gitlab-ci@2KjSLLVTvl2G2KValw7S7.md",
+    "children": []
+  },
+  {
+    "id": "-pGF3soruWWxwE4LxE5Vk",
+    "old_id": "-pGF3soruWWxwE4LxE5Vk",
+    "type": "subtopic",
+    "label": "Travis CI",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "children": []
+  },
+  {
+    "id": "L000AbzF3oLcn4B1eUIYX",
+    "old_id": "GHQWHLxsO40kJ6z_YCinJ",
+    "type": "subtopic",
+    "label": "TeamCity",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\sops@GHQWHLxsO40kJ6z_YCinJ.md",
+    "children": []
+  },
+  {
+    "id": "hcrPpjFxPi_iLiMdLKJrO",
+    "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+    "type": "topic",
+    "label": "Secret Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+    "children": [
+      {
+        "id": "ZWq23Q9ZNxLNti68oltxA",
+        "old_id": "GHQWHLxsO40kJ6z_YCinJ",
+        "type": "subtopic",
+        "label": "Sealed Secrets",
+        "resources": [],
+        "legend": {
+          "color": "#667113",
+          "label": "Alternative Option - Pick this or Purple"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\sops@GHQWHLxsO40kJ6z_YCinJ.md",
+        "children": []
+      },
+      {
+        "id": "tZzvs80KzqT8aDvEyjack",
+        "old_id": "GHQWHLxsO40kJ6z_YCinJ",
+        "type": "subtopic",
+        "label": "Vault",
+        "resources": [],
+        "legend": {
+          "color": "#874efe",
+          "label": "Personal Recommendation / Opinion"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\sops@GHQWHLxsO40kJ6z_YCinJ.md",
+        "children": []
+      },
+      {
+        "id": "yQ4d2uiROZYr950cjYnQE",
+        "old_id": "GHQWHLxsO40kJ6z_YCinJ",
+        "type": "subtopic",
+        "label": "Cloud Specific Tools",
+        "resources": [],
+        "legend": {
+          "color": "#667113",
+          "label": "Alternative Option - Pick this or Purple"
+        },
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\sops@GHQWHLxsO40kJ6z_YCinJ.md",
+        "children": []
+      },
+      {
+        "id": "qqRLeTpuoW64H9LvY0U_w",
+        "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+        "type": "topic",
+        "label": "Infrastructure Monitoring",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+        "children": [
+          {
+            "id": "NiVvRbCOCDpVvif48poCo",
+            "old_id": "NiVvRbCOCDpVvif48poCo",
+            "type": "subtopic",
+            "label": "Prometheus",
+            "resources": [],
+            "legend": {
+              "color": "#874efe",
+              "label": "Personal Recommendation / Opinion"
+            },
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\prometheus@NiVvRbCOCDpVvif48poCo.md",
+            "children": []
+          },
+          {
+            "id": "gaoZjOYmU0J5aM6vtLNvN",
+            "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+            "type": "topic",
+            "label": "Logs Management",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+            "children": [
+              {
+                "id": "s_kss4FJ2KyZRdcKNHK2v",
+                "old_id": "s_kss4FJ2KyZRdcKNHK2v",
+                "type": "subtopic",
+                "label": "Graylog",
+                "resources": [],
+                "legend": {
+                  "color": "#667113",
+                  "label": "Alternative Option - Pick this or Purple"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\graylog@s_kss4FJ2KyZRdcKNHK2v.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GHQWHLxsO40kJ6z_YCinJ",
+    "old_id": "GHQWHLxsO40kJ6z_YCinJ",
+    "type": "subtopic",
+    "label": "SOPs",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\sops@GHQWHLxsO40kJ6z_YCinJ.md",
+    "children": []
+  },
+  {
+    "id": "W9sKEoDlR8LzocQkqSv82",
+    "old_id": "W9sKEoDlR8LzocQkqSv82",
+    "type": "subtopic",
+    "label": "Zabbix",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\zabbix@W9sKEoDlR8LzocQkqSv82.md",
+    "children": []
+  },
+  {
+    "id": "bujq_C-ejtpmk-ICALByy",
+    "old_id": "bujq_C-ejtpmk-ICALByy",
+    "type": "subtopic",
+    "label": "Datadog",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\datadog@bujq_C-ejtpmk-ICALByy.md",
+    "children": []
+  },
+  {
+    "id": "niA_96yR7uQ0sc6S_OStf",
+    "old_id": "niA_96yR7uQ0sc6S_OStf",
+    "type": "subtopic",
+    "label": "Grafana",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\grafana@niA_96yR7uQ0sc6S_OStf.md",
+    "children": []
+  },
+  {
+    "id": "K_qLhK2kKN_uCq7iVjqph",
+    "old_id": "K_qLhK2kKN_uCq7iVjqph",
+    "type": "subtopic",
+    "label": "Elastic Stack",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\elastic-stack@K_qLhK2kKN_uCq7iVjqph.md",
+    "children": []
+  },
+  {
+    "id": "dZID_Y_uRTF8JlfDCqeqs",
+    "old_id": "dZID_Y_uRTF8JlfDCqeqs",
+    "type": "subtopic",
+    "label": "Splunk",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\splunk@dZID_Y_uRTF8JlfDCqeqs.md",
+    "children": []
+  },
+  {
+    "id": "cjjMZdyLgakyVkImVQTza",
+    "old_id": "cjjMZdyLgakyVkImVQTza",
+    "type": "subtopic",
+    "label": "Papertrail",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\papertrail@cjjMZdyLgakyVkImVQTza.md",
+    "children": []
+  },
+  {
+    "id": "Yq8kVoRf20aL_o4VZU5--",
+    "old_id": "wNguM6-YEznduz3MgBCYo",
+    "type": "topic",
+    "label": "Container Orchestration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\observability@wNguM6-YEznduz3MgBCYo.md",
+    "children": [
+      {
+        "id": "wNguM6-YEznduz3MgBCYo",
+        "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+        "type": "topic",
+        "label": "Application Monitoring",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+        "children": [
+          {
+            "id": "zuBAjrqQPjj-0DHGjCaqT",
+            "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+            "type": "topic",
+            "label": "Artifact Management",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+            "children": [
+              {
+                "id": "vsmE6EpCc2DFGk1YTbkHS",
+                "old_id": "vsmE6EpCc2DFGk1YTbkHS",
+                "type": "subtopic",
+                "label": "Cloud Smith",
+                "resources": [],
+                "legend": {
+                  "color": "#667113",
+                  "label": "Alternative Option - Pick this or Purple"
+                },
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-smith@vsmE6EpCc2DFGk1YTbkHS.md",
+                "children": []
+              },
+              {
+                "id": "-INN1qTMLimrZgaSPCcHj",
+                "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+                "type": "topic",
+                "label": "GitOps",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+                "children": [
+                  {
+                    "id": "6gVV_JUgKgwJb4C8tHZn7",
+                    "old_id": "ootuLJfRXarVvm3J1Ir11",
+                    "type": "subtopic",
+                    "label": "FluxCD",
+                    "resources": [],
+                    "legend": {
+                      "color": "#667113",
+                      "label": "Alternative Option - Pick this or Purple"
+                    },
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\nexus@ootuLJfRXarVvm3J1Ir11.md",
+                    "children": []
+                  },
+                  {
+                    "id": "EeWsihH9ehbFKebYoB5i9",
+                    "old_id": "Qc0MGR5bMG9eeM5Zb9PMk",
+                    "type": "topic",
+                    "label": "Service Mesh",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\cloud-design-patterns@Qc0MGR5bMG9eeM5Zb9PMk.md",
+                    "children": [
+                      {
+                        "id": "XsSnqW6k2IzvmrMmJeU6a",
+                        "old_id": "XsSnqW6k2IzvmrMmJeU6a",
+                        "type": "subtopic",
+                        "label": "Istio",
+                        "resources": [],
+                        "legend": {
+                          "color": "#874efe",
+                          "label": "Personal Recommendation / Opinion"
+                        },
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\istio@XsSnqW6k2IzvmrMmJeU6a.md",
+                        "children": []
+                      },
+                      {
+                        "id": "hhoSe4q1u850PgK62Ubau",
+                        "old_id": "hhoSe4q1u850PgK62Ubau",
+                        "type": "subtopic",
+                        "label": "Linkerd",
+                        "resources": [],
+                        "legend": {
+                          "color": "#667113",
+                          "label": "Alternative Option - Pick this or Purple"
+                        },
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\linkerd@hhoSe4q1u850PgK62Ubau.md",
+                        "children": []
+                      },
+                      {
+                        "id": "epLLYArR16HlhAS4c33b4",
+                        "old_id": "epLLYArR16HlhAS4c33b4",
+                        "type": "subtopic",
+                        "label": "Envoy",
+                        "resources": [],
+                        "legend": {
+                          "color": "#667113",
+                          "label": "Alternative Option - Pick this or Purple"
+                        },
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\envoy@epLLYArR16HlhAS4c33b4.md",
+                        "children": []
+                      },
+                      {
+                        "id": "Qc0MGR5bMG9eeM5Zb9PMk",
+                        "old_id": "wjJPzrFJBNYOD3SJLzW2M",
+                        "type": "topic",
+                        "label": "Cloud Design Patterns",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\terminal-knowledge@wjJPzrFJBNYOD3SJLzW2M.md",
+                        "children": [
+                          {
+                            "id": "JCe3fcOf-sokTJURyX1oI",
+                            "old_id": "JCe3fcOf-sokTJURyX1oI",
+                            "type": "subtopic",
+                            "label": "Availability",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\availability@JCe3fcOf-sokTJURyX1oI.md",
+                            "children": []
+                          },
+                          {
+                            "id": "5FN7iva4DW_lv-r1tijd8",
+                            "old_id": "5FN7iva4DW_lv-r1tijd8",
+                            "type": "subtopic",
+                            "label": "Data Management",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\data-management@5FN7iva4DW_lv-r1tijd8.md",
+                            "children": []
+                          },
+                          {
+                            "id": "1_NRXjckZ0F8EtEmgixqz",
+                            "old_id": "1_NRXjckZ0F8EtEmgixqz",
+                            "type": "subtopic",
+                            "label": "Design and Implementation",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\design-and-implementation@1_NRXjckZ0F8EtEmgixqz.md",
+                            "children": []
+                          },
+                          {
+                            "id": "8kby89epyullS9W7uKDrs",
+                            "old_id": "8kby89epyullS9W7uKDrs",
+                            "type": "subtopic",
+                            "label": "Management and Monitoring",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\management-and-monitoring@8kby89epyullS9W7uKDrs.md",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "OXOTm3nz6o44p50qd0brN",
+                        "old_id": "OXOTm3nz6o44p50qd0brN",
+                        "type": "subtopic",
+                        "label": "Consul",
+                        "resources": [],
+                        "legend": {
+                          "color": "#874efe",
+                          "label": "Personal Recommendation / Opinion"
+                        },
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\consul@OXOTm3nz6o44p50qd0brN.md",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "8rd7T5ahK2I_zh5co-IF-",
+            "old_id": "K81bmtgnB1gfhYdi3TB5a",
+            "type": "subtopic",
+            "label": "Jaeger",
+            "resources": [],
+            "legend": {
+              "color": "#667113",
+              "label": "Alternative Option - Pick this or Purple"
+            },
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\opentelemetry@K81bmtgnB1gfhYdi3TB5a.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "XbrWlTyH4z8crSHkki2lp",
+    "old_id": "K81bmtgnB1gfhYdi3TB5a",
+    "type": "subtopic",
+    "label": "GKE / EKS / AKS",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\opentelemetry@K81bmtgnB1gfhYdi3TB5a.md",
+    "children": []
+  },
+  {
+    "id": "FE2h-uQy6qli3rKERci1j",
+    "old_id": "FE2h-uQy6qli3rKERci1j",
+    "type": "subtopic",
+    "label": "AWS ECS / Fargate",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\aws-ecs--fargate@FE2h-uQy6qli3rKERci1j.md",
+    "children": []
+  },
+  {
+    "id": "VD24HC9qJOC42lbpJ-swC",
+    "old_id": "hIBeTUiAI3zwUY6NgAO-A",
+    "type": "subtopic",
+    "label": "Docker Swarm",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\kubernetes@hIBeTUiAI3zwUY6NgAO-A.md",
+    "children": []
+  },
+  {
+    "id": "C_sFyIsIIpriZlovvcbSE",
+    "old_id": "C_sFyIsIIpriZlovvcbSE",
+    "type": "subtopic",
+    "label": "Artifactory",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\artifactory@C_sFyIsIIpriZlovvcbSE.md",
+    "children": []
+  },
+  {
+    "id": "ootuLJfRXarVvm3J1Ir11",
+    "old_id": "ootuLJfRXarVvm3J1Ir11",
+    "type": "subtopic",
+    "label": "Nexus",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\nexus@ootuLJfRXarVvm3J1Ir11.md",
+    "children": []
+  },
+  {
+    "id": "wKYrZhmdNsv1Dw74-oAjR",
+    "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+    "type": "button",
+    "label": "Backend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "IjRWRJtJqhSsf67kh5YE6",
+    "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+    "type": "button",
+    "label": "Docker",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0iBhYESSf5f6WHvs_QqC5",
+    "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+    "type": "button",
+    "label": "Kubernetes",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "uSLzfLPXxS5-P7ozscvjZ",
+    "old_id": "PkhQdVms2TGgnPrytCBPZ",
+    "type": "button",
+    "label": "Linux",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MfErpYwkJ0wiWJZEUVfrb",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "Visit the Beginner Version",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "w2eCgBC-ydMHSxh7LMti8",
+    "old_id": "w2eCgBC-ydMHSxh7LMti8",
+    "type": "subtopic",
+    "label": "Loki",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\loki@w2eCgBC-ydMHSxh7LMti8.md",
+    "children": []
+  },
+  {
+    "id": "hIBeTUiAI3zwUY6NgAO-A",
+    "old_id": "hIBeTUiAI3zwUY6NgAO-A",
+    "type": "subtopic",
+    "label": "Kubernetes",
+    "resources": [],
+    "legend": {
+      "color": "#874efe",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\kubernetes@hIBeTUiAI3zwUY6NgAO-A.md",
+    "children": []
+  },
+  {
+    "id": "z7rDVZZVr1C2ZoOHGxDQ_",
+    "old_id": "z7rDVZZVr1C2ZoOHGxDQ_",
+    "type": "label",
+    "label": "Web Server",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "5zUf-LBQ0ByeP2hnAf9x1",
+    "old_id": "1b3VeGto7LzbiNNPolk7_",
+    "type": "label",
+    "label": "Editors",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "JXsctlXUUS1ie8nNEgIk9",
+    "old_id": "JXsctlXUUS1ie8nNEgIk9",
+    "type": "subtopic",
+    "label": "GCP Functions",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\gcp-functions@JXsctlXUUS1ie8nNEgIk9.md",
+    "children": []
+  },
+  {
+    "id": "pk76Us6z8LoX3f0mhnCyR",
+    "old_id": "K81bmtgnB1gfhYdi3TB5a",
+    "type": "subtopic",
+    "label": "New Relic",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\opentelemetry@K81bmtgnB1gfhYdi3TB5a.md",
+    "children": []
+  },
+  {
+    "id": "BHny2Emf96suhAlltiEro",
+    "old_id": "K81bmtgnB1gfhYdi3TB5a",
+    "type": "subtopic",
+    "label": "Datadog",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\opentelemetry@K81bmtgnB1gfhYdi3TB5a.md",
+    "children": []
+  },
+  {
+    "id": "eOyu4wmKOrcMlhD8pUGGh",
+    "old_id": "K81bmtgnB1gfhYdi3TB5a",
+    "type": "subtopic",
+    "label": "Prometheus",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\opentelemetry@K81bmtgnB1gfhYdi3TB5a.md",
+    "children": []
+  },
+  {
+    "id": "K81bmtgnB1gfhYdi3TB5a",
+    "old_id": "K81bmtgnB1gfhYdi3TB5a",
+    "type": "subtopic",
+    "label": "OpenTelemetry",
+    "resources": [],
+    "legend": {
+      "color": "#667113",
+      "label": "Alternative Option - Pick this or Purple"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\devops\\content\\opentelemetry@K81bmtgnB1gfhYdi3TB5a.md",
+    "children": []
+  }
+]

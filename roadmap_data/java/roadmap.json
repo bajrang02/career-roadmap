@@ -1,0 +1,1064 @@
+{
+  "slug": "java",
+  "title": "Java",
+  "nodes": [
+    {
+      "id": "CdLumO1g7RNbOkwUFkVC3",
+      "old_id": "CdLumO1g7RNbOkwUFkVC3",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "VheIOU0XKrEw_5M-Wv4yv",
+      "old_id": "VheIOU0XKrEw_5M-Wv4yv",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "8Ej86dM3j55V5r29WHTef",
+      "old_id": "8Ej86dM3j55V5r29WHTef",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "phhoZcCGuVm_zYFfcArb8",
+      "old_id": "phhoZcCGuVm_zYFfcArb8",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "7HWfRgtCU9Dv2N_3oHwYe",
+      "old_id": "7HWfRgtCU9Dv2N_3oHwYe",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "pbxsWeOonIRXRxPpdV-zo",
+      "old_id": "pbxsWeOonIRXRxPpdV-zo",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "ofYL6wlERXJaXuKL075zY",
+      "old_id": "ofYL6wlERXJaXuKL075zY",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "FY6qOOwg_pdFKoYPVOeys",
+      "old_id": "FY6qOOwg_pdFKoYPVOeys",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "ekkBrbM8BtpMu3TpHadYb",
+      "old_id": "ekkBrbM8BtpMu3TpHadYb",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "FyTlaUqrK5h3e5mWwkvVg",
+      "old_id": "FyTlaUqrK5h3e5mWwkvVg",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "o5yOEJFOR-wScK0GWPuQq",
+      "old_id": "o5yOEJFOR-wScK0GWPuQq",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "hp15XdmPlKKTbYnrYfCBl",
+      "old_id": "hp15XdmPlKKTbYnrYfCBl",
+      "type": "title",
+      "label": "Java",
+      "resources": []
+    },
+    {
+      "id": "2TGq1y2QthnxxN-FfToSe",
+      "old_id": "Rhk7BrJqNEXQT3LGlGLM6",
+      "type": "topic",
+      "label": "Learn the Basics",
+      "resources": []
+    },
+    {
+      "id": "OlbQNB6YXZjO1J7D0lZU1",
+      "old_id": "OlbQNB6YXZjO1J7D0lZU1",
+      "type": "subtopic",
+      "label": "Basic Syntax",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\basic-syntax@OlbQNB6YXZjO1J7D0lZU1.md"
+    },
+    {
+      "id": "5g9mmi01WeZ4aDqNzwx_V",
+      "old_id": "QgWalJLIb6Fw0HhN1wb02",
+      "type": "subtopic",
+      "label": "Data Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\lifecycle-of-a-program@QgWalJLIb6Fw0HhN1wb02.md"
+    },
+    {
+      "id": "sG_3ZQIE1-FQXQkk-OduQ",
+      "old_id": "sG_3ZQIE1-FQXQkk-OduQ",
+      "type": "subtopic",
+      "label": "Conditionals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\conditionals@sG_3ZQIE1-FQXQkk-OduQ.md"
+    },
+    {
+      "id": "5khApwg1FZ-0qorsLyH-F",
+      "old_id": "DZ4BX4NYeCQbjGSj56lng",
+      "type": "subtopic",
+      "label": "Arrays ",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\basics-of-oop@DZ4BX4NYeCQbjGSj56lng.md"
+    },
+    {
+      "id": "JHUhVEjWFXTn6-wKcKevg",
+      "old_id": "DZ4BX4NYeCQbjGSj56lng",
+      "type": "subtopic",
+      "label": "Loops",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\basics-of-oop@DZ4BX4NYeCQbjGSj56lng.md"
+    },
+    {
+      "id": "VBNcAO0STaZJ1iV9A7utv",
+      "old_id": "aEaBobzFWv0mJHGAbgxKY",
+      "type": "subtopic",
+      "label": "Variables and Scopes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\strings-and-methods@aEaBobzFWv0mJHGAbgxKY.md"
+    },
+    {
+      "id": "yNDbk6r5wFqBi25xmIRF_",
+      "old_id": "aEaBobzFWv0mJHGAbgxKY",
+      "type": "subtopic",
+      "label": "Type Casting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\strings-and-methods@aEaBobzFWv0mJHGAbgxKY.md"
+    },
+    {
+      "id": "aEaBobzFWv0mJHGAbgxKY",
+      "old_id": "aEaBobzFWv0mJHGAbgxKY",
+      "type": "subtopic",
+      "label": "Strings and Methods",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\strings-and-methods@aEaBobzFWv0mJHGAbgxKY.md"
+    },
+    {
+      "id": "ziD_XwzJSFQP_3iLjq9pA",
+      "old_id": "aEaBobzFWv0mJHGAbgxKY",
+      "type": "subtopic",
+      "label": "Math Operations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\strings-and-methods@aEaBobzFWv0mJHGAbgxKY.md"
+    },
+    {
+      "id": "QgWalJLIb6Fw0HhN1wb02",
+      "old_id": "aEaBobzFWv0mJHGAbgxKY",
+      "type": "subtopic",
+      "label": "Lifecycle of a Program",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\strings-and-methods@aEaBobzFWv0mJHGAbgxKY.md"
+    },
+    {
+      "id": "LenPrQwxFsE1UVbXO_dE7",
+      "old_id": "xTwJYcA6ldgaw3yGmbDEd",
+      "type": "subtopic",
+      "label": "Classes and Objects",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\attributes-and-methods@xTwJYcA6ldgaw3yGmbDEd.md"
+    },
+    {
+      "id": "xTwJYcA6ldgaw3yGmbDEd",
+      "old_id": "xTwJYcA6ldgaw3yGmbDEd",
+      "type": "subtopic",
+      "label": "Attributes and Methods",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\attributes-and-methods@xTwJYcA6ldgaw3yGmbDEd.md"
+    },
+    {
+      "id": "KYndNwfQcwRCf3zCXOwd_",
+      "old_id": "xTwJYcA6ldgaw3yGmbDEd",
+      "type": "subtopic",
+      "label": "Access Specifiers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\attributes-and-methods@xTwJYcA6ldgaw3yGmbDEd.md"
+    },
+    {
+      "id": "ZcNxO6qIXIg7RaWYnZj2e",
+      "old_id": "Ajuc_rHObqMQBXLqRIuxh",
+      "type": "subtopic",
+      "label": "Static Keyword",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\final-keyword@Ajuc_rHObqMQBXLqRIuxh.md"
+    },
+    {
+      "id": "zDBW20W2XMCtNTG3emJ_A",
+      "old_id": "Ajuc_rHObqMQBXLqRIuxh",
+      "type": "subtopic",
+      "label": "Nested Classes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\final-keyword@Ajuc_rHObqMQBXLqRIuxh.md"
+    },
+    {
+      "id": "DZ4BX4NYeCQbjGSj56lng",
+      "old_id": "DZ4BX4NYeCQbjGSj56lng",
+      "type": "subtopic",
+      "label": "Basics of OOP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\basics-of-oop@DZ4BX4NYeCQbjGSj56lng.md"
+    },
+    {
+      "id": "ryMPhTTScI9pJMkQsZaaM",
+      "old_id": "ryMPhTTScI9pJMkQsZaaM",
+      "type": "label",
+      "label": "Basics of OOP",
+      "resources": []
+    },
+    {
+      "id": "X6xl98_RqAQY79baHmRRI",
+      "old_id": "X6xl98_RqAQY79baHmRRI",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "sHYmeXbdREoxrru0PZ3Px",
+      "old_id": "sHYmeXbdREoxrru0PZ3Px",
+      "type": "label",
+      "label": "More about OOP",
+      "resources": []
+    },
+    {
+      "id": "Ax2ouIZgN1DpPzKDy4fwp",
+      "old_id": "3qowgj1pas1X7oRric9eU",
+      "type": "subtopic",
+      "label": "Method Chaining",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\object-lifecycle@3qowgj1pas1X7oRric9eU.md"
+    },
+    {
+      "id": "ey1f8IsdAlDv1O3E_tNog",
+      "old_id": "VqLV7kolfRFnvOuJAvzlg",
+      "type": "subtopic",
+      "label": "Enums",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\record@VqLV7kolfRFnvOuJAvzlg.md"
+    },
+    {
+      "id": "Ajuc_rHObqMQBXLqRIuxh",
+      "old_id": "KYndNwfQcwRCf3zCXOwd_",
+      "type": "subtopic",
+      "label": "Final Keyword",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\access-specifiers@KYndNwfQcwRCf3zCXOwd_.md"
+    },
+    {
+      "id": "3qowgj1pas1X7oRric9eU",
+      "old_id": "iH9wSsOK4a77pS7U0Yu5z",
+      "type": "subtopic",
+      "label": "Object Lifecycle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\encapsulation@iH9wSsOK4a77pS7U0Yu5z.md"
+    },
+    {
+      "id": "qdA6bK9ZkP8p0_NH_wMuj",
+      "old_id": "Kjdj862xnz8fqDYE3HKhC",
+      "type": "subtopic",
+      "label": "Abstraction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\static-vs-dynamic-binding@Kjdj862xnz8fqDYE3HKhC.md"
+    },
+    {
+      "id": "PXpPEmCEBUKRjwP3B5LzJ",
+      "old_id": "iH9wSsOK4a77pS7U0Yu5z",
+      "type": "subtopic",
+      "label": "Inheritance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\encapsulation@iH9wSsOK4a77pS7U0Yu5z.md"
+    },
+    {
+      "id": "y-i56f1P_mMdvyBr7J4XE",
+      "old_id": "Kjdj862xnz8fqDYE3HKhC",
+      "type": "subtopic",
+      "label": "Method Overloading / Overriding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\static-vs-dynamic-binding@Kjdj862xnz8fqDYE3HKhC.md"
+    },
+    {
+      "id": "Kjdj862xnz8fqDYE3HKhC",
+      "old_id": "iH9wSsOK4a77pS7U0Yu5z",
+      "type": "subtopic",
+      "label": "Static vs Dynamic Binding",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\encapsulation@iH9wSsOK4a77pS7U0Yu5z.md"
+    },
+    {
+      "id": "6wTRN2PYC6zM_Txkekx53",
+      "old_id": "iH9wSsOK4a77pS7U0Yu5z",
+      "type": "subtopic",
+      "label": "Interfaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\encapsulation@iH9wSsOK4a77pS7U0Yu5z.md"
+    },
+    {
+      "id": "iH9wSsOK4a77pS7U0Yu5z",
+      "old_id": "iH9wSsOK4a77pS7U0Yu5z",
+      "type": "subtopic",
+      "label": "Encapsulation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\encapsulation@iH9wSsOK4a77pS7U0Yu5z.md"
+    },
+    {
+      "id": "VqLV7kolfRFnvOuJAvzlg",
+      "old_id": "iH9wSsOK4a77pS7U0Yu5z",
+      "type": "subtopic",
+      "label": "Record",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\encapsulation@iH9wSsOK4a77pS7U0Yu5z.md"
+    },
+    {
+      "id": "60POZOjwHSdKYL6rfkyEy",
+      "old_id": "zDBW20W2XMCtNTG3emJ_A",
+      "type": "subtopic",
+      "label": "Packages",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\nested-classes@zDBW20W2XMCtNTG3emJ_A.md"
+    },
+    {
+      "id": "dg_UpaO8TzIN7w_QZ1n-6",
+      "old_id": "_TTAYrb6QvFGyTvK7cA-7",
+      "type": "subtopic",
+      "label": "Initializer Block",
+      "resources": []
+    },
+    {
+      "id": "3r0Er9XZHovIZz3gNyj4A",
+      "old_id": "dg_UpaO8TzIN7w_QZ1n-6",
+      "type": "subtopic",
+      "label": "Pass by Value / Pass by Reference",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\initializer-block@dg_UpaO8TzIN7w_QZ1n-6.md"
+    },
+    {
+      "id": "c--y6GcKj9am0CBdu_Hnt",
+      "old_id": "c--y6GcKj9am0CBdu_Hnt",
+      "type": "topic",
+      "label": "Annotations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\annotations@c--y6GcKj9am0CBdu_Hnt.md"
+    },
+    {
+      "id": "00_q6I95eO-PUUrKpPFY8",
+      "old_id": "c--y6GcKj9am0CBdu_Hnt",
+      "type": "topic",
+      "label": "Lambda Expressions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\annotations@c--y6GcKj9am0CBdu_Hnt.md"
+    },
+    {
+      "id": "kdxy8Zssnc5lJjdmjUyMc",
+      "old_id": "c--y6GcKj9am0CBdu_Hnt",
+      "type": "topic",
+      "label": "Modules",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\annotations@c--y6GcKj9am0CBdu_Hnt.md"
+    },
+    {
+      "id": "a-EQiBUlSgdZba1mW36op",
+      "old_id": "a-EQiBUlSgdZba1mW36op",
+      "type": "subtopic",
+      "label": "Array vs ArrayList",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\array-vs-arraylist@a-EQiBUlSgdZba1mW36op.md"
+    },
+    {
+      "id": "XjkNd5WJ9yxW48dwHQNkZ",
+      "old_id": "XjkNd5WJ9yxW48dwHQNkZ",
+      "type": "subtopic",
+      "label": "Set",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\set@XjkNd5WJ9yxW48dwHQNkZ.md"
+    },
+    {
+      "id": "eKtdDtiJygKQ4PuEylFQY",
+      "old_id": "eKtdDtiJygKQ4PuEylFQY",
+      "type": "subtopic",
+      "label": "Map",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\map@eKtdDtiJygKQ4PuEylFQY.md"
+    },
+    {
+      "id": "ThoWhXb4vUvNfE70_wMfa",
+      "old_id": "DWO2-EPIUeKK5aQGiTuKc",
+      "type": "subtopic",
+      "label": "Queue",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\dequeue@DWO2-EPIUeKK5aQGiTuKc.md"
+    },
+    {
+      "id": "DzfE_9WLAp-BrG3C1-MwU",
+      "old_id": "eL4pc6SaNiKP48PzN7mNe",
+      "type": "subtopic",
+      "label": "Stack",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\generic-collections@eL4pc6SaNiKP48PzN7mNe.md"
+    },
+    {
+      "id": "DWO2-EPIUeKK5aQGiTuKc",
+      "old_id": "DWO2-EPIUeKK5aQGiTuKc",
+      "type": "subtopic",
+      "label": "Dequeue",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\dequeue@DWO2-EPIUeKK5aQGiTuKc.md"
+    },
+    {
+      "id": "-17LFO72I8RKjJRMXct9k",
+      "old_id": "DWO2-EPIUeKK5aQGiTuKc",
+      "type": "subtopic",
+      "label": "Iterator",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\dequeue@DWO2-EPIUeKK5aQGiTuKc.md"
+    },
+    {
+      "id": "PX4ZcshR0QtsPElyZzSel",
+      "old_id": "PX4ZcshR0QtsPElyZzSel",
+      "type": "label",
+      "label": "Collections",
+      "resources": []
+    },
+    {
+      "id": "eL4pc6SaNiKP48PzN7mNe",
+      "old_id": "eL4pc6SaNiKP48PzN7mNe",
+      "type": "subtopic",
+      "label": "Generic Collections",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\generic-collections@eL4pc6SaNiKP48PzN7mNe.md"
+    },
+    {
+      "id": "l9fxK8K9fcUqR7hs5TkWU",
+      "old_id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "Optionals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\networking@JeMG0gU8IVRBZgczjXmPi.md"
+    },
+    {
+      "id": "g9P3548F38tYGjevBc42w",
+      "old_id": "00_q6I95eO-PUUrKpPFY8",
+      "type": "topic",
+      "label": "Exception Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\lambda-expressions@00_q6I95eO-PUUrKpPFY8.md"
+    },
+    {
+      "id": "D1woaibP6qkuqmBQkZrhO",
+      "old_id": "FY6qOOwg_pdFKoYPVOeys",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "_W84u4UXMSY0zvy6RJvFi",
+      "old_id": "LgpsnXV0CTvTspjnsd0Rd",
+      "type": "topic",
+      "label": "Web Frameworks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\testing@LgpsnXV0CTvTspjnsd0Rd.md"
+    },
+    {
+      "id": "xoryfi4SpJlkz-PV05ql6",
+      "old_id": "xoryfi4SpJlkz-PV05ql6",
+      "type": "subtopic",
+      "label": "Spring (Spring Boot)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\spring-spring-boot@xoryfi4SpJlkz-PV05ql6.md"
+    },
+    {
+      "id": "kN-mXxqUPNJNsJGQ0U_7J",
+      "old_id": "xoryfi4SpJlkz-PV05ql6",
+      "type": "subtopic",
+      "label": "Play Framework",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\spring-spring-boot@xoryfi4SpJlkz-PV05ql6.md"
+    },
+    {
+      "id": "w-kcKPh8U0P_jtT90_1Xy",
+      "old_id": "OrkJa48HIDmrLOgCBpimA",
+      "type": "subtopic",
+      "label": "Quarkus",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\javalin@OrkJa48HIDmrLOgCBpimA.md"
+    },
+    {
+      "id": "aqTfDatV26H0rOAhyQo0q",
+      "old_id": "aqTfDatV26H0rOAhyQo0q",
+      "type": "label",
+      "label": "Spring Boot is recommended",
+      "resources": []
+    },
+    {
+      "id": "81N1cZLue_Ii0uD5CV6kZ",
+      "old_id": "81N1cZLue_Ii0uD5CV6kZ",
+      "type": "topic",
+      "label": "Build Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\build-tools@81N1cZLue_Ii0uD5CV6kZ.md"
+    },
+    {
+      "id": "VdL_fAHxmRbuF0J627beA",
+      "old_id": "6FMj9tMAQPii_1kLtHJLk",
+      "type": "subtopic",
+      "label": "Maven",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\bazel@6FMj9tMAQPii_1kLtHJLk.md"
+    },
+    {
+      "id": "rmDIm5dqtdlNfPhvpqS7-",
+      "old_id": "6FMj9tMAQPii_1kLtHJLk",
+      "type": "subtopic",
+      "label": "Gradle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\bazel@6FMj9tMAQPii_1kLtHJLk.md"
+    },
+    {
+      "id": "6FMj9tMAQPii_1kLtHJLk",
+      "old_id": "6FMj9tMAQPii_1kLtHJLk",
+      "type": "subtopic",
+      "label": "Bazel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\bazel@6FMj9tMAQPii_1kLtHJLk.md"
+    },
+    {
+      "id": "zItXmuluDtl6HkTYQ7qMh",
+      "old_id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "Dependency Injection",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\networking@JeMG0gU8IVRBZgczjXmPi.md"
+    },
+    {
+      "id": "M0ybgK1JCycXhZ1dEpCFo",
+      "old_id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "I/O Operations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\networking@JeMG0gU8IVRBZgczjXmPi.md"
+    },
+    {
+      "id": "NowpzyPVFcX082j5YS5i8",
+      "old_id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "File Operations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\networking@JeMG0gU8IVRBZgczjXmPi.md"
+    },
+    {
+      "id": "H-TpLxAx_BnJhyFc4HK6M",
+      "old_id": "aqTfDatV26H0rOAhyQo0q",
+      "type": "label",
+      "label": "v",
+      "resources": []
+    },
+    {
+      "id": "shqS9-hg__mkOtnnl_I4l",
+      "old_id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "Concurrency",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\networking@JeMG0gU8IVRBZgczjXmPi.md"
+    },
+    {
+      "id": "u_YysD7Bpnq-xkFX5yJGz",
+      "old_id": "U4Wx3MH3LgJLa0n9Ne0Br",
+      "type": "subtopic",
+      "label": "Threads",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\volatile-keyword@U4Wx3MH3LgJLa0n9Ne0Br.md"
+    },
+    {
+      "id": "vJSq1GJLIMQ6IIB8CMK8g",
+      "old_id": "U4Wx3MH3LgJLa0n9Ne0Br",
+      "type": "subtopic",
+      "label": "Virtual Threads",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\volatile-keyword@U4Wx3MH3LgJLa0n9Ne0Br.md"
+    },
+    {
+      "id": "wEc7pSVU5G2c6Zqmtb_1k",
+      "old_id": "U4Wx3MH3LgJLa0n9Ne0Br",
+      "type": "subtopic",
+      "label": "Java Memory Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\volatile-keyword@U4Wx3MH3LgJLa0n9Ne0Br.md"
+    },
+    {
+      "id": "U4Wx3MH3LgJLa0n9Ne0Br",
+      "old_id": "U4Wx3MH3LgJLa0n9Ne0Br",
+      "type": "subtopic",
+      "label": "volatile keyword",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\volatile-keyword@U4Wx3MH3LgJLa0n9Ne0Br.md"
+    },
+    {
+      "id": "_wV2VQq6MIY1rVHjK8pfu",
+      "old_id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "Cryptography",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\networking@JeMG0gU8IVRBZgczjXmPi.md"
+    },
+    {
+      "id": "9h20XVRli7TDq0QIJwX2U",
+      "old_id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "Date and Time",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\networking@JeMG0gU8IVRBZgczjXmPi.md"
+    },
+    {
+      "id": "UGccAJeFA636IiCySl-zF",
+      "old_id": "UGccAJeFA636IiCySl-zF",
+      "type": "label",
+      "label": "Functional Programming",
+      "resources": []
+    },
+    {
+      "id": "1Mk_zXxCCcUoX-gFxtlnf",
+      "old_id": "WHxAwfdKHQSOg0TLX05EG",
+      "type": "subtopic",
+      "label": "Functional Composition",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\stream-api@WHxAwfdKHQSOg0TLX05EG.md"
+    },
+    {
+      "id": "dz6bCmB4dgA7VVZ448cN6",
+      "old_id": "SityDdjhhNZ9CO3Tg0VI9",
+      "type": "subtopic",
+      "label": "High Order Functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\functional-interfaces@SityDdjhhNZ9CO3Tg0VI9.md"
+    },
+    {
+      "id": "SityDdjhhNZ9CO3Tg0VI9",
+      "old_id": "SityDdjhhNZ9CO3Tg0VI9",
+      "type": "subtopic",
+      "label": "Functional Interfaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\functional-interfaces@SityDdjhhNZ9CO3Tg0VI9.md"
+    },
+    {
+      "id": "WHxAwfdKHQSOg0TLX05EG",
+      "old_id": "SityDdjhhNZ9CO3Tg0VI9",
+      "type": "subtopic",
+      "label": "Stream API",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\functional-interfaces@SityDdjhhNZ9CO3Tg0VI9.md"
+    },
+    {
+      "id": "JeMG0gU8IVRBZgczjXmPi",
+      "old_id": "kdxy8Zssnc5lJjdmjUyMc",
+      "type": "topic",
+      "label": "Networking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\modules@kdxy8Zssnc5lJjdmjUyMc.md"
+    },
+    {
+      "id": "C7rB3jkshHFN7TkHRJPlz",
+      "old_id": "JeMG0gU8IVRBZgczjXmPi",
+      "type": "topic",
+      "label": "Regular Expressions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\networking@JeMG0gU8IVRBZgczjXmPi.md"
+    },
+    {
+      "id": "fV-gW51jhna2__Ln2HIIh",
+      "old_id": "LgpsnXV0CTvTspjnsd0Rd",
+      "type": "topic",
+      "label": "Database Access",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\testing@LgpsnXV0CTvTspjnsd0Rd.md"
+    },
+    {
+      "id": "WzWOxBUKKg6LeuBmVesc2",
+      "old_id": "9UbRG752qxJdUwmqEAjN3",
+      "type": "subtopic",
+      "label": "Spring Data JPA",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\jdbc@9UbRG752qxJdUwmqEAjN3.md"
+    },
+    {
+      "id": "UEiDzzodyEu5O1xFAFDly",
+      "old_id": "9UbRG752qxJdUwmqEAjN3",
+      "type": "subtopic",
+      "label": "Hibernate",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\jdbc@9UbRG752qxJdUwmqEAjN3.md"
+    },
+    {
+      "id": "X2rJ3BY1ytFKsbJqJETFu",
+      "old_id": "9UbRG752qxJdUwmqEAjN3",
+      "type": "subtopic",
+      "label": "EBean",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\jdbc@9UbRG752qxJdUwmqEAjN3.md"
+    },
+    {
+      "id": "d9F5Wt8onY125DLuzNULg",
+      "old_id": "LgpsnXV0CTvTspjnsd0Rd",
+      "type": "topic",
+      "label": "Logging Frameworks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\testing@LgpsnXV0CTvTspjnsd0Rd.md"
+    },
+    {
+      "id": "okC1uMdyfIJAhX_R9Npsw",
+      "old_id": "okC1uMdyfIJAhX_R9Npsw",
+      "type": "subtopic",
+      "label": "Logback",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\logback@okC1uMdyfIJAhX_R9Npsw.md"
+    },
+    {
+      "id": "sFaNj_1MviaTc6UIfjXl6",
+      "old_id": "sFaNj_1MviaTc6UIfjXl6",
+      "type": "subtopic",
+      "label": "Log4j2",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\log4j2@sFaNj_1MviaTc6UIfjXl6.md"
+    },
+    {
+      "id": "LGlZHKqyQ-aWtHnhklhgn",
+      "old_id": "LGlZHKqyQ-aWtHnhklhgn",
+      "type": "subtopic",
+      "label": "SLF4J",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\slf4j@LGlZHKqyQ-aWtHnhklhgn.md"
+    },
+    {
+      "id": "Fn7aAaGbwYsAp4xLuuFud",
+      "old_id": "Fn7aAaGbwYsAp4xLuuFud",
+      "type": "subtopic",
+      "label": "TinyLog",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\tinylog@Fn7aAaGbwYsAp4xLuuFud.md"
+    },
+    {
+      "id": "LgpsnXV0CTvTspjnsd0Rd",
+      "old_id": "81N1cZLue_Ii0uD5CV6kZ",
+      "type": "topic",
+      "label": "Testing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\build-tools@81N1cZLue_Ii0uD5CV6kZ.md"
+    },
+    {
+      "id": "9UbRG752qxJdUwmqEAjN3",
+      "old_id": "9UbRG752qxJdUwmqEAjN3",
+      "type": "subtopic",
+      "label": "JDBC",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\jdbc@9UbRG752qxJdUwmqEAjN3.md"
+    },
+    {
+      "id": "ahcnPvftbi83gtiqV6VTP",
+      "old_id": "ahcnPvftbi83gtiqV6VTP",
+      "type": "label",
+      "label": "Unit Testing",
+      "resources": []
+    },
+    {
+      "id": "hY1-sEpTmpaj1PregdkFf",
+      "old_id": "hY1-sEpTmpaj1PregdkFf",
+      "type": "subtopic",
+      "label": "JUnit",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\junit@hY1-sEpTmpaj1PregdkFf.md"
+    },
+    {
+      "id": "XU2C8bF9ICej8LS7ZGTTv",
+      "old_id": "XU2C8bF9ICej8LS7ZGTTv",
+      "type": "subtopic",
+      "label": "TestNG",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\testng@XU2C8bF9ICej8LS7ZGTTv.md"
+    },
+    {
+      "id": "lI6ST4WcGtPdKSoWIxStg",
+      "old_id": "lI6ST4WcGtPdKSoWIxStg",
+      "type": "label",
+      "label": "Integration Testing",
+      "resources": []
+    },
+    {
+      "id": "gB4XUR9nCdF1-dOEwGcHi",
+      "old_id": "gB4XUR9nCdF1-dOEwGcHi",
+      "type": "subtopic",
+      "label": "REST Assured",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\rest-assured@gB4XUR9nCdF1-dOEwGcHi.md"
+    },
+    {
+      "id": "U2BqOY49HaII6mKQB3SVt",
+      "old_id": "U2BqOY49HaII6mKQB3SVt",
+      "type": "subtopic",
+      "label": "JMeter",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\jmeter@U2BqOY49HaII6mKQB3SVt.md"
+    },
+    {
+      "id": "BFX3fjnFTHVnNnqMudZoK",
+      "old_id": "BFX3fjnFTHVnNnqMudZoK",
+      "type": "label",
+      "label": "Behavior Testing",
+      "resources": []
+    },
+    {
+      "id": "UFDy19TNkykRsKv4vRsVJ",
+      "old_id": "mLM1HJf6_pxrUDOmb45ew",
+      "type": "subtopic",
+      "label": "Cucumber-JVM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\mocking--mockito@mLM1HJf6_pxrUDOmb45ew.md"
+    },
+    {
+      "id": "mLM1HJf6_pxrUDOmb45ew",
+      "old_id": "mLM1HJf6_pxrUDOmb45ew",
+      "type": "subtopic",
+      "label": "Mocking > Mockito",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\mocking--mockito@mLM1HJf6_pxrUDOmb45ew.md"
+    },
+    {
+      "id": "-sFboM4eFUMVq1tlPl-fV",
+      "old_id": "qXKNK_IsGS8-JgLK-Q9oU",
+      "type": "button",
+      "label": "Backend Roadmap",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "Visit Backend Roadmap",
+      "resources": []
+    },
+    {
+      "id": "if9eTna5NRTMStVwpSwDP",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "OrkJa48HIDmrLOgCBpimA",
+      "old_id": "kN-mXxqUPNJNsJGQ0U_7J",
+      "type": "subtopic",
+      "label": "Javalin",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\java\\content\\play-framework@kN-mXxqUPNJNsJGQ0U_7J.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES"
+    },
+    {
+      "source": null,
+      "target": "NMznG9mo2wzNFnjhg990f"
+    },
+    {
+      "source": null,
+      "target": "gc_7cuIO2_joKlQRAPDfX"
+    },
+    {
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI"
+    },
+    {
+      "source": "hp15XdmPlKKTbYnrYfCBl",
+      "target": "2TGq1y2QthnxxN-FfToSe"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "OlbQNB6YXZjO1J7D0lZU1"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "5g9mmi01WeZ4aDqNzwx_V"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "VBNcAO0STaZJ1iV9A7utv"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "yNDbk6r5wFqBi25xmIRF_"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "5khApwg1FZ-0qorsLyH-F"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "sG_3ZQIE1-FQXQkk-OduQ"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "JHUhVEjWFXTn6-wKcKevg"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "KcIUQ5XpOI6WTA9wrqzn3"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "ziD_XwzJSFQP_3iLjq9pA"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "aEaBobzFWv0mJHGAbgxKY"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "QgWalJLIb6Fw0HhN1wb02"
+    },
+    {
+      "source": "Rhk7BrJqNEXQT3LGlGLM6",
+      "target": "LenPrQwxFsE1UVbXO_dE7"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "DZ4BX4NYeCQbjGSj56lng"
+    },
+    {
+      "source": "2TGq1y2QthnxxN-FfToSe",
+      "target": "zNHDLv26Xn3oMrDVSAP1Z"
+    },
+    {
+      "source": "FyTlaUqrK5h3e5mWwkvVg",
+      "target": "XUikvUeIXLl34LP6HFrAI"
+    },
+    {
+      "source": "kdxy8Zssnc5lJjdmjUyMc",
+      "target": "8n5A3GTRV3WpEnCa4yGam"
+    },
+    {
+      "source": "zNHDLv26Xn3oMrDVSAP1Z",
+      "target": "FyTlaUqrK5h3e5mWwkvVg"
+    },
+    {
+      "source": "zNHDLv26Xn3oMrDVSAP1Z",
+      "target": "g9P3548F38tYGjevBc42w"
+    },
+    {
+      "source": "g9P3548F38tYGjevBc42w",
+      "target": "00_q6I95eO-PUUrKpPFY8"
+    },
+    {
+      "source": "81N1cZLue_Ii0uD5CV6kZ",
+      "target": "6FMj9tMAQPii_1kLtHJLk"
+    },
+    {
+      "source": "zItXmuluDtl6HkTYQ7qMh",
+      "target": "M0ybgK1JCycXhZ1dEpCFo"
+    },
+    {
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "kN-mXxqUPNJNsJGQ0U_7J"
+    },
+    {
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "81N1cZLue_Ii0uD5CV6kZ"
+    },
+    {
+      "source": "shqS9-hg__mkOtnnl_I4l",
+      "target": "u_YysD7Bpnq-xkFX5yJGz"
+    },
+    {
+      "source": "_W84u4UXMSY0zvy6RJvFi",
+      "target": "fV-gW51jhna2__Ln2HIIh"
+    },
+    {
+      "source": "fV-gW51jhna2__Ln2HIIh",
+      "target": "WzWOxBUKKg6LeuBmVesc2"
+    },
+    {
+      "source": "fV-gW51jhna2__Ln2HIIh",
+      "target": "d9F5Wt8onY125DLuzNULg"
+    },
+    {
+      "source": "d9F5Wt8onY125DLuzNULg",
+      "target": "LgpsnXV0CTvTspjnsd0Rd"
+    },
+    {
+      "source": "d9F5Wt8onY125DLuzNULg",
+      "target": "d9F5Wt8onY125DLuzNULg"
+    },
+    {
+      "source": "KMA7NkxFbPoUDtFnGBFnj",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    },
+    {
+      "source": "DYkdM_L7T2GcTPAoZNnUR",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    },
+    {
+      "source": "LgpsnXV0CTvTspjnsd0Rd",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    }
+  ]
+}

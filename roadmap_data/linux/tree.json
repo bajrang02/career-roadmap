@@ -1,0 +1,998 @@
+[
+  {
+    "id": "u2K2QU5WxT9sSe9FCB-CA",
+    "old_id": "u2K2QU5WxT9sSe9FCB-CA",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": [
+      {
+        "id": "F1sU3O1ouxTOvpidDfN3k",
+        "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "topic",
+        "label": "Service Management (systemd)",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+        "children": [
+          {
+            "id": "34UUrc8Yjc_8lvTL8itc3",
+            "old_id": "xk5Xgi797HlVjdZJRfwX1",
+            "type": "subtopic",
+            "label": "Creating New Services",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\checking-service-status@xk5Xgi797HlVjdZJRfwX1.md",
+            "children": []
+          },
+          {
+            "id": "FStz-bftQBK0M6zz2Bxl4",
+            "old_id": "xk5Xgi797HlVjdZJRfwX1",
+            "type": "subtopic",
+            "label": "Checking Service Logs",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\checking-service-status@xk5Xgi797HlVjdZJRfwX1.md",
+            "children": []
+          },
+          {
+            "id": "DuEfJNrm4Jfmp8-8Pggrf",
+            "old_id": "xk5Xgi797HlVjdZJRfwX1",
+            "type": "subtopic",
+            "label": "Starting / Stopping Services",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\checking-service-status@xk5Xgi797HlVjdZJRfwX1.md",
+            "children": []
+          },
+          {
+            "id": "xk5Xgi797HlVjdZJRfwX1",
+            "old_id": "xk5Xgi797HlVjdZJRfwX1",
+            "type": "subtopic",
+            "label": "Checking Service Status",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\checking-service-status@xk5Xgi797HlVjdZJRfwX1.md",
+            "children": []
+          },
+          {
+            "id": "4eINX8jYMJxfYh7ZV47YI",
+            "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+            "type": "topic",
+            "label": "Package Management",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+            "children": [
+              {
+                "id": "Fn_uYKigJRgb7r_iYGVBr",
+                "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                "type": "topic",
+                "label": "Disks and Filesystems",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                "children": [
+                  {
+                    "id": "DQEa8LrJ9TVW4ULBE4aHJ",
+                    "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                    "type": "topic",
+                    "label": "Booting Linux",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                    "children": [
+                      {
+                        "id": "o5lSQFW-V_PqndGqo1mp3",
+                        "old_id": "o5lSQFW-V_PqndGqo1mp3",
+                        "type": "subtopic",
+                        "label": "Boot Loaders",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\boot-loaders@o5lSQFW-V_PqndGqo1mp3.md",
+                        "children": []
+                      },
+                      {
+                        "id": "ru7mpLQZKE1QxAdiA1sS3",
+                        "old_id": "o5lSQFW-V_PqndGqo1mp3",
+                        "type": "subtopic",
+                        "label": "Logs",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\boot-loaders@o5lSQFW-V_PqndGqo1mp3.md",
+                        "children": []
+                      },
+                      {
+                        "id": "Mb42VFjCzMZn_PovKIfKx",
+                        "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                        "type": "topic",
+                        "label": "Networking",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                        "children": [
+                          {
+                            "id": "0pciSsiQqIGJh3x8465_s",
+                            "old_id": "D0yUzzaJsfhtdBWMtquAj",
+                            "type": "subtopic",
+                            "label": "TCP/IP Stack",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ip-routing@D0yUzzaJsfhtdBWMtquAj.md",
+                            "children": []
+                          },
+                          {
+                            "id": "Xszo9vXuwwXZo26seHehD",
+                            "old_id": "D0yUzzaJsfhtdBWMtquAj",
+                            "type": "subtopic",
+                            "label": "Subnetting",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ip-routing@D0yUzzaJsfhtdBWMtquAj.md",
+                            "children": []
+                          },
+                          {
+                            "id": "4ees23q281J1DPVAc7iXd",
+                            "old_id": "uk6UMuI8Uhf02TBAGVeLS",
+                            "type": "subtopic",
+                            "label": "Ethernet & arp/rarp",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ssh@uk6UMuI8Uhf02TBAGVeLS.md",
+                            "children": []
+                          },
+                          {
+                            "id": "D0yUzzaJsfhtdBWMtquAj",
+                            "old_id": "D0yUzzaJsfhtdBWMtquAj",
+                            "type": "subtopic",
+                            "label": "IP Routing",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ip-routing@D0yUzzaJsfhtdBWMtquAj.md",
+                            "children": []
+                          },
+                          {
+                            "id": "f5oQYhmjNM2_FD7Qe1zGK",
+                            "old_id": "tVrbVcNEfc11FbEUoO2Dk",
+                            "type": "subtopic",
+                            "label": "DNS Resolution",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\file-transfer@tVrbVcNEfc11FbEUoO2Dk.md",
+                            "children": []
+                          },
+                          {
+                            "id": "uk6UMuI8Uhf02TBAGVeLS",
+                            "old_id": "D0yUzzaJsfhtdBWMtquAj",
+                            "type": "subtopic",
+                            "label": "SSH",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ip-routing@D0yUzzaJsfhtdBWMtquAj.md",
+                            "children": []
+                          },
+                          {
+                            "id": "tVrbVcNEfc11FbEUoO2Dk",
+                            "old_id": "uk6UMuI8Uhf02TBAGVeLS",
+                            "type": "subtopic",
+                            "label": "File Transfer",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ssh@uk6UMuI8Uhf02TBAGVeLS.md",
+                            "children": []
+                          },
+                          {
+                            "id": "4tFZ1PLpz50bddf7zSFrW",
+                            "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                            "type": "topic",
+                            "label": "Shell Programming",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                            "children": [
+                              {
+                                "id": "rOGnHbGIr3xPCFdpkqoeK",
+                                "old_id": "rQxfp7UWqN72iqewZhOdc",
+                                "type": "subtopic",
+                                "label": "Debugging",
+                                "resources": [],
+                                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\conditionals@rQxfp7UWqN72iqewZhOdc.md",
+                                "children": []
+                              },
+                              {
+                                "id": "bdQNcr1sj94aX_gjwf2Fa",
+                                "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                                "type": "topic",
+                                "label": "Troubleshooting",
+                                "resources": [],
+                                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                                "children": [
+                                  {
+                                    "id": "BnB3Rirh4R7a7LW7-k-95",
+                                    "old_id": "7seneb4TWts4v1_x8xlcZ",
+                                    "type": "subtopic",
+                                    "label": "traceroute",
+                                    "resources": [],
+                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\packet-analysis@7seneb4TWts4v1_x8xlcZ.md",
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "yrxNYMluJ9OAQCKuM5W1u",
+                                    "old_id": "7seneb4TWts4v1_x8xlcZ",
+                                    "type": "subtopic",
+                                    "label": "netstat",
+                                    "resources": [],
+                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\packet-analysis@7seneb4TWts4v1_x8xlcZ.md",
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "Ymf3u_sG1dyt8ZR_LbwqJ",
+                                    "old_id": "7seneb4TWts4v1_x8xlcZ",
+                                    "type": "subtopic",
+                                    "label": "ICMP",
+                                    "resources": [],
+                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\packet-analysis@7seneb4TWts4v1_x8xlcZ.md",
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "7seneb4TWts4v1_x8xlcZ",
+                                    "old_id": "Uc36t92UAlILgM3_XxcMG",
+                                    "type": "subtopic",
+                                    "label": "Packet Analysis",
+                                    "resources": [],
+                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ping@Uc36t92UAlILgM3_XxcMG.md",
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "3OpGaQhyNtk1n1MLp-tlb",
+                                    "old_id": "t8SJbGVXsUDECxePLDk_w",
+                                    "type": "topic",
+                                    "label": "Containerization",
+                                    "resources": [],
+                                    "children": [
+                                      {
+                                        "id": "MfengY3ouz6sSOx3PXYf8",
+                                        "old_id": "23lsrUw8ux6ZP9JlDNNu2",
+                                        "type": "subtopic",
+                                        "label": "Docker",
+                                        "resources": [],
+                                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\cgroups@23lsrUw8ux6ZP9JlDNNu2.md",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HU7wZWiES3m3xl1-NYP6F",
+    "old_id": "HU7wZWiES3m3xl1-NYP6F",
+    "type": "title",
+    "label": "Linux",
+    "resources": [],
+    "children": [
+      {
+        "id": "y7KjVfSI6CAduyHd4mBFT",
+        "old_id": "t8SJbGVXsUDECxePLDk_w",
+        "type": "topic",
+        "label": "Navigation Basics",
+        "resources": [],
+        "children": [
+          {
+            "id": "qLeEEwBvlGt1fP5Qcreah",
+            "old_id": "3fzuXKH7az_LVnmnoXB1p",
+            "type": "subtopic",
+            "label": "Basic Commands",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\directory-hierarchy-overview@3fzuXKH7az_LVnmnoXB1p.md",
+            "children": []
+          },
+          {
+            "id": "q-Ky0ietZGpyUcBQfh-BJ",
+            "old_id": "3fzuXKH7az_LVnmnoXB1p",
+            "type": "subtopic",
+            "label": "Moving Files / Directories",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\directory-hierarchy-overview@3fzuXKH7az_LVnmnoXB1p.md",
+            "children": []
+          },
+          {
+            "id": "9oo2fxTM2_p0VYPBroqxa",
+            "old_id": "3fzuXKH7az_LVnmnoXB1p",
+            "type": "subtopic",
+            "label": "Creating & Deleting Files / Dirs",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\directory-hierarchy-overview@3fzuXKH7az_LVnmnoXB1p.md",
+            "children": []
+          },
+          {
+            "id": "3fzuXKH7az_LVnmnoXB1p",
+            "old_id": "3fzuXKH7az_LVnmnoXB1p",
+            "type": "subtopic",
+            "label": "Directory Hierarchy Overview",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\directory-hierarchy-overview@3fzuXKH7az_LVnmnoXB1p.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "HGmeYvRf7_XusZl_K4x9k",
+    "old_id": "t8SJbGVXsUDECxePLDk_w",
+    "type": "topic",
+    "label": "Editing Files",
+    "resources": [],
+    "children": [
+      {
+        "id": "yqRwmcZThjQuqh2ao0dWK",
+        "old_id": "yqRwmcZThjQuqh2ao0dWK",
+        "type": "subtopic",
+        "label": "Nano",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\nano@yqRwmcZThjQuqh2ao0dWK.md",
+        "children": []
+      },
+      {
+        "id": "8QBMyL8D5jPovxN8jyZW9",
+        "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+        "type": "topic",
+        "label": "Shell and Other Basics",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+        "children": [
+          {
+            "id": "KaMSsQnJzNqGHg0Oia4uy",
+            "old_id": "NIBSZGE9PskVrluJpdom0",
+            "type": "subtopic",
+            "label": "Command Help",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\super-user@NIBSZGE9PskVrluJpdom0.md",
+            "children": []
+          },
+          {
+            "id": "moGMHNR58wFlzhS7je1wc",
+            "old_id": "NIBSZGE9PskVrluJpdom0",
+            "type": "subtopic",
+            "label": "Command Path",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\super-user@NIBSZGE9PskVrluJpdom0.md",
+            "children": []
+          },
+          {
+            "id": "zwXEmpPYjA7_msS43z7I0",
+            "old_id": "NIBSZGE9PskVrluJpdom0",
+            "type": "subtopic",
+            "label": "Environment Variables",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\super-user@NIBSZGE9PskVrluJpdom0.md",
+            "children": []
+          },
+          {
+            "id": "JgoZzx4BfK7tmosgpZOsf",
+            "old_id": "NIBSZGE9PskVrluJpdom0",
+            "type": "subtopic",
+            "label": "Redirects",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\super-user@NIBSZGE9PskVrluJpdom0.md",
+            "children": []
+          },
+          {
+            "id": "NIBSZGE9PskVrluJpdom0",
+            "old_id": "NIBSZGE9PskVrluJpdom0",
+            "type": "subtopic",
+            "label": "Super User",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\super-user@NIBSZGE9PskVrluJpdom0.md",
+            "children": []
+          },
+          {
+            "id": "RsOTPZPZGTEIt1Lk41bQV",
+            "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+            "type": "topic",
+            "label": "Working with Files",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+            "children": [
+              {
+                "id": "-B2Dvz7160Er0OBHzS6ro",
+                "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                "type": "topic",
+                "label": "Text Processing",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                "children": [
+                  {
+                    "id": "jSzfQf0MlnXtWHCc-HYvr",
+                    "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                    "type": "topic",
+                    "label": "Server Review",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                    "children": [
+                      {
+                        "id": "19lTWqAvZFT2CDlhLlPSq",
+                        "old_id": "tx0nh6cbBjVxwNlyrBNYm",
+                        "type": "subtopic",
+                        "label": "Uptime and Load",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\available-memory--disk@tx0nh6cbBjVxwNlyrBNYm.md",
+                        "children": []
+                      },
+                      {
+                        "id": "h01Y6dW09ChidlM2HYoav",
+                        "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                        "type": "topic",
+                        "label": "Process Management",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                        "children": [
+                          {
+                            "id": "mUKoiGUTpIaUgQNF3BND_",
+                            "old_id": "0FLUI9r7znMqi6YKReLzD",
+                            "type": "subtopic",
+                            "label": "Background / Foreground Processes",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\killing-processes@0FLUI9r7znMqi6YKReLzD.md",
+                            "children": []
+                          },
+                          {
+                            "id": "g6n7f1Qi0BPr_BGvisWuz",
+                            "old_id": "3OpGaQhyNtk1n1MLp-tlb",
+                            "type": "topic",
+                            "label": "User Management",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\containerization@3OpGaQhyNtk1n1MLp-tlb.md",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "TnrT-cqMA8urew9nLv0Ns",
+                "old_id": "KaXHG_EKxI5PUXmcvlJt6",
+                "type": "subtopic",
+                "label": "File Permissions",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\soft-links--hard-links@KaXHG_EKxI5PUXmcvlJt6.md",
+                "children": []
+              },
+              {
+                "id": "iD073xTmpzvQFfXwcwXcY",
+                "old_id": "KaXHG_EKxI5PUXmcvlJt6",
+                "type": "subtopic",
+                "label": "Archiving and Compressing",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\soft-links--hard-links@KaXHG_EKxI5PUXmcvlJt6.md",
+                "children": []
+              },
+              {
+                "id": "abKO6KuuIfl9ruVxBw6t_",
+                "old_id": "KaXHG_EKxI5PUXmcvlJt6",
+                "type": "subtopic",
+                "label": "Copying and Renaming",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\soft-links--hard-links@KaXHG_EKxI5PUXmcvlJt6.md",
+                "children": []
+              },
+              {
+                "id": "KaXHG_EKxI5PUXmcvlJt6",
+                "old_id": "KaXHG_EKxI5PUXmcvlJt6",
+                "type": "subtopic",
+                "label": "Soft Links / Hard Links",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\soft-links--hard-links@KaXHG_EKxI5PUXmcvlJt6.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wx-CpX3NJtKrdr_dQHZi9",
+    "old_id": "wx-CpX3NJtKrdr_dQHZi9",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "if9eTna5NRTMStVwpSwDP",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "XiZz7EFIey1XKS292GN4t",
+    "old_id": "yqRwmcZThjQuqh2ao0dWK",
+    "type": "subtopic",
+    "label": "Vim",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\nano@yqRwmcZThjQuqh2ao0dWK.md",
+    "children": []
+  },
+  {
+    "id": "t3fxSgCgtxuMtHjclPHA6",
+    "old_id": "t3fxSgCgtxuMtHjclPHA6",
+    "type": "subtopic",
+    "label": "stdout / stdin / stderr",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\stdout--stdin--stderr@t3fxSgCgtxuMtHjclPHA6.md",
+    "children": []
+  },
+  {
+    "id": "Z5Mf_e5G24IkmxEHgYBe2",
+    "old_id": "6xdkFk_GT93MigeTSSGCp",
+    "type": "subtopic",
+    "label": "cut",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\head@6xdkFk_GT93MigeTSSGCp.md",
+    "children": []
+  },
+  {
+    "id": "5658kdqJw-pIOyyhll80a",
+    "old_id": "v32PJl4fzIFTOirOm6G44",
+    "type": "subtopic",
+    "label": "paste",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\pipe@v32PJl4fzIFTOirOm6G44.md",
+    "children": []
+  },
+  {
+    "id": "1WRIy3xHtQfiQFZrprobP",
+    "old_id": "O9Vci_WpUY-79AkA4HDx3",
+    "type": "subtopic",
+    "label": "sort",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\tr@O9Vci_WpUY-79AkA4HDx3.md",
+    "children": []
+  },
+  {
+    "id": "6xdkFk_GT93MigeTSSGCp",
+    "old_id": "6xdkFk_GT93MigeTSSGCp",
+    "type": "subtopic",
+    "label": "head",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\head@6xdkFk_GT93MigeTSSGCp.md",
+    "children": []
+  },
+  {
+    "id": "O9Vci_WpUY-79AkA4HDx3",
+    "old_id": "6xdkFk_GT93MigeTSSGCp",
+    "type": "subtopic",
+    "label": "tr",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\head@6xdkFk_GT93MigeTSSGCp.md",
+    "children": []
+  },
+  {
+    "id": "Yyk28H6TiteZEGv6Aps1h",
+    "old_id": "TZuDVFS7DZFBgaSYYXoGe",
+    "type": "subtopic",
+    "label": "tail",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\expand@TZuDVFS7DZFBgaSYYXoGe.md",
+    "children": []
+  },
+  {
+    "id": "vfcCS1GoyKpU1rQaE8I5r",
+    "old_id": "v32PJl4fzIFTOirOm6G44",
+    "type": "subtopic",
+    "label": "join",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\pipe@v32PJl4fzIFTOirOm6G44.md",
+    "children": []
+  },
+  {
+    "id": "Pl9s2ti25hsSEljXJvBTj",
+    "old_id": "v32PJl4fzIFTOirOm6G44",
+    "type": "subtopic",
+    "label": "split",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\pipe@v32PJl4fzIFTOirOm6G44.md",
+    "children": []
+  },
+  {
+    "id": "v32PJl4fzIFTOirOm6G44",
+    "old_id": "6xdkFk_GT93MigeTSSGCp",
+    "type": "subtopic",
+    "label": "pipe",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\head@6xdkFk_GT93MigeTSSGCp.md",
+    "children": []
+  },
+  {
+    "id": "Bo9CdrGJej-QcNmw46k9t",
+    "old_id": "QTmECqpRVMjNgQU70uCF8",
+    "type": "subtopic",
+    "label": "tee",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\awk@QTmECqpRVMjNgQU70uCF8.md",
+    "children": []
+  },
+  {
+    "id": "YSfGrmT795miIeIZrtC3D",
+    "old_id": "TZuDVFS7DZFBgaSYYXoGe",
+    "type": "subtopic",
+    "label": "nl",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\expand@TZuDVFS7DZFBgaSYYXoGe.md",
+    "children": []
+  },
+  {
+    "id": "LIGOJwrXexnIcPyHVlhQ8",
+    "old_id": "TZuDVFS7DZFBgaSYYXoGe",
+    "type": "subtopic",
+    "label": "wc",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\expand@TZuDVFS7DZFBgaSYYXoGe.md",
+    "children": []
+  },
+  {
+    "id": "TZuDVFS7DZFBgaSYYXoGe",
+    "old_id": "v32PJl4fzIFTOirOm6G44",
+    "type": "subtopic",
+    "label": "expand",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\pipe@v32PJl4fzIFTOirOm6G44.md",
+    "children": []
+  },
+  {
+    "id": "sKduFaX6xZaUUBdXRMKCL",
+    "old_id": "QTmECqpRVMjNgQU70uCF8",
+    "type": "subtopic",
+    "label": "unexpand",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\awk@QTmECqpRVMjNgQU70uCF8.md",
+    "children": []
+  },
+  {
+    "id": "qnBbzphImflQbEbtFub9x",
+    "old_id": "QTmECqpRVMjNgQU70uCF8",
+    "type": "subtopic",
+    "label": "uniq",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\awk@QTmECqpRVMjNgQU70uCF8.md",
+    "children": []
+  },
+  {
+    "id": "umlhxidsvtZG9k40Ca0Ac",
+    "old_id": "QTmECqpRVMjNgQU70uCF8",
+    "type": "subtopic",
+    "label": "grep",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\awk@QTmECqpRVMjNgQU70uCF8.md",
+    "children": []
+  },
+  {
+    "id": "QTmECqpRVMjNgQU70uCF8",
+    "old_id": "TZuDVFS7DZFBgaSYYXoGe",
+    "type": "subtopic",
+    "label": "awk",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\expand@TZuDVFS7DZFBgaSYYXoGe.md",
+    "children": []
+  },
+  {
+    "id": "WwybfdKuP9ogCGpT7d3NU",
+    "old_id": "tx0nh6cbBjVxwNlyrBNYm",
+    "type": "subtopic",
+    "label": "Authentication Logs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\available-memory--disk@tx0nh6cbBjVxwNlyrBNYm.md",
+    "children": []
+  },
+  {
+    "id": "ewUuI_x-YhOQIYd3MTgJJ",
+    "old_id": "tx0nh6cbBjVxwNlyrBNYm",
+    "type": "subtopic",
+    "label": "Services Running",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\available-memory--disk@tx0nh6cbBjVxwNlyrBNYm.md",
+    "children": []
+  },
+  {
+    "id": "tx0nh6cbBjVxwNlyrBNYm",
+    "old_id": "tx0nh6cbBjVxwNlyrBNYm",
+    "type": "subtopic",
+    "label": "Available Memory / Disk",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\available-memory--disk@tx0nh6cbBjVxwNlyrBNYm.md",
+    "children": []
+  },
+  {
+    "id": "J6ptF9of4cYcyLO0iAMao",
+    "old_id": "J6ptF9of4cYcyLO0iAMao",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "lf3_CRyOI2ZXGzz5ff451",
+    "old_id": "0FLUI9r7znMqi6YKReLzD",
+    "type": "subtopic",
+    "label": "Listing / Finding Processes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\killing-processes@0FLUI9r7znMqi6YKReLzD.md",
+    "children": []
+  },
+  {
+    "id": "VkLWTvKnRXzvLGWza2v45",
+    "old_id": "Rib7h9lh_ndiXkwNbftz_",
+    "type": "subtopic",
+    "label": "Process Signals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\process-forking@Rib7h9lh_ndiXkwNbftz_.md",
+    "children": []
+  },
+  {
+    "id": "0FLUI9r7znMqi6YKReLzD",
+    "old_id": "0FLUI9r7znMqi6YKReLzD",
+    "type": "subtopic",
+    "label": "Killing Processes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\killing-processes@0FLUI9r7znMqi6YKReLzD.md",
+    "children": []
+  },
+  {
+    "id": "5anSYRhaKIs3dCLWlvZfT",
+    "old_id": "Rib7h9lh_ndiXkwNbftz_",
+    "type": "subtopic",
+    "label": "Process Priorities",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\process-forking@Rib7h9lh_ndiXkwNbftz_.md",
+    "children": []
+  },
+  {
+    "id": "Rib7h9lh_ndiXkwNbftz_",
+    "old_id": "0FLUI9r7znMqi6YKReLzD",
+    "type": "subtopic",
+    "label": "Process Forking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\killing-processes@0FLUI9r7znMqi6YKReLzD.md",
+    "children": []
+  },
+  {
+    "id": "R9TZfkgVUQNLnMpDhovJa",
+    "old_id": "L6RMExeqi9501y-eCHDt1",
+    "type": "subtopic",
+    "label": "Create / Delete / Update",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\managing-permissions@L6RMExeqi9501y-eCHDt1.md",
+    "children": []
+  },
+  {
+    "id": "h8wc8XEwWYHErna68w7Mg",
+    "old_id": "L6RMExeqi9501y-eCHDt1",
+    "type": "subtopic",
+    "label": "Users and Groups",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\managing-permissions@L6RMExeqi9501y-eCHDt1.md",
+    "children": []
+  },
+  {
+    "id": "L6RMExeqi9501y-eCHDt1",
+    "old_id": "L6RMExeqi9501y-eCHDt1",
+    "type": "subtopic",
+    "label": "Managing Permissions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\managing-permissions@L6RMExeqi9501y-eCHDt1.md",
+    "children": []
+  },
+  {
+    "id": "2oQiuQ2j02SCt9t5eV6hg",
+    "old_id": "eKyMZn30UxQeBZQ7FxFbF",
+    "type": "subtopic",
+    "label": "Package Repositories",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\snap@eKyMZn30UxQeBZQ7FxFbF.md",
+    "children": []
+  },
+  {
+    "id": "Z23eJZjmWoeXQuezR9AhG",
+    "old_id": "xEHiB-egkkcBuZmgMoqHT",
+    "type": "subtopic",
+    "label": "Finding & Installing Packages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\install--remove--upgrade-packages@xEHiB-egkkcBuZmgMoqHT.md",
+    "children": []
+  },
+  {
+    "id": "48wAoAAlCNt3j5mBpKTWC",
+    "old_id": "xEHiB-egkkcBuZmgMoqHT",
+    "type": "subtopic",
+    "label": "Listing Installed Packages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\install--remove--upgrade-packages@xEHiB-egkkcBuZmgMoqHT.md",
+    "children": []
+  },
+  {
+    "id": "xEHiB-egkkcBuZmgMoqHT",
+    "old_id": "xEHiB-egkkcBuZmgMoqHT",
+    "type": "subtopic",
+    "label": "Install / Remove / Upgrade Packages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\install--remove--upgrade-packages@xEHiB-egkkcBuZmgMoqHT.md",
+    "children": []
+  },
+  {
+    "id": "eKyMZn30UxQeBZQ7FxFbF",
+    "old_id": "xEHiB-egkkcBuZmgMoqHT",
+    "type": "subtopic",
+    "label": "Snap",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\install--remove--upgrade-packages@xEHiB-egkkcBuZmgMoqHT.md",
+    "children": []
+  },
+  {
+    "id": "AwQJYL60NNbA5_z7iLcM7",
+    "old_id": "AWosNs2nvDGV8r6WvgBI1",
+    "type": "subtopic",
+    "label": "Inodes",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\swap@AWosNs2nvDGV8r6WvgBI1.md",
+    "children": []
+  },
+  {
+    "id": "LFPhSHOhUqM98fUxMjQUw",
+    "old_id": "I3LNa1cM_zRkBy8wKdz3g",
+    "type": "subtopic",
+    "label": "Filesystems",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\lvm@I3LNa1cM_zRkBy8wKdz3g.md",
+    "children": []
+  },
+  {
+    "id": "AWosNs2nvDGV8r6WvgBI1",
+    "old_id": "I3LNa1cM_zRkBy8wKdz3g",
+    "type": "subtopic",
+    "label": "Swap",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\lvm@I3LNa1cM_zRkBy8wKdz3g.md",
+    "children": []
+  },
+  {
+    "id": "zmb5lK_EGMAChPoPvP9E0",
+    "old_id": "I3LNa1cM_zRkBy8wKdz3g",
+    "type": "subtopic",
+    "label": "Mounts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\lvm@I3LNa1cM_zRkBy8wKdz3g.md",
+    "children": []
+  },
+  {
+    "id": "4xBaZPk0eSsWG1vK3e2yW",
+    "old_id": "I3LNa1cM_zRkBy8wKdz3g",
+    "type": "subtopic",
+    "label": "Adding Disks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\lvm@I3LNa1cM_zRkBy8wKdz3g.md",
+    "children": []
+  },
+  {
+    "id": "I3LNa1cM_zRkBy8wKdz3g",
+    "old_id": "I3LNa1cM_zRkBy8wKdz3g",
+    "type": "subtopic",
+    "label": "LVM",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\lvm@I3LNa1cM_zRkBy8wKdz3g.md",
+    "children": []
+  },
+  {
+    "id": "X6Jw95kbyPgsDNRhvkQP9",
+    "old_id": "D0yUzzaJsfhtdBWMtquAj",
+    "type": "subtopic",
+    "label": "DHCP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ip-routing@D0yUzzaJsfhtdBWMtquAj.md",
+    "children": []
+  },
+  {
+    "id": "bZ8Yj6QfBeDdh8hRM_aZs",
+    "old_id": "uk6UMuI8Uhf02TBAGVeLS",
+    "type": "subtopic",
+    "label": "Netfilter",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ssh@uk6UMuI8Uhf02TBAGVeLS.md",
+    "children": []
+  },
+  {
+    "id": "-pW7R76yNIeGf7TQoX4QL",
+    "old_id": "rQxfp7UWqN72iqewZhOdc",
+    "type": "subtopic",
+    "label": "Literals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\conditionals@rQxfp7UWqN72iqewZhOdc.md",
+    "children": []
+  },
+  {
+    "id": "JyxvZOb7iusOSUYSlniGl",
+    "old_id": "JyxvZOb7iusOSUYSlniGl",
+    "type": "subtopic",
+    "label": "Variables",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\variables@JyxvZOb7iusOSUYSlniGl.md",
+    "children": []
+  },
+  {
+    "id": "WJT-yrMq8cEI87RHWA2jY",
+    "old_id": "rOGnHbGIr3xPCFdpkqoeK",
+    "type": "subtopic",
+    "label": "Loops",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\debugging@rOGnHbGIr3xPCFdpkqoeK.md",
+    "children": []
+  },
+  {
+    "id": "rQxfp7UWqN72iqewZhOdc",
+    "old_id": "JyxvZOb7iusOSUYSlniGl",
+    "type": "subtopic",
+    "label": "Conditionals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\variables@JyxvZOb7iusOSUYSlniGl.md",
+    "children": []
+  },
+  {
+    "id": "Uc36t92UAlILgM3_XxcMG",
+    "old_id": "Uc36t92UAlILgM3_XxcMG",
+    "type": "subtopic",
+    "label": "ping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\ping@Uc36t92UAlILgM3_XxcMG.md",
+    "children": []
+  },
+  {
+    "id": "QgfenmhMc18cU_JngQ1n0",
+    "old_id": "MfengY3ouz6sSOx3PXYf8",
+    "type": "subtopic",
+    "label": "ulimits",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\docker@MfengY3ouz6sSOx3PXYf8.md",
+    "children": []
+  },
+  {
+    "id": "23lsrUw8ux6ZP9JlDNNu2",
+    "old_id": "23lsrUw8ux6ZP9JlDNNu2",
+    "type": "subtopic",
+    "label": "cgroups",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\cgroups@23lsrUw8ux6ZP9JlDNNu2.md",
+    "children": []
+  },
+  {
+    "id": "bVCwRoFsYb3HD8X4xuKOo",
+    "old_id": "MfengY3ouz6sSOx3PXYf8",
+    "type": "subtopic",
+    "label": "Container Runtime",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\linux\\content\\docker@MfengY3ouz6sSOx3PXYf8.md",
+    "children": []
+  },
+  {
+    "id": "UloavCkIvZnD1XMFohYVT",
+    "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+    "type": "button",
+    "label": "DevOps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "StxLh1r3qXqyRSqfJGird",
+    "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+    "type": "button",
+    "label": "Backend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "OIcmPSbdsuWapb6HZ4BEi",
+    "old_id": "cmSSwPPiiHwYh9ct14N6A",
+    "type": "button",
+    "label": "Docker",
+    "resources": [],
+    "children": []
+  }
+]

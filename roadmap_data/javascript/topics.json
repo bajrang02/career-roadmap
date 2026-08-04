@@ -1,0 +1,1494 @@
+[
+  {
+    "id": "6khAD6mzZ9S96JJuC5_j6",
+    "old_id": "ADarwihuI2nBq1C3U7-Zr",
+    "type": "topic",
+    "label": "Introduction to JavaScript",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\data-structures@ADarwihuI2nBq1C3U7-Zr.md"
+  },
+  {
+    "id": "UBB-8hUcwo4Mfd0cmEcdA",
+    "old_id": "UBB-8hUcwo4Mfd0cmEcdA",
+    "type": "subtopic",
+    "label": "What is JavaScript",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\what-is-javascript@UBB-8hUcwo4Mfd0cmEcdA.md"
+  },
+  {
+    "id": "l-GKzcsBNA0r6Jax8hwnP",
+    "old_id": "l-GKzcsBNA0r6Jax8hwnP",
+    "type": "subtopic",
+    "label": "History of JavaScript",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\history-of-javascript@l-GKzcsBNA0r6Jax8hwnP.md"
+  },
+  {
+    "id": "SFPsWnVpZBAw3_re7op4h",
+    "old_id": "SFPsWnVpZBAw3_re7op4h",
+    "type": "subtopic",
+    "label": "JavaScript Versions",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\javascript-versions@SFPsWnVpZBAw3_re7op4h.md"
+  },
+  {
+    "id": "uXsWIUUxtc4H_iRx3uZv0",
+    "old_id": "uXsWIUUxtc4H_iRx3uZv0",
+    "type": "subtopic",
+    "label": "How to run JavaScript",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\how-to-run-javascript@uXsWIUUxtc4H_iRx3uZv0.md"
+  },
+  {
+    "id": "BqbAWt--Guqex-rrb4ZUv",
+    "old_id": "BqbAWt--Guqex-rrb4ZUv",
+    "type": "subtopic",
+    "label": "Variable Declarations",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\variable-declarations@BqbAWt--Guqex-rrb4ZUv.md"
+  },
+  {
+    "id": "Lb5jLF91WO5V5CWpifciW",
+    "old_id": "Lb5jLF91WO5V5CWpifciW",
+    "type": "subtopic",
+    "label": "Hoisting",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\hoisting@Lb5jLF91WO5V5CWpifciW.md"
+  },
+  {
+    "id": "HfieG3v3wnmpZDfNwEJvZ",
+    "old_id": "HfieG3v3wnmpZDfNwEJvZ",
+    "type": "subtopic",
+    "label": "Variable Naming Rules",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\variable-naming-rules@HfieG3v3wnmpZDfNwEJvZ.md"
+  },
+  {
+    "id": "7iMJuaB7yKlSIbT4dBe5L",
+    "old_id": "7iMJuaB7yKlSIbT4dBe5L",
+    "type": "subtopic",
+    "label": "Variable Scopes",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\variable-scopes@7iMJuaB7yKlSIbT4dBe5L.md"
+  },
+  {
+    "id": "JSjeM8qnBg4onXq9mn5gB",
+    "old_id": "JSjeM8qnBg4onXq9mn5gB",
+    "type": "subtopic",
+    "label": "var",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\var@JSjeM8qnBg4onXq9mn5gB.md"
+  },
+  {
+    "id": "kDRa9G3pMp0Cb0mqYUawM",
+    "old_id": "kDRa9G3pMp0Cb0mqYUawM",
+    "type": "subtopic",
+    "label": "let",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\let@kDRa9G3pMp0Cb0mqYUawM.md"
+  },
+  {
+    "id": "q85z6x1Lc-yLWepwtIT2_",
+    "old_id": "q85z6x1Lc-yLWepwtIT2_",
+    "type": "subtopic",
+    "label": "const",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\const@q85z6x1Lc-yLWepwtIT2_.md"
+  },
+  {
+    "id": "uqEzHYx13Y2EpvTTRzykn",
+    "old_id": "uqEzHYx13Y2EpvTTRzykn",
+    "type": "subtopic",
+    "label": "Block",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\block@uqEzHYx13Y2EpvTTRzykn.md"
+  },
+  {
+    "id": "YMT7O6lrMSMtNo0EnmsnQ",
+    "old_id": "YMT7O6lrMSMtNo0EnmsnQ",
+    "type": "subtopic",
+    "label": "Function",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\function@YMT7O6lrMSMtNo0EnmsnQ.md"
+  },
+  {
+    "id": "oC4o6GLEES_nUgCJu9Q6I",
+    "old_id": "oC4o6GLEES_nUgCJu9Q6I",
+    "type": "subtopic",
+    "label": "Global",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\global@oC4o6GLEES_nUgCJu9Q6I.md"
+  },
+  {
+    "id": "kvActjpU4FUJdrmuFoFEe",
+    "old_id": "ADarwihuI2nBq1C3U7-Zr",
+    "type": "topic",
+    "label": "All about Variables",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\data-structures@ADarwihuI2nBq1C3U7-Zr.md"
+  },
+  {
+    "id": "-jbPPuEXacBR0d0CWPHgd",
+    "old_id": "ADarwihuI2nBq1C3U7-Zr",
+    "type": "topic",
+    "label": "Data Types",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\data-structures@ADarwihuI2nBq1C3U7-Zr.md"
+  },
+  {
+    "id": "1RcwBHU3jzx0YxxUGZic4",
+    "old_id": "1RcwBHU3jzx0YxxUGZic4",
+    "type": "subtopic",
+    "label": "string",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\string@1RcwBHU3jzx0YxxUGZic4.md"
+  },
+  {
+    "id": "ZLs0NKM0lrnOy5ATDhlk0",
+    "old_id": "ZLs0NKM0lrnOy5ATDhlk0",
+    "type": "subtopic",
+    "label": "undefined",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\undefined@ZLs0NKM0lrnOy5ATDhlk0.md"
+  },
+  {
+    "id": "GZ_SXsWmP7AsXRTc4WUMw",
+    "old_id": "GZ_SXsWmP7AsXRTc4WUMw",
+    "type": "subtopic",
+    "label": "number",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\number@GZ_SXsWmP7AsXRTc4WUMw.md"
+  },
+  {
+    "id": "6lUF0neW1piiP1RsaVxEX",
+    "old_id": "6lUF0neW1piiP1RsaVxEX",
+    "type": "subtopic",
+    "label": "bigint",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\bigint@6lUF0neW1piiP1RsaVxEX.md"
+  },
+  {
+    "id": "b1HvkoWA2t4kt8mS6FySm",
+    "old_id": "b1HvkoWA2t4kt8mS6FySm",
+    "type": "subtopic",
+    "label": "boolean",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\boolean@b1HvkoWA2t4kt8mS6FySm.md"
+  },
+  {
+    "id": "CxyNyFMuTLS3owtRMgClD",
+    "old_id": "CxyNyFMuTLS3owtRMgClD",
+    "type": "subtopic",
+    "label": "null",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\null@CxyNyFMuTLS3owtRMgClD.md"
+  },
+  {
+    "id": "R6ICrk6vjoBxx5nRGo4Jg",
+    "old_id": "R6ICrk6vjoBxx5nRGo4Jg",
+    "type": "subtopic",
+    "label": "Symbol",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\symbol@R6ICrk6vjoBxx5nRGo4Jg.md"
+  },
+  {
+    "id": "xe8HZ8Mt1fK8yJMcDPYHJ",
+    "old_id": "RRACLQ6-aopkxImIp3Toc",
+    "type": "subtopic",
+    "label": "Object",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\typeof-operator@RRACLQ6-aopkxImIp3Toc.md"
+  },
+  {
+    "id": "0I6dJE0ygXPGjeRAe8AtT",
+    "old_id": "0I6dJE0ygXPGjeRAe8AtT",
+    "type": "subtopic",
+    "label": "Object Prototype",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\object-prototype@0I6dJE0ygXPGjeRAe8AtT.md"
+  },
+  {
+    "id": "Xge6eru1hRGobnOEHLZqv",
+    "old_id": "Xge6eru1hRGobnOEHLZqv",
+    "type": "subtopic",
+    "label": "Prototypal Inheritance",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\prototypal-inheritance@Xge6eru1hRGobnOEHLZqv.md"
+  },
+  {
+    "id": "RRACLQ6-aopkxImIp3Toc",
+    "old_id": "RRACLQ6-aopkxImIp3Toc",
+    "type": "subtopic",
+    "label": "typeof operator",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\typeof-operator@RRACLQ6-aopkxImIp3Toc.md"
+  },
+  {
+    "id": "D95ndkkwmT5X_HqboEn6E",
+    "old_id": "D95ndkkwmT5X_HqboEn6E",
+    "type": "subtopic",
+    "label": "Built-in Objects",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\built-in-objects@D95ndkkwmT5X_HqboEn6E.md"
+  },
+  {
+    "id": "XPmBieVCXvL3WbWkYRoKr",
+    "old_id": "ADarwihuI2nBq1C3U7-Zr",
+    "type": "topic",
+    "label": "Type Casting",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\data-structures@ADarwihuI2nBq1C3U7-Zr.md"
+  },
+  {
+    "id": "_Bo2YZqZ_gY35SLPML4T6",
+    "old_id": "_Bo2YZqZ_gY35SLPML4T6",
+    "type": "subtopic",
+    "label": "Type Conversion vs Coercion",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\type-conversion-vs-coercion@_Bo2YZqZ_gY35SLPML4T6.md"
+  },
+  {
+    "id": "1xhjrRN-Rfekei2JwwU7Y",
+    "old_id": "1xhjrRN-Rfekei2JwwU7Y",
+    "type": "subtopic",
+    "label": "Explicit Type Casting",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\explicit-type-casting@1xhjrRN-Rfekei2JwwU7Y.md"
+  },
+  {
+    "id": "pP42K_eH4RCdUdUS8BJlP",
+    "old_id": "pP42K_eH4RCdUdUS8BJlP",
+    "type": "subtopic",
+    "label": "Implicit Type Casting",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\implicit-type-casting@pP42K_eH4RCdUdUS8BJlP.md"
+  },
+  {
+    "id": "ADarwihuI2nBq1C3U7-Zr",
+    "old_id": "ADarwihuI2nBq1C3U7-Zr",
+    "type": "topic",
+    "label": "Data Structures",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\data-structures@ADarwihuI2nBq1C3U7-Zr.md"
+  },
+  {
+    "id": "rhJrrqkRqy2Qw_he4SPGz",
+    "old_id": "rhJrrqkRqy2Qw_he4SPGz",
+    "type": "subtopic",
+    "label": "Keyed Collections",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\keyed-collections@rhJrrqkRqy2Qw_he4SPGz.md"
+  },
+  {
+    "id": "Xc0jL4rafpI-ixIaAxo9O",
+    "old_id": "Xc0jL4rafpI-ixIaAxo9O",
+    "type": "subtopic",
+    "label": "Map",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\map@Xc0jL4rafpI-ixIaAxo9O.md"
+  },
+  {
+    "id": "6icsjC4aisDgPWasVuCOt",
+    "old_id": "6icsjC4aisDgPWasVuCOt",
+    "type": "subtopic",
+    "label": "Weak Map",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\weak-map@6icsjC4aisDgPWasVuCOt.md"
+  },
+  {
+    "id": "sciU68E13mcfL577y6Vim",
+    "old_id": "sciU68E13mcfL577y6Vim",
+    "type": "subtopic",
+    "label": "Set",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\set@sciU68E13mcfL577y6Vim.md"
+  },
+  {
+    "id": "DSFzj61N9ojz29mjExhVa",
+    "old_id": "DSFzj61N9ojz29mjExhVa",
+    "type": "subtopic",
+    "label": "Weak Set",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\weak-set@DSFzj61N9ojz29mjExhVa.md"
+  },
+  {
+    "id": "lBOGoHZrmnIRatvryDwTm",
+    "old_id": "lBOGoHZrmnIRatvryDwTm",
+    "type": "subtopic",
+    "label": "Indexed Collections",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\indexed-collections@lBOGoHZrmnIRatvryDwTm.md"
+  },
+  {
+    "id": "8X1mdQ3NDBVOZZWBbAFRE",
+    "old_id": "8X1mdQ3NDBVOZZWBbAFRE",
+    "type": "subtopic",
+    "label": "Typed Arrays",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\typed-arrays@8X1mdQ3NDBVOZZWBbAFRE.md"
+  },
+  {
+    "id": "NZedBxG9B9TRVOf2QE2yL",
+    "old_id": "NZedBxG9B9TRVOf2QE2yL",
+    "type": "subtopic",
+    "label": "Arrays",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\arrays@NZedBxG9B9TRVOf2QE2yL.md"
+  },
+  {
+    "id": "JwLGAuSOTyZ5BHSqeBDU6",
+    "old_id": "JwLGAuSOTyZ5BHSqeBDU6",
+    "type": "subtopic",
+    "label": "Structured Data",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\structured-data@JwLGAuSOTyZ5BHSqeBDU6.md"
+  },
+  {
+    "id": "bFNvtHp97OzKnPJgr7WaH",
+    "old_id": "bFNvtHp97OzKnPJgr7WaH",
+    "type": "subtopic",
+    "label": "JSON",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\json@bFNvtHp97OzKnPJgr7WaH.md"
+  },
+  {
+    "id": "23Xa6q5VvRVlzc6Dx8vST",
+    "old_id": "YD-2l_amfqqqCdtc_Zdzo",
+    "type": "topic",
+    "label": "Equality Comparisons",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\loops-and-iterations@YD-2l_amfqqqCdtc_Zdzo.md"
+  },
+  {
+    "id": "RonBj1htt6jnBt3W7zoTA",
+    "old_id": "RonBj1htt6jnBt3W7zoTA",
+    "type": "subtopic",
+    "label": "==",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\@RonBj1htt6jnBt3W7zoTA.md"
+  },
+  {
+    "id": "lJwcc6JoUIQoiQ6FkV2KW",
+    "old_id": "lJwcc6JoUIQoiQ6FkV2KW",
+    "type": "subtopic",
+    "label": "===",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\@lJwcc6JoUIQoiQ6FkV2KW.md"
+  },
+  {
+    "id": "ATma3bLKdmWY_WTsPIKxh",
+    "old_id": "ATma3bLKdmWY_WTsPIKxh",
+    "type": "subtopic",
+    "label": "Object.is",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\objectis@ATma3bLKdmWY_WTsPIKxh.md"
+  },
+  {
+    "id": "PLallt_T33W6bUEn0Hc3W",
+    "old_id": "PLallt_T33W6bUEn0Hc3W",
+    "type": "subtopic",
+    "label": "isLooselyEqual",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\islooselyequal@PLallt_T33W6bUEn0Hc3W.md"
+  },
+  {
+    "id": "pcILon_Jjm2_XS10iUJ0E",
+    "old_id": "pcILon_Jjm2_XS10iUJ0E",
+    "type": "subtopic",
+    "label": "isStrictlyEqual",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\isstrictlyequal@pcILon_Jjm2_XS10iUJ0E.md"
+  },
+  {
+    "id": "fL3B2hkTgMb0oEwMiWJtK",
+    "old_id": "fL3B2hkTgMb0oEwMiWJtK",
+    "type": "subtopic",
+    "label": "SameValueZero",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\samevaluezero@fL3B2hkTgMb0oEwMiWJtK.md"
+  },
+  {
+    "id": "YD-2l_amfqqqCdtc_Zdzo",
+    "old_id": "YD-2l_amfqqqCdtc_Zdzo",
+    "type": "topic",
+    "label": "Loops and Iterations",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\loops-and-iterations@YD-2l_amfqqqCdtc_Zdzo.md"
+  },
+  {
+    "id": "2M211rcaPSWbZ-sPoSEVR",
+    "old_id": "2M211rcaPSWbZ-sPoSEVR",
+    "type": "subtopic",
+    "label": "for",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\for@2M211rcaPSWbZ-sPoSEVR.md"
+  },
+  {
+    "id": "57lO_3uxJaWsFXS-0J1AK",
+    "old_id": "57lO_3uxJaWsFXS-0J1AK",
+    "type": "subtopic",
+    "label": "do...while",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\dowhile@57lO_3uxJaWsFXS-0J1AK.md"
+  },
+  {
+    "id": "9-MpHmzK_IiCi6IcvAlGM",
+    "old_id": "9-MpHmzK_IiCi6IcvAlGM",
+    "type": "subtopic",
+    "label": "while",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\while@9-MpHmzK_IiCi6IcvAlGM.md"
+  },
+  {
+    "id": "cq3vvFZoNnAAZJ6oEBUwb",
+    "old_id": "cq3vvFZoNnAAZJ6oEBUwb",
+    "type": "subtopic",
+    "label": "for...in loop",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\forin-loop@cq3vvFZoNnAAZJ6oEBUwb.md"
+  },
+  {
+    "id": "FBz6h_AmTJBXoBN-a38a5",
+    "old_id": "FBz6h_AmTJBXoBN-a38a5",
+    "type": "subtopic",
+    "label": "for...of loop",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\forof-loop@FBz6h_AmTJBXoBN-a38a5.md"
+  },
+  {
+    "id": "4oHFzn7R7xLxfuLpsJjr-",
+    "old_id": "4oHFzn7R7xLxfuLpsJjr-",
+    "type": "subtopic",
+    "label": "break / continue",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\break--continue@4oHFzn7R7xLxfuLpsJjr-.md"
+  },
+  {
+    "id": "3tckJ2Sci7z-sNx9jx9eF",
+    "old_id": "_6vZa43gWjxO2OcD1iCCQ",
+    "type": "topic",
+    "label": "Control Flow",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\expressions--operators@_6vZa43gWjxO2OcD1iCCQ.md"
+  },
+  {
+    "id": "34TKGxV9YziOWMh9rT_KE",
+    "old_id": "34TKGxV9YziOWMh9rT_KE",
+    "type": "subtopic",
+    "label": "Exceptional Handling",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\exceptional-handling@34TKGxV9YziOWMh9rT_KE.md"
+  },
+  {
+    "id": "ttCsd2_H2SuRivCjGv1OX",
+    "old_id": "ttCsd2_H2SuRivCjGv1OX",
+    "type": "subtopic",
+    "label": "Conditional Statements",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\conditional-statements@ttCsd2_H2SuRivCjGv1OX.md"
+  },
+  {
+    "id": "ndbDXAx6bL4lZmpXv16Y_",
+    "old_id": "H_QlcUlavKKfcNK8CYAvb",
+    "type": "subtopic",
+    "label": "if...else",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\switch@H_QlcUlavKKfcNK8CYAvb.md"
+  },
+  {
+    "id": "H_QlcUlavKKfcNK8CYAvb",
+    "old_id": "H_QlcUlavKKfcNK8CYAvb",
+    "type": "subtopic",
+    "label": "Switch",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\switch@H_QlcUlavKKfcNK8CYAvb.md"
+  },
+  {
+    "id": "ReGIniyLYl5hGExchrJd2",
+    "old_id": "ReGIniyLYl5hGExchrJd2",
+    "type": "subtopic",
+    "label": "throw statement",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\throw-statement@ReGIniyLYl5hGExchrJd2.md"
+  },
+  {
+    "id": "rbjEZe5vxCJ8reI1oZ-jf",
+    "old_id": "rbjEZe5vxCJ8reI1oZ-jf",
+    "type": "subtopic",
+    "label": "try/catch/finally",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\trycatchfinally@rbjEZe5vxCJ8reI1oZ-jf.md"
+  },
+  {
+    "id": "-z-4VTaC3tOThqChgyoMs",
+    "old_id": "-z-4VTaC3tOThqChgyoMs",
+    "type": "subtopic",
+    "label": "Error Objects",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\error-objects@-z-4VTaC3tOThqChgyoMs.md"
+  },
+  {
+    "id": "_6vZa43gWjxO2OcD1iCCQ",
+    "old_id": "YD-2l_amfqqqCdtc_Zdzo",
+    "type": "topic",
+    "label": "Expressions & Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\loops-and-iterations@YD-2l_amfqqqCdtc_Zdzo.md"
+  },
+  {
+    "id": "IvBtUzIGnkgGXrJjqmjf4",
+    "old_id": "IvBtUzIGnkgGXrJjqmjf4",
+    "type": "subtopic",
+    "label": "Assignment Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\assignment-operators@IvBtUzIGnkgGXrJjqmjf4.md"
+  },
+  {
+    "id": "-v4_V4UuoZSgUk2sqOCim",
+    "old_id": "-v4_V4UuoZSgUk2sqOCim",
+    "type": "subtopic",
+    "label": "Comparison Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\comparison-operators@-v4_V4UuoZSgUk2sqOCim.md"
+  },
+  {
+    "id": "0PK1NwlgkNe2Vf-We4uLH",
+    "old_id": "0PK1NwlgkNe2Vf-We4uLH",
+    "type": "subtopic",
+    "label": "Arithmetic Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\arithmetic-operators@0PK1NwlgkNe2Vf-We4uLH.md"
+  },
+  {
+    "id": "ghjNJW67Wj5L5QK46xwL-",
+    "old_id": "ghjNJW67Wj5L5QK46xwL-",
+    "type": "subtopic",
+    "label": "Bitwise Operators",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\bitwise-operators@ghjNJW67Wj5L5QK46xwL-.md"
+  },
+  {
+    "id": "bo4SvzU4BrPl3c99zW7Y5",
+    "old_id": "bo4SvzU4BrPl3c99zW7Y5",
+    "type": "subtopic",
+    "label": "Logical Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\logical-operators@bo4SvzU4BrPl3c99zW7Y5.md"
+  },
+  {
+    "id": "udoz0DZi7f-vm30dSnYKu",
+    "old_id": "udoz0DZi7f-vm30dSnYKu",
+    "type": "subtopic",
+    "label": "BigInt Operators",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\bigint-operators@udoz0DZi7f-vm30dSnYKu.md"
+  },
+  {
+    "id": "c38b6t5f17Zg2O2yg3eFP",
+    "old_id": "c38b6t5f17Zg2O2yg3eFP",
+    "type": "subtopic",
+    "label": "String Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\string-operators@c38b6t5f17Zg2O2yg3eFP.md"
+  },
+  {
+    "id": "640mk-m5mB90Mme-7jcXV",
+    "old_id": "640mk-m5mB90Mme-7jcXV",
+    "type": "subtopic",
+    "label": "Conditional Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\conditional-operators@640mk-m5mB90Mme-7jcXV.md"
+  },
+  {
+    "id": "6_8EwyZY2jBkZr7xnfRY3",
+    "old_id": "6_8EwyZY2jBkZr7xnfRY3",
+    "type": "subtopic",
+    "label": "Comma Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\comma-operators@6_8EwyZY2jBkZr7xnfRY3.md"
+  },
+  {
+    "id": "k9rSR-YQ8B_iRcXNm2btP",
+    "old_id": "k9rSR-YQ8B_iRcXNm2btP",
+    "type": "subtopic",
+    "label": "Unary Operators",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\unary-operators@k9rSR-YQ8B_iRcXNm2btP.md"
+  },
+  {
+    "id": "k8bJH9qydZm8I9rhH7rXw",
+    "old_id": "_6vZa43gWjxO2OcD1iCCQ",
+    "type": "topic",
+    "label": "Functions",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\expressions--operators@_6vZa43gWjxO2OcD1iCCQ.md"
+  },
+  {
+    "id": "R1D4fsZliHv7wIo8Tj-kp",
+    "old_id": "R1D4fsZliHv7wIo8Tj-kp",
+    "type": "subtopic",
+    "label": "Function Parameters",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\function-parameters@R1D4fsZliHv7wIo8Tj-kp.md"
+  },
+  {
+    "id": "fr0NChxMXLpJizyMhXcXS",
+    "old_id": "fr0NChxMXLpJizyMhXcXS",
+    "type": "subtopic",
+    "label": "Arrow Functions",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\arrow-functions@fr0NChxMXLpJizyMhXcXS.md"
+  },
+  {
+    "id": "YZlCoPvZuX5MmpLOTj5d4",
+    "old_id": "YZlCoPvZuX5MmpLOTj5d4",
+    "type": "subtopic",
+    "label": "IIFEs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\iifes@YZlCoPvZuX5MmpLOTj5d4.md"
+  },
+  {
+    "id": "QLC7bW-qHskLH2HOA-Sko",
+    "old_id": "QLC7bW-qHskLH2HOA-Sko",
+    "type": "subtopic",
+    "label": "arguments object",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\arguments-object@QLC7bW-qHskLH2HOA-Sko.md"
+  },
+  {
+    "id": "ISNzEYtrWe2v0R7Xfl5k-",
+    "old_id": "ISNzEYtrWe2v0R7Xfl5k-",
+    "type": "subtopic",
+    "label": "Scope & Function Stack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\scope--function-stack@ISNzEYtrWe2v0R7Xfl5k-.md"
+  },
+  {
+    "id": "s8wUJivWmetysJ8bt9FBC",
+    "old_id": "s8wUJivWmetysJ8bt9FBC",
+    "type": "subtopic",
+    "label": "Built-in Functions",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\built-in-functions@s8wUJivWmetysJ8bt9FBC.md"
+  },
+  {
+    "id": "8X8mRl-puL0Lp43dO5mha",
+    "old_id": "8X8mRl-puL0Lp43dO5mha",
+    "type": "subtopic",
+    "label": "Default Params",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\default-params@8X8mRl-puL0Lp43dO5mha.md"
+  },
+  {
+    "id": "-_6q0bIjQrvAaCWrVkASO",
+    "old_id": "-_6q0bIjQrvAaCWrVkASO",
+    "type": "subtopic",
+    "label": "Rest",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\rest@-_6q0bIjQrvAaCWrVkASO.md"
+  },
+  {
+    "id": "YJGhhFuWmFvhRKOg6nwON",
+    "old_id": "YJGhhFuWmFvhRKOg6nwON",
+    "type": "subtopic",
+    "label": "Recursion",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\recursion@YJGhhFuWmFvhRKOg6nwON.md"
+  },
+  {
+    "id": "q7b5iMJ1Lfka5A-K-YcaN",
+    "old_id": "q7b5iMJ1Lfka5A-K-YcaN",
+    "type": "subtopic",
+    "label": "Lexical Scoping",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\lexical-scoping@q7b5iMJ1Lfka5A-K-YcaN.md"
+  },
+  {
+    "id": "itS6B12I8I1KNCPvc0KCQ",
+    "old_id": "itS6B12I8I1KNCPvc0KCQ",
+    "type": "subtopic",
+    "label": "Closures",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\closures@itS6B12I8I1KNCPvc0KCQ.md"
+  },
+  {
+    "id": "Xw8lb0xCWKmNs4KZfhBUy",
+    "old_id": "k8bJH9qydZm8I9rhH7rXw",
+    "type": "topic",
+    "label": "Strict Mode",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\functions@k8bJH9qydZm8I9rhH7rXw.md"
+  },
+  {
+    "id": "fm2CuL1IZp3hnrLrPUX7U",
+    "old_id": "fm2CuL1IZp3hnrLrPUX7U",
+    "type": "topic",
+    "label": "Using (this) keyword",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\using-this-keyword@fm2CuL1IZp3hnrLrPUX7U.md"
+  },
+  {
+    "id": "3E5MuxPvEJU-dwgTrbQAR",
+    "old_id": "3E5MuxPvEJU-dwgTrbQAR",
+    "type": "subtopic",
+    "label": "in a method",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\in-a-method@3E5MuxPvEJU-dwgTrbQAR.md"
+  },
+  {
+    "id": "azsXq6Y5iCvQDgTWZpWQ3",
+    "old_id": "azsXq6Y5iCvQDgTWZpWQ3",
+    "type": "subtopic",
+    "label": "in a function",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\in-a-function@azsXq6Y5iCvQDgTWZpWQ3.md"
+  },
+  {
+    "id": "qps2Mdm-lwa4Wr0IxKm0C",
+    "old_id": "qps2Mdm-lwa4Wr0IxKm0C",
+    "type": "subtopic",
+    "label": "using it alone",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\using-it-alone@qps2Mdm-lwa4Wr0IxKm0C.md"
+  },
+  {
+    "id": "JVbEBtVrTTFnTF3_yUIAC",
+    "old_id": "JVbEBtVrTTFnTF3_yUIAC",
+    "type": "subtopic",
+    "label": "in event handlers",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\in-event-handlers@JVbEBtVrTTFnTF3_yUIAC.md"
+  },
+  {
+    "id": "P0190rTm2wLQmCzWOKour",
+    "old_id": "P0190rTm2wLQmCzWOKour",
+    "type": "subtopic",
+    "label": "in arrow functions",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\in-arrow-functions@P0190rTm2wLQmCzWOKour.md"
+  },
+  {
+    "id": "EAN6DCiCfSq04R4vKgZ0q",
+    "old_id": "EAN6DCiCfSq04R4vKgZ0q",
+    "type": "subtopic",
+    "label": "Function Borrowing",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\function-borrowing@EAN6DCiCfSq04R4vKgZ0q.md"
+  },
+  {
+    "id": "p2NhSwPYMtRiPRHjPaqmX",
+    "old_id": "p2NhSwPYMtRiPRHjPaqmX",
+    "type": "subtopic",
+    "label": "Explicit Binding",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\explicit-binding@p2NhSwPYMtRiPRHjPaqmX.md"
+  },
+  {
+    "id": "gsyY3Oa3Jf0W5K_lyqBYO",
+    "old_id": "gsyY3Oa3Jf0W5K_lyqBYO",
+    "type": "subtopic",
+    "label": "call",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\call@gsyY3Oa3Jf0W5K_lyqBYO.md"
+  },
+  {
+    "id": "-BtF34cEzI6J8sZCDRlRE",
+    "old_id": "-BtF34cEzI6J8sZCDRlRE",
+    "type": "subtopic",
+    "label": "apply",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\apply@-BtF34cEzI6J8sZCDRlRE.md"
+  },
+  {
+    "id": "dbercnxXVTJXMpYSDNGb2",
+    "old_id": "dbercnxXVTJXMpYSDNGb2",
+    "type": "subtopic",
+    "label": "bind",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\bind@dbercnxXVTJXMpYSDNGb2.md"
+  },
+  {
+    "id": "sFOqx6_7poVIVuXhJVY0E",
+    "old_id": "sFOqx6_7poVIVuXhJVY0E",
+    "type": "topic",
+    "label": "Asynchronous JavaScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\asynchronous-javascript@sFOqx6_7poVIVuXhJVY0E.md"
+  },
+  {
+    "id": "_bs5NNHVdHLWGBmpYwHMi",
+    "old_id": "_bs5NNHVdHLWGBmpYwHMi",
+    "type": "subtopic",
+    "label": "Event Loop",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\event-loop@_bs5NNHVdHLWGBmpYwHMi.md"
+  },
+  {
+    "id": "wXypuqEmFLIubx-QQvDIr",
+    "old_id": "wXypuqEmFLIubx-QQvDIr",
+    "type": "subtopic",
+    "label": "setTimeout",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\settimeout@wXypuqEmFLIubx-QQvDIr.md"
+  },
+  {
+    "id": "jaC3XXudd7OBKwwCpoPFf",
+    "old_id": "jaC3XXudd7OBKwwCpoPFf",
+    "type": "subtopic",
+    "label": "setInterval",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\setinterval@jaC3XXudd7OBKwwCpoPFf.md"
+  },
+  {
+    "id": "D8oGY7pdviRByaz6c9sU6",
+    "old_id": "D8oGY7pdviRByaz6c9sU6",
+    "type": "subtopic",
+    "label": "Callbacks",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\callbacks@D8oGY7pdviRByaz6c9sU6.md"
+  },
+  {
+    "id": "yXSF5gGST7l2X-4z1g0d_",
+    "old_id": "yXSF5gGST7l2X-4z1g0d_",
+    "type": "subtopic",
+    "label": "Promises",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\promises@yXSF5gGST7l2X-4z1g0d_.md"
+  },
+  {
+    "id": "PJSdqvh5OBwPCNpn3q_S5",
+    "old_id": "PJSdqvh5OBwPCNpn3q_S5",
+    "type": "subtopic",
+    "label": "Callback Hell",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\callback-hell@PJSdqvh5OBwPCNpn3q_S5.md"
+  },
+  {
+    "id": "Dn872mgexmxoLtbkIgIgz",
+    "old_id": "PJSdqvh5OBwPCNpn3q_S5",
+    "type": "subtopic",
+    "label": "async/await",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\callback-hell@PJSdqvh5OBwPCNpn3q_S5.md"
+  },
+  {
+    "id": "q6vciQb_Jk-Up16Pk5NeE",
+    "old_id": "sFOqx6_7poVIVuXhJVY0E",
+    "type": "topic",
+    "label": "Working with APIs",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\asynchronous-javascript@sFOqx6_7poVIVuXhJVY0E.md"
+  },
+  {
+    "id": "kL5rfWxXe4J44ENru1uJS",
+    "old_id": "kL5rfWxXe4J44ENru1uJS",
+    "type": "subtopic",
+    "label": "Fetch",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\fetch@kL5rfWxXe4J44ENru1uJS.md"
+  },
+  {
+    "id": "LiuhBE7dIlkoWkthSoCsa",
+    "old_id": "kL5rfWxXe4J44ENru1uJS",
+    "type": "subtopic",
+    "label": "XMLHTTPRequest",
+    "resources": [],
+    "legend": {
+      "color": "#38761d",
+      "label": "Beginner Topics / start with these"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\fetch@kL5rfWxXe4J44ENru1uJS.md"
+  },
+  {
+    "id": "F_Lrj0F7UXriqJ0mhwxCy",
+    "old_id": "q6vciQb_Jk-Up16Pk5NeE",
+    "type": "topic",
+    "label": "Classes",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\working-with-apis@q6vciQb_Jk-Up16Pk5NeE.md"
+  },
+  {
+    "id": "TZ8XGdykSJjKBjX6Nivwo",
+    "old_id": "F_Lrj0F7UXriqJ0mhwxCy",
+    "type": "topic",
+    "label": "Iterators and Generators",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\classes@F_Lrj0F7UXriqJ0mhwxCy.md"
+  },
+  {
+    "id": "hLnJlwnECFbVMeFpH0M5Q",
+    "old_id": "TZ8XGdykSJjKBjX6Nivwo",
+    "type": "topic",
+    "label": "Modules in JavaScript",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\iterators-and-generators@TZ8XGdykSJjKBjX6Nivwo.md"
+  },
+  {
+    "id": "4EXeGkOpfAViB9Uo4zL6O",
+    "old_id": "4EXeGkOpfAViB9Uo4zL6O",
+    "type": "subtopic",
+    "label": "CommonJS",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\commonjs@4EXeGkOpfAViB9Uo4zL6O.md"
+  },
+  {
+    "id": "jLNmYeo20Mbu4WRvVgvwU",
+    "old_id": "jLNmYeo20Mbu4WRvVgvwU",
+    "type": "subtopic",
+    "label": "ESM",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\esm@jLNmYeo20Mbu4WRvVgvwU.md"
+  },
+  {
+    "id": "MatU4SthAAhByJ40XdZQn",
+    "old_id": "hLnJlwnECFbVMeFpH0M5Q",
+    "type": "topic",
+    "label": "Memory Management",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\modules-in-javascript@hLnJlwnECFbVMeFpH0M5Q.md"
+  },
+  {
+    "id": "ZR2WfH1cerA-V_kaPwRvm",
+    "old_id": "KKyX8N4lTgN0w-Khm6Ztq",
+    "type": "subtopic",
+    "label": "Memory Lifecycle",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\garbage-collection@KKyX8N4lTgN0w-Khm6Ztq.md"
+  },
+  {
+    "id": "bhuGtcyqPFKu-900aESYz",
+    "old_id": "Xw8lb0xCWKmNs4KZfhBUy",
+    "type": "topic",
+    "label": "DOM APIs",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\strict-mode@Xw8lb0xCWKmNs4KZfhBUy.md"
+  },
+  {
+    "id": "KKyX8N4lTgN0w-Khm6Ztq",
+    "old_id": "KKyX8N4lTgN0w-Khm6Ztq",
+    "type": "subtopic",
+    "label": "Garbage Collection",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\garbage-collection@KKyX8N4lTgN0w-Khm6Ztq.md"
+  },
+  {
+    "id": "rc5WzBBOm2cus-rQl8EOE",
+    "old_id": "MatU4SthAAhByJ40XdZQn",
+    "type": "topic",
+    "label": "Using Browser DevTools",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\memory-management@MatU4SthAAhByJ40XdZQn.md"
+  },
+  {
+    "id": "dhEtcgv7G9fNV-AUNJdWk",
+    "old_id": "dhEtcgv7G9fNV-AUNJdWk",
+    "type": "subtopic",
+    "label": "Debugging Issues",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\debugging-issues@dhEtcgv7G9fNV-AUNJdWk.md"
+  },
+  {
+    "id": "BA_ArmZMnVMaL_zl3W3Pt",
+    "old_id": "BA_ArmZMnVMaL_zl3W3Pt",
+    "type": "subtopic",
+    "label": "Debugging Memory Leaks",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\debugging-memory-leaks@BA_ArmZMnVMaL_zl3W3Pt.md"
+  },
+  {
+    "id": "ECxISKUAU7js_JsfSHzud",
+    "old_id": "ECxISKUAU7js_JsfSHzud",
+    "type": "subtopic",
+    "label": "Debugging Performance",
+    "resources": [],
+    "legend": {
+      "color": "#9900ff",
+      "label": "Intermediate Topics / pick these next"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\debugging-performance@ECxISKUAU7js_JsfSHzud.md"
+  },
+  {
+    "id": "nfMrC0eoXZl72H4o3VFEP",
+    "old_id": "fL3B2hkTgMb0oEwMiWJtK",
+    "type": "subtopic",
+    "label": "SameValue",
+    "resources": [],
+    "legend": {
+      "color": "#000",
+      "label": "Advanced Topics / pick these at last"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\javascript\\content\\samevaluezero@fL3B2hkTgMb0oEwMiWJtK.md"
+  }
+]

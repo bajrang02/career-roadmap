@@ -1,0 +1,344 @@
+"use client";
+
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
+import { AnimatePresence } from "framer-motion";
+import type { LayoutResult, LayoutNode } from "@/lib/mindmap/tree-layout";
+import { RoadmapEdge } from "./roadmap-edge";
+
+export interface Viewport {
+  x: number;
+  y: number;
+  k: number;
+}
+
+interface MindmapCanvasProps {
+  layout: LayoutResult;
+  renderNode: (node: LayoutNode, mountAnimated: boolean) => ReactNode;
+  edgeActive: (edge: LayoutResult["edges"][number]) => boolean;
+  edgeDimmed: (edge: LayoutResult["edges"][number]) => boolean;
+  viewport: Viewport;
+  onViewportChange: (v: Viewport) => void;
+  onBackgroundClick: () => void;
+  padding?: number;
+  /** change this value to force a fresh fit-to-view (e.g. mobile ↔ desktop
+   *  breakpoint flip or orientation change re-lays-out with new sizes) */
+  fitKey?: string | number;
+}
+
+const MIN_K = 0.2;
+const MAX_K = 2;
+const ZOOM_STEP = 1.4;
+// Movement (px) before a press becomes a pan. Below this, the press is a
+// click and must reach the node/button underneath — the canvas must NOT
+// capture the pointer, or the browser retargets the click to the container
+// and every node interaction silently dies.
+const PAN_THRESHOLD = 4;
+
+interface Gesture {
+  x: number;
+  y: number;
+  k: number;
+  startClientX: number;
+  startClientY: number;
+  startDist: number;
+  startMid: { x: number; y: number };
+}
+
+export function MindmapCanvas({
+  layout,
+  renderNode,
+  edgeActive,
+  edgeDimmed,
+  viewport,
+  onViewportChange,
+  onBackgroundClick,
+  padding = 70,
+  fitKey = "",
+}: MindmapCanvasProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [size, setSize] = useState({ w: 0, h: 0 });
+  const pointers = useRef(new Map<number, { x: number; y: number }>());
+  const gesture = useRef<Gesture | null>(null);
+  const hasFitted = useRef(false);
+  const mountedIds = useRef(new Set<string>());
+  const [isPanning, setIsPanning] = useState(false);
+  // true once the pointer has moved past PAN_THRESHOLD (i.e. this press is a
+  // drag, not a click) — used to suppress the background-click that the
+  // browser synthesizes at the end of a captured drag.
+  const dragStarted = useRef(false);
+
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => setSize({ w: el.clientWidth, h: el.clientHeight }));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  const fitTo = useCallback(
+    (width: number, height: number) => {
+      const el = containerRef.current;
+      if (!el || !el.clientWidth) return;
+      const bw = width + padding * 2;
+      const bh = height + padding * 2;
+      const k = Math.min(el.clientWidth / bw, el.clientHeight / bh, 1);
+      onViewportChange({
+        x: (el.clientWidth - width * k) / 2,
+        y: (el.clientHeight - height * k) / 2,
+        k: Math.max(k, 0.2),
+      });
+    },
+    [padding, onViewportChange]
+  );
+
+  // fit once per layout (reset when the layout changes size class so
+  // breakpoint/orientation changes re-fit instead of keeping a stale view)
+  useEffect(() => {
+    hasFitted.current = false;
+  }, [fitKey, layout.width, layout.height]);
+  useEffect(() => {
+    if (hasFitted.current || !size.w) return;
+    hasFitted.current = true;
+    fitTo(layout.width, layout.height);
+  }, [layout.width, layout.height, size.w, fitTo]);
+
+  const applyZoomAt = useCallback(
+    (mx: number, my: number, factor: number) => {
+      const k = Math.min(MAX_K, Math.max(MIN_K, viewport.k * factor));
+      const ratio = k / viewport.k;
+      onViewportChange({
+        x: mx - (mx - viewport.x) * ratio,
+        y: my - (my - viewport.y) * ratio,
+        k,
+      });
+    },
+    [viewport, onViewportChange]
+  );
+
+  // non-passive wheel listener so we can preventDefault reliably
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      const rect = el.getBoundingClientRect();
+      const factor = Math.exp(-e.deltaY * 0.0016);
+      applyZoomAt(e.clientX - rect.left, e.clientY - rect.top, factor);
+    };
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => el.removeEventListener("wheel", onWheel);
+  }, [applyZoomAt]);
+
+  const onPointerDown = useCallback(
+    (e: React.PointerEvent) => {
+      if (e.button !== 0) return; // only primary button pans (right-click opens context menu)
+      const el = containerRef.current;
+      if (!el) return;
+      // A new press is a fresh interaction: clear the drag flag so the first
+      // click after a drag is never wrongly suppressed.
+      dragStarted.current = false;
+      pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      const pts = Array.from(pointers.current.values());
+      if (pts.length >= 2) {
+        // pinch — a second finger is down, capture both and pan/zoom now
+        const mid = { x: (pts[0].x + pts[1].x) / 2, y: (pts[0].y + pts[1].y) / 2 };
+        gesture.current = {
+          x: viewport.x,
+          y: viewport.y,
+          k: viewport.k,
+          startClientX: e.clientX,
+          startClientY: e.clientY,
+          startDist: Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) || 1,
+          startMid: mid,
+        };
+        for (const id of pointers.current.keys()) el.setPointerCapture(id);
+        dragStarted.current = true;
+        setIsPanning(true);
+      } else {
+        // single pointer — record the gesture but DON'T capture yet. Pointer
+        // capture retargets the click to this container, so capturing on
+        // pointerdown would make every click on a node/button fall through to
+        // the background. Capture only once real movement is detected below.
+        gesture.current = {
+          x: viewport.x,
+          y: viewport.y,
+          k: viewport.k,
+          startClientX: e.clientX,
+          startClientY: e.clientY,
+          startDist: 1,
+          startMid: { x: 0, y: 0 },
+        };
+      }
+    },
+    [viewport]
+  );
+
+  const onPointerMove = useCallback(
+    (e: React.PointerEvent) => {
+      const prev = pointers.current.get(e.pointerId);
+      if (!prev || !gesture.current) return;
+      pointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      const pts = Array.from(pointers.current.values());
+      const g = gesture.current;
+
+      if (pts.length >= 2) {
+        const curMid = { x: (pts[0].x + pts[1].x) / 2, y: (pts[0].y + pts[1].y) / 2 };
+        const dist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) || 1;
+        const k = Math.min(MAX_K, Math.max(MIN_K, g.k * (dist / g.startDist)));
+        const ratio = k / g.k;
+        onViewportChange({
+          x: curMid.x - (g.startMid.x - g.x) * ratio,
+          y: curMid.y - (g.startMid.y - g.y) * ratio,
+          k,
+        });
+        return;
+      }
+
+      const dx = e.clientX - g.startClientX;
+      const dy = e.clientY - g.startClientY;
+      // only start panning once the pointer actually moves past the threshold
+      // — until then the press is still a candidate click
+      if (!dragStarted.current && Math.hypot(dx, dy) > PAN_THRESHOLD) {
+        dragStarted.current = true;
+        setIsPanning(true);
+        containerRef.current?.setPointerCapture(e.pointerId);
+      }
+      if (dragStarted.current) {
+        onViewportChange({ x: g.x + dx, y: g.y + dy, k: g.k });
+      }
+    },
+    [onViewportChange]
+  );
+
+  const endPointer = useCallback(
+    (e: React.PointerEvent) => {
+      if (!pointers.current.has(e.pointerId)) return;
+      pointers.current.delete(e.pointerId);
+      if (pointers.current.size < 2) {
+        const first = pointers.current.values().next().value;
+        if (first) {
+          gesture.current = {
+            x: viewport.x,
+            y: viewport.y,
+            k: viewport.k,
+            startClientX: first.x,
+            startClientY: first.y,
+            startDist: 1,
+            startMid: { x: 0, y: 0 },
+          };
+        }
+      }
+      if (pointers.current.size === 0) setIsPanning(false);
+    },
+    [viewport]
+  );
+
+  const onDoubleClick = useCallback(
+    (e: React.MouseEvent) => {
+      if ((e.target as HTMLElement).dataset?.canvasBg) {
+        const rect = containerRef.current?.getBoundingClientRect();
+        if (!rect) return;
+        applyZoomAt(e.clientX - rect.left, e.clientY - rect.top, ZOOM_STEP);
+      }
+    },
+    [applyZoomAt]
+  );
+
+  // viewport culling (virtual rendering — only mount nodes/edges near the viewport)
+  const visible = useMemo(() => {
+    const margin = 360;
+    const left = -viewport.x / viewport.k - margin;
+    const top = -viewport.y / viewport.k - margin;
+    const right = left + size.w / viewport.k + margin * 2;
+    const bottom = top + size.h / viewport.k + margin * 2;
+    const nodeVisible = new Set<string>();
+    for (const n of layout.nodes) {
+      if (n.x + n.w >= left && n.x <= right && n.y + n.h >= top && n.y <= bottom) {
+        nodeVisible.add(n.id);
+      }
+    }
+    return nodeVisible;
+  }, [layout.nodes, viewport, size]);
+
+  const visibleNodes = useMemo(() => layout.nodes.filter((n) => visible.has(n.id)), [layout.nodes, visible]);
+
+  const visibleEdges = useMemo(
+    () => layout.edges.filter((e) => visible.has(e.target.id) && visible.has(e.source.id)),
+    [layout.edges, visible]
+  );
+
+  // Track ids already mounted so panning back doesn't replay the fade-in animation.
+  // We only forget ids when the FULL layout's node count changes (expand/collapse/
+  // search) — pure pans keep the set intact so re-entering nodes stay silent.
+  const nodeCount = layout.nodes.length;
+  const lastLayoutCount = useRef(0);
+  useEffect(() => {
+    if (lastLayoutCount.current !== nodeCount) {
+      lastLayoutCount.current = nodeCount;
+      mountedIds.current.clear();
+    }
+    for (const n of visibleNodes) mountedIds.current.add(n.id);
+  }, [nodeCount, visibleNodes]);
+
+  return (
+    <div
+      ref={containerRef}
+      className="canvas-dots absolute inset-0 cursor-grab overflow-hidden touch-none active:cursor-grabbing"
+      onPointerDown={onPointerDown}
+      onPointerMove={onPointerMove}
+      onPointerUp={endPointer}
+      onPointerCancel={endPointer}
+      onDoubleClick={onDoubleClick}
+      onClick={(e) => {
+        // a captured drag ends with a click retargeted to this container —
+        // swallow it so panning never deselects the focused node
+        if (dragStarted.current) {
+          dragStarted.current = false;
+          return;
+        }
+        if ((e.target as HTMLElement).dataset?.canvasBg) onBackgroundClick();
+      }}
+      data-canvas-bg="true"
+    >
+      <div
+        className="absolute top-0 left-0 will-change-transform"
+        data-canvas-bg="true"
+        style={{ transform: `translate(${viewport.x}px, ${viewport.y}px) scale(${viewport.k})` }}
+      >
+        {/* edges layer */}
+        <svg
+          width={layout.width}
+          height={layout.height}
+          className="pointer-events-none absolute top-0 left-0"
+          aria-hidden="true"
+        >
+          {visibleEdges.map((e, i) => (
+            <RoadmapEdge
+              key={`${e.source.id}-${e.target.id}`}
+              d={e.d}
+              active={edgeActive(e)}
+              dimmed={edgeDimmed(e)}
+              index={i}
+            />
+          ))}
+        </svg>
+
+        {/* nodes layer (virtualized) */}
+        <AnimatePresence>
+          {visibleNodes.map((n) => renderNode(n, mountedIds.current.has(n.id)))}
+        </AnimatePresence>
+      </div>
+
+      {isPanning && (
+        <div className="pointer-events-none absolute inset-0 z-20 cursor-grabbing bg-slate-900/[0.02] dark:bg-white/[0.02]" />
+      )}
+    </div>
+  );
+}

@@ -1,0 +1,1355 @@
+[
+  {
+    "id": "3GO9CZQSSxM1eRSBz9sWR",
+    "old_id": "3GO9CZQSSxM1eRSBz9sWR",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "h2-93F69l8wKXkvT-iFC4",
+    "old_id": "h2-93F69l8wKXkvT-iFC4",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ucZ3vn5WgFOfa8Wpb0Hgk",
+    "old_id": "ucZ3vn5WgFOfa8Wpb0Hgk",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "JuxzWFeM_vwgn4pj0wxfY",
+    "old_id": "JuxzWFeM_vwgn4pj0wxfY",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "R18O3kbMoSEicZbLgUP7s",
+    "old_id": "R18O3kbMoSEicZbLgUP7s",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "MeOebqpbLZkPbj0iWRjP2",
+    "old_id": "MeOebqpbLZkPbj0iWRjP2",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": [
+      {
+        "id": "aafZxtjxiwzJH1lwHBODi",
+        "old_id": "US6T5dXM8IY9V2qZnTOFW",
+        "type": "topic",
+        "label": "LLM Native \"Function Calling\"",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\manual-from-scratch@US6T5dXM8IY9V2qZnTOFW.md",
+        "children": [
+          {
+            "id": "AQtxTTxmBpfl8BMgJbGzc",
+            "old_id": "37GBFVZ2J2d5r8bd1ViHq",
+            "type": "subtopic",
+            "label": "OpenAI Functions Calling",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\openai-assistant-api@37GBFVZ2J2d5r8bd1ViHq.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "NI3gC3eiPXDkirpD7sk10",
+    "old_id": "NI3gC3eiPXDkirpD7sk10",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PebDvL0Oyzh9mna-AbiaO",
+    "old_id": "PebDvL0Oyzh9mna-AbiaO",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0WHI9bT9SJnNfuBkY1oU1",
+    "old_id": "0WHI9bT9SJnNfuBkY1oU1",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iw9O2qcCgvICJc6HvpUYf",
+    "old_id": "iw9O2qcCgvICJc6HvpUYf",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Ji35JsKgUQXN4DJGEgTAC",
+    "old_id": "Ji35JsKgUQXN4DJGEgTAC",
+    "type": "title",
+    "label": "AI Agents",
+    "resources": [],
+    "children": [
+      {
+        "id": "imzXXZPt8wNny1oe3-MeN",
+        "old_id": "imzXXZPt8wNny1oe3-MeN",
+        "type": "label",
+        "label": "Learn the Pre-requisites",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "if9eTna5NRTMStVwpSwDP",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "NrTAfxHCksgqSkhnrO4kF",
+    "old_id": "-sFboM4eFUMVq1tlPl-fV",
+    "type": "button",
+    "label": "AI Engineer",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Wm2VPi1Tn_Y7dqPowny69",
+    "old_id": "Wm2VPi1Tn_Y7dqPowny69",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "VPI89s-m885r2YrXjYxdd",
+    "old_id": "QtTwecLdvQa8pgELJ6i80",
+    "type": "topic",
+    "label": "Basic Backend Development",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\rest-api-knowledge@QtTwecLdvQa8pgELJ6i80.md",
+    "children": [
+      {
+        "id": "amfuroaEeP1sqhvPN-jgO",
+        "old_id": "Ynvi5skgC85lgm96V_p42",
+        "type": "button",
+        "label": "Backend Beginner Roadmap",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "McREk2zHOlIrqbGSKbX-J",
+    "old_id": "QtTwecLdvQa8pgELJ6i80",
+    "type": "topic",
+    "label": "Git and Terminal Usage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\rest-api-knowledge@QtTwecLdvQa8pgELJ6i80.md",
+    "children": [
+      {
+        "id": "kA1ggkT-2KI0cEdd3rIcM",
+        "old_id": "Ynvi5skgC85lgm96V_p42",
+        "type": "button",
+        "label": "Git and GitHub Roadmap",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "QtTwecLdvQa8pgELJ6i80",
+    "old_id": "QtTwecLdvQa8pgELJ6i80",
+    "type": "topic",
+    "label": "REST API Knowledge",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\rest-api-knowledge@QtTwecLdvQa8pgELJ6i80.md",
+    "children": [
+      {
+        "id": "Ynvi5skgC85lgm96V_p42",
+        "old_id": "Ynvi5skgC85lgm96V_p42",
+        "type": "button",
+        "label": "API Design Roadmap",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "fDFxKOTLw6O41OGVmRuyy",
+    "old_id": "fDFxKOTLw6O41OGVmRuyy",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "JBorUqfR1T7kFzwHfdJm4",
+    "old_id": "JBorUqfR1T7kFzwHfdJm4",
+    "type": "label",
+    "label": "Model Mechanis",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "GAjuWyJl9CI1nqXBp6XCf",
+    "old_id": "GAjuWyJl9CI1nqXBp6XCf",
+    "type": "subtopic",
+    "label": "Tokenization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\tokenization@GAjuWyJl9CI1nqXBp6XCf.md",
+    "children": []
+  },
+  {
+    "id": "dyn1LSioema-Bf9lLTgUZ",
+    "old_id": "dyn1LSioema-Bf9lLTgUZ",
+    "type": "subtopic",
+    "label": "Context Windows",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\context-windows@dyn1LSioema-Bf9lLTgUZ.md",
+    "children": []
+  },
+  {
+    "id": "1fiWPBV99E2YncqdCgUw2",
+    "old_id": "1fiWPBV99E2YncqdCgUw2",
+    "type": "subtopic",
+    "label": "Token Based Pricing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\token-based-pricing@1fiWPBV99E2YncqdCgUw2.md",
+    "children": []
+  },
+  {
+    "id": "W0402lPcZoaTL1OMTED6o",
+    "old_id": "fDFxKOTLw6O41OGVmRuyy",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "DUOWFOfqpppC9lZZR2_y2",
+    "old_id": "JBorUqfR1T7kFzwHfdJm4",
+    "type": "label",
+    "label": "Generation Controls",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "L1zL1GzqjSAjF06pIIXhy",
+    "old_id": "icbp1NjurQfdM0dHnz6v2",
+    "type": "subtopic",
+    "label": "Temperature",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\top-p@icbp1NjurQfdM0dHnz6v2.md",
+    "children": []
+  },
+  {
+    "id": "z_N-Y0zGkv8_qHPuVtimL",
+    "old_id": "dyn1LSioema-Bf9lLTgUZ",
+    "type": "subtopic",
+    "label": "Frequency Penalty",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\context-windows@dyn1LSioema-Bf9lLTgUZ.md",
+    "children": []
+  },
+  {
+    "id": "Vd8ycw8pW-ZKvg5WYFtoh",
+    "old_id": "Bn_BkthrVX_vOuwQzvPZa",
+    "type": "subtopic",
+    "label": "Presence Penalty",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\max-length@Bn_BkthrVX_vOuwQzvPZa.md",
+    "children": []
+  },
+  {
+    "id": "icbp1NjurQfdM0dHnz6v2",
+    "old_id": "GAjuWyJl9CI1nqXBp6XCf",
+    "type": "subtopic",
+    "label": "Top-p",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\tokenization@GAjuWyJl9CI1nqXBp6XCf.md",
+    "children": []
+  },
+  {
+    "id": "K0G-Lw069jXUJwZqHtybd",
+    "old_id": "Bn_BkthrVX_vOuwQzvPZa",
+    "type": "subtopic",
+    "label": "Stopping Criteria",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\max-length@Bn_BkthrVX_vOuwQzvPZa.md",
+    "children": []
+  },
+  {
+    "id": "DSJAhQhc1dQmBHQ8ZkTau",
+    "old_id": "tJYmEDDwK0LtEux-kwp9B",
+    "type": "topic",
+    "label": "Open Weight Models",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\closed-weight-models@tJYmEDDwK0LtEux-kwp9B.md",
+    "children": []
+  },
+  {
+    "id": "S1KLwzUZastfV9daGbYTk",
+    "old_id": "S1KLwzUZastfV9daGbYTk",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "i2NE6haX9-7mdoV5LQ3Ah",
+    "old_id": "B8dzg61TGaknuruBgkEJd",
+    "type": "topic",
+    "label": "Streamed vs Unstreamed Responses",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\pricing-of-common-models@B8dzg61TGaknuruBgkEJd.md",
+    "children": []
+  },
+  {
+    "id": "N3yZfUxphxjiupqGpyaS9",
+    "old_id": "B8dzg61TGaknuruBgkEJd",
+    "type": "topic",
+    "label": "Reasoning vs Standard Models",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\pricing-of-common-models@B8dzg61TGaknuruBgkEJd.md",
+    "children": []
+  },
+  {
+    "id": "5OW_6o286mj470ElFyJ_5",
+    "old_id": "B8dzg61TGaknuruBgkEJd",
+    "type": "topic",
+    "label": "Fine-tuning vs Prompt Engineering",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\pricing-of-common-models@B8dzg61TGaknuruBgkEJd.md",
+    "children": []
+  },
+  {
+    "id": "UIm54UmICKgep6s8Itcyv",
+    "old_id": "B8dzg61TGaknuruBgkEJd",
+    "type": "topic",
+    "label": "Embeddings and Vector Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\pricing-of-common-models@B8dzg61TGaknuruBgkEJd.md",
+    "children": []
+  },
+  {
+    "id": "qwVQOwBTLA2yUgRISzC8k",
+    "old_id": "B8dzg61TGaknuruBgkEJd",
+    "type": "topic",
+    "label": "Understand the Basics of RAG",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\pricing-of-common-models@B8dzg61TGaknuruBgkEJd.md",
+    "children": []
+  },
+  {
+    "id": "2zsOUWJQ8e7wnoHmq1icG",
+    "old_id": "2zsOUWJQ8e7wnoHmq1icG",
+    "type": "subtopic",
+    "label": "What are Tools?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\what-are-tools@2zsOUWJQ8e7wnoHmq1icG.md",
+    "children": [
+      {
+        "id": "Eih4eybuYB3C2So8K0AT3",
+        "old_id": "Eih4eybuYB3C2So8K0AT3",
+        "type": "topic",
+        "label": "Agent Loop",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\agent-loop@Eih4eybuYB3C2So8K0AT3.md",
+        "children": [
+          {
+            "id": "ZJTrun3jK3zBGOTm1jdMI",
+            "old_id": "ZJTrun3jK3zBGOTm1jdMI",
+            "type": "subtopic",
+            "label": "Observation & Reflection",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\observation--reflection@ZJTrun3jK3zBGOTm1jdMI.md",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LU76AhCYDjxdBhpMQ4eMU",
+    "old_id": "ZJTrun3jK3zBGOTm1jdMI",
+    "type": "subtopic",
+    "label": "Perception / User Input",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\observation--reflection@ZJTrun3jK3zBGOTm1jdMI.md",
+    "children": []
+  },
+  {
+    "id": "ycPRgRYR4lEBQr_xxHKnM",
+    "old_id": "ZJTrun3jK3zBGOTm1jdMI",
+    "type": "subtopic",
+    "label": "Reason and Plan",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\observation--reflection@ZJTrun3jK3zBGOTm1jdMI.md",
+    "children": []
+  },
+  {
+    "id": "sHYd4KsKlmw5Im3nQ19W8",
+    "old_id": "ZJTrun3jK3zBGOTm1jdMI",
+    "type": "subtopic",
+    "label": "Acting / Tool Invocation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\observation--reflection@ZJTrun3jK3zBGOTm1jdMI.md",
+    "children": []
+  },
+  {
+    "id": "wb8zEmsAX7VyNRPe-DHxw",
+    "old_id": "wb8zEmsAX7VyNRPe-DHxw",
+    "type": "label",
+    "label": "1",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "BkFgVFOtSkuzO0s9EJ3tc",
+    "old_id": "vVshXAzK203UzQkgk2HrP",
+    "type": "label",
+    "label": "2",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "kLZToxQ1iv0m5Po1TyLPw",
+    "old_id": "kLZToxQ1iv0m5Po1TyLPw",
+    "type": "label",
+    "label": "4",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "fBn8SCyMuWS7fRLMJCgSy",
+    "old_id": "fDFxKOTLw6O41OGVmRuyy",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "TehqgcNFmS2Iy2TFrAz_r",
+    "old_id": "JBorUqfR1T7kFzwHfdJm4",
+    "type": "label",
+    "label": "Example Usecases",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PPdAutqJF5G60Eg9lYBND",
+    "old_id": "GAjuWyJl9CI1nqXBp6XCf",
+    "type": "subtopic",
+    "label": "Personal assistant",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\tokenization@GAjuWyJl9CI1nqXBp6XCf.md",
+    "children": []
+  },
+  {
+    "id": "PK8w31GlvtmAuU92sHaqr",
+    "old_id": "dyn1LSioema-Bf9lLTgUZ",
+    "type": "subtopic",
+    "label": "Code generation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\context-windows@dyn1LSioema-Bf9lLTgUZ.md",
+    "children": []
+  },
+  {
+    "id": "wKYEaPWNsR30TIpHaxSsq",
+    "old_id": "ok8vN7VtCgyef5x6aoQaL",
+    "type": "subtopic",
+    "label": "Data analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\npc--game-ai@ok8vN7VtCgyef5x6aoQaL.md",
+    "children": []
+  },
+  {
+    "id": "5oLc-235bvKhApxzYFkEc",
+    "old_id": "ok8vN7VtCgyef5x6aoQaL",
+    "type": "subtopic",
+    "label": "Web Scraping / Crawling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\npc--game-ai@ok8vN7VtCgyef5x6aoQaL.md",
+    "children": []
+  },
+  {
+    "id": "ok8vN7VtCgyef5x6aoQaL",
+    "old_id": "1fiWPBV99E2YncqdCgUw2",
+    "type": "subtopic",
+    "label": "NPC / Game AI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\token-based-pricing@1fiWPBV99E2YncqdCgUw2.md",
+    "children": []
+  },
+  {
+    "id": "szfDDmz2gnjR2nL6oQIRT",
+    "old_id": "szfDDmz2gnjR2nL6oQIRT",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "vVshXAzK203UzQkgk2HrP",
+    "old_id": "vVshXAzK203UzQkgk2HrP",
+    "type": "label",
+    "label": "3",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Bn_BkthrVX_vOuwQzvPZa",
+    "old_id": "1fiWPBV99E2YncqdCgUw2",
+    "type": "subtopic",
+    "label": "Max Length",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\token-based-pricing@1fiWPBV99E2YncqdCgUw2.md",
+    "children": []
+  },
+  {
+    "id": "qFKFM2qNPEN7EoD0V-1SM",
+    "old_id": "qFKFM2qNPEN7EoD0V-1SM",
+    "type": "subtopic",
+    "label": "Be specific in what you want",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\be-specific-in-what-you-want@qFKFM2qNPEN7EoD0V-1SM.md",
+    "children": []
+  },
+  {
+    "id": "6I42CoeWX-kkFXTKAY7rw",
+    "old_id": "6I42CoeWX-kkFXTKAY7rw",
+    "type": "subtopic",
+    "label": "Provide additional context",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\provide-additional-context@6I42CoeWX-kkFXTKAY7rw.md",
+    "children": []
+  },
+  {
+    "id": "sUwdtOX550tSdceaeFPmF",
+    "old_id": "sUwdtOX550tSdceaeFPmF",
+    "type": "subtopic",
+    "label": "Use relevant technical terms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\use-relevant-technical-terms@sUwdtOX550tSdceaeFPmF.md",
+    "children": []
+  },
+  {
+    "id": "yulzE4ZNLhXOgHhG7BtZQ",
+    "old_id": "yulzE4ZNLhXOgHhG7BtZQ",
+    "type": "subtopic",
+    "label": "Use Examples in your Prompt",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\use-examples-in-your-prompt@yulzE4ZNLhXOgHhG7BtZQ.md",
+    "children": []
+  },
+  {
+    "id": "noTuUFnHSBzn7GKG9UZEi",
+    "old_id": "noTuUFnHSBzn7GKG9UZEi",
+    "type": "subtopic",
+    "label": "Iterate and Test your Prompts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\iterate-and-test-your-prompts@noTuUFnHSBzn7GKG9UZEi.md",
+    "children": []
+  },
+  {
+    "id": "wwHHlEoPAx0TLxbtY6nMA",
+    "old_id": "wwHHlEoPAx0TLxbtY6nMA",
+    "type": "subtopic",
+    "label": "Specify Length, format etc",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\specify-length-format-etc@wwHHlEoPAx0TLxbtY6nMA.md",
+    "children": []
+  },
+  {
+    "id": "QWpwDrwySbmdDYJaR3UhQ",
+    "old_id": "QWpwDrwySbmdDYJaR3UhQ",
+    "type": "label",
+    "label": "Writing Good Prompts",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "wCOn2Lb_RlEKkVvdulRXj",
+    "old_id": "Ynvi5skgC85lgm96V_p42",
+    "type": "button",
+    "label": "Prompt Engineering Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "R1zdRA3UqlLOjfSw9Swx_",
+    "old_id": "R1zdRA3UqlLOjfSw9Swx_",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "VpAF2EGz8HtnE-Xt3hzpf",
+    "old_id": "VpAF2EGz8HtnE-Xt3hzpf",
+    "type": "label",
+    "label": "Name and Description",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0MUgaZi5vHHnhYYiXsIdX",
+    "old_id": "0MUgaZi5vHHnhYYiXsIdX",
+    "type": "label",
+    "label": "Input / Output Schema",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "ehSLDOPK-mndL9CXF60s5",
+    "old_id": "ehSLDOPK-mndL9CXF60s5",
+    "type": "label",
+    "label": "Error Handling",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "5Tu6zdcNbotuhVAwTYeh_",
+    "old_id": "5Tu6zdcNbotuhVAwTYeh_",
+    "type": "label",
+    "label": "Usage Examples",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "gAGw6nEhIY9O5yYmfHTmv",
+    "old_id": "fBn8SCyMuWS7fRLMJCgSy",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "7AhPsyz0KfJkbn5THLOvb",
+    "old_id": "TehqgcNFmS2Iy2TFrAz_r",
+    "type": "label",
+    "label": "Examples of Tools",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "kBtqT8AduLoYDWopj-V9_",
+    "old_id": "PPdAutqJF5G60Eg9lYBND",
+    "type": "subtopic",
+    "label": "Web Search",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\personal-assistant@PPdAutqJF5G60Eg9lYBND.md",
+    "children": []
+  },
+  {
+    "id": "mS0EVCkWuPN_GkVPng4A2",
+    "old_id": "PK8w31GlvtmAuU92sHaqr",
+    "type": "subtopic",
+    "label": "Code Execution / REPL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\code-generation@PK8w31GlvtmAuU92sHaqr.md",
+    "children": []
+  },
+  {
+    "id": "sV1BnA2-qBnXoKpUn-8Ub",
+    "old_id": "wKYEaPWNsR30TIpHaxSsq",
+    "type": "subtopic",
+    "label": "Database Queries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\data-analysis@wKYEaPWNsR30TIpHaxSsq.md",
+    "children": []
+  },
+  {
+    "id": "52qxjZILV-X1isup6dazC",
+    "old_id": "5oLc-235bvKhApxzYFkEc",
+    "type": "subtopic",
+    "label": "API Requests",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\web-scraping--crawling@5oLc-235bvKhApxzYFkEc.md",
+    "children": []
+  },
+  {
+    "id": "qaNr5I-NQPnfrRH7ynGTl",
+    "old_id": "BoJqZvdGam4cd6G6yK2IV",
+    "type": "subtopic",
+    "label": "Email / Slack / SMS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\file-system-access@BoJqZvdGam4cd6G6yK2IV.md",
+    "children": []
+  },
+  {
+    "id": "BoJqZvdGam4cd6G6yK2IV",
+    "old_id": "ok8vN7VtCgyef5x6aoQaL",
+    "type": "subtopic",
+    "label": "File System Access",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\npc--game-ai@ok8vN7VtCgyef5x6aoQaL.md",
+    "children": []
+  },
+  {
+    "id": "9hKOwIyy5JP5IX_J2a2So",
+    "old_id": "9hKOwIyy5JP5IX_J2a2So",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Rjuzmgb1AHnm18qNwbRhQ",
+    "old_id": "Rjuzmgb1AHnm18qNwbRhQ",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "TBH_DZTAfR8Daoh-njNFC",
+    "old_id": "M3U6RfIqaiut2nuOibY8W",
+    "type": "topic",
+    "label": "What is Agent Memory?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\short-term--memory@M3U6RfIqaiut2nuOibY8W.md",
+    "children": []
+  },
+  {
+    "id": "M3U6RfIqaiut2nuOibY8W",
+    "old_id": "M3U6RfIqaiut2nuOibY8W",
+    "type": "topic",
+    "label": "Short Term  Memory",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\short-term--memory@M3U6RfIqaiut2nuOibY8W.md",
+    "children": []
+  },
+  {
+    "id": "Ue633fz6Xu2wa2-KOAtdP",
+    "old_id": "M3U6RfIqaiut2nuOibY8W",
+    "type": "topic",
+    "label": "Long Term Memory",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\short-term--memory@M3U6RfIqaiut2nuOibY8W.md",
+    "children": []
+  },
+  {
+    "id": "UcfPT2eIDT8peU0P8mere",
+    "old_id": "UcfPT2eIDT8peU0P8mere",
+    "type": "label",
+    "label": "Within Prompt",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "gLACXg46Uxaa1bbL8B8K1",
+    "old_id": "UcfPT2eIDT8peU0P8mere",
+    "type": "label",
+    "label": "Vector DB / SQL / Custom",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "zx2EMzU0tWyKo73Ebope9",
+    "old_id": "NI3gC3eiPXDkirpD7sk10",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "EfCCNqLMJpWKKtamUa5gK",
+    "old_id": "EfCCNqLMJpWKKtamUa5gK",
+    "type": "topic",
+    "label": "Episodic vs Semantic Memory",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\episodic-vs-semantic-memory@EfCCNqLMJpWKKtamUa5gK.md",
+    "children": []
+  },
+  {
+    "id": "T2vksVGCRajcwy_WRe2Yf",
+    "old_id": "gAGw6nEhIY9O5yYmfHTmv",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "CEZcNlJeX6Gb4F1bZNS_X",
+    "old_id": "7AhPsyz0KfJkbn5THLOvb",
+    "type": "label",
+    "label": "Maintaining Memory",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "wkS4yOJ3JdZQE_yBID8K7",
+    "old_id": "kBtqT8AduLoYDWopj-V9_",
+    "type": "subtopic",
+    "label": "RAG and Vector Databases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\web-search@kBtqT8AduLoYDWopj-V9_.md",
+    "children": []
+  },
+  {
+    "id": "QJqXHV8VHPTnfYfmKPzW7",
+    "old_id": "mS0EVCkWuPN_GkVPng4A2",
+    "type": "subtopic",
+    "label": "User Profile Storage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\code-execution--repl@mS0EVCkWuPN_GkVPng4A2.md",
+    "children": []
+  },
+  {
+    "id": "jTDC19BTWCqxqMizrIJHr",
+    "old_id": "sV1BnA2-qBnXoKpUn-8Ub",
+    "type": "subtopic",
+    "label": "Summarization / Compression",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\database-queries@sV1BnA2-qBnXoKpUn-8Ub.md",
+    "children": []
+  },
+  {
+    "id": "m-97m7SI0XpBnhEE8-_1S",
+    "old_id": "52qxjZILV-X1isup6dazC",
+    "type": "subtopic",
+    "label": "Forgetting / Aging Strategies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\api-requests@52qxjZILV-X1isup6dazC.md",
+    "children": []
+  },
+  {
+    "id": "53xDks6JQ33fHMa3XcuCd",
+    "old_id": "hj1adjkG9nalXKZ-Youn0",
+    "type": "topic",
+    "label": "ReAct (Reason + Act)",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "1B0IqRNYdtbHDi1jHSXuI",
+    "old_id": "qakbxB8xe7Y8gejC5cZnK",
+    "type": "topic",
+    "label": "Model Context Protocol (MCP)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\tool-definition@qakbxB8xe7Y8gejC5cZnK.md",
+    "children": [
+      {
+        "id": "K2ueUkBcV5ASMhHUUZH-A",
+        "old_id": "K2ueUkBcV5ASMhHUUZH-A",
+        "type": "section",
+        "label": "",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "9FryAIrWRHh8YlzKX3et5",
+    "old_id": "9FryAIrWRHh8YlzKX3et5",
+    "type": "subtopic",
+    "label": "MCP Hosts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\mcp-hosts@9FryAIrWRHh8YlzKX3et5.md",
+    "children": []
+  },
+  {
+    "id": "CGVstUxVXLJcYZrwk3iNQ",
+    "old_id": "CGVstUxVXLJcYZrwk3iNQ",
+    "type": "subtopic",
+    "label": "MCP Client",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\mcp-client@CGVstUxVXLJcYZrwk3iNQ.md",
+    "children": []
+  },
+  {
+    "id": "yv_-87FVM7WKn5iv6LW9q",
+    "old_id": "yv_-87FVM7WKn5iv6LW9q",
+    "type": "subtopic",
+    "label": "MCP Servers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\mcp-servers@yv_-87FVM7WKn5iv6LW9q.md",
+    "children": []
+  },
+  {
+    "id": "gAPRLPQFVHuB9rBW5-IRG",
+    "old_id": "gAPRLPQFVHuB9rBW5-IRG",
+    "type": "label",
+    "label": "Core Components",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "1NXIN-Hbjl5rPy_mqxQYW",
+    "old_id": "1NXIN-Hbjl5rPy_mqxQYW",
+    "type": "topic",
+    "label": "Creating MCP Servers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\creating-mcp-servers@1NXIN-Hbjl5rPy_mqxQYW.md",
+    "children": [
+      {
+        "id": "qLO_DcIM2OY_i8njSIt1q",
+        "old_id": "qLO_DcIM2OY_i8njSIt1q",
+        "type": "section",
+        "label": "",
+        "resources": [],
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "CppUUpbDy6j0_wjd94qgO",
+    "old_id": "CppUUpbDy6j0_wjd94qgO",
+    "type": "label",
+    "label": "Deployment Modes",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iBtJp24F_kJE3YlBsW60s",
+    "old_id": "dHNMX3_t1KSDdAWqgdJXv",
+    "type": "subtopic",
+    "label": "Local Desktop",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\remote--cloud@dHNMX3_t1KSDdAWqgdJXv.md",
+    "children": []
+  },
+  {
+    "id": "dHNMX3_t1KSDdAWqgdJXv",
+    "old_id": "dHNMX3_t1KSDdAWqgdJXv",
+    "type": "subtopic",
+    "label": "Remote / Cloud",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\remote--cloud@dHNMX3_t1KSDdAWqgdJXv.md",
+    "children": []
+  },
+  {
+    "id": "8ym1jwJfLUnj4uimn5HFR",
+    "old_id": "t1SqlX1PhIL2cTc0h4fXQ",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "t1SqlX1PhIL2cTc0h4fXQ",
+    "old_id": "t1SqlX1PhIL2cTc0h4fXQ",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "qwdh5pkBbrF8LKPxbZp4F",
+    "old_id": "KcgDVjHRzuaeCs81cnCA_",
+    "type": "topic",
+    "label": "Chain of Thought (CoT)",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "cW8O4vLLKEG-Q0dE8E5Zp",
+    "old_id": "hj1adjkG9nalXKZ-Youn0",
+    "type": "topic",
+    "label": "RAG Agent",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "QKXjaGohaNwhuqqwb-z6b",
+    "old_id": "5KAj1kjfDUY7xSPJIC2T8",
+    "type": "label",
+    "label": "Common Architectures",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "5KAj1kjfDUY7xSPJIC2T8",
+    "old_id": "5KAj1kjfDUY7xSPJIC2T8",
+    "type": "label",
+    "label": "Other  Architecture Patterns",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "6YLCMWzystao6byCYCTPO",
+    "old_id": "hj1adjkG9nalXKZ-Youn0",
+    "type": "topic",
+    "label": "Planner Executor",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Ep8RoZSy_Iq_zWXlGQLZo",
+    "old_id": "hj1adjkG9nalXKZ-Youn0",
+    "type": "topic",
+    "label": "DAG Agents",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Nmy1PoB32DcWZnPM8l8jT",
+    "old_id": "hj1adjkG9nalXKZ-Youn0",
+    "type": "topic",
+    "label": "Tree-of-Thought",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "yaxVwWPeb7mHPZrXaNusP",
+    "old_id": "yaxVwWPeb7mHPZrXaNusP",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "nHkXoJFoyDHcO3E4FhsGK",
+    "old_id": "nHkXoJFoyDHcO3E4FhsGK",
+    "type": "label",
+    "label": "Direct LLM API calls",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Ox0SIl1qDY1MdNEa3Zcdh",
+    "old_id": "Ox0SIl1qDY1MdNEa3Zcdh",
+    "type": "label",
+    "label": "Implementing the agent loop",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "mVoZRlCcJcGCVRnGHbsWD",
+    "old_id": "mVoZRlCcJcGCVRnGHbsWD",
+    "type": "label",
+    "label": "Parsing model output",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PUGICZOvB0H0EWwwUlusF",
+    "old_id": "PUGICZOvB0H0EWwwUlusF",
+    "type": "label",
+    "label": "Error & Rate-limit handling",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "_iIsBJTVS6OBf_dsdmbVO",
+    "old_id": "1EZFbDHA5J5_5BPMLMxXb",
+    "type": "subtopic",
+    "label": "Gemini Function Calling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\anthropic-tool-use@1EZFbDHA5J5_5BPMLMxXb.md",
+    "children": []
+  },
+  {
+    "id": "37GBFVZ2J2d5r8bd1ViHq",
+    "old_id": "1EZFbDHA5J5_5BPMLMxXb",
+    "type": "subtopic",
+    "label": "OpenAI Assistant API",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\anthropic-tool-use@1EZFbDHA5J5_5BPMLMxXb.md",
+    "children": []
+  },
+  {
+    "id": "VVFomJWwR-bvPRsiLmbiV",
+    "old_id": "VVFomJWwR-bvPRsiLmbiV",
+    "type": "label",
+    "label": "Building Using Frameworks",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Ka6VpCEnqABvwiF9vba7t",
+    "old_id": "7YtnQ9-KIvGPSpDzEDexl",
+    "type": "subtopic",
+    "label": "Langchain",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\autogen@7YtnQ9-KIvGPSpDzEDexl.md",
+    "children": []
+  },
+  {
+    "id": "iEHF-Jm3ck-Iu85EbCoDi",
+    "old_id": "iEHF-Jm3ck-Iu85EbCoDi",
+    "type": "subtopic",
+    "label": "LlamaIndex",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\llamaindex@iEHF-Jm3ck-Iu85EbCoDi.md",
+    "children": []
+  },
+  {
+    "id": "XS-FsvtrXGZ8DPrwOsnlI",
+    "old_id": "eWxQiBrxIUG2JNcrdfIHS",
+    "type": "subtopic",
+    "label": "Haystack",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\smol-depot@eWxQiBrxIUG2JNcrdfIHS.md",
+    "children": []
+  },
+  {
+    "id": "7YtnQ9-KIvGPSpDzEDexl",
+    "old_id": "iEHF-Jm3ck-Iu85EbCoDi",
+    "type": "subtopic",
+    "label": "AutoGen",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\llamaindex@iEHF-Jm3ck-Iu85EbCoDi.md",
+    "children": []
+  },
+  {
+    "id": "uFPJqgU4qGvZyxTv-osZA",
+    "old_id": "eWxQiBrxIUG2JNcrdfIHS",
+    "type": "subtopic",
+    "label": "CrewAI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\smol-depot@eWxQiBrxIUG2JNcrdfIHS.md",
+    "children": []
+  },
+  {
+    "id": "eWxQiBrxIUG2JNcrdfIHS",
+    "old_id": "7YtnQ9-KIvGPSpDzEDexl",
+    "type": "subtopic",
+    "label": "Smol Depot",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\autogen@7YtnQ9-KIvGPSpDzEDexl.md",
+    "children": []
+  },
+  {
+    "id": "1EZFbDHA5J5_5BPMLMxXb",
+    "old_id": "1EZFbDHA5J5_5BPMLMxXb",
+    "type": "subtopic",
+    "label": "Anthropic Tool Use",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\anthropic-tool-use@1EZFbDHA5J5_5BPMLMxXb.md",
+    "children": []
+  },
+  {
+    "id": "y3Km7Dc3FidoKtF7cnTfR",
+    "old_id": "OxRCEi7olEsHcBZ7oVfLl",
+    "type": "label",
+    "label": "Evaluation and Testing",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "v8qLnyFRnEumodBYxQSXQ",
+    "old_id": "rHxdxN97ZcU7MPl8L1jzN",
+    "type": "subtopic",
+    "label": "Metrics to Track",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\human-in-the-loop-evaluation@rHxdxN97ZcU7MPl8L1jzN.md",
+    "children": []
+  },
+  {
+    "id": "qo_O4YAe4-MTP_ZJoXJHR",
+    "old_id": "rHxdxN97ZcU7MPl8L1jzN",
+    "type": "subtopic",
+    "label": "Unit Testing for Individual Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\human-in-the-loop-evaluation@rHxdxN97ZcU7MPl8L1jzN.md",
+    "children": []
+  },
+  {
+    "id": "P9-SiIda3TSjHsfkI5OUV",
+    "old_id": "rHxdxN97ZcU7MPl8L1jzN",
+    "type": "subtopic",
+    "label": "Integration Testing for Flows",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\human-in-the-loop-evaluation@rHxdxN97ZcU7MPl8L1jzN.md",
+    "children": []
+  },
+  {
+    "id": "rHxdxN97ZcU7MPl8L1jzN",
+    "old_id": "rHxdxN97ZcU7MPl8L1jzN",
+    "type": "subtopic",
+    "label": "Human in the Loop Evaluation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\human-in-the-loop-evaluation@rHxdxN97ZcU7MPl8L1jzN.md",
+    "children": []
+  },
+  {
+    "id": "xp7TCTRE9HP60_rGzTUF6",
+    "old_id": "0924QUH1wV7Mp-Xu0FAhF",
+    "type": "subtopic",
+    "label": "LangSmith",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\deepeval@0924QUH1wV7Mp-Xu0FAhF.md",
+    "children": []
+  },
+  {
+    "id": "YzEDtGEaMaMWVt0W03HRt",
+    "old_id": "MLxP5N0Vrmwh-kyvNeGXn",
+    "type": "subtopic",
+    "label": "Ragas",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\helicone@MLxP5N0Vrmwh-kyvNeGXn.md",
+    "children": []
+  },
+  {
+    "id": "0924QUH1wV7Mp-Xu0FAhF",
+    "old_id": "0924QUH1wV7Mp-Xu0FAhF",
+    "type": "subtopic",
+    "label": "DeepEval",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\deepeval@0924QUH1wV7Mp-Xu0FAhF.md",
+    "children": []
+  },
+  {
+    "id": "OxRCEi7olEsHcBZ7oVfLl",
+    "old_id": "OxRCEi7olEsHcBZ7oVfLl",
+    "type": "label",
+    "label": "Frameworks",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "zs6LM8WEnb0ERWpiaQCgc",
+    "old_id": "MLxP5N0Vrmwh-kyvNeGXn",
+    "type": "subtopic",
+    "label": "Structured logging & tracing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\helicone@MLxP5N0Vrmwh-kyvNeGXn.md",
+    "children": []
+  },
+  {
+    "id": "P5D6O9GmDjENsvNStJcEC",
+    "old_id": "PsMoyCyhXdYIIgTK4mduG",
+    "type": "label",
+    "label": "Debugging and Monitoring",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "PsMoyCyhXdYIIgTK4mduG",
+    "old_id": "PsMoyCyhXdYIIgTK4mduG",
+    "type": "label",
+    "label": "Observability Tools",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "SS8mGqf9wfrNqenIWvN8Z",
+    "old_id": "7UqPXUzqKYXklnB3x-tsv",
+    "type": "subtopic",
+    "label": "LangSmith",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\openllmetry@7UqPXUzqKYXklnB3x-tsv.md",
+    "children": []
+  },
+  {
+    "id": "MLxP5N0Vrmwh-kyvNeGXn",
+    "old_id": "0924QUH1wV7Mp-Xu0FAhF",
+    "type": "subtopic",
+    "label": "Helicone",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\deepeval@0924QUH1wV7Mp-Xu0FAhF.md",
+    "children": []
+  },
+  {
+    "id": "UoIheaJlShiceafrWALEH",
+    "old_id": "7UqPXUzqKYXklnB3x-tsv",
+    "type": "subtopic",
+    "label": "LangFuse",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\openllmetry@7UqPXUzqKYXklnB3x-tsv.md",
+    "children": []
+  },
+  {
+    "id": "7UqPXUzqKYXklnB3x-tsv",
+    "old_id": "MLxP5N0Vrmwh-kyvNeGXn",
+    "type": "subtopic",
+    "label": "openllmetry",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-agents\\content\\helicone@MLxP5N0Vrmwh-kyvNeGXn.md",
+    "children": []
+  },
+  {
+    "id": "ZczxILvJ8ZVlaNd887lS5",
+    "old_id": "41n1zuSz7Ur8Zq0GcmQ9y",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "8Fk3qNFO_5UNxJDGDDCc8",
+    "old_id": "41n1zuSz7Ur8Zq0GcmQ9y",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "41n1zuSz7Ur8Zq0GcmQ9y",
+    "old_id": "41n1zuSz7Ur8Zq0GcmQ9y",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "SU2RuicMUo8tiAsQtDI1k",
+    "old_id": "k8Y_veuqbR0HzVj_Ekltf",
+    "type": "topic",
+    "label": "Prompt Injection / Jailbreaks",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "UVzLGXG6K7HQVHmw8ZAv2",
+    "old_id": "k8Y_veuqbR0HzVj_Ekltf",
+    "type": "topic",
+    "label": "Tool sandboxing / Permissioning",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "rdlYBJNNyZUshzsJawME4",
+    "old_id": "k8Y_veuqbR0HzVj_Ekltf",
+    "type": "topic",
+    "label": "Data Privacy + PII Redaction",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "EyLo2j8IQsIK91SKaXkmK",
+    "old_id": "k8Y_veuqbR0HzVj_Ekltf",
+    "type": "topic",
+    "label": "Bias & Toxicity Guardrails",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "63nsfJFO1BwjLX_ZVaPFC",
+    "old_id": "k8Y_veuqbR0HzVj_Ekltf",
+    "type": "topic",
+    "label": "Safety + Red Team Testing",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-sFboM4eFUMVq1tlPl-fV",
+    "old_id": "qXKNK_IsGS8-JgLK-Q9oU",
+    "type": "button",
+    "label": "AI & Data Scientist",
+    "resources": [],
+    "children": []
+  }
+]

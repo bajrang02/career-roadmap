@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: theme("colors.border.light");
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    /* never let page chrome overflow sideways on small screens (the roadmap
+       canvas has its own overflow-hidden surface, so this only guards the
+       rest of the app) */
+    overflow-x: clip;
+  }
+
+  body {
+    @apply bg-bg-light font-sans text-text-light antialiased dark:bg-bg-dark dark:text-text-dark;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    @apply bg-brand-100 text-brand-900 dark:bg-brand-900 dark:text-brand-100;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-400 ring-offset-2 ring-offset-white dark:ring-offset-bg-dark;
+  }
+
+}
+
+@layer components {
+  /* ── Fluid typography scale (spec) ───────────────────────────────────────
+     Desktop: 32px page titles · 24px section titles · 16–18px node titles
+     Tablet:  28 / 22 · Mobile: 24 / 20 — every size steps down via sm:/lg:
+     breakpoints instead of a fixed px value, so text stays readable on a
+     320px phone and 4k monitor alike. */
+  .page-title {
+    @apply font-display text-[24px] font-bold leading-[1.15] tracking-tight text-text-light sm:text-[28px] lg:text-[32px] dark:text-text-dark;
+  }
+  .section-title {
+    @apply font-display text-[20px] font-bold leading-[1.2] tracking-tight text-text-light sm:text-[22px] lg:text-[24px] dark:text-text-dark;
+  }
+  .eyebrow {
+    @apply text-[12px] font-semibold uppercase tracking-[0.08em] text-brand-600 sm:text-[13px] dark:text-brand-400;
+  }
+  .body-text {
+    @apply text-[14px] leading-[1.65] text-muted-light sm:text-[15px] dark:text-muted-dark;
+  }
+  .desc-text {
+    @apply text-[13px] leading-[1.6] text-muted-light sm:text-[14px] dark:text-muted-dark;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  }
+  .font-mono {
+    font-family: var(--font-mono), ui-monospace, monospace;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* custom scrollbars */
+  .nice-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: theme("colors.slate.300") transparent;
+  }
+  .nice-scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .nice-scroll::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-slate-300 dark:bg-slate-700;
+  }
+  .nice-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* roadmap canvas background — roadmap.sh-style dot grid. Light mode uses
+     the light canvas (#f1f5f9) with slate dots; dark mode uses the deep slate
+     canvas (#111827) with soft slate-blue dots — comfortable, never neon. */
+  .canvas-dots {
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(100, 116, 139, 0.14) 1px, transparent 1.5px),
+      radial-gradient(circle at 1px 1px, rgba(100, 116, 139, 0.05) 1px, transparent 1.5px);
+    background-size: 32px 32px, 8px 8px;
+    background-color: #f1f5f9;
+  }
+  .dark .canvas-dots {
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(148, 163, 184, 0.16) 1px, transparent 1.5px),
+      radial-gradient(circle at 1px 1px, rgba(148, 163, 184, 0.06) 1px, transparent 1.5px);
+    background-color: #111827;
+    background-size: 34px 34px, 9px 9px;
+  }
+
+  /* roadmap connector colors — theme-aware via CSS vars so SVG strokes adapt */
+  :root {
+    --edge: #cbd5e1;
+    --edge-active: #3b82f6;
+    --edge-glow: rgba(59, 130, 246, 0.35);
+  }
+  .dark {
+    --edge: #475569;
+    --edge-active: #60a5fa;
+    --edge-glow: rgba(96, 165, 250, 0.4);
+  }
+
+  .glass {
+    @apply border-b border-border-light/70 bg-white/80 backdrop-blur-xl dark:border-border-dark/70 dark:bg-bg-dark/80;
+  }
+
+  /* zoom slider thumb */
+  .zoom-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 9999px;
+    background: theme("colors.brand.600");
+    border: 2px solid white;
+    box-shadow: 0 1px 4px rgba(16, 24, 40, 0.25);
+    cursor: pointer;
+  }
+  .zoom-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 9999px;
+    background: theme("colors.brand.600");
+    border: 2px solid white;
+    box-shadow: 0 1px 4px rgba(16, 24, 40, 0.25);
+    cursor: pointer;
+  }
+
+  /* search-result flash ring */
+  @keyframes node-flash {
+    0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.9); }
+    70% { box-shadow: 0 0 0 14px rgba(245, 158, 11, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
+  }
+  .animate-node-flash {
+    animation: node-flash 1.1s ease-out 2;
+  }
+}
+
+/* Radix overlay/content entrance animations (used by dialog + dropdown) */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes zoom-in-95 {
+  from { opacity: 0; transform: translate(-50%, -50%) scale(0.95); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+@keyframes zoom-out-95 {
+  from { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  to { opacity: 0; transform: translate(-50%, -50%) scale(0.95); }
+}
+@keyframes pop-in {
+  from { opacity: 0; transform: scale(0.96) translateY(-4px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+@keyframes pop-out {
+  from { opacity: 1; transform: scale(1) translateY(0); }
+  to { opacity: 0; transform: scale(0.96) translateY(-4px); }
+}
+
+.animate-in { animation-duration: 0.2s; animation-timing-function: ease-out; animation-fill-mode: both; }
+.animate-out { animation-duration: 0.15s; animation-timing-function: ease-in; animation-fill-mode: both; }
+.fade-in-0 { animation-name: fade-in; }
+.fade-out-0 { animation-name: fade-out; }
+.zoom-in-95 { animation-name: zoom-in-95; }
+.zoom-out-95 { animation-name: zoom-out-95; }
+
+/* dialogs + dropdowns: Radix data-state variants are plain CSS (not Tailwind utilities) */
+[data-state="open"].cr-dialog-in { animation: zoom-in-95 0.18s cubic-bezier(0.16, 1, 0.3, 1) both; }
+[data-state="closed"].cr-dialog-out { animation: zoom-out-95 0.13s ease-in both; }
+[data-state="open"].cr-pop-in { animation: pop-in 0.16s cubic-bezier(0.16, 1, 0.3, 1) both; }
+[data-state="closed"].cr-pop-out { animation: pop-out 0.1s ease-in both; }
+[data-state="open"].cr-fade-in { animation: fade-in 0.2s ease-out both; }
+[data-state="closed"].cr-fade-out { animation: fade-out 0.15s ease-in both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

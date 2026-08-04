@@ -1,0 +1,1779 @@
+{
+  "slug": "blockchain",
+  "title": "Blockchain",
+  "nodes": [
+    {
+      "id": "IBedT_ecyPAcfv-1TyiS1",
+      "old_id": "IBedT_ecyPAcfv-1TyiS1",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "3TMMtui3iBFFOFWmUcd8z",
+      "old_id": "3TMMtui3iBFFOFWmUcd8z",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "2eSF22ObyAr6my_HsiN2O",
+      "old_id": "idcU32riEoccvhKwcvG8l",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "idcU32riEoccvhKwcvG8l",
+      "old_id": "idcU32riEoccvhKwcvG8l",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "8HY-PQ6yQrgv7hWOQ3lAK",
+      "old_id": "8HY-PQ6yQrgv7hWOQ3lAK",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "txjA1BzslYvKVEkQKBh0f",
+      "old_id": "txjA1BzslYvKVEkQKBh0f",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Yub5jWq2ODcJiql5qE-Li",
+      "old_id": "Yub5jWq2ODcJiql5qE-Li",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Dfmi0fdo9Ytzc6DWAhngQ",
+      "old_id": "Dfmi0fdo9Ytzc6DWAhngQ",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "5C5l72HEla-ikc6y-k_OS",
+      "old_id": "5C5l72HEla-ikc6y-k_OS",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "OPVx0dc6AssCjOkJaeoXF",
+      "old_id": "OPVx0dc6AssCjOkJaeoXF",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "tNbcSfwOUHNtk3yg8gJno",
+      "old_id": "tNbcSfwOUHNtk3yg8gJno",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "KELrKcfXTLu5nAcA97mXp",
+      "old_id": "KELrKcfXTLu5nAcA97mXp",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "m_Vm3dR7yoam2Bxts_0-M",
+      "old_id": "m_Vm3dR7yoam2Bxts_0-M",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "hYKE6cU0cdDJQtUPfJOn8",
+      "old_id": "hYKE6cU0cdDJQtUPfJOn8",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "_1g6QfWWUVJHaPdJQZWJz",
+      "old_id": "_1g6QfWWUVJHaPdJQZWJz",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "k5lpqM1IIUSgtyUcR4t7u",
+      "old_id": "k5lpqM1IIUSgtyUcR4t7u",
+      "type": "title",
+      "label": "Blockchain",
+      "resources": []
+    },
+    {
+      "id": "MvpHHpbS-EksUfuOKILOq",
+      "old_id": "MvpHHpbS-EksUfuOKILOq",
+      "type": "topic",
+      "label": "Basic Blockchain Knowledge",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\introduction@MvpHHpbS-EksUfuOKILOq.md"
+    },
+    {
+      "id": "Atv-4Q7edtvfySs_XhgEq",
+      "old_id": "Atv-4Q7edtvfySs_XhgEq",
+      "type": "subtopic",
+      "label": "Blockchain Structure",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\blockchain-structure@Atv-4Q7edtvfySs_XhgEq.md"
+    },
+    {
+      "id": "9z0Fqn1qqN8eo6s7_kwcb",
+      "old_id": "9z0Fqn1qqN8eo6s7_kwcb",
+      "type": "subtopic",
+      "label": "Basic Blockchain Operations",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\basic-blockchain-operations@9z0Fqn1qqN8eo6s7_kwcb.md"
+    },
+    {
+      "id": "WD2JH4X4tEE4J0W0XFQ_4",
+      "old_id": "WD2JH4X4tEE4J0W0XFQ_4",
+      "type": "subtopic",
+      "label": "Applications and Uses",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\applications-and-uses@WD2JH4X4tEE4J0W0XFQ_4.md"
+    },
+    {
+      "id": "edO8iEehsZtYavlsEKhOy",
+      "old_id": "edO8iEehsZtYavlsEKhOy",
+      "type": "subtopic",
+      "label": "What is Blockchain",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\what-is-blockchain@edO8iEehsZtYavlsEKhOy.md"
+    },
+    {
+      "id": "H9jvIlxX6P-C_cgPfZop4",
+      "old_id": "H9jvIlxX6P-C_cgPfZop4",
+      "type": "subtopic",
+      "label": "Decentralization",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\decentralization@H9jvIlxX6P-C_cgPfZop4.md"
+    },
+    {
+      "id": "Nc9AH6L7EqeQxh0m6Hddz",
+      "old_id": "ecT4W5z8Vq9pXjnuhMdpl",
+      "type": "subtopic",
+      "label": "Why it matters?",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "bA4V_9AbV3uQi3qrtLWk0",
+      "old_id": "bA4V_9AbV3uQi3qrtLWk0",
+      "type": "topic",
+      "label": "General Blockchain Knowledge",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\understanding-blockchain@bA4V_9AbV3uQi3qrtLWk0.md"
+    },
+    {
+      "id": "B7niNXMOTbHn_1ixKQ8ri",
+      "old_id": "B7niNXMOTbHn_1ixKQ8ri",
+      "type": "subtopic",
+      "label": "Mining and Incentive Models",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\mining--incentive-models@B7niNXMOTbHn_1ixKQ8ri.md"
+    },
+    {
+      "id": "E9HR_voxQ2a2tvWUuva_p",
+      "old_id": "E9HR_voxQ2a2tvWUuva_p",
+      "type": "subtopic",
+      "label": "Decentralization vs Trust",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\decentralization-vs-trust@E9HR_voxQ2a2tvWUuva_p.md"
+    },
+    {
+      "id": "L08v-78UsEhcg-mZtMVuk",
+      "old_id": "L08v-78UsEhcg-mZtMVuk",
+      "type": "subtopic",
+      "label": "Blockchain Forking",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\blockchain-forking@L08v-78UsEhcg-mZtMVuk.md"
+    },
+    {
+      "id": "s1QqQc0We5yQaNF3Ogt4k",
+      "old_id": "s1QqQc0We5yQaNF3Ogt4k",
+      "type": "subtopic",
+      "label": "Cryptocurrencies",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\cryptocurrencies@s1QqQc0We5yQaNF3Ogt4k.md"
+    },
+    {
+      "id": "FSThY0R1OAZCIL98W3AMj",
+      "old_id": "FSThY0R1OAZCIL98W3AMj",
+      "type": "subtopic",
+      "label": "Cryptowallets",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\cryptowallets@FSThY0R1OAZCIL98W3AMj.md"
+    },
+    {
+      "id": "e_I-4Q6_qIW09Hcn-pgKm",
+      "old_id": "e_I-4Q6_qIW09Hcn-pgKm",
+      "type": "subtopic",
+      "label": "Cryptography",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\cryptography--hashing@e_I-4Q6_qIW09Hcn-pgKm.md"
+    },
+    {
+      "id": "_BkpK9qgp9up8nXNH7q4m",
+      "old_id": "_BkpK9qgp9up8nXNH7q4m",
+      "type": "subtopic",
+      "label": "Consensus Protocols",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\consensus-protocols@_BkpK9qgp9up8nXNH7q4m.md"
+    },
+    {
+      "id": "nNPa6jKRUaitmHwBip_LE",
+      "old_id": "nNPa6jKRUaitmHwBip_LE",
+      "type": "subtopic",
+      "label": "Blockchain Interoperability",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\blockchain-interoperability@nNPa6jKRUaitmHwBip_LE.md"
+    },
+    {
+      "id": "JYHK95Xr0R1MVCda1Epl6",
+      "old_id": "JYHK95Xr0R1MVCda1Epl6",
+      "type": "subtopic",
+      "label": "Solana",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\solana@JYHK95Xr0R1MVCda1Epl6.md"
+    },
+    {
+      "id": "ug4FB4RXItHU0ADnisvve",
+      "old_id": "ug4FB4RXItHU0ADnisvve",
+      "type": "subtopic",
+      "label": "TON",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      }
+    },
+    {
+      "id": "tSJyp46rkJcOtDqVpJX1s",
+      "old_id": "i_Dw3kUZ7qKPG-tk-sFPf",
+      "type": "subtopic",
+      "label": "EVM-Based",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\l2-blockchains@i_Dw3kUZ7qKPG-tk-sFPf.md"
+    },
+    {
+      "id": "EQgb4LqXnyq3gOX7Fb85s",
+      "old_id": "EQgb4LqXnyq3gOX7Fb85s",
+      "type": "topic",
+      "label": "Blockchains",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\types-of-blockchains@EQgb4LqXnyq3gOX7Fb85s.md"
+    },
+    {
+      "id": "JLXIbP-y8C2YktIk3R12m",
+      "old_id": "JLXIbP-y8C2YktIk3R12m",
+      "type": "subtopic",
+      "label": "Ethereum",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\ethereum@JLXIbP-y8C2YktIk3R12m.md"
+    },
+    {
+      "id": "JNilHFQnnVDOz-Gz6eNo5",
+      "old_id": "JNilHFQnnVDOz-Gz6eNo5",
+      "type": "subtopic",
+      "label": "Polygon",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\polygon@JNilHFQnnVDOz-Gz6eNo5.md"
+    },
+    {
+      "id": "sJj-6wG5KjjzYYia_eo63",
+      "old_id": "sJj-6wG5KjjzYYia_eo63",
+      "type": "subtopic",
+      "label": "BNB Chain",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\bnb-chain@sJj-6wG5KjjzYYia_eo63.md"
+    },
+    {
+      "id": "UQ9AejYV6_Sk6ZJkXYWf7",
+      "old_id": "UQ9AejYV6_Sk6ZJkXYWf7",
+      "type": "subtopic",
+      "label": "Gnosis Chain",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\gnosis-chain@UQ9AejYV6_Sk6ZJkXYWf7.md"
+    },
+    {
+      "id": "PkRAYBZQAUAHxWEeCCX4U",
+      "old_id": "PkRAYBZQAUAHxWEeCCX4U",
+      "type": "subtopic",
+      "label": "Huobi Eco Chain",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      }
+    },
+    {
+      "id": "txQ9U1wcnZkQVh6B49krk",
+      "old_id": "txQ9U1wcnZkQVh6B49krk",
+      "type": "subtopic",
+      "label": "Avalanche",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\avalanche@txQ9U1wcnZkQVh6B49krk.md"
+    },
+    {
+      "id": "trcGwYcFW5LQUUrAcbUf_",
+      "old_id": "trcGwYcFW5LQUUrAcbUf_",
+      "type": "subtopic",
+      "label": "Fantom",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\fantom@trcGwYcFW5LQUUrAcbUf_.md"
+    },
+    {
+      "id": "VVbvueVMJKLUoJYhbJB1z",
+      "old_id": "VVbvueVMJKLUoJYhbJB1z",
+      "type": "subtopic",
+      "label": "Moonbeam / Moonriver",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\moonbeam--moonriver@VVbvueVMJKLUoJYhbJB1z.md"
+    },
+    {
+      "id": "YC385OLECWjpZjVeWKksO",
+      "old_id": "3HCpgWWPIkhK3gPRJuJQf",
+      "type": "subtopic",
+      "label": "Everscale",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\venom@3HCpgWWPIkhK3gPRJuJQf.md"
+    },
+    {
+      "id": "5MGtl00EEZdSnJdrNYPJ7",
+      "old_id": "5MGtl00EEZdSnJdrNYPJ7",
+      "type": "subtopic",
+      "label": "Gosh",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\gosh@5MGtl00EEZdSnJdrNYPJ7.md"
+    },
+    {
+      "id": "4tAyunbYVwlbzybuVq7fr",
+      "old_id": "3HCpgWWPIkhK3gPRJuJQf",
+      "type": "subtopic",
+      "label": "TON",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\venom@3HCpgWWPIkhK3gPRJuJQf.md"
+    },
+    {
+      "id": "3HCpgWWPIkhK3gPRJuJQf",
+      "old_id": "3HCpgWWPIkhK3gPRJuJQf",
+      "type": "subtopic",
+      "label": "Venom",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\venom@3HCpgWWPIkhK3gPRJuJQf.md"
+    },
+    {
+      "id": "miBEG3x_foKYxwfX4Tr4f",
+      "old_id": "hlcavpstLnXkJcjccQUL8",
+      "type": "subtopic",
+      "label": "TVM-Based",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\tvm-based@hlcavpstLnXkJcjccQUL8.md"
+    },
+    {
+      "id": "i_Dw3kUZ7qKPG-tk-sFPf",
+      "old_id": "i_Dw3kUZ7qKPG-tk-sFPf",
+      "type": "subtopic",
+      "label": "L2 Blockchains",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\l2-blockchains@i_Dw3kUZ7qKPG-tk-sFPf.md"
+    },
+    {
+      "id": "ixTIn2Uhs-i5-UPt9jKAa",
+      "old_id": "Ib9STGxQa8yeoB-GFeGDE",
+      "type": "subtopic",
+      "label": "Base",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\starknet@Ib9STGxQa8yeoB-GFeGDE.md"
+    },
+    {
+      "id": "Ib9STGxQa8yeoB-GFeGDE",
+      "old_id": "Ib9STGxQa8yeoB-GFeGDE",
+      "type": "subtopic",
+      "label": "Starknet",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\starknet@Ib9STGxQa8yeoB-GFeGDE.md"
+    },
+    {
+      "id": "hlcavpstLnXkJcjccQUL8",
+      "old_id": "i_Dw3kUZ7qKPG-tk-sFPf",
+      "type": "subtopic",
+      "label": "TVM-Based",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\l2-blockchains@i_Dw3kUZ7qKPG-tk-sFPf.md"
+    },
+    {
+      "id": "sK8G-41D3EfYNSLFJ3XYf",
+      "old_id": "sK8G-41D3EfYNSLFJ3XYf",
+      "type": "topic",
+      "label": "Oracles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\oracles@sK8G-41D3EfYNSLFJ3XYf.md"
+    },
+    {
+      "id": "JbgBwG6KmeTdyle9U6WAv",
+      "old_id": "JbgBwG6KmeTdyle9U6WAv",
+      "type": "subtopic",
+      "label": "Hybrid Smart Contracts",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\hybrid-smart-contracts@JbgBwG6KmeTdyle9U6WAv.md"
+    },
+    {
+      "id": "omQOhNfMO09pBc7oy76Wo",
+      "old_id": "omQOhNfMO09pBc7oy76Wo",
+      "type": "subtopic",
+      "label": "Chainlink",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\chainlink@omQOhNfMO09pBc7oy76Wo.md"
+    },
+    {
+      "id": "CzfsAQIk3zIsDaDAorG9K",
+      "old_id": "CzfsAQIk3zIsDaDAorG9K",
+      "type": "subtopic",
+      "label": "Oracle Networks",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\oracle-networks@CzfsAQIk3zIsDaDAorG9K.md"
+    },
+    {
+      "id": "BV6lEwCAKaYxSPWD0LV_d",
+      "old_id": "KRtEN0845lV5e85SOi6oZ",
+      "type": "topic",
+      "label": "Smart Contracts",
+      "resources": []
+    },
+    {
+      "id": "chaIKoE1uE8rpZLkDSfV-",
+      "old_id": "chaIKoE1uE8rpZLkDSfV-",
+      "type": "subtopic",
+      "label": "Solidity",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\solidity@chaIKoE1uE8rpZLkDSfV-.md"
+    },
+    {
+      "id": "jgHa_LeCac0pl6dSADizF",
+      "old_id": "jgHa_LeCac0pl6dSADizF",
+      "type": "subtopic",
+      "label": "Vyper",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\vyper@jgHa_LeCac0pl6dSADizF.md"
+    },
+    {
+      "id": "Larbhjzi-MnPQKH1Pzn2R",
+      "old_id": "Larbhjzi-MnPQKH1Pzn2R",
+      "type": "subtopic",
+      "label": "Rust",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\rust@Larbhjzi-MnPQKH1Pzn2R.md"
+    },
+    {
+      "id": "L5jfyLSrgXk7seLr6DVWR",
+      "old_id": "L5jfyLSrgXk7seLr6DVWR",
+      "type": "label",
+      "label": "Programming Languages",
+      "resources": []
+    },
+    {
+      "id": "IXs4nUzy_A5vBjI_44kaT",
+      "old_id": "IXs4nUzy_A5vBjI_44kaT",
+      "type": "subtopic",
+      "label": "Unit Tests",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\unit-tests@IXs4nUzy_A5vBjI_44kaT.md"
+    },
+    {
+      "id": "QNfnbUGkT3N-pj5epnHcM",
+      "old_id": "QNfnbUGkT3N-pj5epnHcM",
+      "type": "subtopic",
+      "label": "Integration Tests",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\integration-tests@QNfnbUGkT3N-pj5epnHcM.md"
+    },
+    {
+      "id": "4V-dj9x9hSAAGCxpBWsbE",
+      "old_id": "4V-dj9x9hSAAGCxpBWsbE",
+      "type": "subtopic",
+      "label": "Code Coverage",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\code-coverage@4V-dj9x9hSAAGCxpBWsbE.md"
+    },
+    {
+      "id": "hiOVnV4V-QEgJiNnPjhU0",
+      "old_id": "hiOVnV4V-QEgJiNnPjhU0",
+      "type": "label",
+      "label": "Testing",
+      "resources": []
+    },
+    {
+      "id": "7goaYnedUlfgfl5qApoO2",
+      "old_id": "7goaYnedUlfgfl5qApoO2",
+      "type": "subtopic",
+      "label": "Deployment",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\deployment@7goaYnedUlfgfl5qApoO2.md"
+    },
+    {
+      "id": "H3jNM_0sJrB7ZbYzrVhF7",
+      "old_id": "H3jNM_0sJrB7ZbYzrVhF7",
+      "type": "subtopic",
+      "label": "Monitoring",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\monitoring@H3jNM_0sJrB7ZbYzrVhF7.md"
+    },
+    {
+      "id": "OotJnHgm622NQJc2WRI7c",
+      "old_id": "OotJnHgm622NQJc2WRI7c",
+      "type": "subtopic",
+      "label": "Upgrades",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\upgrades@OotJnHgm622NQJc2WRI7c.md"
+    },
+    {
+      "id": "bjUuL7WALETzgFxL6-ivU",
+      "old_id": "bjUuL7WALETzgFxL6-ivU",
+      "type": "subtopic",
+      "label": "ERC Tokens",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\erc-tokens@bjUuL7WALETzgFxL6-ivU.md"
+    },
+    {
+      "id": "SM8Wt3iNM_nncLj69KCuy",
+      "old_id": "SM8Wt3iNM_nncLj69KCuy",
+      "type": "subtopic",
+      "label": "Crypto Wallets",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\crypto-wallets@SM8Wt3iNM_nncLj69KCuy.md"
+    },
+    {
+      "id": "lXukWXEatsF87EWFSYyOO",
+      "old_id": "lXukWXEatsF87EWFSYyOO",
+      "type": "subtopic",
+      "label": "IDEs",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\remix@lXukWXEatsF87EWFSYyOO.md"
+    },
+    {
+      "id": "S68IUKs0k_FFHEH97xxs7",
+      "old_id": "S68IUKs0k_FFHEH97xxs7",
+      "type": "subtopic",
+      "label": "Crypto Faucets",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\crypto-faucets@S68IUKs0k_FFHEH97xxs7.md"
+    },
+    {
+      "id": "tvk1Wh04BcFbAAwYWMx27",
+      "old_id": "tvk1Wh04BcFbAAwYWMx27",
+      "type": "subtopic",
+      "label": "Decentralized Storage",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\decentralized-storage@tvk1Wh04BcFbAAwYWMx27.md"
+    },
+    {
+      "id": "KRtEN0845lV5e85SOi6oZ",
+      "old_id": "KRtEN0845lV5e85SOi6oZ",
+      "type": "topic",
+      "label": "Smart Contract Frameworks",
+      "resources": []
+    },
+    {
+      "id": "l110d4NqTQt9lfEoxqXMX",
+      "old_id": "l110d4NqTQt9lfEoxqXMX",
+      "type": "subtopic",
+      "label": "Hardhat",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\hardhat@l110d4NqTQt9lfEoxqXMX.md"
+    },
+    {
+      "id": "Q64AbQlvYPiqJl8BtoJj9",
+      "old_id": "Q64AbQlvYPiqJl8BtoJj9",
+      "type": "subtopic",
+      "label": "Brownie",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\brownie@Q64AbQlvYPiqJl8BtoJj9.md"
+    },
+    {
+      "id": "Vl9XHtc22HnqaCnF9yJv9",
+      "old_id": "Vl9XHtc22HnqaCnF9yJv9",
+      "type": "subtopic",
+      "label": "Truffle",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\truffle@Vl9XHtc22HnqaCnF9yJv9.md"
+    },
+    {
+      "id": "F1EUAxODBJ3GEoh7cqM-K",
+      "old_id": "F1EUAxODBJ3GEoh7cqM-K",
+      "type": "subtopic",
+      "label": "Foundry",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\foundry@F1EUAxODBJ3GEoh7cqM-K.md"
+    },
+    {
+      "id": "snQA5_4H2dDkT1pENgaYD",
+      "old_id": "bTdRKEiIUmu1pnp8UbJK9",
+      "type": "topic",
+      "label": "Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\building-for-scale@bTdRKEiIUmu1pnp8UbJK9.md"
+    },
+    {
+      "id": "UOF7Ep97i1l3Own6YEWlq",
+      "old_id": "UOF7Ep97i1l3Own6YEWlq",
+      "type": "subtopic",
+      "label": "Practices",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\practices@UOF7Ep97i1l3Own6YEWlq.md"
+    },
+    {
+      "id": "wypJdjTW4jHm9FCqv7Lhb",
+      "old_id": "wypJdjTW4jHm9FCqv7Lhb",
+      "type": "subtopic",
+      "label": "Fuzz Testing & Static Analysis",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\fuzz-testing--static-analysis@wypJdjTW4jHm9FCqv7Lhb.md"
+    },
+    {
+      "id": "GxD-KybtmkwT3wqDzIfHp",
+      "old_id": "GxD-KybtmkwT3wqDzIfHp",
+      "type": "subtopic",
+      "label": "Common Threat Vectors",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\common-threat-vectors@GxD-KybtmkwT3wqDzIfHp.md"
+    },
+    {
+      "id": "f60P5RNNdgCbrhDDzkY25",
+      "old_id": "f60P5RNNdgCbrhDDzkY25",
+      "type": "subtopic",
+      "label": "Source of Randomness Attacks",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\source-of-randomness-attacks@f60P5RNNdgCbrhDDzkY25.md"
+    },
+    {
+      "id": "n3pipnNb76aaQeUwrDLk_",
+      "old_id": "n3pipnNb76aaQeUwrDLk_",
+      "type": "subtopic",
+      "label": "Tools",
+      "resources": []
+    },
+    {
+      "id": "YA3-7EZBRW-T-8HuVI7lk",
+      "old_id": "YA3-7EZBRW-T-8HuVI7lk",
+      "type": "subtopic",
+      "label": "Slither",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\slither@YA3-7EZBRW-T-8HuVI7lk.md"
+    },
+    {
+      "id": "twR3UdzUNSztjpwbAUT4F",
+      "old_id": "twR3UdzUNSztjpwbAUT4F",
+      "type": "subtopic",
+      "label": "Manticore",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\diligent-fuzzing@twR3UdzUNSztjpwbAUT4F.md"
+    },
+    {
+      "id": "XIgczUc3yKo6kw-_3gskC",
+      "old_id": "XIgczUc3yKo6kw-_3gskC",
+      "type": "subtopic",
+      "label": "MythX",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      }
+    },
+    {
+      "id": "U4H62lVac8wIgxNJ3N3ga",
+      "old_id": "U4H62lVac8wIgxNJ3N3ga",
+      "type": "subtopic",
+      "label": "Echidna",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\echidna@U4H62lVac8wIgxNJ3N3ga.md"
+    },
+    {
+      "id": "fbESHQGYqxKRi-5DW8TY3",
+      "old_id": "bTdRKEiIUmu1pnp8UbJK9",
+      "type": "topic",
+      "label": "Management Platforms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\building-for-scale@bTdRKEiIUmu1pnp8UbJK9.md"
+    },
+    {
+      "id": "qox-x_q-Q7aWcNFWD7RkT",
+      "old_id": "qox-x_q-Q7aWcNFWD7RkT",
+      "type": "subtopic",
+      "label": "OpenZeppelin",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\openzeppelin@qox-x_q-Q7aWcNFWD7RkT.md"
+    },
+    {
+      "id": "Fs9rcEh_f9fJ2tF-bkAUE",
+      "old_id": "bTdRKEiIUmu1pnp8UbJK9",
+      "type": "topic",
+      "label": "Version Control Systems",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\building-for-scale@bTdRKEiIUmu1pnp8UbJK9.md"
+    },
+    {
+      "id": "gpS5CckcQZX3TMFQ2jtIL",
+      "old_id": "gpS5CckcQZX3TMFQ2jtIL",
+      "type": "subtopic",
+      "label": "Git",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\git@gpS5CckcQZX3TMFQ2jtIL.md"
+    },
+    {
+      "id": "oSK3MRQD_4j1gGDORN7RO",
+      "old_id": "bTdRKEiIUmu1pnp8UbJK9",
+      "type": "topic",
+      "label": "Repo Hosting Services",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\building-for-scale@bTdRKEiIUmu1pnp8UbJK9.md"
+    },
+    {
+      "id": "GOgeaQoRvqg-7mAfL_A8t",
+      "old_id": "GOgeaQoRvqg-7mAfL_A8t",
+      "type": "subtopic",
+      "label": "GitHub",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\github@GOgeaQoRvqg-7mAfL_A8t.md"
+    },
+    {
+      "id": "CWqwv4asouS-dssAwIdxv",
+      "old_id": "CWqwv4asouS-dssAwIdxv",
+      "type": "subtopic",
+      "label": "GitLab",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\gitlab@CWqwv4asouS-dssAwIdxv.md"
+    },
+    {
+      "id": "TMPB62h9LGIA0pMmjfUun",
+      "old_id": "TMPB62h9LGIA0pMmjfUun",
+      "type": "subtopic",
+      "label": "Bitbucket",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\bitbucket@TMPB62h9LGIA0pMmjfUun.md"
+    },
+    {
+      "id": "SXXvFtf_7Rx64cHSEWxMS",
+      "old_id": "bTdRKEiIUmu1pnp8UbJK9",
+      "type": "topic",
+      "label": "dApps - Decentralized Applications",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\building-for-scale@bTdRKEiIUmu1pnp8UbJK9.md"
+    },
+    {
+      "id": "aATSuiqPG-yctr3ChEBa_",
+      "old_id": "aATSuiqPG-yctr3ChEBa_",
+      "type": "topic",
+      "label": "Applicability",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\applicability@aATSuiqPG-yctr3ChEBa_.md"
+    },
+    {
+      "id": "1AhombZUkZN6Ra5fysSpg",
+      "old_id": "1AhombZUkZN6Ra5fysSpg",
+      "type": "subtopic",
+      "label": "Defi",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\defi@1AhombZUkZN6Ra5fysSpg.md"
+    },
+    {
+      "id": "RsoOgixZlyQU6h7nIaY9J",
+      "old_id": "RsoOgixZlyQU6h7nIaY9J",
+      "type": "subtopic",
+      "label": "DAOs",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\daos@RsoOgixZlyQU6h7nIaY9J.md"
+    },
+    {
+      "id": "e4OHLOfa_AqEShpMQe6Dx",
+      "old_id": "e4OHLOfa_AqEShpMQe6Dx",
+      "type": "subtopic",
+      "label": "NFTs",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\nfts@e4OHLOfa_AqEShpMQe6Dx.md"
+    },
+    {
+      "id": "vTGSDThkDDHvCanNlgP07",
+      "old_id": "vTGSDThkDDHvCanNlgP07",
+      "type": "subtopic",
+      "label": "Payments",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\payments@vTGSDThkDDHvCanNlgP07.md"
+    },
+    {
+      "id": "uMXcKCUoUN8-Hq_IOBRCp",
+      "old_id": "uMXcKCUoUN8-Hq_IOBRCp",
+      "type": "subtopic",
+      "label": "Insurance",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\insurance@uMXcKCUoUN8-Hq_IOBRCp.md"
+    },
+    {
+      "id": "dDPhMNPpl3rZh3EgXy13P",
+      "old_id": "dDPhMNPpl3rZh3EgXy13P",
+      "type": "topic",
+      "label": "Node as a Service",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\node-as-a-service@dDPhMNPpl3rZh3EgXy13P.md"
+    },
+    {
+      "id": "lOoubzXNILBk18jGsc-JX",
+      "old_id": "lOoubzXNILBk18jGsc-JX",
+      "type": "subtopic",
+      "label": "Alchemy",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\alchemy@lOoubzXNILBk18jGsc-JX.md"
+    },
+    {
+      "id": "hJmNuEMHaMSM0QQlABFRS",
+      "old_id": "hJmNuEMHaMSM0QQlABFRS",
+      "type": "subtopic",
+      "label": "Infura",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\infura@hJmNuEMHaMSM0QQlABFRS.md"
+    },
+    {
+      "id": "pJhR9OQo8YFQmAZXQbikJ",
+      "old_id": "pJhR9OQo8YFQmAZXQbikJ",
+      "type": "subtopic",
+      "label": "Moralis",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\pokt-network@pJhR9OQo8YFQmAZXQbikJ.md"
+    },
+    {
+      "id": "FGih8w9We52PHpBnnGO6H",
+      "old_id": "FGih8w9We52PHpBnnGO6H",
+      "type": "subtopic",
+      "label": "Quicknode",
+      "resources": [],
+      "legend": {
+        "color": "#aaaaaa",
+        "label": "Order in roadmap not strict / Learn anytime"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\quicknode@FGih8w9We52PHpBnnGO6H.md"
+    },
+    {
+      "id": "NK02dunI3i6C6z7krENCC",
+      "old_id": "NK02dunI3i6C6z7krENCC",
+      "type": "topic",
+      "label": "Supporting Languages",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\supporting-languages@NK02dunI3i6C6z7krENCC.md"
+    },
+    {
+      "id": "fF06XiQV4CPEJnt_ESOvv",
+      "old_id": "fF06XiQV4CPEJnt_ESOvv",
+      "type": "subtopic",
+      "label": "JavaScript",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\javascript@fF06XiQV4CPEJnt_ESOvv.md"
+    },
+    {
+      "id": "pVG7bGqVGCeSBlZxRNHJs",
+      "old_id": "pVG7bGqVGCeSBlZxRNHJs",
+      "type": "subtopic",
+      "label": "Python",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\python@pVG7bGqVGCeSBlZxRNHJs.md"
+    },
+    {
+      "id": "jxlQ1ibcCv6ZlcEvobZ_G",
+      "old_id": "jxlQ1ibcCv6ZlcEvobZ_G",
+      "type": "subtopic",
+      "label": "Go",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\go@jxlQ1ibcCv6ZlcEvobZ_G.md"
+    },
+    {
+      "id": "YR-U2njkUrEMO0JxCU1PH",
+      "old_id": "YR-U2njkUrEMO0JxCU1PH",
+      "type": "topic",
+      "label": "Frontend Frameworks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\frontend-frameworks@YR-U2njkUrEMO0JxCU1PH.md"
+    },
+    {
+      "id": "0DUYS40_-BTpk2rLQ1a0e",
+      "old_id": "0DUYS40_-BTpk2rLQ1a0e",
+      "type": "subtopic",
+      "label": "React",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\react@0DUYS40_-BTpk2rLQ1a0e.md"
+    },
+    {
+      "id": "UY_vAsixTyocvo8zvAF4b",
+      "old_id": "UY_vAsixTyocvo8zvAF4b",
+      "type": "subtopic",
+      "label": "Angular",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\angular@UY_vAsixTyocvo8zvAF4b.md"
+    },
+    {
+      "id": "Ke97bMHGfb-8hB_xSwMbk",
+      "old_id": "Ke97bMHGfb-8hB_xSwMbk",
+      "type": "subtopic",
+      "label": "Vue",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\vue@Ke97bMHGfb-8hB_xSwMbk.md"
+    },
+    {
+      "id": "-7Bq2ktD0nt7of9liuCDL",
+      "old_id": "-7Bq2ktD0nt7of9liuCDL",
+      "type": "subtopic",
+      "label": "Testing",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\testing@-7Bq2ktD0nt7of9liuCDL.md"
+    },
+    {
+      "id": "cW3_Ki9Bx7fYluDLKKKgl",
+      "old_id": "cW3_Ki9Bx7fYluDLKKKgl",
+      "type": "subtopic",
+      "label": "Deployment",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\deployment@cW3_Ki9Bx7fYluDLKKKgl.md"
+    },
+    {
+      "id": "XvVpnlYhT_yOsvjAvwZpr",
+      "old_id": "XvVpnlYhT_yOsvjAvwZpr",
+      "type": "subtopic",
+      "label": "Maintenance",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\maintenance@XvVpnlYhT_yOsvjAvwZpr.md"
+    },
+    {
+      "id": "B6GGTUbzEaIz5yu32WrAq",
+      "old_id": "B6GGTUbzEaIz5yu32WrAq",
+      "type": "subtopic",
+      "label": "Architecture",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\architecture@B6GGTUbzEaIz5yu32WrAq.md"
+    },
+    {
+      "id": "PBTrg9ivOpw9uNTVisIpx",
+      "old_id": "PBTrg9ivOpw9uNTVisIpx",
+      "type": "subtopic",
+      "label": "Security",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\security@PBTrg9ivOpw9uNTVisIpx.md"
+    },
+    {
+      "id": "vZiDpX9pEB9gfueSKZiQL",
+      "old_id": "vZiDpX9pEB9gfueSKZiQL",
+      "type": "topic",
+      "label": "Client Libraries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\client-libraries@vZiDpX9pEB9gfueSKZiQL.md"
+    },
+    {
+      "id": "i-ltfXPTCu3WaBo-xaN05",
+      "old_id": "i-ltfXPTCu3WaBo-xaN05",
+      "type": "subtopic",
+      "label": "ethers.js",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\ethersjs@i-ltfXPTCu3WaBo-xaN05.md"
+    },
+    {
+      "id": "jwuMeo9TwaQviGIMO13Jf",
+      "old_id": "jwuMeo9TwaQviGIMO13Jf",
+      "type": "subtopic",
+      "label": "web3.js",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\web3js@jwuMeo9TwaQviGIMO13Jf.md"
+    },
+    {
+      "id": "RFgetmTvKvpV2PG6Vfev7",
+      "old_id": "RFgetmTvKvpV2PG6Vfev7",
+      "type": "subtopic",
+      "label": "Moralis",
+      "resources": [],
+      "legend": {
+        "color": "#4f7a28",
+        "label": "Alternative Option / Pick this or Purple"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\moralis@RFgetmTvKvpV2PG6Vfev7.md"
+    },
+    {
+      "id": "CoYEwHNNmrQ0i0sSQTcB7",
+      "old_id": "CoYEwHNNmrQ0i0sSQTcB7",
+      "type": "topic",
+      "label": "Client Nodes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\client-nodes@CoYEwHNNmrQ0i0sSQTcB7.md"
+    },
+    {
+      "id": "DBRaXtwvdq2UGE8rVCmI1",
+      "old_id": "DBRaXtwvdq2UGE8rVCmI1",
+      "type": "subtopic",
+      "label": "Geth",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\geth@DBRaXtwvdq2UGE8rVCmI1.md"
+    },
+    {
+      "id": "Gnnp5qrFmuSVtaq31rvMX",
+      "old_id": "Gnnp5qrFmuSVtaq31rvMX",
+      "type": "subtopic",
+      "label": "Besu",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\besu@Gnnp5qrFmuSVtaq31rvMX.md"
+    },
+    {
+      "id": "xtYwg0WAcE8Ea9VgC2RSc",
+      "old_id": "xtYwg0WAcE8Ea9VgC2RSc",
+      "type": "subtopic",
+      "label": "Nethermind",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\nethermind@xtYwg0WAcE8Ea9VgC2RSc.md"
+    },
+    {
+      "id": "E4uuJZFZz-M1vlpZmdJTO",
+      "old_id": "E4uuJZFZz-M1vlpZmdJTO",
+      "type": "subtopic",
+      "label": "Substrate",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\substrate@E4uuJZFZz-M1vlpZmdJTO.md"
+    },
+    {
+      "id": "nR-aB_U709NTfY0RmmF12",
+      "old_id": "nR-aB_U709NTfY0RmmF12",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "bTdRKEiIUmu1pnp8UbJK9",
+      "old_id": "bTdRKEiIUmu1pnp8UbJK9",
+      "type": "topic",
+      "label": "Building for Scale",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\building-for-scale@bTdRKEiIUmu1pnp8UbJK9.md"
+    },
+    {
+      "id": "5T5c3SrFfMZLEKAzxJ-_S",
+      "old_id": "5T5c3SrFfMZLEKAzxJ-_S",
+      "type": "subtopic",
+      "label": "State & Payment Channels",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\state--payment-channels@5T5c3SrFfMZLEKAzxJ-_S.md"
+    },
+    {
+      "id": "ti6-LSK52dTCLVdxArp9q",
+      "old_id": "ti6-LSK52dTCLVdxArp9q",
+      "type": "subtopic",
+      "label": "Optimistic Rollups & Fraud Proofs",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\optimistic-rollups--fraud-proofs@ti6-LSK52dTCLVdxArp9q.md"
+    },
+    {
+      "id": "PykoX4j5Q3eJWIpUoczjM",
+      "old_id": "PykoX4j5Q3eJWIpUoczjM",
+      "type": "subtopic",
+      "label": " Zk Rollups & Zero Knowledge Proof",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\zk-rollups--zero-knowledge-proof@PykoX4j5Q3eJWIpUoczjM.md"
+    },
+    {
+      "id": "chmxDwNVOefp98IbjEgNl",
+      "old_id": "chmxDwNVOefp98IbjEgNl",
+      "type": "subtopic",
+      "label": "Validium",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\validium@chmxDwNVOefp98IbjEgNl.md"
+    },
+    {
+      "id": "dMesiPUPBegYQ7hgeMMJK",
+      "old_id": "dMesiPUPBegYQ7hgeMMJK",
+      "type": "subtopic",
+      "label": "Plasma",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\plasma@dMesiPUPBegYQ7hgeMMJK.md"
+    },
+    {
+      "id": "lSQA3CfQBugEBhAh2yxro",
+      "old_id": "lSQA3CfQBugEBhAh2yxro",
+      "type": "subtopic",
+      "label": "Sidechains",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\sidechains@lSQA3CfQBugEBhAh2yxro.md"
+    },
+    {
+      "id": "9uz6LBQwYpOid61LrK5dl",
+      "old_id": "9uz6LBQwYpOid61LrK5dl",
+      "type": "subtopic",
+      "label": "Ethereum 2.0",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\ethereum-20@9uz6LBQwYpOid61LrK5dl.md"
+    },
+    {
+      "id": "1bUD9-vFo-tsHiB1a06tO",
+      "old_id": "1bUD9-vFo-tsHiB1a06tO",
+      "type": "subtopic",
+      "label": "On-Chain Scaling",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\on-chain-scaling@1bUD9-vFo-tsHiB1a06tO.md"
+    },
+    {
+      "id": "TDAVBiLD2a9EOWINr3BuL",
+      "old_id": "gC8lsIdYLRzo3HzwVqtm1",
+      "type": "button",
+      "label": "JavaScript",
+      "resources": []
+    },
+    {
+      "id": "-AVENmGRqqg2hH4OL_aqZ",
+      "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "label": "Python",
+      "resources": []
+    },
+    {
+      "id": "uSLzfLPXxS5-P7ozscvjZ",
+      "old_id": "PkhQdVms2TGgnPrytCBPZ",
+      "type": "button",
+      "label": "Rust",
+      "resources": []
+    },
+    {
+      "id": "gC8lsIdYLRzo3HzwVqtm1",
+      "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "label": "Backend",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "aNrxRf79rgvvqVB2fbtV4",
+      "old_id": "aNrxRf79rgvvqVB2fbtV4",
+      "type": "legend",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "ecT4W5z8Vq9pXjnuhMdpl",
+      "old_id": "ecT4W5z8Vq9pXjnuhMdpl",
+      "type": "subtopic",
+      "label": "Why it matters?",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      }
+    },
+    {
+      "id": "zvUCR0KeigEi9beqFpwny",
+      "old_id": "zvUCR0KeigEi9beqFpwny",
+      "type": "subtopic",
+      "label": "Storage",
+      "resources": [],
+      "legend": {
+        "color": "#0433ff",
+        "label": "Personal Recommendation / Opinion"
+      },
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\blockchain\\content\\storage@zvUCR0KeigEi9beqFpwny.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES"
+    },
+    {
+      "source": null,
+      "target": "NMznG9mo2wzNFnjhg990f"
+    },
+    {
+      "source": null,
+      "target": "gc_7cuIO2_joKlQRAPDfX"
+    },
+    {
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI"
+    },
+    {
+      "source": "MvpHHpbS-EksUfuOKILOq",
+      "target": "Atv-4Q7edtvfySs_XhgEq"
+    },
+    {
+      "source": "MvpHHpbS-EksUfuOKILOq",
+      "target": "9z0Fqn1qqN8eo6s7_kwcb"
+    },
+    {
+      "source": "MvpHHpbS-EksUfuOKILOq",
+      "target": "WD2JH4X4tEE4J0W0XFQ_4"
+    },
+    {
+      "source": "MvpHHpbS-EksUfuOKILOq",
+      "target": "edO8iEehsZtYavlsEKhOy"
+    },
+    {
+      "source": "MvpHHpbS-EksUfuOKILOq",
+      "target": "H9jvIlxX6P-C_cgPfZop4"
+    },
+    {
+      "source": "MvpHHpbS-EksUfuOKILOq",
+      "target": "Nc9AH6L7EqeQxh0m6Hddz"
+    },
+    {
+      "source": "k5lpqM1IIUSgtyUcR4t7u",
+      "target": "MvpHHpbS-EksUfuOKILOq"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "B7niNXMOTbHn_1ixKQ8ri"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "E9HR_voxQ2a2tvWUuva_p"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "L08v-78UsEhcg-mZtMVuk"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "s1QqQc0We5yQaNF3Ogt4k"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "FSThY0R1OAZCIL98W3AMj"
+    },
+    {
+      "source": "MvpHHpbS-EksUfuOKILOq",
+      "target": "bA4V_9AbV3uQi3qrtLWk0"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "e_I-4Q6_qIW09Hcn-pgKm"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "_BkpK9qgp9up8nXNH7q4m"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "nNPa6jKRUaitmHwBip_LE"
+    },
+    {
+      "source": "sK8G-41D3EfYNSLFJ3XYf",
+      "target": "JbgBwG6KmeTdyle9U6WAv"
+    },
+    {
+      "source": "sK8G-41D3EfYNSLFJ3XYf",
+      "target": "omQOhNfMO09pBc7oy76Wo"
+    },
+    {
+      "source": "sK8G-41D3EfYNSLFJ3XYf",
+      "target": "CzfsAQIk3zIsDaDAorG9K"
+    },
+    {
+      "source": "sK8G-41D3EfYNSLFJ3XYf",
+      "target": "BV6lEwCAKaYxSPWD0LV_d"
+    },
+    {
+      "source": "bA4V_9AbV3uQi3qrtLWk0",
+      "target": "sK8G-41D3EfYNSLFJ3XYf"
+    },
+    {
+      "source": "BV6lEwCAKaYxSPWD0LV_d",
+      "target": "tNbcSfwOUHNtk3yg8gJno"
+    },
+    {
+      "source": "snQA5_4H2dDkT1pENgaYD",
+      "target": "UOF7Ep97i1l3Own6YEWlq"
+    },
+    {
+      "source": "fbESHQGYqxKRi-5DW8TY3",
+      "target": "qox-x_q-Q7aWcNFWD7RkT"
+    },
+    {
+      "source": "Fs9rcEh_f9fJ2tF-bkAUE",
+      "target": "gpS5CckcQZX3TMFQ2jtIL"
+    },
+    {
+      "source": "Fs9rcEh_f9fJ2tF-bkAUE",
+      "target": "oSK3MRQD_4j1gGDORN7RO"
+    },
+    {
+      "source": "oSK3MRQD_4j1gGDORN7RO",
+      "target": "GOgeaQoRvqg-7mAfL_A8t"
+    },
+    {
+      "source": "oSK3MRQD_4j1gGDORN7RO",
+      "target": "CWqwv4asouS-dssAwIdxv"
+    },
+    {
+      "source": "oSK3MRQD_4j1gGDORN7RO",
+      "target": "TMPB62h9LGIA0pMmjfUun"
+    },
+    {
+      "source": "SXXvFtf_7Rx64cHSEWxMS",
+      "target": "bTdRKEiIUmu1pnp8UbJK9"
+    },
+    {
+      "source": "bTdRKEiIUmu1pnp8UbJK9",
+      "target": "1bUD9-vFo-tsHiB1a06tO"
+    },
+    {
+      "source": null,
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "STQQbPa7PE3gbjMdL6P-t",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "kc6buUsLAeZeUb4Tk0apM",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    },
+    {
+      "source": "NhodBD8myUTljNdn3y40I",
+      "target": "sVXZrBCsiSzWBBYWTm-nQ"
+    }
+  ]
+}

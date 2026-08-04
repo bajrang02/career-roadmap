@@ -1,0 +1,66 @@
+[
+  {
+    "id": "aStaDENn5PhEa-cFvNzXa",
+    "old_id": "kBdt_t2SvVsY3blfubWIz",
+    "type": "topic",
+    "label": "Mathematics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\machine-learning@kBdt_t2SvVsY3blfubWIz.md"
+  },
+  {
+    "id": "4WZL_fzJ3cZdWLLDoWN8D",
+    "old_id": "4WZL_fzJ3cZdWLLDoWN8D",
+    "type": "topic",
+    "label": "Statistics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\statistics@4WZL_fzJ3cZdWLLDoWN8D.md"
+  },
+  {
+    "id": "Gd2egqKZPnbPW1W2jw4j8",
+    "old_id": "kBdt_t2SvVsY3blfubWIz",
+    "type": "topic",
+    "label": "Econometrics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\machine-learning@kBdt_t2SvVsY3blfubWIz.md"
+  },
+  {
+    "id": "XLDWuSt4tI4gnmqMFdpmy",
+    "old_id": "Qa85hEVe2kz62k9Pj4QCA",
+    "type": "topic",
+    "label": "Coding",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\mlops@Qa85hEVe2kz62k9Pj4QCA.md"
+  },
+  {
+    "id": "l1027SBZxTHKzqWw98Ee-",
+    "old_id": "kBdt_t2SvVsY3blfubWIz",
+    "type": "topic",
+    "label": "Exploratory Data Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\machine-learning@kBdt_t2SvVsY3blfubWIz.md"
+  },
+  {
+    "id": "kBdt_t2SvVsY3blfubWIz",
+    "old_id": "4WZL_fzJ3cZdWLLDoWN8D",
+    "type": "topic",
+    "label": "Machine Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\statistics@4WZL_fzJ3cZdWLLDoWN8D.md"
+  },
+  {
+    "id": "cjvVLN0XjrKPn6o20oMmc",
+    "old_id": "Qa85hEVe2kz62k9Pj4QCA",
+    "type": "topic",
+    "label": "Deep Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\mlops@Qa85hEVe2kz62k9Pj4QCA.md"
+  },
+  {
+    "id": "Qa85hEVe2kz62k9Pj4QCA",
+    "old_id": "kBdt_t2SvVsY3blfubWIz",
+    "type": "topic",
+    "label": "MLOps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\ai-data-scientist\\content\\machine-learning@kBdt_t2SvVsY3blfubWIz.md"
+  }
+]

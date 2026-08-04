@@ -1,0 +1,360 @@
+[
+  {
+    "id": "jy2heDVZuM6ASCXlI1TDn",
+    "old_id": "C2N5yOxCtdn_R6ceWvQly",
+    "type": "topic",
+    "label": "Introduction",
+    "resources": []
+  },
+  {
+    "id": "OB--nMudscm0p6RqqfA7T",
+    "old_id": "KdN62IpNgPFMndXfLaYa1",
+    "type": "subtopic",
+    "label": "Configuration",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-bean-scope@KdN62IpNgPFMndXfLaYa1.md"
+  },
+  {
+    "id": "C2EQ5J1aJYF9e9Rr2KysT",
+    "old_id": "KdN62IpNgPFMndXfLaYa1",
+    "type": "subtopic",
+    "label": "Dependency Injection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-bean-scope@KdN62IpNgPFMndXfLaYa1.md"
+  },
+  {
+    "id": "PlUU_vzFQ3Xx6Z5XREIYP",
+    "old_id": "KdN62IpNgPFMndXfLaYa1",
+    "type": "subtopic",
+    "label": "Spring IOC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-bean-scope@KdN62IpNgPFMndXfLaYa1.md"
+  },
+  {
+    "id": "wV1_I_4czMIxpBionvLs4",
+    "old_id": "KdN62IpNgPFMndXfLaYa1",
+    "type": "subtopic",
+    "label": "Spring AOP",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-bean-scope@KdN62IpNgPFMndXfLaYa1.md"
+  },
+  {
+    "id": "QiNWE4sMTao3cVzjt3yPp",
+    "old_id": "KdN62IpNgPFMndXfLaYa1",
+    "type": "subtopic",
+    "label": "Spring MVC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-bean-scope@KdN62IpNgPFMndXfLaYa1.md"
+  },
+  {
+    "id": "HdCpfGMrMaXxk5QrtYn3X",
+    "old_id": "KdN62IpNgPFMndXfLaYa1",
+    "type": "subtopic",
+    "label": "Annotations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-bean-scope@KdN62IpNgPFMndXfLaYa1.md"
+  },
+  {
+    "id": "KdN62IpNgPFMndXfLaYa1",
+    "old_id": "KdN62IpNgPFMndXfLaYa1",
+    "type": "subtopic",
+    "label": "Spring Bean Scope",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-bean-scope@KdN62IpNgPFMndXfLaYa1.md"
+  },
+  {
+    "id": "WrUCyVfFNUpHB8jyjjKna",
+    "old_id": "WGf3W6bdWL0rK0o6O28G2",
+    "type": "subtopic",
+    "label": "Terminology",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\why-use-spring@WGf3W6bdWL0rK0o6O28G2.md"
+  },
+  {
+    "id": "yuXN-rD4AyyPYUYOR50L_",
+    "old_id": "WGf3W6bdWL0rK0o6O28G2",
+    "type": "subtopic",
+    "label": "Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\why-use-spring@WGf3W6bdWL0rK0o6O28G2.md"
+  },
+  {
+    "id": "WGf3W6bdWL0rK0o6O28G2",
+    "old_id": "WGf3W6bdWL0rK0o6O28G2",
+    "type": "subtopic",
+    "label": "Why use Spring?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\why-use-spring@WGf3W6bdWL0rK0o6O28G2.md"
+  },
+  {
+    "id": "KaUdyVWEiZa6lUDRBlOKt",
+    "old_id": "C2N5yOxCtdn_R6ceWvQly",
+    "type": "topic",
+    "label": "Spring Security",
+    "resources": []
+  },
+  {
+    "id": "ssdk2iAt4avhc8B5tnIzQ",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "Authentication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "c7w7Z3Coa81FKa_yAKTse",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "Authorization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "p7t3RlIIm9U08GFC6azff",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "OAuth2",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "1My7mbdwAbRcJoiA50pWW",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "JWT Authentication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "JrH2hiu27PhIO1VtrArMa",
+    "old_id": "C2N5yOxCtdn_R6ceWvQly",
+    "type": "topic",
+    "label": "Spring Boot Starters",
+    "resources": []
+  },
+  {
+    "id": "88-h3d7kb-VmUBsnUUXW_",
+    "old_id": "C2N5yOxCtdn_R6ceWvQly",
+    "type": "topic",
+    "label": "Autoconfiguration",
+    "resources": []
+  },
+  {
+    "id": "N7hd3d_XQtvOgnCqdCFt3",
+    "old_id": "C2N5yOxCtdn_R6ceWvQly",
+    "type": "topic",
+    "label": "Actuators",
+    "resources": []
+  },
+  {
+    "id": "ONb0VnSUMY8JBeW3G2mTp",
+    "old_id": "ZWFWkB61L8UbG-SREw6SJ",
+    "type": "topic",
+    "label": "Embedded Server",
+    "resources": []
+  },
+  {
+    "id": "h5-HnycxfbJgwalSdXTAz",
+    "old_id": "ZWFWkB61L8UbG-SREw6SJ",
+    "type": "topic",
+    "label": "Hibernate",
+    "resources": []
+  },
+  {
+    "id": "H9Z0EvKT_148vD0mR-dUf",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "Transactions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "D4ybyh0ydvl9W2_xUcvZ_",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "Relationships",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "Ijmy0J3VyaeTGXtu2VkkQ",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "Entity Lifecycle",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "pvVLbFQoT50vz_VRK4VbJ",
+    "old_id": "ZWFWkB61L8UbG-SREw6SJ",
+    "type": "topic",
+    "label": "Spring Data",
+    "resources": []
+  },
+  {
+    "id": "6u08QN-pUeFm3o0h5Scfm",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "Spring Data JPA",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "fy-TphbqkLpR1zvFcr7dg",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "Spring Data MongoDB",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "dd1A-MyzBs_kNOtVG7f1D",
+    "old_id": "dd1A-MyzBs_kNOtVG7f1D",
+    "type": "subtopic",
+    "label": "Spring Data JDBC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-data-jdbc@dd1A-MyzBs_kNOtVG7f1D.md"
+  },
+  {
+    "id": "jU_KHoPUSU_HoIKk0ZpRF",
+    "old_id": "ZWFWkB61L8UbG-SREw6SJ",
+    "type": "topic",
+    "label": "Microservices",
+    "resources": []
+  },
+  {
+    "id": "VWNDYSw83Vzi2UPQprJ5z",
+    "old_id": "VWNDYSw83Vzi2UPQprJ5z",
+    "type": "subtopic",
+    "label": "Spring Cloud",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\spring-cloud@VWNDYSw83Vzi2UPQprJ5z.md"
+  },
+  {
+    "id": "f-i0NX2KOzCh3JwkaSPFo",
+    "old_id": "6sLE6gb5Y477SmO2GhQIG",
+    "type": "subtopic",
+    "label": "Spring Cloud Gateway",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\eureka@6sLE6gb5Y477SmO2GhQIG.md"
+  },
+  {
+    "id": "9hG3CB8r41bUb_s8-0u73",
+    "old_id": "6sLE6gb5Y477SmO2GhQIG",
+    "type": "subtopic",
+    "label": "Cloud Config",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\eureka@6sLE6gb5Y477SmO2GhQIG.md"
+  },
+  {
+    "id": "kqpSlO--X9-xYxfq1KFVe",
+    "old_id": "6sLE6gb5Y477SmO2GhQIG",
+    "type": "subtopic",
+    "label": "Spring Cloud Circuit Breaker",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\eureka@6sLE6gb5Y477SmO2GhQIG.md"
+  },
+  {
+    "id": "EKSXTMSN2xdaleJ4wOV1A",
+    "old_id": "sgA06Tu9Y4cEHtfI8CyLL",
+    "type": "subtopic",
+    "label": "Spring Cloud Open Feign",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\components@sgA06Tu9Y4cEHtfI8CyLL.md"
+  },
+  {
+    "id": "GsmBGRohWbJ6XOaALFZ8o",
+    "old_id": "6sLE6gb5Y477SmO2GhQIG",
+    "type": "subtopic",
+    "label": "Micrometer",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\eureka@6sLE6gb5Y477SmO2GhQIG.md"
+  },
+  {
+    "id": "6sLE6gb5Y477SmO2GhQIG",
+    "old_id": "6sLE6gb5Y477SmO2GhQIG",
+    "type": "subtopic",
+    "label": "Eureka",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\eureka@6sLE6gb5Y477SmO2GhQIG.md"
+  },
+  {
+    "id": "S-BbOoRD7anvoJrprjoKF",
+    "old_id": "7Qqrh_Rz_7uAD49g9sDzi",
+    "type": "topic",
+    "label": "Spring MVC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\testing@7Qqrh_Rz_7uAD49g9sDzi.md"
+  },
+  {
+    "id": "35NTx2eO1j02sjy4m6DPq",
+    "old_id": "i77NTa0hpGGBjmql9u_CT",
+    "type": "subtopic",
+    "label": "Servlet",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\mockbean-annotation@i77NTa0hpGGBjmql9u_CT.md"
+  },
+  {
+    "id": "Lz0GPMiYzb30iFJdv1dL6",
+    "old_id": "sgA06Tu9Y4cEHtfI8CyLL",
+    "type": "subtopic",
+    "label": "JSP Files",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\components@sgA06Tu9Y4cEHtfI8CyLL.md"
+  },
+  {
+    "id": "_vS_zdJZegZS6MIKAFyg8",
+    "old_id": "sgA06Tu9Y4cEHtfI8CyLL",
+    "type": "subtopic",
+    "label": "Architecture",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\components@sgA06Tu9Y4cEHtfI8CyLL.md"
+  },
+  {
+    "id": "sgA06Tu9Y4cEHtfI8CyLL",
+    "old_id": "6sLE6gb5Y477SmO2GhQIG",
+    "type": "subtopic",
+    "label": "Components",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\eureka@6sLE6gb5Y477SmO2GhQIG.md"
+  },
+  {
+    "id": "7Qqrh_Rz_7uAD49g9sDzi",
+    "old_id": "ZWFWkB61L8UbG-SREw6SJ",
+    "type": "topic",
+    "label": "Testing",
+    "resources": []
+  },
+  {
+    "id": "Nhx2QiSD_4pVWD17lsCbu",
+    "old_id": "i77NTa0hpGGBjmql9u_CT",
+    "type": "subtopic",
+    "label": "JPA Test",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\mockbean-annotation@i77NTa0hpGGBjmql9u_CT.md"
+  },
+  {
+    "id": "5d1BERqTKNJMKiBcqa8Ie",
+    "old_id": "i77NTa0hpGGBjmql9u_CT",
+    "type": "subtopic",
+    "label": "Mock MVC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\mockbean-annotation@i77NTa0hpGGBjmql9u_CT.md"
+  },
+  {
+    "id": "p91CaVPh5GMzFU0yEU_hl",
+    "old_id": "i77NTa0hpGGBjmql9u_CT",
+    "type": "subtopic",
+    "label": "@SpringBootTest Annotation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\mockbean-annotation@i77NTa0hpGGBjmql9u_CT.md"
+  },
+  {
+    "id": "i77NTa0hpGGBjmql9u_CT",
+    "old_id": "sgA06Tu9Y4cEHtfI8CyLL",
+    "type": "subtopic",
+    "label": "@MockBean Annotation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\spring-boot\\content\\components@sgA06Tu9Y4cEHtfI8CyLL.md"
+  }
+]

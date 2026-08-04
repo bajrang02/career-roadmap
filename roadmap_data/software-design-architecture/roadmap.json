@@ -1,0 +1,1009 @@
+{
+  "slug": "software-design-architecture",
+  "title": "Software Design Architecture",
+  "nodes": [
+    {
+      "id": "qA_Y7AgD-Z6is-1hqOqzH",
+      "old_id": "qA_Y7AgD-Z6is-1hqOqzH",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "sqpYr4D6lzaJsphbPVfit",
+      "old_id": "sqpYr4D6lzaJsphbPVfit",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "JyEXyTp5_UxhyRY3ZULZG",
+      "old_id": "JyEXyTp5_UxhyRY3ZULZG",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "VThkejHxNxNQgqjwDN67c",
+      "old_id": "VThkejHxNxNQgqjwDN67c",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "kLnJC5PdxpgmRU2X57V64",
+      "old_id": "kLnJC5PdxpgmRU2X57V64",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "JwkzZU185OsVZ5VSUjC0f",
+      "old_id": "JwkzZU185OsVZ5VSUjC0f",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "old_id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "Software Design & Architecture",
+      "resources": []
+    },
+    {
+      "id": "if9eTna5NRTMStVwpSwDP",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "TJZgsxpfOmltUUChMzlEM",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Clean Code",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "RgYq3YOJhPGSf5in1Rcdp",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Programming Paradigms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "qZQDOe2MHBh8wNcmvkLQm",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Object Oriented Programming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "p96fNXv0Z4rEEXJR9hAYX",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Design Principles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "gyQw885dvupmkohzJPg3a",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Design Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "XBCxWdpvQyK2iIG2eEA1K",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Architectural Principles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "En_hvwRvY6k_itsNCQBYE",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Architectural Styles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "jq916t7svaMw5sFOcqZSi",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Architectural Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "WrzsvLgo7cf2KjvJhtJEC",
+      "old_id": "WrzsvLgo7cf2KjvJhtJEC",
+      "type": "subtopic",
+      "label": "Enterprise Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@WrzsvLgo7cf2KjvJhtJEC.md"
+    },
+    {
+      "id": "uLYSP9v3y51h8Ttdt5ije",
+      "old_id": "uLYSP9v3y51h8Ttdt5ije",
+      "type": "label",
+      "label": "Minimap of Topics",
+      "resources": []
+    },
+    {
+      "id": "pd0_ffU8fTHcg_nLPae6W",
+      "old_id": "JS5a5FraWCwfgwt8GAyc7",
+      "type": "button",
+      "label": "Backend Developer Roadmap",
+      "resources": []
+    },
+    {
+      "id": "JS5a5FraWCwfgwt8GAyc7",
+      "old_id": "JS5a5FraWCwfgwt8GAyc7",
+      "type": "button",
+      "label": "Software Design and Architecture",
+      "resources": []
+    },
+    {
+      "id": "08qKtgnhJ3tlb5JKfTDf5",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Clean Code Principles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "2SOZvuEcy8Cy8ymN7x4L-",
+      "old_id": "6Cd1BbGsmPJs_5jKhumyV",
+      "type": "subtopic",
+      "label": "Be consistent",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\meaningful-names-over-comments@6Cd1BbGsmPJs_5jKhumyV.md"
+    },
+    {
+      "id": "6Cd1BbGsmPJs_5jKhumyV",
+      "old_id": "6Cd1BbGsmPJs_5jKhumyV",
+      "type": "subtopic",
+      "label": "Meaningful names over comments",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\meaningful-names-over-comments@6Cd1BbGsmPJs_5jKhumyV.md"
+    },
+    {
+      "id": "81WOL1nxb56ZbAOvxJ7NK",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Indentation and Code Style",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "XEwC6Fyf2DNNHQsoGTrQj",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Keep methods / classes / files small",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "5S5A5wCJUCNPLlHJ5fRjU",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Pure functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "qZzl0hAD2LkShsPql1IlZ",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Minimize cyclomatic complexity",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "yyKvmutbxu3iVHTuqr5q4",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Avoid passing nulls, booleans",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "OoCCy-3W5y7bUcKz_iyBw",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Keep framework code distant",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "S1m7ty7Qrzu1rr4Jl-WgM",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Use correct constructs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "mzt7fvx6ab3tmG1R1NcLO",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Tests should be fast and independent",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "JKK6bli3P_cqJ128wPnot",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Use meaningful names",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "kp86Vc3uue3IxTN9B9p59",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Organize code by actor it belongs to",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "tLbckKmfVxgn59j_dlh8b",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Command query separation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "9naCfoHF1LW1OEsVZGi8v",
+      "old_id": "9naCfoHF1LW1OEsVZGi8v",
+      "type": "subtopic",
+      "label": "Keep it simple and refactor often",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\keep-it-simple-and-refactor-often@9naCfoHF1LW1OEsVZGi8v.md"
+    },
+    {
+      "id": "isbQTvteWitvwVwBtwAr3",
+      "old_id": "isbQTvteWitvwVwBtwAr3",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "TDhTYdEyBuOnDKcQJzTAk",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Programming Paradigms",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "VhSEH_RoWFt1z2lial7xZ",
+      "old_id": "VhSEH_RoWFt1z2lial7xZ",
+      "type": "subtopic",
+      "label": "Structured Programming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\structured-programming@VhSEH_RoWFt1z2lial7xZ.md"
+    },
+    {
+      "id": "YswaOqZNYcmDwly2IXrTT",
+      "old_id": "YswaOqZNYcmDwly2IXrTT",
+      "type": "subtopic",
+      "label": "Functional Programming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\functional-programming@YswaOqZNYcmDwly2IXrTT.md"
+    },
+    {
+      "id": "VZrERRRYhmqDx4slnZtdc",
+      "old_id": "VZrERRRYhmqDx4slnZtdc",
+      "type": "subtopic",
+      "label": "Object Oriented Programming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\object-oriented-programming@VZrERRRYhmqDx4slnZtdc.md"
+    },
+    {
+      "id": "HhYdURE4X-a9GVwJhAyE0",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Object Oriented Programming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "0VO_-1g-TS29y0Ji2yCjc",
+      "old_id": "UQFaghIjWxbf5RmkE7EjH",
+      "type": "topic",
+      "label": "Model-Driven Design",
+      "resources": []
+    },
+    {
+      "id": "I25ghe8xYWpZ-9pRcHfOh",
+      "old_id": "SrcPhS4F7aT80qNjbv54f",
+      "type": "subtopic",
+      "label": "Domain Models",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\interfaces@SrcPhS4F7aT80qNjbv54f.md"
+    },
+    {
+      "id": "c6n-wOHylTbzpxqgoXtdw",
+      "old_id": "nVaoI4IDPVEsdtFcjGNRw",
+      "type": "subtopic",
+      "label": "Class Variants",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\anemic-models@nVaoI4IDPVEsdtFcjGNRw.md"
+    },
+    {
+      "id": "HN160YgryBBtVGjnWxNie",
+      "old_id": "pbfws0r25gMuRoEOlm2zi",
+      "type": "subtopic",
+      "label": "Layered Architectures",
+      "resources": []
+    },
+    {
+      "id": "kWNQd3paQrhMHMJzM35w8",
+      "old_id": "nVaoI4IDPVEsdtFcjGNRw",
+      "type": "subtopic",
+      "label": "Domain Language",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\anemic-models@nVaoI4IDPVEsdtFcjGNRw.md"
+    },
+    {
+      "id": "nVaoI4IDPVEsdtFcjGNRw",
+      "old_id": "nVaoI4IDPVEsdtFcjGNRw",
+      "type": "subtopic",
+      "label": "Anemic Models",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\anemic-models@nVaoI4IDPVEsdtFcjGNRw.md"
+    },
+    {
+      "id": "RMkEE7c0jdVFqZ4fmjL6Y",
+      "old_id": "GJxfVjhiLuuc36hatx9dP",
+      "type": "subtopic",
+      "label": "Abstract Classes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\encapsulation@GJxfVjhiLuuc36hatx9dP.md"
+    },
+    {
+      "id": "hd6GJ-H4p9I4aaiRTni57",
+      "old_id": "SrcPhS4F7aT80qNjbv54f",
+      "type": "subtopic",
+      "label": "Concrete Classes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\interfaces@SrcPhS4F7aT80qNjbv54f.md"
+    },
+    {
+      "id": "b-YIbw-r-nESVt_PUFQeq",
+      "old_id": "SrcPhS4F7aT80qNjbv54f",
+      "type": "subtopic",
+      "label": "Scope / Visibility",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\interfaces@SrcPhS4F7aT80qNjbv54f.md"
+    },
+    {
+      "id": "SrcPhS4F7aT80qNjbv54f",
+      "old_id": "nVaoI4IDPVEsdtFcjGNRw",
+      "type": "subtopic",
+      "label": "Interfaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\anemic-models@nVaoI4IDPVEsdtFcjGNRw.md"
+    },
+    {
+      "id": "Dj36yLBShoazj7SAw6a_A",
+      "old_id": "GJxfVjhiLuuc36hatx9dP",
+      "type": "subtopic",
+      "label": "Inheritance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\encapsulation@GJxfVjhiLuuc36hatx9dP.md"
+    },
+    {
+      "id": "4DVW4teisMz8-58XttMGt",
+      "old_id": "GJxfVjhiLuuc36hatx9dP",
+      "type": "subtopic",
+      "label": "Polymorphism",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\encapsulation@GJxfVjhiLuuc36hatx9dP.md"
+    },
+    {
+      "id": "VA8FMrhF4non9x-J3urY8",
+      "old_id": "GJxfVjhiLuuc36hatx9dP",
+      "type": "subtopic",
+      "label": "Abstraction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\encapsulation@GJxfVjhiLuuc36hatx9dP.md"
+    },
+    {
+      "id": "GJxfVjhiLuuc36hatx9dP",
+      "old_id": "SrcPhS4F7aT80qNjbv54f",
+      "type": "subtopic",
+      "label": "Encapsulation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\interfaces@SrcPhS4F7aT80qNjbv54f.md"
+    },
+    {
+      "id": "9dMbo4Q1_Sd9wW6-HSCA9",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Design Principles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "Izno7xX7wDvwPEg7f_d1Y",
+      "old_id": "0rGdh72HjqPZa2bCbY9Gz",
+      "type": "subtopic",
+      "label": "Composition over Inheritance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\tell-dont-ask@0rGdh72HjqPZa2bCbY9Gz.md"
+    },
+    {
+      "id": "3eWirbQGbJZd4g7CS1xk_",
+      "old_id": "9slZPeVCSqU5-5PqaNJOh",
+      "type": "label",
+      "label": "Primary Principles",
+      "resources": []
+    },
+    {
+      "id": "9slZPeVCSqU5-5PqaNJOh",
+      "old_id": "9slZPeVCSqU5-5PqaNJOh",
+      "type": "label",
+      "label": "Paradigm Features",
+      "resources": []
+    },
+    {
+      "id": "DlefJ9JuJ1LdQYC4WSx6y",
+      "old_id": "0rGdh72HjqPZa2bCbY9Gz",
+      "type": "subtopic",
+      "label": "Encapsulate what varies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\tell-dont-ask@0rGdh72HjqPZa2bCbY9Gz.md"
+    },
+    {
+      "id": "UZeY36dABmULhsHPhlzn_",
+      "old_id": "0rGdh72HjqPZa2bCbY9Gz",
+      "type": "subtopic",
+      "label": "Program against abstractions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\tell-dont-ask@0rGdh72HjqPZa2bCbY9Gz.md"
+    },
+    {
+      "id": "WzUhKlmFB9alTlAyV-MWJ",
+      "old_id": "0rGdh72HjqPZa2bCbY9Gz",
+      "type": "subtopic",
+      "label": "Hollywood Principle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\tell-dont-ask@0rGdh72HjqPZa2bCbY9Gz.md"
+    },
+    {
+      "id": "vnLhItObDgp_XaDmplBsJ",
+      "old_id": "0rGdh72HjqPZa2bCbY9Gz",
+      "type": "subtopic",
+      "label": "Law of Demeter",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\tell-dont-ask@0rGdh72HjqPZa2bCbY9Gz.md"
+    },
+    {
+      "id": "0rGdh72HjqPZa2bCbY9Gz",
+      "old_id": "0rGdh72HjqPZa2bCbY9Gz",
+      "type": "subtopic",
+      "label": "Tell, don't ask",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\tell-dont-ask@0rGdh72HjqPZa2bCbY9Gz.md"
+    },
+    {
+      "id": "3XckqZA--knUb8IYKOeVy",
+      "old_id": "eEO-WeNIyjErBE53n8JsD",
+      "type": "subtopic",
+      "label": "SOLID",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\yagni@eEO-WeNIyjErBE53n8JsD.md"
+    },
+    {
+      "id": "ltBnVWZ3UMAuUvDkU6o4P",
+      "old_id": "eEO-WeNIyjErBE53n8JsD",
+      "type": "subtopic",
+      "label": "DRY",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\yagni@eEO-WeNIyjErBE53n8JsD.md"
+    },
+    {
+      "id": "eEO-WeNIyjErBE53n8JsD",
+      "old_id": "eEO-WeNIyjErBE53n8JsD",
+      "type": "subtopic",
+      "label": "YAGNI",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\yagni@eEO-WeNIyjErBE53n8JsD.md"
+    },
+    {
+      "id": "Jd79KXxZavpnp3mtE1q0n",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Design Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "hlHl00ELlK9YdnzHDGnEW",
+      "old_id": "6VoDGFOPHj5p_gvaZ8kTt",
+      "type": "subtopic",
+      "label": "GoF Design Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\posa-patterns@6VoDGFOPHj5p_gvaZ8kTt.md"
+    },
+    {
+      "id": "6VoDGFOPHj5p_gvaZ8kTt",
+      "old_id": "6VoDGFOPHj5p_gvaZ8kTt",
+      "type": "subtopic",
+      "label": "PoSA Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\posa-patterns@6VoDGFOPHj5p_gvaZ8kTt.md"
+    },
+    {
+      "id": "dBq7ni-of5v1kxpdmh227",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Architectural Principles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "8Bm0sRhUg6wZtnvtTmpgY",
+      "old_id": "-Kw8hJhgQH2qInUFj2TUe",
+      "type": "subtopic",
+      "label": "Component Principles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\boundaries@-Kw8hJhgQH2qInUFj2TUe.md"
+    },
+    {
+      "id": "b_PvjjL2ZpEKETa5_bd0v",
+      "old_id": "-Kw8hJhgQH2qInUFj2TUe",
+      "type": "subtopic",
+      "label": "Policy vs Detail",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\boundaries@-Kw8hJhgQH2qInUFj2TUe.md"
+    },
+    {
+      "id": "TXus3R5vVQDBeBag6B5qs",
+      "old_id": "-Kw8hJhgQH2qInUFj2TUe",
+      "type": "subtopic",
+      "label": "Coupling and Cohesion",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\boundaries@-Kw8hJhgQH2qInUFj2TUe.md"
+    },
+    {
+      "id": "-Kw8hJhgQH2qInUFj2TUe",
+      "old_id": "-Kw8hJhgQH2qInUFj2TUe",
+      "type": "subtopic",
+      "label": "Boundaries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\boundaries@-Kw8hJhgQH2qInUFj2TUe.md"
+    },
+    {
+      "id": "37xWxG2D9lVuDsHUgLfzP",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Architectural Styles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "j9j45Auf60kIskyEMUGE3",
+      "old_id": "86Jw9kMBD7YP5nTV5jTz-",
+      "type": "topic",
+      "label": "Messaging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\structural@86Jw9kMBD7YP5nTV5jTz-.md"
+    },
+    {
+      "id": "KtzcJBb6-EcIoXnwYvE7a",
+      "old_id": "IELEJcKYdZ6VN-UIq-Wln",
+      "type": "subtopic",
+      "label": "Event-Driven",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\layered@IELEJcKYdZ6VN-UIq-Wln.md"
+    },
+    {
+      "id": "SX4vOVJY9slOXGwX_q1au",
+      "old_id": "SX4vOVJY9slOXGwX_q1au",
+      "type": "subtopic",
+      "label": "Publish-Subscribe",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\publish-subscribe@SX4vOVJY9slOXGwX_q1au.md"
+    },
+    {
+      "id": "3V74lLPlcOXFB-QRTUA5j",
+      "old_id": "86Jw9kMBD7YP5nTV5jTz-",
+      "type": "topic",
+      "label": "Distributed",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\structural@86Jw9kMBD7YP5nTV5jTz-.md"
+    },
+    {
+      "id": "ZGIMUaNfBwE5b6O1yexSz",
+      "old_id": "a0geFJWl-vi3mYytTjYdb",
+      "type": "subtopic",
+      "label": "Client-Server",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\component-based@a0geFJWl-vi3mYytTjYdb.md"
+    },
+    {
+      "id": "Cf9Z2wxBcbnNg_q9PA6xA",
+      "old_id": "IELEJcKYdZ6VN-UIq-Wln",
+      "type": "subtopic",
+      "label": "Peer-to-Peer",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\layered@IELEJcKYdZ6VN-UIq-Wln.md"
+    },
+    {
+      "id": "86Jw9kMBD7YP5nTV5jTz-",
+      "old_id": "86Jw9kMBD7YP5nTV5jTz-",
+      "type": "topic",
+      "label": "Structural",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\structural@86Jw9kMBD7YP5nTV5jTz-.md"
+    },
+    {
+      "id": "a0geFJWl-vi3mYytTjYdb",
+      "old_id": "IELEJcKYdZ6VN-UIq-Wln",
+      "type": "subtopic",
+      "label": "Component-Based",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\layered@IELEJcKYdZ6VN-UIq-Wln.md"
+    },
+    {
+      "id": "xYPR_X1KhBwdpqYzNJiuT",
+      "old_id": "IELEJcKYdZ6VN-UIq-Wln",
+      "type": "subtopic",
+      "label": "Monolithic",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\layered@IELEJcKYdZ6VN-UIq-Wln.md"
+    },
+    {
+      "id": "IELEJcKYdZ6VN-UIq-Wln",
+      "old_id": "SX4vOVJY9slOXGwX_q1au",
+      "type": "subtopic",
+      "label": "Layered",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\publish-subscribe@SX4vOVJY9slOXGwX_q1au.md"
+    },
+    {
+      "id": "WdXJlH985x9GhAQfif26x",
+      "old_id": "WdXJlH985x9GhAQfif26x",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "gJYff_qD6XS3dg3I-jJFK",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Architectural Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "CD20zA6k9FxUpMgHnNYRJ",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "Domain-Driven Design",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "-arChRC9zG2DBmuSTHW0J",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "Model-View Controller",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "eJsCCURZAURCKnOK-XeQe",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "Microservices",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "Kk7u2B67Fdg2sU8E_PGqr",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "Blackboard Pattern",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "r-Yeca-gpdFM8iq7f0lYQ",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "Microkernel",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "5WSvAA3h3lmelL53UJSMy",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "Serverless Architecture",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "GAs6NHBkUgxan3hyPvVs7",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "Message Queues / Streams",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "K8X_-bsiy7gboInPzbiEb",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "Event Sourcing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "FysFru2FJN4d4gj11gv--",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "SOA",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "IU86cGkLPMXUJKvTBywPu",
+      "old_id": "IU86cGkLPMXUJKvTBywPu",
+      "type": "subtopic",
+      "label": "CQRS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\cqrs@IU86cGkLPMXUJKvTBywPu.md"
+    },
+    {
+      "id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "old_id": "h0aeBhQRkDxNeFwDxT4Tf",
+      "type": "topic",
+      "label": "Enterprise Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\enterprise-patterns@h0aeBhQRkDxNeFwDxT4Tf.md"
+    },
+    {
+      "id": "y_Qj7KITSB8aUWHwiZ2It",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "DTOs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "tb0X1HtuiGwz7YhQ5xPsV",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Identity Maps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "gQ7Xj8tsl6IlCcyJgSz46",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Usecases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "8y0ot5sbplUIUyXe9gvc8",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Repositories",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "ndUTgl2YBzOdu1MQKJocu",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Mappers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "tyReIY4iO8kmyc_LPafp1",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Transaction Script",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "j_SUD3SxpKYZstN9LSP82",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Commands / Queries",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "Ks6njbfxOHiZ_TrJDnVtk",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Value Objects",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "NpSfbzYtGebmfrifkKsUf",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Domain Models",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "VnW_7dl5G0IFL9W3YF_W3",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "Entities",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "SYYulHfDceIyDkDT5fcqj",
+      "old_id": "SYYulHfDceIyDkDT5fcqj",
+      "type": "subtopic",
+      "label": "ORMs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\software-design-architecture\\content\\orms@SYYulHfDceIyDkDT5fcqj.md"
+    },
+    {
+      "id": "StxLh1r3qXqyRSqfJGird",
+      "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+      "type": "button",
+      "label": "Backend",
+      "resources": []
+    },
+    {
+      "id": "OIcmPSbdsuWapb6HZ4BEi",
+      "old_id": "cmSSwPPiiHwYh9ct14N6A",
+      "type": "button",
+      "label": "System Design",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "pd0_ffU8fTHcg_nLPae6W"
+    },
+    {
+      "source": "pd0_ffU8fTHcg_nLPae6W",
+      "target": "08qKtgnhJ3tlb5JKfTDf5"
+    },
+    {
+      "source": "08qKtgnhJ3tlb5JKfTDf5",
+      "target": "TDhTYdEyBuOnDKcQJzTAk"
+    },
+    {
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "VhSEH_RoWFt1z2lial7xZ"
+    },
+    {
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "YswaOqZNYcmDwly2IXrTT"
+    },
+    {
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "VZrERRRYhmqDx4slnZtdc"
+    },
+    {
+      "source": "TDhTYdEyBuOnDKcQJzTAk",
+      "target": "HhYdURE4X-a9GVwJhAyE0"
+    },
+    {
+      "source": "9dMbo4Q1_Sd9wW6-HSCA9",
+      "target": "Jd79KXxZavpnp3mtE1q0n"
+    },
+    {
+      "source": "37xWxG2D9lVuDsHUgLfzP",
+      "target": "dBq7ni-of5v1kxpdmh227"
+    },
+    {
+      "source": "37xWxG2D9lVuDsHUgLfzP",
+      "target": "gJYff_qD6XS3dg3I-jJFK"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "Kk7u2B67Fdg2sU8E_PGqr"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "eJsCCURZAURCKnOK-XeQe"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "-arChRC9zG2DBmuSTHW0J"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "CD20zA6k9FxUpMgHnNYRJ"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "r-Yeca-gpdFM8iq7f0lYQ"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "5WSvAA3h3lmelL53UJSMy"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "GAs6NHBkUgxan3hyPvVs7"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "K8X_-bsiy7gboInPzbiEb"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "IU86cGkLPMXUJKvTBywPu"
+    },
+    {
+      "source": "gJYff_qD6XS3dg3I-jJFK",
+      "target": "h0aeBhQRkDxNeFwDxT4Tf"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "tyReIY4iO8kmyc_LPafp1"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "ndUTgl2YBzOdu1MQKJocu"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "8y0ot5sbplUIUyXe9gvc8"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "gQ7Xj8tsl6IlCcyJgSz46"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "tb0X1HtuiGwz7YhQ5xPsV"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "y_Qj7KITSB8aUWHwiZ2It"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "j_SUD3SxpKYZstN9LSP82"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "Ks6njbfxOHiZ_TrJDnVtk"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "NpSfbzYtGebmfrifkKsUf"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "VnW_7dl5G0IFL9W3YF_W3"
+    },
+    {
+      "source": "h0aeBhQRkDxNeFwDxT4Tf",
+      "target": "SYYulHfDceIyDkDT5fcqj"
+    }
+  ]
+}

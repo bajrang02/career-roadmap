@@ -1,0 +1,365 @@
+{
+  "last_updated": "2026-07-20",
+  "roadmaps": {
+    "ai-agents": {
+      "title": "Ai Agents",
+      "node_count": 167,
+      "edge_count": 24,
+      "content_count": 202
+    },
+    "ai-data-scientist": {
+      "title": "Ai Data Scientist",
+      "node_count": 122,
+      "edge_count": 15,
+      "content_count": 17
+    },
+    "ai-engineer": {
+      "title": "Ai Engineer",
+      "node_count": 161,
+      "edge_count": 29,
+      "content_count": 314
+    },
+    "ai-red-teaming": {
+      "title": "Ai Red Teaming",
+      "node_count": 89,
+      "edge_count": 34,
+      "content_count": 128
+    },
+    "android": {
+      "title": "Android",
+      "node_count": 124,
+      "edge_count": 49,
+      "content_count": 212
+    },
+    "angular": {
+      "title": "Angular",
+      "node_count": 182,
+      "edge_count": 38,
+      "content_count": 318
+    },
+    "api-design": {
+      "title": "Api Design",
+      "node_count": 103,
+      "edge_count": 65,
+      "content_count": 177
+    },
+    "aspnet-core": {
+      "title": "Aspnet Core",
+      "node_count": 182,
+      "edge_count": 59,
+      "content_count": 292
+    },
+    "aws": {
+      "title": "Aws",
+      "node_count": 118,
+      "edge_count": 52,
+      "content_count": 202
+    },
+    "backend": {
+      "title": "Backend",
+      "node_count": 156,
+      "edge_count": 97,
+      "content_count": 312
+    },
+    "bi-analyst": {
+      "title": "Bi Analyst",
+      "node_count": 216,
+      "edge_count": 131,
+      "content_count": 406
+    },
+    "blockchain": {
+      "title": "Blockchain",
+      "node_count": 149,
+      "edge_count": 49,
+      "content_count": 254
+    },
+    "cloudflare": {
+      "title": "Cloudflare",
+      "node_count": 114,
+      "edge_count": 75,
+      "content_count": 194
+    },
+    "computer-science": {
+      "title": "Computer Science",
+      "node_count": 215,
+      "edge_count": 45,
+      "content_count": 376
+    },
+    "cpp": {
+      "title": "Cpp",
+      "node_count": 149,
+      "edge_count": 58,
+      "content_count": 254
+    },
+    "cyber-security": {
+      "title": "Cyber Security",
+      "node_count": 359,
+      "edge_count": 18,
+      "content_count": 602
+    },
+    "data-analyst": {
+      "title": "Data Analyst",
+      "node_count": 130,
+      "edge_count": 47,
+      "content_count": 204
+    },
+    "data-engineer": {
+      "title": "Data Engineer",
+      "node_count": 245,
+      "edge_count": 70,
+      "content_count": 377
+    },
+    "datastructures-and-algorithms": {
+      "title": "Datastructures And Algorithms",
+      "node_count": 121,
+      "edge_count": 42,
+      "content_count": 214
+    },
+    "design-system": {
+      "title": "Design System",
+      "node_count": 163,
+      "edge_count": 27,
+      "content_count": 248
+    },
+    "devops": {
+      "title": "Devops",
+      "node_count": 154,
+      "edge_count": 82,
+      "content_count": 276
+    },
+    "devrel": {
+      "title": "Devrel",
+      "node_count": 168,
+      "edge_count": 98,
+      "content_count": 284
+    },
+    "docker": {
+      "title": "Docker",
+      "node_count": 51,
+      "edge_count": 38,
+      "content_count": 112
+    },
+    "engineering-manager": {
+      "title": "Engineering Manager",
+      "node_count": 212,
+      "edge_count": 27,
+      "content_count": 266
+    },
+    "flutter": {
+      "title": "Flutter",
+      "node_count": 118,
+      "edge_count": 54,
+      "content_count": 216
+    },
+    "frontend": {
+      "title": "Frontend",
+      "node_count": 126,
+      "edge_count": 87,
+      "content_count": 240
+    },
+    "full-stack": {
+      "title": "Full Stack",
+      "node_count": 61,
+      "edge_count": 22,
+      "content_count": 74
+    },
+    "game-developer": {
+      "title": "Game Developer",
+      "node_count": 158,
+      "edge_count": 50,
+      "content_count": 288
+    },
+    "git-github": {
+      "title": "Git Github",
+      "node_count": 174,
+      "edge_count": 93,
+      "content_count": 310
+    },
+    "golang": {
+      "title": "Golang",
+      "node_count": 1,
+      "edge_count": 0,
+      "content_count": 344
+    },
+    "graphql": {
+      "title": "Graphql",
+      "node_count": 90,
+      "edge_count": 32,
+      "content_count": 130
+    },
+    "ios": {
+      "title": "Ios",
+      "node_count": 184,
+      "edge_count": 136,
+      "content_count": 338
+    },
+    "java": {
+      "title": "Java",
+      "node_count": 112,
+      "edge_count": 47,
+      "content_count": 172
+    },
+    "javascript": {
+      "title": "Javascript",
+      "node_count": 139,
+      "edge_count": 79,
+      "content_count": 252
+    },
+    "kubernetes": {
+      "title": "Kubernetes",
+      "node_count": 76,
+      "edge_count": 28,
+      "content_count": 134
+    },
+    "linux": {
+      "title": "Linux",
+      "node_count": 110,
+      "edge_count": 50,
+      "content_count": 204
+    },
+    "machine-learning": {
+      "title": "Machine Learning",
+      "node_count": 162,
+      "edge_count": 75,
+      "content_count": 300
+    },
+    "mlops": {
+      "title": "Mlops",
+      "node_count": 38,
+      "edge_count": 29,
+      "content_count": 124
+    },
+    "mongodb": {
+      "title": "Mongodb",
+      "node_count": 132,
+      "edge_count": 42,
+      "content_count": 212
+    },
+    "nodejs": {
+      "title": "Nodejs",
+      "node_count": 149,
+      "edge_count": 42,
+      "content_count": 226
+    },
+    "php": {
+      "title": "Php",
+      "node_count": 174,
+      "edge_count": 57,
+      "content_count": 240
+    },
+    "postgresql-dba": {
+      "title": "Postgresql Dba",
+      "node_count": 216,
+      "edge_count": 39,
+      "content_count": 340
+    },
+    "product-manager": {
+      "title": "Product Manager",
+      "node_count": 188,
+      "edge_count": 145,
+      "content_count": 344
+    },
+    "python": {
+      "title": "Python",
+      "node_count": 106,
+      "edge_count": 32,
+      "content_count": 166
+    },
+    "qa": {
+      "title": "Qa",
+      "node_count": 160,
+      "edge_count": 50,
+      "content_count": 292
+    },
+    "react": {
+      "title": "React",
+      "node_count": 95,
+      "edge_count": 40,
+      "content_count": 160
+    },
+    "react-native": {
+      "title": "React Native",
+      "node_count": 112,
+      "edge_count": 50,
+      "content_count": 188
+    },
+    "redis": {
+      "title": "Redis",
+      "node_count": 228,
+      "edge_count": 63,
+      "content_count": 320
+    },
+    "rust": {
+      "title": "Rust",
+      "node_count": 141,
+      "edge_count": 38,
+      "content_count": 242
+    },
+    "server-side-game-developer": {
+      "title": "Server Side Game Developer",
+      "node_count": 178,
+      "edge_count": 67,
+      "content_count": 312
+    },
+    "software-architect": {
+      "title": "Software Architect",
+      "node_count": 130,
+      "edge_count": 75,
+      "content_count": 224
+    },
+    "software-design-architecture": {
+      "title": "Software Design Architecture",
+      "node_count": 112,
+      "edge_count": 31,
+      "content_count": 188
+    },
+    "spring-boot": {
+      "title": "Spring Boot",
+      "node_count": 52,
+      "edge_count": 37,
+      "content_count": 92
+    },
+    "sql": {
+      "title": "Sql",
+      "node_count": 139,
+      "edge_count": 33,
+      "content_count": 224
+    },
+    "system-design": {
+      "title": "System Design",
+      "node_count": 188,
+      "edge_count": 43,
+      "content_count": 294
+    },
+    "technical-writer": {
+      "title": "Technical Writer",
+      "node_count": 90,
+      "edge_count": 56,
+      "content_count": 168
+    },
+    "terraform": {
+      "title": "Terraform",
+      "node_count": 121,
+      "edge_count": 98,
+      "content_count": 220
+    },
+    "typescript": {
+      "title": "Typescript",
+      "node_count": 109,
+      "edge_count": 47,
+      "content_count": 186
+    },
+    "ux-design": {
+      "title": "Ux Design",
+      "node_count": 131,
+      "edge_count": 45,
+      "content_count": 188
+    },
+    "vue": {
+      "title": "Vue",
+      "node_count": 105,
+      "edge_count": 57,
+      "content_count": 168
+    }
+  }
+}

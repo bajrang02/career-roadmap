@@ -1,0 +1,436 @@
+[
+  {
+    "id": "yrZUjoNj7mjOHaZVRiFJV",
+    "old_id": "yrZUjoNj7mjOHaZVRiFJV",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "kPPgIGhyoDoJoUJnP-vOY",
+    "old_id": "kPPgIGhyoDoJoUJnP-vOY",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "tmRyxL2cIei7PVHdOvmuJ",
+    "old_id": "zh4DYU0QpAolXJ6wE0CEe",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "iogwMmOvub2ZF4zgg6WyF",
+    "old_id": "9nxw2PEl-_eQPW0FHNPq2",
+    "type": "title",
+    "label": "Full Stack",
+    "resources": [],
+    "children": [
+      {
+        "id": "B0kARTODvCBi0iOF8iiqI",
+        "old_id": "mGgx_QTEPmVKf6AijX9fi",
+        "type": "topic",
+        "label": "HTML",
+        "resources": [],
+        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\npm@mGgx_QTEPmVKf6AijX9fi.md",
+        "children": [
+          {
+            "id": "dAJHWmGeiYdzZ1ZjrWz1S",
+            "old_id": "mGgx_QTEPmVKf6AijX9fi",
+            "type": "topic",
+            "label": "CSS",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\npm@mGgx_QTEPmVKf6AijX9fi.md",
+            "children": [
+              {
+                "id": "T9PB6WQf-Fa9NXKKvVOy_",
+                "old_id": "khoUtTUxdf8udAzN9_CAb",
+                "type": "topic",
+                "label": "JavaScript",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\react@khoUtTUxdf8udAzN9_CAb.md",
+                "children": [
+                  {
+                    "id": "mGgx_QTEPmVKf6AijX9fi",
+                    "old_id": "mGgx_QTEPmVKf6AijX9fi",
+                    "type": "topic",
+                    "label": "npm",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\npm@mGgx_QTEPmVKf6AijX9fi.md",
+                    "children": [
+                      {
+                        "id": "We2APJpOPTr-VNfowG0kI",
+                        "old_id": "khoUtTUxdf8udAzN9_CAb",
+                        "type": "topic",
+                        "label": "Git",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\react@khoUtTUxdf8udAzN9_CAb.md",
+                        "children": [
+                          {
+                            "id": "8sPXL8iClpPqje03ksses",
+                            "old_id": "khoUtTUxdf8udAzN9_CAb",
+                            "type": "topic",
+                            "label": "GitHub",
+                            "resources": [],
+                            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\react@khoUtTUxdf8udAzN9_CAb.md",
+                            "children": [
+                              {
+                                "id": "CVCqdPkq_hGQfI8EEi5RC",
+                                "old_id": "2kKHuQZScu7hCDgQWxl5u",
+                                "type": "topic",
+                                "label": "Tailwind CSS",
+                                "resources": [],
+                                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\terraform@2kKHuQZScu7hCDgQWxl5u.md",
+                                "children": [
+                                  {
+                                    "id": "khoUtTUxdf8udAzN9_CAb",
+                                    "old_id": "mGgx_QTEPmVKf6AijX9fi",
+                                    "type": "topic",
+                                    "label": "React",
+                                    "resources": [],
+                                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\npm@mGgx_QTEPmVKf6AijX9fi.md",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sQsxo9QyLKZyhMnFUcxhS",
+    "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+    "type": "button",
+    "label": "Frontend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "2zqZkyVgigifcRS1H7F_b",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "WsdUAEaI7FX6DKKhPXUHp",
+    "old_id": "7JU1cVggMDoZUV-adGsf-",
+    "type": "subtopic",
+    "label": "Checkpoint - Static Webpages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint---frontend-apps@7JU1cVggMDoZUV-adGsf-.md",
+    "children": []
+  },
+  {
+    "id": "2DFzoIUjKdAKGjfu_SCfa",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint - Interactivity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md",
+    "children": []
+  },
+  {
+    "id": "R4aeJNOrfWyVp3ea-qF4H",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint - External Packages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md",
+    "children": []
+  },
+  {
+    "id": "PW10DTLV-5U2ue770SXtM",
+    "old_id": "BfadoWcewEUb5PQ_itqK-",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "zFGWxgLPcZoW7KIzlnSV9",
+    "old_id": "7JU1cVggMDoZUV-adGsf-",
+    "type": "subtopic",
+    "label": "Checkpoint - Collaborative Work",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint---frontend-apps@7JU1cVggMDoZUV-adGsf-.md",
+    "children": []
+  },
+  {
+    "id": "7JU1cVggMDoZUV-adGsf-",
+    "old_id": "7JU1cVggMDoZUV-adGsf-",
+    "type": "subtopic",
+    "label": "Checkpoint - Frontend Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint---frontend-apps@7JU1cVggMDoZUV-adGsf-.md",
+    "children": []
+  },
+  {
+    "id": "WqNcVZ8IkyqEubdd9JCa1",
+    "old_id": "Dj2QhtEuuIgKc2CvgFGyK",
+    "type": "label",
+    "label": "Backend Starts here",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "JGu0TKwAw-ieiG92BytYI",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint — CLI Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md",
+    "children": []
+  },
+  {
+    "id": "o72NM00uoHXswkadhqVVW",
+    "old_id": "BfadoWcewEUb5PQ_itqK-",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "3EtGLO6cwkLc1-o9gwFNk",
+    "old_id": "sO_9-l4FECbaqiaFnyeXO",
+    "type": "subtopic",
+    "label": "Checkpoint — Simple CRUD Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--automation@sO_9-l4FECbaqiaFnyeXO.md",
+    "children": []
+  },
+  {
+    "id": "BQV2ycD-EnmssO1idTgx9",
+    "old_id": "zh4DYU0QpAolXJ6wE0CEe",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "gSUWhfd0DQoJjDpHEkk0i",
+    "old_id": "b7EdI-25v_eVMkqTBa0se",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "v4NF25lJElAtkU0Rm6Fob",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint — Complete App",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md",
+    "children": []
+  },
+  {
+    "id": "Oav7YPRBmsE1gVhEURckg",
+    "old_id": "rQozP_4g0XSRR4l5-OGsI",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "Dj2QhtEuuIgKc2CvgFGyK",
+    "old_id": "Dj2QhtEuuIgKc2CvgFGyK",
+    "type": "label",
+    "label": "DevOps starts here",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "6oBIxYj8WPcUHidQ99tus",
+    "old_id": "B-cphY7Imnv6JBMujVIF7",
+    "type": "subtopic",
+    "label": "EC2",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\ses@B-cphY7Imnv6JBMujVIF7.md",
+    "children": []
+  },
+  {
+    "id": "QtL-bLKtWIdH00K6k_PdC",
+    "old_id": "n2Xp_ijJ2OS8xhE7xMWxk",
+    "type": "subtopic",
+    "label": "VPC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\s3@n2Xp_ijJ2OS8xhE7xMWxk.md",
+    "children": []
+  },
+  {
+    "id": "5zyYpu9cyuTFwQCjTbHpS",
+    "old_id": "B-cphY7Imnv6JBMujVIF7",
+    "type": "subtopic",
+    "label": "Route53",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\ses@B-cphY7Imnv6JBMujVIF7.md",
+    "children": []
+  },
+  {
+    "id": "B-cphY7Imnv6JBMujVIF7",
+    "old_id": "B-cphY7Imnv6JBMujVIF7",
+    "type": "subtopic",
+    "label": "SES",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\ses@B-cphY7Imnv6JBMujVIF7.md",
+    "children": []
+  },
+  {
+    "id": "n2Xp_ijJ2OS8xhE7xMWxk",
+    "old_id": "B-cphY7Imnv6JBMujVIF7",
+    "type": "subtopic",
+    "label": "S3",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\ses@B-cphY7Imnv6JBMujVIF7.md",
+    "children": []
+  },
+  {
+    "id": "J2_IWAb1s9zZcxOY3NXm2",
+    "old_id": "sO_9-l4FECbaqiaFnyeXO",
+    "type": "subtopic",
+    "label": "Checkpoint — Deployment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--automation@sO_9-l4FECbaqiaFnyeXO.md",
+    "children": []
+  },
+  {
+    "id": "zh4DYU0QpAolXJ6wE0CEe",
+    "old_id": "BfadoWcewEUb5PQ_itqK-",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "NQmEl27eBPYhivcXdOEz3",
+    "old_id": "sO_9-l4FECbaqiaFnyeXO",
+    "type": "subtopic",
+    "label": "Checkpoint — Monitoring",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--automation@sO_9-l4FECbaqiaFnyeXO.md",
+    "children": []
+  },
+  {
+    "id": "liaY1GnlOateB_ZKBjNpY",
+    "old_id": "sO_9-l4FECbaqiaFnyeXO",
+    "type": "subtopic",
+    "label": "Checkpoint — CI / CD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--automation@sO_9-l4FECbaqiaFnyeXO.md",
+    "children": []
+  },
+  {
+    "id": "sO_9-l4FECbaqiaFnyeXO",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint — Automation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md",
+    "children": []
+  },
+  {
+    "id": "b7EdI-25v_eVMkqTBa0se",
+    "old_id": "b7EdI-25v_eVMkqTBa0se",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "YVMyHFSCVF-GgXydq-SFJ",
+    "old_id": "7JU1cVggMDoZUV-adGsf-",
+    "type": "subtopic",
+    "label": "Checkpoint — Infrastructure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint---frontend-apps@7JU1cVggMDoZUV-adGsf-.md",
+    "children": []
+  },
+  {
+    "id": "DezWXw5LWeP1S5Sosj90S",
+    "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+    "type": "button",
+    "label": "Backend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "DsvdvpHWD0FgTjdkSJ9Uu",
+    "old_id": "uSLzfLPXxS5-P7ozscvjZ",
+    "type": "button",
+    "label": "DevOps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "uSLzfLPXxS5-P7ozscvjZ",
+    "old_id": "PkhQdVms2TGgnPrytCBPZ",
+    "type": "button",
+    "label": "AWS",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "aaWX__NQvUofoN1VzwgD0",
+    "old_id": "7HLG5FTMmOWGS-mOpqnQh",
+    "type": "label",
+    "label": "Key topics to learn",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "7HLG5FTMmOWGS-mOpqnQh",
+    "old_id": "7HLG5FTMmOWGS-mOpqnQh",
+    "type": "label",
+    "label": "Project ideas and suggestions",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "9mrs26igEG0D9GpMv2NZc",
+    "old_id": "9mrs26igEG0D9GpMv2NZc",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "p1nlhjqz_BiKFFop2yHpJ",
+    "old_id": "x1j-a82XiCX3bNIgLFryZ",
+    "type": "button",
+    "label": "Frontend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "bt_V8XXqg8XDAJCzHrbWt",
+    "old_id": "x1j-a82XiCX3bNIgLFryZ",
+    "type": "button",
+    "label": "Backend",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "x1j-a82XiCX3bNIgLFryZ",
+    "old_id": "x1j-a82XiCX3bNIgLFryZ",
+    "type": "button",
+    "label": "DevOps",
+    "resources": [],
+    "children": []
+  }
+]

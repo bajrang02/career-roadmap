@@ -1,0 +1,14 @@
+{
+  "slug": "golang",
+  "title": "Golang",
+  "nodes": [
+    {
+      "id": "6AIUtChWC_gK8Ax0UuBjd",
+      "old_id": "f5WRewBlpeYMf71cPcXs-",
+      "type": "button",
+      "label": "Frontend",
+      "resources": []
+    }
+  ],
+  "edges": []
+}

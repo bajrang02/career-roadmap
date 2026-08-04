@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "jVXwlHRGgVpcoWCYzSB5W",
+    "old_id": "jVXwlHRGgVpcoWCYzSB5W",
+    "type": "subtopic",
+    "label": "What is BI?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\what-is-bi@jVXwlHRGgVpcoWCYzSB5W.md"
+  },
+  {
+    "id": "iRgtog5A13CTNDxnbGN9x",
+    "old_id": "iRgtog5A13CTNDxnbGN9x",
+    "type": "subtopic",
+    "label": "Skills",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\skills@iRgtog5A13CTNDxnbGN9x.md"
+  },
+  {
+    "id": "NX-YaB_FVjoHYsR6z9QIL",
+    "old_id": "NX-YaB_FVjoHYsR6z9QIL",
+    "type": "subtopic",
+    "label": "Why BI Matters?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\why-bi-matters@NX-YaB_FVjoHYsR6z9QIL.md"
+  },
+  {
+    "id": "Q-GmBJiRdBS_xLeOjef2R",
+    "old_id": "Q-GmBJiRdBS_xLeOjef2R",
+    "type": "subtopic",
+    "label": "Responsibilities",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\responsibilities@Q-GmBJiRdBS_xLeOjef2R.md"
+  },
+  {
+    "id": "JFNCITtE1YtcYmLfGfF5T",
+    "old_id": "JFNCITtE1YtcYmLfGfF5T",
+    "type": "subtopic",
+    "label": "BI Analyst vs Other Roles",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\bi-analyst-vs-other-roles@JFNCITtE1YtcYmLfGfF5T.md"
+  },
+  {
+    "id": "PxOEfMSQYA2jy3zrMZXjZ",
+    "old_id": "PxOEfMSQYA2jy3zrMZXjZ",
+    "type": "topic",
+    "label": "Introduction",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\introduction@PxOEfMSQYA2jy3zrMZXjZ.md"
+  },
+  {
+    "id": "c0ywBrs9u7MciWAXSgVVg",
+    "old_id": "c0ywBrs9u7MciWAXSgVVg",
+    "type": "topic",
+    "label": "Metrics and KPIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\metrics-and-kpis@c0ywBrs9u7MciWAXSgVVg.md"
+  },
+  {
+    "id": "LjeipkY01Hlkp22kmlAMh",
+    "old_id": "LjeipkY01Hlkp22kmlAMh",
+    "type": "topic",
+    "label": "Types of BI Operations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\types-of-bi-operations@LjeipkY01Hlkp22kmlAMh.md"
+  },
+  {
+    "id": "e3SdmNpVcvy3k_-JIO6OK",
+    "old_id": "e3SdmNpVcvy3k_-JIO6OK",
+    "type": "topic",
+    "label": "Stakeholder Identification",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\stakeholder-identification@e3SdmNpVcvy3k_-JIO6OK.md"
+  },
+  {
+    "id": "PkzUqwT21Owk_TfepFPDm",
+    "old_id": "PkzUqwT21Owk_TfepFPDm",
+    "type": "topic",
+    "label": "Key Business Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\key-business-functions@PkzUqwT21Owk_TfepFPDm.md"
+  },
+  {
+    "id": "vTW3jSZ1bvc0OrP_bl22t",
+    "old_id": "vTW3jSZ1bvc0OrP_bl22t",
+    "type": "subtopic",
+    "label": "Descriptive Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\descriptive-analysis@vTW3jSZ1bvc0OrP_bl22t.md"
+  },
+  {
+    "id": "4zpVE3R0lLyWpHePdBVpl",
+    "old_id": "4zpVE3R0lLyWpHePdBVpl",
+    "type": "subtopic",
+    "label": "Predictive Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\predictive-analysis@4zpVE3R0lLyWpHePdBVpl.md"
+  },
+  {
+    "id": "m5aC9aNy9mwLXz0xXBp40",
+    "old_id": "m5aC9aNy9mwLXz0xXBp40",
+    "type": "subtopic",
+    "label": "Diagnostic Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\diagnostic-analysis@m5aC9aNy9mwLXz0xXBp40.md"
+  },
+  {
+    "id": "NnbtaO2MiqsHeJ-ds0Q5m",
+    "old_id": "NnbtaO2MiqsHeJ-ds0Q5m",
+    "type": "subtopic",
+    "label": "Prescriptive Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\prescriptive-analysis@NnbtaO2MiqsHeJ-ds0Q5m.md"
+  },
+  {
+    "id": "3DVF8zo-_WM_9GTuzQFO8",
+    "old_id": "3DVF8zo-_WM_9GTuzQFO8",
+    "type": "topic",
+    "label": "Types of Data Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\types-of-data-analysis@3DVF8zo-_WM_9GTuzQFO8.md"
+  },
+  {
+    "id": "yXz6MkU3-HnlkmRmYh-Ev",
+    "old_id": "yXz6MkU3-HnlkmRmYh-Ev",
+    "type": "subtopic",
+    "label": "Categorical vs Numerical",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\categorical-vs-numerical@yXz6MkU3-HnlkmRmYh-Ev.md"
+  },
+  {
+    "id": "YSxvg2HrfGoGtpkwY0kGc",
+    "old_id": "YSxvg2HrfGoGtpkwY0kGc",
+    "type": "subtopic",
+    "label": "Discrete vs Continuous",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\discrete-vs-continuous@YSxvg2HrfGoGtpkwY0kGc.md"
+  },
+  {
+    "id": "HM1w6JJquaV6Vq4mjxM7p",
+    "old_id": "HM1w6JJquaV6Vq4mjxM7p",
+    "type": "topic",
+    "label": "Variables and Data Types",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\variables-and-data-types@HM1w6JJquaV6Vq4mjxM7p.md"
+  },
+  {
+    "id": "DQtznxvW5x4s-zGLpUpNY",
+    "old_id": "bQNfB_ZfNdc0Rw6y_hLUP",
+    "type": "subtopic",
+    "label": "Mode",
+    "resources": []
+  },
+  {
+    "id": "S4XEOd2-PHIHOiiGgKVLJ",
+    "old_id": "YrobPBLD0WvIK1eSNvrep",
+    "type": "subtopic",
+    "label": "Mean",
+    "resources": []
+  },
+  {
+    "id": "mfLRVcxvAjqmSG-KBpJ4J",
+    "old_id": "t87B--FhEYGgbWgt3IPMg",
+    "type": "subtopic",
+    "label": "Median",
+    "resources": []
+  },
+  {
+    "id": "xc1hm_XTyiMUVtWiTKXWG",
+    "old_id": "yrr8cVho7TtgZkVWq_TcJ",
+    "type": "topic",
+    "label": "Descriptive Statistics",
+    "resources": []
+  },
+  {
+    "id": "JXYmXAYuA-zxrkl4PRLQd",
+    "old_id": "TuBJ2yUz1c5KMRGVHdvU5",
+    "type": "subtopic",
+    "label": "Correlation vs Causation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\basic-queries@TuBJ2yUz1c5KMRGVHdvU5.md"
+  },
+  {
+    "id": "ASHk2LOjlhwpwpWSRs_Bi",
+    "old_id": "m9ejACzRBJza0v-fpdfkn",
+    "type": "topic",
+    "label": "Correlation Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\regression-analysis@m9ejACzRBJza0v-fpdfkn.md"
+  },
+  {
+    "id": "xgP3zIiSEr9dtYcCQikPb",
+    "old_id": "y9Fnjnbiqt7WkrhjPITpW",
+    "type": "subtopic",
+    "label": "Confidence Intervals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\performance@y9Fnjnbiqt7WkrhjPITpW.md"
+  },
+  {
+    "id": "7DNtRMBZ_F0K1FQk-UCM4",
+    "old_id": "7DNtRMBZ_F0K1FQk-UCM4",
+    "type": "topic",
+    "label": "Inferential Statistics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\inferential-statistics@7DNtRMBZ_F0K1FQk-UCM4.md"
+  },
+  {
+    "id": "kb216tShKrRPWv7mE9sVa",
+    "old_id": "kb216tShKrRPWv7mE9sVa",
+    "type": "topic",
+    "label": "Analog vs Digital Data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\analog-vs-digital-data@kb216tShKrRPWv7mE9sVa.md"
+  },
+  {
+    "id": "qHcRrxenhogymMQ6EPiMa",
+    "old_id": "qHcRrxenhogymMQ6EPiMa",
+    "type": "subtopic",
+    "label": "Semistructured",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\semistructured@qHcRrxenhogymMQ6EPiMa.md"
+  },
+  {
+    "id": "H1s1PQj8CHQ_VBQIy1VtJ",
+    "old_id": "H1s1PQj8CHQ_VBQIy1VtJ",
+    "type": "topic",
+    "label": "Types of data",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\types-of-data@H1s1PQj8CHQ_VBQIy1VtJ.md"
+  },
+  {
+    "id": "DJKXgelIxuahxJiqvwP6I",
+    "old_id": "DJKXgelIxuahxJiqvwP6I",
+    "type": "subtopic",
+    "label": "Unstructured",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\unstructured@DJKXgelIxuahxJiqvwP6I.md"
+  },
+  {
+    "id": "jnIn3_2fI2k97oALPZkt7",
+    "old_id": "jnIn3_2fI2k97oALPZkt7",
+    "type": "subtopic",
+    "label": "Structured",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\structured@jnIn3_2fI2k97oALPZkt7.md"
+  },
+  {
+    "id": "g5j_mbjx2yZUIK5lfN3eT",
+    "old_id": "g5j_mbjx2yZUIK5lfN3eT",
+    "type": "topic",
+    "label": "What is Data?",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\what-is-data@g5j_mbjx2yZUIK5lfN3eT.md"
+  },
+  {
+    "id": "g44bQY90HOeI_dZ8gK2Uj",
+    "old_id": "g44bQY90HOeI_dZ8gK2Uj",
+    "type": "subtopic",
+    "label": "Databases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\databases@g44bQY90HOeI_dZ8gK2Uj.md"
+  },
+  {
+    "id": "xQLsuJ3uohVzOxGfFLyFw",
+    "old_id": "xQLsuJ3uohVzOxGfFLyFw",
+    "type": "subtopic",
+    "label": "Web",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\web@xQLsuJ3uohVzOxGfFLyFw.md"
+  },
+  {
+    "id": "1cC6LKxcncaKg4Jm53pUy",
+    "old_id": "1cC6LKxcncaKg4Jm53pUy",
+    "type": "subtopic",
+    "label": "Mobile Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\mobile-apps@1cC6LKxcncaKg4Jm53pUy.md"
+  },
+  {
+    "id": "WXk0-vebMUQC25he2lmbh",
+    "old_id": "WXk0-vebMUQC25he2lmbh",
+    "type": "subtopic",
+    "label": "Cloud",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\cloud@WXk0-vebMUQC25he2lmbh.md"
+  },
+  {
+    "id": "xQDGmVwUkrmGdviOdG8Hu",
+    "old_id": "xQDGmVwUkrmGdviOdG8Hu",
+    "type": "subtopic",
+    "label": "APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\apis@xQDGmVwUkrmGdviOdG8Hu.md"
+  },
+  {
+    "id": "GrwdQldCWu2zWAaNj6LFk",
+    "old_id": "GrwdQldCWu2zWAaNj6LFk",
+    "type": "subtopic",
+    "label": "IoT",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\iot@GrwdQldCWu2zWAaNj6LFk.md"
+  },
+  {
+    "id": "VUgxDDkoxkOcLxqpTDXzt",
+    "old_id": "VUgxDDkoxkOcLxqpTDXzt",
+    "type": "topic",
+    "label": "Data Sources",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-sources@VUgxDDkoxkOcLxqpTDXzt.md"
+  },
+  {
+    "id": "LcLfC6BiOxJAkk2p424wL",
+    "old_id": "_iV_5O5Rq07P9qRGrraTM",
+    "type": "subtopic",
+    "label": "CSV",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\sql@_iV_5O5Rq07P9qRGrraTM.md"
+  },
+  {
+    "id": "ytgK7van84j5DsfD0JyZ3",
+    "old_id": "ZAhjB_ghHukD4RPAtNDxh",
+    "type": "subtopic",
+    "label": "XML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\dplyr@ZAhjB_ghHukD4RPAtNDxh.md"
+  },
+  {
+    "id": "Dh62zxyyUHh0galD472p8",
+    "old_id": "9BWyA0b4WrmQetSMph_mY",
+    "type": "subtopic",
+    "label": "Excel",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\excel@9BWyA0b4WrmQetSMph_mY.md"
+  },
+  {
+    "id": "k80q5FPNiIUdxn5A8R3Hu",
+    "old_id": "k80q5FPNiIUdxn5A8R3Hu",
+    "type": "subtopic",
+    "label": "Other formats",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\other-formats@k80q5FPNiIUdxn5A8R3Hu.md"
+  },
+  {
+    "id": "p21d2mEUnTQgWhKFTGS9F",
+    "old_id": "25f76eB9-vy3Usta-Pbsi",
+    "type": "subtopic",
+    "label": "JSON",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\pandas@25f76eB9-vy3Usta-Pbsi.md"
+  },
+  {
+    "id": "GsZWvJPNzN6XLDp2G1db4",
+    "old_id": "GsZWvJPNzN6XLDp2G1db4",
+    "type": "topic",
+    "label": "Data Formats",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-formats@GsZWvJPNzN6XLDp2G1db4.md"
+  },
+  {
+    "id": "s8LZgRwrlm1V4meGM7gj0",
+    "old_id": "N0zdp9eSt4D8McyHmNN59",
+    "type": "topic",
+    "label": "SQL Fundamentals",
+    "resources": []
+  },
+  {
+    "id": "gJBaVERU3prru-qRksxN4",
+    "old_id": "gJBaVERU3prru-qRksxN4",
+    "type": "topic",
+    "label": "Popular Databases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\popular-databases@gJBaVERU3prru-qRksxN4.md"
+  },
+  {
+    "id": "ETT9eATuyLHQe2jPqaF5I",
+    "old_id": "ETT9eATuyLHQe2jPqaF5I",
+    "type": "topic",
+    "label": "Exploratory Data Analysis (EDA)",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\exploratory-data-analysis-eda@ETT9eATuyLHQe2jPqaF5I.md"
+  },
+  {
+    "id": "xjgqmJmetKpWXSWZHPwaL",
+    "old_id": "TCYG6vmFqq1zAPNQWoOH8",
+    "type": "subtopic",
+    "label": "Duplicates",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\standardisation@TCYG6vmFqq1zAPNQWoOH8.md"
+  },
+  {
+    "id": "fhreEuoT8ZBRwJqbSGrEZ",
+    "old_id": "fhreEuoT8ZBRwJqbSGrEZ",
+    "type": "subtopic",
+    "label": "Missing Values",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\missing-values@fhreEuoT8ZBRwJqbSGrEZ.md"
+  },
+  {
+    "id": "OqolfBQRQvwg6PI_t8Mrt",
+    "old_id": "OqolfBQRQvwg6PI_t8Mrt",
+    "type": "subtopic",
+    "label": "Outliers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\outliers@OqolfBQRQvwg6PI_t8Mrt.md"
+  },
+  {
+    "id": "hrkMVMYWCedRxhNd2N9wE",
+    "old_id": "hrkMVMYWCedRxhNd2N9wE",
+    "type": "topic",
+    "label": "Data Transformation Techniques",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-transformation-techniques@hrkMVMYWCedRxhNd2N9wE.md"
+  },
+  {
+    "id": "sltVKaKKjmzu17jDv9OFF",
+    "old_id": "sltVKaKKjmzu17jDv9OFF",
+    "type": "topic",
+    "label": "Visualization Fundamentals",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\visualization-fundamentals@sltVKaKKjmzu17jDv9OFF.md"
+  },
+  {
+    "id": "BUizLtQ7vpdyBRjS8KyIl",
+    "old_id": "BUizLtQ7vpdyBRjS8KyIl",
+    "type": "subtopic",
+    "label": "Barplot",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\barplot@BUizLtQ7vpdyBRjS8KyIl.md"
+  },
+  {
+    "id": "SNkYi2VZsCRG31v63v8_x",
+    "old_id": "SNkYi2VZsCRG31v63v8_x",
+    "type": "subtopic",
+    "label": "Heatmap",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\heatmap@SNkYi2VZsCRG31v63v8_x.md"
+  },
+  {
+    "id": "BVDaFmDat48nN3hj5NE71",
+    "old_id": "BVDaFmDat48nN3hj5NE71",
+    "type": "subtopic",
+    "label": "Lineplot",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\lineplot@BVDaFmDat48nN3hj5NE71.md"
+  },
+  {
+    "id": "hCSZo7jT9arBLUbtCVFfD",
+    "old_id": "hCSZo7jT9arBLUbtCVFfD",
+    "type": "subtopic",
+    "label": "Scatterplot",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\scatterplot@hCSZo7jT9arBLUbtCVFfD.md"
+  },
+  {
+    "id": "7_5PBCrsukv81mm7yTpDf",
+    "old_id": "7_5PBCrsukv81mm7yTpDf",
+    "type": "subtopic",
+    "label": "Map",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\map@7_5PBCrsukv81mm7yTpDf.md"
+  },
+  {
+    "id": "wqLcUFVsLa_l9yQIee9MG",
+    "old_id": "wqLcUFVsLa_l9yQIee9MG",
+    "type": "subtopic",
+    "label": "Histogram",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\histogram@wqLcUFVsLa_l9yQIee9MG.md"
+  },
+  {
+    "id": "SJGEkoTSPK2ck4IvaK6Gz",
+    "old_id": "SJGEkoTSPK2ck4IvaK6Gz",
+    "type": "subtopic",
+    "label": "Color theory",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\color-theory@SJGEkoTSPK2ck4IvaK6Gz.md"
+  },
+  {
+    "id": "qGVDuU9RA9Y5g5vlPd-xq",
+    "old_id": "qGVDuU9RA9Y5g5vlPd-xq",
+    "type": "subtopic",
+    "label": "Misleading charts",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\misleading-charts@qGVDuU9RA9Y5g5vlPd-xq.md"
+  },
+  {
+    "id": "wtEzdO_ZNu9jHJrFS3CrG",
+    "old_id": "wtEzdO_ZNu9jHJrFS3CrG",
+    "type": "subtopic",
+    "label": "Accessibility",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\accessibility@wtEzdO_ZNu9jHJrFS3CrG.md"
+  },
+  {
+    "id": "7t0WfLLqrD5VJQwIAmXMo",
+    "old_id": "7t0WfLLqrD5VJQwIAmXMo",
+    "type": "subtopic",
+    "label": "Mobile-responsiveness",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\mobile-responsiveness@7t0WfLLqrD5VJQwIAmXMo.md"
+  },
+  {
+    "id": "EDQjtoTd01ftwXxYkV9it",
+    "old_id": "EDQjtoTd01ftwXxYkV9it",
+    "type": "subtopic",
+    "label": "Design principles",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\design-principles@EDQjtoTd01ftwXxYkV9it.md"
+  },
+  {
+    "id": "eqGsO6ZGk2jdG0z9-cHzz",
+    "old_id": "eqGsO6ZGk2jdG0z9-cHzz",
+    "type": "subtopic",
+    "label": "Power BI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\power-bi@eqGsO6ZGk2jdG0z9-cHzz.md"
+  },
+  {
+    "id": "GoMIAQwusbT7fqJ-VnCrq",
+    "old_id": "GoMIAQwusbT7fqJ-VnCrq",
+    "type": "subtopic",
+    "label": "Qlik",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\qlik@GoMIAQwusbT7fqJ-VnCrq.md"
+  },
+  {
+    "id": "WzPj94lYxQCjFx5YW4X9x",
+    "old_id": "WzPj94lYxQCjFx5YW4X9x",
+    "type": "subtopic",
+    "label": "Tableau",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\tableau@WzPj94lYxQCjFx5YW4X9x.md"
+  },
+  {
+    "id": "f4MDT1RUfaICAWzyG2E6T",
+    "old_id": "f4MDT1RUfaICAWzyG2E6T",
+    "type": "subtopic",
+    "label": "Looker",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\looker@f4MDT1RUfaICAWzyG2E6T.md"
+  },
+  {
+    "id": "kpRqKLtAd3IO3nbs8Yxrh",
+    "old_id": "LLK3_hudKDX5d-fd98vlx",
+    "type": "topic",
+    "label": "BI Platforms",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\excel@LLK3_hudKDX5d-fd98vlx.md"
+  },
+  {
+    "id": "vQQSYPpcGO7ri0RFSWi0h",
+    "old_id": "qnUHw2f2VmTPU3-NMnoLl",
+    "type": "subtopic",
+    "label": "Python",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\airflow@qnUHw2f2VmTPU3-NMnoLl.md"
+  },
+  {
+    "id": "0OTmTRHlR3ImNU0zyLt8G",
+    "old_id": "-KzusmyDQ1NgqOADpqmEX",
+    "type": "subtopic",
+    "label": "R",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\dbt@-KzusmyDQ1NgqOADpqmEX.md"
+  },
+  {
+    "id": "KSxjcWV6C325kZITzAhWs",
+    "old_id": "KSxjcWV6C325kZITzAhWs",
+    "type": "topic",
+    "label": "Programming Languages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\programming-languages@KSxjcWV6C325kZITzAhWs.md"
+  },
+  {
+    "id": "JHGV0V78GXubiSY9P3nTw",
+    "old_id": "JHGV0V78GXubiSY9P3nTw",
+    "type": "subtopic",
+    "label": "Risk Analytics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\risk-analytics@JHGV0V78GXubiSY9P3nTw.md"
+  },
+  {
+    "id": "OqHNW0PzIRsw7IBgh5U5Q",
+    "old_id": "On6kznZxLTCpBPskdZtgT",
+    "type": "subtopic",
+    "label": "CLV",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\trends@On6kznZxLTCpBPskdZtgT.md"
+  },
+  {
+    "id": "j-GXKpMnsVuUUUdRxAXLe",
+    "old_id": "1T2PyytlmndHreWgueD55",
+    "type": "subtopic",
+    "label": "Compliance Reporting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\financial-performance@1T2PyytlmndHreWgueD55.md"
+  },
+  {
+    "id": "aJLGan5dkMefvkspFlcYo",
+    "old_id": "moWrEfuKE06QwbznsH3V-",
+    "type": "subtopic",
+    "label": "Fraud Detection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\seasonality@moWrEfuKE06QwbznsH3V-.md"
+  },
+  {
+    "id": "xftv5BiyoVrFjpSN0tjsw",
+    "old_id": "xftv5BiyoVrFjpSN0tjsw",
+    "type": "topic",
+    "label": "Finance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\finance@xftv5BiyoVrFjpSN0tjsw.md"
+  },
+  {
+    "id": "VPu8vn7-baZQ5ORJ6ViW0",
+    "old_id": "VPu8vn7-baZQ5ORJ6ViW0",
+    "type": "subtopic",
+    "label": "Sales Performance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\sales-performance@VPu8vn7-baZQ5ORJ6ViW0.md"
+  },
+  {
+    "id": "0qRm81lJX_Eb6aJkJMjeL",
+    "old_id": "0qRm81lJX_Eb6aJkJMjeL",
+    "type": "subtopic",
+    "label": "Marketing Campaigns",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\marketing-campaigns@0qRm81lJX_Eb6aJkJMjeL.md"
+  },
+  {
+    "id": "LkbB0rpS3Du2K7_ogoc34",
+    "old_id": "LkbB0rpS3Du2K7_ogoc34",
+    "type": "subtopic",
+    "label": "Inventory Optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\inventory-optimization@LkbB0rpS3Du2K7_ogoc34.md"
+  },
+  {
+    "id": "7jrzQogTOc6lHXfpYLCsx",
+    "old_id": "7jrzQogTOc6lHXfpYLCsx",
+    "type": "subtopic",
+    "label": "Supply Chain Analytics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\supply-chain-analytics@7jrzQogTOc6lHXfpYLCsx.md"
+  },
+  {
+    "id": "7LbhfkmS7oFoSF1k5ZR1U",
+    "old_id": "7LbhfkmS7oFoSF1k5ZR1U",
+    "type": "topic",
+    "label": "Retail & E-commerce",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\retail--e-commerce@7LbhfkmS7oFoSF1k5ZR1U.md"
+  },
+  {
+    "id": "LI09SvvUUCQxLZZee_j0n",
+    "old_id": "LI09SvvUUCQxLZZee_j0n",
+    "type": "subtopic",
+    "label": "Patient management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\patient-management@LI09SvvUUCQxLZZee_j0n.md"
+  },
+  {
+    "id": "omvGuhou7_63k-Fwcc7Mu",
+    "old_id": "Cydlrtg_FClBUkjezqGie",
+    "type": "subtopic",
+    "label": "Compliance Reporting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\public-health@Cydlrtg_FClBUkjezqGie.md"
+  },
+  {
+    "id": "ku3m0ZmNg23F0Z5CEb4JI",
+    "old_id": "ku3m0ZmNg23F0Z5CEb4JI",
+    "type": "subtopic",
+    "label": "Hospital Efficiency",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\hospital-efficiency@ku3m0ZmNg23F0Z5CEb4JI.md"
+  },
+  {
+    "id": "VpGVezYr9O6puhAF12PN2",
+    "old_id": "VpGVezYr9O6puhAF12PN2",
+    "type": "topic",
+    "label": "Healthcare",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\healthcare@VpGVezYr9O6puhAF12PN2.md"
+  },
+  {
+    "id": "L50rpcgGjsQU3S0zRn6xh",
+    "old_id": "L50rpcgGjsQU3S0zRn6xh",
+    "type": "subtopic",
+    "label": "Production Efficiency",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\production-efficiency@L50rpcgGjsQU3S0zRn6xh.md"
+  },
+  {
+    "id": "yimCxOdNtyGcbd6ZxHsBQ",
+    "old_id": "yimCxOdNtyGcbd6ZxHsBQ",
+    "type": "subtopic",
+    "label": "Predictive Maintenance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\predictive-maintenance@yimCxOdNtyGcbd6ZxHsBQ.md"
+  },
+  {
+    "id": "Xe9zK8xhkkr4fsh3HOzAY",
+    "old_id": "Xe9zK8xhkkr4fsh3HOzAY",
+    "type": "subtopic",
+    "label": "Quality Control",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\quality-control@Xe9zK8xhkkr4fsh3HOzAY.md"
+  },
+  {
+    "id": "-hNguvT6SQCqAgVpoQByr",
+    "old_id": "-hNguvT6SQCqAgVpoQByr",
+    "type": "subtopic",
+    "label": "Supply chain optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\supply-chain-optimization@-hNguvT6SQCqAgVpoQByr.md"
+  },
+  {
+    "id": "zEGmDHaFa-F81tWqa3i9E",
+    "old_id": "zEGmDHaFa-F81tWqa3i9E",
+    "type": "topic",
+    "label": "Manufacturing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\manufacturing@zEGmDHaFa-F81tWqa3i9E.md"
+  },
+  {
+    "id": "qKlo90-Cy8t_off5Qv8-6",
+    "old_id": "qKlo90-Cy8t_off5Qv8-6",
+    "type": "topic",
+    "label": "A/B Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\ab-testing@qKlo90-Cy8t_off5Qv8-6.md"
+  },
+  {
+    "id": "R2zg0Ql-RsnIkV5Gmc1vN",
+    "old_id": "R2zg0Ql-RsnIkV5Gmc1vN",
+    "type": "topic",
+    "label": "Cohort Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\cohort-analysis@R2zg0Ql-RsnIkV5Gmc1vN.md"
+  },
+  {
+    "id": "ExHCSUDxDBwsJtTelvxjP",
+    "old_id": "ExHCSUDxDBwsJtTelvxjP",
+    "type": "subtopic",
+    "label": "Forecasting",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\forecasting@ExHCSUDxDBwsJtTelvxjP.md"
+  },
+  {
+    "id": "yseEaLsEzIcqJ0YIoGujl",
+    "old_id": "yseEaLsEzIcqJ0YIoGujl",
+    "type": "topic",
+    "label": "Time Series Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\time-series-analysis@yseEaLsEzIcqJ0YIoGujl.md"
+  },
+  {
+    "id": "ZGazuCNruu09bd7C-aSFC",
+    "old_id": "ZGazuCNruu09bd7C-aSFC",
+    "type": "topic",
+    "label": "Basic Machine Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\basic-machine-learning@ZGazuCNruu09bd7C-aSFC.md"
+  },
+  {
+    "id": "t_J0MZTMWMnrImGHjXYov",
+    "old_id": "t_J0MZTMWMnrImGHjXYov",
+    "type": "subtopic",
+    "label": "Storytelling Framework",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\storytelling-framework@t_J0MZTMWMnrImGHjXYov.md"
+  },
+  {
+    "id": "KXhNou5nlekbSTfLYPs_8",
+    "old_id": "KXhNou5nlekbSTfLYPs_8",
+    "type": "subtopic",
+    "label": "Dashboard Design",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\dashboard-design@KXhNou5nlekbSTfLYPs_8.md"
+  },
+  {
+    "id": "9G-pI5NsRCq4p0FLfaMR_",
+    "old_id": "9G-pI5NsRCq4p0FLfaMR_",
+    "type": "subtopic",
+    "label": "Presentation Design",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\presentation-design@9G-pI5NsRCq4p0FLfaMR_.md"
+  },
+  {
+    "id": "Slg3fXGPTa-Z4sdZY86XK",
+    "old_id": "Slg3fXGPTa-Z4sdZY86XK",
+    "type": "subtopic",
+    "label": "Writing Executive Summaries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\writing-executive-summaries@Slg3fXGPTa-Z4sdZY86XK.md"
+  },
+  {
+    "id": "r-m88g8xrUnuEpV2lHJfN",
+    "old_id": "r-m88g8xrUnuEpV2lHJfN",
+    "type": "subtopic",
+    "label": "Stakeholder Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\stakeholder-management@r-m88g8xrUnuEpV2lHJfN.md"
+  },
+  {
+    "id": "vDQF2oaybSewNu3EMs6zG",
+    "old_id": "vDQF2oaybSewNu3EMs6zG",
+    "type": "subtopic",
+    "label": "Change Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\change-management@vDQF2oaybSewNu3EMs6zG.md"
+  },
+  {
+    "id": "NFKiPXrkjRre1yUZc27gl",
+    "old_id": "NFKiPXrkjRre1yUZc27gl",
+    "type": "subtopic",
+    "label": "Critical Thinking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\critical-thinking@NFKiPXrkjRre1yUZc27gl.md"
+  },
+  {
+    "id": "OmhvVSTtzH5sxOIZRVYfQ",
+    "old_id": "OmhvVSTtzH5sxOIZRVYfQ",
+    "type": "subtopic",
+    "label": "Business Acumen",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\business-acumen@OmhvVSTtzH5sxOIZRVYfQ.md"
+  },
+  {
+    "id": "r8NoX426-ngu6ZQZe06oK",
+    "old_id": "r8NoX426-ngu6ZQZe06oK",
+    "type": "subtopic",
+    "label": "Project Management",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\project-management@r8NoX426-ngu6ZQZe06oK.md"
+  },
+  {
+    "id": "UhcniUDKmi7KNuXlolf5O",
+    "old_id": "UhcniUDKmi7KNuXlolf5O",
+    "type": "subtopic",
+    "label": "Relevance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\relevance@UhcniUDKmi7KNuXlolf5O.md"
+  },
+  {
+    "id": "5USjYdAVJs0gSXxE1j8Xu",
+    "old_id": "5USjYdAVJs0gSXxE1j8Xu",
+    "type": "subtopic",
+    "label": "Timeliness",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\timeliness@5USjYdAVJs0gSXxE1j8Xu.md"
+  },
+  {
+    "id": "BiyrAHB34evej_0cnDzOa",
+    "old_id": "BiyrAHB34evej_0cnDzOa",
+    "type": "subtopic",
+    "label": "Accesibility",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\accesibility@BiyrAHB34evej_0cnDzOa.md"
+  },
+  {
+    "id": "uP8MWZqM9Z0i3eDF4Ldxv",
+    "old_id": "uP8MWZqM9Z0i3eDF4Ldxv",
+    "type": "subtopic",
+    "label": "Interpretability",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\interpretability@uP8MWZqM9Z0i3eDF4Ldxv.md"
+  },
+  {
+    "id": "M1H3Fh09v8udCJIPSJPic",
+    "old_id": "M1H3Fh09v8udCJIPSJPic",
+    "type": "subtopic",
+    "label": "Accuracy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\accuracy@M1H3Fh09v8udCJIPSJPic.md"
+  },
+  {
+    "id": "4U66ZrBZqg7-ckOTmxAQj",
+    "old_id": "4U66ZrBZqg7-ckOTmxAQj",
+    "type": "subtopic",
+    "label": "Coherence",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\coherence@4U66ZrBZqg7-ckOTmxAQj.md"
+  },
+  {
+    "id": "F21ypKzpziLCXkiKG1S5Z",
+    "old_id": "F21ypKzpziLCXkiKG1S5Z",
+    "type": "topic",
+    "label": "Data Lineage",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-lineage@F21ypKzpziLCXkiKG1S5Z.md"
+  },
+  {
+    "id": "fuxGZx3WGjP2TzzVV29ux",
+    "old_id": "fuxGZx3WGjP2TzzVV29ux",
+    "type": "topic",
+    "label": "Privacy",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\privacy@fuxGZx3WGjP2TzzVV29ux.md"
+  },
+  {
+    "id": "9aNVqEyygNGeicdce5X8b",
+    "old_id": "9aNVqEyygNGeicdce5X8b",
+    "type": "topic",
+    "label": "Bias Recognition",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\bias-recognition@9aNVqEyygNGeicdce5X8b.md"
+  },
+  {
+    "id": "Vb06K0D2vWAlSe95QJrth",
+    "old_id": "Vb06K0D2vWAlSe95QJrth",
+    "type": "topic",
+    "label": "Ethical Data Use",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\ethical-data-use@Vb06K0D2vWAlSe95QJrth.md"
+  },
+  {
+    "id": "wJiKBbTMLhIzelUtKn7jl",
+    "old_id": "wJiKBbTMLhIzelUtKn7jl",
+    "type": "subtopic",
+    "label": "Data Warehouse",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-warehouse@wJiKBbTMLhIzelUtKn7jl.md"
+  },
+  {
+    "id": "iqpVtvoebAaoB_Dj9-gdw",
+    "old_id": "iqpVtvoebAaoB_Dj9-gdw",
+    "type": "subtopic",
+    "label": "Data Lake",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-lake@iqpVtvoebAaoB_Dj9-gdw.md"
+  },
+  {
+    "id": "5x4NfuP6dAgjISlB-esIW",
+    "old_id": "5x4NfuP6dAgjISlB-esIW",
+    "type": "subtopic",
+    "label": "Data Mart",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-mart@5x4NfuP6dAgjISlB-esIW.md"
+  },
+  {
+    "id": "zGU6DyEm6xEYf1_73cbjL",
+    "old_id": "zGU6DyEm6xEYf1_73cbjL",
+    "type": "subtopic",
+    "label": "Cloud BI Ecosystem",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\cloud-bi-ecosystem@zGU6DyEm6xEYf1_73cbjL.md"
+  },
+  {
+    "id": "Zxuvc9F3bINLTdfbsx_S_",
+    "old_id": "Zxuvc9F3bINLTdfbsx_S_",
+    "type": "topic",
+    "label": "Data Architectures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-architectures@Zxuvc9F3bINLTdfbsx_S_.md"
+  },
+  {
+    "id": "iYe42G31fhkAO0MBaHutF",
+    "old_id": "iYe42G31fhkAO0MBaHutF",
+    "type": "topic",
+    "label": "Star vs Snowflake Schema",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\star-vs-snowflake-schema@iYe42G31fhkAO0MBaHutF.md"
+  },
+  {
+    "id": "Prfa0LUmgxcp52IEObFom",
+    "old_id": "Prfa0LUmgxcp52IEObFom",
+    "type": "topic",
+    "label": "Normalization vs Denormalization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\normalization-vs-denormalization@Prfa0LUmgxcp52IEObFom.md"
+  },
+  {
+    "id": "hcbS18cpVxd55hVlUeLLT",
+    "old_id": "hcbS18cpVxd55hVlUeLLT",
+    "type": "topic",
+    "label": "Fact vs Dimension Tables",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\fact-vs-dimension-tables@hcbS18cpVxd55hVlUeLLT.md"
+  },
+  {
+    "id": "fFzCnLfZ_vSbhQjdAKLlJ",
+    "old_id": "fFzCnLfZ_vSbhQjdAKLlJ",
+    "type": "topic",
+    "label": "Calculated Fields & Measures",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\calculated-fields--measures@fFzCnLfZ_vSbhQjdAKLlJ.md"
+  },
+  {
+    "id": "Dk31XtS7wWRzO31sdsEDo",
+    "old_id": "Dk31XtS7wWRzO31sdsEDo",
+    "type": "topic",
+    "label": "Data Modeling for BI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-modeling-for-bi@Dk31XtS7wWRzO31sdsEDo.md"
+  },
+  {
+    "id": "lAK9QVs97hL3ysjz2blp8",
+    "old_id": "lAK9QVs97hL3ysjz2blp8",
+    "type": "topic",
+    "label": "ETL Tools",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\etl-tools@lAK9QVs97hL3ysjz2blp8.md"
+  },
+  {
+    "id": "Du4GD-6pxbWYl4uSJRnOE",
+    "old_id": "Du4GD-6pxbWYl4uSJRnOE",
+    "type": "topic",
+    "label": "ETL basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\etl-basics@Du4GD-6pxbWYl4uSJRnOE.md"
+  },
+  {
+    "id": "3xDVJwdl3uu5EcjlZ1ytA",
+    "old_id": "3xDVJwdl3uu5EcjlZ1ytA",
+    "type": "subtopic",
+    "label": "End-to-end Analytics Project",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\end-to-end-analytics-project@3xDVJwdl3uu5EcjlZ1ytA.md"
+  },
+  {
+    "id": "yvSf7sGEd7QiaVoetalHc",
+    "old_id": "yvSf7sGEd7QiaVoetalHc",
+    "type": "subtopic",
+    "label": "Data Pipeline Design",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-pipeline-design@yvSf7sGEd7QiaVoetalHc.md"
+  },
+  {
+    "id": "qvPTiDbsY5ol_K-BNLmzk",
+    "old_id": "qvPTiDbsY5ol_K-BNLmzk",
+    "type": "subtopic",
+    "label": "Dashboard Design",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\dashboard-design@qvPTiDbsY5ol_K-BNLmzk.md"
+  },
+  {
+    "id": "UIdwl_KLELI8xL2VxYJmX",
+    "old_id": "UIdwl_KLELI8xL2VxYJmX",
+    "type": "topic",
+    "label": "Building Your Portfolio",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\building-your-portfolio@UIdwl_KLELI8xL2VxYJmX.md"
+  },
+  {
+    "id": "tUxwKTml2Go8zR9tR3cjn",
+    "old_id": "hqpFbDhAvyT9_4hcoSLhC",
+    "type": "topic",
+    "label": "Professional Development",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\certifications@hqpFbDhAvyT9_4hcoSLhC.md"
+  },
+  {
+    "id": "X8U-NQD0rYqFr_xgDWL2s",
+    "old_id": "X8U-NQD0rYqFr_xgDWL2s",
+    "type": "subtopic",
+    "label": "BI Communities",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\bi-communities@X8U-NQD0rYqFr_xgDWL2s.md"
+  },
+  {
+    "id": "YovS5Dbcr6g_8PMr8jp5t",
+    "old_id": "YovS5Dbcr6g_8PMr8jp5t",
+    "type": "subtopic",
+    "label": "Open-Source Projects",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\open-source-projects@YovS5Dbcr6g_8PMr8jp5t.md"
+  },
+  {
+    "id": "aTGsJj7Ntv5BWIzjaqvu_",
+    "old_id": "aTGsJj7Ntv5BWIzjaqvu_",
+    "type": "subtopic",
+    "label": "BI Competitions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\bi-competitions@aTGsJj7Ntv5BWIzjaqvu_.md"
+  },
+  {
+    "id": "UDF8wyYT8127wfFHcq37P",
+    "old_id": "UDF8wyYT8127wfFHcq37P",
+    "type": "subtopic",
+    "label": "Conferences & Webinars",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\conferences--webinars@UDF8wyYT8127wfFHcq37P.md"
+  },
+  {
+    "id": "Q98GaitxocEha4zZ9d254",
+    "old_id": "Q98GaitxocEha4zZ9d254",
+    "type": "topic",
+    "label": "Networking",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\networking@Q98GaitxocEha4zZ9d254.md"
+  },
+  {
+    "id": "m9EwcekZ_l0XHiKeQ8emr",
+    "old_id": "m9EwcekZ_l0XHiKeQ8emr",
+    "type": "subtopic",
+    "label": "Resume optimization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\resume-optimization@m9EwcekZ_l0XHiKeQ8emr.md"
+  },
+  {
+    "id": "4XM5ikPiHVehEtT4AB-Ea",
+    "old_id": "4XM5ikPiHVehEtT4AB-Ea",
+    "type": "subtopic",
+    "label": "Interview preparation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\interview-preparation@4XM5ikPiHVehEtT4AB-Ea.md"
+  },
+  {
+    "id": "qsCWo1CmR4mvy7E7qlPv5",
+    "old_id": "qsCWo1CmR4mvy7E7qlPv5",
+    "type": "subtopic",
+    "label": "Portfolio presentation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\portfolio-presentation@qsCWo1CmR4mvy7E7qlPv5.md"
+  },
+  {
+    "id": "k3F9Tdqo3XYgMLOKGjpxA",
+    "old_id": "k3F9Tdqo3XYgMLOKGjpxA",
+    "type": "subtopic",
+    "label": "Salary negotiation strategies",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\salary-negotiation-strategies@k3F9Tdqo3XYgMLOKGjpxA.md"
+  },
+  {
+    "id": "TojDB4o0i2rs7Qcb10k1r",
+    "old_id": "TojDB4o0i2rs7Qcb10k1r",
+    "type": "topic",
+    "label": "Job Preparation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\job-preparation@TojDB4o0i2rs7Qcb10k1r.md"
+  },
+  {
+    "id": "jJukG4XxfFcID_VlQKqe-",
+    "old_id": "jJukG4XxfFcID_VlQKqe-",
+    "type": "subtopic",
+    "label": "Tactical BI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\tactical-bi@jJukG4XxfFcID_VlQKqe-.md"
+  },
+  {
+    "id": "3BxbkrBp8veZj38zdwN8s",
+    "old_id": "_MpdVlvvkrsgzigYMZ_P8",
+    "type": "subtopic",
+    "label": "Strategic BI",
+    "resources": []
+  },
+  {
+    "id": "GN6SnI7RXIeW8JeD-qORW",
+    "old_id": "GN6SnI7RXIeW8JeD-qORW",
+    "type": "subtopic",
+    "label": "Operational BI",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\operational-bi@GN6SnI7RXIeW8JeD-qORW.md"
+  },
+  {
+    "id": "cxTriSZvrmXP4axKynIZW",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Finance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\hr@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "s-wUPMaagyRupT2RdfHks",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Marketing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\hr@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "dJZqe47kzRqYIG-4AZTlz",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "Operations",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\hr@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "KeGCHoJRHp-mBX-P5to4Y",
+    "old_id": "RspQLpkICyHUmthLlxQ84",
+    "type": "subtopic",
+    "label": "HR",
+    "resources": []
+  },
+  {
+    "id": "F-fC2JWOuEeDbOHH1O6EB",
+    "old_id": "yrr8cVho7TtgZkVWq_TcJ",
+    "type": "topic",
+    "label": "Central Tendency",
+    "resources": []
+  },
+  {
+    "id": "1D98k1HNCaaiaI20euVwA",
+    "old_id": "yrr8cVho7TtgZkVWq_TcJ",
+    "type": "topic",
+    "label": "Dispersion",
+    "resources": []
+  },
+  {
+    "id": "jll2iRbjdx7iiNwY13KYD",
+    "old_id": "X0DBG0mEWk25PEbLHhs7v",
+    "type": "subtopic",
+    "label": "Range",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\skewness@X0DBG0mEWk25PEbLHhs7v.md"
+  },
+  {
+    "id": "ZmSwDn0sP7HvLKYVzRwPJ",
+    "old_id": "jvU1iu2M_y1IH62oUpAeU",
+    "type": "subtopic",
+    "label": "Variance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\kurtosis@jvU1iu2M_y1IH62oUpAeU.md"
+  },
+  {
+    "id": "vqtzg9bydAqHMwZhPHo1a",
+    "old_id": "dJZqe47kzRqYIG-4AZTlz",
+    "type": "subtopic",
+    "label": "STD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\operations@dJZqe47kzRqYIG-4AZTlz.md"
+  },
+  {
+    "id": "LEHK7ohKIzKhlGebd0k_j",
+    "old_id": "KeGCHoJRHp-mBX-P5to4Y",
+    "type": "subtopic",
+    "label": "IQR",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\hr@KeGCHoJRHp-mBX-P5to4Y.md"
+  },
+  {
+    "id": "JSqwWsfojjZTe8ynmA7fc",
+    "old_id": "yrr8cVho7TtgZkVWq_TcJ",
+    "type": "topic",
+    "label": "Distribution",
+    "resources": []
+  },
+  {
+    "id": "X0DBG0mEWk25PEbLHhs7v",
+    "old_id": "XbWMHT1Fn8nWqAvIpSgGK",
+    "type": "subtopic",
+    "label": "Skewness",
+    "resources": []
+  },
+  {
+    "id": "jvU1iu2M_y1IH62oUpAeU",
+    "old_id": "KPVNWExPQfr7NPHw6Ezsd",
+    "type": "subtopic",
+    "label": "Kurtosis",
+    "resources": []
+  },
+  {
+    "id": "7VDxA9bQ1P1fym4eQVKkN",
+    "old_id": "TuBJ2yUz1c5KMRGVHdvU5",
+    "type": "subtopic",
+    "label": "Population & Sample",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\basic-queries@TuBJ2yUz1c5KMRGVHdvU5.md"
+  },
+  {
+    "id": "01k_mfsp0eW6TX9yp8PDE",
+    "old_id": "-gbb16Wl--Rjx5aoM0krL",
+    "type": "subtopic",
+    "label": "Statistical tests",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\advanced-queries@-gbb16Wl--Rjx5aoM0krL.md"
+  },
+  {
+    "id": "rkEdx_mZBoDjMhiluJl7O",
+    "old_id": "1toMuRZResgse1AtwEck6",
+    "type": "subtopic",
+    "label": "p-value",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\window-functions@1toMuRZResgse1AtwEck6.md"
+  },
+  {
+    "id": "SosOXxErMn0t2KCoHoxvS",
+    "old_id": "GgC6B19SqudLDQWbINAz1",
+    "type": "subtopic",
+    "label": "Types of Errors",
+    "resources": []
+  },
+  {
+    "id": "6xfQic8dMwUsMQa7VtS8_",
+    "old_id": "6xfQic8dMwUsMQa7VtS8_",
+    "type": "topic",
+    "label": "Hypothesis Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\hypothesis-testing@6xfQic8dMwUsMQa7VtS8_.md"
+  },
+  {
+    "id": "m9ejACzRBJza0v-fpdfkn",
+    "old_id": "6xfQic8dMwUsMQa7VtS8_",
+    "type": "topic",
+    "label": "Regression Analysis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\hypothesis-testing@6xfQic8dMwUsMQa7VtS8_.md"
+  },
+  {
+    "id": "4-fpZx8p5iSNI3n4Qtacl",
+    "old_id": "_QyIZ2_vH3e3yic5NTuak",
+    "type": "subtopic",
+    "label": "Linear Regression",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\beyond-linear-regression@_QyIZ2_vH3e3yic5NTuak.md"
+  },
+  {
+    "id": "_QyIZ2_vH3e3yic5NTuak",
+    "old_id": "_QyIZ2_vH3e3yic5NTuak",
+    "type": "subtopic",
+    "label": "Beyond Linear Regression",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\beyond-linear-regression@_QyIZ2_vH3e3yic5NTuak.md"
+  },
+  {
+    "id": "nhl9FM79femgqENNR0HbE",
+    "old_id": "_iV_5O5Rq07P9qRGrraTM",
+    "type": "subtopic",
+    "label": "PostgreSQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\sql@_iV_5O5Rq07P9qRGrraTM.md"
+  },
+  {
+    "id": "uoQS4g-c6QndacUeiaWrq",
+    "old_id": "ZAhjB_ghHukD4RPAtNDxh",
+    "type": "subtopic",
+    "label": "Oracle",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\dplyr@ZAhjB_ghHukD4RPAtNDxh.md"
+  },
+  {
+    "id": "eqnAEp2VT7FD2VDy5WVDP",
+    "old_id": "9BWyA0b4WrmQetSMph_mY",
+    "type": "subtopic",
+    "label": "MySQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\excel@9BWyA0b4WrmQetSMph_mY.md"
+  },
+  {
+    "id": "lrksz861rE5m2XzOQPwgh",
+    "old_id": "25f76eB9-vy3Usta-Pbsi",
+    "type": "subtopic",
+    "label": "SQLite",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\pandas@25f76eB9-vy3Usta-Pbsi.md"
+  },
+  {
+    "id": "y9Fnjnbiqt7WkrhjPITpW",
+    "old_id": "GgC6B19SqudLDQWbINAz1",
+    "type": "subtopic",
+    "label": "Performance",
+    "resources": []
+  },
+  {
+    "id": "TuBJ2yUz1c5KMRGVHdvU5",
+    "old_id": "TuBJ2yUz1c5KMRGVHdvU5",
+    "type": "subtopic",
+    "label": "Basic Queries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\basic-queries@TuBJ2yUz1c5KMRGVHdvU5.md"
+  },
+  {
+    "id": "-gbb16Wl--Rjx5aoM0krL",
+    "old_id": "4-fpZx8p5iSNI3n4Qtacl",
+    "type": "subtopic",
+    "label": "Advanced Queries",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\linear-regression@4-fpZx8p5iSNI3n4Qtacl.md"
+  },
+  {
+    "id": "1toMuRZResgse1AtwEck6",
+    "old_id": "_QyIZ2_vH3e3yic5NTuak",
+    "type": "subtopic",
+    "label": "Window Functions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\beyond-linear-regression@_QyIZ2_vH3e3yic5NTuak.md"
+  },
+  {
+    "id": "Vo7LJ_W-DBvxvVrnz33BM",
+    "old_id": "oMrk9ZXVwqcgaoMrTCnVU",
+    "type": "topic",
+    "label": "Data Cleaning",
+    "resources": []
+  },
+  {
+    "id": "_iV_5O5Rq07P9qRGrraTM",
+    "old_id": "_iV_5O5Rq07P9qRGrraTM",
+    "type": "subtopic",
+    "label": "SQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\sql@_iV_5O5Rq07P9qRGrraTM.md"
+  },
+  {
+    "id": "ZAhjB_ghHukD4RPAtNDxh",
+    "old_id": "ZAhjB_ghHukD4RPAtNDxh",
+    "type": "subtopic",
+    "label": "dplyr",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\dplyr@ZAhjB_ghHukD4RPAtNDxh.md"
+  },
+  {
+    "id": "9BWyA0b4WrmQetSMph_mY",
+    "old_id": "9BWyA0b4WrmQetSMph_mY",
+    "type": "subtopic",
+    "label": "Excel",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\excel@9BWyA0b4WrmQetSMph_mY.md"
+  },
+  {
+    "id": "25f76eB9-vy3Usta-Pbsi",
+    "old_id": "25f76eB9-vy3Usta-Pbsi",
+    "type": "subtopic",
+    "label": "Pandas",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\pandas@25f76eB9-vy3Usta-Pbsi.md"
+  },
+  {
+    "id": "GVgfPajmSqIgFZ6u2I1tK",
+    "old_id": "k-DH_EVPEEC5RuOY7Ezx9",
+    "type": "topic",
+    "label": "Chart Categories",
+    "resources": []
+  },
+  {
+    "id": "eKBORkRU6HCH-D4GWHyKR",
+    "old_id": "eKBORkRU6HCH-D4GWHyKR",
+    "type": "topic",
+    "label": "Visualization Best Practices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\visualization-best-practices@eKBORkRU6HCH-D4GWHyKR.md"
+  },
+  {
+    "id": "TCYG6vmFqq1zAPNQWoOH8",
+    "old_id": "TCYG6vmFqq1zAPNQWoOH8",
+    "type": "subtopic",
+    "label": "Standardisation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\standardisation@TCYG6vmFqq1zAPNQWoOH8.md"
+  },
+  {
+    "id": "LLK3_hudKDX5d-fd98vlx",
+    "old_id": "LLK3_hudKDX5d-fd98vlx",
+    "type": "topic",
+    "label": "Excel",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\excel@LLK3_hudKDX5d-fd98vlx.md"
+  },
+  {
+    "id": "1T2PyytlmndHreWgueD55",
+    "old_id": "1T2PyytlmndHreWgueD55",
+    "type": "subtopic",
+    "label": "Financial Performance",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\financial-performance@1T2PyytlmndHreWgueD55.md"
+  },
+  {
+    "id": "Cydlrtg_FClBUkjezqGie",
+    "old_id": "Cydlrtg_FClBUkjezqGie",
+    "type": "subtopic",
+    "label": "Public Health",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\public-health@Cydlrtg_FClBUkjezqGie.md"
+  },
+  {
+    "id": "On6kznZxLTCpBPskdZtgT",
+    "old_id": "On6kznZxLTCpBPskdZtgT",
+    "type": "subtopic",
+    "label": "Trends",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\trends@On6kznZxLTCpBPskdZtgT.md"
+  },
+  {
+    "id": "moWrEfuKE06QwbznsH3V-",
+    "old_id": "moWrEfuKE06QwbznsH3V-",
+    "type": "subtopic",
+    "label": "Seasonality",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\seasonality@moWrEfuKE06QwbznsH3V-.md"
+  },
+  {
+    "id": "eZN_ty8VDX9mi5KtCWTFL",
+    "old_id": "5MUwKGfSTKlam8KCG0A1U",
+    "type": "subtopic",
+    "label": "Supervised Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\mitigation-strategies@5MUwKGfSTKlam8KCG0A1U.md"
+  },
+  {
+    "id": "6l_tHC1R5zgABHMc_G6RD",
+    "old_id": "_uLtsnyNNNRcz5A29Zpjl",
+    "type": "subtopic",
+    "label": "Unsupervised Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\algorithmic-bias@_uLtsnyNNNRcz5A29Zpjl.md"
+  },
+  {
+    "id": "KFONHuJNnCuSOH7-8Ndvm",
+    "old_id": "5MUwKGfSTKlam8KCG0A1U",
+    "type": "subtopic",
+    "label": "Reinforcement Learning",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\mitigation-strategies@5MUwKGfSTKlam8KCG0A1U.md"
+  },
+  {
+    "id": "TBcLXYtKs7_j_h_m2pAyh",
+    "old_id": "TBcLXYtKs7_j_h_m2pAyh",
+    "type": "topic",
+    "label": "Communication & Storytelling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\communication--storytelling@TBcLXYtKs7_j_h_m2pAyh.md"
+  },
+  {
+    "id": "mi88uLdJBXaxJ2yVOSqqo",
+    "old_id": "mi88uLdJBXaxJ2yVOSqqo",
+    "type": "topic",
+    "label": "Soft Skills",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\soft-skills@mi88uLdJBXaxJ2yVOSqqo.md"
+  },
+  {
+    "id": "bGCMAgaenZ0t3WeO5joyP",
+    "old_id": "bGCMAgaenZ0t3WeO5joyP",
+    "type": "topic",
+    "label": "Data Quality",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\data-quality@bGCMAgaenZ0t3WeO5joyP.md"
+  },
+  {
+    "id": "CWf_vL78f8-mSUQbPnU8e",
+    "old_id": "9sEmMITUVrQc-IOvxuydC",
+    "type": "subtopic",
+    "label": "GDPR",
+    "resources": []
+  },
+  {
+    "id": "IwnXDA-f3FHK4EEeFuToC",
+    "old_id": "diaTVQEDxgCosJ0YLfmZr",
+    "type": "subtopic",
+    "label": "CCPA",
+    "resources": []
+  },
+  {
+    "id": "_uLtsnyNNNRcz5A29Zpjl",
+    "old_id": "5MUwKGfSTKlam8KCG0A1U",
+    "type": "subtopic",
+    "label": "Algorithmic Bias",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\mitigation-strategies@5MUwKGfSTKlam8KCG0A1U.md"
+  },
+  {
+    "id": "5MUwKGfSTKlam8KCG0A1U",
+    "old_id": "bIhGv4886V4RWJD3tX0a0",
+    "type": "subtopic",
+    "label": "Mitigation Strategies",
+    "resources": []
+  },
+  {
+    "id": "qnUHw2f2VmTPU3-NMnoLl",
+    "old_id": "9sEmMITUVrQc-IOvxuydC",
+    "type": "subtopic",
+    "label": "Airflow",
+    "resources": []
+  },
+  {
+    "id": "-KzusmyDQ1NgqOADpqmEX",
+    "old_id": "diaTVQEDxgCosJ0YLfmZr",
+    "type": "subtopic",
+    "label": "dbt",
+    "resources": []
+  },
+  {
+    "id": "hqpFbDhAvyT9_4hcoSLhC",
+    "old_id": "hqpFbDhAvyT9_4hcoSLhC",
+    "type": "topic",
+    "label": "Certifications",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\bi-analyst\\content\\certifications@hqpFbDhAvyT9_4hcoSLhC.md"
+  },
+  {
+    "id": "_KYKLd-RNhVy-Sn1A-G5j",
+    "old_id": "OS887yXaOuVpKd7JPtzgw",
+    "type": "subtopic",
+    "label": "Cloud Computing Basics",
+    "resources": []
+  },
+  {
+    "id": "D94743lQ1fAerVSpJWXfP",
+    "old_id": "pNUJVoFV1oQJmTun5cwRv",
+    "type": "subtopic",
+    "label": "Cloud data warehouses",
+    "resources": []
+  },
+  {
+    "id": "Z4pAe4FpnCkUJt8RuOhC6",
+    "old_id": "pNUJVoFV1oQJmTun5cwRv",
+    "type": "subtopic",
+    "label": "Providers: AWS, GCP, Azure",
+    "resources": []
+  }
+]

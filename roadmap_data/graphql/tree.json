@@ -1,0 +1,782 @@
+[
+  {
+    "id": "SFhbL3KKBd053kCVToTm1",
+    "old_id": "SFhbL3KKBd053kCVToTm1",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "BVXPP2J15hss2hF85urjN",
+    "old_id": "BVXPP2J15hss2hF85urjN",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "0YJo_ti1JDu1GRmdC2WzA",
+    "old_id": "D0RHwVcuH4qus_oiCbDo0",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "QGWApwm1h5K_n0M81b9DH",
+    "old_id": "QGWApwm1h5K_n0M81b9DH",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "D0RHwVcuH4qus_oiCbDo0",
+    "old_id": "D0RHwVcuH4qus_oiCbDo0",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "C2zefkHdFZjID3CdqXmAy",
+    "old_id": "C2zefkHdFZjID3CdqXmAy",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "zQpkRd7jNV509JOpL6VxX",
+    "old_id": "0YJo_ti1JDu1GRmdC2WzA",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "HU7wZWiES3m3xl1-NYP6F",
+    "old_id": "HU7wZWiES3m3xl1-NYP6F",
+    "type": "title",
+    "label": "GraphQL",
+    "resources": [],
+    "children": [
+      {
+        "id": "JfXwzkN29UGz17FYHHE3A",
+        "old_id": "4U-HZQGH7kaWCB94Xy8Mh",
+        "type": "topic",
+        "label": "Introduction",
+        "resources": [],
+        "children": [
+          {
+            "id": "2rlmLn_yQQV-7DpX1qT98",
+            "old_id": "VhSEH_RoWFt1z2lial7xZ",
+            "type": "subtopic",
+            "label": "Problems GraphQL Solves",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "cMfsRtvzvDZZJ0TqeUOxm",
+            "old_id": "W4gEPRYmk5Y7y3PjI6fR7",
+            "type": "subtopic",
+            "label": "What is GraphQL",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "J5mU0v491qrm-mr1W3Msd",
+            "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+            "type": "subtopic",
+            "label": "Thinking in Graphs",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\graphql-on-backend@ODQ8zrHc2rsc8PN-APKvz.md",
+            "children": []
+          },
+          {
+            "id": "6r9XbwlBtHmJrhviG2cTD",
+            "old_id": "ODQ8zrHc2rsc8PN-APKvz",
+            "type": "subtopic",
+            "label": "GraphQL on Frontend",
+            "resources": [],
+            "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\graphql-on-backend@ODQ8zrHc2rsc8PN-APKvz.md",
+            "children": []
+          },
+          {
+            "id": "ODQ8zrHc2rsc8PN-APKvz",
+            "old_id": "VhSEH_RoWFt1z2lial7xZ",
+            "type": "subtopic",
+            "label": "GraphQL on Backend",
+            "resources": [],
+            "children": []
+          },
+          {
+            "id": "W_Lg8086ZhrIqtck1sgnb",
+            "old_id": "cSXsu17F1Oy34Wp6J-N3C",
+            "type": "topic",
+            "label": "GraphQL Queries",
+            "resources": [],
+            "children": [
+              {
+                "id": "YZaFEK547FYricfOuANvH",
+                "old_id": "CehwjrCG_wbUU-TFNCuJn",
+                "type": "subtopic",
+                "label": "Variables",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\fragments@CehwjrCG_wbUU-TFNCuJn.md",
+                "children": []
+              },
+              {
+                "id": "B77yLU4SuRChSjEbmYwc-",
+                "old_id": "CehwjrCG_wbUU-TFNCuJn",
+                "type": "subtopic",
+                "label": "Aliases",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\fragments@CehwjrCG_wbUU-TFNCuJn.md",
+                "children": []
+              },
+              {
+                "id": "hrpb108R8Gyu3hhzkMYzL",
+                "old_id": "CehwjrCG_wbUU-TFNCuJn",
+                "type": "subtopic",
+                "label": "Arguments",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\fragments@CehwjrCG_wbUU-TFNCuJn.md",
+                "children": []
+              },
+              {
+                "id": "MnmwccPahqPCzOhqjfbsY",
+                "old_id": "CehwjrCG_wbUU-TFNCuJn",
+                "type": "subtopic",
+                "label": "Directives",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\fragments@CehwjrCG_wbUU-TFNCuJn.md",
+                "children": []
+              },
+              {
+                "id": "CehwjrCG_wbUU-TFNCuJn",
+                "old_id": "CehwjrCG_wbUU-TFNCuJn",
+                "type": "subtopic",
+                "label": "Fragments",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\fragments@CehwjrCG_wbUU-TFNCuJn.md",
+                "children": []
+              },
+              {
+                "id": "Pc9H7AcoqJQkWnuhbytyD",
+                "old_id": "YZaFEK547FYricfOuANvH",
+                "type": "subtopic",
+                "label": "Fields",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\variables@YZaFEK547FYricfOuANvH.md",
+                "children": []
+              },
+              {
+                "id": "2SU4dcaz7zwGsF7g8FjmI",
+                "old_id": "CehwjrCG_wbUU-TFNCuJn",
+                "type": "subtopic",
+                "label": "What are Queries?",
+                "resources": [],
+                "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\fragments@CehwjrCG_wbUU-TFNCuJn.md",
+                "children": []
+              },
+              {
+                "id": "jy_91mhFWbpR6sYVbuX1x",
+                "old_id": "cSXsu17F1Oy34Wp6J-N3C",
+                "type": "topic",
+                "label": "Mutations",
+                "resources": [],
+                "children": [
+                  {
+                    "id": "AySlY8AyI6jE-cy-qKKOU",
+                    "old_id": "q9TYEygvUyHourdZIvk8G",
+                    "type": "subtopic",
+                    "label": "Multiple Fields in Mutation",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\operation-name@q9TYEygvUyHourdZIvk8G.md",
+                    "children": []
+                  },
+                  {
+                    "id": "q9TYEygvUyHourdZIvk8G",
+                    "old_id": "q9TYEygvUyHourdZIvk8G",
+                    "type": "subtopic",
+                    "label": "Operation Name",
+                    "resources": [],
+                    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\operation-name@q9TYEygvUyHourdZIvk8G.md",
+                    "children": []
+                  },
+                  {
+                    "id": "9Q2pGidY-rfkltHq3vChp",
+                    "old_id": "YzRFmq1mXrM5uF3FXZQmj",
+                    "type": "subtopic",
+                    "label": "What are Mutations?",
+                    "resources": [],
+                    "children": []
+                  },
+                  {
+                    "id": "IbEqXlGjsyNLKE9dZrPPk",
+                    "old_id": "cSXsu17F1Oy34Wp6J-N3C",
+                    "type": "topic",
+                    "label": "Subscriptions",
+                    "resources": [],
+                    "children": [
+                      {
+                        "id": "RlBc-hWEUOPaEQLTgJa-K",
+                        "old_id": "sJ1_c3e08aehiqNMbIEEP",
+                        "type": "subtopic",
+                        "label": "What are Subscriptions",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+                        "children": []
+                      },
+                      {
+                        "id": "kJMyRhasBKfBypent3GxK",
+                        "old_id": "sJ1_c3e08aehiqNMbIEEP",
+                        "type": "subtopic",
+                        "label": "Event Based Subscriptions",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+                        "children": []
+                      },
+                      {
+                        "id": "CHdzww8_TNfeM6Bp1oTPI",
+                        "old_id": "sJ1_c3e08aehiqNMbIEEP",
+                        "type": "subtopic",
+                        "label": "Live Queries",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+                        "children": []
+                      },
+                      {
+                        "id": "t6XxFB_lx27kS4FE2_GMH",
+                        "old_id": "sJ1_c3e08aehiqNMbIEEP",
+                        "type": "subtopic",
+                        "label": "@defer / @stream directives",
+                        "resources": [],
+                        "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+                        "children": []
+                      },
+                      {
+                        "id": "lj1WEh4WbfBsoZFYsi1Yz",
+                        "old_id": "cSXsu17F1Oy34Wp6J-N3C",
+                        "type": "topic",
+                        "label": "Schema",
+                        "resources": [],
+                        "children": [
+                          {
+                            "id": "iYkHCKTsjtvo40f3eZoet",
+                            "old_id": "cSXsu17F1Oy34Wp6J-N3C",
+                            "type": "topic",
+                            "label": "Validation",
+                            "resources": [],
+                            "children": [
+                              {
+                                "id": "72wGg6yP8WnEdmkeKL9vh",
+                                "old_id": "cSXsu17F1Oy34Wp6J-N3C",
+                                "type": "topic",
+                                "label": "Execution",
+                                "resources": [],
+                                "children": [
+                                  {
+                                    "id": "inhjhH-7xJyX8o4DQqErF",
+                                    "old_id": "cSXsu17F1Oy34Wp6J-N3C",
+                                    "type": "topic",
+                                    "label": "Serving over Internet",
+                                    "resources": [],
+                                    "children": [
+                                      {
+                                        "id": "Uf8XxJPs7RzKVhlxiQdbB",
+                                        "old_id": "8YdlLJ_Ki8NxgVzMNeyzo",
+                                        "type": "topic",
+                                        "label": "Pagination",
+                                        "resources": [],
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "if9eTna5NRTMStVwpSwDP",
+    "old_id": "2zqZkyVgigifcRS1H7F_b",
+    "type": "button",
+    "label": "roadmap.sh",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "w_rUaBorHFOY74S0JiEwM",
+    "old_id": "w_rUaBorHFOY74S0JiEwM",
+    "type": "linksgroup",
+    "label": "Related Roadmaps",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "6AIUtChWC_gK8Ax0UuBjd",
+    "old_id": "f5WRewBlpeYMf71cPcXs-",
+    "type": "button",
+    "label": "Frontend Roadmap",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "jpu0_FAlxtD-H80mPcod5",
+    "old_id": "A54vi3Ao7fBHyTuqoH_it",
+    "type": "subtopic",
+    "label": "Type System",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\arguments@A54vi3Ao7fBHyTuqoH_it.md",
+    "children": []
+  },
+  {
+    "id": "HPdntdgTar1T34CZX8Y6y",
+    "old_id": "LX9vZpx7yKlf0iR6AtBWz",
+    "type": "subtopic",
+    "label": "Fields",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\objects@LX9vZpx7yKlf0iR6AtBWz.md",
+    "children": []
+  },
+  {
+    "id": "U-tLelmNQtR-pUq-sxU_2",
+    "old_id": "A54vi3Ao7fBHyTuqoH_it",
+    "type": "subtopic",
+    "label": "Scalars",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\arguments@A54vi3Ao7fBHyTuqoH_it.md",
+    "children": []
+  },
+  {
+    "id": "wfOsfb0zSAIdNkwFHfBcw",
+    "old_id": "A54vi3Ao7fBHyTuqoH_it",
+    "type": "subtopic",
+    "label": "Enums",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\arguments@A54vi3Ao7fBHyTuqoH_it.md",
+    "children": []
+  },
+  {
+    "id": "tc_rjJZrr2x3bp8mcoQ0F",
+    "old_id": "LX9vZpx7yKlf0iR6AtBWz",
+    "type": "subtopic",
+    "label": "Interfaces",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\objects@LX9vZpx7yKlf0iR6AtBWz.md",
+    "children": []
+  },
+  {
+    "id": "d2ikbo4sZq7PmaCi5znkd",
+    "old_id": "A54vi3Ao7fBHyTuqoH_it",
+    "type": "subtopic",
+    "label": "Lists",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\arguments@A54vi3Ao7fBHyTuqoH_it.md",
+    "children": []
+  },
+  {
+    "id": "LX9vZpx7yKlf0iR6AtBWz",
+    "old_id": "A54vi3Ao7fBHyTuqoH_it",
+    "type": "subtopic",
+    "label": "Objects",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\arguments@A54vi3Ao7fBHyTuqoH_it.md",
+    "children": []
+  },
+  {
+    "id": "59COH3rerJJzKr6vrj4bF",
+    "old_id": "A54vi3Ao7fBHyTuqoH_it",
+    "type": "subtopic",
+    "label": "Unions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\arguments@A54vi3Ao7fBHyTuqoH_it.md",
+    "children": []
+  },
+  {
+    "id": "A54vi3Ao7fBHyTuqoH_it",
+    "old_id": "A54vi3Ao7fBHyTuqoH_it",
+    "type": "subtopic",
+    "label": "Arguments",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\arguments@A54vi3Ao7fBHyTuqoH_it.md",
+    "children": []
+  },
+  {
+    "id": "AlJlHZD3_SPoLNaqdM-pB",
+    "old_id": "zQHifboRreE4OgJ7GnUlp",
+    "type": "subtopic",
+    "label": "Root Fields",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\producing-the-result@zQHifboRreE4OgJ7GnUlp.md",
+    "children": []
+  },
+  {
+    "id": "VDur5xYBC0LJtQgDrSEyj",
+    "old_id": "sJ1_c3e08aehiqNMbIEEP",
+    "type": "subtopic",
+    "label": "Resolvers",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+    "children": []
+  },
+  {
+    "id": "uPpsj2kCdgKsJpmTaw86u",
+    "old_id": "sJ1_c3e08aehiqNMbIEEP",
+    "type": "subtopic",
+    "label": "Synchronous",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+    "children": []
+  },
+  {
+    "id": "tbDvQBtLRAcD-xYX9V7Va",
+    "old_id": "sJ1_c3e08aehiqNMbIEEP",
+    "type": "subtopic",
+    "label": "Asynchronous",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+    "children": []
+  },
+  {
+    "id": "QFUOmJlPkkjpcl1vJxg9h",
+    "old_id": "sJ1_c3e08aehiqNMbIEEP",
+    "type": "subtopic",
+    "label": "Scalar Coercion",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+    "children": []
+  },
+  {
+    "id": "sJ1_c3e08aehiqNMbIEEP",
+    "old_id": "sJ1_c3e08aehiqNMbIEEP",
+    "type": "subtopic",
+    "label": "Lists",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+    "children": []
+  },
+  {
+    "id": "I4wNBXV4xEZ0LWBhv5FwF",
+    "old_id": "zQHifboRreE4OgJ7GnUlp",
+    "type": "subtopic",
+    "label": "Validation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\producing-the-result@zQHifboRreE4OgJ7GnUlp.md",
+    "children": []
+  },
+  {
+    "id": "zQHifboRreE4OgJ7GnUlp",
+    "old_id": "sJ1_c3e08aehiqNMbIEEP",
+    "type": "subtopic",
+    "label": "Producing the Result",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\lists@sJ1_c3e08aehiqNMbIEEP.md",
+    "children": []
+  },
+  {
+    "id": "Ya0ORdmEHEPpp1GAzMLVT",
+    "old_id": "Ya0ORdmEHEPpp1GAzMLVT",
+    "type": "label",
+    "label": "GraphQL Over HTTP",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "V3bgswBFr1xames3F8S_V",
+    "old_id": "i-zcfN6RNXhA_sb7DcIon",
+    "type": "subtopic",
+    "label": "GraphQL Over HTTP Spec",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\authorization@i-zcfN6RNXhA_sb7DcIon.md",
+    "children": []
+  },
+  {
+    "id": "UYwuUVTeurwODV4_Kdt_W",
+    "old_id": "i-zcfN6RNXhA_sb7DcIon",
+    "type": "subtopic",
+    "label": "Caching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\authorization@i-zcfN6RNXhA_sb7DcIon.md",
+    "children": []
+  },
+  {
+    "id": "v9gVexHfDkpG9z3NL5S-9",
+    "old_id": "i-zcfN6RNXhA_sb7DcIon",
+    "type": "subtopic",
+    "label": "Batching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\authorization@i-zcfN6RNXhA_sb7DcIon.md",
+    "children": []
+  },
+  {
+    "id": "i-zcfN6RNXhA_sb7DcIon",
+    "old_id": "i-zcfN6RNXhA_sb7DcIon",
+    "type": "subtopic",
+    "label": "Authorization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\authorization@i-zcfN6RNXhA_sb7DcIon.md",
+    "children": []
+  },
+  {
+    "id": "ud-BWNe_McqpZXHtlXPyr",
+    "old_id": "QGWApwm1h5K_n0M81b9DH",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "st02HY5-DEab1pYXkBc3S",
+    "old_id": "Ya0ORdmEHEPpp1GAzMLVT",
+    "type": "label",
+    "label": "GraphQL Over WebSockets",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "A-PQ3_FVuCK3Eud75hsdj",
+    "old_id": "V3bgswBFr1xames3F8S_V",
+    "type": "subtopic",
+    "label": "Specification",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\graphql-over-http-spec@V3bgswBFr1xames3F8S_V.md",
+    "children": []
+  },
+  {
+    "id": "2YLm_S1j_832pb1OGSNaM",
+    "old_id": "UYwuUVTeurwODV4_Kdt_W",
+    "type": "subtopic",
+    "label": "Realtime",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\caching@UYwuUVTeurwODV4_Kdt_W.md",
+    "children": []
+  },
+  {
+    "id": "GzwPvLybxTJM96fUhQUOi",
+    "old_id": "i-zcfN6RNXhA_sb7DcIon",
+    "type": "subtopic",
+    "label": "Authorization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\authorization@i-zcfN6RNXhA_sb7DcIon.md",
+    "children": []
+  },
+  {
+    "id": "cH2FSWgKxQbBoI0tI-QNH",
+    "old_id": "ud-BWNe_McqpZXHtlXPyr",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "F4nR2VZ4k1uekWXINoMKH",
+    "old_id": "st02HY5-DEab1pYXkBc3S",
+    "type": "label",
+    "label": "GraphQL Over SSE",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "O8k-m6s9B_uXkLsXKVFnL",
+    "old_id": "iTV2H8clmRTOksul4v38p",
+    "type": "subtopic",
+    "label": "Specification",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\mercurius@iTV2H8clmRTOksul4v38p.md",
+    "children": []
+  },
+  {
+    "id": "G50ZMlmP7Ru5LcFne5Rhu",
+    "old_id": "GzwPvLybxTJM96fUhQUOi",
+    "type": "subtopic",
+    "label": "Authorization",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\authorization@GzwPvLybxTJM96fUhQUOi.md",
+    "children": []
+  },
+  {
+    "id": "jCzrMElTo-c9xGcpPOOPl",
+    "old_id": "7szipojhVb2VoL3VcS619",
+    "type": "subtopic",
+    "label": "GraphQL.js",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\graphql-java@7szipojhVb2VoL3VcS619.md",
+    "children": []
+  },
+  {
+    "id": "9nVo95gRNGHGIbaJQPH1x",
+    "old_id": "9nVo95gRNGHGIbaJQPH1x",
+    "type": "subtopic",
+    "label": "GraphQL Go",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\graphql-go@9nVo95gRNGHGIbaJQPH1x.md",
+    "children": []
+  },
+  {
+    "id": "1q77xUifPS5sLx5tktXxF",
+    "old_id": "eNNThl8rxj-0pibTpBck0",
+    "type": "label",
+    "label": "Go Implementation",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "qmlQ3184CZ9HgvRHVcPT6",
+    "old_id": "-STVQpKbY5I9eTExdJ6mc",
+    "type": "label",
+    "label": "JavaScript Implementation",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "7szipojhVb2VoL3VcS619",
+    "old_id": "JhnARvY0P1sb8dEconHeY",
+    "type": "subtopic",
+    "label": "GraphQL Java",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "-STVQpKbY5I9eTExdJ6mc",
+    "old_id": "eNNThl8rxj-0pibTpBck0",
+    "type": "label",
+    "label": "Java Implementation",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "_8RiK9B8endMNBjiKsazU",
+    "old_id": "_8RiK9B8endMNBjiKsazU",
+    "type": "label",
+    "label": "JavaScript",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "N-vsu-wvOikuoTbzdgX3X",
+    "old_id": "iTV2H8clmRTOksul4v38p",
+    "type": "subtopic",
+    "label": "graphql-http",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\mercurius@iTV2H8clmRTOksul4v38p.md",
+    "children": []
+  },
+  {
+    "id": "Gotb1xtxySCVC5MrnkPSs",
+    "old_id": "iTV2H8clmRTOksul4v38p",
+    "type": "subtopic",
+    "label": "GraphQL Yoga",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\mercurius@iTV2H8clmRTOksul4v38p.md",
+    "children": []
+  },
+  {
+    "id": "o_VkyoN6DmUUkfl0u0cro",
+    "old_id": "iTV2H8clmRTOksul4v38p",
+    "type": "subtopic",
+    "label": "Apollo Server",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\mercurius@iTV2H8clmRTOksul4v38p.md",
+    "children": []
+  },
+  {
+    "id": "iTV2H8clmRTOksul4v38p",
+    "old_id": "A-PQ3_FVuCK3Eud75hsdj",
+    "type": "subtopic",
+    "label": "mercurius",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\specification@A-PQ3_FVuCK3Eud75hsdj.md",
+    "children": []
+  },
+  {
+    "id": "lUOOZDUJOgktHf07nGzCJ",
+    "old_id": "BjJfMCOatN2_3TVt-6GnG",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "4IugiCX3rnKv5ak50sqGm",
+    "old_id": "SFhbL3KKBd053kCVToTm1",
+    "type": "section",
+    "label": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "3lQ4cxevkw0p8v7fHm4I7",
+    "old_id": "_8RiK9B8endMNBjiKsazU",
+    "type": "label",
+    "label": "JavaScript",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "datKo3vPDwXoyVskcrdkc",
+    "old_id": "N-vsu-wvOikuoTbzdgX3X",
+    "type": "subtopic",
+    "label": "graphql-http",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\graphql-http@N-vsu-wvOikuoTbzdgX3X.md",
+    "children": []
+  },
+  {
+    "id": "Ab_ngkf6bmejvcp9okuw6",
+    "old_id": "Gotb1xtxySCVC5MrnkPSs",
+    "type": "subtopic",
+    "label": "Relay",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\graphql-yoga@Gotb1xtxySCVC5MrnkPSs.md",
+    "children": []
+  },
+  {
+    "id": "D5O7ky5eXwm_Ys1IcFNaq",
+    "old_id": "o_VkyoN6DmUUkfl0u0cro",
+    "type": "subtopic",
+    "label": "Apollo Client",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\apollo-server@o_VkyoN6DmUUkfl0u0cro.md",
+    "children": []
+  },
+  {
+    "id": "WP0Oo_YMfLBlXqDQQtKes",
+    "old_id": "iTV2H8clmRTOksul4v38p",
+    "type": "subtopic",
+    "label": "Urql",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\graphql\\content\\mercurius@iTV2H8clmRTOksul4v38p.md",
+    "children": []
+  },
+  {
+    "id": "BjJfMCOatN2_3TVt-6GnG",
+    "old_id": "BjJfMCOatN2_3TVt-6GnG",
+    "type": "horizontal",
+    "label": "horizontal node",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "f5WRewBlpeYMf71cPcXs-",
+    "old_id": "StxLh1r3qXqyRSqfJGird",
+    "type": "button",
+    "label": "Backend Roadmap",
+    "resources": [],
+    "children": []
+  }
+]

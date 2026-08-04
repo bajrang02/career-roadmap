@@ -1,0 +1,298 @@
+[
+  {
+    "id": "B0kARTODvCBi0iOF8iiqI",
+    "old_id": "mGgx_QTEPmVKf6AijX9fi",
+    "type": "topic",
+    "label": "HTML",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\npm@mGgx_QTEPmVKf6AijX9fi.md"
+  },
+  {
+    "id": "dAJHWmGeiYdzZ1ZjrWz1S",
+    "old_id": "mGgx_QTEPmVKf6AijX9fi",
+    "type": "topic",
+    "label": "CSS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\npm@mGgx_QTEPmVKf6AijX9fi.md"
+  },
+  {
+    "id": "T9PB6WQf-Fa9NXKKvVOy_",
+    "old_id": "khoUtTUxdf8udAzN9_CAb",
+    "type": "topic",
+    "label": "JavaScript",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\react@khoUtTUxdf8udAzN9_CAb.md"
+  },
+  {
+    "id": "mGgx_QTEPmVKf6AijX9fi",
+    "old_id": "mGgx_QTEPmVKf6AijX9fi",
+    "type": "topic",
+    "label": "npm",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\npm@mGgx_QTEPmVKf6AijX9fi.md"
+  },
+  {
+    "id": "WsdUAEaI7FX6DKKhPXUHp",
+    "old_id": "7JU1cVggMDoZUV-adGsf-",
+    "type": "subtopic",
+    "label": "Checkpoint - Static Webpages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint---frontend-apps@7JU1cVggMDoZUV-adGsf-.md"
+  },
+  {
+    "id": "2DFzoIUjKdAKGjfu_SCfa",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint - Interactivity",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md"
+  },
+  {
+    "id": "We2APJpOPTr-VNfowG0kI",
+    "old_id": "khoUtTUxdf8udAzN9_CAb",
+    "type": "topic",
+    "label": "Git",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\react@khoUtTUxdf8udAzN9_CAb.md"
+  },
+  {
+    "id": "8sPXL8iClpPqje03ksses",
+    "old_id": "khoUtTUxdf8udAzN9_CAb",
+    "type": "topic",
+    "label": "GitHub",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\react@khoUtTUxdf8udAzN9_CAb.md"
+  },
+  {
+    "id": "R4aeJNOrfWyVp3ea-qF4H",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint - External Packages",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md"
+  },
+  {
+    "id": "CVCqdPkq_hGQfI8EEi5RC",
+    "old_id": "2kKHuQZScu7hCDgQWxl5u",
+    "type": "topic",
+    "label": "Tailwind CSS",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\terraform@2kKHuQZScu7hCDgQWxl5u.md"
+  },
+  {
+    "id": "khoUtTUxdf8udAzN9_CAb",
+    "old_id": "mGgx_QTEPmVKf6AijX9fi",
+    "type": "topic",
+    "label": "React",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\npm@mGgx_QTEPmVKf6AijX9fi.md"
+  },
+  {
+    "id": "zFGWxgLPcZoW7KIzlnSV9",
+    "old_id": "7JU1cVggMDoZUV-adGsf-",
+    "type": "subtopic",
+    "label": "Checkpoint - Collaborative Work",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint---frontend-apps@7JU1cVggMDoZUV-adGsf-.md"
+  },
+  {
+    "id": "7JU1cVggMDoZUV-adGsf-",
+    "old_id": "7JU1cVggMDoZUV-adGsf-",
+    "type": "subtopic",
+    "label": "Checkpoint - Frontend Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint---frontend-apps@7JU1cVggMDoZUV-adGsf-.md"
+  },
+  {
+    "id": "_aA6Hp4KkgJeptqo8oKTg",
+    "old_id": "cUOfvOlQ_0Uu1VX3i67kJ",
+    "type": "topic",
+    "label": "Node.js",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\basic-aws-services@cUOfvOlQ_0Uu1VX3i67kJ.md"
+  },
+  {
+    "id": "JGu0TKwAw-ieiG92BytYI",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint — CLI Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md"
+  },
+  {
+    "id": "vmHbWdmMHF53otXIrqzRV",
+    "old_id": "cUOfvOlQ_0Uu1VX3i67kJ",
+    "type": "topic",
+    "label": "RESTful APIs",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\basic-aws-services@cUOfvOlQ_0Uu1VX3i67kJ.md"
+  },
+  {
+    "id": "3EtGLO6cwkLc1-o9gwFNk",
+    "old_id": "sO_9-l4FECbaqiaFnyeXO",
+    "type": "subtopic",
+    "label": "Checkpoint — Simple CRUD Apps",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--automation@sO_9-l4FECbaqiaFnyeXO.md"
+  },
+  {
+    "id": "vHojhJYjiN0IwruEqi1Dv",
+    "old_id": "cUOfvOlQ_0Uu1VX3i67kJ",
+    "type": "topic",
+    "label": "JWT Auth",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\basic-aws-services@cUOfvOlQ_0Uu1VX3i67kJ.md"
+  },
+  {
+    "id": "Onfd7Sl8LG2sjh2aQY7gb",
+    "old_id": "cUOfvOlQ_0Uu1VX3i67kJ",
+    "type": "topic",
+    "label": "Redis",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\basic-aws-services@cUOfvOlQ_0Uu1VX3i67kJ.md"
+  },
+  {
+    "id": "SHTSvMDqI7X1_ZT7-m--n",
+    "old_id": "cUOfvOlQ_0Uu1VX3i67kJ",
+    "type": "topic",
+    "label": "Linux Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\basic-aws-services@cUOfvOlQ_0Uu1VX3i67kJ.md"
+  },
+  {
+    "id": "v4NF25lJElAtkU0Rm6Fob",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint — Complete App",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md"
+  },
+  {
+    "id": "cUOfvOlQ_0Uu1VX3i67kJ",
+    "old_id": "2kKHuQZScu7hCDgQWxl5u",
+    "type": "topic",
+    "label": "Basic AWS Services",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\terraform@2kKHuQZScu7hCDgQWxl5u.md"
+  },
+  {
+    "id": "6oBIxYj8WPcUHidQ99tus",
+    "old_id": "B-cphY7Imnv6JBMujVIF7",
+    "type": "subtopic",
+    "label": "EC2",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\ses@B-cphY7Imnv6JBMujVIF7.md"
+  },
+  {
+    "id": "QtL-bLKtWIdH00K6k_PdC",
+    "old_id": "n2Xp_ijJ2OS8xhE7xMWxk",
+    "type": "subtopic",
+    "label": "VPC",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\s3@n2Xp_ijJ2OS8xhE7xMWxk.md"
+  },
+  {
+    "id": "5zyYpu9cyuTFwQCjTbHpS",
+    "old_id": "B-cphY7Imnv6JBMujVIF7",
+    "type": "subtopic",
+    "label": "Route53",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\ses@B-cphY7Imnv6JBMujVIF7.md"
+  },
+  {
+    "id": "B-cphY7Imnv6JBMujVIF7",
+    "old_id": "B-cphY7Imnv6JBMujVIF7",
+    "type": "subtopic",
+    "label": "SES",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\ses@B-cphY7Imnv6JBMujVIF7.md"
+  },
+  {
+    "id": "n2Xp_ijJ2OS8xhE7xMWxk",
+    "old_id": "B-cphY7Imnv6JBMujVIF7",
+    "type": "subtopic",
+    "label": "S3",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\ses@B-cphY7Imnv6JBMujVIF7.md"
+  },
+  {
+    "id": "y1SFX7uvWaCy4OYBnECLu",
+    "old_id": "2kKHuQZScu7hCDgQWxl5u",
+    "type": "topic",
+    "label": "Monit",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\terraform@2kKHuQZScu7hCDgQWxl5u.md"
+  },
+  {
+    "id": "HGhnbMg6jh6cAmUH4DtOx",
+    "old_id": "2kKHuQZScu7hCDgQWxl5u",
+    "type": "topic",
+    "label": "PostgreSQL",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\terraform@2kKHuQZScu7hCDgQWxl5u.md"
+  },
+  {
+    "id": "J2_IWAb1s9zZcxOY3NXm2",
+    "old_id": "sO_9-l4FECbaqiaFnyeXO",
+    "type": "subtopic",
+    "label": "Checkpoint — Deployment",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--automation@sO_9-l4FECbaqiaFnyeXO.md"
+  },
+  {
+    "id": "863KMXcFJzInvTp_-Ldmz",
+    "old_id": "2kKHuQZScu7hCDgQWxl5u",
+    "type": "topic",
+    "label": "GitHub Actions",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\terraform@2kKHuQZScu7hCDgQWxl5u.md"
+  },
+  {
+    "id": "NQmEl27eBPYhivcXdOEz3",
+    "old_id": "sO_9-l4FECbaqiaFnyeXO",
+    "type": "subtopic",
+    "label": "Checkpoint — Monitoring",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--automation@sO_9-l4FECbaqiaFnyeXO.md"
+  },
+  {
+    "id": "rFXupYpUFfp7vZO8zh614",
+    "old_id": "2kKHuQZScu7hCDgQWxl5u",
+    "type": "topic",
+    "label": "Ansible",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\terraform@2kKHuQZScu7hCDgQWxl5u.md"
+  },
+  {
+    "id": "liaY1GnlOateB_ZKBjNpY",
+    "old_id": "sO_9-l4FECbaqiaFnyeXO",
+    "type": "subtopic",
+    "label": "Checkpoint — CI / CD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--automation@sO_9-l4FECbaqiaFnyeXO.md"
+  },
+  {
+    "id": "2kKHuQZScu7hCDgQWxl5u",
+    "old_id": "khoUtTUxdf8udAzN9_CAb",
+    "type": "topic",
+    "label": "Terraform",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\react@khoUtTUxdf8udAzN9_CAb.md"
+  },
+  {
+    "id": "sO_9-l4FECbaqiaFnyeXO",
+    "old_id": "YVMyHFSCVF-GgXydq-SFJ",
+    "type": "subtopic",
+    "label": "Checkpoint — Automation",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint--infrastructure@YVMyHFSCVF-GgXydq-SFJ.md"
+  },
+  {
+    "id": "YVMyHFSCVF-GgXydq-SFJ",
+    "old_id": "7JU1cVggMDoZUV-adGsf-",
+    "type": "subtopic",
+    "label": "Checkpoint — Infrastructure",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\full-stack\\content\\checkpoint---frontend-apps@7JU1cVggMDoZUV-adGsf-.md"
+  }
+]

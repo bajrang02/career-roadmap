@@ -1,0 +1,719 @@
+{
+  "slug": "kubernetes",
+  "title": "Kubernetes",
+  "nodes": [
+    {
+      "id": "HU7wZWiES3m3xl1-NYP6F",
+      "old_id": "HU7wZWiES3m3xl1-NYP6F",
+      "type": "title",
+      "label": "Kubernetes",
+      "resources": []
+    },
+    {
+      "id": "y7KjVfSI6CAduyHd4mBFT",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Introduction",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "qLeEEwBvlGt1fP5Qcreah",
+      "old_id": "3fzuXKH7az_LVnmnoXB1p",
+      "type": "subtopic",
+      "label": "Overview of Kubernetes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\kubernetes-alternatives@3fzuXKH7az_LVnmnoXB1p.md"
+    },
+    {
+      "id": "q-Ky0ietZGpyUcBQfh-BJ",
+      "old_id": "3fzuXKH7az_LVnmnoXB1p",
+      "type": "subtopic",
+      "label": "Why use Kubernetes?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\kubernetes-alternatives@3fzuXKH7az_LVnmnoXB1p.md"
+    },
+    {
+      "id": "9oo2fxTM2_p0VYPBroqxa",
+      "old_id": "3fzuXKH7az_LVnmnoXB1p",
+      "type": "subtopic",
+      "label": "Key Concepts and Terminologies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\kubernetes-alternatives@3fzuXKH7az_LVnmnoXB1p.md"
+    },
+    {
+      "id": "3fzuXKH7az_LVnmnoXB1p",
+      "old_id": "3fzuXKH7az_LVnmnoXB1p",
+      "type": "subtopic",
+      "label": "Kubernetes Alternatives",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\kubernetes-alternatives@3fzuXKH7az_LVnmnoXB1p.md"
+    },
+    {
+      "id": "HGmeYvRf7_XusZl_K4x9k",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Containers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "3OpGaQhyNtk1n1MLp-tlb",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Setting up Kubernetes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "zrbSJa3k7a3TE0aYbWi9c",
+      "old_id": "YaIs8lquWIe1D7RCUBZmC",
+      "type": "subtopic",
+      "label": "Deploying your First Application",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\installing-a-local-cluster@YaIs8lquWIe1D7RCUBZmC.md"
+    },
+    {
+      "id": "qSatCdBTDXPu-IFWzUI99",
+      "old_id": "YaIs8lquWIe1D7RCUBZmC",
+      "type": "subtopic",
+      "label": "Choosing a Managed Provider",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\installing-a-local-cluster@YaIs8lquWIe1D7RCUBZmC.md"
+    },
+    {
+      "id": "YaIs8lquWIe1D7RCUBZmC",
+      "old_id": "YaIs8lquWIe1D7RCUBZmC",
+      "type": "subtopic",
+      "label": "Installing a Local Cluster",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\installing-a-local-cluster@YaIs8lquWIe1D7RCUBZmC.md"
+    },
+    {
+      "id": "1MdrzhktCWjpmxiYYBdz7",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Running Applications",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "-d2PIXm0V_Iehe8cws8zK",
+      "old_id": "AJiRBEaKU8qYEm0fqN389",
+      "type": "subtopic",
+      "label": "Pods",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\statefulsets@AJiRBEaKU8qYEm0fqN389.md"
+    },
+    {
+      "id": "IF09l0-pryGpMbDt__ocr",
+      "old_id": "IF09l0-pryGpMbDt__ocr",
+      "type": "subtopic",
+      "label": "ReplicaSets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\replicasets@IF09l0-pryGpMbDt__ocr.md"
+    },
+    {
+      "id": "TUGQX7y1gs-aKPge2F1NU",
+      "old_id": "r3fzAN5DzratAKnnT8hzb",
+      "type": "subtopic",
+      "label": "Deployments",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\jobs@r3fzAN5DzratAKnnT8hzb.md"
+    },
+    {
+      "id": "AJiRBEaKU8qYEm0fqN389",
+      "old_id": "IF09l0-pryGpMbDt__ocr",
+      "type": "subtopic",
+      "label": "StatefulSets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\replicasets@IF09l0-pryGpMbDt__ocr.md"
+    },
+    {
+      "id": "r3fzAN5DzratAKnnT8hzb",
+      "old_id": "AJiRBEaKU8qYEm0fqN389",
+      "type": "subtopic",
+      "label": "Jobs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\statefulsets@AJiRBEaKU8qYEm0fqN389.md"
+    },
+    {
+      "id": "aUJ_w2L8nxNq3DfAW97Gd",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Services and Networking",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "jUOlITLqnIvSu97I_3nBz",
+      "old_id": "44rhdieUCWsGFC_1__9kk",
+      "type": "subtopic",
+      "label": "External Access to Services",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\networking--pod-to-pod-communication@44rhdieUCWsGFC_1__9kk.md"
+    },
+    {
+      "id": "Qelo1YvAcUoX5PA-RYbNp",
+      "old_id": "44rhdieUCWsGFC_1__9kk",
+      "type": "subtopic",
+      "label": "Load Balancing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\networking--pod-to-pod-communication@44rhdieUCWsGFC_1__9kk.md"
+    },
+    {
+      "id": "44rhdieUCWsGFC_1__9kk",
+      "old_id": "44rhdieUCWsGFC_1__9kk",
+      "type": "subtopic",
+      "label": "Networking & Pod-to-Pod Communication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\networking--pod-to-pod-communication@44rhdieUCWsGFC_1__9kk.md"
+    },
+    {
+      "id": "dj7Tb2XTX4kxRUYiTjlhM",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Configuration Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "u24UlZKI86vaguj_VpMv1",
+      "old_id": "S0CwGC2gMG-SqnLNldqBD",
+      "type": "subtopic",
+      "label": "Injecting Pod Config with ConfigMaps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\using-secrets-for-sensitive-data@S0CwGC2gMG-SqnLNldqBD.md"
+    },
+    {
+      "id": "S0CwGC2gMG-SqnLNldqBD",
+      "old_id": "S0CwGC2gMG-SqnLNldqBD",
+      "type": "subtopic",
+      "label": "Using Secrets for Sensitive Data",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\using-secrets-for-sensitive-data@S0CwGC2gMG-SqnLNldqBD.md"
+    },
+    {
+      "id": "eWKkdiBhD5x2sGYajmHEs",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Resource Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "8RLR6gRjIyTn6GCugEfgk",
+      "old_id": "PP4ld_vvjpY3QltBBsXKD",
+      "type": "subtopic",
+      "label": "Setting Resource Requests and Limits",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\monitoring--optimizing-resource-usage@PP4ld_vvjpY3QltBBsXKD.md"
+    },
+    {
+      "id": "OHz4QMmA3lqL_C7aWL8Ga",
+      "old_id": "PP4ld_vvjpY3QltBBsXKD",
+      "type": "subtopic",
+      "label": "Assigning Quotas to Namespaces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\monitoring--optimizing-resource-usage@PP4ld_vvjpY3QltBBsXKD.md"
+    },
+    {
+      "id": "PP4ld_vvjpY3QltBBsXKD",
+      "old_id": "PP4ld_vvjpY3QltBBsXKD",
+      "type": "subtopic",
+      "label": "Monitoring & Optimizing Resource Usage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\monitoring--optimizing-resource-usage@PP4ld_vvjpY3QltBBsXKD.md"
+    },
+    {
+      "id": "SG3wtV2rt9nmLEkgrp_zP",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "jOq0WwLrq8tlmOgo64QDc",
+      "old_id": "i7qxaFhFHPfe3fGEgsbcE",
+      "type": "subtopic",
+      "label": "Role Based Access Control (RBAC)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\container-and-pod-security@i7qxaFhFHPfe3fGEgsbcE.md"
+    },
+    {
+      "id": "s0gHg8CqwrSylpSPu8arA",
+      "old_id": "i7qxaFhFHPfe3fGEgsbcE",
+      "type": "subtopic",
+      "label": "Network Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\container-and-pod-security@i7qxaFhFHPfe3fGEgsbcE.md"
+    },
+    {
+      "id": "Nja7IFWcFTLsPcqbvRNm9",
+      "old_id": "i7qxaFhFHPfe3fGEgsbcE",
+      "type": "subtopic",
+      "label": "Container and Pod Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\container-and-pod-security@i7qxaFhFHPfe3fGEgsbcE.md"
+    },
+    {
+      "id": "i7qxaFhFHPfe3fGEgsbcE",
+      "old_id": "i7qxaFhFHPfe3fGEgsbcE",
+      "type": "subtopic",
+      "label": "Container and Pod Security",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\container-and-pod-security@i7qxaFhFHPfe3fGEgsbcE.md"
+    },
+    {
+      "id": "AgsQnQjyTLUFhFpRdcE13",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Monitoring and Logging",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "-XxQtiLDAkXs7IFM_Ddw6",
+      "old_id": "FANswgUhUb5Iuah2fni3L",
+      "type": "subtopic",
+      "label": "Logs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\observability-engines@FANswgUhUb5Iuah2fni3L.md"
+    },
+    {
+      "id": "nqUBHBFUYFdYqCKZvfXBR",
+      "old_id": "ldYTEPt_hI4PXxr3tgJi5",
+      "type": "subtopic",
+      "label": "Metrics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\traces@ldYTEPt_hI4PXxr3tgJi5.md"
+    },
+    {
+      "id": "ldYTEPt_hI4PXxr3tgJi5",
+      "old_id": "ldYTEPt_hI4PXxr3tgJi5",
+      "type": "subtopic",
+      "label": "Traces",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\traces@ldYTEPt_hI4PXxr3tgJi5.md"
+    },
+    {
+      "id": "pDjNsK5vI9FmKZbQm0lDP",
+      "old_id": "FANswgUhUb5Iuah2fni3L",
+      "type": "subtopic",
+      "label": "Resource Health",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\observability-engines@FANswgUhUb5Iuah2fni3L.md"
+    },
+    {
+      "id": "FANswgUhUb5Iuah2fni3L",
+      "old_id": "ldYTEPt_hI4PXxr3tgJi5",
+      "type": "subtopic",
+      "label": "Observability Engines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\traces@ldYTEPt_hI4PXxr3tgJi5.md"
+    },
+    {
+      "id": "03mGA5AyL7mpF6y3EMW7A",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Autoscaling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "044IUUCgZP4oQ9UxUG2iy",
+      "old_id": "RC5MoYtG2rom-d4FW5qD2",
+      "type": "subtopic",
+      "label": "Horizontal Pod Autoscaler (HPA)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\cluster-autoscaling@RC5MoYtG2rom-d4FW5qD2.md"
+    },
+    {
+      "id": "c1KVczGRjh9bhMpbPP6sA",
+      "old_id": "RC5MoYtG2rom-d4FW5qD2",
+      "type": "subtopic",
+      "label": "Vertical Pod Autoscaler (VPA)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\cluster-autoscaling@RC5MoYtG2rom-d4FW5qD2.md"
+    },
+    {
+      "id": "RC5MoYtG2rom-d4FW5qD2",
+      "old_id": "RC5MoYtG2rom-d4FW5qD2",
+      "type": "subtopic",
+      "label": "Cluster Autoscaling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\cluster-autoscaling@RC5MoYtG2rom-d4FW5qD2.md"
+    },
+    {
+      "id": "xZDXM_8qb4VL15tNGG0ws",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Scheduling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "70lTSIVh0AD6M8fMMuWzY",
+      "old_id": "TRKzlDW2PQN9bWTyz3NWL",
+      "type": "subtopic",
+      "label": "Basics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\evictions@TRKzlDW2PQN9bWTyz3NWL.md"
+    },
+    {
+      "id": "zXUsHAI1HFhcY2BFAcypv",
+      "old_id": "TRKzlDW2PQN9bWTyz3NWL",
+      "type": "subtopic",
+      "label": "Taints and Tolerations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\evictions@TRKzlDW2PQN9bWTyz3NWL.md"
+    },
+    {
+      "id": "CL0hKTcml40InmyVUXpY2",
+      "old_id": "TRKzlDW2PQN9bWTyz3NWL",
+      "type": "subtopic",
+      "label": "Topology Spread Constraints",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\evictions@TRKzlDW2PQN9bWTyz3NWL.md"
+    },
+    {
+      "id": "_Gva1eGcYqpmZNPyV03lt",
+      "old_id": "TRKzlDW2PQN9bWTyz3NWL",
+      "type": "subtopic",
+      "label": "Pod Priorities",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\evictions@TRKzlDW2PQN9bWTyz3NWL.md"
+    },
+    {
+      "id": "TRKzlDW2PQN9bWTyz3NWL",
+      "old_id": "TRKzlDW2PQN9bWTyz3NWL",
+      "type": "subtopic",
+      "label": "Evictions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\evictions@TRKzlDW2PQN9bWTyz3NWL.md"
+    },
+    {
+      "id": "URnYf9jMprFz-o26fbU2P",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Storage and Volumes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "55RV9psPCmcg8G_P_zQo9",
+      "old_id": "yMSXdwDO36CLtp2TBC7aB",
+      "type": "subtopic",
+      "label": "CSI Drivers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md"
+    },
+    {
+      "id": "LJUJ1NIUsajb1AUdvJjqW",
+      "old_id": "yMSXdwDO36CLtp2TBC7aB",
+      "type": "subtopic",
+      "label": "Stateful Applications",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md"
+    },
+    {
+      "id": "0l0xpsabglvs_t6oAP-XG",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Deployment Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "Pymc9H-lRHVPy7M9eSaPD",
+      "old_id": "yMSXdwDO36CLtp2TBC7aB",
+      "type": "subtopic",
+      "label": "CI / CD Integration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md"
+    },
+    {
+      "id": "dATdEyNWlpDNKjedCXLyb",
+      "old_id": "yMSXdwDO36CLtp2TBC7aB",
+      "type": "subtopic",
+      "label": "GitOps",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md"
+    },
+    {
+      "id": "FAEFOhLdp7xrmctHFxiOM",
+      "old_id": "yMSXdwDO36CLtp2TBC7aB",
+      "type": "subtopic",
+      "label": "Helm Charts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md"
+    },
+    {
+      "id": "88IGeC3dAopHLGtLozxdY",
+      "old_id": "9-oaTlzKmcxTfaRycz1w3",
+      "type": "subtopic",
+      "label": "Canary Deployments",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\blue-green-deployments@9-oaTlzKmcxTfaRycz1w3.md"
+    },
+    {
+      "id": "yMSXdwDO36CLtp2TBC7aB",
+      "old_id": "yMSXdwDO36CLtp2TBC7aB",
+      "type": "subtopic",
+      "label": "Rolling Updates / Rollbacks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md"
+    },
+    {
+      "id": "vdbcHzRz-_WnvhOemTw3R",
+      "old_id": "vdbcHzRz-_WnvhOemTw3R",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "t8SJbGVXsUDECxePLDk_w",
+      "old_id": "t8SJbGVXsUDECxePLDk_w",
+      "type": "topic",
+      "label": "Advanced Topics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\advanced-topics@t8SJbGVXsUDECxePLDk_w.md"
+    },
+    {
+      "id": "L9rVPEEXFwisQOwT_LQ4v",
+      "old_id": "UeJcKv3jhenjNzHM-0R86",
+      "type": "subtopic",
+      "label": "Creating Custom Controllers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\kubernetes-extensions-and-apis@UeJcKv3jhenjNzHM-0R86.md"
+    },
+    {
+      "id": "1-Nb8rCMJEZrYm20sEcRJ",
+      "old_id": "UeJcKv3jhenjNzHM-0R86",
+      "type": "subtopic",
+      "label": "Custom Schedulers and Extenders",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\kubernetes-extensions-and-apis@UeJcKv3jhenjNzHM-0R86.md"
+    },
+    {
+      "id": "9P7l-RBOkUxs3Z_UpKQO-",
+      "old_id": "UeJcKv3jhenjNzHM-0R86",
+      "type": "subtopic",
+      "label": "Custom Resource Definitions (CRDs)",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\kubernetes-extensions-and-apis@UeJcKv3jhenjNzHM-0R86.md"
+    },
+    {
+      "id": "UeJcKv3jhenjNzHM-0R86",
+      "old_id": "UeJcKv3jhenjNzHM-0R86",
+      "type": "subtopic",
+      "label": "Kubernetes Extensions and APIs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\kubernetes-extensions-and-apis@UeJcKv3jhenjNzHM-0R86.md"
+    },
+    {
+      "id": "ZrVhYTw63aVVIFAEJDG5r",
+      "old_id": "auZgEQ6FC3nUjuyx0zANh",
+      "type": "subtopic",
+      "label": "Should you manage your own Cluster?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\multi-cluster-management@auZgEQ6FC3nUjuyx0zANh.md"
+    },
+    {
+      "id": "M-iTb_7EWZIJ3JpdViICx",
+      "old_id": "auZgEQ6FC3nUjuyx0zANh",
+      "type": "subtopic",
+      "label": "Installing the Control Plane",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\multi-cluster-management@auZgEQ6FC3nUjuyx0zANh.md"
+    },
+    {
+      "id": "2cQKTxln3dIk5IjX2UZdM",
+      "old_id": "auZgEQ6FC3nUjuyx0zANh",
+      "type": "subtopic",
+      "label": "Adding and Managing Worker Nodes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\multi-cluster-management@auZgEQ6FC3nUjuyx0zANh.md"
+    },
+    {
+      "id": "auZgEQ6FC3nUjuyx0zANh",
+      "old_id": "auZgEQ6FC3nUjuyx0zANh",
+      "type": "subtopic",
+      "label": "Multi-Cluster Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\multi-cluster-management@auZgEQ6FC3nUjuyx0zANh.md"
+    },
+    {
+      "id": "-M6ZVzI35DVZwl9hGpYFQ",
+      "old_id": "-M6ZVzI35DVZwl9hGpYFQ",
+      "type": "label",
+      "label": "Cluster Operations",
+      "resources": []
+    },
+    {
+      "id": "A3PLMcJN35yJJUuZJbRMx",
+      "old_id": "A3PLMcJN35yJJUuZJbRMx",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "UloavCkIvZnD1XMFohYVT",
+      "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+      "type": "button",
+      "label": "DevOps",
+      "resources": []
+    },
+    {
+      "id": "StxLh1r3qXqyRSqfJGird",
+      "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+      "type": "button",
+      "label": "Backend",
+      "resources": []
+    },
+    {
+      "id": "OIcmPSbdsuWapb6HZ4BEi",
+      "old_id": "cmSSwPPiiHwYh9ct14N6A",
+      "type": "button",
+      "label": "Docker",
+      "resources": []
+    },
+    {
+      "id": "wx-CpX3NJtKrdr_dQHZi9",
+      "old_id": "wx-CpX3NJtKrdr_dQHZi9",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "if9eTna5NRTMStVwpSwDP",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "9-oaTlzKmcxTfaRycz1w3",
+      "old_id": "yMSXdwDO36CLtp2TBC7aB",
+      "type": "subtopic",
+      "label": "Blue-Green Deployments",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\kubernetes\\content\\rolling-updates--rollbacks@yMSXdwDO36CLtp2TBC7aB.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "HU7wZWiES3m3xl1-NYP6F",
+      "target": "y7KjVfSI6CAduyHd4mBFT"
+    },
+    {
+      "source": "y7KjVfSI6CAduyHd4mBFT",
+      "target": "qLeEEwBvlGt1fP5Qcreah"
+    },
+    {
+      "source": "y7KjVfSI6CAduyHd4mBFT",
+      "target": "q-Ky0ietZGpyUcBQfh-BJ"
+    },
+    {
+      "source": "y7KjVfSI6CAduyHd4mBFT",
+      "target": "9oo2fxTM2_p0VYPBroqxa"
+    },
+    {
+      "source": "y7KjVfSI6CAduyHd4mBFT",
+      "target": "3fzuXKH7az_LVnmnoXB1p"
+    },
+    {
+      "source": "3OpGaQhyNtk1n1MLp-tlb",
+      "target": "zrbSJa3k7a3TE0aYbWi9c"
+    },
+    {
+      "source": "3OpGaQhyNtk1n1MLp-tlb",
+      "target": "qSatCdBTDXPu-IFWzUI99"
+    },
+    {
+      "source": "3OpGaQhyNtk1n1MLp-tlb",
+      "target": "YaIs8lquWIe1D7RCUBZmC"
+    },
+    {
+      "source": "3OpGaQhyNtk1n1MLp-tlb",
+      "target": "1MdrzhktCWjpmxiYYBdz7"
+    },
+    {
+      "source": "1MdrzhktCWjpmxiYYBdz7",
+      "target": "TUGQX7y1gs-aKPge2F1NU"
+    },
+    {
+      "source": "1MdrzhktCWjpmxiYYBdz7",
+      "target": "-d2PIXm0V_Iehe8cws8zK"
+    },
+    {
+      "source": "1MdrzhktCWjpmxiYYBdz7",
+      "target": "r3fzAN5DzratAKnnT8hzb"
+    },
+    {
+      "source": "1MdrzhktCWjpmxiYYBdz7",
+      "target": "aUJ_w2L8nxNq3DfAW97Gd"
+    },
+    {
+      "source": "aUJ_w2L8nxNq3DfAW97Gd",
+      "target": "jUOlITLqnIvSu97I_3nBz"
+    },
+    {
+      "source": "aUJ_w2L8nxNq3DfAW97Gd",
+      "target": "dj7Tb2XTX4kxRUYiTjlhM"
+    },
+    {
+      "source": "dj7Tb2XTX4kxRUYiTjlhM",
+      "target": "S0CwGC2gMG-SqnLNldqBD"
+    },
+    {
+      "source": "dj7Tb2XTX4kxRUYiTjlhM",
+      "target": "eWKkdiBhD5x2sGYajmHEs"
+    },
+    {
+      "source": "eWKkdiBhD5x2sGYajmHEs",
+      "target": "SG3wtV2rt9nmLEkgrp_zP"
+    },
+    {
+      "source": "SG3wtV2rt9nmLEkgrp_zP",
+      "target": "i7qxaFhFHPfe3fGEgsbcE"
+    },
+    {
+      "source": "SG3wtV2rt9nmLEkgrp_zP",
+      "target": "AgsQnQjyTLUFhFpRdcE13"
+    },
+    {
+      "source": "AgsQnQjyTLUFhFpRdcE13",
+      "target": "pDjNsK5vI9FmKZbQm0lDP"
+    },
+    {
+      "source": "AgsQnQjyTLUFhFpRdcE13",
+      "target": "ldYTEPt_hI4PXxr3tgJi5"
+    },
+    {
+      "source": "AgsQnQjyTLUFhFpRdcE13",
+      "target": "FANswgUhUb5Iuah2fni3L"
+    },
+    {
+      "source": "AgsQnQjyTLUFhFpRdcE13",
+      "target": "03mGA5AyL7mpF6y3EMW7A"
+    },
+    {
+      "source": "03mGA5AyL7mpF6y3EMW7A",
+      "target": "044IUUCgZP4oQ9UxUG2iy"
+    },
+    {
+      "source": "03mGA5AyL7mpF6y3EMW7A",
+      "target": "xZDXM_8qb4VL15tNGG0ws"
+    },
+    {
+      "source": "xZDXM_8qb4VL15tNGG0ws",
+      "target": "70lTSIVh0AD6M8fMMuWzY"
+    },
+    {
+      "source": "xZDXM_8qb4VL15tNGG0ws",
+      "target": "URnYf9jMprFz-o26fbU2P"
+    }
+  ]
+}

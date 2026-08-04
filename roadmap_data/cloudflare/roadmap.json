@@ -1,0 +1,1203 @@
+{
+  "slug": "cloudflare",
+  "title": "Cloudflare",
+  "nodes": [
+    {
+      "id": "82oZ5FJok15X5aetL1UaA",
+      "old_id": "82oZ5FJok15X5aetL1UaA",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "8BW3ScLDYa_4DkBksLlJM",
+      "old_id": "8BW3ScLDYa_4DkBksLlJM",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "kJXPzUulKPhawgbEK7n9l",
+      "old_id": "kJXPzUulKPhawgbEK7n9l",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "7kxbi3VJONZHcjRNhrnTH",
+      "old_id": "7kxbi3VJONZHcjRNhrnTH",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Ji35JsKgUQXN4DJGEgTAC",
+      "old_id": "Ji35JsKgUQXN4DJGEgTAC",
+      "type": "title",
+      "label": "Cloudflare",
+      "resources": []
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "qnjDifLlSYoxWd5GmuQXd",
+      "old_id": "qnjDifLlSYoxWd5GmuQXd",
+      "type": "linksgroup",
+      "label": "Related Roadmaps",
+      "resources": []
+    },
+    {
+      "id": "PcYnYAAkKMbzoiCnBfjqO",
+      "old_id": "PcYnYAAkKMbzoiCnBfjqO",
+      "type": "subtopic",
+      "label": "JavaScript Fundamentals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\javascript-fundamentals@PcYnYAAkKMbzoiCnBfjqO.md"
+    },
+    {
+      "id": "q9oQTt_NqhdWvJfA5XH1V",
+      "old_id": "q9oQTt_NqhdWvJfA5XH1V",
+      "type": "subtopic",
+      "label": "Basic Command-line Knowledge",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\basic-command-line-knowledge@q9oQTt_NqhdWvJfA5XH1V.md"
+    },
+    {
+      "id": "9iSdASlRxyod9YwZ2IUry",
+      "old_id": "9iSdASlRxyod9YwZ2IUry",
+      "type": "subtopic",
+      "label": "HTTP and Web Protocols",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\http-and-web-protocols@9iSdASlRxyod9YwZ2IUry.md"
+    },
+    {
+      "id": "C08pIguX1N45Iw0kh0Fvu",
+      "old_id": "C08pIguX1N45Iw0kh0Fvu",
+      "type": "subtopic",
+      "label": "Git Basics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\git-basics@C08pIguX1N45Iw0kh0Fvu.md"
+    },
+    {
+      "id": "dSBYTGGkol3MAXyg7G7_J",
+      "old_id": "dSBYTGGkol3MAXyg7G7_J",
+      "type": "subtopic",
+      "label": "Node.js and NPM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\nodejs-and-npm@dSBYTGGkol3MAXyg7G7_J.md"
+    },
+    {
+      "id": "zR84MFLL6y0dygz9hXXPA",
+      "old_id": "zR84MFLL6y0dygz9hXXPA",
+      "type": "subtopic",
+      "label": "TypeScript Fundamentals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\typescript-fundamentals@zR84MFLL6y0dygz9hXXPA.md"
+    },
+    {
+      "id": "Isl5anwDvb1MacA-JH4ej",
+      "old_id": "Isl5anwDvb1MacA-JH4ej",
+      "type": "subtopic",
+      "label": "Understand Serverless Architecture",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\understand-serverless-architecture@Isl5anwDvb1MacA-JH4ej.md"
+    },
+    {
+      "id": "L3L2_HrESg8SuStKNID8l",
+      "old_id": "QifY92ONTomFx_FwRxPJI",
+      "type": "label",
+      "label": "Prerequisites",
+      "resources": []
+    },
+    {
+      "id": "QifY92ONTomFx_FwRxPJI",
+      "old_id": "QifY92ONTomFx_FwRxPJI",
+      "type": "label",
+      "label": "Core Development Skills",
+      "resources": []
+    },
+    {
+      "id": "TB6vGzDgGZ9yAd9MGR7vw",
+      "old_id": "TB6vGzDgGZ9yAd9MGR7vw",
+      "type": "subtopic",
+      "label": "Workers Runtime Environment",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\workers-runtime-environment@TB6vGzDgGZ9yAd9MGR7vw.md"
+    },
+    {
+      "id": "aGWLomYHGkIfn7GFc0_Yl",
+      "old_id": "aGWLomYHGkIfn7GFc0_Yl",
+      "type": "subtopic",
+      "label": "Edge Computing Fundamentals",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\edge-computing-fundamentals@aGWLomYHGkIfn7GFc0_Yl.md"
+    },
+    {
+      "id": "HNEXPU6r_T7UYvwLv2wnt",
+      "old_id": "HNEXPU6r_T7UYvwLv2wnt",
+      "type": "subtopic",
+      "label": "Request/Response Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\requestresponse-handling@HNEXPU6r_T7UYvwLv2wnt.md"
+    },
+    {
+      "id": "_2UnRlbUplHvs5-Stj4O4",
+      "old_id": "_2UnRlbUplHvs5-Stj4O4",
+      "type": "subtopic",
+      "label": "Fetch API and Runtime APIs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\fetch-api-and-runtime-apis@_2UnRlbUplHvs5-Stj4O4.md"
+    },
+    {
+      "id": "i6L9FI6fBDXr0XtMrc_uR",
+      "old_id": "i6L9FI6fBDXr0XtMrc_uR",
+      "type": "subtopic",
+      "label": "Workers Lifecycle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\workers-lifecycle@i6L9FI6fBDXr0XtMrc_uR.md"
+    },
+    {
+      "id": "WZSi9inWPhqZQvDN-C8BV",
+      "old_id": "WZSi9inWPhqZQvDN-C8BV",
+      "type": "subtopic",
+      "label": "Service Bindings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\service-bindings@WZSi9inWPhqZQvDN-C8BV.md"
+    },
+    {
+      "id": "uBjcQ9PJUfwzu5N_2CNjN",
+      "old_id": "uBjcQ9PJUfwzu5N_2CNjN",
+      "type": "subtopic",
+      "label": "Caching Strategies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\caching-strategies@uBjcQ9PJUfwzu5N_2CNjN.md"
+    },
+    {
+      "id": "aStbAF4zraqhJ-N3RH4ha",
+      "old_id": "aStbAF4zraqhJ-N3RH4ha",
+      "type": "subtopic",
+      "label": "Middleware Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\middleware-patterns@aStbAF4zraqhJ-N3RH4ha.md"
+    },
+    {
+      "id": "9ef2VPCru8lCmRxxGe-Eo",
+      "old_id": "9ef2VPCru8lCmRxxGe-Eo",
+      "type": "subtopic",
+      "label": "Bindings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\bindings@9ef2VPCru8lCmRxxGe-Eo.md"
+    },
+    {
+      "id": "-8MsWNvuqwQCbLpOx_kov",
+      "old_id": "-8MsWNvuqwQCbLpOx_kov",
+      "type": "subtopic",
+      "label": "Hono",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\hono@-8MsWNvuqwQCbLpOx_kov.md"
+    },
+    {
+      "id": "15jl6CSCkqnh_eFfysLDM",
+      "old_id": "15jl6CSCkqnh_eFfysLDM",
+      "type": "subtopic",
+      "label": "Itty Router",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\itty-router@15jl6CSCkqnh_eFfysLDM.md"
+    },
+    {
+      "id": "Tzx93tvoGrc9_fKQqkorN",
+      "old_id": "Tzx93tvoGrc9_fKQqkorN",
+      "type": "subtopic",
+      "label": "Wrangler",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\wrangler@Tzx93tvoGrc9_fKQqkorN.md"
+    },
+    {
+      "id": "uoaOrypiMkyoikXvTHeVS",
+      "old_id": "uoaOrypiMkyoikXvTHeVS",
+      "type": "subtopic",
+      "label": "DevTools Integration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\devtools-integration@uoaOrypiMkyoikXvTHeVS.md"
+    },
+    {
+      "id": "8Y6TIYoWIXrxtmzDVdS0b",
+      "old_id": "8Y6TIYoWIXrxtmzDVdS0b",
+      "type": "subtopic",
+      "label": "CI/CD Pipelines",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\cicd-pipelines@8Y6TIYoWIXrxtmzDVdS0b.md"
+    },
+    {
+      "id": "ssvZh7zn9xUY2Wi-F_d4J",
+      "old_id": "ssvZh7zn9xUY2Wi-F_d4J",
+      "type": "label",
+      "label": "API Routers",
+      "resources": []
+    },
+    {
+      "id": "LkvWKmUklK1-n8dQB4w2U",
+      "old_id": "ssvZh7zn9xUY2Wi-F_d4J",
+      "type": "label",
+      "label": "Frontend Frameworks",
+      "resources": []
+    },
+    {
+      "id": "zSwio18XdBfqwSneAx_AP",
+      "old_id": "zSwio18XdBfqwSneAx_AP",
+      "type": "subtopic",
+      "label": "Any Frontend Framework",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\any-frontend-framework@zSwio18XdBfqwSneAx_AP.md"
+    },
+    {
+      "id": "diIGB553YTGIw2qYRSj0X",
+      "old_id": "LkvWKmUklK1-n8dQB4w2U",
+      "type": "label",
+      "label": "Building / Deploying",
+      "resources": []
+    },
+    {
+      "id": "o4sBgniPmLqwej6TlIPcl",
+      "old_id": "Tzx93tvoGrc9_fKQqkorN",
+      "type": "subtopic",
+      "label": "Miniflare",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\wrangler@Tzx93tvoGrc9_fKQqkorN.md"
+    },
+    {
+      "id": "1dGFfQauOgHP7T4ReMpCU",
+      "old_id": "1dGFfQauOgHP7T4ReMpCU",
+      "type": "topic",
+      "label": "Workers KV",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\workers-kv@1dGFfQauOgHP7T4ReMpCU.md"
+    },
+    {
+      "id": "EBTHbXOOZiqrcYJvKhcWV",
+      "old_id": "EBTHbXOOZiqrcYJvKhcWV",
+      "type": "subtopic",
+      "label": "Key-value Operations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\key-value-operations@EBTHbXOOZiqrcYJvKhcWV.md"
+    },
+    {
+      "id": "sQlRIYLnZcugATgpogJmw",
+      "old_id": "sQlRIYLnZcugATgpogJmw",
+      "type": "subtopic",
+      "label": "Metadata Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\metadata-handling@sQlRIYLnZcugATgpogJmw.md"
+    },
+    {
+      "id": "i64-aCpZHygq76fBU6eXD",
+      "old_id": "i64-aCpZHygq76fBU6eXD",
+      "type": "subtopic",
+      "label": "Bulk Operations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\bulk-operations@i64-aCpZHygq76fBU6eXD.md"
+    },
+    {
+      "id": "OgW-iIrJZ5-sOWKnFpIZd",
+      "old_id": "OgW-iIrJZ5-sOWKnFpIZd",
+      "type": "subtopic",
+      "label": "Caching Patterns",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\caching-patterns@OgW-iIrJZ5-sOWKnFpIZd.md"
+    },
+    {
+      "id": "gxLUlXGuaY5Q-0xmBgQwz",
+      "old_id": "gxLUlXGuaY5Q-0xmBgQwz",
+      "type": "topic",
+      "label": "R2 Storage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\r2-storage@gxLUlXGuaY5Q-0xmBgQwz.md"
+    },
+    {
+      "id": "K9iW2H6riKwddWmpWJFJw",
+      "old_id": "K9iW2H6riKwddWmpWJFJw",
+      "type": "subtopic",
+      "label": "Object Storage",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\object-storage@K9iW2H6riKwddWmpWJFJw.md"
+    },
+    {
+      "id": "BPahk1qH9Hk11tsE2hw3A",
+      "old_id": "BPahk1qH9Hk11tsE2hw3A",
+      "type": "subtopic",
+      "label": "Large File Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\large-file-handling@BPahk1qH9Hk11tsE2hw3A.md"
+    },
+    {
+      "id": "3jU5753Uza2aS-gZo7w4k",
+      "old_id": "3jU5753Uza2aS-gZo7w4k",
+      "type": "subtopic",
+      "label": "Asset Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\asset-management@3jU5753Uza2aS-gZo7w4k.md"
+    },
+    {
+      "id": "UNE6XK4su5r2jcxhY7hOG",
+      "old_id": "UNE6XK4su5r2jcxhY7hOG",
+      "type": "subtopic",
+      "label": "Bucket Operations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\bucket-operations@UNE6XK4su5r2jcxhY7hOG.md"
+    },
+    {
+      "id": "YvgmmF9sWfURgijFV7E31",
+      "old_id": "UNE6XK4su5r2jcxhY7hOG",
+      "type": "subtopic",
+      "label": "Bucket Lifecycle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\bucket-operations@UNE6XK4su5r2jcxhY7hOG.md"
+    },
+    {
+      "id": "mKN0Ta3zSk7PCm_uHYKFN",
+      "old_id": "gxLUlXGuaY5Q-0xmBgQwz",
+      "type": "topic",
+      "label": "D1",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\r2-storage@gxLUlXGuaY5Q-0xmBgQwz.md"
+    },
+    {
+      "id": "PnhP47woPJb_JnLpMMiTw",
+      "old_id": "PnhP47woPJb_JnLpMMiTw",
+      "type": "subtopic",
+      "label": "Schema Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\schema-management@PnhP47woPJb_JnLpMMiTw.md"
+    },
+    {
+      "id": "M8rSSVFUHixgWZRfaBPHb",
+      "old_id": "M8rSSVFUHixgWZRfaBPHb",
+      "type": "subtopic",
+      "label": "Migrations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\migrations@M8rSSVFUHixgWZRfaBPHb.md"
+    },
+    {
+      "id": "65xDESm6jbHWkVO4NgHqx",
+      "old_id": "65xDESm6jbHWkVO4NgHqx",
+      "type": "subtopic",
+      "label": "Query Optimization",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\query-optimization@65xDESm6jbHWkVO4NgHqx.md"
+    },
+    {
+      "id": "MpWO1sroeF106SEMU1V1a",
+      "old_id": "MpWO1sroeF106SEMU1V1a",
+      "type": "subtopic",
+      "label": "Drizzle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\drizzle@MpWO1sroeF106SEMU1V1a.md"
+    },
+    {
+      "id": "h3MHLZZwkYqqb5PSfMhpB",
+      "old_id": "h3MHLZZwkYqqb5PSfMhpB",
+      "type": "subtopic",
+      "label": "Prisma",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\prisma@h3MHLZZwkYqqb5PSfMhpB.md"
+    },
+    {
+      "id": "brZctR1PMK6yErGIfRo_G",
+      "old_id": "brZctR1PMK6yErGIfRo_G",
+      "type": "label",
+      "label": "Frameworks",
+      "resources": []
+    },
+    {
+      "id": "zyRgTtlng6idboSgL9YTt",
+      "old_id": "zyRgTtlng6idboSgL9YTt",
+      "type": "topic",
+      "label": "Queues",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\queues@zyRgTtlng6idboSgL9YTt.md"
+    },
+    {
+      "id": "EFA8m0EdhygxcBWzwmbnT",
+      "old_id": "EFA8m0EdhygxcBWzwmbnT",
+      "type": "subtopic",
+      "label": "Message Processing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\message-processing@EFA8m0EdhygxcBWzwmbnT.md"
+    },
+    {
+      "id": "qgvDGyLjc6lMmVPjHozFM",
+      "old_id": "qgvDGyLjc6lMmVPjHozFM",
+      "type": "subtopic",
+      "label": "Background Jobs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\background-jobs@qgvDGyLjc6lMmVPjHozFM.md"
+    },
+    {
+      "id": "MInAsLLJtIq6WQDSj5yGH",
+      "old_id": "MInAsLLJtIq6WQDSj5yGH",
+      "type": "subtopic",
+      "label": "Rate Limiting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\rate-limiting@MInAsLLJtIq6WQDSj5yGH.md"
+    },
+    {
+      "id": "Grl59SjY31Q3sgf9uX-xf",
+      "old_id": "Grl59SjY31Q3sgf9uX-xf",
+      "type": "subtopic",
+      "label": "Dead Letter Queues",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\dead-letter-queues@Grl59SjY31Q3sgf9uX-xf.md"
+    },
+    {
+      "id": "G-xBbtaniYFRE9Dgs18px",
+      "old_id": "G-xBbtaniYFRE9Dgs18px",
+      "type": "topic",
+      "label": "Durable Objects",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\durable-objects@G-xBbtaniYFRE9Dgs18px.md"
+    },
+    {
+      "id": "EQjhRlM7zpANNWkypScIl",
+      "old_id": "EQjhRlM7zpANNWkypScIl",
+      "type": "subtopic",
+      "label": "State Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\state-management@EQjhRlM7zpANNWkypScIl.md"
+    },
+    {
+      "id": "RYm0oBFCxm-S-aCwZ21p6",
+      "old_id": "RYm0oBFCxm-S-aCwZ21p6",
+      "type": "subtopic",
+      "label": "Coordination",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\coordination@RYm0oBFCxm-S-aCwZ21p6.md"
+    },
+    {
+      "id": "36w4Q73XkCwo5Cva0XsF8",
+      "old_id": "36w4Q73XkCwo5Cva0XsF8",
+      "type": "subtopic",
+      "label": "Persistence",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\persistence@36w4Q73XkCwo5Cva0XsF8.md"
+    },
+    {
+      "id": "rxxibrJUo1rQ3XCuUIP59",
+      "old_id": "rxxibrJUo1rQ3XCuUIP59",
+      "type": "subtopic",
+      "label": "Transactional Operations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\transactional-operations@rxxibrJUo1rQ3XCuUIP59.md"
+    },
+    {
+      "id": "rAl7zXcODiqIpS__3qf1A",
+      "old_id": "G-xBbtaniYFRE9Dgs18px",
+      "type": "topic",
+      "label": "Workflows",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\durable-objects@G-xBbtaniYFRE9Dgs18px.md"
+    },
+    {
+      "id": "a0S0_JLwLLNGLUAHrqG4P",
+      "old_id": "a0S0_JLwLLNGLUAHrqG4P",
+      "type": "topic",
+      "label": "Workers AI",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\workers-ai@a0S0_JLwLLNGLUAHrqG4P.md"
+    },
+    {
+      "id": "zMwmoCUp9429_aXU-Bz4H",
+      "old_id": "zMwmoCUp9429_aXU-Bz4H",
+      "type": "subtopic",
+      "label": "Text Generation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\text-generation@zMwmoCUp9429_aXU-Bz4H.md"
+    },
+    {
+      "id": "S7laV14zsx31O0Tsj2SRL",
+      "old_id": "S7laV14zsx31O0Tsj2SRL",
+      "type": "subtopic",
+      "label": "Image Processing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\image-processing@S7laV14zsx31O0Tsj2SRL.md"
+    },
+    {
+      "id": "HJbJ8OxjJzznYwLlIOSO2",
+      "old_id": "HJbJ8OxjJzznYwLlIOSO2",
+      "type": "subtopic",
+      "label": "Speech Rcognition",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\speech-rcognition@HJbJ8OxjJzznYwLlIOSO2.md"
+    },
+    {
+      "id": "QxPoNHsL-Pj_z3aU6qEP4",
+      "old_id": "QxPoNHsL-Pj_z3aU6qEP4",
+      "type": "subtopic",
+      "label": "AI Model Integration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\ai-model-integration@QxPoNHsL-Pj_z3aU6qEP4.md"
+    },
+    {
+      "id": "NWGVtH1vxQuO4lly0Omuy",
+      "old_id": "vHQdMgaL2EEr2o_eJmOuV",
+      "type": "topic",
+      "label": "Vectorize",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\calls@vHQdMgaL2EEr2o_eJmOuV.md"
+    },
+    {
+      "id": "UIWaR1ZdjSm0UAS69Kz_5",
+      "old_id": "UIWaR1ZdjSm0UAS69Kz_5",
+      "type": "subtopic",
+      "label": "Vector Embeddings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\vector-embeddings@UIWaR1ZdjSm0UAS69Kz_5.md"
+    },
+    {
+      "id": "pg3GtykCegK411DYDN8sN",
+      "old_id": "pg3GtykCegK411DYDN8sN",
+      "type": "subtopic",
+      "label": "Similarity Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\similarity-search@pg3GtykCegK411DYDN8sN.md"
+    },
+    {
+      "id": "Ep9_oV_YnkbH1gHM-n3gO",
+      "old_id": "Ep9_oV_YnkbH1gHM-n3gO",
+      "type": "subtopic",
+      "label": "AI-powered Search",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\ai-powered-search@Ep9_oV_YnkbH1gHM-n3gO.md"
+    },
+    {
+      "id": "LoT3NtpNj9uAgQRV-MD_E",
+      "old_id": "vHQdMgaL2EEr2o_eJmOuV",
+      "type": "topic",
+      "label": "Stream",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\calls@vHQdMgaL2EEr2o_eJmOuV.md"
+    },
+    {
+      "id": "zQp7XfDKWJgMf2LexRJhN",
+      "old_id": "zQp7XfDKWJgMf2LexRJhN",
+      "type": "subtopic",
+      "label": "Video Delivery",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\video-delivery@zQp7XfDKWJgMf2LexRJhN.md"
+    },
+    {
+      "id": "RiQSPAV9uRFgwQFJckTFV",
+      "old_id": "RiQSPAV9uRFgwQFJckTFV",
+      "type": "subtopic",
+      "label": "Live streaming",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\live-streaming@RiQSPAV9uRFgwQFJckTFV.md"
+    },
+    {
+      "id": "3B6Z7F0D3Sf8ZBlV3kkGx",
+      "old_id": "3B6Z7F0D3Sf8ZBlV3kkGx",
+      "type": "subtopic",
+      "label": "Video Processing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\video-processing@3B6Z7F0D3Sf8ZBlV3kkGx.md"
+    },
+    {
+      "id": "8bOWuopxHtBWUSFaVT54P",
+      "old_id": "vHQdMgaL2EEr2o_eJmOuV",
+      "type": "topic",
+      "label": "Images",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\calls@vHQdMgaL2EEr2o_eJmOuV.md"
+    },
+    {
+      "id": "vHQdMgaL2EEr2o_eJmOuV",
+      "old_id": "a0S0_JLwLLNGLUAHrqG4P",
+      "type": "topic",
+      "label": "Calls",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\workers-ai@a0S0_JLwLLNGLUAHrqG4P.md"
+    },
+    {
+      "id": "aKEH4ZxI6J1nwjp_AgH5r",
+      "old_id": "9ef2VPCru8lCmRxxGe-Eo",
+      "type": "subtopic",
+      "label": "Logging and Monitoring",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\bindings@9ef2VPCru8lCmRxxGe-Eo.md"
+    },
+    {
+      "id": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "old_id": "vHQdMgaL2EEr2o_eJmOuV",
+      "type": "topic",
+      "label": "Email Workers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\calls@vHQdMgaL2EEr2o_eJmOuV.md"
+    },
+    {
+      "id": "-lsYPD6JueIV94RybGH_Y",
+      "old_id": "-lsYPD6JueIV94RybGH_Y",
+      "type": "subtopic",
+      "label": "Routing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\routing@-lsYPD6JueIV94RybGH_Y.md"
+    },
+    {
+      "id": "6bNUqx5f_w5NuDL25BABN",
+      "old_id": "-lsYPD6JueIV94RybGH_Y",
+      "type": "subtopic",
+      "label": "Processing",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\routing@-lsYPD6JueIV94RybGH_Y.md"
+    },
+    {
+      "id": "kdIfqTCcOSvV4KDpjr7nu",
+      "old_id": "6bNUqx5f_w5NuDL25BABN",
+      "type": "subtopic",
+      "label": "Filtering",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\processing@6bNUqx5f_w5NuDL25BABN.md"
+    },
+    {
+      "id": "vu8yJsS1WccsdcEVUqwNd",
+      "old_id": "vu8yJsS1WccsdcEVUqwNd",
+      "type": "topic",
+      "label": "AI Gateway",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\ai-gateway@vu8yJsS1WccsdcEVUqwNd.md"
+    },
+    {
+      "id": "qkFRW_tJB8_1IYpYskQ5M",
+      "old_id": "vu8yJsS1WccsdcEVUqwNd",
+      "type": "topic",
+      "label": "Browser Rendering",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\ai-gateway@vu8yJsS1WccsdcEVUqwNd.md"
+    },
+    {
+      "id": "76xovsBrKOnlRBVjsqNq1",
+      "old_id": "76xovsBrKOnlRBVjsqNq1",
+      "type": "topic",
+      "label": "Security & Performance",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\security--performance@76xovsBrKOnlRBVjsqNq1.md"
+    },
+    {
+      "id": "8IF7jftushwZrn7JXpC_v",
+      "old_id": "8IF7jftushwZrn7JXpC_v",
+      "type": "subtopic",
+      "label": "Workers Security Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\workers-security-model@8IF7jftushwZrn7JXpC_v.md"
+    },
+    {
+      "id": "uNinrB9wm5ahjGXu5fc0g",
+      "old_id": "uNinrB9wm5ahjGXu5fc0g",
+      "type": "subtopic",
+      "label": "Isolates Architecture",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\isolates-architecture@uNinrB9wm5ahjGXu5fc0g.md"
+    },
+    {
+      "id": "KWix4jeNUKJ07Iu95Mqj_",
+      "old_id": "KWix4jeNUKJ07Iu95Mqj_",
+      "type": "subtopic",
+      "label": "Web Security Headers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\web-security-headers@KWix4jeNUKJ07Iu95Mqj_.md"
+    },
+    {
+      "id": "JP5U6c2fZjtkU-Xzwtapx",
+      "old_id": "JP5U6c2fZjtkU-Xzwtapx",
+      "type": "subtopic",
+      "label": "Rate Limiting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\rate-limiting@JP5U6c2fZjtkU-Xzwtapx.md"
+    },
+    {
+      "id": "ui3pUfsGMxv4WRzHkgbF0",
+      "old_id": "ui3pUfsGMxv4WRzHkgbF0",
+      "type": "subtopic",
+      "label": "Cache API",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\cache-api@ui3pUfsGMxv4WRzHkgbF0.md"
+    },
+    {
+      "id": "INiqdtppBmCthOEXuHb-V",
+      "old_id": "INiqdtppBmCthOEXuHb-V",
+      "type": "subtopic",
+      "label": "HTML Rewriting",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\html-rewriting@INiqdtppBmCthOEXuHb-V.md"
+    },
+    {
+      "id": "sXBxaQtwJ-luGVXdqVXk1",
+      "old_id": "sXBxaQtwJ-luGVXdqVXk1",
+      "type": "subtopic",
+      "label": "Edge SSL/TLS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\edge-ssltls@sXBxaQtwJ-luGVXdqVXk1.md"
+    },
+    {
+      "id": "So-cKAVfbgsw2zzFREu7Q",
+      "old_id": "So-cKAVfbgsw2zzFREu7Q",
+      "type": "subtopic",
+      "label": "Bot Management",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\bot-management@So-cKAVfbgsw2zzFREu7Q.md"
+    },
+    {
+      "id": "wvurOKbemF4Tt2WZcmqDL",
+      "old_id": "wvurOKbemF4Tt2WZcmqDL",
+      "type": "topic",
+      "label": "Integration & Workflows",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\integration--workflows@wvurOKbemF4Tt2WZcmqDL.md"
+    },
+    {
+      "id": "SaHqm7T4FFVrsgyfImo66",
+      "old_id": "SaHqm7T4FFVrsgyfImo66",
+      "type": "subtopic",
+      "label": "Pages Functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\pages-functions@SaHqm7T4FFVrsgyfImo66.md"
+    },
+    {
+      "id": "JfpVexcbuWCx_R3EjFmbo",
+      "old_id": "JfpVexcbuWCx_R3EjFmbo",
+      "type": "subtopic",
+      "label": "Service Bindings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\service-bindings@JfpVexcbuWCx_R3EjFmbo.md"
+    },
+    {
+      "id": "jYAUIKozuhsNK5LbkeAJ6",
+      "old_id": "jYAUIKozuhsNK5LbkeAJ6",
+      "type": "subtopic",
+      "label": "Inter Worker Communication",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\inter-worker-communication@jYAUIKozuhsNK5LbkeAJ6.md"
+    },
+    {
+      "id": "4g5w6IAdzefdlRTxbRbdS",
+      "old_id": "4g5w6IAdzefdlRTxbRbdS",
+      "type": "subtopic",
+      "label": "External API Integration",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\external-api-integration@4g5w6IAdzefdlRTxbRbdS.md"
+    },
+    {
+      "id": "uOUjI6CPrhZIlz6mRCtOW",
+      "old_id": "uOUjI6CPrhZIlz6mRCtOW",
+      "type": "subtopic",
+      "label": "Webhook Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\webhook-handling@uOUjI6CPrhZIlz6mRCtOW.md"
+    },
+    {
+      "id": "Z9Yywlf7rXFBtxTq5B2Y5",
+      "old_id": "Z9Yywlf7rXFBtxTq5B2Y5",
+      "type": "subtopic",
+      "label": "Event-driven Architectures",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\event-driven-architectures@Z9Yywlf7rXFBtxTq5B2Y5.md"
+    },
+    {
+      "id": "gsCRhwwjXuyueaYHSPOVZ",
+      "old_id": "gsCRhwwjXuyueaYHSPOVZ",
+      "type": "topic",
+      "label": "Development Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\development-tools@gsCRhwwjXuyueaYHSPOVZ.md"
+    },
+    {
+      "id": "n0vIbHmUZHrF4WjEhYdb8",
+      "old_id": "n0vIbHmUZHrF4WjEhYdb8",
+      "type": "subtopic",
+      "label": "Wrangler",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\wrangler@n0vIbHmUZHrF4WjEhYdb8.md"
+    },
+    {
+      "id": "vZHBp4S6WaS5sa5rfUOk-",
+      "old_id": "vZHBp4S6WaS5sa5rfUOk-",
+      "type": "subtopic",
+      "label": "Miniflare",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\miniflare@vZHBp4S6WaS5sa5rfUOk-.md"
+    },
+    {
+      "id": "G6YQZUQh_x8Qxm1oBseLQ",
+      "old_id": "G6YQZUQh_x8Qxm1oBseLQ",
+      "type": "subtopic",
+      "label": "DevTools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\devtools@G6YQZUQh_x8Qxm1oBseLQ.md"
+    },
+    {
+      "id": "jyWxaMx7_nojt5HsyAv7K",
+      "old_id": "jyWxaMx7_nojt5HsyAv7K",
+      "type": "subtopic",
+      "label": "Testing Frameworks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\testing-frameworks@jyWxaMx7_nojt5HsyAv7K.md"
+    },
+    {
+      "id": "Cy2T8978yUAPGol-yzxv_",
+      "old_id": "Cy2T8978yUAPGol-yzxv_",
+      "type": "subtopic",
+      "label": "Monitoring Tools",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\monitoring-tools@Cy2T8978yUAPGol-yzxv_.md"
+    },
+    {
+      "id": "TmQC7fTL6b9EsBDYibv4g",
+      "old_id": "TmQC7fTL6b9EsBDYibv4g",
+      "type": "subtopic",
+      "label": "Debugging Techniques",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\debugging-techniques@TmQC7fTL6b9EsBDYibv4g.md"
+    },
+    {
+      "id": "8WZpSKBHCeYfTEL9tBNKr",
+      "old_id": "vHQdMgaL2EEr2o_eJmOuV",
+      "type": "topic",
+      "label": "Tunnels",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\cloudflare\\content\\calls@vHQdMgaL2EEr2o_eJmOuV.md"
+    },
+    {
+      "id": "OIcmPSbdsuWapb6HZ4BEi",
+      "old_id": "cmSSwPPiiHwYh9ct14N6A",
+      "type": "button",
+      "label": "AWS",
+      "resources": []
+    },
+    {
+      "id": "CH_K6mmFX_GdSzi2n1ID7",
+      "old_id": "-sFboM4eFUMVq1tlPl-fV",
+      "type": "button",
+      "label": "Node.js",
+      "resources": []
+    },
+    {
+      "id": "-sFboM4eFUMVq1tlPl-fV",
+      "old_id": "qXKNK_IsGS8-JgLK-Q9oU",
+      "type": "button",
+      "label": "TypeScript",
+      "resources": []
+    },
+    {
+      "id": "WO8APVjZM_WD_ke5qLyOz",
+      "old_id": "qnjDifLlSYoxWd5GmuQXd",
+      "type": "linksgroup",
+      "label": "Useful Links",
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "iogwMmOvub2ZF4zgg6WyF",
+      "target": "_hYN0gEi9BL24nptEtXWU"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "idLHBxhvcIqZTqmh_E8Az"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "os3Pa6W9SSNEzgmlBbglQ"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "3oInpqvTSSC5_K6i7j8N7"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "YKhuRbcUFzo0hTvuTq-Yl"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "hWA7RtuqltMTmHdcCnmES"
+    },
+    {
+      "source": null,
+      "target": "NMznG9mo2wzNFnjhg990f"
+    },
+    {
+      "source": null,
+      "target": "gc_7cuIO2_joKlQRAPDfX"
+    },
+    {
+      "source": "rrrvATyhXqRgJGWI3z0WF",
+      "target": "AvbMQ5vY3ip1oX_6Yq4ie"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "1AJv95mTLpR7L8KBoGym8"
+    },
+    {
+      "source": "hWA7RtuqltMTmHdcCnmES",
+      "target": "0etAs56EeBfh_0IlAaSra"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "h6ceO0kiBIxNRkPzN3hBY"
+    },
+    {
+      "source": "jZ67HhVRelJaxjsCckSSI",
+      "target": "_JlT9oKQ6Yu4UX6l19G8P"
+    },
+    {
+      "source": "_hYN0gEi9BL24nptEtXWU",
+      "target": "jZ67HhVRelJaxjsCckSSI"
+    },
+    {
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "t3Op8UcgDKVeMLNMDePrW"
+    },
+    {
+      "source": "t3Op8UcgDKVeMLNMDePrW",
+      "target": "PcYnYAAkKMbzoiCnBfjqO"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "TB6vGzDgGZ9yAd9MGR7vw"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aGWLomYHGkIfn7GFc0_Yl"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "HNEXPU6r_T7UYvwLv2wnt"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "_2UnRlbUplHvs5-Stj4O4"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "i6L9FI6fBDXr0XtMrc_uR"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "WZSi9inWPhqZQvDN-C8BV"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "uBjcQ9PJUfwzu5N_2CNjN"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aStbAF4zraqhJ-N3RH4ha"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "9ef2VPCru8lCmRxxGe-Eo"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "IubwhdnyWtjpejkGOfnPy"
+    },
+    {
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "c2YZ7PPCX1jF_RU7C0AqN"
+    },
+    {
+      "source": "IubwhdnyWtjpejkGOfnPy",
+      "target": "kJXPzUulKPhawgbEK7n9l"
+    },
+    {
+      "source": "IubwhdnyWtjpejkGOfnPy",
+      "target": "3BGY76hTLAE8PY7OXQtNR"
+    },
+    {
+      "source": "1dGFfQauOgHP7T4ReMpCU",
+      "target": "EBTHbXOOZiqrcYJvKhcWV"
+    },
+    {
+      "source": "3BGY76hTLAE8PY7OXQtNR",
+      "target": "1dGFfQauOgHP7T4ReMpCU"
+    },
+    {
+      "source": "3BGY76hTLAE8PY7OXQtNR",
+      "target": "gxLUlXGuaY5Q-0xmBgQwz"
+    },
+    {
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "K9iW2H6riKwddWmpWJFJw"
+    },
+    {
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "BPahk1qH9Hk11tsE2hw3A"
+    },
+    {
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "3jU5753Uza2aS-gZo7w4k"
+    },
+    {
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "UNE6XK4su5r2jcxhY7hOG"
+    },
+    {
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "YvgmmF9sWfURgijFV7E31"
+    },
+    {
+      "source": "gxLUlXGuaY5Q-0xmBgQwz",
+      "target": "mKN0Ta3zSk7PCm_uHYKFN"
+    },
+    {
+      "source": "mKN0Ta3zSk7PCm_uHYKFN",
+      "target": "9MlFtF1q0eis4YmCEmIir"
+    },
+    {
+      "source": "zyRgTtlng6idboSgL9YTt",
+      "target": "EFA8m0EdhygxcBWzwmbnT"
+    },
+    {
+      "source": "9MlFtF1q0eis4YmCEmIir",
+      "target": "zyRgTtlng6idboSgL9YTt"
+    },
+    {
+      "source": "zyRgTtlng6idboSgL9YTt",
+      "target": "G-xBbtaniYFRE9Dgs18px"
+    },
+    {
+      "source": "G-xBbtaniYFRE9Dgs18px",
+      "target": "rAl7zXcODiqIpS__3qf1A"
+    },
+    {
+      "source": "rAl7zXcODiqIpS__3qf1A",
+      "target": "yTtjbO_dji8ssSaOAKpCV"
+    },
+    {
+      "source": "yTtjbO_dji8ssSaOAKpCV",
+      "target": "a0S0_JLwLLNGLUAHrqG4P"
+    },
+    {
+      "source": "a0S0_JLwLLNGLUAHrqG4P",
+      "target": "zMwmoCUp9429_aXU-Bz4H"
+    },
+    {
+      "source": "a0S0_JLwLLNGLUAHrqG4P",
+      "target": "NWGVtH1vxQuO4lly0Omuy"
+    },
+    {
+      "source": "G-xBbtaniYFRE9Dgs18px",
+      "target": "EQjhRlM7zpANNWkypScIl"
+    },
+    {
+      "source": "NWGVtH1vxQuO4lly0Omuy",
+      "target": "UIWaR1ZdjSm0UAS69Kz_5"
+    },
+    {
+      "source": "NWGVtH1vxQuO4lly0Omuy",
+      "target": "LoT3NtpNj9uAgQRV-MD_E"
+    },
+    {
+      "source": "LoT3NtpNj9uAgQRV-MD_E",
+      "target": "zQp7XfDKWJgMf2LexRJhN"
+    },
+    {
+      "source": "LoT3NtpNj9uAgQRV-MD_E",
+      "target": "8bOWuopxHtBWUSFaVT54P"
+    },
+    {
+      "source": "QxPoNHsL-Pj_z3aU6qEP4",
+      "target": "SvGk66F2HtuWcMgZ8ILII"
+    },
+    {
+      "source": "7XrG-k9T12u84Pwp4YwaY",
+      "target": "aKEH4ZxI6J1nwjp_AgH5r"
+    },
+    {
+      "source": "8bOWuopxHtBWUSFaVT54P",
+      "target": "vHQdMgaL2EEr2o_eJmOuV"
+    },
+    {
+      "source": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "target": "-lsYPD6JueIV94RybGH_Y"
+    },
+    {
+      "source": "z-1Ye5hcNdr9r6Gwdw7mv",
+      "target": "vu8yJsS1WccsdcEVUqwNd"
+    },
+    {
+      "source": "vu8yJsS1WccsdcEVUqwNd",
+      "target": "qkFRW_tJB8_1IYpYskQ5M"
+    },
+    {
+      "source": "qkFRW_tJB8_1IYpYskQ5M",
+      "target": "76xovsBrKOnlRBVjsqNq1"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "8IF7jftushwZrn7JXpC_v"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "uNinrB9wm5ahjGXu5fc0g"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "KWix4jeNUKJ07Iu95Mqj_"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "JP5U6c2fZjtkU-Xzwtapx"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "ui3pUfsGMxv4WRzHkgbF0"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "INiqdtppBmCthOEXuHb-V"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "sXBxaQtwJ-luGVXdqVXk1"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "So-cKAVfbgsw2zzFREu7Q"
+    },
+    {
+      "source": "76xovsBrKOnlRBVjsqNq1",
+      "target": "wvurOKbemF4Tt2WZcmqDL"
+    },
+    {
+      "source": "wvurOKbemF4Tt2WZcmqDL",
+      "target": "SaHqm7T4FFVrsgyfImo66"
+    },
+    {
+      "source": "wvurOKbemF4Tt2WZcmqDL",
+      "target": "gsCRhwwjXuyueaYHSPOVZ"
+    },
+    {
+      "source": "gsCRhwwjXuyueaYHSPOVZ",
+      "target": "n0vIbHmUZHrF4WjEhYdb8"
+    },
+    {
+      "source": "vHQdMgaL2EEr2o_eJmOuV",
+      "target": "8WZpSKBHCeYfTEL9tBNKr"
+    },
+    {
+      "source": "8WZpSKBHCeYfTEL9tBNKr",
+      "target": "z-1Ye5hcNdr9r6Gwdw7mv"
+    },
+    {
+      "source": "KMA7NkxFbPoUDtFnGBFnj",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    },
+    {
+      "source": "DYkdM_L7T2GcTPAoZNnUR",
+      "target": "0vLaVNJaJSHZ_bHli6Qzs"
+    }
+  ]
+}

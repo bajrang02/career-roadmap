@@ -1,0 +1,1140 @@
+{
+  "slug": "aws",
+  "title": "Aws",
+  "nodes": [
+    {
+      "id": "RdhSdx2ZwScg4yimdWUU4",
+      "old_id": "RdhSdx2ZwScg4yimdWUU4",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "PpuIbv7DvcoSOCHewWKZX",
+      "old_id": "PpuIbv7DvcoSOCHewWKZX",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "UUo6bRfaJCrawShMMcduC",
+      "old_id": "UUo6bRfaJCrawShMMcduC",
+      "type": "section",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "Ji35JsKgUQXN4DJGEgTAC",
+      "old_id": "Ji35JsKgUQXN4DJGEgTAC",
+      "type": "title",
+      "label": "AWS",
+      "resources": []
+    },
+    {
+      "id": "if9eTna5NRTMStVwpSwDP",
+      "old_id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "resources": []
+    },
+    {
+      "id": "Py9nst2FDJ1_hoXeX_qSF",
+      "old_id": "jrH1qE6EnFXL4fTyYU8gR",
+      "type": "topic",
+      "label": "Introduction",
+      "resources": []
+    },
+    {
+      "id": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "old_id": "74JxgfJ_1qmVNZ_QRp9Ne",
+      "type": "subtopic",
+      "label": "What is Cloud Computing?",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\what-is-cloud-computing@74JxgfJ_1qmVNZ_QRp9Ne.md"
+    },
+    {
+      "id": "i4ijY3T5gLgNz0XqRipXe",
+      "old_id": "43drPbTwPqJQPyzwYUdBT",
+      "type": "subtopic",
+      "label": "IaaS vs PaaS vs SaaS",
+      "resources": []
+    },
+    {
+      "id": "3hatcMVLDbMuz73uTx-9P",
+      "old_id": "43drPbTwPqJQPyzwYUdBT",
+      "type": "subtopic",
+      "label": "Public vs Private vs Hybrid Cloud",
+      "resources": []
+    },
+    {
+      "id": "Wm2VPi1Tn_Y7dqPowny69",
+      "old_id": "Wm2VPi1Tn_Y7dqPowny69",
+      "type": "linksgroup",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "z9R1BWUGalmnw0E7QqiW6",
+      "old_id": "eKuC7VmkGVYFnbC2Rvn8D",
+      "type": "subtopic",
+      "label": "AWS Global Infrastructure",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\well-architected-framework@eKuC7VmkGVYFnbC2Rvn8D.md"
+    },
+    {
+      "id": "0flGtxZmxQKxO3c3sguwp",
+      "old_id": "eKuC7VmkGVYFnbC2Rvn8D",
+      "type": "subtopic",
+      "label": "Shared Responsibility Model",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\well-architected-framework@eKuC7VmkGVYFnbC2Rvn8D.md"
+    },
+    {
+      "id": "eKuC7VmkGVYFnbC2Rvn8D",
+      "old_id": "eKuC7VmkGVYFnbC2Rvn8D",
+      "type": "subtopic",
+      "label": "Well Architected Framework",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\well-architected-framework@eKuC7VmkGVYFnbC2Rvn8D.md"
+    },
+    {
+      "id": "Dg1v9TV-wGSNLPfAals_y",
+      "old_id": "Dg1v9TV-wGSNLPfAals_y",
+      "type": "subtopic",
+      "label": "Introduction to AWS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\introduction-to-aws@Dg1v9TV-wGSNLPfAals_y.md"
+    },
+    {
+      "id": "cL7vis8H5L2vv6LqJ5wvC",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "EC2",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "VHD2ISW9WoSWjp8Hh6Zft",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Instance Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "_U2bKjxIrAAk7TMrPttpb",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "CPU Credits",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "A0u7CJwj5ULAMiAm12vZI",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Storage / Volumes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "wFT-fddGn__DRoqG0joFk",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Keypairs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "DCvkZSp25pjaimG0THLTu",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Elastic IP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "ZKjjgXZ89zV2atWcSal-s",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "User Data Scripts",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "8v9T6Y6JC7qaqIgkbT-nr",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Purchasing Options",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "Sv2aT8eI1RvJhvoKVYQEX",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "VPC",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "2hFBv2fhKDYBN-9ITs82J",
+      "old_id": "6D-gs32jrCyvMVhr9PSAY",
+      "type": "subtopic",
+      "label": "CIDR Blocks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\nat-gateway@6D-gs32jrCyvMVhr9PSAY.md"
+    },
+    {
+      "id": "Y64TE0U20kllmykjdfhHp",
+      "old_id": "6D-gs32jrCyvMVhr9PSAY",
+      "type": "subtopic",
+      "label": "Subnets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\nat-gateway@6D-gs32jrCyvMVhr9PSAY.md"
+    },
+    {
+      "id": "FCdOnwQubhOnCFFnF8uJN",
+      "old_id": "6D-gs32jrCyvMVhr9PSAY",
+      "type": "subtopic",
+      "label": "Route Tables",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\nat-gateway@6D-gs32jrCyvMVhr9PSAY.md"
+    },
+    {
+      "id": "Cd9gdbkCFdrTLrnJMy5F3",
+      "old_id": "6D-gs32jrCyvMVhr9PSAY",
+      "type": "subtopic",
+      "label": "Security Groups",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\nat-gateway@6D-gs32jrCyvMVhr9PSAY.md"
+    },
+    {
+      "id": "Le8yOJzpzxH1xgd7XEU2B",
+      "old_id": "6D-gs32jrCyvMVhr9PSAY",
+      "type": "subtopic",
+      "label": "Internet Gateway",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\nat-gateway@6D-gs32jrCyvMVhr9PSAY.md"
+    },
+    {
+      "id": "6D-gs32jrCyvMVhr9PSAY",
+      "old_id": "6D-gs32jrCyvMVhr9PSAY",
+      "type": "subtopic",
+      "label": "NAT Gateway",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\nat-gateway@6D-gs32jrCyvMVhr9PSAY.md"
+    },
+    {
+      "id": "ymuURDwW8JG3NSIXcl0FL",
+      "old_id": "ABCH1rATHmecyWHyK3n-m",
+      "type": "subtopic",
+      "label": "Private Subnet",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\public-subnet@ABCH1rATHmecyWHyK3n-m.md"
+    },
+    {
+      "id": "ABCH1rATHmecyWHyK3n-m",
+      "old_id": "ABCH1rATHmecyWHyK3n-m",
+      "type": "subtopic",
+      "label": "Public Subnet",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\public-subnet@ABCH1rATHmecyWHyK3n-m.md"
+    },
+    {
+      "id": "xmKeB4hEi2DunmhAsvS1X",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "IAM",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "eQAn3e-k9WNufPqOnwY_K",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Policies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "Nn2zawk6A31NwZa40jOhX",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Users / User Groups",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "7nI202hX41mI5ms9LZonh",
+      "old_id": "7nI202hX41mI5ms9LZonh",
+      "type": "subtopic",
+      "label": "Roles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\roles@7nI202hX41mI5ms9LZonh.md"
+    },
+    {
+      "id": "cwGuOrmbSTcSoH80skLTk",
+      "old_id": "v_YmmlOk-DkzJ8mI5Ftgr",
+      "type": "subtopic",
+      "label": "Identity-based",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\resource-based@v_YmmlOk-DkzJ8mI5Ftgr.md"
+    },
+    {
+      "id": "v_YmmlOk-DkzJ8mI5Ftgr",
+      "old_id": "v_YmmlOk-DkzJ8mI5Ftgr",
+      "type": "subtopic",
+      "label": "Resource-based",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\resource-based@v_YmmlOk-DkzJ8mI5Ftgr.md"
+    },
+    {
+      "id": "i7X1GfOx5AZYFskepW4Zr",
+      "old_id": "0IMdO7g_5El1elvDXJJ_0",
+      "type": "subtopic",
+      "label": "Instance Profiles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\assuming-roles@0IMdO7g_5El1elvDXJJ_0.md"
+    },
+    {
+      "id": "0IMdO7g_5El1elvDXJJ_0",
+      "old_id": "0IMdO7g_5El1elvDXJJ_0",
+      "type": "subtopic",
+      "label": "Assuming Roles",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\assuming-roles@0IMdO7g_5El1elvDXJJ_0.md"
+    },
+    {
+      "id": "Q6Dt9gq5xo40HNFzbP8LS",
+      "old_id": "C0ngVzsV5v-wrFbSzAhuu",
+      "type": "label",
+      "label": "Step 1 - Essentials",
+      "resources": []
+    },
+    {
+      "id": "9vu33RXjGoH98FVmqTndp",
+      "old_id": "y8CCvjrJr4Uo0Nc3tlAbG",
+      "type": "checklist",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "B3PQqrz9ta9yghKO1TXiT",
+      "old_id": "C0ngVzsV5v-wrFbSzAhuu",
+      "type": "label",
+      "label": "Step 2 - Learn these next",
+      "resources": []
+    },
+    {
+      "id": "ONTEcBOHsEZn5RV3ulSzo",
+      "old_id": "y8CCvjrJr4Uo0Nc3tlAbG",
+      "type": "checklist",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "qk08dKs3kwl-chTMJif49",
+      "old_id": "C0ngVzsV5v-wrFbSzAhuu",
+      "type": "label",
+      "label": "Step 3 - Pick these after",
+      "resources": []
+    },
+    {
+      "id": "T0xEJk3s05nFqd0EWz6go",
+      "old_id": "y8CCvjrJr4Uo0Nc3tlAbG",
+      "type": "checklist",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "C0ngVzsV5v-wrFbSzAhuu",
+      "old_id": "C0ngVzsV5v-wrFbSzAhuu",
+      "type": "label",
+      "label": "Step 4 - Serverless",
+      "resources": []
+    },
+    {
+      "id": "y8CCvjrJr4Uo0Nc3tlAbG",
+      "old_id": "y8CCvjrJr4Uo0Nc3tlAbG",
+      "type": "checklist",
+      "label": "",
+      "resources": []
+    },
+    {
+      "id": "AzAPrzmLAhYBRUkQyWYas",
+      "old_id": "AzAPrzmLAhYBRUkQyWYas",
+      "type": "horizontal",
+      "label": "horizontal node",
+      "resources": []
+    },
+    {
+      "id": "dOAZG-NbjWiVdPKYEhWxj",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "Auto-Scaling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "AfagmWcllSi81D2XIQz0V",
+      "old_id": "AfagmWcllSi81D2XIQz0V",
+      "type": "subtopic",
+      "label": "AMIs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\amis@AfagmWcllSi81D2XIQz0V.md"
+    },
+    {
+      "id": "K0GCk5_HDvP0_ZqsUc3tG",
+      "old_id": "K0GCk5_HDvP0_ZqsUc3tG",
+      "type": "subtopic",
+      "label": "Launch Templates",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\launch-templates@K0GCk5_HDvP0_ZqsUc3tG.md"
+    },
+    {
+      "id": "gBKHVG7FvlCEgINKmw00s",
+      "old_id": "gBKHVG7FvlCEgINKmw00s",
+      "type": "subtopic",
+      "label": "Auto-Scaling Groups",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\auto-scaling-groups@gBKHVG7FvlCEgINKmw00s.md"
+    },
+    {
+      "id": "fRBaiw8Qx8kapzCphmM4v",
+      "old_id": "fRBaiw8Qx8kapzCphmM4v",
+      "type": "subtopic",
+      "label": "Scaling Policies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\scaling-policies@fRBaiw8Qx8kapzCphmM4v.md"
+    },
+    {
+      "id": "YAZPKMbmrxYNqF6alXMyL",
+      "old_id": "YAZPKMbmrxYNqF6alXMyL",
+      "type": "subtopic",
+      "label": "Elastic Load Balancers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\elastic-load-balancers@YAZPKMbmrxYNqF6alXMyL.md"
+    },
+    {
+      "id": "PN3xAYfQ-_QgZCRCnsEca",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "S3",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "rTgjDj5HqbjRpcJ7PR-EC",
+      "old_id": "rTgjDj5HqbjRpcJ7PR-EC",
+      "type": "subtopic",
+      "label": "Buckets / Objects",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\buckets--objects@rTgjDj5HqbjRpcJ7PR-EC.md"
+    },
+    {
+      "id": "8i6zpjkMC_Pg-tDNmrx4n",
+      "old_id": "8i6zpjkMC_Pg-tDNmrx4n",
+      "type": "subtopic",
+      "label": "Bucket / Object Lifecycle",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\bucket--object-lifecycle@8i6zpjkMC_Pg-tDNmrx4n.md"
+    },
+    {
+      "id": "PJaAqax4fABnkObY5UwNp",
+      "old_id": "PJaAqax4fABnkObY5UwNp",
+      "type": "topic",
+      "label": "Storage Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\storage-types@PJaAqax4fABnkObY5UwNp.md"
+    },
+    {
+      "id": "Ll5FPCtkpYq_niJd7WoTC",
+      "old_id": "Ll5FPCtkpYq_niJd7WoTC",
+      "type": "subtopic",
+      "label": "Standard",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\standard@Ll5FPCtkpYq_niJd7WoTC.md"
+    },
+    {
+      "id": "JlkLNQ8wRzGkjaootNKOD",
+      "old_id": "IikKYP58sT2H1lM8glm-g",
+      "type": "subtopic",
+      "label": "S3-IA",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\glacier@IikKYP58sT2H1lM8glm-g.md"
+    },
+    {
+      "id": "IikKYP58sT2H1lM8glm-g",
+      "old_id": "IikKYP58sT2H1lM8glm-g",
+      "type": "subtopic",
+      "label": "Glacier",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\glacier@IikKYP58sT2H1lM8glm-g.md"
+    },
+    {
+      "id": "-bwXo6xvF1yzyWEm5oZhJ",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "SES",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "kG7tlZjv_hJbHGooBkxS0",
+      "old_id": "0NWTFssjg9SbDXQRkN5kF",
+      "type": "subtopic",
+      "label": "Sandbox / Sending Limits",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\feedback-handling@0NWTFssjg9SbDXQRkN5kF.md"
+    },
+    {
+      "id": "bTCVHXPG-LtaaFmgiB2SL",
+      "old_id": "0NWTFssjg9SbDXQRkN5kF",
+      "type": "subtopic",
+      "label": "Identity Verification",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\feedback-handling@0NWTFssjg9SbDXQRkN5kF.md"
+    },
+    {
+      "id": "zwVd1vNm1ks6MdHZoi-5W",
+      "old_id": "0NWTFssjg9SbDXQRkN5kF",
+      "type": "subtopic",
+      "label": "DKIM Setup",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\feedback-handling@0NWTFssjg9SbDXQRkN5kF.md"
+    },
+    {
+      "id": "0NWTFssjg9SbDXQRkN5kF",
+      "old_id": "0NWTFssjg9SbDXQRkN5kF",
+      "type": "subtopic",
+      "label": "Feedback Handling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\feedback-handling@0NWTFssjg9SbDXQRkN5kF.md"
+    },
+    {
+      "id": "4svXYQYmqjUZU39z8OyhD",
+      "old_id": "4svXYQYmqjUZU39z8OyhD",
+      "type": "subtopic",
+      "label": "Configuration Sets",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\configuration-sets@4svXYQYmqjUZU39z8OyhD.md"
+    },
+    {
+      "id": "Vo_PBfB7LxYL27nBBVoVp",
+      "old_id": "Vo_PBfB7LxYL27nBBVoVp",
+      "type": "subtopic",
+      "label": "Sender Reputation",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\sender-reputation@Vo_PBfB7LxYL27nBBVoVp.md"
+    },
+    {
+      "id": "pnX1dfkjS8woWc4KGXlh_",
+      "old_id": "pnX1dfkjS8woWc4KGXlh_",
+      "type": "subtopic",
+      "label": "Dedicated IP",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\dedicated-ip@pnX1dfkjS8woWc4KGXlh_.md"
+    },
+    {
+      "id": "f89qL7Cg9R_LTxBEG4jUK",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "Route53",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "z-o-2cGYSM6KW_CNJyw3p",
+      "old_id": "z-o-2cGYSM6KW_CNJyw3p",
+      "type": "subtopic",
+      "label": "Hosted Zones",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\hosted-zones@z-o-2cGYSM6KW_CNJyw3p.md"
+    },
+    {
+      "id": "IQhPG1La7dZeSXnX23D1n",
+      "old_id": "IQhPG1La7dZeSXnX23D1n",
+      "type": "subtopic",
+      "label": "Routing Policies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\routing-policies@IQhPG1La7dZeSXnX23D1n.md"
+    },
+    {
+      "id": "LXG_znJ3XzPAlDxUH2-Xp",
+      "old_id": "LXG_znJ3XzPAlDxUH2-Xp",
+      "type": "subtopic",
+      "label": "Health Checks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\health-checks@LXG_znJ3XzPAlDxUH2-Xp.md"
+    },
+    {
+      "id": "VAYxwJH10PFjGS8poKd9-",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "Cloudwatch",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "2vQPmVNk1QpMM-15RKG8b",
+      "old_id": "oC6KIjWAXw0hLl4FwkB9F",
+      "type": "subtopic",
+      "label": "Metrics",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\logs@oC6KIjWAXw0hLl4FwkB9F.md"
+    },
+    {
+      "id": "tHQ6NRVDPCPEOmzgjQDLX",
+      "old_id": "oC6KIjWAXw0hLl4FwkB9F",
+      "type": "subtopic",
+      "label": "Events",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\logs@oC6KIjWAXw0hLl4FwkB9F.md"
+    },
+    {
+      "id": "oC6KIjWAXw0hLl4FwkB9F",
+      "old_id": "oC6KIjWAXw0hLl4FwkB9F",
+      "type": "subtopic",
+      "label": "Logs",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\logs@oC6KIjWAXw0hLl4FwkB9F.md"
+    },
+    {
+      "id": "fkMF-2PQZ00UdwxhQt1ds",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "RDS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "l9oq3LiEd8ZrPtupPk-Fn",
+      "old_id": "tBKc7tHOiJaTmwEl3q--Y",
+      "type": "subtopic",
+      "label": "DB Instances",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\backup--restore@tBKc7tHOiJaTmwEl3q--Y.md"
+    },
+    {
+      "id": "Xs057ESpvxXg2r_rDQnOa",
+      "old_id": "tBKc7tHOiJaTmwEl3q--Y",
+      "type": "subtopic",
+      "label": "Storage Types",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\backup--restore@tBKc7tHOiJaTmwEl3q--Y.md"
+    },
+    {
+      "id": "tBKc7tHOiJaTmwEl3q--Y",
+      "old_id": "tBKc7tHOiJaTmwEl3q--Y",
+      "type": "subtopic",
+      "label": "Backup / Restore",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\backup--restore@tBKc7tHOiJaTmwEl3q--Y.md"
+    },
+    {
+      "id": "uo5HIyePegnJooortvWLu",
+      "old_id": "y0CoNcEFHyz350f7pNddt",
+      "type": "subtopic",
+      "label": "General Purpose",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\magnetic@y0CoNcEFHyz350f7pNddt.md"
+    },
+    {
+      "id": "3l1ji4JToj277vpgONmLw",
+      "old_id": "y0CoNcEFHyz350f7pNddt",
+      "type": "subtopic",
+      "label": "Provisioned IOPS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\magnetic@y0CoNcEFHyz350f7pNddt.md"
+    },
+    {
+      "id": "y0CoNcEFHyz350f7pNddt",
+      "old_id": "y0CoNcEFHyz350f7pNddt",
+      "type": "subtopic",
+      "label": "Magnetic",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\magnetic@y0CoNcEFHyz350f7pNddt.md"
+    },
+    {
+      "id": "wGb0TEDnSe_bmv9Krx4qB",
+      "old_id": "zFgnu2fL0EUKIMz9tVH1j",
+      "type": "topic",
+      "label": "DynamoDB",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\cloudfront@zFgnu2fL0EUKIMz9tVH1j.md"
+    },
+    {
+      "id": "DN_iuLo9gYDqU8JleE1WJ",
+      "old_id": "0C3GCGdSXozJK2MNeWerg",
+      "type": "subtopic",
+      "label": "Tables / Items / Attributes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\streams@0C3GCGdSXozJK2MNeWerg.md"
+    },
+    {
+      "id": "oWtWgaFznTPJhQIyfIIQf",
+      "old_id": "oWtWgaFznTPJhQIyfIIQf",
+      "type": "subtopic",
+      "label": "Primary Keys / Secondary Indexes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\primary-keys--secondary-indexes@oWtWgaFznTPJhQIyfIIQf.md"
+    },
+    {
+      "id": "aU1lv80xXNkQTD41Qfln5",
+      "old_id": "NWvasq-AcwxmOKZPDv3ue",
+      "type": "subtopic",
+      "label": "Data Modeling",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\backup--restore@NWvasq-AcwxmOKZPDv3ue.md"
+    },
+    {
+      "id": "0C3GCGdSXozJK2MNeWerg",
+      "old_id": "oWtWgaFznTPJhQIyfIIQf",
+      "type": "subtopic",
+      "label": "Streams",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\primary-keys--secondary-indexes@oWtWgaFznTPJhQIyfIIQf.md"
+    },
+    {
+      "id": "KtXww9J0znwzTwL7GKfaY",
+      "old_id": "yauCWo1VoG-X483-4mfdn",
+      "type": "subtopic",
+      "label": "Capacity Settings",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\dynamodb-local@yauCWo1VoG-X483-4mfdn.md"
+    },
+    {
+      "id": "0ctJa-V6aenimSr5h303J",
+      "old_id": "NWvasq-AcwxmOKZPDv3ue",
+      "type": "subtopic",
+      "label": "Limits",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\backup--restore@NWvasq-AcwxmOKZPDv3ue.md"
+    },
+    {
+      "id": "NWvasq-AcwxmOKZPDv3ue",
+      "old_id": "0C3GCGdSXozJK2MNeWerg",
+      "type": "subtopic",
+      "label": "Backup / Restore",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\streams@0C3GCGdSXozJK2MNeWerg.md"
+    },
+    {
+      "id": "yauCWo1VoG-X483-4mfdn",
+      "old_id": "NWvasq-AcwxmOKZPDv3ue",
+      "type": "subtopic",
+      "label": "DynamoDB Local",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\backup--restore@NWvasq-AcwxmOKZPDv3ue.md"
+    },
+    {
+      "id": "9TcYdsdmvKWWHoyE6uNbC",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "ElastiCache",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "PYgs4niQRlLKCBMfM4qf9",
+      "old_id": "PYgs4niQRlLKCBMfM4qf9",
+      "type": "subtopic",
+      "label": "Quotas",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\quotas@PYgs4niQRlLKCBMfM4qf9.md"
+    },
+    {
+      "id": "_c_Wq84yIu4ac7e0RzDtC",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "ECR",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "EqUT0wpdPRDGtGAZ7nneY",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "ECS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "PphzNicIJawVElmY5rn8f",
+      "old_id": "OI8y54RhFpfS_l1L9VTZe",
+      "type": "subtopic",
+      "label": "Clusters / ECS Container Agents",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\fargate@OI8y54RhFpfS_l1L9VTZe.md"
+    },
+    {
+      "id": "1lHXxpoF11yE3rfoQCbTG",
+      "old_id": "zSiSbIdBgFLBBAnp4I9vX",
+      "type": "subtopic",
+      "label": "Tasks",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\services@zSiSbIdBgFLBBAnp4I9vX.md"
+    },
+    {
+      "id": "zSiSbIdBgFLBBAnp4I9vX",
+      "old_id": "zSiSbIdBgFLBBAnp4I9vX",
+      "type": "subtopic",
+      "label": "Services",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\services@zSiSbIdBgFLBBAnp4I9vX.md"
+    },
+    {
+      "id": "1r2FL3OEOh0S9ee0OVnrN",
+      "old_id": "OI8y54RhFpfS_l1L9VTZe",
+      "type": "subtopic",
+      "label": "Launch Config / Autoscaling Groups",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\fargate@OI8y54RhFpfS_l1L9VTZe.md"
+    },
+    {
+      "id": "OI8y54RhFpfS_l1L9VTZe",
+      "old_id": "zSiSbIdBgFLBBAnp4I9vX",
+      "type": "subtopic",
+      "label": "Fargate",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\services@zSiSbIdBgFLBBAnp4I9vX.md"
+    },
+    {
+      "id": "kvHzEDZQV72AUjqisg8PB",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "EKS",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "741vsAPTXJLVUlazFg0q4",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "Lambda",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "SdCNevKjyhFcreMSWY6BT",
+      "old_id": "EuOv19jDSj56Cy7PqvtNv",
+      "type": "subtopic",
+      "label": "Creating / Invoking Functions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\cold-start-and-limitations@EuOv19jDSj56Cy7PqvtNv.md"
+    },
+    {
+      "id": "CL93C0NGFQmScVnftnRtO",
+      "old_id": "T0dvezPWX6rAiKweT0TkG",
+      "type": "subtopic",
+      "label": "Layers",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\api-gateway@T0dvezPWX6rAiKweT0TkG.md"
+    },
+    {
+      "id": "KWjIAakMIlxn_jso22h0M",
+      "old_id": "5SF5nO94NFDkHY8UJoeAY",
+      "type": "subtopic",
+      "label": "Custom Runtimes",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambdaedge@5SF5nO94NFDkHY8UJoeAY.md"
+    },
+    {
+      "id": "75ZjuGozDfoZPLj32P2t2",
+      "old_id": "EuOv19jDSj56Cy7PqvtNv",
+      "type": "subtopic",
+      "label": "Versioning / Aliases",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\cold-start-and-limitations@EuOv19jDSj56Cy7PqvtNv.md"
+    },
+    {
+      "id": "0CUfDEMwCwSHVdqkP8lOG",
+      "old_id": "EuOv19jDSj56Cy7PqvtNv",
+      "type": "subtopic",
+      "label": "Event Bridge / Scheduled Execution",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\cold-start-and-limitations@EuOv19jDSj56Cy7PqvtNv.md"
+    },
+    {
+      "id": "EuOv19jDSj56Cy7PqvtNv",
+      "old_id": "EuOv19jDSj56Cy7PqvtNv",
+      "type": "subtopic",
+      "label": "Cold Start and Limitations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\cold-start-and-limitations@EuOv19jDSj56Cy7PqvtNv.md"
+    },
+    {
+      "id": "T0dvezPWX6rAiKweT0TkG",
+      "old_id": "5SF5nO94NFDkHY8UJoeAY",
+      "type": "subtopic",
+      "label": "API Gateway",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambdaedge@5SF5nO94NFDkHY8UJoeAY.md"
+    },
+    {
+      "id": "5SF5nO94NFDkHY8UJoeAY",
+      "old_id": "5SF5nO94NFDkHY8UJoeAY",
+      "type": "subtopic",
+      "label": "Lambda@Edge",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambdaedge@5SF5nO94NFDkHY8UJoeAY.md"
+    },
+    {
+      "id": "UloavCkIvZnD1XMFohYVT",
+      "old_id": "OIcmPSbdsuWapb6HZ4BEi",
+      "type": "button",
+      "label": "Kubernetes Roadmap",
+      "resources": []
+    },
+    {
+      "id": "OIcmPSbdsuWapb6HZ4BEi",
+      "old_id": "cmSSwPPiiHwYh9ct14N6A",
+      "type": "button",
+      "label": "DevOps Roadmap",
+      "resources": []
+    },
+    {
+      "id": "zFgnu2fL0EUKIMz9tVH1j",
+      "old_id": "741vsAPTXJLVUlazFg0q4",
+      "type": "topic",
+      "label": "Cloudfront",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\lambda@741vsAPTXJLVUlazFg0q4.md"
+    },
+    {
+      "id": "fAK7GRKunmoidlD32OBma",
+      "old_id": "hRXbAADgRTXEFwbBXeNu7",
+      "type": "subtopic",
+      "label": "Distributions",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\invalidations@hRXbAADgRTXEFwbBXeNu7.md"
+    },
+    {
+      "id": "dO9ZfUyNia7L_fCh4d0n7",
+      "old_id": "hRXbAADgRTXEFwbBXeNu7",
+      "type": "subtopic",
+      "label": "Policies",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\invalidations@hRXbAADgRTXEFwbBXeNu7.md"
+    },
+    {
+      "id": "hRXbAADgRTXEFwbBXeNu7",
+      "old_id": "hRXbAADgRTXEFwbBXeNu7",
+      "type": "subtopic",
+      "label": "Invalidations",
+      "resources": [],
+      "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aws\\content\\invalidations@hRXbAADgRTXEFwbBXeNu7.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ji35JsKgUQXN4DJGEgTAC",
+      "target": "Py9nst2FDJ1_hoXeX_qSF"
+    },
+    {
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "74JxgfJ_1qmVNZ_QRp9Ne"
+    },
+    {
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "i4ijY3T5gLgNz0XqRipXe"
+    },
+    {
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "3hatcMVLDbMuz73uTx-9P"
+    },
+    {
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "Dg1v9TV-wGSNLPfAals_y"
+    },
+    {
+      "source": "Py9nst2FDJ1_hoXeX_qSF",
+      "target": "kcBGBLPuZkuI-Omv8mOe7"
+    },
+    {
+      "source": "kcBGBLPuZkuI-Omv8mOe7",
+      "target": "cL7vis8H5L2vv6LqJ5wvC"
+    },
+    {
+      "source": "cL7vis8H5L2vv6LqJ5wvC",
+      "target": "VHD2ISW9WoSWjp8Hh6Zft"
+    },
+    {
+      "source": "cL7vis8H5L2vv6LqJ5wvC",
+      "target": "Sv2aT8eI1RvJhvoKVYQEX"
+    },
+    {
+      "source": "Sv2aT8eI1RvJhvoKVYQEX",
+      "target": "2hFBv2fhKDYBN-9ITs82J"
+    },
+    {
+      "source": "eQAn3e-k9WNufPqOnwY_K",
+      "target": "v_YmmlOk-DkzJ8mI5Ftgr"
+    },
+    {
+      "source": "eQAn3e-k9WNufPqOnwY_K",
+      "target": "cwGuOrmbSTcSoH80skLTk"
+    },
+    {
+      "source": "xmKeB4hEi2DunmhAsvS1X",
+      "target": "eQAn3e-k9WNufPqOnwY_K"
+    },
+    {
+      "source": "7nI202hX41mI5ms9LZonh",
+      "target": "i7X1GfOx5AZYFskepW4Zr"
+    },
+    {
+      "source": "7nI202hX41mI5ms9LZonh",
+      "target": "0IMdO7g_5El1elvDXJJ_0"
+    },
+    {
+      "source": "Sv2aT8eI1RvJhvoKVYQEX",
+      "target": "xmKeB4hEi2DunmhAsvS1X"
+    },
+    {
+      "source": "xmKeB4hEi2DunmhAsvS1X",
+      "target": "dOAZG-NbjWiVdPKYEhWxj"
+    },
+    {
+      "source": "dOAZG-NbjWiVdPKYEhWxj",
+      "target": "PN3xAYfQ-_QgZCRCnsEca"
+    },
+    {
+      "source": "PN3xAYfQ-_QgZCRCnsEca",
+      "target": "rTgjDj5HqbjRpcJ7PR-EC"
+    },
+    {
+      "source": "PN3xAYfQ-_QgZCRCnsEca",
+      "target": "-bwXo6xvF1yzyWEm5oZhJ"
+    },
+    {
+      "source": "f89qL7Cg9R_LTxBEG4jUK",
+      "target": "IQhPG1La7dZeSXnX23D1n"
+    },
+    {
+      "source": "f89qL7Cg9R_LTxBEG4jUK",
+      "target": "z-o-2cGYSM6KW_CNJyw3p"
+    },
+    {
+      "source": "f89qL7Cg9R_LTxBEG4jUK",
+      "target": "LXG_znJ3XzPAlDxUH2-Xp"
+    },
+    {
+      "source": "VAYxwJH10PFjGS8poKd9-",
+      "target": "tHQ6NRVDPCPEOmzgjQDLX"
+    },
+    {
+      "source": "VAYxwJH10PFjGS8poKd9-",
+      "target": "2vQPmVNk1QpMM-15RKG8b"
+    },
+    {
+      "source": "VAYxwJH10PFjGS8poKd9-",
+      "target": "oC6KIjWAXw0hLl4FwkB9F"
+    },
+    {
+      "source": "Xs057ESpvxXg2r_rDQnOa",
+      "target": "3l1ji4JToj277vpgONmLw"
+    },
+    {
+      "source": "Xs057ESpvxXg2r_rDQnOa",
+      "target": "uo5HIyePegnJooortvWLu"
+    },
+    {
+      "source": "Xs057ESpvxXg2r_rDQnOa",
+      "target": "y0CoNcEFHyz350f7pNddt"
+    },
+    {
+      "source": "fkMF-2PQZ00UdwxhQt1ds",
+      "target": "wGb0TEDnSe_bmv9Krx4qB"
+    },
+    {
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "aU1lv80xXNkQTD41Qfln5"
+    },
+    {
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "oWtWgaFznTPJhQIyfIIQf"
+    },
+    {
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "DN_iuLo9gYDqU8JleE1WJ"
+    },
+    {
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "KtXww9J0znwzTwL7GKfaY"
+    },
+    {
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "0ctJa-V6aenimSr5h303J"
+    },
+    {
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "yauCWo1VoG-X483-4mfdn"
+    },
+    {
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "75ZjuGozDfoZPLj32P2t2"
+    },
+    {
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "KWjIAakMIlxn_jso22h0M"
+    },
+    {
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "SdCNevKjyhFcreMSWY6BT"
+    },
+    {
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "0CUfDEMwCwSHVdqkP8lOG"
+    },
+    {
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "EuOv19jDSj56Cy7PqvtNv"
+    },
+    {
+      "source": "741vsAPTXJLVUlazFg0q4",
+      "target": "5SF5nO94NFDkHY8UJoeAY"
+    },
+    {
+      "source": "wGb0TEDnSe_bmv9Krx4qB",
+      "target": "zFgnu2fL0EUKIMz9tVH1j"
+    },
+    {
+      "source": "zFgnu2fL0EUKIMz9tVH1j",
+      "target": "9TcYdsdmvKWWHoyE6uNbC"
+    },
+    {
+      "source": "zFgnu2fL0EUKIMz9tVH1j",
+      "target": "dO9ZfUyNia7L_fCh4d0n7"
+    },
+    {
+      "source": "zFgnu2fL0EUKIMz9tVH1j",
+      "target": "fAK7GRKunmoidlD32OBma"
+    },
+    {
+      "source": "zFgnu2fL0EUKIMz9tVH1j",
+      "target": "hRXbAADgRTXEFwbBXeNu7"
+    },
+    {
+      "source": "9TcYdsdmvKWWHoyE6uNbC",
+      "target": "PYgs4niQRlLKCBMfM4qf9"
+    },
+    {
+      "source": "9TcYdsdmvKWWHoyE6uNbC",
+      "target": "_c_Wq84yIu4ac7e0RzDtC"
+    },
+    {
+      "source": "_c_Wq84yIu4ac7e0RzDtC",
+      "target": "EqUT0wpdPRDGtGAZ7nneY"
+    },
+    {
+      "source": "EqUT0wpdPRDGtGAZ7nneY",
+      "target": "kvHzEDZQV72AUjqisg8PB"
+    },
+    {
+      "source": "kvHzEDZQV72AUjqisg8PB",
+      "target": "741vsAPTXJLVUlazFg0q4"
+    }
+  ]
+}

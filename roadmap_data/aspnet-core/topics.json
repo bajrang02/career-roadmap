@@ -1,0 +1,1681 @@
+[
+  {
+    "id": "NEnna_8DstfYH4T9qrP3-",
+    "old_id": "NEnna_8DstfYH4T9qrP3-",
+    "type": "topic",
+    "label": "General Development Skills",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\general-development-skills@NEnna_8DstfYH4T9qrP3-.md"
+  },
+  {
+    "id": "fxANnSiTb2VzA9u-YeBL1",
+    "old_id": "fxANnSiTb2VzA9u-YeBL1",
+    "type": "subtopic",
+    "label": "C#",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\c@fxANnSiTb2VzA9u-YeBL1.md"
+  },
+  {
+    "id": "3GGvuxdfuDwLpNX_gtjCK",
+    "old_id": "3GGvuxdfuDwLpNX_gtjCK",
+    "type": "subtopic",
+    "label": ".NET",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\net@3GGvuxdfuDwLpNX_gtjCK.md"
+  },
+  {
+    "id": "6HJQ1Evgah0Pki04Z2hQt",
+    "old_id": "6HJQ1Evgah0Pki04Z2hQt",
+    "type": "subtopic",
+    "label": ".NET CLI",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\net-cli@6HJQ1Evgah0Pki04Z2hQt.md"
+  },
+  {
+    "id": "NvODRFR0DLINB0RlPSsvt",
+    "old_id": "NvODRFR0DLINB0RlPSsvt",
+    "type": "topic",
+    "label": "Learn the Basics of C#",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\learn-the-basics-of-c@NvODRFR0DLINB0RlPSsvt.md"
+  },
+  {
+    "id": "OtdCmkj0SvrGwCUSfm96C",
+    "old_id": "OtdCmkj0SvrGwCUSfm96C",
+    "type": "subtopic",
+    "label": "Git - Version Control",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\git---version-control@OtdCmkj0SvrGwCUSfm96C.md"
+  },
+  {
+    "id": "KAZF-mIg-FlfMonfdOLhb",
+    "old_id": "KAZF-mIg-FlfMonfdOLhb",
+    "type": "subtopic",
+    "label": "GitHub, GitLab, BitBucket",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\github-gitlab-bitbucket@KAZF-mIg-FlfMonfdOLhb.md"
+  },
+  {
+    "id": "YI3cAezupWNntFw4B6elY",
+    "old_id": "YI3cAezupWNntFw4B6elY",
+    "type": "subtopic",
+    "label": "HTTP / HTTPs Protocol",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\http--https-protocol@YI3cAezupWNntFw4B6elY.md"
+  },
+  {
+    "id": "RAX2xN37taw9cqA3pnORh",
+    "old_id": "RAX2xN37taw9cqA3pnORh",
+    "type": "subtopic",
+    "label": "Data Structures and Algorithms",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\data-structures-and-algorithms@RAX2xN37taw9cqA3pnORh.md"
+  },
+  {
+    "id": "tnKUdsgp6bnFtQTexEmfy",
+    "old_id": "tnKUdsgp6bnFtQTexEmfy",
+    "type": "topic",
+    "label": "Database Fundamentals",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\database-fundamentals@tnKUdsgp6bnFtQTexEmfy.md"
+  },
+  {
+    "id": "aOJMVrTcA_I2y_QHzj7aM",
+    "old_id": "aOJMVrTcA_I2y_QHzj7aM",
+    "type": "subtopic",
+    "label": "SQL Basics",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\sql-basics@aOJMVrTcA_I2y_QHzj7aM.md"
+  },
+  {
+    "id": "zlAcgLKxGF_TyrcJIk4X7",
+    "old_id": "zlAcgLKxGF_TyrcJIk4X7",
+    "type": "subtopic",
+    "label": "Database Design Basics",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\database-design-basics@zlAcgLKxGF_TyrcJIk4X7.md"
+  },
+  {
+    "id": "ZiK-c9zNbi5RZkKUi44wP",
+    "old_id": "ZiK-c9zNbi5RZkKUi44wP",
+    "type": "subtopic",
+    "label": "Stored Procedures",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\stored-procedures@ZiK-c9zNbi5RZkKUi44wP.md"
+  },
+  {
+    "id": "1-XdtrGPbUoxpu9ZcQlBA",
+    "old_id": "1-XdtrGPbUoxpu9ZcQlBA",
+    "type": "subtopic",
+    "label": "Constraints",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\constraints@1-XdtrGPbUoxpu9ZcQlBA.md"
+  },
+  {
+    "id": "2f_CJMnXwPxjMEwm5P_QJ",
+    "old_id": "2f_CJMnXwPxjMEwm5P_QJ",
+    "type": "subtopic",
+    "label": "Triggers",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\triggers@2f_CJMnXwPxjMEwm5P_QJ.md"
+  },
+  {
+    "id": "v2ZTCQQFQPoJNhOVGMG2g",
+    "old_id": "v2ZTCQQFQPoJNhOVGMG2g",
+    "type": "topic",
+    "label": "ASP.NET Core Basics",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\aspnet-core-basics@v2ZTCQQFQPoJNhOVGMG2g.md"
+  },
+  {
+    "id": "D3aQw0-pk3ycO-n10HBaA",
+    "old_id": "D3aQw0-pk3ycO-n10HBaA",
+    "type": "subtopic",
+    "label": "MVC",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\mvc@D3aQw0-pk3ycO-n10HBaA.md"
+  },
+  {
+    "id": "dZ9fYWMBa1OemTmLOI8_q",
+    "old_id": "dZ9fYWMBa1OemTmLOI8_q",
+    "type": "subtopic",
+    "label": "REST",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\rest@dZ9fYWMBa1OemTmLOI8_q.md"
+  },
+  {
+    "id": "qpVxwuyA2oE06MZLtEdP1",
+    "old_id": "ipABerBcM9zCte9pYaIse",
+    "type": "subtopic",
+    "label": "Razor Pages",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\minimal-apis@ipABerBcM9zCte9pYaIse.md"
+  },
+  {
+    "id": "vePinRjDfSGULKw0LE9K-",
+    "old_id": "vePinRjDfSGULKw0LE9K-",
+    "type": "subtopic",
+    "label": "Razor Components",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\razor-components@vePinRjDfSGULKw0LE9K-.md"
+  },
+  {
+    "id": "dG--AAcZZdltYCeg6zCz2",
+    "old_id": "dG--AAcZZdltYCeg6zCz2",
+    "type": "subtopic",
+    "label": "Middlewares",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\middlewares@dG--AAcZZdltYCeg6zCz2.md"
+  },
+  {
+    "id": "U3HXmNq6x2YA3BwZsOTbe",
+    "old_id": "U3HXmNq6x2YA3BwZsOTbe",
+    "type": "subtopic",
+    "label": "Filters and Attributes",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\filters-and-attributes@U3HXmNq6x2YA3BwZsOTbe.md"
+  },
+  {
+    "id": "EJxliq-HPVp00CVsFc6kf",
+    "old_id": "fius143Op9lRLjSZwjwVX",
+    "type": "subtopic",
+    "label": "App Settings and Configs",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    }
+  },
+  {
+    "id": "R7Qk5hsEIl9dspQXdaJAJ",
+    "old_id": "R7Qk5hsEIl9dspQXdaJAJ",
+    "type": "subtopic",
+    "label": "StyleCop Rules",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\stylecop-rules@R7Qk5hsEIl9dspQXdaJAJ.md"
+  },
+  {
+    "id": "ipABerBcM9zCte9pYaIse",
+    "old_id": "ipABerBcM9zCte9pYaIse",
+    "type": "subtopic",
+    "label": "Minimal APIs",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\minimal-apis@ipABerBcM9zCte9pYaIse.md"
+  },
+  {
+    "id": "POQPoN98eqOH2873ZI6Hm",
+    "old_id": "POQPoN98eqOH2873ZI6Hm",
+    "type": "topic",
+    "label": "Object Relational Mapping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\object-relational-mapping@POQPoN98eqOH2873ZI6Hm.md"
+  },
+  {
+    "id": "ET74_7ieahNaGdPT11_NI",
+    "old_id": "ET74_7ieahNaGdPT11_NI",
+    "type": "subtopic",
+    "label": "Entity Framework Core",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\entity-framework-core@ET74_7ieahNaGdPT11_NI.md"
+  },
+  {
+    "id": "eGVaAz3VhGu3cXBNxTAWd",
+    "old_id": "eGVaAz3VhGu3cXBNxTAWd",
+    "type": "subtopic",
+    "label": "Framework Basics",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\framework-basics@eGVaAz3VhGu3cXBNxTAWd.md"
+  },
+  {
+    "id": "ZPeebwJ3OBuywEgLLgQTG",
+    "old_id": "ZPeebwJ3OBuywEgLLgQTG",
+    "type": "subtopic",
+    "label": "Code First + Migrations",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\code-first--migrations@ZPeebwJ3OBuywEgLLgQTG.md"
+  },
+  {
+    "id": "9AMotSwdEbB8uOg80SykE",
+    "old_id": "9AMotSwdEbB8uOg80SykE",
+    "type": "subtopic",
+    "label": "Lazy, Eager, Explicit Loading",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\lazy-eager-explicit-loading@9AMotSwdEbB8uOg80SykE.md"
+  },
+  {
+    "id": "wfEOvAkGXkTZGdGX341D4",
+    "old_id": "wfEOvAkGXkTZGdGX341D4",
+    "type": "subtopic",
+    "label": "Change Tracker API",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\change-tracker-api@wfEOvAkGXkTZGdGX341D4.md"
+  },
+  {
+    "id": "UkWc41r0bZ1lptjse3As6",
+    "old_id": "UkWc41r0bZ1lptjse3As6",
+    "type": "subtopic",
+    "label": "Dapper",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\dapper@UkWc41r0bZ1lptjse3As6.md"
+  },
+  {
+    "id": "tYDVcnG0oUF3R8DwASvAh",
+    "old_id": "tYDVcnG0oUF3R8DwASvAh",
+    "type": "subtopic",
+    "label": "RepoDB",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\repodb@tYDVcnG0oUF3R8DwASvAh.md"
+  },
+  {
+    "id": "z24IJndpQYTl1PhiUI2mx",
+    "old_id": "z24IJndpQYTl1PhiUI2mx",
+    "type": "subtopic",
+    "label": "NHibernate",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\nhibernate@z24IJndpQYTl1PhiUI2mx.md"
+  },
+  {
+    "id": "IejHMMVKwA0sIInla4FjX",
+    "old_id": "7Nth4LOrM_KirhvjDGkgS",
+    "type": "topic",
+    "label": "Dependency Injection",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\caching@7Nth4LOrM_KirhvjDGkgS.md"
+  },
+  {
+    "id": "f212ztDU_kb7gO71Nn76L",
+    "old_id": "f212ztDU_kb7gO71Nn76L",
+    "type": "subtopic",
+    "label": "Scrutor",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\scrutor@f212ztDU_kb7gO71Nn76L.md"
+  },
+  {
+    "id": "Tjaczp2E-cCn0qSv89xgo",
+    "old_id": "Tjaczp2E-cCn0qSv89xgo",
+    "type": "topic",
+    "label": "Life Cycles",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\life-cycles@Tjaczp2E-cCn0qSv89xgo.md"
+  },
+  {
+    "id": "iM760f8Ys66-VSkMiZfIX",
+    "old_id": "iM760f8Ys66-VSkMiZfIX",
+    "type": "topic",
+    "label": "DI Containers",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\di-containers@iM760f8Ys66-VSkMiZfIX.md"
+  },
+  {
+    "id": "J9XdYLo7qJiBoL8p3c68P",
+    "old_id": "J9XdYLo7qJiBoL8p3c68P",
+    "type": "subtopic",
+    "label": "Microsoft.Extensions",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\microsoftextensions@J9XdYLo7qJiBoL8p3c68P.md"
+  },
+  {
+    "id": "gbpSbjF12dBE1Tb3PX8Bz",
+    "old_id": "gbpSbjF12dBE1Tb3PX8Bz",
+    "type": "subtopic",
+    "label": "AutoFac",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\autofac@gbpSbjF12dBE1Tb3PX8Bz.md"
+  },
+  {
+    "id": "M3BW_63MFQyD8NE68dazD",
+    "old_id": "M3BW_63MFQyD8NE68dazD",
+    "type": "subtopic",
+    "label": "Scoped",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\scoped@M3BW_63MFQyD8NE68dazD.md"
+  },
+  {
+    "id": "-N0XM0-VtCZ6QMo2YyMD-",
+    "old_id": "-N0XM0-VtCZ6QMo2YyMD-",
+    "type": "subtopic",
+    "label": "Transient",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\transient@-N0XM0-VtCZ6QMo2YyMD-.md"
+  },
+  {
+    "id": "y9bDrCjkDbxSIrEEtu_Mi",
+    "old_id": "y9bDrCjkDbxSIrEEtu_Mi",
+    "type": "subtopic",
+    "label": "Singleton",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\singleton@y9bDrCjkDbxSIrEEtu_Mi.md"
+  },
+  {
+    "id": "7Nth4LOrM_KirhvjDGkgS",
+    "old_id": "7Nth4LOrM_KirhvjDGkgS",
+    "type": "topic",
+    "label": "Caching",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\caching@7Nth4LOrM_KirhvjDGkgS.md"
+  },
+  {
+    "id": "8CRsr7UZszjc_fZ-4ZmIx",
+    "old_id": "8CRsr7UZszjc_fZ-4ZmIx",
+    "type": "subtopic",
+    "label": "Memory Cache",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\memory-cache@8CRsr7UZszjc_fZ-4ZmIx.md"
+  },
+  {
+    "id": "FV4GsPjUyAc99DnIwkkCC",
+    "old_id": "FV4GsPjUyAc99DnIwkkCC",
+    "type": "subtopic",
+    "label": "Entity Framework 2nd Level Cache",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\entity-framework-2nd-level-cache@FV4GsPjUyAc99DnIwkkCC.md"
+  },
+  {
+    "id": "SiG0FWWznjDg-2mIWlchy",
+    "old_id": "8CRsr7UZszjc_fZ-4ZmIx",
+    "type": "subtopic",
+    "label": "Distributed Cache",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\memory-cache@8CRsr7UZszjc_fZ-4ZmIx.md"
+  },
+  {
+    "id": "u2pc3ZkL0EumAsbM12D5y",
+    "old_id": "u2pc3ZkL0EumAsbM12D5y",
+    "type": "subtopic",
+    "label": "Memcached",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\memcached@u2pc3ZkL0EumAsbM12D5y.md"
+  },
+  {
+    "id": "Ts0gJ4DdwFp48LGr4YSvM",
+    "old_id": "Ts0gJ4DdwFp48LGr4YSvM",
+    "type": "subtopic",
+    "label": "Redis",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\redis@Ts0gJ4DdwFp48LGr4YSvM.md"
+  },
+  {
+    "id": "Ujzn_dILCA7xoupnz398l",
+    "old_id": "fQ3w8REYWzQfeJ0nPyq6W",
+    "type": "topic",
+    "label": "Databases",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\log-frameworks@fQ3w8REYWzQfeJ0nPyq6W.md"
+  },
+  {
+    "id": "6p5atMYw3b3bXkQuXZsDV",
+    "old_id": "6p5atMYw3b3bXkQuXZsDV",
+    "type": "topic",
+    "label": "Search Engines",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\search-engines@6p5atMYw3b3bXkQuXZsDV.md"
+  },
+  {
+    "id": "mK9OAwjReZoQZr1WSLRKJ",
+    "old_id": "mK9OAwjReZoQZr1WSLRKJ",
+    "type": "subtopic",
+    "label": "Elastic Search",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\elastic-search@mK9OAwjReZoQZr1WSLRKJ.md"
+  },
+  {
+    "id": "2sY_p_8cOOBmZtDHO2Cmy",
+    "old_id": "2sY_p_8cOOBmZtDHO2Cmy",
+    "type": "subtopic",
+    "label": "Solr",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\solr@2sY_p_8cOOBmZtDHO2Cmy.md"
+  },
+  {
+    "id": "Ye9WHfwZa-Fc2YDaTCmU1",
+    "old_id": "Ye9WHfwZa-Fc2YDaTCmU1",
+    "type": "subtopic",
+    "label": "Sphinx",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\sphinx@Ye9WHfwZa-Fc2YDaTCmU1.md"
+  },
+  {
+    "id": "LrjmJs6_rXUkc2A7fEq24",
+    "old_id": "LrjmJs6_rXUkc2A7fEq24",
+    "type": "topic",
+    "label": "Cloud",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\cloud@LrjmJs6_rXUkc2A7fEq24.md"
+  },
+  {
+    "id": "KrkV1w9b_Nwm6pe9diDRS",
+    "old_id": "KrkV1w9b_Nwm6pe9diDRS",
+    "type": "subtopic",
+    "label": "Cosmos DB",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\cosmos-db@KrkV1w9b_Nwm6pe9diDRS.md"
+  },
+  {
+    "id": "1Om9aQDZmnj_DN10ogwDL",
+    "old_id": "1Om9aQDZmnj_DN10ogwDL",
+    "type": "subtopic",
+    "label": "Dynamo DB",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\dynamo-db@1Om9aQDZmnj_DN10ogwDL.md"
+  },
+  {
+    "id": "FnRxRY3uDZdTve1w-nBfc",
+    "old_id": "FnRxRY3uDZdTve1w-nBfc",
+    "type": "topic",
+    "label": "Relational",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\relational@FnRxRY3uDZdTve1w-nBfc.md"
+  },
+  {
+    "id": "HQHSzsqBGSVYNLQ9o5EI-",
+    "old_id": "HQHSzsqBGSVYNLQ9o5EI-",
+    "type": "subtopic",
+    "label": "SQL Server",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\sql-server@HQHSzsqBGSVYNLQ9o5EI-.md"
+  },
+  {
+    "id": "An9TLvo-I6NtC8wFU3bh4",
+    "old_id": "An9TLvo-I6NtC8wFU3bh4",
+    "type": "subtopic",
+    "label": "PostgreSQL",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\postgresql@An9TLvo-I6NtC8wFU3bh4.md"
+  },
+  {
+    "id": "Gs8XcsTo11MeCsiSGpjkU",
+    "old_id": "Gs8XcsTo11MeCsiSGpjkU",
+    "type": "subtopic",
+    "label": "MariaDB",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\mariadb@Gs8XcsTo11MeCsiSGpjkU.md"
+  },
+  {
+    "id": "WsGwg4qdlu_vBsFEpmBvU",
+    "old_id": "WsGwg4qdlu_vBsFEpmBvU",
+    "type": "subtopic",
+    "label": "MySQL",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\mysql@WsGwg4qdlu_vBsFEpmBvU.md"
+  },
+  {
+    "id": "WUis4K9vduriYdVkKvM9r",
+    "old_id": "WUis4K9vduriYdVkKvM9r",
+    "type": "topic",
+    "label": "NoSQL",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\nosql@WUis4K9vduriYdVkKvM9r.md"
+  },
+  {
+    "id": "-wYRa8qSuKVKo_yOTKV67",
+    "old_id": "-wYRa8qSuKVKo_yOTKV67",
+    "type": "subtopic",
+    "label": "MongoDB",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\mongodb@-wYRa8qSuKVKo_yOTKV67.md"
+  },
+  {
+    "id": "U_-Gt5csu_hihl7ybFY-B",
+    "old_id": "U_-Gt5csu_hihl7ybFY-B",
+    "type": "subtopic",
+    "label": "Cassandra",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\cassandra@U_-Gt5csu_hihl7ybFY-B.md"
+  },
+  {
+    "id": "3gcXaOnHL4v5OoStrTWNV",
+    "old_id": "3gcXaOnHL4v5OoStrTWNV",
+    "type": "subtopic",
+    "label": "LiteDB",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\litedb@3gcXaOnHL4v5OoStrTWNV.md"
+  },
+  {
+    "id": "vHcwt6ARi5YR3v-eDDjfl",
+    "old_id": "vHcwt6ARi5YR3v-eDDjfl",
+    "type": "subtopic",
+    "label": "CouchDB",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\couchdb@vHcwt6ARi5YR3v-eDDjfl.md"
+  },
+  {
+    "id": "fQ3w8REYWzQfeJ0nPyq6W",
+    "old_id": "7Nth4LOrM_KirhvjDGkgS",
+    "type": "topic",
+    "label": "Log Frameworks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\caching@7Nth4LOrM_KirhvjDGkgS.md"
+  },
+  {
+    "id": "xL0s4-HfRxNy2ru0jiIWR",
+    "old_id": "xL0s4-HfRxNy2ru0jiIWR",
+    "type": "subtopic",
+    "label": "Serilog",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\serilog@xL0s4-HfRxNy2ru0jiIWR.md"
+  },
+  {
+    "id": "ykF2bB_68AhCOzeQ_QSW1",
+    "old_id": "ykF2bB_68AhCOzeQ_QSW1",
+    "type": "subtopic",
+    "label": "NLog",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\nlog@ykF2bB_68AhCOzeQ_QSW1.md"
+  },
+  {
+    "id": "GLkDH0X0uy8_1DIdCzbUD",
+    "old_id": "9Vv3OxafB6BlHhi1ZkeVO",
+    "type": "topic",
+    "label": "API Clients and Communication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\real-time-communication@9Vv3OxafB6BlHhi1ZkeVO.md"
+  },
+  {
+    "id": "KJCtxH3mYsZq3hfBZ6cJF",
+    "old_id": "BdTQ5ZMNDNZvkAUoCfL5H",
+    "type": "topic",
+    "label": "REST",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\graphql@BdTQ5ZMNDNZvkAUoCfL5H.md"
+  },
+  {
+    "id": "w5RnrhsP4p-AdSOLYVAY9",
+    "old_id": "w5RnrhsP4p-AdSOLYVAY9",
+    "type": "subtopic",
+    "label": "Gridlify",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\gridlify@w5RnrhsP4p-AdSOLYVAY9.md"
+  },
+  {
+    "id": "YojZ5fpzw-5WgoqqkO6wl",
+    "old_id": "YojZ5fpzw-5WgoqqkO6wl",
+    "type": "subtopic",
+    "label": "Odata",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\odata@YojZ5fpzw-5WgoqqkO6wl.md"
+  },
+  {
+    "id": "BdTQ5ZMNDNZvkAUoCfL5H",
+    "old_id": "BdTQ5ZMNDNZvkAUoCfL5H",
+    "type": "topic",
+    "label": "GraphQL",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\graphql@BdTQ5ZMNDNZvkAUoCfL5H.md"
+  },
+  {
+    "id": "Efxu9gDodODMTKJbWcXzB",
+    "old_id": "Efxu9gDodODMTKJbWcXzB",
+    "type": "subtopic",
+    "label": "GraphQL .NET",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\graphql-net@Efxu9gDodODMTKJbWcXzB.md"
+  },
+  {
+    "id": "XMrQx9JH0eSQJpMzhvy0F",
+    "old_id": "XMrQx9JH0eSQJpMzhvy0F",
+    "type": "subtopic",
+    "label": "HotChocolate",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\hotchocolate@XMrQx9JH0eSQJpMzhvy0F.md"
+  },
+  {
+    "id": "x3SJlLc19DNJ-PyDOOj_G",
+    "old_id": "x3SJlLc19DNJ-PyDOOj_G",
+    "type": "subtopic",
+    "label": "gRPC",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\grpc@x3SJlLc19DNJ-PyDOOj_G.md"
+  },
+  {
+    "id": "9Vv3OxafB6BlHhi1ZkeVO",
+    "old_id": "9Vv3OxafB6BlHhi1ZkeVO",
+    "type": "topic",
+    "label": "Real-Time Communication",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\real-time-communication@9Vv3OxafB6BlHhi1ZkeVO.md"
+  },
+  {
+    "id": "tBl8neu3tJd5GPwGfJbjZ",
+    "old_id": "tBl8neu3tJd5GPwGfJbjZ",
+    "type": "subtopic",
+    "label": "Web Sockets",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\web-sockets@tBl8neu3tJd5GPwGfJbjZ.md"
+  },
+  {
+    "id": "8dvd4M0TKNyQR8dEolGNT",
+    "old_id": "8dvd4M0TKNyQR8dEolGNT",
+    "type": "subtopic",
+    "label": "SignalR Core",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\signalr-core@8dvd4M0TKNyQR8dEolGNT.md"
+  },
+  {
+    "id": "9ECykIIvXlDblbFbRVcJS",
+    "old_id": "s57tKy1rajlJbKFDVXLqs",
+    "type": "topic",
+    "label": "Object Mapping",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\task-scheduling@s57tKy1rajlJbKFDVXLqs.md"
+  },
+  {
+    "id": "GPmlueMnuLCUW_t4jvGhc",
+    "old_id": "oMMBzRrHkUymxAR4oqr75",
+    "type": "subtopic",
+    "label": "AutoMapper",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\manual-mapping@oMMBzRrHkUymxAR4oqr75.md"
+  },
+  {
+    "id": "x0OopRTwIvoWgT8qi0CE9",
+    "old_id": "oMMBzRrHkUymxAR4oqr75",
+    "type": "subtopic",
+    "label": "Mapperly",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\manual-mapping@oMMBzRrHkUymxAR4oqr75.md"
+  },
+  {
+    "id": "oMMBzRrHkUymxAR4oqr75",
+    "old_id": "oMMBzRrHkUymxAR4oqr75",
+    "type": "subtopic",
+    "label": "Manual Mapping",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\manual-mapping@oMMBzRrHkUymxAR4oqr75.md"
+  },
+  {
+    "id": "s57tKy1rajlJbKFDVXLqs",
+    "old_id": "s57tKy1rajlJbKFDVXLqs",
+    "type": "topic",
+    "label": "Task Scheduling",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\task-scheduling@s57tKy1rajlJbKFDVXLqs.md"
+  },
+  {
+    "id": "uP1nqbmFmZL_wA2DoqP8C",
+    "old_id": "uP1nqbmFmZL_wA2DoqP8C",
+    "type": "subtopic",
+    "label": "Native Background Service",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\native-background-service@uP1nqbmFmZL_wA2DoqP8C.md"
+  },
+  {
+    "id": "QiQsx1udyKcPJ-lZjRQVy",
+    "old_id": "QiQsx1udyKcPJ-lZjRQVy",
+    "type": "subtopic",
+    "label": "Hangfire",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\hangfire@QiQsx1udyKcPJ-lZjRQVy.md"
+  },
+  {
+    "id": "zOWlPXIl4XPs_0pA8-yi5",
+    "old_id": "zOWlPXIl4XPs_0pA8-yi5",
+    "type": "subtopic",
+    "label": "Quartz",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\quartz@zOWlPXIl4XPs_0pA8-yi5.md"
+  },
+  {
+    "id": "p3bZnKIyRgLmB764Kkhju",
+    "old_id": "p3bZnKIyRgLmB764Kkhju",
+    "type": "subtopic",
+    "label": "Coravel",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\coravel@p3bZnKIyRgLmB764Kkhju.md"
+  },
+  {
+    "id": "XofWWhlU_vWCG5oXVMZze",
+    "old_id": "KIFmahcNiSo2NGoLtAyRR",
+    "type": "topic",
+    "label": "Testing",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\ci--cd@KIFmahcNiSo2NGoLtAyRR.md"
+  },
+  {
+    "id": "AtyL0ij8FeJCBmqG2YvTO",
+    "old_id": "AtyL0ij8FeJCBmqG2YvTO",
+    "type": "subtopic",
+    "label": "Playwright",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\playwright@AtyL0ij8FeJCBmqG2YvTO.md"
+  },
+  {
+    "id": "UCpoLiQJ4LeniI9x3uGcY",
+    "old_id": "UCpoLiQJ4LeniI9x3uGcY",
+    "type": "subtopic",
+    "label": "Puppeteer",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\puppeteer@UCpoLiQJ4LeniI9x3uGcY.md"
+  },
+  {
+    "id": "f2UP2jDnDr7XEFIdAtBhH",
+    "old_id": "f2UP2jDnDr7XEFIdAtBhH",
+    "type": "subtopic",
+    "label": "Cypress",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\cypress@f2UP2jDnDr7XEFIdAtBhH.md"
+  },
+  {
+    "id": "Xx5G09n4WWnnydCgxnL0A",
+    "old_id": "Xx5G09n4WWnnydCgxnL0A",
+    "type": "subtopic",
+    "label": "WebApplicationFactory",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\webapplicationfactory@Xx5G09n4WWnnydCgxnL0A.md"
+  },
+  {
+    "id": "8eW5BaOjJbnQ7uk4zMOiU",
+    "old_id": "8eW5BaOjJbnQ7uk4zMOiU",
+    "type": "subtopic",
+    "label": "Test Containers",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\test-containers@8eW5BaOjJbnQ7uk4zMOiU.md"
+  },
+  {
+    "id": "Ohc0xzI6qX4hOFVNfRj1F",
+    "old_id": "TCswZHviRiu6SIOwUisu8",
+    "type": "subtopic",
+    "label": ".NET Aspire",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\respawn@TCswZHviRiu6SIOwUisu8.md"
+  },
+  {
+    "id": "TCswZHviRiu6SIOwUisu8",
+    "old_id": "TCswZHviRiu6SIOwUisu8",
+    "type": "subtopic",
+    "label": "Respawn",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\respawn@TCswZHviRiu6SIOwUisu8.md"
+  },
+  {
+    "id": "9WZmjiFowydYrkHQ2xeNm",
+    "old_id": "aWRv5sU9dksgcpE9RGJb1",
+    "type": "subtopic",
+    "label": "Specflow",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\light-bdd@aWRv5sU9dksgcpE9RGJb1.md"
+  },
+  {
+    "id": "aWRv5sU9dksgcpE9RGJb1",
+    "old_id": "aWRv5sU9dksgcpE9RGJb1",
+    "type": "subtopic",
+    "label": "Light BDD",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\light-bdd@aWRv5sU9dksgcpE9RGJb1.md"
+  },
+  {
+    "id": "R8C6s53RYjkRVma0nCJpy",
+    "old_id": "236VJJjMvqHfSj-MHSDPV",
+    "type": "subtopic",
+    "label": "XUnit",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\mstest@236VJJjMvqHfSj-MHSDPV.md"
+  },
+  {
+    "id": "qHYBlBCvCGUZGh6gyEI63",
+    "old_id": "qHYBlBCvCGUZGh6gyEI63",
+    "type": "subtopic",
+    "label": "NUnit",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\nunit@qHYBlBCvCGUZGh6gyEI63.md"
+  },
+  {
+    "id": "zhn-VLGPfV6FZT2OMl6zf",
+    "old_id": "diRJ_F6kx42Ucs0fxidtZ",
+    "type": "subtopic",
+    "label": "Shouldly",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\fakeiteasy@diRJ_F6kx42Ucs0fxidtZ.md"
+  },
+  {
+    "id": "iZCxinqlVefBk5-ICqt4v",
+    "old_id": "diRJ_F6kx42Ucs0fxidtZ",
+    "type": "subtopic",
+    "label": "NSubstitute",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\fakeiteasy@diRJ_F6kx42Ucs0fxidtZ.md"
+  },
+  {
+    "id": "eyOXWb1kL80Wqiwc2WHd_",
+    "old_id": "diRJ_F6kx42Ucs0fxidtZ",
+    "type": "subtopic",
+    "label": "Moq",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\fakeiteasy@diRJ_F6kx42Ucs0fxidtZ.md"
+  },
+  {
+    "id": "diRJ_F6kx42Ucs0fxidtZ",
+    "old_id": "diRJ_F6kx42Ucs0fxidtZ",
+    "type": "subtopic",
+    "label": "FakeItEasy",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\fakeiteasy@diRJ_F6kx42Ucs0fxidtZ.md"
+  },
+  {
+    "id": "K49M_7gSpfJuZaE6WaHxQ",
+    "old_id": "K49M_7gSpfJuZaE6WaHxQ",
+    "type": "subtopic",
+    "label": "AutoFixture",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\autofixture@K49M_7gSpfJuZaE6WaHxQ.md"
+  },
+  {
+    "id": "QERTjawqCCCkHfR44Ca0s",
+    "old_id": "QERTjawqCCCkHfR44Ca0s",
+    "type": "subtopic",
+    "label": "Bogus",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\bogus@QERTjawqCCCkHfR44Ca0s.md"
+  },
+  {
+    "id": "37c2eCvRdebztkbc5AjYp",
+    "old_id": "KIFmahcNiSo2NGoLtAyRR",
+    "type": "topic",
+    "label": "Microservices",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\ci--cd@KIFmahcNiSo2NGoLtAyRR.md"
+  },
+  {
+    "id": "sNYYEBMHV_NO_NToP51VY",
+    "old_id": "sNYYEBMHV_NO_NToP51VY",
+    "type": "subtopic",
+    "label": "ActiveMQ",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\activemq@sNYYEBMHV_NO_NToP51VY.md"
+  },
+  {
+    "id": "L8RkeMYm0WGNeLLcHKF1R",
+    "old_id": "L8RkeMYm0WGNeLLcHKF1R",
+    "type": "subtopic",
+    "label": "Kafka",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\kafka@L8RkeMYm0WGNeLLcHKF1R.md"
+  },
+  {
+    "id": "KqvBn2_wvYhFdv0dBZMC9",
+    "old_id": "KqvBn2_wvYhFdv0dBZMC9",
+    "type": "subtopic",
+    "label": "RabbitMQ",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\rabbitmq@KqvBn2_wvYhFdv0dBZMC9.md"
+  },
+  {
+    "id": "8d4f7_3VO03vy7YDWwPI9",
+    "old_id": "8d4f7_3VO03vy7YDWwPI9",
+    "type": "subtopic",
+    "label": "NetMQ",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\netmq@8d4f7_3VO03vy7YDWwPI9.md"
+  },
+  {
+    "id": "gBuaVZfqJ0-g21sKohQtx",
+    "old_id": "gBuaVZfqJ0-g21sKohQtx",
+    "type": "subtopic",
+    "label": "Azure Service Bus",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\azure-service-bus@gBuaVZfqJ0-g21sKohQtx.md"
+  },
+  {
+    "id": "SQKIUa_UsJ4cls-Vs9yHU",
+    "old_id": "SQKIUa_UsJ4cls-Vs9yHU",
+    "type": "subtopic",
+    "label": "Mass Transit",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\mass-transit@SQKIUa_UsJ4cls-Vs9yHU.md"
+  },
+  {
+    "id": "vf8W1FLhcb3awx4JBaY5r",
+    "old_id": "vf8W1FLhcb3awx4JBaY5r",
+    "type": "subtopic",
+    "label": "NServiceBus",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\nservicebus@vf8W1FLhcb3awx4JBaY5r.md"
+  },
+  {
+    "id": "X6iSHoHnFFMaGb6YPQFhl",
+    "old_id": "02rtFStTeIm8prNskxaUN",
+    "type": "subtopic",
+    "label": "EasyNetQ",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\kubernetes@02rtFStTeIm8prNskxaUN.md"
+  },
+  {
+    "id": "2k-rGuhYTTAR9XN3aDAnW",
+    "old_id": "2k-rGuhYTTAR9XN3aDAnW",
+    "type": "subtopic",
+    "label": "Ocelot",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\ocelot@2k-rGuhYTTAR9XN3aDAnW.md"
+  },
+  {
+    "id": "2axfolu26P8XwxMxgMaS3",
+    "old_id": "2axfolu26P8XwxMxgMaS3",
+    "type": "subtopic",
+    "label": "YARP",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\yarp@2axfolu26P8XwxMxgMaS3.md"
+  },
+  {
+    "id": "rmRESzLiZNWdBFXLrwQFJ",
+    "old_id": "02rtFStTeIm8prNskxaUN",
+    "type": "subtopic",
+    "label": "Docker",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\kubernetes@02rtFStTeIm8prNskxaUN.md"
+  },
+  {
+    "id": "02rtFStTeIm8prNskxaUN",
+    "old_id": "02rtFStTeIm8prNskxaUN",
+    "type": "subtopic",
+    "label": "Kubernetes",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\kubernetes@02rtFStTeIm8prNskxaUN.md"
+  },
+  {
+    "id": "HqhqqiA5X00Xl1RnZgrNJ",
+    "old_id": "IHY9uL3dzYmf2D2wWgIh-",
+    "type": "subtopic",
+    "label": ".NET Aspire",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\dapr@IHY9uL3dzYmf2D2wWgIh-.md"
+  },
+  {
+    "id": "XKsLqDDco5OXKURCcWAmv",
+    "old_id": "s8evqe2MireS1UhxoXrd1",
+    "type": "subtopic",
+    "label": "Orleans",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\steeltoe@s8evqe2MireS1UhxoXrd1.md"
+  },
+  {
+    "id": "s8evqe2MireS1UhxoXrd1",
+    "old_id": "s8evqe2MireS1UhxoXrd1",
+    "type": "subtopic",
+    "label": "SteelToe",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\steeltoe@s8evqe2MireS1UhxoXrd1.md"
+  },
+  {
+    "id": "IHY9uL3dzYmf2D2wWgIh-",
+    "old_id": "IHY9uL3dzYmf2D2wWgIh-",
+    "type": "subtopic",
+    "label": "Dapr",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\dapr@IHY9uL3dzYmf2D2wWgIh-.md"
+  },
+  {
+    "id": "KIFmahcNiSo2NGoLtAyRR",
+    "old_id": "KIFmahcNiSo2NGoLtAyRR",
+    "type": "topic",
+    "label": "CI / CD",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\ci--cd@KIFmahcNiSo2NGoLtAyRR.md"
+  },
+  {
+    "id": "0-PLMXGlRyRzTk-EjXMs2",
+    "old_id": "8Y73Ae32eo6_ye7dw5QRQ",
+    "type": "subtopic",
+    "label": "GitHub Actions",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\gitlab-cicd@8Y73Ae32eo6_ye7dw5QRQ.md"
+  },
+  {
+    "id": "_-GQNpsb7KZw76hNNOq3h",
+    "old_id": "8Y73Ae32eo6_ye7dw5QRQ",
+    "type": "subtopic",
+    "label": "Azure Pipelines",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\gitlab-cicd@8Y73Ae32eo6_ye7dw5QRQ.md"
+  },
+  {
+    "id": "8Y73Ae32eo6_ye7dw5QRQ",
+    "old_id": "8Y73Ae32eo6_ye7dw5QRQ",
+    "type": "subtopic",
+    "label": "GitLab CI/CD",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\gitlab-cicd@8Y73Ae32eo6_ye7dw5QRQ.md"
+  },
+  {
+    "id": "KyGjXgG6JFo42qOV0wqfB",
+    "old_id": "KyGjXgG6JFo42qOV0wqfB",
+    "type": "subtopic",
+    "label": "Circle CI",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\circle-ci@KyGjXgG6JFo42qOV0wqfB.md"
+  },
+  {
+    "id": "C85aJvrzj6rP2Hmfj9uPB",
+    "old_id": "1YL7aXluINOO15W3waaiD",
+    "type": "topic",
+    "label": "Template Engines",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\frameworks@1YL7aXluINOO15W3waaiD.md"
+  },
+  {
+    "id": "nUE2-egUMNFQoPVrVRFPl",
+    "old_id": "nUE2-egUMNFQoPVrVRFPl",
+    "type": "subtopic",
+    "label": "Razor",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\razor@nUE2-egUMNFQoPVrVRFPl.md"
+  },
+  {
+    "id": "dWB5OCvWVYkD30Op_dMwy",
+    "old_id": "dWB5OCvWVYkD30Op_dMwy",
+    "type": "subtopic",
+    "label": "Scriban",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\scriban@dWB5OCvWVYkD30Op_dMwy.md"
+  },
+  {
+    "id": "ZaOhWWDgVxrn0hbesJ7xT",
+    "old_id": "ZaOhWWDgVxrn0hbesJ7xT",
+    "type": "subtopic",
+    "label": "Fluid",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\fluid@ZaOhWWDgVxrn0hbesJ7xT.md"
+  },
+  {
+    "id": "1YL7aXluINOO15W3waaiD",
+    "old_id": "1YL7aXluINOO15W3waaiD",
+    "type": "topic",
+    "label": "Frameworks",
+    "resources": [],
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\frameworks@1YL7aXluINOO15W3waaiD.md"
+  },
+  {
+    "id": "4iD_hDtgJ15IlJGxiO-E8",
+    "old_id": "4iD_hDtgJ15IlJGxiO-E8",
+    "type": "subtopic",
+    "label": "Blazor",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\blazor@4iD_hDtgJ15IlJGxiO-E8.md"
+  },
+  {
+    "id": "olqSPUU3RoxhQ6exfMzeN",
+    "old_id": "olqSPUU3RoxhQ6exfMzeN",
+    "type": "subtopic",
+    "label": ".NET MAUI",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\net-maui@olqSPUU3RoxhQ6exfMzeN.md"
+  },
+  {
+    "id": "Zb4Gugxf7d6MoeEcfngrV",
+    "old_id": "Zb4Gugxf7d6MoeEcfngrV",
+    "type": "subtopic",
+    "label": "Scalar",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\scalar@Zb4Gugxf7d6MoeEcfngrV.md"
+  },
+  {
+    "id": "cc0UNQwbDlySue-CvpChR",
+    "old_id": "cc0UNQwbDlySue-CvpChR",
+    "type": "subtopic",
+    "label": "MediatR",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\mediatr@cc0UNQwbDlySue-CvpChR.md"
+  },
+  {
+    "id": "sa0zXd8lpNs_SFQ2y-PY4",
+    "old_id": "sa0zXd8lpNs_SFQ2y-PY4",
+    "type": "subtopic",
+    "label": "FluentValidation",
+    "resources": [],
+    "legend": {
+      "color": "#2b78e4",
+      "label": "Personal Recommendation / Opinion"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\fluentvalidation@sa0zXd8lpNs_SFQ2y-PY4.md"
+  },
+  {
+    "id": "gQhiEpvx__70N1WbEHGYJ",
+    "old_id": "EsC1JwFOMOlQVelpmxISh",
+    "type": "subtopic",
+    "label": "Polly",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\nuke@EsC1JwFOMOlQVelpmxISh.md"
+  },
+  {
+    "id": "ipb6proIZKG-_vCOMAiBu",
+    "old_id": "ipb6proIZKG-_vCOMAiBu",
+    "type": "subtopic",
+    "label": "Marten",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\marten@ipb6proIZKG-_vCOMAiBu.md"
+  },
+  {
+    "id": "EsC1JwFOMOlQVelpmxISh",
+    "old_id": "ipb6proIZKG-_vCOMAiBu",
+    "type": "subtopic",
+    "label": "Nuke",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\marten@ipb6proIZKG-_vCOMAiBu.md"
+  },
+  {
+    "id": "9LEVN-uVEwxJooEiB9ApK",
+    "old_id": "T2FsSndxzSuKTFdjoyPi-",
+    "type": "subtopic",
+    "label": "Benchmark.NET",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\distributed-lock@T2FsSndxzSuKTFdjoyPi-.md"
+  },
+  {
+    "id": "T2FsSndxzSuKTFdjoyPi-",
+    "old_id": "EsC1JwFOMOlQVelpmxISh",
+    "type": "subtopic",
+    "label": "Distributed Lock",
+    "resources": [],
+    "legend": {
+      "color": "#6d7500",
+      "label": "Alternative Options"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\nuke@EsC1JwFOMOlQVelpmxISh.md"
+  },
+  {
+    "id": "236VJJjMvqHfSj-MHSDPV",
+    "old_id": "qHYBlBCvCGUZGh6gyEI63",
+    "type": "subtopic",
+    "label": "MSTest",
+    "resources": [],
+    "legend": {
+      "color": "#999999",
+      "label": "Optional / Learn anytime"
+    },
+    "content_file": "C:\\Users\\bajrang\\AppData\\Local\\Temp\\roadmap_scrape_dpme_4nc\\developer-roadmap-master\\src\\data\\roadmaps\\aspnet-core\\content\\nunit@qHYBlBCvCGUZGh6gyEI63.md"
+  }
+]
