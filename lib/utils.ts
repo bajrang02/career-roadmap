@@ -69,6 +69,8 @@ export function typeEmoji(type: NodeType) {
       return "🎯";
     case "achievement":
       return "🎓";
+    case "choice":
+      return "🔀";
     default:
       return "📘";
   }
@@ -136,8 +138,20 @@ export const NODE_TYPE_META: Record<
     muted: "text-stone-500/80 dark:text-stone-300/70",
     pill: "bg-stone-200/70 text-stone-700 dark:bg-stone-700/60 dark:text-stone-200",
     bar: "bg-stone-200/60 text-stone-700 hover:bg-stone-300/70 dark:bg-stone-700/50 dark:text-stone-200 dark:hover:bg-stone-600/60",
+    titleSize: "text-[16px]",
+    accent: "bg-fuchsia-400 dark:bg-fuchsia-500",
+  },
+  choice: {
+    label: "Choice",
+    card: "border-indigo-200 bg-gradient-to-b from-indigo-50 to-indigo-100/60 text-indigo-900 dark:border-indigo-800/40 dark:from-indigo-900/50 dark:to-indigo-900/30 dark:text-indigo-100",
+    chip: "bg-indigo-100 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-300",
+    text: "text-indigo-900 dark:text-indigo-100",
+    ring: "ring-indigo-400",
+    muted: "text-indigo-600/80 dark:text-indigo-300/80",
+    pill: "bg-indigo-200/60 text-indigo-800 dark:bg-indigo-800/60 dark:text-indigo-200",
+    bar: "bg-indigo-200/50 text-indigo-800 hover:bg-indigo-300/70 dark:bg-indigo-800/50 dark:text-indigo-200 dark:hover:bg-indigo-700/60",
     titleSize: "text-[14px]",
-    accent: "bg-stone-400 dark:bg-stone-500",
+    accent: "bg-indigo-400 dark:bg-indigo-500",
   },
   topic: {
     label: "Topic",

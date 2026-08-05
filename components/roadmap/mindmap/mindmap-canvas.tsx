@@ -6,6 +6,7 @@ import {
   useMemo,
   useRef,
   useState,
+  memo,
   type ReactNode,
 } from "react";
 import { AnimatePresence } from "framer-motion";
@@ -51,7 +52,7 @@ interface Gesture {
   startMid: { x: number; y: number };
 }
 
-export function MindmapCanvas({
+export const MindmapCanvas = memo(function MindmapCanvas({
   layout,
   renderNode,
   edgeActive,
@@ -341,4 +342,4 @@ export function MindmapCanvas({
       )}
     </div>
   );
-}
+});

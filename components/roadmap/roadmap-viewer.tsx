@@ -12,12 +12,15 @@ import {
   dfsOrder,
   findNode,
   pathToNode,
+  getActiveChildren,
 } from "@/lib/mindmap/tree-layout";
 import type { RoadmapNode } from "@/lib/types";
 import { useProgressStore } from "@/lib/stores/progress-store";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useUiStore } from "@/lib/stores/ui-store";
 import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
+import { useChoicesStore } from "@/lib/stores/choices-store";
+import { useShallow } from "zustand/react/shallow";
 import { Skeleton } from "@/components/ui/skeleton";
 import { RoadmapToolbar } from "./roadmap-toolbar";
 import { NodeCard, type NodeAction } from "./mindmap/node-card";
@@ -146,14 +149,17 @@ export function RoadmapViewer({ slug }: { slug: string }) {
   const showLegend = useUiStore((s) => s.showLegend);
   const toast = useUiStore((s) => s.toast);
   // subscribe to the raw completion array (not function refs) so toggling a
-  // node re-renders the canvas checkmarks + progress immediately
-  const completed = useProgressStore((s) => s.completed);
+  // node re-renders the canvas checkmarks + progress immediately.
+  // useShallow prevents re-renders when other roadmaps are updated.
+  const completedArray = useProgressStore(
+    useShallow((s) => s.completed.filter((c) => c.roadmap === slug).map((c) => c.nodeId))
+  );
   const toggleNode = useProgressStore((s) => s.toggleNode);
   const completeSubtree = useProgressStore((s) => s.completeSubtree);
   const planProgress = useStudyPlanStore((s) => s.progressFor(slug));
   const bookmarks = useBookmarksStore((s) => s.bookmarks);
-  const isBookmarked = useBookmarksStore((s) => s.isBookmarked);
   const toggleBookmark = useBookmarksStore((s) => s.toggleBookmark);
+  const choices = useChoicesStore(useShallow((s) => s.choices));
 
   const canvasRef = useRef<HTMLDivElement>(null);
   const flashTimer = useRef<number | null>(null);
@@ -273,23 +279,17 @@ export function RoadmapViewer({ slug }: { slug: string }) {
 
   const layout = useMemo(() => {
     if (!roadmap) return null;
-    return computeLayout(focusRoot, collapsed, isMobile);
-  }, [roadmap, focusRoot, collapsed, isMobile]);
+    return computeLayout(focusRoot, collapsed, isMobile, selectedId, choices);
+  }, [roadmap, focusRoot, collapsed, isMobile, selectedId, choices]);
 
   const learnableIds = useMemo(
-    () => (roadmap ? collectLearnableIds(roadmap.root) : []),
-    [roadmap]
+    () => (roadmap ? collectLearnableIds(roadmap.root, choices) : []),
+    [roadmap, choices]
   );
 
   // derived from the completed array — O(total completions), recomputed only
   // when completion state or the roadmap itself changes
-  const doneIds = useMemo(() => {
-    const set = new Set<string>();
-    for (const c of completed) {
-      if (c.roadmap === slug) set.add(c.nodeId);
-    }
-    return set;
-  }, [completed, slug]);
+  const doneIds = useMemo(() => new Set(completedArray), [completedArray]);
 
   const pct = useMemo(() => {
     if (!roadmap) return 0;
@@ -298,10 +298,6 @@ export function RoadmapViewer({ slug }: { slug: string }) {
       : 0;
   }, [roadmap, learnableIds, doneIds]);
 
-  const completedIds = useMemo(() => {
-    const ids = roadmap ? collectNodeIds(roadmap.root) : [];
-    return new Set(ids.filter((id) => doneIds.has(id)));
-  }, [roadmap, doneIds]);
 
   // per-node subtree completion — one O(n) post-order walk, recomputed only
   // when completion state or the roadmap changes (not per hover/render)
@@ -309,10 +305,10 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     const map = new Map<string, { pct: number; count: number }>();
     if (!roadmap) return map;
     const walk = (n: RoadmapNode): { done: number; total: number } => {
-      const learnable = !["section", "subsection", "projects"].includes(n.type);
+      const learnable = !["section", "subsection", "projects", "choice"].includes(n.type);
       let done = doneIds.has(n.id) ? 1 : 0;
       let total = learnable ? 1 : 0;
-      for (const c of n.children ?? []) {
+      for (const c of getActiveChildren(n, choices)) {
         const r = walk(c);
         done += r.done;
         total += r.total;
@@ -322,7 +318,7 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     };
     walk(roadmap.root);
     return map;
-  }, [roadmap, doneIds]);
+  }, [roadmap, doneIds, choices]);
 
   // keyboard navigation
   const order = useMemo(() => (layout ? dfsOrder(layout) : []), [layout]);
@@ -374,9 +370,17 @@ export function RoadmapViewer({ slug }: { slug: string }) {
           break;
         }
         case "Enter":
+        case " ":
           if (active) {
             e.preventDefault();
-            setSelectedId(active.id);
+            if (active.childCount > 0) {
+              setCollapsed((prev) => {
+                const next = new Set(prev);
+                if (next.has(active.id)) next.delete(active.id);
+                else next.add(active.id);
+                return next;
+              });
+            }
           }
           break;
         case "Escape":
@@ -598,6 +602,48 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     [layout]
   );
 
+  const ensureNodeVisible = useCallback(
+    (id: string) => {
+      if (!layout || !canvasRef.current) return;
+      const n = layout.nodes.find((x) => x.id === id);
+      if (!n) return;
+      const el = canvasRef.current;
+      setViewport((v) => {
+        const nx = n.x * v.k + v.x;
+        const ny = n.y * v.k + v.y;
+        const nw = n.w * v.k;
+        const nh = n.h * v.k;
+
+        const marginX = el.clientWidth * 0.25;
+        const marginY = el.clientHeight * 0.25;
+        const safeLeft = marginX;
+        const safeRight = el.clientWidth - marginX;
+        const safeTop = marginY;
+        const safeBottom = el.clientHeight - marginY;
+
+        let dx = 0;
+        let dy = 0;
+
+        if (nx < safeLeft) dx = safeLeft - nx;
+        else if (nx + nw > safeRight) dx = safeRight - (nx + nw);
+
+        if (ny < safeTop) dy = safeTop - ny;
+        else if (ny + nh > safeBottom) dy = safeBottom - (ny + nh);
+
+        if (dx === 0 && dy === 0) return v;
+        return { ...v, x: v.x + dx, y: v.y + dy };
+      });
+    },
+    [layout]
+  );
+
+  useEffect(() => {
+    if (selectedId) {
+      const t = setTimeout(() => ensureNodeVisible(selectedId), 60);
+      return () => clearTimeout(t);
+    }
+  }, [selectedId, ensureNodeVisible]);
+
   const handleCenterView = useCallback(() => {
     if (selectedId) {
       centerOnNode(selectedId);
@@ -734,6 +780,77 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     return () => clearTimeout(t);
   }, [viewport, slug]);
 
+  const edgeActive = useCallback(
+    (e: { source: LayoutNode; target: LayoutNode }) =>
+      hoverPath.size > 0
+        ? hoverPath.has(e.source.id) && hoverPath.has(e.target.id)
+        : selectedId
+          ? learningPath.has(e.source.id) && learningPath.has(e.target.id)
+          : false,
+    [hoverPath, selectedId, learningPath]
+  );
+  const edgeDimmed = useCallback(
+    (e: { source: LayoutNode; target: LayoutNode }) =>
+      hoverPath.size > 0
+        ? !(hoverPath.has(e.source.id) && hoverPath.has(e.target.id))
+        : selectedId
+          ? !(learningPath.has(e.source.id) && learningPath.has(e.target.id))
+          : false,
+    [hoverPath, selectedId, learningPath]
+  );
+
+  const renderNode = useCallback(
+    (n: LayoutNode, mountAnimated: boolean) => (
+      <NodeCard
+        key={n.id}
+        id={n.id}
+        label={n.label}
+        type={n.type}
+        x={n.x}
+        y={n.y}
+        w={n.w}
+        h={n.h}
+        scale={n.scale}
+        hasChildren={n.childCount > 0}
+        collapsed={collapsed.has(n.id)}
+        selected={selectedId === n.id}
+        focused={hoveredId === n.id}
+        dimmed={hoverPath.size > 0 ? !hoverPath.has(n.id) : selectedId ? !learningPath.has(n.id) : false}
+        faded={selectedId && !learningPath.has(n.id) ? true : false}
+        recent={recentIds.has(n.id)}
+        completed={doneIds.has(n.id)}
+        locked={false}
+        searchHit={searchHits.has(n.id)}
+        bookmarked={bookmarks.some((b) => b.nodeId === n.id)}
+        flash={flashId === n.id}
+        mountAnimated={mountAnimated}
+        pct={nodeProgress.get(n.id)?.pct ?? 0}
+        learnableCount={nodeProgress.get(n.id)?.count ?? 0}
+        data={n.data}
+        onSelect={handleSelect}
+        onToggle={handleToggle}
+        onHover={setHoveredId}
+        onAction={handleNodeAction}
+      />
+    ),
+    [
+      collapsed,
+      selectedId,
+      hoveredId,
+      hoverPath,
+      learningPath,
+      recentIds,
+      doneIds,
+      searchHits,
+      bookmarks,
+      flashId,
+      nodeProgress,
+      handleSelect,
+      handleToggle,
+      handleNodeAction,
+    ]
+  );
+
   if (isLoading) {
     return (
       <div className="flex h-[calc(100vh-4rem)] flex-col supports-[height:100dvh]:h-[calc(100dvh-4rem)]">
@@ -764,18 +881,7 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     );
   }
 
-  const edgeActive = (e: { source: LayoutNode; target: LayoutNode }) =>
-    hoverPath.size > 0
-      ? hoverPath.has(e.source.id) && hoverPath.has(e.target.id)
-      : selectedId
-        ? learningPath.has(e.source.id) && learningPath.has(e.target.id)
-        : false;
-  const edgeDimmed = (e: { source: LayoutNode; target: LayoutNode }) =>
-    hoverPath.size > 0
-      ? !(hoverPath.has(e.source.id) && hoverPath.has(e.target.id))
-      : selectedId
-        ? !(learningPath.has(e.source.id) && learningPath.has(e.target.id))
-        : false;
+
 
   return (
     <div className="flex h-[calc(100vh-4rem)] flex-col supports-[height:100dvh]:h-[calc(100dvh-4rem)]">
@@ -831,40 +937,7 @@ export function RoadmapViewer({ slug }: { slug: string }) {
           }}
           padding={isMobile ? 24 : 70}
           fitKey={isMobile ? "mobile" : "desktop"}
-          renderNode={(n, mountAnimated) => (
-            <NodeCard
-              key={n.id}
-              id={n.id}
-              label={n.label}
-              type={n.type}
-              x={n.x}
-              y={n.y}
-              w={n.w}
-              h={n.h}
-              data={n.data}
-              hasChildren={n.childCount > 0}
-              collapsed={collapsed.has(n.id)}
-              selected={selectedId === n.id}
-              focused={hoveredId === n.id || selectedId === n.id}
-              dimmed={hoverPath.size > 0 ? !hoverPath.has(n.id) : false}
-              faded={
-                !debouncedSearch.trim() && hoverPath.size === 0 && selectedId ? !learningPath.has(n.id) : false
-              }
-              recent={recentIds.has(n.id)}
-              completed={completedIds.has(n.id)}
-              locked={false}
-              searchHit={searchHits.has(n.id)}
-              bookmarked={isBookmarked(slug, n.id)}
-              flash={flashId === n.id}
-              mountAnimated={mountAnimated}
-              pct={nodeProgress.get(n.id)?.pct ?? 0}
-              learnableCount={nodeProgress.get(n.id)?.count ?? 0}
-              onSelect={handleSelect}
-              onToggle={handleToggle}
-              onHover={setHoveredId}
-              onAction={handleNodeAction}
-            />
-          )}
+          renderNode={renderNode}
           edgeActive={edgeActive}
           edgeDimmed={edgeDimmed}
         />

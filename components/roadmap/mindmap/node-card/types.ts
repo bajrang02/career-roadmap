@@ -14,6 +14,7 @@ export interface NodeCardProps {
   y: number;
   w: number;
   h: number;
+  scale?: number;
   hasChildren: boolean;
   collapsed: boolean;
   selected: boolean;

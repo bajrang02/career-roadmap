@@ -9,6 +9,7 @@ export interface LayoutNode {
   y: number;
   w: number;
   h: number;
+  scale: number;
   depth: number;
   parent: LayoutNode | null;
   children: LayoutNode[];
@@ -48,8 +49,9 @@ const NODE_W: Record<NodeType, number> = {
   project: 230,
   optional: 220,
   advanced: 220,
-  interview: 220,
-  achievement: 244,
+  interview: 180,
+  achievement: 240,
+  choice: 240,
 };
 
 // Mobile variant: narrower cards that still fit most of a 375px phone while
@@ -66,6 +68,7 @@ const COMPACT_NODE_W: Record<NodeType, number> = {
   advanced: 182,
   interview: 182,
   achievement: 204,
+  choice: 204,
 };
 
 // Base height for a single-line title (44–56px, per the compact redesign).
@@ -81,8 +84,9 @@ const NODE_H: Record<NodeType, number> = {
   project: 48,
   optional: 46,
   advanced: 46,
-  interview: 46,
-  achievement: 50,
+  interview: 40,
+  achievement: 40,
+  choice: 40,
 };
 
 // Mobile heights — same slim single-row cards; only slightly shorter.
@@ -97,7 +101,8 @@ const COMPACT_NODE_H: Record<NodeType, number> = {
   optional: 44,
   advanced: 44,
   interview: 44,
-  achievement: 48,
+  achievement: 44,
+  choice: 44,
 };
 
 export function estimateWidth(type: NodeType, compact = false) {
@@ -105,7 +110,7 @@ export function estimateWidth(type: NodeType, compact = false) {
   return map[type] ?? (compact ? 180 : 220);
 }
 
-export function estimateHeight(type: NodeType, label: string, compact = false) {
+export function estimateHeight(type: NodeType, label: string, compact = false, nodeData?: RoadmapNode, choices?: Record<string, string>) {
   const baseMap = compact ? COMPACT_NODE_H : NODE_H;
   const widthMap = compact ? COMPACT_NODE_W : NODE_W;
   const base = baseMap[type] ?? (compact ? 44 : 48);
@@ -113,46 +118,84 @@ export function estimateHeight(type: NodeType, label: string, compact = false) {
   const charsPerLine = Math.max(10, Math.floor((width - 24) / 7.2));
   const lines = Math.min(MAX_LINES, Math.max(1, Math.ceil(label.length / charsPerLine)));
   // compact titles are 14–15px → ~16px per wrapped line
-  return base + (lines - 1) * 16;
+  let h = base + (lines - 1) * 16;
+
+  if (type === "choice" && nodeData && choices) {
+    if (!choices[nodeData.id]) {
+      // Unselected: needs height for radio button list
+      const optionCount = nodeData.options?.length ?? 0;
+      h += optionCount * 36 + 12; // ~36px per option + padding
+    } else {
+      // Selected: needs slight height for "Change" button if we put it on a new line,
+      // but if it's inline, maybe no extra height needed. Let's add 20px just in case.
+      h += 20;
+    }
+  }
+
+  return h;
+}
+
+export function getActiveChildren(node: RoadmapNode, choices?: Record<string, string>) {
+  if (node.type === "choice") {
+    if (choices && choices[node.id]) {
+      return (node.options || node.children || []).filter((c) => c.id === choices[node.id]);
+    }
+    return [];
+  }
+  return node.children ?? [];
+}
+
+export function getAllChildren(node: RoadmapNode) {
+  return [...(node.children ?? []), ...(node.options ?? [])];
 }
 
 // Returns the visible tree (children pruned by collapsed set) as plain data.
-export function visibleTree(root: RoadmapNode, collapsed: Set<string>): RoadmapNode {
+export function visibleTree(root: RoadmapNode, collapsed: Set<string>, choices?: Record<string, string>, seen = new Set<string>()): RoadmapNode {
+  seen.add(root.id);
   const clone: RoadmapNode = {
     ...root,
-    children: (root.children ?? [])
-      .filter((c) => !collapsed.has(root.id) && c)
-      .map((c) => visibleTree(c, collapsed)),
+    children: getActiveChildren(root, choices)
+      .filter((c) => c && !collapsed.has(root.id) && !seen.has(c.id))
+      .map((c) => visibleTree(c, collapsed, choices, new Set(seen))),
   };
   return clone;
 }
 
-export function collectNodeIds(root: RoadmapNode, out: string[] = []) {
+export function collectNodeIds(root: RoadmapNode, choices?: Record<string, string>, out: string[] = [], seen = new Set<string>()) {
+  if (seen.has(root.id)) return out;
+  seen.add(root.id);
   out.push(root.id);
-  for (const c of root.children ?? []) collectNodeIds(c, out);
+  for (const c of getActiveChildren(root, choices)) collectNodeIds(c, choices, out, seen);
   return out;
 }
 
-export function collectLearnableIds(root: RoadmapNode, out: string[] = []) {
-  if (!["section", "subsection", "projects"].includes(root.type)) out.push(root.id);
-  for (const c of root.children ?? []) collectLearnableIds(c, out);
+export function collectLearnableIds(root: RoadmapNode, choices?: Record<string, string>, out: string[] = [], seen = new Set<string>()) {
+  if (seen.has(root.id)) return out;
+  seen.add(root.id);
+  if (!["section", "subsection", "projects", "choice"].includes(root.type)) out.push(root.id);
+  for (const c of getActiveChildren(root, choices)) collectLearnableIds(c, choices, out, seen);
   return out;
 }
 
-export function findNode(root: RoadmapNode, id: string): RoadmapNode | null {
+export function findNode(root: RoadmapNode, id: string, seen = new Set<string>()): RoadmapNode | null {
+  if (seen.has(root.id)) return null;
+  seen.add(root.id);
   if (root.id === id) return root;
-  for (const c of root.children ?? []) {
-    const found = findNode(c, id);
+  for (const c of getAllChildren(root)) {
+    const found = findNode(c, id, seen);
     if (found) return found;
   }
   return null;
 }
 
 export function pathToNode(root: RoadmapNode, id: string): RoadmapNode[] {
+  const seen = new Set<string>();
   const walk = (node: RoadmapNode, trail: RoadmapNode[]): RoadmapNode[] | null => {
+    if (seen.has(node.id)) return null;
+    seen.add(node.id);
     const next = [...trail, node];
     if (node.id === id) return next;
-    for (const c of node.children ?? []) {
+    for (const c of getAllChildren(node)) {
       const found = walk(c, next);
       if (found) return found;
     }
@@ -168,50 +211,81 @@ export interface LayoutResult {
   height: number;
 }
 
-export function computeLayout(root: RoadmapNode, collapsed: Set<string>, compact = false): LayoutResult {
+export function computeLayout(
+  root: RoadmapNode,
+  collapsed: Set<string>,
+  compact = false,
+  selectedId: string | null = null,
+  choices?: Record<string, string>
+): LayoutResult {
   const hGap = compact ? COMPACT_H_GAP : H_GAP;
   const vStep = compact ? COMPACT_V_STEP : V_STEP;
   // children count from the ORIGINAL tree (visibleTree prunes collapsed nodes,
   // which would otherwise hide expand controls and shrink their height)
   const childCount = new Map<string, number>();
+  const countSeen = new Set<string>();
   const countChildren = (n: RoadmapNode) => {
-    childCount.set(n.id, n.children?.length ?? 0);
-    for (const c of n.children ?? []) countChildren(c);
+    if (countSeen.has(n.id)) return;
+    countSeen.add(n.id);
+    const active = getActiveChildren(n, choices);
+    childCount.set(n.id, active.length);
+    for (const c of active) countChildren(c);
   };
   countChildren(root);
 
-  const tree = visibleTree(root, collapsed);
+  const tree = visibleTree(root, collapsed, choices);
+
+  const activePath = selectedId ? pathToNode(tree, selectedId) : [];
+  const activeParent = activePath.length > 1 ? activePath[activePath.length - 2] : null;
 
   const h = hierarchy<RoadmapNode>(tree, (n) => n.children ?? []);
   h.each((d) => {
-    (d as unknown as { _w: number })._w = estimateWidth(d.data.type, compact);
-    (d as unknown as { _h: number })._h = estimateHeight(d.data.type, d.data.label, compact);
+    let scale = 1.0;
+    if (selectedId) {
+      if (d.data.id === selectedId) scale = 1.9;
+      else if (d.parent?.data.id === selectedId) scale = 1.5;
+      else if (d.parent?.parent?.data.id === selectedId) scale = 1.25;
+      else if (activeParent?.id === d.data.id) scale = 1.1;
+      else scale = 0.95;
+    }
+    const nodeData = d as unknown as { _scale: number, _w: number, _h: number };
+    nodeData._scale = scale;
+    // We leave _w and _h unscaled so the layout box represents the unscaled bounds,
+    // and we inject the scale into the gap spacing directly.
+    nodeData._w = estimateWidth(d.data.type, compact);
+    nodeData._h = estimateHeight(d.data.type, d.data.label, compact, d.data, choices);
   });
 
   // Left-to-right tidy tree.
   // d3 tree: d.x = sibling separation coordinate, d.y = depth.
-  // nodeSize([V_STEP, 1]) scales separation by V_STEP → vertical axis;
-  // horizontal axis comes from per-depth column offsets below.
-  const lay = d3tree<RoadmapNode>().nodeSize([vStep, 1]);
+  const lay = d3tree<RoadmapNode>()
+    .nodeSize([vStep, 1])
+    .separation((a, b) => {
+      const sa = (a as unknown as { _scale: number })._scale || 1.0;
+      const sb = (b as unknown as { _scale: number })._scale || 1.0;
+      return (sa + sb) / 2;
+    });
   const rootLayout = lay(h);
 
-  // per-depth max width → cumulative x offsets (equal spacing per level)
-  const maxW = new Map<number, number>();
-  rootLayout.each((d) => {
-    maxW.set(d.depth, Math.max(maxW.get(d.depth) ?? 0, (d as unknown as { _w: number })._w));
+  // Compute organic parent-relative horizontal positions instead of rigid depth columns.
+  // This prevents unrelated branches from shifting when the active branch expands.
+  rootLayout.eachBefore((d) => {
+    const node = d as unknown as { _scale?: number, _w?: number, _x: number };
+    const parentNode = d.parent ? (d.parent as unknown as { _scale?: number, _w?: number, _x: number }) : null;
+    
+    if (!parentNode) {
+      node._x = 0;
+    } else {
+      const sa = parentNode._scale || 1.0;
+      const sb = node._scale || 1.0;
+      // scale the horizontal gap, plus add the parent's base width
+      // wait, the visual scale expands the node outward from its center by scale factor.
+      // So the space needed is actually scaled w. We approximate by scaling the whole jump.
+      const jump = (parentNode._w || 0) * sa + hGap * ((sa + sb) / 2);
+      node._x = (parentNode._x || 0) + jump;
+    }
   });
-  const depthOrder = Array.from(maxW.keys()).sort((a, b) => a - b);
-  const xOffset = new Map<number, number>();
-  let acc = 0;
-  for (const depth of depthOrder) {
-    xOffset.set(depth, acc);
-    acc += (maxW.get(depth) ?? 0) + hGap;
-  }
-  const totalWidth = acc - hGap;
 
-  // vertical positions come from the d3 separation coordinate; normalize so
-  // the topmost node sits at y=0 (canvas height is recomputed from the final
-  // node boxes after the section-spacing pass below).
   const xs: number[] = [];
   rootLayout.each((d) => xs.push(d.x));
   const minX = Math.min(...xs);
@@ -224,10 +298,11 @@ export function computeLayout(root: RoadmapNode, collapsed: Set<string>, compact
       id: data.id,
       label: data.label,
       type: data.type,
-      x: xOffset.get(d.depth) ?? 0,
+      x: (d as unknown as { _x: number })._x,
       y: d.x - minX,
       w: (d as unknown as { _w: number })._w,
       h: (d as unknown as { _h: number })._h,
+      scale: (d as unknown as { _scale?: number })._scale || 1.0,
       depth: d.depth,
       parent: null,
       children: [],
@@ -303,8 +378,9 @@ export function computeLayout(root: RoadmapNode, collapsed: Set<string>, compact
   const minY = Math.min(...nodes.map((n) => n.y));
   const maxY = Math.max(...nodes.map((n) => n.y + n.h));
   const totalH = Math.max(0, maxY - minY);
+  const totalW = Math.max(0, ...nodes.map((n) => n.x + n.w * n.scale));
 
-  return { nodes, edges, width: totalWidth, height: totalH };
+  return { nodes, edges, width: totalW, height: totalH };
 }
 
 // DFS-order list of visible nodes (for keyboard navigation)

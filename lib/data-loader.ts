@@ -1,4 +1,5 @@
 import type { Roadmap, RoadmapIndex, SearchEntry, SkillCategoryMeta } from "./types";
+import { validateAndRepairRoadmap } from "@/lib/mindmap/validator";
 import indexJson from "@/data/generated/index.json";
 import skillCategoriesJson from "@/data/generated/skill-categories.json";
 import careerDomainsJson from "@/data/generated/career-domains.json";
@@ -13,8 +14,15 @@ export async function getRoadmap(slug: string): Promise<Roadmap> {
   const cached = cache.get(slug);
   if (cached) return cached;
   const mod = (await import(`@/data/generated/${slug}.json`)) as { default: Roadmap };
-  cache.set(slug, mod.default);
-  return mod.default;
+  
+  // Validate and repair roadmap data before caching and returning
+  const repairedRoadmap = {
+    ...mod.default,
+    root: validateAndRepairRoadmap(mod.default.root),
+  };
+  
+  cache.set(slug, repairedRoadmap);
+  return repairedRoadmap;
 }
 
 export async function getSearchIndex(): Promise<SearchEntry[]> {

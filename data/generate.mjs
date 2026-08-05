@@ -360,16 +360,48 @@ function buildSection(section, ctx) {
     if (typeof item === "string") {
       children.push(buildTopic(item, ctx));
     } else if (item && typeof item === "object") {
-      const sub = buildNode(item.t, "subsection", ctx, { optional: item.o });
-      const subKids = Array.isArray(item.k) ? item.k : [];
-      const subChildren = [];
-      for (const t of subKids) {
-        if (typeof t === "string") subChildren.push(buildTopic(t, ctx));
-        else if (t && typeof t === "object") subChildren.push(buildTopic(t.t, ctx));
+      if (item.c) {
+        // Choice node
+        const choiceNode = buildNode(item.t, "choice", ctx, { optional: item.o });
+        choiceNode.options = [];
+        
+        const optKids = Array.isArray(item.k) ? item.k : [];
+        for (const opt of optKids) {
+          if (typeof opt === "string") {
+            choiceNode.options.push(buildTopic(opt, ctx));
+          } else if (opt && typeof opt === "object") {
+            const sub = buildNode(opt.t, "subsection", ctx, { optional: opt.o });
+            const subKids = Array.isArray(opt.k) ? opt.k : [];
+            const subChildren = [];
+            for (const t of subKids) {
+              if (typeof t === "string") subChildren.push(buildTopic(t, ctx));
+              else if (t && typeof t === "object") subChildren.push(buildTopic(t.t, ctx));
+            }
+            linkSiblings(subChildren);
+            sub.children = subChildren;
+            choiceNode.options.push(sub);
+          }
+        }
+        
+        // Find recommended ID by matching label
+        if (item.r) {
+          const recNode = choiceNode.options.find(o => o.label.toLowerCase() === item.r.toLowerCase());
+          if (recNode) choiceNode.recommended = recNode.id;
+        }
+        
+        children.push(choiceNode);
+      } else {
+        const sub = buildNode(item.t, "subsection", ctx, { optional: item.o });
+        const subKids = Array.isArray(item.k) ? item.k : [];
+        const subChildren = [];
+        for (const t of subKids) {
+          if (typeof t === "string") subChildren.push(buildTopic(t, ctx));
+          else if (t && typeof t === "object") subChildren.push(buildTopic(t.t, ctx));
+        }
+        linkSiblings(subChildren);
+        sub.children = subChildren;
+        children.push(sub);
       }
-      linkSiblings(subChildren);
-      sub.children = subChildren;
-      children.push(sub);
     }
   }
   // auto projects subsection for sections with project-heavy topics? Keep tree clean.

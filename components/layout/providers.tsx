@@ -9,6 +9,7 @@ import { useProgressStore } from "@/lib/stores/progress-store";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useSettingsStore } from "@/lib/stores/settings-store";
 import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
+import { useChoicesStore } from "@/lib/stores/choices-store";
 
 // Every persisted zustand store is created with `skipHydration: true`, so its
 // initial state (the defaults) is what both the server and the client's first
@@ -21,6 +22,7 @@ const PERSISTED_STORES = [
   useBookmarksStore,
   useSettingsStore,
   useStudyPlanStore,
+  useChoicesStore,
 ] as const;
 
 export function Providers({ children }: { children: React.ReactNode }) {

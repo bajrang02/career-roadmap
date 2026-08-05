@@ -6,6 +6,7 @@
 
 const SEC = (t, d, k) => ({ t, d, k });
 const SUB = (t, k, o) => ({ t, k, o });
+export const CHOICE = (t, r, k, o) => ({ c: true, t, r, k, o });
 
 // ── Shared blocks ──────────────────────────────────────────────────────────
 const B_INTERNET = SUB("Internet", [
@@ -117,7 +118,13 @@ export const SKELETONS = {
     SEC("Foundations", "The mental model of the web and the tools of the trade.", [B_INTERNET, B_GIT, B_TOOLS]),
     SEC("Core Languages", "The three languages that build the web — plus TypeScript on top.", [B_HTML, B_CSS, B_JS, B_TS]),
     SEC("Styling & Frameworks", "Write styles the way modern teams do.", [B_TAILWIND, B_CSS_ARCH, SUB("Component Libraries", ["shadcn/ui", "Radix UI primitives", "MUI", "Headless UI"], true)]),
-    SEC("React Ecosystem", "The dominant frontend framework and its production stack.", [B_REACT_BASE, B_REACT_ADV, B_NEXTJS]),
+    SEC("Frontend Framework", "Choose your primary UI library.", [
+      CHOICE("Choose Frontend Framework", "React", [
+        SUB("React", ["React components", "Props & data flow", "State & events", "Hooks", "React Router", "TanStack Query"]),
+        SUB("Vue", ["Vue instances", "Directives", "Vue Router", "Pinia", "Composition API", "Vue performance"]),
+        SUB("Angular", ["TypeScript", "Components & templates", "Services & DI", "RxJS", "Angular Router"]),
+      ])
+    ]),
     SEC("Modern Tooling", "Everything that makes code fast, safe and pleasant to ship.", [B_TEST, B_BUILD, SUB("Monorepos", ["Turborepo", "pnpm workspaces", "Nx"], true)]),
     SEC("APIs & Integration", "Talk to servers, authenticate users, stay secure.", [B_API, B_AUTH, B_SECURITY]),
     SEC("Performance & Quality", "Ship fast, accessible, discoverable experiences.", [B_PERF, SUB("Accessibility in Depth", ["ARIA & roles", "Keyboard navigation", "Screen reader testing", "WCAG 2.2"]), SUB("SEO & Analytics", ["Meta & structured data", "Analytics (GA4)", "Search console", "Content strategy"])]),
@@ -126,9 +133,23 @@ export const SKELETONS = {
 
   "web-backend": [
     SEC("Foundations", "The server-side mental model: HTTP, systems and the terminal.", [B_INTERNET, B_LINUX, B_GIT]),
-    SEC("Programming", "One language, mastered deeply.", [B_PY, SUB("Language Deep Dive", ["OOP & SOLID", "Concurrency & threads", "Memory & performance", "Type hints / static analysis"]), SUB("Scripting & Automation", ["CLI tools", "Cron jobs", "Web scraping basics", "Environment management"])]),
-    SEC("APIs & Services", "Design and build the interfaces other software consumes.", [B_NODE, SUB("REST Services", ["REST API design", "Serialization (JSON/XML)", "Versioning", "Rate limiting"]), B_API, B_AUTH]),
-    SEC("Databases", "Store, query and model data at scale.", [B_SQL, B_NOSQL, B_ORMS]),
+    SEC("Programming Language", "Choose one language and master it deeply.", [
+      CHOICE("Choose Backend Language", "Node.js", [
+        SUB("Node.js", ["Node.js basics", "Express / Fastify", "npm & modules", "Middleware", "Streams"]),
+        SUB("Python", ["Python basics", "OOP in Python", "Virtual environments & pip", "Django", "FastAPI"]),
+        SUB("Java", ["Java basics", "OOP & Design patterns", "Spring Boot", "Maven / Gradle", "JVM internals"]),
+        SUB("Go", ["Go basics", "Goroutines & concurrency", "Go modules", "Standard library (net/http)", "Gin / Echo"]),
+      ])
+    ]),
+    SEC("APIs & Services", "Design and build the interfaces other software consumes.", [SUB("REST Services", ["REST API design", "Serialization (JSON/XML)", "Versioning", "Rate limiting"]), B_API, B_AUTH]),
+    SEC("Databases", "Store, query and model data at scale.", [
+      CHOICE("Choose Database", "PostgreSQL", [
+        SUB("PostgreSQL", ["SQL basics", "PostgreSQL", "Database design", "Indexes & query optimization"]),
+        SUB("MySQL", ["SQL basics", "MySQL", "Database design", "Indexes & query optimization"]),
+        SUB("MongoDB", ["MongoDB basics", "Document modeling", "Aggregations", "Indexes"]),
+      ]),
+      B_ORMS
+    ]),
     SEC("Caching & Queues", "Speed up responses and decouple work.", [SUB("Caching", ["Redis", "HTTP caching", "Cache invalidation", "CDN basics"]), SUB("Message Queues", ["RabbitMQ", "Pub/sub patterns", "Dead-letter queues", "Background jobs"])]),
     SEC("Testing & Quality", "Ship services that don't break.", [B_TEST, SUB("API Testing", ["Postman collections", "Contract testing", "Load testing (k6)"]), B_SOFT]),
     SEC("Containers & Deployment", "Package and run your service anywhere.", [B_DOCKER, B_CICD, SUB("Servers & Hosting", ["Linux deployment", "Nginx & reverse proxy", "Process managers", "Environment & secrets"])]),
@@ -138,25 +159,42 @@ export const SKELETONS = {
   fullstack: [
     SEC("Frontend", "Everything the user sees and touches.", [
       B_HTML, B_CSS, B_JS, B_TS,
-      SUB("React", ["React components", "Props & state", "Hooks", "React Router", "Context & state libraries", "React performance", "Testing React"]),
       SUB("Frontend Tooling", ["Vite", "Tailwind CSS", "ESLint & Prettier", "Package managers"]),
       SUB("Styling", ["CSS Flexbox", "CSS Grid", "Responsive design", "CSS animations", "Sass", "Design systems"]),
+      CHOICE("Choose Frontend Framework", "React", [
+        SUB("React", ["React components", "Props & state", "Hooks", "React Router", "Context & state libraries", "Testing React"]),
+        SUB("Vue", ["Vue instances", "Directives", "Vue Router", "Pinia", "Composition API"]),
+        SUB("Angular", ["TypeScript", "Components & templates", "Services & DI", "RxJS", "Angular Router"]),
+      ]),
     ]),
     SEC("Backend", "The brains and the logic behind the app.", [
-      B_NODE, B_PY,
-      SUB("REST APIs", ["Express / Fastify", "Middleware & routing", "Validation & serialization", "OpenAPI docs"]),
+      CHOICE("Choose Backend Language", "Node.js", [
+        SUB("Node.js", ["Node.js basics", "Express / Fastify", "Middleware & routing"]),
+        SUB("Python", ["Python basics", "Django", "FastAPI"]),
+        SUB("Java", ["Java basics", "Spring Boot", "Maven / Gradle"]),
+        SUB("Go", ["Go basics", "Goroutines & concurrency", "Gin / Echo"]),
+      ]),
+      SUB("REST APIs", ["REST API design", "Validation & serialization", "OpenAPI docs"]),
       B_AUTH,
       SUB("GraphQL", ["GraphQL basics", "Schema & resolvers", "Apollo", "Queries & mutations"]),
       SUB("Web Security", ["OWASP Top 10", "XSS & CSRF", "CORS & HTTPS", "Security headers"]),
     ]),
     SEC("Database", "Persist, query and model your data.", [
-      B_SQL, SUB("PostgreSQL", ["PostgreSQL", "Transactions & ACID", "Indexes & performance", "JSON & full-text search"]),
-      B_NOSQL,
+      CHOICE("Choose Database", "PostgreSQL", [
+        SUB("PostgreSQL", ["SQL basics", "PostgreSQL", "Transactions & ACID", "Indexes & performance"]),
+        SUB("MySQL", ["SQL basics", "MySQL", "Transactions & ACID", "Indexes & performance"]),
+        SUB("MongoDB", ["MongoDB basics", "Document modeling", "Aggregations", "Indexes"]),
+      ]),
       B_ORMS,
     ]),
     SEC("DevOps", "Build, ship and run — automatically.", [
       B_GIT, B_DOCKER, B_CICD,
-      SUB("Cloud Deployment", ["Vercel / Netlify", "AWS basics", "Environment variables & secrets", "Domains & SSL"]),
+      CHOICE("Choose Cloud", "AWS", [
+        SUB("AWS", ["AWS fundamentals", "EC2 & compute", "S3 & storage", "Lambda & serverless", "RDS & databases"]),
+        SUB("Azure", ["Azure fundamentals", "Azure Virtual Machines", "Blob storage", "Azure Functions"]),
+        SUB("GCP", ["Google Cloud fundamentals", "Compute Engine", "Cloud Storage", "Cloud Functions"]),
+      ]),
+      SUB("Cloud Deployment", ["Vercel / Netlify", "Environment variables & secrets", "Domains & SSL"]),
       SUB("Monitoring", ["Logging", "Error tracking (Sentry)", "Uptime monitoring", "Analytics"]),
     ]),
     SEC("Career & Craft", "Go from building features to building products.", [

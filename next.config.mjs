@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  compress: true,
   // Hide the `x-powered-by: Next.js` header (info disclosure hardening)
   poweredByHeader: false,
   eslint: {

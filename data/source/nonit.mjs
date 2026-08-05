@@ -1,5 +1,4 @@
-// Non-IT roadmap skeletons (marketing, finance, HR, healthcare, education, creative, operations, government exams…)
-import { B_SOFT } from "./skeletons.mjs";
+import { B_SOFT, CHOICE } from "./skeletons.mjs";
 
 const SEC = (t, d, k) => ({ t, d, k });
 const SUB = (t, k, o) => ({ t, k, o });
@@ -397,7 +396,12 @@ export const NON_IT_SKELETONS = {
       SUB("Infrastructure", ["Transportation engineering", "Geotechnical engineering", "Water resources", "Environmental engineering"]),
     ]),
     SEC("Professional Practice", "Build safely.", [
-      SUB("Design & Tools", ["AutoCAD", "Revit & BIM", "STAAD Pro", "Construction management"]),
+      CHOICE("Choose Civil Software", "AutoCAD Civil 3D", [
+        SUB("AutoCAD Civil 3D", ["AutoCAD Civil 3D", "Surveying & mapping", "Road & site design"]),
+        SUB("STAAD Pro", ["STAAD Pro", "Structural modeling", "Load analysis & RCC"]),
+        SUB("ETABS", ["ETABS", "Building analysis", "High-rise structural design"]),
+      ]),
+      SUB("Design & Tools", ["Revit & BIM", "Construction management"]),
       SUB("Practice", ["Site engineering", "Estimation & costing", "Quality & safety", "Standards & codes"]),
     ]),
     SEC("Career & Licensure", "The professional engineer.", [
@@ -416,7 +420,12 @@ export const NON_IT_SKELETONS = {
       SUB("Systems", ["Thermodynamics", "Heat transfer", "HVAC systems", "Mechatronics basics"]),
     ]),
     SEC("Tools & Practice", "Design and build.", [
-      SUB("Tools", ["SolidWorks", "AutoCAD", "MATLAB", "ANSYS", "CNC & prototyping"]),
+      CHOICE("Choose CAD Software", "SolidWorks", [
+        SUB("SolidWorks", ["SolidWorks", "Parts & assemblies", "Drawings & GD&T"]),
+        SUB("AutoCAD", ["AutoCAD", "2D drafting", "Mechanical drawings"]),
+        SUB("Fusion 360", ["Fusion 360", "Parametric modeling", "Cloud collaboration"]),
+      ]),
+      SUB("Tools", ["MATLAB", "ANSYS", "CNC & prototyping"]),
       SUB("Practice", ["Manufacturing processes", "Quality control", "Project engineering", "Standards & tolerances"]),
     ]),
     SEC("Career & Licensure", "The professional track.", [
@@ -435,7 +444,11 @@ export const NON_IT_SKELETONS = {
       SUB("Electronics", ["Analog electronics", "Digital electronics", "Microprocessors", "Embedded systems"]),
     ]),
     SEC("Tools & Practice", "Design and build.", [
-      SUB("Tools", ["LTspice / Multisim", "MATLAB / Simulink", "PCB design (KiCad)", "PLC & SCADA"]),
+      CHOICE("Choose Simulation Software", "MATLAB", [
+        SUB("MATLAB", ["MATLAB", "Simulink", "Control system design"]),
+        SUB("ETAP", ["ETAP", "Power system analysis", "Load flow & short circuit"]),
+      ]),
+      SUB("Tools", ["LTspice / Multisim", "PCB design (KiCad)", "PLC & SCADA"]),
       SUB("Practice", ["Electrical codes & standards", "Safety & protection", "Testing & commissioning", "Project engineering"]),
     ]),
     SEC("Career & Licensure", "The professional track.", [

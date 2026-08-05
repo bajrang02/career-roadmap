@@ -9,7 +9,8 @@ export type NodeType =
   | "optional"
   | "advanced"
   | "interview"
-  | "achievement";
+  | "achievement"
+  | "choice";
 
 export type ResourceKind =
   | "docs"
@@ -58,6 +59,8 @@ export interface RoadmapNode {
   optional: boolean;
   details: NodeDetails;
   children: RoadmapNode[];
+  options?: RoadmapNode[];
+  recommended?: string;
 }
 
 export interface ExamMeta {

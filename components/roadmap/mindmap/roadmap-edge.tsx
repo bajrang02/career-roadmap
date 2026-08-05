@@ -27,7 +27,7 @@ function RoadmapEdgeInner({ d, active, dimmed, index }: RoadmapEdgeProps) {
       d={d}
       fill="none"
       stroke={active ? "var(--edge-active)" : "var(--edge)"}
-      strokeWidth={active ? 2 : 1.25}
+      strokeWidth={active ? 3 : 1.25}
       strokeLinecap="round"
       // `d` must be present in BOTH initial and animate: framer-motion renders
       // the SVG path attribute from `initial` on mount, so leaving it out
