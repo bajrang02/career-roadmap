@@ -65,6 +65,9 @@ export const metadata: Metadata = {
       `${TOTAL_ROADMAPS} interactive career & skill roadmaps as clear, step-by-step maps. Learn every topic in the right order, track progress, earn certificates.`,
     type: "website",
   },
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 const themeInit = `
