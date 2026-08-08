@@ -1,0 +1,7 @@
+# Local artifacts — never uploaded to Vercel
+.next
+node_modules
+.freebuff
+
+# Regenerated at build time by the `prebuild` script (node data/generate.mjs)
+data/generated

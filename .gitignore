@@ -37,3 +37,6 @@ next-env.d.ts
 
 # Freebuff desktop app internals (local only — not part of the project)
 /.freebuff/
+
+.vercel
+.env*
