@@ -10,6 +10,8 @@ export interface LayoutNode {
   w: number;
   h: number;
   scale: number;
+  opacity: number;
+  isFocused: boolean;
   depth: number;
   parent: LayoutNode | null;
   children: LayoutNode[];
@@ -33,8 +35,10 @@ const SECTION_GAP = 34;
 
 // Compact (mobile) spacing — slightly tighter so the whole map fits on small
 // screens while pinch-zoom still reveals readable text.
-const COMPACT_H_GAP = 40;
-const COMPACT_V_STEP = 64;
+// Compact (mobile) spacing — slightly tighter so the whole map fits on small
+// screens while pinch-zoom still reveals readable text.
+const COMPACT_H_GAP = 52;
+const COMPACT_V_STEP = 76;
 
 // Compact cards sized for the slim single-row layout: a type icon, the title
 // (truncating past ~2 lines) and the chevron. No touch action row anymore —
@@ -57,18 +61,18 @@ const NODE_W: Record<NodeType, number> = {
 // Mobile variant: narrower cards that still fit most of a 375px phone while
 // leaving room to pan.
 const COMPACT_NODE_W: Record<NodeType, number> = {
-  career: 232,
-  section: 208,
-  subsection: 190,
-  topic: 184,
-  concept: 176,
-  projects: 194,
-  project: 188,
-  optional: 182,
-  advanced: 182,
-  interview: 182,
-  achievement: 204,
-  choice: 204,
+  career: 360,
+  section: 350,
+  subsection: 340,
+  topic: 340,
+  concept: 340,
+  projects: 350,
+  project: 340,
+  optional: 340,
+  advanced: 340,
+  interview: 340,
+  achievement: 350,
+  choice: 350,
 };
 
 // Base height for a single-line title (44–56px, per the compact redesign).
@@ -91,34 +95,35 @@ const NODE_H: Record<NodeType, number> = {
 
 // Mobile heights — same slim single-row cards; only slightly shorter.
 const COMPACT_NODE_H: Record<NodeType, number> = {
-  career: 54,
-  section: 50,
-  subsection: 48,
-  topic: 46,
-  concept: 44,
-  projects: 48,
-  project: 46,
-  optional: 44,
-  advanced: 44,
-  interview: 44,
-  achievement: 44,
-  choice: 44,
+  career: 86,
+  section: 78,
+  subsection: 74,
+  topic: 74,
+  concept: 70,
+  projects: 78,
+  project: 74,
+  optional: 70,
+  advanced: 70,
+  interview: 70,
+  achievement: 78,
+  choice: 78,
 };
 
-export function estimateWidth(type: NodeType, compact = false) {
+export function estimateWidth(type: NodeType, compact = false, widthOverride?: number) {
   const map = compact ? COMPACT_NODE_W : NODE_W;
-  return map[type] ?? (compact ? 180 : 220);
+  return widthOverride ?? map[type] ?? (compact ? 180 : 220);
 }
 
-export function estimateHeight(type: NodeType, label: string, compact = false, nodeData?: RoadmapNode, choices?: Record<string, string>) {
+export function estimateHeight(type: NodeType, label: string, compact = false, nodeData?: RoadmapNode, choices?: Record<string, string>, widthOverride?: number) {
   const baseMap = compact ? COMPACT_NODE_H : NODE_H;
   const widthMap = compact ? COMPACT_NODE_W : NODE_W;
   const base = baseMap[type] ?? (compact ? 44 : 48);
-  const width = widthMap[type] ?? 220;
+  const width = widthOverride ?? widthMap[type] ?? 220;
   const charsPerLine = Math.max(10, Math.floor((width - 24) / 7.2));
   const lines = Math.min(MAX_LINES, Math.max(1, Math.ceil(label.length / charsPerLine)));
-  // compact titles are 14–15px → ~16px per wrapped line
-  let h = base + (lines - 1) * 16;
+  // compact titles are 18-20px -> ~24px per wrapped line
+  const lineHeight = compact ? 24 : 16;
+  let h = base + (lines - 1) * lineHeight;
 
   if (type === "choice" && nodeData && choices) {
     if (!choices[nodeData.id]) {
@@ -206,7 +211,7 @@ export function pathToNode(root: RoadmapNode, id: string): RoadmapNode[] {
 
 export interface LayoutResult {
   nodes: LayoutNode[];
-  edges: { source: LayoutNode; target: LayoutNode; d: string }[];
+  edges: { source: LayoutNode; target: LayoutNode; d: string; isActive?: boolean }[];
   width: number;
   height: number;
 }
@@ -216,10 +221,19 @@ export function computeLayout(
   collapsed: Set<string>,
   compact = false,
   selectedId: string | null = null,
-  choices?: Record<string, string>
+  choices?: Record<string, string>,
+  /** viewport width (px) — used to size compact cards so they never exceed the
+   *  narrowest supported phone (320px). Falls back to the fixed compact width. */
+  containerWidth?: number
 ): LayoutResult {
   const hGap = compact ? COMPACT_H_GAP : H_GAP;
   const vStep = compact ? COMPACT_V_STEP : V_STEP;
+  // On phones the card width tracks the viewport (capped at the designed max)
+  // so a 320px screen never clips node content, while wider phones get roomier
+  // cards. Desktop keeps its fixed widths regardless of the container.
+  const compactW = compact
+    ? Math.max(260, Math.min(340, (containerWidth ?? 375) - 40))
+    : 0;
   // children count from the ORIGINAL tree (visibleTree prunes collapsed nodes,
   // which would otherwise hide expand controls and shrink their height)
   const childCount = new Map<string, number>();
@@ -238,22 +252,49 @@ export function computeLayout(
   const activePath = selectedId ? pathToNode(tree, selectedId) : [];
   const activeParent = activePath.length > 1 ? activePath[activePath.length - 2] : null;
 
+  const activePathIds = new Set(activePath.map(n => n.id));
+
   const h = hierarchy<RoadmapNode>(tree, (n) => n.children ?? []);
   h.each((d) => {
     let scale = 1.0;
+    let opacity = 1.0;
+    let isFocused = false;
+
     if (selectedId) {
-      if (d.data.id === selectedId) scale = 1.9;
-      else if (d.parent?.data.id === selectedId) scale = 1.5;
-      else if (d.parent?.parent?.data.id === selectedId) scale = 1.25;
-      else if (activeParent?.id === d.data.id) scale = 1.1;
-      else scale = 0.95;
+      if (d.data.id === selectedId) {
+        scale = 1.12;
+        isFocused = true;
+      } else if (d.parent?.data.id === selectedId) {
+        scale = 1.08; // children
+        isFocused = true;
+      } else if (d.parent?.parent?.data.id === selectedId) {
+        scale = 1.0; // grandchildren
+        isFocused = true;
+      } else if (activeParent?.id === d.data.id) {
+        scale = 1.0; // parent
+        isFocused = true;
+      } else if (d.parent?.data.id === activeParent?.id) {
+        scale = 1.0; // Siblings of current node
+        opacity = 0.45;
+      } else {
+        scale = 0.9;
+      }
+
+      if (!activePathIds.has(d.data.id) && !isFocused && d.parent?.data.id !== activeParent?.id) {
+        opacity = 0.35; // Unrelated branches
+      }
     }
-    const nodeData = d as unknown as { _scale: number, _w: number, _h: number };
+
+    const nodeData = d as unknown as { _scale: number, _w: number, _h: number, _opacity: number, _isFocused: boolean };
     nodeData._scale = scale;
+    nodeData._opacity = opacity;
+    nodeData._isFocused = isFocused;
     // We leave _w and _h unscaled so the layout box represents the unscaled bounds,
     // and we inject the scale into the gap spacing directly.
-    nodeData._w = estimateWidth(d.data.type, compact);
-    nodeData._h = estimateHeight(d.data.type, d.data.label, compact, d.data, choices);
+    nodeData._w = compactW ? estimateWidth(d.data.type, true, compactW) : estimateWidth(d.data.type, false);
+    nodeData._h = compactW
+      ? estimateHeight(d.data.type, d.data.label, true, d.data, choices, compactW)
+      : estimateHeight(d.data.type, d.data.label, false, d.data, choices);
   });
 
   // Left-to-right tidy tree.
@@ -261,9 +302,12 @@ export function computeLayout(
   const lay = d3tree<RoadmapNode>()
     .nodeSize([vStep, 1])
     .separation((a, b) => {
-      const sa = (a as unknown as { _scale: number })._scale || 1.0;
-      const sb = (b as unknown as { _scale: number })._scale || 1.0;
-      return (sa + sb) / 2;
+      const sa = a as unknown as { _scale: number; _h: number };
+      const sb = b as unknown as { _scale: number; _h: number };
+      const hA = sa._h * (sa._scale || 1.0);
+      const hB = sb._h * (sb._scale || 1.0);
+      const padding = a.parent === b.parent ? 20 : 40;
+      return ((hA + hB) / 2 + padding) / vStep;
     });
   const rootLayout = lay(h);
 
@@ -287,22 +331,28 @@ export function computeLayout(
   });
 
   const xs: number[] = [];
-  rootLayout.each((d) => xs.push(d.x));
+  rootLayout.each((d) => {
+    const h = (d as unknown as { _h: number })._h || 0;
+    xs.push(d.x - h / 2);
+  });
   const minX = Math.min(...xs);
 
   const nodes: LayoutNode[] = [];
   const byId = new Map<string, LayoutNode>();
   rootLayout.each((d) => {
     const data = d.data;
+    const h = (d as unknown as { _h: number })._h || 0;
     const ln: LayoutNode = {
       id: data.id,
       label: data.label,
       type: data.type,
       x: (d as unknown as { _x: number })._x,
-      y: d.x - minX,
+      y: d.x - h / 2 - minX,
       w: (d as unknown as { _w: number })._w,
       h: (d as unknown as { _h: number })._h,
       scale: (d as unknown as { _scale?: number })._scale || 1.0,
+      opacity: (d as unknown as { _opacity?: number })._opacity ?? 1.0,
+      isFocused: (d as unknown as { _isFocused?: boolean })._isFocused ?? false,
       depth: d.depth,
       parent: null,
       children: [],
@@ -367,10 +417,12 @@ export function computeLayout(
     const y2 = ln.y + ln.h / 2;
     const dx = x2 - x1;
     const c = Math.min(dx * 0.45, 96);
+    const isActive = activePathIds.has(ln.id) || ln.parent.id === selectedId;
     edges.push({
       source: ln.parent,
       target: ln,
       d: `M ${x1} ${y1} C ${x1 + c} ${y1}, ${x2 - c} ${y2}, ${x2} ${y2}`,
+      isActive,
     });
   }
 
@@ -396,4 +448,74 @@ export function dfsOrder(layout: LayoutResult): LayoutNode[] {
     for (let i = n.children.length - 1; i >= 0; i--) stack.push(n.children[i]);
   }
   return out;
+}
+
+export function computeFocusBounds(layout: LayoutResult, selectedId: string | null) {
+  if (!selectedId) {
+    return {
+      x: 0,
+      y: 0,
+      width: layout.width,
+      height: layout.height,
+    };
+  }
+
+  const nodesToInclude = new Set<string>();
+  
+  // Find selected node
+  const selectedNode = layout.nodes.find(n => n.id === selectedId);
+  if (!selectedNode) {
+    return { x: 0, y: 0, width: layout.width, height: layout.height };
+  }
+
+  // Include Current Node
+  nodesToInclude.add(selectedNode.id);
+
+  // Include Parent
+  if (selectedNode.parent) {
+    nodesToInclude.add(selectedNode.parent.id);
+  }
+
+  // Include Children
+  for (const child of selectedNode.children) {
+    nodesToInclude.add(child.id);
+    // Include Grandchildren
+    for (const grandChild of child.children) {
+      nodesToInclude.add(grandChild.id);
+    }
+  }
+
+  let minX = Infinity;
+  let minY = Infinity;
+  let maxX = -Infinity;
+  let maxY = -Infinity;
+
+  for (const n of layout.nodes) {
+    if (nodesToInclude.has(n.id)) {
+      const scaledW = n.w * n.scale;
+      const scaledH = n.h * n.scale;
+      // Coordinates need to factor in scale which is centered.
+      // n.x and n.y represent the top-left of the unscaled box.
+      // The box is scaled around its center (n.x + n.w/2, n.y + n.h/2).
+      const cx = n.x + n.w / 2;
+      const cy = n.y + n.h / 2;
+      
+      const nx1 = cx - scaledW / 2;
+      const ny1 = cy - scaledH / 2;
+      const nx2 = cx + scaledW / 2;
+      const ny2 = cy + scaledH / 2;
+
+      if (nx1 < minX) minX = nx1;
+      if (ny1 < minY) minY = ny1;
+      if (nx2 > maxX) maxX = nx2;
+      if (ny2 > maxY) maxY = ny2;
+    }
+  }
+
+  return {
+    x: minX,
+    y: minY,
+    width: maxX - minX,
+    height: maxY - minY,
+  };
 }

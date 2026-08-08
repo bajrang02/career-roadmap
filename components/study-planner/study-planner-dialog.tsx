@@ -19,8 +19,18 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
-import { listRoadmaps, getRoadmap } from "@/lib/data-loader";
+import { getRoadmap } from "@/lib/data-loader";
 import type { Roadmap } from "@/lib/types";
+
+// Compact catalog row (slug/title/icon/counts) passed from the server page —
+// keeps the 150 KB index JSON out of this lazy dialog's bundle.
+export interface PlannerRoadmapRow {
+  slug: string;
+  title: string;
+  icon: string;
+  learnable: number;
+  nodeCount: number;
+}
 import {
   generateStudyPlan,
   type Pace,
@@ -85,10 +95,12 @@ function formatDate(iso: string) {
 export function StudyPlannerDialog({
   slug,
   roadmap,
+  roadmapList,
   onClose,
 }: {
   slug: string;
   roadmap: Roadmap;
+  roadmapList: PlannerRoadmapRow[];
   onClose: () => void;
 }) {
   const toast = useUiStore((s) => s.toast);
@@ -123,7 +135,10 @@ export function StudyPlannerDialog({
   const onCloseRef = useRef(onClose);
   onCloseRef.current = onClose;
 
-  const roadmaps = useMemo(() => listRoadmaps().sort((a, b) => a.title.localeCompare(b.title)), []);
+  const roadmaps = useMemo(
+    () => [...roadmapList].sort((a, b) => a.title.localeCompare(b.title)),
+    [roadmapList]
+  );
   const filteredRoadmaps = useMemo(() => {
     const q = roadmapFilter.trim().toLowerCase();
     if (!q) return roadmaps;
@@ -217,6 +232,8 @@ export function StudyPlannerDialog({
     // changes (idempotent), so already-completed items are never unmarked
     for (const it of d.items) {
       if (!it.nodeId || SYNTHETIC_IDS.has(it.nodeId)) continue;
+      // container nodes have no completion state — never toggle them
+      if (it.type === "section" || it.type === "subsection" || it.type === "projects" || it.type === "choice") continue;
       const isDone = doneProgressIds.has(it.nodeId);
       if (becomingDone && !isDone) toggleNode(selectedSlug, it.nodeId, it.label);
       if (!becomingDone && isDone) toggleNode(selectedSlug, it.nodeId, it.label);

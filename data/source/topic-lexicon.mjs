@@ -23,14 +23,33 @@ export const LEXICON = {
   ...CONCEPT_LEXICON,
 };
 
-// Substitute the roadmap/career title into §career§ placeholders.
+// Substitute the roadmap/career title into §career§ placeholders — every
+// string field and string array (description, why, objectives, prerequisites,
+// interview questions, tips, resource titles/urls, project names) so no
+// placeholder can ever leak into the rendered UI.
 export const fillLexicon = (obj, careerTitle) => {
   if (!obj) return obj;
+  const replace = (v) =>
+    typeof v === "string" ? v.replaceAll("§career§", careerTitle) : v;
+  const fillArray = (arr) => (Array.isArray(arr) ? arr.map(replace) : arr);
   const out = { ...obj };
-  if (typeof out.d === "string") out.d = out.d.replaceAll("§career§", careerTitle);
-  if (typeof out.why === "string") out.why = out.why.replaceAll("§career§", careerTitle);
-  if (Array.isArray(out.obj)) out.obj = out.obj.map((s) => s.replaceAll("§career§", careerTitle));
-  if (Array.isArray(out.prereq)) out.prereq = out.prereq.map((s) => s.replaceAll("§career§", careerTitle));
+  for (const key of Object.keys(out)) {
+    const v = out[key];
+    if (typeof v === "string") {
+      out[key] = replace(v);
+    } else if (Array.isArray(v)) {
+      out[key] = v.map((item) => {
+        if (typeof item === "string") return replace(item);
+        // nested resource/project objects ({t, u, k} / {t, d})
+        if (item && typeof item === "object") {
+          const filled = {};
+          for (const k2 of Object.keys(item)) filled[k2] = replace(item[k2]);
+          return filled;
+        }
+        return item;
+      });
+    }
+  }
   return out;
 };
 

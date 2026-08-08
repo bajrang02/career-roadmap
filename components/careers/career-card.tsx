@@ -24,7 +24,8 @@ export function CareerCard({
 }) {
   const completed = useProgressStore((s) => s.completed);
   const roadmapCompleted = completed.filter((c) => c.roadmap === slug).length;
-  const pct = entry.learnable ? Math.round((roadmapCompleted / entry.learnable) * 100) : 0;
+  // clamp: legacy data or edge cases can never exceed 100%
+  const pct = entry.learnable ? Math.min(100, Math.round((roadmapCompleted / entry.learnable) * 100)) : 0;
   const started = roadmapCompleted > 0;
 
   return (

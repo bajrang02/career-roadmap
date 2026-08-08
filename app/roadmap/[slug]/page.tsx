@@ -1,10 +1,17 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { careerBySlug } from "@/lib/data-loader";
+import { careerBySlug, listRoadmaps } from "@/lib/data-catalog";
+import { getRoadmap } from "@/lib/data-loader";
 import { RoadmapViewer } from "@/components/roadmap/roadmap-viewer";
 
 type PageProps = { params: Promise<{ slug: string }> };
+
+// Pre-render every roadmap at build time — static HTML, zero server round-trip
+// per visit, and roadmap data is fetched/validated once during the build.
+export function generateStaticParams() {
+  return listRoadmaps().map((r) => ({ slug: r.slug }));
+}
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
@@ -25,9 +32,22 @@ export default async function RoadmapPage({ params }: PageProps) {
   const { slug } = await params;
   const career = careerBySlug(slug);
   if (!career) notFound();
+  // fetch + validate once at build (static), then pass to the client viewer —
+  // no client-side fetch waterfall or runtime validation
+  const roadmap = await getRoadmap(slug);
   return (
     <Suspense fallback={<div className="h-screen" />}>
-      <RoadmapViewer slug={slug} />
+      <RoadmapViewer
+        slug={slug}
+        roadmap={roadmap}
+        roadmapList={listRoadmaps().map((r) => ({
+          slug: r.slug,
+          title: r.title,
+          icon: r.icon,
+          learnable: r.learnable,
+          nodeCount: r.nodeCount,
+        }))}
+      />
     </Suspense>
   );
 }

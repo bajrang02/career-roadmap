@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, memo } from "react";
 import { motion } from "framer-motion";
 import { Columns3, X } from "lucide-react";
 import { NODE_TYPE_META } from "@/lib/utils";
@@ -19,7 +19,7 @@ const TYPES: NodeType[] = [
   "achievement",
 ];
 
-export function Legend({ onClose }: { onClose?: () => void }) {
+export const Legend = memo(function Legend({ onClose }: { onClose?: () => void }) {
   // start collapsed: the expanded panel is ~370px tall and covers the
   // leftmost roadmap nodes at the fitted overview, making their action
   // buttons unreachable. The header strip stays clickable to expand it.
@@ -29,7 +29,9 @@ export function Legend({ onClose }: { onClose?: () => void }) {
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.6 }}
-      className="absolute bottom-4 left-4 z-20 w-52 rounded-xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur dark:border-slate-700 dark:bg-slate-800/95"
+      // on phones the legend floats ABOVE the bottom zoom pill (bottom-20) so
+      // the two never overlap; on larger screens it sits in the corner.
+      className="absolute bottom-20 left-4 z-20 w-48 rounded-xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur sm:bottom-4 sm:w-52 dark:border-slate-700 dark:bg-slate-800/95"
     >
       <button
         onClick={() => {
@@ -66,4 +68,4 @@ export function Legend({ onClose }: { onClose?: () => void }) {
       )}
     </motion.div>
   );
-}
+});

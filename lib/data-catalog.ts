@@ -1,0 +1,51 @@
+// Server-only catalog: the static roadmap index + derived lists/counts.
+//
+// IMPORTANT: only import this from server components / route handlers. It
+// statically imports the generated index JSON, so pulling it into a client
+// component would bundle ~150 KB of catalog data into every client chunk.
+// Client components that need per-roadmap data should use lib/data-loader
+// (dynamic, code-split imports) or receive catalog data as props from a
+// server component.
+import type { Roadmap, RoadmapIndex, SkillCategoryMeta } from "./types";
+import indexJson from "@/data/generated/index.json";
+import skillCategoriesJson from "@/data/generated/skill-categories.json";
+import careerDomainsJson from "@/data/generated/career-domains.json";
+
+// Static index → instant paint on landing/careers pages (bundled once server-side).
+export const roadmapIndex: RoadmapIndex = indexJson as RoadmapIndex;
+
+export function listRoadmaps() {
+  return Object.entries(roadmapIndex.roadmaps).map(([slug, entry]) => ({ slug, ...entry }));
+}
+
+export function listCareers() {
+  return listRoadmaps().filter((r) => r.kind === "career");
+}
+
+export function listSkills() {
+  return listRoadmaps().filter((r) => r.kind === "skill");
+}
+
+export function careerBySlug(slug: string) {
+  const entry = roadmapIndex.roadmaps[slug];
+  return entry ? { slug, ...entry } : null;
+}
+
+export const IT_COUNT = Object.values(roadmapIndex.roadmaps).filter(
+  (r) => r.kind === "career" && r.category === "it"
+).length;
+export const NON_IT_COUNT = Object.values(roadmapIndex.roadmaps).filter(
+  (r) => r.kind === "career" && r.category === "non-it"
+).length;
+export const SKILL_COUNT = Object.values(roadmapIndex.roadmaps).filter((r) => r.kind === "skill").length;
+export const TOTAL_TOPICS = Object.values(roadmapIndex.roadmaps).reduce(
+  (a, r) => a + r.topicCount,
+  0
+);
+
+// Canonical browsing taxonomies emitted by the generator (source order, icons
+// and live counts — single source of truth shared with data/source/*).
+export const SKILL_CATEGORIES: SkillCategoryMeta[] = skillCategoriesJson as SkillCategoryMeta[];
+export const CAREER_DOMAINS: SkillCategoryMeta[] = careerDomainsJson as SkillCategoryMeta[];
+
+export type { Roadmap };

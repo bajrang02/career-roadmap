@@ -255,12 +255,16 @@ export function nodeMeta(type: NodeType) {
   return NODE_TYPE_META[type] ?? NODE_TYPE_META.topic;
 }
 
-export function isLearnable(type: NodeType) {
-  return ["topic", "concept", "project", "advanced", "interview", "achievement"].includes(type);
-}
-
 export function isContainer(type: NodeType) {
   return ["section", "subsection", "projects"].includes(type);
+}
+
+// Node types that carry a completion checkbox and count toward progress —
+// exactly the set tree-layout's collectLearnableIds uses. Container nodes
+// (sections, subsection, projects and choice) never get marked complete;
+// marking their subtree is handled by the details panel's "mark subtree".
+export function isCheckableType(type: NodeType) {
+  return !["section", "subsection", "projects", "choice"].includes(type);
 }
 
 // ── Resource kind → label & icon style ───────────────────────────────────────

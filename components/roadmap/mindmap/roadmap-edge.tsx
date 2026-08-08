@@ -27,7 +27,6 @@ function RoadmapEdgeInner({ d, active, dimmed, index }: RoadmapEdgeProps) {
       d={d}
       fill="none"
       stroke={active ? "var(--edge-active)" : "var(--edge)"}
-      strokeWidth={active ? 3 : 1.25}
       strokeLinecap="round"
       // `d` must be present in BOTH initial and animate: framer-motion renders
       // the SVG path attribute from `initial` on mount, so leaving it out
@@ -40,7 +39,8 @@ function RoadmapEdgeInner({ d, active, dimmed, index }: RoadmapEdgeProps) {
       }}
       style={{
         strokeOpacity: dimmed ? 0.12 : active ? 1 : 0.45,
-        transition: "stroke-opacity 0.25s ease",
+        strokeWidth: active ? 3 : 1.25,
+        transition: "stroke-opacity 0.25s ease, stroke-width 0.25s ease",
         filter: active ? "drop-shadow(0 1px 2px var(--edge-glow))" : undefined,
       }}
     />

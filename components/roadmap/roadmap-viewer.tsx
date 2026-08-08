@@ -2,13 +2,12 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
-import { motion } from "framer-motion";
-import { useQuery } from "@tanstack/react-query";
-import { getRoadmap } from "@/lib/data-loader";
+import { motion, AnimatePresence } from "framer-motion";
+import type { PlannerRoadmapRow } from "@/components/study-planner/study-planner-dialog";
 import {
   collectLearnableIds,
-  collectNodeIds,
   computeLayout,
+  computeFocusBounds,
   dfsOrder,
   findNode,
   pathToNode,
@@ -21,14 +20,10 @@ import { useUiStore } from "@/lib/stores/ui-store";
 import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
 import { useChoicesStore } from "@/lib/stores/choices-store";
 import { useShallow } from "zustand/react/shallow";
-import { Skeleton } from "@/components/ui/skeleton";
-import { RoadmapToolbar } from "./roadmap-toolbar";
-import { NodeCard, type NodeAction } from "./mindmap/node-card";
-import { Minimap } from "./mindmap/minimap";
 import type { Viewport } from "./mindmap/mindmap-canvas";
-import { Legend } from "./legend";
-import { cn } from "@/lib/utils";
+import { cn, isCheckableType } from "@/lib/utils";
 import { Plus, Minus, Maximize, Crosshair, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import type { LayoutNode } from "@/lib/mindmap/tree-layout";
 
 // Lazy-loaded panels: the mindmap is the critical path, so heavy dialogs and
@@ -41,6 +36,20 @@ const StudyPlannerDialog = dynamic(
   () => import("@/components/study-planner/study-planner-dialog").then((m) => m.StudyPlannerDialog),
   { ssr: false, loading: () => null }
 );
+const RoadmapToolbar = dynamic(() => import("./roadmap-toolbar").then((m) => m.RoadmapToolbar), {
+  ssr: false,
+  loading: () => <div className="h-14 w-full bg-background border-b" />,
+});
+const Minimap = dynamic(() => import("./mindmap/minimap").then((m) => m.Minimap), {
+  ssr: false,
+  loading: () => null,
+});
+const Legend = dynamic(() => import("./legend").then((m) => m.Legend), {
+  ssr: false,
+  loading: () => null,
+});
+import { NodeCard, type NodeAction } from "./mindmap/node-card";
+import { OnboardingTour, hasSeenTour } from "./onboarding-tour";
 
 /** Debounce a fast-changing value (search input) so expensive work only runs
  *  after the user pauses typing. */
@@ -93,14 +102,15 @@ function loadCollapsed(slug: string): Set<string> | null {
   }
 }
 
-export function RoadmapViewer({ slug }: { slug: string }) {
-  const { data: roadmap, isLoading, error } = useQuery({
-    queryKey: ["roadmap", slug],
-    queryFn: () => getRoadmap(slug),
-    // roadmap JSON is static content + module-cached; never refetch
-    staleTime: Infinity,
-    gcTime: Infinity,
-  });
+export function RoadmapViewer({
+  slug,
+  roadmap,
+  roadmapList,
+}: {
+  slug: string;
+  roadmap: import("@/lib/types").Roadmap;
+  roadmapList: PlannerRoadmapRow[];
+}) {
 
   const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set());
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -117,6 +127,7 @@ export function RoadmapViewer({ slug }: { slug: string }) {
   const [containerSize, setContainerSize] = useState({ w: 1200, h: 600 });
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [plannerOpen, setPlannerOpen] = useState(false);
+  const [tourOpen, setTourOpen] = useState(false);
   const isMobile = useIsMobile();
 
   // The mobile floating zoom pill auto-hides after a moment of inactivity so
@@ -184,6 +195,18 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     } catch {
       /* ignore */
     }
+  }, []);
+
+  // first-visit onboarding: show the getting-started tour once, after the
+  // mindmap has painted. Re-openable any time from the toolbar's More menu.
+  useEffect(() => {
+    if (!roadmap || hasSeenTour()) return;
+    const t = window.setTimeout(() => setTourOpen(true), 800);
+    return () => window.clearTimeout(t);
+  }, [roadmap]);
+
+  const closeTour = useCallback(() => {
+    setTourOpen(false);
   }, []);
 
   // default: sections expanded, deeper collapsed — unless the user has a
@@ -277,10 +300,19 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     return findNode(roadmap.root, selectedId) ?? roadmap.root;
   }, [roadmap, focusMode, selectedId]);
 
+  // Phone card widths track the canvas width (so nodes never overflow a 320px
+  // viewport) but are rounded to 4px steps to avoid re-layout on pixel-level
+  // resize jitter. On desktop this is always 0 (fixed widths), so resizing the
+  // browser window never recomputes the d3 tree layout.
+  const mobileCardW = useMemo(() => {
+    if (!isMobile) return 0;
+    return Math.max(260, Math.round(Math.min(340, containerSize.w - 40) / 4) * 4);
+  }, [isMobile, containerSize.w]);
+
   const layout = useMemo(() => {
     if (!roadmap) return null;
-    return computeLayout(focusRoot, collapsed, isMobile, selectedId, choices);
-  }, [roadmap, focusRoot, collapsed, isMobile, selectedId, choices]);
+    return computeLayout(focusRoot, collapsed, isMobile, selectedId, choices, mobileCardW || undefined);
+  }, [roadmap, focusRoot, collapsed, isMobile, selectedId, choices, mobileCardW]);
 
   const learnableIds = useMemo(
     () => (roadmap ? collectLearnableIds(roadmap.root, choices) : []),
@@ -305,8 +337,10 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     const map = new Map<string, { pct: number; count: number }>();
     if (!roadmap) return map;
     const walk = (n: RoadmapNode): { done: number; total: number } => {
-      const learnable = !["section", "subsection", "projects", "choice"].includes(n.type);
-      let done = doneIds.has(n.id) ? 1 : 0;
+      const learnable = isCheckableType(n.type);
+      // containers can never be recorded as completed (see completeSubtree),
+      // but guard here too so legacy container ids don't inflate the bar
+      let done = learnable && doneIds.has(n.id) ? 1 : 0;
       let total = learnable ? 1 : 0;
       for (const c of getActiveChildren(n, choices)) {
         const r = walk(c);
@@ -323,81 +357,6 @@ export function RoadmapViewer({ slug }: { slug: string }) {
   // keyboard navigation
   const order = useMemo(() => (layout ? dfsOrder(layout) : []), [layout]);
 
-  const handleKeyDown = useCallback(
-    (e: KeyboardEvent) => {
-      if (e.metaKey || e.ctrlKey || e.altKey) return;
-      const target = e.target as HTMLElement | null;
-      if (target?.closest?.("input, textarea, select, [contenteditable=true]")) return;
-      if (!layout || !order.length) return;
-      const active = order.find((n) => n.id === (selectedId ?? hoveredId));
-      const idx = active ? order.indexOf(active) : -1;
-
-      switch (e.key) {
-        case "ArrowDown":
-          e.preventDefault();
-          setSelectedId(order[Math.min(idx + 1, order.length - 1)]?.id ?? order[0].id);
-          break;
-        case "ArrowUp":
-          e.preventDefault();
-          setSelectedId(order[Math.max(idx - 1, 0)]?.id ?? order[order.length - 1].id);
-          break;
-        case "ArrowRight": {
-          const n = order[idx];
-          if (n && n.childCount > 0) {
-            e.preventDefault();
-            if (collapsed.has(n.id)) {
-              setCollapsed((prev) => {
-                const next = new Set(prev);
-                next.delete(n.id);
-                return next;
-              });
-            } else if (n.children[0]) {
-              setSelectedId(n.children[0].id);
-            }
-          }
-          break;
-        }
-        case "ArrowLeft": {
-          const n = order[idx];
-          if (n) {
-            e.preventDefault();
-            if (n.data.children?.length && !collapsed.has(n.id)) {
-              setCollapsed((prev) => new Set(prev).add(n.id));
-            } else if (n.parent) {
-              setSelectedId(n.parent.id);
-            }
-          }
-          break;
-        }
-        case "Enter":
-        case " ":
-          if (active) {
-            e.preventDefault();
-            if (active.childCount > 0) {
-              setCollapsed((prev) => {
-                const next = new Set(prev);
-                if (next.has(active.id)) next.delete(active.id);
-                else next.add(active.id);
-                return next;
-              });
-            }
-          }
-          break;
-        case "Escape":
-          setSelectedId(null);
-          setSearchOpen(false);
-          setFocusMode(false);
-          break;
-      }
-    },
-    [layout, order, selectedId, hoveredId, collapsed]
-  );
-
-  useEffect(() => {
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [handleKeyDown]);
-
   // search highlighting (full tree) — computed from the DEBOUNCED query so
   // typing never triggers a full-tree walk per keystroke
   const debouncedSearch = useDebounced(searchQuery, 150);
@@ -413,49 +372,71 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     return hits;
   }, [debouncedSearch, roadmap]);
 
-  // first hit in DFS order (full tree, not just visible)
-  const firstSearchHit = useMemo(() => {
-    if (!roadmap || searchHits.size === 0) return null;
-    const stack = [roadmap.root];
-    while (stack.length) {
-      const n = stack.pop()!;
-      if (searchHits.has(n.id)) return n;
-      for (let i = (n.children ?? []).length - 1; i >= 0; i--) stack.push(n.children[i]!);
-    }
-    return null;
-  }, [roadmap, searchHits]);
-
-  // when searching: expand ancestors of the first hit, center it, flash it, open sidebar
+  // search hits in DFS order (searchHits is built by a pre-order walk, so
+  // insertion order already is the tree order users expect when cycling)
+  const searchHitList = useMemo(() => (searchHits.size ? [...searchHits] : []), [searchHits]);
+  // which hit is currently focused — Enter in the search box cycles forward
+  const [searchStep, setSearchStep] = useState(0);
   useEffect(() => {
-    if (!debouncedSearch.trim() || !roadmap || !firstSearchHit) return;
-    const hit = firstSearchHit;
-    const ancestors = pathToNode(roadmap.root, hit.id);
+    setSearchStep(0);
+  }, [debouncedSearch]);
+
+  // jump to the current search hit: expand its ancestors, select it, flash it,
+  // open the sidebar. Runs on every keystroke (auto-focus first hit) and on
+  // each Enter press (cycle to the next hit).
+  useEffect(() => {
+    if (!debouncedSearch.trim() || !roadmap || searchHitList.length === 0) return;
+    const hit = searchHitList[searchStep % searchHitList.length];
+    if (!hit) return;
+    const target = findNode(roadmap.root, hit);
+    if (!target) return;
+    const ancestors = pathToNode(roadmap.root, hit);
     setCollapsed((prev) => {
       const next = new Set(prev);
       for (const a of ancestors) next.delete(a.id);
       return next;
     });
-    setSelectedId(hit.id);
-    setFlashId(hit.id);
+    setSelectedId(hit);
+    setFlashId(hit);
     const t = window.setTimeout(() => setFlashId(null), 2300);
     return () => window.clearTimeout(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [debouncedSearch, roadmap]);
+  }, [debouncedSearch, searchStep, roadmap, searchHitList]);
 
   // center the flashed/search-selected node once it exists in the layout
+  // center the focused branch dynamically when selection changes
   const centeredFor = useRef<string | null>(null);
   useEffect(() => {
-    if (!flashId || !layout || !containerSize.w) return;
-    if (centeredFor.current === flashId) return;
-    const n = layout.nodes.find((x) => x.id === flashId);
-    if (!n) return;
-    centeredFor.current = flashId;
-    setViewport((v) => ({
-      ...v,
-      x: containerSize.w / 2 - (n.x + n.w / 2) * v.k,
-      y: containerSize.h / 2 - (n.y + n.h / 2) * v.k,
-    }));
-  }, [flashId, layout, containerSize]);
+    // we use selectedId to focus the camera
+    const idToFocus = flashId || selectedId;
+    if (!idToFocus || !layout || !containerSize.w) return;
+    if (centeredFor.current === idToFocus) return;
+    
+    // ensure node actually exists in layout before zooming
+    if (!layout.nodes.some(n => n.id === idToFocus)) return;
+    
+    centeredFor.current = idToFocus;
+
+    const bounds = computeFocusBounds(layout, idToFocus);
+    
+    // Add margins around bounds (about 100px)
+    const margin = isMobile ? 40 : 100;
+    const targetW = bounds.width + margin * 2;
+    const targetH = bounds.height + margin * 2;
+
+    const targetK = Math.min(
+      containerSize.w / targetW,
+      containerSize.h / targetH,
+      1 // don't zoom in past 100% (or maybe 1.2 if we want to zoom closely?)
+    );
+
+    const targetKBounded = Math.max(0.2, targetK);
+
+    setViewport({
+      x: containerSize.w / 2 - (bounds.x + bounds.width / 2) * targetKBounded,
+      y: containerSize.h / 2 - (bounds.y + bounds.height / 2) * targetKBounded,
+      k: targetKBounded,
+    });
+  }, [flashId, selectedId, layout, containerSize, isMobile]);
 
   useEffect(() => {
     if (!debouncedSearch.trim()) centeredFor.current = null;
@@ -493,18 +474,6 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     return new Set(pathToNode(roadmap.root, selectedId).map((n) => n.id));
   }, [roadmap, selectedId]);
 
-  const handleToggle = useCallback(
-    (id: string) => {
-      showPill();
-      setCollapsed((prev) => {
-        const next = new Set(prev);
-        if (next.has(id)) next.delete(id);
-        else next.add(id);
-        return next;
-      });
-    },
-    [showPill]
-  );
 
   // keep a short memory of opened nodes (most recent 8) so the light-blue
   // "recently visited" ring never grows unbounded
@@ -587,20 +556,167 @@ export function RoadmapViewer({ slug }: { slug: string }) {
     });
   }, []);
 
-  const centerOnNode = useCallback(
+  const centerOnNodeBounds = useCallback(
     (id: string) => {
       if (!layout || !canvasRef.current) return;
       const n = layout.nodes.find((x) => x.id === id);
       if (!n) return;
+
+      // Collect bounding box of parent, self, and children
+      let minX = n.x;
+      let maxX = n.x + n.w;
+      let minY = n.y;
+      let maxY = n.y + n.h;
+
+      // We deliberately exclude the parent from the bounding box so that the camera 
+      // naturally pans right, bringing the next topics/subtopics into the center of the screen!
+
+      const children = layout.nodes.filter(x => x.parent?.id === id);
+      const grandchildren = layout.nodes.filter(x => children.some(c => c.id === x.parent?.id));
+
+      for (const child of [...children, ...grandchildren]) {
+        minX = Math.min(minX, child.x);
+        maxX = Math.max(maxX, child.x + child.w);
+        minY = Math.min(minY, child.y);
+        maxY = Math.max(maxY, child.y + child.h);
+      }
+
+      const bw = maxX - minX;
+      const bh = maxY - minY;
+      
       const el = canvasRef.current;
-      setViewport((v) => ({
-        ...v,
-        x: el.clientWidth / 2 - (n.x + n.w / 2) * v.k,
-        y: el.clientHeight / 2 - (n.y + n.h / 2) * v.k,
-      }));
+
+      const cx = minX + bw / 2;
+      const cy = minY + bh / 2;
+
+      setViewport((v) => {
+        // preserve current zoom level
+        const currentK = v.k;
+
+        return {
+          x: el.clientWidth / 2 - cx * currentK,
+          y: el.clientHeight / 2 - cy * currentK,
+          k: currentK,
+        };
+      });
     },
     [layout]
   );
+
+  // latest-value refs so toggle/center helpers stay identity-stable (they are
+  // passed down as NodeCard props — churning them would defeat React.memo)
+  const collapsedRef = useRef(collapsed);
+  collapsedRef.current = collapsed;
+  const centerRef = useRef<(id: string) => void>(() => {});
+  useEffect(() => {
+    centerRef.current = centerOnNodeBounds;
+  }, [centerOnNodeBounds]);
+
+  const handleToggleExpand = useCallback(
+    (id: string) => {
+      showPill();
+      // read the current collapse state from the ref (stable) so the decision
+      // to re-center happens outside the state updater — updaters must stay
+      // pure (StrictMode double-invokes them in dev)
+      const expanding = collapsedRef.current.has(id);
+      setCollapsed((prev) => {
+        const next = new Set(prev);
+        if (next.has(id)) next.delete(id);
+        else next.add(id);
+        return next;
+      });
+      if (expanding) {
+        // when expanding, re-center on this branch after the new layout lands
+        // so the freshly revealed children stay in view
+        setTimeout(() => centerRef.current(id), 60);
+      }
+    },
+    [showPill]
+  );
+
+  // Keyboard navigation (defined after handleToggleExpand since the arrow keys
+  // reuse it to expand nodes). The on-canvas hint documents the bindings.
+  const handleKeyDown = useCallback(
+    (e: KeyboardEvent) => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const target = e.target as HTMLElement | null;
+      // never hijack keys while a modal surface is open (details drawer, study
+      // planner, onboarding tour) — arrows/Esc are owned by that surface
+      if (target?.closest?.("input, textarea, select, [contenteditable=true], [role=dialog], [role=alertdialog]")) return;
+      if (!layout || !order.length) return;
+      const active = order.find((n) => n.id === (selectedId ?? hoveredId));
+      const idx = active ? order.indexOf(active) : -1;
+
+      switch (e.key) {
+        case "ArrowDown":
+          e.preventDefault();
+          setSelectedId(order[Math.min(idx + 1, order.length - 1)]?.id ?? order[0].id);
+          break;
+        case "ArrowUp":
+          e.preventDefault();
+          setSelectedId(order[Math.max(idx - 1, 0)]?.id ?? order[order.length - 1].id);
+          break;
+        case "ArrowRight": {
+          const n = order[idx];
+          if (n && n.childCount > 0) {
+            e.preventDefault();
+            if (collapsed.has(n.id)) {
+              handleToggleExpand(n.id);
+            } else if (n.children[0]) {
+              setSelectedId(n.children[0].id);
+            }
+          }
+          break;
+        }
+        case "ArrowLeft": {
+          const n = order[idx];
+          if (n) {
+            e.preventDefault();
+            if (n.data.children?.length && !collapsed.has(n.id)) {
+              setCollapsed((prev) => new Set(prev).add(n.id));
+            } else if (n.parent) {
+              setSelectedId(n.parent.id);
+            }
+          }
+          break;
+        }
+        case "Enter":
+          if (active) {
+            e.preventDefault();
+            // ↵ opens the details panel (matches the on-canvas keyboard hint)
+            setSelectedId(active.id);
+          }
+          break;
+        case " ":
+          // when a real button is focused, let the browser activate it instead
+          // of double-handling the spacebar
+          if ((e.target as HTMLElement | null)?.closest?.("button, a")) return;
+          if (active) {
+            e.preventDefault();
+            // mirrors the card click: branches toggle, leaves open details
+            if (active.childCount > 0) handleToggleExpand(active.id);
+            else setSelectedId(active.id);
+          }
+          break;
+        case "/":
+        case "f":
+          e.preventDefault();
+          setSearchOpen(true);
+          break;
+        case "Escape":
+          setSelectedId(null);
+          setSearchOpen(false);
+          setFocusMode(false);
+          break;
+      }
+    },
+    [layout, order, selectedId, hoveredId, collapsed, handleToggleExpand]
+  );
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [handleKeyDown]);
 
   const ensureNodeVisible = useCallback(
     (id: string) => {
@@ -646,22 +762,13 @@ export function RoadmapViewer({ slug }: { slug: string }) {
 
   const handleCenterView = useCallback(() => {
     if (selectedId) {
-      centerOnNode(selectedId);
+      centerOnNodeBounds(selectedId);
     } else {
       handleFit();
     }
-  }, [selectedId, centerOnNode, handleFit]);
+  }, [selectedId, centerOnNodeBounds, handleFit]);
 
-  const handleStartLearning = useCallback(() => {
-    if (!selectedId) return;
-    // expand the node's children + center on it
-    setCollapsed((prev) => {
-      const next = new Set(prev);
-      next.delete(selectedId);
-      return next;
-    });
-    centerOnNode(selectedId);
-  }, [selectedId, centerOnNode]);
+
 
   const handleReset = useCallback(() => {
     if (!roadmap) return;
@@ -731,6 +838,12 @@ export function RoadmapViewer({ slug }: { slug: string }) {
 
   const bookmarkedCareer = bookmarks.some((b) => b.roadmap === slug && b.nodeId === roadmap?.root.id);
 
+  const handleRandomTopic = useCallback(() => {
+    if (!learnableIds.length) return;
+    const randomId = learnableIds[Math.floor(Math.random() * learnableIds.length)];
+    navigateFromSidebar(randomId);
+  }, [learnableIds, navigateFromSidebar]);
+
   const handleBookmarkCareer = useCallback(() => {
     if (!roadmap) return;
     toggleBookmark({ roadmap: slug, nodeId: roadmap.root.id, nodeLabel: roadmap.root.label, nodeType: "career" });
@@ -742,23 +855,39 @@ export function RoadmapViewer({ slug }: { slug: string }) {
 
   const handleMarkSubtree = useCallback(
     (node: RoadmapNode) => {
-      const ids = collectNodeIds(node);
+      // Only checkable (learnable) nodes may be recorded as completed — never
+      // sections/subsection/projects containers. Walk the visible active
+      // subtree and collect exactly the ids that can be marked.
+      const ids: string[] = [];
+      const walk = (n: RoadmapNode) => {
+        if (isCheckableType(n.type)) ids.push(n.id);
+        for (const c of getActiveChildren(n, choices)) walk(c);
+      };
+      walk(node);
       completeSubtree(slug, node.id, node.label, ids);
       toast("Marked as complete", {
-        description: `${ids.length} ${ids.length > 1 ? "topics updated" : "topic updated"}.`,
+        description: `${ids.length} ${ids.length === 1 ? "topic updated" : "topics updated"}.`,
       });
     },
-    [slug, completeSubtree, toast]
+    [slug, completeSubtree, toast, choices]
   );
 
   // quick-action handler — the compact card only dispatches "complete" (the
   // checkbox). Bookmark, copy-link, subtree completion and everything else
   // moved into the details panel, which has its own dedicated callbacks.
+  const handleSearchNext = useCallback(() => {
+    showPill();
+    setSearchStep((s) => s + 1);
+  }, [showPill]);
+
   const handleNodeAction = useCallback(
     async (action: NodeAction, id: string) => {
       if (!roadmap || action !== "complete") return;
       const n = findNode(roadmap.root, id);
       if (!n) return;
+      // containers (sections, choice…) have no completion state — their
+      // subtree can be marked from the details panel instead
+      if (!isCheckableType(n.type)) return;
       showPill();
       const wasComplete = useProgressStore.getState().isComplete(slug, id);
       toggleNode(slug, id, n.label);
@@ -781,22 +910,20 @@ export function RoadmapViewer({ slug }: { slug: string }) {
   }, [viewport, slug]);
 
   const edgeActive = useCallback(
-    (e: { source: LayoutNode; target: LayoutNode }) =>
+    (e: { source: LayoutNode; target: LayoutNode; isActive?: boolean }) =>
       hoverPath.size > 0
         ? hoverPath.has(e.source.id) && hoverPath.has(e.target.id)
-        : selectedId
-          ? learningPath.has(e.source.id) && learningPath.has(e.target.id)
-          : false,
-    [hoverPath, selectedId, learningPath]
+        : !!e.isActive,
+    [hoverPath]
   );
   const edgeDimmed = useCallback(
-    (e: { source: LayoutNode; target: LayoutNode }) =>
+    (e: { source: LayoutNode; target: LayoutNode; isActive?: boolean }) =>
       hoverPath.size > 0
         ? !(hoverPath.has(e.source.id) && hoverPath.has(e.target.id))
         : selectedId
-          ? !(learningPath.has(e.source.id) && learningPath.has(e.target.id))
+          ? !e.isActive
           : false,
-    [hoverPath, selectedId, learningPath]
+    [hoverPath, selectedId]
   );
 
   const renderNode = useCallback(
@@ -815,8 +942,9 @@ export function RoadmapViewer({ slug }: { slug: string }) {
         collapsed={collapsed.has(n.id)}
         selected={selectedId === n.id}
         focused={hoveredId === n.id}
-        dimmed={hoverPath.size > 0 ? !hoverPath.has(n.id) : selectedId ? !learningPath.has(n.id) : false}
+        dimmed={hoverPath.size > 0 ? !hoverPath.has(n.id) : false}
         faded={selectedId && !learningPath.has(n.id) ? true : false}
+        nodeOpacity={n.opacity}
         recent={recentIds.has(n.id)}
         completed={doneIds.has(n.id)}
         locked={false}
@@ -827,8 +955,10 @@ export function RoadmapViewer({ slug }: { slug: string }) {
         pct={nodeProgress.get(n.id)?.pct ?? 0}
         learnableCount={nodeProgress.get(n.id)?.count ?? 0}
         data={n.data}
+        parentId={n.parent?.id}
+        isChosenOption={n.parent?.type === "choice"}
         onSelect={handleSelect}
-        onToggle={handleToggle}
+        onToggle={handleToggleExpand}
         onHover={setHoveredId}
         onAction={handleNodeAction}
       />
@@ -846,30 +976,12 @@ export function RoadmapViewer({ slug }: { slug: string }) {
       flashId,
       nodeProgress,
       handleSelect,
-      handleToggle,
+      handleToggleExpand,
       handleNodeAction,
     ]
   );
 
-  if (isLoading) {
-    return (
-      <div className="flex h-[calc(100vh-4rem)] flex-col supports-[height:100dvh]:h-[calc(100dvh-4rem)]">
-        <div className="flex gap-3 border-b border-slate-200 p-4 dark:border-slate-800">
-          <Skeleton className="h-9 w-48" />
-          <Skeleton className="h-9 w-40" />
-        </div>
-        <div className="flex flex-1 gap-6 p-8">
-          <div className="flex-1 space-y-3">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <Skeleton key={i} className="h-12" style={{ width: `${80 - (i % 4) * 12}%` }} />
-            ))}
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (error || !roadmap || !layout) {
+  if (!roadmap || !layout) {
     return (
       <div className="flex h-[60vh] flex-col items-center justify-center gap-3 text-center">
         <p className="text-4xl">🗺️</p>
@@ -915,6 +1027,7 @@ export function RoadmapViewer({ slug }: { slug: string }) {
         onToggleSearch={() => setSearchOpen((v) => !v)}
         searchQuery={searchQuery}
         onSearchQuery={setSearchQuery}
+        onSearchNext={handleSearchNext}
         bookmarked={bookmarkedCareer}
         onToggleBookmark={handleBookmarkCareer}
         onBreadcrumbClick={(id) => {
@@ -925,6 +1038,8 @@ export function RoadmapViewer({ slug }: { slug: string }) {
         onToggleFullscreen={handleToggleFullscreen}
         onOpenPlanner={() => setPlannerOpen(true)}
         planProgress={planProgress}
+        onRandomTopic={handleRandomTopic}
+        onShowTour={() => setTourOpen(true)}
       />
 
       <div ref={canvasRef} className="relative flex-1 overflow-hidden">
@@ -935,6 +1050,7 @@ export function RoadmapViewer({ slug }: { slug: string }) {
           onBackgroundClick={() => {
             setSelectedId(null);
           }}
+          onBackgroundDoubleClick={handleFit}
           padding={isMobile ? 24 : 70}
           fitKey={isMobile ? "mobile" : "desktop"}
           renderNode={renderNode}
@@ -945,7 +1061,13 @@ export function RoadmapViewer({ slug }: { slug: string }) {
         {/* search result count */}
         {debouncedSearch.trim() && (
           <div className="absolute left-3 top-3 z-20 rounded-lg border border-slate-200 bg-white/95 px-3 py-1.5 text-xs text-slate-500 shadow-lg backdrop-blur dark:border-slate-700 dark:bg-slate-800/95 dark:text-slate-300">
-            {searchHits.size} match{searchHits.size === 1 ? "" : "es"} — branch auto-expanded
+            {searchHits.size} match{searchHits.size === 1 ? "" : "es"}
+            {searchHits.size > 1 && (
+              <>
+                {" "}
+                · <kbd className="font-mono">↵</kbd> next
+              </>
+            )}
           </div>
         )}
 
@@ -962,6 +1084,29 @@ export function RoadmapViewer({ slug }: { slug: string }) {
           </div>
         )}
 
+        {/* Back to Selected Topic floating button — desktop only; on phones the
+            floating zoom pill (which has its own center control) takes its place
+            so the two never overlap. */}
+        <AnimatePresence>
+          {selectedId && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 20 }}
+              className="absolute bottom-6 left-1/2 z-30 hidden -translate-x-1/2 sm:block"
+            >
+              <Button
+                variant="default"
+                size="sm"
+                className="flex items-center rounded-full bg-brand-600 px-4 py-2 text-white shadow-xl shadow-brand-500/20 hover:bg-brand-700"
+                onClick={handleCenterView}
+              >
+                <Crosshair className="mr-2 h-4 w-4" /> Back to Current
+              </Button>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
         {/* legend */}
         {showLegend && <Legend onClose={() => useUiStore.getState().setShowLegend(false)} />}
 
@@ -974,16 +1119,16 @@ export function RoadmapViewer({ slug }: { slug: string }) {
           )}
           aria-hidden={!pillVisible}
         >
-          <button onClick={() => { zoomBy(0.8); showPill(); }} className="flex h-11 w-11 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Zoom out">
+          <button onClick={() => { zoomBy(0.8); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Zoom out">
             <Minus className="h-4 w-4" />
           </button>
-          <button onClick={() => { handleFit(); showPill(); }} className="flex h-11 w-11 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Fit to view">
+          <button onClick={() => { handleFit(); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Fit to view">
             <Maximize className="h-4 w-4" />
           </button>
-          <button onClick={() => { handleCenterView(); showPill(); }} className="flex h-11 w-11 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Center view">
+          <button onClick={() => { handleCenterView(); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Center view">
             <Crosshair className="h-4 w-4" />
           </button>
-          <button onClick={() => { zoomBy(1.25); showPill(); }} className="flex h-11 w-11 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Zoom in">
+          <button onClick={() => { zoomBy(1.25); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Zoom in">
             <Plus className="h-4 w-4" />
           </button>
           <button
@@ -991,7 +1136,7 @@ export function RoadmapViewer({ slug }: { slug: string }) {
               setSelectedId(null);
               showPill();
             }}
-            className="flex h-11 w-11 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700"
+            className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700"
             aria-label="Close selection"
           >
             <X className="h-4 w-4" />
@@ -1020,7 +1165,6 @@ export function RoadmapViewer({ slug }: { slug: string }) {
           onClose={() => setSelectedId(null)}
           onNavigate={navigateFromSidebar}
           onMarkSubtree={() => handleMarkSubtree(selectedNode)}
-          onStartLearning={handleStartLearning}
         />
       )}
 
@@ -1028,9 +1172,19 @@ export function RoadmapViewer({ slug }: { slug: string }) {
         <StudyPlannerDialog
           slug={slug}
           roadmap={roadmap}
+          roadmapList={roadmapList}
           onClose={() => setPlannerOpen(false)}
         />
       )}
+
+      <OnboardingTour
+        open={tourOpen}
+        onClose={closeTour}
+        title={roadmap.meta.title}
+        icon={roadmap.meta.icon}
+        isMobile={isMobile}
+        topicCount={learnableIds.length}
+      />
     </div>
   );
 }

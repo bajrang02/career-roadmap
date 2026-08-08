@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { useEffect } from "react";
+import { MotionConfig } from "framer-motion";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "./theme-provider";
 import { useThemeStore } from "@/lib/stores/theme-store";
@@ -10,6 +10,7 @@ import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useSettingsStore } from "@/lib/stores/settings-store";
 import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
 import { useChoicesStore } from "@/lib/stores/choices-store";
+import { migrateLegacyNotes } from "@/lib/stores/notes-store";
 
 // Every persisted zustand store is created with `skipHydration: true`, so its
 // initial state (the defaults) is what both the server and the client's first
@@ -26,19 +27,6 @@ const PERSISTED_STORES = [
 ] as const;
 
 export function Providers({ children }: { children: React.ReactNode }) {
-  const [queryClient] = useState(
-    () =>
-      new QueryClient({
-        defaultOptions: {
-          queries: {
-            staleTime: 1000 * 60 * 5,
-            retry: 1,
-            refetchOnWindowFocus: false,
-          },
-        },
-      })
-  );
-
   useEffect(() => {
     // Rehydrate persisted stores only after the browser has mounted, so the
     // first client render matches the server render exactly (no hydration
@@ -46,13 +34,18 @@ export function Providers({ children }: { children: React.ReactNode }) {
     for (const store of PERSISTED_STORES) {
       store.persist.rehydrate();
     }
+    // Fold the pre-notes-store bookmarks notes into the notes store (once) so
+    // existing users don't lose notes written before the migration.
+    migrateLegacyNotes();
   }, []);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider delayDuration={120}>
+    <TooltipProvider delayDuration={120}>
+      {/* framer-motion runs JS-driven animations the CSS reduced-motion rule
+          can't reach — MotionConfig turns them off for users who ask */}
+      <MotionConfig reducedMotion="user">
         <ThemeProvider>{children}</ThemeProvider>
-      </TooltipProvider>
-    </QueryClientProvider>
+      </MotionConfig>
+    </TooltipProvider>
   );
 }

@@ -4,10 +4,18 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, Command, CornerDownLeft, Search, Sparkles } from "lucide-react";
-import { useQuery } from "@tanstack/react-query";
 import { getSearchIndex } from "@/lib/data-loader";
 import { cn, scoreMatch } from "@/lib/utils";
 import type { SearchEntry } from "@/lib/types";
+
+// The search index is ~700 KB — loading it on every page (as before) wasted
+// bandwidth on the critical path for a dialog most users never open. It's now
+// fetched once, lazily, the first time the dialog opens (module-level cache).
+let indexPromise: Promise<SearchEntry[]> | null = null;
+function loadSearchIndex() {
+  if (!indexPromise) indexPromise = getSearchIndex();
+  return indexPromise;
+}
 
 export function SearchCommand() {
   const router = useRouter();
@@ -16,17 +24,21 @@ export function SearchCommand() {
   const [active, setActive] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const { data: index } = useQuery({
-    queryKey: ["search-index"],
-    queryFn: getSearchIndex,
-    staleTime: Infinity,
-  });
+  const [index, setIndex] = useState<SearchEntry[] | null>(null);
 
   useEffect(() => {
     const onOpen = () => {
       setOpen(true);
       setQuery("");
       setActive(0);
+      // first open triggers the one-time (cached) index fetch; on failure the
+      // cache is reset so a later open can retry (never leave it permanently dead)
+      loadSearchIndex()
+        .then(setIndex)
+        .catch(() => {
+          indexPromise = null;
+          setIndex(null);
+        });
     };
     const onKey = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
@@ -121,12 +133,17 @@ export function SearchCommand() {
             </div>
 
             <div className="max-h-[46vh] overflow-y-auto p-2 nice-scroll">
-              {!query && (
+              {!index && (
+                <p className="px-3 py-8 text-center text-sm text-slate-400">
+                  Loading roadmaps…
+                </p>
+              )}
+              {index && !query && (
                 <p className="flex items-center gap-2 px-3 pb-1 pt-2 text-xs font-medium uppercase tracking-wide text-slate-400">
                   <Sparkles className="h-3 w-3" /> Popular roadmaps
                 </p>
               )}
-              {results.length === 0 && (
+              {index && results.length === 0 && (
                 <p className="px-3 py-8 text-center text-sm text-slate-400">
                   No roadmaps match “{query}”. Try “python”, “frontend”, “docker”…
                 </p>

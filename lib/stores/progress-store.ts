@@ -2,6 +2,7 @@
 
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
+import { useAchievementsStore } from "./achievements-store";
 
 export interface Completion {
   roadmap: string;
@@ -29,6 +30,9 @@ interface ProgressState {
   pctFor: (roadmap: string, learnableIds: string[]) => number;
   certificates: Certificate[];
   grantCertificate: (c: Omit<Certificate, "id">) => void;
+  exportData: () => string;
+  importData: (data: string) => void;
+  clearAll: () => void;
 }
 
 const KEY = (d: Date) => d.toISOString().slice(0, 10);
@@ -46,6 +50,11 @@ export const useProgressStore = create<ProgressState>()(
         const existing = get().completed.some(
           (c) => c.roadmap === roadmap && c.nodeId === nodeId
         );
+        
+        if (!existing) {
+          useAchievementsStore.getState().recordActivity(0.5); // Add 30 mins for completing a node
+        }
+
         set({
           completed: existing
             ? get().completed.filter((c) => !(c.roadmap === roadmap && c.nodeId === nodeId))
@@ -53,6 +62,12 @@ export const useProgressStore = create<ProgressState>()(
         });
       },
       completeSubtree: (roadmap, nodeId, nodeLabel, ids) => {
+        // `ids` is the authoritative list of nodes to (un)mark — callers pass
+        // ONLY learnable/checkable ids, so container nodes (sections, choice…)
+        // can never be recorded as completed. `nodeId` is kept for the
+        // signature/title but is deliberately NOT added to the set: it may be
+        // a container whose id must stay out of `completed`.
+        void nodeId;
         const current = new Set(
           get().completed.filter((c) => c.roadmap === roadmap).map((c) => c.nodeId)
         );
@@ -63,18 +78,17 @@ export const useProgressStore = create<ProgressState>()(
           if (anyMissing) add.add(id);
           else remove.add(id);
         }
-        // always include the toggled node
-        if (anyMissing) {
-          add.add(nodeId);
-        } else {
-          remove.add(nodeId);
-        }
         const additions: Completion[] = Array.from(add).map((id) => ({
           roadmap,
           nodeId: id,
           nodeLabel,
           at: Date.now(),
         }));
+        
+        if (anyMissing) {
+          useAchievementsStore.getState().recordActivity(additions.length * 0.25); // Add time for multiple completions
+        }
+
         set({
           completed: [
             ...get().completed.filter(
@@ -97,6 +111,21 @@ export const useProgressStore = create<ProgressState>()(
         set({
           certificates: [...get().certificates, { ...c, id: Math.random().toString(36).slice(2) }],
         }),
+      exportData: () => JSON.stringify({ completed: get().completed, certificates: get().certificates }),
+      importData: (data: string) => {
+        try {
+          const parsed = JSON.parse(data);
+          if (typeof parsed === "object" && parsed !== null) {
+            set({
+              completed: parsed.completed || [],
+              certificates: parsed.certificates || [],
+            });
+          }
+        } catch (e) {
+          console.error("Failed to import progress", e);
+        }
+      },
+      clearAll: () => set({ completed: [], certificates: [] }),
     }),
     { name: "cr-progress", skipHydration: true }
   )

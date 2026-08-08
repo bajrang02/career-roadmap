@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
-import { IT_COUNT, NON_IT_COUNT, SKILL_COUNT } from "@/lib/data-loader";
+import { IT_COUNT, NON_IT_COUNT, SKILL_COUNT } from "@/lib/data-catalog";
 
 const TOTAL_CAREERS = IT_COUNT + NON_IT_COUNT;
 const TOTAL_ROADMAPS = TOTAL_CAREERS + SKILL_COUNT;
@@ -10,6 +10,7 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { Toaster } from "@/components/ui/toast";
 import { SearchCommand } from "@/components/layout/search-command";
+import { AchievementNotifier } from "@/components/achievements/achievement-notifier";
 
 const display = Space_Grotesk({
   subsets: ["latin"],
@@ -83,6 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
           <SearchCommand />
           <Toaster />
+          <AchievementNotifier />
         </Providers>
       </body>
     </html>

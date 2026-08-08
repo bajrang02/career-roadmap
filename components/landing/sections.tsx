@@ -14,11 +14,21 @@ import {
   TrendingUp,
   Zap,
 } from "lucide-react";
-import { NODE_TYPE_META } from "@/lib/utils";
-import { roadmapIndex, listRoadmaps, CAREER_DOMAINS, IT_COUNT, NON_IT_COUNT, SKILL_COUNT, SKILL_CATEGORIES } from "@/lib/data-loader";
-import { formatDate } from "@/lib/utils";
-import type { RoadmapIndexEntry } from "@/lib/types";
+import { NODE_TYPE_META, formatDate } from "@/lib/utils";
+import type { RoadmapIndexEntry, SkillCategoryMeta } from "@/lib/types";
 import { CareerCard } from "@/components/careers/career-card";
+
+// All catalog data is computed server-side (app/page.tsx) and passed down so
+// the 150 KB index JSON never ships to the client bundle.
+export interface HomeCatalog {
+  careers: number;
+  skills: number;
+  domains: SkillCategoryMeta[];
+  skillCategories: SkillCategoryMeta[];
+  featured: (RoadmapIndexEntry & { slug: string })[];
+  recent: (RoadmapIndexEntry & { slug: string })[];
+  lastUpdated: string;
+}
 
 const fadeUp = {
   hidden: { opacity: 0, y: 18 },
@@ -69,16 +79,16 @@ export function NodeLegend() {
 }
 
 // ── Categories (career domains) ─────────────────────────────────────────────
-export function Categories() {
+export function Categories({ catalog }: { catalog: HomeCatalog }) {
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
       <SectionHeading
         eyebrow="Browse by domain"
-        title={`${IT_COUNT + NON_IT_COUNT} technical careers, organized`}
+        title={`${catalog.careers} technical careers, organized`}
         desc="Every career grouped by the work you'll actually do — software, AI, security, cloud, engineering and more."
       />
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {CAREER_DOMAINS.map((c, i) => (
+        {catalog.domains.map((c, i) => (
           <motion.div
             key={c.id}
             initial={{ opacity: 0, y: 14 }}
@@ -111,22 +121,8 @@ export function Categories() {
 }
 
 // ── Featured roadmaps ────────────────────────────────────────────────────────
-const FEATURED = [
-  "frontend-developer",
-  "full-stack-developer",
-  "ai-engineer",
-  "data-scientist",
-  "devops-engineer",
-  "cybersecurity-analyst",
-  "python",
-  "react",
-];
-
-export function FeaturedRoadmaps() {
-  const entries = FEATURED.map((slug) => ({
-    slug,
-    ...(roadmapIndex.roadmaps[slug] as RoadmapIndexEntry),
-  })).filter(Boolean);
+export function FeaturedRoadmaps({ catalog }: { catalog: HomeCatalog }) {
+  const entries = catalog.featured;
 
   return (
     <section className="bg-slate-50/60 py-16 dark:bg-slate-950/50">
@@ -164,14 +160,14 @@ export function FeaturedRoadmaps() {
 }
 
 // ── Skill categories ─────────────────────────────────────────────────────────
-export function SkillCategories() {
+export function SkillCategories({ catalog }: { catalog: HomeCatalog }) {
   return (
     <section className="border-y border-slate-100 bg-slate-50/60 py-16 dark:border-slate-800 dark:bg-slate-950/50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <SectionHeading
             eyebrow="Skill roadmaps"
-            title={`${SKILL_COUNT} skills, one clear path each`}
+            title={`${catalog.skills} skills, one clear path each`}
             desc="Browse by category — from programming languages and databases to design tools and engineering software."
             align="left"
           />
@@ -183,7 +179,7 @@ export function SkillCategories() {
           </Link>
         </div>
         <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {SKILL_CATEGORIES.map((cat, i) => (
+          {catalog.skillCategories.map((cat, i) => (
             <motion.div
               key={cat.id}
               initial={{ opacity: 0, y: 14 }}
@@ -217,28 +213,27 @@ export function SkillCategories() {
 }
 
 // ── How it works ─────────────────────────────────────────────────────────────
-const STEPS = [
-  {
-    icon: Search,
-    title: "Pick a career or skill",
-    desc: `Search ${IT_COUNT + NON_IT_COUNT} careers and ${SKILL_COUNT} skills, then open the interactive roadmap.`,
-    color: "bg-brand-50 text-brand-600 dark:bg-brand-950/60 dark:text-brand-400",
-  },
-  {
-    icon: Map,
-    title: "Follow the map",
-    desc: "Expand nodes in the correct order. Every topic has resources, projects and practice.",
-    color: "bg-amber-50 text-amber-600 dark:bg-amber-950/60 dark:text-amber-400",
-  },
-  {
-    icon: TrendingUp,
-    title: "Track & certify",
-    desc: "Mark topics complete, keep your streak, and earn a certificate when you finish.",
-    color: "bg-emerald-50 text-emerald-600 dark:bg-emerald-950/60 dark:text-emerald-400",
-  },
-];
-
-export function HowItWorks() {
+export function HowItWorks({ catalog }: { catalog: HomeCatalog }) {
+  const steps = [
+    {
+      icon: Search,
+      title: "Pick a career or skill",
+      desc: `Search ${catalog.careers} careers and ${catalog.skills} skills, then open the interactive roadmap.`,
+      color: "bg-brand-50 text-brand-600 dark:bg-brand-950/60 dark:text-brand-400",
+    },
+    {
+      icon: Map,
+      title: "Follow the map",
+      desc: "Expand nodes in the correct order. Every topic has resources, projects and practice.",
+      color: "bg-amber-50 text-amber-600 dark:bg-amber-950/60 dark:text-amber-400",
+    },
+    {
+      icon: TrendingUp,
+      title: "Track & certify",
+      desc: "Mark topics complete, keep your streak, and earn a certificate when you finish.",
+      color: "bg-emerald-50 text-emerald-600 dark:bg-emerald-950/60 dark:text-emerald-400",
+    },
+  ];
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
       <SectionHeading
@@ -247,7 +242,7 @@ export function HowItWorks() {
         desc="No random tutorials. No wasted weeks. Just the right skills, in the right order."
       />
       <div className="mt-10 grid gap-6 md:grid-cols-3">
-        {STEPS.map((s, i) => (
+        {steps.map((s, i) => (
           <motion.div
             key={s.title}
             custom={i}
@@ -320,14 +315,14 @@ export function Features() {
 }
 
 // ── Recently updated ─────────────────────────────────────────────────────────
-export function RecentlyUpdated() {
-  const entries = listRoadmaps().slice(0, 8);
+export function RecentlyUpdated({ catalog }: { catalog: HomeCatalog }) {
+  const entries = catalog.recent;
   return (
     <section className="border-y border-border-light bg-slate-50/60 py-16 dark:border-border-dark dark:bg-slate-950/50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <SectionHeading
-            eyebrow={`Fresh content · last updated ${formatDate(roadmapIndex.lastUpdated)}`}
+            eyebrow={`Fresh content · last updated ${formatDate(catalog.lastUpdated)}`}
             title="Recently updated roadmaps"
             desc="Kept current with the tools and skills employers actually use."
             align="left"

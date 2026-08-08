@@ -23,6 +23,8 @@ export interface NodeCardProps {
   dimmed: boolean;
   /** gentle fade when another node is selected (everything off the learning path) */
   faded: boolean;
+  /** explicit opacity computed by the layout engine for focus mode */
+  nodeOpacity?: number;
   /** light-blue ring for the most recently visited node (context memory) */
   recent: boolean;
   completed: boolean;
@@ -39,6 +41,8 @@ export interface NodeCardProps {
   learnableCount: number;
   /** full node payload — description, difficulty, time, resources, projects */
   data: RoadmapNode;
+  parentId?: string;
+  isChosenOption?: boolean;
   onSelect: (id: string) => void;
   onToggle: (id: string) => void;
   onHover: (id: string | null) => void;

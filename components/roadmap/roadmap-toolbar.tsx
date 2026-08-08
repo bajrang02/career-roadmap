@@ -1,5 +1,6 @@
 "use client";
 
+import { memo } from "react";
 import Link from "next/link";
 import {
   Bookmark,
@@ -9,6 +10,7 @@ import {
   Copy,
   Crosshair,
   Focus,
+  HelpCircle,
   Home,
   Layers,
   Maximize,
@@ -21,6 +23,7 @@ import {
   Search,
   Sun,
   X,
+  Flame,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -35,6 +38,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useUiStore } from "@/lib/stores/ui-store";
 import { useThemeStore, applyTheme } from "@/lib/stores/theme-store";
+import { useAchievementsStore } from "@/lib/stores/achievements-store";
 import { cn } from "@/lib/utils";
 import type { RoadmapNode } from "@/lib/types";
 
@@ -65,6 +69,8 @@ interface ToolbarProps {
   onToggleSearch: () => void;
   searchQuery: string;
   onSearchQuery: (q: string) => void;
+  /** jump to the next search match (Enter in the search box) */
+  onSearchNext: () => void;
   bookmarked: boolean;
   onToggleBookmark: () => void;
   onBreadcrumbClick: (id: string) => void;
@@ -74,19 +80,25 @@ interface ToolbarProps {
   onOpenPlanner: () => void;
   /** percent complete of the saved study plan, or null when none exists */
   planProgress: number | null;
+  onRandomTopic?: () => void;
+  /** reopens the first-visit getting-started tour */
+  onShowTour?: () => void;
 }
 
-export function RoadmapToolbar(props: ToolbarProps) {
+export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) {
   const toast = useUiStore((s) => s.toast);
   const theme = useThemeStore((s) => s.theme);
+  const streakDays = useAchievementsStore((s) => s.streakDays);
   const {
     slug, title, icon, breadcrumbs, pct, onExpandAll, onCollapseAll, onReset, onFit,
     onZoomIn, onZoomOut, onZoomSlider, onCenterView, zoom, zoomLabel, focusMode, onToggleFocus,
     onToggleMinimap, onToggleLegend,
-    showMinimap, showLegend, searchOpen, onToggleSearch, searchQuery, onSearchQuery,
+    showMinimap, showLegend, searchOpen, onToggleSearch, searchQuery, onSearchQuery, onSearchNext,
     bookmarked, onToggleBookmark, onBreadcrumbClick,
     isFullscreen, onToggleFullscreen,
     onOpenPlanner, planProgress,
+    onRandomTopic,
+    onShowTour,
   } = props;
 
   const copyLink = async () => {
@@ -141,6 +153,16 @@ export function RoadmapToolbar(props: ToolbarProps) {
         </TooltipTrigger>
         <TooltipContent>Fit to view</TooltipContent>
       </Tooltip>
+      {onRandomTopic && (
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Button variant="ghost" size="icon-sm" onClick={onRandomTopic} aria-label="Random Topic">
+              <RefreshCcw className="h-4 w-4" />
+            </Button>
+          </TooltipTrigger>
+          <TooltipContent>Random Topic</TooltipContent>
+        </Tooltip>
+      )}
     </>
   );
 
@@ -185,6 +207,19 @@ export function RoadmapToolbar(props: ToolbarProps) {
           <span className="font-mono text-[13px] font-medium text-slate-500 dark:text-slate-400">{pct}%</span>
         </div>
 
+        {/* Streak Display */}
+        {streakDays > 0 && (
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <div className="flex items-center gap-1 cursor-default rounded-md px-2 py-1 text-orange-500 hover:bg-orange-50 dark:hover:bg-orange-500/10">
+                <Flame className="h-4 w-4 fill-orange-500" />
+                <span className="font-mono text-xs font-bold">{streakDays}</span>
+              </div>
+            </TooltipTrigger>
+            <TooltipContent>Day Streak!</TooltipContent>
+          </Tooltip>
+        )}
+
         {/* Generate study plan — the headline action */}
         <Button
           size="sm"
@@ -214,8 +249,14 @@ export function RoadmapToolbar(props: ToolbarProps) {
               autoFocus
               value={searchQuery}
               onChange={(e) => onSearchQuery(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  onSearchNext();
+                }
+              }}
               placeholder="Find a topic…"
-              className="h-7 w-28 bg-transparent text-xs text-slate-800 placeholder:text-slate-400 focus:outline-none sm:w-40 dark:text-slate-200"
+              className="h-9 w-32 bg-transparent text-xs text-slate-800 placeholder:text-slate-400 focus:outline-none sm:w-44 dark:text-slate-200"
               aria-label="Search topics in this roadmap"
             />
             <button onClick={onToggleSearch} className="text-slate-400 hover:text-slate-600" aria-label="Close search">
@@ -274,6 +315,15 @@ export function RoadmapToolbar(props: ToolbarProps) {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="w-56">
+            {onShowTour && (
+              <>
+                <DropdownMenuLabel>Getting started</DropdownMenuLabel>
+                <DropdownMenuItem onSelect={onShowTour}>
+                  <HelpCircle className="h-4 w-4" /> How this works
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+              </>
+            )}
             <DropdownMenuLabel>View</DropdownMenuLabel>
             <DropdownMenuItem onSelect={onExpandAll}>
               <Plus className="h-4 w-4" /> Show all topics
@@ -316,4 +366,4 @@ export function RoadmapToolbar(props: ToolbarProps) {
       </div>
     </div>
   );
-}
+});

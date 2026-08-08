@@ -7,6 +7,8 @@ import { useSettingsStore } from "@/lib/stores/settings-store";
 import { useStudyPlanStore, type SavedPlan } from "@/lib/stores/study-plan-store";
 import { useProgressStore } from "@/lib/stores/progress-store";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
+import { useNotesStore, legacyNotesToRecord, type Note as StoredNote } from "@/lib/stores/notes-store";
+import { useAchievementsStore } from "@/lib/stores/achievements-store";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -36,18 +38,20 @@ export default function SettingsPage() {
   const clearAllData = () => {
     useProgressStore.setState({ completed: [], certificates: [] });
     useBookmarksStore.setState({ bookmarks: [], notes: [] });
+    useNotesStore.getState().clearAll();
+    useAchievementsStore.getState().clearAll();
     const keys = Object.keys(plans);
     for (const k of keys) clearPlan(k);
     useSettingsStore.setState({ learnerName: "" });
-    // purge the roadmap-viewer's per-roadmap viewport/collapsed/recent keys
+    // purge persisted view state + the stores that aren't zustand-reachable here
     const prefixes = ["cr-viewport:", "cr-collapsed:", "cr-recent:"];
-    const doomed: string[] = [];
+    const doomed = ["cr-notes-storage", "cr-achievements-storage", "roadmap-choices"];
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i);
       if (k && prefixes.some((p) => k.startsWith(p))) doomed.push(k);
     }
     for (const k of doomed) localStorage.removeItem(k);
-    toast("All data cleared", { description: "Your progress, bookmarks, plans and view state were reset.", kind: "info" });
+    toast("All data cleared", { description: "Your progress, bookmarks, plans, notes and view state were reset.", kind: "info" });
   };
 
   // Export every piece of local data as a portable JSON backup — the
@@ -61,8 +65,17 @@ export default function SettingsPage() {
       progress: useProgressStore.getState().completed,
       certificates: useProgressStore.getState().certificates,
       bookmarks: useBookmarksStore.getState().bookmarks,
-      notes: useBookmarksStore.getState().notes,
+      // notes are per-node in the notes store (the legacy bookmarks notes were
+      // migrated there) — export the keyed record so they round-trip cleanly
+      notes: useNotesStore.getState().notes,
       plans: useStudyPlanStore.getState().plans,
+      achievements: {
+        achievements: useAchievementsStore.getState().achievements,
+        streakDays: useAchievementsStore.getState().streakDays,
+        lastActiveDate: useAchievementsStore.getState().lastActiveDate,
+        dailyGoalHours: useAchievementsStore.getState().dailyGoalHours,
+        todayStudiedHours: useAchievementsStore.getState().todayStudiedHours,
+      },
       preferences: {
         learnerName: useSettingsStore.getState().learnerName,
         theme: useThemeStore.getState().theme,
@@ -89,6 +102,7 @@ export default function SettingsPage() {
           bookmarks?: unknown;
           notes?: unknown;
           plans?: unknown;
+          achievements?: unknown;
           preferences?: { learnerName?: string; theme?: "light" | "dark" };
         };
         if (!data || data.app !== "career-roadmaps") throw new Error("not a backup");
@@ -98,10 +112,28 @@ export default function SettingsPage() {
         });
         useBookmarksStore.setState({
           bookmarks: Array.isArray(data.bookmarks) ? data.bookmarks : [],
-          notes: Array.isArray(data.notes) ? data.notes : [],
         });
+        // notes backup: v2 is the keyed record; v1 backups carry a legacy flat
+        // array — convert it through the same mapping as the store migration
+        if (data.notes && typeof data.notes === "object") {
+          if (Array.isArray(data.notes)) {
+            useNotesStore.setState({ notes: legacyNotesToRecord(data.notes) });
+          } else {
+            useNotesStore.setState({ notes: data.notes as Record<string, StoredNote[]> });
+          }
+        }
         if (data.plans && typeof data.plans === "object") {
           useStudyPlanStore.setState({ plans: data.plans as Record<string, SavedPlan> });
+        }
+        if (data.achievements && typeof data.achievements === "object") {
+          const a = data.achievements as Record<string, unknown>;
+          useAchievementsStore.setState({
+            achievements: Array.isArray(a.achievements) ? a.achievements : [],
+            streakDays: typeof a.streakDays === "number" ? a.streakDays : 0,
+            lastActiveDate: typeof a.lastActiveDate === "string" ? a.lastActiveDate : null,
+            dailyGoalHours: typeof a.dailyGoalHours === "number" ? a.dailyGoalHours : 1,
+            todayStudiedHours: typeof a.todayStudiedHours === "number" ? a.todayStudiedHours : 0,
+          });
         }
         if (data.preferences) {
           if (typeof data.preferences.learnerName === "string") {

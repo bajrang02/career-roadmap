@@ -33,6 +33,21 @@ export interface Resource {
 export interface ProjectRef {
   title: string;
   description: string;
+  goal?: string;
+  skills?: string[];
+  duration?: string;
+  difficulty?: "Beginner" | "Intermediate" | "Advanced" | "Real-world" | "Portfolio-worthy";
+  features?: string[];
+  extensions?: string[];
+  outcomes?: string[];
+}
+
+export interface CheatSheet {
+  quickRevision?: string[];
+  importantCommands?: string[];
+  commonSyntax?: string[];
+  bestPractices?: string[];
+  usefulShortcuts?: string[];
 }
 
 export interface NodeDetails {
@@ -45,10 +60,13 @@ export interface NodeDetails {
   resources: Resource[];
   projects: ProjectRef[];
   interviewQuestions: string[];
+  exercises?: string[];
   careerRelevance: string;
   commonMistakes: string[];
   tips: string[];
   nextTopics: string[];
+  checkpoints?: string[];
+  cheatSheet?: CheatSheet;
   optional?: boolean;
 }
 
@@ -127,6 +145,13 @@ export interface CareerMeta {
   portfolioIdeas: string[];
   specializations: string[];
   examMeta: ExamMeta | null;
+  // New Career Guidance & Interview Prep
+  jobRoles?: string[];
+  responsibilities?: string[];
+  relatedCareers?: string[];
+  interviewRoadmap?: string[];
+  portfolioStructure?: string[];
+  resumeTips?: string[];
 }
 
 export interface RoadmapStats {

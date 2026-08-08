@@ -26,7 +26,8 @@ interface MindmapCanvasProps {
   edgeDimmed: (edge: LayoutResult["edges"][number]) => boolean;
   viewport: Viewport;
   onViewportChange: (v: Viewport) => void;
-  onBackgroundClick: () => void;
+  onBackgroundClick?: () => void;
+  onBackgroundDoubleClick?: () => void;
   padding?: number;
   /** change this value to force a fresh fit-to-view (e.g. mobile ↔ desktop
    *  breakpoint flip or orientation change re-lays-out with new sizes) */
@@ -60,7 +61,8 @@ export const MindmapCanvas = memo(function MindmapCanvas({
   viewport,
   onViewportChange,
   onBackgroundClick,
-  padding = 70,
+  onBackgroundDoubleClick,
+  padding = 60,
   fitKey = "",
 }: MindmapCanvasProps) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -74,13 +76,31 @@ export const MindmapCanvas = memo(function MindmapCanvas({
   // drag, not a click) — used to suppress the background-click that the
   // browser synthesizes at the end of a captured drag.
   const dragStarted = useRef(false);
+  const rafId = useRef<number | null>(null);
+
+  // Keep a stable ref of the latest viewport to avoid re-binding event listeners on every frame
+  const viewportRef = useRef(viewport);
+  useEffect(() => {
+    viewportRef.current = viewport;
+  }, [viewport]);
+
+  const scheduleViewportChange = useCallback((v: Viewport) => {
+    if (rafId.current) cancelAnimationFrame(rafId.current);
+    rafId.current = requestAnimationFrame(() => {
+      onViewportChange(v);
+      rafId.current = null;
+    });
+  }, [onViewportChange]);
 
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
     const ro = new ResizeObserver(() => setSize({ w: el.clientWidth, h: el.clientHeight }));
     ro.observe(el);
-    return () => ro.disconnect();
+    return () => {
+      ro.disconnect();
+      if (rafId.current) cancelAnimationFrame(rafId.current);
+    };
   }, []);
 
   const fitTo = useCallback(
@@ -90,20 +110,22 @@ export const MindmapCanvas = memo(function MindmapCanvas({
       const bw = width + padding * 2;
       const bh = height + padding * 2;
       const k = Math.min(el.clientWidth / bw, el.clientHeight / bh, 1);
-      onViewportChange({
+      scheduleViewportChange({
         x: (el.clientWidth - width * k) / 2,
         y: (el.clientHeight - height * k) / 2,
         k: Math.max(k, 0.2),
       });
     },
-    [padding, onViewportChange]
+    [padding, scheduleViewportChange]
   );
 
-  // fit once per layout (reset when the layout changes size class so
-  // breakpoint/orientation changes re-fit instead of keeping a stale view)
+  // fit once on mount, and again whenever the layout's size class changes
+  // (mobile ↔ desktop breakpoint flip, orientation change). The viewer bumps
+  // fitKey exactly when compact/desktop sizing switches.
   useEffect(() => {
     hasFitted.current = false;
-  }, [fitKey, layout.width, layout.height]);
+  }, [fitKey]);
+
   useEffect(() => {
     if (hasFitted.current || !size.w) return;
     hasFitted.current = true;
@@ -112,15 +134,16 @@ export const MindmapCanvas = memo(function MindmapCanvas({
 
   const applyZoomAt = useCallback(
     (mx: number, my: number, factor: number) => {
-      const k = Math.min(MAX_K, Math.max(MIN_K, viewport.k * factor));
-      const ratio = k / viewport.k;
-      onViewportChange({
-        x: mx - (mx - viewport.x) * ratio,
-        y: my - (my - viewport.y) * ratio,
+      const v = viewportRef.current;
+      const k = Math.min(MAX_K, Math.max(MIN_K, v.k * factor));
+      const ratio = k / v.k;
+      scheduleViewportChange({
+        x: mx - (mx - v.x) * ratio,
+        y: my - (my - v.y) * ratio,
         k,
       });
     },
-    [viewport, onViewportChange]
+    [scheduleViewportChange]
   );
 
   // non-passive wheel listener so we can preventDefault reliably
@@ -151,9 +174,9 @@ export const MindmapCanvas = memo(function MindmapCanvas({
         // pinch — a second finger is down, capture both and pan/zoom now
         const mid = { x: (pts[0].x + pts[1].x) / 2, y: (pts[0].y + pts[1].y) / 2 };
         gesture.current = {
-          x: viewport.x,
-          y: viewport.y,
-          k: viewport.k,
+          x: viewportRef.current.x,
+          y: viewportRef.current.y,
+          k: viewportRef.current.k,
           startClientX: e.clientX,
           startClientY: e.clientY,
           startDist: Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) || 1,
@@ -168,9 +191,9 @@ export const MindmapCanvas = memo(function MindmapCanvas({
         // pointerdown would make every click on a node/button fall through to
         // the background. Capture only once real movement is detected below.
         gesture.current = {
-          x: viewport.x,
-          y: viewport.y,
-          k: viewport.k,
+          x: viewportRef.current.x,
+          y: viewportRef.current.y,
+          k: viewportRef.current.k,
           startClientX: e.clientX,
           startClientY: e.clientY,
           startDist: 1,
@@ -178,7 +201,7 @@ export const MindmapCanvas = memo(function MindmapCanvas({
         };
       }
     },
-    [viewport]
+    []
   );
 
   const onPointerMove = useCallback(
@@ -194,7 +217,7 @@ export const MindmapCanvas = memo(function MindmapCanvas({
         const dist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) || 1;
         const k = Math.min(MAX_K, Math.max(MIN_K, g.k * (dist / g.startDist)));
         const ratio = k / g.k;
-        onViewportChange({
+        scheduleViewportChange({
           x: curMid.x - (g.startMid.x - g.x) * ratio,
           y: curMid.y - (g.startMid.y - g.y) * ratio,
           k,
@@ -212,10 +235,10 @@ export const MindmapCanvas = memo(function MindmapCanvas({
         containerRef.current?.setPointerCapture(e.pointerId);
       }
       if (dragStarted.current) {
-        onViewportChange({ x: g.x + dx, y: g.y + dy, k: g.k });
+        scheduleViewportChange({ x: g.x + dx, y: g.y + dy, k: g.k });
       }
     },
-    [onViewportChange]
+    [scheduleViewportChange]
   );
 
   const endPointer = useCallback(
@@ -226,9 +249,9 @@ export const MindmapCanvas = memo(function MindmapCanvas({
         const first = pointers.current.values().next().value;
         if (first) {
           gesture.current = {
-            x: viewport.x,
-            y: viewport.y,
-            k: viewport.k,
+            x: viewportRef.current.x,
+            y: viewportRef.current.y,
+            k: viewportRef.current.k,
             startClientX: first.x,
             startClientY: first.y,
             startDist: 1,
@@ -238,18 +261,22 @@ export const MindmapCanvas = memo(function MindmapCanvas({
       }
       if (pointers.current.size === 0) setIsPanning(false);
     },
-    [viewport]
+    []
   );
 
   const onDoubleClick = useCallback(
     (e: React.MouseEvent) => {
       if ((e.target as HTMLElement).dataset?.canvasBg) {
-        const rect = containerRef.current?.getBoundingClientRect();
-        if (!rect) return;
-        applyZoomAt(e.clientX - rect.left, e.clientY - rect.top, ZOOM_STEP);
+        if (onBackgroundDoubleClick) {
+          onBackgroundDoubleClick();
+        } else {
+          const rect = containerRef.current?.getBoundingClientRect();
+          if (!rect) return;
+          applyZoomAt(e.clientX - rect.left, e.clientY - rect.top, ZOOM_STEP);
+        }
       }
     },
-    [applyZoomAt]
+    [applyZoomAt, onBackgroundDoubleClick]
   );
 
   // viewport culling (virtual rendering — only mount nodes/edges near the viewport)
@@ -271,7 +298,7 @@ export const MindmapCanvas = memo(function MindmapCanvas({
   const visibleNodes = useMemo(() => layout.nodes.filter((n) => visible.has(n.id)), [layout.nodes, visible]);
 
   const visibleEdges = useMemo(
-    () => layout.edges.filter((e) => visible.has(e.target.id) && visible.has(e.source.id)),
+    () => layout.edges.filter((e) => visible.has(e.target.id) || visible.has(e.source.id)),
     [layout.edges, visible]
   );
 
@@ -304,14 +331,14 @@ export const MindmapCanvas = memo(function MindmapCanvas({
           dragStarted.current = false;
           return;
         }
-        if ((e.target as HTMLElement).dataset?.canvasBg) onBackgroundClick();
+        if ((e.target as HTMLElement).dataset?.canvasBg) onBackgroundClick?.();
       }}
       data-canvas-bg="true"
     >
       <div
         className="absolute top-0 left-0 will-change-transform"
         data-canvas-bg="true"
-        style={{ transform: `translate(${viewport.x}px, ${viewport.y}px) scale(${viewport.k})` }}
+        style={{ transform: `translate3d(${viewport.x}px, ${viewport.y}px, 0) scale(${viewport.k})` }}
       >
         {/* edges layer */}
         <svg

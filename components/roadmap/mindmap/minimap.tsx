@@ -1,10 +1,10 @@
 "use client";
 
-import { useMemo, useRef } from "react";
+import { useMemo, useRef, memo } from "react";
 import type { LayoutResult } from "@/lib/mindmap/tree-layout";
 import type { Viewport } from "./mindmap-canvas";
 
-export function Minimap({
+export const Minimap = memo(function Minimap({
   layout,
   viewport,
   containerSize,
@@ -122,4 +122,4 @@ export function Minimap({
       </span>
     </div>
   );
-}
+});

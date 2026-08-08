@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Github, Twitter, Youtube } from "lucide-react";
-import { IT_COUNT, NON_IT_COUNT, SKILL_COUNT, TOTAL_TOPICS } from "@/lib/data-loader";
+import { IT_COUNT, NON_IT_COUNT, SKILL_COUNT, TOTAL_TOPICS } from "@/lib/data-catalog";
 
 const TOTAL = IT_COUNT + NON_IT_COUNT + SKILL_COUNT;
 

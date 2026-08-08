@@ -2,8 +2,8 @@
 
 import { memo } from "react";
 import { motion } from "framer-motion";
-import { cn, nodeMeta, typeEmoji } from "@/lib/utils";
-import { CompletionCheckbox, ExpandIndicator, OverviewButton } from "./node-buttons";
+import { cn, nodeMeta, typeEmoji, isCheckableType } from "@/lib/utils";
+import { CompletionCheckbox, ExpandIndicator, OverviewButton, ChangeOptionButton } from "./node-buttons";
 import type { NodeAction, NodeCardProps } from "./types";
 import { useChoicesStore } from "@/lib/stores/choices-store";
 import { useShallow } from "zustand/react/shallow";
@@ -49,6 +49,7 @@ function NodeCardInner(props: NodeCardProps) {
     onHover,
     onAction,
     data,
+    nodeOpacity = 1,
   } = props;
 
   const { choices, setChoice, clearChoice } = useChoicesStore(
@@ -62,12 +63,16 @@ function NodeCardInner(props: NodeCardProps) {
   const choiceId = choices[id];
   const isChoice = type === "choice";
   const isUnselectedChoice = isChoice && !choiceId;
+  const isChosenOption = !!props.isChosenOption;
 
   const meta = nodeMeta(type);
   const emoji = typeEmoji(type);
   // terminal labels (e.g. "🎓 Career Ready") sometimes already carry the type
   // emoji — don't render a duplicate chip in front of it.
   const hasLabelEmoji = label.trimStart().startsWith(emoji);
+  // sections / choice containers have no completion state — only checkable
+  // nodes get the ✓ button (their subtree is marked from the details panel)
+  const checkable = isCheckableType(type);
 
   // thin completion bar only for in-progress subtrees (never on empty or done)
   const showProgress = pct > 0 && pct < 100 && learnableCount > 1;
@@ -87,31 +92,34 @@ function NodeCardInner(props: NodeCardProps) {
       <motion.div
         initial={mountAnimated ? { opacity: 0, scale: 0.94 } : false}
         animate={{
-          opacity: dimmed ? 0.25 : faded ? 0.65 : 1,
-          scale: scale * (selected ? 1.02 : 1),
+          opacity: dimmed ? 0.25 : faded ? nodeOpacity : 1,
+          scale: scale * (selected ? 1.08 : 1),
         }}
         exit={{ opacity: 0, scale: 0.94, transition: { duration: 0.15 } }}
-        transition={{ duration: 0.2, ease: "easeOut" }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
         className="h-full w-full"
       >
         <div
           role="button"
-          tabIndex={focused ? 0 : -1}
+          tabIndex={focused || selected ? 0 : -1}
           aria-label={`${label} (${meta.label}${completed ? ", completed" : ""}${recent ? ", recently visited" : ""})`}
+          aria-haspopup={hasChildren ? undefined : "dialog"}
           aria-expanded={hasChildren ? !collapsed : undefined}
           onClick={(e) => {
             e.stopPropagation();
-            if (isUnselectedChoice) return;
-            if (hasChildren) {
-              onToggle(id);
-            }
+            // primary action: expand/collapse this branch — the details
+            // panel opens deliberately via the Overview button (or Enter).
+            // Leaf nodes have nothing to expand, so clicking them opens
+            // their overview instead of doing nothing.
+            if (hasChildren) onToggle(id);
+            else onSelect(id);
           }}
           onMouseEnter={() => onHover(id)}
           onMouseLeave={() => onHover(null)}
           className={cn(
-            "relative w-full overflow-hidden rounded-[11px] border text-left transition-[transform,filter,border-color,opacity] duration-150",
-            isUnselectedChoice ? "flex flex-col py-1.5 px-2 cursor-default" : "flex h-full items-center gap-1.5 px-2.5 cursor-pointer",
-            !isUnselectedChoice && "hover:-translate-y-[1px] hover:shadow-nodehover",
+            "relative w-full overflow-hidden rounded-[14px] border text-left transition-[transform,filter,border-color,opacity,box-shadow] duration-300 ease-in-out",
+            isUnselectedChoice ? "flex flex-col py-1.5 px-2 cursor-default" : "flex h-full items-center gap-2 sm:gap-1.5 px-3 sm:px-2.5 cursor-pointer",
+            !isUnselectedChoice && "hover:-translate-y-[2px] hover:shadow-nodehover",
             meta.card,
             locked && "opacity-55 saturate-50",
             completed &&
@@ -119,7 +127,7 @@ function NodeCardInner(props: NodeCardProps) {
               type !== "achievement" &&
               "border-emerald-500/70 shadow-[0_0_0_1px_rgba(16,185,129,.18),0_6px_14px_-10px_rgba(16,185,129,.45)]",
             selected &&
-              "border-brand-500 bg-white dark:bg-slate-800 ring-2 ring-brand-500/60 shadow-[0_0_20px_rgba(59,130,246,0.3)] z-20",
+              "border-brand-500 bg-white dark:bg-slate-800 ring-2 ring-brand-500/70 shadow-[0_0_0_1px_rgba(59,130,246,.25),0_10px_28px_-8px_rgba(37,99,235,.45)] z-20",
             focused && !selected && "ring-1 ring-brand-400/30",
             recent && !focused && !selected && "ring-1 ring-sky-300/50 dark:ring-sky-500/30",
             searchHit && "ring-2 ring-amber-400/70",
@@ -127,7 +135,7 @@ function NodeCardInner(props: NodeCardProps) {
           )}
         >
           {/* Main Content Row */}
-          <div className={cn("flex w-full items-center gap-1.5 shrink-0", isUnselectedChoice ? "h-9" : "h-full")}>
+          <div className={cn("flex w-full items-center gap-2 sm:gap-1.5 shrink-0 flex-wrap sm:flex-nowrap", isUnselectedChoice ? "h-9" : "h-full py-2 sm:py-0")}>
 
           {/* left accent bar — a thin colored spine encoding node type */}
           <span
@@ -137,18 +145,18 @@ function NodeCardInner(props: NodeCardProps) {
 
           {/* type emoji */}
           {!hasLabelEmoji && (
-            <span aria-hidden="true" className={cn("flex shrink-0 items-center justify-center rounded-lg leading-none", selected ? "h-7 w-7 text-[15px]" : "h-6 w-6 text-[13px]", meta.chip)}>
+            <span aria-hidden="true" className={cn("flex shrink-0 items-center justify-center rounded-lg leading-none", selected ? "h-10 w-10 sm:h-7 sm:w-7 text-[22px] sm:text-[15px]" : "h-9 w-9 sm:h-6 sm:w-6 text-[20px] sm:text-[13px]", meta.chip)}>
               {emoji}
             </span>
           )}
 
-          {/* title — single line, truncates; the full label is one click away */}
+          {/* title — multi-line text wrap on mobile, truncate on desktop */}
           <span
             title={label}
             className={cn(
-              "min-w-0 flex-1 truncate leading-[1.2]",
+              "min-w-0 flex-1 leading-[1.3] line-clamp-2 break-words sm:truncate sm:line-clamp-none text-[16px] sm:text-[14px]",
               meta.titleSize,
-              selected ? "font-bold" : "font-semibold",
+              selected ? "font-bold text-[17px] sm:text-[14px]" : "font-semibold",
               meta.text
             )}
           >
@@ -162,17 +170,35 @@ function NodeCardInner(props: NodeCardProps) {
             </span>
           )}
 
-          {/* completion status */}
-          <CompletionCheckbox completed={completed} label={label} id={id} onAction={onAction} className="h-4 w-4 shrink-0" />
+          {/* Actions group - forced to shrink/wrap together on tiny screens */}
+          <div className="flex items-center gap-1.5 shrink-0 ml-auto">
+            {/* completion status — containers don't get a checkbox */}
+            {checkable && (
+              <CompletionCheckbox completed={completed} label={label} id={id} onAction={onAction} className="h-6 w-6 sm:h-4 sm:w-4 shrink-0" />
+            )}
 
-          {/* Overview button */}
-          <OverviewButton label={label} onOpen={() => onSelect(id)} className="h-6 w-6 shrink-0 ml-1" />
+            {/* Overview button */}
+            <OverviewButton label={label} onOpen={() => onSelect(id)} className="h-7 w-7 sm:h-6 sm:w-6 shrink-0 sm:ml-1" />
 
-          {/* expand chevron — right side, ▶ → ▼ */}
-          {!isUnselectedChoice && hasChildren ? (
-            <ExpandIndicator collapsed={collapsed} className="h-5 w-5 shrink-0" />
-          ) : (
-            !isUnselectedChoice && !isChoice && <span className="w-5 shrink-0" aria-hidden="true" />
+            {/* expand chevron — right side, ▶ → ▼ (a real button now, with a
+                ≥44px hit area via the ::after expansion in node-buttons) */}
+            {!isUnselectedChoice && hasChildren ? (
+              <ExpandIndicator
+                collapsed={collapsed}
+                label={label}
+                onAction={() => onToggle(id)}
+                className="h-7 w-7 sm:h-5 sm:w-5 shrink-0"
+              />
+            ) : (
+              !isUnselectedChoice && !isChoice && <span className="w-7 sm:w-5 shrink-0" aria-hidden="true" />
+            )}
+          </div>
+
+          {isChosenOption && props.parentId && (
+            <ChangeOptionButton
+              onAction={() => clearChoice(props.parentId!)}
+              className="h-6 w-6 shrink-0"
+            />
           )}
 
           {isChoice && choiceId && (
@@ -196,7 +222,6 @@ function NodeCardInner(props: NodeCardProps) {
                   onClick={(e) => {
                     e.stopPropagation();
                     setChoice(id, opt.id);
-                    onSelect(id);
                   }}
                   className="group relative flex w-full items-center gap-2 rounded-md border border-slate-200 bg-white/60 px-2 py-1.5 text-left transition-colors hover:bg-white hover:shadow-sm dark:border-slate-700/50 dark:bg-slate-800/40 dark:hover:bg-slate-800"
                 >

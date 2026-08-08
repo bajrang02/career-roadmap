@@ -5,8 +5,16 @@ import { ArrowRight, Search, TrendingUp } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { IT_COUNT, NON_IT_COUNT, SKILL_COUNT, TOTAL_TOPICS } from "@/lib/data-loader";
 import { cn } from "@/lib/utils";
+
+// Static stats are computed server-side (app/page.tsx) and passed down so the
+// 150 KB catalog index never ships to the client bundle.
+export interface HeroStats {
+  careers: number;
+  skills: number;
+  roadmaps: number;
+  topics: number;
+}
 
 function HeroMindmap() {
   const reduced = useReducedMotion();
@@ -126,12 +134,12 @@ function HeroMindmap() {
   );
 }
 
-export function Hero() {
+export function Hero({ stats }: { stats: HeroStats }) {
   const router = useRouter();
   const [q, setQ] = useState("");
   const suggestions = ["Full Stack Developer", "AI Engineer", "Cybersecurity Analyst", "Cloud Engineer"];
-  const totalCareers = IT_COUNT + NON_IT_COUNT;
-  const totalRoadmaps = totalCareers + SKILL_COUNT;
+  const totalCareers = stats.careers;
+  const totalRoadmaps = stats.roadmaps;
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -190,7 +198,7 @@ export function Hero() {
             transition={{ duration: 0.45, delay: 0.12 }}
             className="mt-5 max-w-lg text-pretty text-base text-slate-500 sm:text-lg dark:text-slate-400"
           >
-            Step-by-step roadmaps for {totalCareers} careers and {SKILL_COUNT} individual skills —
+            Step-by-step roadmaps for {totalCareers} careers and {stats.skills} individual skills —
             languages, frameworks, tools and platforms. Learn every topic in the right order with
             curated resources, projects, interview prep and progress tracking.
           </motion.p>
@@ -244,8 +252,8 @@ export function Hero() {
           >
             {[
               { v: `${totalRoadmaps}`, l: "Roadmaps" },
-              { v: `${SKILL_COUNT}`, l: "Skill roadmaps" },
-              { v: `${(TOTAL_TOPICS / 1000).toFixed(1)}k+`, l: "Learning topics" },
+              { v: `${stats.skills}`, l: "Skill roadmaps" },
+              { v: `${(stats.topics / 1000).toFixed(1)}k+`, l: "Learning topics" },
             ].map((s) => (
               <div key={s.l}>
                 <dt className="order-last mt-1 text-xs text-slate-400">{s.l}</dt>

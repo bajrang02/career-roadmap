@@ -16,6 +16,7 @@ import { PROFESSIONAL_SKELETONS } from "./source/professional.mjs";
 import { KNOWLEDGE, MATCHES } from "./source/topic-knowledge.mjs";
 import { CURATED_SUBTOPICS } from "./source/subtopics.mjs";
 import { LEXICON, fillLexicon, composeLabelAware } from "./source/topic-lexicon.mjs";
+import { TOPIC_RESOURCES } from "./source/topic-resources.mjs";
 import { SKILLS, SKILL_CATEGORIES, SKILL_CATEGORY_MAP } from "./source/skills.mjs";
 import { SKILL_SKELETON_BUILDERS } from "./source/skill-skeletons.mjs";
 
@@ -74,7 +75,6 @@ const FALLBACK_CATEGORIES = [
   { re: /terminal|shell|command/i, res: [{ t: "The Missing Semester", u: "https://missing.csail.mit.edu/", k: "course" }, { t: "Linux command line cheat sheet", u: "https://quickref.me/linux", k: "cheatsheet" }] },
   { re: /bash|scripting/i, res: [{ t: "Bash scripting guide", u: "https://www.gnu.org/software/bash/manual/", k: "docs" }, { t: "ShellCheck (linter)", u: "https://www.shellcheck.net/", k: "practice" }] },
   { re: /certification|exam|license/i, res: [{ t: "Certification paths overview", u: "https://www.coursera.org/", k: "course" }, { t: "Exam preparation resources", u: "https://www.testbook.com/", k: "practice" }] },
-  { re: /fundamentals|basics|foundations|intro/i, res: [{ t: "freeCodeCamp", u: "https://www.freecodecamp.org/", k: "course" }, { t: "Khan Academy", u: "https://www.khanacademy.org/", k: "course" }] },
   { re: /current affairs|general awareness|gk/i, res: [{ t: "PIB (Press Information Bureau)", u: "https://pib.gov.in/", k: "docs" }, { t: "Current affairs daily", u: "https://www.insightsonindia.com/", k: "article" }] },
   { re: /strategy|planning|roadmap/i, res: [{ t: "Strategy frameworks — HBR", u: "https://hbr.org/", k: "article" }, { t: "The Lean Startup (book)", u: "https://theleanstartup.com/", k: "book" }] },
   { re: /communication|leadership|soft|negotiation|management/i, res: [{ t: "Crucial Conversations (book)", u: "https://www.crucialconversations.com/", k: "book" }, { t: "freeCodeCamp career tips", u: "https://www.freecodecamp.org/news/tag/careers/", k: "article" }] },
@@ -95,15 +95,59 @@ const FALLBACK_CATEGORIES = [
   { re: /exam|syllabus|upsc|ssc|banking|railways|police|defense|prelims|mains/i, res: [{ t: "Exam official sites & syllabus", u: "https://upsc.gov.in/", k: "docs" }, { t: "Mock tests & practice", u: "https://testbook.com/", k: "practice" }] },
 ];
 
-const DEFAULT_RES = [
-  { t: "freeCodeCamp — learn anything free", u: "https://www.freecodecamp.org/", k: "course" },
-  { t: "YouTube — find the best tutorial", u: "https://www.youtube.com/results?search_query=how+to+learn+on+youtube", k: "video" },
-  { t: "Official documentation", u: "https://www.google.com/search?q=official+documentation", k: "docs" },
-];
+// Normalize a label for curated lookup: lowercase, alphanumerics kept,
+// punctuation/emoji stripped, spaces collapsed. "&" is dropped in the primary
+// form and replaced with "and" in the secondary so both "Data Structures &"
+// and "Data Structures and" variants hit the same curated entry.
+const normLabel = (s) =>
+  s
+    .replace(/[^a-z0-9\s&]+/gi, " ")
+    .toLowerCase()
+    .replace(/&/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+// Turn a raw label into a clean search phrase (strip emoji, "Understand:",
+// trailing "— practice/fundamentals" and parentheticals like "(LeetCode)").
+const cleanTopic = (label) =>
+  label
+    .replace(/^[^\p{L}\p{N}]+/u, "")
+    .replace(/^Understand:\s*/i, "")
+    .replace(/\s*[-–—]\s*(fundamentals|practice|basics|interview|101|projects?)$/i, "")
+    .replace(/\s*\([^)]*\)\s*$/g, "")
+    .trim() || label.trim();
+
+// Curated per-topic links win first (official docs / known-good tutorials).
+const curatedResources = (label) => {
+  const key = normLabel(label);
+  const direct = TOPIC_RESOURCES[key];
+  if (direct) return direct;
+  // secondary form: "&" → "and" (e.g. "Node.js & npm" → "node js and npm")
+  const alt = TOPIC_RESOURCES[key.replace(/\s+/g, " ").replace(/ (\w+)$/, " and $1")];
+  if (alt) return alt;
+  return null;
+};
+
+// Last-resort fallback that is still *topic-direct*: every link embeds the
+// topic name, so the results are about this exact subject — never a generic
+// homepage or an unrelated query.
+const smartFallback = (label) => {
+  const topic = cleanTopic(label);
+  const q = encodeURIComponent(topic);
+  const wiki = encodeURIComponent(topic.replace(/\s+/g, "_"));
+  return [
+    { t: `${topic} — official documentation`, u: `https://www.google.com/search?q=${q}+documentation`, k: "docs" },
+    { t: `${topic} — tutorial (YouTube)`, u: `https://www.youtube.com/results?search_query=${q}+tutorial`, k: "video" },
+    { t: `${topic} — Stack Overflow`, u: `https://stackoverflow.com/search?q=${q}`, k: "community" },
+    { t: `${topic} — Wikipedia`, u: `https://en.wikipedia.org/wiki/${wiki}`, k: "article" },
+  ];
+};
 
 const fallbackRes = (label) => {
+  const curated = curatedResources(label);
+  if (curated) return curated;
   for (const c of FALLBACK_CATEGORIES) if (c.re.test(label)) return c.res;
-  return DEFAULT_RES;
+  return smartFallback(label);
 };
 
 // ── node builders ────────────────────────────────────────────────────────────
@@ -205,7 +249,11 @@ function buildNode(label, type, ctx, opts = {}) {
   let k = found.kind !== "none" ? found.k : null;
   // Lexicon entries may carry a §career§ placeholder — substitute the title.
   if (k && found.kind === "lexicon") k = fillLexicon(k, careerTitle);
-  const resources = k ? k.res : fallbackRes(label);
+  // Resource links come from curated knowledge when present; every other
+  // node (lexicon-matched, sections, containers, fallback topics) gets the
+  // label-aware fallback list (curated map → category rules → topic-aware
+  // searches) so no node ever ships empty or off-topic resources.
+  const resources = k?.res?.length ? k.res : fallbackRes(label);
   const projects = k?.proj ? k.proj.map((p) => ({ title: p.t, description: p.d })) : [];
   const details = {
     description: composeRichDescription(label, type, careerTitle, k, parentLabel, found.kind),
@@ -513,8 +561,8 @@ function buildCareer(career) {
     estimatedTime: career.duration,
     resources: [
       { title: `${career.title} — career guide`, url: `https://www.google.com/search?q=${encodeURIComponent(career.title + " career guide")}`, kind: "article" },
-      { title: "freeCodeCamp — start learning free", url: "https://www.freecodecamp.org/", kind: "course" },
-      { title: "YouTube — beginner tutorials", url: `https://www.youtube.com/results?search_query=${encodeURIComponent(career.title + " beginner tutorial")}`, kind: "video" },
+      { title: `${career.title} — freeCodeCamp courses`, url: `https://www.freecodecamp.org/news/search/?query=${encodeURIComponent(career.title)}`, kind: "course" },
+      { title: `${career.title} — beginner tutorials (YouTube)`, url: `https://www.youtube.com/results?search_query=${encodeURIComponent(career.title + " beginner tutorial")}`, kind: "video" },
       ...(career.certifications.map((c) => ({ title: c, url: `https://www.google.com/search?q=${encodeURIComponent(c + " certification")}`, kind: "certification" }))),
     ],
     projects: career.portfolioIdeas.map((p) => ({ title: p, description: `A flagship ${career.title.toLowerCase()} project for your portfolio.` })),
@@ -603,8 +651,8 @@ function buildSkill(skill) {
     estimatedTime: skill.duration,
     resources: [
       { title: `${skill.title} — official guide`, url: `https://www.google.com/search?q=${encodeURIComponent(skill.title + " official documentation")}`, kind: "docs" },
-      { title: "freeCodeCamp — start learning free", url: "https://www.freecodecamp.org/", kind: "course" },
-      { title: "YouTube — beginner tutorials", url: `https://www.youtube.com/results?search_query=${encodeURIComponent(skill.title + " beginner tutorial")}`, kind: "video" },
+      { title: `${skill.title} — freeCodeCamp courses`, url: `https://www.freecodecamp.org/news/search/?query=${encodeURIComponent(skill.title)}`, kind: "course" },
+      { title: `${skill.title} — beginner tutorials (YouTube)`, url: `https://www.youtube.com/results?search_query=${encodeURIComponent(skill.title + " beginner tutorial")}`, kind: "video" },
       ...(skill.certifications?.map((c) => ({ title: c, url: `https://www.google.com/search?q=${encodeURIComponent(c + " certification")}`, kind: "certification" })) ?? []),
     ],
     projects: (skill.topics?.projects ?? []).map((p) => ({ title: p, description: `A hands-on ${skill.title.toLowerCase()} project to prove the skill.` })),
@@ -694,7 +742,10 @@ const addIndexEntry = (data) => {
   searchIndex.push({
     slug: data.meta.slug, title: data.meta.title, icon: data.meta.icon,
     kind: data.meta.kind, category: data.meta.category, domain: data.meta.domain, skillCategory: data.meta.skillCategory,
-    industry: data.meta.industry, keywords: data.stats.keywords,
+    industry: data.meta.industry,
+    // the client scorer only reads keywords.slice(0, 40) — cap at 64 so the
+    // search index stays small instead of shipping ~220 labels per roadmap
+    keywords: data.stats.keywords.slice(0, 64),
   });
 };
 

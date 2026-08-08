@@ -66,7 +66,7 @@ export function validateAndRepairRoadmap(root: RoadmapNode): RoadmapNode {
       }
     }
 
-    return {
+    const result: RoadmapNode = {
       id,
       label,
       type,
@@ -74,6 +74,24 @@ export function validateAndRepairRoadmap(root: RoadmapNode): RoadmapNode {
       details,
       children: safeChildren,
     };
+
+    if (type === "choice" && Array.isArray(node.options)) {
+      const safeOptions: RoadmapNode[] = [];
+      for (const opt of node.options) {
+        if (!opt) continue;
+        if (opt.id && currentAncestors.has(opt.id)) {
+          console.warn(`[Validator] Broke circular link in options: ${opt.id} is an ancestor of ${id}`);
+          continue;
+        }
+        safeOptions.push(validateNode(opt, currentAncestors));
+      }
+      result.options = safeOptions;
+      if (typeof node.recommended === "string") {
+        result.recommended = node.recommended;
+      }
+    }
+
+    return result;
   }
 
   return validateNode(root, new Set());
