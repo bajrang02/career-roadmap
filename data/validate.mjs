@@ -145,6 +145,30 @@ function checkPractice(node, d, file) {
   }
 }
 
+// ── project validation ───────────────────────────────────────────────────────
+// Projects only exist where they genuinely make sense, and where they exist
+// there must be at least two (guided + practical) — never one lonely build.
+const validateProjects = (file, node) => {
+  const d = node.details;
+  if (!d || !Array.isArray(d.projects)) return;
+  if (d.projects.length === 0) return; // hidden tab — fine, no hollow section
+  if (d.projects.length === 1) {
+    report(file, "error", `node "${node.label}" (${node.type}) has exactly 1 project — add a companion so meaningful topics offer ≥2`);
+    return;
+  }
+  for (const p of d.projects) {
+    if (!p || !p.title) {
+      report(file, "error", `node "${node.label}" has a project missing a title`);
+      continue;
+    }
+    if (!p.difficulty) report(file, "error", `project "${p.title}" (${node.label}) missing difficulty`);
+    if (!p.duration) report(file, "error", `project "${p.title}" (${node.label}) missing duration/estimated time`);
+    if (!Array.isArray(p.skills) || p.skills.length === 0) {
+      report(file, "error", `project "${p.title}" (${node.label}) missing skills array`);
+    }
+  }
+};
+
 // ── cross-domain contamination check ─────────────────────────────────────────
 // High-precision only: a label flagged here is unambiguously a leak from
 // another language/domain ("Arrow functions" inside C, "React Hooks" inside
@@ -269,6 +293,8 @@ function walk(node, file, parentLabel, depth, path, slug) {
     // resource & practice quality gates
     checkResources(node, d, file);
     checkPractice(node, d, file);
+    // project quality gate: ≥2 builds where projects exist, full fields
+    validateProjects(file, node);
     // generic/template description check — no node may ship the old fallback text
     if (isGeneric(d.description)) {
       report(file, "error", `node "${node.label}" (${node.type}) has a generic/template description`);
@@ -299,8 +325,58 @@ function walk(node, file, parentLabel, depth, path, slug) {
 }
 
 // Exclude meta/index files — only individual roadmaps are validated.
-const SKIP = new Set(["index.json", "search-index.json", "skill-categories.json", "career-domains.json"]);
+const SKIP = new Set(["index.json", "search-index.json", "skill-categories.json", "career-domains.json", "certifications.json"]);
 const files = readdirSync(OUT).filter((f) => f.endsWith(".json") && !SKIP.has(f));
+
+// ── certification validation ──────────────────────────────────────────────────
+// The shared catalog must be well-formed and every certIds reference in every
+// roadmap must resolve to a real catalog entry (never a dangling id).
+const CERT_PATH = join(OUT, "certifications.json");
+if (existsSync(CERT_PATH)) {
+  const certs = JSON.parse(readFileSync(CERT_PATH, "utf8"));
+  const certIds = new Set();
+  for (const c of certs) certIds.add(c.id);
+  for (const c of certs) {
+    if (!c.id || !c.name || !c.provider || !c.officialUrl || !c.level) {
+      report("certifications.json", "error", `certification missing required field: ${c.id || c.name || "?"}`);
+    }
+    if (!/^https?:\/\//.test(c.officialUrl || "")) {
+      report("certifications.json", "error", `certification "${c.name}" has non-http officialUrl`);
+    }
+    if (!c.what || !c.who || !c.when || !c.learnFirst) {
+      report("certifications.json", "error", `certification "${c.name}" missing beginner-friendly explanation fields`);
+    }
+    // cost must be classified and never invented: only the curated Free list
+    // may claim "Free", everything else is "Paid exam" (prep may be free).
+    if (c.cost !== "Free" && c.cost !== "Paid exam") {
+      report("certifications.json", "error", `certification "${c.name}" has invalid cost status: ${c.cost}`);
+    }
+    if (typeof c.freePrep !== "boolean") {
+      report("certifications.json", "error", `certification "${c.name}" missing boolean freePrep`);
+    }
+    for (const l of [...(c.prep || []), ...(c.practice || [])]) {
+      if (!l.title || !l.url || !/^https?:\/\//.test(l.url)) {
+        report("certifications.json", "error", `certification "${c.name}" has a malformed link (${l.title || "?"})`);
+      }
+    }
+    for (const rid of c.related || []) {
+      if (!certIds.has(rid)) report("certifications.json", "error", `certification "${c.name}" references unknown related id ${rid}`);
+    }
+  }
+  // every certIds reference across all roadmaps resolves
+  for (const f of files) {
+    const data = JSON.parse(readFileSync(join(OUT, f), "utf8"));
+    if (!data.root) continue;
+    const walkCerts = (n) => {
+      for (const id of n.details?.certIds ?? []) {
+        if (!certIds.has(id)) report(f, "error", `node "${n.label}" references unknown certification id ${id}`);
+      }
+      for (const c of n.children ?? []) walkCerts(c);
+      for (const o of n.options ?? []) walkCerts(o);
+    };
+    walkCerts(data.root);
+  }
+}
 
 for (const f of files) {
   const data = JSON.parse(readFileSync(join(OUT, f), "utf8"));

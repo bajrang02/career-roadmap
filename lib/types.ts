@@ -23,7 +23,13 @@ export type ResourceKind =
   | "repo"
   | "community"
   | "certification"
-  | "search";
+  | "search"
+  | "tutorial"
+  | "reference"
+  | "guide"
+  | "paper"
+  | "project"
+  | "template";
 
 /** Human-readable learning-resource categories shown in the Resources tab.
  *  Chosen to match the platform taxonomy (Official docs, Beginner tutorial,
@@ -90,6 +96,8 @@ export interface ProjectRef {
   features?: string[];
   extensions?: string[];
   outcomes?: string[];
+  /** concrete requirements the project must satisfy */
+  requirements?: string[];
 }
 
 export interface CheatSheet {
@@ -130,7 +138,45 @@ export interface NodeDetails {
   nextTopics: string[];
   checkpoints?: string[];
   cheatSheet?: CheatSheet;
+  /** ids into the shared certifications catalog — only when a credential is
+   *  genuinely relevant to this node (empty = no recognized certification) */
+  certIds?: string[];
   optional?: boolean;
+}
+
+export interface CertificationLink {
+  title: string;
+  url: string;
+  /** docs | course | practice | article */
+  kind: "docs" | "course" | "practice" | "article";
+}
+
+export interface Certification {
+  id: string;
+  name: string;
+  provider: string;
+  level: string;
+  officialUrl: string;
+  examName: string;
+  skills: string[];
+  careers: string[];
+  topics: string[];
+  prerequisites: string[];
+  prep: CertificationLink[];
+  practice: CertificationLink[];
+  related: string[];
+  difficulty: "Beginner" | "Intermediate" | "Advanced";
+  prepTime: string;
+  what: string;
+  who: string;
+  when: string;
+  learnFirst: string;
+  validates: string[];
+  roles: string[];
+  /** "Free" (credential free to earn) | "Paid exam" (exam/assessment fee required) */
+  cost: "Free" | "Paid exam";
+  /** verified official free learning/preparation exists (NOT the credential itself) */
+  freePrep: boolean;
 }
 
 export interface RoadmapNode {

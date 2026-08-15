@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, memo } from "react";
+import { useCallback, useEffect, useMemo, useState, memo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Drawer } from "vaul";
 import {
@@ -33,9 +33,9 @@ import {
   Library,
 } from "lucide-react";
 import { cn, nodeMeta, resourceKind, typeEmoji, isCheckableType } from "@/lib/utils";
-import type { NodeDetails, RoadmapNode, Resource, PracticeItem } from "@/lib/types";
+import type { Certification, NodeDetails, RoadmapNode, Resource, PracticeItem } from "@/lib/types";
 import { generateSearchOptions } from "@/lib/search-utils";
-import { getRoadmapDetails } from "@/lib/data-loader";
+import { getCertifications, getRoadmapDetails } from "@/lib/data-loader";
 import { collectLearnableIds } from "@/lib/mindmap/tree-layout";
 import { useProgressStore } from "@/lib/stores/progress-store";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
@@ -58,7 +58,7 @@ interface Props {
   onMarkSubtree: () => void;
 }
 
-type TabId = "overview" | "resources" | "practice" | "projects";
+type TabId = "overview" | "resources" | "practice" | "projects" | "certifications";
 
 
 /** Notion-style section: small caps label + generous spacing + clean content */
@@ -204,25 +204,48 @@ function ResourceRow({ r, highlight }: { r: Resource; highlight?: boolean }) {
   );
 }
 
-/** Categorized blocks for the curated resources — Learn / Study / Practice. */
-const RESOURCE_CATEGORIES: { id: "LEARN" | "STUDY" | "PRACTICE"; label: string; icon: React.ElementType; kinds: Set<Resource["kind"]> }[] = [
+/** Categorized blocks for the curated resources — the section a student sees
+ *  depends on the resource's kind and official flag:
+ *  Official → authoritative vendor docs · Learn → tutorials/courses ·
+ *  Deep Dive → in-depth articles/books · Reference → cheat sheets + practice. */
+const RESOURCE_CATEGORIES: { id: "OFFICIAL" | "LEARN" | "DEEP" | "REFERENCE"; label: string; icon: React.ElementType; match: (r: Resource) => boolean }[] = [
+  {
+    id: "OFFICIAL",
+    label: "Official Documentation",
+    icon: BadgeCheck,
+    // authoritative vendor sources — official docs, official courses/training,
+    // official certification pages. These get the top, highlighted position.
+    match: (r) => r.isOfficial,
+  },
   {
     id: "LEARN",
     label: "Learn",
     icon: GraduationCap,
-    kinds: new Set<Resource["kind"]>(["docs", "course", "video", "article", "certification", "repo", "community"]),
+    // tutorials & courses that teach the topic from the ground up
+    match: (r) =>
+      !r.isOfficial &&
+      (r.kind === "course" || r.kind === "video" || r.kind === "tutorial" ||
+        r.type === "Beginner Tutorial" || r.type === "Interactive Tutorial" || r.type === "Course"),
   },
   {
-    id: "STUDY",
-    label: "Study",
+    id: "DEEP",
+    label: "Deep Dive",
     icon: BookOpen,
-    kinds: new Set<Resource["kind"]>(["book", "cheatsheet"]),
+    // articles, books, repos, communities and intermediate/advanced guides
+    match: (r) =>
+      !r.isOfficial &&
+      (r.kind === "article" || r.kind === "book" || r.kind === "repo" || r.kind === "community" ||
+        r.type === "Intermediate Tutorial" || r.type === "Advanced Guide" || r.type === "Article"),
   },
   {
-    id: "PRACTICE",
-    label: "Practice",
-    icon: Dumbbell,
-    kinds: new Set<Resource["kind"]>(["practice"]),
+    id: "REFERENCE",
+    label: "Reference & Practice",
+    icon: Library,
+    // cheat sheets, references and hands-on practice — the "look it up / try it" bucket
+    match: (r) =>
+      !r.isOfficial &&
+      (r.kind === "cheatsheet" || r.kind === "practice" || r.kind === "reference" || r.kind === "certification" ||
+        r.type === "Reference Documentation" || r.type === "Cheat Sheet" || r.type === "Practice"),
   },
 ];
 
@@ -232,60 +255,6 @@ const SEARCH_ICONS: Record<string, React.ElementType> = {
   "Book Search": BookOpen,
   "Study Search": Library,
 };
-
-/** One generated search option — PDF notes / web / books / study material. */
-function SearchActionCard({ r, primary }: { r: Resource; primary?: boolean }) {
-  const Icon = SEARCH_ICONS[r.type] ?? Search;
-  return (
-    <a
-      href={r.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      title={r.description}
-      className={cn(
-        "group rounded-xl border p-3.5 transition",
-        primary
-          ? "border-brand-300 bg-brand-50/70 hover:border-brand-400 hover:shadow-sm dark:border-brand-500/40 dark:bg-brand-500/10 dark:hover:border-brand-400"
-          : "border-slate-100 bg-white hover:border-brand-200 hover:shadow-sm dark:border-slate-700/60 dark:bg-slate-800/60 dark:hover:border-brand-500/40"
-      )}
-    >
-      <div className="flex items-start gap-3">
-        <span
-          className={cn(
-            "flex h-9 w-9 shrink-0 items-center justify-center rounded-lg",
-            primary
-              ? "bg-brand-500/15 text-brand-600 dark:text-brand-300"
-              : "bg-slate-100 text-slate-500 dark:bg-slate-700 dark:text-slate-300"
-          )}
-        >
-          <Icon className="h-[18px] w-[18px]" />
-        </span>
-        <div className="min-w-0 flex-1">
-          <div className="flex items-center justify-between gap-2">
-            <p className="truncate text-[15px] font-semibold text-slate-900 dark:text-white">{r.title}</p>
-            {primary && (
-              <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-brand-500/10 px-2 py-0.5 text-[11px] font-semibold text-brand-700 dark:bg-brand-500/20 dark:text-brand-300">
-                <FileText className="h-3 w-3" /> PDF
-              </span>
-            )}
-          </div>
-          <p className="mt-0.5 text-[13px] font-medium text-slate-500 dark:text-slate-400">
-            {r.provider} · Search
-          </p>
-          <p className="mt-1.5 text-[13px] leading-relaxed text-slate-600 dark:text-slate-300">{r.description}</p>
-          {r.query && (
-            <p className="mt-2 truncate rounded-md bg-slate-100 px-2 py-1 font-mono text-[11px] text-slate-500 dark:bg-slate-900/50 dark:text-slate-400" title={r.query}>
-              {r.query}
-            </p>
-          )}
-          <span className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-3 py-1.5 text-xs font-semibold text-white transition group-hover:bg-brand-600 dark:bg-slate-100 dark:text-slate-900 dark:group-hover:bg-brand-400">
-            Open search <ExternalLink className="h-3 w-3" />
-          </span>
-        </div>
-      </div>
-    </a>
-  );
-}
 
 /** One practice item — platform, skills, difficulty, CTA. */
 function PracticeRow({ item }: { item: PracticeItem }) {
@@ -331,6 +300,107 @@ function PracticeRow({ item }: { item: PracticeItem }) {
         </a>
       </div>
     </div>
+  );
+}
+
+/** One selectable certification card — name, provider, level, covers, CTA. */
+function CertCard({
+  cert,
+  selected,
+  onSelect,
+}: {
+  cert: Certification;
+  selected: boolean;
+  onSelect: () => void;
+}) {
+  return (
+    <button
+      onClick={onSelect}
+      aria-pressed={selected}
+      className={cn(
+        "w-full rounded-xl border p-4 text-left transition",
+        selected
+          ? "border-brand-300 bg-brand-50/70 shadow-sm dark:border-brand-500/50 dark:bg-brand-500/10"
+          : "border-slate-100 bg-white hover:border-brand-200 hover:shadow-sm dark:border-slate-700/60 dark:bg-slate-800/60 dark:hover:border-brand-500/40"
+      )}
+    >
+      <div className="flex items-start gap-3">
+        <span
+          className={cn(
+            "mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-base",
+            selected ? "bg-brand-500/15 text-brand-600 dark:text-brand-300" : "bg-slate-100 text-slate-500 dark:bg-slate-700 dark:text-slate-300"
+          )}
+        >
+          <Award className="h-5 w-5" />
+        </span>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center justify-between gap-2">
+            <p className="text-[15px] font-semibold leading-snug text-slate-900 dark:text-white">{cert.name}</p>
+            {selected && <BadgeCheck className="h-5 w-5 shrink-0 text-brand-600 dark:text-brand-400" />}
+          </div>
+          <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-slate-500 dark:text-slate-400">
+            <span>{cert.provider}</span>
+            <span className="text-slate-300 dark:text-slate-600">•</span>
+            <span className="font-medium text-slate-600 dark:text-slate-300">{cert.level}</span>
+            {cert.cost === "Free" && (
+              <span className="inline-flex items-center gap-0.5 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-wide text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-300">
+                <BadgeCheck className="h-3 w-3" /> Free
+              </span>
+            )}
+            {cert.cost === "Paid exam" && (
+              <span className="inline-flex items-center gap-0.5 rounded-full bg-amber-500/10 px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-wide text-amber-700 dark:bg-amber-500/20 dark:text-amber-300">
+                Paid exam
+              </span>
+            )}
+            {cert.freePrep && (
+              <span className="inline-flex items-center gap-0.5 rounded-full bg-sky-500/10 px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-wide text-sky-700 dark:bg-sky-500/20 dark:text-sky-300">
+                Free prep
+              </span>
+            )}
+          </p>
+          {cert.validates.length > 0 && (
+            <div className="mt-2.5 flex flex-wrap gap-1.5">
+              {cert.validates.slice(0, 4).map((v) => (
+                <span
+                  key={v}
+                  className="rounded-md border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:border-slate-600 dark:bg-slate-700/50 dark:text-slate-300"
+                >
+                  {v}
+                </span>
+              ))}
+            </div>
+          )}
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <DiffBadge difficulty={cert.difficulty} />
+            <span className="inline-flex items-center gap-1 text-xs text-slate-400 dark:text-slate-500">
+              <Clock className="h-3 w-3" /> {cert.prepTime}
+            </span>
+            <span className="ml-auto inline-flex items-center gap-1 text-xs font-semibold text-brand-600 dark:text-brand-400">
+              {selected ? "Selected" : "Select"} <ChevronRight className="h-3.5 w-3.5" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </button>
+  );
+}
+
+/** Small link row for preparation / practice resources inside a cert detail. */
+function CertLinkRow({ link }: { link: { title: string; url: string; kind: string } }) {
+  const Icon = link.kind === "practice" ? Dumbbell : link.kind === "course" ? GraduationCap : BookOpen;
+  return (
+    <a
+      href={link.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-start gap-2.5 rounded-lg border border-slate-100 bg-white px-3 py-2.5 text-left transition hover:border-brand-200 hover:shadow-sm dark:border-slate-700/60 dark:bg-slate-800/60 dark:hover:border-brand-500/40"
+    >
+      <Icon className="mt-0.5 h-4 w-4 shrink-0 text-brand-500" />
+      <span className="min-w-0 flex-1">
+        <span className="block truncate text-[14px] font-medium text-slate-800 dark:text-slate-200">{link.title}</span>
+      </span>
+      <ExternalLink className="mt-0.5 h-3.5 w-3.5 shrink-0 text-slate-300 dark:text-slate-600" />
+    </a>
   );
 }
 
@@ -393,6 +463,87 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   // open a tab; used by the header CTAs (e.g. "Practice This Topic")
   const jumpTo = (t: TabId) => setTab(t);
 
+  // ── certifications ─────────────────────────────────────────────────────────
+  // The shared catalog is lazy-loaded — fetched only when the Certifications
+  // tab is opened for the first time (never on initial page load).
+  const [certCatalog, setCertCatalog] = useState<Certification[] | null>(null);
+  const [selectedCertId, setSelectedCertId] = useState<string | null>(null);
+  const [certFilter, setCertFilter] = useState<{ provider?: string; level?: string }>({});
+  useEffect(() => {
+    if (tab !== "certifications" || certCatalog) return;
+    let alive = true;
+    getCertifications()
+      .then((certs) => {
+        if (alive) setCertCatalog(certs);
+      })
+      .catch(() => {
+        if (alive) setCertCatalog([]);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [tab, certCatalog]);
+
+  const certIds = useMemo(() => d.certIds ?? [], [d.certIds]);
+  // Projects tab is hidden entirely when the node has no projects, and the
+  // Certifications tab is hidden when no credential is genuinely relevant — so
+  // the panel never shows a hollow section.
+  const hasProjects = (d.projects?.length ?? 0) > 0;
+  const hasCerts = (d.certIds?.length ?? 0) > 0;
+  const tabCount = 3 + (hasProjects ? 1 : 0) + (hasCerts ? 1 : 0);
+  const certs = useMemo(() => {
+    if (!certCatalog) return [];
+    const byId = new Map(certCatalog.map((c) => [c.id, c]));
+    return certIds.map((id) => byId.get(id)).filter((c): c is Certification => !!c);
+  }, [certCatalog, certIds]);
+
+  // reset selection when the node changes
+  useEffect(() => {
+    setSelectedCertId(certIds[0] ?? null);
+    setCertFilter({});
+  }, [node.id, certIds]);
+
+  const filteredCerts = useMemo(() => {
+    if (!certFilter.provider && !certFilter.level) return certs;
+    return certs.filter(
+      (c) => (!certFilter.provider || c.provider === certFilter.provider) && (!certFilter.level || c.level === certFilter.level)
+    );
+  }, [certs, certFilter]);
+
+  const providers = useMemo(() => [...new Set(certs.map((c) => c.provider))].sort(), [certs]);
+  const levels = useMemo(() => [...new Set(certs.map((c) => c.level))].sort(), [certs]);
+
+  const selectedCert = useMemo(
+    () => certs.find((c) => c.id === selectedCertId) ?? certs[0] ?? null,
+    [certs, selectedCertId]
+  );
+
+  // map cert topics → roadmap node ids so "Relevant roadmap topics" can deep-link.
+  // Exact label match first; otherwise a whole-word substring match (cert topic
+  // "IAM" → node "IAM & security", "SQL" → "SQL joins").
+  const orderLabelMap = useMemo(() => {
+    const m = new Map<string, string>();
+    for (const o of order) m.set(o.label.toLowerCase().trim(), o.id);
+    return m;
+  }, [order]);
+  const resolveTopicId = useCallback(
+    (topic: string) => {
+      const t = topic.toLowerCase().trim();
+      const exact = orderLabelMap.get(t);
+      if (exact) return exact;
+      for (const o of order) {
+        const l = o.label.toLowerCase();
+        if (l.split(/[^a-z0-9]+/).includes(t) || (t.length >= 3 && l.includes(t))) return o.id;
+      }
+      return null;
+    },
+    [order, orderLabelMap]
+  );
+  const relatedCertById = useMemo(() => {
+    if (!certCatalog) return new Map<string, Certification>();
+    return new Map(certCatalog.map((c) => [c.id, c]));
+  }, [certCatalog]);
+
   const handleToggle = () => {
     toggleNode(roadmapSlug, node.id, node.label);
     toast(completed ? "Marked incomplete" : "Topic completed 🎉", {
@@ -422,12 +573,15 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
     [node.label, roadmapTitle, roadmapSlug]
   );
 
-  // curated resources grouped into Learn / Study / Practice buckets
+  // curated resources grouped into Official / Learn / Deep Dive / Reference
   const curatedResources = useMemo(() => d.resources.filter((r) => !r.query), [d.resources]);
   const resourceCategories = RESOURCE_CATEGORIES.map((cat) => ({
     ...cat,
-    items: curatedResources.filter((r) => cat.kinds.has(r.kind)),
+    items: curatedResources.filter((r) => cat.match(r)),
   })).filter((cat) => cat.items.length > 0);
+  // the primary PDF search — a single compact featured action, not a card grid
+  const pdfSearch = searchOptions.find((r) => r.type === "PDF Search");
+  const otherSearches = searchOptions.filter((r) => r.type !== "PDF Search");
 
   const subtopics = node.children ?? [];
   // a subtree exists when the node has children (or choice options) below it,
@@ -558,7 +712,9 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
       {/* tabs — single Radix root, shared with the content below via `tab` state */}
       <div className="px-3 pb-3">
         <Tabs value={tab} onValueChange={(v) => setTab(v as TabId)} className="w-full">
-          <TabsList className="grid w-full grid-cols-4">
+          {/* only render tabs that have content: Projects and Certifications are
+              hidden entirely when empty so the panel never shows hollow sections */}
+          <TabsList className={cn("grid w-full", tabCount === 5 ? "grid-cols-5" : tabCount === 4 ? "grid-cols-4" : "grid-cols-3")}>
             <TabsTrigger value="overview" className="px-1 text-xs sm:text-[13px]">Overview</TabsTrigger>
             <TabsTrigger value="resources" className="px-1 text-xs sm:text-[13px]">
               Resources{d.resources.length > 0 && <span className="text-slate-400"> ({d.resources.length})</span>}
@@ -566,9 +722,16 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
             <TabsTrigger value="practice" className="px-1 text-xs sm:text-[13px]">
               Practice{d.practice.length > 0 && <span className="text-slate-400"> ({d.practice.length})</span>}
             </TabsTrigger>
-            <TabsTrigger value="projects" className="px-1 text-xs sm:text-[13px]">
-              Projects{d.projects.length > 0 && <span className="text-slate-400"> ({d.projects.length})</span>}
-            </TabsTrigger>
+            {hasProjects && (
+              <TabsTrigger value="projects" className="px-1 text-xs sm:text-[13px]">
+                Projects{d.projects.length > 0 && <span className="text-slate-400"> ({d.projects.length})</span>}
+              </TabsTrigger>
+            )}
+            {hasCerts && (
+              <TabsTrigger value="certifications" className="px-1 text-xs sm:text-[13px]">
+                Certifications{certs.length > 0 && <span className="text-slate-400"> ({certs.length})</span>}
+              </TabsTrigger>
+            )}
           </TabsList>
         </Tabs>
       </div>
@@ -609,7 +772,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
             </Section>
           )}
           {ov.whereUsed.length > 0 && (
-            <Section icon={FolderKanban} title="Where it is used">
+            <Section icon={FolderKanban} title="How you'll use it">
               <div className="flex flex-wrap gap-2 sm:gap-1.5">
                 {ov.whereUsed.map((w, i) => (
                   <span key={i} className="rounded-full border border-slate-200 px-3 py-1 text-[13px] font-medium text-slate-600 dark:border-slate-600 dark:text-slate-300">
@@ -631,7 +794,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
               </ul>
             </Section>
           )}
-          <Section icon={GraduationCap} title="Outcome">
+          <Section icon={GraduationCap} title="What you'll be able to do">
             <p className="rounded-xl border border-emerald-200/70 bg-emerald-50 p-3.5 text-emerald-900 dark:border-emerald-500/20 dark:bg-emerald-500/10 dark:text-emerald-200 text-[15px] sm:text-[14px]">
               {ov.outcome}
             </p>
@@ -818,13 +981,13 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
 
   const resourcesContent = (
     <div className="p-4 sm:p-5 space-y-6">
-      {/* curated resources — Learn / Study / Practice */}
+      {/* curated resources — Official / Learn / Deep Dive / Reference */}
       {resourceCategories.length === 0 ? (
         <div className="rounded-xl border border-dashed border-slate-200 p-6 text-center dark:border-slate-700">
           <BookOpen className="mx-auto h-7 w-7 text-slate-300 dark:text-slate-600" />
           <p className="mt-2 text-[15px] font-semibold text-slate-700 dark:text-slate-200">No curated resources yet</p>
           <p className="mx-auto mt-1 max-w-xs text-[13px] text-slate-500 dark:text-slate-400">
-            We verify every curated link by hand — a match for this topic has not been added yet. Use the study searches below to find material now.
+            We verify every curated link by hand — a match for this topic has not been added yet. Use the PDF search below to find material now.
           </p>
         </div>
       ) : (
@@ -838,30 +1001,62 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
             </div>
             <div className="space-y-2.5">
               {cat.items.map((r, i) => (
-                <ResourceRow key={r.url} r={r} highlight={cat.id === "LEARN" && i === 0} />
+                <ResourceRow key={r.url} r={r} highlight={cat.id === "OFFICIAL" && i === 0} />
               ))}
             </div>
           </div>
         ))
       )}
 
-      {/* study discovery — topic-specific searches, always available */}
-      <div>
-        <div className="mb-2 flex items-center gap-2">
-          <Search className="h-4 w-4 text-brand-500" />
-          <p className="text-[14px] sm:text-[13px] font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-            Find study material
-          </p>
+      {/* PDF study material — one compact featured action (never a dense grid) */}
+      {pdfSearch && (
+        <div className="rounded-xl border border-brand-200 bg-brand-50/60 p-4 dark:border-brand-500/30 dark:bg-brand-500/10">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="min-w-0">
+              <p className="flex items-center gap-2 text-[14px] font-bold text-slate-900 dark:text-white">
+                <FileText className="h-4 w-4 text-brand-600 dark:text-brand-400" />
+                Find PDF study material
+              </p>
+              <p className="mt-0.5 text-[12.5px] leading-relaxed text-slate-500 dark:text-slate-400">
+                Topic-specific lecture notes, textbooks, study guides and technical PDFs.
+              </p>
+            </div>
+            <a
+              href={pdfSearch.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex shrink-0 items-center justify-center gap-1.5 rounded-lg bg-brand-600 px-4 py-2.5 text-[13px] font-semibold text-white transition hover:bg-brand-500"
+            >
+              <FileText className="h-4 w-4" /> Find PDF notes
+            </a>
+          </div>
+          {pdfSearch.query && (
+            <p className="mt-2.5 truncate rounded-md bg-white/70 px-2.5 py-1 font-mono text-[11px] text-slate-500 dark:bg-slate-900/50 dark:text-slate-400" title={pdfSearch.query}>
+              {pdfSearch.query}
+            </p>
+          )}
         </div>
-        <p className="mb-3 -mt-1 text-[13px] text-slate-400 dark:text-slate-500">
-          Search verified topic terms across PDF documents, books, lecture notes and the web.
-        </p>
-        <div className="grid gap-2.5 sm:grid-cols-2">
-          {searchOptions.map((r) => (
-            <SearchActionCard key={r.title} r={r} primary={r.type === "PDF Search"} />
-          ))}
+      )}
+
+      {/* secondary study searches — web / books — small text links, not cards */}
+      {otherSearches.length > 0 && (
+        <div className="flex flex-wrap items-center gap-2">
+          {otherSearches.map((r) => {
+            const Icon = SEARCH_ICONS[r.type] ?? Search;
+            return (
+              <a
+                key={r.title}
+                href={r.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-500 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:text-slate-400 dark:hover:border-brand-500 dark:hover:text-brand-300"
+              >
+                <Icon className="h-3.5 w-3.5" /> {r.title.replace(/ Search$/, "")}
+              </a>
+            );
+          })}
         </div>
-      </div>
+      )}
     </div>
   );
 
@@ -883,48 +1078,422 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   );
 
   const projectsContent = (
-    <div className="p-4 sm:p-5">
-      {d.projects.length === 0 ? (
-        <div className="rounded-xl border border-dashed border-slate-200 p-8 text-center dark:border-slate-700">
-          <FolderKanban className="mx-auto h-8 w-8 text-slate-300 dark:text-slate-600" />
-          <p className="mt-3 text-[15px] font-semibold text-slate-700 dark:text-slate-200">No projects for this topic</p>
-          <p className="mx-auto mt-1 max-w-xs text-[13px] text-slate-500 dark:text-slate-400">
-            Build the subtopics above first — project briefs appear on the topics that need them.
-          </p>
-        </div>
-      ) : (
-        <div className="space-y-3">
-          {d.projects.map((p, i) => (
-            <div key={i} className="rounded-xl border border-emerald-200/70 bg-emerald-50/60 p-4 dark:border-emerald-500/20 dark:bg-emerald-500/10">
-              <div className="flex items-center justify-between gap-2">
-                <p className="flex items-center gap-2 text-[15px] sm:text-sm font-semibold text-emerald-900 dark:text-emerald-200">
-                  <span className="font-mono text-[11px] sm:text-[10px] rounded-full bg-emerald-100 px-1.5 py-0.5 text-emerald-600 dark:bg-emerald-900 dark:text-emerald-300">0{i + 1}</span>
-                  {p.title}
-                </p>
-                {p.difficulty && (
-                  <Badge variant="outline" className="border-emerald-200 text-[11px] sm:text-[10px] text-emerald-700 dark:border-emerald-800 dark:text-emerald-400">
-                    {p.difficulty}
-                  </Badge>
-                )}
+    <div className="p-4 sm:p-5 space-y-4">
+      <p className="text-[13px] leading-relaxed text-slate-500 dark:text-slate-400">
+        Build these to apply {node.label.toLowerCase()} in practice — each brief lists the skills it exercises and what a finished project looks like.
+      </p>
+      <div className="space-y-3.5">
+        {d.projects.map((p, i) => (
+          <article
+            key={i}
+            className="rounded-xl border border-emerald-200/70 bg-white p-4 dark:border-emerald-500/20 dark:bg-slate-800/60"
+          >
+            <div className="flex items-start justify-between gap-2">
+              <p className="flex items-center gap-2 text-[15px] font-semibold text-slate-900 dark:text-white">
+                <span className="font-mono text-[11px] rounded-full bg-emerald-100 px-1.5 py-0.5 text-emerald-600 dark:bg-emerald-900 dark:text-emerald-300">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                {p.title}
+              </p>
+              <Badge
+                variant={p.difficulty === "Beginner" ? "success" : p.difficulty === "Advanced" ? "danger" : "warning"}
+                className="shrink-0 text-[10.5px]"
+              >
+                {p.difficulty ?? "Intermediate"}
+              </Badge>
+            </div>
+            <p className="mt-2 text-[14px] leading-relaxed text-slate-600 dark:text-slate-300">{p.description}</p>
+            <div className="mt-3 grid gap-2 text-[13px] sm:grid-cols-2">
+              <div className="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+                <Clock className="h-3.5 w-3.5" />
+                <span>Estimated: <b className="text-slate-700 dark:text-slate-200">{p.duration}</b></span>
               </div>
-              <p className="mt-2 text-[14px] sm:text-xs leading-relaxed text-emerald-800/80 dark:text-emerald-300/70">{p.description}</p>
-              {p.goal && (
-                <div className="mt-2 text-[14px] sm:text-xs text-emerald-700 dark:text-emerald-400">
-                  <strong>Goal:</strong> {p.goal}
+              {p.difficulty && (
+                <div className="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
+                  <Target className="h-3.5 w-3.5" />
+                  <span>Difficulty: <b className="text-slate-700 dark:text-slate-200">{p.difficulty}</b></span>
                 </div>
               )}
-              {p.skills && p.skills.length > 0 && (
-                <div className="mt-2 flex flex-wrap gap-1.5 sm:gap-1">
+            </div>
+            {p.skills && p.skills.length > 0 && (
+              <div className="mt-3">
+                <p className="text-[11px] font-bold uppercase tracking-wide text-slate-400 dark:text-slate-500">Skills practiced</p>
+                <div className="mt-1.5 flex flex-wrap gap-1.5">
                   {p.skills.map((s) => (
-                    <span key={s} className="rounded border border-emerald-200 bg-emerald-100/50 px-2 py-1 sm:px-1.5 sm:py-0.5 text-[11px] sm:text-[10px] text-emerald-700 dark:border-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-400">
+                    <span
+                      key={s}
+                      className="rounded-md border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:border-slate-600 dark:bg-slate-700/50 dark:text-slate-300"
+                    >
                       {s}
                     </span>
                   ))}
                 </div>
+              </div>
+            )}
+            {p.goal && (
+              <div className="mt-3 rounded-lg border border-emerald-200/60 bg-emerald-50/60 px-3 py-2.5 text-[13px] leading-relaxed text-emerald-900 dark:border-emerald-500/20 dark:bg-emerald-500/10 dark:text-emerald-200">
+                <b>Goal:</b> {p.goal}
+              </div>
+            )}
+            {p.requirements && p.requirements.length > 0 && (
+              <div className="mt-3">
+                <p className="text-[11px] font-bold uppercase tracking-wide text-slate-400 dark:text-slate-500">Key requirements</p>
+                <ul className="mt-1.5 space-y-1">
+                  {p.requirements.map((r) => (
+                    <li key={r} className="flex items-start gap-2 text-[13px] text-slate-600 dark:text-slate-300">
+                      <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-emerald-500" />
+                      {r}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {p.outcomes && p.outcomes.length > 0 && (
+              <div className="mt-3">
+                <p className="text-[11px] font-bold uppercase tracking-wide text-slate-400 dark:text-slate-500">Expected outcome</p>
+                <p className="mt-1 text-[13px] leading-relaxed text-slate-600 dark:text-slate-300">{p.outcomes[0]}</p>
+              </div>
+            )}
+            {p.extensions && p.extensions.length > 0 && (
+              <div className="mt-3">
+                <p className="text-[11px] font-bold uppercase tracking-wide text-slate-400 dark:text-slate-500">Optional extension</p>
+                <div className="mt-1.5 flex flex-wrap gap-1.5">
+                  {p.extensions.map((e) => (
+                    <span
+                      key={e}
+                      className="rounded-full border border-emerald-200 bg-emerald-50 px-2.5 py-0.5 text-[11px] font-medium text-emerald-700 dark:border-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-400"
+                    >
+                      {e}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </article>
+        ))}
+      </div>
+    </div>
+  );
+
+  const certificationsContent = (
+    <div className="p-4 sm:p-5 space-y-4">
+      {certs.length === 0 ? (
+        /* no widely recognized certification for this node — never invent one */
+        <div className="rounded-xl border border-dashed border-slate-200 p-8 text-center dark:border-slate-700">
+          <Award className="mx-auto h-8 w-8 text-slate-300 dark:text-slate-600" />
+          <p className="mt-3 text-[15px] font-semibold text-slate-700 dark:text-slate-200">
+            No widely recognized certification is specifically dedicated to this topic
+          </p>
+          <p className="mx-auto mt-1 max-w-sm text-[13px] leading-relaxed text-slate-500 dark:text-slate-400">
+            {node.type === "career" || node.type === "topic"
+              ? "This area is validated by demonstrated skill and portfolio work rather than a single credential. Keep building projects and deepening the topics above."
+              : "Some topics are assessed through the roadmap's full certification path rather than a dedicated exam. Keep working through the roadmap."}
+          </p>
+        </div>
+      ) : certCatalog === null ? (
+        <div className="flex h-40 items-center justify-center">
+          <div className="h-8 w-8 animate-spin rounded-full border-2 border-brand-200 border-t-brand-600" />
+        </div>
+      ) : (
+        <>
+          {/* provider / level filters — only when there is a meaningful choice */}
+          {(providers.length > 1 || levels.length > 1) && (
+            <div className="space-y-2">
+              {providers.length > 1 && (
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    onClick={() => setCertFilter((f) => ({ ...f, provider: undefined }))}
+                    className={cn(
+                      "rounded-full border px-3 py-1.5 text-xs font-medium transition",
+                      !certFilter.provider
+                        ? "border-brand-300 bg-brand-50 text-brand-700 dark:border-brand-500/50 dark:bg-brand-500/10 dark:text-brand-300"
+                        : "border-slate-200 text-slate-500 hover:border-brand-200 dark:border-slate-700 dark:text-slate-400"
+                    )}
+                  >
+                    All providers
+                  </button>
+                  {providers.map((p) => (
+                    <button
+                      key={p}
+                      onClick={() => setCertFilter((f) => ({ ...f, provider: f.provider === p ? undefined : p }))}
+                      className={cn(
+                        "rounded-full border px-3 py-1.5 text-xs font-medium transition min-h-[32px]",
+                        certFilter.provider === p
+                          ? "border-brand-300 bg-brand-50 text-brand-700 dark:border-brand-500/50 dark:bg-brand-500/10 dark:text-brand-300"
+                          : "border-slate-200 text-slate-500 hover:border-brand-200 dark:border-slate-700 dark:text-slate-400"
+                      )}
+                    >
+                      {p}
+                    </button>
+                  ))}
+                </div>
+              )}
+              {levels.length > 1 && (
+                <div className="flex flex-wrap gap-1.5">
+                  <button
+                    onClick={() => setCertFilter((f) => ({ ...f, level: undefined }))}
+                    className={cn(
+                      "rounded-full border px-3 py-1.5 text-xs font-medium transition min-h-[32px]",
+                      !certFilter.level
+                        ? "border-brand-300 bg-brand-50 text-brand-700 dark:border-brand-500/50 dark:bg-brand-500/10 dark:text-brand-300"
+                        : "border-slate-200 text-slate-500 hover:border-brand-200 dark:border-slate-700 dark:text-slate-400"
+                    )}
+                  >
+                    All levels
+                  </button>
+                  {levels.map((l) => (
+                    <button
+                      key={l}
+                      onClick={() => setCertFilter((f) => ({ ...f, level: f.level === l ? undefined : l }))}
+                      className={cn(
+                        "rounded-full border px-3 py-1.5 text-xs font-medium transition min-h-[32px]",
+                        certFilter.level === l
+                          ? "border-brand-300 bg-brand-50 text-brand-700 dark:border-brand-500/50 dark:bg-brand-500/10 dark:text-brand-300"
+                          : "border-slate-200 text-slate-500 hover:border-brand-200 dark:border-slate-700 dark:text-slate-400"
+                      )}
+                    >
+                      {l}
+                    </button>
+                  ))}
+                </div>
               )}
             </div>
-          ))}
-        </div>
+          )}
+
+          {/* choose a certification */}
+          <p className="text-[13px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+            {filteredCerts.length > 1 ? "Choose a certification" : "Recommended certification"}
+          </p>
+          <div className="space-y-2.5">
+            {filteredCerts.length === 0 ? (
+              <p className="rounded-lg border border-dashed border-slate-200 px-4 py-3 text-[13px] text-slate-500 dark:border-slate-700 dark:text-slate-400">
+                No certifications match these filters.
+              </p>
+            ) : (
+              filteredCerts.map((c) => (
+                <CertCard
+                  key={c.id}
+                  cert={c}
+                  selected={selectedCert?.id === c.id}
+                  onSelect={() => setSelectedCertId(c.id)}
+                />
+              ))
+            )}
+          </div>
+
+          {/* selected certification detail — why / who / when / learn-first / prep */}
+          {selectedCert && (
+            <div className="mt-2 rounded-xl border border-slate-100 bg-slate-50/60 p-4 dark:border-slate-700/60 dark:bg-slate-800/40">
+              <h4 className="flex items-center gap-2 text-[14px] font-bold text-slate-900 dark:text-white">
+                <BadgeCheck className="h-4 w-4 text-brand-600 dark:text-brand-400" />
+                Why this certification
+              </h4>
+              <p className="mt-1.5 text-[13.5px] leading-relaxed text-slate-600 dark:text-slate-300">{selectedCert.what}</p>
+
+              <dl className="mt-3 space-y-2.5 text-[13.5px]">
+                <div className="flex gap-2">
+                  <dt className="w-24 shrink-0 font-semibold text-slate-500 dark:text-slate-400">Who it&apos;s for</dt>
+                  <dd className="text-slate-700 dark:text-slate-200">{selectedCert.who}</dd>
+                </div>
+                <div className="flex gap-2">
+                  <dt className="w-24 shrink-0 font-semibold text-slate-500 dark:text-slate-400">When to take</dt>
+                  <dd className="text-slate-700 dark:text-slate-200">{selectedCert.when}</dd>
+                </div>
+                <div className="flex gap-2">
+                  <dt className="w-24 shrink-0 font-semibold text-slate-500 dark:text-slate-400">Learn first</dt>
+                  <dd className="text-slate-700 dark:text-slate-200">{selectedCert.learnFirst}</dd>
+                </div>
+              </dl>
+
+              {selectedCert.validates.length > 0 && (
+                <div className="mt-3">
+                  <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+                    Skills validated
+                  </p>
+                  <div className="mt-1.5 flex flex-wrap gap-1.5">
+                    {selectedCert.validates.map((v) => (
+                      <span
+                        key={v}
+                        className="rounded-md border border-slate-200 bg-white px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:border-slate-600 dark:bg-slate-700/50 dark:text-slate-300"
+                      >
+                        {v}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* career roles */}
+              {selectedCert.roles.length > 0 && (
+                <div className="mt-3">
+                  <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+                    Recommended for
+                  </p>
+                  <div className="mt-1.5 flex flex-wrap gap-1.5">
+                    {selectedCert.roles.map((r) => (
+                      <span
+                        key={r}
+                        className="rounded-md border border-emerald-200 bg-emerald-50 px-2 py-0.5 text-[11px] font-medium text-emerald-700 dark:border-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-400"
+                      >
+                        {r}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* prerequisites + exam */}
+              <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                {selectedCert.prerequisites.length > 0 && (
+                  <div className="rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-700 dark:bg-slate-800/60">
+                    <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+                      Prerequisites
+                    </p>
+                    <ul className="mt-1 space-y-1 text-[12.5px] text-slate-600 dark:text-slate-300">
+                      {selectedCert.prerequisites.map((p) => (
+                        <li key={p} className="flex items-start gap-1.5">
+                          <ChevronRight className="mt-0.5 h-3 w-3 shrink-0 text-slate-300 dark:text-slate-500" />
+                          {p}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                <div className="rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-700 dark:bg-slate-800/60">
+                  <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+                    Exam & level
+                  </p>
+                  <p className="mt-1 text-[12.5px] text-slate-600 dark:text-slate-300">{selectedCert.examName}</p>
+                  <p className="mt-1 text-[12.5px] text-slate-600 dark:text-slate-300">{selectedCert.level} · {selectedCert.difficulty}</p>
+                  <p className="mt-1 text-[12.5px] text-slate-600 dark:text-slate-300">{selectedCert.prepTime} preparation</p>
+                  <p className="mt-1.5 flex flex-wrap gap-1">
+                    {selectedCert.cost === "Free" ? (
+                      <span className="rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-wide text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-300">
+                        Free certification
+                      </span>
+                    ) : (
+                      <span className="rounded-full bg-amber-500/10 px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-wide text-amber-700 dark:bg-amber-500/20 dark:text-amber-300">
+                        Exam paid
+                      </span>
+                    )}
+                    {selectedCert.freePrep && (
+                      <span className="rounded-full bg-sky-500/10 px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-wide text-sky-700 dark:bg-sky-500/20 dark:text-sky-300">
+                        Free preparation available
+                      </span>
+                    )}
+                  </p>
+                  <p className="mt-2 text-[11px] italic text-slate-400 dark:text-slate-500">
+                    Visit official provider for current exam details.
+                  </p>
+                </div>
+              </div>
+
+              {/* relevant roadmap topics — deep-link into the mindmap */}
+              {selectedCert.topics.length > 0 && (
+                <div className="mt-3">
+                  <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+                    Relevant roadmap topics
+                  </p>
+                  <div className="mt-1.5 flex flex-wrap gap-1.5">
+                    {selectedCert.topics.map((t) => {
+                      const linkedId = resolveTopicId(t);
+                      return linkedId ? (
+                        <button
+                          key={t}
+                          onClick={() => onNavigate(linkedId)}
+                          className="inline-flex items-center gap-1 rounded-full border border-brand-200 bg-brand-50 px-3 py-1.5 text-xs font-medium text-brand-700 transition hover:border-brand-300 hover:bg-brand-100 dark:border-brand-500/40 dark:bg-brand-500/10 dark:text-brand-300 dark:hover:bg-brand-500/20"
+                        >
+                          {t} <ChevronRight className="h-3 w-3" />
+                        </button>
+                      ) : (
+                        <span
+                          key={t}
+                          className="inline-flex items-center gap-1 rounded-full border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-500 dark:border-slate-600 dark:text-slate-400"
+                        >
+                          {t}
+                        </span>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* preparation + practice resources */}
+              <div className="mt-4 grid gap-3 sm:grid-cols-2">
+                <div>
+                  <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+                    Preparation resources
+                  </p>
+                  <div className="mt-1.5 space-y-1.5">
+                    {selectedCert.prep.length > 0 ? (
+                      selectedCert.prep.map((l) => <CertLinkRow key={l.url} link={l} />)
+                    ) : (
+                      <p className="text-[12.5px] text-slate-400 dark:text-slate-500">Official materials not listed — see the provider page.</p>
+                    )}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+                    Practice resources
+                  </p>
+                  <div className="mt-1.5 space-y-1.5">
+                    {selectedCert.practice.length > 0 ? (
+                      selectedCert.practice.map((l) => <CertLinkRow key={l.url} link={l} />)
+                    ) : (
+                      <p className="text-[12.5px] text-slate-400 dark:text-slate-500">Official practice exams open from the provider page.</p>
+                    )}
+                  </div>
+                </div>
+              </div>
+
+              {/* related certifications */}
+              {selectedCert.related.length > 0 && (
+                <div className="mt-4">
+                  <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+                    Related certifications
+                  </p>
+                  <div className="mt-1.5 flex flex-wrap gap-1.5">
+                    {selectedCert.related.map((rid) => {
+                      const rel = relatedCertById.get(rid);
+                      if (!rel) return null;
+                      return (
+                        <button
+                          key={rid}
+                          onClick={() => setSelectedCertId(rid)}
+                          className="rounded-full border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700 dark:border-slate-600 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:bg-brand-500/10 dark:hover:text-brand-300"
+                        >
+                          {rel.name}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* official page CTA */}
+              <div className="mt-4 flex flex-wrap gap-2">
+                <a
+                  href={selectedCert.officialUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-[44px] flex-1 items-center justify-center gap-1.5 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-500"
+                >
+                  <ExternalLink className="h-4 w-4" /> Official details
+                </a>
+                {selectedCert.prep[0] && (
+                  <a
+                    href={selectedCert.prep[0].url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex min-h-[44px] flex-1 items-center justify-center gap-1.5 rounded-lg border border-slate-200 px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700 dark:border-slate-600 dark:text-slate-200 dark:hover:border-brand-500 dark:hover:bg-brand-500/10 dark:hover:text-brand-300"
+                  >
+                    <GraduationCap className="h-4 w-4" /> Exam info
+                  </a>
+                )}
+              </div>
+            </div>
+          )}
+        </>
       )}
     </div>
   );
@@ -940,7 +1509,8 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
           {tab === "overview" && overviewContent}
           {tab === "resources" && resourcesContent}
           {tab === "practice" && practiceContent}
-          {tab === "projects" && projectsContent}
+          {tab === "projects" && hasProjects && projectsContent}
+          {tab === "certifications" && hasCerts && certificationsContent}
         </>
       )}
       <div className="h-[env(safe-area-inset-bottom,20px)] sm:h-8" />

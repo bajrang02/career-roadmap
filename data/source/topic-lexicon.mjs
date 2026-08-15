@@ -60,7 +60,7 @@ export const fillLexicon = (obj, careerTitle) => {
 const FAMILIES = [
   {
     name: "data-structures",
-    re: /array|linked list|stack|queue|tree|graph|hash|heap|sort|search|recursion|dynamic programming|big-o|sliding window|two pointer|bfs|dfs|binary search|greedy|backtracking|data structure|algorithm/i,
+    re: /array|linked list|stack|queue|\btree\b|\bgraph\b|\bhash\b|heap|\bsort\b|\bsearch\b|recursion|dynamic programming|big-o|sliding window|two pointer|bfs|dfs|binary search|greedy|backtracking|data structure|algorithm/i,
     what: "{label} is a core data-structure or algorithm concept: the way data is organised or processed in {career} work. Understanding its mechanics, complexity and trade-offs is what lets you choose the right tool for the problem instead of reaching for the first one that compiles.",
     why: "Data structures and algorithm analysis are the backbone of technical interviews and the vocabulary of every efficiency discussion.",
     used: "These ideas appear in production systems constantly — databases, caches, search, compilers and networks are all built from these fundamentals.",
@@ -120,7 +120,7 @@ const FAMILIES = [
   },
   {
     name: "frontend",
-    re: /html|css|javascript|dom|browser|responsive|flexbox|grid|component|react|vue|angular|svelte|state|hook|styling|accessib|seo|animation|tailwind|bootstrap|sass|typescript|frontend|ui |user interface|rendering|layout|font|color|media query/i,
+    re: /html|\bcss\b|javascript|\bdom\b|dom manipulation|\bbrowser\b|responsive|flexbox|css grid|grid layout|web component|\breact\b|\bvue\b|\bangular\b|\bsvelte\b|tailwind|bootstrap|\bsass\b|typescript|frontend|user interface|accessib|\bseo\b|styling|media query|\bstate\b|\bhooks?\b|\bjsx\b|\becmascript\b|\bes6\b|\bes7\b/i,
     what: "{label} is a frontend concept: how the user-facing layer of a web application is built, styled and made interactive in {career} work. It is the part users see and feel, and where design meets engineering.",
     why: "The frontend is the product's first impression — performance, accessibility and polish there determine whether users stay or leave.",
     used: "Every website, web app and increasingly mobile app is built on frontend technologies, making this one of the most in-demand skill areas.",
@@ -150,7 +150,7 @@ const FAMILIES = [
   },
   {
     name: "programming",
-    re: /function|variable|loop|condition|operator|method|argument|parameter|return value|statement|expression|syntax|compile|runtime|debug|exception|error handling|\bscope\b|closure|callback|promise|async|await|thread|concurrency|inheritance|polymorphism|encapsulation|abstraction|\binterface\b|generic|iteration|boolean|integer|\bstring\b|\bobject\b|\bclass\b|higher-order|data type|type system|static typing|dynamic typing|immutab|side effect|pure function|hoisting|prototype chain|event loop|memory management|garbage collection/i,
+    re: /function|variable|loop|condition|operator|method|argument|parameter|return value|\b(?:if|return|for|while|switch|control|loop) statements?\b|expression|syntax|compile|runtime|debug|exception|error handling|\bscope\b|closure|callback|promise|async|await|thread|concurrency|inheritance|polymorphism|encapsulation|abstraction|\binterface\b|generic|iteration|boolean|integer|\bstring\b|\bobject\b|\bclass\b|higher-order|data type|type system|static typing|dynamic typing|immutab|side effect|pure function|hoisting|prototype chain|event loop|memory management|garbage collection/i,
     what: "{label} is a programming-language concept: the language features and runtime behaviour that shape how code is written and executed in {career} work. It is the mechanics behind the syntax — how values, functions and memory actually behave.",
     why: "Deep language knowledge is what separates developers who copy patterns from developers who can reason about why code behaves the way it does.",
     used: "Every codebase, library and framework is built on these fundamentals — they appear in code reviews, debugging sessions and interviews.",

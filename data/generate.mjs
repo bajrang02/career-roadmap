@@ -39,6 +39,9 @@ import { SKILL_SKELETON_BUILDERS } from "./source/skill-skeletons.mjs";
 import { LANGUAGE_CURRICULA, CURRICULUM_LANGS } from "./source/language-curricula.mjs";
 import { LANGUAGE_SUBTOPICS } from "./source/language-subtopics.mjs";
 import { LANGUAGE_KNOWLEDGE } from "./source/language-knowledge.mjs";
+import { CERTIFICATIONS, CERT_BY_ID } from "./source/certifications.mjs";
+import { CERT_CAREER_MAP, CERT_SKILL_MAP, CERT_TOPIC_MAP } from "./source/cert-mappings.mjs";
+import { PROJECT_COMPANIONS, PROJECT_GUARDS, PROJECT_TITLE_HINTS } from "./source/project-catalog.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dirname, "generated");
@@ -419,6 +422,56 @@ const buildPractice = (label, ctx, nodeDifficulty) => {
   return out;
 };
 
+// ── project building ─────────────────────────────────────────────────────────
+// Curated knowledge entries carry projects as compact { t, d } pairs. They are
+// enriched into the full ProjectRef model (difficulty, time, skills, goal,
+// requirements, outcome, extensions) via the project catalog. Context guards
+// drop web-only project titles from infra/back-end roadmaps ("Shopping cart
+// state" never appears in a DevOps map). When a topic has exactly one project,
+// a catalog companion supplies a second — so meaningful topics offer at least
+// two builds (guided + practical) and empty topics stay empty.
+const enrichProjects = (rawProjects, label, ctx) => {
+  const roadmapSlug = ctx.careerSlug ?? ctx.slug ?? "";
+  const out = [];
+  for (const p of rawProjects || []) {
+    if (!p || !p.t) continue;
+    // context guard — drop web-only projects from non-web roadmaps
+    const guard = PROJECT_GUARDS[p.t];
+    if (guard && !guard.test(roadmapSlug)) continue;
+    const hint = PROJECT_TITLE_HINTS[p.t] ?? {};
+    const comp = PROJECT_COMPANIONS[p.t];
+    out.push({
+      title: p.t,
+      description: p.d || `A hands-on ${label.toLowerCase()} project to prove the skill.`,
+      difficulty: hint.difficulty ?? (comp?.difficulty ?? (/\(advanced|cluster|pipeline|infrastructure|production\)/i.test(p.t) ? "Advanced" : "Intermediate")),
+      duration: hint.time ?? (comp?.time ?? "3–6 hours"),
+      skills: comp?.skills ?? [label],
+      goal: comp?.goal ?? p.d ?? `Build ${p.t.toLowerCase()} to apply ${label.toLowerCase()} in practice.`,
+      requirements: comp?.requirements ?? [],
+      outcomes: comp?.outcome ? [comp.outcome] : [],
+      extensions: comp?.extensions ?? [],
+    });
+  }
+  // exactly one project → add the curated companion for a guided + practical pair
+  if (out.length === 1) {
+    const comp = PROJECT_COMPANIONS[out[0].title];
+    if (comp) {
+      out.push({
+        title: comp.t,
+        description: comp.d,
+        difficulty: comp.difficulty ?? "Intermediate",
+        duration: comp.time ?? "3–5 hours",
+        skills: comp.skills ?? [],
+        goal: comp.goal ?? comp.d,
+        requirements: comp.requirements ?? [],
+        outcomes: comp.outcome ? [comp.outcome] : [],
+        extensions: comp.extensions ?? [],
+      });
+    }
+  }
+  return out;
+};
+
 // ── node builders ────────────────────────────────────────────────────────────
 const TYPES = {
   career: "career", section: "section", subsection: "subsection", topic: "topic",
@@ -606,7 +659,7 @@ function buildNode(label, type, ctx, opts = {}) {
   const rawResources = k?.res?.length ? k.res : fallbackRes(label, ctx);
   const resources = enrichResources(cleanResources(vendorizeResources(rawResources, ctx), label), label, nodeDifficulty);
   const practice = buildPractice(label, ctx, nodeDifficulty);
-  const projects = k?.proj ? k.proj.map((p) => ({ title: p.t, description: p.d })) : [];
+  const projects = k?.proj ? enrichProjects(k.proj, label, ctx) : [];
   // The structured overview is the UI's primary content, so the long prose
   // `description` (a ~700-char paragraph per node) is dead weight in the
   // shipped JSON. Nodes that carry an overview ship a compact two-sentence
@@ -876,7 +929,11 @@ function careerReadyNode(career, ctx) {
       "Advanced"
     ),
     practice: buildPractice("Career Ready", ctx, "Advanced"),
-    projects: career.portfolioIdeas.map((p) => ({ title: p, description: `A portfolio-worthy ${p.toLowerCase()} that proves your skills.` })),
+    projects: enrichProjects(
+      career.portfolioIdeas.map((p) => ({ t: p, d: `A portfolio-worthy ${p.toLowerCase()} that proves your skills.` })),
+      career.title,
+      ctx
+    ),
     interviewQuestions: ["Walk me through your best project", "Why did you choose this career?", "Where do you see yourself in 3 years?"],
     careerRelevance: "This milestone converts your learning into income.",
     commonMistakes: ["Waiting for perfection before applying", "Ignoring soft skills in interviews", "Not updating your portfolio"],
@@ -949,7 +1006,11 @@ function buildCareer(career) {
       career.difficulty
     ),
     practice: buildPractice(career.title, ctx, career.difficulty),
-    projects: career.portfolioIdeas.map((p) => ({ title: p, description: `A flagship ${career.title.toLowerCase()} project for your portfolio.` })),
+    projects: enrichProjects(
+      career.portfolioIdeas.map((p) => ({ t: p, d: `A flagship ${career.title.toLowerCase()} project for your portfolio.` })),
+      career.title,
+      ctx
+    ),
     interviewQuestions: [
       `Why do you want to become a ${career.title.toLowerCase()}?`,
       "Walk me through a project you're proud of",
@@ -1052,7 +1113,11 @@ function buildSkill(skill) {
       skill.difficulty
     ),
     practice: buildPractice(skill.title, ctx, skill.difficulty),
-    projects: (skill.topics?.projects ?? []).map((p) => ({ title: p, description: `A hands-on ${skill.title.toLowerCase()} project to prove the skill.` })),
+    projects: enrichProjects(
+      (skill.topics?.projects ?? []).map((p) => ({ t: p, d: `A hands-on ${skill.title.toLowerCase()} project to prove the skill.` })),
+      skill.title,
+      ctx
+    ),
     interviewQuestions: [
       `Explain ${skill.title.toLowerCase()} to a beginner in simple terms.`,
       "Walk me through a project where you used this skill.",
@@ -1179,7 +1244,66 @@ const collectDetails = (n, map) => {
   for (const o of n.options || []) collectDetails(o, map);
 };
 
+// ── certifications ───────────────────────────────────────────────────────────
+// Each roadmap node carries a `certIds` array (empty when no credential is
+// genuinely relevant — the UI shows a "no widely recognized certification"
+// empty state instead of inventing one). Roots use the curated career/skill
+// maps; topic/concept nodes use the curated topic overrides plus a conservative
+// token match against each cert's topics/skills so only directly relevant
+// credentials appear (e.g. "IAM" → AWS SAA, never a HubSpot cert).
+const CERT_TOKEN = (s) =>
+  (s || "").toLowerCase().replace(/[^a-z0-9+#. ]/g, " ").replace(/\s+/g, " ").trim();
+
+// Topic-level certifications come ONLY from the curated topic map — a fuzzy
+// token matcher produced wrong matches (e.g. "Routing policies" → CCNA, "Roles"
+// → Ansible), and the spec forbids showing unrelated credentials just because
+// they share the same career. Keys match as whole words so "IAM & security"
+// resolves "iam" while "JavaScript" never resolves "java". Nodes without a
+// curated mapping get no certs and the UI shows the empty state.
+//
+// Some keys are ambiguous across contexts ("lambda" = AWS Lambda in a cloud
+// roadmap vs. lambda functions in Python) — those keys are excluded when the
+// roadmap isn't in their owning family.
+const CERT_PHRASE = (s) =>
+  (s || "").toLowerCase().replace(/[^a-z0-9+#. ]/g, " ").replace(/\s+/g, " ").trim();
+
+// ambiguous key → roadmap families where it's genuinely a cloud/provider topic
+const CERT_CONTEXT_KEYS = {
+  lambda: new Set(["aws", "azure", "google-cloud", "cloud-engineer", "cloud-computing", "serverless", "devops", "backend"]),
+};
+const CERT_CONTEXT_WORDS = /cloud|serverless|devops|aws|azure|google|backend|saas/i;
+
+const topicCertIds = (label, ctx = {}) => {
+  const words = CERT_PHRASE(label).split(" ");
+  const roadmapSlug = ctx.careerSlug ?? ctx.slug ?? "";
+  const isCloudFamily = CERT_CONTEXT_WORDS.test(roadmapSlug);
+  for (const [key, ids] of Object.entries(CERT_TOPIC_MAP)) {
+    const keyWords = CERT_PHRASE(key).split(" ");
+    if (!keyWords.length || !keyWords.every((w) => w.length >= 2 && words.includes(w))) continue;
+    // skip ambiguous keys outside their owning family
+    const family = CERT_CONTEXT_KEYS[key];
+    if (family && !family.has(roadmapSlug) && !isCloudFamily) continue;
+    return ids.filter((id) => CERT_BY_ID[id]).slice(0, 4);
+  }
+  return [];
+};
+
+// Walk a built roadmap and attach certIds to root + topic-level nodes.
+function attachRoadmapCerts(root, slug, kind, ctx = {}) {
+  const rootIds = (kind === "career" ? CERT_CAREER_MAP : CERT_SKILL_MAP)[slug] ?? [];
+  root.details.certIds = rootIds.filter((id) => CERT_BY_ID[id]);
+  const walk = (n) => {
+    if (n !== root && (n.type === "topic" || n.type === "concept" || n.type === "advanced")) {
+      n.details.certIds = topicCertIds(n.label, ctx);
+    }
+    for (const c of n.children || []) walk(c);
+    for (const o of n.options || []) walk(o);
+  };
+  for (const c of root.children || []) walk(c);
+}
+
 const writeRoadmap = (slug, data) => {
+  attachRoadmapCerts(data.root, slug, data.meta.kind, { careerSlug: slug });
   // full JSON → data/generated (build-time validation + audits)
   writeFileSync(join(OUT, `${slug}.json`), JSON.stringify(data));
   // slim tree + details map → public/roadmaps (what the app actually serves)
@@ -1188,6 +1312,20 @@ const writeRoadmap = (slug, data) => {
   collectDetails(data.root, detailsMap);
   writeFileSync(join(PUBLIC_OUT, `${slug}.details.json`), JSON.stringify(detailsMap));
 };
+
+// The certification catalog is a single shared static asset the client fetches
+// lazily — only when the Certifications tab is first opened (never on initial
+// page load). Roadmap nodes only ship small certIds arrays. Link fields are
+// normalized from the author-friendly { t, u, k } to { title, url, kind } so
+// the client model stays consistent with Resource/PracticeItem.
+const normalizeCertLinks = (links) => (links || []).map(({ t, u, k }) => ({ title: t, url: u, kind: k }));
+const CERT_PUBLIC = CERTIFICATIONS.map((c) => ({
+  ...c,
+  prep: normalizeCertLinks(c.prep),
+  practice: normalizeCertLinks(c.practice),
+}));
+writeFileSync(join(OUT, "certifications.json"), JSON.stringify(CERT_PUBLIC));
+writeFileSync(join(PUBLIC_OUT, "certifications.json"), JSON.stringify(CERT_PUBLIC));
 
 for (const career of ALL_CAREERS) {
   try {

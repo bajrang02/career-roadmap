@@ -10,18 +10,20 @@
 // The static catalog (index/counts/categories) lives in lib/data-catalog and
 // must only be imported from server components — importing it client-side
 // would bundle ~150 KB of index JSON into every page.
-import type { NodeDetails, Roadmap, SearchEntry } from "./types";
+import type { Certification, NodeDetails, Roadmap, SearchEntry } from "./types";
 import { validateAndRepairRoadmap } from "@/lib/mindmap/validator";
 
 const cache = new Map<string, Roadmap>();
 const detailsCache = new Map<string, Record<string, NodeDetails>>();
+let certsCache: Certification[] | null = null;
+let certsPromise: Promise<Certification[]> | null = null;
 
 // Fetch a single roadmap JSON (the slim tree) from the public/roadmaps static
 // asset. Cached in-memory so repeated opens (planner, dialogs) don't refetch.
 export async function getRoadmap(slug: string): Promise<Roadmap> {
   const cached = cache.get(slug);
   if (cached) return cached;
-  const res = await fetch(`/roadmaps/${slug}.json`, { cache: "force-cache" });
+  const res = await fetch(`/roadmaps/${slug}.json`);
   if (!res.ok) throw new Error(`Failed to load roadmap "${slug}" (${res.status})`);
   const raw = (await res.json()) as Roadmap;
 
@@ -42,11 +44,30 @@ export async function getRoadmap(slug: string): Promise<Roadmap> {
 export async function getRoadmapDetails(slug: string): Promise<Record<string, NodeDetails>> {
   const cached = detailsCache.get(slug);
   if (cached) return cached;
-  const res = await fetch(`/roadmaps/${slug}.details.json`, { cache: "force-cache" });
+  const res = await fetch(`/roadmaps/${slug}.details.json`);
   if (!res.ok) throw new Error(`Failed to load details for "${slug}" (${res.status})`);
   const map = (await res.json()) as Record<string, NodeDetails>;
   detailsCache.set(slug, map);
   return map;
+}
+
+// Lazy-load the shared certification catalog. Fetched once per session — only
+// when the Certifications tab is first opened (never on page load). Node
+// details only ship small certIds arrays; the catalog is a single shared asset.
+export async function getCertifications(): Promise<Certification[]> {
+  if (certsCache) return certsCache;
+  if (!certsPromise) {
+    certsPromise = fetch(`/roadmaps/certifications.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`Failed to load certifications (${res.status})`);
+        return res.json() as Promise<Certification[]>;
+      })
+      .then((data) => {
+        certsCache = data;
+        return data;
+      });
+  }
+  return certsPromise;
 }
 
 export async function getSearchIndex(): Promise<SearchEntry[]> {

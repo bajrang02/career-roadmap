@@ -280,6 +280,12 @@ export const RESOURCE_KIND_META: Record<ResourceKind, { label: string; dot: stri
   community: { label: "Community", dot: "bg-pink-500" },
   certification: { label: "Certification", dot: "bg-indigo-500" },
   search: { label: "Search", dot: "bg-cyan-500" },
+  tutorial: { label: "Tutorial", dot: "bg-emerald-500" },
+  reference: { label: "Reference", dot: "bg-sky-500" },
+  guide: { label: "Guide", dot: "bg-violet-500" },
+  paper: { label: "Paper", dot: "bg-slate-500" },
+  project: { label: "Project", dot: "bg-teal-500" },
+  template: { label: "Template", dot: "bg-fuchsia-500" },
 };
 
 export function resourceKind(kind: ResourceKind) {
