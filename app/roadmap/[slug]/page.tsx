@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { careerBySlug, listRoadmaps } from "@/lib/data-catalog";
-import { getRoadmap } from "@/lib/data-loader";
+import { getRoadmapServer } from "@/lib/roadmap-server";
 import { RoadmapViewer } from "@/components/roadmap/roadmap-viewer";
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -33,8 +33,9 @@ export default async function RoadmapPage({ params }: PageProps) {
   const career = careerBySlug(slug);
   if (!career) notFound();
   // fetch + validate once at build (static), then pass to the client viewer —
-  // no client-side fetch waterfall or runtime validation
-  const roadmap = await getRoadmap(slug);
+  // no client-side fetch waterfall or runtime validation. Reads the generated
+  // JSON from disk so roadmap data stays out of the webpack bundle graph.
+  const roadmap = getRoadmapServer(slug);
   return (
     <Suspense fallback={<div className="h-screen" />}>
       <RoadmapViewer

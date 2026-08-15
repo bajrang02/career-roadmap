@@ -22,12 +22,62 @@ export type ResourceKind =
   | "cheatsheet"
   | "repo"
   | "community"
-  | "certification";
+  | "certification"
+  | "search";
+
+/** Human-readable learning-resource categories shown in the Resources tab.
+ *  Chosen to match the platform taxonomy (Official docs, Beginner tutorial,
+ *  Reference, Course, Interactive tutorial, Article, Book, Cheat sheet…). */
+export type ResourceType =
+  | "Official Documentation"
+  | "Reference Documentation"
+  | "Beginner Tutorial"
+  | "Intermediate Tutorial"
+  | "Advanced Guide"
+  | "Course"
+  | "Interactive Tutorial"
+  | "Article"
+  | "Book"
+  | "Cheat Sheet"
+  | "Video"
+  | "Practice"
+  | "Community"
+  | "Repository"
+  | "Certification"
+  | "Web Search"
+  | "PDF Search"
+  | "Book Search"
+  | "Study Search";
+
+export type DifficultyLevel = "Beginner" | "Intermediate" | "Advanced";
 
 export interface Resource {
   title: string;
   url: string;
+  /** machine-friendly kind (dot color + legacy grouping) */
   kind: ResourceKind;
+  /** human-friendly category label shown in the UI */
+  type: ResourceType;
+  /** display name of the source (MDN, W3Schools, LeetCode…) */
+  provider: string;
+  description: string;
+  difficulty?: DifficultyLevel;
+  estimatedTime?: string;
+  /** true when the source is the official documentation / vendor platform */
+  isOfficial: boolean;
+  /** for generated search resources — the topic-specific search query (e.g. `filetype:pdf "C pointers" programming notes`) */
+  query?: string;
+}
+
+export interface PracticeItem {
+  title: string;
+  platform: string;
+  url: string;
+  difficulty: DifficultyLevel;
+  estimatedTime: string;
+  /** skills this exercise trains, e.g. ["JOIN", "GROUP BY"] */
+  skills: string[];
+  description: string;
 }
 
 export interface ProjectRef {
@@ -50,14 +100,27 @@ export interface CheatSheet {
   usefulShortcuts?: string[];
 }
 
+export interface StructuredOverview {
+  whatIsIt: string;
+  whyMatters: string[];
+  youWillLearn: string[];
+  whereUsed: string[];
+  prerequisites: string[];
+  outcome: string;
+}
+
 export interface NodeDetails {
   description: string;
+  /** structured What is it? / Why it matters / You'll learn / Where it's used / Prerequisites / Outcome */
+  overview?: StructuredOverview;
   whyLearn: string;
   prerequisites: string[];
   objectives: string[];
   difficulty: "Beginner" | "Intermediate" | "Advanced" | "Expert";
   estimatedTime: string;
   resources: Resource[];
+  /** curated hands-on practice links — the "Practice This Topic" tab */
+  practice: PracticeItem[];
   projects: ProjectRef[];
   interviewQuestions: string[];
   exercises?: string[];

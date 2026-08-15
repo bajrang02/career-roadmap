@@ -1,10 +1,8 @@
 "use client";
 
-import { useMemo } from "react";
 import Link from "next/link";
-import { Bookmark, BookOpen, NotebookPen, Trash2 } from "lucide-react";
+import { Bookmark, BookOpen, Trash2 } from "lucide-react";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
-import { useNotesStore } from "@/lib/stores/notes-store";
 import { useUiStore } from "@/lib/stores/ui-store";
 import { timeAgo } from "@/lib/utils";
 import type { RoadmapIndexEntry } from "@/lib/types";
@@ -14,12 +12,6 @@ import { EmptyState } from "@/components/dashboard/empty-state";
 
 export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIndexEntry> }) {
   const bookmarks = useBookmarksStore((s) => s.bookmarks);
-  // Notes are stored per-node in the notes store; flatten + sort newest-first.
-  const notesMap = useNotesStore((s) => s.notes);
-  const notes = useMemo(
-    () => Object.values(notesMap).flat().sort((a, b) => b.updatedAt - a.updatedAt),
-    [notesMap]
-  );
   const toggleBookmark = useBookmarksStore((s) => s.toggleBookmark);
   const toast = useUiStore((s) => s.toast);
 
@@ -51,8 +43,7 @@ export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <p className="eyebrow">
-            {bookmarks.length} saved {bookmarks.length === 1 ? "topic" : "topics"} · {notes.length}{" "}
-            {notes.length === 1 ? "note" : "notes"}
+            {bookmarks.length} saved {bookmarks.length === 1 ? "topic" : "topics"}
           </p>
           <h1 className="page-title mt-1">Saved topics</h1>
         </div>
@@ -66,13 +57,13 @@ export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
         Everything you&apos;ve bookmarked while exploring — jump straight back in.
       </p>
 
-      {grouped.length === 0 && notes.length === 0 ? (
+      {grouped.length === 0 ? (
         <Card className="mt-8">
           <CardContent className="p-8">
             <EmptyState
               icon={Bookmark}
               title="Nothing saved yet"
-              desc="Tap the star on any topic while exploring a roadmap, or write a note in a topic's details panel — both will show up here."
+              desc="Tap the star on any topic while exploring a roadmap — bookmarks show up here."
               action={{ label: "Browse careers", href: "/careers" }}
             />
           </CardContent>
@@ -121,34 +112,6 @@ export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
               </div>
             </section>
           ))}
-
-          {/* notes */}
-          {notes.length > 0 && (
-            <section aria-label="Your notes">
-              <h2 className="flex items-center gap-2 font-display text-base font-bold text-slate-900 dark:text-white">
-                <NotebookPen className="h-4 w-4 text-amber-500" /> Notes ({notes.length})
-              </h2>
-              <div className="mt-3 grid gap-2 sm:grid-cols-2">
-                {notes.slice(0, 12).map((n) => {
-                  const entry = roadmaps[n.roadmapSlug];
-                  return (
-                    <Link
-                      key={n.id}
-                      href={`/roadmap/${n.roadmapSlug}?node=${n.nodeId}`}
-                      className="rounded-xl border border-slate-200 bg-white p-3.5 shadow-card transition hover:border-brand-300 hover:shadow-cardhover dark:border-slate-800 dark:bg-slate-900 dark:hover:border-brand-700"
-                    >
-                      <p className="line-clamp-2 text-xs text-slate-600 dark:text-slate-300">
-                        {n.content}
-                      </p>
-                      <p className="mt-1.5 text-[10px] text-slate-400">
-                        {entry?.icon} {entry?.title} · updated {timeAgo(n.updatedAt)}
-                      </p>
-                    </Link>
-                  );
-                })}
-              </div>
-            </section>
-          )}
         </div>
       )}
     </div>

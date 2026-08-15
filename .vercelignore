@@ -5,3 +5,4 @@ node_modules
 
 # Regenerated at build time by the `prebuild` script (node data/generate.mjs)
 data/generated
+public/roadmaps

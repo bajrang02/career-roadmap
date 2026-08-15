@@ -33,14 +33,26 @@ export function validateAndRepairRoadmap(root: RoadmapNode): RoadmapNode {
 
     // 4. Safe details
     const d = node.details || ({} as Partial<NodeDetails>);
+    const ov = d.overview;
     const details: NodeDetails = {
       description: d.description || "",
+      overview: ov && typeof ov === "object"
+        ? {
+            whatIsIt: String(ov.whatIsIt || ""),
+            whyMatters: Array.isArray(ov.whyMatters) ? ov.whyMatters.map(String) : [],
+            youWillLearn: Array.isArray(ov.youWillLearn) ? ov.youWillLearn.map(String) : [],
+            whereUsed: Array.isArray(ov.whereUsed) ? ov.whereUsed.map(String) : [],
+            prerequisites: Array.isArray(ov.prerequisites) ? ov.prerequisites.map(String) : [],
+            outcome: String(ov.outcome || ""),
+          }
+        : undefined,
       whyLearn: d.whyLearn || "",
       prerequisites: Array.isArray(d.prerequisites) ? d.prerequisites : [],
       objectives: Array.isArray(d.objectives) ? d.objectives : [],
       difficulty: d.difficulty || "Beginner",
       estimatedTime: d.estimatedTime || "1-2 hours",
       resources: Array.isArray(d.resources) ? (d.resources as Resource[]) : [],
+      practice: Array.isArray(d.practice) ? d.practice : [],
       projects: Array.isArray(d.projects) ? (d.projects as ProjectRef[]) : [],
       interviewQuestions: Array.isArray(d.interviewQuestions) ? d.interviewQuestions : [],
       careerRelevance: d.careerRelevance || "",

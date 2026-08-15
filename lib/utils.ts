@@ -279,6 +279,7 @@ export const RESOURCE_KIND_META: Record<ResourceKind, { label: string; dot: stri
   repo: { label: "Repo", dot: "bg-slate-500" },
   community: { label: "Community", dot: "bg-pink-500" },
   certification: { label: "Certification", dot: "bg-indigo-500" },
+  search: { label: "Search", dot: "bg-cyan-500" },
 };
 
 export function resourceKind(kind: ResourceKind) {

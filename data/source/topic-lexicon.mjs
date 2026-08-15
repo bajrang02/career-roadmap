@@ -70,7 +70,7 @@ const FAMILIES = [
   },
   {
     name: "system-design",
-    re: /consisten|availability|load balanc|caching|cache|message queue|event-driven|event driven|schedule driven|background job|cap theorem|replicat|partition|microservice|api gateway|distributed|scalab|latency|throughput|cd n|domain name system|idempoten|rate limit|dead-letter|dead letter|pub\/sub|service discovery|circuit break/i,
+    re: /consisten|availability|load balanc|caching|cache|message queue|event-driven|event driven|schedule driven|background job|cap theorem|replicat|partition|microservice|api gateway|distributed|scalab|latency|throughput|cdn|domain name system|idempoten|rate limit|dead-letter|dead letter|pub\/sub|service discovery|circuit break|system design|architecture|gateway|scheduling|queue/i,
     what: "{label} is a system-design concept: the architectural thinking that determines how production systems stay fast, available and correct as they grow. It is the layer between 'this works on my laptop' and 'this works for a million users'.",
     why: "System design topics dominate senior interviews and every serious architecture discussion, because real systems fail in exactly the ways these concepts describe.",
     used: "These principles show up in the design of every large platform — web services, databases, data pipelines and cloud infrastructure.",
@@ -80,7 +80,7 @@ const FAMILIES = [
   },
   {
     name: "databases",
-    re: /sql|database|query|index|join|transaction|schema|table|crud|normaliz|nosql|mongodb|postgres|mysql|redis|oracle|sqlite|acid|aggregation|group by|select|where clause|migration|stored procedur|view|trigger|sharding|backup|recovery|data model/i,
+    re: /sql|database|query|index|join|transaction|schema|\btable\b|crud|normaliz|nosql|mongodb|postgres|mysql|redis|oracle|sqlite|acid|aggregation|group by|\bselect\b|where clause|migration|stored procedur|\bview\b|trigger|sharding|backup|recovery|data model/i,
     what: "{label} is a database concept: how data is stored, queried and kept consistent in {career} work. Databases are the memory of every application, and understanding them separates code that works from systems that survive.",
     why: "Nearly every software role touches data — interviews probe database knowledge constantly, and production incidents trace back to schema and query decisions.",
     used: "From a product's user records to analytics warehouses, databases power the information layer of every organisation.",
@@ -90,7 +90,7 @@ const FAMILIES = [
   },
   {
     name: "cloud-devops",
-    re: /cloud|aws|azure|gcp|lambda|s3|ec2|serverless|vpc|iam|docker|container|kubernetes|k8s|helm|ci\/cd|pipeline|terraform|ansible|jenkins|gitlab|github action|deploy|infrastructure|observab|monitor|alert|logging|metric|slo|incident|on-call|on call|cost optimi|secret|automat/i,
+    re: /cloud|aws|azure|gcp|lambda|s3|ec2|serverless|vpc|iam|docker|container|kubernetes|k8s|helm|ci\/cd|continuous integration|continuous delivery|continuous deployment|pipeline|terraform|ansible|jenkins|gitlab|github action|deploy|infrastructure|observab|monitor|alert|logging|metric|slo|incident|\bon[- ]call\b|cost optimi|secret|automat/i,
     what: "{label} is a cloud or DevOps concept: how modern systems are built, deployed and operated at scale in {career} work. It is the discipline of turning code into reliably running, observable software.",
     why: "Cloud and DevOps practices are the operating model of the entire industry — every deployed system runs on them, and roles in this area are in constant demand.",
     used: "From startup MVPs to enterprise platforms, these tools and practices run the infrastructure everything else sits on.",
@@ -100,7 +100,7 @@ const FAMILIES = [
   },
   {
     name: "networking",
-    re: /network|tcp|udp|ip address|dns|http|https|routing|switching|subnet|protocol|packet|socket|firewall|osi|port|vpn|tls|load balanc|ping|traceroute|wireshark|bandwidth|dhcp|nat/i,
+    re: /network|tcp|udp|ip address|dns|http|https|routing|switching|subnet|protocol|packet|socket|firewall|osi|\bport\b|vpn|tls|load balanc|ping|traceroute|wireshark|bandwidth|dhcp|nat/i,
     what: "{label} is a networking concept: how data moves between computers, devices and services. It is the invisible plumbing that makes the internet, cloud and every distributed system possible.",
     why: "Networking fundamentals explain the behaviour of everything from web requests to database replication, and they are assumed knowledge in infrastructure and security roles.",
     used: "Every request, API call, stream and sync travels a network — understanding it is how you debug, secure and scale systems.",
@@ -130,7 +130,7 @@ const FAMILIES = [
   },
   {
     name: "backend",
-    re: /api|rest|graphql|server|node|express|middleware|auth|jwt|session|oauth|endpoint|request|response|serializ|validation|rate limit|webhook|microservice|backend|server-side|server side|worker|queue|daemon/i,
+    re: /api|rest|graphql|server|node|express|middleware|authentication|authorization|authn|authz|jwt|session|oauth|endpoint|request|response|serializ|validation|rate limit|webhook|microservice|backend|server-side|server side|worker|queue|daemon/i,
     what: "{label} is a backend concept: how the logic, data and services behind an application are designed and exposed in {career} work. It is the engine room the frontend talks to.",
     why: "Backend design determines how an application scales, stays secure and integrates with the rest of the system — and it is the core of most engineering roles.",
     used: "APIs, services and data layers power everything from mobile apps to enterprise platforms to internal tooling.",
@@ -140,7 +140,7 @@ const FAMILIES = [
   },
   {
     name: "mobile",
-    re: /android|ios|swift|kotlin|flutter|react native|widget|app store|activity|intent|view|screen|mobile|touch|gesture|push notification|permission|app lifecycle|deep link/i,
+    re: /android|ios|swift|kotlin|flutter|react native|widget|app store|activity|intent|\bview\b|screen|mobile|touch|gesture|push notification|permission|app lifecycle|deep link/i,
     what: "{label} is a mobile development concept: how applications for phones and tablets are built and shipped in {career} work. It covers the platform, its UX conventions and the store ecosystem.",
     why: "Mobile is how most of the world accesses software — and mobile developers are among the most consistently in demand.",
     used: "From consumer apps to enterprise field tools, mobile platforms power billions of daily interactions.",
@@ -149,8 +149,28 @@ const FAMILIES = [
     outcome: "By the end you'll be able to build, test and publish mobile apps that respect the platform's conventions.",
   },
   {
+    name: "programming",
+    re: /function|variable|loop|condition|operator|method|argument|parameter|return value|statement|expression|syntax|compile|runtime|debug|exception|error handling|\bscope\b|closure|callback|promise|async|await|thread|concurrency|inheritance|polymorphism|encapsulation|abstraction|\binterface\b|generic|iteration|boolean|integer|\bstring\b|\bobject\b|\bclass\b|higher-order|data type|type system|static typing|dynamic typing|immutab|side effect|pure function|hoisting|prototype chain|event loop|memory management|garbage collection/i,
+    what: "{label} is a programming-language concept: the language features and runtime behaviour that shape how code is written and executed in {career} work. It is the mechanics behind the syntax — how values, functions and memory actually behave.",
+    why: "Deep language knowledge is what separates developers who copy patterns from developers who can reason about why code behaves the way it does.",
+    used: "Every codebase, library and framework is built on these fundamentals — they appear in code reviews, debugging sessions and interviews.",
+    core: ["The concept and its precise behaviour", "The common pitfalls and gotchas", "How it is used idiomatically in real code"],
+    mistake: "The classic mistake is learning the syntax without the semantics, so code that looks right fails in subtle, hard-to-debug ways.",
+    outcome: "By the end you'll be able to write idiomatic code, predict how it behaves and debug it confidently.",
+  },
+  {
+    name: "testing",
+    re: /test|assert|unit test|integration test|e2e|end-to-end|qa|quality assurance|fixture|mock|stub|regression|coverage|tdd|bdd|test case|test suite|test plan|test environment|test data|snapshot|locator|selector|cypress|jest|pytest|junit|selenium|playwright/i,
+    what: "{label} is a software-testing concept: the practices and tooling that verify code behaves as intended in {career} work. Testing is how teams ship with confidence instead of hope.",
+    why: "Testing skills are assumed in professional engineering roles — reliable tests protect products, save debugging time and are a core interview topic.",
+    used: "From unit tests in a codebase to end-to-end suites and CI pipelines, testing runs through the entire delivery process.",
+    core: ["What is being tested and why", "The right test level and technique", "How tests fit into CI and delivery"],
+    mistake: "The classic mistake is testing what is easy to test rather than what matters, producing coverage that gives false confidence.",
+    outcome: "By the end you'll be able to write meaningful tests, interpret failures and keep a suite reliable as the codebase grows.",
+  },
+  {
     name: "ai-ml",
-    re: /machine learning|neural|deep learning|tensor|model|training|dataset|feature|regression|classification|cluster|nlp|natural language|vision|transformer|llm|prompt|rag|embedding|vector database|generative|ai |ml |inference|gradient|backprop|fine-tun|fine tun|token|attention/i,
+    re: /machine learning|neural|deep learning|tensor|model|training|dataset|feature|regression|classification|cluster|nlp|natural language|vision|transformer|llm|prompt|rag|embedding|vector database|generative|\bai\b|\bml\b|inference|gradient|backprop|fine-tun|fine tun|token|attention|k-means|k means|kmeans/i,
     what: "{label} is an AI or machine-learning concept: how systems learn from data and make predictions in {career} work. It is the fastest-moving and most transformative area of modern computing.",
     why: "AI and ML skills command premium roles across every industry, and understanding the concepts is what turns tools into capability.",
     used: "From recommendation engines and chatbots to computer vision and generative tools, ML powers the intelligence layer of modern products.",
@@ -170,7 +190,7 @@ const FAMILIES = [
   },
   {
     name: "design",
-    re: /design|ux|ui|figma|typograph|color theory|layout|wireframe|prototype|brand|logo|illustrator|photoshop|user experience|user interface|usability|heuristic|persona|journey|mockup|hierarchy|contrast|white space|grid system/i,
+    re: /design|ux|\bui\b|figma|typograph|color theory|layout|wireframe|prototype|brand|logo|illustrator|photoshop|user experience|user interface|usability|heuristic|persona|journey|mockup|hierarchy|contrast|white space|grid system/i,
     what: "{label} is a design concept: how products are shaped to be usable, attractive and effective in {career} work. It is where psychology, aesthetics and function meet.",
     why: "Design determines whether a product is understood, trusted and enjoyed — and design skills are valued across product, engineering and marketing roles.",
     used: "From apps and websites to branding and marketing materials, design thinking shapes how people experience everything digital.",
@@ -200,7 +220,7 @@ const FAMILIES = [
   },
   {
     name: "math",
-    re: /calculus|linear algebra|probability|statistics|algebra|trigonometry|differential equation|matrix|vector|derivative|integral|function|graph|theorem|proof|geometry|discrete|number theory|optimization|series/i,
+    re: /calculus|linear algebra|probability|statistics|algebra|trigonometry|differential equation|matrix|vector|derivative|integral|limit|continuity|function|graph|theorem|proof|geometry|discrete|number theory|optimization|series|calculus essentials/i,
     what: "{label} is a mathematics concept: the branch of mathematics and how it is applied in {career} work. Math is the shared language of engineering, data and computer science.",
     why: "Mathematical reasoning underpins everything from algorithms and machine learning to engineering analysis — and it is a foundation interviewers test.",
     used: "Quantitative fields rely on these tools daily: modelling, optimisation, data science, control systems and scientific computing.",
@@ -210,7 +230,7 @@ const FAMILIES = [
   },
   {
     name: "exam-career",
-    re: /exam|aptitude|reasoning|mock test|upsc|ssc|banking|railways|current affairs|general awareness|english language|interview|resume|salary|offer|negotiat|portfolio|job|networking|behavioral|star method|certification|career|specializ|leadership|growth|role|job hunt|application|recruit/i,
+    re: /exam|aptitude|reasoning|mock test|upsc|ssc|banking|railways|current affairs|general awareness|english language|interview|resume|salary|offer|negotiat|portfolio|job search|job hunt|job application|job interview|job offer|job market|job posting|job description|professional networking|behavioral|star method|certification|career|specializ|leadership|growth|role|career change|career switch|career path|recruit/i,
     what: "{label} is a career or assessment concept: the strategy and preparation that turns knowledge into results in {career} — whether in a competitive exam, a hiring process or a career move.",
     why: "Preparation strategy often decides outcomes as much as raw ability does — and knowing how to approach the process is a skill in itself.",
     used: "From competitive exams to interviews, negotiations and career planning, these techniques apply at every career milestone.",
@@ -262,41 +282,46 @@ const FAMILIES = [
 
 const DEFAULT_FAMILY = {
   name: "general",
-  what: "{label} is a key part of {career} work: the concept, tool or practice that professionals in this field actually use day to day. It belongs in this roadmap because it directly supports the kind of work the career involves.",
-  why: "Professionals in this field are expected to know it — it shows up in everyday work, in projects and in the discussions that shape decisions.",
-  used: "You will meet it in real scenarios: in projects, on the job and in the way practitioners describe their work.",
-  core: ["What it is and what it is for", "How it is used in practice", "Where it fits in the wider field"],
+  what: "{label} is the working knowledge of one specific part of {career}: what it does, how it behaves and why practitioners reach for it. Mastering it means you understand the idea itself, not just a surface description — which is what lets you apply it to real problems instead of following steps.",
+  why: "It is one of the things {career} professionals are expected to handle competently — it appears in everyday work, in projects and in the decisions teams make.",
+  used: "You will meet it in real {career} scenarios: in projects, on the job and in the way practitioners describe their work.",
+  core: ["What {label} is and what it is for", "How {label} is used correctly in real work", "Where {label} fits in the wider field"],
   mistake: "The classic mistake is learning it in isolation, without connecting it to the real workflows where it earns its place.",
-  outcome: "By the end you'll be able to recognise where it applies, use it confidently and build on it in later topics.",
+  outcome: "By the end you'll be able to recognise where {label} applies, use it confidently and build on it in later topics.",
 };
 
 const familyFor = (label) => FAMILIES.find((f) => f.re.test(label)) ?? DEFAULT_FAMILY;
 
+export { familyFor };
+
 // ── Label-aware composer (long-tail fallback) ────────────────────────────────
 // Produces a genuinely topic-specific description for any label using real
-// family facts + the label, type, parent and career name. Never emits the
-// generic template phrases the old fallback used.
+// family facts + the label, type, parent and career name. Every sentence
+// embeds the actual topic label so no node reads as copy-paste filler.
 export function composeLabelAware(label, type, careerTitle, parentLabel) {
   const fam = familyFor(label);
   const clean = label.replace(/^Understand:\s*/i, "").replace(/—\s*(fundamentals|practice).*$/i, "").trim();
   const what = fam.what.replaceAll("{label}", clean).replaceAll("{career}", careerTitle);
   const why = fam.why.replaceAll("{label}", clean).replaceAll("{career}", careerTitle);
   const used = fam.used.replaceAll("{label}", clean).replaceAll("{career}", careerTitle);
+  const core = fam.core.map((c) => c.replaceAll("{label}", clean).replaceAll("{career}", careerTitle));
+  const mistake = fam.mistake.replaceAll("{label}", clean).replaceAll("{career}", careerTitle);
+  const outcome = fam.outcome.replaceAll("{label}", clean).replaceAll("{career}", careerTitle);
 
   let lead;
   if (type === "project" || /project/i.test(clean)) {
-    lead = `${clean} is a hands-on project where you apply ${careerTitle} skills to build something real and working. Projects are how understanding becomes ability: you plan, build, debug and finish, and the result is something you can show and discuss. ${why} ${used} You'll practise the full cycle — scoping the work, building it, testing it and presenting it. ${fam.mistake} ${fam.outcome}`;
+    lead = `${clean} is a hands-on project where you apply ${careerTitle} skills to build something real and working. Projects are how understanding becomes ability: you plan, build, debug and finish, and the result is something you can show and discuss. ${why} ${used} You'll practise the full cycle — scoping the work, building it, testing it and presenting it. ${mistake} ${outcome}`;
   } else if (type === "section") {
-    lead = `This section focuses on ${clean}, one of the concrete skill areas within ${careerTitle}. It gathers the related topics you'll need at this stage of the roadmap, and it sets up the sections that follow by building the knowledge they assume. ${why} ${used} You'll cover ${fam.core[0]}, ${fam.core[1]} and ${fam.core[2]}. ${fam.mistake} ${fam.outcome}`;
+    lead = `This section focuses on ${clean}, one of the concrete skill areas within ${careerTitle}. It gathers the related topics you'll need at this stage of the roadmap, and it sets up the sections that follow by building the knowledge they assume. ${why} ${used} You'll cover ${core[0]}, ${core[1]} and ${core[2]}. ${mistake} ${outcome}`;
   } else if (type === "subsection") {
-    lead = `${clean} is a grouped set of related topics inside the ${careerTitle} roadmap, designed to be learned together because they reinforce one another. ${why} ${used} Working through them as a cluster gives you a complete picture of this part of the field. ${fam.mistake} ${fam.outcome}`;
+    lead = `${clean} is a grouped set of related topics inside the ${careerTitle} roadmap, designed to be learned together because they reinforce one another. ${why} ${used} Working through them as a cluster gives you a complete picture of this part of the field. ${mistake} ${outcome}`;
   } else if (type === "concept" || type === "advanced") {
-    const parent = parentLabel ? ` within ${parentLabel}` : "";
-    lead = `${clean} is a specific concept${parent} that ${careerTitle} professionals work with directly. Understanding it at this level — what it is, why it matters and how it behaves in practice — is what lets you reason about real problems rather than follow steps. ${why} ${used} ${fam.mistake} ${fam.outcome}`;
+    const parent = parentLabel ? ` inside ${parentLabel}` : "";
+    lead = `${what} ${why} ${used} ${mistake} ${outcome}`;
   } else if (type === "career" || type === "achievement") {
-    lead = `${clean} marks an important milestone in the ${careerTitle} journey: the point where the work you've done comes together into capability you can use. ${why} ${used} ${fam.mistake} ${fam.outcome}`;
+    lead = `${clean} marks an important milestone in the ${careerTitle} journey: the point where the work you've done comes together into capability you can use. ${why} ${used} ${mistake} ${outcome}`;
   } else {
-    lead = `${clean} is a practical topic in ${careerTitle}: the ideas and techniques professionals use when they work with this area. It appears at this stage because it builds on what you've already covered and feeds the topics that come next. ${why} ${used} You'll cover ${fam.core[0]}, ${fam.core[1]} and ${fam.core[2]}. ${fam.mistake} ${fam.outcome}`;
+    lead = `${what} ${why} ${used} You'll cover ${core[0]}, ${core[1]} and ${core[2]}. ${mistake} ${outcome}`;
   }
   return lead;
 }

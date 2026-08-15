@@ -273,7 +273,7 @@ export function HowItWorks({ catalog }: { catalog: HomeCatalog }) {
 const FEATURES = [
   { icon: FolderKanban, title: "Projects at every step", desc: "Every major topic ships with hands-on projects that grow with you — from a mini resume to a full app." },
   { icon: MessageSquare, title: "Interview prep built in", desc: "Real interview questions, common mistakes and tips live inside every topic's detail panel." },
-  { icon: Bookmark, title: "Bookmarks & notes", desc: "Save nodes, scribble notes, mark favorites — everything is stored privately on this device." },
+  { icon: Bookmark, title: "Bookmarks & progress", desc: "Star topics while you explore — progress, favorites and streaks are stored privately on this device." },
   { icon: Award, title: "Certificates & streaks", desc: "Earn achievements, keep learning streaks alive and download a certificate per completed roadmap." },
   { icon: Zap, title: "Fast & responsive", desc: "Lazy-loaded roadmaps, virtual canvas rendering and buttery zoom/pan on every device." },
   { icon: GraduationCap, title: "Always current", desc: "Roadmaps track 2026 industry standards — modern frameworks, tools and best practices." },

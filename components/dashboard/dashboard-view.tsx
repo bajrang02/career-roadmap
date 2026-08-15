@@ -9,7 +9,6 @@ import {
   BookOpen,
   CalendarDays,
   Flame,
-  NotebookPen,
   Sparkles,
   Target,
 } from "lucide-react";
@@ -20,7 +19,6 @@ import {
   type Certificate,
 } from "@/lib/stores/progress-store";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
-import { useNotesStore } from "@/lib/stores/notes-store";
 import { useSettingsStore } from "@/lib/stores/settings-store";
 import { timeAgo, formatDate, cn } from "@/lib/utils";
 import type { RoadmapIndexEntry } from "@/lib/types";
@@ -34,8 +32,7 @@ type AchievementCheck = (
   n: number,
   done: Record<string, { done: number; total: number }>,
   streak: number,
-  bookmarks: number,
-  notes: number
+  bookmarks: number
 ) => boolean;
 
 const ACHIEVEMENT_DEFS: {
@@ -53,7 +50,6 @@ const ACHIEVEMENT_DEFS: {
   { key: "week", icon: "📅", title: "Week Warrior", desc: "7-day learning streak", check: (_n, _d, streak) => streak >= 7 },
   { key: "starter", icon: "🗺️", title: "Explorer", desc: "Start 3 roadmaps", check: (_n, done) => Object.keys(done).length >= 3 },
   { key: "bookmark", icon: "🔖", title: "Curator", desc: "Save your first bookmark", check: (_n, _d, _s, bookmarks) => bookmarks >= 1 },
-  { key: "notes", icon: "📝", title: "Note Taker", desc: "Write your first note", check: (_n, _d, _s, _b, notes) => notes >= 1 },
 ];
 
 export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIndexEntry> }) {
@@ -62,14 +58,6 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
   const certificates = useProgressStore((s) => s.certificates);
   const grantCertificate = useProgressStore((s) => s.grantCertificate);
   const bookmarks = useBookmarksStore((s) => s.bookmarks);
-  // Notes live in the notes store (keyed by node id, multi-note); flatten + sort
-  // newest-first once — the full list is used for the achievement count, and
-  // the first few are shown as "Recent notes".
-  const notesMap = useNotesStore((s) => s.notes);
-  const notes = useMemo(
-    () => Object.values(notesMap).flat().sort((a, b) => b.updatedAt - a.updatedAt),
-    [notesMap]
-  );
 
   const perRoadmap = useMemo(() => {
     const map: Record<string, { done: number; total: number }> = {};
@@ -87,12 +75,11 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
 
   const achievements = useMemo(() => {
     const bookmarksCount = bookmarks.length;
-    const notesCount = notes.length;
     return ACHIEVEMENT_DEFS.map((a) => {
-      const earned = a.check(totalDone, perRoadmap, streak, bookmarksCount, notesCount);
+      const earned = a.check(totalDone, perRoadmap, streak, bookmarksCount);
       return { ...a, earned };
     });
-  }, [totalDone, perRoadmap, streak, bookmarks, notes]);
+  }, [totalDone, perRoadmap, streak, bookmarks]);
 
   const earnedCount = achievements.filter((a) => a.earned).length;
 
@@ -344,33 +331,6 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
             </CardContent>
           </Card>
 
-          {/* notes */}
-          <Card>
-            <CardHeader className="pb-2">
-              <CardTitle className="flex items-center gap-2 text-base">
-                <NotebookPen className="h-4 w-4 text-amber-500" /> Recent notes
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-2">
-              {notes.length === 0 ? (
-                <p className="text-sm text-slate-400">
-                  Open a topic and write a note — they show up here.
-                </p>
-              ) : (
-                notes.slice(0, 3).map((n) => {
-                  const entry = roadmaps[n.roadmapSlug];
-                  return (
-                    <div key={n.id} className="rounded-xl bg-slate-50 p-3 dark:bg-slate-700/50">
-                      <p className="line-clamp-2 text-xs text-slate-600 dark:text-slate-300">{n.content}</p>
-                      <p className="mt-1.5 text-[10px] text-slate-400">
-                        {entry?.title} · updated {timeAgo(n.updatedAt)}
-                      </p>
-                    </div>
-                  );
-                })
-              )}
-            </CardContent>
-          </Card>
         </div>
       </div>
     </div>

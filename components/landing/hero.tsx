@@ -300,7 +300,7 @@ export function Hero({ stats }: { stats: HeroStats }) {
               </div>
               <div>
                 <p className="text-xs font-semibold text-slate-900 dark:text-white">Progress tracked</p>
-                <p className="text-[11px] text-slate-400">streaks · notes · certificates</p>
+                <p className="text-[11px] text-slate-400">streaks · bookmarks · certificates</p>
               </div>
             </div>
           </motion.div>

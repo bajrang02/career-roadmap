@@ -34,6 +34,7 @@ next-env.d.ts
 
 # generated roadmap data
 /data/generated/
+/public/roadmaps/
 
 # Freebuff desktop app internals (local only — not part of the project)
 /.freebuff/

@@ -55,6 +55,178 @@ const isGeneric = (s) => {
   return GENERIC_PHRASES.some((p) => low.includes(p));
 };
 
+// ── resource / practice validation ───────────────────────────────────────────
+// Generic search URLs are banned outright — a curated platform never ships a
+// google/youtube/bing search page as a learning resource.
+const SEARCH_URL_RE = /(google\.com\/search|youtube\.com\/results|bing\.com\/search|duckduckgo\.com\/\?q=)/i;
+// Known-broken / placeholder domains that must never ship.
+const BAD_HOSTS = ["localhost", "127.0.0.1", "example.com", "yourdomain.com", "placeholder.com"];
+
+const requiredResourceFields = ["title", "url", "kind", "type", "provider", "description", "difficulty", "estimatedTime"];
+const requiredPracticeFields = ["title", "platform", "url", "difficulty", "estimatedTime"];
+
+function checkResources(node, d, file) {
+  // empty is an INTENTIONAL state ("no verified resource available yet") —
+  // reported as info so it can be tracked without failing the build.
+  if (!Array.isArray(d.resources)) {
+    report(file, "error", `node "${node.label}" (${node.type}) has non-array resources`);
+    return;
+  }
+  if (d.resources.length === 0) {
+    report(file, "info", `node "${node.label}" (${node.type}) has no verified resources (intentional empty state)`);
+    return;
+  }
+  const seen = new Set();
+  for (const r of d.resources) {
+    if (!r || typeof r !== "object") {
+      report(file, "error", `node "${node.label}" has a malformed resource entry`);
+      continue;
+    }
+    for (const f of requiredResourceFields) {
+      if (r[f] === undefined || r[f] === null || (typeof r[f] === "string" && !r[f].trim())) {
+        report(file, "error", `node "${node.label}" resource "${r.title || "?"}" missing field ${f}`);
+      }
+    }
+    if (typeof r.url !== "string") continue;
+    if (SEARCH_URL_RE.test(r.url)) {
+      report(file, "error", `node "${node.label}" ships a generic search URL: ${r.url}`);
+    }
+    if (!/^https?:\/\//.test(r.url)) {
+      report(file, "error", `node "${node.label}" resource has non-http URL: ${r.url}`);
+    }
+    let host = "";
+    try {
+      host = new URL(r.url).hostname.replace(/^www\./, "").toLowerCase();
+    } catch {
+      report(file, "error", `node "${node.label}" resource has unparseable URL: ${r.url}`);
+    }
+    if (host && BAD_HOSTS.includes(host)) {
+      report(file, "error", `node "${node.label}" ships placeholder/broken host (${host}): ${r.url}`);
+    }
+    if (seen.has(r.url)) {
+      report(file, "error", `node "${node.label}" has duplicate resource URL: ${r.url}`);
+    }
+    seen.add(r.url);
+    if (typeof r.isOfficial !== "boolean") {
+      report(file, "error", `node "${node.label}" resource "${r.title}" missing boolean isOfficial`);
+    }
+  }
+}
+
+function checkPractice(node, d, file) {
+  if (d.practice === undefined || d.practice === null) {
+    report(file, "warn", `node "${node.label}" (${node.type}) has no practice array`);
+    return;
+  }
+  if (!Array.isArray(d.practice)) {
+    report(file, "error", `node "${node.label}" (${node.type}) has non-array practice`);
+    return;
+  }
+  const seen = new Set();
+  for (const p of d.practice) {
+    if (!p || typeof p !== "object") {
+      report(file, "error", `node "${node.label}" has a malformed practice entry`);
+      continue;
+    }
+    for (const f of requiredPracticeFields) {
+      if (p[f] === undefined || p[f] === null || (typeof p[f] === "string" && !p[f].trim())) {
+        report(file, "error", `node "${node.label}" practice "${p.title || "?"}" missing field ${f}`);
+      }
+    }
+    if (typeof p.url === "string") {
+      if (SEARCH_URL_RE.test(p.url)) report(file, "error", `node "${node.label}" practice ships a search URL: ${p.url}`);
+      if (!/^https?:\/\//.test(p.url)) report(file, "error", `node "${node.label}" practice has non-http URL: ${p.url}`);
+      if (seen.has(p.url)) report(file, "error", `node "${node.label}" has duplicate practice URL: ${p.url}`);
+      seen.add(p.url);
+    }
+    if (!Array.isArray(p.skills)) {
+      report(file, "error", `node "${node.label}" practice "${p.title || "?"}" missing skills array`);
+    }
+  }
+}
+
+// ── cross-domain contamination check ─────────────────────────────────────────
+// High-precision only: a label flagged here is unambiguously a leak from
+// another language/domain ("Arrow functions" inside C, "React Hooks" inside
+// an engineering career, "JVM" inside Python…). Roadmap slugs with the tech
+// in their own name (javascript containing "Arrow functions") are exempt.
+const CONTAMINATION = [
+  // [label regex, must NOT appear in roadmap slug]
+  [/\barrow function/i, /(javascript|typescript|js$|js-|frontend|web|full.?stack|react|node|php)/],
+  [/\bthis binding\b/i, /(javascript|typescript|js$|js-|frontend|web|full.?stack|react)/],
+  [/\biifes?\b/i, /(javascript|typescript|js$|js-|frontend|web|full.?stack|react)/],
+  [/\bhoisting\b/i, /(javascript|typescript|js$|js-|frontend|web|full.?stack|react|node)/],
+  [/\bjsx\b/i, /(javascript|typescript|js$|js-|frontend|web|fullstack|react|node)/],
+  [/\breact hooks?\b/i, /(react|frontend|web|fullstack|javascript|typescript|node)/],
+  [/\bred[\s-]?ux\b/i, /(react|frontend|web|fullstack|javascript|typescript)/],
+  [/\bnpm\b/i, /(node|javascript|typescript|js$|js-|frontend|web|full.?stack|react|vue|angular|bootstrap|sass|css)/],
+  [/\bjsx syntax\b/i, /(react|frontend|web|fullstack|javascript|typescript)/],
+  [/\bvirtual dom\b/i, /(react|vue|frontend|web|fullstack|javascript|typescript)/],
+  [/\bjvm\b/i, /(java|kotlin|scala|groovy|android|jvm)/],
+  [/\bmaven\b/i, /(java|kotlin|scala|groovy|android|jvm|spring)/],
+  [/\bgradle\b/i, /(java|kotlin|scala|groovy|android|jvm|spring)/],
+  [/\bspring boot\b/i, /(java|kotlin|scala|groovy|jvm|spring|backend|fullstack|web)/],
+  [/\bchecked exceptions?\b/i, /(java|kotlin|groovy|jvm|csharp)/],
+  [/\bautoboxing\b/i, /(java|kotlin|groovy|jvm)/],
+  [/\bjunit\b/i, /(java|kotlin|scala|groovy|jvm|android|spring)/],
+  [/\bcollections framework\b/i, /(java|kotlin|scala|groovy|jvm|android|csharp)/],
+  [/\bpointer arithmetic\b/i, /(c\b|c-|cpp|c\+\+|rust|go\b|golang|embedded|systems|os\b|firmware|kernel)/],
+  [/\bmalloc\b/i, /(c\b|c-|cpp|c\+\+|rust|embedded|systems|os\b|firmware|kernel)/],
+  [/\bcalloc\b/i, /(c\b|c-|cpp|c\+\+|embedded|systems|firmware|kernel)/],
+  [/\brealloc\b/i, /(c\b|c-|cpp|c\+\+|embedded|systems|firmware|kernel)/],
+  [/\bdereference\b/i, /(c\b|c-|cpp|c\+\+|rust|go\b|golang|embedded|systems|firmware|kernel)/],
+  [/\bpreprocessor\b/i, /(c\b|c-|cpp|c\+\+|embedded|systems|firmware|kernel|css|sass|frontend|web)/],
+  [/\bundefined behavior\b/i, /(c\b|c-|cpp|c\+\+|rust|embedded|systems|firmware|kernel)/],
+  [/\bstorage classes\b/i, /(c\b|c-|cpp|c\+\+|embedded|systems|firmware|kernel)/],
+  [/\btypedef\b/i, /(c\b|c-|cpp|c\+\+|embedded|systems|firmware|kernel|go\b)/],
+  [/\bfunction pointers\b/i, /(c\b|c-|cpp|c\+\+|embedded|systems|firmware|kernel)/],
+  [/\bsegmentation fault\b/i, /(c\b|c-|cpp|c\+\+|embedded|systems|firmware|kernel|rust)/],
+  [/\bdunder\b/i, /(python|py\b|django|flask|fastapi)/],
+  [/\bvirtual environment\b/i, /(python|py\b|django|flask|fastapi|data|ai|ml|learning|nlp|vision|analytics|opencv|engineer|pytorch|tensorflow|scikit|llm|ml)/],
+  [/\bjupyter\b/i, /(python|py\b|django|flask|fastapi|data|ai|ml|learning|nlp|vision|analytics|opencv|engineer|datascience|analyst|matplotlib|pandas|numpy|seaborn|pytorch|tensorflow|scikit|llm)/],
+  [/\bvenv\b/i, /(python|py\b|django|flask|fastapi|data|ai|ml|learning|nlp|vision|analytics|opencv|engineer)/],
+  [/\bpandas\b/i, /(python|py\b|django|flask|fastapi|data|ai|ml|learning|nlp|vision|analytics|opencv|engineer|datascience|analyst|pandas)/],
+  [/\bnumpy\b/i, /(python|py\b|django|flask|fastapi|data|ai|ml|learning|nlp|vision|analytics|opencv|engineer|datascience|analyst|numpy)/],
+  [/\bmatplotlib\b/i, /(python|py\b|django|flask|fastapi|data|ai|ml|learning|nlp|vision|analytics|opencv|engineer|datascience|analyst|matplotlib|seaborn)/],
+  [/\brubygems?\b/i, /(ruby|rails)/],
+  [/\bbundler\b/i, /(ruby|rails|javascript|typescript|frontend|web|fullstack|node)/],
+  [/\bgoroutines?\b/i, /(go\b|golang|backend|fullstack|devops|cloud|network)/],
+  [/\bgopath\b/i, /(go\b|golang)/],
+  [/\bcargo\b/i, /(rust)/],
+  [/\bownership\b.*\bborrow\b/i, /(rust|cpp|embedded|systems)/],
+  [/\blifetimes\b/i, /(rust)/],
+  [/\bswiftui\b/i, /(swift|ios|apple|macos)/],
+  [/\bxcode\b/i, /(swift|ios|apple|macos)/],
+  [/\blinq\b/i, /(csharp|dotnet|microsoft|aspnet)/],
+  [/\bnuget\b/i, /(csharp|dotnet|microsoft|aspnet)/],
+  [/\bcomposition api\b/i, /(vue|frontend|web|fullstack)/],
+  [/\bpinia\b/i, /(vue|nuxt|frontend|web|full.?stack)/],
+  [/\bvue router\b/i, /(vue|frontend|web|fullstack)/],
+  [/\bang[\s-]?ular router\b/i, /(angular|frontend|web|fullstack)/],
+  [/\brxjs\b/i, /(angular|frontend|web|fullstack|csharp|dotnet)/],
+  [/\bspring mvc\b/i, /(java|kotlin|scala|groovy|jvm|spring|backend|fullstack|web)/],
+  [/\bdjango orm\b/i, /(python|django|backend|web|fullstack)/],
+  [/\bterraform\b/i, /(devops|cloud|sre|platform|sysadmin|backend|full.?stack|mlops|data|analytics|desktop|software|engineer|ci|cd|it\b|terraform)/],
+  [/\bkubernetes\b/i, /(devops|cloud|sre|platform|sysadmin|backend|full.?stack|mlops|data|gitlab|jenkins|desktop|software|engineer|ci|cd|it\b)/],
+  [/\bdocker\b/i, /(devops|cloud|sre|platform|sysadmin|backend|full.?stack|mlops|data|gitlab|jenkins|desktop|qa|test|game|unity|software|engineer|ci|cd|fastapi|django|flask|python|ml|php|terraform|spring|laravel|valet)/],
+  [/\baws\b/i, /(aws|cloud|devops|sre|platform|sysadmin|backend|full.?stack|mlops|data|analytics|iot|quantum|solutions|architect|azure|gcp|cyber|security|application|engineer|ci|cd|it\b|desktop|soc|information|terraform)/],
+  [/\bazure\b/i, /(azure|cloud|devops|sre|platform|sysadmin|backend|full.?stack|mlops|data|dotnet|csharp|aspnet|microsoft|dba|administrator|iot|solutions|architect|cyber|security|application|engineer|ci|cd|it\b|desktop|soc|information|terraform)/],
+];
+
+function checkContamination(node, file, slug, path) {
+  const label = node.label || "";
+  const slugNorm = slug.replace(/[-_]/g, " ").toLowerCase();
+  for (const [re, exemptRe] of CONTAMINATION) {
+    if (re.test(label) && !exemptRe.test(slug)) {
+      // self-reference: the roadmap IS about this tech (docker roadmap → Docker)
+      const techToken = label.split(/\s|[/()]/)[0].toLowerCase().replace(/s$/, "");
+      if (slugNorm.includes(techToken)) continue;
+      report(file, "error", `cross-domain leak: "${label}" does not belong in ${slug} (${path.join(" > ")}${path.length ? " > " : ""}${label})`);
+      return;
+    }
+  }
+}
+
 const issues = [];
 let checked = 0;
 
@@ -62,7 +234,10 @@ function report(file, level, msg) {
   issues.push({ file, level, msg });
 }
 
-function walk(node, file, parentLabel, depth, path) {
+function walk(node, file, parentLabel, depth, path, slug) {
+  // 0. cross-domain contamination (JS concepts inside C, JVM inside Python, …)
+  checkContamination(node, file, slug, path);
+
   // 1. duplicate sibling labels (exact, case-insensitive)
   const kids = node.children ?? [];
   const seen = new Map();
@@ -82,6 +257,8 @@ function walk(node, file, parentLabel, depth, path) {
   // 3. required detail fields present & non-empty
   const d = node.details;
   if (d) {
+    // resources/practice are validated separately (empty resources is an
+    // intentional state, not a defect)
     for (const field of REQUIRED_DETAILS) {
       const v = d[field];
       const empty = v === undefined || v === null || (Array.isArray(v) && v.length === 0) || (typeof v === "string" && !v.trim());
@@ -89,6 +266,9 @@ function walk(node, file, parentLabel, depth, path) {
         report(file, "warn", `node "${node.label}" (${node.type}) missing details.${field}`);
       }
     }
+    // resource & practice quality gates
+    checkResources(node, d, file);
+    checkPractice(node, d, file);
     // generic/template description check — no node may ship the old fallback text
     if (isGeneric(d.description)) {
       report(file, "error", `node "${node.label}" (${node.type}) has a generic/template description`);
@@ -115,7 +295,7 @@ function walk(node, file, parentLabel, depth, path) {
     report(file, "error", `excessive depth ${depth} at "${node.label}" (${path.join(" > ")})`);
   }
 
-  for (const c of kids) walk(c, file, node.label, depth + 1, [...path, node.label]);
+  for (const c of kids) walk(c, file, node.label, depth + 1, [...path, node.label], slug);
 }
 
 // Exclude meta/index files — only individual roadmaps are validated.
@@ -140,7 +320,7 @@ for (const f of files) {
   collect(data.root);
   for (const id of dupIds) report(f, "error", `duplicate node id ${id}`);
 
-  walk(data.root, f, null, 0, [data.root.label]);
+  walk(data.root, f, null, 0, [data.root.label], f.replace(/\.json$/, ""));
 }
 
 // summary

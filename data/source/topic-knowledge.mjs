@@ -355,7 +355,11 @@ export const KNOWLEDGE = {
     prereq: ["JS async"],
     obj: ["Chain and compose promises", "Handle errors in async flows"],
     diff: "Intermediate", time: "4–5 hours",
-    res: [{ t: "Promises — MDN", u: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise", k: "docs" }],
+    res: [
+      { t: "Promise — MDN", u: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise", k: "docs" },
+      { t: "JavaScript Promises — W3Schools", u: "https://www.w3schools.com/js/js_promise.asp", k: "course" },
+      { t: "JavaScript Promises — GeeksforGeeks", u: "https://www.geeksforgeeks.org/javascript-promises/", k: "course" },
+    ],
     int: ["What is Promise.all and when does it fail?", "How do you retry a failed promise?"],
   },
   "js-fetch": {

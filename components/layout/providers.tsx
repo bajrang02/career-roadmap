@@ -10,7 +10,6 @@ import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useSettingsStore } from "@/lib/stores/settings-store";
 import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
 import { useChoicesStore } from "@/lib/stores/choices-store";
-import { migrateLegacyNotes } from "@/lib/stores/notes-store";
 
 // Every persisted zustand store is created with `skipHydration: true`, so its
 // initial state (the defaults) is what both the server and the client's first
@@ -34,9 +33,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
     for (const store of PERSISTED_STORES) {
       store.persist.rehydrate();
     }
-    // Fold the pre-notes-store bookmarks notes into the notes store (once) so
-    // existing users don't lose notes written before the migration.
-    migrateLegacyNotes();
   }, []);
 
   return (

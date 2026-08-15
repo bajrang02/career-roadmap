@@ -34,16 +34,22 @@ export function languageSkeleton(name, topics = {}) {
 }
 
 // ── Web development / frameworks ─────────────────────────────────────────────
+// Every web-template skill (HTML, CSS, React, Express, GraphQL…) ships its own
+// correct topics, so the skeleton must NOT inject framework-only topics
+// ("Props & Data Flow", "Client Routing", "Lifecycle / Hooks") into subjects
+// where they don't belong — a pure CSS roadmap having "State Management" or
+// a Flask roadmap having "Client Routing" is curriculum contamination.
+// Content sections therefore carry ONLY the skill's own topics.
 export function webSkeleton(name, topics = {}) {
   return [
-    { t: "Getting Started", k: ["Installation & Setup", "Project Scaffolding", "Dev Server & Tooling", ...t(topics, "setup")] },
-    { t: "Core Concepts", k: [`${name} Fundamentals`, "Components & Templates", "Props & Data Flow", "Lifecycle / Hooks", ...t(topics, "core")] },
-    { t: "Styling & Layout", k: ["CSS & Preprocessors", "Responsive Design", "Component Styling", ...t(topics, "styling")] },
-    { t: "State & Data", k: ["State Management", "Data Fetching & APIs", "Forms & Validation", ...t(topics, "state")] },
-    { t: "Routing & Navigation", k: ["Client Routing", "Route Guards / Protected Routes", "URL & Query State", ...t(topics, "routing")] },
-    { t: "Intermediate Topics", k: ["Performance Optimization", "Accessibility (a11y)", "Component Testing", ...t(topics, "intermediate")] },
-    { t: "Advanced Topics", k: ["Server-Side Rendering / Static", "Caching & Streaming", "Progressive Web Apps", ...t(topics, "advanced")] },
-    { t: "Best Practices", k: ["Component Architecture", "Code Splitting & Bundling", "Security Best Practices", ...t(topics, "best")] },
+    { t: "Getting Started", k: [...t(topics, "setup")] },
+    { t: "Core Concepts", k: [`${name} Fundamentals`, ...t(topics, "core")] },
+    { t: "Styling & Layout", k: [...t(topics, "styling")] },
+    { t: "State & Data", k: [...t(topics, "state")] },
+    { t: "Routing & Navigation", k: [...t(topics, "routing")] },
+    { t: "Intermediate Topics", k: [...t(topics, "intermediate")] },
+    { t: "Advanced Topics", k: [...t(topics, "advanced")] },
+    { t: "Best Practices", k: [...t(topics, "best")] },
     { t: "Projects", k: [...t(topics, "projects", ["Beginner: To-Do / Notes App", "Intermediate: Dashboard App", "Portfolio-Grade: Full Application"])] },
     { t: "Interview Preparation", k: ["Core Revision", "Coding & Take-Home Practice", "Common Interview Questions", "Framework-Specific Gotchas"] },
     { t: "Certifications", k: [...t(topics, "certs", [`${name} Certification Path`, "Community Certifications"])] },

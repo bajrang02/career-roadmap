@@ -14,14 +14,38 @@ import { SKELETONS, B_SOFT } from "./source/skeletons.mjs";
 import { NON_IT_SKELETONS } from "./source/nonit.mjs";
 import { PROFESSIONAL_SKELETONS } from "./source/professional.mjs";
 import { KNOWLEDGE, MATCHES } from "./source/topic-knowledge.mjs";
+import { CURATED_KNOWLEDGE } from "./source/curated-knowledge.mjs";
+import { META_KNOWLEDGE } from "./source/meta-knowledge.mjs";
+// Existing curated entries win over the cross-cutting curated module, so
+// nothing already hand-authored is overridden — CURATED_KNOWLEDGE only fills
+// the topics that used to fall back to generic label-aware filler.
+const ALL_KNOWLEDGE = { ...CURATED_KNOWLEDGE, ...META_KNOWLEDGE, ...KNOWLEDGE };
+// slugs whose objectives describe learning bullets rather than real subtopics
+const META_SLUGS = new Set(Object.keys(META_KNOWLEDGE));
 import { CURATED_SUBTOPICS } from "./source/subtopics.mjs";
-import { LEXICON, fillLexicon, composeLabelAware } from "./source/topic-lexicon.mjs";
+import { LEXICON, fillLexicon, composeLabelAware, familyFor } from "./source/topic-lexicon.mjs";
 import { TOPIC_RESOURCES } from "./source/topic-resources.mjs";
+import { EXTRA_TOPIC_RESOURCES } from "./source/topic-resources-extra.mjs";
+import { ruleResources, searchFixFor, relatedFallback } from "./source/resource-fallbacks.mjs";
+import { languageResources, LANGUAGE_SLUGS } from "./source/language-resources.mjs";
+import { curatedPractice, practiceRules } from "./source/topic-practice.mjs";
+import { ROADMAP_PRACTICE, CATEGORY_PRACTICE, DOMAIN_PRACTICE } from "./source/topic-practice.mjs";
+import { providerFor, isOfficialUrl, typeFor, difficultyFor, estimateFor, describeResource } from "./source/resource-meta.mjs";
+import { CAREER_ROOT_RESOURCES, SKILL_ROOT_RESOURCES, careerFallback, skillFallback } from "./source/root-resources.mjs";
+import { URL_FIXES, FCC_FIXES, CAREER_FIXES, URL_FIXES_LATE } from "./source/url-fixes.mjs";
+import { URL_FIXES_2025 } from "./source/url-fixes-2025.mjs";
 import { SKILLS, SKILL_CATEGORIES, SKILL_CATEGORY_MAP } from "./source/skills.mjs";
 import { SKILL_SKELETON_BUILDERS } from "./source/skill-skeletons.mjs";
+import { LANGUAGE_CURRICULA, CURRICULUM_LANGS } from "./source/language-curricula.mjs";
+import { LANGUAGE_SUBTOPICS } from "./source/language-subtopics.mjs";
+import { LANGUAGE_KNOWLEDGE } from "./source/language-knowledge.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dirname, "generated");
+// Per-roadmap JSON also lands in public/roadmaps so the client can fetch a
+// single roadmap on demand (study planner) WITHOUT bundling all 130+ MB of
+// roadmap data into the webpack graph — keeping builds fast and bounded.
+const PUBLIC_OUT = join(__dirname, "..", "public", "roadmaps");
 
 // Career domain lookup: id → label.
 const DOMAIN_LABEL = Object.fromEntries(CAREER_DOMAINS.map((d) => [d.id, d.label]));
@@ -53,12 +77,45 @@ const hashId = (s) => {
   return (h >>> 0).toString(36) + "-" + counter.toString(36);
 };
 
-const lookup = (label) => {
+// Knowledge entries are keyed by topic slug. The curated map also carries
+// language/framework-prefixed entries ("js-promises", "react-hooks",
+// "css-flexbox"…) — inside that roadmap, "Promises" should resolve to
+// "js-promises". This alias table maps roadmap slug → knowledge prefix.
+const KNOWLEDGE_PREFIX = {
+  javascript: "js", typescript: "ts", html: "html", css: "css", sass: "css",
+  react: "react", vue: "vue", angular: "angular", svelte: "svelte",
+  nextjs: "react", nuxtjs: "vue", nodejs: "node", expressjs: "node",
+  nestjs: "node", python: "python", sql: "sql", git: "git",
+  "spring-boot": "java", django: "python", flask: "python", fastapi: "python",
+  "aspnet-core": "dotnet", golang: "go", rust: "rust", cpp: "cpp",
+};
+
+// Language-topic knowledge takes priority so core language topics (pointers,
+// malloc, closures, RAII…) never fall back to label-aware filler. Then the
+// roadmap-prefixed curated entry (js-promises inside JavaScript, react-hooks
+// inside React…) so framework topics resolve to their own knowledge.
+const lookup = (label, ctx = {}) => {
   const slug = slugify(label);
-  const exact = KNOWLEDGE[slug];
-  if (exact) return { kind: "exact", k: exact };
-  const lex = LEXICON[slug];
-  if (lex) return { kind: "lexicon", k: lex };
+  // Separator chars (&, /, ', +) are stripped by slugify, but curated keys
+  // spell them out ("HTTP & APIs" → http-and-apis). Try the spelled-out
+  // variant too so those entries resolve.
+  const slugSpelled = slugify(label.replace(/&/g, " and ").replace(/\//g, " ").replace(/['+]/g, " "));
+  const tryKey = (key) => {
+    const lk = LANGUAGE_KNOWLEDGE[key];
+    if (lk) return { kind: "exact", k: lk };
+    const exact = ALL_KNOWLEDGE[key];
+    if (exact) return { kind: "exact", k: exact };
+    const lex = LEXICON[key];
+    if (lex) return { kind: "lexicon", k: lex };
+    return null;
+  };
+  const direct = tryKey(slug) ?? tryKey(slugSpelled);
+  if (direct) return direct;
+  const prefix = KNOWLEDGE_PREFIX[ctx.langSlug ?? ctx.slug];
+  if (prefix) {
+    const prefixed = tryKey(`${prefix}-${slug}`) ?? tryKey(`${prefix}-${slugSpelled}`);
+    if (prefixed) return prefixed;
+  }
   for (const m of MATCHES) {
     if (m.re.test(label)) return { kind: "match", k: m.k };
   }
@@ -118,36 +175,248 @@ const cleanTopic = (label) =>
     .trim() || label.trim();
 
 // Curated per-topic links win first (official docs / known-good tutorials).
+// EXTRA_TOPIC_RESOURCES extends the hand-written map with the topics that used
+// to fall through to search links. Both maps are keyed by normalized label.
+const MERGED_TOPIC_RESOURCES = { ...TOPIC_RESOURCES, ...EXTRA_TOPIC_RESOURCES };
+
+// generate lookup variants for a normalized key: try the key, then the same
+// key with each "and"→" " / " "→"and" swap so "variables and constants"
+// matches both spellings of "Variables & Constants".
+function keyVariants(key) {
+  const out = [key];
+  if (key.includes("and")) out.push(key.replace(/\band\b/g, " "));
+  if (key.includes(" ")) out.push(key.replace(/ (\w+)$/, " and $1"));
+  return [...new Set(out)];
+}
+
 const curatedResources = (label) => {
   const key = normLabel(label);
-  const direct = TOPIC_RESOURCES[key];
-  if (direct) return direct;
-  // secondary form: "&" → "and" (e.g. "Node.js & npm" → "node js and npm")
-  const alt = TOPIC_RESOURCES[key.replace(/\s+/g, " ").replace(/ (\w+)$/, " and $1")];
-  if (alt) return alt;
+  for (const variant of keyVariants(key)) {
+    const direct = MERGED_TOPIC_RESOURCES[variant];
+    if (direct) return direct;
+  }
   return null;
 };
 
-// Last-resort fallback that is still *topic-direct*: every link embeds the
-// topic name, so the results are about this exact subject — never a generic
-// homepage or an unrelated query.
-const smartFallback = (label) => {
-  const topic = cleanTopic(label);
-  const q = encodeURIComponent(topic);
-  const wiki = encodeURIComponent(topic.replace(/\s+/g, "_"));
-  return [
-    { t: `${topic} — official documentation`, u: `https://www.google.com/search?q=${q}+documentation`, k: "docs" },
-    { t: `${topic} — tutorial (YouTube)`, u: `https://www.youtube.com/results?search_query=${q}+tutorial`, k: "video" },
-    { t: `${topic} — Stack Overflow`, u: `https://stackoverflow.com/search?q=${q}`, k: "community" },
-    { t: `${topic} — Wikipedia`, u: `https://en.wikipedia.org/wiki/${wiki}`, k: "article" },
-  ];
+// Search URLs are banned outright — a curated platform never ships a google /
+// youtube search page as a learning resource.
+const SEARCH_URL_RE = /(google\.com\/search|youtube\.com\/results|bing\.com\/search|duckduckgo\.com\/\?q=)/i;
+
+// All known-broken URLs and their verified replacements, merged in priority
+// order (specific fixes first, then fCC news purges, then career articles).
+const ALL_URL_FIXES = { ...URL_FIXES, ...FCC_FIXES, ...CAREER_FIXES, ...URL_FIXES_LATE, ...URL_FIXES_2025 };
+
+// If a URL is a known-broken entry, return its verified replacement resource;
+// otherwise return null. Fixes may chain (a fix's replacement can itself be a
+// broken entry), so resolve through the map until reaching a stable URL.
+const fixForUrl = (url) => {
+  const first = ALL_URL_FIXES[url];
+  if (!first) return null;
+  let final = first;
+  const seen = new Set([url]);
+  while (ALL_URL_FIXES[final.u] && !seen.has(final.u)) {
+    seen.add(final.u);
+    final = ALL_URL_FIXES[final.u];
+  }
+  return final;
 };
 
-const fallbackRes = (label) => {
+// Clean a resource list for shipping: replace known-broken URLs with verified
+// replacements, drop search URLs (replacing them with curated direct links
+// when the label has a known fix), dedupe by URL.
+const cleanResources = (list, label) => {
+  const out = [];
+  const seen = new Set();
+  let hadSearch = false;
+  for (let entry of list || []) {
+    if (!entry || !entry.u) continue;
+    if (SEARCH_URL_RE.test(entry.u)) {
+      hadSearch = true;
+      continue;
+    }
+    const fix = fixForUrl(entry.u);
+    if (fix) entry = fix;
+    if (seen.has(entry.u)) continue;
+    seen.add(entry.u);
+    out.push(entry);
+  }
+  // swap in curated direct links for the search entries we just removed
+  if (hadSearch) {
+    const fix = searchFixFor(label);
+    if (fix) {
+      for (let f of fix) {
+        // search-fix entries can themselves carry a broken URL — run the
+        // verified fix map over them too
+        const ff = fixForUrl(f.u);
+        if (ff) f = ff;
+        if (!seen.has(f.u)) {
+          seen.add(f.u);
+          out.push(f);
+        }
+      }
+    }
+  }
+  return out;
+};
+
+// Engineering-software roadmaps share the same skeleton labels (licensing,
+// workspace, first launch…) but each tool has its own vendor. The skeleton's
+// curated entries carry placeholder Autodesk URLs; rewrite them to the correct
+// vendor when the roadmap is a specific tool. Keyed by roadmap slug.
+const VENDOR_DOCS = {
+  autocad: { docs: "https://help.autodesk.com/view/ACD/2024/ENU/", home: "https://www.autodesk.com/products/autocad", education: "https://www.autodesk.com/education/learn-software", learn: "https://www.autodesk.com/learn/org/autodesk" },
+  "fusion-360": { docs: "https://help.autodesk.com/view/fusion360/ENU/", home: "https://www.autodesk.com/products/fusion-360", education: "https://www.autodesk.com/education/learn-software", learn: "https://www.autodesk.com/learn/org/autodesk" },
+  revit: { docs: "https://help.autodesk.com/view/RVT/2024/ENU/", home: "https://www.autodesk.com/products/revit", education: "https://www.autodesk.com/education/learn-software", learn: "https://www.autodesk.com/learn/org/autodesk" },
+  solidworks: { docs: "https://help.solidworks.com/", home: "https://www.solidworks.com/", education: "https://www.solidworks.com/education", learn: "https://my.solidworks.com/training" },
+  catia: { docs: "https://help.3ds.com/2024/english/dsstoc.htm", home: "https://www.3ds.com/products-services/catia/", education: "https://www.3ds.com/education", learn: "https://www.3ds.com/learn/" },
+  creo: { docs: "https://support.ptc.com/help/creo/creo_pma/r11.0/usascii/index.html", home: "https://www.ptc.com/en/products/creo", education: "https://www.ptc.com/en/education", learn: "https://learningconnector.ptc.com/" },
+  ansys: { docs: "https://ansyshelp.ansys.com/", home: "https://www.ansys.com/", education: "https://www.ansys.com/academic", learn: "https://innovationspace.ansys.com/" },
+  simulink: { docs: "https://www.mathworks.com/help/simulink/", home: "https://www.mathworks.com/products/simulink.html", education: "https://www.mathworks.com/academia.html", learn: "https://www.mathworks.com/learn/tutorials/simulink.html" },
+  etabs: { docs: "https://wiki.csiamerica.com/display/etabs/Home", home: "https://www.csiamerica.com/products/etabs", education: "https://www.csiamerica.com/education", learn: "https://wiki.csiamerica.com/display/etabs/Tutorials" },
+  "staad-pro": { docs: "https://docs.bentley.com/LiveContent/web/Bentley%20STAAD.Pro%20Help-v9/en/GUID-9F7F7C7E-7E7E-4F7F-9F7F-7C7E7E7F7F7E.html", home: "https://www.bentley.com/software/staad/", education: "https://www.bentley.com/education", learn: "https://www.bentley.com/learn" },
+  sketchup: { docs: "https://help.sketchup.com/en", home: "https://www.sketchup.com/", education: "https://www.sketchup.com/education", learn: "https://learn.sketchup.com/" },
+  arcgis: { docs: "https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm", home: "https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview", education: "https://www.esri.com/en-us/industries/education/overview", learn: "https://learn.arcgis.com/" },
+  qgis: { docs: "https://docs.qgis.org/latest/en/docs/user_manual/", home: "https://qgis.org/", education: "https://qgis.org/en/site/forusers/training/index.html", learn: "https://docs.qgis.org/latest/en/docs/training_manual/" },
+  labview: { docs: "https://www.ni.com/docs/en-US/bundle/labview/page/labview.html", home: "https://www.ni.com/en/shop/labview.html", education: "https://www.ni.com/en/support/documentation/academic-resources.html", learn: "https://learn.ni.com/" },
+  "plc-programming": { docs: "https://www.plcdev.com/", home: "https://www.plcdev.com/", education: "https://www.plcdev.com/", learn: "https://www.plcdev.com/plc_training" },
+  scada: { docs: "https://en.wikipedia.org/wiki/SCADA", home: "https://www.inductiveautomation.com/scada", education: "https://www.inductiveautomation.com/resources", learn: "https://www.inductiveautomation.com/learn" },
+};
+const AUTODESK_URLS = ["help.autodesk.com", "www.autodesk.com", "autodesk.com"];
+
+// Rewrite vendor-placeholder resources to the correct vendor for a tool roadmap.
+const vendorizeResources = (list, ctx) => {
+  const v = VENDOR_DOCS[ctx.slug];
+  if (!v) return list;
+  const isAutodesk = (u) => AUTODESK_URLS.some((h) => u.includes(h));
+  const mapUrl = (u) => {
+    if (u.includes("/education")) return v.education;
+    if (u.includes("/certification")) return v.home;
+    if (u.includes("youtube.com/") && v.learn) return v.learn;
+    if (isAutodesk(u)) return v.docs;
+    return u;
+  };
+  const isYt = (u) => u.includes("youtube.com/") && !u.includes("/watch");
+  return (list || []).map((r) => ({
+    ...r,
+    u: mapUrl(r.u),
+    t: isAutodesk(r.u)
+      ? r.t.replace(/^The\s+/i, "").replace(/vendor's|vendor/i, "Official").replace(/^official/, "Official")
+      : isYt(r.u) && v.learn
+        ? r.t.replace(/YouTube\s*[—–-]?\s*/i, "").replace(/videos?/i, "").replace(/tutorials?/i, "").trim() + " — vendor tutorials"
+        : r.t,
+  }));
+};
+
+// Resource fallback chain (context-aware, DIRECT links only):
+//   1. language resources (generic programming topics inside a language roadmap)
+//   2. curated exact-topic resources (topic-resources + extras)
+//   3. keyword/rule tables (direct links)
+//   4. related-family fallback (e.g. "X basics" → X resources)
+//   5. [] → the UI shows a clear "no verified resource yet" state
+const fallbackRes = (label, ctx = {}) => {
+  if (ctx.langSlug) {
+    const langRes = languageResources(label, ctx.langSlug);
+    if (langRes) return langRes;
+  }
   const curated = curatedResources(label);
   if (curated) return curated;
-  for (const c of FALLBACK_CATEGORIES) if (c.re.test(label)) return c.res;
-  return smartFallback(label);
+  const rules = ruleResources(label);
+  if (rules) return rules;
+  const related = relatedFallback(label);
+  if (related) return related;
+  return [];
+};
+
+// ── resource enrichment ──────────────────────────────────────────────────────
+// { t, u, k } → full Resource model with provider / type / description /
+// difficulty / estimatedTime / isOfficial. Descriptions are concrete and
+// topic-aware; official domains get the official badge.
+const enrichResources = (raw, label, nodeDifficulty) => {
+  return (raw || []).map((r) => {
+    const provider = providerFor(r.u);
+    const official = isOfficialUrl(r.u);
+    const kind = r.k ?? (official ? "docs" : "article");
+    return {
+      title: r.t,
+      url: r.u,
+      kind,
+      type: typeFor(kind, r.u, r.t),
+      provider: provider.name,
+      description: describeResource(r.t, provider.name, kind, label),
+      difficulty: difficultyFor(r.t, nodeDifficulty),
+      estimatedTime: estimateFor(kind, null),
+      isOfficial: official,
+    };
+  });
+};
+
+// ── practice builder ─────────────────────────────────────────────────────────
+// Curated per-topic practice wins; then label rules; then roadmap-level
+// practice (slug → platforms); then skill-category practice; then career-domain
+// practice. All links are direct platform pages. Deduped by URL.
+const practiceDifficulty = (nodeDifficulty, fallback = "Intermediate") => {
+  let diff = fallback || nodeDifficulty || "Intermediate";
+  // a Beginner node never advertises an Advanced challenge
+  if (nodeDifficulty === "Beginner" && diff === "Advanced") diff = "Intermediate";
+  return diff;
+};
+
+const buildPractice = (label, ctx, nodeDifficulty) => {
+  const out = [];
+  const seen = new Set();
+  const push = (list) => {
+    for (let item of list || []) {
+      if (!item || !item.u) continue;
+      const fix = fixForUrl(item.u);
+      if (fix) item = { ...item, t: fix.t, u: fix.u };
+      if (seen.has(item.u)) continue;
+      seen.add(item.u);
+      out.push({
+        title: item.t || (item.p ? `${item.p} — practice` : `Practice: ${label}`),
+        platform: item.p,
+        url: item.u,
+        difficulty: practiceDifficulty(nodeDifficulty, item.d),
+        estimatedTime: item.e || "30–60 min",
+        skills: Array.isArray(item.s) ? item.s : [],
+        description: item.ds || `Practice ${label.toLowerCase()} on ${item.p} and build real skill.`,
+      });
+    }
+  };
+
+  const curated = curatedPractice(label);
+  if (curated) {
+    push(curated);
+    return out;
+  }
+  const rules = practiceRules(label);
+  if (rules) {
+    push(rules);
+    return out;
+  }
+  const bySlug = ROADMAP_PRACTICE[ctx.slug];
+  if (bySlug) {
+    push(bySlug);
+    return out;
+  }
+  // career slugs like "frontend-developer" map to the base skill's practice
+  // ("frontend") so developers get platform-matched challenges, not generic ones
+  const baseSlug = ctx.slug?.replace(/-(developer|engineer|specialist|analyst|consultant)$/i, "");
+  const byBase = baseSlug && baseSlug !== ctx.slug ? ROADMAP_PRACTICE[baseSlug] : null;
+  if (byBase) {
+    push(byBase);
+    return out;
+  }
+  const byCategory = ctx.skillCategory ? CATEGORY_PRACTICE[ctx.skillCategory] : null;
+  if (byCategory) {
+    push(byCategory);
+    return out;
+  }
+  const byDomain = ctx.domain ? DOMAIN_PRACTICE[ctx.domain] : null;
+  if (byDomain) {
+    push(byDomain);
+    return out;
+  }
+  return out;
 };
 
 // ── node builders ────────────────────────────────────────────────────────────
@@ -208,6 +477,84 @@ function composeRichDescription(label, type, careerTitle, k = null, parentLabel 
   return `${lead}${why}${core}${prereq}${apps} ${mistakes} ${outcomes}`;
 }
 
+// Structured overview for the Details panel — the brief's format:
+// What is it? / Why it matters / What you'll learn / Where it is used /
+// Prerequisites / Outcome. Never generic filler: every field is derived from
+// the curated knowledge (k) or the label itself.
+function composeStructuredOverview(label, type, careerTitle, k = null, parentLabel = "", kind = "none") {
+  const clean = label.replace(/^Understand:\s*/i, "").replace(/—\s*(fundamentals|practice).*$/i, "").trim();
+  // parentheticals carry extra context ("Pointer basics (addresses)") that reads
+  // awkwardly inside sentences — drop them for prose fields
+  const proseName = clean.replace(/\(.*?\)/g, "").replace(/\s+/g, " ").trim();
+  const lower = proseName.toLowerCase();
+  const isProject = type === "project" || /project/i.test(label);
+  const isSection = type === "section";
+  const isSub = type === "subsection";
+  const isConcept = type === "concept" || type === "advanced";
+
+  // ── What is it? ──────────────────────────────────────────────
+  const firstTwoSentences = (text) => {
+    const parts = String(text).split(". ").slice(0, 2).join(". ").trim();
+    return parts.endsWith(".") ? parts : parts + ".";
+  };
+  let whatIsIt;
+  if (k?.d) whatIsIt = firstTwoSentences(k.d);
+  else whatIsIt = firstTwoSentences(composeLabelAware(clean, type, careerTitle, parentLabel));
+
+  // Label-aware family (long-tail fallback) — reused so the fallback fields
+  // stay consistent with composeLabelAware and never emit template filler.
+  const fam = familyFor(clean);
+  const famFill = (s) => s.replaceAll("{label}", clean).replaceAll("{career}", careerTitle);
+  const famCore = fam.core.map(famFill);
+
+  // ── Why it matters ───────────────────────────────────────────
+  const whyMatters = [];
+  if (k?.why) whyMatters.push(k.why);
+  if (k?.tips?.length) whyMatters.push(`Watch out for: ${k.tips[0].toLowerCase()}`);
+  if (k?.int?.length) whyMatters.push(`Interviewers ask about ${lower} regularly — be ready to explain it.`);
+  if (!whyMatters.length) {
+    whyMatters.push(isProject
+      ? `This project proves you can apply ${lower} to a real deliverable.`
+      : isSection
+        ? `This area is foundational — later sections assume you understand it.`
+        : famFill(fam.why));
+  }
+
+  // ── What you'll learn ────────────────────────────────────────
+  const youWillLearn = [];
+  if (k?.obj?.length) youWillLearn.push(...k.obj.slice(0, 8));
+  else {
+    const subs = [];
+    const label = clean;
+    if (isProject) subs.push("Planning and scoping the work", "Building it step by step", "Debugging and polishing", "Presenting the result");
+    subs.push(...famCore.slice(0, 5));
+    youWillLearn.push(...subs.slice(0, 8));
+  }
+
+  // ── Where it is used ─────────────────────────────────────────
+  const whereUsed = [];
+  if (k?.proj?.length) whereUsed.push(...k.proj.slice(0, 4).map((p) => (typeof p === "string" ? p : p.t)));
+  if (isSection) whereUsed.push("Every later section builds on this area");
+  if (isProject) whereUsed.push("Your portfolio and interviews");
+  if (whereUsed.length < 2) whereUsed.push(famFill(fam.used), `Real ${careerTitle.trim()} projects and daily work`);
+
+  // ── Prerequisites ────────────────────────────────────────────
+  const prerequisites = k?.prereq?.length
+    ? [...k.prereq]
+    : [isProject ? "The topics that precede this project" : `The topics covered before this point in the ${careerTitle.trim()} roadmap`];
+
+  // ── Outcome ──────────────────────────────────────────────────
+  const outcome = isProject
+    ? `You will have a finished, presentable ${clean.toLowerCase()} project you can show in interviews.`
+    : isSection
+      ? `You will have a solid mental model of ${lower} and the confidence to work through its projects.`
+      : isConcept
+        ? `You will understand ${lower} well enough to apply it and explain it clearly.`
+        : `You will be able to use ${lower} in real work, discuss it in interviews, and build on it in later topics.`;
+
+  return { whatIsIt, whyMatters, youWillLearn, whereUsed, prerequisites, outcome };
+}
+
 const genericMistakes = (type) =>
   type === "project"
     ? ["Copy-pasting without understanding", "Skipping the planning phase", "Not documenting your build"]
@@ -245,24 +592,41 @@ const genericInterview = (label, type, careerTitle) => {
 
 function buildNode(label, type, ctx, opts = {}) {
   const { careerTitle, parentLabel } = ctx;
-  const found = lookup(label);
+  const found = lookup(label, ctx);
   let k = found.kind !== "none" ? found.k : null;
   // Lexicon entries may carry a §career§ placeholder — substitute the title.
   if (k && found.kind === "lexicon") k = fillLexicon(k, careerTitle);
   // Resource links come from curated knowledge when present; every other
   // node (lexicon-matched, sections, containers, fallback topics) gets the
-  // label-aware fallback list (curated map → category rules → topic-aware
-  // searches) so no node ever ships empty or off-topic resources.
-  const resources = k?.res?.length ? k.res : fallbackRes(label);
+  // context-aware fallback chain (language resources → curated map → rules →
+  // related family → empty state). Search URLs are stripped and replaced with
+  // curated direct links. Every resource is enriched into the full model
+  // (provider / type / description / difficulty / time / official flag).
+  const nodeDifficulty = k?.diff ?? (type === "advanced" || type === "achievement" ? "Advanced" : type === "section" ? "Beginner" : "Intermediate");
+  const rawResources = k?.res?.length ? k.res : fallbackRes(label, ctx);
+  const resources = enrichResources(cleanResources(vendorizeResources(rawResources, ctx), label), label, nodeDifficulty);
+  const practice = buildPractice(label, ctx, nodeDifficulty);
   const projects = k?.proj ? k.proj.map((p) => ({ title: p.t, description: p.d })) : [];
+  // The structured overview is the UI's primary content, so the long prose
+  // `description` (a ~700-char paragraph per node) is dead weight in the
+  // shipped JSON. Nodes that carry an overview ship a compact two-sentence
+  // description instead (whatIsIt + outcome); only nodes without one keep the
+  // full composed paragraph. Same for whyLearn (first why-it-matters point).
+  const overview = composeStructuredOverview(label, type, careerTitle, k, parentLabel, found.kind);
   const details = {
-    description: composeRichDescription(label, type, careerTitle, k, parentLabel, found.kind),
-    whyLearn: k?.why ?? `This is a core part of being a ${careerTitle.toLowerCase()} — interviewers and teams expect it.`,
+    description: overview
+      ? `${overview.whatIsIt} ${overview.outcome}`
+      : composeRichDescription(label, type, careerTitle, k, parentLabel, found.kind),
+    overview,
+    whyLearn:
+      overview?.whyMatters?.[0] ??
+      (k?.why ?? `This is a core part of being a ${careerTitle.toLowerCase()} — interviewers and teams expect it.`),
     prerequisites: k?.prereq ?? ["Basics of this roadmap's foundation"],
     objectives: k?.obj ?? [`Understand ${label.toLowerCase()} in depth`, `Apply it in a hands-on project`, `Be ready to discuss it in interviews`],
-    difficulty: k?.diff ?? (type === "advanced" || type === "achievement" ? "Advanced" : type === "section" ? "Beginner" : "Intermediate"),
+    difficulty: nodeDifficulty,
     estimatedTime: k?.time ?? (type === "section" ? "Varies (2–4 weeks)" : "4–8 hours"),
-    resources: (resources ?? []).map((r) => ({ title: r.t, url: r.u, kind: r.k })),
+    resources,
+    practice,
     projects,
     interviewQuestions:
       k?.int && k.int.length > 0 ? k.int : genericInterview(label, type, careerTitle),
@@ -356,11 +720,16 @@ const cleanSubtopics = (list) =>
     .filter((s) => s.length > 1 && !MINE_EXCLUDE.test(s) && s.length < 48)
     .slice(0, 8);
 
-// Resolve the concept-level breakdown for a topic: curated list wins, then the
-// mined roadmap.sh catalog, then exact-knowledge objectives. Topics with no
-// real breakdown stay atomic (no fabricated "fundamentals" children).
-function resolveSubtopics(label) {
+// Resolve the concept-level breakdown for a topic: language-specific subtopics
+// win (so C's "Functions & Scope" never gets "Arrow functions"), then curated
+// list, then the mined roadmap.sh catalog, then exact-knowledge objectives.
+// Topics with no real breakdown stay atomic (no fabricated "fundamentals" children).
+function resolveSubtopics(label, langSlug = null) {
   const slug = slugify(label);
+  if (langSlug) {
+    const langSubs = LANGUAGE_SUBTOPICS[langSlug]?.[slug];
+    if (langSubs?.length) return cleanSubtopics(langSubs);
+  }
   const curated = CURATED_SUBTOPICS[slug];
   if (curated?.length) return cleanSubtopics(curated);
 
@@ -374,9 +743,12 @@ function resolveSubtopics(label) {
     }
   }
 
-  // exact knowledge entries only — regex matches may belong to a different topic
-  const k = KNOWLEDGE[slug];
-  const fromObjectives = (k?.obj ?? []).slice(0, 3).map((o) => o.split(/[:(]/)[0].trim().replace(/\.$/, ""));
+  // exact knowledge entries only — regex matches may belong to a different
+  // topic. Meta/skeleton topics (Official Documentation, Beginner Exercises…)
+  // stay atomic: their objectives are learning bullets, not subtopics, and
+  // spawning them as concept nodes would flood every roadmap with thin leaves.
+  const k = ALL_KNOWLEDGE[slug];
+  const fromObjectives = META_SLUGS.has(slug) ? [] : (k?.obj ?? []).slice(0, 3).map((o) => o.split(/[:(]/)[0].trim().replace(/\.$/, ""));
   const cleaned = cleanSubtopics(fromObjectives);
   return cleaned.length >= 2 ? cleaned : [];
 }
@@ -384,11 +756,11 @@ function resolveSubtopics(label) {
 // Build a topic node (with concept + project children)
 function buildTopic(label, ctx) {
   const node = buildNode(label, "topic", ctx);
-  const found = lookup(label);
+  const found = lookup(label, ctx);
   const k = found.kind !== "none" ? found.k : null;
   const children = [];
-  // concept-level breakdown from curated catalog / mined roadmap_data
-  for (const c of resolveSubtopics(label)) children.push(buildNode(c, "concept", ctx, { seed: "c" }));
+  // concept-level breakdown from language-aware / curated / mined catalogs
+  for (const c of resolveSubtopics(label, ctx.langSlug)) children.push(buildNode(c, "concept", ctx, { seed: "c" }));
   if (k?.proj?.length) {
     const pj = buildNode("Projects", "projects", ctx);
     for (const p of k.proj) pj.children.push(buildNode(p.t, "project", ctx, { seed: "pj" }));
@@ -494,11 +866,16 @@ function careerReadyNode(career, ctx) {
     objectives: ["Ship your portfolio projects", "Pass mock interviews", "Apply with confidence"],
     difficulty: "Advanced",
     estimatedTime: "Ongoing",
-    resources: [
-      { title: "Resume & LinkedIn optimization", url: "https://www.linkedin.com/business/talent/blog", kind: "article" },
-      { title: "Salary research — Levels.fyi", url: "https://www.levels.fyi/", kind: "practice" },
-      { title: "Job portals to apply on", url: "https://www.linkedin.com/jobs", kind: "practice" },
-    ],
+    resources: enrichResources(
+      cleanResources([
+        { title: "Resume & LinkedIn optimization", url: "https://careers.google.com/how-we-hire/resume-tips/", kind: "article" },
+        { title: "Salary research — Levels.fyi", url: "https://www.levels.fyi/", kind: "practice" },
+        { title: "Job portals to apply on", url: "https://www.linkedin.com/jobs", kind: "practice" },
+      ], career.title),
+      career.title,
+      "Advanced"
+    ),
+    practice: buildPractice("Career Ready", ctx, "Advanced"),
     projects: career.portfolioIdeas.map((p) => ({ title: p, description: `A portfolio-worthy ${p.toLowerCase()} that proves your skills.` })),
     interviewQuestions: ["Walk me through your best project", "Why did you choose this career?", "Where do you see yourself in 3 years?"],
     careerRelevance: "This milestone converts your learning into income.",
@@ -544,7 +921,14 @@ function buildCareer(career) {
   const skeleton = ALL_SKELETONS[career.skeleton];
   if (!skeleton) throw new Error(`Missing skeleton: ${career.skeleton} for ${career.slug}`);
 
-  const ctx = { careerTitle: career.title, careerSlug: career.slug };
+  const ctx = {
+    careerTitle: career.title,
+    careerSlug: career.slug,
+    slug: career.slug,
+    langSlug: LANGUAGE_SLUGS.has(career.slug) ? career.slug : null,
+    skillCategory: null,
+    domain: career.domain,
+  };
 
   const root = buildNode(career.title, "career", ctx);
   root.details = {
@@ -559,12 +943,12 @@ function buildCareer(career) {
     ],
     difficulty: career.difficulty,
     estimatedTime: career.duration,
-    resources: [
-      { title: `${career.title} — career guide`, url: `https://www.google.com/search?q=${encodeURIComponent(career.title + " career guide")}`, kind: "article" },
-      { title: `${career.title} — freeCodeCamp courses`, url: `https://www.freecodecamp.org/news/search/?query=${encodeURIComponent(career.title)}`, kind: "course" },
-      { title: `${career.title} — beginner tutorials (YouTube)`, url: `https://www.youtube.com/results?search_query=${encodeURIComponent(career.title + " beginner tutorial")}`, kind: "video" },
-      ...(career.certifications.map((c) => ({ title: c, url: `https://www.google.com/search?q=${encodeURIComponent(c + " certification")}`, kind: "certification" }))),
-    ],
+    resources: enrichResources(
+      cleanResources(CAREER_ROOT_RESOURCES[career.slug] ?? careerFallback(career.title, career.slug), career.title),
+      career.title,
+      career.difficulty
+    ),
+    practice: buildPractice(career.title, ctx, career.difficulty),
     projects: career.portfolioIdeas.map((p) => ({ title: p, description: `A flagship ${career.title.toLowerCase()} project for your portfolio.` })),
     interviewQuestions: [
       `Why do you want to become a ${career.title.toLowerCase()}?`,
@@ -628,13 +1012,26 @@ function buildCareer(career) {
 // skillCategory for browsing. No auto interview/achievement sections — the
 // skill templates already include Interview Prep / Resources / Practice.
 function buildSkill(skill) {
-  const builder = SKILL_SKELETON_BUILDERS[skill.template];
-  if (!builder) throw new Error(`Missing skeleton builder: ${skill.template} for ${skill.slug}`);
-  const skeleton = builder(skill.title, skill.topics);
-  const ctx = { careerTitle: skill.title, careerSlug: skill.slug };
+  // Hand-authored authentic curricula replace the generic category skeletons
+  // for the 17 programming languages — no shared cross-language defaults.
+  const skeleton = CURRICULUM_LANGS.has(skill.slug)
+    ? LANGUAGE_CURRICULA[skill.slug]
+    : (() => {
+        const builder = SKILL_SKELETON_BUILDERS[skill.template];
+        if (!builder) throw new Error(`Missing skeleton builder: ${skill.template} for ${skill.slug}`);
+        return builder(skill.title, skill.topics);
+      })();
 
   const primaryCat = SKILL_CATEGORY_MAP[skill.categories?.[0]];
   const primaryLabel = primaryCat?.label ?? skill.categories?.[0] ?? "Skill";
+  const ctx = {
+    careerTitle: skill.title,
+    careerSlug: skill.slug,
+    slug: skill.slug,
+    langSlug: LANGUAGE_SLUGS.has(skill.slug) ? skill.slug : null,
+    skillCategory: primaryLabel,
+    domain: primaryLabel,
+  };
 
   const root = buildNode(skill.title, "career", ctx);
   root.details = {
@@ -649,12 +1046,12 @@ function buildSkill(skill) {
     ],
     difficulty: skill.difficulty,
     estimatedTime: skill.duration,
-    resources: [
-      { title: `${skill.title} — official guide`, url: `https://www.google.com/search?q=${encodeURIComponent(skill.title + " official documentation")}`, kind: "docs" },
-      { title: `${skill.title} — freeCodeCamp courses`, url: `https://www.freecodecamp.org/news/search/?query=${encodeURIComponent(skill.title)}`, kind: "course" },
-      { title: `${skill.title} — beginner tutorials (YouTube)`, url: `https://www.youtube.com/results?search_query=${encodeURIComponent(skill.title + " beginner tutorial")}`, kind: "video" },
-      ...(skill.certifications?.map((c) => ({ title: c, url: `https://www.google.com/search?q=${encodeURIComponent(c + " certification")}`, kind: "certification" })) ?? []),
-    ],
+    resources: enrichResources(
+      cleanResources(SKILL_ROOT_RESOURCES[skill.slug] ?? skillFallback(skill.title), skill.title),
+      skill.title,
+      skill.difficulty
+    ),
+    practice: buildPractice(skill.title, ctx, skill.difficulty),
     projects: (skill.topics?.projects ?? []).map((p) => ({ title: p, description: `A hands-on ${skill.title.toLowerCase()} project to prove the skill.` })),
     interviewQuestions: [
       `Explain ${skill.title.toLowerCase()} to a beginner in simple terms.`,
@@ -714,12 +1111,16 @@ function buildSkill(skill) {
 
 // ── write output ─────────────────────────────────────────────────────────────
 mkdirSync(OUT, { recursive: true });
+mkdirSync(PUBLIC_OUT, { recursive: true });
 
-// Clean the output directory first so roadmaps removed from the catalog
+// Clean the output directories first so roadmaps removed from the catalog
 // (e.g. non-technical careers dropped by the keep-list) don't leave stale
 // JSON files behind — every file is regenerated from scratch below.
 for (const f of readdirSync(OUT)) {
   if (f.endsWith(".json")) unlinkSync(join(OUT, f));
+}
+for (const f of readdirSync(PUBLIC_OUT)) {
+  if (f.endsWith(".json")) unlinkSync(join(PUBLIC_OUT, f));
 }
 
 const index = { lastUpdated: new Date().toISOString().slice(0, 10), roadmaps: {} };
@@ -749,10 +1150,49 @@ const addIndexEntry = (data) => {
   });
 };
 
+// ── public payloads (lazy details) ──────────────────────────────────────────
+// The mindmap only needs tree structure + difficulty/time to render; the
+// heavy details (resources, practice, overview, interviews…) are split into a
+// per-roadmap details map that the client fetches ONLY when the details panel
+// first opens (Phase 20: lazy-load resources/practice).
+const slimDetails = (d) => ({ difficulty: d.difficulty, estimatedTime: d.estimatedTime });
+
+const slimNode = (n) => {
+  const out = {
+    id: n.id,
+    label: n.label,
+    type: n.type,
+    optional: !!n.optional,
+    details: slimDetails(n.details),
+    children: (n.children || []).map(slimNode),
+  };
+  if (Array.isArray(n.options)) {
+    out.options = n.options.map(slimNode);
+    if (n.recommended) out.recommended = n.recommended;
+  }
+  return out;
+};
+
+const collectDetails = (n, map) => {
+  map[n.id] = n.details;
+  for (const c of n.children || []) collectDetails(c, map);
+  for (const o of n.options || []) collectDetails(o, map);
+};
+
+const writeRoadmap = (slug, data) => {
+  // full JSON → data/generated (build-time validation + audits)
+  writeFileSync(join(OUT, `${slug}.json`), JSON.stringify(data));
+  // slim tree + details map → public/roadmaps (what the app actually serves)
+  writeFileSync(join(PUBLIC_OUT, `${slug}.json`), JSON.stringify({ meta: data.meta, stats: data.stats, root: slimNode(data.root) }));
+  const detailsMap = {};
+  collectDetails(data.root, detailsMap);
+  writeFileSync(join(PUBLIC_OUT, `${slug}.details.json`), JSON.stringify(detailsMap));
+};
+
 for (const career of ALL_CAREERS) {
   try {
     const data = buildCareer(career);
-    writeFileSync(join(OUT, `${career.slug}.json`), JSON.stringify(data));
+    writeRoadmap(career.slug, data);
     addIndexEntry(data);
   } catch (e) {
     failures += 1;
@@ -763,7 +1203,7 @@ for (const career of ALL_CAREERS) {
 for (const skill of SKILLS) {
   try {
     const data = buildSkill(skill);
-    writeFileSync(join(OUT, `${skill.slug}.json`), JSON.stringify(data));
+    writeRoadmap(skill.slug, data);
     addIndexEntry(data);
     skillCount += 1;
   } catch (e) {
@@ -797,6 +1237,6 @@ writeFileSync(join(OUT, "search-index.json"), JSON.stringify(searchIndex));
 
 const itCount = ALL_CAREERS.filter((c) => c.category === "it").length;
 const nonItCount = ALL_CAREERS.filter((c) => c.category === "non-it").length;
-console.log(`✓ Generated ${ALL_CAREERS.length - failures}/${ALL_CAREERS.length} careers + ${skillCount} skills → data/generated/`);
+console.log(`✓ Generated ${ALL_CAREERS.length - failures}/${ALL_CAREERS.length} careers + ${skillCount} skills → data/generated/ + public/roadmaps/`);
 console.log(`  Careers: ${itCount} IT, ${nonItCount} Non-IT · Skills: ${skillCount} across ${SKILL_CATEGORIES.length} categories`);
 console.log(`  Total nodes across all roadmaps: ${Object.values(index.roadmaps).reduce((a, r) => a + r.nodeCount, 0)}`);
