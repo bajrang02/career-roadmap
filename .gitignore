@@ -37,7 +37,8 @@ next-env.d.ts
 /public/roadmaps/
 
 # Freebuff desktop app internals (local only — not part of the project)
-/.freebuff/
+/.freebuff/*
+!/.freebuff/verify-palette.mjs
 
 .vercel
 .env*

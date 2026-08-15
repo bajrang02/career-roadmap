@@ -266,7 +266,7 @@ export const SECURITY_SKILLS = [
     slug: "bug-bounty",
     title: "Bug Bounty",
     icon: "💎",
-    color: "#f59e0b",
+    color: "#0ea5e9",
     categories: ["security"],
     template: "security",
     difficulty: "Intermediate",

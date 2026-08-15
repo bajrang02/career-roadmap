@@ -18,7 +18,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "petroleum-engineer", title: "Petroleum Engineer", icon: "🛢️", color: "#b45309",
+    slug: "petroleum-engineer", title: "Petroleum Engineer", icon: "🛢️", color: "#64748b",
     category: "non-it", industry: "Energy & Oil & Gas", skeleton: "petroleum-engineer",
     tagline: "Engineer the world's energy extraction.",
     description: "Petroleum engineers design methods to extract oil and gas from reservoirs — combining geology, drilling and production engineering with the energy transition in mind.",
@@ -33,7 +33,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "mining-engineer", title: "Mining Engineer", icon: "⛏️", color: "#a16207",
+    slug: "mining-engineer", title: "Mining Engineer", icon: "⛏️", color: "#14b8a6",
     category: "non-it", industry: "Mining & Minerals", skeleton: "mining-engineer",
     tagline: "Extract the minerals civilization runs on.",
     description: "Mining engineers plan, design and operate mines — balancing resource extraction with safety, environmental stewardship and economics.",
@@ -168,7 +168,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "metallurgical-engineer", title: "Metallurgical Engineer", icon: "🦾", color: "#92400e",
+    slug: "metallurgical-engineer", title: "Metallurgical Engineer", icon: "🦾", color: "#4f46e5",
     category: "non-it", industry: "Metals & Materials", skeleton: "metallurgical-engineer",
     tagline: "Master metals from ore to alloy.",
     description: "Metallurgical engineers extract metals from ores and shape them into alloys with the exact properties industry needs — from steel beams to jet-engine blades.",
@@ -230,7 +230,7 @@ export const NEW_CAREERS = [
 
   // ── Engineering — electronics & electrical ───────────────────────────────
   {
-    slug: "electronics-engineer", title: "Electronics Engineer", icon: "🔌", color: "#f59e0b",
+    slug: "electronics-engineer", title: "Electronics Engineer", icon: "🔌", color: "#0ea5e9",
     category: "it", industry: "Electronics", skeleton: "electronics-engineer",
     tagline: "Design the circuits inside everything.",
     description: "Electronics engineers design, test and improve electronic circuits and systems — the building blocks of computers, phones, medical devices and industrial equipment.",
@@ -245,7 +245,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "instrumentation-engineer", title: "Instrumentation Engineer", icon: "🎛️", color: "#ca8a04",
+    slug: "instrumentation-engineer", title: "Instrumentation Engineer", icon: "🎛️", color: "#0891b2",
     category: "it", industry: "Instrumentation & Control", skeleton: "instrumentation-engineer",
     tagline: "Measure, control and automate the world.",
     description: "Instrumentation engineers design and maintain the measurement and control systems that keep industrial plants running — sensors, controllers, PLCs and SCADA.",
@@ -260,7 +260,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "power-systems-engineer", title: "Power Systems Engineer", icon: "⚡", color: "#f59e0b",
+    slug: "power-systems-engineer", title: "Power Systems Engineer", icon: "⚡", color: "#0ea5e9",
     category: "it", industry: "Power & Energy", skeleton: "power-systems-engineer",
     tagline: "Engineer the grid that powers everything.",
     description: "Power systems engineers design and operate electrical grids — generation, transmission, distribution and the renewable systems transforming the energy sector.",
@@ -290,7 +290,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "electrical-electronics-engineer", title: "Electrical & Electronics Engineer", icon: "💡", color: "#d97706",
+    slug: "electrical-electronics-engineer", title: "Electrical & Electronics Engineer", icon: "💡", color: "#0284c7",
     category: "it", industry: "Electrical & Electronics", skeleton: "electrical-electronics-engineer",
     tagline: "Power and intelligence in one discipline.",
     description: "Electrical & Electronics engineers span both worlds — designing power systems, machines and electronics, from electric vehicles to smart grids and consumer devices.",
@@ -491,7 +491,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "product-designer", title: "Product Designer", icon: "🛍️", color: "#ec4899",
+    slug: "product-designer", title: "Product Designer", icon: "🛍️", color: "#8b5cf6",
     category: "it", industry: "Product & UX Design", skeleton: "product-designer",
     tagline: "Design digital products people love.",
     description: "Product designers own the end-to-end design of digital products — research, UX, UI and prototyping — turning user needs into delightful interfaces.",
@@ -523,7 +523,7 @@ export const NEW_CAREERS = [
 
   // ── Business & Finance ───────────────────────────────────────────────────
   {
-    slug: "marketing-manager", title: "Marketing Manager", icon: "📣", color: "#ea580c",
+    slug: "marketing-manager", title: "Marketing Manager", icon: "📣", color: "#0891b2",
     category: "non-it", industry: "Marketing", skeleton: "marketing-manager",
     tagline: "Lead the strategy behind every campaign.",
     description: "Marketing managers own the full marketing strategy — brand, channels, campaigns and analytics — leading teams to grow products and businesses.",
@@ -634,7 +634,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "content-creator", title: "Content Creator", icon: "📱", color: "#ec4899",
+    slug: "content-creator", title: "Content Creator", icon: "📱", color: "#8b5cf6",
     category: "non-it", industry: "Content Creation", skeleton: "content-creator",
     tagline: "Build an audience with your ideas.",
     description: "Content creators produce videos, posts, podcasts and newsletters that entertain and inform — building audiences and monetizing across platforms.",
@@ -666,7 +666,7 @@ export const NEW_CAREERS = [
     examMeta: null,
   },
   {
-    slug: "performance-marketing-specialist", title: "Performance Marketing Specialist", icon: "🎯", color: "#d97706",
+    slug: "performance-marketing-specialist", title: "Performance Marketing Specialist", icon: "🎯", color: "#0284c7",
     category: "non-it", industry: "Digital Marketing", skeleton: "performance-marketing-specialist",
     tagline: "Every dollar, measured and optimized.",
     description: "Performance marketers plan, buy and optimize paid media — Google, Meta, TikTok and beyond — obsessing over ROAS and measurable growth.",

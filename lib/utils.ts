@@ -114,32 +114,32 @@ export const NODE_TYPE_META: Record<
     muted: "text-blue-100/80",
     pill: "bg-white/15 text-white",
     bar: "bg-white/15 text-white hover:bg-white/25",
-    titleSize: "text-[15px]",
+    titleSize: "text-[16px]",
     accent: "bg-blue-300/90",
   },
   section: {
     label: "Section",
-    card: "border-amber-500/25 bg-gradient-to-b from-amber-50 to-amber-100/60 text-amber-950 dark:border-amber-500/20 dark:from-amber-900/50 dark:to-amber-900/25 dark:text-amber-50",
-    chip: "bg-amber-100 text-amber-800 dark:bg-amber-900/60 dark:text-amber-200",
-    text: "text-amber-950 dark:text-amber-50",
-    ring: "ring-amber-400",
-    muted: "text-amber-800/70 dark:text-amber-200/70",
-    pill: "bg-amber-100/80 text-amber-900 dark:bg-amber-900/40 dark:text-amber-200",
-    bar: "bg-amber-100/70 text-amber-800 hover:bg-amber-200/80 dark:bg-amber-900/40 dark:text-amber-200 dark:hover:bg-amber-800/60",
-    titleSize: "text-[15px]",
-    accent: "bg-amber-500",
+    card: "border-sky-500/25 bg-gradient-to-b from-sky-50 to-sky-100/60 text-sky-900 dark:border-sky-500/20 dark:from-sky-950/60 dark:to-sky-900/25 dark:text-sky-50",
+    chip: "bg-sky-100 text-sky-800 dark:bg-sky-900/60 dark:text-sky-200",
+    text: "text-sky-900 dark:text-sky-50",
+    ring: "ring-sky-400",
+    muted: "text-sky-800/70 dark:text-sky-200/70",
+    pill: "bg-sky-100/80 text-sky-900 dark:bg-sky-900/40 dark:text-sky-200",
+    bar: "bg-sky-100/70 text-sky-800 hover:bg-sky-200/80 dark:bg-sky-900/40 dark:text-sky-200 dark:hover:bg-sky-800/60",
+    titleSize: "text-[16px]",
+    accent: "bg-sky-500",
   },
   subsection: {
     label: "Module",
-    card: "border-stone-200 bg-gradient-to-b from-[#fbf8f1] to-[#f4eee1] text-stone-800 dark:border-stone-700 dark:from-stone-800 dark:to-stone-800/50 dark:text-stone-100",
-    chip: "bg-stone-100 text-stone-600 dark:bg-stone-800 dark:text-stone-200",
-    text: "text-stone-800 dark:text-stone-100",
-    ring: "ring-stone-400",
-    muted: "text-stone-500/80 dark:text-stone-300/70",
-    pill: "bg-stone-200/70 text-stone-700 dark:bg-stone-700/60 dark:text-stone-200",
-    bar: "bg-stone-200/60 text-stone-700 hover:bg-stone-300/70 dark:bg-stone-700/50 dark:text-stone-200 dark:hover:bg-stone-600/60",
-    titleSize: "text-[16px]",
-    accent: "bg-fuchsia-400 dark:bg-fuchsia-500",
+    card: "border-blue-200/60 bg-gradient-to-b from-slate-50 to-blue-50/60 text-slate-800 dark:border-blue-800/30 dark:from-slate-800 dark:to-blue-950/40 dark:text-slate-100",
+    chip: "bg-blue-100/70 text-blue-700 dark:bg-slate-800 dark:text-slate-200",
+    text: "text-slate-800 dark:text-slate-100",
+    ring: "ring-brand-400",
+    muted: "text-slate-500/80 dark:text-slate-300/70",
+    pill: "bg-slate-200/70 text-slate-700 dark:bg-slate-700/60 dark:text-slate-200",
+    bar: "bg-slate-200/60 text-slate-700 hover:bg-slate-300/70 dark:bg-slate-700/50 dark:text-slate-200 dark:hover:bg-slate-600/60",
+    titleSize: "text-[15px]",
+    accent: "bg-brand-400 dark:bg-brand-500",
   },
   choice: {
     label: "Choice",
@@ -250,6 +250,15 @@ export const NODE_TYPE_META: Record<
     accent: "bg-cyan-500",
   },
 };
+
+/** Fit-to-view padding: a consistent ~7% margin of the shorter canvas axis,
+ *  clamped so tiny screens keep breathing room and huge ones don't waste it.
+ *  Replaces the old fixed 70/24px padding, whose margin % shrank as viewports
+ *  grew (e.g. 10.8% of a 646px preview vs ~5% of a 1920px desktop). */
+export function fitPadding(clientWidth: number, clientHeight: number) {
+  const short = Math.min(clientWidth, clientHeight);
+  return Math.max(24, Math.min(96, Math.round(short * 0.07)));
+}
 
 export function nodeMeta(type: NodeType) {
   return NODE_TYPE_META[type] ?? NODE_TYPE_META.topic;

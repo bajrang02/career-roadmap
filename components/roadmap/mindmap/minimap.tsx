@@ -45,7 +45,7 @@ export const Minimap = memo(function Minimap({
   const colorFor = (type: string) => {
     switch (type) {
       case "career": return "#2563eb";
-      case "section": return "#f59e0b";
+      case "section": return "#38bdf8";
       case "subsection": return "#94a3b8";
       case "topic": return "#64748b";
       case "project":

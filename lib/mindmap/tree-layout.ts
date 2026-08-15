@@ -31,14 +31,15 @@ const MAX_LINES = 2; // labels wrap to at most 2 lines (matches line-clamp-2)
 
 // Extra vertical gap inserted between consecutive top-level section subtrees
 // so sections read as distinct groups (≈30–40px total between sections).
-const SECTION_GAP = 34;
+const SECTION_GAP = 36;
 
 // Compact (mobile) spacing — slightly tighter so the whole map fits on small
-// screens while pinch-zoom still reveals readable text.
-// Compact (mobile) spacing — slightly tighter so the whole map fits on small
-// screens while pinch-zoom still reveals readable text.
+// screens while pinch-zoom still reveals readable text. Mirrors the desktop
+// slimmer-leaf tuning: smaller leaves + a tighter row floor mean expanded
+// branches stack more per viewport on phones (touch targets stay well above
+// the 48px minimum).
 const COMPACT_H_GAP = 52;
-const COMPACT_V_STEP = 76;
+const COMPACT_V_STEP = 72;
 
 // Compact cards sized for the slim single-row layout: a type icon, the title
 // (truncating past ~2 lines) and the chevron. No touch action row anymore —
@@ -80,12 +81,12 @@ const COMPACT_NODE_W: Record<NodeType, number> = {
 // estimateHeight.
 const NODE_H: Record<NodeType, number> = {
   career: 56,
-  section: 52,
-  subsection: 50,
-  topic: 48,
-  concept: 46,
-  projects: 50,
-  project: 48,
+  section: 56,
+  subsection: 46,
+  topic: 46,
+  concept: 44,
+  projects: 46,
+  project: 46,
   optional: 46,
   advanced: 46,
   interview: 40,
@@ -93,20 +94,21 @@ const NODE_H: Record<NodeType, number> = {
   choice: 40,
 };
 
-// Mobile heights — same slim single-row cards; only slightly shorter.
+// Mobile heights — same slim single-row cards, trimmed leaves (career/section
+// keep their anchor presence) so expanded branches fit more on phones.
 const COMPACT_NODE_H: Record<NodeType, number> = {
   career: 86,
   section: 78,
-  subsection: 74,
-  topic: 74,
-  concept: 70,
-  projects: 78,
-  project: 74,
-  optional: 70,
-  advanced: 70,
-  interview: 70,
-  achievement: 78,
-  choice: 78,
+  subsection: 70,
+  topic: 70,
+  concept: 66,
+  projects: 74,
+  project: 70,
+  optional: 66,
+  advanced: 66,
+  interview: 66,
+  achievement: 74,
+  choice: 74,
 };
 
 export function estimateWidth(type: NodeType, compact = false, widthOverride?: number) {
@@ -306,7 +308,7 @@ export function computeLayout(
       const sb = b as unknown as { _scale: number; _h: number };
       const hA = sa._h * (sa._scale || 1.0);
       const hB = sb._h * (sb._scale || 1.0);
-      const padding = a.parent === b.parent ? 20 : 40;
+      const padding = a.parent === b.parent ? 16 : 40;
       return ((hA + hB) / 2 + padding) / vStep;
     });
   const rootLayout = lay(h);

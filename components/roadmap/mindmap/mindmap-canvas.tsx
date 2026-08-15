@@ -11,6 +11,7 @@ import {
 } from "react";
 import { AnimatePresence } from "framer-motion";
 import type { LayoutResult, LayoutNode } from "@/lib/mindmap/tree-layout";
+import { fitPadding } from "@/lib/utils";
 import { RoadmapEdge } from "./roadmap-edge";
 
 export interface Viewport {
@@ -28,7 +29,6 @@ interface MindmapCanvasProps {
   onViewportChange: (v: Viewport) => void;
   onBackgroundClick?: () => void;
   onBackgroundDoubleClick?: () => void;
-  padding?: number;
   /** change this value to force a fresh fit-to-view (e.g. mobile ↔ desktop
    *  breakpoint flip or orientation change re-lays-out with new sizes) */
   fitKey?: string | number;
@@ -62,7 +62,6 @@ export const MindmapCanvas = memo(function MindmapCanvas({
   onViewportChange,
   onBackgroundClick,
   onBackgroundDoubleClick,
-  padding = 60,
   fitKey = "",
 }: MindmapCanvasProps) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -107,8 +106,9 @@ export const MindmapCanvas = memo(function MindmapCanvas({
     (width: number, height: number) => {
       const el = containerRef.current;
       if (!el || !el.clientWidth) return;
-      const bw = width + padding * 2;
-      const bh = height + padding * 2;
+      const pad = fitPadding(el.clientWidth, el.clientHeight);
+      const bw = width + pad * 2;
+      const bh = height + pad * 2;
       const k = Math.min(el.clientWidth / bw, el.clientHeight / bh, 1);
       scheduleViewportChange({
         x: (el.clientWidth - width * k) / 2,
@@ -116,7 +116,7 @@ export const MindmapCanvas = memo(function MindmapCanvas({
         k: Math.max(k, 0.2),
       });
     },
-    [padding, scheduleViewportChange]
+    [scheduleViewportChange]
   );
 
   // fit once on mount, and again whenever the layout's size class changes

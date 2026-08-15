@@ -214,7 +214,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "data-engineer", title: "Data Engineer", icon: "🏗️", color: "#ea580c",
+    slug: "data-engineer", title: "Data Engineer", icon: "🏗️", color: "#0891b2",
     category: "it", industry: "Data & Analytics", skeleton: "data-engineer",
     tagline: "Build the pipelines data flows through.",
     description: "Data engineers design and maintain the infrastructure that moves, transforms and stores data — warehouses, pipelines, orchestration and streaming.",
@@ -334,7 +334,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "embedded-engineer", title: "Embedded Engineer", icon: "🔌", color: "#d97706",
+    slug: "embedded-engineer", title: "Embedded Engineer", icon: "🔌", color: "#0284c7",
     category: "it", industry: "Embedded Systems", skeleton: "embedded",
     tagline: "Program the physical world.",
     description: "Embedded engineers write the software inside devices — from microcontrollers in cars and medical devices to consumer electronics — with C, C++ and real-time systems.",
@@ -349,7 +349,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "iot-engineer", title: "IoT Engineer", icon: "📡", color: "#ca8a04",
+    slug: "iot-engineer", title: "IoT Engineer", icon: "📡", color: "#0891b2",
     category: "it", industry: "Internet of Things", skeleton: "iot",
     tagline: "Connect devices into intelligent systems.",
     description: "IoT engineers connect sensors and devices to the cloud — building firmware, communication protocols, device management and the data pipelines behind smart products.",
@@ -499,7 +499,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "ui-designer", title: "UI Designer", icon: "🖌️", color: "#ec4899",
+    slug: "ui-designer", title: "UI Designer", icon: "🖌️", color: "#8b5cf6",
     category: "it", industry: "Design", skeleton: "ui-ux",
     tagline: "Design interfaces that feel effortless.",
     description: "UI designers craft the visual layer of products — layouts, color, type, iconography and components — turning UX concepts into pixel-perfect designs.",
@@ -664,7 +664,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "power-bi-developer", title: "Power BI Developer", icon: "📊", color: "#f2c811",
+    slug: "power-bi-developer", title: "Power BI Developer", icon: "📊", color: "#0ea5e9",
     category: "it", industry: "Data & Analytics", skeleton: "powerbi",
     tagline: "Turn enterprise data into dashboards.",
     description: "Power BI developers build data models, DAX measures and interactive dashboards that executives and teams use daily to make decisions.",
@@ -756,7 +756,7 @@ export const CAREERS = [
 
   // ─────────────────────────── NON-IT CAREERS ───────────────────────────
   {
-    slug: "digital-marketing", title: "Digital Marketing", icon: "📣", color: "#ea580c",
+    slug: "digital-marketing", title: "Digital Marketing", icon: "📣", color: "#0891b2",
     category: "non-it", industry: "Marketing", skeleton: "digital-marketing",
     tagline: "Grow brands across every channel.",
     description: "Digital marketers plan and execute growth across SEO, content, social, email and paid channels — measuring everything and optimizing relentlessly.",
@@ -771,7 +771,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "seo-specialist", title: "SEO Specialist", icon: "🔍", color: "#d97706",
+    slug: "seo-specialist", title: "SEO Specialist", icon: "🔍", color: "#0284c7",
     category: "non-it", industry: "Marketing", skeleton: "seo",
     tagline: "Win the search results.",
     description: "SEO specialists grow organic traffic through technical, on-page and content SEO — keyword strategy, link building and continuous measurement.",
@@ -801,7 +801,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "copywriter", title: "Copywriter", icon: "💬", color: "#f59e0b",
+    slug: "copywriter", title: "Copywriter", icon: "💬", color: "#0ea5e9",
     category: "non-it", industry: "Marketing & Advertising", skeleton: "copywriting",
     tagline: "Write words that sell.",
     description: "Copywriters craft persuasive copy — ads, landing pages, emails, product pages — using psychology, clarity and testing to drive action.",
@@ -891,7 +891,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "social-media-manager", title: "Social Media Manager", icon: "📱", color: "#ec4899",
+    slug: "social-media-manager", title: "Social Media Manager", icon: "📱", color: "#8b5cf6",
     category: "non-it", industry: "Marketing", skeleton: "social-media",
     tagline: "Grow communities across every platform.",
     description: "Social media managers own brand presence on social platforms — strategy, content calendars, community, paid and analytics.",
@@ -1071,7 +1071,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "civil-engineer", title: "Civil Engineer", icon: "🏗️", color: "#d97706",
+    slug: "civil-engineer", title: "Civil Engineer", icon: "🏗️", color: "#0284c7",
     category: "non-it", industry: "Engineering", skeleton: "civil-engineer",
     tagline: "Design the world's physical infrastructure.",
     description: "Civil engineers design and oversee structures and infrastructure — buildings, bridges, roads and water systems — balancing safety, cost and sustainability.",
@@ -1101,7 +1101,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "electrical-engineer", title: "Electrical Engineer", icon: "💡", color: "#f59e0b",
+    slug: "electrical-engineer", title: "Electrical Engineer", icon: "💡", color: "#0ea5e9",
     category: "non-it", industry: "Engineering", skeleton: "electrical-engineer",
     tagline: "Harness the power of electrons.",
     description: "Electrical engineers design power systems, electronics and control systems — from power grids to circuit boards and embedded hardware.",
@@ -1116,7 +1116,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "architect", title: "Architect", icon: "🏛️", color: "#b45309",
+    slug: "architect", title: "Architect", icon: "🏛️", color: "#64748b",
     category: "non-it", industry: "Architecture", skeleton: "architect",
     tagline: "Design spaces that shape how we live.",
     description: "Architects design buildings and spaces — balancing aesthetics, function, safety and sustainability through concept to construction.",
@@ -1146,7 +1146,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "fashion-designer", title: "Fashion Designer", icon: "👗", color: "#ec4899",
+    slug: "fashion-designer", title: "Fashion Designer", icon: "👗", color: "#8b5cf6",
     category: "non-it", industry: "Fashion", skeleton: "fashion-design",
     tagline: "Design the clothes the world wears.",
     description: "Fashion designers create clothing and accessories — sketching, textiles, patterns and collections for brands and labels.",
@@ -1161,7 +1161,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "chef", title: "Chef", icon: "👨‍🍳", color: "#ea580c",
+    slug: "chef", title: "Chef", icon: "👨‍🍳", color: "#0891b2",
     category: "non-it", industry: "Culinary", skeleton: "chef",
     tagline: "Create food people remember.",
     description: "Chefs run kitchens and create food — mastering techniques, menu design, cost control and team leadership from line cook to executive chef.",
@@ -1236,7 +1236,7 @@ export const CAREERS = [
     examMeta: null,
   },
   {
-    slug: "supply-chain-manager", title: "Supply Chain Manager", icon: "🚚", color: "#d97706",
+    slug: "supply-chain-manager", title: "Supply Chain Manager", icon: "🚚", color: "#0284c7",
     category: "non-it", industry: "Operations", skeleton: "supply-chain",
     tagline: "Move goods efficiently across the globe.",
     description: "Supply chain managers optimize procurement, logistics, inventory and distribution — balancing cost, speed and resilience.",

@@ -225,7 +225,7 @@ export function HowItWorks({ catalog }: { catalog: HomeCatalog }) {
       icon: Map,
       title: "Follow the map",
       desc: "Expand nodes in the correct order. Every topic has resources, projects and practice.",
-      color: "bg-amber-50 text-amber-600 dark:bg-amber-950/60 dark:text-amber-400",
+      color: "bg-sky-50 text-sky-600 dark:bg-sky-950/60 dark:text-sky-400",
     },
     {
       icon: TrendingUp,

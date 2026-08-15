@@ -21,7 +21,7 @@ import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
 import { useChoicesStore } from "@/lib/stores/choices-store";
 import { useShallow } from "zustand/react/shallow";
 import type { Viewport } from "./mindmap/mindmap-canvas";
-import { cn, isCheckableType } from "@/lib/utils";
+import { cn, fitPadding, isCheckableType } from "@/lib/utils";
 import { Plus, Minus, Maximize, Crosshair, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { LayoutNode } from "@/lib/mindmap/tree-layout";
@@ -518,7 +518,7 @@ export function RoadmapViewer({
   const handleFit = useCallback(() => {
     if (!layout || !canvasRef.current) return;
     const el = canvasRef.current;
-    const pad = isMobile ? 24 : 70;
+    const pad = fitPadding(el.clientWidth, el.clientHeight);
     const bw = layout.width + pad * 2;
     const bh = layout.height + pad * 2;
     const k = Math.min(el.clientWidth / bw, el.clientHeight / bh, 1);
@@ -527,7 +527,7 @@ export function RoadmapViewer({
       y: (el.clientHeight - layout.height * k) / 2,
       k: Math.max(k, 0.2),
     });
-  }, [layout, isMobile]);
+  }, [layout]);
 
   const zoomBy = useCallback(
     (factor: number) => {
@@ -1051,7 +1051,6 @@ export function RoadmapViewer({
             setSelectedId(null);
           }}
           onBackgroundDoubleClick={handleFit}
-          padding={isMobile ? 24 : 70}
           fitKey={isMobile ? "mobile" : "desktop"}
           renderNode={renderNode}
           edgeActive={edgeActive}

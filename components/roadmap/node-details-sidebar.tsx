@@ -841,7 +841,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
           only render the legacy sections when overview is missing (e.g. imported maps) */}
       {!ov && d.whyLearn && (
         <Section icon={Lightbulb} title="Why learn this">
-          <p className="rounded-xl border border-amber-200/70 bg-amber-50 p-3.5 text-amber-900 dark:border-amber-500/20 dark:bg-amber-500/10 dark:text-amber-200 text-[15px] sm:text-[14px]">
+          <p className="rounded-xl border border-brand-200/70 bg-brand-50 p-3.5 text-brand-900 dark:border-brand-500/20 dark:bg-brand-500/10 dark:text-brand-200 text-[15px] sm:text-[14px]">
             {d.whyLearn}
           </p>
         </Section>
@@ -890,7 +890,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
               {d.exercises.map((ex, i) => (
                 <li
                   key={i}
-                  className="rounded-lg border border-amber-200/70 bg-amber-50/50 px-3.5 py-3 text-[14px] sm:text-xs font-medium text-amber-900 dark:border-amber-500/20 dark:bg-amber-500/10 dark:text-amber-200"
+                  className="rounded-lg border border-slate-200 bg-slate-50/70 px-3.5 py-3 text-[14px] sm:text-xs font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-800/40 dark:text-slate-200"
                 >
                   {ex}
                 </li>

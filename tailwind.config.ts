@@ -86,8 +86,8 @@ const config: Config = {
         },
         node: {
           career: "#2563eb",
-          section: "#fbbf24",
-          subsection: "#fffbeb",
+          section: "#38bdf8",
+          subsection: "#cbd5e1",
           topic: "#ffffff",
           concept: "#f8fafc",
           project: "#10b981",

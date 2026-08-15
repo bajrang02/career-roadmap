@@ -412,7 +412,7 @@ export const WEB_SKILLS = [
     slug: "graphql",
     title: "GraphQL",
     icon: "🔗",
-    color: "#e10098",
+    color: "#7c3aed",
     categories: ["backend"],
     template: "web",
     difficulty: "Advanced",
