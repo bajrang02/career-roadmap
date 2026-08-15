@@ -15,6 +15,72 @@ const cap = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
 // helpers — build practice entries with sane defaults
 const p = (t, pl, u, d, e, s, ds) => ({ t, p: pl, u, d, e, s, ds });
 
+// ── context families ─────────────────────────────────────────────────────────
+// A rule only fires inside a roadmap whose domain/category belongs to the rule's
+// family. This is what stops LeetCode appearing in WordPress/AutoCAD or CSSBattle
+// inside an engineering roadmap. Values are lowercase roadmap domains/categories.
+const CODE = new Set([
+  "software development", "backend", "frontend", "programming languages",
+  "mobile development", "game & graphics", "blockchain & web3", "qa & testing",
+  "databases", "database & infrastructure", "ai & data science",
+  "artificial intelligence & data", "data & business", "cloud & devops",
+  "iot & robotics", "electronics & embedded", "cybersecurity",
+]);
+const WEB = new Set([
+  "frontend", "software development", "backend", "mobile development",
+  "ui/ux & design", "qa & testing", "cloud & devops", "databases",
+  "database & infrastructure", "programming languages", "cybersecurity",
+  "ai & data science", "artificial intelligence & data", "data & business",
+]);
+const CLOUD = new Set([
+  "cloud & devops", "software development", "backend", "frontend", "databases",
+  "database & infrastructure", "mobile development", "game & graphics",
+  "blockchain & web3", "qa & testing", "cybersecurity", "electronics & embedded",
+  "iot & robotics", "ai & data science", "artificial intelligence & data",
+  "data & business", "programming languages",
+]);
+const ENG = new Set(["engineering", "engineering software", "electronics & embedded", "iot & robotics"]);
+const DATA = new Set([
+  "ai & data science", "artificial intelligence & data", "data & business",
+  "databases", "database & infrastructure", "backend", "programming languages",
+  "software development", "cloud & devops", "qa & testing", "blockchain & web3",
+  "cybersecurity", "mobile development", "frontend", "game & graphics",
+]);
+const SEC = new Set([
+  "cybersecurity", "software development", "backend", "frontend", "cloud & devops",
+  "databases", "database & infrastructure", "ai & data science",
+  "artificial intelligence & data", "data & business", "programming languages",
+  "mobile development", "game & graphics", "blockchain & web3", "qa & testing",
+  "electronics & embedded", "iot & robotics", "engineering", "engineering software",
+]);
+
+// Slugs inside coding domains that are really CMS / no-code / consulting
+// careers — algorithm and language-kata platforms would be noise there.
+const NON_CODING_SLUGS = new Set([
+  "wordpress", "wordpress-developer", "no-code-developer", "erp-consultant",
+  "sap-consultant", "salesforce-developer", "product-manager", "technical-writer",
+]);
+
+const fam = (ctx = {}) => String(ctx.domain ?? ctx.skillCategory ?? "").toLowerCase();
+const inFam = (ctx, set) => set.has(fam(ctx));
+const isCoding = (ctx) => inFam(ctx, CODE) && !NON_CODING_SLUGS.has(ctx.slug);
+
+// Algorithm kata / interview platforms — the ones that are noise outside real
+// coding careers (WordPress, AutoCAD, PowerPoint…). SQL and language tracks
+// (HackerRank SQL, HackerRank JS, Exercism language tracks) stay allowed.
+const ALGO_HOSTS = new Set(["leetcode.com", "neetcode.io", "codeforces.com", "codechef.com", "codewars.com", "exercism.org"]);
+const isAlgoUrl = (u = "") => {
+  try {
+    const { hostname, pathname } = new URL(u);
+    const h = hostname.replace(/^www\./, "");
+    if (ALGO_HOSTS.has(h)) return true;
+    return h === "hackerrank.com" && /\/domains\/algorithms/.test(pathname);
+  } catch {
+    return false;
+  }
+};
+export { isCoding, isAlgoUrl };
+
 // curated entries — keyed by normalized label (same normalization as resources)
 export const CURATED_PRACTICE = {
   // ── SQL ────────────────────────────────────────────────────────────────────
@@ -439,54 +505,86 @@ export const CURATED_PRACTICE = {
 };
 
 // ── rule-based fallbacks (ordered: first match wins) ─────────────────────────
-// Each rule: { re, platform, url, difficulty, time, skills, description }
-// These fire when a label isn't curated, using roadmap context where available.
+// Each rule: { fam, re, t, p, u, d, e, s, ds }. `fam` is the context family the
+// rule is allowed in (CODE/WEB/CLOUD/ENG/DATA/SEC) — rules without a family fire
+// anywhere. These fire when a label isn't curated, using roadmap context.
 export const PRACTICE_RULES = [
-  { re: /how the internet works|internet works|how does the internet|networking basics/i, t: "How the internet works", p: "Cloudflare Learning", u: "https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/", d: "Beginner", e: "20–40 min", s: ["Networking"], ds: "Clear interactive explainer of how the internet works." },
-  { re: /dns|domain name|nameserver|hosting|domains?$/i, t: "DNS explainer", p: "Cloudflare Learning", u: "https://www.cloudflare.com/learning/dns/what-is-dns/", d: "Beginner", e: "20–40 min", s: ["DNS"], ds: "Interactive explainer of DNS records and lookups." },
-  { re: /http|https|ssl|tls|request methods|status codes|headers|rest api/i, t: "HTTP request lab", p: "httpbingo.org", u: "https://httpbingo.org/", d: "Beginner", e: "20–40 min", s: ["HTTP"], ds: "Send real HTTP requests and inspect responses immediately." },
-  { re: /tcp|internet protocol|\bip (address|v4|v6|packet|routing)|\bpackets?\b|\brouting\b|\bprotocols?\b/i, t: "TCP/IP model guide", p: "Cloudflare Learning", u: "https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/", d: "Beginner", e: "20–40 min", s: ["TCP/IP"], ds: "Visual guide to the TCP/IP model and packet flow." },
-  { re: /browsers?|rendering|web performance|loading/i, t: "Learn Performance", p: "web.dev", u: "https://web.dev/learn/performance", d: "Intermediate", e: "2–3 hours", s: ["Performance"], ds: "Measure and fix real page-load performance." },
-  { re: /sql|query|database|index|join/i, p: "HackerRank SQL", u: "https://www.hackerrank.com/domains/sql", d: "Beginner", e: "30–60 min", s: ["SQL", "Queries"], ds: "Auto-graded SQL challenges across every topic level." },
-  { re: /sql|query|database/i, p: "SQLBolt", u: "https://sqlbolt.com/", d: "Beginner", e: "20–40 min", s: ["SQL basics"], ds: "Interactive SQL lessons with live feedback." },
-  { re: /git|version control|commit|branch|merge|rebase/i, p: "Learn Git Branching", u: "https://learngitbranching.js.org/", d: "Beginner", e: "30–60 min", s: ["Git", "Branching"], ds: "Visual, interactive Git exercises." },
-  { re: /docker|container|compose/i, p: "Play with Docker", u: "https://labs.play-with-docker.com/", d: "Beginner", e: "30–60 min", s: ["Docker"], ds: "Run real Docker commands in your browser." },
-  { re: /kubernetes|k8s|orchestration|helm/i, p: "Killercoda Kubernetes", u: "https://killercoda.com/playgrounds/scenario/kubernetes", d: "Intermediate", e: "60–120 min", s: ["kubectl", "Pods", "Services"], ds: "Interactive Kubernetes sandbox." },
-  { re: /terraform|infrastructure as code|iac/i, p: "HashiCorp Learn", u: "https://developer.hashicorp.com/terraform/tutorials", d: "Beginner", e: "60–120 min", s: ["Terraform", "HCL"], ds: "Official hands-on Terraform tutorials." },
-  { re: /linux|unix|shell|bash|terminal|command line|cli/i, p: "OverTheWire Bandit", u: "https://overthewire.org/wargames/bandit/", d: "Beginner", e: "30–60 min", s: ["Linux commands"], ds: "Level-based Linux challenges that teach by doing." },
-  { re: /linux|shell|bash/i, p: "LearnShell.org", u: "https://www.learnshell.org/", d: "Beginner", e: "20–40 min", s: ["Shell", "Scripting"], ds: "Interactive shell lessons in the browser." },
-  { re: /aws|cloud practitioner|s3|lambda|ec2|iam/i, p: "AWS Skill Builder", u: "https://skillbuilder.aws/", d: "Beginner", e: "60–120 min", s: ["AWS services"], ds: "Official free labs and courses." },
-  { re: /google cloud|gcp/i, p: "Google Cloud Skills Boost", u: "https://www.cloudskillsboost.google/", d: "Beginner", e: "60–120 min", s: ["GCP services"], ds: "Official hands-on GCP labs." },
-  { re: /azure|microsoft cloud/i, p: "Microsoft Learn", u: "https://learn.microsoft.com/training/", d: "Beginner", e: "60–120 min", s: ["Azure services"], ds: "Official sandbox-enabled Microsoft training." },
-  { re: /injection|sql injection|sqli|command injection/i, p: "PortSwigger Web Security Academy", u: "https://portswigger.net/web-security/all-labs", d: "Intermediate", e: "60–120 min", s: ["Injection"], ds: "Free browser-based exploitation labs." },
-  { re: /xss|csrf|ssrf|web security|owasp|injection|exploit|vulnerab|pentest|security/i, p: "TryHackMe", u: "https://tryhackme.com/", d: "Beginner", e: "60–120 min", s: ["Security labs"], ds: "Guided hands-on security rooms." },
-  { re: /security|hack|ctf|forensic|malware|crypto|osint/i, p: "Hack The Box", u: "https://www.hackthebox.com/", d: "Advanced", e: "2–4 hours", s: ["Offensive security"], ds: "Legal attack challenges on real machines." },
-  { re: /osint|recon|information gathering|enumeration/i, p: "TryHackMe", u: "https://tryhackme.com/module/passive-reconnaissance", d: "Beginner", e: "45–90 min", s: ["OSINT", "Recon"], ds: "Guided reconnaissance labs." },
-  { re: /react|vue|angular|svelte|next\.?js|frontend|ui|component|hook/i, p: "Frontend Mentor", u: "https://www.frontendmentor.io/challenges", d: "Intermediate", e: "2–3 hours", s: ["Frontend", "Components"], ds: "Real design briefs to build with your framework." },
-  { re: /css|flexbox|grid|responsive|layout|animation/i, p: "CSSBattle", u: "https://cssbattle.dev/", d: "Beginner", e: "20–40 min", s: ["CSS"], ds: "Pixel-perfect CSS challenges." },
-  { re: /html|forms|semantic/i, p: "W3Schools HTML", u: "https://www.w3schools.com/html/html_exercises.asp", d: "Beginner", e: "15–30 min", s: ["HTML"], ds: "Quick interactive HTML exercises." },
-  { re: /javascript|js|typescript|ts/i, p: "Codewars", u: "https://www.codewars.com/kata/search/javascript", d: "Beginner", e: "20–40 min", s: ["JavaScript"], ds: "Ranked JavaScript kata that auto-grade." },
-  { re: /javascript|js/i, p: "HackerRank JavaScript", u: "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript", d: "Beginner", e: "30–60 min", s: ["JavaScript"], ds: "Graded JavaScript challenges." },
-  { re: /python|django|flask|pandas|numpy|scikit/i, p: "Exercism Python", u: "https://exercism.org/tracks/python", d: "Beginner", e: "30–60 min", s: ["Python"], ds: "Mentored Python exercises." },
-  { re: /python/i, p: "HackerRank Python", u: "https://www.hackerrank.com/domains/python", d: "Beginner", e: "30–60 min", s: ["Python"], ds: "Graded Python challenges." },
-  { re: /java|spring|jvm/i, p: "HackerRank Java", u: "https://www.hackerrank.com/domains/java", d: "Beginner", e: "30–60 min", s: ["Java"], ds: "Graded Java challenges." },
-  { re: /golang|go lang|go programming/i, p: "Exercism Go", u: "https://exercism.org/tracks/go", d: "Beginner", e: "30–60 min", s: ["Go"], ds: "Mentored Go exercises." },
-  { re: /rust/i, p: "Exercism Rust", u: "https://exercism.org/tracks/rust", d: "Intermediate", e: "30–60 min", s: ["Rust"], ds: "Mentored Rust exercises." },
-  { re: /c\+\+|cpp|competitive|codeforces|codechef/i, p: "Codeforces", u: "https://codeforces.com/problemset", d: "Intermediate", e: "60–120 min", s: ["Competitive programming"], ds: "Real contest problems ranked by difficulty." },
-  { re: /algorithm|data structure|recursion|sorting|searching|dynamic programming|graph|tree|linked list|stack|queue|array|string|complexity|big o|problem solving/i, p: "LeetCode", u: "https://leetcode.com/problemset/", d: "Intermediate", e: "45–90 min", s: ["Algorithms"], ds: "Interview problems sorted by topic tag." },
-  { re: /algorithm|data structure|recursion|dynamic programming/i, p: "NeetCode", u: "https://neetcode.io/roadmap", d: "Intermediate", e: "60–120 min", s: ["DSA roadmap"], ds: "An ordered practice plan for interviews." },
-  { re: /machine learning|deep learning|neural|ml|ai|tensorflow|pytorch|hugging|transformer/i, p: "Kaggle Learn", u: "https://www.kaggle.com/learn", d: "Beginner", e: "2–3 hours", s: ["Machine learning"], ds: "Micro-courses with real datasets and notebooks." },
-  { re: /data science|data analysis|pandas|numpy|statistics|viz|cleaning|feature/i, p: "Kaggle", u: "https://www.kaggle.com/", d: "Beginner", e: "60–120 min", s: ["Data science"], ds: "Real datasets, notebooks and competitions." },
-  { re: /jupyter|notebook|colab/i, p: "Google Colab", u: "https://colab.research.google.com/", d: "Beginner", e: "30–60 min", s: ["Notebooks"], ds: "Free GPU-backed notebooks to run code now." },
-  { re: /autocad|cad|drafting/i, p: "Autodesk Learn", u: "https://www.autodesk.com/learn/onboarding/overview/experience/learn-autocad", d: "Beginner", e: "2–3 hours", s: ["CAD"], ds: "Official guided CAD tutorials." },
-  { re: /solidworks|3d modeling/i, p: "SOLIDWORKS Learn", u: "https://www.solidworks.com/support/learn", d: "Beginner", e: "2–3 hours", s: ["CAD"], ds: "Official SOLIDWORKS tutorials." },
-  { re: /matlab/i, p: "MATLAB Onramp", u: "https://matlabacademy.mathworks.com/", d: "Beginner", e: "2–4 hours", s: ["MATLAB"], ds: "Official interactive MATLAB course." },
-  { re: /ansys|fea|simulation|cfd/i, p: "Ansys Courses", u: "https://courses.ansys.com/", d: "Beginner", e: "2–3 hours", s: ["Simulation"], ds: "Free official simulation courses." },
-  { re: /revit|bim/i, p: "Autodesk Learn", u: "https://www.autodesk.com/learn/onboarding/overview/experience/learn-revit", d: "Beginner", e: "2–3 hours", s: ["BIM"], ds: "Official guided Revit tutorials." },
-  { re: /mock interview|interview practice|behavioral|negotiation/i, p: "Pramp", u: "https://www.pramp.com/", d: "Intermediate", e: "30–60 min", s: ["Mock interviews"], ds: "Free live mock interviews with peers." },
-  { re: /aptitude|reasoning|quantitative/i, p: "IndiaBix", u: "https://www.indiabix.com/", d: "Beginner", e: "30–60 min", s: ["Aptitude"], ds: "Practice questions with detailed solutions." },
-  { re: /typing|speed|accuracy/i, p: "Keybr", u: "https://www.keybr.com/", d: "Beginner", e: "10–20 min", s: ["Typing"], ds: "Adaptive typing practice." },
+  // ── network & web concepts ──
+  { fam: CLOUD, re: /how the internet works|internet works|how does the internet|networking basics/i, t: "How the internet works", p: "Cloudflare Learning", u: "https://www.cloudflare.com/learning/network-layer/how-does-the-internet-work/", d: "Beginner", e: "20–40 min", s: ["Networking"], ds: "Clear interactive explainer of how the internet works." },
+  { fam: CLOUD, re: /\bdns\b|\bdomain name[s]?\b|\bnameserver[s]?\b|\bhosting\b|\bdomains?\b/i, t: "DNS explainer", p: "Cloudflare Learning", u: "https://www.cloudflare.com/learning/dns/what-is-dns/", d: "Beginner", e: "20–40 min", s: ["DNS"], ds: "Interactive explainer of DNS records and lookups." },
+  { fam: CLOUD, re: /\bhttp\b|\bhttps\b|\bssl\b|\btls\b|\brequest methods?\b|\bstatus codes?\b|\bheaders?\b|\brest api\b|\bapi design\b/i, t: "HTTP request lab", p: "httpbingo.org", u: "https://httpbingo.org/", d: "Beginner", e: "20–40 min", s: ["HTTP"], ds: "Send real HTTP requests and inspect responses immediately." },
+  { fam: CLOUD, re: /\btcp\b|\btcp\/ip\b|\binternet protocol\b|\bip (address|v4|v6|packet|routing)\b|\bpackets?\b|\brouting\b/i, t: "TCP/IP model guide", p: "Cloudflare Learning", u: "https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/", d: "Beginner", e: "20–40 min", s: ["TCP/IP"], ds: "Visual guide to the TCP/IP model and packet flow." },
+  { fam: WEB, re: /\bbrowsers?\b|\brendering\b|\bweb performance\b|\bpage load[ing]?\b/i, t: "Learn Performance", p: "web.dev", u: "https://web.dev/learn/performance", d: "Intermediate", e: "2–3 hours", s: ["Performance"], ds: "Measure and fix real page-load performance." },
+  // ── SQL (practised wherever it is taught) ──
+  { re: /\bsql\b|\bquery[ing]?\b|\bdatabase[s]?\b|\bindex[ing]?\b|\bjoin[s]?\b|\bnormaliz[a-z]*\b|\bschema[s]?\b/i, p: "HackerRank SQL", u: "https://www.hackerrank.com/domains/sql", d: "Beginner", e: "30–60 min", s: ["SQL", "Queries"], ds: "Auto-graded SQL challenges across every topic level." },
+  { re: /\bsql\b|\bquery[ing]?\b|\bdatabase[s]?\b/i, p: "SQLBolt", u: "https://sqlbolt.com/", d: "Beginner", e: "20–40 min", s: ["SQL basics"], ds: "Interactive SQL lessons with live feedback." },
+  // ── git (used everywhere) ──
+  { re: /\bgit\b|\bversion control\b|\bcommit[s]?\b|\bbranch[es]?\b|\bmerg[ing]?\b|\brebas[ing]?\b/i, p: "Learn Git Branching", u: "https://learngitbranching.js.org/", d: "Beginner", e: "30–60 min", s: ["Git", "Branching"], ds: "Visual, interactive Git exercises." },
+  // ── WordPress (platform-specific) ──
+  { re: /\bwordpress\b|\bgutenberg\b/i, p: "WordPress Learn", u: "https://learn.wordpress.org/", d: "Beginner", e: "30–60 min", s: ["WordPress"], ds: "Official free WordPress workshops and courses." },
+  { re: /\bwordpress\b|\bgutenberg\b/i, p: "WordPress Playground", u: "https://playground.wordpress.net/", d: "Beginner", e: "20–40 min", s: ["WordPress", "Themes", "Plugins"], ds: "Spin up a live WordPress site in your browser and experiment." },
+  // ── cloud infrastructure ──
+  { fam: CLOUD, re: /\bdocker\b|\bdockerfile[s]?\b|\bcontainerization\b|\bcontainer[s]?\b|\bcompose\b/i, p: "Play with Docker", u: "https://labs.play-with-docker.com/", d: "Beginner", e: "30–60 min", s: ["Docker"], ds: "Run real Docker commands in your browser." },
+  { fam: CLOUD, re: /\bkubernetes\b|\bk8s\b|\borchestration\b|\bhelm\b/i, p: "Killercoda Kubernetes", u: "https://killercoda.com/playgrounds/scenario/kubernetes", d: "Intermediate", e: "60–120 min", s: ["kubectl", "Pods", "Services"], ds: "Interactive Kubernetes sandbox." },
+  { fam: CLOUD, re: /\bterraform\b|\binfrastructure as code\b|\biac\b/i, p: "HashiCorp Learn", u: "https://developer.hashicorp.com/terraform/tutorials", d: "Beginner", e: "60–120 min", s: ["Terraform", "HCL"], ds: "Official hands-on Terraform tutorials." },
+  { fam: CLOUD, re: /\baws\b|\bcloud practitioner\b|\bs3\b|\blambda\b|\bec2\b|\biam\b/i, p: "AWS Skill Builder", u: "https://skillbuilder.aws/", d: "Beginner", e: "60–120 min", s: ["AWS services"], ds: "Official free labs and courses." },
+  { fam: CLOUD, re: /\bgoogle cloud\b|\bgcp\b/i, p: "Google Cloud Skills Boost", u: "https://www.cloudskillsboost.google/", d: "Beginner", e: "60–120 min", s: ["GCP services"], ds: "Official hands-on GCP labs." },
+  { fam: CLOUD, re: /\bazure\b|\bmicrosoft cloud\b/i, p: "Microsoft Learn", u: "https://learn.microsoft.com/training/", d: "Beginner", e: "60–120 min", s: ["Azure services"], ds: "Official sandbox-enabled Microsoft training." },
+  // ── Linux / shell (tech contexts only — AutoCAD has a "command line" too) ──
+  { fam: CLOUD, re: /\blinux\b|\bunix\b|\bshell\b|\bbash\b|\bterminal\b|\bcommand line\b|\bcli\b/i, p: "OverTheWire Bandit", u: "https://overthewire.org/wargames/bandit/", d: "Beginner", e: "30–60 min", s: ["Linux commands"], ds: "Level-based Linux challenges that teach by doing." },
+  { fam: CLOUD, re: /\blinux\b|\bshell\b|\bbash\b/i, p: "LearnShell.org", u: "https://www.learnshell.org/", d: "Beginner", e: "20–40 min", s: ["Shell", "Scripting"], ds: "Interactive shell lessons in the browser." },
+  // ── security ──
+  { fam: SEC, re: /\binjection\b|\bsql injection\b|\bsqli\b|\bcommand injection\b/i, p: "PortSwigger Web Security Academy", u: "https://portswigger.net/web-security/all-labs", d: "Intermediate", e: "60–120 min", s: ["Injection"], ds: "Free browser-based exploitation labs." },
+  { fam: SEC, re: /\bxss\b|\bcsrf\b|\bssrf\b|\bweb security\b|\bowasp\b|\bexploit[s]?\b|\bvulnerab[a-z]*\b|\bpentest\b|\bsecurity\b/i, p: "TryHackMe", u: "https://tryhackme.com/", d: "Beginner", e: "60–120 min", s: ["Security labs"], ds: "Guided hands-on security rooms." },
+  { fam: SEC, re: /\bhack(ing|er|ed)?\b|\bctf\b|\bforensic[s]?\b|\bmalware\b|\bcrypto(graphy|analysis)?\b|\bosint\b/i, p: "Hack The Box", u: "https://www.hackthebox.com/", d: "Advanced", e: "2–4 hours", s: ["Offensive security"], ds: "Legal attack challenges on real machines." },
+  { fam: SEC, re: /\bosint\b|\brecon\b|\binformation gathering\b|\benumeration\b/i, p: "TryHackMe", u: "https://tryhackme.com/module/passive-reconnaissance", d: "Beginner", e: "45–90 min", s: ["OSINT", "Recon"], ds: "Guided reconnaissance labs." },
+  // ── web frontend ──
+  { fam: WEB, re: /\breact\b|\bvue\b|\bangular\b|\bsvelte\b|\bnext\.?js\b|\bfrontend\b|\bui\b|\bcomponent[s]?\b|\bhook[s]?\b/i, p: "Frontend Mentor", u: "https://www.frontendmentor.io/challenges", d: "Intermediate", e: "2–3 hours", s: ["Frontend", "Components"], ds: "Real design briefs to build with your framework." },
+  { fam: WEB, re: /\bcss\b|\bflexbox\b|\bgrid\b|\bresponsive\b|\blayout\b|\banimation[s]?\b/i, p: "CSSBattle", u: "https://cssbattle.dev/", d: "Beginner", e: "20–40 min", s: ["CSS"], ds: "Pixel-perfect CSS challenges." },
+  { fam: WEB, re: /\bhtml\b|\bforms?\b|\bsemantic\b/i, p: "W3Schools HTML", u: "https://www.w3schools.com/html/html_exercises.asp", d: "Beginner", e: "15–30 min", s: ["HTML"], ds: "Quick interactive HTML exercises." },
+  // ── languages & algorithms (coding contexts only) ──
+  { fam: "code", re: /\bjavascript\b|\bjs\b|\btypescript\b|\bts\b/i, p: "Codewars", u: "https://www.codewars.com/kata/search/javascript", d: "Beginner", e: "20–40 min", s: ["JavaScript"], ds: "Ranked JavaScript kata that auto-grade." },
+  { fam: "code", re: /\bjavascript\b|\bjs\b/i, p: "HackerRank JavaScript", u: "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript", d: "Beginner", e: "30–60 min", s: ["JavaScript"], ds: "Graded JavaScript challenges." },
+  { fam: "code", re: /\bpython\b|\bdjango\b|\bflask\b|\bfastapi\b|\bpandas\b|\bnumpy\b|\bscikit/i, p: "Exercism Python", u: "https://exercism.org/tracks/python", d: "Beginner", e: "30–60 min", s: ["Python"], ds: "Mentored Python exercises." },
+  { fam: "code", re: /\bpython\b/i, p: "HackerRank Python", u: "https://www.hackerrank.com/domains/python", d: "Beginner", e: "30–60 min", s: ["Python"], ds: "Graded Python challenges." },
+  { fam: "code", re: /\bjava\b|\bspring\b|\bjvm\b/i, p: "HackerRank Java", u: "https://www.hackerrank.com/domains/java", d: "Beginner", e: "30–60 min", s: ["Java"], ds: "Graded Java challenges." },
+  { fam: "code", re: /\bgolang\b|\bgo lang\b|\bgo programming\b/i, p: "Exercism Go", u: "https://exercism.org/tracks/go", d: "Beginner", e: "30–60 min", s: ["Go"], ds: "Mentored Go exercises." },
+  { fam: "code", re: /\brust\b/i, p: "Exercism Rust", u: "https://exercism.org/tracks/rust", d: "Intermediate", e: "30–60 min", s: ["Rust"], ds: "Mentored Rust exercises." },
+  { fam: "code", re: /\bc\+\+\b|\bcpp\b|\bcompetitive\b|\bcodeforces\b|\bcodechef\b/i, p: "Codeforces", u: "https://codeforces.com/problemset", d: "Intermediate", e: "60–120 min", s: ["Competitive programming"], ds: "Real contest problems ranked by difficulty." },
+  { fam: "code", re: /\balgorithms?\b|\bdata structure[s]?\b|\brecursion\b|\bsorting\b|\bsearching\b|\bdynamic programming\b|\bgraphs?\b|\btrees?\b|\blinked list[s]?\b|\bstacks?\b|\bqueues?\b|\barrays?\b|\bstrings?\b|\bcomplexity\b|\bbig o\b|\bproblem solving\b/i, p: "LeetCode", u: "https://leetcode.com/problemset/", d: "Intermediate", e: "45–90 min", s: ["Algorithms"], ds: "Interview problems sorted by topic tag." },
+  { fam: "code", re: /\balgorithms?\b|\bdata structure[s]?\b|\brecursion\b|\bdynamic programming\b/i, p: "NeetCode", u: "https://neetcode.io/roadmap", d: "Intermediate", e: "60–120 min", s: ["DSA roadmap"], ds: "An ordered practice plan for interviews." },
+  // ── DSA for non-coding contexts ─────────────────────────────────────────
+  // The shared interview-prep section teaches DSA to every career, including
+  // WordPress/PM/designer/engineer roadmaps. Outside coding contexts these
+  // fire instead of LeetCode-style judges: educational visualizers, walkthroughs
+  // and references — genuinely relevant to learning the concepts.
+  { fam: "noncode", re: /\blinked lists?\b/i, t: "Linked list visualizer", p: "VisuAlgo", u: "https://visualgo.net/en/list", d: "Beginner", e: "20–40 min", s: ["Linked lists"], ds: "Step-through animations of list operations — insert, delete, reverse." },
+  { fam: "noncode", re: /\bstacks? and queues?\b|\bstacks? & queues?\b/i, t: "Stack & queue visualizer", p: "VisuAlgo", u: "https://visualgo.net/en/list", d: "Beginner", e: "20–40 min", s: ["Stacks", "Queues"], ds: "Watch push, pop, enqueue and dequeue on animated structures." },
+  { fam: "noncode", re: /\btrees? and graphs?\b|\btrees? & graphs?\b/i, t: "Tree & graph visualizer", p: "VisuAlgo", u: "https://visualgo.net/en/bst", d: "Intermediate", e: "30–60 min", s: ["Trees", "Graphs"], ds: "Animated BST traversals and graph representations." },
+  { fam: "noncode", re: /\bsorting and searching\b/i, t: "Sorting visualizer", p: "VisuAlgo", u: "https://visualgo.net/en/sorting", d: "Beginner", e: "20–40 min", s: ["Sorting", "Searching"], ds: "Compare sort algorithms step by step on live data." },
+  { fam: "noncode", re: /\barrays? and strings? problems?\b/i, t: "Arrays & strings", p: "GeeksforGeeks", u: "https://www.geeksforgeeks.org/array-data-structure/", d: "Beginner", e: "30–60 min", s: ["Arrays", "Strings"], ds: "Topic walkthroughs with runnable examples and practice links." },
+  { fam: "noncode", re: /\bsliding window\b/i, t: "Sliding window technique", p: "GeeksforGeeks", u: "https://www.geeksforgeeks.org/window-sliding-technique/", d: "Intermediate", e: "30–60 min", s: ["Sliding window"], ds: "Worked examples of the sliding-window pattern with code." },
+  { fam: "noncode", re: /\btwo pointers?\b|\btwo-pointer/i, t: "Two pointers technique", p: "GeeksforGeeks", u: "https://www.geeksforgeeks.org/two-pointers-technique/", d: "Intermediate", e: "30–60 min", s: ["Two pointers"], ds: "The two-pointer pattern explained with visual examples." },
+  { fam: "noncode", re: /\bbinary search variants?\b|\bbinary search\b/i, t: "Binary search visualizer", p: "VisuAlgo", u: "https://visualgo.net/en/binarysearch", d: "Intermediate", e: "20–40 min", s: ["Binary search"], ds: "Animated binary search on sorted arrays, including variants." },
+
+  // ── data science / AI ──
+  { fam: DATA, re: /\bmachine learning\b|\bdeep learning\b|\bneural\b|\bml\b|\bai\b|\btensorflow\b|\bpytorch\b|\bhugging\b|\btransformer[s]?\b|\bllm[s]?\b/i, p: "Kaggle Learn", u: "https://www.kaggle.com/learn", d: "Beginner", e: "2–3 hours", s: ["Machine learning"], ds: "Micro-courses with real datasets and notebooks." },
+  { fam: DATA, re: /\bdata science\b|\bdata analysis\b|\bpandas\b|\bnumpy\b|\bstatistics\b|\bvisualization\b|\bdata cleaning\b|\bfeature engineering\b|\bviz\b/i, p: "Kaggle", u: "https://www.kaggle.com/", d: "Beginner", e: "60–120 min", s: ["Data science"], ds: "Real datasets, notebooks and competitions." },
+  { fam: DATA, re: /\bjupyter\b|\bnotebook[s]?\b|\bcolab\b/i, p: "Google Colab", u: "https://colab.research.google.com/", d: "Beginner", e: "30–60 min", s: ["Notebooks"], ds: "Free GPU-backed notebooks to run code now." },
+  // ── engineering software ──
+  { fam: ENG, re: /\bautocad\b|\bcad\b|\bdrafting\b/i, p: "Autodesk Learn", u: "https://www.autodesk.com/learn/onboarding/overview/experience/learn-autocad", d: "Beginner", e: "2–3 hours", s: ["CAD"], ds: "Official guided CAD tutorials." },
+  { fam: ENG, re: /\bsolidworks\b|\b3d modeling\b/i, p: "SOLIDWORKS Learn", u: "https://www.solidworks.com/support/learn", d: "Beginner", e: "2–3 hours", s: ["CAD"], ds: "Official SOLIDWORKS tutorials." },
+  { fam: ENG, re: /\bmatlab\b|\bsimulink\b/i, p: "MATLAB Onramp", u: "https://matlabacademy.mathworks.com/", d: "Beginner", e: "2–4 hours", s: ["MATLAB"], ds: "Official interactive MATLAB course." },
+  { fam: ENG, re: /\bansys\b|\bfea\b|\bsimulation[s]?\b|\bcfd\b/i, p: "Ansys Courses", u: "https://courses.ansys.com/", d: "Beginner", e: "2–3 hours", s: ["Simulation"], ds: "Free official simulation courses." },
+  { fam: ENG, re: /\brevit\b|\bbim\b/i, p: "Autodesk Learn", u: "https://www.autodesk.com/learn/onboarding/overview/experience/learn-revit", d: "Beginner", e: "2–3 hours", s: ["BIM"], ds: "Official guided Revit tutorials." },
+  // ── soft skills / misc ──
+  { re: /\bmock interview\b|\binterview practice\b|\bbehavioral\b|\bnegotiation\b|\bsalary\b/i, p: "Pramp", u: "https://www.pramp.com/", d: "Intermediate", e: "30–60 min", s: ["Mock interviews"], ds: "Free live mock interviews with peers." },
+  { fam: "apt", re: /\baptitude\b|\breasoning\b|\bquantitative\b/i, p: "IndiaBix", u: "https://www.indiabix.com/", d: "Beginner", e: "30–60 min", s: ["Aptitude"], ds: "Practice questions with detailed solutions." },
+  { fam: "typ", re: /\btyping\b|\bspeed\b|\baccuracy\b/i, p: "Keybr", u: "https://www.keybr.com/", d: "Beginner", e: "10–20 min", s: ["Typing"], ds: "Adaptive typing practice." },
 ];
+
+const APT = new Set(["productivity", "data & business", "career"]);
+const TYP = new Set(["productivity", "office"]);
 
 // ── roadmap-context practice (domain-aware last-resort) ─────────────────────
 // keyed by roadmap slug or skill category; returns direct links.
@@ -658,6 +756,40 @@ export const ROADMAP_PRACTICE = {
     p("Esri Learn", "Esri", "https://learn.arcgis.com/", "Beginner", "2–3 hours", ["GIS"], "Free official ArcGIS lessons."),
     p("ArcGIS tutorials", "Esri", "https://learn.arcgis.com/en/gallery/", "Intermediate", "60–120 min", ["Mapping", "Analysis"], "Guided projects with real data."),
   ],
+  // platform-config / consulting careers — these must never fall through to
+  // the LeetCode/Exercism domain fallback, so they get their own practice.
+  "wordpress": [
+    p("WordPress workshops", "WordPress Learn", "https://learn.wordpress.org/", "Beginner", "30–60 min", ["WordPress", "Themes", "Plugins"], "Free official courses and workshops."),
+    p("WordPress Playground", "WordPress Playground", "https://playground.wordpress.net/", "Beginner", "20–40 min", ["WordPress", "Blocks", "PHP"], "Run a live WordPress site in your browser and experiment."),
+  ],
+  "wordpress-developer": [
+    p("WordPress workshops", "WordPress Learn", "https://learn.wordpress.org/", "Beginner", "30–60 min", ["WordPress", "Themes", "Plugins"], "Free official courses and workshops."),
+    p("WordPress Playground", "WordPress Playground", "https://playground.wordpress.net/", "Beginner", "20–40 min", ["WordPress", "Blocks", "PHP"], "Run a live WordPress site in your browser and experiment."),
+  ],
+  "no-code-developer": [
+    p("Bubble Academy", "Bubble", "https://academy.bubble.io/", "Beginner", "2–3 hours", ["No-code apps"], "Guided no-code app-building lessons."),
+    p("Webflow University", "Webflow", "https://university.webflow.com/", "Beginner", "2–3 hours", ["Webflow", "Design"], "Official free Webflow courses."),
+  ],
+  "erp-consultant": [
+    p("SAP Learning", "SAP", "https://learning.sap.com/", "Beginner", "2–3 hours", ["SAP", "ERP"], "Official SAP training and learning journeys."),
+    p("ERP practice labs", "Odoo", "https://www.odoo.com/slides", "Beginner", "2–3 hours", ["ERP flows"], "Free ERP walkthroughs you can follow in a demo."),
+  ],
+  "sap-consultant": [
+    p("SAP Learning", "SAP", "https://learning.sap.com/", "Beginner", "2–3 hours", ["SAP", "Config"], "Official SAP certification prep and courses."),
+    p("SAP community practice", "SAP Community", "https://community.sap.com/", "Intermediate", "60–120 min", ["SAP scenarios"], "Follow real Q&A scenarios and solve them."),
+  ],
+  "salesforce-developer": [
+    p("Trailhead", "Salesforce", "https://trailhead.salesforce.com/", "Beginner", "2–4 hours", ["Apex", "LWC", "Admin"], "Official free Salesforce learning with hands-on trails."),
+    p("Apex exercises", "Salesforce Developers", "https://developer.salesforce.com/docs", "Intermediate", "60–120 min", ["Apex", "SOQL"], "Official docs with runnable Apex examples."),
+  ],
+  "product-manager": [
+    p("PM mock interviews", "Pramp", "https://www.pramp.com/", "Intermediate", "30–60 min", ["PM interviews"], "Live mock product interviews with peers."),
+    p("PM case practice", "Product School", "https://productschool.com/resources/product-case-interviews", "Intermediate", "60–120 min", ["Case studies"], "Practice real product case interview questions."),
+  ],
+  "technical-writer": [
+    p("Google tech writing", "Google", "https://developers.google.com/tech-writing", "Beginner", "2–3 hours", ["Tech writing"], "Free official technical writing courses."),
+    p("Docs-as-code practice", "Write the Docs", "https://www.writethedocs.org/guide/", "Intermediate", "60–120 min", ["Documentation"], "Community guide to shipping great docs."),
+  ],
 };
 
 // ── per-skill-category practice (broad last resort, direct links only) ───────
@@ -705,6 +837,25 @@ export const CATEGORY_PRACTICE = {
     p("Microsoft Learn", "Microsoft Learn", "https://learn.microsoft.com/training/", "Beginner", "30–60 min", ["Office skills"], "Free official Office training."),
     p("Typing practice", "Keybr", "https://www.keybr.com/", "Beginner", "10–20 min", ["Typing"], "Adaptive typing practice."),
   ],
+  // normalized buckets reached through CATEGORY_ALIAS (e.g. the
+  // "Programming Languages" skill category maps to programming)
+  "programming languages": [
+    p("Exercism", "Exercism", "https://exercism.org/", "Beginner", "30–60 min", ["Coding"], "Mentored exercises for dozens of languages."),
+    p("Codewars", "Codewars", "https://www.codewars.com/", "Beginner", "20–40 min", ["Coding"], "Ranked kata across languages."),
+  ],
+  "engineering software": [
+    p("Engineering courses", "MIT OpenCourseWare", "https://ocw.mit.edu/search/?d=Engineering", "Beginner", "2–3 hours", ["Engineering"], "Free university courses with lecture notes, problem sets and exams."),
+    p("Vendor tutorials", "Autodesk", "https://www.autodesk.com/learn", "Beginner", "2–3 hours", ["CAD"], "Official software tutorials."),
+    p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Drafting", "Modeling"], "Real drawings to reproduce."),
+  ],
+  productivity: [
+    p("Microsoft Learn", "Microsoft Learn", "https://learn.microsoft.com/training/", "Beginner", "30–60 min", ["Office skills"], "Free official Office training."),
+    p("Typing practice", "Keybr", "https://www.keybr.com/", "Beginner", "10–20 min", ["Typing"], "Adaptive typing practice."),
+  ],
+  electronics: [
+    p("Arduino tutorials", "Arduino", "https://docs.arduino.cc/learn/", "Beginner", "60–120 min", ["Microcontrollers"], "Official hands-on Arduino lessons."),
+    p("Circuit simulator", "Tinkercad", "https://www.tinkercad.com/circuits", "Beginner", "30–60 min", ["Circuits"], "Design and test circuits in your browser."),
+  ],
 };
 
 // ── career-domain practice (non-technical / interview roadmaps) ──────────────
@@ -732,6 +883,8 @@ export const DOMAIN_PRACTICE = {
     p("SQLBolt", "SQLBolt", "https://sqlbolt.com/", "Beginner", "20–40 min", ["SQL"], "Interactive SQL lessons."),
   ],
   "Engineering": [
+    p("Engineering courses", "MIT OpenCourseWare", "https://ocw.mit.edu/search/?d=Engineering", "Beginner", "2–3 hours", ["Engineering"], "Free university courses with lecture notes, problem sets and exams."),
+    p("Engineering reference", "Engineering Toolbox", "https://www.engineeringtoolbox.com/", "Beginner", "20–40 min", ["Formulas", "Data"], "Reference tables, formulas and calculators for engineering work."),
     p("Vendor tutorials", "Autodesk", "https://www.autodesk.com/learn", "Beginner", "2–3 hours", ["CAD"], "Official software tutorials."),
     p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Drafting"], "Real drawings to reproduce."),
   ],
@@ -755,6 +908,24 @@ export const DOMAIN_PRACTICE = {
     p("Exercism", "Exercism", "https://exercism.org/", "Beginner", "30–60 min", ["Programming"], "Practice in your platform language."),
     p("Frontend Mentor", "Frontend Mentor", "https://www.frontendmentor.io/challenges", "Intermediate", "1–2 hours", ["UI"], "Build mobile-friendly UIs."),
   ],
+  "Artificial Intelligence & Data": [
+    p("Kaggle Learn", "Kaggle", "https://www.kaggle.com/learn", "Beginner", "2–3 hours", ["Data", "ML"], "Hands-on micro-courses."),
+    p("Hugging Face Learn", "Hugging Face", "https://huggingface.co/learn", "Intermediate", "60–120 min", ["Models", "Pipelines"], "Practice with real models."),
+  ],
+  "Engineering Software": [
+    p("Engineering courses", "MIT OpenCourseWare", "https://ocw.mit.edu/search/?d=Engineering", "Beginner", "2–3 hours", ["Engineering"], "Free university courses with lecture notes, problem sets and exams."),
+    p("Vendor tutorials", "Autodesk", "https://www.autodesk.com/learn", "Beginner", "2–3 hours", ["CAD"], "Official software tutorials."),
+    p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Drafting"], "Real drawings to reproduce."),
+  ],
+  "Electronics & Embedded": [
+    p("Arduino tutorials", "Arduino", "https://docs.arduino.cc/learn/", "Beginner", "60–120 min", ["Microcontrollers"], "Official hands-on Arduino lessons."),
+    p("Circuit simulator", "Tinkercad", "https://www.tinkercad.com/circuits", "Beginner", "30–60 min", ["Circuits"], "Design and test circuits in your browser."),
+    p("MATLAB Onramp", "MathWorks", "https://matlabacademy.mathworks.com/", "Beginner", "2–4 hours", ["MATLAB", "Signal processing"], "Free official interactive MATLAB course."),
+  ],
+  "IoT & Robotics": [
+    p("Arduino tutorials", "Arduino", "https://docs.arduino.cc/learn/", "Beginner", "60–120 min", ["Microcontrollers"], "Official hands-on Arduino lessons."),
+    p("Circuit simulator", "Tinkercad", "https://www.tinkercad.com/circuits", "Beginner", "30–60 min", ["Circuits"], "Design and test circuits in your browser."),
+  ],
 };
 
 // ── export a resolver so generate.mjs stays thin ─────────────────────────────
@@ -770,9 +941,55 @@ export function curatedPractice(label) {
   return CURATED_PRACTICE[norm(label)] ?? null;
 }
 
-export function practiceRules(label) {
+// Family check — a rule tagged with `fam` only fires when the roadmap's
+// domain/category belongs to that family ("code" is special-cased: coding
+// domains minus non-coding slugs like WordPress).
+const famOk = (r, ctx) => {
+  if (!r.fam) return true;
+  // noncode: only NON-coding contexts — used for genuinely relevant educational
+  // practice (DSA visualizers/references) on the shared interview-prep section
+  // of non-coding careers like WordPress, PM, designers and engineers.
+  if (r.fam === "noncode") return !isCoding(ctx);
+  // CMS / no-code / consulting careers never get family-gated technical
+  // platforms — they resolve to their own roadmap practice instead.
+  if (NON_CODING_SLUGS.has(ctx.slug)) return false;
+  if (r.fam === "code") return isCoding(ctx);
+  if (r.fam === "apt") return inFam(ctx, APT);
+  if (r.fam === "typ") return inFam(ctx, TYP);
+  return inFam(ctx, r.fam);
+};
+
+export function practiceRules(label, ctx = {}) {
+  const matches = [];
   for (const r of PRACTICE_RULES) {
-    if (r.re.test(label)) return [r];
+    if (!r.re.test(label)) continue;
+    if (!famOk(r, ctx)) continue;
+    matches.push(r);
+    if (matches.length >= 3) break;
   }
-  return null;
+  return matches.length ? matches : null;
+}
+
+// Skill-category fallback with lowercase/alias matching so categories like
+// "Programming Languages", "Cloud & DevOps" or "Engineering Software" resolve
+// to the right bucket instead of silently missing.
+const CATEGORY_ALIAS = {
+  "cloud devops": "devops",
+  "ai data science": "data",
+  "artificial intelligence & data": "data",
+  "programming languages": "programming",
+  cybersecurity: "security",
+  "qa & testing": "programming",
+  "engineering software": "engineering",
+  "electronics & embedded": "electronics",
+  "iot & robotics": "electronics",
+  productivity: "office",
+  "ui ux design": "design",
+  "ui/ux & design": "design",
+};
+
+export function categoryPractice(cat) {
+  if (!cat) return null;
+  const key = norm(cat);
+  return CATEGORY_PRACTICE[CATEGORY_ALIAS[key] ?? key] ?? null;
 }

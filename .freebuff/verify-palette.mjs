@@ -4,7 +4,10 @@
 // colors (muddy amber/brown, fuchsia, neon).
 // Coverage: home, careers, skills pages (card surfaces + accent bars), the
 // roadmap canvas (root + expanded branch), the details panel, and the
-// Certifications-tab cards.
+// Certifications-tab cards. Plus a responsive details-panel check at 390px
+// (mobile) and 768px (tablet) in BOTH light and dark themes: asserts the
+// overview stacks into one column on phones, the Quick Info tiles never
+// overflow the panel, and the forced theme is actually active.
 // Small semantic chips (difficulty badges, bookmark stars, provider dots) are
 // deliberately skipped via a size heuristic; "Advanced" nodes keep their
 // deliberate orange and are excluded by type.
@@ -85,12 +88,12 @@ function classify(hsl) {
 }
 
 // ── helpers ────────────────────────────────────────────────────────────────
-async function forceLight(page) {
-  await page.evaluateOnNewDocument(() => {
+async function forceTheme(page, theme) {
+  await page.evaluateOnNewDocument((t) => {
     try {
-      localStorage.setItem("cr-theme", JSON.stringify({ state: { theme: "light" } }));
+      localStorage.setItem("cr-theme", JSON.stringify({ state: { theme: t } }));
     } catch {}
-  });
+  }, theme);
 }
 
 const NODE_SEL = 'div[role="button"][class*="rounded-[14px]"]';
@@ -181,7 +184,7 @@ const browser = await puppeteer.launch({
 try {
   const page = await browser.newPage();
   await page.setViewport({ width: 1440, height: 900, deviceScaleFactor: 1 });
-  await forceLight(page);
+  await forceTheme(page, "light");
 
   // ── 1. Home / careers / skills pages ─────────────────────────────────
   for (const [path, label] of [["/", "home"], ["/careers", "careers"], ["/skills", "skills"]]) {
@@ -295,6 +298,136 @@ try {
     }
   } else {
     report("Details panel opened", false, "no Overview button found");
+  }
+
+  // ── 5. Responsive details panel — mobile + tablet ─────────────────────
+  // Opens a section's structured overview at 390px and 768px, asserting the
+  // overview stacks into one column on phones and the Quick Info tiles never
+  // overflow the panel (no horizontal scroll, tiles inside the dialog).
+  async function dismissTour(page) {
+    // mobile shows a "YOUR ROADMAP" tour overlay that blocks node clicks
+    await page.evaluate(() => {
+      const dlg = document.querySelector('[role="dialog"]');
+      if (!dlg) return false;
+      const b = [...dlg.querySelectorAll("button")].find((x) => {
+        const a = (x.getAttribute("aria-label") || "").toLowerCase();
+        const t = (x.innerText || "").trim().toLowerCase();
+        return a.includes("close tour") || t === "skip";
+      });
+      if (b) {
+        b.click();
+        return true;
+      }
+      return false;
+    });
+  }
+
+  async function openStructuredOverview(page) {
+    // try the first few section nodes until one renders a structured overview
+    for (let i = 1; i <= 5; i++) {
+      const opened = await page.evaluate((idx) => {
+        const btns = [...document.querySelectorAll('button[aria-label^="View Overview for"]')];
+        const b = btns[idx];
+        if (!b) return null;
+        b.click();
+        return b.getAttribute("aria-label");
+      }, i);
+      await new Promise((r) => setTimeout(r, 1800));
+      const hasStructured = await page.evaluate(
+        () => !!document.querySelector('[role="dialog"]') && document.querySelector('[role="dialog"]').innerText.includes("WHAT IS IT")
+      );
+      if (hasStructured) return opened;
+    }
+    return null;
+  }
+
+  async function measureOverviewLayout(page) {
+    return page.evaluate(() => {
+      const dlg = document.querySelector('[role="dialog"]');
+      if (!dlg) return { open: false };
+      const h3 = [...dlg.querySelectorAll("h3")].map((el) => ({
+        t: el.innerText,
+        x: Math.round(el.getBoundingClientRect().x),
+      }));
+      const whatIs = h3.find((h) => h.t.includes("WHAT IS IT"));
+      const learn = h3.find((h) => h.t.includes("WHAT YOU"));
+      const tiles = [...dlg.querySelectorAll("p")].filter((p) =>
+        ["DIFFICULTY", "TIME", "LEVEL"].includes(p.innerText.trim())
+      );
+      const rects = tiles.map((t) => {
+        const r = t.getBoundingClientRect();
+        return { x: Math.round(r.x), right: Math.round(r.right) };
+      });
+      const dlgRect = dlg.getBoundingClientRect();
+      return {
+        open: true,
+        whatIsX: whatIs ? whatIs.x : null,
+        learnX: learn ? learn.x : null,
+        stacked: !!(whatIs && learn && Math.abs(whatIs.x - learn.x) < 8),
+        hasTiles: rects.length >= 3,
+        tileRight: rects.length ? Math.max(...rects.map((t) => t.right)) : null,
+        dlgRight: Math.round(dlgRect.right),
+        dlgScrollOverflow: dlg.scrollWidth - dlg.clientWidth,
+        bodyScrollOverflow: document.documentElement.scrollWidth - window.innerWidth,
+      };
+    });
+  }
+
+  async function checkResponsivePanel(page, theme, width, height, dsf, tag) {
+    const scope = `${tag} (${theme})`;
+    const slug = tag.toLowerCase().replace(/\s+/g, "-");
+    await page.setViewport({ width, height, deviceScaleFactor: dsf });
+    await page.goto(`${BASE}/roadmap/full-stack-developer`, { waitUntil: "networkidle0", timeout: 60000 });
+    await new Promise((r) => setTimeout(r, 2500));
+    const themeActive = await page.evaluate(
+      (wantDark) => document.documentElement.classList.contains("dark") === wantDark,
+      theme === "dark"
+    );
+    report(`${scope} theme active`, themeActive, themeActive ? `${theme} mode confirmed` : `${theme} mode NOT active`);
+    await dismissTour(page);
+    await new Promise((r) => setTimeout(r, 500));
+    const opened = await openStructuredOverview(page);
+    report(`${scope} details panel opened`, !!opened, opened ? opened.slice(0, 60) : "no section overview button");
+    if (!opened) return;
+    const m = await measureOverviewLayout(page);
+    const fits = m.open && m.hasTiles && m.tileRight !== null && m.tileRight <= m.dlgRight + 1 && m.dlgScrollOverflow <= 1 && m.bodyScrollOverflow <= 1;
+    if (width <= 400) {
+      report(
+        `${scope} overview stacks into one column`,
+        !!m.stacked && m.open,
+        m.open ? `What is it? x=${m.whatIsX} · What you'll learn x=${m.learnX}` : "dialog closed"
+      );
+    }
+    report(
+      `${scope} Quick Info tiles fit the panel`,
+      fits,
+      m.open
+        ? `tiles right=${m.tileRight} ≤ panel right=${m.dlgRight}; dialog overflow=${m.dlgScrollOverflow}px, page overflow=${m.bodyScrollOverflow}px`
+        : "dialog closed"
+    );
+    await page.screenshot({ path: join(OUT, `${theme}-details-${slug}.png`) });
+    console.log(`  saved: .freebuff/screens/${theme}-details-${slug}.png`);
+    flagSurfaces(
+      `${scope} details-panel surfaces on-brand`,
+      await collectSurfaceColors(page, '[role="dialog"] [class*="border"], [role="dialog"] [class*="rounded"]', { skipChips: true })
+    );
+  }
+
+  // ── 5a. responsive details panel — light mode ─────────────────────────
+  await checkResponsivePanel(page, "light", 390, 844, 2, "Mobile 390px");
+  await checkResponsivePanel(page, "light", 768, 1024, 1, "Tablet 768px");
+  await page.setViewport({ width: 1440, height: 900, deviceScaleFactor: 1 });
+
+  // ── 5b. responsive details panel — dark mode ──────────────────────────
+  // Same stacking / tile-fit assertions with the dark theme forced, so the
+  // compact overview is verified in both themes at both widths.
+  const darkPage = await browser.newPage();
+  try {
+    await forceTheme(darkPage, "dark");
+    await checkResponsivePanel(darkPage, "dark", 390, 844, 2, "Mobile 390px");
+    await checkResponsivePanel(darkPage, "dark", 768, 1024, 1, "Tablet 768px");
+  } finally {
+    await darkPage.close();
   }
 
   // ── summary ──────────────────────────────────────────────────────────

@@ -88,7 +88,11 @@ function checkResources(node, d, file) {
       }
     }
     if (typeof r.url !== "string") continue;
-    if (SEARCH_URL_RE.test(r.url)) {
+    // The coverage spec sanctions a topic-specific PDF-discovery fallback
+    // (query includes the exact topic + domain) — those are explicitly NOT
+    // generic search links, so they pass. Any other search URL is banned.
+    const isPdfDiscovery = r.type === "PDF Search" && r.query && r.query.toLowerCase().startsWith('filetype:pdf "');
+    if (SEARCH_URL_RE.test(r.url) && !isPdfDiscovery) {
       report(file, "error", `node "${node.label}" ships a generic search URL: ${r.url}`);
     }
     if (!/^https?:\/\//.test(r.url)) {
@@ -113,11 +117,42 @@ function checkResources(node, d, file) {
   }
 }
 
-function checkPractice(node, d, file) {
+// Algorithm kata / interview platforms — valid inside real coding roadmaps,
+// never inside CMS/no-code/consulting careers or the non-tech domains.
+const ALGO_HOST_RE = /(^|\.)(leetcode\.com|neetcode\.io|codeforces\.com|codechef\.com|codewars\.com|exercism\.org)$/;
+const NON_CODING_DOMAINS = new Set(["design", "engineering", "engineering software", "productivity", "ui/ux & design"]);
+const NON_CODING_SLUGS = new Set([
+  "wordpress", "wordpress-developer", "no-code-developer", "erp-consultant",
+  "sap-consultant", "salesforce-developer", "product-manager", "technical-writer",
+]);
+const isAlgoUrl = (u) => {
+  try {
+    const url = new URL(u);
+    const h = url.hostname.replace(/^www\./, "");
+    if (ALGO_HOST_RE.test(h)) return true;
+    return h === "hackerrank.com" && /\/domains\/algorithms/.test(url.pathname);
+  } catch {
+    return false;
+  }
+};
+const PLATFORM_HOSTS = {
+  LeetCode: /leetcode\.com/,
+  NeetCode: /neetcode\.io/,
+  Codewars: /codewars\.com/,
+  Codeforces: /codeforces\.com/,
+  CodeChef: /codechef\.com/,
+  Exercism: /exercism\.org/,
+  HackerRank: /hackerrank\.com/,
+  "HackerRank SQL": /hackerrank\.com/,
+};
+
+function checkPractice(node, d, file, slug, domain) {
   if (d.practice === undefined || d.practice === null) {
     report(file, "warn", `node "${node.label}" (${node.type}) has no practice array`);
     return;
   }
+  const ctx = String(domain ?? "").toLowerCase();
+  const offCtx = NON_CODING_DOMAINS.has(ctx) || NON_CODING_SLUGS.has(slug);
   if (!Array.isArray(d.practice)) {
     report(file, "error", `node "${node.label}" (${node.type}) has non-array practice`);
     return;
@@ -141,6 +176,21 @@ function checkPractice(node, d, file) {
     }
     if (!Array.isArray(p.skills)) {
       report(file, "error", `node "${node.label}" practice "${p.title || "?"}" missing skills array`);
+    }
+    // platform/URL consistency — LeetCode must point at leetcode.com, etc.
+    const hostRe = PLATFORM_HOSTS[p.platform];
+    if (hostRe && typeof p.url === "string") {
+      try {
+        if (!hostRe.test(new URL(p.url).hostname.replace(/^www\./, ""))) {
+          report(file, "error", `node "${node.label}" practice platform "${p.platform}" points at mismatched host: ${p.url}`);
+        }
+      } catch {
+        /* url validity already reported */
+      }
+    }
+    // no algorithm kata/interview platforms in non-coding roadmaps
+    if (offCtx && typeof p.url === "string" && isAlgoUrl(p.url)) {
+      report(file, "error", `node "${node.label}" ships algorithm practice (${p.platform}) inside a non-coding roadmap: ${p.url}`);
     }
   }
 }
@@ -258,7 +308,7 @@ function report(file, level, msg) {
   issues.push({ file, level, msg });
 }
 
-function walk(node, file, parentLabel, depth, path, slug) {
+function walk(node, file, parentLabel, depth, path, slug, domain) {
   // 0. cross-domain contamination (JS concepts inside C, JVM inside Python, …)
   checkContamination(node, file, slug, path);
 
@@ -292,7 +342,7 @@ function walk(node, file, parentLabel, depth, path, slug) {
     }
     // resource & practice quality gates
     checkResources(node, d, file);
-    checkPractice(node, d, file);
+    checkPractice(node, d, file, slug, domain);
     // project quality gate: ≥2 builds where projects exist, full fields
     validateProjects(file, node);
     // generic/template description check — no node may ship the old fallback text
@@ -321,7 +371,7 @@ function walk(node, file, parentLabel, depth, path, slug) {
     report(file, "error", `excessive depth ${depth} at "${node.label}" (${path.join(" > ")})`);
   }
 
-  for (const c of kids) walk(c, file, node.label, depth + 1, [...path, node.label], slug);
+  for (const c of kids) walk(c, file, node.label, depth + 1, [...path, node.label], slug, domain);
 }
 
 // Exclude meta/index files — only individual roadmaps are validated.
@@ -396,7 +446,7 @@ for (const f of files) {
   collect(data.root);
   for (const id of dupIds) report(f, "error", `duplicate node id ${id}`);
 
-  walk(data.root, f, null, 0, [data.root.label], f.replace(/\.json$/, ""));
+  walk(data.root, f, null, 0, [data.root.label], f.replace(/\.json$/, ""), data.meta?.domain ?? "");
 }
 
 // summary

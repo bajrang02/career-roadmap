@@ -11,6 +11,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "data": "node data/generate.mjs",
+    "audit:coverage": "node data/audit-coverage.mjs",
     "verify:palette": "node .freebuff/verify-palette.mjs"
   },
   "dependencies": {

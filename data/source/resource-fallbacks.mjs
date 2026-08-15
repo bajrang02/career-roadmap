@@ -135,6 +135,91 @@ export const RESOURCE_RULES = [
     r("TypeScript utility types — official docs", "https://www.typescriptlang.org/docs/handbook/utility-types.html", "docs"),
     r("TypeScript advanced types — official docs", "https://www.typescriptlang.org/docs/handbook/2/types-from-types.html", "docs"),
   ]},
+  // recurring coverage gaps: repeated container/drill/project labels that the
+  // broad rules below never match. Grouped by domain so no off-brand link ships
+  // (e.g. security-ops labels only appear in security roadmaps).
+  { re: /^(practice problems)$/i, res: () => [
+    r("LeetCode — problem set", "https://leetcode.com/problemset/", "practice"),
+    r("NeetCode — practice roadmap", "https://neetcode.io/roadmap", "practice"),
+    r("HackerRank — practice", "https://www.hackerrank.com/domains", "practice"),
+  ]},
+  { re: /^(resources certifications|resources and practice)$/i, res: () => [
+    r("Professional certificates — Coursera", "https://www.coursera.org/professional-certificates", "course"),
+    r("Career resources — The Muse", "https://www.themuse.com/advice", "article"),
+  ]},
+  { re: /^(queries)$/i, res: () => [
+    r("SQL tutorial — W3Schools", "https://www.w3schools.com/sql/", "course"),
+    r("SQL — GeeksforGeeks", "https://www.geeksforgeeks.org/sql-tutorial/", "article"),
+    r("SQLBolt — interactive SQL", "https://sqlbolt.com/", "practice"),
+  ]},
+  { re: /^(collections)$/i, res: () => [
+    r("Data structures — freeCodeCamp", "https://www.freecodecamp.org/news/data-structures-101-an-introduction-to-data-structures-and-algorithms/", "article"),
+    r("Collections — Python docs", "https://docs.python.org/3/library/collections.html", "docs"),
+  ]},
+  { re: /^(loop control drill)$/i, res: () => [
+    r("Loops guide — MDN", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration", "docs"),
+    r("Loops — GeeksforGeeks", "https://www.geeksforgeeks.org/loops-in-c-and-cpp/", "article"),
+  ]},
+  { re: /^(intermediate topics)$/i, res: () => [
+    r("MDN — learn web development", "https://developer.mozilla.org/en-US/docs/Learn", "course"),
+    r("freeCodeCamp — curriculum", "https://www.freecodecamp.org/learn", "course"),
+  ]},
+  { re: /^(production mlops|mlops and serving)$/i, res: () => [
+    r("MLOps guide — Google Cloud", "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning", "article"),
+    r("MLOps — Microsoft Learn", "https://learn.microsoft.com/en-us/azure/machine-learning/", "docs"),
+    r("Kubeflow documentation", "https://www.kubeflow.org/docs/", "docs"),
+    r("Machine learning engineering — Made With ML", "https://madewithml.com/", "course"),
+  ]},
+  { re: /^(backup rotation script)$/i, res: () => [
+    r("GNU tar manual", "https://www.gnu.org/software/tar/manual/", "docs"),
+    r("Bash reference manual — GNU", "https://www.gnu.org/software/bash/manual/", "docs"),
+  ]},
+  { re: /^(log analysis one-liner)$/i, res: () => [
+    r("Grep manual — GNU", "https://www.gnu.org/software/grep/manual/", "docs"),
+    r("GNU awk manual", "https://www.gnu.org/software/gawk/manual/", "docs"),
+  ]},
+  { re: /^(connectivity diagnosis)$/i, res: () => [
+    r("Network troubleshooting — Linux Journey", "https://linuxjourney.com/lesson/network-troubleshooting", "course"),
+    r("What is traceroute — Cloudflare", "https://www.cloudflare.com/learning/network-layer/what-is-traceroute/", "article"),
+  ]},
+  { re: /^(navbar card grid with flexbox|full page grid layout|responsive landing section)$/i, res: () => [
+    r("Learn CSS grid — web.dev", "https://web.dev/learn/css/grid", "course"),
+    r("Learn CSS flexbox — web.dev", "https://web.dev/learn/css/flexbox", "course"),
+    r("CSS grid layout — MDN", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout", "docs"),
+  ]},
+  { re: /^(async data loader)$/i, res: () => [
+    r("Async JavaScript — MDN", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous", "course"),
+    r("Async/await — JavaScript.info", "https://javascript.info/async", "course"),
+  ]},
+  { re: /^(shopping cart state)$/i, res: () => [
+    r("Managing state — React docs", "https://react.dev/learn/managing-state", "docs"),
+    r("State & props — React", "https://react.dev/learn/state-a-components-memory", "docs"),
+  ]},
+  { re: /^(classes oop)$/i, res: () => [
+    r("Object-oriented programming — MDN", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming", "course"),
+    r("OOP concepts — GeeksforGeeks", "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/", "article"),
+  ]},
+  { re: /^(gameplay programming|game ai|procedural content|multiplayer and netcode|core systems|art and sound|sound and music|production and ship)$/i, res: () => [
+    r("Unity Learn — official courses", "https://learn.unity.com/", "course"),
+    r("GameDev.net — tutorials & articles", "https://www.gamedev.net/", "community"),
+    r("Game programming patterns", "https://gameprogrammingpatterns.com/", "book"),
+  ]},
+  { re: /^(electronics and hardware|real time systems|rtos concurrency|firmware development)$/i, res: () => [
+    r("Embedded systems — Embedded Artistry", "https://embeddedartistry.com/blog/", "article"),
+    r("Arduino documentation", "https://docs.arduino.cc/", "docs"),
+    r("RTOS fundamentals — FreeRTOS", "https://www.freertos.org/", "docs"),
+  ]},
+  { re: /^(defensive operations|soc skills|threat intelligence|web application attacks|network attacks|network active directory|labs practice|methodology reporting)$/i, res: () => [
+    r("OWASP Top 10", "https://owasp.org/www-project-top-ten/", "docs"),
+    r("TryHackMe — hands-on labs", "https://tryhackme.com/", "practice"),
+    r("PortSwigger Web Security Academy", "https://portswigger.net/web-security", "course"),
+  ]},
+  { re: /^(data and experimentation|data handling|experimentation|supervised learning|unsupervised beyond|fine tuning evals|product ethics|human in the loop|tool use function calling)$/i, res: () => [
+    r("Intro to ML — Kaggle", "https://www.kaggle.com/learn/intro-to-machine-learning", "course"),
+    r("Machine learning — freeCodeCamp", "https://www.freecodecamp.org/learn/machine-learning-with-python/", "course"),
+    r("Hugging Face Learn", "https://huggingface.co/learn", "course"),
+  ]},
+
   // web platform
   { re: /^html$|html\b|hypertext/i, res: () => [
     r("HTML — MDN", "https://developer.mozilla.org/en-US/docs/Web/HTML", "docs"),

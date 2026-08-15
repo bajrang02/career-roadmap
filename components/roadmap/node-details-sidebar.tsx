@@ -42,7 +42,6 @@ import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useUiStore } from "@/lib/stores/ui-store";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -61,15 +60,39 @@ interface Props {
 type TabId = "overview" | "resources" | "practice" | "projects" | "certifications";
 
 
-/** Notion-style section: small caps label + generous spacing + clean content */
-function Section({ icon: Icon, title, children }: { icon: React.ElementType; title: string; children: React.ReactNode }) {
+/** Notion-style section: small caps label + clean content, separated by a thin
+ *  divider. `compact` tightens vertical padding for the overview flow; `className`
+ *  lets the overview grid strip padding/borders at the desktop breakpoint. */
+function Section({
+  icon: Icon,
+  title,
+  children,
+  compact,
+  className,
+}: {
+  icon: React.ElementType;
+  title: string;
+  children: React.ReactNode;
+  compact?: boolean;
+  className?: string;
+}) {
   return (
-    <section className="px-5 py-5">
-      <h3 className="flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-[0.08em] text-slate-500 dark:text-slate-400">
+    <section className={cn("border-b border-slate-100 px-4 py-4 sm:px-5 dark:border-slate-700/50", compact && "py-3", className)}>
+      <h3 className="flex items-center gap-1.5 text-[12.5px] font-bold uppercase tracking-[0.09em] text-slate-500 dark:text-slate-400">
         <Icon className="h-4 w-4" /> {title}
       </h3>
-      <div className="mt-3 space-y-2.5 text-[14px] leading-relaxed text-slate-600 dark:text-slate-300">{children}</div>
+      <div className="mt-2.5 min-w-0 space-y-2 text-[14.5px] leading-relaxed text-slate-600 dark:text-slate-300 [overflow-wrap:anywhere]">{children}</div>
     </section>
+  );
+}
+
+/** Compact Quick Info metadata tile — label over value, wraps, never overflows. */
+function QuickTile({ label, value }: { label: string; value: React.ReactNode }) {
+  return (
+    <div className="min-w-0 rounded-xl border border-slate-100 bg-slate-50/70 px-3 py-2.5 dark:border-slate-700/50 dark:bg-slate-800/40">
+      <p className="text-[10.5px] font-bold uppercase tracking-wide text-slate-400 dark:text-slate-500">{label}</p>
+      <div className="mt-1 min-w-0 text-[13.5px] font-semibold leading-snug text-slate-700 dark:text-slate-200 [overflow-wrap:anywhere]">{value}</div>
+    </div>
   );
 }
 
@@ -459,6 +482,8 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   const next = idx >= 0 && idx < order.length - 1 ? order[idx + 1] : null;
 
   const [tab, setTab] = useState<TabId>("overview");
+  const [showAllPractice, setShowAllPractice] = useState(false);
+  const [showAllLearn, setShowAllLearn] = useState(false);
 
   // open a tab; used by the header CTAs (e.g. "Practice This Topic")
   const jumpTo = (t: TabId) => setTab(t);
@@ -490,7 +515,6 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   // the panel never shows a hollow section.
   const hasProjects = (d.projects?.length ?? 0) > 0;
   const hasCerts = (d.certIds?.length ?? 0) > 0;
-  const tabCount = 3 + (hasProjects ? 1 : 0) + (hasCerts ? 1 : 0);
   const certs = useMemo(() => {
     if (!certCatalog) return [];
     const byId = new Map(certCatalog.map((c) => [c.id, c]));
@@ -501,6 +525,8 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   useEffect(() => {
     setSelectedCertId(certIds[0] ?? null);
     setCertFilter({});
+    setShowAllPractice(false);
+    setShowAllLearn(false);
   }, [node.id, certIds]);
 
   const filteredCerts = useMemo(() => {
@@ -600,8 +626,8 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
     return () => mq.removeEventListener("change", onChange);
   }, []);
 
-  const enter = desktop ? { x: 440, opacity: 0.4 } : { y: "100%", opacity: 0.8 };
-  const leave = desktop ? { x: 440, opacity: 0 } : { y: "100%", opacity: 0 };
+  const enter = desktop ? { x: 560, opacity: 0.4 } : { y: "100%", opacity: 0.8 };
+  const leave = desktop ? { x: 560, opacity: 0 } : { y: "100%", opacity: 0 };
 
   const headerContent = (
     <div className="shrink-0 flex flex-col border-b border-slate-100 dark:border-slate-700/60 bg-white dark:bg-slate-800 z-10 sticky top-0 rounded-t-3xl sm:rounded-none">
@@ -658,8 +684,27 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
         </div>
       )}
 
-      {/* actions */}
-      <div className="flex flex-wrap gap-2 px-5 pb-3">
+      {/* primary CTAs — Learn / Practice first on every screen; secondary
+          actions (mark done, subtree, bookmark) sit on their own row */}
+      <div className="flex gap-2 px-4 pb-2 sm:px-5">
+        <Button
+          size="sm"
+          className="min-w-0 flex-1 whitespace-normal min-h-[48px] text-[15px] leading-tight"
+          onClick={() => jumpTo("resources")}
+        >
+          <GraduationCap className="h-4 w-4 shrink-0" /> Learn this topic
+        </Button>
+        <Button
+          size="sm"
+          className="min-w-0 flex-1 whitespace-normal min-h-[48px] text-[15px] leading-tight"
+          onClick={() => jumpTo("practice")}
+        >
+          <PlayCircle className="h-4 w-4 shrink-0" /> Practice this topic
+        </Button>
+      </div>
+
+      {/* secondary actions */}
+      <div className="flex flex-wrap gap-2 px-4 pb-3 sm:px-5">
         {checkable && (
           <Button variant="outline" size="sm" className="flex-1 min-w-[8rem] min-h-[48px] text-[15px]" onClick={handleToggle}>
             {completed ? <Check className="h-4 w-4" /> : <CheckCircle2 className="h-4 w-4" />}
@@ -689,46 +734,26 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
         </Button>
       </div>
 
-      {/* primary CTAs — Learn This Topic / Practice This Topic — every topic gets
-          both: the tabs always exist and each has a useful fallback (study
-          searches / curated-practice-coming-soon state) */}
-      <div className="flex gap-2 px-5 pb-4">
-        <Button
-          size="sm"
-          className="flex-1 min-h-[48px] text-[15px]"
-          onClick={() => jumpTo("resources")}
-        >
-          <GraduationCap className="h-4 w-4" /> Learn this topic
-        </Button>
-        <Button
-          size="sm"
-          className="flex-1 min-h-[48px] text-[15px]"
-          onClick={() => jumpTo("practice")}
-        >
-          <PlayCircle className="h-4 w-4" /> Practice this topic
-        </Button>
-      </div>
-
       {/* tabs — single Radix root, shared with the content below via `tab` state */}
       <div className="px-3 pb-3">
         <Tabs value={tab} onValueChange={(v) => setTab(v as TabId)} className="w-full">
           {/* only render tabs that have content: Projects and Certifications are
               hidden entirely when empty so the panel never shows hollow sections */}
-          <TabsList className={cn("grid w-full", tabCount === 5 ? "grid-cols-5" : tabCount === 4 ? "grid-cols-4" : "grid-cols-3")}>
-            <TabsTrigger value="overview" className="px-1 text-xs sm:text-[13px]">Overview</TabsTrigger>
-            <TabsTrigger value="resources" className="px-1 text-xs sm:text-[13px]">
+          <TabsList className="flex w-full overflow-x-auto [scrollbar-width:none]">
+            <TabsTrigger value="overview" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">Overview</TabsTrigger>
+            <TabsTrigger value="resources" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">
               Resources{d.resources.length > 0 && <span className="text-slate-400"> ({d.resources.length})</span>}
             </TabsTrigger>
-            <TabsTrigger value="practice" className="px-1 text-xs sm:text-[13px]">
+            <TabsTrigger value="practice" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">
               Practice{d.practice.length > 0 && <span className="text-slate-400"> ({d.practice.length})</span>}
             </TabsTrigger>
             {hasProjects && (
-              <TabsTrigger value="projects" className="px-1 text-xs sm:text-[13px]">
+              <TabsTrigger value="projects" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">
                 Projects{d.projects.length > 0 && <span className="text-slate-400"> ({d.projects.length})</span>}
               </TabsTrigger>
             )}
             {hasCerts && (
-              <TabsTrigger value="certifications" className="px-1 text-xs sm:text-[13px]">
+              <TabsTrigger value="certifications" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">
                 Certifications{certs.length > 0 && <span className="text-slate-400"> ({certs.length})</span>}
               </TabsTrigger>
             )}
@@ -740,69 +765,122 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
 
   const ov = d.overview;
   const overviewContent = (
-    <div>
-      {/* What is it? — the structured overview replaces the long paragraph */}
+    <div className="pb-2">
+      {/* What is it? — the structured overview replaces the long paragraph.
+          Mobile flow is always single-column in the learning order: What is it →
+          What you'll learn → Why it matters → How it helps → Prerequisites →
+          Quick Info. At lg the same blocks pair into two columns via grid
+          placement (left: What is it + Why it matters + How it helps +
+          Prerequisites; right: What you'll learn + Quick Info). */}
       {ov ? (
         <>
-          <Section icon={BookOpen} title="What is it?">
-            <p className="text-[16px] sm:text-[14px]">{ov.whatIsIt}</p>
-          </Section>
-          {ov.whyMatters.length > 0 && (
-            <Section icon={Lightbulb} title="Why it matters">
-              <ul className="space-y-2">
-                {ov.whyMatters.map((w, i) => (
-                  <li key={i} className="flex items-start gap-2 text-[15px] sm:text-[14px]">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-brand-500" />
-                    {w}
-                  </li>
-                ))}
-              </ul>
-            </Section>
-          )}
-          {ov.youWillLearn.length > 0 && (
-            <Section icon={Target} title="What you'll learn">
-              <ul className="space-y-2">
-                {ov.youWillLearn.map((w, i) => (
-                  <li key={i} className="flex items-start gap-2 text-[15px] sm:text-[14px]">
-                    <ChevronRight className="mt-0.5 h-4 w-4 shrink-0 text-slate-300 dark:text-slate-500" />
-                    {w}
-                  </li>
-                ))}
-              </ul>
-            </Section>
-          )}
-          {ov.whereUsed.length > 0 && (
-            <Section icon={FolderKanban} title="How you'll use it">
-              <div className="flex flex-wrap gap-2 sm:gap-1.5">
-                {ov.whereUsed.map((w, i) => (
-                  <span key={i} className="rounded-full border border-slate-200 px-3 py-1 text-[13px] font-medium text-slate-600 dark:border-slate-600 dark:text-slate-300">
-                    {w}
-                  </span>
-                ))}
+          <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-6 lg:px-5 lg:pt-4">
+            {/* What is it? */}
+            <div className="lg:col-start-1 lg:row-start-1 lg:min-w-0">
+              <Section compact icon={BookOpen} title="What is it?" className="lg:border-0 lg:px-0 lg:pt-0">
+                <p className="text-[15px] leading-relaxed text-slate-700 dark:text-slate-200">{ov.whatIsIt}</p>
+              </Section>
+            </div>
+
+            {/* What you'll learn — collapsible list; right column on desktop */}
+            <div className="lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:min-w-0">
+              {ov.youWillLearn.length > 0 && (
+                <Section
+                  compact
+                  icon={Target}
+                  title={ov.youWillLearn.length > 4 ? `What you'll learn (${ov.youWillLearn.length})` : "What you'll learn"}
+                  className="lg:border-0 lg:px-0 lg:pt-0"
+                >
+                  <ul className="space-y-2">
+                    {(showAllLearn ? ov.youWillLearn : ov.youWillLearn.slice(0, 4)).map((w, i) => (
+                      <li key={i} className="flex items-start gap-2 text-[14.5px] leading-snug">
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-brand-500" />
+                        <span className="min-w-0 [overflow-wrap:anywhere]">{w}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {ov.youWillLearn.length > 4 && (
+                    <button
+                      onClick={() => setShowAllLearn((v) => !v)}
+                      className="mt-2.5 inline-flex items-center gap-1 rounded-md py-1 text-[13.5px] font-semibold text-brand-600 transition hover:text-brand-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 dark:text-brand-400 dark:hover:text-brand-300"
+                    >
+                      {showAllLearn ? "Show less" : `Show ${ov.youWillLearn.length - 4} more`}
+                      <ChevronRight className={cn("h-3.5 w-3.5 transition-transform", showAllLearn && "rotate-90")} />
+                    </button>
+                  )}
+                </Section>
+              )}
+            </div>
+
+            {/* Why it matters */}
+            <div className="lg:col-start-1 lg:row-start-2 lg:min-w-0">
+              {ov.whyMatters.length > 0 && (
+                <Section compact icon={Lightbulb} title="Why it matters" className="lg:border-0 lg:px-0">
+                  <ul className="space-y-1.5">
+                    {ov.whyMatters.slice(0, 4).map((w, i) => (
+                      <li key={i} className="flex items-start gap-2 text-[14px] leading-snug">
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-brand-500" />
+                        <span className="min-w-0 [overflow-wrap:anywhere]">{w}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </Section>
+              )}
+            </div>
+
+            {/* How it helps */}
+            <div className="lg:col-start-1 lg:row-start-3 lg:min-w-0">
+              <Section compact icon={GraduationCap} title="How it helps" className="lg:border-0 lg:px-0">
+                <p className="rounded-xl border border-emerald-200/70 bg-emerald-50 px-3.5 py-2.5 text-[14px] leading-relaxed text-emerald-900 dark:border-emerald-500/20 dark:bg-emerald-500/10 dark:text-emerald-200">
+                  {ov.outcome}
+                </p>
+                {ov.whereUsed.length > 0 && (
+                  <div className="mt-3 flex flex-wrap gap-1.5">
+                    {ov.whereUsed.slice(0, 8).map((w, i) => (
+                      <span key={i} className="rounded-full border border-slate-200 px-2.5 py-0.5 text-[12.5px] font-medium text-slate-600 dark:border-slate-600 dark:text-slate-300">
+                        {w}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </Section>
+            </div>
+
+            {/* Prerequisites */}
+            <div className="lg:col-start-1 lg:row-start-4 lg:min-w-0">
+              {ov.prerequisites.length > 0 && (
+                <Section compact icon={Lock} title="Prerequisites" className="lg:border-0 lg:px-0">
+                  <div className="flex flex-wrap gap-1.5">
+                    {ov.prerequisites.slice(0, 6).map((p, i) => (
+                      <span key={i} className="inline-flex items-center gap-1 rounded-md border border-slate-200 bg-white px-2.5 py-1 text-[12.5px] font-medium text-slate-600 dark:border-slate-600 dark:bg-slate-800/60 dark:text-slate-300">
+                        <ChevronRight className="h-3 w-3 text-slate-300 dark:text-slate-500" />
+                        {p}
+                      </span>
+                    ))}
+                  </div>
+                </Section>
+              )}
+            </div>
+
+            {/* Quick Info — 2×2 metadata grid; right column on desktop */}
+            <div className="lg:col-start-2 lg:row-start-3 lg:min-w-0">
+              <div className="px-4 py-3 sm:px-5 lg:px-0 lg:py-0">
+                <div className="grid grid-cols-2 gap-2.5">
+                  <QuickTile label="Difficulty" value={<DiffBadge difficulty={d.difficulty} />} />
+                  <QuickTile label="Level" value={<span className="capitalize">{meta.label}</span>} />
+                  <QuickTile label="Time" value={d.estimatedTime} />
+                  <QuickTile
+                    label="Progress"
+                    value={learnable.length > 0 ? `${doneCount}/${learnable.length} · ${nodePct}%` : "—"}
+                  />
+                </div>
               </div>
-            </Section>
-          )}
-          {ov.prerequisites.length > 0 && (
-            <Section icon={Lock} title="Prerequisites">
-              <ul className="space-y-2">
-                {ov.prerequisites.map((p, i) => (
-                  <li key={i} className="flex items-start gap-2 text-[15px] sm:text-[14px]">
-                    <ChevronRight className="mt-0.5 h-4 w-4 shrink-0 text-slate-300 dark:text-slate-500" />
-                    {p}
-                  </li>
-                ))}
-              </ul>
-            </Section>
-          )}
-          <Section icon={GraduationCap} title="What you'll be able to do">
-            <p className="rounded-xl border border-emerald-200/70 bg-emerald-50 p-3.5 text-emerald-900 dark:border-emerald-500/20 dark:bg-emerald-500/10 dark:text-emerald-200 text-[15px] sm:text-[14px]">
-              {ov.outcome}
-            </p>
-          </Section>
+            </div>
+          </div>
         </>
       ) : (
         <Section icon={BookOpen} title="Overview">
-          <p className="text-[16px] sm:text-[14px]">{d.description}</p>
+          <p className="text-[15px] leading-relaxed">{d.description}</p>
         </Section>
       )}
 
@@ -1061,18 +1139,33 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   );
 
   const practiceContent = (
-    <div className="p-4 sm:p-5 space-y-3">
+    <div className="p-4 sm:p-5">
       {d.practice.length === 0 ? (
         <div className="rounded-xl border border-dashed border-slate-200 p-8 text-center dark:border-slate-700">
           <Dumbbell className="mx-auto h-8 w-8 text-slate-300 dark:text-slate-600" />
-          <p className="mt-3 text-[15px] font-semibold text-slate-700 dark:text-slate-200">No practice challenges yet</p>
-          <p className="mx-auto mt-1 max-w-xs text-[13px] text-slate-500 dark:text-slate-400">
-            Hands-on exercises for this topic are being curated. Meanwhile, use the Resources tab and its study
-            searches to keep learning.
+          <p className="mt-3 text-[15px] font-semibold text-slate-700 dark:text-slate-200">
+            No verified practice activity for this topic yet
+          </p>
+          <p className="mx-auto mt-1 max-w-sm text-[13px] leading-relaxed text-slate-500 dark:text-slate-400">
+            No topic-specific practice platform has been verified for this topic. Use the Resources tab and its study
+            searches to keep learning in the meantime.
           </p>
         </div>
       ) : (
-        d.practice.map((item, i) => <PracticeRow key={i} item={item} />)
+        <div className="space-y-3">
+          <p className="text-[13px] font-semibold text-slate-700 dark:text-slate-200">Practice this topic</p>
+          {(showAllPractice ? d.practice : d.practice.slice(0, 4)).map((item, i) => (
+            <PracticeRow key={i} item={item} />
+          ))}
+          {d.practice.length > 4 && (
+            <button
+              onClick={() => setShowAllPractice((v) => !v)}
+              className="w-full rounded-lg border border-slate-200 px-3 py-2 text-[13px] font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-600 dark:border-slate-600 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-300"
+            >
+              {showAllPractice ? "Show fewer" : `View ${d.practice.length - 4} more`}
+            </button>
+          )}
+        </div>
       )}
     </div>
   );
@@ -1089,7 +1182,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
             className="rounded-xl border border-emerald-200/70 bg-white p-4 dark:border-emerald-500/20 dark:bg-slate-800/60"
           >
             <div className="flex items-start justify-between gap-2">
-              <p className="flex items-center gap-2 text-[15px] font-semibold text-slate-900 dark:text-white">
+              <p className="flex min-w-0 items-center gap-2 text-[15px] font-semibold text-slate-900 dark:text-white">
                 <span className="font-mono text-[11px] rounded-full bg-emerald-100 px-1.5 py-0.5 text-emerald-600 dark:bg-emerald-900 dark:text-emerald-300">
                   {String(i + 1).padStart(2, "0")}
                 </span>
@@ -1103,7 +1196,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
               </Badge>
             </div>
             <p className="mt-2 text-[14px] leading-relaxed text-slate-600 dark:text-slate-300">{p.description}</p>
-            <div className="mt-3 grid gap-2 text-[13px] sm:grid-cols-2">
+            <div className="mt-3 grid grid-cols-1 gap-2 text-[13px] sm:grid-cols-2">
               <div className="flex items-center gap-1.5 text-slate-500 dark:text-slate-400">
                 <Clock className="h-3.5 w-3.5" />
                 <span>Estimated: <b className="text-slate-700 dark:text-slate-200">{p.duration}</b></span>
@@ -1293,15 +1386,15 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
               <dl className="mt-3 space-y-2.5 text-[13.5px]">
                 <div className="flex gap-2">
                   <dt className="w-24 shrink-0 font-semibold text-slate-500 dark:text-slate-400">Who it&apos;s for</dt>
-                  <dd className="text-slate-700 dark:text-slate-200">{selectedCert.who}</dd>
+                  <dd className="min-w-0 text-slate-700 [overflow-wrap:anywhere] dark:text-slate-200">{selectedCert.who}</dd>
                 </div>
                 <div className="flex gap-2">
                   <dt className="w-24 shrink-0 font-semibold text-slate-500 dark:text-slate-400">When to take</dt>
-                  <dd className="text-slate-700 dark:text-slate-200">{selectedCert.when}</dd>
+                  <dd className="min-w-0 text-slate-700 [overflow-wrap:anywhere] dark:text-slate-200">{selectedCert.when}</dd>
                 </div>
                 <div className="flex gap-2">
                   <dt className="w-24 shrink-0 font-semibold text-slate-500 dark:text-slate-400">Learn first</dt>
-                  <dd className="text-slate-700 dark:text-slate-200">{selectedCert.learnFirst}</dd>
+                  <dd className="min-w-0 text-slate-700 [overflow-wrap:anywhere] dark:text-slate-200">{selectedCert.learnFirst}</dd>
                 </div>
               </dl>
 
@@ -1343,7 +1436,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
               )}
 
               {/* prerequisites + exam */}
-              <div className="mt-3 grid gap-2 sm:grid-cols-2">
+              <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
                 {selectedCert.prerequisites.length > 0 && (
                   <div className="rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-700 dark:bg-slate-800/60">
                     <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
@@ -1363,9 +1456,9 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
                   <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
                     Exam & level
                   </p>
-                  <p className="mt-1 text-[12.5px] text-slate-600 dark:text-slate-300">{selectedCert.examName}</p>
-                  <p className="mt-1 text-[12.5px] text-slate-600 dark:text-slate-300">{selectedCert.level} · {selectedCert.difficulty}</p>
-                  <p className="mt-1 text-[12.5px] text-slate-600 dark:text-slate-300">{selectedCert.prepTime} preparation</p>
+                  <p className="mt-1 text-[12.5px] text-slate-600 [overflow-wrap:anywhere] dark:text-slate-300">{selectedCert.examName}</p>
+                  <p className="mt-1 text-[12.5px] text-slate-600 [overflow-wrap:anywhere] dark:text-slate-300">{selectedCert.level} · {selectedCert.difficulty}</p>
+                  <p className="mt-1 text-[12.5px] text-slate-600 [overflow-wrap:anywhere] dark:text-slate-300">{selectedCert.prepTime} preparation</p>
                   <p className="mt-1.5 flex flex-wrap gap-1">
                     {selectedCert.cost === "Free" ? (
                       <span className="rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-wide text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-300">
@@ -1419,7 +1512,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
               )}
 
               {/* preparation + practice resources */}
-              <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <div>
                   <p className="text-[12px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
                     Preparation resources
@@ -1499,7 +1592,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   );
 
   const scrollContent = (
-    <div className="flex-1 nice-scroll text-[15px] sm:text-[14px]">
+    <div className="min-w-0 flex-1 nice-scroll overflow-x-hidden text-[15px] sm:text-[14px]">
       {fullDetails === null ? (
         <div className="flex h-64 items-center justify-center">
           <div className="h-8 w-8 animate-spin rounded-full border-2 border-brand-200 border-t-brand-600" />
@@ -1562,9 +1655,14 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
           >
             <div className="mx-auto mt-3 h-1.5 w-12 shrink-0 rounded-full bg-slate-300 dark:bg-slate-600 mb-2" />
             {headerContent}
-            <ScrollArea className="flex-1 overflow-y-auto" style={{ WebkitOverflowScrolling: "touch", overscrollBehaviorY: "contain" }}>
+            {/* plain scroll container — Radix ScrollArea's display:table viewport grows to
+                content min-content and clips truncating rows at narrow widths */}
+            <div
+              className="nice-scroll min-w-0 flex-1 overflow-y-auto overflow-x-hidden"
+              style={{ WebkitOverflowScrolling: "touch", overscrollBehaviorY: "contain" }}
+            >
               {scrollContent}
-            </ScrollArea>
+            </div>
             {footer}
           </Drawer.Content>
         </Drawer.Portal>
@@ -1580,14 +1678,14 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
         animate={{ x: 0, opacity: 1 }}
         exit={leave}
         transition={{ type: "spring", stiffness: 380, damping: 38 }}
-        className="fixed right-0 top-16 bottom-0 z-40 flex w-full max-w-[440px] flex-col border-l border-slate-200 bg-white shadow-2xl dark:border-slate-700 dark:bg-slate-800"
+        className="fixed right-0 top-16 bottom-0 z-40 flex w-full max-w-[560px] flex-col border-l border-slate-200 bg-white shadow-2xl dark:border-slate-700 dark:bg-slate-800"
         role="dialog"
         aria-label={`${node.label} details`}
       >
         {headerContent}
-        <ScrollArea className="flex-1 overflow-y-auto">
+        <div className="nice-scroll min-w-0 flex-1 overflow-y-auto overflow-x-hidden">
           {scrollContent}
-        </ScrollArea>
+        </div>
         {footer}
       </motion.aside>
     </AnimatePresence>

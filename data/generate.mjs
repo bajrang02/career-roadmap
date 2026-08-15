@@ -28,7 +28,7 @@ import { TOPIC_RESOURCES } from "./source/topic-resources.mjs";
 import { EXTRA_TOPIC_RESOURCES } from "./source/topic-resources-extra.mjs";
 import { ruleResources, searchFixFor, relatedFallback } from "./source/resource-fallbacks.mjs";
 import { languageResources, LANGUAGE_SLUGS } from "./source/language-resources.mjs";
-import { curatedPractice, practiceRules } from "./source/topic-practice.mjs";
+import { curatedPractice, practiceRules, categoryPractice, isCoding, isAlgoUrl } from "./source/topic-practice.mjs";
 import { ROADMAP_PRACTICE, CATEGORY_PRACTICE, DOMAIN_PRACTICE } from "./source/topic-practice.mjs";
 import { providerFor, isOfficialUrl, typeFor, difficultyFor, estimateFor, describeResource } from "./source/resource-meta.mjs";
 import { CAREER_ROOT_RESOURCES, SKILL_ROOT_RESOURCES, careerFallback, skillFallback } from "./source/root-resources.mjs";
@@ -375,7 +375,7 @@ const buildPractice = (label, ctx, nodeDifficulty) => {
       if (seen.has(item.u)) continue;
       seen.add(item.u);
       out.push({
-        title: item.t || (item.p ? `${item.p} — practice` : `Practice: ${label}`),
+        title: item.t || (item.p ? `${item.p} practice` : `Practice: ${label}`),
         platform: item.p,
         url: item.u,
         difficulty: practiceDifficulty(nodeDifficulty, item.d),
@@ -388,10 +388,15 @@ const buildPractice = (label, ctx, nodeDifficulty) => {
 
   const curated = curatedPractice(label);
   if (curated) {
-    push(curated);
-    return out;
+    // non-coding roadmaps (WordPress, no-code, consulting…) never get algorithm
+    // kata / interview platforms, even from the curated catalog. When every
+    // curated option is filtered for this context, fall through to rules/slug/
+    // domain so the node still gets roadmap-appropriate practice instead of an
+    // empty list (e.g. DSA topics in a WordPress interview-prep section).
+    push(isCoding(ctx) ? curated : curated.filter((item) => !isAlgoUrl(item.u)));
+    if (out.length > 0) return out;
   }
-  const rules = practiceRules(label);
+  const rules = practiceRules(label, ctx);
   if (rules) {
     push(rules);
     return out;
@@ -409,7 +414,7 @@ const buildPractice = (label, ctx, nodeDifficulty) => {
     push(byBase);
     return out;
   }
-  const byCategory = ctx.skillCategory ? CATEGORY_PRACTICE[ctx.skillCategory] : null;
+  const byCategory = ctx.skillCategory ? categoryPractice(ctx.skillCategory) : null;
   if (byCategory) {
     push(byCategory);
     return out;
@@ -643,6 +648,30 @@ const genericInterview = (label, type, careerTitle) => {
   ];
 };
 
+// Topic-specific PDF discovery fallback — the coverage spec's sanctioned last
+// resort ("If no strong direct learning resource exists, provide a topic-
+// specific PDF discovery option… the query must include the actual topic and
+// relevant domain"). The query always carries the exact topic + career domain,
+// never a bare `filetype:pdf <topic>` search. Marked `query` so the sidebar
+// treats it as its PDF-search action instead of a card row.
+const pdfDiscoveryResource = (label, careerTitle, difficulty) => {
+  const topic = cleanTopic(label).replace(/["']/g, " ").replace(/\s+/g, " ").trim() || label.trim();
+  const domain = (careerTitle || "").replace(/\s+/g, " ").trim();
+  const query = `filetype:pdf "${topic}"${domain ? ` ${domain}` : ""} notes`;
+  return {
+    title: "PDF study material",
+    url: `https://www.google.com/search?q=${encodeURIComponent(query)}`,
+    kind: "reference",
+    type: "PDF Search",
+    provider: "Google",
+    description: `Topic-specific lecture notes, textbooks and study guides for ${label}${domain ? ` in ${domain}` : ""}.`,
+    difficulty: difficulty === "Beginner" ? "Beginner" : "Intermediate",
+    estimatedTime: "15–30 min",
+    isOfficial: false,
+    query,
+  };
+};
+
 function buildNode(label, type, ctx, opts = {}) {
   const { careerTitle, parentLabel } = ctx;
   const found = lookup(label, ctx);
@@ -658,6 +687,12 @@ function buildNode(label, type, ctx, opts = {}) {
   const nodeDifficulty = k?.diff ?? (type === "advanced" || type === "achievement" ? "Advanced" : type === "section" ? "Beginner" : "Intermediate");
   const rawResources = k?.res?.length ? k.res : fallbackRes(label, ctx);
   const resources = enrichResources(cleanResources(vendorizeResources(rawResources, ctx), label), label, nodeDifficulty);
+  // Hard coverage guarantee: EVERY node ships at least one resource. When the
+  // curated/direct chain comes up empty, append the topic-specific PDF
+  // discovery fallback so no node ever opens to an empty Resources tab.
+  if (resources.length === 0) {
+    resources.push(pdfDiscoveryResource(label, careerTitle, nodeDifficulty));
+  }
   const practice = buildPractice(label, ctx, nodeDifficulty);
   const projects = k?.proj ? enrichProjects(k.proj, label, ctx) : [];
   // The structured overview is the UI's primary content, so the long prose
@@ -921,9 +956,9 @@ function careerReadyNode(career, ctx) {
     estimatedTime: "Ongoing",
     resources: enrichResources(
       cleanResources([
-        { title: "Resume & LinkedIn optimization", url: "https://careers.google.com/how-we-hire/resume-tips/", kind: "article" },
-        { title: "Salary research — Levels.fyi", url: "https://www.levels.fyi/", kind: "practice" },
-        { title: "Job portals to apply on", url: "https://www.linkedin.com/jobs", kind: "practice" },
+        { t: "Resume & LinkedIn optimization", u: "https://careers.google.com/how-we-hire/resume-tips/", k: "article" },
+        { t: "Salary research — Levels.fyi", u: "https://www.levels.fyi/", k: "practice" },
+        { t: "Job portals to apply on", u: "https://www.linkedin.com/jobs", k: "practice" },
       ], career.title),
       career.title,
       "Advanced"
