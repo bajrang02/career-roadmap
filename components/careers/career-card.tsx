@@ -32,7 +32,7 @@ export function CareerCard({
     <Link
       href={`/roadmap/${slug}`}
       className={cn(
-        "group relative flex flex-col overflow-hidden rounded-2xl border border-border-light bg-card-light p-5 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-brand-300 hover:shadow-cardhover dark:border-border-dark dark:bg-card-dark dark:hover:border-brand-600",
+        "group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border-light bg-card-light p-5 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-brand-300 hover:shadow-cardhover dark:border-border-dark dark:bg-card-dark dark:hover:border-brand-600",
         compact && "p-4"
       )}
     >
@@ -55,7 +55,7 @@ export function CareerCard({
       </h3>
       <p className="mt-1 line-clamp-1 text-[13px] text-slate-500 dark:text-slate-400">{entry.tagline}</p>
 
-      <div className="mt-3 flex flex-wrap gap-1.5">
+      <div className="mb-4 mt-3 flex flex-wrap gap-1.5">
         <Badge variant="secondary">{categoryLabel(entry)}</Badge>
         <Badge variant={entry.difficulty === "Beginner" ? "success" : entry.difficulty === "Intermediate" ? "warning" : "danger"}>
           {entry.difficulty}
@@ -67,20 +67,20 @@ export function CareerCard({
         )}
       </div>
 
-      <div className="mt-4 grid grid-cols-3 gap-2 border-t border-border-light pt-3.5 text-[13px] text-slate-500 dark:border-slate-700 dark:text-slate-400">
-        <span className="flex items-center gap-1 truncate">
-          <Clock className="h-3 w-3 shrink-0" /> {entry.duration}
+      <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t border-border-light pt-3.5 text-[13px] text-slate-500 dark:border-slate-700 dark:text-slate-400">
+        <span className="flex items-center gap-1 whitespace-nowrap">
+          <Clock className="h-3 w-3 shrink-0" aria-hidden="true" /> {entry.duration}
         </span>
-        <span className="flex items-center gap-1 truncate">
-          <FolderKanban className="h-3 w-3 shrink-0" /> {entry.projectCount} projects
+        <span className="flex items-center gap-1 whitespace-nowrap">
+          <FolderKanban className="h-3 w-3 shrink-0" aria-hidden="true" /> {entry.projectCount} projects
         </span>
         {entry.kind === "skill" ? (
-          <span className="flex items-center gap-1 truncate">
-            <BookOpen className="h-3 w-3 shrink-0" /> {entry.topicCount} topics
+          <span className="flex items-center gap-1 whitespace-nowrap">
+            <BookOpen className="h-3 w-3 shrink-0" aria-hidden="true" /> {entry.topicCount} topics
           </span>
         ) : (
-          <span className="flex items-center gap-1 truncate">
-            <DollarSign className="h-3 w-3 shrink-0" /> {entry.salary}
+          <span className="flex items-center gap-1 whitespace-nowrap">
+            <DollarSign className="h-3 w-3 shrink-0" aria-hidden="true" /> {entry.salary}
           </span>
         )}
       </div>
@@ -89,7 +89,7 @@ export function CareerCard({
         <div className="mt-3">
           <div className="flex items-center justify-between text-[13px] font-medium">
             <span className="text-brand-600 dark:text-brand-400">{pct}% complete</span>
-            <span className="text-slate-400">{formatHours(entry.estimatedHours)} total</span>
+            <span className="text-slate-500 dark:text-slate-400">{formatHours(entry.estimatedHours)} total</span>
           </div>
           <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
             <motion.div

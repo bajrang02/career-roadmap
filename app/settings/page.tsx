@@ -8,11 +8,12 @@ import { useStudyPlanStore, type SavedPlan } from "@/lib/stores/study-plan-store
 import { useProgressStore } from "@/lib/stores/progress-store";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useAchievementsStore } from "@/lib/stores/achievements-store";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
 import { Input } from "@/components/ui/input";
+import { ConfirmDialog } from "@/components/ui/confirm-dialog";
 import { cn } from "@/lib/utils";
 
 export default function SettingsPage() {
@@ -28,6 +29,11 @@ export default function SettingsPage() {
   const plans = useStudyPlanStore((s) => s.plans);
   const clearPlan = useStudyPlanStore((s) => s.clearPlan);
   const fileRef = useRef<HTMLInputElement>(null);
+
+  // Both of these overwrite everything the learner has built up on this device
+  // and cannot be undone — neither used to ask first.
+  const [confirmClear, setConfirmClear] = useState(false);
+  const [pendingImport, setPendingImport] = useState<File | null>(null);
 
   const pickTheme = (t: "light" | "dark") => {
     setTheme(t);
@@ -180,14 +186,14 @@ export default function SettingsPage() {
             <div className="mt-4 space-y-3 border-t border-slate-100 pt-4 dark:border-slate-800">
               <label className="flex items-center justify-between gap-4">
                 <span className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200">
-                  <Layers className="h-4 w-4 text-slate-400" /> Show the overview map
-                  <span className="hidden text-xs text-slate-400 sm:inline">(miniature roadmap in the corner)</span>
+                  <Layers className="h-4 w-4 text-slate-500 dark:text-slate-400" /> Show the overview map
+                  <span className="hidden text-xs text-slate-500 dark:text-slate-400 sm:inline">(miniature roadmap in the corner)</span>
                 </span>
                 <Switch checked={showMinimap} onCheckedChange={setShowMinimap} aria-label="Show overview map" />
               </label>
               <label className="flex items-center justify-between gap-4">
                 <span className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200">
-                  <Map className="h-4 w-4 text-slate-400" /> Show the topic legend
+                  <Map className="h-4 w-4 text-slate-500 dark:text-slate-400" /> Show the topic legend
                 </span>
                 <Switch checked={showLegend} onCheckedChange={setShowLegend} aria-label="Show topic legend" />
               </label>
@@ -214,11 +220,11 @@ export default function SettingsPage() {
               className="max-w-xs text-sm"
             />
             {learnerName ? (
-              <p className="mt-2 text-xs text-slate-400">
+              <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
                 Certificates will read “Awarded to {learnerName}” — saved automatically on this device.
               </p>
             ) : (
-              <p className="mt-2 text-xs text-slate-400">Saved automatically on this device.</p>
+              <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">Saved automatically on this device.</p>
             )}
           </CardContent>
         </Card>
@@ -242,7 +248,7 @@ export default function SettingsPage() {
               <Button variant="outline" onClick={() => fileRef.current?.click()}>
                 <Upload className="h-4 w-4" /> Import backup
               </Button>
-              <Button variant="danger" onClick={clearAllData}>
+              <Button variant="danger" onClick={() => setConfirmClear(true)}>
                 <Trash2 className="h-4 w-4" /> Clear all my data
               </Button>
               <input
@@ -253,7 +259,7 @@ export default function SettingsPage() {
                 aria-label="Import backup file"
                 onChange={(e) => {
                   const f = e.target.files?.[0];
-                  if (f) importData(f);
+                  if (f) setPendingImport(f);
                   e.target.value = "";
                 }}
               />
@@ -261,6 +267,42 @@ export default function SettingsPage() {
           </CardContent>
         </Card>
       </div>
+
+      <ConfirmDialog
+        open={confirmClear}
+        onOpenChange={setConfirmClear}
+        title="Clear all your data?"
+        confirmLabel="Yes, clear everything"
+        description={
+          <>
+            This permanently removes your completed topics, certificates, bookmarks, study plans
+            and saved preferences from this browser. There is no account backing this up, so it
+            cannot be undone.
+            <span className="mt-2 block font-medium text-slate-600 dark:text-slate-300">
+              Export a backup first if you might want any of it back.
+            </span>
+          </>
+        }
+        onConfirm={clearAllData}
+      />
+
+      <ConfirmDialog
+        open={pendingImport !== null}
+        onOpenChange={(open) => !open && setPendingImport(null)}
+        title="Replace your data with this backup?"
+        confirmLabel="Replace my data"
+        description={
+          <>
+            Importing <span className="font-medium text-slate-600 dark:text-slate-300">{pendingImport?.name}</span>{" "}
+            overwrites the progress, bookmarks and study plans currently stored in this browser.
+            Anything not in the backup file is lost.
+          </>
+        }
+        onConfirm={() => {
+          if (pendingImport) importData(pendingImport);
+          setPendingImport(null);
+        }}
+      />
     </div>
   );
 }

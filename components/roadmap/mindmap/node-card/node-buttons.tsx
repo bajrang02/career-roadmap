@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import type { NodeAction } from "./types";
 
 const base =
-  "relative flex shrink-0 items-center justify-center rounded-lg text-slate-500 transition-[background-color,color,transform] duration-150 hover:bg-slate-100 hover:text-slate-700 active:scale-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-1 dark:text-slate-400 dark:hover:bg-slate-700/60 dark:hover:text-slate-200 after:absolute after:-inset-[12px] after:content-['']";
+  "relative flex shrink-0 items-center justify-center rounded-lg text-slate-500 transition-[background-color,color,transform] duration-150 hover:bg-slate-100 hover:text-slate-700 active:scale-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-1 dark:text-slate-400 dark:hover:bg-slate-700/60 dark:hover:text-slate-200 after:absolute after:-inset-y-[10px] after:-inset-x-[3px] after:content-['']";
 
 /** Rotating chevron on the RIGHT of the card: ▸ when collapsed, ▾ when
  *  expanded. A real button so it exposes a proper 44px+ touch target (the

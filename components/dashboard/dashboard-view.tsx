@@ -27,6 +27,8 @@ import { Badge } from "@/components/ui/badge";
 import { CareerCard } from "@/components/careers/career-card";
 import { Progress } from "@/components/ui/progress";
 import { EmptyState } from "@/components/dashboard/empty-state";
+import { Skeleton } from "@/components/ui/skeleton";
+import { useHydrated } from "@/lib/stores/hydration-store";
 
 type AchievementCheck = (
   n: number,
@@ -58,6 +60,10 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
   const certificates = useProgressStore((s) => s.certificates);
   const grantCertificate = useProgressStore((s) => s.grantCertificate);
   const bookmarks = useBookmarksStore((s) => s.bookmarks);
+  // Progress is replayed from localStorage after mount, so until that lands
+  // every counter here reads zero. Rendering that state would tell a returning
+  // learner they have done nothing.
+  const hydrated = useHydrated();
 
   const perRoadmap = useMemo(() => {
     const map: Record<string, { done: number; total: number }> = {};
@@ -83,8 +89,10 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
 
   const earnedCount = achievements.filter((a) => a.earned).length;
 
-  // auto-grant certificates for completed roadmaps
+  // auto-grant certificates for completed roadmaps — never before the saved
+  // progress has been replayed, or an empty store would look like "0%".
   useEffect(() => {
+    if (!hydrated) return;
     const grantable = Object.entries(perRoadmap).filter(([, r]) => r.total > 0 && Math.round((r.done / r.total) * 100) >= 100);
     for (const [slug] of grantable) {
       const entry = roadmaps[slug];
@@ -101,7 +109,7 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
         });
       }
     }
-  }, [perRoadmap, certificates, grantCertificate, learnerName, roadmaps]);
+  }, [hydrated, perRoadmap, certificates, grantCertificate, learnerName, roadmaps]);
 
   const startedRoadmaps = Object.entries(perRoadmap)
     .map(([slug, r]) => ({ slug, ...roadmaps[slug], done: r.done, total: r.total }))
@@ -118,6 +126,31 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
         </p>
       </div>
 
+      {!hydrated ? (
+        <div className="mt-6 space-y-6" aria-busy="true" aria-live="polite">
+          <span className="sr-only">Loading your progress…</span>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <Skeleton key={i} className="h-[92px] rounded-2xl" />
+            ))}
+          </div>
+          <div className="grid gap-6 lg:grid-cols-3">
+            <div className="space-y-4 lg:col-span-2">
+              <Skeleton className="h-6 w-40" />
+              <div className="grid gap-4 sm:grid-cols-2">
+                {Array.from({ length: 2 }).map((_, i) => (
+                  <Skeleton key={i} className="h-[232px] rounded-2xl" />
+                ))}
+              </div>
+            </div>
+            <div className="space-y-6">
+              <Skeleton className="h-[200px] rounded-2xl" />
+              <Skeleton className="h-[180px] rounded-2xl" />
+            </div>
+          </div>
+        </div>
+      ) : (
+      <>
       {/* stat cards */}
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {[
@@ -140,9 +173,9 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
                 <div>
                   <p className="font-display text-2xl font-bold text-slate-900 dark:text-white">
                     {s.value}
-                    {"suffix" in s && <span className="text-sm font-normal text-slate-400">{s.suffix}</span>}
+                    {"suffix" in s && <span className="text-sm font-normal text-slate-500 dark:text-slate-400">{s.suffix}</span>}
                   </p>
-                  <p className="text-xs text-slate-400">{s.label}</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400">{s.label}</p>
                 </div>
               </CardContent>
             </Card>
@@ -184,10 +217,10 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
 
           {/* bookmarks */}
           <h2 className="font-display mt-8 text-lg font-bold text-slate-900 dark:text-white">
-            Saved nodes
+            Saved topics
           </h2>
           {bookmarks.length === 0 ? (
-            <p className="mt-2 text-sm text-slate-400">
+            <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
               Bookmark topics while exploring — they&apos;ll show up here.
             </p>
           ) : (
@@ -205,7 +238,7 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
                       <span className="block truncate text-sm font-semibold text-slate-800 dark:text-slate-100">
                         {b.nodeLabel}
                       </span>
-                      <span className="block truncate text-xs text-slate-400">
+                      <span className="block truncate text-xs text-slate-500 dark:text-slate-400">
                         {entry?.icon} {entry?.title} · saved {timeAgo(b.at)}
                       </span>
                     </span>
@@ -232,20 +265,21 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
                   const h = 24 + (d.count / max) * 40;
                   return (
                     <div key={i} className="flex flex-1 flex-col items-center gap-1.5">
-                      <div className="flex h-16 items-end">
+                      <div className="flex h-16 w-full items-end justify-center">
                         <motion.div
                           initial={{ height: 6 }}
                           animate={{ height: d.count > 0 ? h : 6 }}
                           transition={{ delay: i * 0.04, duration: 0.4 }}
+                          title={`${d.count} ${d.count === 1 ? "topic" : "topics"} on ${d.day}`}
                           className={cn(
                             "w-full max-w-6 rounded-full",
                             d.count > 0
                               ? "bg-gradient-to-t from-orange-500 to-amber-400"
-                              : "bg-slate-100 dark:bg-slate-800"
+                              : "bg-slate-200 dark:bg-slate-700"
                           )}
                         />
                       </div>
-                      <span className="text-[10px] font-medium text-slate-400">{d.day}</span>
+                      <span className="text-[10px] font-medium text-slate-500 dark:text-slate-400">{d.day}</span>
                     </div>
                   );
                 })}
@@ -279,13 +313,21 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
                       "flex flex-col items-center gap-1 rounded-xl border p-2.5 text-center transition",
                       a.earned
                         ? "border-violet-200 bg-violet-50 dark:border-violet-800 dark:bg-violet-950/50"
-                        : "border-slate-100 opacity-45 grayscale dark:border-slate-800"
+                        : "border-slate-200 bg-slate-50/60 grayscale dark:border-slate-800 dark:bg-slate-900/40"
                     )}
                   >
-                    <span className="text-xl">{a.icon}</span>
-                    <span className="text-[10px] font-semibold leading-tight text-slate-600 dark:text-slate-300">
+                    <span className={cn("text-xl", !a.earned && "opacity-50")} aria-hidden="true">
+                      {a.icon}
+                    </span>
+                    <span
+                      className={cn(
+                        "text-[10px] font-semibold leading-tight",
+                        a.earned ? "text-slate-700 dark:text-slate-200" : "text-slate-500 dark:text-slate-400"
+                      )}
+                    >
                       {a.title}
                     </span>
+                    <span className="sr-only">{a.earned ? "Earned" : "Not earned yet"}</span>
                   </div>
                 ))}
               </div>
@@ -301,7 +343,7 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
             </CardHeader>
             <CardContent className="space-y-2">
               {certificates.length === 0 ? (
-                <p className="text-sm text-slate-400">
+                <p className="text-sm text-slate-500 dark:text-slate-400">
                   Finish a roadmap at 100% to earn a certificate.
                 </p>
               ) : (
@@ -333,6 +375,8 @@ export function DashboardView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
 
         </div>
       </div>
+      </>
+      )}
     </div>
   );
 }

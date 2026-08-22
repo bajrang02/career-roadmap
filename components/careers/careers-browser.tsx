@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { ArrowUpDown, Search, SlidersHorizontal, X } from "lucide-react";
@@ -31,13 +31,38 @@ export function CareersBrowser({
 }) {
   const params = useSearchParams();
   const all = useMemo(() => careers, [careers]);
-  const [domain, setDomain] = useState<string>(params.get("domain") ?? "all");
+
+  // ?domain= may be a registry id ("software") or the label the entries carry
+  // ("Software Development") — accept either so links never dead-end on an
+  // empty grid.
+  const resolveDomain = useMemo(() => {
+    const byId = new Map(domains.map((d) => [d.id.toLowerCase(), d.label]));
+    const byLabel = new Map(domains.map((d) => [d.label.toLowerCase(), d.label]));
+    return (raw: string | null) => {
+      if (!raw) return "all";
+      const key = raw.toLowerCase().trim();
+      return byId.get(key) ?? byLabel.get(key) ?? "all";
+    };
+  }, [domains]);
+
+  const urlDomain = params.get("domain");
+  const urlQuery = params.get("q");
+  const [domain, setDomain] = useState<string>(() => resolveDomain(urlDomain));
   const [difficulty, setDifficulty] = useState<string>("all");
   const [beginnerFriendly, setBeginnerFriendly] = useState(false);
   const [pathLength, setPathLength] = useState<PathLength>("all");
   const [sort, setSort] = useState<SortKey>("popular");
-  const [query, setQuery] = useState(params.get("q") ?? "");
+  const [query, setQuery] = useState(urlQuery ?? "");
   const [showFilters, setShowFilters] = useState(false);
+
+  // Re-apply the URL when it changes while this page stays mounted (a second
+  // domain card, or browser back/forward).
+  useEffect(() => {
+    setDomain(resolveDomain(urlDomain));
+  }, [urlDomain, resolveDomain]);
+  useEffect(() => {
+    if (urlQuery !== null) setQuery(urlQuery);
+  }, [urlQuery]);
 
   const filtered = useMemo(() => {
     let list = all.filter((r) => {
@@ -119,7 +144,7 @@ export function CareersBrowser({
       {/* search + sort */}
       <div className="mt-6 flex flex-wrap items-center gap-3">
         <div className="relative min-w-[240px] flex-1 sm:max-w-sm">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500 dark:text-slate-400" />
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -130,7 +155,7 @@ export function CareersBrowser({
           {query && (
             <button
               onClick={() => setQuery("")}
-              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded p-0.5 text-slate-400 hover:text-slate-600"
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded p-0.5 text-slate-500 dark:text-slate-400 hover:text-slate-600"
               aria-label="Clear search"
             >
               <X className="h-3.5 w-3.5" />
@@ -212,7 +237,7 @@ export function CareersBrowser({
         >
           <div className="mt-4 grid gap-4 rounded-2xl border border-slate-200 bg-slate-50/70 p-4 sm:grid-cols-3 dark:border-slate-800 dark:bg-slate-900/60">
             <div>
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Difficulty</p>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Difficulty</p>
               <div className="flex flex-wrap gap-1.5">
                 {["all", ...DIFFICULTIES].map((d) => (
                   <button
@@ -231,7 +256,7 @@ export function CareersBrowser({
               </div>
             </div>
             <div>
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Path length</p>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Path length</p>
               <div className="flex flex-wrap gap-1.5">
                 {[
                   { key: "all", label: "Any", fn: () => true },
@@ -265,7 +290,7 @@ export function CareersBrowser({
                 />
                 Beginner friendly only
               </label>
-              <p className="ml-auto text-xs text-slate-400">
+              <p className="ml-auto text-xs text-slate-500 dark:text-slate-400">
                 {filtered.length} shown
               </p>
             </div>
@@ -280,7 +305,7 @@ export function CareersBrowser({
           <h3 className="font-display mt-3 text-lg font-semibold text-slate-900 dark:text-white">
             No careers match your filters
           </h3>
-          <p className="mt-1 text-sm text-slate-400">Try clearing a filter or searching differently.</p>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Try clearing a filter or searching differently.</p>
           <Button className="mt-4" variant="outline" onClick={clear}>
             Show everything
           </Button>
@@ -300,7 +325,7 @@ export function CareersBrowser({
                   <h2 className="font-display text-xl font-bold text-slate-900 dark:text-white">
                     {g.label}
                   </h2>
-                  <p className="text-xs text-slate-400">{g.items.length} careers</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400">{g.items.length} careers</p>
                 </div>
               </div>
               <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

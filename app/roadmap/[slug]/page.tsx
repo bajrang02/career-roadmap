@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { careerBySlug, listRoadmaps } from "@/lib/data-catalog";
 import { getRoadmapServer } from "@/lib/roadmap-server";
 import { RoadmapViewer } from "@/components/roadmap/roadmap-viewer";
+import { RoadmapSkeleton } from "@/components/roadmap/roadmap-skeleton";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -37,7 +38,7 @@ export default async function RoadmapPage({ params }: PageProps) {
   // JSON from disk so roadmap data stays out of the webpack bundle graph.
   const roadmap = getRoadmapServer(slug);
   return (
-    <Suspense fallback={<div className="h-screen" />}>
+    <Suspense fallback={<RoadmapSkeleton />}>
       <RoadmapViewer
         slug={slug}
         roadmap={roadmap}

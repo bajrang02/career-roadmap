@@ -42,7 +42,14 @@ export const viewport: Viewport = {
   ],
 };
 
+// Absolute base for canonical + Open Graph URLs. Without it Next emits
+// relative OG URLs, which most social/link-preview crawlers reject.
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://career-roadmaps.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "/" },
+  robots: { index: true, follow: true },
   title: {
     default: "Career Roadmaps — Learn any career, step by step",
     template: "%s · Career Roadmaps",
@@ -79,11 +86,34 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
+        {/* Scroll-reveal sections are framer-motion elements: their "hidden"
+            state ships in the server HTML as an inline opacity:0, and only the
+            client animation clears it. With scripting off that leaves the whole
+            landing page below the hero permanently blank, so reveal everything
+            up front instead. */}
+        <noscript>
+          <style
+            dangerouslySetInnerHTML={{
+              __html:
+                '[style*="opacity:0"],[style*="opacity: 0"],[opacity="0"]{opacity:1!important;transform:none!important}[stroke-dasharray]{stroke-dasharray:none!important;stroke-dashoffset:0!important}',
+            }}
+          />
+        </noscript>
       </head>
       <body className={`${display.variable} ${sans.variable} ${mono.variable} min-h-screen`}>
+        {/* Keyboard users land on the nav first; this lets them jump straight
+            past six nav links to the page content. Visible only on focus. */}
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-brand-600 focus:px-4 focus:py-2.5 focus:text-sm focus:font-semibold focus:text-white focus:shadow-lg"
+        >
+          Skip to main content
+        </a>
         <Providers>
           <Navbar />
-          <main className="min-h-[60vh]">{children}</main>
+          <main id="main" className="min-h-[60vh]">
+            {children}
+          </main>
           <Footer />
           <SearchCommand />
           <Toaster />

@@ -2,8 +2,8 @@
 
 import { useState, memo } from "react";
 import { motion } from "framer-motion";
-import { Columns3, X } from "lucide-react";
-import { NODE_TYPE_META } from "@/lib/utils";
+import { ChevronDown, X } from "lucide-react";
+import { NODE_TYPE_META, cn } from "@/lib/utils";
 import type { NodeType } from "@/lib/types";
 
 const TYPES: NodeType[] = [
@@ -33,22 +33,32 @@ export const Legend = memo(function Legend({ onClose }: { onClose?: () => void }
       // the two never overlap; on larger screens it sits in the corner.
       className="absolute bottom-20 left-4 z-20 w-48 rounded-xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur sm:bottom-4 sm:w-52 dark:border-slate-700 dark:bg-slate-800/95"
     >
-      <button
-        onClick={() => {
-          // collapsed → expand; open → dismiss (when wired) or collapse
-          if (open && onClose) onClose();
-          else setOpen((v) => !v);
-        }}
-        className="flex w-full items-center justify-between px-3.5 py-2.5 text-[13px] font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300"
-        aria-expanded={open}
-      >
-        <span className="flex items-center gap-1.5">
-          <Columns3 className="h-4 w-4" /> Topic legend
-        </span>
-        <X className="h-4 w-4 transition-transform" style={{ transform: open ? "none" : "rotate(45deg)" }} />
-      </button>
+      <div className="flex items-center">
+        <button
+          onClick={() => setOpen((v) => !v)}
+          className="flex min-w-0 flex-1 items-center gap-1.5 px-3.5 py-2.5 text-left text-[13px] font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300"
+          aria-expanded={open}
+          aria-controls="legend-body"
+        >
+          <ChevronDown
+            className={cn("h-4 w-4 shrink-0 transition-transform", !open && "-rotate-90")}
+            aria-hidden="true"
+          />
+          <span className="truncate">Topic legend</span>
+        </button>
+        {onClose && (
+          <button
+            onClick={onClose}
+            className="mr-1.5 shrink-0 rounded-md p-1.5 text-slate-500 dark:text-slate-400 transition hover:bg-slate-100 hover:text-slate-600 dark:hover:bg-slate-700 dark:hover:text-slate-200"
+            aria-label="Hide the topic legend"
+            title="Hide legend"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        )}
+      </div>
       {open && (
-        <div className="space-y-1.5 border-t border-slate-100 p-3 dark:border-slate-700/60">
+        <div id="legend-body" className="space-y-1.5 border-t border-slate-100 p-3 dark:border-slate-700/60">
           {TYPES.map((t) => (
             <div key={t} className="flex items-center gap-2">
               <span className={`rounded px-2 py-0.5 text-xs font-semibold ${NODE_TYPE_META[t].chip}`}>

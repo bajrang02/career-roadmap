@@ -44,6 +44,7 @@ import { useProgressStore } from "@/lib/stores/progress-store";
 import { useUiStore } from "@/lib/stores/ui-store";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { ConfirmDialog } from "@/components/ui/confirm-dialog";
 import { cn } from "@/lib/utils";
 
 type Step = 1 | 2 | 3 | "plan";
@@ -129,6 +130,9 @@ export function StudyPlannerDialog({
   const [startDate, setStartDate] = useState("");
   const [loading, setLoading] = useState(false);
   const [expandedDays, setExpandedDays] = useState<Set<number>>(() => new Set([1]));
+  // Regenerating throws away every day the learner has ticked off — it never
+  // used to say so before doing it.
+  const [confirmRegen, setConfirmRegen] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
   const bodyRef = useRef<HTMLDivElement>(null);
   const progressCompleted = useProgressStore((s) => s.completed);
@@ -276,7 +280,7 @@ export function StudyPlannerDialog({
           {r.title}
         </span>
         {r.nodeCount > 0 && (
-          <span className="shrink-0 font-mono text-[10px] text-slate-400">{r.learnable} topics</span>
+          <span className="shrink-0 font-mono text-[10px] text-slate-500 dark:text-slate-400">{r.learnable} topics</span>
         )}
         {active && <Check className="h-4 w-4 shrink-0 text-brand-600" />}
       </button>
@@ -310,13 +314,13 @@ export function StudyPlannerDialog({
             <p className="font-display text-base font-bold text-slate-900 dark:text-white">
               {step === "plan" ? "Your study plan" : "Generate study plan"}
             </p>
-            <p className="text-[11px] text-slate-400">
+            <p className="text-[11px] text-slate-500 dark:text-slate-400">
               A personalized day-by-day schedule for the whole roadmap.
             </p>
           </div>
           <button
             onClick={onClose}
-            className="rounded-lg p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+            className="rounded-lg p-2 text-slate-500 dark:text-slate-400 transition hover:bg-slate-100 hover:text-slate-700 dark:hover:bg-slate-800 dark:hover:text-slate-200"
             aria-label="Close planner"
           >
             <X className="h-4 w-4" />
@@ -341,7 +345,7 @@ export function StudyPlannerDialog({
                         ? "bg-brand-600 text-white shadow-sm"
                         : done
                           ? "bg-brand-50 text-brand-700 hover:bg-brand-100 dark:bg-brand-950/60 dark:text-brand-300"
-                          : "text-slate-400"
+                          : "text-slate-500 dark:text-slate-400"
                     )}
                   >
                     {done ? <Check className="h-3 w-3" /> : <span className="font-mono">{s.n}</span>}
@@ -369,11 +373,11 @@ export function StudyPlannerDialog({
                 <h3 className="font-display text-sm font-bold text-slate-900 dark:text-white">
                   Which roadmap do you want to learn?
                 </h3>
-                <p className="mt-0.5 text-xs text-slate-400">
+                <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
                   Topics are scheduled in roadmap order so dependencies come first.
                 </p>
                 <div className="relative mt-3">
-                  <Search className="absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-slate-400" />
+                  <Search className="absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-slate-500 dark:text-slate-400" />
                   <input
                     value={roadmapFilter}
                     onChange={(e) => setRoadmapFilter(e.target.value)}
@@ -384,7 +388,7 @@ export function StudyPlannerDialog({
                 </div>
                 <div className="nice-scroll mt-3 max-h-[46vh] space-y-1.5 overflow-y-auto pr-1">
                   {filteredRoadmaps.length === 0 && (
-                    <p className="py-6 text-center text-xs text-slate-400">No roadmaps match.</p>
+                    <p className="py-6 text-center text-xs text-slate-500 dark:text-slate-400">No roadmaps match.</p>
                   )}
                   {filteredRoadmaps.map(renderRoadmapRow)}
                 </div>
@@ -422,7 +426,7 @@ export function StudyPlannerDialog({
                       <span className="font-display text-lg font-bold text-slate-900 dark:text-white">
                         {d}
                       </span>
-                      <span className="block text-[10px] font-medium uppercase tracking-wider text-slate-400">
+                      <span className="block text-[10px] font-medium uppercase tracking-wider text-slate-500 dark:text-slate-400">
                         Days
                       </span>
                     </button>
@@ -445,8 +449,8 @@ export function StudyPlannerDialog({
                     aria-label="Custom number of days"
                     className="h-9 w-24 rounded-lg border border-slate-200 bg-slate-50 px-3 text-sm font-semibold text-slate-800 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-400/30 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100"
                   />
-                  <span className="text-xs text-slate-400">days</span>
-                  <div className="ml-auto flex items-center gap-1.5 text-[11px] text-slate-400">
+                  <span className="text-xs text-slate-500 dark:text-slate-400">days</span>
+                  <div className="ml-auto flex items-center gap-1.5 text-[11px] text-slate-500 dark:text-slate-400">
                     <Calendar className="h-3.5 w-3.5" />
                     <input
                       type="date"
@@ -487,12 +491,12 @@ export function StudyPlannerDialog({
                         )}
                       >
                         <p className="text-sm font-bold text-slate-900 dark:text-white">{p.label}</p>
-                        <p className="mt-0.5 text-[11px] text-slate-400">{p.hint}</p>
+                        <p className="mt-0.5 text-[11px] text-slate-500 dark:text-slate-400">{p.hint}</p>
                       </button>
                     ))}
                   </div>
                   {hoursPerDay === null && (
-                    <p className="mt-2 text-[11px] text-slate-400">
+                    <p className="mt-2 text-[11px] text-slate-500 dark:text-slate-400">
                       Pace sets hours/day. Set an exact budget below to override it.
                     </p>
                   )}
@@ -568,7 +572,7 @@ export function StudyPlannerDialog({
                           <span className="block text-xs font-semibold text-slate-800 dark:text-slate-100">
                             {t.label}
                           </span>
-                          <span className="block text-[10px] text-slate-400">{t.hint}</span>
+                          <span className="block text-[10px] text-slate-500 dark:text-slate-400">{t.hint}</span>
                         </span>
                       </button>
                     ))}
@@ -627,7 +631,12 @@ export function StudyPlannerDialog({
                   >
                     <Pencil className="h-3.5 w-3.5" /> Edit
                   </Button>
-                  <Button size="sm" variant="outline" onClick={handleRegenerate} disabled={loading}>
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    onClick={() => setConfirmRegen(true)}
+                    disabled={loading}
+                  >
                     {loading ? (
                       <span className="h-3.5 w-3.5 animate-spin rounded-full border-2 border-slate-300 border-t-brand-600" />
                     ) : (
@@ -675,7 +684,7 @@ export function StudyPlannerDialog({
                               Day {d.day}
                             </span>
                             {d.date && (
-                              <span className="hidden text-[10px] text-slate-400 sm:inline">
+                              <span className="hidden text-[10px] text-slate-500 dark:text-slate-400 sm:inline">
                                 {formatDate(d.date)}
                               </span>
                             )}
@@ -685,13 +694,13 @@ export function StudyPlannerDialog({
                             <span className="min-w-0 flex-1 truncate text-xs font-semibold text-slate-700 dark:text-slate-200">
                               {d.title}
                             </span>
-                            <span className="shrink-0 font-mono text-[10px] text-slate-400">
+                            <span className="shrink-0 font-mono text-[10px] text-slate-500 dark:text-slate-400">
                               {formatMinutes(d.minutes)}
                             </span>
                             {open ? (
-                              <ChevronUp className="h-3.5 w-3.5 shrink-0 text-slate-400" />
+                              <ChevronUp className="h-3.5 w-3.5 shrink-0 text-slate-500 dark:text-slate-400" />
                             ) : (
-                              <ChevronDown className="h-3.5 w-3.5 shrink-0 text-slate-400" />
+                              <ChevronDown className="h-3.5 w-3.5 shrink-0 text-slate-500 dark:text-slate-400" />
                             )}
                           </button>
                         </div>
@@ -714,18 +723,18 @@ export function StudyPlannerDialog({
                                       <span className={cn("h-1.5 w-1.5 shrink-0 rounded-full", done ? "bg-emerald-400" : "bg-brand-400")} />
                                       <span className="min-w-0 flex-1 truncate">{it.label}</span>
                                       {it.section && it.section !== d.title && (
-                                        <span className="hidden shrink-0 text-[10px] text-slate-400 md:inline">
+                                        <span className="hidden shrink-0 text-[10px] text-slate-500 dark:text-slate-400 md:inline">
                                           {it.section}
                                         </span>
                                       )}
-                                      <span className="shrink-0 font-mono text-[10px] text-slate-400">
+                                      <span className="shrink-0 font-mono text-[10px] text-slate-500 dark:text-slate-400">
                                         {formatMinutes(it.minutes)}
                                       </span>
                                     </li>
                                   ))}
                                 </ul>
                               ) : (
-                                <p className="border-t border-slate-100 px-4 py-2.5 text-[11px] italic text-slate-400 dark:border-slate-800">
+                                <p className="border-t border-slate-100 px-4 py-2.5 text-[11px] italic text-slate-500 dark:text-slate-400 dark:border-slate-800">
                                   {d.kind === "rest"
                                     ? "Take a break — your brain consolidates while you rest."
                                     : "Light day — catch up or go deeper on anything from the week."}
@@ -739,7 +748,7 @@ export function StudyPlannerDialog({
                   })}
                 </div>
 
-                <p className="mt-4 flex items-center gap-1.5 text-[11px] text-slate-400">
+                <p className="mt-4 flex items-center gap-1.5 text-[11px] text-slate-500 dark:text-slate-400">
                   <Sparkles className="h-3 w-3" />
                   Your plan is saved automatically — close and come back anytime to resume.
                 </p>
@@ -755,8 +764,13 @@ export function StudyPlannerDialog({
               <Button variant="ghost" size="sm" onClick={onClose}>
                 Done
               </Button>
-              <Button size="sm" className="ml-auto" onClick={() => bodyRef.current?.scrollTo({ top: 0, behavior: "smooth" })}>
-                <ListChecks className="h-3.5 w-3.5" /> Overview
+              <Button
+                size="sm"
+                variant="outline"
+                className="ml-auto"
+                onClick={() => bodyRef.current?.scrollTo({ top: 0, behavior: "smooth" })}
+              >
+                <ListChecks className="h-3.5 w-3.5" /> Back to summary
               </Button>
             </>
           ) : (
@@ -796,6 +810,20 @@ export function StudyPlannerDialog({
           )}
         </div>
       </motion.div>
+
+      <ConfirmDialog
+        open={confirmRegen}
+        onOpenChange={setConfirmRegen}
+        title="Regenerate this study plan?"
+        confirmLabel="Regenerate"
+        description={
+          <>
+            A fresh schedule is built from your current settings and every day you have marked
+            complete is cleared. Topics already ticked off on the roadmap itself stay completed.
+          </>
+        }
+        onConfirm={handleRegenerate}
+      />
     </div>
   );
 }

@@ -3,7 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, Search, TrendingUp } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 
@@ -74,7 +74,7 @@ function HeroMindmap() {
             key={i}
             d={d}
             fill="none"
-            stroke={i < 3 ? "#3b82f6" : "#93c5fd"}
+            className={i < 3 ? "stroke-[#3b82f6]" : "stroke-[#93c5fd] dark:stroke-[#475569]"}
             strokeWidth={i < 3 ? 2 : 1.5}
             strokeLinecap="round"
             initial={{ pathLength: 0, opacity: 0 }}
@@ -87,20 +87,20 @@ function HeroMindmap() {
       {nodes.map((n, i) => {
         const card =
           n.type === "career"
-            ? "fill-[#2563eb]"
+            ? "fill-[#2563eb] dark:fill-[#3b82f6]"
             : n.type === "section"
               ? "fill-[#fbbf24]"
               : n.type === "topic"
-                ? "fill-white stroke-[#e2e8f0]"
-                : "fill-[#f8fafc] stroke-[#e2e8f0]";
+                ? "fill-white stroke-[#e2e8f0] dark:fill-[#1e293b] dark:stroke-[#334155]"
+                : "fill-[#f8fafc] stroke-[#e2e8f0] dark:fill-[#172033] dark:stroke-[#334155]";
         const text =
           n.type === "career"
             ? "fill-white font-semibold"
             : n.type === "section"
               ? "fill-[#78350f] font-semibold"
               : n.type === "topic"
-                ? "fill-[#334155] font-medium"
-                : "fill-[#64748b]";
+                ? "fill-[#334155] font-medium dark:fill-[#e2e8f0]"
+                : "fill-[#64748b] dark:fill-[#94a3b8]";
         return (
           <motion.g
             key={n.id}
@@ -141,25 +141,36 @@ export function Hero({ stats }: { stats: HeroStats }) {
   const totalCareers = stats.careers;
   const totalRoadmaps = stats.roadmaps;
 
+  const go = useCallback(
+    (raw: string) => {
+      const query = raw.trim();
+      if (!query) return;
+      const needle = query.toLowerCase();
+      const candidates = [
+        ["frontend-developer", "frontend"],
+        ["full-stack-developer", "full stack"],
+        ["backend-developer", "backend"],
+        ["ai-engineer", "ai engineer"],
+        ["machine-learning-engineer", "machine learning"],
+        ["data-scientist", "data sci"],
+        ["data-analyst", "data ana"],
+        ["cybersecurity-analyst", "cyber"],
+        ["cloud-engineer", "cloud engineer"],
+        ["devops-engineer", "devops"],
+        ["software-engineer", "software engineer"],
+      ];
+      const hit = candidates.find(([, k]) => needle.includes(k));
+      // Anything without an exact career match goes to /roadmaps, which
+      // searches careers AND skills — /careers alone returned "no results"
+      // for every skill query ("python", "react", "docker").
+      router.push(hit ? `/roadmap/${hit[0]}` : `/roadmaps?q=${encodeURIComponent(query)}`);
+    },
+    [router]
+  );
+
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
-    const query = q.trim().toLowerCase();
-    if (!query) return;
-    const candidates = [
-      ["frontend-developer", "frontend"],
-      ["full-stack-developer", "full stack"],
-      ["backend-developer", "backend"],
-      ["ai-engineer", "ai"],
-      ["machine-learning-engineer", "machine learning"],
-      ["data-scientist", "data sci"],
-      ["data-analyst", "data ana"],
-      ["cybersecurity-analyst", "cyber"],
-      ["cloud-engineer", "cloud"],
-      ["devops-engineer", "devops"],
-      ["software-engineer", "software"],
-    ];
-    const hit = candidates.find(([, k]) => query.includes(k));
-    router.push(hit ? `/roadmap/${hit[0]}` : `/careers?q=${encodeURIComponent(q)}`);
+    go(q);
   };
 
   return (
@@ -210,7 +221,7 @@ export function Hero({ stats }: { stats: HeroStats }) {
             onSubmit={submit}
             className="mt-7 flex max-w-md items-center gap-2 rounded-2xl border border-slate-200 bg-white p-1.5 pl-4 shadow-card focus-within:border-brand-400 focus-within:ring-2 focus-within:ring-brand-400/30 dark:border-slate-700 dark:bg-slate-900"
           >
-            <Search className="h-4 w-4 shrink-0 text-slate-400" />
+            <Search className="h-4 w-4 shrink-0 text-slate-500 dark:text-slate-400" />
             <input
               value={q}
               onChange={(e) => setQ(e.target.value)}
@@ -230,14 +241,18 @@ export function Hero({ stats }: { stats: HeroStats }) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.35 }}
-            className="mt-4 flex flex-wrap items-center gap-2 text-xs text-slate-400"
+            className="mt-4 flex flex-wrap items-center gap-2 text-xs text-slate-500 dark:text-slate-400"
           >
             <span>Popular:</span>
             {suggestions.map((s) => (
               <button
                 key={s}
-                onClick={() => setQ(s)}
-                className="rounded-full border border-slate-200 px-2.5 py-1 transition hover:border-brand-300 hover:text-brand-600 dark:border-slate-700 dark:hover:text-brand-400"
+                type="button"
+                onClick={() => {
+                  setQ(s);
+                  go(s);
+                }}
+                className="rounded-full border border-slate-200 px-2.5 py-1 transition hover:border-brand-300 hover:text-brand-600 focus-visible:border-brand-400 dark:border-slate-700 dark:hover:text-brand-400"
               >
                 {s}
               </button>
@@ -255,11 +270,11 @@ export function Hero({ stats }: { stats: HeroStats }) {
               { v: `${stats.skills}`, l: "Skill roadmaps" },
               { v: `${(stats.topics / 1000).toFixed(1)}k+`, l: "Learning topics" },
             ].map((s) => (
-              <div key={s.l}>
-                <dt className="order-last mt-1 text-xs text-slate-400">{s.l}</dt>
-                <dd className="font-display text-2xl font-bold text-slate-900 dark:text-white">
+              <div key={s.l} className="flex flex-col">
+                <dd className="font-display order-first text-2xl font-bold text-slate-900 dark:text-white">
                   {s.v}
                 </dd>
+                <dt className="mt-1 text-xs text-slate-500 dark:text-slate-400">{s.l}</dt>
               </div>
             ))}
           </motion.dl>
@@ -300,7 +315,7 @@ export function Hero({ stats }: { stats: HeroStats }) {
               </div>
               <div>
                 <p className="text-xs font-semibold text-slate-900 dark:text-white">Progress tracked</p>
-                <p className="text-[11px] text-slate-400">streaks · bookmarks · certificates</p>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400">streaks · bookmarks · certificates</p>
               </div>
             </div>
           </motion.div>
@@ -315,7 +330,8 @@ export function Hero({ stats }: { stats: HeroStats }) {
             "hover:gap-2.5 dark:text-brand-400"
           )}
         >
-          Browse all {totalCareers} career roadmaps <ArrowRight className="h-4 w-4" />
+          Browse all {totalCareers} career roadmaps
+          <ArrowRight className="h-4 w-4" aria-hidden="true" />
         </Link>
       </div>
     </section>

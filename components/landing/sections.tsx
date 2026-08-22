@@ -107,7 +107,7 @@ export function Categories({ catalog }: { catalog: HomeCatalog }) {
                 <span className="block truncate text-sm font-semibold text-slate-900 dark:text-white">
                   {c.label}
                 </span>
-                <span className="block text-xs text-slate-400">
+                <span className="block text-xs text-slate-500 dark:text-slate-400">
                   {c.count} careers · beginner → expert
                 </span>
               </span>
@@ -125,7 +125,7 @@ export function FeaturedRoadmaps({ catalog }: { catalog: HomeCatalog }) {
   const entries = catalog.featured;
 
   return (
-    <section className="bg-slate-50/60 py-16 dark:bg-slate-950/50">
+    <section className="py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <SectionHeading
@@ -198,7 +198,7 @@ export function SkillCategories({ catalog }: { catalog: HomeCatalog }) {
                   <span className="block truncate text-sm font-semibold text-slate-900 dark:text-white">
                     {cat.label}
                   </span>
-                  <span className="block text-xs text-slate-400">
+                  <span className="block text-xs text-slate-500 dark:text-slate-400">
                     {cat.count} roadmaps · beginner → expert
                   </span>
                 </span>

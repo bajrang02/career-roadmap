@@ -127,7 +127,10 @@ function NodeCardInner(props: NodeCardProps) {
               type !== "achievement" &&
               "border-emerald-500/70 shadow-[0_0_0_1px_rgba(16,185,129,.18),0_6px_14px_-10px_rgba(16,185,129,.45)]",
             selected &&
-              "border-brand-500 bg-white dark:bg-slate-800 ring-2 ring-brand-500/70 shadow-[0_0_0_1px_rgba(59,130,246,.25),0_10px_28px_-8px_rgba(37,99,235,.45)] z-20",
+              "z-20 border-brand-500 ring-2 ring-brand-500/70 shadow-[0_0_0_1px_rgba(59,130,246,.25),0_10px_28px_-8px_rgba(37,99,235,.45)]",
+            // the career card already owns a solid blue fill and white text —
+            // repainting it white on selection erased its own label
+            selected && !isCareer && "bg-white dark:bg-slate-800",
             focused && !selected && "ring-1 ring-brand-400/30",
             recent && !focused && !selected && "ring-1 ring-sky-300/50 dark:ring-sky-500/30",
             searchHit && "ring-2 ring-amber-400/70",
@@ -171,10 +174,10 @@ function NodeCardInner(props: NodeCardProps) {
           )}
 
           {/* Actions group - forced to shrink/wrap together on tiny screens */}
-          <div className="flex items-center gap-1.5 shrink-0 ml-auto">
+          <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-1.5">
             {/* completion status — containers don't get a checkbox */}
             {checkable && (
-              <CompletionCheckbox completed={completed} label={label} id={id} onAction={onAction} className="h-6 w-6 sm:h-4 sm:w-4 shrink-0" />
+              <CompletionCheckbox completed={completed} label={label} id={id} onAction={onAction} className="h-7 w-7 shrink-0 sm:h-4 sm:w-4" />
             )}
 
             {/* Overview button */}

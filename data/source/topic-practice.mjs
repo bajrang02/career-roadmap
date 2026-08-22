@@ -470,11 +470,11 @@ export const CURATED_PRACTICE = {
   // ── Engineering software ───────────────────────────────────────────────────
   autocad: [
     p("AutoCAD guided tutorials", "Autodesk Learn", "https://www.autodesk.com/learn/onboarding/overview/experience/learn-autocad", "Beginner", "2–3 hours", ["Drafting", "Drawing tools", "Layers"], "Official step-by-step AutoCAD tutorials."),
-    p("CAD exercises", "CAD Exercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["2D drafting", "Dimensioning"], "Real drawings to reproduce from scratch."),
+    p("CAD exercises", "CAD Exercises", "https://www.cad-elearning.com/", "Intermediate", "60–120 min", ["2D drafting", "Dimensioning"], "Real drawings to reproduce from scratch."),
   ],
   solidworks: [
     p("SOLIDWORKS tutorials", "SOLIDWORKS", "https://www.solidworks.com/support/learn", "Beginner", "2–3 hours", ["Part modeling", "Assemblies", "Drawings"], "Official learning resources from Dassault."),
-    p("Modeling challenges", "CAD Exercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["3D modeling", "Sketches"], "Reproduce 3D parts from prints."),
+    p("Modeling challenges", "CAD Exercises", "https://www.cad-elearning.com/", "Intermediate", "60–120 min", ["3D modeling", "Sketches"], "Reproduce 3D parts from prints."),
   ],
   matlab: [
     p("MATLAB Onramp", "MathWorks", "https://matlabacademy.mathworks.com/", "Beginner", "2–4 hours", ["MATLAB syntax", "Arrays", "Plotting"], "Official free interactive MATLAB course."),
@@ -730,11 +730,11 @@ export const ROADMAP_PRACTICE = {
   // engineering software
   autocad: [
     p("Autodesk Learn", "Autodesk", "https://www.autodesk.com/learn/onboarding/overview/experience/learn-autocad", "Beginner", "2–3 hours", ["AutoCAD"], "Official guided tutorials."),
-    p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Drafting"], "Real drawings to reproduce."),
+    p("CAD exercises", "CADExercises", "https://www.cad-elearning.com/", "Intermediate", "60–120 min", ["Drafting"], "Real drawings to reproduce."),
   ],
   solidworks: [
     p("SOLIDWORKS Learn", "SOLIDWORKS", "https://www.solidworks.com/support/learn", "Beginner", "2–3 hours", ["SOLIDWORKS"], "Official tutorials."),
-    p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Modeling"], "Reproduce 3D parts from prints."),
+    p("CAD exercises", "CADExercises", "https://www.cad-elearning.com/", "Intermediate", "60–120 min", ["Modeling"], "Reproduce 3D parts from prints."),
   ],
   matlab: [
     p("MATLAB Onramp", "MathWorks", "https://matlabacademy.mathworks.com/", "Beginner", "2–4 hours", ["MATLAB"], "Official free interactive course."),
@@ -767,7 +767,7 @@ export const ROADMAP_PRACTICE = {
     p("WordPress Playground", "WordPress Playground", "https://playground.wordpress.net/", "Beginner", "20–40 min", ["WordPress", "Blocks", "PHP"], "Run a live WordPress site in your browser and experiment."),
   ],
   "no-code-developer": [
-    p("Bubble Academy", "Bubble", "https://academy.bubble.io/", "Beginner", "2–3 hours", ["No-code apps"], "Guided no-code app-building lessons."),
+    p("Bubble Academy", "Bubble", "https://manual.bubble.io/", "Beginner", "2–3 hours", ["No-code apps"], "Guided no-code app-building lessons."),
     p("Webflow University", "Webflow", "https://university.webflow.com/", "Beginner", "2–3 hours", ["Webflow", "Design"], "Official free Webflow courses."),
   ],
   "erp-consultant": [
@@ -784,7 +784,7 @@ export const ROADMAP_PRACTICE = {
   ],
   "product-manager": [
     p("PM mock interviews", "Pramp", "https://www.pramp.com/", "Intermediate", "30–60 min", ["PM interviews"], "Live mock product interviews with peers."),
-    p("PM case practice", "Product School", "https://productschool.com/resources/product-case-interviews", "Intermediate", "60–120 min", ["Case studies"], "Practice real product case interview questions."),
+    p("PM case practice", "Product School", "https://productschool.com/resources", "Intermediate", "60–120 min", ["Case studies"], "Practice real product case interview questions."),
   ],
   "technical-writer": [
     p("Google tech writing", "Google", "https://developers.google.com/tech-writing", "Beginner", "2–3 hours", ["Tech writing"], "Free official technical writing courses."),
@@ -827,7 +827,7 @@ export const CATEGORY_PRACTICE = {
   ],
   engineering: [
     p("Vendor tutorials", "Autodesk", "https://www.autodesk.com/learn", "Beginner", "2–3 hours", ["CAD"], "Official software tutorials."),
-    p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Drafting", "Modeling"], "Real drawings to reproduce."),
+    p("CAD exercises", "CADExercises", "https://www.cad-elearning.com/", "Intermediate", "60–120 min", ["Drafting", "Modeling"], "Real drawings to reproduce."),
   ],
   design: [
     p("Figma practice", "Figma", "https://www.figma.com/community", "Beginner", "30–60 min", ["Design"], "Recreate community files."),
@@ -846,7 +846,7 @@ export const CATEGORY_PRACTICE = {
   "engineering software": [
     p("Engineering courses", "MIT OpenCourseWare", "https://ocw.mit.edu/search/?d=Engineering", "Beginner", "2–3 hours", ["Engineering"], "Free university courses with lecture notes, problem sets and exams."),
     p("Vendor tutorials", "Autodesk", "https://www.autodesk.com/learn", "Beginner", "2–3 hours", ["CAD"], "Official software tutorials."),
-    p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Drafting", "Modeling"], "Real drawings to reproduce."),
+    p("CAD exercises", "CADExercises", "https://www.cad-elearning.com/", "Intermediate", "60–120 min", ["Drafting", "Modeling"], "Real drawings to reproduce."),
   ],
   productivity: [
     p("Microsoft Learn", "Microsoft Learn", "https://learn.microsoft.com/training/", "Beginner", "30–60 min", ["Office skills"], "Free official Office training."),
@@ -886,7 +886,7 @@ export const DOMAIN_PRACTICE = {
     p("Engineering courses", "MIT OpenCourseWare", "https://ocw.mit.edu/search/?d=Engineering", "Beginner", "2–3 hours", ["Engineering"], "Free university courses with lecture notes, problem sets and exams."),
     p("Engineering reference", "Engineering Toolbox", "https://www.engineeringtoolbox.com/", "Beginner", "20–40 min", ["Formulas", "Data"], "Reference tables, formulas and calculators for engineering work."),
     p("Vendor tutorials", "Autodesk", "https://www.autodesk.com/learn", "Beginner", "2–3 hours", ["CAD"], "Official software tutorials."),
-    p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Drafting"], "Real drawings to reproduce."),
+    p("CAD exercises", "CADExercises", "https://www.cad-elearning.com/", "Intermediate", "60–120 min", ["Drafting"], "Real drawings to reproduce."),
   ],
   "Game & Graphics": [
     p("Exercism", "Exercism", "https://exercism.org/", "Beginner", "30–60 min", ["Programming"], "Practice your chosen language."),
@@ -915,7 +915,7 @@ export const DOMAIN_PRACTICE = {
   "Engineering Software": [
     p("Engineering courses", "MIT OpenCourseWare", "https://ocw.mit.edu/search/?d=Engineering", "Beginner", "2–3 hours", ["Engineering"], "Free university courses with lecture notes, problem sets and exams."),
     p("Vendor tutorials", "Autodesk", "https://www.autodesk.com/learn", "Beginner", "2–3 hours", ["CAD"], "Official software tutorials."),
-    p("CAD exercises", "CADExercises", "https://caddexpert.com/", "Intermediate", "60–120 min", ["Drafting"], "Real drawings to reproduce."),
+    p("CAD exercises", "CADExercises", "https://www.cad-elearning.com/", "Intermediate", "60–120 min", ["Drafting"], "Real drawings to reproduce."),
   ],
   "Electronics & Embedded": [
     p("Arduino tutorials", "Arduino", "https://docs.arduino.cc/learn/", "Beginner", "60–120 min", ["Microcontrollers"], "Official hands-on Arduino lessons."),

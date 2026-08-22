@@ -826,7 +826,7 @@ export const EXTRA_TOPIC_RESOURCES = {
     r("Section drawings — Wikipedia", "https://en.wikipedia.org/wiki/Section_(architecture)", "article"),
   ],
   "cad practice": [
-    r("CAD exercises — CADDEXpert", "https://caddexpert.com/", "practice"),
+    r("CAD exercises — CADDEXpert", "https://www.cad-elearning.com/", "practice"),
     r("Autodesk Learn", "https://www.autodesk.com/learn", "course"),
   ],
   "resource modeling": [

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState, memo } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, memo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Drawer } from "vaul";
 import {
@@ -58,6 +58,11 @@ interface Props {
 }
 
 type TabId = "overview" | "resources" | "practice" | "projects" | "certifications";
+
+/** Phone: each tab sizes to its own label and the strip scrolls, so nothing is
+ *  sliced mid-word. Tablet and up: the tabs share the row evenly again. */
+const TAB_CLS =
+  "shrink-0 snap-start whitespace-nowrap px-3 text-xs sm:min-w-[72px] sm:flex-1 sm:shrink sm:px-1 sm:text-[13px]";
 
 
 /** Notion-style section: small caps label + clean content, separated by a thin
@@ -626,6 +631,33 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
     return () => mq.removeEventListener("change", onChange);
   }, []);
 
+  // Escape closes the panel. The canvas key handler deliberately ignores keys
+  // aimed at a [role=dialog], so once focus moved into this panel (clicking any
+  // button in it) Escape stopped working entirely — the panel owns it now.
+  const panelRef = useRef<HTMLElement>(null);
+  const onCloseRef = useRef(onClose);
+  onCloseRef.current = onClose;
+  useEffect(() => {
+    if (!desktop) return; // the mobile drawer handles Escape itself
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.stopPropagation();
+        onCloseRef.current();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [desktop]);
+
+  // Move focus into the panel when it opens so keyboard and screen-reader users
+  // land on the content they just asked for, and hand focus back on close.
+  useEffect(() => {
+    if (!desktop) return;
+    const prev = document.activeElement as HTMLElement | null;
+    panelRef.current?.focus({ preventScroll: true });
+    return () => prev?.focus?.({ preventScroll: true });
+  }, [desktop]);
+
   const enter = desktop ? { x: 560, opacity: 0.4 } : { y: "100%", opacity: 0.8 };
   const leave = desktop ? { x: 560, opacity: 0 } : { y: "100%", opacity: 0 };
 
@@ -664,7 +696,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
         {desktop && (
           <button
             onClick={onClose}
-            className="rounded-lg p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-700 dark:hover:bg-slate-700 dark:hover:text-slate-200 hidden sm:block"
+            className="rounded-lg p-2 text-slate-500 dark:text-slate-400 transition hover:bg-slate-100 hover:text-slate-700 dark:hover:bg-slate-700 dark:hover:text-slate-200 hidden sm:block"
             aria-label="Close details"
           >
             <X className="h-4 w-4" />
@@ -739,22 +771,22 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
         <Tabs value={tab} onValueChange={(v) => setTab(v as TabId)} className="w-full">
           {/* only render tabs that have content: Projects and Certifications are
               hidden entirely when empty so the panel never shows hollow sections */}
-          <TabsList className="flex w-full overflow-x-auto [scrollbar-width:none]">
-            <TabsTrigger value="overview" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">Overview</TabsTrigger>
-            <TabsTrigger value="resources" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">
-              Resources{d.resources.length > 0 && <span className="text-slate-400"> ({d.resources.length})</span>}
+          <TabsList className="flex w-full snap-x snap-mandatory gap-0.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <TabsTrigger value="overview" className={TAB_CLS}>Overview</TabsTrigger>
+            <TabsTrigger value="resources" className={TAB_CLS}>
+              Resources{d.resources.length > 0 && <span className="text-slate-500 dark:text-slate-400"> ({d.resources.length})</span>}
             </TabsTrigger>
-            <TabsTrigger value="practice" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">
-              Practice{d.practice.length > 0 && <span className="text-slate-400"> ({d.practice.length})</span>}
+            <TabsTrigger value="practice" className={TAB_CLS}>
+              Practice{d.practice.length > 0 && <span className="text-slate-500 dark:text-slate-400"> ({d.practice.length})</span>}
             </TabsTrigger>
             {hasProjects && (
-              <TabsTrigger value="projects" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">
-                Projects{d.projects.length > 0 && <span className="text-slate-400"> ({d.projects.length})</span>}
+              <TabsTrigger value="projects" className={TAB_CLS}>
+                Projects{d.projects.length > 0 && <span className="text-slate-500 dark:text-slate-400"> ({d.projects.length})</span>}
               </TabsTrigger>
             )}
             {hasCerts && (
-              <TabsTrigger value="certifications" className="min-w-[72px] flex-1 px-1 text-xs sm:text-[13px]">
-                Certifications{certs.length > 0 && <span className="text-slate-400"> ({certs.length})</span>}
+              <TabsTrigger value="certifications" className={TAB_CLS}>
+                Certifications{certs.length > 0 && <span className="text-slate-500 dark:text-slate-400"> ({certs.length})</span>}
               </TabsTrigger>
             )}
           </TabsList>
@@ -1048,7 +1080,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
                 </Badge>
               ))}
             </div>
-            <p className="mt-3 text-[13px] sm:text-xs text-slate-400">
+            <p className="mt-3 text-[13px] sm:text-xs text-slate-500 dark:text-slate-400">
               From the <span className="font-semibold">{roadmapTitle}</span> roadmap
             </p>
           </div>
@@ -1642,18 +1674,18 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
         onOpenChange={(open) => {
           if (!open) onClose();
         }}
-        snapPoints={[0.35, 0.7, 1]}
-        activeSnapPoint={1}
-        setActiveSnapPoint={() => {}}
-        fadeFromIndex={0}
       >
         <Drawer.Portal>
           <Drawer.Overlay className="fixed inset-0 z-40 bg-slate-950/40 backdrop-blur-[2px]" />
           <Drawer.Content
+            aria-label={`${node.label} details`}
             className="fixed inset-x-0 bottom-0 z-50 flex flex-col rounded-t-[20px] bg-white outline-none dark:bg-slate-800"
-            style={{ maxHeight: "100dvh", height: "100dvh" }}
+            style={{ maxHeight: "94dvh", height: "94dvh" }}
           >
-            <div className="mx-auto mt-3 h-1.5 w-12 shrink-0 rounded-full bg-slate-300 dark:bg-slate-600 mb-2" />
+            <div
+              className="mx-auto mb-2 mt-3 h-1.5 w-12 shrink-0 rounded-full bg-slate-300 dark:bg-slate-600"
+              aria-hidden="true"
+            />
             {headerContent}
             {/* plain scroll container — Radix ScrollArea's display:table viewport grows to
                 content min-content and clips truncating rows at narrow widths */}
@@ -1674,11 +1706,13 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
     <AnimatePresence>
       <motion.aside
         key="sidebar-desktop"
+        ref={panelRef}
+        tabIndex={-1}
         initial={enter}
         animate={{ x: 0, opacity: 1 }}
         exit={leave}
         transition={{ type: "spring", stiffness: 380, damping: 38 }}
-        className="fixed right-0 top-16 bottom-0 z-40 flex w-full max-w-[560px] flex-col border-l border-slate-200 bg-white shadow-2xl dark:border-slate-700 dark:bg-slate-800"
+        className="absolute inset-y-0 right-0 z-40 flex w-full max-w-[560px] flex-col border-l border-slate-200 bg-white shadow-2xl outline-none dark:border-slate-700 dark:bg-slate-800"
         role="dialog"
         aria-label={`${node.label} details`}
       >

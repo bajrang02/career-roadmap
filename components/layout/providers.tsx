@@ -10,6 +10,9 @@ import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useSettingsStore } from "@/lib/stores/settings-store";
 import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
 import { useChoicesStore } from "@/lib/stores/choices-store";
+import { useAchievementsStore } from "@/lib/stores/achievements-store";
+import { useUiStore } from "@/lib/stores/ui-store";
+import { useHydrationStore } from "@/lib/stores/hydration-store";
 
 // Every persisted zustand store is created with `skipHydration: true`, so its
 // initial state (the defaults) is what both the server and the client's first
@@ -23,6 +26,8 @@ const PERSISTED_STORES = [
   useSettingsStore,
   useStudyPlanStore,
   useChoicesStore,
+  useAchievementsStore,
+  useUiStore,
 ] as const;
 
 export function Providers({ children }: { children: React.ReactNode }) {
@@ -33,6 +38,10 @@ export function Providers({ children }: { children: React.ReactNode }) {
     for (const store of PERSISTED_STORES) {
       store.persist.rehydrate();
     }
+    // Progress-driven screens wait on this flag so a returning learner never
+    // sees a flash of the "nothing here yet" empty state before their saved
+    // data lands.
+    useHydrationStore.getState().markHydrated();
   }, []);
 
   return (

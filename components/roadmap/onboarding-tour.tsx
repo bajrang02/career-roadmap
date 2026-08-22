@@ -152,18 +152,24 @@ export function OnboardingTour({
   }, [open, close, next]);
 
   const stepDots = (
-    <div className="flex items-center gap-1.5" role="group" aria-label={`Step ${step + 1} of ${steps.length}`}>
+    <div className="flex items-center gap-2">
+      <span className="font-mono text-[11px] tabular-nums text-slate-400 dark:text-slate-500">
+        {step + 1}/{steps.length}
+      </span>
+      <div className="flex items-center gap-1.5" role="group" aria-label={`Step ${step + 1} of ${steps.length}`}>
       {steps.map((s, i) => (
         <button
           key={s.id}
           onClick={() => setStep(i)}
           aria-label={`Go to step ${i + 1}`}
+          aria-current={i === step ? "step" : undefined}
           className={cn(
             "h-1.5 rounded-full transition-all duration-300",
             i === step ? "w-6 bg-brand-600" : "w-1.5 bg-slate-300 hover:bg-slate-400 dark:bg-slate-600 dark:hover:bg-slate-500"
           )}
         />
       ))}
+      </div>
     </div>
   );
 
@@ -193,7 +199,7 @@ export function OnboardingTour({
               <button
                 onClick={close}
                 aria-label="Close tour"
-                className="absolute right-3 top-4 z-10 rounded-full p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-600 dark:hover:bg-slate-800 dark:hover:text-slate-200"
+                className="absolute right-3 top-4 z-10 rounded-full p-2 text-slate-500 dark:text-slate-400 transition hover:bg-slate-100 hover:text-slate-600 dark:hover:bg-slate-800 dark:hover:text-slate-200"
               >
                 <X className="h-4 w-4" />
               </button>
@@ -327,18 +333,16 @@ export function OnboardingTour({
                     <Button variant="ghost" size="sm" onClick={close} className="text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300">
                       Skip
                     </Button>
-                    {!isLast && (
-                      <Button
-                        size="sm"
-                        onClick={() => setStep((s) => Math.max(0, s - 1))}
-                        disabled={step === 0}
-                        variant="outline"
-                        className="px-2.5"
-                        aria-label="Previous step"
-                      >
-                        <ArrowLeft className="h-4 w-4" />
-                      </Button>
-                    )}
+                    <Button
+                      size="sm"
+                      onClick={() => setStep((s) => Math.max(0, s - 1))}
+                      disabled={step === 0}
+                      variant="outline"
+                      className="px-2.5"
+                      aria-label="Previous step"
+                    >
+                      <ArrowLeft className="h-4 w-4" />
+                    </Button>
                     <Button size="sm" onClick={next} className="gap-1.5 bg-brand-600 hover:bg-brand-700">
                       {isLast ? (
                         <>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { Search, SlidersHorizontal, X } from "lucide-react";
@@ -23,10 +23,36 @@ export function SkillsBrowser({
 }) {
   const params = useSearchParams();
   const all = useMemo(() => skills, [skills]);
-  const [category, setCategory] = useState<string>(params.get("category") ?? "all");
+
+  // ?category= may arrive as a registry id ("programming", used by the home
+  // page cards) or as the human label ("Programming Languages", used by the
+  // chips below). Entries are tagged with the label, so ids are resolved here —
+  // otherwise every category card on the landing page filtered to zero results.
+  const resolveCategory = useMemo(() => {
+    const byId = new Map(categories.map((c) => [c.id.toLowerCase(), c.label]));
+    const byLabel = new Map(categories.map((c) => [c.label.toLowerCase(), c.label]));
+    return (raw: string | null) => {
+      if (!raw) return "all";
+      const key = raw.toLowerCase().trim();
+      return byId.get(key) ?? byLabel.get(key) ?? "all";
+    };
+  }, [categories]);
+
+  const urlCategory = params.get("category");
+  const urlQuery = params.get("q");
+  const [category, setCategory] = useState<string>(() => resolveCategory(urlCategory));
   const [difficulty, setDifficulty] = useState<string>("all");
-  const [query, setQuery] = useState(params.get("q") ?? "");
+  const [query, setQuery] = useState(urlQuery ?? "");
   const [showFilters, setShowFilters] = useState(false);
+
+  // Keep the browser in sync when the URL changes while the page stays mounted
+  // (e.g. clicking a second category card from the footer or a back/forward nav).
+  useEffect(() => {
+    setCategory(resolveCategory(urlCategory));
+  }, [urlCategory, resolveCategory]);
+  useEffect(() => {
+    if (urlQuery !== null) setQuery(urlQuery);
+  }, [urlQuery]);
 
   // skill categories in canonical taxonomy order (from the generated registry),
   // with live counts from the index
@@ -88,7 +114,7 @@ export function SkillsBrowser({
       {/* search + filters */}
       <div className="mt-6 flex flex-wrap items-center gap-3">
         <div className="relative min-w-[240px] flex-1 sm:max-w-sm">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500 dark:text-slate-400" />
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -99,7 +125,7 @@ export function SkillsBrowser({
           {query && (
             <button
               onClick={() => setQuery("")}
-              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded p-0.5 text-slate-400 hover:text-slate-600"
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded p-0.5 text-slate-500 dark:text-slate-400 hover:text-slate-600"
               aria-label="Clear search"
             >
               <X className="h-3.5 w-3.5" />
@@ -156,7 +182,7 @@ export function SkillsBrowser({
         >
           <div className="mt-4 grid gap-4 rounded-2xl border border-slate-200 bg-slate-50/70 p-4 sm:grid-cols-2 dark:border-slate-800 dark:bg-slate-900/60">
             <div>
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Difficulty</p>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Difficulty</p>
               <div className="flex flex-wrap gap-1.5">
                 {["all", ...DIFFICULTIES].map((d) => (
                   <button
@@ -175,7 +201,7 @@ export function SkillsBrowser({
               </div>
             </div>
             <div className="flex items-end">
-              <p className="text-xs text-slate-400">
+              <p className="text-xs text-slate-500 dark:text-slate-400">
                 Showing <span className="font-semibold text-slate-600 dark:text-slate-200">{filtered.length}</span> of {all.length} skills
               </p>
             </div>
@@ -190,7 +216,7 @@ export function SkillsBrowser({
           <h3 className="font-display mt-3 text-lg font-semibold text-slate-900 dark:text-white">
             No skills match your filters
           </h3>
-          <p className="mt-1 text-sm text-slate-400">Try a different category or clear the filters.</p>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Try a different category or clear the filters.</p>
           <Button
             className="mt-4"
             variant="outline"

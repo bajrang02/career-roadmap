@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit",
     "data": "node data/generate.mjs",
     "audit:coverage": "node data/audit-coverage.mjs",
+    "audit:links": "node data/audit-coverage.mjs --check-urls",
     "verify:palette": "node .freebuff/verify-palette.mjs"
   },
   "dependencies": {

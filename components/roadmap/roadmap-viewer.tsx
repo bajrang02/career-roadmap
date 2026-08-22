@@ -38,7 +38,9 @@ const StudyPlannerDialog = dynamic(
 );
 const RoadmapToolbar = dynamic(() => import("./roadmap-toolbar").then((m) => m.RoadmapToolbar), {
   ssr: false,
-  loading: () => <div className="h-14 w-full bg-background border-b" />,
+  loading: () => (
+    <div className="min-h-[52px] w-full border-b border-slate-200/70 bg-white/80 dark:border-slate-700/60 dark:bg-[#0b1220]/80" />
+  ),
 });
 const Minimap = dynamic(() => import("./mindmap/minimap").then((m) => m.Minimap), {
   ssr: false,
@@ -85,9 +87,24 @@ const MindmapCanvas = dynamic(() => import("./mindmap/mindmap-canvas").then((m) 
   ),
 });
 
-const VIEWPORT_STORAGE = "cr-viewport";
 const COLLAPSED_STORAGE = "cr-collapsed";
 const RECENT_STORAGE = "cr-recent";
+
+/** The default expand state: top-level sections open, everything deeper shut.
+ *  Computed synchronously at first render (never in an effect) so the canvas's
+ *  one-shot fit-to-view measures THIS layout. When it was applied in an effect
+ *  the canvas often fitted the fully-expanded 558-node tree first, latched
+ *  "already fitted", and left the roadmap stranded at 20% zoom. */
+function defaultCollapsed(roadmap: import("@/lib/types").Roadmap | null): Set<string> {
+  const s = new Set<string>();
+  if (!roadmap) return s;
+  const walk = (n: RoadmapNode, depth: number) => {
+    if (depth >= 1 && n.children?.length) s.add(n.id);
+    for (const c of n.children ?? []) walk(c, depth + 1);
+  };
+  for (const c of roadmap.root.children ?? []) walk(c, 1);
+  return s;
+}
 
 /** load a persisted Set<string> from localStorage (expand/collapse state) */
 function loadCollapsed(slug: string): Set<string> | null {
@@ -112,7 +129,10 @@ export function RoadmapViewer({
   roadmapList: PlannerRoadmapRow[];
 }) {
 
-  const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set());
+  const [collapsed, setCollapsed] = useState<Set<string>>(() => defaultCollapsed(roadmap));
+  // Bumped when the layout changes for a reason the user did not initiate
+  // (restoring a saved expand state), so the canvas re-fits to it.
+  const [fitNonce, setFitNonce] = useState(0);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   // recently visited nodes — a light-blue ring marks the last few nodes you
@@ -128,7 +148,21 @@ export function RoadmapViewer({
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [plannerOpen, setPlannerOpen] = useState(false);
   const [tourOpen, setTourOpen] = useState(false);
+  // The keyboard-shortcut hint used to sit on the canvas forever. It now
+  // retires after the first few seconds, like any other coach mark.
+  const [hintVisible, setHintVisible] = useState(true);
+  useEffect(() => {
+    const t = window.setTimeout(() => setHintVisible(false), 9000);
+    return () => window.clearTimeout(t);
+  }, []);
   const isMobile = useIsMobile();
+
+  // Width the desktop details panel steals from the canvas. Camera moves
+  // subtract it, otherwise opening a node slides the panel straight over the
+  // very node the user just selected.
+  const SIDEBAR_W = 560;
+  const panelInset =
+    !isMobile && selectedId ? Math.min(SIDEBAR_W, Math.round(containerSize.w * 0.5)) : 0;
 
   // The mobile floating zoom pill auto-hides after a moment of inactivity so
   // it never sits over (and swallows taps on) the nodes beneath it. Any canvas
@@ -209,28 +243,21 @@ export function RoadmapViewer({
     setTourOpen(false);
   }, []);
 
-  // default: sections expanded, deeper collapsed — unless the user has a
-  // saved expand/collapse layout for this roadmap (remember expanded state)
+  // Restore this roadmap's saved expand/collapse layout, if the visitor has
+  // one. The default (sections open) is already in place from first render, so
+  // this only runs for returning visitors — and it asks the canvas to re-fit,
+  // because the layout it measured a moment ago just changed underneath it.
   useEffect(() => {
     if (!roadmap) return;
     const saved = loadCollapsed(slug);
-    const set = saved ?? (() => {
-      const s = new Set<string>();
-      const walk = (n: RoadmapNode, depth: number) => {
-        if (depth >= 1 && n.children?.length) s.add(n.id);
-        for (const c of n.children ?? []) walk(c, depth + 1);
-      };
-      for (const c of roadmap.root.children ?? []) walk(c, 1);
-      return s;
-    })();
-    setCollapsed(set);
+    setCollapsed(saved ?? defaultCollapsed(roadmap));
+    if (saved) setFitNonce((n) => n + 1);
     setSelectedId(null);
     setHoveredId(null);
     setFocusMode(false);
     setSearchQuery("");
     setSearchOpen(false);
     setFlashId(null);
-    setViewport({ x: 0, y: 0, k: 1 });
   }, [roadmap, slug]);
 
   // persist expand/collapse layout so returning to the roadmap restores it
@@ -423,20 +450,24 @@ export function RoadmapViewer({
     const targetW = bounds.width + margin * 2;
     const targetH = bounds.height + margin * 2;
 
+    // the details panel covers the right edge on desktop, so the usable
+    // canvas is narrower than the container
+    const usableW = Math.max(240, containerSize.w - panelInset);
+
     const targetK = Math.min(
-      containerSize.w / targetW,
+      usableW / targetW,
       containerSize.h / targetH,
-      1 // don't zoom in past 100% (or maybe 1.2 if we want to zoom closely?)
+      1 // never zoom past 100%
     );
 
     const targetKBounded = Math.max(0.2, targetK);
 
     setViewport({
-      x: containerSize.w / 2 - (bounds.x + bounds.width / 2) * targetKBounded,
+      x: usableW / 2 - (bounds.x + bounds.width / 2) * targetKBounded,
       y: containerSize.h / 2 - (bounds.y + bounds.height / 2) * targetKBounded,
       k: targetKBounded,
     });
-  }, [flashId, selectedId, layout, containerSize, isMobile]);
+  }, [flashId, selectedId, layout, containerSize, isMobile, panelInset]);
 
   useEffect(() => {
     if (!debouncedSearch.trim()) centeredFor.current = null;
@@ -518,16 +549,17 @@ export function RoadmapViewer({
   const handleFit = useCallback(() => {
     if (!layout || !canvasRef.current) return;
     const el = canvasRef.current;
-    const pad = fitPadding(el.clientWidth, el.clientHeight);
+    const usableW = Math.max(240, el.clientWidth - panelInset);
+    const pad = fitPadding(usableW, el.clientHeight);
     const bw = layout.width + pad * 2;
     const bh = layout.height + pad * 2;
-    const k = Math.min(el.clientWidth / bw, el.clientHeight / bh, 1);
+    const k = Math.min(usableW / bw, el.clientHeight / bh, 1);
     setViewport({
-      x: (el.clientWidth - layout.width * k) / 2,
+      x: (usableW - layout.width * k) / 2,
       y: (el.clientHeight - layout.height * k) / 2,
       k: Math.max(k, 0.2),
     });
-  }, [layout]);
+  }, [layout, panelInset]);
 
   const zoomBy = useCallback(
     (factor: number) => {
@@ -589,18 +621,20 @@ export function RoadmapViewer({
       const cx = minX + bw / 2;
       const cy = minY + bh / 2;
 
+      const usableW = Math.max(240, el.clientWidth - panelInset);
+
       setViewport((v) => {
         // preserve current zoom level
         const currentK = v.k;
 
         return {
-          x: el.clientWidth / 2 - cx * currentK,
+          x: usableW / 2 - cx * currentK,
           y: el.clientHeight / 2 - cy * currentK,
           k: currentK,
         };
       });
     },
-    [layout]
+    [layout, panelInset]
   );
 
   // latest-value refs so toggle/center helpers stay identity-stable (they are
@@ -730,10 +764,11 @@ export function RoadmapViewer({
         const nw = n.w * v.k;
         const nh = n.h * v.k;
 
-        const marginX = el.clientWidth * 0.25;
+        const usableW = Math.max(240, el.clientWidth - panelInset);
+        const marginX = usableW * 0.2;
         const marginY = el.clientHeight * 0.25;
         const safeLeft = marginX;
-        const safeRight = el.clientWidth - marginX;
+        const safeRight = usableW - marginX;
         const safeTop = marginY;
         const safeBottom = el.clientHeight - marginY;
 
@@ -750,7 +785,7 @@ export function RoadmapViewer({
         return { ...v, x: v.x + dx, y: v.y + dy };
       });
     },
-    [layout]
+    [layout, panelInset]
   );
 
   useEffect(() => {
@@ -899,16 +934,6 @@ export function RoadmapViewer({
     [roadmap, slug, toggleNode, toast, showPill]
   );
 
-  // persist viewport for "continue where you left off"
-  useEffect(() => {
-    const t = setTimeout(() => {
-      try {
-        localStorage.setItem(VIEWPORT_STORAGE + ":" + slug, JSON.stringify(viewport));
-      } catch {}
-    }, 400);
-    return () => clearTimeout(t);
-  }, [viewport, slug]);
-
   const edgeActive = useCallback(
     (e: { source: LayoutNode; target: LayoutNode; isActive?: boolean }) =>
       hoverPath.size > 0
@@ -988,7 +1013,7 @@ export function RoadmapViewer({
         <h2 className="font-display text-xl font-bold text-slate-900 dark:text-white">
           Roadmap not found
         </h2>
-        <p className="text-sm text-slate-400">This career roadmap doesn&apos;t exist (yet).</p>
+        <p className="text-sm text-slate-500 dark:text-slate-400">This career roadmap doesn&apos;t exist (yet).</p>
       </div>
     );
   }
@@ -1051,7 +1076,7 @@ export function RoadmapViewer({
             setSelectedId(null);
           }}
           onBackgroundDoubleClick={handleFit}
-          fitKey={isMobile ? "mobile" : "desktop"}
+          fitKey={`${isMobile ? "mobile" : "desktop"}:${fitNonce}`}
           renderNode={renderNode}
           edgeActive={edgeActive}
           edgeDimmed={edgeDimmed}
@@ -1070,8 +1095,8 @@ export function RoadmapViewer({
           </div>
         )}
 
-        {/* minimap */}
-        {showMinimap && (
+        {/* minimap — hidden while the details panel covers this corner */}
+        {showMinimap && !(selectedId && !isMobile) && (
           <div className="absolute bottom-4 right-4 z-20">
             <Minimap
               layout={layout}
@@ -1092,7 +1117,8 @@ export function RoadmapViewer({
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 20 }}
-              className="absolute bottom-6 left-1/2 z-30 hidden -translate-x-1/2 sm:block"
+              className="absolute bottom-6 z-30 hidden -translate-x-1/2 sm:block"
+              style={{ left: `calc(50% - ${panelInset / 2}px)` }}
             >
               <Button
                 variant="default"
@@ -1100,7 +1126,7 @@ export function RoadmapViewer({
                 className="flex items-center rounded-full bg-brand-600 px-4 py-2 text-white shadow-xl shadow-brand-500/20 hover:bg-brand-700"
                 onClick={handleCenterView}
               >
-                <Crosshair className="mr-2 h-4 w-4" /> Back to Current
+                <Crosshair className="mr-2 h-4 w-4" aria-hidden="true" /> Recentre on this topic
               </Button>
             </motion.div>
           )}
@@ -1142,30 +1168,36 @@ export function RoadmapViewer({
           </button>
         </div>
 
-        {/* keyboard hint */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2 }}
-          className="pointer-events-none absolute bottom-4 left-1/2 z-10 hidden -translate-x-1/2 items-center gap-3 rounded-full border border-border-light bg-white/95 px-4 py-1.5 text-xs text-slate-400 shadow-lg backdrop-blur md:flex dark:border-border-dark dark:bg-slate-800/95"
-        >
-          <span><b className="font-mono">↑↓</b> navigate</span>
-          <span><b className="font-mono">←→</b> collapse / expand</span>
-          <span><b className="font-mono">↵</b> open details</span>
-        </motion.div>
+        {/* keyboard hint — only while nothing is selected (otherwise it sits
+            underneath the "Back to Current" pill), and it fades away once read */}
+        <AnimatePresence>
+          {hintVisible && !selectedId && (
+            <motion.div
+              key="kbd-hint"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="pointer-events-none absolute bottom-4 left-1/2 z-10 hidden -translate-x-1/2 items-center gap-3 rounded-full border border-border-light bg-white/95 px-4 py-1.5 text-xs text-slate-500 shadow-lg backdrop-blur md:flex dark:border-border-dark dark:bg-slate-800/95 dark:text-slate-400"
+            >
+              <span><b className="font-mono">↑↓</b> navigate</span>
+              <span><b className="font-mono">←→</b> collapse / expand</span>
+              <span><b className="font-mono">↵</b> open details</span>
+            </motion.div>
+          )}
+        </AnimatePresence>
+        {selectedNode && (
+          <NodeDetailsSidebar
+            node={selectedNode}
+            roadmapSlug={slug}
+            roadmapTitle={roadmap.meta.title}
+            order={fullOrder}
+            onClose={() => setSelectedId(null)}
+            onNavigate={navigateFromSidebar}
+            onMarkSubtree={() => handleMarkSubtree(selectedNode)}
+          />
+        )}
       </div>
-
-      {selectedNode && (
-        <NodeDetailsSidebar
-          node={selectedNode}
-          roadmapSlug={slug}
-          roadmapTitle={roadmap.meta.title}
-          order={fullOrder}
-          onClose={() => setSelectedId(null)}
-          onNavigate={navigateFromSidebar}
-          onMarkSubtree={() => handleMarkSubtree(selectedNode)}
-        />
-      )}
 
       {plannerOpen && (
         <StudyPlannerDialog

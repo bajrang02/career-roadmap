@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { Search, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -21,8 +22,23 @@ export function RoadmapsBrowser({
   totalTopics: number;
 }) {
   const all = useMemo(() => roadmaps, [roadmaps]);
-  const [kind, setKind] = useState<KindFilter>("all");
-  const [query, setQuery] = useState("");
+  const params = useSearchParams();
+  // /roadmaps?q=... is where the hero search sends anything that is not an
+  // exact career match. It is the only browser covering careers AND skills, so
+  // a search for "python" or "docker" has to be answerable here.
+  const urlQuery = params.get("q");
+  const urlKind = params.get("kind");
+  const [kind, setKind] = useState<KindFilter>(
+    urlKind === "career" || urlKind === "skill" ? urlKind : "all"
+  );
+  const [query, setQuery] = useState(urlQuery ?? "");
+
+  useEffect(() => {
+    if (urlQuery !== null) setQuery(urlQuery);
+  }, [urlQuery]);
+  useEffect(() => {
+    setKind(urlKind === "career" || urlKind === "skill" ? urlKind : "all");
+  }, [urlKind]);
 
   const careerCount = all.filter((r) => r.kind === "career").length;
 
@@ -56,7 +72,7 @@ export function RoadmapsBrowser({
       {/* search + kind filter */}
       <div className="mt-6 flex flex-wrap items-center gap-3">
         <div className="relative min-w-[240px] flex-1 sm:max-w-sm">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500 dark:text-slate-400" />
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -67,7 +83,7 @@ export function RoadmapsBrowser({
           {query && (
             <button
               onClick={() => setQuery("")}
-              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded p-0.5 text-slate-400 hover:text-slate-600"
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded p-0.5 text-slate-500 dark:text-slate-400 hover:text-slate-600"
               aria-label="Clear search"
             >
               <X className="h-3.5 w-3.5" />
@@ -105,7 +121,7 @@ export function RoadmapsBrowser({
           <h3 className="font-display mt-3 text-lg font-semibold text-slate-900 dark:text-white">
             No roadmaps match
           </h3>
-          <p className="mt-1 text-sm text-slate-400">Try a different search or clear the filters.</p>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Try a different search or clear the filters.</p>
           <Button
             className="mt-4"
             variant="outline"

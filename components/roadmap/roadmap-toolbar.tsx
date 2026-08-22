@@ -167,8 +167,8 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
   );
 
   return (
-    <div className="flex flex-wrap items-center gap-1 border-b border-slate-200/70 bg-white/80 px-3 py-2 backdrop-blur-xl sm:gap-1.5 dark:border-slate-700/60 dark:bg-[#0b1220]/80">
-      <Link href="/careers" className="rounded-lg p-1.5 text-slate-400 transition hover:bg-slate-100 hover:text-brand-600 dark:hover:bg-slate-800 dark:hover:text-brand-400" aria-label="All careers">
+    <div className="flex min-h-[52px] flex-wrap items-center gap-1 border-b border-slate-200/70 bg-white/80 px-3 py-2 backdrop-blur-xl sm:gap-1.5 dark:border-slate-700/60 dark:bg-[#0b1220]/80">
+      <Link href="/careers" className="rounded-lg p-1.5 text-slate-500 dark:text-slate-400 transition hover:bg-slate-100 hover:text-brand-600 dark:hover:bg-slate-800 dark:hover:text-brand-400" aria-label="All careers">
         <Home className="h-4 w-4" />
       </Link>
 
@@ -181,7 +181,7 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
           {title}
         </Link>
         {breadcrumbs.length > 1 && (
-          <span className="mx-0.5 hidden min-w-0 items-center gap-0.5 text-slate-400 lg:flex">
+          <span className="mx-0.5 hidden min-w-0 items-center gap-0.5 text-slate-500 dark:text-slate-400 lg:flex">
             <ChevronRight className="h-3.5 w-3.5 shrink-0" />
             <span className="truncate text-xs font-medium text-slate-500 dark:text-slate-400">
               {breadcrumbs.slice(1).map((b, i) => (
@@ -202,21 +202,42 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
 
       <div className="ml-auto flex flex-wrap items-center gap-1 sm:gap-1.5">
         {/* progress */}
-        <div className="mr-1 hidden items-center gap-2 xl:flex">
-          <Progress value={pct} className="h-1 w-16" indicatorClassName="bg-brand-500" />
-          <span className="font-mono text-[13px] font-medium text-slate-500 dark:text-slate-400">{pct}%</span>
-        </div>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <div
+              className="mr-1 flex items-center gap-2"
+              role="img"
+              aria-label={`Roadmap ${pct} percent complete`}
+            >
+              <Progress
+                value={pct}
+                className="hidden h-1 w-14 md:block lg:w-16"
+                indicatorClassName="bg-brand-500"
+              />
+              <span className="font-mono text-[13px] font-medium text-slate-500 dark:text-slate-400">
+                {pct}%
+              </span>
+            </div>
+          </TooltipTrigger>
+          <TooltipContent>{pct}% of this roadmap complete</TooltipContent>
+        </Tooltip>
 
         {/* Streak Display */}
         {streakDays > 0 && (
           <Tooltip>
             <TooltipTrigger asChild>
-              <div className="flex items-center gap-1 cursor-default rounded-md px-2 py-1 text-orange-500 hover:bg-orange-50 dark:hover:bg-orange-500/10">
-                <Flame className="h-4 w-4 fill-orange-500" />
+              <div
+                className="flex cursor-default items-center gap-1 rounded-md px-2 py-1 text-orange-600 hover:bg-orange-50 dark:text-orange-400 dark:hover:bg-orange-500/10"
+                role="img"
+                aria-label={`${streakDays} day learning streak`}
+              >
+                <Flame className="h-4 w-4 fill-current" aria-hidden="true" />
                 <span className="font-mono text-xs font-bold">{streakDays}</span>
               </div>
             </TooltipTrigger>
-            <TooltipContent>Day Streak!</TooltipContent>
+            <TooltipContent>
+              {streakDays}-day learning streak — keep it alive
+            </TooltipContent>
           </Tooltip>
         )}
 
@@ -244,7 +265,7 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
         {/* roadmap search */}
         {searchOpen ? (
           <div className="flex items-center gap-1 rounded-lg border border-slate-200 bg-slate-50 px-2 dark:border-slate-700 dark:bg-slate-900/60">
-            <Search className="h-3.5 w-3.5 text-slate-400" />
+            <Search className="h-3.5 w-3.5 text-slate-500 dark:text-slate-400" />
             <input
               autoFocus
               value={searchQuery}
@@ -259,7 +280,7 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
               className="h-9 w-32 bg-transparent text-xs text-slate-800 placeholder:text-slate-400 focus:outline-none sm:w-44 dark:text-slate-200"
               aria-label="Search topics in this roadmap"
             />
-            <button onClick={onToggleSearch} className="text-slate-400 hover:text-slate-600" aria-label="Close search">
+            <button onClick={onToggleSearch} className="text-slate-500 dark:text-slate-400 hover:text-slate-600" aria-label="Close search">
               <X className="h-3.5 w-3.5" />
             </button>
           </div>
@@ -274,10 +295,17 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
           </Tooltip>
         )}
 
-        {/* theme toggle */}
+        {/* theme toggle — duplicated by the site header, so it only earns its
+            place from sm up (and in fullscreen, where the header is gone) */}
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button variant="ghost" size="icon-sm" onClick={toggleTheme} aria-label="Toggle theme">
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              onClick={toggleTheme}
+              className="hidden sm:inline-flex"
+              aria-label={theme === "light" ? "Switch to dark mode" : "Switch to light mode"}
+            >
               {theme === "light" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
             </Button>
           </TooltipTrigger>

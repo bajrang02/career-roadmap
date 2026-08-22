@@ -105,7 +105,7 @@ export const MindmapCanvas = memo(function MindmapCanvas({
   const fitTo = useCallback(
     (width: number, height: number) => {
       const el = containerRef.current;
-      if (!el || !el.clientWidth) return;
+      if (!el || !el.clientWidth || !el.clientHeight) return false;
       const pad = fitPadding(el.clientWidth, el.clientHeight);
       const bw = width + pad * 2;
       const bh = height + pad * 2;
@@ -115,6 +115,7 @@ export const MindmapCanvas = memo(function MindmapCanvas({
         y: (el.clientHeight - height * k) / 2,
         k: Math.max(k, 0.2),
       });
+      return true;
     },
     [scheduleViewportChange]
   );
@@ -127,10 +128,10 @@ export const MindmapCanvas = memo(function MindmapCanvas({
   }, [fitKey]);
 
   useEffect(() => {
-    if (hasFitted.current || !size.w) return;
-    hasFitted.current = true;
-    fitTo(layout.width, layout.height);
-  }, [layout.width, layout.height, size.w, fitTo]);
+    if (hasFitted.current || !size.w || !size.h) return;
+    // a failed measurement must not consume the one-shot fit
+    if (fitTo(layout.width, layout.height)) hasFitted.current = true;
+  }, [layout.width, layout.height, size.w, size.h, fitTo]);
 
   const applyZoomAt = useCallback(
     (mx: number, my: number, factor: number) => {

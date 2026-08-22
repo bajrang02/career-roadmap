@@ -25,12 +25,17 @@ export function SearchCommand() {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const [index, setIndex] = useState<SearchEntry[] | null>(null);
+  const [failed, setFailed] = useState(false);
+  // whatever had focus before the palette opened, so it can be handed back
+  const restoreFocus = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     const onOpen = () => {
+      restoreFocus.current = document.activeElement as HTMLElement | null;
       setOpen(true);
       setQuery("");
       setActive(0);
+      setFailed(false);
       // first open triggers the one-time (cached) index fetch; on failure the
       // cache is reset so a later open can retry (never leave it permanently dead)
       loadSearchIndex()
@@ -38,6 +43,7 @@ export function SearchCommand() {
         .catch(() => {
           indexPromise = null;
           setIndex(null);
+          setFailed(true);
         });
     };
     const onKey = (e: KeyboardEvent) => {
@@ -56,7 +62,18 @@ export function SearchCommand() {
   }, []);
 
   useEffect(() => {
-    if (open) setTimeout(() => inputRef.current?.focus(), 30);
+    if (open) {
+      const t = setTimeout(() => inputRef.current?.focus(), 30);
+      // the page behind a modal palette should not scroll under it
+      const prevOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        clearTimeout(t);
+        document.body.style.overflow = prevOverflow;
+      };
+    }
+    // hand focus back to whatever opened the palette
+    restoreFocus.current?.focus?.();
   }, [open]);
 
   const results = useMemo(() => {
@@ -114,7 +131,7 @@ export function SearchCommand() {
             aria-label="Search roadmaps"
           >
             <div className="flex items-center gap-3 border-b border-slate-100 px-4 dark:border-slate-800">
-              <Search className="h-4 w-4 shrink-0 text-slate-400" />
+              <Search className="h-4 w-4 shrink-0 text-slate-500 dark:text-slate-400" />
               <input
                 ref={inputRef}
                 value={query}
@@ -127,24 +144,34 @@ export function SearchCommand() {
                 className="h-12 w-full bg-transparent text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none dark:text-white"
                 aria-label="Search"
               />
-              <kbd className="flex items-center gap-0.5 rounded-md border border-border-light bg-slate-50 px-1.5 py-0.5 font-mono text-[11px] text-slate-400 dark:border-slate-700 dark:bg-slate-800">
+              <kbd className="flex items-center gap-0.5 rounded-md border border-border-light bg-slate-50 px-1.5 py-0.5 font-mono text-[11px] text-slate-500 dark:text-slate-400 dark:border-slate-700 dark:bg-slate-800">
                 ESC
               </kbd>
             </div>
 
             <div className="max-h-[46vh] overflow-y-auto p-2 nice-scroll">
-              {!index && (
-                <p className="px-3 py-8 text-center text-sm text-slate-400">
+              {!index && !failed && (
+                <p className="px-3 py-8 text-center text-sm text-slate-500 dark:text-slate-400">
                   Loading roadmaps…
                 </p>
               )}
+              {failed && (
+                <div className="px-3 py-8 text-center">
+                  <p className="text-sm font-medium text-slate-700 dark:text-slate-200">
+                    Search is unavailable right now
+                  </p>
+                  <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+                    The roadmap index could not be loaded. Check your connection, then reopen search.
+                  </p>
+                </div>
+              )}
               {index && !query && (
-                <p className="flex items-center gap-2 px-3 pb-1 pt-2 text-xs font-medium uppercase tracking-wide text-slate-400">
+                <p className="flex items-center gap-2 px-3 pb-1 pt-2 text-xs font-medium uppercase tracking-wide text-slate-500 dark:text-slate-400">
                   <Sparkles className="h-3 w-3" /> Popular roadmaps
                 </p>
               )}
               {index && results.length === 0 && (
-                <p className="px-3 py-8 text-center text-sm text-slate-400">
+                <p className="px-3 py-8 text-center text-sm text-slate-500 dark:text-slate-400">
                   No roadmaps match “{query}”. Try “python”, “frontend”, “docker”…
                 </p>
               )}
@@ -167,7 +194,7 @@ export function SearchCommand() {
                     <span className="block truncate text-sm font-semibold text-slate-900 dark:text-white">
                       {r.title}
                     </span>
-                    <span className="block truncate text-xs text-slate-400">
+                    <span className="block truncate text-xs text-slate-500 dark:text-slate-400">
                       {r.kind === "skill"
                         ? `${r.skillCategory} · Skill`
                         : `${r.domain || r.industry} · Career`}
@@ -182,7 +209,7 @@ export function SearchCommand() {
               ))}
             </div>
 
-            <div className="flex items-center gap-4 border-t border-slate-100 px-4 py-2.5 text-xs text-slate-500 dark:border-slate-400 dark:border-slate-800">
+            <div className="hidden items-center gap-4 border-t border-slate-100 px-4 py-2.5 text-xs text-slate-500 sm:flex dark:border-slate-800 dark:text-slate-400">
               <span className="flex items-center gap-1">
                 <Command className="h-3 w-3" />K to search
               </span>

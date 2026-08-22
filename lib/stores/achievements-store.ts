@@ -1,3 +1,5 @@
+"use client";
+
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 
@@ -117,6 +119,12 @@ export const useAchievementsStore = create<AchievementsState>()(
     {
       name: "cr-achievements-storage",
       storage: createJSONStorage(() => localStorage),
+      // Rehydrated post-mount by <Providers>, exactly like every other
+      // persisted store. Without this the store read localStorage during the
+      // module's first client evaluation, so the server HTML (defaults) and
+      // the first client render (saved streak/achievements) disagreed — a
+      // React hydration mismatch on every page that renders streak state.
+      skipHydration: true,
     }
   )
 );

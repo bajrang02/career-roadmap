@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 import { Bookmark, BookOpen, Trash2 } from "lucide-react";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useUiStore } from "@/lib/stores/ui-store";
@@ -9,11 +10,16 @@ import type { RoadmapIndexEntry } from "@/lib/types";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { EmptyState } from "@/components/dashboard/empty-state";
+import { ConfirmDialog } from "@/components/ui/confirm-dialog";
+import { Skeleton } from "@/components/ui/skeleton";
+import { useHydrated } from "@/lib/stores/hydration-store";
 
 export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIndexEntry> }) {
   const bookmarks = useBookmarksStore((s) => s.bookmarks);
   const toggleBookmark = useBookmarksStore((s) => s.toggleBookmark);
   const toast = useUiStore((s) => s.toast);
+  const hydrated = useHydrated();
+  const [confirmClear, setConfirmClear] = useState(false);
 
   // group bookmarks by roadmap so the page reads as a tidy reading list
   const grouped = Object.entries(
@@ -48,7 +54,7 @@ export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
           <h1 className="page-title mt-1">Saved topics</h1>
         </div>
         {bookmarks.length > 0 && (
-          <Button variant="outline" size="sm" onClick={clearAll}>
+          <Button variant="outline" size="sm" onClick={() => setConfirmClear(true)}>
             <Trash2 className="h-4 w-4" /> Clear all bookmarks
           </Button>
         )}
@@ -57,13 +63,19 @@ export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
         Everything you&apos;ve bookmarked while exploring — jump straight back in.
       </p>
 
-      {grouped.length === 0 ? (
+      {!hydrated ? (
+        <div className="mt-8 grid gap-2 sm:grid-cols-2" aria-busy="true">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <Skeleton key={i} className="h-[68px] rounded-xl" />
+          ))}
+        </div>
+      ) : grouped.length === 0 ? (
         <Card className="mt-8">
           <CardContent className="p-8">
             <EmptyState
               icon={Bookmark}
               title="Nothing saved yet"
-              desc="Tap the star on any topic while exploring a roadmap — bookmarks show up here."
+              desc="Open a topic on any roadmap and hit the bookmark icon in its details panel — saved topics show up here."
               action={{ label: "Browse careers", href: "/careers" }}
             />
           </CardContent>
@@ -80,7 +92,7 @@ export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
                 >
                   {g.entry?.title ?? g.slug}
                 </Link>
-                <span className="text-xs text-slate-400">{g.items.length}</span>
+                <span className="text-xs text-slate-500 dark:text-slate-400">{g.items.length}</span>
               </div>
               <div className="mt-3 grid gap-2 sm:grid-cols-2">
                 {g.items.map((b) => (
@@ -96,7 +108,7 @@ export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
                       <span className="block truncate text-sm font-semibold text-slate-800 dark:text-slate-100">
                         {b.nodeLabel}
                       </span>
-                      <span className="block truncate text-xs text-slate-400">
+                      <span className="block truncate text-xs text-slate-500 dark:text-slate-400">
                         saved {timeAgo(b.at)}
                       </span>
                     </Link>
@@ -114,6 +126,21 @@ export function BookmarksView({ roadmaps }: { roadmaps: Record<string, RoadmapIn
           ))}
         </div>
       )}
+
+      <ConfirmDialog
+        open={confirmClear}
+        onOpenChange={setConfirmClear}
+        title="Clear all bookmarks?"
+        confirmLabel="Clear bookmarks"
+        description={
+          <>
+            This removes all {bookmarks.length} saved{" "}
+            {bookmarks.length === 1 ? "topic" : "topics"} from this device. Your progress and study
+            plans are not affected.
+          </>
+        }
+        onConfirm={clearAll}
+      />
     </div>
   );
 }
