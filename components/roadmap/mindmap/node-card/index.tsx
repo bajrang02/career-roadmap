@@ -157,9 +157,9 @@ function NodeCardInner(props: NodeCardProps) {
           <span
             title={label}
             className={cn(
-              "min-w-0 flex-1 leading-[1.3] line-clamp-2 break-words sm:truncate sm:line-clamp-none text-[16px] sm:text-[14px]",
+              "min-w-0 flex-1 leading-[1.3] line-clamp-2 break-words text-[16px] sm:text-[15px]",
               meta.titleSize,
-              selected ? "font-bold text-[17px] sm:text-[14px]" : "font-semibold",
+              selected ? "font-bold text-[17px] sm:text-[15px]" : "font-semibold",
               meta.text
             )}
           >
@@ -210,7 +210,7 @@ function NodeCardInner(props: NodeCardProps) {
                 e.stopPropagation();
                 clearChoice(id);
               }}
-              className="ml-auto flex items-center justify-center rounded-full bg-brand-100 px-2 py-0.5 text-[10px] font-semibold uppercase text-brand-700 hover:bg-brand-200 dark:bg-brand-900/40 dark:text-brand-300 dark:hover:bg-brand-900/60"
+              className="ml-auto flex items-center justify-center rounded-full bg-brand-100 px-2.5 py-1 text-[10px] font-semibold uppercase text-brand-700 hover:bg-brand-200 dark:bg-brand-900/40 dark:text-brand-300 dark:hover:bg-brand-900/60"
             >
               Change
             </button>
@@ -226,7 +226,7 @@ function NodeCardInner(props: NodeCardProps) {
                     e.stopPropagation();
                     setChoice(id, opt.id);
                   }}
-                  className="group relative flex w-full items-center gap-2 rounded-md border border-slate-200 bg-white/60 px-2 py-1.5 text-left transition-colors hover:bg-white hover:shadow-sm dark:border-slate-700/50 dark:bg-slate-800/40 dark:hover:bg-slate-800"
+                  className="group relative flex w-full items-center gap-2 rounded-md border border-slate-200 bg-white/60 px-2 py-2 text-left transition-colors hover:bg-white hover:shadow-sm dark:border-slate-700/50 dark:bg-slate-800/40 dark:hover:bg-slate-800"
                 >
                   <div className="flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded-full border border-slate-300 group-hover:border-brand-400 dark:border-slate-600 dark:group-hover:border-brand-500" />
                   <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-slate-700 group-hover:text-slate-900 dark:text-slate-300 dark:group-hover:text-slate-100">

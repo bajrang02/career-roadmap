@@ -3,14 +3,12 @@
 import { memo } from "react";
 import Link from "next/link";
 import {
-  Bookmark,
+
   CalendarDays,
   ChevronRight,
-  Columns3,
   Copy,
   Crosshair,
   Focus,
-  HelpCircle,
   Home,
   Layers,
   Maximize,
@@ -37,7 +35,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useUiStore } from "@/lib/stores/ui-store";
-import { useThemeStore, applyTheme } from "@/lib/stores/theme-store";
+import { useThemeStore } from "@/lib/stores/theme-store";
 import { useAchievementsStore } from "@/lib/stores/achievements-store";
 import { cn } from "@/lib/utils";
 import type { RoadmapNode } from "@/lib/types";
@@ -62,17 +60,13 @@ interface ToolbarProps {
   focusMode: boolean;
   onToggleFocus: () => void;
   onToggleMinimap: () => void;
-  onToggleLegend: () => void;
   showMinimap: boolean;
-  showLegend: boolean;
   searchOpen: boolean;
   onToggleSearch: () => void;
   searchQuery: string;
   onSearchQuery: (q: string) => void;
   /** jump to the next search match (Enter in the search box) */
   onSearchNext: () => void;
-  bookmarked: boolean;
-  onToggleBookmark: () => void;
   onBreadcrumbClick: (id: string) => void;
   isFullscreen: boolean;
   onToggleFullscreen: () => void;
@@ -81,24 +75,21 @@ interface ToolbarProps {
   /** percent complete of the saved study plan, or null when none exists */
   planProgress: number | null;
   onRandomTopic?: () => void;
-  /** reopens the first-visit getting-started tour */
-  onShowTour?: () => void;
 }
 
 export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) {
   const toast = useUiStore((s) => s.toast);
-  const theme = useThemeStore((s) => s.theme);
+  const resolvedTheme = useThemeStore((s) => s.resolved);
   const streakDays = useAchievementsStore((s) => s.streakDays);
   const {
     slug, title, icon, breadcrumbs, pct, onExpandAll, onCollapseAll, onReset, onFit,
     onZoomIn, onZoomOut, onZoomSlider, onCenterView, zoom, zoomLabel, focusMode, onToggleFocus,
-    onToggleMinimap, onToggleLegend,
-    showMinimap, showLegend, searchOpen, onToggleSearch, searchQuery, onSearchQuery, onSearchNext,
-    bookmarked, onToggleBookmark, onBreadcrumbClick,
+    onToggleMinimap,
+    showMinimap, searchOpen, onToggleSearch, searchQuery, onSearchQuery, onSearchNext,
+    onBreadcrumbClick,
     isFullscreen, onToggleFullscreen,
     onOpenPlanner, planProgress,
     onRandomTopic,
-    onShowTour,
   } = props;
 
   const copyLink = async () => {
@@ -110,11 +101,7 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
     }
   };
 
-  const toggleTheme = () => {
-    const next = theme === "light" ? "dark" : "light";
-    applyTheme(next);
-    useThemeStore.getState().set(next);
-  };
+  const toggleTheme = () => useThemeStore.getState().toggle();
 
   const zoomGroup = (
     <>
@@ -277,7 +264,7 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
                 }
               }}
               placeholder="Find a topic…"
-              className="h-9 w-32 bg-transparent text-xs text-slate-800 placeholder:text-slate-400 focus:outline-none sm:w-44 dark:text-slate-200"
+              className="h-9 w-40 bg-transparent text-xs text-slate-800 placeholder:text-slate-400 focus:outline-none sm:w-44 dark:text-slate-200"
               aria-label="Search topics in this roadmap"
             />
             <button onClick={onToggleSearch} className="text-slate-500 dark:text-slate-400 hover:text-slate-600" aria-label="Close search">
@@ -304,12 +291,12 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
               size="icon-sm"
               onClick={toggleTheme}
               className="hidden sm:inline-flex"
-              aria-label={theme === "light" ? "Switch to dark mode" : "Switch to light mode"}
+              aria-label={resolvedTheme === "light" ? "Switch to dark mode" : "Switch to light mode"}
             >
-              {theme === "light" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
+              {resolvedTheme === "light" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
             </Button>
           </TooltipTrigger>
-          <TooltipContent>{theme === "light" ? "Dark mode" : "Light mode"}</TooltipContent>
+          <TooltipContent>{resolvedTheme === "light" ? "Dark mode" : "Light mode"}</TooltipContent>
         </Tooltip>
 
         {/* expand / collapse + zoom (desktop) */}
@@ -343,15 +330,6 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="w-56">
-            {onShowTour && (
-              <>
-                <DropdownMenuLabel>Getting started</DropdownMenuLabel>
-                <DropdownMenuItem onSelect={onShowTour}>
-                  <HelpCircle className="h-4 w-4" /> How this works
-                </DropdownMenuItem>
-                <DropdownMenuSeparator />
-              </>
-            )}
             <DropdownMenuLabel>View</DropdownMenuLabel>
             <DropdownMenuItem onSelect={onExpandAll}>
               <Plus className="h-4 w-4" /> Show all topics
@@ -368,18 +346,13 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
             <DropdownMenuItem onSelect={onToggleMinimap} className={cn(!showMinimap && "opacity-50")}>
               <Layers className="h-4 w-4" /> Overview map
             </DropdownMenuItem>
-            <DropdownMenuItem onSelect={onToggleLegend} className={cn(!showLegend && "opacity-50")}>
-              <Columns3 className="h-4 w-4" /> Topic legend
-            </DropdownMenuItem>
+
             <DropdownMenuSeparator />
             <DropdownMenuLabel>Share & save</DropdownMenuLabel>
             <DropdownMenuItem onSelect={copyLink}>
               <Copy className="h-4 w-4" /> Copy link
             </DropdownMenuItem>
-            <DropdownMenuItem onSelect={onToggleBookmark} className={cn(bookmarked && "text-amber-500")}>
-              <Bookmark className={cn("h-4 w-4", bookmarked && "fill-amber-400")} />
-              {bookmarked ? "Remove bookmark" : "Bookmark roadmap"}
-            </DropdownMenuItem>
+
             <DropdownMenuSeparator />
             <DropdownMenuLabel>Screen</DropdownMenuLabel>
             <DropdownMenuItem onSelect={onToggleFullscreen}>

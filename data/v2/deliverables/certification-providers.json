@@ -1,0 +1,1157 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-08-24",
+  "description": "Verified certification providers with real certifications, costs, and career mappings.",
+  "certifications": [
+    {
+      "id": "aws-cloud-practitioner",
+      "name": "AWS Certified Cloud Practitioner",
+      "provider": "Amazon Web Services",
+      "type": "cloud",
+      "level": "Foundational",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$100",
+      "officialUrl": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "examUrl": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+      "careers": [
+        "cloud-engineer",
+        "aws-cloud-engineer",
+        "devops-engineer",
+        "sre"
+      ],
+      "skills": [
+        "aws"
+      ],
+      "topics": [
+        "cloud-fundamentals",
+        "aws-services",
+        "aws-security",
+        "aws-pricing"
+      ],
+      "prerequisites": [
+        "Basic IT knowledge"
+      ],
+      "preparationResources": [
+        {
+          "title": "AWS Skill Builder",
+          "url": "https://skillbuilder.aws/learn/course/external/view/elearning/11884/cloud-practitioner-essentials",
+          "type": "course",
+          "free": true
+        },
+        {
+          "title": "AWS Cloud Practitioner Essentials",
+          "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/11884",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 3 years. Renewal available.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "AWS official website"
+    },
+    {
+      "id": "aws-solutions-architect-associate",
+      "name": "AWS Certified Solutions Architect – Associate",
+      "provider": "Amazon Web Services",
+      "type": "cloud",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$150",
+      "officialUrl": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+      "examUrl": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+      "careers": [
+        "aws-cloud-engineer",
+        "cloud-engineer",
+        "cloud-architect"
+      ],
+      "skills": [
+        "aws"
+      ],
+      "topics": [
+        "aws-ec2",
+        "aws-s3",
+        "aws-vpc",
+        "aws-rds",
+        "aws-iam",
+        "aws-architecture"
+      ],
+      "prerequisites": [
+        "Cloud Practitioner recommended",
+        "1+ year hands-on AWS experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "AWS Skill Builder",
+          "url": "https://skillbuilder.aws",
+          "type": "course",
+          "free": true
+        },
+        {
+          "title": "Well-Architected Labs",
+          "url": "https://wellarchitectedlabs.com",
+          "type": "practice",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 3 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "AWS official website"
+    },
+    {
+      "id": "azure-fundamentals",
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "provider": "Microsoft",
+      "type": "cloud",
+      "level": "Fundamental",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$99",
+      "officialUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "examUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+      "careers": [
+        "azure-engineer",
+        "cloud-engineer"
+      ],
+      "skills": [
+        "azure"
+      ],
+      "topics": [
+        "azure-fundamentals",
+        "cloud-concepts",
+        "azure-services",
+        "azure-pricing"
+      ],
+      "prerequisites": [
+        "Basic IT knowledge"
+      ],
+      "preparationResources": [
+        {
+          "title": "Microsoft Learn AZ-900 Path",
+          "url": "https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-cloud-concepts/",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 1 year (fundamental level).",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Microsoft Learn"
+    },
+    {
+      "id": "azure-administrator",
+      "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
+      "provider": "Microsoft",
+      "type": "cloud",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$165",
+      "officialUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator-associate/",
+      "examUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator-associate/",
+      "careers": [
+        "azure-engineer",
+        "cloud-engineer",
+        "infrastructure-engineer"
+      ],
+      "skills": [
+        "azure"
+      ],
+      "topics": [
+        "azure-vms",
+        "azure-storage",
+        "azure-networking",
+        "azure-ad",
+        "azure-monitor"
+      ],
+      "prerequisites": [
+        "Azure Fundamentals recommended",
+        "Hands-on Azure experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "Microsoft Learn AZ-104 Path",
+          "url": "https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 1 year. Renewal available.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Microsoft Learn"
+    },
+    {
+      "id": "gcp-cloud-engineer",
+      "name": "Google Cloud Certified: Associate Cloud Engineer",
+      "provider": "Google Cloud",
+      "type": "cloud",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$125",
+      "officialUrl": "https://cloud.google.com/learn/certification/cloud-engineer",
+      "examUrl": "https://cloud.google.com/learn/certification/cloud-engineer",
+      "careers": [
+        "gcp-engineer",
+        "cloud-engineer"
+      ],
+      "skills": [
+        "gcp"
+      ],
+      "topics": [
+        "gcp-compute",
+        "gcp-storage",
+        "gcp-networking",
+        "gcp-gke",
+        "gcp-iam"
+      ],
+      "prerequisites": [
+        "Cloud experience",
+        "Command-line proficiency"
+      ],
+      "preparationResources": [
+        {
+          "title": "Google Cloud Skills Boost",
+          "url": "https://cloudskillsboost.google",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 2 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Google Cloud"
+    },
+    {
+      "id": "cka",
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "provider": "Cloud Native Computing Foundation (CNCF)",
+      "type": "cloud",
+      "level": "Professional",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$395",
+      "officialUrl": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/",
+      "examUrl": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/",
+      "careers": [
+        "kubernetes-engineer",
+        "devops-engineer",
+        "sre",
+        "platform-engineer"
+      ],
+      "skills": [
+        "kubernetes"
+      ],
+      "topics": [
+        "kubernetes",
+        "k8s-pods",
+        "k8s-services",
+        "k8s-networking",
+        "k8s-storage",
+        "k8s-security"
+      ],
+      "prerequisites": [
+        "Linux proficiency",
+        "Container experience",
+        "Networking basics"
+      ],
+      "preparationResources": [
+        {
+          "title": "Kubernetes Official Tutorials",
+          "url": "https://kubernetes.io/docs/tutorials/",
+          "type": "course",
+          "free": true
+        },
+        {
+          "title": "KillerCoda CKA Scenarios",
+          "url": "https://killercoda.com/playgrounds/certification/cka",
+          "type": "practice",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 3 years. Renewal via CKA exam.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "CNCF official website"
+    },
+    {
+      "id": "comp-security-plus",
+      "name": "CompTIA Security+",
+      "provider": "CompTIA",
+      "type": "security",
+      "level": "Intermediate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$404",
+      "officialUrl": "https://www.comptia.org/certifications/security",
+      "examUrl": "https://www.comptia.org/certifications/security",
+      "careers": [
+        "cybersecurity-analyst",
+        "soc-analyst",
+        "security-analyst",
+        "security-engineer"
+      ],
+      "skills": [],
+      "topics": [
+        "security-fundamentals",
+        "network-security",
+        "cryptography",
+        "identity-management",
+        "risk-management"
+      ],
+      "prerequisites": [
+        "Network+ recommended",
+        "2+ years IT experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "CompTIA CertMaster",
+          "url": "https://www.comptia.org/training/certmaster",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "Valid for 3 years. CEU-based renewal.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "CompTIA official website"
+    },
+    {
+      "id": "ceh",
+      "name": "Certified Ethical Hacker (CEH)",
+      "provider": "EC-Council",
+      "type": "security",
+      "level": "Professional",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$1,199",
+      "officialUrl": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+      "examUrl": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+      "careers": [
+        "penetration-tester",
+        "ethical-hacker",
+        "security-engineer"
+      ],
+      "skills": [],
+      "topics": [
+        "penetration-testing",
+        "ethical-hacking",
+        "web-security",
+        "network-security"
+      ],
+      "prerequisites": [
+        "2+ years information security experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "EC-Council Training",
+          "url": "https://www.eccouncil.org/train-certify/",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "Valid for 3 years. ECE-based renewal.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "EC-Council official website"
+    },
+    {
+      "id": "comp-tia-pentest-plus",
+      "name": "CompTIA PenTest+",
+      "provider": "CompTIA",
+      "type": "security",
+      "level": "Intermediate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$404",
+      "officialUrl": "https://www.comptia.org/certifications/pentest",
+      "examUrl": "https://www.comptia.org/certifications/pentest",
+      "careers": [
+        "penetration-tester",
+        "ethical-hacker"
+      ],
+      "skills": [],
+      "topics": [
+        "penetration-testing",
+        "vulnerability-assessment",
+        "report-writing"
+      ],
+      "prerequisites": [
+        "Network+ and Security+ recommended"
+      ],
+      "preparationResources": [
+        {
+          "title": "CompTIA CertMaster PenTest",
+          "url": "https://www.comptia.org/training/certmaster-pentest",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "Valid for 3 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "CompTIA official website"
+    },
+    {
+      "id": "cissp",
+      "name": "Certified Information Systems Security Professional (CISSP)",
+      "provider": "(ISC)²",
+      "type": "security",
+      "level": "Advanced",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$749",
+      "officialUrl": "https://www.isc2.org/certifications/cissp",
+      "examUrl": "https://www.isc2.org/exams/cissp",
+      "careers": [
+        "security-architect",
+        "security-engineer",
+        "security-consultant"
+      ],
+      "skills": [],
+      "topics": [
+        "security-architecture",
+        "risk-management",
+        "security-operations",
+        "identity-access-management"
+      ],
+      "prerequisites": [
+        "5+ years experience in 2+ CISSP domains"
+      ],
+      "preparationResources": [
+        {
+          "title": "ISC2 Official Study Guide",
+          "url": "https://www.isc2.org",
+          "type": "reference",
+          "free": false
+        }
+      ],
+      "renewalInfo": "Valid for 3 years. 40 CPEs per year.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "ISC2 official website"
+    },
+    {
+      "id": "google-ux-design",
+      "name": "Google UX Design Professional Certificate",
+      "provider": "Google",
+      "type": "design",
+      "level": "Beginner",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$39/month (Coursera)",
+      "officialUrl": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "examUrl": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "careers": [
+        "ui-ux-designer",
+        "product-designer"
+      ],
+      "skills": [],
+      "topics": [
+        "ux-research",
+        "wireframing",
+        "prototyping",
+        "usability-testing"
+      ],
+      "prerequisites": [
+        "No prerequisites"
+      ],
+      "preparationResources": [
+        {
+          "title": "Coursera Course",
+          "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "No expiration. Certificate does not expire.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Coursera"
+    },
+    {
+      "id": "google-data-analytics",
+      "name": "Google Data Analytics Professional Certificate",
+      "provider": "Google",
+      "type": "data",
+      "level": "Beginner",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$39/month (Coursera)",
+      "officialUrl": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "examUrl": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "careers": [
+        "data-analyst"
+      ],
+      "skills": [],
+      "topics": [
+        "data-analysis",
+        "sql",
+        "r-programming",
+        "data-visualization"
+      ],
+      "prerequisites": [
+        "No prerequisites"
+      ],
+      "preparationResources": [
+        {
+          "title": "Coursera Course",
+          "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "No expiration.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Coursera"
+    },
+    {
+      "id": "meta-front-end",
+      "name": "Meta Front-End Developer Professional Certificate",
+      "provider": "Meta",
+      "type": "development",
+      "level": "Beginner",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$39/month (Coursera)",
+      "officialUrl": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+      "examUrl": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+      "careers": [
+        "frontend-developer"
+      ],
+      "skills": [
+        "react"
+      ],
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "version-control"
+      ],
+      "prerequisites": [
+        "No prerequisites"
+      ],
+      "preparationResources": [
+        {
+          "title": "Coursera Course",
+          "url": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "No expiration.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Coursera"
+    },
+    {
+      "id": "meta-back-end",
+      "name": "Meta Back-End Developer Professional Certificate",
+      "provider": "Meta",
+      "type": "development",
+      "level": "Beginner",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$39/month (Coursera)",
+      "officialUrl": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
+      "examUrl": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
+      "careers": [
+        "backend-developer"
+      ],
+      "skills": [
+        "python"
+      ],
+      "topics": [
+        "python",
+        "django",
+        "sql",
+        "rest-api",
+        "git"
+      ],
+      "prerequisites": [
+        "No prerequisites"
+      ],
+      "preparationResources": [
+        {
+          "title": "Coursera Course",
+          "url": "https://www.coursera.org/professional-certificates/meta-back-end-developer",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "No expiration.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Coursera"
+    },
+    {
+      "id": "google-associate-android",
+      "name": "Google Associate Android Developer",
+      "provider": "Google",
+      "type": "mobile",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$150",
+      "officialUrl": "https://android-developers.google.com/credential/associate-android-developer",
+      "examUrl": "https://android-developers.google.com/credential/associate-android-developer",
+      "careers": [
+        "mobile-app-developer"
+      ],
+      "skills": [
+        "kotlin"
+      ],
+      "topics": [
+        "android-fundamentals",
+        "kotlin",
+        "jetpack-compose",
+        "app-testing"
+      ],
+      "prerequisites": [
+        "Android development experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "Android Developers Training",
+          "url": "https://developer.android.com/courses",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 1 year.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Google Developers"
+    },
+    {
+      "id": "cisco-ccna",
+      "name": "Cisco Certified Network Associate (CCNA)",
+      "provider": "Cisco",
+      "type": "networking",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$330",
+      "officialUrl": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
+      "examUrl": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html",
+      "careers": [
+        "network-engineer"
+      ],
+      "skills": [],
+      "topics": [
+        "networking-fundamentals",
+        "ip-connectivity",
+        "ip-services",
+        "security-fundamentals",
+        "automation"
+      ],
+      "prerequisites": [
+        "Basic networking knowledge"
+      ],
+      "preparationResources": [
+        {
+          "title": "Cisco Networking Academy",
+          "url": "https://www.netacad.com",
+          "type": "course",
+          "free": false
+        },
+        {
+          "title": "Cisco Packet Tracer",
+          "url": "https://www.netacad.com/courses/packet-tracer",
+          "type": "practice",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 3 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Cisco official website"
+    },
+    {
+      "id": "rhce",
+      "name": "Red Hat Certified System Administrator (RHCSA)",
+      "provider": "Red Hat",
+      "type": "linux",
+      "level": "Administrator",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$400",
+      "officialUrl": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/certifications",
+      "examUrl": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/certifications/rhcsa",
+      "careers": [
+        "linux-administrator",
+        "system-engineer"
+      ],
+      "skills": [
+        "linux"
+      ],
+      "topics": [
+        "linux-fundamentals",
+        "user-management",
+        "file-systems",
+        "networking",
+        "security"
+      ],
+      "prerequisites": [
+        "Basic Linux experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "Red Hat Training",
+          "url": "https://www.redhat.com/en/services/training",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "Valid for 3 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Red Hat official website"
+    },
+    {
+      "id": "hashicorp-terraform",
+      "name": "HashiCorp Certified: Terraform Associate",
+      "provider": "HashiCorp",
+      "type": "devops",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$70.50",
+      "officialUrl": "https://www.hashicorp.com/certification/terraform-associate",
+      "examUrl": "https://www.hashicorp.com/certification/terraform-associate",
+      "careers": [
+        "devops-engineer",
+        "infrastructure-engineer",
+        "cloud-engineer"
+      ],
+      "skills": [
+        "terraform"
+      ],
+      "topics": [
+        "terraform",
+        "iac-concepts",
+        "terraform-cli",
+        "terraform-cloud",
+        "modules"
+      ],
+      "prerequisites": [
+        "Basic cloud/IaC knowledge"
+      ],
+      "preparationResources": [
+        {
+          "title": "HashiCorp Learn",
+          "url": "https://developer.hashicorp.com/terraform/tutorials",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 2 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "HashiCorp"
+    },
+    {
+      "id": "ibm-data-science",
+      "name": "IBM Data Science Professional Certificate",
+      "provider": "IBM",
+      "type": "data",
+      "level": "Beginner",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$39/month (Coursera)",
+      "officialUrl": "https://www.coursera.org/professional-certificates/ibm-data-science",
+      "examUrl": "https://www.coursera.org/professional-certificates/ibm-data-science",
+      "careers": [
+        "data-scientist",
+        "data-analyst"
+      ],
+      "skills": [
+        "python",
+        "sql"
+      ],
+      "topics": [
+        "python",
+        "sql",
+        "data-analysis",
+        "machine-learning",
+        "data-visualization"
+      ],
+      "prerequisites": [
+        "No prerequisites"
+      ],
+      "preparationResources": [
+        {
+          "title": "Coursera Course",
+          "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "No expiration.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Coursera"
+    },
+    {
+      "id": "deep-learning-specialization",
+      "name": "Deep Learning Specialization",
+      "provider": "DeepLearning.AI",
+      "type": "ai",
+      "level": "Intermediate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$49/month (Coursera)",
+      "officialUrl": "https://www.coursera.org/specializations/deep-learning",
+      "examUrl": "https://www.coursera.org/specializations/deep-learning",
+      "careers": [
+        "deep-learning-engineer",
+        "ai-engineer",
+        "machine-learning-engineer"
+      ],
+      "skills": [
+        "machine-learning"
+      ],
+      "topics": [
+        "neural-networks",
+        "cnn",
+        "rnn",
+        "sequence-models"
+      ],
+      "prerequisites": [
+        "Python",
+        "Linear algebra basics",
+        "Calculus basics"
+      ],
+      "preparationResources": [
+        {
+          "title": "Coursera Specialization",
+          "url": "https://www.coursera.org/specializations/deep-learning",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "No expiration.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Coursera"
+    },
+    {
+      "id": "salesforce-administrator",
+      "name": "Salesforce Certified Administrator",
+      "provider": "Salesforce",
+      "type": "crm",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$200",
+      "officialUrl": "https://trailhead.salesforce.com/en/credentials/administrator",
+      "examUrl": "https://trailhead.salesforce.com/en/credentials/administrator",
+      "careers": [
+        "salesforce-developer"
+      ],
+      "skills": [
+        "salesforce"
+      ],
+      "topics": [
+        "salesforce-config",
+        "salesforce-security",
+        "salesforce-automation",
+        "salesforce-reporting"
+      ],
+      "prerequisites": [
+        "Salesforce platform experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "Trailhead",
+          "url": "https://trailhead.salesforce.com",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Maintenance modules required annually.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Salesforce"
+    },
+    {
+      "id": "servicenow-csa",
+      "name": "ServiceNow Certified System Administrator",
+      "provider": "ServiceNow",
+      "type": "itsm",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$300",
+      "officialUrl": "https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/certification/csa-exam-syllabus.pdf",
+      "examUrl": "https://training.servicenow.com",
+      "careers": [
+        "servicenow-developer"
+      ],
+      "skills": [
+        "servicenow"
+      ],
+      "topics": [
+        "servicenow-platform",
+        "servicenow-incident",
+        "servicenow-catalog",
+        "servicenow-reporting"
+      ],
+      "prerequisites": [
+        "ServiceNow platform training"
+      ],
+      "preparationResources": [
+        {
+          "title": "Now Learning",
+          "url": "https://nowlearning.servicenow.com",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "Recertification required.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "ServiceNow"
+    },
+    {
+      "id": "istqb-foundation",
+      "name": "ISTQB Foundation Level (CTFL)",
+      "provider": "ISTQB",
+      "type": "testing",
+      "level": "Foundation",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$250",
+      "officialUrl": "https://www.istqb.org/certifications/certified-tester-foundation-level/",
+      "examUrl": "https://www.istqb.org/certifications/certified-tester-foundation-level/",
+      "careers": [
+        "software-testing-engineer",
+        "qa-automation-engineer"
+      ],
+      "skills": [],
+      "topics": [
+        "testing-fundamentals",
+        "test-design",
+        "test-management",
+        "testing-tools"
+      ],
+      "prerequisites": [
+        "Basic software testing experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "ISTQB Syllabus",
+          "url": "https://www.istqb.org",
+          "type": "reference",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Lifetime validity.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "ISTQB"
+    },
+    {
+      "id": "devops-institute-sre",
+      "name": "Site Reliability Engineering (SRE) Foundation",
+      "provider": "DevOps Institute",
+      "type": "devops",
+      "level": "Foundation",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$350",
+      "officialUrl": "https://devopsinstitute.com/certification/sre-foundation/",
+      "examUrl": "https://devopsinstitute.com/certification/sre-foundation/",
+      "careers": [
+        "site-reliability-engineer"
+      ],
+      "skills": [],
+      "topics": [
+        "sre-principles",
+        "sli-slo-sla",
+        "error-budgets",
+        "toil-reduction",
+        "incident-management"
+      ],
+      "prerequisites": [
+        "Basic understanding of IT operations"
+      ],
+      "preparationResources": [
+        {
+          "title": "DevOps Institute",
+          "url": "https://devopsinstitute.com",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "Valid for 2 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "DevOps Institute"
+    },
+    {
+      "id": "pmp",
+      "name": "Project Management Professional (PMP)",
+      "provider": "PMI",
+      "type": "management",
+      "level": "Professional",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$555",
+      "officialUrl": "https://www.pmi.org/certifications/project-management-pmp",
+      "examUrl": "https://www.pmi.org/certifications/project-management-pmp",
+      "careers": [
+        "planning-engineer",
+        "product-manager"
+      ],
+      "skills": [],
+      "topics": [
+        "project-management",
+        "agile",
+        "scrum",
+        "risk-management"
+      ],
+      "prerequisites": [
+        "4+ years project management experience + 35 hours education"
+      ],
+      "preparationResources": [
+        {
+          "title": "PMI Learning",
+          "url": "https://www.pmi.org/learning",
+          "type": "course",
+          "free": false
+        }
+      ],
+      "renewalInfo": "Valid for 3 years. 60 PDUs for renewal.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "PMI"
+    },
+    {
+      "id": "six-sigma-green-belt",
+      "name": "Lean Six Sigma Green Belt",
+      "provider": "IASSC / ASQ",
+      "type": "quality",
+      "level": "Green Belt",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$400",
+      "officialUrl": "https://www.asq.org/certification/six-sigma-green-belt",
+      "examUrl": "https://www.asq.org/certification/six-sigma-green-belt",
+      "careers": [
+        "quality-engineer",
+        "production-engineer",
+        "process-improvement-engineer"
+      ],
+      "skills": [],
+      "topics": [
+        "lean-manufacturing",
+        "six-sigma",
+        "process-improvement",
+        "spc"
+      ],
+      "prerequisites": [
+        "3+ years work experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "ASQ Resources",
+          "url": "https://asq.org/quality-resources/six-sigma",
+          "type": "reference",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 3 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "ASQ"
+    },
+    {
+      "id": "solidworks-cswa",
+      "name": "Certified SOLIDWORKS Associate (CSWA)",
+      "provider": "Dassault Systèmes",
+      "type": "cad",
+      "level": "Associate",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$99",
+      "officialUrl": "https://www.solidworks.com/product/certified-solidworks-associate-cswa",
+      "examUrl": "https://www.solidworks.com/product/certified-solidworks-associate-cswa",
+      "careers": [
+        "cad-engineer",
+        "mechanical-design-engineer"
+      ],
+      "skills": [
+        "solidworks"
+      ],
+      "topics": [
+        "solidworks-parts",
+        "solidworks-assemblies",
+        "solidworks-drawings",
+        "gd-t"
+      ],
+      "prerequisites": [
+        "SolidWorks proficiency"
+      ],
+      "preparationResources": [
+        {
+          "title": "SolidWorks Tutorials",
+          "url": "https://www.solidworks.com/sw/resources/tutorials.htm",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Lifetime validity.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Dassault Systèmes"
+    },
+    {
+      "id": "google-associate-cloud-engineer",
+      "name": "Google Cloud Certified: Professional Cloud Architect",
+      "provider": "Google Cloud",
+      "type": "cloud",
+      "level": "Professional",
+      "status": "active",
+      "costStatus": "paid",
+      "cost": "$200",
+      "officialUrl": "https://cloud.google.com/learn/certification/cloud-architect",
+      "examUrl": "https://cloud.google.com/learn/certification/cloud-architect",
+      "careers": [
+        "cloud-architect",
+        "gcp-engineer"
+      ],
+      "skills": [
+        "gcp"
+      ],
+      "topics": [
+        "cloud-architecture",
+        "gcp-services",
+        "migration",
+        "security",
+        "cost-optimization"
+      ],
+      "prerequisites": [
+        "3+ years industry experience",
+        "1+ year GCP experience"
+      ],
+      "preparationResources": [
+        {
+          "title": "Google Cloud Skills Boost",
+          "url": "https://cloudskillsboost.google",
+          "type": "course",
+          "free": true
+        }
+      ],
+      "renewalInfo": "Valid for 2 years.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Google Cloud"
+    },
+    {
+      "id": "noprep-missing",
+      "name": "Community Contribution Certificate",
+      "provider": "Various",
+      "type": "community",
+      "level": "Community",
+      "status": "active",
+      "costStatus": "free",
+      "cost": "Free",
+      "officialUrl": "",
+      "examUrl": "",
+      "careers": [
+        "open-source-developer"
+      ],
+      "skills": [],
+      "topics": [
+        "open-source",
+        "community-contribution"
+      ],
+      "prerequisites": [
+        "No prerequisites"
+      ],
+      "preparationResources": [],
+      "renewalInfo": "No expiration.",
+      "lastVerifiedAt": "2026-08-24",
+      "source": "Community"
+    }
+  ]
+}

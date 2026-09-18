@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-24T08:02:06.164Z",
+  "version": "3.0.0-audit",
+  "summary": {
+    "totalCareers": 126,
+    "totalSkills": 19,
+    "totalResources": 11439,
+    "totalPractice": 1019,
+    "totalCertifications": 29,
+    "totalIssues": 3,
+    "criticalErrors": 0,
+    "warnings": 3,
+    "correctionsNeeded": 0
+  },
+  "issues": [
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "cybersecurity-analyst",
+      "description": "Career \"Cybersecurity Analyst\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "cert-url-missing",
+      "recordType": "certification-provider",
+      "recordId": "noprep-missing",
+      "description": "Certification \"Community Contribution Certificate\" has no official URL.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "generic-descriptions",
+      "recordType": "knowledge-base",
+      "recordId": "multiple",
+      "description": "3074 topics have generic template descriptions that should be more specific.",
+      "action": "flag"
+    }
+  ],
+  "corrections": [],
+  "metrics": {
+    "googleSearchUrls": 0,
+    "youtubeSearchUrls": 0,
+    "emptyUrls": 0,
+    "genericDescriptions": 3074,
+    "contaminationFound": 0,
+    "leetcodeInappropriate": 14,
+    "duplicateCareerSlugs": 0,
+    "emptySections": 0,
+    "missingDescriptions": 0
+  },
+  "topResourceDomains": [
+    [
+      "nptel.ac.in",
+      1326
+    ],
+    [
+      "ieee.org",
+      548
+    ],
+    [
+      "pytorch.org",
+      544
+    ],
+    [
+      "cloud.google.com",
+      543
+    ],
+    [
+      "kubernetes.io",
+      536
+    ],
+    [
+      "owasp.org",
+      500
+    ],
+    [
+      "nist.gov",
+      498
+    ],
+    [
+      "mathworks.com",
+      482
+    ],
+    [
+      "docs.aws.amazon.com",
+      466
+    ],
+    [
+      "leetcode.com",
+      423
+    ],
+    [
+      "neetcode.io",
+      423
+    ],
+    [
+      "crackingthecodinginterview.com",
+      423
+    ],
+    [
+      "postgresqltutorial.com",
+      194
+    ],
+    [
+      "kotlinlang.org",
+      179
+    ],
+    [
+      "martinfowler.com",
+      172
+    ],
+    [
+      "docs.pytest.org",
+      172
+    ],
+    [
+      "w3schools.com",
+      163
+    ],
+    [
+      "docs.swift.org",
+      153
+    ],
+    [
+      "apple.com",
+      153
+    ],
+    [
+      "play.kotlinlang.org",
+      144
+    ]
+  ],
+  "practicePlatformCounts": {
+    "Visualgo": 6,
+    "LeetCode": 94,
+    "SQLBolt": 77,
+    "HackerRank": 70,
+    "DataLemur": 28,
+    "freeCodeCamp": 32,
+    "Exponent": 42,
+    "Educative": 36,
+    "Learn Git Branching": 42,
+    "GitHub": 47,
+    "Cisco Packet Tracer": 64,
+    "NeetCode": 50,
+    "W3Schools": 13,
+    "Flexbox Froggy": 23,
+    "Grid Garden": 5,
+    "Frontend Mentor": 24,
+    "Codewars": 16,
+    "Scrimba": 29,
+    "CodeSandbox": 16,
+    "Pramp": 45,
+    "Exercism": 15,
+    "Kaggle": 13,
+    "fast.ai": 30,
+    "PortSwigger": 2,
+    "TryHackMe": 2,
+    "Hack The Box": 2,
+    "PicoCTF": 2,
+    "OverTheWire": 15,
+    "Linux Journey": 11,
+    "KillerCoda": 16,
+    "HashiCorp Learn": 8,
+    "Microsoft Learn": 29,
+    "AWS Skill Builder": 17,
+    "AWS": 13,
+    "Play with Docker": 16,
+    "Docker": 12,
+    "Kubernetes": 5,
+    "ANSYS": 4,
+    "Autodesk": 12,
+    "MathWorks Academy": 8,
+    "MathWorks": 8,
+    "Google Developers": 1,
+    "UiPath Academy": 7,
+    "Now Learning": 1,
+    "Google Cloud Skills Boost": 5,
+    "Dassault Systèmes": 1,
+    "Trailhead": 2,
+    "CryptoZombies": 1,
+    "OpenZeppelin": 1,
+    "Hugging Face": 1
+  }
+}

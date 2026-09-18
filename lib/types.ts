@@ -148,35 +148,51 @@ export interface CertificationLink {
   title: string;
   url: string;
   /** docs | course | practice | article */
-  kind: "docs" | "course" | "practice" | "article";
+  kind?: "docs" | "course" | "practice" | "article";
 }
 
+/**
+ * A record in the shipped certification catalog (public/roadmaps/certifications.json).
+ * All fields beyond id/name/provider are optional — consumers must validate
+ * before rendering (see normalizeCertification in lib/topic-details.ts).
+ */
 export interface Certification {
+  id: string;
+  name: string;
+  provider: string;
+  category?: string;
+  /** "paid" | "free" */
+  type?: string;
+  difficulty?: "Beginner" | "Intermediate" | "Advanced";
+  /** human cost string ("$150", "$49/month", "Free") */
+  cost?: string;
+  validity?: string;
+  url?: string;
+  description?: string;
+  prep?: CertificationLink[];
+  practice?: CertificationLink[];
+  relatedCareers?: string[];
+}
+
+/** Cost status derived ONLY from verified catalog fields — never guessed. */
+export type CertificationCost = "FREE" | "PAID EXAM" | "FREE PREPARATION" | "PAID CERTIFICATION";
+
+/** Normalized certification actually rendered by the UI. */
+export interface CertificationView {
   id: string;
   name: string;
   provider: string;
   level: string;
   officialUrl: string;
-  examName: string;
-  skills: string[];
-  careers: string[];
-  topics: string[];
-  prerequisites: string[];
-  prep: CertificationLink[];
-  practice: CertificationLink[];
-  related: string[];
-  difficulty: "Beginner" | "Intermediate" | "Advanced";
-  prepTime: string;
-  what: string;
-  who: string;
-  when: string;
-  learnFirst: string;
-  validates: string[];
-  roles: string[];
-  /** "Free" (credential free to earn) | "Paid exam" (exam/assessment fee required) */
-  cost: "Free" | "Paid exam";
-  /** verified official free learning/preparation exists (NOT the credential itself) */
+  description: string;
+  costLabel: CertificationCost;
+  costDetail?: string;
+  validity?: string;
   freePrep: boolean;
+  difficulty?: DifficultyLevel;
+  validates: string[];
+  prep: CertificationLink[];
+  practiceLinks: CertificationLink[];
 }
 
 export interface RoadmapNode {

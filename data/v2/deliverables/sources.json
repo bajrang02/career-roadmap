@@ -1,0 +1,222 @@
+[
+  {
+    "id": "onet",
+    "name": "O*NET OnLine",
+    "organization": "U.S. Department of Labor",
+    "url": "https://www.onetonline.org/",
+    "tier": 1,
+    "usedFor": "Career descriptions, skills requirements, job outlook data",
+    "accessedAt": "2026-08-24",
+    "notes": "Primary source for career taxonomy and occupational data. Cross-referenced with BLS."
+  },
+  {
+    "id": "bls",
+    "name": "Bureau of Labor Statistics — Occupational Outlook Handbook",
+    "organization": "U.S. Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/ooh/",
+    "tier": 1,
+    "usedFor": "Salary data, job outlook projections, education requirements",
+    "accessedAt": "2026-08-24",
+    "notes": "Primary source for salary and employment projections through 2034."
+  },
+  {
+    "id": "abet",
+    "name": "ABET Criteria for Accrediting Engineering Programs",
+    "organization": "ABET",
+    "url": "https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2025-2026/",
+    "tier": 1,
+    "usedFor": "Engineering curriculum standards, accreditation requirements",
+    "accessedAt": "2026-08-24",
+    "notes": "Used to validate engineering career curriculum structures."
+  },
+  {
+    "id": "nice-framework",
+    "name": "NICE Workforce Framework for Cybersecurity",
+    "organization": "NIST / CISA",
+    "url": "https://niccs.cisa.gov/tools/nice-framework",
+    "tier": 1,
+    "usedFor": "Cybersecurity career roles, knowledge/skills taxonomy",
+    "accessedAt": "2026-08-24",
+    "notes": "Definitive source for cybersecurity career definitions."
+  },
+  {
+    "id": "acm-cs2023",
+    "name": "Computer Science Curricula 2023",
+    "organization": "ACM / IEEE",
+    "url": "https://dl.acm.org/doi/book/10.1145/3664191",
+    "tier": 1,
+    "usedFor": "Computer science knowledge areas, curriculum structure",
+    "accessedAt": "2026-08-24",
+    "notes": "17 knowledge areas forming the basis of software career curricula."
+  },
+  {
+    "id": "aiche",
+    "name": "AIChE Academy Process Safety Curriculum",
+    "organization": "AIChE",
+    "url": "https://ili.aiche.org/academy/curricula/process-safety-curriculum",
+    "tier": 1,
+    "usedFor": "Chemical engineering curriculum, process safety standards",
+    "accessedAt": "2026-08-24",
+    "notes": "Expert-developed curriculum for chemical engineering careers."
+  },
+  {
+    "id": "ieee",
+    "name": "IEEE Engineering Resources",
+    "organization": "IEEE",
+    "url": "https://www.ieee.org/",
+    "tier": 1,
+    "usedFor": "Electrical/electronics engineering curriculum, professional standards",
+    "accessedAt": "2026-08-24",
+    "notes": "Professional body standards for electrical engineering careers."
+  },
+  {
+    "id": "asce",
+    "name": "ASCE Civil Engineering Resources",
+    "organization": "American Society of Civil Engineers",
+    "url": "https://www.asce.org/",
+    "tier": 1,
+    "usedFor": "Civil engineering curriculum, professional standards",
+    "accessedAt": "2026-08-24",
+    "notes": "Professional standards for civil engineering careers."
+  },
+  {
+    "id": "asme",
+    "name": "ASME Mechanical Engineering Resources",
+    "organization": "American Society of Mechanical Engineers",
+    "url": "https://www.asme.org/",
+    "tier": 1,
+    "usedFor": "Mechanical engineering curriculum, professional standards",
+    "accessedAt": "2026-08-24",
+    "notes": "Professional standards for mechanical engineering careers."
+  },
+  {
+    "id": "mit-ocw",
+    "name": "MIT OpenCourseWare",
+    "organization": "Massachusetts Institute of Technology",
+    "url": "https://ocw.mit.edu/",
+    "tier": 1,
+    "usedFor": "University-level curriculum reference, course structures",
+    "accessedAt": "2026-08-24",
+    "notes": "Reference for academic curriculum structures across all engineering disciplines."
+  },
+  {
+    "id": "mdn",
+    "name": "MDN Web Docs",
+    "organization": "Mozilla",
+    "url": "https://developer.mozilla.org/",
+    "tier": 1,
+    "usedFor": "Web development documentation, curriculum structure",
+    "accessedAt": "2026-08-24",
+    "notes": "Authoritative web technology documentation."
+  },
+  {
+    "id": "python-docs",
+    "name": "Python Official Documentation",
+    "organization": "Python Software Foundation",
+    "url": "https://docs.python.org/3/",
+    "tier": 1,
+    "usedFor": "Python language curriculum, topic structure",
+    "accessedAt": "2026-08-24",
+    "notes": "Official language documentation."
+  },
+  {
+    "id": "aws-docs",
+    "name": "AWS Documentation",
+    "organization": "Amazon Web Services",
+    "url": "https://docs.aws.amazon.com/",
+    "tier": 1,
+    "usedFor": "Cloud computing curriculum, service reference",
+    "accessedAt": "2026-08-24",
+    "notes": "Primary cloud platform documentation."
+  },
+  {
+    "id": "k8s-docs",
+    "name": "Kubernetes Documentation",
+    "organization": "CNCF",
+    "url": "https://kubernetes.io/docs/",
+    "tier": 1,
+    "usedFor": "Kubernetes curriculum, concepts reference",
+    "accessedAt": "2026-08-24",
+    "notes": "Authoritative Kubernetes documentation."
+  },
+  {
+    "id": "docker-docs",
+    "name": "Docker Documentation",
+    "organization": "Docker Inc.",
+    "url": "https://docs.docker.com/",
+    "tier": 1,
+    "usedFor": "Docker curriculum, container concepts",
+    "accessedAt": "2026-08-24",
+    "notes": "Authoritative Docker documentation."
+  },
+  {
+    "id": "react-docs",
+    "name": "React Official Documentation",
+    "organization": "Meta",
+    "url": "https://react.dev/",
+    "tier": 1,
+    "usedFor": "React curriculum, hooks and components reference",
+    "accessedAt": "2026-08-24",
+    "notes": "Official React documentation (react.dev)."
+  },
+  {
+    "id": "owasp",
+    "name": "OWASP Foundation",
+    "organization": "Open Worldwide Application Security Project",
+    "url": "https://owasp.org/",
+    "tier": 1,
+    "usedFor": "Web security curriculum, vulnerability taxonomy",
+    "accessedAt": "2026-08-24",
+    "notes": "Definitive source for web application security."
+  },
+  {
+    "id": "khan-academy",
+    "name": "Khan Academy",
+    "organization": "Khan Academy",
+    "url": "https://www.khanacademy.org/",
+    "tier": 2,
+    "usedFor": "Mathematics and science curriculum references",
+    "accessedAt": "2026-08-24",
+    "notes": "Free educational platform for foundational math and science."
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera Professional Certificates",
+    "organization": "Coursera",
+    "url": "https://www.coursera.org/",
+    "tier": 2,
+    "usedFor": "Professional certificate curriculum reference",
+    "accessedAt": "2026-08-24",
+    "notes": "Reference for professional certificate curricula from Google, IBM, Meta."
+  },
+  {
+    "id": "solidworks-docs",
+    "name": "SolidWorks Documentation",
+    "organization": "Dassault Systèmes",
+    "url": "https://help.solidworks.com/",
+    "tier": 1,
+    "usedFor": "CAD software curriculum, feature reference",
+    "accessedAt": "2026-08-24",
+    "notes": "Official SolidWorks documentation."
+  },
+  {
+    "id": "ansys-help",
+    "name": "ANSYS Learning Hub",
+    "organization": "ANSYS",
+    "url": "https://innovationspace.ansys.com/",
+    "tier": 1,
+    "usedFor": "Simulation/CAE curriculum, FEA/CFD reference",
+    "accessedAt": "2026-08-24",
+    "notes": "Official ANSYS educational resources."
+  },
+  {
+    "id": "mathworks",
+    "name": "MATLAB Documentation",
+    "organization": "MathWorks",
+    "url": "https://www.mathworks.com/help/matlab/",
+    "tier": 1,
+    "usedFor": "MATLAB/Simulink curriculum, numerical computing reference",
+    "accessedAt": "2026-08-24",
+    "notes": "Official MathWorks documentation."
+  }
+]

@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prebuild": "node data/generate.mjs",
+    "prebuild": "npm run data",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "data": "node data/generate.mjs",
+    "data": "node data/v2/resource-system/build-resource-system.mjs && node data/v2/generate-v2.mjs && node data/v2/resource-system/validate-resolution.mjs",
     "audit:coverage": "node data/audit-coverage.mjs",
     "audit:links": "node data/audit-coverage.mjs --check-urls",
     "verify:palette": "node .freebuff/verify-palette.mjs"

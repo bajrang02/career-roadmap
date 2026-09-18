@@ -6,12 +6,12 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "./theme-provider";
 import { useThemeStore } from "@/lib/stores/theme-store";
 import { useProgressStore } from "@/lib/stores/progress-store";
-import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
-import { useSettingsStore } from "@/lib/stores/settings-store";
+
 import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
 import { useChoicesStore } from "@/lib/stores/choices-store";
 import { useAchievementsStore } from "@/lib/stores/achievements-store";
 import { useUiStore } from "@/lib/stores/ui-store";
+import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useHydrationStore } from "@/lib/stores/hydration-store";
 
 // Every persisted zustand store is created with `skipHydration: true`, so its
@@ -22,12 +22,12 @@ import { useHydrationStore } from "@/lib/stores/hydration-store";
 const PERSISTED_STORES = [
   useThemeStore,
   useProgressStore,
-  useBookmarksStore,
-  useSettingsStore,
+
   useStudyPlanStore,
   useChoicesStore,
   useAchievementsStore,
   useUiStore,
+  useBookmarksStore,
 ] as const;
 
 export function Providers({ children }: { children: React.ReactNode }) {

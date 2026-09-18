@@ -45,35 +45,35 @@ const COMPACT_V_STEP = 72;
 // (truncating past ~2 lines) and the chevron. No touch action row anymore —
 // every action lives in the details panel — so cards can be genuinely narrow.
 const NODE_W: Record<NodeType, number> = {
-  career: 288,
-  section: 258,
-  subsection: 234,
-  topic: 224,
-  concept: 214,
-  projects: 238,
-  project: 230,
-  optional: 220,
-  advanced: 220,
-  interview: 180,
-  achievement: 240,
-  choice: 240,
+  career: 340,
+  section: 310,
+  subsection: 290,
+  topic: 280,
+  concept: 270,
+  projects: 300,
+  project: 290,
+  optional: 280,
+  advanced: 280,
+  interview: 240,
+  achievement: 300,
+  choice: 300,
 };
 
 // Mobile variant: narrower cards that still fit most of a 375px phone while
 // leaving room to pan.
 const COMPACT_NODE_W: Record<NodeType, number> = {
-  career: 360,
-  section: 350,
-  subsection: 340,
-  topic: 340,
-  concept: 340,
-  projects: 350,
-  project: 340,
-  optional: 340,
-  advanced: 340,
+  career: 380,
+  section: 370,
+  subsection: 360,
+  topic: 360,
+  concept: 350,
+  projects: 370,
+  project: 360,
+  optional: 350,
+  advanced: 350,
   interview: 340,
-  achievement: 350,
-  choice: 350,
+  achievement: 370,
+  choice: 370,
 };
 
 // Base height for a single-line title (44–56px, per the compact redesign).

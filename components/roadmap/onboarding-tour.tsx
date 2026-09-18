@@ -92,7 +92,7 @@ const STEPS = (
     eyebrow: "Keep going",
     title: "Track your progress",
     body: [
-      "Tick topics off as you learn — your progress, streaks and bookmarks are saved privately on this device.",
+      "Tick topics off as you learn — your progress and streaks are saved privately on this device.",
       "Generate a study plan to turn this map into a day-by-day schedule.",
     ],
     icon: Flame,

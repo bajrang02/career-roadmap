@@ -1,0 +1,438 @@
+[
+  {
+    "id": "aws-saa",
+    "name": "AWS Solutions Architect – Associate",
+    "provider": "Amazon Web Services",
+    "category": "Cloud Computing",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$150",
+    "validity": "3 years",
+    "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+    "description": "Validates expertise in designing distributed systems on AWS — compute, networking, storage and databases.",
+    "prep": [
+      {
+        "title": "AWS Exam Readiness",
+        "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-certified-solutions-architect-associate-exam-readiness",
+        "kind": "course"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Tutorials Dojo Practice Exams",
+        "url": "https://tutorialsdojo.com/courses/aws-certified-solutions-architect-associate-saa-c03-practice-exams/",
+        "kind": "practice"
+      }
+    ],
+    "relatedCareers": [
+      "cloud-engineer",
+      "cloud-architect",
+      "devops-engineer",
+      "solutions-architect"
+    ]
+  },
+  {
+    "id": "azure-admin",
+    "name": "Azure Administrator Associate (AZ-104)",
+    "provider": "Microsoft",
+    "category": "Cloud Computing",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$165",
+    "validity": "1 year",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/",
+    "description": "Validates skills in managing Azure subscriptions, storage, networking, compute and identity.",
+    "prep": [
+      {
+        "title": "Microsoft Learn AZ-104",
+        "url": "https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "cloud-engineer",
+      "systems-engineer",
+      "devops-engineer"
+    ]
+  },
+  {
+    "id": "gcp-ace",
+    "name": "Google Associate Cloud Engineer",
+    "provider": "Google Cloud",
+    "category": "Cloud Computing",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$125",
+    "validity": "2 years",
+    "url": "https://cloud.google.com/learn/certification/cloud-engineer",
+    "description": "Validates ability to deploy, monitor and manage solutions on Google Cloud.",
+    "prep": [
+      {
+        "title": "Google Cloud Skills Boost",
+        "url": "https://www.cloudskillsboost.google/",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "cloud-engineer",
+      "devops-engineer"
+    ]
+  },
+  {
+    "id": "cka",
+    "name": "Certified Kubernetes Administrator (CKA)",
+    "provider": "Cloud Native Computing Foundation",
+    "category": "Cloud & DevOps",
+    "type": "paid",
+    "difficulty": "Advanced",
+    "cost": "$395",
+    "validity": "3 years",
+    "url": "https://www.cncf.io/training/cka/",
+    "description": "Validates skills in Kubernetes administration — cluster setup, networking, storage, troubleshooting.",
+    "prep": [
+      {
+        "title": "Kubernetes Official Training",
+        "url": "https://training.linuxfoundation.org/",
+        "kind": "course"
+      }
+    ],
+    "practice": [
+      {
+        "title": "KodeKloud CKA Labs",
+        "url": "https://kodekloud.com/courses/cka-certification-course/",
+        "kind": "practice"
+      }
+    ],
+    "relatedCareers": [
+      "kubernetes-engineer",
+      "devops-engineer",
+      "platform-engineer",
+      "sre"
+    ]
+  },
+  {
+    "id": "terraform-associate",
+    "name": "HashiCorp Terraform Associate",
+    "provider": "HashiCorp",
+    "category": "Infrastructure as Code",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$70",
+    "validity": "2 years",
+    "url": "https://www.hashicorp.com/certification/terraform-associate",
+    "description": "Validates core Terraform skills — infrastructure as code, state management and modules.",
+    "prep": [
+      {
+        "title": "HashiCorp Learn",
+        "url": "https://developer.hashicorp.com/terraform/tutorials",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "devops-engineer",
+      "cloud-engineer",
+      "platform-engineer"
+    ]
+  },
+  {
+    "id": "comptia-security-plus",
+    "name": "CompTIA Security+ (SY0-701)",
+    "provider": "CompTIA",
+    "category": "Cybersecurity",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$404",
+    "validity": "3 years",
+    "url": "https://www.comptia.org/certifications/security",
+    "description": "Industry-entry security certification covering threats, vulnerabilities, identity management, cryptography and risk management.",
+    "prep": [
+      {
+        "title": "Professor Messer Security+",
+        "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "cybersecurity-analyst",
+      "soc-analyst",
+      "security-engineer",
+      "security-analyst",
+      "security-consultant",
+      "application-security-engineer",
+      "cloud-security-engineer"
+    ]
+  },
+  {
+    "id": "oscp",
+    "name": "Offensive Security Certified Professional (OSCP)",
+    "provider": "Offensive Security",
+    "category": "Cybersecurity",
+    "type": "paid",
+    "difficulty": "Advanced",
+    "cost": "$1,649+",
+    "validity": "Lifetime",
+    "url": "https://www.offsec.com/courses/pen-200/",
+    "description": "The most respected penetration testing certification — hands-on 24-hour practical exam.",
+    "prep": [
+      {
+        "title": "PEN-200 Course",
+        "url": "https://www.offsec.com/courses/pen-200/",
+        "kind": "course"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Offensive Security Proving Grounds",
+        "url": "https://www.offsec.com/labs/",
+        "kind": "practice"
+      }
+    ],
+    "relatedCareers": [
+      "penetration-tester",
+      "ethical-hacker",
+      "red-team-engineer"
+    ]
+  },
+  {
+    "id": "cissp",
+    "name": "Certified Information Systems Security Professional (CISSP)",
+    "provider": "ISC²",
+    "category": "Cybersecurity",
+    "type": "paid",
+    "difficulty": "Advanced",
+    "cost": "$749",
+    "validity": "3 years",
+    "url": "https://www.isc2.org/certifications/cissp",
+    "description": "Gold-standard cybersecurity management certification covering 8 domains of security.",
+    "prep": [
+      {
+        "title": "ISC² Official Training",
+        "url": "https://www.isc2.org/Training",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "security-architect",
+      "security-engineer",
+      "grc-analyst",
+      "security-consultant"
+    ]
+  },
+  {
+    "id": "google-data-analytics",
+    "name": "Google Data Analytics Professional Certificate",
+    "provider": "Google (via Coursera)",
+    "category": "Data & Analytics",
+    "type": "paid",
+    "difficulty": "Beginner",
+    "cost": "$49/month",
+    "validity": "No expiry",
+    "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+    "description": "Covers spreadsheets, SQL, R programming and Tableau for data analysis.",
+    "prep": [
+      {
+        "title": "Coursera Course",
+        "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "data-analyst",
+      "business-analyst"
+    ]
+  },
+  {
+    "id": "pl-300",
+    "name": "Microsoft Power BI Data Analyst (PL-300)",
+    "provider": "Microsoft",
+    "category": "Data & Analytics",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$165",
+    "validity": "1 year",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-power-bi/",
+    "description": "Validates expertise in modeling, visualizing and analyzing data with Power BI.",
+    "prep": [
+      {
+        "title": "Microsoft Learn PL-300",
+        "url": "https://learn.microsoft.com/en-us/training/paths/prepare-for-exam-pl-300/",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "data-analyst",
+      "bi-developer",
+      "power-bi-developer"
+    ]
+  },
+  {
+    "id": "google-ml-engineer",
+    "name": "Google Professional Machine Learning Engineer",
+    "provider": "Google Cloud",
+    "category": "AI & ML",
+    "type": "paid",
+    "difficulty": "Advanced",
+    "cost": "$200",
+    "validity": "2 years",
+    "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+    "description": "Validates ability to design, build, productionize and optimize ML models on Google Cloud.",
+    "prep": [
+      {
+        "title": "Google Cloud Skills Boost ML",
+        "url": "https://www.cloudskillsboost.google/",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "machine-learning-engineer",
+      "ai-engineer",
+      "data-scientist"
+    ]
+  },
+  {
+    "id": "tensorflow-developer",
+    "name": "TensorFlow Developer Certificate",
+    "provider": "Google",
+    "category": "AI & ML",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$100",
+    "validity": "No expiry",
+    "url": "https://www.tensorflow.org/certificate",
+    "description": "Validates ability to build and train neural networks using TensorFlow.",
+    "prep": [
+      {
+        "title": "TensorFlow Certificate Training",
+        "url": "https://www.tensorflow.org/certificate",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "deep-learning-engineer",
+      "machine-learning-engineer",
+      "computer-vision-engineer"
+    ]
+  },
+  {
+    "id": "fe-exam",
+    "name": "Fundamentals of Engineering (FE) Exam",
+    "provider": "NCEES",
+    "category": "Engineering",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$175",
+    "validity": "Lifetime",
+    "url": "https://ncees.org/fe-exam/",
+    "description": "The first step toward becoming a licensed Professional Engineer (PE). Available in multiple engineering disciplines.",
+    "prep": [
+      {
+        "title": "NCEES FE Reference Handbook",
+        "url": "https://ncees.org/fe-exam/",
+        "kind": "docs"
+      }
+    ],
+    "practice": [
+      {
+        "title": "PrepFE Practice",
+        "url": "https://prepfe.com/",
+        "kind": "practice"
+      }
+    ],
+    "relatedCareers": [
+      "mechanical-engineer",
+      "civil-engineer",
+      "electrical-engineer",
+      "chemical-engineer",
+      "aerospace-engineer",
+      "industrial-engineer"
+    ]
+  },
+  {
+    "id": "cswa",
+    "name": "Certified SOLIDWORKS Associate (CSWA)",
+    "provider": "Dassault Systèmes",
+    "category": "Engineering Software",
+    "type": "paid",
+    "difficulty": "Intermediate",
+    "cost": "$99",
+    "validity": "3 years",
+    "url": "https://www.solidworks.com/solution/certifications",
+    "description": "Validates ability to create parts, assemblies and drawings in SolidWorks.",
+    "prep": [
+      {
+        "title": "SolidWorks Certification Training",
+        "url": "https://www.solidworks.com/support/cswa-cswp-certification-preparation",
+        "kind": "course"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "mechanical-engineer",
+      "cad-engineer",
+      "mechanical-design-engineer"
+    ]
+  },
+  {
+    "id": "istqb",
+    "name": "ISTQB Foundation Level",
+    "provider": "International Software Testing Qualifications Board",
+    "category": "Quality Assurance",
+    "type": "paid",
+    "difficulty": "Beginner",
+    "cost": "$250",
+    "validity": "Lifetime",
+    "url": "https://www.istqb.org/certifications/certified-tester-foundation-level-2018/",
+    "description": "Foundational software testing certification covering test design, management and techniques.",
+    "prep": [
+      {
+        "title": "ISTQB Foundation Syllabus",
+        "url": "https://www.istqb.org/",
+        "kind": "docs"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "qa-engineer",
+      "automation-test-engineer",
+      "qa-automation-engineer",
+      "software-testing-engineer"
+    ]
+  },
+  {
+    "id": "pe-license",
+    "name": "Professional Engineer (PE) License",
+    "provider": "State Licensing Boards (via NCEES)",
+    "category": "Engineering",
+    "type": "paid",
+    "difficulty": "Advanced",
+    "cost": "$375+",
+    "validity": "Lifetime (with renewal)",
+    "url": "https://ncees.org/pe-exam/",
+    "description": "The highest level of engineering licensure — required to offer engineering services to the public.",
+    "prep": [
+      {
+        "title": "NCEES PE Exam Resources",
+        "url": "https://ncees.org/pe-exam/",
+        "kind": "docs"
+      }
+    ],
+    "practice": [],
+    "relatedCareers": [
+      "mechanical-engineer",
+      "civil-engineer",
+      "electrical-engineer",
+      "chemical-engineer",
+      "aerospace-engineer",
+      "industrial-engineer"
+    ]
+  }
+]

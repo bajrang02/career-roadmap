@@ -15,7 +15,6 @@ import {
 } from "@/lib/mindmap/tree-layout";
 import type { RoadmapNode } from "@/lib/types";
 import { useProgressStore } from "@/lib/stores/progress-store";
-import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
 import { useUiStore } from "@/lib/stores/ui-store";
 import { useStudyPlanStore } from "@/lib/stores/study-plan-store";
 import { useChoicesStore } from "@/lib/stores/choices-store";
@@ -46,12 +45,9 @@ const Minimap = dynamic(() => import("./mindmap/minimap").then((m) => m.Minimap)
   ssr: false,
   loading: () => null,
 });
-const Legend = dynamic(() => import("./legend").then((m) => m.Legend), {
-  ssr: false,
-  loading: () => null,
-});
+
 import { NodeCard, type NodeAction } from "./mindmap/node-card";
-import { OnboardingTour, hasSeenTour } from "./onboarding-tour";
+import { LegendPopover } from "./legend-popover";
 
 /** Debounce a fast-changing value (search input) so expensive work only runs
  *  after the user pauses typing. */
@@ -147,7 +143,8 @@ export function RoadmapViewer({
   const [containerSize, setContainerSize] = useState({ w: 1200, h: 600 });
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [plannerOpen, setPlannerOpen] = useState(false);
-  const [tourOpen, setTourOpen] = useState(false);
+  // roadmap canvas legend (node-type key) — off by default, one tap to reveal
+  const [showLegend, setShowLegend] = useState(false);
   // The keyboard-shortcut hint used to sit on the canvas forever. It now
   // retires after the first few seconds, like any other coach mark.
   const [hintVisible, setHintVisible] = useState(true);
@@ -191,7 +188,7 @@ export function RoadmapViewer({
   );
 
   const showMinimap = useUiStore((s) => s.showMinimap);
-  const showLegend = useUiStore((s) => s.showLegend);
+
   const toast = useUiStore((s) => s.toast);
   // subscribe to the raw completion array (not function refs) so toggling a
   // node re-renders the canvas checkmarks + progress immediately.
@@ -202,8 +199,6 @@ export function RoadmapViewer({
   const toggleNode = useProgressStore((s) => s.toggleNode);
   const completeSubtree = useProgressStore((s) => s.completeSubtree);
   const planProgress = useStudyPlanStore((s) => s.progressFor(slug));
-  const bookmarks = useBookmarksStore((s) => s.bookmarks);
-  const toggleBookmark = useBookmarksStore((s) => s.toggleBookmark);
   const choices = useChoicesStore(useShallow((s) => s.choices));
 
   const canvasRef = useRef<HTMLDivElement>(null);
@@ -229,18 +224,6 @@ export function RoadmapViewer({
     } catch {
       /* ignore */
     }
-  }, []);
-
-  // first-visit onboarding: show the getting-started tour once, after the
-  // mindmap has painted. Re-openable any time from the toolbar's More menu.
-  useEffect(() => {
-    if (!roadmap || hasSeenTour()) return;
-    const t = window.setTimeout(() => setTourOpen(true), 800);
-    return () => window.clearTimeout(t);
-  }, [roadmap]);
-
-  const closeTour = useCallback(() => {
-    setTourOpen(false);
   }, []);
 
   // Restore this roadmap's saved expand/collapse layout, if the visitor has
@@ -333,7 +316,7 @@ export function RoadmapViewer({
   // browser window never recomputes the d3 tree layout.
   const mobileCardW = useMemo(() => {
     if (!isMobile) return 0;
-    return Math.max(260, Math.round(Math.min(340, containerSize.w - 40) / 4) * 4);
+    return Math.max(280, Math.round(Math.min(380, containerSize.w - 32) / 4) * 4);
   }, [isMobile, containerSize.w]);
 
   const layout = useMemo(() => {
@@ -482,6 +465,17 @@ export function RoadmapViewer({
     () => (roadmap && selectedId ? pathToNode(roadmap.root, selectedId) : []),
     [roadmap, selectedId]
   );
+
+  // ancestor chain (nearest-first) + siblings for the details panel resolver
+  const selectedAncestors = useMemo(() => {
+    const chain = breadcrumbs.slice(0, -1);
+    return [...chain].reverse().map((n) => ({ id: n.id, label: n.label }));
+  }, [breadcrumbs]);
+  const selectedSiblings = useMemo(() => {
+    if (!selectedNode || breadcrumbs.length < 2) return [];
+    const parent = breadcrumbs[breadcrumbs.length - 2];
+    return [...(parent.children ?? []), ...(parent.options ?? [])].filter((c) => c.id !== selectedNode.id);
+  }, [breadcrumbs, selectedNode]);
 
   // hover path (ancestors + descendants)
   const hoverPath = useMemo(() => {
@@ -641,6 +635,10 @@ export function RoadmapViewer({
   // passed down as NodeCard props — churning them would defeat React.memo)
   const collapsedRef = useRef(collapsed);
   collapsedRef.current = collapsed;
+  const selectedIdRef = useRef(selectedId);
+  selectedIdRef.current = selectedId;
+  const roadmapRef = useRef(roadmap);
+  roadmapRef.current = roadmap;
   const centerRef = useRef<(id: string) => void>(() => {});
   useEffect(() => {
     centerRef.current = centerOnNodeBounds;
@@ -663,9 +661,25 @@ export function RoadmapViewer({
         // when expanding, re-center on this branch after the new layout lands
         // so the freshly revealed children stay in view
         setTimeout(() => centerRef.current(id), 60);
+      } else {
+        // ── COLLAPSE ── If the currently selected node is inside this
+        // subtree, move focus to the collapsed node itself so the user
+        // doesn't lose context.
+        const curId = selectedIdRef.current;
+        if (curId && roadmapRef.current) {
+          const subtree = findNode(roadmapRef.current.root, id);
+          if (subtree) {
+            const path = pathToNode(roadmapRef.current.root, curId);
+            const isInside = path.some((a) => a.id === id);
+            if (isInside) {
+              setSelectedId(id);
+              setTimeout(() => centerRef.current(id), 60);
+            }
+          }
+        }
       }
     },
-    [showPill]
+    [showPill, roadmapRef, selectedIdRef]
   );
 
   // Keyboard navigation (defined after handleToggleExpand since the arrow keys
@@ -871,22 +885,11 @@ export function RoadmapViewer({
     [roadmap, markRecent]
   );
 
-  const bookmarkedCareer = bookmarks.some((b) => b.roadmap === slug && b.nodeId === roadmap?.root.id);
-
   const handleRandomTopic = useCallback(() => {
     if (!learnableIds.length) return;
     const randomId = learnableIds[Math.floor(Math.random() * learnableIds.length)];
     navigateFromSidebar(randomId);
   }, [learnableIds, navigateFromSidebar]);
-
-  const handleBookmarkCareer = useCallback(() => {
-    if (!roadmap) return;
-    toggleBookmark({ roadmap: slug, nodeId: roadmap.root.id, nodeLabel: roadmap.root.label, nodeType: "career" });
-    toast(bookmarkedCareer ? "Bookmark removed" : "Roadmap bookmarked", {
-      kind: "info",
-      description: bookmarkedCareer ? "Removed from your saved roadmaps." : "Find it on your dashboard.",
-    });
-  }, [roadmap, slug, toggleBookmark, bookmarkedCareer, toast]);
 
   const handleMarkSubtree = useCallback(
     (node: RoadmapNode) => {
@@ -908,7 +911,7 @@ export function RoadmapViewer({
   );
 
   // quick-action handler — the compact card only dispatches "complete" (the
-  // checkbox). Bookmark, copy-link, subtree completion and everything else
+  // checkbox). Copy-link, subtree completion and everything else
   // moved into the details panel, which has its own dedicated callbacks.
   const handleSearchNext = useCallback(() => {
     showPill();
@@ -974,7 +977,6 @@ export function RoadmapViewer({
         completed={doneIds.has(n.id)}
         locked={false}
         searchHit={searchHits.has(n.id)}
-        bookmarked={bookmarks.some((b) => b.nodeId === n.id)}
         flash={flashId === n.id}
         mountAnimated={mountAnimated}
         pct={nodeProgress.get(n.id)?.pct ?? 0}
@@ -997,7 +999,6 @@ export function RoadmapViewer({
       recentIds,
       doneIds,
       searchHits,
-      bookmarks,
       flashId,
       nodeProgress,
       handleSelect,
@@ -1045,16 +1046,13 @@ export function RoadmapViewer({
           if (!focusMode && selectedId) setTimeout(handleFit, 60);
         }}
         onToggleMinimap={() => useUiStore.getState().setShowMinimap(!showMinimap)}
-        onToggleLegend={() => useUiStore.getState().setShowLegend(!showLegend)}
         showMinimap={showMinimap}
-        showLegend={showLegend}
         searchOpen={searchOpen}
         onToggleSearch={() => setSearchOpen((v) => !v)}
         searchQuery={searchQuery}
         onSearchQuery={setSearchQuery}
         onSearchNext={handleSearchNext}
-        bookmarked={bookmarkedCareer}
-        onToggleBookmark={handleBookmarkCareer}
+
         onBreadcrumbClick={(id) => {
           setSelectedId(id);
           setFocusMode(false);
@@ -1064,7 +1062,6 @@ export function RoadmapViewer({
         onOpenPlanner={() => setPlannerOpen(true)}
         planProgress={planProgress}
         onRandomTopic={handleRandomTopic}
-        onShowTour={() => setTourOpen(true)}
       />
 
       <div ref={canvasRef} className="relative flex-1 overflow-hidden">
@@ -1084,7 +1081,7 @@ export function RoadmapViewer({
 
         {/* search result count */}
         {debouncedSearch.trim() && (
-          <div className="absolute left-3 top-3 z-20 rounded-lg border border-slate-200 bg-white/95 px-3 py-1.5 text-xs text-slate-500 shadow-lg backdrop-blur dark:border-slate-700 dark:bg-slate-800/95 dark:text-slate-300">
+          <div aria-live="polite" className="absolute left-3 top-3 z-20 rounded-lg border border-slate-200 bg-white/95 px-3 py-1.5 text-xs text-slate-500 shadow-lg backdrop-blur dark:border-slate-700 dark:bg-slate-800/95 dark:text-slate-300">
             {searchHits.size} match{searchHits.size === 1 ? "" : "es"}
             {searchHits.size > 1 && (
               <>
@@ -1126,14 +1123,13 @@ export function RoadmapViewer({
                 className="flex items-center rounded-full bg-brand-600 px-4 py-2 text-white shadow-xl shadow-brand-500/20 hover:bg-brand-700"
                 onClick={handleCenterView}
               >
-                <Crosshair className="mr-2 h-4 w-4" aria-hidden="true" /> Recentre on this topic
+                <Crosshair className="mr-2 h-4 w-4" aria-hidden="true" /> Re-center on this topic
               </Button>
             </motion.div>
           )}
         </AnimatePresence>
 
-        {/* legend */}
-        {showLegend && <Legend onClose={() => useUiStore.getState().setShowLegend(false)} />}
+
 
         {/* mobile floating zoom controls — auto-hides when idle so it never
             blocks taps on the nodes beneath it; any interaction wakes it */}
@@ -1144,16 +1140,16 @@ export function RoadmapViewer({
           )}
           aria-hidden={!pillVisible}
         >
-          <button onClick={() => { zoomBy(0.8); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Zoom out">
+          <button onClick={() => { zoomBy(0.8); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-brand-500 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Zoom out">
             <Minus className="h-4 w-4" />
           </button>
-          <button onClick={() => { handleFit(); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Fit to view">
+          <button onClick={() => { handleFit(); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-brand-500 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Fit to view">
             <Maximize className="h-4 w-4" />
           </button>
-          <button onClick={() => { handleCenterView(); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Center view">
+          <button onClick={() => { handleCenterView(); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-brand-500 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Center view">
             <Crosshair className="h-4 w-4" />
           </button>
-          <button onClick={() => { zoomBy(1.25); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Zoom in">
+          <button onClick={() => { zoomBy(1.25); showPill(); }} className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-brand-500 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700" aria-label="Zoom in">
             <Plus className="h-4 w-4" />
           </button>
           <button
@@ -1161,7 +1157,7 @@ export function RoadmapViewer({
               setSelectedId(null);
               showPill();
             }}
-            className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700"
+            className="flex h-12 w-12 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 focus-visible:ring-2 focus-visible:ring-brand-500 active:scale-95 dark:text-slate-300 dark:hover:bg-slate-700"
             aria-label="Close selection"
           >
             <X className="h-4 w-4" />
@@ -1186,12 +1182,15 @@ export function RoadmapViewer({
             </motion.div>
           )}
         </AnimatePresence>
+        <LegendPopover open={showLegend} onToggle={() => setShowLegend((v) => !v)} />
         {selectedNode && (
           <NodeDetailsSidebar
             node={selectedNode}
             roadmapSlug={slug}
             roadmapTitle={roadmap.meta.title}
             order={fullOrder}
+            ancestors={selectedAncestors}
+            siblings={selectedSiblings}
             onClose={() => setSelectedId(null)}
             onNavigate={navigateFromSidebar}
             onMarkSubtree={() => handleMarkSubtree(selectedNode)}
@@ -1208,14 +1207,6 @@ export function RoadmapViewer({
         />
       )}
 
-      <OnboardingTour
-        open={tourOpen}
-        onClose={closeTour}
-        title={roadmap.meta.title}
-        icon={roadmap.meta.icon}
-        isMobile={isMobile}
-        topicCount={learnableIds.length}
-      />
     </div>
   );
 }

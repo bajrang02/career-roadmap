@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "description": "Practice activities by topic — coding challenges, engineering exercises, simulations and hands-on assignments.",
+  "practice": {
+    "data-structures-algorithms": [
+      {"title": "LeetCode Problems", "url": "https://leetcode.com/problemset/", "platform": "LeetCode", "kind": "practice", "difficulty": "Intermediate"},
+      {"title": "HackerRank DSA", "url": "https://www.hackerrank.com/domains/data-structures", "platform": "HackerRank", "kind": "practice", "difficulty": "Beginner"},
+      {"title": "NeetCode Roadmap", "url": "https://neetcode.io/roadmap", "platform": "NeetCode", "kind": "practice", "difficulty": "Intermediate"}
+    ],
+    "sql-fundamentals": [
+      {"title": "SQLZoo", "url": "https://sqlzoo.net/", "platform": "SQLZoo", "kind": "practice", "difficulty": "Beginner"},
+      {"title": "LeetCode SQL", "url": "https://leetcode.com/studyplan/sql/", "platform": "LeetCode", "kind": "practice", "difficulty": "Intermediate"},
+      {"title": "HackerRank SQL", "url": "https://www.hackerrank.com/domains/sql", "platform": "HackerRank", "kind": "practice", "difficulty": "Beginner"}
+    ],
+    "python-fundamentals": [
+      {"title": "Exercism Python Track", "url": "https://exercism.org/tracks/python", "platform": "Exercism", "kind": "practice", "difficulty": "Beginner"},
+      {"title": "Codewars Python", "url": "https://www.codewars.com/?languages=python", "platform": "Codewars", "kind": "practice", "difficulty": "Intermediate"}
+    ],
+    "javascript-basics": [
+      {"title": "JavaScript30", "url": "https://javascript30.com/", "platform": "JavaScript30", "kind": "practice", "difficulty": "Beginner"},
+      {"title": "Exercism JavaScript Track", "url": "https://exercism.org/tracks/javascript", "platform": "Exercism", "kind": "practice", "difficulty": "Beginner"}
+    ],
+    "react-fundamentals": [
+      {"title": "React Challenges", "url": "https://reactchallenges.app/", "platform": "React Challenges", "kind": "practice", "difficulty": "Intermediate"}
+    ],
+    "docker-fundamentals": [
+      {"title": "Katacoda Docker Scenarios", "url": "https://www.katacoda.com/", "platform": "Katacoda", "kind": "practice", "difficulty": "Beginner"},
+      {"title": "Docker Getting Started", "url": "https://docs.docker.com/get-started/", "platform": "Docker", "kind": "practice", "difficulty": "Beginner"}
+    ],
+    "kubernetes-fundamentals": [
+      {"title": "KillerCoda Kubernetes", "url": "https://killercoda.com/playgrounds/scenario/kubernetes", "platform": "KillerCoda", "kind": "practice", "difficulty": "Intermediate"},
+      {"title": "Kubernetes the Hard Way", "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way", "platform": "GitHub", "kind": "practice", "difficulty": "Advanced"}
+    ],
+    "machine-learning-fundamentals": [
+      {"title": "Kaggle Competitions", "url": "https://www.kaggle.com/competitions", "platform": "Kaggle", "kind": "practice", "difficulty": "Intermediate"},
+      {"title": "Kaggle Micro-Courses", "url": "https://www.kaggle.com/learn", "platform": "Kaggle", "kind": "practice", "difficulty": "Beginner"}
+    ],
+    "owasp-top-10": [
+      {"title": "OWASP WebGoat", "url": "https://owasp.org/www-project-webgoat/", "platform": "OWASP", "kind": "practice", "difficulty": "Intermediate"},
+      {"title": "PortSwigger Web Security Academy", "url": "https://portswigger.net/web-security", "platform": "PortSwigger", "kind": "practice", "difficulty": "Intermediate"}
+    ],
+    "system-design": [
+      {"title": "System Design Mock Interviews", "url": "https://www.pramp.com/", "platform": "Pramp", "kind": "practice", "difficulty": "Advanced"}
+    ],
+    "git-mastery": [
+      {"title": "Learn Git Branching", "url": "https://learngitbranching.js.org/", "platform": "Learn Git Branching", "kind": "practice", "difficulty": "Beginner"},
+      {"title": "Oh Shit, Git!?!", "url": "https://ohshitgit.com/", "platform": "Oh Shit Git", "kind": "practice", "difficulty": "Beginner"}
+    ],
+    "solidworks-tutorials": [
+      {"title": "SolidWorks Model Mania", "url": "https://www.goengineer.com/blog/solidworks-model-mania", "platform": "GoEngineer", "kind": "practice", "difficulty": "Intermediate"},
+      {"title": "CSWA Practice", "url": "https://www.solidworks.com/solution/cswe", "platform": "SolidWorks", "kind": "practice", "difficulty": "Intermediate"}
+    ],
+    "statistics-for-data-science": [
+      {"title": "Khan Academy Practice", "url": "https://www.khanacademy.org/math/statistics-probability", "platform": "Khan Academy", "kind": "practice", "difficulty": "Beginner"}
+    ],
+    "plc-programming": [
+      {"title": "PLC Fiddle (Online Simulator)", "url": "https://www.plcfiddle.com/", "platform": "PLC Fiddle", "kind": "practice", "difficulty": "Beginner"},
+      {"title": "PLCdev Training", "url": "https://www.plcdev.com/plc_training", "platform": "PLCdev", "kind": "practice", "difficulty": "Beginner"}
+    ]
+  }
+}

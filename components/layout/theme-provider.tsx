@@ -1,10 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useThemeStore, applyTheme } from "@/lib/stores/theme-store";
+import { useThemeStore } from "@/lib/stores/theme-store";
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const theme = useThemeStore((s) => s.theme);
   // The store is persisted with `skipHydration: true`, so `theme` is the
   // default "light" until rehydrate() finishes. Track hydration so we never
   // apply the default over a saved dark theme (which would flash light and
@@ -15,8 +14,27 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     useThemeStore.persist.rehydrate();
     return unsub;
   }, []);
+
+  // After rehydrate, recompute `resolved` from the persisted choice (a saved
+  // "system" must initially resolve to the OS preference, not "light").
   useEffect(() => {
-    if (hydrated) applyTheme(theme);
-  }, [theme, hydrated]);
+    if (!hydrated) return;
+    useThemeStore.getState().set(useThemeStore.getState().theme);
+  }, [hydrated]);
+
+  // When the user picks "System", live-follow OS theme changes.
+  useEffect(() => {
+    if (!hydrated) return;
+    const mq = window.matchMedia("(prefers-color-scheme: dark)");
+    const onChange = () => {
+      if (useThemeStore.getState().theme === "system") {
+        useThemeStore.getState().set("system");
+      }
+    };
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
+  }, [hydrated]);
+
   return <>{children}</>;
 }
+

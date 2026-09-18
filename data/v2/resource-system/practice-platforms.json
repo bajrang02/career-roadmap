@@ -1,0 +1,132 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-08-24",
+  "description": "Practice platforms mapped to career domains with relevance scores.",
+  "domainMapping": {
+    "programming": {
+      "primary": ["leetcode", "hackerrank", "codewars", "exercism"],
+      "secondary": ["geeksforgeeks", "freecodecamp"],
+      "notes": "Use LeetCode for algorithm/interview prep. Use HackerRank for language-specific. Use Codewars for practice. Use Exercism for mentored exercises."
+    },
+    "web-frontend": {
+      "primary": ["frontend-mentor", "freecodecamp", "codepen"],
+      "secondary": ["w3schools", "css-tricks"],
+      "notes": "Use Frontend Mentor for real-world challenges. Use freeCodeCamp for structured learning. Use CodePen for experimentation."
+    },
+    "web-backend": {
+      "primary": ["hackerrank", "codewars"],
+      "secondary": ["geeksforgeeks", "exercism"],
+      "notes": "Backend practice through coding challenges and API building."
+    },
+    "sql-database": {
+      "primary": ["leetcode-sql", "hackerrank-sql", "sqlbolt", "datlemur"],
+      "secondary": ["geeksforgeeks-sql"],
+      "notes": "Use SQLBolt for beginners. Use LeetCode SQL for interview prep. Use DataLemur for real-world data problems."
+    },
+    "cybersecurity": {
+      "primary": ["portswigger", "tryhackme", "hackthebox"],
+      "secondary": ["overthewire", "picoctf", "hackernest"],
+      "notes": "Use PortSwigger for web security. Use TryHackMe for beginners. Use HackTheBox for advanced. Use OverTheWire for Linux."
+    },
+    "cloud-aws": {
+      "primary": ["aws-skill-builder"],
+      "secondary": ["killercoda"],
+      "notes": "Use AWS Skill Builder for official labs. Use Well-Architected Labs for hands-on."
+    },
+    "cloud-azure": {
+      "primary": ["microsoft-learn"],
+      "secondary": [],
+      "notes": "Use Microsoft Learn for official Azure labs."
+    },
+    "cloud-gcp": {
+      "primary": ["google-skills-boost"],
+      "secondary": [],
+      "notes": "Use Google Cloud Skills Boost for official GCP labs."
+    },
+    "devops-containers": {
+      "primary": ["play-with-docker", "killercoda"],
+      "secondary": [],
+      "notes": "Use Play with Docker for Docker labs. Use KillerCoda for Kubernetes scenarios."
+    },
+    "devops-iac": {
+      "primary": ["killercoda"],
+      "secondary": [],
+      "notes": "Use KillerCoda for Terraform/Ansible scenarios."
+    },
+    "ai-ml": {
+      "primary": ["kaggle"],
+      "secondary": ["coursera"],
+      "notes": "Use Kaggle for competitions and notebooks. Use Coursera for structured courses."
+    },
+    "data-science": {
+      "primary": ["kaggle"],
+      "secondary": ["coursera"],
+      "notes": "Use Kaggle for datasets and notebooks."
+    },
+    "mobile": {
+      "primary": ["exercism"],
+      "secondary": ["frontend-mentor"],
+      "notes": "Mobile practice through project building and exercises."
+    },
+    "engineering-mechanical": {
+      "primary": ["solidworks-tutorials", "ansys-learning"],
+      "secondary": ["nptel"],
+      "notes": "Use official CAD/CAE tutorials. Use NPTEL for theory."
+    },
+    "engineering-civil": {
+      "primary": ["nptel", "autocad-tutorials"],
+      "secondary": [],
+      "notes": "Use NPTEL for theory. Use Autodesk tutorials for software."
+    },
+    "engineering-electrical": {
+      "primary": ["nptel", "ltspice-tutorials"],
+      "secondary": [],
+      "notes": "Use NPTEL for theory. Use circuit simulation tools for practice."
+    },
+    "engineering-chemical": {
+      "primary": ["nptel"],
+      "secondary": [],
+      "notes": "Use NPTEL for chemical engineering theory."
+    },
+    "networking": {
+      "primary": ["cisco-packet-tracer"],
+      "secondary": ["killercoda"],
+      "notes": "Use Packet Tracer for network simulation."
+    },
+    "linux": {
+      "primary": ["overthewire", "killercoda"],
+      "secondary": ["linuxjourney"],
+      "notes": "Use OverTheWire Bandit for Linux basics. Use KillerCoda for scenarios."
+    },
+    "git": {
+      "primary": ["learngitbranching"],
+      "secondary": [],
+      "notes": "Use Learn Git Branching for interactive Git learning."
+    },
+    "api-development": {
+      "primary": ["hackerrank"],
+      "secondary": ["postman-learning"],
+      "notes": "API practice through coding challenges and Postman."
+    },
+    "quality-testing": {
+      "primary": ["hackerrank"],
+      "secondary": ["testautomationu"],
+      "notes": "Use HackerRank for test automation basics."
+    },
+    "product-design": {
+      "primary": ["frontend-mentor"],
+      "secondary": ["figma-community"],
+      "notes": "Use Frontend Mentor for design implementation."
+    },
+    "blockchain": {
+      "primary": ["cryptozombies"],
+      "secondary": ["ethernaut"],
+      "notes": "Use CryptoZombies for Solidity. Use Ethernaut for security."
+    },
+    "rpa": {
+      "primary": ["uipath-academy"],
+      "secondary": [],
+      "notes": "Use UiPath Academy for RPA training."
+    }
+  }
+}

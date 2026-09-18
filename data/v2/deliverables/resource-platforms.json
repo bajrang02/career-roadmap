@@ -1,0 +1,1724 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-08-24",
+  "description": "Verified learning resource platforms with direct URLs, organized by domain relevance.",
+  "platforms": [
+    {
+      "id": "mdn",
+      "name": "MDN Web Docs",
+      "organization": "Mozilla",
+      "type": "official-doc",
+      "baseUrl": "https://developer.mozilla.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "web",
+        "javascript",
+        "html",
+        "css",
+        "frontend",
+        "browser-apis"
+      ],
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "dom",
+        "web-apis",
+        "http",
+        "accessibility"
+      ],
+      "notes": "Gold standard for web technology documentation."
+    },
+    {
+      "id": "python-docs",
+      "name": "Python Official Documentation",
+      "organization": "Python Software Foundation",
+      "type": "official-doc",
+      "baseUrl": "https://docs.python.org/3/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "python",
+        "programming"
+      ],
+      "topics": [
+        "python",
+        "python-basics",
+        "python-standard-library",
+        "python-data-model"
+      ],
+      "notes": "Official Python documentation with tutorial and library reference."
+    },
+    {
+      "id": "react-docs",
+      "name": "React Official Documentation",
+      "organization": "Meta (Facebook)",
+      "type": "official-doc",
+      "baseUrl": "https://react.dev",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "react",
+        "frontend",
+        "javascript"
+      ],
+      "topics": [
+        "react",
+        "react-hooks",
+        "react-components",
+        "react-state",
+        "react-router"
+      ],
+      "notes": "Official React documentation with interactive examples."
+    },
+    {
+      "id": "angular-docs",
+      "name": "Angular Official Documentation",
+      "organization": "Google",
+      "type": "official-doc",
+      "baseUrl": "https://angular.dev",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "angular",
+        "frontend",
+        "typescript"
+      ],
+      "topics": [
+        "angular",
+        "angular-components",
+        "angular-services",
+        "angular-routing"
+      ],
+      "notes": "Official Angular documentation."
+    },
+    {
+      "id": "vue-docs",
+      "name": "Vue.js Official Guide",
+      "organization": "Vue.js Team",
+      "type": "official-doc",
+      "baseUrl": "https://vuejs.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "vue",
+        "frontend",
+        "javascript"
+      ],
+      "topics": [
+        "vue",
+        "vue-components",
+        "vue-reactivity",
+        "vue-router"
+      ],
+      "notes": "Official Vue.js documentation with guide and API reference."
+    },
+    {
+      "id": "node-docs",
+      "name": "Node.js Official Documentation",
+      "organization": "OpenJS Foundation",
+      "type": "official-doc",
+      "baseUrl": "https://nodejs.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "nodejs",
+        "backend",
+        "javascript"
+      ],
+      "topics": [
+        "nodejs",
+        "node-api",
+        "node-modules",
+        "node-streams"
+      ],
+      "notes": "Official Node.js documentation with guides and API reference."
+    },
+    {
+      "id": "nextjs-docs",
+      "name": "Next.js Official Documentation",
+      "organization": "Vercel",
+      "type": "official-doc",
+      "baseUrl": "https://nextjs.org/docs",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "nextjs",
+        "react",
+        "frontend",
+        "fullstack"
+      ],
+      "topics": [
+        "nextjs",
+        "nextjs-app-router",
+        "nextjs-pages-router",
+        "nextjs-server-components"
+      ],
+      "notes": "Official Next.js documentation."
+    },
+    {
+      "id": "typescript-docs",
+      "name": "TypeScript Official Handbook",
+      "organization": "Microsoft",
+      "type": "official-doc",
+      "baseUrl": "https://www.typescriptlang.org/docs/handbook/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "typescript",
+        "javascript",
+        "programming"
+      ],
+      "topics": [
+        "typescript",
+        "typescript-types",
+        "typescript-generics",
+        "typescript-interfaces"
+      ],
+      "notes": "Official TypeScript handbook with examples."
+    },
+    {
+      "id": "django-docs",
+      "name": "Django Official Documentation",
+      "organization": "Django Software Foundation",
+      "type": "official-doc",
+      "baseUrl": "https://docs.djangoproject.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "django",
+        "python",
+        "backend"
+      ],
+      "topics": [
+        "django",
+        "django-models",
+        "django-views",
+        "django-templates",
+        "django-rest"
+      ],
+      "notes": "Official Django documentation with tutorial and reference."
+    },
+    {
+      "id": "flask-docs",
+      "name": "Flask Official Documentation",
+      "organization": "Pallets Projects",
+      "type": "official-doc",
+      "baseUrl": "https://flask.palletsprojects.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "flask",
+        "python",
+        "backend"
+      ],
+      "topics": [
+        "flask",
+        "flask-routing",
+        "flask-templates",
+        "flask-sqlalchemy"
+      ],
+      "notes": "Official Flask documentation."
+    },
+    {
+      "id": "fastapi-docs",
+      "name": "FastAPI Official Documentation",
+      "organization": "Tiago Couto",
+      "type": "official-doc",
+      "baseUrl": "https://fastapi.tiangolo.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "fastapi",
+        "python",
+        "backend",
+        "api"
+      ],
+      "topics": [
+        "fastapi",
+        "fastapi-routing",
+        "fastapi-data",
+        "fastapi-dependency"
+      ],
+      "notes": "Official FastAPI documentation with interactive examples."
+    },
+    {
+      "id": "spring-docs",
+      "name": "Spring Official Guides",
+      "organization": "VMware / Broadcom",
+      "type": "official-doc",
+      "baseUrl": "https://spring.io/guides",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "spring",
+        "java",
+        "backend"
+      ],
+      "topics": [
+        "spring-boot",
+        "spring-mvc",
+        "spring-security",
+        "spring-data"
+      ],
+      "notes": "Official Spring guides and tutorials."
+    },
+    {
+      "id": "postgresql-docs",
+      "name": "PostgreSQL Official Documentation",
+      "organization": "PostgreSQL Global Dev Group",
+      "type": "official-doc",
+      "baseUrl": "https://www.postgresql.org/docs/current/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "postgresql",
+        "database",
+        "sql"
+      ],
+      "topics": [
+        "postgresql",
+        "postgresql-sql",
+        "postgresql-admin",
+        "postgresql-performance"
+      ],
+      "notes": "Official PostgreSQL documentation."
+    },
+    {
+      "id": "mysql-docs",
+      "name": "MySQL Official Documentation",
+      "organization": "Oracle",
+      "type": "official-doc",
+      "baseUrl": "https://dev.mysql.com/doc/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "mysql",
+        "database",
+        "sql"
+      ],
+      "topics": [
+        "mysql",
+        "mysql-sql",
+        "mysql-admin"
+      ],
+      "notes": "Official MySQL documentation."
+    },
+    {
+      "id": "mongodb-docs",
+      "name": "MongoDB Official Documentation",
+      "organization": "MongoDB Inc.",
+      "type": "official-doc",
+      "baseUrl": "https://www.mongodb.com/docs/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "mongodb",
+        "database",
+        "nosql"
+      ],
+      "topics": [
+        "mongodb",
+        "mongodb-crud",
+        "mongodb-aggregation",
+        "mongodb-indexes"
+      ],
+      "notes": "Official MongoDB documentation with tutorials."
+    },
+    {
+      "id": "redis-docs",
+      "name": "Redis Official Documentation",
+      "organization": "Redis Ltd.",
+      "type": "official-doc",
+      "baseUrl": "https://redis.io/docs/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "redis",
+        "database",
+        "cache"
+      ],
+      "topics": [
+        "redis",
+        "redis-data-types",
+        "redis-pubsub",
+        "redis-cluster"
+      ],
+      "notes": "Official Redis documentation."
+    },
+    {
+      "id": "docker-docs",
+      "name": "Docker Official Documentation",
+      "organization": "Docker Inc.",
+      "type": "official-doc",
+      "baseUrl": "https://docs.docker.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "docker",
+        "containers",
+        "devops"
+      ],
+      "topics": [
+        "docker",
+        "dockerfile",
+        "docker-compose",
+        "docker-networking"
+      ],
+      "notes": "Official Docker documentation."
+    },
+    {
+      "id": "k8s-docs",
+      "name": "Kubernetes Official Documentation",
+      "organization": "CNCF",
+      "type": "official-doc",
+      "baseUrl": "https://kubernetes.io/docs/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "kubernetes",
+        "containers",
+        "devops",
+        "cloud"
+      ],
+      "topics": [
+        "kubernetes",
+        "k8s-pods",
+        "k8s-services",
+        "k8s-deployments"
+      ],
+      "notes": "Official Kubernetes documentation."
+    },
+    {
+      "id": "aws-docs",
+      "name": "AWS Official Documentation",
+      "organization": "Amazon Web Services",
+      "type": "official-doc",
+      "baseUrl": "https://docs.aws.amazon.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "aws",
+        "cloud",
+        "devops"
+      ],
+      "topics": [
+        "aws-ec2",
+        "aws-s3",
+        "aws-lambda",
+        "aws-iam",
+        "aws-vpc",
+        "aws-rds"
+      ],
+      "notes": "Official AWS documentation."
+    },
+    {
+      "id": "azure-docs",
+      "name": "Microsoft Azure Documentation",
+      "organization": "Microsoft",
+      "type": "official-doc",
+      "baseUrl": "https://learn.microsoft.com/en-us/azure/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "azure",
+        "cloud",
+        "devops"
+      ],
+      "topics": [
+        "azure-vms",
+        "azure-functions",
+        "azure-ad",
+        "azure-devops"
+      ],
+      "notes": "Official Microsoft Azure documentation."
+    },
+    {
+      "id": "gcp-docs",
+      "name": "Google Cloud Documentation",
+      "organization": "Google Cloud",
+      "type": "official-doc",
+      "baseUrl": "https://cloud.google.com/docs",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "gcp",
+        "cloud",
+        "devops",
+        "ai"
+      ],
+      "topics": [
+        "gcp-compute",
+        "gcp-storage",
+        "gcp-bigquery",
+        "gcp-gke"
+      ],
+      "notes": "Official Google Cloud documentation."
+    },
+    {
+      "id": "git-docs",
+      "name": "Git Official Documentation",
+      "organization": "Git Project",
+      "type": "official-doc",
+      "baseUrl": "https://git-scm.com/doc",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "git",
+        "version-control",
+        "devops"
+      ],
+      "topics": [
+        "git",
+        "git-branching",
+        "git-merging",
+        "git-config"
+      ],
+      "notes": "Official Git documentation with book."
+    },
+    {
+      "id": "terraform-docs",
+      "name": "Terraform Official Documentation",
+      "organization": "HashiCorp",
+      "type": "official-doc",
+      "baseUrl": "https://developer.hashicorp.com/terraform/docs",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "terraform",
+        "iac",
+        "devops",
+        "cloud"
+      ],
+      "topics": [
+        "terraform",
+        "terraform-providers",
+        "terraform-modules",
+        "terraform-state"
+      ],
+      "notes": "Official Terraform documentation."
+    },
+    {
+      "id": "ansible-docs",
+      "name": "Ansible Official Documentation",
+      "organization": "Red Hat",
+      "type": "official-doc",
+      "baseUrl": "https://docs.ansible.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "ansible",
+        "automation",
+        "devops"
+      ],
+      "topics": [
+        "ansible",
+        "ansible-playbooks",
+        "ansible-roles",
+        "ansible-modules"
+      ],
+      "notes": "Official Ansible documentation."
+    },
+    {
+      "id": "owasp",
+      "name": "OWASP",
+      "organization": "Open Worldwide Application Security Project",
+      "type": "official-doc",
+      "baseUrl": "https://owasp.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "security",
+        "web-security",
+        "appsec"
+      ],
+      "topics": [
+        "owasp-top-10",
+        "owasp-testing-guide",
+        "owasp-api-security"
+      ],
+      "notes": "OWASP open-source security resources."
+    },
+    {
+      "id": "nist",
+      "name": "NIST Cybersecurity Resources",
+      "organization": "National Institute of Standards and Technology",
+      "type": "official-doc",
+      "baseUrl": "https://www.nist.gov/cybersecurity",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "security",
+        "compliance",
+        "risk-management"
+      ],
+      "topics": [
+        "nist-csf",
+        "nist-risk-management",
+        "nist-incident-response"
+      ],
+      "notes": "NIST cybersecurity frameworks and guidelines."
+    },
+    {
+      "id": "pytorch-docs",
+      "name": "PyTorch Official Tutorials",
+      "organization": "Meta (Facebook)",
+      "type": "official-doc",
+      "baseUrl": "https://pytorch.org/tutorials/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "pytorch",
+        "deep-learning",
+        "ai",
+        "ml"
+      ],
+      "topics": [
+        "pytorch",
+        "pytorch-tensors",
+        "pytorch-nn",
+        "pytorch-training"
+      ],
+      "notes": "Official PyTorch tutorials."
+    },
+    {
+      "id": "tensorflow-docs",
+      "name": "TensorFlow Official Tutorials",
+      "organization": "Google",
+      "type": "official-doc",
+      "baseUrl": "https://www.tensorflow.org/tutorials",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "tensorflow",
+        "deep-learning",
+        "ai",
+        "ml"
+      ],
+      "topics": [
+        "tensorflow",
+        "tensorflow-keras",
+        "tensorflow-lite",
+        "tensorflow-saved-model"
+      ],
+      "notes": "Official TensorFlow tutorials."
+    },
+    {
+      "id": "huggingface-docs",
+      "name": "Hugging Face Documentation",
+      "organization": "Hugging Face",
+      "type": "official-doc",
+      "baseUrl": "https://huggingface.co/docs",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "nlp",
+        "transformers",
+        "ai",
+        "llm"
+      ],
+      "topics": [
+        "transformers",
+        "huggingface-datasets",
+        "huggingface-tokenizers",
+        "huggingface-hub"
+      ],
+      "notes": "Official Hugging Face documentation."
+    },
+    {
+      "id": "numpy-docs",
+      "name": "NumPy Official Documentation",
+      "organization": "NumPy Project",
+      "type": "official-doc",
+      "baseUrl": "https://numpy.org/doc/stable/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "numpy",
+        "python",
+        "data-science"
+      ],
+      "topics": [
+        "numpy",
+        "numpy-arrays",
+        "numpy-linear-algebra"
+      ],
+      "notes": "Official NumPy documentation."
+    },
+    {
+      "id": "pandas-docs",
+      "name": "pandas Official Documentation",
+      "organization": "pandas Project",
+      "type": "official-doc",
+      "baseUrl": "https://pandas.pydata.org/docs/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "pandas",
+        "python",
+        "data-science"
+      ],
+      "topics": [
+        "pandas",
+        "pandas-dataframe",
+        "pandas-groupby",
+        "pandas-merge"
+      ],
+      "notes": "Official pandas documentation."
+    },
+    {
+      "id": "scikit-learn-docs",
+      "name": "scikit-learn Official Documentation",
+      "organization": "scikit-learn Project",
+      "type": "official-doc",
+      "baseUrl": "https://scikit-learn.org/stable/documentation.html",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "scikit-learn",
+        "machine-learning",
+        "python"
+      ],
+      "topics": [
+        "sklearn-classification",
+        "sklearn-regression",
+        "sklearn-clustering",
+        "sklearn-model-selection"
+      ],
+      "notes": "Official scikit-learn documentation."
+    },
+    {
+      "id": "matplotlib-docs",
+      "name": "Matplotlib Official Documentation",
+      "organization": "Matplotlib Project",
+      "type": "official-doc",
+      "baseUrl": "https://matplotlib.org/stable/contents.html",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "matplotlib",
+        "python",
+        "visualization"
+      ],
+      "topics": [
+        "matplotlib",
+        "matplotlib-pyplot",
+        "matplotlib-figures"
+      ],
+      "notes": "Official Matplotlib documentation."
+    },
+    {
+      "id": "opencv-docs",
+      "name": "OpenCV Official Tutorials",
+      "organization": "OpenCV Team",
+      "type": "official-doc",
+      "baseUrl": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "opencv",
+        "computer-vision",
+        "ai"
+      ],
+      "topics": [
+        "opencv",
+        "opencv-image",
+        "opencv-video",
+        "opencv-dnn"
+      ],
+      "notes": "Official OpenCV Python tutorials."
+    },
+    {
+      "id": "w3schools",
+      "name": "W3Schools",
+      "organization": "Refsnes Data",
+      "type": "tutorial",
+      "baseUrl": "https://www.w3schools.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "html",
+        "css",
+        "javascript",
+        "sql",
+        "python",
+        "java"
+      ],
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "sql",
+        "python",
+        "java",
+        "php",
+        "c"
+      ],
+      "notes": "Good for beginners; topic-specific tutorials."
+    },
+    {
+      "id": "geeksforgeeks",
+      "name": "GeeksforGeeks",
+      "organization": "GeeksforGeeks",
+      "type": "tutorial",
+      "baseUrl": "https://www.geeksforgeeks.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "programming",
+        "algorithms",
+        "data-structures",
+        "web",
+        "database"
+      ],
+      "topics": [
+        "algorithms",
+        "data-structures",
+        "python",
+        "java",
+        "c",
+        "javascript",
+        "sql"
+      ],
+      "notes": "Extensive algorithm and data structure content."
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "organization": "freeCodeCamp.org",
+      "type": "course",
+      "baseUrl": "https://www.freecodecamp.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "web",
+        "frontend",
+        "backend",
+        "data-science"
+      ],
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "node",
+        "python",
+        "sql"
+      ],
+      "notes": "Free coding bootcamp with certifications."
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "organization": "LeetCode Inc.",
+      "type": "practice",
+      "baseUrl": "https://leetcode.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "algorithms",
+        "data-structures",
+        "coding",
+        "interview-prep"
+      ],
+      "topics": [
+        "arrays",
+        "strings",
+        "linked-lists",
+        "trees",
+        "graphs",
+        "dynamic-programming",
+        "sql"
+      ],
+      "notes": "Best for coding interview preparation."
+    },
+    {
+      "id": "hackerrank",
+      "name": "HackerRank",
+      "organization": "HackerRank",
+      "type": "practice",
+      "baseUrl": "https://www.hackerrank.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "programming",
+        "algorithms",
+        "sql",
+        "web"
+      ],
+      "topics": [
+        "python",
+        "javascript",
+        "java",
+        "sql",
+        "algorithms",
+        "regex"
+      ],
+      "notes": "Good for language-specific practice."
+    },
+    {
+      "id": "codewars",
+      "name": "Codewars",
+      "organization": "Codewars",
+      "type": "practice",
+      "baseUrl": "https://www.codewars.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "programming",
+        "algorithms"
+      ],
+      "topics": [
+        "python",
+        "javascript",
+        "typescript",
+        "java",
+        "c",
+        "rust",
+        "go"
+      ],
+      "notes": "Kata-based programming challenges."
+    },
+    {
+      "id": "exercism",
+      "name": "Exercism",
+      "organization": "Exercism",
+      "type": "practice",
+      "baseUrl": "https://exercism.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "programming"
+      ],
+      "topics": [
+        "python",
+        "javascript",
+        "typescript",
+        "java",
+        "go",
+        "rust",
+        "kotlin",
+        "swift"
+      ],
+      "notes": "Mentored programming exercises."
+    },
+    {
+      "id": "portswigger",
+      "name": "PortSwigger Web Security Academy",
+      "organization": "PortSwigger",
+      "type": "practice",
+      "baseUrl": "https://portswigger.net/web-security",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "security",
+        "web-security",
+        "pentesting"
+      ],
+      "topics": [
+        "sql-injection",
+        "xss",
+        "csrf",
+        "ssrf",
+        "authentication",
+        "authorization"
+      ],
+      "notes": "Free, hands-on web security labs."
+    },
+    {
+      "id": "tryhackme",
+      "name": "TryHackMe",
+      "organization": "TryHackMe",
+      "type": "practice",
+      "baseUrl": "https://tryhackme.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "security",
+        "cybersecurity",
+        "networking"
+      ],
+      "topics": [
+        "networking",
+        "linux",
+        "web-security",
+        "forensics",
+        "cryptography"
+      ],
+      "notes": "Guided cybersecurity learning paths."
+    },
+    {
+      "id": "hackthebox",
+      "name": "Hack The Box",
+      "organization": "Hack The Box",
+      "type": "practice",
+      "baseUrl": "https://www.hackthebox.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "security",
+        "pentesting"
+      ],
+      "topics": [
+        "penetration-testing",
+        "web-exploitation",
+        "privilege-escalation",
+        "active-directory"
+      ],
+      "notes": "CTF-style penetration testing challenges."
+    },
+    {
+      "id": "overthewire",
+      "name": "OverTheWire",
+      "organization": "OverTheWire",
+      "type": "practice",
+      "baseUrl": "https://overthewire.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "security",
+        "linux",
+        "command-line"
+      ],
+      "topics": [
+        "linux-commands",
+        "bash",
+        "security-basics",
+        "cryptography"
+      ],
+      "notes": "Wargames for learning Linux and security."
+    },
+    {
+      "id": "kaggle",
+      "name": "Kaggle",
+      "organization": "Google",
+      "type": "practice",
+      "baseUrl": "https://www.kaggle.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "data-science",
+        "machine-learning",
+        "ai"
+      ],
+      "topics": [
+        "python",
+        "pandas",
+        "machine-learning",
+        "deep-learning",
+        "data-visualization"
+      ],
+      "notes": "Data science competitions and free courses."
+    },
+    {
+      "id": "frontend-mentor",
+      "name": "Frontend Mentor",
+      "organization": "Frontend Mentor",
+      "type": "practice",
+      "baseUrl": "https://www.frontendmentor.io",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "frontend",
+        "web",
+        "html",
+        "css"
+      ],
+      "topics": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "responsive-design"
+      ],
+      "notes": "Real-world frontend challenges."
+    },
+    {
+      "id": "sqlbolt",
+      "name": "SQLBolt",
+      "organization": "SQLBolt",
+      "type": "practice",
+      "baseUrl": "https://sqlbolt.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "sql",
+        "database"
+      ],
+      "topics": [
+        "sql-basics",
+        "sql-joins",
+        "sql-aggregation",
+        "sql-subqueries"
+      ],
+      "notes": "Interactive SQL exercises."
+    },
+    {
+      "id": "datlemur",
+      "name": "DataLemur",
+      "organization": "DataLemur",
+      "type": "practice",
+      "baseUrl": "https://datalemur.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "sql",
+        "data-science",
+        "data-analytics"
+      ],
+      "topics": [
+        "sql-advanced",
+        "data-analysis",
+        "window-functions"
+      ],
+      "notes": "SQL interview questions from top companies."
+    },
+    {
+      "id": "play-with-docker",
+      "name": "Play with Docker",
+      "organization": "Docker Community",
+      "type": "practice",
+      "baseUrl": "https://labs.play-with-docker.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "docker",
+        "containers"
+      ],
+      "topics": [
+        "docker",
+        "dockerfile",
+        "docker-compose"
+      ],
+      "notes": "Free Docker labs in browser."
+    },
+    {
+      "id": "killercoda",
+      "name": "KillerCoda",
+      "organization": "KillerCoda",
+      "type": "practice",
+      "baseUrl": "https://killercoda.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "kubernetes",
+        "linux",
+        "cloud"
+      ],
+      "topics": [
+        "kubernetes",
+        "linux",
+        "docker",
+        "prometheus",
+        "terraform"
+      ],
+      "notes": "Interactive scenarios for DevOps."
+    },
+    {
+      "id": "learngitbranching",
+      "name": "Learn Git Branching",
+      "organization": "Learn Git Branching",
+      "type": "practice",
+      "baseUrl": "https://learngitbranching.js.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "git",
+        "version-control"
+      ],
+      "topics": [
+        "git",
+        "git-branching",
+        "git-merging",
+        "git-rebase"
+      ],
+      "notes": "Interactive Git learning."
+    },
+    {
+      "id": "mathworks-docs",
+      "name": "MATLAB Official Documentation",
+      "organization": "MathWorks",
+      "type": "official-doc",
+      "baseUrl": "https://www.mathworks.com/help/matlab/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "matlab",
+        "engineering",
+        "data-analysis"
+      ],
+      "topics": [
+        "matlab",
+        "matlab-plotting",
+        "matlab-matrix",
+        "matlab-simulink"
+      ],
+      "notes": "Official MATLAB documentation."
+    },
+    {
+      "id": "ansys-docs",
+      "name": "ANSYS Official Documentation",
+      "organization": "ANSYS Inc.",
+      "type": "official-doc",
+      "baseUrl": "https://ansyshelp.ansys.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "fea",
+        "cfd",
+        "simulation",
+        "mechanical-engineering"
+      ],
+      "topics": [
+        "ansys-mechanical",
+        "ansys-fluent",
+        "ansys-workbench"
+      ],
+      "notes": "Official ANSYS documentation."
+    },
+    {
+      "id": "solidworks-help",
+      "name": "SolidWorks Official Help",
+      "organization": "Dassault Systèmes",
+      "type": "official-doc",
+      "baseUrl": "https://help.solidworks.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "cad",
+        "mechanical-design",
+        "solidworks"
+      ],
+      "topics": [
+        "solidworks-parts",
+        "solidworks-assemblies",
+        "solidworks-drawings"
+      ],
+      "notes": "Official SolidWorks documentation."
+    },
+    {
+      "id": "autodesk-docs",
+      "name": "Autodesk Official Documentation",
+      "organization": "Autodesk",
+      "type": "official-doc",
+      "baseUrl": "https://help.autodesk.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "cad",
+        "autocad",
+        "revit",
+        "civil-3d",
+        "inventor"
+      ],
+      "topics": [
+        "autocad",
+        "revit",
+        "civil-3d",
+        "inventor",
+        "fusion-360"
+      ],
+      "notes": "Official Autodesk documentation for all products."
+    },
+    {
+      "id": "cisco-netacad",
+      "name": "Cisco Networking Academy",
+      "organization": "Cisco",
+      "type": "course",
+      "baseUrl": "https://www.netacad.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "networking",
+        "cisco",
+        "security"
+      ],
+      "topics": [
+        "networking-basics",
+        "ccna",
+        "cybersecurity",
+        "packet-tracer"
+      ],
+      "notes": "Official Cisco networking courses."
+    },
+    {
+      "id": "nist-cybersecurity",
+      "name": "NIST Cybersecurity Framework",
+      "organization": "NIST",
+      "type": "official-doc",
+      "baseUrl": "https://www.nist.gov/cyberframework",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "security",
+        "compliance",
+        "risk"
+      ],
+      "topics": [
+        "nist-csf",
+        "risk-management",
+        "incident-response"
+      ],
+      "notes": "NIST Cybersecurity Framework."
+    },
+    {
+      "id": "pmi",
+      "name": "Project Management Institute",
+      "organization": "PMI",
+      "type": "official-doc",
+      "baseUrl": "https://www.pmi.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "project-management",
+        "pmp"
+      ],
+      "topics": [
+        "pmp",
+        "agile",
+        "scrum",
+        "project-management"
+      ],
+      "notes": "Official PMI resources."
+    },
+    {
+      "id": "asq",
+      "name": "American Society for Quality",
+      "organization": "ASQ",
+      "type": "official-doc",
+      "baseUrl": "https://asq.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "quality",
+        "six-sigma",
+        "manufacturing"
+      ],
+      "topics": [
+        "quality-engineering",
+        "six-sigma",
+        "spc",
+        "fmea"
+      ],
+      "notes": "Official ASQ quality resources."
+    },
+    {
+      "id": "ieee",
+      "name": "IEEE",
+      "organization": "Institute of Electrical and Electronics Engineers",
+      "type": "official-doc",
+      "baseUrl": "https://www.ieee.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "electrical-engineering",
+        "electronics",
+        "computer-science"
+      ],
+      "topics": [
+        "power-systems",
+        "control-systems",
+        "signal-processing",
+        "telecommunications"
+      ],
+      "notes": "IEEE standards and publications."
+    },
+    {
+      "id": "acm",
+      "name": "ACM",
+      "organization": "Association for Computing Machinery",
+      "type": "official-doc",
+      "baseUrl": "https://www.acm.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "computer-science",
+        "programming",
+        "algorithms"
+      ],
+      "topics": [
+        "algorithms",
+        "data-structures",
+        "computer-science",
+        "ethics"
+      ],
+      "notes": "ACM computing resources."
+    },
+    {
+      "id": "nptel",
+      "name": "NPTEL",
+      "organization": "IIT System / Ministry of Education India",
+      "type": "course",
+      "baseUrl": "https://nptel.ac.in",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "engineering",
+        "electronics",
+        "mechanical",
+        "civil",
+        "electrical",
+        "computer-science"
+      ],
+      "topics": [
+        "engineering-mathematics",
+        "power-systems",
+        "control-systems",
+        "thermodynamics",
+        "structural-analysis"
+      ],
+      "notes": "Free IIT lectures on engineering topics."
+    },
+    {
+      "id": "mit-ocw",
+      "name": "MIT OpenCourseWare",
+      "organization": "MIT",
+      "type": "course",
+      "baseUrl": "https://ocw.mit.edu",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "engineering",
+        "computer-science",
+        "mathematics",
+        "physics"
+      ],
+      "topics": [
+        "algorithms",
+        "circuits",
+        "differential-equations",
+        "linear-algebra",
+        "physics"
+      ],
+      "notes": "Free MIT course materials."
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "organization": "Coursera Inc.",
+      "type": "course",
+      "baseUrl": "https://www.coursera.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "programming",
+        "data-science",
+        "ai",
+        "cloud",
+        "business"
+      ],
+      "topics": [
+        "machine-learning",
+        "deep-learning",
+        "python",
+        "data-analysis",
+        "project-management"
+      ],
+      "notes": "University courses and professional certificates."
+    },
+    {
+      "id": "edx",
+      "name": "edX",
+      "organization": "edX / 2U",
+      "type": "course",
+      "baseUrl": "https://www.edx.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "programming",
+        "data-science",
+        "ai",
+        "engineering"
+      ],
+      "topics": [
+        "python",
+        "data-science",
+        "machine-learning",
+        "computer-science"
+      ],
+      "notes": "University courses and professional programs."
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "organization": "Udemy Inc.",
+      "type": "course",
+      "baseUrl": "https://www.udemy.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "programming",
+        "web",
+        "mobile",
+        "data-science",
+        "cloud"
+      ],
+      "topics": [
+        "javascript",
+        "python",
+        "react",
+        "aws",
+        "docker"
+      ],
+      "notes": "Marketplace courses; quality varies by instructor."
+    },
+    {
+      "id": "google-skills-boost",
+      "name": "Google Cloud Skills Boost",
+      "organization": "Google Cloud",
+      "type": "course",
+      "baseUrl": "https://cloudskillsboost.google",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "gcp",
+        "cloud",
+        "ai"
+      ],
+      "topics": [
+        "gcp-compute",
+        "gcp-storage",
+        "gcp-ai",
+        "gcp-networking"
+      ],
+      "notes": "Official Google Cloud training with labs."
+    },
+    {
+      "id": "aws-skill-builder",
+      "name": "AWS Skill Builder",
+      "organization": "Amazon Web Services",
+      "type": "course",
+      "baseUrl": "https://skillbuilder.aws",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "aws",
+        "cloud"
+      ],
+      "topics": [
+        "aws-ec2",
+        "aws-s3",
+        "aws-lambda",
+        "aws-iam"
+      ],
+      "notes": "Official AWS training."
+    },
+    {
+      "id": "microsoft-learn",
+      "name": "Microsoft Learn",
+      "organization": "Microsoft",
+      "type": "course",
+      "baseUrl": "https://learn.microsoft.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "azure",
+        "microsoft",
+        "power-platform"
+      ],
+      "topics": [
+        "azure-fundamentals",
+        "csharp",
+        "dotnet",
+        "power-bi",
+        "dynamics-365"
+      ],
+      "notes": "Official Microsoft learning paths."
+    },
+    {
+      "id": "mongodb-university",
+      "name": "MongoDB University",
+      "organization": "MongoDB Inc.",
+      "type": "course",
+      "baseUrl": "https://learn.mongodb.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "mongodb",
+        "database",
+        "nosql"
+      ],
+      "topics": [
+        "mongodb-basics",
+        "mongodb-aggregation",
+        "mongodb-atlas"
+      ],
+      "notes": "Official MongoDB free courses."
+    },
+    {
+      "id": "redis-university",
+      "name": "Redis University",
+      "organization": "Redis Ltd.",
+      "type": "course",
+      "baseUrl": "https://university.redis.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "redis",
+        "database",
+        "cache"
+      ],
+      "topics": [
+        "redis-basics",
+        "redis-data-structures",
+        "redis-pubsub"
+      ],
+      "notes": "Official Redis free courses."
+    },
+    {
+      "id": "cisco-packet-tracer",
+      "name": "Cisco Packet Tracer",
+      "organization": "Cisco",
+      "type": "practice",
+      "baseUrl": "https://www.netacad.com/courses/packet-tracer",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "networking",
+        "cisco"
+      ],
+      "topics": [
+        "networking",
+        "routers",
+        "switches",
+        "vlans"
+      ],
+      "notes": "Free network simulation tool."
+    },
+    {
+      "id": "hackerpath",
+      "name": "HackerOne",
+      "organization": "HackerOne",
+      "type": "practice",
+      "baseUrl": "https://www.hackerone.com",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "security",
+        "bug-bounty"
+      ],
+      "topics": [
+        "web-security",
+        "api-security",
+        "mobile-security"
+      ],
+      "notes": "Bug bounty platform for practice."
+    },
+    {
+      "id": "picoctf",
+      "name": "PicoCTF",
+      "organization": "Carnegie Mellon University",
+      "type": "practice",
+      "baseUrl": "https://picoctf.org",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 1,
+      "domains": [
+        "security",
+        "ctf"
+      ],
+      "topics": [
+        "binary-exploitation",
+        "cryptography",
+        "web-exploitation",
+        "forensics"
+      ],
+      "notes": "Free CTF for learning cybersecurity."
+    },
+    {
+      "id": "leetcode-sql",
+      "name": "LeetCode SQL",
+      "organization": "LeetCode",
+      "type": "practice",
+      "baseUrl": "https://leetcode.com/problemset/database/",
+      "verified": true,
+      "verifiedAt": "2026-08-24",
+      "reliabilityTier": 2,
+      "domains": [
+        "sql",
+        "database"
+      ],
+      "topics": [
+        "sql-joins",
+        "sql-window-functions",
+        "sql-aggregation"
+      ],
+      "notes": "SQL-specific problems on LeetCode."
+    }
+  ]
+}

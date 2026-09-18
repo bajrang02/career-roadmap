@@ -32,8 +32,8 @@ export function CareerCard({
     <Link
       href={`/roadmap/${slug}`}
       className={cn(
-        "group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border-light bg-card-light p-5 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-brand-300 hover:shadow-cardhover dark:border-border-dark dark:bg-card-dark dark:hover:border-brand-600",
-        compact && "p-4"
+        "group relative flex h-full flex-col overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition-all duration-200 hover:-translate-y-px hover:border-brand-300 hover:shadow-cardhover dark:border-slate-700/60 dark:bg-slate-800/80 dark:hover:border-brand-600/50",
+        compact && "p-3.5"
       )}
     >
       <div
@@ -42,7 +42,7 @@ export function CareerCard({
       />
       <div className="flex items-start justify-between">
         <span
-          className="flex h-11 w-11 items-center justify-center rounded-xl text-xl shadow-sm"
+          className="flex h-10 w-10 items-center justify-center rounded-lg text-lg shadow-sm"
           style={{ backgroundColor: `${entry.color}1a` }}
         >
           {entry.icon}
@@ -50,12 +50,12 @@ export function CareerCard({
         <ArrowUpRight className="h-4 w-4 text-slate-300 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-brand-500" />
       </div>
 
-      <h3 className="font-display mt-3.5 line-clamp-1 text-[17px] font-semibold text-slate-900 dark:text-white">
+      <h3 className="font-display mt-3 line-clamp-1 text-[15px] font-semibold text-slate-900 dark:text-white">
         {entry.title}
       </h3>
-      <p className="mt-1 line-clamp-1 text-[13px] text-slate-500 dark:text-slate-400">{entry.tagline}</p>
+      <p className="mt-0.5 line-clamp-1 text-[12px] text-slate-500 dark:text-slate-400">{entry.tagline}</p>
 
-      <div className="mb-4 mt-3 flex flex-wrap gap-1.5">
+      <div className="mb-3 mt-2.5 flex flex-wrap gap-1">
         <Badge variant="secondary">{categoryLabel(entry)}</Badge>
         <Badge variant={entry.difficulty === "Beginner" ? "success" : entry.difficulty === "Intermediate" ? "warning" : "danger"}>
           {entry.difficulty}
@@ -67,7 +67,7 @@ export function CareerCard({
         )}
       </div>
 
-      <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t border-border-light pt-3.5 text-[13px] text-slate-500 dark:border-slate-700 dark:text-slate-400">
+      <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-slate-100 pt-3 text-[12px] text-slate-500 dark:border-slate-700/50 dark:text-slate-400">
         <span className="flex items-center gap-1 whitespace-nowrap">
           <Clock className="h-3 w-3 shrink-0" aria-hidden="true" /> {entry.duration}
         </span>

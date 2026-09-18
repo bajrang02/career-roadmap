@@ -1,0 +1,158 @@
+{
+  "version": "2.0.0",
+  "description": "Curated learning resources organized by normalized topic label. Direct links only — no search pages.",
+  "resources": {
+    "html-fundamentals": [
+      {"title": "MDN HTML Guide", "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML", "kind": "docs"},
+      {"title": "freeCodeCamp HTML Course", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/", "kind": "course"}
+    ],
+    "css-fundamentals": [
+      {"title": "MDN CSS Guide", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS", "kind": "docs"},
+      {"title": "CSS-Tricks", "url": "https://css-tricks.com/", "kind": "article"}
+    ],
+    "javascript-basics": [
+      {"title": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "kind": "docs"},
+      {"title": "JavaScript.info", "url": "https://javascript.info/", "kind": "docs"}
+    ],
+    "data-structures-algorithms": [
+      {"title": "Visualgo — Algorithm Visualizations", "url": "https://visualgo.net/", "kind": "practice"},
+      {"title": "GeeksforGeeks DSA", "url": "https://www.geeksforgeeks.org/data-structures/", "kind": "article"}
+    ],
+    "database-design": [
+      {"title": "Database Design Course — freeCodeCamp", "url": "https://www.youtube.com/watch?v=ztHopE5Wnpc", "kind": "video"},
+      {"title": "PostgreSQL Documentation", "url": "https://www.postgresql.org/docs/", "kind": "docs"}
+    ],
+    "sql-fundamentals": [
+      {"title": "Mode Analytics SQL Tutorial", "url": "https://mode.com/sql-tutorial/", "kind": "course"},
+      {"title": "PostgreSQL Documentation", "url": "https://www.postgresql.org/docs/current/tutorial.html", "kind": "docs"}
+    ],
+    "rest-api-design": [
+      {"title": "RESTful API Design — Microsoft", "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design", "kind": "docs"},
+      {"title": "REST API Tutorial", "url": "https://restfulapi.net/", "kind": "article"}
+    ],
+    "git-mastery": [
+      {"title": "Git Official Documentation", "url": "https://git-scm.com/doc", "kind": "docs"},
+      {"title": "Pro Git Book (free)", "url": "https://git-scm.com/book/en/v2", "kind": "book"}
+    ],
+    "docker-fundamentals": [
+      {"title": "Docker Official Documentation", "url": "https://docs.docker.com/", "kind": "docs"},
+      {"title": "Docker Getting Started", "url": "https://docs.docker.com/get-started/", "kind": "docs"}
+    ],
+    "kubernetes-fundamentals": [
+      {"title": "Kubernetes Documentation", "url": "https://kubernetes.io/docs/", "kind": "docs"},
+      {"title": "Kubernetes Tutorials", "url": "https://kubernetes.io/docs/tutorials/", "kind": "docs"}
+    ],
+    "cloud-computing-foundations": [
+      {"title": "AWS Well-Architected Framework", "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html", "kind": "docs"},
+      {"title": "Google Cloud Documentation", "url": "https://cloud.google.com/docs", "kind": "docs"}
+    ],
+    "machine-learning-fundamentals": [
+      {"title": "Machine Learning — Andrew Ng (Coursera)", "url": "https://www.coursera.org/learn/machine-learning", "kind": "course"},
+      {"title": "Scikit-learn Documentation", "url": "https://scikit-learn.org/stable/", "kind": "docs"}
+    ],
+    "deep-learning": [
+      {"title": "Fast.ai Practical Deep Learning", "url": "https://course.fast.ai/", "kind": "course"},
+      {"title": "Deep Learning Book (Goodfellow)", "url": "https://www.deeplearningbook.org/", "kind": "book"}
+    ],
+    "python-for-data-science": [
+      {"title": "Python Data Science Handbook", "url": "https://jakevdp.github.io/PythonDataScienceHandbook/", "kind": "book"},
+      {"title": "Kaggle Python Course", "url": "https://www.kaggle.com/learn/python", "kind": "course"}
+    ],
+    "prompt-engineering": [
+      {"title": "OpenAI Prompt Engineering Guide", "url": "https://platform.openai.com/docs/guides/prompt-engineering", "kind": "docs"},
+      {"title": "Anthropic Prompt Engineering", "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering", "kind": "docs"}
+    ],
+    "owasp-top-10": [
+      {"title": "OWASP Top 10", "url": "https://owasp.org/www-project-top-ten/", "kind": "docs"},
+      {"title": "OWASP Web Security Testing Guide", "url": "https://owasp.org/www-project-web-security-testing-guide/", "kind": "docs"}
+    ],
+    "comp-tia-security-plus": [
+      {"title": "CompTIA Security+ Study Guide", "url": "https://www.comptia.org/certifications/security", "kind": "docs"},
+      {"title": "Professor Messer Security+", "url": "https://www.professormesser.com/security-plus/", "kind": "course"}
+    ],
+    "statistics-for-data-science": [
+      {"title": "Khan Academy Statistics", "url": "https://www.khanacademy.org/math/statistics-probability", "kind": "course"},
+      {"title": "Think Stats (free book)", "url": "https://greenteapress.com/thinkstats2/", "kind": "book"}
+    ],
+    "linear-algebra": [
+      {"title": "Khan Academy Linear Algebra", "url": "https://www.khanacademy.org/math/linear-algebra", "kind": "course"},
+      {"title": "MIT OCW Linear Algebra (Strang)", "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/", "kind": "course"}
+    ],
+    "thermodynamics": [
+      {"title": "MIT OCW Thermodynamics", "url": "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", "kind": "course"},
+      {"title": "Engineering Toolbox — Thermodynamics", "url": "https://www.engineeringtoolbox.com/", "kind": "cheatsheet"}
+    ],
+    "solidworks-tutorials": [
+      {"title": "SolidWorks Documentation", "url": "https://help.solidworks.com/", "kind": "docs"},
+      {"title": "SolidWorks Tutorials", "url": "https://www.solidworks.com/support/self-paced-training", "kind": "course"}
+    ],
+    "ansys-tutorials": [
+      {"title": "ANSYS Learning Hub", "url": "https://innovationspace.ansys.com/", "kind": "course"},
+      {"title": "ANSYS Documentation", "url": "https://ansyshelp.ansys.com/", "kind": "docs"}
+    ],
+    "matlab-documentation": [
+      {"title": "MATLAB Documentation", "url": "https://www.mathworks.com/help/matlab/", "kind": "docs"},
+      {"title": "MATLAB Tutorials", "url": "https://www.mathworks.com/support/tutorials.html", "kind": "docs"}
+    ],
+    "concurrency-patterns": [
+      {"title": "Concurrency Patterns in Go", "url": "https://go.dev/tour/concurrency/1", "kind": "docs"},
+      {"title": "Structured Concurrency", "url": "https://en.wikipedia.org/wiki/Structured_concurrency", "kind": "article"}
+    ],
+    "system-design": [
+      {"title": "System Design Primer", "url": "https://github.com/donnemartin/system-design-primer", "kind": "repo"},
+      {"title": "ByteByteGo System Design", "url": "https://blog.bytebytego.com/", "kind": "article"}
+    ],
+    "operating-systems": [
+      {"title": "MIT OCW 6.828 Operating Systems", "url": "https://ocw.mit.edu/courses/6-s081-operating-system-engineering-fall-2020/", "kind": "course"},
+      {"title": "Operating Systems: Three Easy Pieces", "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/", "kind": "book"}
+    ],
+    "computer-networking": [
+      {"title": "Computer Networking (Kurose & Ross)", "url": "https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm", "kind": "course"},
+      {"title": "Cloudflare Learning Center", "url": "https://www.cloudflare.com/learning/", "kind": "article"}
+    ],
+    "water-treatment": [
+      {"title": "EPA Water Treatment", "url": "https://www.epa.gov/dwreginfo", "kind": "docs"},
+      {"title": "MIT OCW Water Treatment", "url": "https://ocw.mit.edu/", "kind": "course"}
+    ],
+    "structural-analysis": [
+      {"title": "MIT OCW Structural Analysis", "url": "https://ocw.mit.edu/", "kind": "course"},
+      {"title": "Engineering Toolbox — Structural", "url": "https://www.engineeringtoolbox.com/", "kind": "cheatsheet"}
+    ],
+    "biomechanics": [
+      {"title": "MIT OCW Biomechanics", "url": "https://ocw.mit.edu/", "kind": "course"},
+      {"title": "IEEE EMBS Resources", "url": "https://www.embs.org/", "kind": "docs"}
+    ],
+    "cryptography-fundamentals": [
+      {"title": "Crypto101 (free book)", "url": "https://www.crypto101.io/", "kind": "book"},
+      {"title": "Cryptography I (Coursera — Dan Boneh)", "url": "https://www.coursera.org/learn/crypto", "kind": "course"}
+    ],
+    "network-security": [
+      {"title": "NIST Cybersecurity Framework", "url": "https://www.nist.gov/cyberframework", "kind": "docs"},
+      {"title": "SANS Reading Room", "url": "https://www.sans.org/reading-room/", "kind": "article"}
+    ],
+    "react-fundamentals": [
+      {"title": "React Official Documentation", "url": "https://react.dev/", "kind": "docs"},
+      {"title": "React Tutorial", "url": "https://react.dev/learn", "kind": "docs"}
+    ],
+    "closures-and-scope": [
+      {"title": "MDN Closures", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures", "kind": "docs"},
+      {"title": "JavaScript.info Closures", "url": "https://javascript.info/closure", "kind": "docs"}
+    ],
+    "promises-and-async-await": [
+      {"title": "MDN Promises", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises", "kind": "docs"},
+      {"title": "JavaScript.info Promises", "url": "https://javascript.info/promise-basics", "kind": "docs"}
+    ],
+    "hvac-systems": [
+      {"title": "ASHRAE Resources", "url": "https://www.ashrae.org/", "kind": "docs"},
+      {"title": "HVAC Learning — HVAC School", "url": "https://www.hvacrschool.com/", "kind": "article"}
+    ],
+    "fe-exam-preparation": [
+      {"title": "NCEES FE Exam Information", "url": "https://ncees.org/fe-exam/", "kind": "docs"},
+      {"title": "PrepFE — FE Exam Practice", "url": "https://prepfe.com/", "kind": "practice"}
+    ],
+    "plc-programming": [
+      {"title": "PLCdev Training", "url": "https://www.plcdev.com/plc_training", "kind": "course"},
+      {"title": "Allen Bradley PLC Tutorial", "url": "https://www.theautomationblog.com/", "kind": "article"}
+    ]
+  }
+}

@@ -16,8 +16,6 @@ interface UiState {
   dismissToast: (id: string) => void;
   showMinimap: boolean;
   setShowMinimap: (v: boolean) => void;
-  showLegend: boolean;
-  setShowLegend: (v: boolean) => void;
 }
 
 /** Never stack more than this many toasts — beyond it the oldest is dropped so
@@ -43,15 +41,13 @@ export const useUiStore = create<UiState>()(
       dismissToast: (id) => set((s) => ({ toasts: s.toasts.filter((t) => t.id !== id) })),
       showMinimap: true,
       setShowMinimap: (showMinimap) => set({ showMinimap }),
-      showLegend: true,
-      setShowLegend: (showLegend) => set({ showLegend }),
     }),
     {
       name: "cr-ui-prefs",
       // Only the canvas preferences persist — they're presented as settings on
       // /settings, so they have to survive a reload. Toasts are ephemeral and
       // must never be restored from a previous session.
-      partialize: (s) => ({ showMinimap: s.showMinimap, showLegend: s.showLegend }),
+      partialize: (s) => ({ showMinimap: s.showMinimap }),
       skipHydration: true,
     }
   )

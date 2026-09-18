@@ -97,7 +97,7 @@ export function SkillsBrowser({
   const hasFilters = category !== "all" || difficulty !== "all" || query.trim() !== "";
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="eyebrow">
@@ -112,8 +112,8 @@ export function SkillsBrowser({
       </div>
 
       {/* search + filters */}
-      <div className="mt-6 flex flex-wrap items-center gap-3">
-        <div className="relative min-w-[240px] flex-1 sm:max-w-sm">
+      <div className="mt-5 flex flex-wrap items-center gap-2.5 sm:mt-6 sm:gap-3">
+        <div className="relative min-w-0 flex-1 sm:min-w-[240px] sm:max-w-sm">
           <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500 dark:text-slate-400" />
           <Input
             value={query}
@@ -156,13 +156,13 @@ export function SkillsBrowser({
       </div>
 
       {/* category chips */}
-      <div className="mt-5 flex flex-wrap gap-2">
+      <div className="mt-4 flex flex-wrap gap-1.5 sm:mt-5 sm:gap-2">
         {[{ id: "all", count: all.length }, ...categoryChips].map((c) => (
           <button
             key={c.id}
             onClick={() => setCategory(c.id)}
             className={cn(
-              "rounded-full px-4 py-1.5 text-sm font-medium transition-all",
+              "rounded-full px-3 py-1 text-[13px] font-medium transition-all sm:px-4 sm:py-1.5 sm:text-sm",
               category === c.id
                 ? "bg-slate-900 text-white shadow-sm dark:bg-white dark:text-slate-900"
                 : "bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"

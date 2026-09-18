@@ -1,0 +1,22 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-08-24",
+  "description": "Curriculum reference linking all resources, practice, and certifications to curriculum nodes.",
+  "totalCareers": 155,
+  "totalSkills": 106,
+  "totalTopics": 12926,
+  "resourceCounts": {
+    "exact": 426,
+    "parentFallback": 4518,
+    "skillFallback": 2129,
+    "discovery": 5853
+  },
+  "practiceCounts": {
+    "exact": 169,
+    "parentFallback": 2721,
+    "none": 0
+  },
+  "certificationCounts": {
+    "careerLevel": 63
+  }
+}

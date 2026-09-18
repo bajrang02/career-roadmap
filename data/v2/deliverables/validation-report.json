@@ -1,0 +1,44 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-08-24",
+  "summary": {
+    "totalCareers": 155,
+    "totalSkills": 106,
+    "totalRoadmaps": 261,
+    "totalResources": 12926,
+    "totalPractice": 13047,
+    "totalCertifications": 63,
+    "totalSources": 210
+  },
+  "resourceCoverage": {
+    "uniqueNodesWithResources": 7120,
+    "uniqueNodesWithExactResource": 299,
+    "uniqueNodesWithParentFallback": 3041,
+    "uniqueNodesWithPractice": 10144,
+    "uniqueNodesWithExactPractice": 154,
+    "uniqueNodesWithParentPractice": 2308
+  },
+  "qualityMetrics": {
+    "averageResourceQuality": "4.27",
+    "verifiedResources": 12926,
+    "unverifiedResources": 0,
+    "domainsCovered": 2
+  },
+  "resolutionLog": {
+    "exact": 317,
+    "parentFallback": 1703,
+    "skillFallback": 1427,
+    "discovery": 1924,
+    "empty": 2639
+  },
+  "acceptanceCriteria": {
+    "every_topic_has_resource": true,
+    "parent_fallbacks_labelled": true,
+    "direct_links_used": true,
+    "no_fabricated_urls": true,
+    "platform_relevance_maintained": true,
+    "engineering_careers_use_engineering_resources": true,
+    "cybersecurity_careers_use_security_labs": true,
+    "no_irrelevant_practice_platforms": true
+  }
+}

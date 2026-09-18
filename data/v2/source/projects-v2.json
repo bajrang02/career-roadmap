@@ -1,0 +1,53 @@
+{
+  "version": "2.0.0",
+  "description": "Project ideas organized by topic with descriptions, difficulty levels, goals and requirements.",
+  "projects": {
+    "react-fundamentals": [
+      {"title": "Personal Portfolio with React", "description": "Build a responsive portfolio site showcasing your projects.", "difficulty": "Beginner", "duration": "4-6 hours", "skills": ["React", "CSS", "Responsive Design"]},
+      {"title": "Todo App with State Management", "description": "Build a full-featured Todo app with add, edit, delete, filter and localStorage.", "difficulty": "Beginner", "duration": "3-5 hours", "skills": ["React", "useState", "useEffect"]},
+      {"title": "Weather Dashboard", "description": "Fetch and display weather data with search, error handling and responsive layout.", "difficulty": "Intermediate", "duration": "4-8 hours", "skills": ["React", "REST API", "Async/Await"]}
+    ],
+    "sql-fundamentals": [
+      {"title": "Design a Library Database", "description": "Create ERD, normalize to 3NF, write DDL and populate with sample data.", "difficulty": "Beginner", "duration": "3-5 hours", "skills": ["SQL", "Database Design", "Normalization"]},
+      {"title": "Sales Analytics Queries", "description": "Write complex queries for a sales database including joins, aggregates and window functions.", "difficulty": "Intermediate", "duration": "3-5 hours", "skills": ["SQL", "Window Functions", "CTEs"]}
+    ],
+    "python-fundamentals": [
+      {"title": "CLI Task Manager", "description": "Build a command-line task manager with add, list, complete and delete operations.", "difficulty": "Beginner", "duration": "3-5 hours", "skills": ["Python", "File I/O", "CLI"]},
+      {"title": "Web Scraper", "description": "Scrape product data from a website and export to CSV/JSON.", "difficulty": "Intermediate", "duration": "4-6 hours", "skills": ["Python", "requests", "BeautifulSoup"]}
+    ],
+    "docker-fundamentals": [
+      {"title": "Containerize a Web Application", "description": "Dockerize a Node.js or Python web app with Dockerfile and Docker Compose.", "difficulty": "Beginner", "duration": "2-4 hours", "skills": ["Docker", "Dockerfile", "Compose"]},
+      {"title": "Multi-Service Development Stack", "description": "Set up a web app + database + cache stack with Docker Compose.", "difficulty": "Intermediate", "duration": "3-5 hours", "skills": ["Docker", "Docker Compose", "Networking"]}
+    ],
+    "kubernetes-fundamentals": [
+      {"title": "Deploy a Multi-Tier Application on K8s", "description": "Deploy frontend + backend + database using Kubernetes manifests.", "difficulty": "Intermediate", "duration": "4-8 hours", "skills": ["Kubernetes", "Pods", "Services", "Deployments"]},
+      {"title": "Prometheus + Grafana Monitoring Stack", "description": "Deploy a monitoring stack with Helm charts on a K8s cluster.", "difficulty": "Advanced", "duration": "6-10 hours", "skills": ["Kubernetes", "Helm", "Prometheus", "Grafana"]}
+    ],
+    "machine-learning-fundamentals": [
+      {"title": "Predict Housing Prices", "description": "Build a regression model to predict housing prices using scikit-learn.", "difficulty": "Beginner", "duration": "4-6 hours", "skills": ["Python", "scikit-learn", "Data Preprocessing"]},
+      {"title": "Customer Churn Prediction", "description": "Build a classification model to predict customer churn with feature engineering.", "difficulty": "Intermediate", "duration": "6-8 hours", "skills": ["Python", "Classification", "Feature Engineering"]}
+    ],
+    "owasp-top-10": [
+      {"title": "Web Application Security Audit", "description": "Perform a security audit of a web application using OWASP methodology.", "difficulty": "Intermediate", "duration": "6-8 hours", "skills": ["Penetration Testing", "OWASP", "Burp Suite"]}
+    ],
+    "rest-api-design": [
+      {"title": "Build a REST API with Authentication", "description": "Create a CRUD API with JWT authentication, input validation and error handling.", "difficulty": "Intermediate", "duration": "4-8 hours", "skills": ["REST", "Authentication", "API Design"]}
+    ],
+    "system-design": [
+      {"title": "Design a URL Shortener", "description": "Design and document a scalable URL shortening service.", "difficulty": "Intermediate", "duration": "2-4 hours", "skills": ["System Design", "Scalability", "Databases"]},
+      {"title": "Design a Chat System", "description": "Design a real-time messaging system like WhatsApp or Slack.", "difficulty": "Advanced", "duration": "3-5 hours", "skills": ["System Design", "WebSockets", "Message Queues"]}
+    ],
+    "thermodynamics": [
+      {"title": "Heat Exchanger Design Calculation", "description": "Design a shell-and-tube heat exchanger for a process plant application.", "difficulty": "Intermediate", "duration": "4-6 hours", "skills": ["Heat Transfer", "Thermodynamics", "MATLAB"]}
+    ],
+    "solidworks-tutorials": [
+      {"title": "Gearbox Assembly Design", "description": "Model and assemble a gearbox with spur gears, shafts and bearings in SolidWorks.", "difficulty": "Intermediate", "duration": "8-12 hours", "skills": ["SolidWorks", "Assembly Design", "GD&T"]}
+    ],
+    "structural-analysis": [
+      {"title": "Residential Building Structural Design", "description": "Design a two-story residential building using IS/ACI codes.", "difficulty": "Intermediate", "duration": "15-20 hours", "skills": ["Structural Design", "ETABS/STAAD", "Concrete Design"]}
+    ],
+    "plc-programming": [
+      {"title": "Traffic Light Controller", "description": "Program a traffic light controller using ladder logic in a PLC simulator.", "difficulty": "Beginner", "duration": "3-5 hours", "skills": ["PLC", "Ladder Logic", "Sequential Control"]}
+    ]
+  }
+}

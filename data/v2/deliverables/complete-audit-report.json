@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-08-31T09:39:36.622Z",
+  "summary": {
+    "careers": 155,
+    "skills": 106,
+    "roadmaps": 260,
+    "totalNodes": 18044,
+    "resources": 12550,
+    "uniqueResourceNodes": 7022,
+    "practice": 12960,
+    "uniquePracticeNodes": 10144,
+    "bothResourceAndPractice": 7022,
+    "resourcesOnly": 0,
+    "practiceOnly": 3122,
+    "noCoverage": 7900,
+    "coveragePercent": {
+      "resources": "38.9%",
+      "practice": "56.2%"
+    }
+  },
+  "resourceBreakdown": {
+    "unknown": 12550
+  },
+  "practiceBreakdown": {
+    "MathWorks Academy": 979,
+    "Exercism": 813,
+    "TryHackMe": 788,
+    "Kaggle": 647,
+    "HackerRank": 569,
+    "Autodesk": 437,
+    "KillerCoda": 425,
+    "AWS Skill Builder": 383,
+    "PortSwigger": 382,
+    "freeCodeCamp": 361,
+    "Codewars": 354,
+    "GitHub": 345,
+    "ANSYS": 326,
+    "Flutter": 230,
+    "Dassault Systèmes": 220,
+    "Figma": 216,
+    "LeetCode": 208,
+    "Apple": 199,
+    "SQLBolt": 187,
+    "ChipVerify": 187
+  },
+  "resolutionStats": {
+    "exact": 305,
+    "parentFallback": 1613,
+    "skillFallback": 1434,
+    "discovery": 1939,
+    "empty": 2719
+  },
+  "issues": {
+    "homepageUrls": 4567,
+    "crossDomainContamination": 0,
+    "duplicateUrlPairs": 0
+  },
+  "validation": {
+    "pass": 554,
+    "fallback": 18503,
+    "review": 6453,
+    "fail": 0
+  },
+  "buildStatus": {
+    "typescript": "PASS",
+    "eslint": "PASS",
+    "nextBuild": "PASS",
+    "pagesGenerated": 272,
+    "roadmapsGenerated": 260
+  }
+}

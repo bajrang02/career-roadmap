@@ -214,6 +214,7 @@ export const MindmapCanvas = memo(function MindmapCanvas({
       const g = gesture.current;
 
       if (pts.length >= 2) {
+        e.preventDefault(); // never let a pinch become a page gesture/selection
         const curMid = { x: (pts[0].x + pts[1].x) / 2, y: (pts[0].y + pts[1].y) / 2 };
         const dist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) || 1;
         const k = Math.min(MAX_K, Math.max(MIN_K, g.k * (dist / g.startDist)));
@@ -233,9 +234,14 @@ export const MindmapCanvas = memo(function MindmapCanvas({
       if (!dragStarted.current && Math.hypot(dx, dy) > PAN_THRESHOLD) {
         dragStarted.current = true;
         setIsPanning(true);
+        // Capture AND cancel the browser's default drag/selection behavior for
+        // the rest of this gesture — this is what stops node text from
+        // highlighting while panning.
         containerRef.current?.setPointerCapture(e.pointerId);
+        e.preventDefault();
       }
       if (dragStarted.current) {
+        e.preventDefault();
         scheduleViewportChange({ x: g.x + dx, y: g.y + dy, k: g.k });
       }
     },
@@ -319,12 +325,15 @@ export const MindmapCanvas = memo(function MindmapCanvas({
   return (
     <div
       ref={containerRef}
-      className="canvas-dots absolute inset-0 cursor-grab overflow-hidden touch-none active:cursor-grabbing"
+      className={`canvas-dots absolute inset-0 overflow-hidden touch-none ${isPanning ? "is-panning" : ""}`}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={endPointer}
       onPointerCancel={endPointer}
       onDoubleClick={onDoubleClick}
+      // nodes are not drag sources — kill the browser's native HTML5 drag
+      // (text/image/link dragging) at the container level
+      onDragStart={(e) => e.preventDefault()}
       onClick={(e) => {
         // a captured drag ends with a click retargeted to this container —
         // swallow it so panning never deselects the focused node

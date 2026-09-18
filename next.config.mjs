@@ -19,7 +19,7 @@ const nextConfig = {
         source: "/(.*)",
         headers: [
           // clickjacking protection — never allow framing this app
-          { key: "X-Frame-Options", value: "DENY" },
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
           // keep browsers from MIME-sniffing responses away from declared types
           { key: "X-Content-Type-Options", value: "nosniff" },
           // only send the origin (not the full URL) on cross-origin requests

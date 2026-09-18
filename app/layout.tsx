@@ -77,13 +77,11 @@ export const metadata: Metadata = {
   },
 };
 
-const themeInit = `
-try{var t=localStorage.getItem('cr-theme');var theme=t?JSON.parse(t).state.theme:'light';var d=document.documentElement;d.classList.toggle('dark',theme==='dark');d.style.colorScheme=theme;}catch(e){}
-`;
+const themeInit = `try{var t=localStorage.getItem('cr-theme');var theme=t?JSON.parse(t).state.theme:'light';var dark=theme==='dark'||(theme==='system'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);var d=document.documentElement;d.classList.toggle('dark',dark);d.style.colorScheme=dark?'dark':'light';}catch(e){}`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
         {/* Scroll-reveal sections are framer-motion elements: their "hidden"
@@ -111,7 +109,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <Providers>
           <Navbar />
-          <main id="main" className="min-h-[60vh]">
+          <main id="main">
             {children}
           </main>
           <Footer />

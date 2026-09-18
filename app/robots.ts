@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "*",
         allow: "/",
         // Device-local, per-visitor views — nothing for a crawler to index.
-        disallow: ["/dashboard", "/bookmarks", "/settings"],
+        
       },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,

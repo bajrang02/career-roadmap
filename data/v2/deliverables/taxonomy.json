@@ -1,0 +1,851 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-08-24",
+  "description": "Career and skill taxonomy for the CareerRoadmaps platform. Organized by professional domains with hierarchical classification.",
+  "domains": [
+    {
+      "id": "software",
+      "name": "Software & Computing",
+      "icon": "💻",
+      "description": "Build the applications, systems and platforms the world runs on — from web to enterprise to systems programming.",
+      "subdomains": [
+        {
+          "id": "web",
+          "name": "Web Development",
+          "description": "Frontend, backend, full-stack and web platform engineering."
+        },
+        {
+          "id": "mobile",
+          "name": "Mobile Development",
+          "description": "Native and cross-platform apps for iOS and Android."
+        },
+        {
+          "id": "systems",
+          "name": "Systems Programming",
+          "description": "Low-level systems, compilers, operating systems and performance engineering."
+        },
+        {
+          "id": "desktop",
+          "name": "Desktop Applications",
+          "description": "Native desktop apps for Windows, macOS and Linux."
+        },
+        {
+          "id": "game",
+          "name": "Game & Graphics",
+          "description": "Game engines, real-time graphics, physics and interactive media."
+        },
+        {
+          "id": "quality",
+          "name": "Quality Assurance & Testing",
+          "description": "Manual, automated, performance and accessibility testing."
+        }
+      ],
+      "careers": [
+        "software-engineer",
+        "frontend-developer",
+        "backend-developer",
+        "full-stack-developer",
+        "web-developer",
+        "mobile-developer",
+        "android-developer",
+        "ios-developer",
+        "flutter-developer",
+        "react-native-developer",
+        "desktop-app-developer",
+        "game-developer",
+        "graphics-programmer",
+        "systems-programmer",
+        "embedded-software-engineer",
+        "firmware-engineer",
+        "compiler-engineer",
+        "devtools-engineer",
+        "qa-engineer",
+        "automation-test-engineer",
+        "performance-engineer",
+        "site-reliability-engineer",
+        "platform-engineer",
+        "build-release-engineer"
+      ]
+    },
+    {
+      "id": "ai-data",
+      "name": "AI & Data Science",
+      "icon": "🤖",
+      "description": "Teach machines, model data, and ship intelligent products — from analytics to generative AI.",
+      "subdomains": [
+        {
+          "id": "analytics",
+          "name": "Data Analytics & BI",
+          "description": "Data analysis, visualization and business intelligence."
+        },
+        {
+          "id": "engineering",
+          "name": "Data Engineering",
+          "description": "Pipelines, warehouses, orchestration and data infrastructure."
+        },
+        {
+          "id": "science",
+          "name": "Data Science & ML",
+          "description": "Statistical modeling, machine learning and research."
+        },
+        {
+          "id": "ai",
+          "name": "Artificial Intelligence",
+          "description": "Deep learning, NLP, computer vision, generative AI and agents."
+        },
+        {
+          "id": "ops",
+          "name": "MLOps",
+          "description": "Model deployment, monitoring and operationalization."
+        }
+      ],
+      "careers": [
+        "data-analyst",
+        "bi-analyst",
+        "bi-developer",
+        "data-engineer",
+        "analytics-engineer",
+        "data-scientist",
+        "machine-learning-engineer",
+        "ai-engineer",
+        "deep-learning-engineer",
+        "nlp-engineer",
+        "computer-vision-engineer",
+        "generative-ai-engineer",
+        "ai-agent-engineer",
+        "mlops-engineer",
+        "research-engineer",
+        "applied-scientist",
+        "ai-application-developer",
+        "robotics-ai-engineer"
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Cybersecurity",
+      "icon": "🔐",
+      "description": "Defend systems, find vulnerabilities, and respond to attacks — offensive and defensive security.",
+      "subdomains": [
+        {
+          "id": "defense",
+          "name": "Defensive Security",
+          "description": "SOC operations, monitoring, detection and incident response."
+        },
+        {
+          "id": "offense",
+          "name": "Offensive Security",
+          "description": "Penetration testing, red teaming and ethical hacking."
+        },
+        {
+          "id": "appsec",
+          "name": "Application Security",
+          "description": "Secure development, code review, SAST/DAST and threat modeling."
+        },
+        {
+          "id": "cloudsec",
+          "name": "Cloud & Infrastructure Security",
+          "description": "Cloud hardening, network security and infrastructure protection."
+        },
+        {
+          "id": "forensics",
+          "name": "Digital Forensics & Malware",
+          "description": "Incident investigation, evidence analysis and malware analysis."
+        },
+        {
+          "id": "governance",
+          "name": "GRC & Compliance",
+          "description": "Governance, risk management, compliance and policy."
+        }
+      ],
+      "careers": [
+        "cybersecurity-analyst",
+        "soc-analyst",
+        "security-engineer",
+        "security-architect",
+        "application-security-engineer",
+        "cloud-security-engineer",
+        "network-security-engineer",
+        "penetration-tester",
+        "ethical-hacker",
+        "red-team-engineer",
+        "blue-team-engineer",
+        "detection-engineer",
+        "threat-hunter",
+        "incident-response-analyst",
+        "digital-forensics-analyst",
+        "malware-analyst",
+        "security-researcher",
+        "iam-engineer",
+        "grc-analyst",
+        "security-operations-engineer"
+      ]
+    },
+    {
+      "id": "cloud-devops",
+      "name": "Cloud & DevOps",
+      "icon": "☁️",
+      "description": "Design, deploy and operate reliable infrastructure at scale — cloud platforms, containers and automation.",
+      "subdomains": [
+        {
+          "id": "cloud-platform",
+          "name": "Cloud Platforms",
+          "description": "AWS, Azure, GCP and multi-cloud architecture."
+        },
+        {
+          "id": "containers",
+          "name": "Containers & Orchestration",
+          "description": "Docker, Kubernetes and container runtime management."
+        },
+        {
+          "id": "iac",
+          "name": "Infrastructure as Code",
+          "description": "Terraform, CloudFormation, Ansible and automation."
+        },
+        {
+          "id": "cicd",
+          "name": "CI/CD & Release Engineering",
+          "description": "Build pipelines, deployment strategies and release management."
+        },
+        {
+          "id": "observability",
+          "name": "Monitoring & Observability",
+          "description": "Metrics, logging, tracing and incident response."
+        },
+        {
+          "id": "reliability",
+          "name": "Site Reliability Engineering",
+          "description": "SLOs, error budgets, capacity planning and resilience."
+        }
+      ],
+      "careers": [
+        "cloud-engineer",
+        "cloud-architect",
+        "devops-engineer",
+        "site-reliability-engineer",
+        "platform-engineer",
+        "infrastructure-engineer",
+        "kubernetes-engineer",
+        "cloud-security-engineer",
+        "systems-engineer",
+        "linux-engineer",
+        "network-engineer",
+        "database-engineer",
+        "database-administrator",
+        "infrastructure-automation-engineer"
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electrical & Electronics",
+      "icon": "⚡",
+      "description": "Design circuits, systems and hardware — from power electronics to semiconductor design to telecommunications.",
+      "subdomains": [
+        {
+          "id": "power",
+          "name": "Power Systems",
+          "description": "Generation, transmission, distribution and power electronics."
+        },
+        {
+          "id": "control",
+          "name": "Control Systems & Automation",
+          "description": "Feedback systems, PLCs, SCADA and industrial automation."
+        },
+        {
+          "id": "embedded",
+          "name": "Embedded Systems",
+          "description": "Microcontrollers, RTOS, firmware and hardware interfaces."
+        },
+        {
+          "id": "vlsi",
+          "name": "VLSI & Semiconductor",
+          "description": "IC design, FPGA, ASIC and chip verification."
+        },
+        {
+          "id": "communications",
+          "name": "Telecommunications & RF",
+          "description": "Signal processing, wireless, RF and microwave engineering."
+        },
+        {
+          "id": "pcb",
+          "name": "PCB & Hardware Design",
+          "description": "Circuit design, PCB layout and electronic prototyping."
+        }
+      ],
+      "careers": [
+        "electrical-engineer",
+        "electronics-engineer",
+        "electronics-design-engineer",
+        "power-systems-engineer",
+        "power-electronics-engineer",
+        "control-systems-engineer",
+        "instrumentation-engineer",
+        "embedded-systems-engineer",
+        "firmware-engineer",
+        "fpga-engineer",
+        "asic-engineer",
+        "vlsi-engineer",
+        "semiconductor-engineer",
+        "rf-engineer",
+        "microwave-engineer",
+        "telecommunications-engineer",
+        "signal-processing-engineer",
+        "pcb-design-engineer",
+        "hardware-design-engineer",
+        "verification-engineer",
+        "test-engineer",
+        "mechatronics-engineer",
+        "robotics-engineer"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "Mechanical Engineering",
+      "icon": "⚙️",
+      "description": "Design, analyze and manufacture physical products and machines — from CAD to thermal systems to robotics.",
+      "subdomains": [
+        {
+          "id": "design",
+          "name": "Mechanical Design",
+          "description": "CAD, machine design, product design and manufacturing drawings."
+        },
+        {
+          "id": "manufacturing",
+          "name": "Manufacturing",
+          "description": "Production processes, CNC, additive manufacturing and quality."
+        },
+        {
+          "id": "thermal",
+          "name": "Thermal & Fluid Systems",
+          "description": "Heat transfer, thermodynamics, CFD and HVAC."
+        },
+        {
+          "id": "analysis",
+          "name": "CAE & Simulation",
+          "description": "FEA, CFD, multibody dynamics and design optimization."
+        },
+        {
+          "id": "automotive",
+          "name": "Automotive Engineering",
+          "description": "Vehicle design, powertrains, NVH and ADAS."
+        },
+        {
+          "id": "robotics",
+          "name": "Robotics & Mechatronics",
+          "description": "Mechatronic systems, actuators, sensors and control."
+        }
+      ],
+      "careers": [
+        "mechanical-design-engineer",
+        "product-design-engineer",
+        "manufacturing-engineer",
+        "production-engineer",
+        "automotive-engineer",
+        "aerospace-mechanical-engineer",
+        "thermal-engineer",
+        "hvac-engineer",
+        "fluid-systems-engineer",
+        "cae-engineer",
+        "fea-engineer",
+        "cfd-engineer",
+        "robotics-engineer",
+        "mechatronics-engineer",
+        "reliability-engineer",
+        "maintenance-engineer",
+        "tool-design-engineer",
+        "cad-engineer",
+        "additive-manufacturing-engineer",
+        "industrial-automation-engineer"
+      ]
+    },
+    {
+      "id": "civil",
+      "name": "Civil & Construction",
+      "icon": "🏗️",
+      "description": "Design and build infrastructure — buildings, bridges, roads, water systems and urban environments.",
+      "subdomains": [
+        {
+          "id": "structural",
+          "name": "Structural Engineering",
+          "description": "Structural analysis, design of steel, concrete and timber structures."
+        },
+        {
+          "id": "geotechnical",
+          "name": "Geotechnical Engineering",
+          "description": "Soil mechanics, foundations and earth structures."
+        },
+        {
+          "id": "transport",
+          "name": "Transportation Engineering",
+          "description": "Highways, railways, traffic and pavement design."
+        },
+        {
+          "id": "water",
+          "name": "Water Resources",
+          "description": "Hydraulics, hydrology, irrigation and water treatment."
+        },
+        {
+          "id": "construction",
+          "name": "Construction Management",
+          "description": "Project planning, scheduling, cost and site management."
+        },
+        {
+          "id": "bim",
+          "name": "BIM & Digital Construction",
+          "description": "Building Information Modeling, GIS and digital twins."
+        }
+      ],
+      "careers": [
+        "civil-engineer",
+        "structural-engineer",
+        "geotechnical-engineer",
+        "transportation-engineer",
+        "highway-engineer",
+        "water-resources-engineer",
+        "hydraulics-engineer",
+        "environmental-engineer",
+        "construction-engineer",
+        "site-engineer",
+        "bim-engineer",
+        "quantity-surveyor",
+        "survey-engineer",
+        "urban-infrastructure-engineer",
+        "structural-analysis-engineer"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "Chemical & Process",
+      "icon": "🧪",
+      "description": "Design chemical processes, ensure safety and optimize production in industries from pharma to energy.",
+      "subdomains": [
+        {
+          "id": "process-design",
+          "name": "Process Design",
+          "description": "Flowsheets, equipment sizing, process simulation and optimization."
+        },
+        {
+          "id": "safety",
+          "name": "Process Safety",
+          "description": "HAZOP, risk assessment, relief systems and safety management."
+        },
+        {
+          "id": "energy",
+          "name": "Energy & Petrochemical",
+          "description": "Refining, petrochemical processes and energy systems."
+        },
+        {
+          "id": "bio",
+          "name": "Bioprocess & Pharma",
+          "description": "Biotechnology, pharmaceutical manufacturing and GMP."
+        },
+        {
+          "id": "environmental",
+          "name": "Environmental Process",
+          "description": "Waste treatment, pollution control and environmental compliance."
+        }
+      ],
+      "careers": [
+        "chemical-engineer",
+        "process-engineer",
+        "process-design-engineer",
+        "process-safety-engineer",
+        "petrochemical-engineer",
+        "energy-engineer",
+        "bioprocess-engineer",
+        "pharmaceutical-process-engineer",
+        "materials-polymer-engineer",
+        "environmental-process-engineer",
+        "production-plant-engineer",
+        "simulation-optimization-engineer"
+      ]
+    },
+    {
+      "id": "agricultural",
+      "name": "Agricultural & Biological",
+      "icon": "🌾",
+      "description": "Apply engineering to farming, food systems and biological processes for sustainable production.",
+      "subdomains": [
+        {
+          "id": "farm-machinery",
+          "name": "Farm Machinery",
+          "description": "Equipment design, automation and precision agriculture."
+        },
+        {
+          "id": "irrigation",
+          "name": "Irrigation & Water",
+          "description": "Irrigation systems, water management and drainage."
+        },
+        {
+          "id": "food",
+          "name": "Food Processing",
+          "description": "Post-harvest technology, food safety and processing."
+        },
+        {
+          "id": "iot",
+          "name": "Agricultural IoT",
+          "description": "Sensors, drones, GPS and data-driven farming."
+        }
+      ],
+      "careers": [
+        "agricultural-engineer",
+        "irrigation-engineer",
+        "farm-machinery-engineer",
+        "agricultural-automation-engineer",
+        "precision-agriculture-specialist",
+        "agricultural-iot-engineer",
+        "food-process-engineer",
+        "biosystems-engineer",
+        "environmental-agriculture-engineer",
+        "post-harvest-engineering-specialist"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "Aerospace & Aviation",
+      "icon": "✈️",
+      "description": "Design aircraft, spacecraft and propulsion systems — from aerodynamics to avionics to space systems.",
+      "subdomains": [
+        {
+          "id": "aerodynamics",
+          "name": "Aerodynamics",
+          "description": "Fluid dynamics, wind tunnel testing and CFD for flight."
+        },
+        {
+          "id": "propulsion",
+          "name": "Propulsion",
+          "description": "Jet engines, rocket propulsion and electric propulsion."
+        },
+        {
+          "id": "structures",
+          "name": "Aerospace Structures",
+          "description": "Lightweight structures, composites and fatigue analysis."
+        },
+        {
+          "id": "avionics",
+          "name": "Avionics & GNC",
+          "description": "Navigation, control systems, flight mechanics and guidance."
+        },
+        {
+          "id": "space",
+          "name": "Space Systems",
+          "description": "Satellite design, orbital mechanics and mission planning."
+        }
+      ],
+      "careers": [
+        "aerospace-engineer",
+        "aerodynamics-engineer",
+        "propulsion-engineer",
+        "flight-mechanics-engineer",
+        "structures-engineer",
+        "avionics-engineer",
+        "guidance-navigation-control-engineer",
+        "systems-engineer",
+        "space-systems-engineer",
+        "thermal-engineer",
+        "aircraft-design-engineer",
+        "test-engineer"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial & Systems",
+      "icon": "🏭",
+      "description": "Optimize processes, improve quality and manage complex systems for maximum efficiency.",
+      "subdomains": [
+        {
+          "id": "operations",
+          "name": "Operations Research",
+          "description": "Optimization, simulation, queueing theory and decision analysis."
+        },
+        {
+          "id": "quality",
+          "name": "Quality Engineering",
+          "description": "Six Sigma, SPC, reliability and quality management systems."
+        },
+        {
+          "id": "supply-chain",
+          "name": "Supply Chain",
+          "description": "Logistics, procurement, inventory and supply chain optimization."
+        },
+        {
+          "id": "lean",
+          "name": "Lean & Process Improvement",
+          "description": "Kaizen, value stream mapping and continuous improvement."
+        }
+      ],
+      "careers": [
+        "industrial-engineer",
+        "manufacturing-engineer",
+        "operations-engineer",
+        "quality-engineer",
+        "process-improvement-engineer",
+        "supply-chain-engineer",
+        "reliability-engineer",
+        "systems-engineer",
+        "operations-research-analyst",
+        "automation-engineer",
+        "production-engineer",
+        "manufacturing-data-analyst"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "Materials & Metallurgy",
+      "icon": "🔬",
+      "description": "Develop, test and apply materials — from metals and polymers to ceramics and composites.",
+      "subdomains": [
+        {
+          "id": "metals",
+          "name": "Metallurgy",
+          "description": "Physical metallurgy, extractive metallurgy and welding."
+        },
+        {
+          "id": "polymers",
+          "name": "Polymers & Composites",
+          "description": "Polymer science, composite design and manufacturing."
+        },
+        {
+          "id": "corrosion",
+          "name": "Corrosion & Protection",
+          "description": "Corrosion mechanisms, coatings and cathodic protection."
+        },
+        {
+          "id": "mining",
+          "name": "Mining & Mineral Processing",
+          "description": "Mine planning, mineral extraction and processing."
+        }
+      ],
+      "careers": [
+        "materials-engineer",
+        "metallurgical-engineer",
+        "materials-scientist",
+        "corrosion-engineer",
+        "polymer-engineer",
+        "ceramic-engineer",
+        "mining-engineer",
+        "mineral-processing-engineer",
+        "extractive-metallurgy-engineer",
+        "welding-engineer"
+      ]
+    },
+    {
+      "id": "environmental",
+      "name": "Environmental & Energy",
+      "icon": "🌱",
+      "description": "Protect the environment and develop sustainable energy systems — from renewables to waste management.",
+      "subdomains": [
+        {
+          "id": "renewable",
+          "name": "Renewable Energy",
+          "description": "Solar, wind, hydro and energy storage systems."
+        },
+        {
+          "id": "treatment",
+          "name": "Water & Waste Treatment",
+          "description": "Water purification, wastewater treatment and solid waste."
+        },
+        {
+          "id": "assessment",
+          "name": "Environmental Assessment",
+          "description": "EIA, pollution monitoring and remediation."
+        },
+        {
+          "id": "sustainability",
+          "name": "Sustainability Engineering",
+          "description": "Carbon reduction, life cycle assessment and green design."
+        }
+      ],
+      "careers": [
+        "environmental-engineer",
+        "renewable-energy-engineer",
+        "solar-engineer",
+        "wind-energy-engineer",
+        "energy-systems-engineer",
+        "sustainability-engineer",
+        "water-treatment-engineer",
+        "waste-management-engineer",
+        "energy-efficiency-engineer"
+      ]
+    },
+    {
+      "id": "biomedical",
+      "name": "Biomedical & Bioengineering",
+      "icon": "🏥",
+      "description": "Apply engineering to healthcare — medical devices, biomaterials, biomechanics and clinical systems.",
+      "subdomains": [
+        {
+          "id": "devices",
+          "name": "Medical Devices",
+          "description": "Design, regulation and manufacturing of medical devices."
+        },
+        {
+          "id": "biomaterials",
+          "name": "Biomaterials",
+          "description": "Biocompatible materials, implants and tissue engineering."
+        },
+        {
+          "id": "instrumentation",
+          "name": "Bioinstrumentation",
+          "description": "Medical sensors, imaging systems and signal processing."
+        },
+        {
+          "id": "rehab",
+          "name": "Rehabilitation Engineering",
+          "description": "Prosthetics, orthotics and assistive technologies."
+        }
+      ],
+      "careers": [
+        "biomedical-engineer",
+        "medical-device-engineer",
+        "clinical-engineer",
+        "biomaterials-engineer",
+        "biomechanics-engineer",
+        "bioinstrumentation-engineer",
+        "rehabilitation-engineer",
+        "medical-imaging-engineer"
+      ]
+    },
+    {
+      "id": "design",
+      "name": "Design & Technical Design",
+      "icon": "🎨",
+      "description": "Design user interfaces, products and technical documentation — from UI/UX to industrial design to BIM.",
+      "subdomains": [
+        {
+          "id": "uiux",
+          "name": "UI/UX Design",
+          "description": "User research, interaction design, prototyping and usability."
+        },
+        {
+          "id": "product",
+          "name": "Product Design",
+          "description": "Industrial design, form factors and design thinking."
+        },
+        {
+          "id": "technical",
+          "name": "Technical Design & CAD",
+          "description": "Engineering drawings, 3D CAD and technical documentation."
+        }
+      ],
+      "careers": [
+        "ui-designer",
+        "ux-designer",
+        "product-designer",
+        "cad-designer",
+        "industrial-designer",
+        "technical-designer",
+        "bim-specialist",
+        "cad-3d-specialist",
+        "engineering-visualization-specialist"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "id": "programming",
+      "name": "Programming Languages",
+      "icon": "⌨️",
+      "description": "Programming languages from C to Python to Rust."
+    },
+    {
+      "id": "web-dev",
+      "name": "Web Development",
+      "icon": "🌐",
+      "description": "HTML, CSS, JavaScript, frameworks and web platforms."
+    },
+    {
+      "id": "backend",
+      "name": "Backend & Frameworks",
+      "icon": "⚙️",
+      "description": "Server-side frameworks, APIs and application architecture."
+    },
+    {
+      "id": "data",
+      "name": "Data & Analytics",
+      "icon": "📊",
+      "description": "Data tools, visualization, statistics and business intelligence."
+    },
+    {
+      "id": "databases",
+      "name": "Databases",
+      "icon": "🗄️",
+      "description": "SQL, NoSQL, data modeling and database administration."
+    },
+    {
+      "id": "cloud-infra",
+      "name": "Cloud & Infrastructure",
+      "icon": "☁️",
+      "description": "Cloud platforms, containers, IaC and infrastructure."
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI & Machine Learning",
+      "icon": "🧠",
+      "description": "ML frameworks, deep learning, NLP and computer vision."
+    },
+    {
+      "id": "security",
+      "name": "Cybersecurity",
+      "icon": "🔐",
+      "description": "Security tools, frameworks and methodologies."
+    },
+    {
+      "id": "engineering-sw",
+      "name": "Engineering Software",
+      "icon": "🏗️",
+      "description": "CAD, FEA, CFD, simulation and engineering tools."
+    },
+    {
+      "id": "design-tools",
+      "name": "Design Tools",
+      "icon": "🎨",
+      "description": "Figma, Adobe Creative Suite, prototyping tools."
+    },
+    {
+      "id": "devops-tools",
+      "name": "DevOps & CI/CD",
+      "icon": "🔄",
+      "description": "Git, CI/CD, monitoring and release tools."
+    }
+  ],
+  "commonFoundation": {
+    "mathematics": {
+      "name": "Engineering Mathematics",
+      "topics": [
+        "Algebra",
+        "Trigonometry",
+        "Calculus",
+        "Differential Equations",
+        "Linear Algebra",
+        "Probability",
+        "Statistics",
+        "Numerical Methods",
+        "Discrete Mathematics"
+      ]
+    },
+    "science": {
+      "name": "Engineering Science",
+      "topics": [
+        "Physics",
+        "Chemistry",
+        "Materials Science",
+        "Computing Fundamentals"
+      ]
+    },
+    "practice": {
+      "name": "Engineering Practice",
+      "topics": [
+        "Engineering Drawing",
+        "CAD",
+        "Measurement & Instrumentation",
+        "Laboratory Methods",
+        "Technical Communication",
+        "Engineering Ethics",
+        "Safety & Standards",
+        "Engineering Economics",
+        "Project Management",
+        "Data Analysis"
+      ]
+    }
+  }
+}

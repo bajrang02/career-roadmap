@@ -1,308 +1,248 @@
 "use client";
 
-import { Download, Layers, Map, Moon, Palette, Sun, Trash2, Upload, User } from "lucide-react";
-import { useThemeStore, applyTheme } from "@/lib/stores/theme-store";
-import { useUiStore } from "@/lib/stores/ui-store";
-import { useSettingsStore } from "@/lib/stores/settings-store";
-import { useStudyPlanStore, type SavedPlan } from "@/lib/stores/study-plan-store";
+import { useCallback, useEffect, useRef, useState } from "react";
+import {
+  Download,
+  Upload,
+  Trash2,
+  Sun,
+  Moon,
+  Monitor,
+  Check,
+} from "lucide-react";
+import { useThemeStore } from "@/lib/stores/theme-store";
 import { useProgressStore } from "@/lib/stores/progress-store";
 import { useBookmarksStore } from "@/lib/stores/bookmarks-store";
-import { useAchievementsStore } from "@/lib/stores/achievements-store";
-import { useRef, useState } from "react";
+import { useUiStore } from "@/lib/stores/ui-store";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Switch } from "@/components/ui/switch";
-import { Input } from "@/components/ui/input";
-import { ConfirmDialog } from "@/components/ui/confirm-dialog";
-import { cn } from "@/lib/utils";
 
 export default function SettingsPage() {
   const theme = useThemeStore((s) => s.theme);
   const setTheme = useThemeStore((s) => s.set);
   const showMinimap = useUiStore((s) => s.showMinimap);
   const setShowMinimap = useUiStore((s) => s.setShowMinimap);
-  const showLegend = useUiStore((s) => s.showLegend);
-  const setShowLegend = useUiStore((s) => s.setShowLegend);
-  const learnerName = useSettingsStore((s) => s.learnerName);
-  const setLearnerName = useSettingsStore((s) => s.setLearnerName);
-  const toast = useUiStore((s) => s.toast);
-  const plans = useStudyPlanStore((s) => s.plans);
-  const clearPlan = useStudyPlanStore((s) => s.clearPlan);
+  const exportData = useProgressStore((s) => s.exportData);
+  const importData = useProgressStore((s) => s.importData);
+  const clearProgress = useProgressStore((s) => s.clearAll);
+  const clearBookmarks = useBookmarksStore((s) => s.clearAll);
+  const completed = useProgressStore((s) => s.completed);
+  const bookmarks = useBookmarksStore((s) => s.bookmarks);
+  const certificates = useProgressStore((s) => s.certificates);
+
   const fileRef = useRef<HTMLInputElement>(null);
-
-  // Both of these overwrite everything the learner has built up on this device
-  // and cannot be undone — neither used to ask first.
+  const [importStatus, setImportStatus] = useState<"idle" | "success" | "error">("idle");
   const [confirmClear, setConfirmClear] = useState(false);
-  const [pendingImport, setPendingImport] = useState<File | null>(null);
 
-  const pickTheme = (t: "light" | "dark") => {
-    setTheme(t);
-    applyTheme(t);
-  };
+  useEffect(() => {
+    useProgressStore.persist.rehydrate();
+    useBookmarksStore.persist.rehydrate();
+  }, []);
 
-  const clearAllData = () => {
-    useProgressStore.setState({ completed: [], certificates: [] });
-    useBookmarksStore.setState({ bookmarks: [] });
-    useAchievementsStore.getState().clearAll();
-    const keys = Object.keys(plans);
-    for (const k of keys) clearPlan(k);
-    useSettingsStore.setState({ learnerName: "" });
-    // purge persisted view state + the stores that aren't zustand-reachable here
-    const prefixes = ["cr-viewport:", "cr-collapsed:", "cr-recent:"];
-    const doomed = ["cr-achievements-storage", "roadmap-choices"];
-    for (let i = 0; i < localStorage.length; i++) {
-      const k = localStorage.key(i);
-      if (k && prefixes.some((p) => k.startsWith(p))) doomed.push(k);
-    }
-    for (const k of doomed) localStorage.removeItem(k);
-    toast("All data cleared", { description: "Your progress, bookmarks, plans and view state were reset.", kind: "info" });
-  };
-
-  // Export every piece of local data as a portable JSON backup — the
-  // guest-only replacement for cloud sync. Download, move to another device,
-  // then import there.
-  const exportData = () => {
-    const data = {
-      app: "career-roadmaps",
-      version: 1,
-      exportedAt: new Date().toISOString(),
-      progress: useProgressStore.getState().completed,
-      certificates: useProgressStore.getState().certificates,
-      bookmarks: useBookmarksStore.getState().bookmarks,
-      plans: useStudyPlanStore.getState().plans,
-      achievements: {
-        achievements: useAchievementsStore.getState().achievements,
-        streakDays: useAchievementsStore.getState().streakDays,
-        lastActiveDate: useAchievementsStore.getState().lastActiveDate,
-        dailyGoalHours: useAchievementsStore.getState().dailyGoalHours,
-        todayStudiedHours: useAchievementsStore.getState().todayStudiedHours,
-      },
-      preferences: {
-        learnerName: useSettingsStore.getState().learnerName,
-        theme: useThemeStore.getState().theme,
-      },
-    };
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const handleExport = useCallback(() => {
+    const data = exportData();
+    const blob = new Blob([data], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "career-roadmaps-backup.json";
+    a.download = `career-roadmaps-progress-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
-    toast("Backup exported", { description: "Your data was downloaded as a JSON file.", kind: "info" });
-  };
+  }, [exportData]);
 
-  const importData = (file: File) => {
+  const handleImport = useCallback(() => {
+    const file = fileRef.current?.files?.[0];
+    if (!file) return;
     const reader = new FileReader();
     reader.onload = () => {
       try {
-        const data = JSON.parse(String(reader.result)) as {
-          app?: string;
-          progress?: unknown;
-          certificates?: unknown;
-          bookmarks?: unknown;
-          plans?: unknown;
-          achievements?: unknown;
-          preferences?: { learnerName?: string; theme?: "light" | "dark" };
-        };
-        if (!data || data.app !== "career-roadmaps") throw new Error("not a backup");
-        useProgressStore.setState({
-          completed: Array.isArray(data.progress) ? data.progress : [],
-          certificates: Array.isArray(data.certificates) ? data.certificates : [],
-        });
-        useBookmarksStore.setState({
-          bookmarks: Array.isArray(data.bookmarks) ? data.bookmarks : [],
-        });
-        if (data.plans && typeof data.plans === "object") {
-          useStudyPlanStore.setState({ plans: data.plans as Record<string, SavedPlan> });
-        }
-        if (data.achievements && typeof data.achievements === "object") {
-          const a = data.achievements as Record<string, unknown>;
-          useAchievementsStore.setState({
-            achievements: Array.isArray(a.achievements) ? a.achievements : [],
-            streakDays: typeof a.streakDays === "number" ? a.streakDays : 0,
-            lastActiveDate: typeof a.lastActiveDate === "string" ? a.lastActiveDate : null,
-            dailyGoalHours: typeof a.dailyGoalHours === "number" ? a.dailyGoalHours : 1,
-            todayStudiedHours: typeof a.todayStudiedHours === "number" ? a.todayStudiedHours : 0,
-          });
-        }
-        if (data.preferences) {
-          if (typeof data.preferences.learnerName === "string") {
-            useSettingsStore.setState({ learnerName: data.preferences.learnerName });
-          }
-          if (data.preferences.theme === "light" || data.preferences.theme === "dark") {
-            useThemeStore.setState({ theme: data.preferences.theme });
-            applyTheme(data.preferences.theme);
-          }
-        }
-        toast("Backup restored", { description: "Progress, bookmarks and plans were restored.", kind: "success" });
+        importData(reader.result as string);
+        setImportStatus("success");
+        setTimeout(() => setImportStatus("idle"), 3000);
       } catch {
-        toast("Couldn't import", { description: "That file doesn't look like a valid backup.", kind: "error" });
+        setImportStatus("error");
+        setTimeout(() => setImportStatus("idle"), 3000);
       }
     };
     reader.readAsText(file);
-  };
+  }, [importData]);
+
+  const handleClearAll = useCallback(() => {
+    if (!confirmClear) {
+      setConfirmClear(true);
+      setTimeout(() => setConfirmClear(false), 5000);
+      return;
+    }
+    clearProgress();
+    clearBookmarks();
+    setConfirmClear(false);
+  }, [confirmClear, clearProgress, clearBookmarks]);
+
+  const themes = [
+    { value: "light" as const, label: "Light", icon: Sun },
+    { value: "dark" as const, label: "Dark", icon: Moon },
+    { value: "system" as const, label: "System", icon: Monitor },
+  ];
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
-      <p className="eyebrow">Preferences</p>
-      <h1 className="page-title mt-1">Settings</h1>
-      <p className="mt-2 body-text">Make the platform comfortable for the way you learn.</p>
+    <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-10">
+      <h1 className="page-title">Settings</h1>
+      <p className="mt-2 body-text">
+        Customize your learning experience and manage your data.
+      </p>
 
-      <div className="mt-8 space-y-6">
-        {/* appearance */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-base">
-              <Palette className="h-4 w-4 text-brand-500" /> Appearance
-            </CardTitle>
-            <CardDescription>Choose a theme that&apos;s easy on your eyes.</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="grid grid-cols-2 gap-3">
-              {(
-                [
-                  { key: "light", label: "Light", icon: Sun, active: "border-brand-400 bg-brand-50 dark:bg-brand-950/40" },
-                  { key: "dark", label: "Dark", icon: Moon, active: "border-brand-400 bg-brand-50 dark:bg-brand-950/40" },
-                ] as const
-              ).map((t) => (
+      <div className="mt-10 space-y-8">
+        {/* Appearance */}
+        <section>
+          <h2 className="section-title mb-3 text-lg">Appearance</h2>
+          <div className="card-base p-4">
+            <p className="text-sm font-medium text-slate-700 dark:text-slate-200">Theme</p>
+            <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+              Choose how the app looks — System follows your device theme.
+            </p>
+            <div className="mt-3 flex gap-2">
+              {themes.map(({ value, label, icon: Icon }) => (
                 <button
-                  key={t.key}
-                  onClick={() => pickTheme(t.key)}
-                  className={cn(
-                    "flex items-center gap-3 rounded-xl border px-4 py-3.5 text-left transition-all",
-                    theme === t.key
-                      ? t.active
-                      : "border-slate-200 hover:border-brand-300 hover:bg-slate-50 dark:border-slate-700 dark:hover:bg-slate-800/60"
-                  )}
-                  aria-pressed={theme === t.key}
+                  key={value}
+                  onClick={() => setTheme(value)}
+                  className={`flex items-center gap-2 rounded-xl border px-4 py-2.5 text-sm font-medium transition ${
+                    theme === value
+                      ? "border-brand-300 bg-brand-50 text-brand-700 dark:border-brand-600 dark:bg-brand-950/60 dark:text-brand-300"
+                      : "border-slate-200 bg-white text-slate-600 hover:border-slate-300 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
+                  }`}
                 >
-                  <t.icon className={cn("h-5 w-5", theme === t.key ? "text-brand-600 dark:text-brand-400" : "text-slate-400")} />
-                  <span className="text-sm font-semibold text-slate-800 dark:text-slate-100">{t.label} mode</span>
+                  <Icon className="h-4 w-4" /> {label}
+                  {theme === value && <Check className="h-3.5 w-3.5 text-brand-500" />}
                 </button>
               ))}
             </div>
+          </div>
+        </section>
 
-            <div className="mt-4 space-y-3 border-t border-slate-100 pt-4 dark:border-slate-800">
-              <label className="flex items-center justify-between gap-4">
-                <span className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200">
-                  <Layers className="h-4 w-4 text-slate-500 dark:text-slate-400" /> Show the overview map
-                  <span className="hidden text-xs text-slate-500 dark:text-slate-400 sm:inline">(miniature roadmap in the corner)</span>
-                </span>
-                <Switch checked={showMinimap} onCheckedChange={setShowMinimap} aria-label="Show overview map" />
-              </label>
-              <label className="flex items-center justify-between gap-4">
-                <span className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200">
-                  <Map className="h-4 w-4 text-slate-500 dark:text-slate-400" /> Show the topic legend
-                </span>
-                <Switch checked={showLegend} onCheckedChange={setShowLegend} aria-label="Show topic legend" />
-              </label>
+        {/* Roadmap Display */}
+        <section>
+          <h2 className="section-title mb-3 text-lg">Roadmap Display</h2>
+          <div className="card-base divide-y divide-slate-100 dark:divide-slate-700/50">
+            <div className="flex items-center justify-between p-4">
+              <div>
+                <p className="text-sm font-medium text-slate-700 dark:text-slate-200">Minimap</p>
+                <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+                  Show the minimap in the roadmap view.
+                </p>
+              </div>
+              <button
+                onClick={() => setShowMinimap(!showMinimap)}
+                className={`relative inline-flex h-6 w-11 items-center rounded-full transition ${
+                  showMinimap ? "bg-brand-600" : "bg-slate-300 dark:bg-slate-600"
+                }`}
+                role="switch"
+                aria-checked={showMinimap}
+              >
+                <span
+                  className={`inline-block h-4 w-4 rounded-full bg-white shadow transition-transform ${
+                    showMinimap ? "translate-x-6" : "translate-x-1"
+                  }`}
+                />
+              </button>
             </div>
-          </CardContent>
-        </Card>
 
-        {/* profile (local only — no account) */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-base">
-              <User className="h-4 w-4 text-brand-500" /> Your name
-            </CardTitle>
-            <CardDescription>
-              Optional — printed on certificates you earn. Stored only on this device.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Input
-              value={learnerName}
-              onChange={(e) => setLearnerName(e.target.value)}
-              placeholder="e.g. Alex Rivera"
-              aria-label="Your name on certificates"
-              className="max-w-xs text-sm"
-            />
-            {learnerName ? (
-              <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
-                Certificates will read “Awarded to {learnerName}” — saved automatically on this device.
-              </p>
-            ) : (
-              <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">Saved automatically on this device.</p>
-            )}
-          </CardContent>
-        </Card>
+          </div>
+        </section>
 
-        {/* data: backup + reset */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-base">
-              <Trash2 className="h-4 w-4 text-rose-500" /> Your data
-            </CardTitle>
-            <CardDescription>
-              Everything is stored privately in this browser. Export a backup to move it to
-              another device, or reset it entirely. This can&apos;t be undone.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="flex flex-wrap gap-2">
-              <Button variant="outline" onClick={exportData}>
-                <Download className="h-4 w-4" /> Export backup
-              </Button>
-              <Button variant="outline" onClick={() => fileRef.current?.click()}>
-                <Upload className="h-4 w-4" /> Import backup
-              </Button>
-              <Button variant="danger" onClick={() => setConfirmClear(true)}>
-                <Trash2 className="h-4 w-4" /> Clear all my data
-              </Button>
-              <input
-                ref={fileRef}
-                type="file"
-                accept="application/json,.json"
-                className="hidden"
-                aria-label="Import backup file"
-                onChange={(e) => {
-                  const f = e.target.files?.[0];
-                  if (f) setPendingImport(f);
-                  e.target.value = "";
-                }}
-              />
+        {/* Your Data */}
+        <section>
+          <h2 className="section-title mb-3 text-lg">Your Data</h2>
+          <div className="card-base divide-y divide-slate-100 dark:divide-slate-700/50">
+            {/* Stats */}
+            <div className="grid grid-cols-3 gap-4 p-4 text-center">
+              <div>
+                <p className="text-2xl font-bold text-slate-900 dark:text-white">{completed.length}</p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">Topics completed</p>
+              </div>
+              <div>
+                <p className="text-2xl font-bold text-slate-900 dark:text-white">{bookmarks.length}</p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">Bookmarks</p>
+              </div>
+              <div>
+                <p className="text-2xl font-bold text-slate-900 dark:text-white">{certificates.length}</p>
+                <p className="text-xs text-slate-500 dark:text-slate-400">Certificates</p>
+              </div>
             </div>
-          </CardContent>
-        </Card>
+
+            {/* Export */}
+            <div className="flex items-center justify-between p-4">
+              <div>
+                <p className="text-sm font-medium text-slate-700 dark:text-slate-200">Export progress</p>
+                <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+                  Download your progress as a JSON file.
+                </p>
+              </div>
+              <Button variant="outline" size="sm" onClick={handleExport}>
+                <Download className="h-4 w-4" /> Export
+              </Button>
+            </div>
+
+            {/* Import */}
+            <div className="flex items-center justify-between p-4">
+              <div>
+                <p className="text-sm font-medium text-slate-700 dark:text-slate-200">Import progress</p>
+                <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+                  Restore from a previously exported file.
+                </p>
+                {importStatus === "success" && (
+                  <p className="mt-1 text-xs text-emerald-600 dark:text-emerald-400">Import successful!</p>
+                )}
+                {importStatus === "error" && (
+                  <p className="mt-1 text-xs text-rose-600 dark:text-rose-400">Invalid file format.</p>
+                )}
+              </div>
+              <div>
+                <input
+                  ref={fileRef}
+                  type="file"
+                  accept=".json"
+                  onChange={handleImport}
+                  className="hidden"
+                  aria-label="Import progress file"
+                />
+                <Button variant="outline" size="sm" onClick={() => fileRef.current?.click()}>
+                  <Upload className="h-4 w-4" /> Import
+                </Button>
+              </div>
+            </div>
+
+            {/* Clear all */}
+            <div className="flex items-center justify-between p-4">
+              <div>
+                <p className="text-sm font-medium text-slate-700 dark:text-slate-200">Clear all data</p>
+                <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+                  Remove all progress, bookmarks, and certificates. This cannot be undone.
+                </p>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleClearAll}
+                className={confirmClear ? "border-rose-300 bg-rose-50 text-rose-700 dark:border-rose-700 dark:bg-rose-950/40 dark:text-rose-300" : "text-rose-600 hover:text-rose-700 dark:text-rose-400"}
+              >
+                <Trash2 className="h-4 w-4" /> {confirmClear ? "Confirm clear" : "Clear all"}
+              </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* About */}
+        <section>
+          <h2 className="section-title mb-3 text-lg">About</h2>
+          <div className="card-base p-4">
+            <p className="text-sm text-slate-600 dark:text-slate-300">
+              Career Roadmaps is a free, open educational platform. All data is stored locally in your browser — nothing is sent to any server.
+            </p>
+            <p className="mt-2 text-xs text-slate-400 dark:text-slate-500">
+              Version 1.0.0 · Built with Next.js, React, Tailwind CSS
+            </p>
+          </div>
+        </section>
       </div>
-
-      <ConfirmDialog
-        open={confirmClear}
-        onOpenChange={setConfirmClear}
-        title="Clear all your data?"
-        confirmLabel="Yes, clear everything"
-        description={
-          <>
-            This permanently removes your completed topics, certificates, bookmarks, study plans
-            and saved preferences from this browser. There is no account backing this up, so it
-            cannot be undone.
-            <span className="mt-2 block font-medium text-slate-600 dark:text-slate-300">
-              Export a backup first if you might want any of it back.
-            </span>
-          </>
-        }
-        onConfirm={clearAllData}
-      />
-
-      <ConfirmDialog
-        open={pendingImport !== null}
-        onOpenChange={(open) => !open && setPendingImport(null)}
-        title="Replace your data with this backup?"
-        confirmLabel="Replace my data"
-        description={
-          <>
-            Importing <span className="font-medium text-slate-600 dark:text-slate-300">{pendingImport?.name}</span>{" "}
-            overwrites the progress, bookmarks and study plans currently stored in this browser.
-            Anything not in the backup file is lost.
-          </>
-        }
-        onConfirm={() => {
-          if (pendingImport) importData(pendingImport);
-          setPendingImport(null);
-        }}
-      />
     </div>
   );
 }

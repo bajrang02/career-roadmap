@@ -1,6 +1,6 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
-import type { NodeType, ResourceKind } from "./types";
+import type { NodeType, ResourceKind, StructuredOverview } from "./types";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -317,4 +317,26 @@ export function scoreMatch(title: string, keywords: string[], q: string) {
     else if (k.includes(query)) best = Math.max(best, 55);
   }
   return best;
+}
+
+/**
+ * Coerce a possibly-malformed overview (e.g. whyMatters as string instead of
+ * string[]) into the canonical StructuredOverview shape. Every array field is
+ * guaranteed to be a real Array — never a string, null, or undefined.
+ */
+export function normalizeOverview(ov: StructuredOverview | undefined | null): StructuredOverview | undefined {
+  if (!ov) return undefined;
+  const toArray = (v: unknown): string[] => {
+    if (Array.isArray(v)) return v;
+    if (typeof v === "string" && v.length > 0) return [v];
+    return [];
+  };
+  return {
+    whatIsIt: typeof ov.whatIsIt === "string" ? ov.whatIsIt : "",
+    whyMatters: toArray(ov.whyMatters),
+    youWillLearn: toArray(ov.youWillLearn),
+    whereUsed: toArray(ov.whereUsed),
+    prerequisites: toArray(ov.prerequisites),
+    outcome: typeof ov.outcome === "string" ? ov.outcome : "",
+  };
 }
