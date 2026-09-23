@@ -108,7 +108,6 @@
     { title: "MIT Materials Science", url: "https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/", type: "course", qualityScore: 5, verified: true },
   ],
   "medical-device-engineer": [
-    { title: "FDA Medical Devices", url: "https://www.fda.gov/medical-devices", type: "official-doc", qualityScore: 5, verified: true },
     { title: "ISO 13485 Medical Devices", url: "https://www.iso.org/standard/59752.html", type: "reference", qualityScore: 5, verified: true },
   ],
   "medical-imaging-engineer": [

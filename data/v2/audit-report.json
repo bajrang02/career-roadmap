@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-24T08:02:06.164Z",
+  "generatedAt": "2026-09-23T09:27:13.931Z",
   "version": "3.0.0-audit",
   "summary": {
-    "totalCareers": 126,
-    "totalSkills": 19,
-    "totalResources": 11439,
-    "totalPractice": 1019,
+    "totalCareers": 155,
+    "totalSkills": 106,
+    "totalResources": 18348,
+    "totalPractice": 19077,
     "totalCertifications": 29,
-    "totalIssues": 3,
-    "criticalErrors": 0,
-    "warnings": 3,
+    "totalIssues": 153,
+    "criticalErrors": 29,
+    "warnings": 124,
     "correctionsNeeded": 0
   },
   "issues": [
@@ -19,6 +19,1206 @@
       "recordType": "career",
       "recordId": "cybersecurity-analyst",
       "description": "Career \"Cybersecurity Analyst\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "domain-mismatch",
+      "recordType": "career",
+      "recordId": "embedded-engineer",
+      "description": "Career \"Embedded Engineer\" marked as IT but domain is \"Electrical & Electronics\".",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "domain-mismatch",
+      "recordType": "career",
+      "recordId": "firmware-engineer",
+      "description": "Career \"Firmware Engineer\" marked as IT but domain is \"Electrical & Electronics\".",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "domain-mismatch",
+      "recordType": "career",
+      "recordId": "iot-engineer",
+      "description": "Career \"IoT Engineer\" marked as IT but domain is \"Electrical & Electronics\".",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "domain-mismatch",
+      "recordType": "career",
+      "recordId": "robotics-engineer",
+      "description": "Career \"Robotics Engineer\" marked as IT but domain is \"Mechanical Engineering\".",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "domain-mismatch",
+      "recordType": "career",
+      "recordId": "automation-engineer",
+      "description": "Career \"Automation Engineer\" marked as IT but domain is \"Mechanical Engineering\".",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "process-engineer",
+      "description": "Career \"Process Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "process-engineer",
+      "description": "Career \"Process Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "process-safety-engineer",
+      "description": "Career \"Process Safety Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "process-safety-engineer",
+      "description": "Career \"Process Safety Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "petrochemical-engineer",
+      "description": "Career \"Petrochemical Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "petrochemical-engineer",
+      "description": "Career \"Petrochemical Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "bioprocess-engineer",
+      "description": "Career \"Bioprocess Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "bioprocess-engineer",
+      "description": "Career \"Bioprocess Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "aerodynamics-engineer",
+      "description": "Career \"Aerodynamics Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "aerodynamics-engineer",
+      "description": "Career \"Aerodynamics Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "propulsion-engineer",
+      "description": "Career \"Propulsion Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "propulsion-engineer",
+      "description": "Career \"Propulsion Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "avionics-engineer",
+      "description": "Career \"Avionics Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "avionics-engineer",
+      "description": "Career \"Avionics Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "aircraft-design-engineer",
+      "description": "Career \"Aircraft Design Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "aircraft-design-engineer",
+      "description": "Career \"Aircraft Design Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "supply-chain-engineer",
+      "description": "Career \"Supply Chain Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "supply-chain-engineer",
+      "description": "Career \"Supply Chain Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "operations-research-analyst",
+      "description": "Career \"Operations Research Analyst\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "operations-research-analyst",
+      "description": "Career \"Operations Research Analyst\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "reliability-engineer",
+      "description": "Career \"Reliability Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "reliability-engineer",
+      "description": "Career \"Reliability Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "metallurgical-engineer",
+      "description": "Career \"Metallurgical Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "metallurgical-engineer",
+      "description": "Career \"Metallurgical Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "materials-scientist",
+      "description": "Career \"Materials Scientist\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "materials-scientist",
+      "description": "Career \"Materials Scientist\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "corrosion-engineer",
+      "description": "Career \"Corrosion Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "corrosion-engineer",
+      "description": "Career \"Corrosion Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "polymer-engineer",
+      "description": "Career \"Polymer Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "polymer-engineer",
+      "description": "Career \"Polymer Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "medical-device-engineer",
+      "description": "Career \"Medical Device Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "medical-device-engineer",
+      "description": "Career \"Medical Device Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "clinical-engineer",
+      "description": "Career \"Clinical Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "clinical-engineer",
+      "description": "Career \"Clinical Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "biomaterials-engineer",
+      "description": "Career \"Biomaterials Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "biomaterials-engineer",
+      "description": "Career \"Biomaterials Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "medical-imaging-engineer",
+      "description": "Career \"Medical Imaging Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "medical-imaging-engineer",
+      "description": "Career \"Medical Imaging Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "irrigation-engineer",
+      "description": "Career \"Irrigation Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "irrigation-engineer",
+      "description": "Career \"Irrigation Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "precision-agriculture-specialist",
+      "description": "Career \"Precision Agriculture Specialist\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "precision-agriculture-specialist",
+      "description": "Career \"Precision Agriculture Specialist\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "food-process-engineer",
+      "description": "Career \"Food Process Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "food-process-engineer",
+      "description": "Career \"Food Process Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "biosystems-engineer",
+      "description": "Career \"Biosystems Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "biosystems-engineer",
+      "description": "Career \"Biosystems Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "sustainability-engineer",
+      "description": "Career \"Sustainability Engineer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "sustainability-engineer",
+      "description": "Career \"Sustainability Engineer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "manufacturing-data-analyst",
+      "description": "Career \"Manufacturing Data Analyst\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "manufacturing-data-analyst",
+      "description": "Career \"Manufacturing Data Analyst\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "product-designer",
+      "description": "Career \"Product Designer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "product-designer",
+      "description": "Career \"Product Designer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "industrial-designer",
+      "description": "Career \"Industrial Designer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "industrial-designer",
+      "description": "Career \"Industrial Designer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "cad-designer",
+      "description": "Career \"CAD Designer\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "cad-designer",
+      "description": "Career \"CAD Designer\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "career-existence",
+      "recordType": "career",
+      "recordId": "bim-specialist",
+      "description": "Career \"BIM Specialist\" not in standard occupation databases. May be non-standard title.",
+      "action": "flag"
+    },
+    {
+      "severity": "ERROR",
+      "category": "career-depth",
+      "recordType": "career",
+      "recordId": "bim-specialist",
+      "description": "Career \"BIM Specialist\" has only 0 topics — too shallow.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "c",
+      "description": "Skill \"C Programming\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "cpp",
+      "description": "Skill \"C++\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "java",
+      "description": "Skill \"Java\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "csharp",
+      "description": "Skill \"C#\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "go",
+      "description": "Skill \"Go (Golang)\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "rust",
+      "description": "Skill \"Rust\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "php",
+      "description": "Skill \"PHP\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "dart",
+      "description": "Skill \"Dart\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "r-programming",
+      "description": "Skill \"R Programming\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "html",
+      "description": "Skill \"HTML\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "css",
+      "description": "Skill \"CSS\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "angular",
+      "description": "Skill \"Angular\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "vue",
+      "description": "Skill \"Vue.js\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "express",
+      "description": "Skill \"Express.js\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "django",
+      "description": "Skill \"Django\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "flask",
+      "description": "Skill \"Flask\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "fastapi",
+      "description": "Skill \"FastAPI\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "spring-boot",
+      "description": "Skill \"Spring Boot\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "mysql",
+      "description": "Skill \"MySQL\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "database-design",
+      "description": "Skill \"Database Design\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "database-administration",
+      "description": "Skill \"Database Administration\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "terraform",
+      "description": "Skill \"Terraform / Infrastructure as Code\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "cicd",
+      "description": "Skill \"CI/CD\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "azure",
+      "description": "Skill \"Microsoft Azure\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "gcp",
+      "description": "Skill \"Google Cloud Platform\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "sre",
+      "description": "Skill \"Site Reliability Engineering\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "infrastructure-automation",
+      "description": "Skill \"Infrastructure Automation\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "data-structures-algorithms",
+      "description": "Skill \"Data Structures & Algorithms\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "software-testing",
+      "description": "Skill \"Software Testing\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "api-development",
+      "description": "Skill \"API Development\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "system-design",
+      "description": "Skill \"System Design\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "distributed-systems",
+      "description": "Skill \"Distributed Systems\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "secure-software-development",
+      "description": "Skill \"Secure Software Development\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "devtools",
+      "description": "Skill \"DevTools / Developer Tooling\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "machine-learning",
+      "description": "Skill \"Machine Learning\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "deep-learning",
+      "description": "Skill \"Deep Learning\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "nlp",
+      "description": "Skill \"Natural Language Processing\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "computer-vision",
+      "description": "Skill \"Computer Vision\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "generative-ai",
+      "description": "Skill \"Generative AI\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "llm-engineering",
+      "description": "Skill \"LLM Engineering\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "ai-agents",
+      "description": "Skill \"AI Agents\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "mlops",
+      "description": "Skill \"MLOps\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "data-engineering",
+      "description": "Skill \"Data Engineering\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "data-science",
+      "description": "Skill \"Data Science\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "cybersecurity-fundamentals",
+      "description": "Skill \"Cybersecurity Fundamentals\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "network-security",
+      "description": "Skill \"Network Security\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "web-application-security",
+      "description": "Skill \"Web Application Security\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "ethical-hacking",
+      "description": "Skill \"Ethical Hacking / Penetration Testing\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "digital-forensics",
+      "description": "Skill \"Digital Forensics\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "security-operations",
+      "description": "Skill \"Security Operations / SOC\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "identity-access-management",
+      "description": "Skill \"Identity & Access Management\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "cloud-security",
+      "description": "Skill \"Cloud Security\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "computer-networks",
+      "description": "Skill \"Computer Networks\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "operating-systems",
+      "description": "Skill \"Operating Systems\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "embedded-systems",
+      "description": "Skill \"Embedded Systems\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "pcb-design",
+      "description": "Skill \"PCB Design\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "vlsi-design",
+      "description": "Skill \"VLSI Design\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "robotics",
+      "description": "Skill \"Robotics\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "plc-programming",
+      "description": "Skill \"PLC Programming\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "control-systems",
+      "description": "Skill \"Control Systems\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "fpga-design",
+      "description": "Skill \"FPGA Design\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "monitoring-observability",
+      "description": "Skill \"Monitoring & Observability\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "gitops",
+      "description": "Skill \"GitOps\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "configuration-management",
+      "description": "Skill \"Configuration Management\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "container-orchestration",
+      "description": "Skill \"Container Orchestration\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "kotlin-android",
+      "description": "Skill \"Kotlin Android\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "swift-ios",
+      "description": "Skill \"Swift iOS\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "react-native",
+      "description": "Skill \"React Native\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "mobile-testing",
+      "description": "Skill \"Mobile Testing\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "cloud-networking",
+      "description": "Skill \"Cloud Networking\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "wireless-networks",
+      "description": "Skill \"Wireless Networks\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "iot-networking",
+      "description": "Skill \"IoT Networking\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "computer-architecture",
+      "description": "Skill \"Computer Architecture\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "virtualization",
+      "description": "Skill \"Virtualization\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "performance-engineering",
+      "description": "Skill \"Performance Engineering\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "embedded-linux",
+      "description": "Skill \"Embedded Linux\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "network-administration",
+      "description": "Skill \"Network Administration\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "ruby-on-rails",
+      "description": "Skill \"Ruby on Rails\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "laravel",
+      "description": "Skill \"Laravel\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "tableau",
+      "description": "Skill \"Tableau\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "power-bi",
+      "description": "Skill \"Power BI\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "statistics",
+      "description": "Skill \"Statistics\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "figma",
+      "description": "Skill \"Figma\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "adobe-xd",
+      "description": "Skill \"Adobe XD\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "sketch",
+      "description": "Skill \"Sketch\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "blender",
+      "description": "Skill \"Blender\" not in known skill registry.",
+      "action": "flag"
+    },
+    {
+      "severity": "WARNING",
+      "category": "skill-existence",
+      "recordType": "skill",
+      "recordId": "photoshop",
+      "description": "Skill \"Adobe Photoshop\" not in known skill registry.",
       "action": "flag"
     },
     {
@@ -45,143 +1245,199 @@
     "emptyUrls": 0,
     "genericDescriptions": 3074,
     "contaminationFound": 0,
-    "leetcodeInappropriate": 14,
+    "leetcodeInappropriate": 192,
     "duplicateCareerSlugs": 0,
     "emptySections": 0,
     "missingDescriptions": 0
   },
   "topResourceDomains": [
     [
-      "nptel.ac.in",
-      1326
+      "en.wikipedia.org",
+      1785
     ],
     [
-      "ieee.org",
-      548
+      "techinterviewhandbook.org",
+      1049
     ],
     [
-      "pytorch.org",
-      544
+      "ocw.mit.edu",
+      713
     ],
     [
-      "cloud.google.com",
-      543
+      "indiabix.com",
+      685
     ],
     [
-      "kubernetes.io",
-      536
+      "learn.microsoft.com",
+      604
     ],
     [
-      "owasp.org",
-      500
+      "developer.mozilla.org",
+      503
     ],
     [
-      "nist.gov",
-      498
-    ],
-    [
-      "mathworks.com",
-      482
+      "geeksforgeeks.org",
+      475
     ],
     [
       "docs.aws.amazon.com",
-      466
-    ],
-    [
-      "leetcode.com",
-      423
-    ],
-    [
-      "neetcode.io",
-      423
-    ],
-    [
-      "crackingthecodinginterview.com",
-      423
-    ],
-    [
-      "postgresqltutorial.com",
-      194
-    ],
-    [
-      "kotlinlang.org",
-      179
-    ],
-    [
-      "martinfowler.com",
-      172
-    ],
-    [
-      "docs.pytest.org",
-      172
+      303
     ],
     [
       "w3schools.com",
-      163
+      296
     ],
     [
-      "docs.swift.org",
-      153
+      "postgresql.org",
+      216
     ],
     [
-      "apple.com",
-      153
+      "postgresqltutorial.com",
+      192
     ],
     [
-      "play.kotlinlang.org",
-      144
+      "react.dev",
+      190
+    ],
+    [
+      "owasp.org",
+      181
+    ],
+    [
+      "helpx.adobe.com",
+      181
+    ],
+    [
+      "leetcode.com",
+      174
+    ],
+    [
+      "cloud.google.com",
+      170
+    ],
+    [
+      "netacad.com",
+      167
+    ],
+    [
+      "freecodecamp.org",
+      160
+    ],
+    [
+      "github.com",
+      151
+    ],
+    [
+      "linkedin.com",
+      151
     ]
   ],
   "practicePlatformCounts": {
-    "Visualgo": 6,
-    "LeetCode": 94,
-    "SQLBolt": 77,
-    "HackerRank": 70,
-    "DataLemur": 28,
-    "freeCodeCamp": 32,
-    "Exponent": 42,
-    "Educative": 36,
-    "Learn Git Branching": 42,
-    "GitHub": 47,
-    "Cisco Packet Tracer": 64,
-    "NeetCode": 50,
-    "W3Schools": 13,
-    "Flexbox Froggy": 23,
-    "Grid Garden": 5,
-    "Frontend Mentor": 24,
-    "Codewars": 16,
-    "Scrimba": 29,
-    "CodeSandbox": 16,
-    "Pramp": 45,
-    "Exercism": 15,
-    "Kaggle": 13,
-    "fast.ai": 30,
-    "PortSwigger": 2,
-    "TryHackMe": 2,
-    "Hack The Box": 2,
+    "LeetCode": 381,
+    "NeetCode": 104,
+    "HackerRank": 639,
+    "Codewars": 414,
+    "CodingBat": 10,
+    "Exercism": 1107,
+    "freeCodeCamp": 525,
+    "AWS Skill Builder": 435,
+    "AWS": 174,
+    "MIT OCW": 756,
+    "Microsoft Learn": 256,
+    "Google Cloud": 128,
+    "PostgreSQL Tutorial": 207,
+    "W3Schools": 154,
+    "SQLBolt": 144,
+    "DataLemur": 59,
+    "MongoDB University": 120,
+    "Postman": 69,
+    "Django": 44,
+    "FastAPI": 36,
+    "Spring": 38,
+    "Exponent": 184,
+    "Educative": 128,
+    "Learn Git Branching": 58,
+    "KillerCoda": 689,
+    "Play with Docker": 224,
+    "Docker": 64,
+    "GitHub": 502,
+    "Visualgo": 95,
+    "Tech Interview Handbook": 268,
+    "Frontend Mentor": 208,
+    "Flexbox Froggy": 68,
+    "Grid Garden": 36,
+    "Scrimba": 88,
+    "CodeSandbox": 80,
+    "Vue.js": 40,
+    "Angular": 44,
+    "TypeScript": 28,
+    "Redis University": 112,
+    "Kaggle": 1017,
+    "Hugging Face": 185,
+    "fast.ai": 107,
+    "Google Developers": 76,
+    "TryHackMe": 921,
+    "PortSwigger": 72,
+    "Hack The Box": 97,
     "PicoCTF": 2,
-    "OverTheWire": 15,
-    "Linux Journey": 11,
-    "KillerCoda": 16,
-    "HashiCorp Learn": 8,
-    "Microsoft Learn": 29,
-    "AWS Skill Builder": 17,
-    "AWS": 13,
-    "Play with Docker": 16,
-    "Docker": 12,
-    "Kubernetes": 5,
-    "ANSYS": 4,
-    "Autodesk": 12,
-    "MathWorks Academy": 8,
-    "MathWorks": 8,
-    "Google Developers": 1,
-    "UiPath Academy": 7,
-    "Now Learning": 1,
-    "Google Cloud Skills Boost": 5,
-    "Dassault Systèmes": 1,
-    "Trailhead": 2,
-    "CryptoZombies": 1,
-    "OpenZeppelin": 1,
-    "Hugging Face": 1
+    "OverTheWire": 56,
+    "Linux Journey": 140,
+    "HashiCorp Learn": 56,
+    "Kubernetes": 105,
+    "Dassault Systèmes": 428,
+    "ANSYS": 622,
+    "ASQ": 8,
+    "Autodesk": 659,
+    "MathWorks Academy": 1579,
+    "SkyCiv": 180,
+    "Analog Devices": 226,
+    "Altium": 115,
+    "ASPEN Technology": 129,
+    "Figma": 229,
+    "Coursera": 67,
+    "Flutter": 280,
+    "Android Developers": 60,
+    "dbt Learn": 62,
+    "JetBrains": 146,
+    "Kotlin Playground": 53,
+    "Apple": 226,
+    "Hacking with Swift": 105,
+    "DartPad": 81,
+    "Unity": 122,
+    "Unreal Engine": 61,
+    "Learn-C.org": 130,
+    "k6": 8,
+    "TAU": 146,
+    "Playwright": 50,
+    "React Native": 40,
+    "NPTEL": 53,
+    "EC&M Training": 14,
+    "OpenAI": 61,
+    "Anthropic": 49,
+    "Cisco Packet Tracer": 170,
+    "Autopsy": 54,
+    "VirusTotal": 53,
+    "MITRE": 58,
+    "Now Learning": 33,
+    "ChipVerify": 282,
+    "Yosys": 5,
+    "SAP": 82,
+    "Trailhead": 29,
+    "CryptoZombies": 74,
+    "OpenZeppelin": 37,
+    "IBM Quantum": 5,
+    "Qiskit": 5,
+    "UiPath Academy": 37,
+    "QGIS": 59,
+    "Rosalind": 42,
+    "Sharpen.design": 340,
+    "Brilliant.org": 2,
+    "Flask": 35,
+    "Express.js": 35,
+    "Next.js": 23,
+    "Go by Example": 27,
+    "Rustlings": 42,
+    "Pramp": 6,
+    "Adobe": 3
   }
 }

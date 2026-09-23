@@ -293,7 +293,7 @@ const RESOURCE_DB = {
     { title: "NI LabVIEW Training", url: "https://www.ni.com/en/support/training.html", kind: "course", provider: "NI" },
   ],
   "ltspice": [
-    { title: "LTspice Official Documentation", url: "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html", kind: "docs", provider: "Analog Devices" },
+    { title: "LTspice Official Documentation", url: "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html", kind: "docs", provider: "Analog Devices" },
   ],
   "verilog": [
     { title: "Verilog Tutorial — NPTEL", url: "https://nptel.ac.in/courses/117101111", kind: "course", provider: "NPTEL" },
@@ -333,7 +333,7 @@ const RESOURCE_DB = {
     { title: "GD&T Basics", url: "https://www.gdandtbasics.com/", kind: "article", provider: "GD&T Basics" },
   ],
   "thermodynamics": [
-    { title: "MIT OpenCourseWare — Thermodynamics", url: "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", kind: "course", provider: "MIT OCW" },
+    { title: "MIT OpenCourseWare — Thermodynamics", url: "https://ocw.mit.edu/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/", kind: "course", provider: "MIT OCW" },
     { title: "Engineering Thermodynamics — NPTEL", url: "https://nptel.ac.in/courses/112107145", kind: "course", provider: "NPTEL" },
   ],
   "fluid-mechanics": [
@@ -341,7 +341,7 @@ const RESOURCE_DB = {
     { title: "NPTEL Fluid Mechanics", url: "https://nptel.ac.in/courses/112104123", kind: "course", provider: "NPTEL" },
   ],
   "heat-transfer": [
-    { title: "MIT OpenCourseWare — Heat Transfer", url: "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", kind: "course", provider: "MIT OCW" },
+    { title: "MIT OpenCourseWare — Heat Transfer", url: "https://ocw.mit.edu/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/", kind: "course", provider: "MIT OCW" },
   ],
   "material-science": [
     { title: "MIT OpenCourseWare — Material Science", url: "https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/", kind: "course", provider: "MIT OCW" },

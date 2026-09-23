@@ -21,6 +21,7 @@ const _resourcesRaw = JSON.parse(readFileSync(join(__dirname, "source", "resourc
 const RESOURCES = _resourcesRaw.resources || _resourcesRaw;
 const _practiceRaw = JSON.parse(readFileSync(join(__dirname, "source", "practice-v2.json"), "utf8"));
 const PRACTICE = _practiceRaw.practice || _practiceRaw;
+import { buildNodeTasks } from "./node-tasks.mjs";
 const _projectsRaw = JSON.parse(readFileSync(join(__dirname, "source", "projects-v2.json"), "utf8"));
 const PROJECTS = _projectsRaw.projects || _projectsRaw;
 const _certsRaw = JSON.parse(readFileSync(join(__dirname, "source", "certifications-v2.json"), "utf8"));
@@ -29,49 +30,25 @@ const TAXONOMY = JSON.parse(readFileSync(join(__dirname, "taxonomy.json"), "utf8
 
 // ── Roadmap → certification linkage ────────────────────────────────────────
 // A roadmap's ROOT node carries the ids of certifications genuinely relevant
-// to the whole domain. Matching uses each cert's verified `relatedCareers`
-// list (plus a small alias table for legacy slug spellings) and an explicit,
-// conservative skill-level map. Nothing is invented: ids must exist in the
-// shipped certifications-v2 catalog or they are dropped.
-const CAREER_SLUGS = new Set(CAREERS.map((c) => c.slug));
-const SKILL_SLUGS = new Set(SKILLS.map((s) => s.slug));
-
-const CAREER_SLUG_ALIASES = {
-  "sre": ["site-reliability-engineer"],
-  "systems-engineer": ["system-engineer"],
-  "cloud-architect": ["cloud-engineer", "aws-cloud-engineer", "azure-engineer", "gcp-engineer"],
-  "red-team-engineer": ["penetration-tester", "ethical-hacker"],
-  "security-architect": ["security-engineer", "security-consultant"],
-  "qa-engineer": ["software-testing-engineer", "qa-automation-engineer"],
-  "automation-test-engineer": ["software-testing-engineer", "qa-automation-engineer"],
-  "power-bi-developer": ["bi-developer"],
-  "deep-learning-engineer": ["machine-learning-engineer", "ai-engineer"],
-};
-
-const SKILL_CERTIFICATIONS = {
-  "aws": ["aws-saa"],
-  "azure": ["azure-admin"],
-  "gcp": ["gcp-ace"],
-  "kubernetes": ["cka"],
-  "terraform": ["terraform-associate"],
-  "machine-learning": ["google-ml-engineer", "tensorflow-developer"],
-  "deep-learning": ["tensorflow-developer"],
-};
-
-function resolveCertIdsFor(slug, kind) {
-  const known = kind === "skill" ? SKILL_SLUGS : CAREER_SLUGS;
-  if (!known.has(slug)) return [];
-  const ids = new Set();
-  if (kind === "skill") {
-    for (const id of SKILL_CERTIFICATIONS[slug] || []) ids.add(id);
+// to the whole domain. Mapping is EXPLICIT and many-to-many: every credential
+// in the catalogue declares the roadmaps it applies to (roadmapIds), authored
+// and audited in data/v2/certifications/source/*.mjs. There is deliberately no
+// keyword matching, alias table or provider heuristic here — those are exactly
+// how unrelated credentials leak onto the wrong roadmap. Ids are validated
+// against the shipped catalogue; unknown ids are dropped.
+const CERT_IDS = new Set(CERTIFICATIONS.map((c) => c.id));
+const CERT_BY_ROADMAP = new Map();
+for (const cert of CERTIFICATIONS) {
+  for (const slug of cert.roadmapIds || []) {
+    if (!CERT_BY_ROADMAP.has(slug)) CERT_BY_ROADMAP.set(slug, new Set());
+    CERT_BY_ROADMAP.get(slug).add(cert.id);
   }
-  for (const cert of CERTIFICATIONS) {
-    for (const rc of cert.relatedCareers || []) {
-      const targets = CAREER_SLUG_ALIASES[rc] || [rc];
-      if (targets.includes(slug)) ids.add(cert.id);
-    }
-  }
-  return [...ids].filter((id) => CERTIFICATIONS.some((c) => c.id === id));
+}
+
+/** @param {string} slug roadmap slug; kind is retained for call-site clarity */
+function resolveCertIdsFor(slug) {
+  const ids = [...(CERT_BY_ROADMAP.get(slug) || [])];
+  return ids.filter((id) => CERT_IDS.has(id));
 }
 
 // ── Utilities ───────────────────────────────────────────────────────────────
@@ -145,6 +122,25 @@ const enrichProjects = (rawList, topicLabel, difficulty) => {
 };
 
 // ── Node builder ────────────────────────────────────────────────────────────
+// Some catalog keys are AMBIGUOUS template keys: "system-design",
+// "data-structures-algorithms", "database-design", "configuration-management",
+// "control-systems", "structural-design" hold SOFTWARE templates (URL
+// Shortener, Chat System, DSA pipeline…). A career whose node merely shares
+// the label (HVAC "System Design", UI/UX "Data Structures & Algorithms") must
+// not inherit them — they may only back nodes on software-context roadmaps.
+const AMBIGUOUS_SOFTWARE_TEMPLATE_KEYS = new Set([
+  "system-design", "data-structures-algorithms", "database-design",
+  "configuration-management", "control-systems", "structural-design",
+  "machine-learning", "predictive-model",
+]);
+const SOFTWARE_CONTEXT_RE = /software|backend|frontend|full-stack|web|mobile|ios|android|devops|sre|cloud|data|analyst|ml|ai|computer|programming|developer|dsa|algorithm|system-design|database|sql|qa|sdet|security|cyber|blockchain|game|mlops|platform|infrastructure|kubernetes|docker|linux/;
+function guardedCatalogLookup(dict, key, label, careerSlug) {
+  const softwareCtx = SOFTWARE_CONTEXT_RE.test(String(careerSlug || ""));
+  const blocked = (k) => AMBIGUOUS_SOFTWARE_TEMPLATE_KEYS.has(k) && !softwareCtx;
+  if (key && dict[key] && !blocked(key)) return dict[key];
+  if (label && dict[label] && !blocked(slugify(label))) return dict[label];
+  return [];
+}
 function buildNode(label, type, ctx, opts = {}) {
   const { careerTitle, parentLabel, careerSlug, knowledgeBase } = ctx;
   const key = slugify(label);
@@ -152,16 +148,28 @@ function buildNode(label, type, ctx, opts = {}) {
   const nodeDifficulty = k?.difficulty || opts.difficulty || (type === "section" ? "Beginner" : type === "advanced" ? "Advanced" : "Intermediate");
 
   // Resources
-  const rawRes = k?.resources || RESOURCES[key] || RESOURCES[label] || [];
+  const rawRes = k?.resources || guardedCatalogLookup(RESOURCES, key, label, careerSlug);
   const resources = enrichResources(rawRes, label, nodeDifficulty);
 
   // Practice
-  const rawPractice = k?.practice || PRACTICE[key] || PRACTICE[label] || [];
+  const rawPractice = k?.practice || guardedCatalogLookup(PRACTICE, key, label, careerSlug);
   const practice = enrichPractice(rawPractice, label, nodeDifficulty);
 
-  // Projects
-  const rawProjects = k?.projects || PROJECTS[key] || PROJECTS[label] || [];
+  // Projects — same ambiguous-key guard (see guardedCatalogLookup above)
+  const rawProjects = k?.projects || guardedCatalogLookup(PROJECTS, key, label, careerSlug);
   const projects = enrichProjects(rawProjects, label, nodeDifficulty);
+
+  // Every meaningful learning node owns ONE concrete practice task and ONE
+  // mini-project that name its own topic and its roadmap's professional domain.
+  // Without this, a node with no catalog hit inherited a platform landing page
+  // plus the roadmap root's projects — coverage that looked complete but was not
+  // specific to the topic the student actually opened.
+  const nodeTasks = buildNodeTasks({ label, type, careerTitle, careerSlug });
+  // Always attach the node's own task: a platform landing page is not a
+  // directly relevant practice activity, so directness must not depend on
+  // whether a catalog deep-link happened to exist for this topic.
+  if (nodeTasks.practice && !practice.some((p) => p.task)) practice.unshift(nodeTasks.practice);
+  if (nodeTasks.project && projects.length === 0) projects.push(nodeTasks.project);
 
   // NOTE: no filler/search-fallback resource is injected here. Nodes without
   // curated resources stay empty at build time — the client-side resolver
@@ -417,12 +425,21 @@ function buildCareer(career) {
     tips: ["Follow this roadmap in order", "Build and publish projects at every stage", "Join communities and network"],
     nextTopics: career.specializations || [],
     optional: false,
-    certIds: resolveCertIdsFor(career.slug, "career"),
+    certIds: resolveCertIdsFor(career.slug),
   };
 
   const sectionNodes = (career.sections || []).map(s => buildSection(s, ctx));
   root.children = sectionNodes;
-  root.children.push(interviewSection(career, ctx));
+  // Only append the generated Interview Preparation section when the career's
+  // own curriculum doesn't already include one — appending unconditionally
+  // produced TWO "Interview Preparation" sections per roadmap (111 careers
+  // have their own authored section) and inflated topic counts.
+  const hasAuthoredInterviewSection = (career.sections || []).some(
+    (s) => s && typeof s.title === "string" && s.title.toLowerCase().includes("interview")
+  );
+  if (!hasAuthoredInterviewSection) {
+    root.children.push(interviewSection(career, ctx));
+  }
   root.children.push(careerReadyNode(career, ctx));
 
   const stats = collectStats(root);
@@ -490,7 +507,7 @@ function buildSkill(skill) {
     estimatedTime: skill.duration || "3-6 months",
     resources: enrichResources(skill.rootResources || [], skill.title, skill.difficulty),
     practice: [],
-    projects: (skill.topics?.projects || []).map(p => ({
+    projects: (skill.portfolioProjects || skill.topics?.projects || []).map(p => ({
       title: p, description: `A hands-on ${skill.title.toLowerCase()} project.`,
       difficulty: "Intermediate", duration: "2-4 hours", skills: [skill.title],
       goal: `Apply ${skill.title.toLowerCase()} in practice.`, requirements: [], outcomes: [], extensions: [],
@@ -505,7 +522,7 @@ function buildSkill(skill) {
     tips: ["Practice daily", "Build small projects", "Read the official docs"],
     nextTopics: skill.roles || [],
     optional: false,
-    certIds: resolveCertIdsFor(skill.slug, "skill"),
+    certIds: resolveCertIdsFor(skill.slug),
   };
 
   const sectionNodes = (skill.sections || []).map(s => buildSection(s, ctx));
@@ -528,7 +545,7 @@ function buildSkill(skill) {
       prerequisites: skill.prerequisites || [],
       certifications: skill.certifications || [],
       tools: skill.tools || [], softSkills: [],
-      portfolioIdeas: skill.topics?.projects || [], specializations: skill.roles || [],
+      portfolioIdeas: skill.portfolioProjects || skill.topics?.projects || [], specializations: skill.roles || [],
       examMeta: null,
     },
     stats: {
@@ -570,7 +587,7 @@ const searchIndex = [];
 let failures = 0;
 let skillCount = 0;
 
-const addIndexEntry = (data) => {
+const addIndexEntry = (data, projectRecords) => {
   index.roadmaps[data.meta.slug] = {
     title: data.meta.title, icon: data.meta.icon, color: data.meta.color,
     kind: data.meta.kind, category: data.meta.category, domain: data.meta.domain,
@@ -579,7 +596,7 @@ const addIndexEntry = (data) => {
     durationHours: data.meta.durationHours, salary: data.meta.salary,
     demand: data.meta.demand, demandLevel: data.meta.demandLevel,
     nodeCount: data.stats.totalNodes, topicCount: data.stats.topics,
-    projectCount: data.stats.projects, learnable: data.stats.learnable,
+    projectCount: projectRecords ?? data.stats.projects, learnable: data.stats.learnable,
     estimatedHours: data.stats.estimatedHours, tagline: data.meta.tagline,
   };
   searchIndex.push({
@@ -592,18 +609,24 @@ const addIndexEntry = (data) => {
 
 const writeRoadmap = (slug, data) => {
   writeFileSync(join(GENERATED, `${slug}.json`), JSON.stringify(data));
-  writeFileSync(join(PUBLIC_OUT, `${slug}.json`), JSON.stringify({ meta: data.meta, stats: data.stats, root: slimNode(data.root) }));
   const detailsMap = {};
   collectDetails(data.root, detailsMap);
+  // Real project-record count (details.projects entries). The old value was
+  // stats.byType.project — a TREE NODE type count that is 0 for most roadmaps,
+  // making every card display "0 projects" while 1,486 real projects ship.
+  const projectRecords = Object.values(detailsMap).reduce((n, d) => n + ((d && Array.isArray(d.projects)) ? d.projects.length : 0), 0);
+  const stats = { ...data.stats, projects: projectRecords };
+  writeFileSync(join(PUBLIC_OUT, `${slug}.json`), JSON.stringify({ meta: data.meta, stats, root: slimNode(data.root) }));
   writeFileSync(join(PUBLIC_OUT, `${slug}.details.json`), JSON.stringify(detailsMap));
+  return projectRecords;
 };
 
 // Process careers
 for (const career of CAREERS) {
   try {
     const data = buildCareer(career);
-    writeRoadmap(career.slug, data);
-    addIndexEntry(data);
+    const projectRecords = writeRoadmap(career.slug, data);
+    addIndexEntry(data, projectRecords);
   } catch (e) {
     failures += 1;
     console.error(`✗ career ${career.slug}: ${e.message}`);
@@ -614,8 +637,8 @@ for (const career of CAREERS) {
 for (const skill of SKILLS) {
   try {
     const data = buildSkill(skill);
-    writeRoadmap(skill.slug, data);
-    addIndexEntry(data);
+    const projectRecords = writeRoadmap(skill.slug, data);
+    addIndexEntry(data, projectRecords);
     skillCount += 1;
   } catch (e) {
     failures += 1;
@@ -705,8 +728,20 @@ const nonItCount = careerCount - itCount;
 console.log(`✓ Generated ${careerCount - failures}/${careerCount} careers + ${skillCount} skills`);
 console.log(`  Careers: ${itCount} IT/Tech, ${nonItCount} Non-IT · Skills: ${skillCount}`);
 console.log(`  Total nodes: ${Object.values(index.roadmaps).reduce((a, r) => a + r.nodeCount, 0)}`);
-// Sync generated files to data/generated/ so the app's @/data/generated imports work
+// Sync generated files to data/generated/ so the app's @/data/generated imports work.
+// Remove any stale per-roadmap files from retired slugs — without this, files
+// for roadmaps no longer in the source (129 of them: adobe-xd, autocad, ci-cd,
+// …) lingered alongside the authoritative 261 and shipped dead search-index
+// keywords. Only metadata files plus slugs present in the current index remain.
 const LEGACY_GEN = join(__dirname, "..", "generated");
+mkdirSync(LEGACY_GEN, { recursive: true });
+const META_FILES = new Set(["index.json", "search-index.json", "skill-categories.json", "career-domains.json", "certifications.json"]);
+for (const fname of readdirSync(LEGACY_GEN)) {
+  if (!fname.endsWith(".json")) continue;
+  if (!META_FILES.has(fname) && !index.roadmaps[fname.replace(".json", "")]) {
+    unlinkSync(join(LEGACY_GEN, fname));
+  }
+}
 for (const fname of readdirSync(GENERATED)) {
   if (fname.endsWith(".json")) {
     writeFileSync(join(LEGACY_GEN, fname), readFileSync(join(GENERATED, fname)));
