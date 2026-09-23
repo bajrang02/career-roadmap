@@ -21,7 +21,7 @@
       {"title": "Exercism JavaScript Track", "url": "https://exercism.org/tracks/javascript", "platform": "Exercism", "kind": "practice", "difficulty": "Beginner"}
     ],
     "react-fundamentals": [
-      {"title": "React Challenges", "url": "https://reactchallenges.app/", "platform": "React Challenges", "kind": "practice", "difficulty": "Intermediate"}
+      {"title": "React Challenges", "url": "https://react.dev/learn/thinking-in-react", "platform": "React Challenges", "kind": "practice", "difficulty": "Intermediate"}
     ],
     "docker-fundamentals": [
       {"title": "Katacoda Docker Scenarios", "url": "https://www.katacoda.com/", "platform": "Katacoda", "kind": "practice", "difficulty": "Beginner"},
@@ -55,7 +55,7 @@
     ],
     "plc-programming": [
       {"title": "PLC Fiddle (Online Simulator)", "url": "https://www.plcfiddle.com/", "platform": "PLC Fiddle", "kind": "practice", "difficulty": "Beginner"},
-      {"title": "PLCdev Training", "url": "https://www.plcdev.com/plc_training", "platform": "PLCdev", "kind": "practice", "difficulty": "Beginner"}
+      {"title": "PLCdev Training", "url": "https://control.com/textbook/programmable-logic-controllers/", "platform": "PLCdev", "kind": "practice", "difficulty": "Beginner"}
     ]
   }
 }

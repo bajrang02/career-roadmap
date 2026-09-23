@@ -92,13 +92,13 @@
 
   /* ── Button refinements ──────────────────────────────────────────────── */
   .btn-primary {
-    @apply inline-flex h-10 items-center gap-2 rounded-xl bg-brand-600 px-5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-brand-700 hover:shadow-md active:scale-[0.97] disabled:opacity-50 disabled:pointer-events-none;
+    @apply inline-flex h-11 items-center gap-2 rounded-xl bg-brand-600 px-5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-brand-700 hover:shadow-md active:scale-[0.97] disabled:opacity-50 disabled:pointer-events-none;
   }
   .btn-secondary {
-    @apply inline-flex h-10 items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 text-sm font-semibold text-slate-700 shadow-sm transition-all hover:border-brand-300 hover:text-brand-700 hover:shadow-md active:scale-[0.97] dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200 dark:hover:border-brand-500 dark:hover:text-brand-300;
+    @apply inline-flex h-11 items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 text-sm font-semibold text-slate-700 shadow-sm transition-all hover:border-brand-300 hover:text-brand-700 hover:shadow-md active:scale-[0.97] dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200 dark:hover:border-brand-500 dark:hover:text-brand-300;
   }
   .btn-ghost {
-    @apply inline-flex h-10 items-center gap-2 rounded-xl px-4 text-sm font-medium text-slate-600 transition-all hover:bg-slate-100 hover:text-slate-900 active:scale-[0.97] dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white;
+    @apply inline-flex h-11 items-center gap-2 rounded-xl px-4 text-sm font-medium text-slate-600 transition-all hover:bg-slate-100 hover:text-slate-900 active:scale-[0.97] dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white;
   }
 }
 

@@ -78,12 +78,17 @@ export interface Resource {
 export interface PracticeItem {
   title: string;
   platform: string;
-  url: string;
+  /** External platform link. Absent for self-contained guided tasks. */
+  url?: string;
   difficulty: DifficultyLevel;
   estimatedTime: string;
   /** skills this exercise trains, e.g. ["JOIN", "GROUP BY"] */
   skills: string[];
   description: string;
+  /** true when this is a self-contained task authored for the node (no link) */
+  task?: boolean;
+  /** ordered steps for guided tasks */
+  steps?: string[];
 }
 
 export interface ProjectRef {
@@ -152,6 +157,35 @@ export interface CertificationLink {
 }
 
 /**
+ * What kind of credential a record actually is. A licence exam is NOT a
+ * certification, a course certificate is NOT a professional credential, and a
+ * preparation course is none of the above — the UI must never conflate them.
+ */
+export type CredentialType =
+  | "professional_certification"
+  | "vendor_certification"
+  | "industry_certification"
+  | "professional_credential"
+  | "license_exam"
+  | "academic_credential"
+  | "course_certificate"
+  | "training_certificate"
+  | "digital_badge"
+  | "micro_credential";
+
+/** How the credential is priced (verified against the provider). */
+export type PriceStatus =
+  | "free"
+  | "paid"
+  | "freemium"
+  | "varies"
+  | "membership_required"
+  | "unknown";
+
+/** Lifecycle state — only "active" credentials are shipped to the UI. */
+export type CertificationStatus = "active" | "retired" | "scheduled" | "replaced" | "unknown";
+
+/**
  * A record in the shipped certification catalog (public/roadmaps/certifications.json).
  * All fields beyond id/name/provider are optional — consumers must validate
  * before rendering (see normalizeCertification in lib/topic-details.ts).
@@ -161,29 +195,61 @@ export interface Certification {
   name: string;
   provider: string;
   category?: string;
-  /** "paid" | "free" */
+  credentialType?: CredentialType;
+  status?: CertificationStatus;
+  priceStatus?: PriceStatus;
+  priceDetails?: string;
+  examRequired?: boolean;
+  examName?: string;
+  eligibility?: string;
+  prerequisites?: string[];
+  renewalPeriod?: string;
+  level?: "Beginner" | "Intermediate" | "Advanced";
+  officialUrl?: string;
+  verificationUrl?: string;
+  skills?: string[];
+  domains?: string[];
+  roadmapIds?: string[];
+  lastVerifiedAt?: string;
+  sourceType?: string;
+  /** legacy: "paid" | "free" — superseded by priceStatus */
   type?: string;
   difficulty?: "Beginner" | "Intermediate" | "Advanced";
-  /** human cost string ("$150", "$49/month", "Free") */
+  /** legacy human cost string — superseded by priceDetails */
   cost?: string;
   validity?: string;
+  /** legacy alias of officialUrl */
   url?: string;
   description?: string;
   prep?: CertificationLink[];
   practice?: CertificationLink[];
+  /** legacy alias of roadmapIds */
   relatedCareers?: string[];
 }
 
-/** Cost status derived ONLY from verified catalog fields — never guessed. */
-export type CertificationCost = "FREE" | "PAID EXAM" | "FREE PREPARATION" | "PAID CERTIFICATION";
+/** Cost status derived ONLY from verified catalog fields — never guessed.
+ *  Free preparation material never makes a paid exam "free". */
+export type CertificationCost =
+  | "FREE"
+  | "PAID EXAM"
+  | "PAID CERTIFICATION"
+  | "FREE PREPARATION"
+  | "COST VARIES"
+  | "MEMBERSHIP REQUIRED"
+  | "SEE PROVIDER";
 
 /** Normalized certification actually rendered by the UI. */
 export interface CertificationView {
   id: string;
   name: string;
   provider: string;
+  /** human label for the credential family (e.g. "Vendor certification") */
+  credentialTypeLabel: string;
+  /** raw enum, kept for filtering/analytics */
+  credentialType: CredentialType;
   level: string;
   officialUrl: string;
+  verificationUrl?: string;
   description: string;
   costLabel: CertificationCost;
   costDetail?: string;
@@ -193,6 +259,10 @@ export interface CertificationView {
   validates: string[];
   prep: CertificationLink[];
   practiceLinks: CertificationLink[];
+  examRequired: boolean;
+  examName?: string;
+  prerequisites: string[];
+  eligibility?: string;
 }
 
 export interface RoadmapNode {

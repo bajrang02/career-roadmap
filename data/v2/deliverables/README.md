@@ -8,13 +8,13 @@ This dataset provides verified, topic-specific learning resources, practice acti
 
 | File | Description | Count |
 |------|-------------|-------|
-| resources.json | Topic-specific learning resources | 12926 |
-| practice.json | Domain-appropriate practice activities | 13047 |
+| resources.json | Topic-specific learning resources | 16814 |
+| practice.json | Domain-appropriate practice activities | 19303 |
 | certifications.json | Real, verified certifications | 63 |
 | resource-platforms.json | Verified resource platform registry | 76 |
 | practice-platforms.json | Domain-appropriate practice platform mapping | Object |
 | certification-providers.json | Real certification providers | 29 |
-| source-registry.json | Source tracking & verification | 210 |
+| source-registry.json | Source tracking & verification | 374 |
 | curriculum.json | Curriculum reference summary | — |
 | validation-report.json | Quality & coverage report | — |
 | README.md | This file | — |
@@ -23,10 +23,10 @@ This dataset provides verified, topic-specific learning resources, practice acti
 
 When a user opens a topic:
 
-1. **Exact match** — Topic-specific resource found (317 cases)
-2. **Parent fallback** — Nearest parent topic resource (1703 cases)
-3. **Skill fallback** — Skill-level resource (1427 cases)
-4. **Discovery** — Keyword-gated domain/discovery resource (1924 cases)
+1. **Exact match** — Topic-specific resource found (919 cases)
+2. **Parent fallback** — Nearest parent topic resource (4119 cases)
+3. **Skill fallback** — Skill-level resource (1774 cases)
+4. **Discovery** — Keyword-gated domain/discovery resource (61 cases)
 
 The UI displays the appropriate label for each scope level.
 

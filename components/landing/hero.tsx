@@ -194,26 +194,40 @@ export function Hero({ stats }: { stats: HeroStats }) {
             with curated resources, projects and progress tracking.
           </motion.p>
 
-          <motion.form
+          <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.15 }}
+            className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center"
+          >
+            <Link href="/careers" className="btn-primary shrink-0 w-full justify-center sm:w-auto">
+              Explore Careers
+            </Link>
+            <Link href="/skills" className="btn-secondary shrink-0 w-full justify-center sm:w-auto">
+              Explore Skills
+            </Link>
+          </motion.div>
+
+          <motion.form
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.2 }}
             onSubmit={submit}
-            className="mt-5 flex w-full max-w-md items-center gap-2 rounded-2xl border border-slate-200 bg-white p-1.5 pl-4 shadow-sm focus-within:border-brand-400 focus-within:ring-2 focus-within:ring-brand-400/20 sm:mt-6 dark:border-slate-700 dark:bg-slate-800"
+            className="mt-4 flex w-full max-w-md items-center gap-2 rounded-xl border border-slate-200 bg-white p-1.5 pl-4 shadow-sm focus-within:border-brand-400 focus-within:ring-2 focus-within:ring-brand-400/20 dark:border-slate-700 dark:bg-slate-800"
           >
             <Search className="h-4 w-4 shrink-0 text-slate-400 dark:text-slate-500" />
             <input
               value={q}
               onChange={(e) => setQ(e.target.value)}
-              placeholder={`Search ${stats.careers} careers…`}
+              placeholder="Search careers, skills, or topics..."
               className="h-9 w-full bg-transparent text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none dark:text-white"
-              aria-label="Search careers"
+              aria-label="Search"
             />
             <button
               type="submit"
-              className="flex h-9 shrink-0 items-center gap-1.5 rounded-xl bg-brand-600 px-4 text-sm font-semibold text-white transition-all hover:bg-brand-700 active:scale-95"
+              className="flex h-9 shrink-0 items-center gap-1.5 rounded-lg bg-slate-100 px-4 text-sm font-semibold text-slate-700 transition-all hover:bg-slate-200 active:scale-95 dark:bg-slate-700 dark:text-slate-200 dark:hover:bg-slate-600"
             >
-              Go <ArrowRight className="h-3.5 w-3.5" />
+              Search
             </button>
           </motion.form>
 

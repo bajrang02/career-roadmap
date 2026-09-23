@@ -161,12 +161,17 @@ export const RoadmapToolbar = memo(function RoadmapToolbar(props: ToolbarProps) 
 
       <div className="flex min-w-0 items-center gap-1 text-sm">
         <span className="text-base">{icon}</span>
-        <Link
-          href={`/roadmap/${slug}`}
-          className="font-display truncate font-semibold text-slate-900 transition hover:text-brand-600 dark:text-white dark:hover:text-brand-400"
-        >
-          {title}
-        </Link>
+        {/* h1: the roadmap title is the page's primary heading — sizing stays
+            inherited from the toolbar (Tailwind preflight), so this is purely
+            semantic for screen readers / SEO. */}
+        <h1 className="min-w-0 truncate">
+          <Link
+            href={`/roadmap/${slug}`}
+            className="font-display font-semibold text-slate-900 transition hover:text-brand-600 dark:text-white dark:hover:text-brand-400"
+          >
+            {title}
+          </Link>
+        </h1>
         {breadcrumbs.length > 1 && (
           <span className="mx-0.5 hidden min-w-0 items-center gap-0.5 text-slate-500 dark:text-slate-400 lg:flex">
             <ChevronRight className="h-3.5 w-3.5 shrink-0" />

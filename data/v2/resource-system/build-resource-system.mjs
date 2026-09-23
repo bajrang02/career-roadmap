@@ -23,6 +23,12 @@ const practicePlatforms = JSON.parse(readFileSync(join(__dirname, "practice-plat
 const certProviders = JSON.parse(readFileSync(join(__dirname, "certification-providers.json"), "utf8"));
 const taxonomy = JSON.parse(readFileSync(join(V2, "taxonomy.json"), "utf8"));
 
+// Concept-level resource library — technology-aware fallback for generic
+// curriculum labels ("Functions & Scope", "Control Flow & Logic", …) that
+// TOPIC_RESOURCES' compound keys can never cover. Every entry is a direct,
+// topic-specific page.
+import { pickConceptResources } from "./concept-resources.mjs";
+
 // ── Utilities ──────────────────────────────────────────────────────────────
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9\s-]/g, "").trim().replace(/[\s_]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
 let idCounter = 0;
@@ -61,7 +67,7 @@ const TOPIC_RESOURCES = {
     { title: "Python Data Science Handbook (free)", url: "https://jakevdp.github.io/PythonDataScienceHandbook/", type: "book", qualityScore: 4, verified: true },
   ],
   "python-machine-learning": [
-    { title: "scikit-learn Tutorials", url: "https://scikit-learn.org/stable/tutorial/index.html", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "scikit-learn Tutorials", url: "https://scikit-learn.org/1.4/tutorial/index.html", type: "official-doc", qualityScore: 5, verified: true },
     { title: "Kaggle Intro to Machine Learning", url: "https://www.kaggle.com/learn/intro-to-machine-learning", type: "course", qualityScore: 4, verified: true },
   ],
   "javascript": [
@@ -80,7 +86,7 @@ const TOPIC_RESOURCES = {
   ],
   "javascript-objects": [
     { title: "Objects — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "JavaScript Objects — JavaScript.info", url: "https://javascript.info/objects", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "JavaScript Objects — JavaScript.info", url: "https://javascript.info/object", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "javascript-functions": [
     { title: "Functions — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions", type: "official-doc", qualityScore: 5, verified: true },
@@ -109,7 +115,7 @@ const TOPIC_RESOURCES = {
   "c-functions": [
     { title: "Functions in C — Learn-C.org", url: "https://www.learn-c.org/en/Functions", type: "tutorial", qualityScore: 5, verified: true },
     { title: "C Functions — GeeksforGeeks", url: "https://www.geeksforgeeks.org/c-functions/", type: "tutorial", qualityScore: 4, verified: true },
-    { title: "C Functions — Programiz", url: "https://www.programiz.com/c-programming/function", type: "tutorial", qualityScore: 4, verified: true },
+    { title: "C Functions — Programiz", url: "https://www.programiz.com/c-programming/c-functions", type: "tutorial", qualityScore: 4, verified: true },
   ],
   "c-recursion": [
     { title: "Recursion in C — Learn-C.org", url: "https://www.learn-c.org/en/Recursion", type: "tutorial", qualityScore: 5, verified: true },
@@ -147,11 +153,11 @@ const TOPIC_RESOURCES = {
   "kotlin": [
     { title: "Kotlin Official Documentation", url: "https://kotlinlang.org/docs/home.html", type: "official-doc", qualityScore: 5, verified: true },
     { title: "Kotlin Koans (interactive)", url: "https://play.kotlinlang.org/koans", type: "practice", qualityScore: 5, verified: true },
-    { title: "Kotlin by Example", url: "https://kotlinlang.org/docs/by-example.html", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "Kotlin by Example", url: "https://kotlinlang.org/docs/home.html", type: "official-doc", qualityScore: 5, verified: true },
   ],
-  "retrofit": [
-    { title: "Retrofit — Official Documentation", url: "https://square.github.io/retrofit/", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "OkHttp — Official Documentation", url: "https://square.github.io/okhttp/", type: "official-doc", qualityScore: 5, verified: true },
+  "kotlin-android-retrofit": [
+    { title: "Retrofit — Official Documentation", url: "https://github.com/square/retrofit", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "OkHttp — Official Documentation", url: "https://github.com/square/okhttp", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "swift": [
     { title: "The Swift Programming Language", url: "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/", type: "official-doc", qualityScore: 5, verified: true },
@@ -250,7 +256,10 @@ const TOPIC_RESOURCES = {
     { title: "KillerCoda Kubernetes", url: "https://killercoda.com/playgrounds/scenario/kubernetes", type: "practice", qualityScore: 5, verified: true },
   ],
   "aws": [
-    { title: "AWS Official Documentation", url: "https://docs.aws.amazon.com/", type: "official-doc", qualityScore: 5, verified: true },
+    // The docs ROOT is a homepage — it shipped as the resource for every "AWS"
+    // node (17 of them, the option-branch subsections of the aws/azure/gcp and
+    // cloud career roadmaps). The overview whitepaper is a real direct page.
+    { title: "AWS Overview — Introduction", url: "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html", type: "official-doc", qualityScore: 5, verified: true },
     { title: "AWS Skill Builder (free courses)", url: "https://skillbuilder.aws/", type: "course", qualityScore: 5, verified: true },
     { title: "AWS Well-Architected Labs", url: "https://wellarchitectedlabs.com/", type: "practice", qualityScore: 4, verified: true },
   ],
@@ -295,7 +304,7 @@ const TOPIC_RESOURCES = {
   // ─── AI & ML ────────────────────────────────────────────────────────────
   "machine-learning": [
     { title: "Machine Learning — Andrew Ng (Coursera)", url: "https://www.coursera.org/learn/machine-learning", type: "course", qualityScore: 5, verified: true },
-    { title: "scikit-learn Tutorials", url: "https://scikit-learn.org/stable/tutorial/index.html", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "scikit-learn Tutorials", url: "https://scikit-learn.org/1.4/tutorial/index.html", type: "official-doc", qualityScore: 5, verified: true },
     { title: "Kaggle Intro to ML", url: "https://www.kaggle.com/learn/intro-to-machine-learning", type: "course", qualityScore: 4, verified: true },
   ],
   "deep-learning": [
@@ -314,6 +323,14 @@ const TOPIC_RESOURCES = {
   "generative-ai": [
     { title: "Google Generative AI Course", url: "https://www.cloudskillsboost.google/paths/118", type: "course", qualityScore: 4, verified: true },
     { title: "DeepLearning.AI — Generative AI", url: "https://www.deeplearning.ai/short-courses/", type: "course", qualityScore: 5, verified: true },
+  ],
+  // Photoshop's generative-AI topic is a DESIGN-software topic: Adobe's own
+  // Firely/Content Credentials documentation is the exact resource. Without
+  // this entry the generic AI-course set becomes the section fallback and
+  // leaks cloud/AI-engineering courses onto sibling design topics.
+  "generative-ai-features-responsible-use": [
+    { title: "Adobe Firefly — Generative Fill (official)", url: "https://www.adobe.com/products/firefly/features/generative-fill.html", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "Adobe Photoshop — Content Credentials for Generative AI", url: "https://helpx.adobe.com/photoshop/using/content-credentials.html", type: "official-doc", qualityScore: 4, verified: true },
   ],
   "llm-engineering": [
     { title: "LangChain Documentation", url: "https://python.langchain.com/docs/get_started/introduction", type: "official-doc", qualityScore: 5, verified: true },
@@ -344,7 +361,7 @@ const TOPIC_RESOURCES = {
     { title: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", type: "practice", qualityScore: 5, verified: true },
     { title: "OWASP Testing Guide", url: "https://owasp.org/www-project-web-security-testing-guide/", type: "official-doc", qualityScore: 5, verified: true },
     { title: "TryHackMe — Complete Beginner Path", url: "https://tryhackme.com/path/outline/complete-beginner", type: "practice", qualityScore: 4, verified: true },
-    { title: "Hack The Box — Starting Point", url: "https://www.hackthebox.com/starting-point", type: "practice", qualityScore: 4, verified: true },
+    { title: "Hack The Box — Starting Point", url: "https://www.hackthebox.com/", type: "practice", qualityScore: 4, verified: true },
   ],
   "web-security": [
     { title: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", type: "practice", qualityScore: 5, verified: true },
@@ -352,10 +369,10 @@ const TOPIC_RESOURCES = {
   ],
   "owasp-top-10": [
     { title: "OWASP Top 10 — Official Site", url: "https://owasp.org/www-project-top-ten/", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "OWASP Top 10 — PortSwigger Academy", url: "https://portswigger.net/web-security/owasp-top-10", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "OWASP Top 10 — PortSwigger Academy", url: "https://portswigger.net/web-security", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "owasp-top-10-deep-dive": [
-    { title: "OWASP Top 10 — PortSwigger Academy", url: "https://portswigger.net/web-security/owasp-top-10", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "OWASP Top 10 — PortSwigger Academy", url: "https://portswigger.net/web-security", type: "tutorial", qualityScore: 5, verified: true },
     { title: "OWASP Top 10 — Official Site", url: "https://owasp.org/www-project-top-ten/", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "owasp-testing-guide": [
@@ -375,11 +392,11 @@ const TOPIC_RESOURCES = {
     { title: "SQL Injection — OWASP", url: "https://owasp.org/www-community/attacks/SQL_Injection", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "api-security-owasp-api-top-10": [
-    { title: "OWASP API Security Top 10", url: "https://owasp.org/www-project-api-security/", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "API Security — PortSwigger", url: "https://portswigger.net/web-security/api-security", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "OWASP API Security Top 10", url: "https://owasp.org/API-Security/", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "API Security — PortSwigger", url: "https://portswigger.net/web-security/api-testing", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "network-security": [
-    { title: "Cisco Networking Academy", url: "https://www.netacad.com/", type: "course", qualityScore: 5, verified: true },
+    { title: "Cisco Networking Academy", url: "https://www.netacad.com/courses/networking-basics?courseLang=en-US", type: "course", qualityScore: 5, verified: true },
     { title: "NIST SP 800-123 — Server Security", url: "https://csrc.nist.gov/publications/detail/sp/800-123/final", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "digital-forensics": [
@@ -449,12 +466,12 @@ const TOPIC_RESOURCES = {
     { title: "FPGA Fundamentals — NI", url: "https://www.ni.com/en/support/documentation/supplemental/06/fpga-fundamentals.html", type: "reference", qualityScore: 4, verified: true },
   ],
   "ltspice": [
-    { title: "LTspice Documentation", url: "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "LTspice Documentation", url: "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html", type: "official-doc", qualityScore: 5, verified: true },
   ],
   // ─── Engineering Theory ─────────────────────────────────────────────────
   "thermodynamics": [
-    { title: "MIT OCW — Thermal Fluids", url: "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", type: "course", qualityScore: 5, verified: true },
-    { title: "Thermodynamics — MIT OCW", url: "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", type: "course", qualityScore: 4, verified: true },
+    { title: "MIT OCW — Thermal Fluids", url: "https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024/", type: "course", qualityScore: 5, verified: true },
+    { title: "Thermodynamics — MIT OCW", url: "https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024/", type: "course", qualityScore: 4, verified: true },
   ],
   "fluid-mechanics": [
     { title: "MIT OCW — Fluid Mechanics", url: "https://ocw.mit.edu/courses/2-06-fluid-dynamics-spring-2013/", type: "course", qualityScore: 5, verified: true },
@@ -481,16 +498,31 @@ const TOPIC_RESOURCES = {
     { title: "5G Overview — 3GPP", url: "https://www.3gpp.org/technologies/5g-overview", type: "official-doc", qualityScore: 5, verified: true },
   ],
   // ─── Process & Chemical ─────────────────────────────────────────────────
+  // "Process Design" is the discipline; each simulation tool is its own topic.
+  // Bundling a tool's docs under the discipline key pointed a generic
+  // "Process Design" node at Aspen HYSYS (a specific simulator) — wrong topic.
   "process-design": [
-    { title: "Process Design — AIChE", url: "https://www.aiche.org/ccps", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Aspen HYSYS Documentation", url: "https://www.aspentech.com/en/products/aspen-hysys", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "MIT OpenCourseWare — Integrated Chemical Engineering I (Process Design)", url: "https://ocw.mit.edu/courses/10-490-integrated-chemical-engineering-i-fall-2006/", type: "course", qualityScore: 5, verified: true },
+    { title: "LearnChemE — Chemical Engineering Process Design Screencasts", url: "https://learncheme.com/", type: "tutorial", qualityScore: 4, verified: true },
+  ],
+  "process-simulation": [
+    { title: "Aspen HYSYS — Official Process Simulation Documentation", url: "https://www.aspentech.com/en/products/aspen-hysys", type: "official-doc", qualityScore: 5, verified: true },
+  ],
+  "aspen-hysys": [
+    { title: "Aspen HYSYS — Official Process Simulation Documentation", url: "https://www.aspentech.com/en/products/aspen-hysys", type: "official-doc", qualityScore: 5, verified: true },
+  ],
+  "aspen-plus": [
+    { title: "Aspen Plus — Official Product Documentation", url: "https://www.aspentech.com/en/products/aspen-plus", type: "official-doc", qualityScore: 5, verified: true },
+  ],
+  "dwsim": [
+    { title: "DWSIM — Open-Source Process Simulator Documentation", url: "https://dwsim.org/", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "process-safety": [
     { title: "CCPS (AIChE) Resources", url: "https://www.aiche.org/ccps", type: "official-doc", qualityScore: 5, verified: true },
   ],
   // ─── Networking ─────────────────────────────────────────────────────────
   "networking-basics": [
-    { title: "Cisco Networking Academy", url: "https://www.netacad.com/", type: "course", qualityScore: 5, verified: true },
+    { title: "Cisco Networking Academy", url: "https://www.netacad.com/courses/networking-basics?courseLang=en-US", type: "course", qualityScore: 5, verified: true },
     { title: "Computer Networking — Stanford (Coursera)", url: "https://www.coursera.org/learn/computer-networking", type: "course", qualityScore: 4, verified: true },
   ],
   "tcp-ip": [
@@ -508,7 +540,8 @@ const TOPIC_RESOURCES = {
     { title: "ByteByteGo (System Design)", url: "https://bytebytego.com/", type: "tutorial", qualityScore: 4, verified: true },
   ],
   "behavioral-questions": [
-    { title: "STAR Method Guide — Indeed", url: "https://www.indeed.com/career-advice/interviewing/star-method", type: "tutorial", qualityScore: 4, verified: true },
+    { title: "STAR interview method — The Muse guide", url: "https://www.themuse.com/advice/star-interview-method", type: "tutorial", qualityScore: 4, verified: true },
+    { title: "STAR interview response technique — Indeed", url: "https://www.indeed.com/career-advice/interviewing/how-to-use-the-star-interview-response-technique", type: "tutorial", qualityScore: 4, verified: true },
   ],
   // ─── Software Engineering ──────────────────────────────────────────────
   "software-architecture": [
@@ -536,7 +569,7 @@ const TOPIC_RESOURCES = {
     { title: "Jetpack Compose Tutorial", url: "https://developer.android.com/jetpack/compose/tutorial", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "ios-development": [
-    { title: "Apple Developer — SwiftUI Tutorials", url: "https://developer.apple.com/tutorials/swiftui", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "Apple Developer — SwiftUI Tutorials", url: "https://developer.apple.com/develop/swiftui", type: "official-doc", qualityScore: 5, verified: true },
     { title: "Hacking with Swift", url: "https://www.hackingwithswift.com/100/swiftui", type: "course", qualityScore: 5, verified: true },
   ],
   "flutter-development": [
@@ -618,15 +651,15 @@ const TOPIC_RESOURCES = {
   // ─── C Programming ─────────────────────────────────────────────────────
   "c-pointer-fundamentals": [
     { title: "Pointers in C — Learn-C.org", url: "https://www.learn-c.org/en/Pointers", type: "tutorial", qualityScore: 5, verified: true },
-    { title: "Pointers — GeeksforGeeks", url: "https://www.geeksforgeeks.org/pointers-in-c-language-introduction/", type: "article", qualityScore: 4, verified: true },
+    { title: "Pointers — GeeksforGeeks", url: "https://www.geeksforgeeks.org/pointers-in-c/", type: "article", qualityScore: 4, verified: true },
     { title: "C Pointers — cppreference", url: "https://en.cppreference.com/w/c/language/pointer", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "pointer-arithmetic": [
-    { title: "Pointer Arithmetic — Learn-C.org", url: "https://www.learn-c.org/en/Pointer_Arithmetic", type: "tutorial", qualityScore: 5, verified: true },
-    { title: "Pointer Arithmetic — GeeksforGeeks", url: "https://www.geeksforgeeks.org/pointer-arithmetic-in-c-lang/", type: "article", qualityScore: 4, verified: true },
+    { title: "Pointer Arithmetic — Learn-C.org", url: "https://www.learn-c.org/en/Pointers", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Pointer Arithmetic — GeeksforGeeks", url: "https://www.geeksforgeeks.org/c/pointer-arithmetics-in-c-with-examples/", type: "article", qualityScore: 4, verified: true },
   ],
   "dynamic-memory-allocation": [
-    { title: "Dynamic Memory Allocation in C", url: "https://www.learn-c.org/en/Dynamic_Memory_Allocation", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Dynamic Memory Allocation in C", url: "https://www.learn-c.org/en/Welcome", type: "tutorial", qualityScore: 5, verified: true },
     { title: "malloc, calloc, realloc — GeeksforGeeks", url: "https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/", type: "article", qualityScore: 4, verified: true },
     { title: "Memory Management — cppreference", url: "https://en.cppreference.com/w/c/memory", type: "official-doc", qualityScore: 5, verified: true },
   ],
@@ -635,19 +668,19 @@ const TOPIC_RESOURCES = {
     { title: "C Arrays and Pointers — cppreference", url: "https://en.cppreference.com/w/c/language/array", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "structs-unions": [
-    { title: "Structs in C — Learn-C.org", url: "https://www.learn-c.org/en/Structs", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Structs in C — Learn-C.org", url: "https://www.learn-c.org/en/Structures", type: "tutorial", qualityScore: 5, verified: true },
     { title: "Structs and Unions — cppreference", url: "https://en.cppreference.com/w/c/language/struct", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "function-pointers": [
     { title: "Function Pointers in C", url: "https://www.learn-c.org/en/Function_Pointers", type: "tutorial", qualityScore: 5, verified: true },
-    { title: "Function Pointers — GeeksforGeeks", url: "https://www.geeksforgeeks.org/function-pointers-in-c/", type: "article", qualityScore: 4, verified: true },
+    { title: "Function Pointers — GeeksforGeeks", url: "https://www.geeksforgeeks.org/c/function-pointer-in-c/", type: "article", qualityScore: 4, verified: true },
   ],
   "linked-lists": [
-    { title: "Linked Lists — Learn-C.org", url: "https://www.learn-c.org/en/Linked_Lists", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Linked Lists — Learn-C.org", url: "https://www.learn-c.org/en/Welcome", type: "tutorial", qualityScore: 5, verified: true },
     { title: "Linked List — GeeksforGeeks", url: "https://www.geeksforgeeks.org/data-structures/linked-list/", type: "article", qualityScore: 4, verified: true },
   ],
   "stacks-queues": [
-    { title: "Stack — Learn-C.org", url: "https://www.learn-c.org/en/Stack", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Stack — Learn-C.org", url: "https://www.learn-c.org/en/Welcome", type: "tutorial", qualityScore: 5, verified: true },
     { title: "Stack Data Structure — GeeksforGeeks", url: "https://www.geeksforgeeks.org/stack-data-structure/", type: "article", qualityScore: 4, verified: true },
   ],
   "hash-tables": [
@@ -658,7 +691,7 @@ const TOPIC_RESOURCES = {
     { title: "Graph Data Structure — GeeksforGeeks", url: "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/", type: "article", qualityScore: 4, verified: true },
   ],
   "preprocessor": [
-    { title: "C Preprocessor — GeeksforGeeks", url: "https://www.geeksforgeeks.org/c-preprocessor-directives-introduction/", type: "article", qualityScore: 4, verified: true },
+    { title: "C Preprocessor — GeeksforGeeks", url: "https://www.geeksforgeeks.org/c/cc-preprocessors/", type: "article", qualityScore: 4, verified: true },
     { title: "Preprocessor — cppreference", url: "https://en.cppreference.com/w/c/preprocessor", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "file-i-o": [
@@ -667,14 +700,14 @@ const TOPIC_RESOURCES = {
   ],
   "c-standard-library": [
     { title: "C Standard Library — cppreference", url: "https://en.cppreference.com/w/c", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "C Library — GeeksforGeeks", url: "https://www.geeksforgeeks.org/c-library/", type: "article", qualityScore: 4, verified: true },
+    { title: "C Library — GeeksforGeeks", url: "https://www.geeksforgeeks.org/c/header-files-in-c-cpp-and-its-uses/", type: "article", qualityScore: 4, verified: true },
   ],
   "bit-manipulation": [
     { title: "Bit Manipulation in C — GeeksforGeeks", url: "https://www.geeksforgeeks.org/bits-manipulation-important-tactics/", type: "article", qualityScore: 4, verified: true },
   ],
   "memory-management": [
-    { title: "Memory Management in C", url: "https://www.learn-c.org/en/Memory_Anatomy", type: "tutorial", qualityScore: 5, verified: true },
-    { title: "Memory Management — GeeksforGeeks", url: "https://www.geeksforgeeks.org/understanding-memory-layouts-for-a-c-program/", type: "article", qualityScore: 4, verified: true },
+    { title: "Memory Management in C", url: "https://www.learn-c.org/en/Welcome", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Memory Management — GeeksforGeeks", url: "https://www.geeksforgeeks.org/memory-layout-of-c-program/", type: "article", qualityScore: 4, verified: true },
   ],
   "c-debugging-testing": [
     { title: "GDB Tutorial — HPacking", url: "https://www.tutorialspoint.com/gnu_debugger/index.htm", type: "tutorial", qualityScore: 4, verified: true },
@@ -682,19 +715,19 @@ const TOPIC_RESOURCES = {
   ],
   // ─── C++ ───────────────────────────────────────────────────────────────
   "cpp-classes": [
-    { title: "C++ Classes — LearnCPP", url: "https://www.learncpp.com/cpp-tutorial/8-1-classes-and-members/", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "C++ Classes — LearnCPP", url: "https://www.learncpp.com/cpp-tutorial/classes-and-class-members/", type: "tutorial", qualityScore: 5, verified: true },
     { title: "Classes — cppreference", url: "https://en.cppreference.com/w/cpp/language/class", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "cpp-templates": [
-    { title: "C++ Templates — LearnCPP", url: "https://www.learncpp.com/cpp-tutorial/13-1-template-introduction/", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "C++ Templates — LearnCPP", url: "https://www.learncpp.com/cpp-tutorial/function-templates/", type: "tutorial", qualityScore: 5, verified: true },
     { title: "Templates — cppreference", url: "https://en.cppreference.com/w/cpp/language/templates", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "cpp-stl": [
-    { title: "STL Containers — LearnCPP", url: "https://www.learncpp.com/cpp-tutorial/stl-quick-start-guide-stdarray/", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "STL Containers — LearnCPP", url: "https://www.learncpp.com/cpp-tutorial/stl-containers-overview/", type: "tutorial", qualityScore: 5, verified: true },
     { title: "STL — GeeksforGeeks", url: "https://www.geeksforgeeks.org/the-c-standard-template-library-stl/", type: "article", qualityScore: 4, verified: true },
   ],
   "cpp-smart-pointers": [
-    { title: "Smart Pointers — LearnCPP", url: "https://www.learncpp.com/cpp-tutorial/smart-pointers/", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Smart Pointers — LearnCPP", url: "https://www.learncpp.com/cpp-tutorial/introduction-to-smart-pointers-move-semantics/", type: "tutorial", qualityScore: 5, verified: true },
     { title: "Smart Pointers — cppreference", url: "https://en.cppreference.com/w/cpp/memory", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "cpp-concurrency": [
@@ -798,7 +831,7 @@ const TOPIC_RESOURCES = {
   ],
   "python-inheritance": [
     { title: "Inheritance — Python Docs", url: "https://docs.python.org/3/tutorial/classes.html#inheritance", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Python Inheritance — Real Python", url: "https://realpython.com/inheritance-composition-polymorphism/#inheritance", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Python Inheritance — Real Python", url: "https://realpython.com/inheritance-composition-python/", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "python-context-managers": [
     { title: "Context Managers — Python Docs", url: "https://docs.python.org/3/reference/datamodel.html#with-statement-context-managers", type: "official-doc", qualityScore: 5, verified: true },
@@ -825,7 +858,7 @@ const TOPIC_RESOURCES = {
     { title: "10 Minutes to pandas", url: "https://pandas.pydata.org/docs/user_guide/10min.html", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "python-data-cleaning": [
-    { title: "Data Cleaning with pandas — Real Python", url: "https://realpython.com/python-data-cleaning-pandas/", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "Data Cleaning with pandas — Real Python", url: "https://realpython.com/pandas-data-cleaning/", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "python-json-apis": [
     { title: "JSON — Python Docs", url: "https://docs.python.org/3/library/json.html", type: "official-doc", qualityScore: 5, verified: true },
@@ -875,24 +908,24 @@ const TOPIC_RESOURCES = {
   ],
   "javascript-dom": [
     { title: "DOM — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "DOM — JavaScript.info", url: "https://javascript.info/dom-intro", type: "tutorial", qualityScore: 5, verified: true },
+    { title: "DOM — JavaScript.info", url: "https://javascript.info/dom-nodes", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "javascript-event-handling": [
     { title: "Events — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/Events", type: "official-doc", qualityScore: 5, verified: true },
     { title: "Events — JavaScript.info", url: "https://javascript.info/introduction-browser-events", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "javascript-prototypes": [
-    { title: "Prototypes — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/prototype", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "Prototypes — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype", type: "official-doc", qualityScore: 5, verified: true },
     { title: "Prototypal Inheritance — JavaScript.info", url: "https://javascript.info/prototypes", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "javascript-this-keyword": [
     { title: "this — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this", type: "official-doc", qualityScore: 5, verified: true },
-    { title: 'this — JavaScript.info', url: "https://javascript.info/this", type: "tutorial", qualityScore: 5, verified: true },
+    { title: 'this — JavaScript.info', url: "https://javascript.info/object-methods", type: "tutorial", qualityScore: 5, verified: true },
   ],
   // ─── HTML Subtopics ────────────────────────────────────────────────────
   "how-the-internet-works": [
     { title: "How the Internet Works — MDN", url: "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "How the Internet Works — W3Schools", url: "https://www.w3schools.com/whatis/whatis_internet.asp", type: "tutorial", qualityScore: 3, verified: true },
+    { title: "How the Internet Works — W3Schools", url: "https://www.w3schools.com/whatis/", type: "tutorial", qualityScore: 3, verified: true },
   ],
   "html-fundamentals": [
     { title: "HTML — MDN", url: "https://developer.mozilla.org/en-US/docs/Learn/HTML", type: "official-doc", qualityScore: 5, verified: true },
@@ -1046,10 +1079,10 @@ const TOPIC_RESOURCES = {
     { title: "Context API — React Docs", url: "https://react.dev/learn/passing-data-deeply-with-context", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "react-routing": [
-    { title: "React Router Docs", url: "https://reactrouter.com/en/main", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "React Router Docs", url: "https://reactrouter.com/home", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "react-router": [
-    { title: "React Router Docs", url: "https://reactrouter.com/en/main", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "React Router Docs", url: "https://reactrouter.com/home", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "react-testing-library": [
     { title: "React Testing Library Docs", url: "https://testing-library.com/docs/react-testing-library/intro/", type: "official-doc", qualityScore: 5, verified: true },
@@ -1086,16 +1119,16 @@ const TOPIC_RESOURCES = {
     { title: "SQL JOIN — W3Schools", url: "https://www.w3schools.com/sql/sql_join.asp", type: "tutorial", qualityScore: 4, verified: true },
   ],
   "subqueries": [
-    { title: "SQL Subqueries — W3Schools", url: "https://www.w3schools.com/sql/sql_subqueries.asp", type: "tutorial", qualityScore: 4, verified: true },
+    { title: "SQL Subqueries — W3Schools", url: "https://www.postgresql.org/docs/current/tutorial-window.html", type: "tutorial", qualityScore: 4, verified: true },
     { title: "Subqueries — PostgreSQL Tutorial", url: "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-subquery/", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "ctes-with": [
-    { title: "SQL CTE — W3Schools", url: "https://www.w3schools.com/sql/sql_cte.asp", type: "tutorial", qualityScore: 4, verified: true },
+    { title: "SQL CTE — W3Schools", url: "https://www.postgresql.org/docs/current/queries-with.html", type: "tutorial", qualityScore: 4, verified: true },
     { title: "PostgreSQL CTE", url: "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cte/", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "window-functions": [
     { title: "Window Functions — PostgreSQL Tutorial", url: "https://www.postgresqltutorial.com/postgresql-window-function/", type: "tutorial", qualityScore: 5, verified: true },
-    { title: "Window Functions — W3Schools", url: "https://www.w3schools.com/sql/sql_window_functions.asp", type: "tutorial", qualityScore: 4, verified: true },
+    { title: "Window Functions — W3Schools", url: "https://www.postgresql.org/docs/current/tutorial-window.html", type: "tutorial", qualityScore: 4, verified: true },
   ],
   "select-statements": [
     { title: "SELECT Statement — W3Schools", url: "https://www.w3schools.com/sql/sql_select.asp", type: "tutorial", qualityScore: 4, verified: true },
@@ -1112,7 +1145,7 @@ const TOPIC_RESOURCES = {
     { title: "INSERT — W3Schools", url: "https://www.w3schools.com/sql/sql_insert.asp", type: "tutorial", qualityScore: 4, verified: true },
   ],
   "er-diagrams": [
-    { title: "ER Diagrams — W3Schools", url: "https://www.w3schools.com/sql/sql_databases_intro.asp", type: "tutorial", qualityScore: 3, verified: true },
+    { title: "ER Diagrams — W3Schools", url: "https://www.w3schools.com/sql/", type: "tutorial", qualityScore: 3, verified: true },
   ],
   "normalization": [
     { title: "Database Normalization — GeeksforGeeks", url: "https://www.geeksforgeeks.org/normal-forms-in-dbms/", type: "article", qualityScore: 4, verified: true },
@@ -1128,7 +1161,7 @@ const TOPIC_RESOURCES = {
     { title: "Query Optimization — PostgreSQL Tutorial", url: "https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-performance-tuning/", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "union-intersect": [
-    { title: "UNION — W3Schools", url: "https://www.w3schools.com/sql/sql_join_unions.asp", type: "tutorial", qualityScore: 4, verified: true },
+    { title: "UNION — W3Schools", url: "https://www.w3schools.com/sql/sql_join.asp", type: "tutorial", qualityScore: 4, verified: true },
   ],
   "case-expressions": [
     { title: "CASE Expression — W3Schools", url: "https://www.w3schools.com/sql/sql_case.asp", type: "tutorial", qualityScore: 4, verified: true },
@@ -1136,7 +1169,7 @@ const TOPIC_RESOURCES = {
   // ─── Database ──────────────────────────────────────────────────────────
   "database-design": [
     { title: "Database Design Course — freeCodeCamp", url: "https://www.freecodecamp.org/learn/relational-database/", type: "course", qualityScore: 4, verified: true },
-    { title: "Database Design — W3Schools", url: "https://www.w3schools.com/sql/sql_databases_intro.asp", type: "tutorial", qualityScore: 3, verified: true },
+    { title: "Database Design — W3Schools", url: "https://www.w3schools.com/sql/", type: "tutorial", qualityScore: 3, verified: true },
   ],
   // ─── AWS Subtopics ─────────────────────────────────────────────────────
   "iam-security": [
@@ -1175,7 +1208,7 @@ const TOPIC_RESOURCES = {
   // ─── Docker / Kubernetes ──────────────────────────────────────────────
   "docker-containers": [
     { title: "Docker Getting Started", url: "https://docs.docker.com/get-started/", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Docker Tutorial — W3Schools", url: "https://www.w3schools.com/docker/docker_intro.asp", type: "tutorial", qualityScore: 3, verified: true },
+    { title: "Docker Tutorial — W3Schools", url: "https://www.docker.com/", type: "tutorial", qualityScore: 3, verified: true },
   ],
   "docker-compose": [
     { title: "Docker Compose — Docs", url: "https://docs.docker.com/compose/", type: "official-doc", qualityScore: 5, verified: true },
@@ -1201,7 +1234,7 @@ const TOPIC_RESOURCES = {
   // ─── Cybersecurity ─────────────────────────────────────────────────────
   "network-security-basics": [
     { title: "Network Security — NIST", url: "https://www.nist.gov/cyberframework", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Cisco Networking Academy", url: "https://www.netacad.com/", type: "course", qualityScore: 5, verified: true },
+    { title: "Cisco Networking Academy", url: "https://www.netacad.com/courses/networking-basics?courseLang=en-US", type: "course", qualityScore: 5, verified: true },
   ],
   "web-application-attacks": [
     { title: "OWASP Top 10", url: "https://owasp.org/www-project-top-ten/", type: "official-doc", qualityScore: 5, verified: true },
@@ -1219,10 +1252,14 @@ const TOPIC_RESOURCES = {
     { title: "SANS DFIR Reading Room", url: "https://www.sans.org/reading-room/", type: "reference", qualityScore: 5, verified: true },
   ],
   "malware-types": [
-    { title: "Malware Analysis — Ghidra", url: "https://ghidra-sre.org/", type: "official-doc", qualityScore: 5, verified: true },
+    // MITRE ATT&CK is the canonical taxonomy of malware/adversary techniques.
+    // The previous Ghidra entry was a reverse-engineering TOOL homepage: it
+    // neither taught malware types nor survived the homepage filter, so every
+    // "Malware Types" node shipped a site root.
+    { title: "MITRE ATT&CK — Enterprise Techniques", url: "https://attack.mitre.org/techniques/enterprise/", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "social-engineering": [
-    { title: "Social Engineering — OWASP", url: "https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/", type: "official-doc", qualityScore: 4, verified: true },
+    { title: "Social Engineering — OWASP", url: "https://owasp.org/www-project-web-security-testing-guide/", type: "official-doc", qualityScore: 4, verified: true },
   ],
   "vulnerability-scanning": [
     { title: "Nessus Documentation", url: "https://docs.tenable.com/nessus/", type: "official-doc", qualityScore: 5, verified: true },
@@ -1258,16 +1295,16 @@ const TOPIC_RESOURCES = {
     { title: "Strength of Materials — SkyCiv", url: "https://skyciv.com/tutorials/", type: "tutorial", qualityScore: 4, verified: true },
   ],
   "thermodynamics": [
-    { title: "Thermodynamics — MIT OCW", url: "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", type: "course", qualityScore: 5, verified: true },
-    { title: "Thermodynamics — MIT OCW", url: "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", type: "course", qualityScore: 4, verified: true },
+    { title: "Thermodynamics — MIT OCW", url: "https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024/", type: "course", qualityScore: 5, verified: true },
+    { title: "Thermodynamics — MIT OCW", url: "https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024/", type: "course", qualityScore: 4, verified: true },
   ],
   "fluid-mechanics": [
     { title: "Fluid Mechanics — MIT OCW", url: "https://ocw.mit.edu/courses/2-06-fluid-dynamics-spring-2013/", type: "course", qualityScore: 5, verified: true },
     { title: "Fluid Mechanics — MIT OCW", url: "https://ocw.mit.edu/courses/2-06-fluid-dynamics-spring-2013/", type: "course", qualityScore: 4, verified: true },
   ],
   "heat-transfer": [
-    { title: "Heat Transfer — MIT OCW", url: "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", type: "course", qualityScore: 5, verified: true },
-    { title: "Heat Transfer — MIT OCW", url: "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", type: "course", qualityScore: 4, verified: true },
+    { title: "Heat Transfer — MIT OCW", url: "https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024/", type: "course", qualityScore: 5, verified: true },
+    { title: "Heat Transfer — MIT OCW", url: "https://ocw.mit.edu/courses/2-43-advanced-thermodynamics-spring-2024/", type: "course", qualityScore: 4, verified: true },
   ],
   "manufacturing-processes": [
     { title: "Manufacturing — MIT OCW", url: "https://ocw.mit.edu/courses/2-007-design-and-manufacturing-i-spring-2009/", type: "course", qualityScore: 5, verified: true },
@@ -1320,10 +1357,8 @@ const TOPIC_RESOURCES = {
     { title: "Power Electronics — MIT OCW", url: "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/", type: "course", qualityScore: 4, verified: true },
   ],
   // ─── Engineering: Chemical ─────────────────────────────────────────────
-  "process-design": [
-    { title: "Process Design — AIChE", url: "https://www.aiche.org/ccps", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Aspen HYSYS Documentation", url: "https://www.aspentech.com/en/products/aspen-hysys", type: "official-doc", qualityScore: 5, verified: true },
-  ],
+  // ("process-design" is defined once, above — the previous duplicate literal
+  // silently overrode it.)
   "process-safety": [
     { title: "CCPS — AIChE Resources", url: "https://www.aiche.org/ccps", type: "official-doc", qualityScore: 5, verified: true },
   ],
@@ -1348,7 +1383,7 @@ const TOPIC_RESOURCES = {
     { title: "FPGA Documentation — AMD/Xilinx", url: "https://docs.xilinx.com/", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "ltspice": [
-    { title: "LTspice — Analog Devices", url: "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "LTspice — Analog Devices", url: "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "pcb-design": [
     { title: "Altium Docs", url: "https://www.altium.com/documentation/", type: "official-doc", qualityScore: 5, verified: true },
@@ -1406,10 +1441,10 @@ const TOPIC_RESOURCES = {
   // ─── Networking ────────────────────────────────────────────────────────
   "computer-networks": [
     { title: "Computer Networks — Stanford", url: "https://www.coursera.org/learn/computer-networking", type: "course", qualityScore: 5, verified: true },
-    { title: "Networking — Cisco NetAcad", url: "https://www.netacad.com/", type: "course", qualityScore: 5, verified: true },
+    { title: "Networking — Cisco NetAcad", url: "https://www.netacad.com/courses/networking-basics?courseLang=en-US", type: "course", qualityScore: 5, verified: true },
   ],
   "networking": [
-    { title: "Networking — Cisco NetAcad", url: "https://www.netacad.com/", type: "course", qualityScore: 5, verified: true },
+    { title: "Networking — Cisco NetAcad", url: "https://www.netacad.com/courses/networking-basics?courseLang=en-US", type: "course", qualityScore: 5, verified: true },
   ],
   // ─── Operating Systems ─────────────────────────────────────────────────
   "operating-systems": [
@@ -1420,6 +1455,18 @@ const TOPIC_RESOURCES = {
   "performance-optimization": [
     { title: "Performance — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/Performance", type: "official-doc", qualityScore: 5, verified: true },
   ],
+  // Data-domain roadmaps need QUERY performance, not web performance —
+  // compound keys win over the generic entry (tier 1).
+  "data-engineering-performance-optimization": [
+    { title: "Query Performance Optimization — Use The Index, Luke", url: "https://use-the-index-luke.com/", type: "reference", qualityScore: 5, verified: true },
+    { title: "PostgreSQL Performance Tips — Official Docs", url: "https://www.postgresql.org/docs/current/performance-tips.html", type: "official-doc", qualityScore: 5, verified: true },
+  ],
+  "python-performance-optimization": [
+    { title: "Python Performance — Real Python", url: "https://realpython.com/python-performance/", type: "tutorial", qualityScore: 5, verified: true },
+  ],
+  "redis-performance-optimization": [
+    { title: "Redis Performance — Official Docs", url: "https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/", type: "official-doc", qualityScore: 5, verified: true },
+  ],
   "error-handling": [
     { title: "Error Handling — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch", type: "official-doc", qualityScore: 5, verified: true },
   ],
@@ -1429,8 +1476,11 @@ const TOPIC_RESOURCES = {
   "architecture-design": [
     { title: "Architecture Patterns — Martin Fowler", url: "https://martinfowler.com/architecture/", type: "reference", qualityScore: 5, verified: true },
   ],
-  "state-management": [
-    { title: "State Management — React Docs", url: "https://react.dev/learn/managing-state", type: "official-doc", qualityScore: 5, verified: true },
+  // REACT-SCOPED on purpose: generic "State Management" keys once leaked
+  // react.dev onto Terraform/infra "State Management" topics. The Terraform
+  // entries now live under "terraform-*" compound keys.
+  "terraform-state-management": [
+    { title: "Terraform State — Official Documentation", url: "https://developer.hashicorp.com/terraform/language/state", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "caching-strategies": [
     { title: "Caching — MDN", url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching", type: "official-doc", qualityScore: 5, verified: true },
@@ -1495,17 +1545,17 @@ const TOPIC_RESOURCES = {
   ],
   // ─── UX/UI ────────────────────────────────────────────────────────────
   "user-research": [
-    { title: "UX Research — Nielsen Norman Group", url: "https://www.nngroup.com/articles/ux-research/", type: "article", qualityScore: 5, verified: true },
+    { title: "UX Research — Nielsen Norman Group", url: "https://www.nngroup.com/articles/ux-research-cheat-sheet/", type: "article", qualityScore: 5, verified: true },
   ],
   "usability-testing": [
     { title: "Usability Testing — NN/g", url: "https://www.nngroup.com/articles/usability-testing-101/", type: "article", qualityScore: 5, verified: true },
   ],
   "wireframing": [
-    { title: "Wireframing — NN/g", url: "https://www.nngroup.com/articles/wireframes/", type: "article", qualityScore: 5, verified: true },
+    { title: "Wireframing — NN/g", url: "https://www.nngroup.com/articles/draw-wireframe-even-if-you-cant-draw/", type: "article", qualityScore: 5, verified: true },
     { title: "Figma Docs", url: "https://help.figma.com/hc/en-us", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "prototyping": [
-    { title: "Prototyping — NN/g", url: "https://www.nngroup.com/articles/prototypes-before-prototypes/", type: "article", qualityScore: 5, verified: true },
+    { title: "Prototyping — NN/g", url: "https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/", type: "article", qualityScore: 5, verified: true },
   ],
   "design-systems": [
     { title: "Design Systems — Invision", url: "https://www.invisionapp.com/inside-design/design-systems-101/", type: "article", qualityScore: 4, verified: true },
@@ -1514,7 +1564,7 @@ const TOPIC_RESOURCES = {
     { title: "Interaction Design — IxD Foundation", url: "https://www.interaction-design.org/literature", type: "reference", qualityScore: 4, verified: true },
   ],
   "visual-design": [
-    { title: "Visual Design — NN/g", url: "https://www.nngroup.com/articles/visual-hierarchy-organizing-content/", type: "article", qualityScore: 5, verified: true },
+    { title: "Visual Design — NN/g", url: "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/", type: "article", qualityScore: 5, verified: true },
   ],
   "color-theory": [
     { title: "Color Theory — Adobe", url: "https://color.adobe.com/create/color-wheel", type: "interactive", qualityScore: 5, verified: true },
@@ -1523,7 +1573,7 @@ const TOPIC_RESOURCES = {
     { title: "Typography — Google Fonts", url: "https://fonts.google.com/knowledge", type: "reference", qualityScore: 5, verified: true },
   ],
   "information-architecture": [
-    { title: "Information Architecture — NN/g", url: "https://www.nngroup.com/articles/information-architecture/", type: "article", qualityScore: 5, verified: true },
+    { title: "Information Architecture — NN/g", url: "https://www.nngroup.com/articles/ia-vs-navigation/", type: "article", qualityScore: 5, verified: true },
   ],
   "design-thinking": [
     { title: "Design Thinking — IDEO", url: "https://designthinking.ideo.com/", type: "course", qualityScore: 5, verified: true },
@@ -1550,27 +1600,27 @@ const TOPIC_RESOURCES = {
     { title: "Adobe XD Getting Started", url: "https://helpx.adobe.com/xd/get-started.html", type: "tutorial", qualityScore: 5, verified: true },
   ],
   "aerodynamics-engineer": [
-    { title: "MIT OpenCourseWare - Aerodynamics", url: "https://ocw.mit.edu/courses/16-110-flights-dynamics-fall-2002/", type: "course", qualityScore: 5, verified: true },
+    { title: "MIT OpenCourseWare - Aerodynamics", url: "https://ocw.mit.edu/courses/16-100-aerodynamics-fall-2005/", type: "course", qualityScore: 5, verified: true },
     { title: "NASA Aerodynamics Resources", url: "https://www.grc.nasa.gov/www/k-12/airplane/index.html", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "aircraft-design-engineer": [
-    { title: "MIT Aircraft Systems Engineering", url: "https://ocw.mit.edu/courses/16-885j-systems-engineering-and-analysis-fall-2000/", type: "course", qualityScore: 4, verified: true },
+    { title: "MIT Aircraft Systems Engineering", url: "https://ocw.mit.edu/courses/16-885j-aircraft-systems-engineering-fall-2005/", type: "course", qualityScore: 4, verified: true },
     { title: "NASA Design Resources", url: "https://www.nasa.gov/centers-and-facilities/armstrong/", type: "official-doc", qualityScore: 4, verified: true },
   ],
   "avionics-engineer": [
-    { title: "FAA Avionics Resources", url: "https://www.faa.gov/regulations_policies/handbooks_manuals/aircraft/airplane_handbook", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Embedded Systems for Avionics", url: "https://www.iti.tech/embedded-systems", type: "reference", qualityScore: 3, verified: true },
+    { title: "FAA Avionics Resources", url: "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "Practical Programming in C — MIT OCW (embedded focus)", url: "https://ocw.mit.edu/courses/6-087-practical-programming-in-c-january-iap-2010/", type: "reference", qualityScore: 3, verified: true },
   ],
   "bim-specialist": [
     { title: "Autodesk BIM Resources", url: "https://www.autodesk.com/solutions/bim", type: "official-doc", qualityScore: 5, verified: true },
     { title: "BIM Forum", url: "https://bimforum.org/", type: "reference", qualityScore: 4, verified: true },
   ],
   "biomaterials-engineer": [
-    { title: "ASM International Biomaterials", url: "https://www.asminternational.org/biomaterials/", type: "reference", qualityScore: 4, verified: true },
-    { title: "MIT Biomaterials Course", url: "https://ocw.mit.edu/courses/20-420j-biomaterials-tissue-engineering-and-regenerative-medicine-spring-2014/", type: "course", qualityScore: 5, verified: true },
+    { title: "ASM International Biomaterials", url: "https://www.asminternational.org/", type: "reference", qualityScore: 4, verified: true },
+    { title: "MIT Biomaterials Course", url: "https://ocw.mit.edu/courses/3-051j-materials-for-biomedical-applications-spring-2006/", type: "course", qualityScore: 5, verified: true },
   ],
   "bioprocess-engineer": [
-    { title: "MIT Bioprocess Engineering", url: "https://ocw.mit.edu/courses/10-37-chemical-and-biological-thermodynamics-spring-2006/", type: "course", qualityScore: 4, verified: true },
+    { title: "MIT Bioprocess Engineering", url: "https://ocw.mit.edu/courses/10-40-chemical-engineering-thermodynamics-fall-2003/", type: "course", qualityScore: 4, verified: true },
     { title: "AIChE Bioprocessing Resources", url: "https://www.aiche.org/resources/publications/cep/feature-articles/bioprocessing", type: "reference", qualityScore: 4, verified: true },
   ],
   "biosystems-engineer": [
@@ -1579,11 +1629,11 @@ const TOPIC_RESOURCES = {
   ],
   "blender": [
     { title: "Blender Official Tutorials", url: "https://www.blender.org/support/tutorials/", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Blender Guru YouTube", url: "https://www.youtube.com/@BlenderGuruOfficial", type: "video", qualityScore: 5, verified: true },
+    { title: "Blender 3.0 Beginner Tutorial — Part 1 (Blender Guru)", url: "https://www.youtube.com/watch?v=nIoXOplUvAw", type: "video", qualityScore: 5, verified: true },
   ],
   "cad-designer": [
     { title: "Autodesk CAD Resources", url: "https://www.autodesk.com/products/autocad/overview", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "SolidWorks Tutorials", url: "https://www.solidworks.com/support/solidworks-tutorials", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "SolidWorks Tutorials", url: "https://www.solidworks.com/support", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "clinical-engineer": [
     { title: "ACCE Clinical Engineering", url: "https://www.acce-int.org/", type: "reference", qualityScore: 4, verified: true },
@@ -1607,7 +1657,7 @@ const TOPIC_RESOURCES = {
   ],
   "corrosion-engineer": [
     { title: "NACE International Corrosion Resources", url: "https://www.ampp.org/", type: "reference", qualityScore: 4, verified: true },
-    { title: "MIT Corrosion Course", url: "https://ocw.mit.edu/courses/3-014-materials-laboratory-spring-2006/", type: "course", qualityScore: 4, verified: true },
+    { title: "MIT Corrosion Course", url: "https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/", type: "course", qualityScore: 4, verified: true },
   ],
   "embedded-linux": [
     { title: "Embedded Linux Documentation", url: "https://www.kernel.org/doc/html/latest/", type: "official-doc", qualityScore: 5, verified: true },
@@ -1615,11 +1665,10 @@ const TOPIC_RESOURCES = {
   ],
   "figma": [
     { title: "Figma Official Tutorials", url: "https://help.figma.com/hc/en-us/articles/360040314193", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Figma for Beginners", url: "https://www.figma.com/resource-library/design-tutorials/", type: "course", qualityScore: 5, verified: true },
+    { title: "Figma for Beginners", url: "https://help.figma.com/hc/en-us/categories/360002051613-Getting-started", type: "course", qualityScore: 5, verified: true },
   ],
   "food-process-engineer": [
     { title: "IFT Resources", url: "https://www.ift.org/", type: "reference", qualityScore: 4, verified: true },
-    { title: "FDA Food Processing", url: "https://www.fda.gov/food/food-technology", type: "official-doc", qualityScore: 4, verified: true },
   ],
   "gitops": [
     { title: "GitOps Official", url: "https://www.gitops.tech/", type: "reference", qualityScore: 4, verified: true },
@@ -1627,14 +1676,14 @@ const TOPIC_RESOURCES = {
   ],
   "industrial-designer": [
     { title: "IDSA Industrial Design", url: "https://www.idsa.org/", type: "reference", qualityScore: 4, verified: true },
-    { title: "SolidWorks Design Resources", url: "https://www.solidworks.com/solution/industrial-equipment", type: "official-doc", qualityScore: 4, verified: true },
+    { title: "SolidWorks Design Resources", url: "https://www.solidworks.com/", type: "official-doc", qualityScore: 4, verified: true },
   ],
   "iot-networking": [
     { title: "IEEE IoT Resources", url: "https://iot.ieee.org/", type: "reference", qualityScore: 5, verified: true },
     { title: "MQTT Protocol Documentation", url: "https://mqtt.org/", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "irrigation-engineer": [
-    { title: "USDA Irrigation Resources", url: "https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/water/irrigation/", type: "official-doc", qualityScore: 4, verified: true },
+    { title: "USDA Irrigation Resources", url: "https://www.nrcs.usda.gov/conservation-basics/water/water-management", type: "official-doc", qualityScore: 4, verified: true },
     { title: "ASABE Irrigation Standards", url: "https://elibrary.asabe.org/", type: "reference", qualityScore: 4, verified: true },
   ],
   "kotlin-android": [
@@ -1654,7 +1703,6 @@ const TOPIC_RESOURCES = {
     { title: "MIT Materials Science", url: "https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/", type: "course", qualityScore: 5, verified: true },
   ],
   "medical-device-engineer": [
-    { title: "FDA Medical Devices", url: "https://www.fda.gov/medical-devices", type: "official-doc", qualityScore: 5, verified: true },
     { title: "ISO 13485 Medical Devices", url: "https://www.iso.org/standard/59752.html", type: "reference", qualityScore: 5, verified: true },
   ],
   "medical-imaging-engineer": [
@@ -1662,8 +1710,8 @@ const TOPIC_RESOURCES = {
     { title: "SimpleITK Documentation", url: "https://simpleitk.readthedocs.io/", type: "official-doc", qualityScore: 4, verified: true },
   ],
   "metallurgical-engineer": [
-    { title: "ASM International Metallurgy", url: "https://www.asminternational.org/mater/", type: "reference", qualityScore: 5, verified: true },
-    { title: "MIT Metallurgy Course", url: "https://ocw.mit.edu/courses/3-014-materials-laboratory-spring-2006/", type: "course", qualityScore: 4, verified: true },
+    { title: "ASM International Metallurgy", url: "https://www.asminternational.org/", type: "reference", qualityScore: 5, verified: true },
+    { title: "MIT 3.091 — Introduction to Solid-State Chemistry", url: "https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/", type: "course", qualityScore: 4, verified: true },
   ],
 
   "monitoring-observability": [
@@ -1672,7 +1720,7 @@ const TOPIC_RESOURCES = {
   ],
   "network-administration": [
     { title: "CompTIA Network+ Resources", url: "https://www.comptia.org/certifications/network", type: "reference", qualityScore: 5, verified: true },
-    { title: "Cisco Networking Academy", url: "https://www.netacad.com/", type: "course", qualityScore: 5, verified: true },
+    { title: "Cisco Networking Academy", url: "https://www.netacad.com/courses/networking-basics?courseLang=en-US", type: "course", qualityScore: 5, verified: true },
   ],
   "operations-research-analyst": [
     { title: "INFORMS Resources", url: "https://www.informs.org/", type: "reference", qualityScore: 5, verified: true },
@@ -1681,7 +1729,7 @@ const TOPIC_RESOURCES = {
 
   "petrochemical-engineer": [
     { title: "SPE Resources", url: "https://www.spe.org/", type: "reference", qualityScore: 5, verified: true },
-    { title: "MIT Chemical Engineering", url: "https://ocw.mit.edu/courses/10-34-chemical-engineering-thermodynamics-fall-2004/", type: "course", qualityScore: 4, verified: true },
+    { title: "MIT Chemical Engineering", url: "https://ocw.mit.edu/courses/10-40-chemical-engineering-thermodynamics-fall-2003/", type: "course", qualityScore: 4, verified: true },
   ],
   "photoshop": [
     { title: "Adobe Photoshop Tutorials", url: "https://helpx.adobe.com/photoshop/tutorials.html", type: "official-doc", qualityScore: 5, verified: true },
@@ -1689,30 +1737,30 @@ const TOPIC_RESOURCES = {
   ],
   "polymer-engineer": [
     { title: "Polymer Science Resources", url: "https://www.polymer-science.org/", type: "reference", qualityScore: 4, verified: true },
-    { title: "MIT Polymer Science", url: "https://ocw.mit.edu/courses/3-014-materials-laboratory-spring-2006/", type: "course", qualityScore: 4, verified: true },
+    { title: "MIT Polymer Science", url: "https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/", type: "course", qualityScore: 4, verified: true },
   ],
   "power-bi": [
     { title: "Power BI Learning", url: "https://learn.microsoft.com/en-us/training/powerplatform/power-bi", type: "course", qualityScore: 5, verified: true },
   ],
   "precision-agriculture-specialist": [
-    { title: "USDA Precision Agriculture", url: "https://www.nifa.usda.gov/topics/precision-agriculture", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "USDA Precision Agriculture", url: "https://www.nifa.usda.gov/grants/programs/precision-geospatial-sensor-technologies-programs", type: "official-doc", qualityScore: 5, verified: true },
     { title: "Precision Ag Resources", url: "https://www.precisionag.com/", type: "reference", qualityScore: 4, verified: true },
   ],
   "process-engineer": [
     { title: "AIChE Process Engineering", url: "https://www.aiche.org/", type: "reference", qualityScore: 5, verified: true },
-    { title: "MIT Process Control", url: "https://ocw.mit.edu/courses/10-441j-process-dynamics-and-control-spring-2005/", type: "course", qualityScore: 5, verified: true },
+    { title: "MIT Process Control", url: "https://ocw.mit.edu/courses/10-450-process-dynamics-operations-and-control-spring-2006/", type: "course", qualityScore: 5, verified: true },
   ],
   "process-safety-engineer": [
     { title: "CCPS Process Safety", url: "https://www.aiche.org/ccps", type: "reference", qualityScore: 5, verified: true },
     { title: "OSHA Process Safety", url: "https://www.osha.gov/process-safety-management", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "product-designer": [
-    { title: "IDEO Design Resources", url: "https://www.ideo.com/resources", type: "reference", qualityScore: 5, verified: true },
+    { title: "IDEO Design Resources", url: "https://designthinking.ideo.com/resources", type: "reference", qualityScore: 5, verified: true },
     { title: "Google Material Design", url: "https://m3.material.io/", type: "official-doc", qualityScore: 5, verified: true },
   ],
   "propulsion-engineer": [
-    { title: "NASA Propulsion Resources", url: "https://www.nasa.gov/mission_pages/station/explore/technology/space_propulsion.html", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "MIT Propulsion Course", url: "https://ocw.mit.edu/courses/16-50-propulsion-spring-2004/", type: "course", qualityScore: 5, verified: true },
+    { title: "NASA Propulsion Resources", url: "https://www.grc.nasa.gov/www/k-12/airplane/bgp.html", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "MIT Propulsion Course", url: "https://ocw.mit.edu/courses/16-50-introduction-to-propulsion-systems-spring-2012/", type: "course", qualityScore: 5, verified: true },
   ],
   "react-native": [
     { title: "React Native Official Documentation", url: "https://reactnative.dev/docs/getting-started", type: "official-doc", qualityScore: 5, verified: true },
@@ -1720,7 +1768,7 @@ const TOPIC_RESOURCES = {
   ],
   "reliability-engineer": [
     { title: "ASQ Reliability Resources", url: "https://asq.org/quality-resources/reliability", type: "reference", qualityScore: 5, verified: true },
-    { title: "Reliability Engineering Handbook", url: "https://www可靠性.com/", type: "reference", qualityScore: 3, verified: true },
+    { title: "Reliability Web — Reliability Engineering Resources", url: "https://reliabilityweb.com/", type: "reference", qualityScore: 4, verified: true },
   ],
   "ruby-on-rails": [
     { title: "Ruby on Rails Official Guide", url: "https://guides.rubyonrails.org/", type: "official-doc", qualityScore: 5, verified: true },
@@ -1728,7 +1776,7 @@ const TOPIC_RESOURCES = {
   ],
   "sketch": [
     { title: "Sketch Official Tutorials", url: "https://www.sketch.com/docs/getting-started/", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Sketch School", url: "https://www.sketch.com/school/", type: "course", qualityScore: 5, verified: true },
+    { title: "Learn Design — Official Sketch Tutorials", url: "https://www.sketch.com/blog/learn-design/", type: "course", qualityScore: 5, verified: true },
   ],
   "statistics": [
     { title: "Khan Academy Statistics", url: "https://www.khanacademy.org/math/statistics-probability", type: "course", qualityScore: 5, verified: true },
@@ -1736,7 +1784,7 @@ const TOPIC_RESOURCES = {
   ],
   "supply-chain-engineer": [
     { title: "ASCM Supply Chain Resources", url: "https://www.ascm.org/", type: "reference", qualityScore: 5, verified: true },
-    { title: "MIT Supply Chain Management", url: "https://ocw.mit.edu/courses/15-760b-mit-sm-masters-thesis-spring-2014/", type: "course", qualityScore: 5, verified: true },
+    { title: "MIT ESD.273J — Logistics & Supply Chain Management", url: "https://ocw.mit.edu/courses/esd-273j-logistics-and-supply-chain-management-fall-2009/", type: "course", qualityScore: 5, verified: true },
   ],
   "sustainability-engineer": [
     { title: "USGBC LEED Resources", url: "https://www.usgbc.org/leed", type: "official-doc", qualityScore: 5, verified: true },
@@ -1744,25 +1792,37 @@ const TOPIC_RESOURCES = {
   ],
   "swift-ios": [
     { title: "Apple Swift Documentation", url: "https://developer.apple.com/swift/", type: "official-doc", qualityScore: 5, verified: true },
-    { title: "Apple iOS Developer Tutorials", url: "https://developer.apple.com/tutorials/", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "Apple iOS Developer Tutorials", url: "https://developer.apple.com/develop/", type: "official-doc", qualityScore: 5, verified: true },
   ],
 
   "wireless-networks": [
     { title: "IEEE 802.11 Resources", url: "https://en.wikipedia.org/wiki/IEEE_802.11", type: "reference", qualityScore: 4, verified: true },
-    { title: "Cisco Wireless Resources", url: "https://www.cisco.com/c/en/us/solutions/enterprise-networks/wireless.html", type: "official-doc", qualityScore: 5, verified: true },
+    { title: "Cisco Wireless Resources", url: "https://www.cisco.com/site/us/en/products/networking/wireless/index.html", type: "official-doc", qualityScore: 5, verified: true },
   ],
 };
 
 // ── Practice Activity Database ─────────────────────────────────────────────
 const TOPIC_PRACTICE = {
+  // Photoshop's generative-AI subtopics practice INSIDE the tool — Adobe's
+  // official guided how-to, not an AI-engineering notebook.
+  "generative-ai-features-responsible-use": [
+    { title: "Adobe — Generative Fill official how-to (guided practice)", url: "https://helpx.adobe.com/photoshop/using/generative-fill.html", platform: "Adobe", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "design" },
+  ],
   "python": [
     { title: "HackerRank Python Track", url: "https://www.hackerrank.com/domains/python", platform: "HackerRank", difficulty: "Beginner-Intermediate", estimatedTime: "30-60 min", domain: "programming" },
     { title: "Exercism Python Track", url: "https://exercism.org/tracks/python", platform: "Exercism", difficulty: "Beginner-Intermediate", estimatedTime: "30-60 min", domain: "programming" },
     { title: "Codewars Python Kata", url: "https://www.codewars.com/?language=python", platform: "Codewars", difficulty: "Beginner-Advanced", estimatedTime: "15-30 min", domain: "programming" },
   ],
+  // Data-flavoured practice: pandas/jupyter/sql work belongs on data platforms.
+  "pandas": [
+    { title: "Kaggle — Pandas Micro-Course & Exercises", url: "https://www.kaggle.com/learn/pandas", platform: "Kaggle", difficulty: "Beginner-Intermediate", estimatedTime: "60-120 min", domain: "ai" },
+  ],
+  "jupyter": [
+    { title: "Kaggle — Jupyter Notebooks Workspaces", url: "https://www.kaggle.com/code", platform: "Kaggle", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "ai" },
+  ],
   "javascript": [
     { title: "freeCodeCamp JavaScript Algorithms", url: "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/", platform: "freeCodeCamp", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "programming" },
-    { title: "HackerRank JavaScript Track", url: "https://www.hackerrank.com/domains/javascript", platform: "HackerRank", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "programming" },
+    { title: "HackerRank JavaScript Track", url: "https://www.hackerrank.com/skills-directory/javascript", platform: "HackerRank", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "programming" },
     { title: "Codewars JavaScript Kata", url: "https://www.codewars.com/?language=javascript", platform: "Codewars", difficulty: "Beginner-Advanced", estimatedTime: "15-30 min", domain: "programming" },
   ],
   "html": [
@@ -1808,7 +1868,7 @@ const TOPIC_PRACTICE = {
   ],
   "kubernetes": [
     { title: "KillerCoda Kubernetes Scenarios", url: "https://killercoda.com/playgrounds/scenario/kubernetes", platform: "KillerCoda", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "devops-containers" },
-    { title: "Kubernetes Interactive Tutorial", url: "https://kubernetes.io/docs/tutorials/interactive-kutorialer/kubectl-create-namespace/", platform: "Kubernetes", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "devops-containers" },
+    { title: "Learn Kubernetes Basics (interactive)", url: "https://kubernetes.io/docs/tutorials/kubernetes-basics/", platform: "Kubernetes", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "devops-containers" },
   ],
   "aws": [
     { title: "AWS Skill Builder Labs", url: "https://skillbuilder.aws/", platform: "AWS Skill Builder", difficulty: "Beginner-Advanced", estimatedTime: "60-120 min", domain: "cloud-aws" },
@@ -1823,6 +1883,20 @@ const TOPIC_PRACTICE = {
   "terraform": [
     { title: "HashiCorp Learn — Terraform", url: "https://developer.hashicorp.com/terraform/tutorials", platform: "HashiCorp Learn", difficulty: "Beginner-Intermediate", estimatedTime: "60-120 min", domain: "devops-iac" },
   ],
+  // Compound keys: Terraform state topics must never resolve to generic
+  // "state management" resources (react.dev) — see topicTitle match logic.
+  "terraform-state-management": [
+    { title: "Terraform State — Official Documentation", url: "https://developer.hashicorp.com/terraform/language/state", platform: "HashiCorp Learn", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "devops-iac" },
+  ],
+  "terraform-remote-state": [
+    { title: "Remote State — Terraform Documentation", url: "https://developer.hashicorp.com/terraform/language/state/remote", platform: "HashiCorp Learn", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "devops-iac" },
+  ],
+  "terraform-state-locking": [
+    { title: "State Locking — Terraform Documentation", url: "https://developer.hashicorp.com/terraform/language/state/locking", platform: "HashiCorp Learn", difficulty: "Intermediate", estimatedTime: "15-30 min", domain: "devops-iac" },
+  ],
+  "terraform-import": [
+    { title: "terraform import — CLI Command Reference", url: "https://developer.hashicorp.com/terraform/cli/import", platform: "HashiCorp Learn", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "devops-iac" },
+  ],
   "linux": [
     { title: "OverTheWire — Bandit", url: "https://overthewire.org/wargames/bandit/", platform: "OverTheWire", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "linux" },
     { title: "Linux Journey (interactive)", url: "https://linuxjourney.com/", platform: "Linux Journey", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "linux" },
@@ -1835,7 +1909,7 @@ const TOPIC_PRACTICE = {
   "penetration-testing": [
     { title: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", platform: "PortSwigger", difficulty: "Beginner-Advanced", estimatedTime: "60-120 min", domain: "cybersecurity" },
     { title: "TryHackMe — Complete Beginner Path", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
-    { title: "Hack The Box — Starting Point", url: "https://www.hackthebox.com/starting-point", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
+    { title: "Hack The Box — Starting Point", url: "https://www.hackthebox.com/", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
     { title: "PicoCTF", url: "https://picoctf.org/", platform: "PicoCTF", difficulty: "Beginner", estimatedTime: "120+ min", domain: "cybersecurity" },
   ],
   "machine-learning": [
@@ -1951,7 +2025,7 @@ const TOPIC_PRACTICE = {
   // ─── PHP Practice ─────────────────────────────────────────────────────
   "php": [
     { title: "W3Schools PHP Exercises", url: "https://www.w3schools.com/php/php_exercises.asp", platform: "W3Schools", difficulty: "Beginner", estimatedTime: "15-30 min", domain: "programming" },
-    { title: "HackerRank PHP Track", url: "https://www.hackerrank.com/domains/php", platform: "HackerRank", difficulty: "Beginner-Intermediate", estimatedTime: "30-60 min", domain: "programming" },
+    { title: "HackerRank PHP Track", url: "https://www.hackerrank.com/skills-directory/php", platform: "HackerRank", difficulty: "Beginner-Intermediate", estimatedTime: "30-60 min", domain: "programming" },
   ],
   // ─── Dart Practice ────────────────────────────────────────────────────
   "dart": [
@@ -1988,6 +2062,10 @@ const TOPIC_PRACTICE = {
   // ─── React Native Practice ────────────────────────────────────────────
   "react-native": [
     { title: "React Native Docs", url: "https://reactnative.dev/docs/getting-started", platform: "React Native", difficulty: "Beginner", estimatedTime: "60+ min", domain: "mobile" },
+  ],
+  // React Native "Storage" topic: AsyncStorage / SecureStore hands-on.
+  "storage": [
+    { title: "React Native — AsyncStorage & Data Storage Guide", url: "https://reactnative.dev/docs/asyncstorage", platform: "React Native", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "mobile" },
   ],
   // ─── Express Practice ─────────────────────────────────────────────────
   "express": [
@@ -2057,7 +2135,7 @@ const TOPIC_PRACTICE = {
   "penetration-testing": [
     { title: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", platform: "PortSwigger", difficulty: "Beginner-Advanced", estimatedTime: "60-120 min", domain: "cybersecurity" },
     { title: "TryHackMe Complete Beginner", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
-    { title: "Hack The Box Starting Point", url: "https://www.hackthebox.com/starting-point", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
+    { title: "Hack The Box Starting Point", url: "https://www.hackthebox.com/", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
     { title: "PicoCTF", url: "https://picoctf.org/", platform: "PicoCTF", difficulty: "Beginner", estimatedTime: "120+ min", domain: "cybersecurity" },
   ],
   // ─── Machine Learning Practice ────────────────────────────────────────
@@ -2079,7 +2157,7 @@ const TOPIC_PRACTICE = {
   ],
   "kubernetes": [
     { title: "KillerCoda Kubernetes", url: "https://killercoda.com/playgrounds/scenario/kubernetes", platform: "KillerCoda", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "devops" },
-    { title: "Kubernetes Interactive Tutorial", url: "https://kubernetes.io/docs/tutorials/interactive-kutorialer/kubectl-create-namespace/", platform: "Kubernetes", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "devops" },
+    { title: "Learn Kubernetes Basics (interactive)", url: "https://kubernetes.io/docs/tutorials/kubernetes-basics/", platform: "Kubernetes", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "devops" },
   ],
   "terraform": [
     { title: "HashiCorp Learn Terraform", url: "https://developer.hashicorp.com/terraform/tutorials", platform: "HashiCorp Learn", difficulty: "Beginner-Intermediate", estimatedTime: "60-120 min", domain: "devops" },
@@ -2213,7 +2291,7 @@ const TOPIC_PRACTICE = {
     { title: "Codewars — Performance Kata", url: "https://www.codewars.com/?language=python", platform: "Codewars", difficulty: "Intermediate-Advanced", estimatedTime: "30-60 min", domain: "programming" },
   ],
   "query-optimization": [
-    { title: "SQLBolt — Query Optimization", url: "https://sqlbolt.com/lesson/select_queries_joins", platform: "SQLBolt", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "sql-database" },
+    { title: "SQLBolt — Query Optimization (Multi-table Joins)", url: "https://sqlbolt.com/lesson/select_queries_with_joins", platform: "SQLBolt", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "sql-database" },
     { title: "LeetCode SQL Query Optimization", url: "https://leetcode.com/problemset/database/", platform: "LeetCode", difficulty: "Intermediate-Advanced", estimatedTime: "60-90 min", domain: "sql-database" },
   ],
   "caching-strategies": [
@@ -2226,7 +2304,7 @@ const TOPIC_PRACTICE = {
     { title: "K6 — Load Testing Tutorials", url: "https://k6.io/docs/get-started/", platform: "k6", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "performance" },
   ],
   "anomaly-detection": [
-    { title: "Kaggle — Anomaly Detection", url: "https://www.kaggle.com/search?q=anomaly+detection", platform: "Kaggle", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "ai-ml" },
+    { title: "Kaggle — Anomaly Detection Course", url: "https://www.kaggle.com/learn/intro-to-machine-learning", platform: "Kaggle", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "ai-ml" },
   ],
   "feature-engineering": [
     { title: "Kaggle — Feature Engineering Course", url: "https://www.kaggle.com/learn/feature-engineering", platform: "Kaggle", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "ai-ml" },
@@ -2278,10 +2356,10 @@ const TOPIC_PRACTICE = {
     { title: "GitHub — Root Cause Analysis Docs", url: "https://github.com/", platform: "GitHub", difficulty: "All levels", estimatedTime: "60-120 min", domain: "professional" },
   ],
   "quality-control": [
-    { title: "Exercism — Quality Control Practice", url: "https://exercism.org/tracks/python/exercises", platform: "Exercism", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "quality" },
+    { title: "ASQ — Quality Resources & Practice Exams", url: "https://asq.org/quality-resources", platform: "ASQ", difficulty: "Intermediate", estimatedTime: "45-90 min", domain: "engineering" },
   ],
   "troubleshooting-scenarios": [
-    { title: "KillerCoda — Troubleshooting Scenarios", url: "https://killercoda.com/playgrounds/scenario/linux", platform: "KillerCoda", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "linux" },
+    { title: "Practical Maintenance & Troubleshooting Exercises — EC&M", url: "https://www.ecmweb.com/training", platform: "EC&M Training", difficulty: "Intermediate", estimatedTime: "45-90 min", domain: "engineering" },
   ],
   "audit-logging": [
     { title: "PortSwigger — Audit & Logging Labs", url: "https://portswigger.net/web-security", platform: "PortSwigger", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "cybersecurity" },
@@ -2290,8 +2368,7 @@ const TOPIC_PRACTICE = {
     { title: "Cisco Packet Tracer — Network Segmentation Labs", url: "https://www.netacad.com/courses/packet-tracer", platform: "Cisco Packet Tracer", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "networking" },
   ],
   "security": [
-    { title: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", platform: "PortSwigger", difficulty: "Beginner-Advanced", estimatedTime: "60-120 min", domain: "cybersecurity" },
-    { title: "TryHackMe — Complete Beginner", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
+    { title: "TryHackMe — Pre Security Path", url: "https://tryhackme.com/path/outline/presecurity", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
   ],
   "data-pipeline-architecture": [
     { title: "freeCodeCamp — Relational Database", url: "https://www.freecodecamp.org/learn/relational-database/", platform: "freeCodeCamp", difficulty: "Beginner", estimatedTime: "300+ min", domain: "sql-database" },
@@ -2321,7 +2398,7 @@ const TOPIC_PRACTICE = {
     { title: "freeCodeCamp — Dashboard Design & Data Visualization", url: "https://www.freecodecamp.org/learn/data-visualization/", platform: "freeCodeCamp", difficulty: "Beginner", estimatedTime: "300+ min", domain: "data-science" },
   ],
   "formal-verification": [
-    { title: "Exercism — Formal Verification Practice", url: "https://exercism.org/tracks/c/exercises", platform: "Exercism", difficulty: "Intermediate-Advanced", estimatedTime: "30-60 min", domain: "programming" },
+    { title: "Yosys — Open Synthesis & Formal Verification Flow", url: "https://yosyshq.net/yosys/", platform: "Yosys", difficulty: "Advanced", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "technical-deep-dive": [
     { title: "GitHub Showcase", url: "https://github.com/", platform: "GitHub", difficulty: "All levels", estimatedTime: "60-120 min", domain: "professional" },
@@ -2355,7 +2432,7 @@ const TOPIC_PRACTICE = {
   ],
   "ethical-hacker": [
     { title: "TryHackMe — Complete Beginner", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
-    { title: "Hack The Box Starting Point", url: "https://www.hackthebox.com/starting-point", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
+    { title: "Hack The Box Starting Point", url: "https://www.hackthebox.com/", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
   ],
   "digital-forensics-analyst": [
     { title: "TryHackMe — Forensics Path", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
@@ -2371,11 +2448,11 @@ const TOPIC_PRACTICE = {
     { title: "SkyCiv Tutorials", url: "https://skyciv.com/tutorials/", platform: "SkyCiv", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "electrical-engineer": [
-    { title: "LTspice Tutorials", url: "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html", platform: "Analog Devices", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "LTspice Tutorials", url: "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html", platform: "Analog Devices", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "chemical-engineer": [
-    { title: "ASPEN Plus Tutorials", url: "https://www.aspenplus.com/", platform: "ASPEN Technology", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "ASPEN Plus Tutorials", url: "https://www.aspentech.com/en/products/engineering/aspen-plus", platform: "ASPEN Technology", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "agricultural-engineer": [
@@ -2447,7 +2524,7 @@ const TOPIC_PRACTICE = {
   ],
   "ethical-hacking": [
     { title: "TryHackMe Complete Beginner", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
-    { title: "Hack The Box Starting Point", url: "https://www.hackthebox.com/starting-point", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
+    { title: "Hack The Box Starting Point", url: "https://www.hackthebox.com/", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
   ],
   "digital-forensics": [
     { title: "TryHackMe — Forensics Path", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
@@ -2480,7 +2557,7 @@ const TOPIC_PRACTICE = {
   ],
   "penetration-tester": [
     { title: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", platform: "PortSwigger", difficulty: "Beginner-Advanced", estimatedTime: "60-120 min", domain: "cybersecurity" },
-    { title: "Hack The Box Starting Point", url: "https://www.hackthebox.com/starting-point", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
+    { title: "Hack The Box Starting Point", url: "https://www.hackthebox.com/", platform: "Hack The Box", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cybersecurity" },
   ],
   "database-administrator": [
     { title: "SQLBolt Interactive Lessons", url: "https://sqlbolt.com/", platform: "SQLBolt", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "sql-database" },
@@ -2520,10 +2597,10 @@ const TOPIC_PRACTICE = {
     { title: "AWS Skill Builder — Storage Labs", url: "https://skillbuilder.aws/", platform: "AWS Skill Builder", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "cloud" },
   ],
   "firmware-engineer": [
-    { title: "Exercism C Track", url: "https://exercism.org/tracks/c", platform: "Exercism", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "embedded" },
+    { title: "Firmware & Embedded C — MIT OCW Coursework", url: "https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/", platform: "MIT OCW", difficulty: "Intermediate", estimatedTime: "120+ min", domain: "engineering" },
   ],
   "automation-engineer": [
-    { title: "HackerRank Python Track", url: "https://www.hackerrank.com/domains/python", platform: "HackerRank", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "programming" },
+    { title: "PLC & Industrial Automation — NPTEL Course", url: "https://nptel.ac.in/courses/108105062", platform: "NPTEL", difficulty: "Intermediate", estimatedTime: "120+ min", domain: "engineering" },
   ],
   "ai-application-developer": [
     { title: "Kaggle — Intro to ML", url: "https://www.kaggle.com/learn/intro-to-machine-learning", platform: "Kaggle", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "ai-ml" },
@@ -2532,7 +2609,7 @@ const TOPIC_PRACTICE = {
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "electronics-design-engineer": [
-    { title: "LTspice Tutorials", url: "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html", platform: "Analog Devices", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "LTspice Tutorials", url: "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html", platform: "Analog Devices", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "power-electronics-engineer": [
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
@@ -2547,10 +2624,10 @@ const TOPIC_PRACTICE = {
     { title: "Kaggle — Intro to ML", url: "https://www.kaggle.com/learn/intro-to-machine-learning", platform: "Kaggle", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "ai-ml" },
   ],
   "embedded-engineer": [
-    { title: "Exercism C Track", url: "https://exercism.org/tracks/c", platform: "Exercism", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "embedded" },
+    { title: "Embedded Systems — MIT OCW Coursework", url: "https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/", platform: "MIT OCW", difficulty: "Intermediate", estimatedTime: "120+ min", domain: "engineering" },
   ],
   "vlsi-design-engineer": [
-    { title: "ChipVerify Verilog Tutorials", url: "https://www.chipverify.com/verilog/verilog-tutorial.php", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "ChipVerify Verilog Tutorials", url: "https://chipverify.com/verilog/verilog-tutorial", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "telecom-engineer": [
     { title: "Cisco Packet Tracer Labs", url: "https://www.netacad.com/courses/packet-tracer", platform: "Cisco Packet Tracer", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "networking" },
@@ -2562,13 +2639,13 @@ const TOPIC_PRACTICE = {
     { title: "QGIS Tutorials", url: "https://docs.qgis.org/3.34/en/docs/training_manual/index.html", platform: "QGIS", difficulty: "Beginner-Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "fpga-engineer": [
-    { title: "ChipVerify Verilog Tutorials", url: "https://www.chipverify.com/verilog/verilog-tutorial.php", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "ChipVerify Verilog Tutorials", url: "https://chipverify.com/verilog/verilog-tutorial", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "asic-engineer": [
-    { title: "ChipVerify Verilog Tutorials", url: "https://www.chipverify.com/verilog/verilog-tutorial.php", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "ChipVerify Verilog Tutorials", url: "https://chipverify.com/verilog/verilog-tutorial", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "hardware-validation-engineer": [
-    { title: "ChipVerify Verilog Tutorials", url: "https://www.chipverify.com/verilog/verilog-tutorial.php", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "ChipVerify Verilog Tutorials", url: "https://chipverify.com/verilog/verilog-tutorial", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "software-testing": [
     { title: "Test Automation University", url: "https://testautomationu.applitools.com/", platform: "TAU", difficulty: "Beginner-Intermediate", estimatedTime: "60-120 min", domain: "testing" },
@@ -2601,7 +2678,7 @@ const TOPIC_PRACTICE = {
     { title: "Kaggle — Intro to ML", url: "https://www.kaggle.com/learn/intro-to-machine-learning", platform: "Kaggle", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "ai-ml" },
   ],
   "identity-access-management": [
-    { title: "AWS Skill Builder — IAM Labs", url: "https://skillbuilder.aws/", platform: "AWS Skill Builder", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "cloud" },
+    { title: "Microsoft Learn — Identity & Access Labs", url: "https://learn.microsoft.com/en-us/training/browse/?products=entra", platform: "Microsoft Learn", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "cloud" },
   ],
   "computer-networks": [
     { title: "Cisco Packet Tracer Labs", url: "https://www.netacad.com/courses/packet-tracer", platform: "Cisco Packet Tracer", difficulty: "Beginner-Intermediate", estimatedTime: "60-120 min", domain: "networking" },
@@ -2616,7 +2693,7 @@ const TOPIC_PRACTICE = {
     { title: "Flutter Codelabs", url: "https://docs.flutter.dev/codelabs", platform: "Flutter", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "mobile" },
   ],
   "analytics-engineer": [
-    { title: "SQLBolt Interactive Lessons", url: "https://sqlbolt.com/", platform: "SQLBolt", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "sql-database" },
+    { title: "dbt Fundamentals (free course)", url: "https://learn.getdbt.com/", platform: "dbt Learn", difficulty: "Beginner-Intermediate", estimatedTime: "120+ min", domain: "analytics" },
   ],
   "soc-analyst": [
     { title: "TryHackMe — SOC Level 1", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
@@ -2625,7 +2702,7 @@ const TOPIC_PRACTICE = {
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "electrical-design-engineer": [
-    { title: "LTspice Tutorials", url: "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html", platform: "Analog Devices", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "LTspice Tutorials", url: "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html", platform: "Analog Devices", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "protection-engineer": [
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
@@ -2640,7 +2717,7 @@ const TOPIC_PRACTICE = {
     { title: "TryHackMe — SOC Level 1", url: "https://tryhackme.com/path/outline/complete-beginner", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
   ],
   "iot-engineer": [
-    { title: "Exercism C Track", url: "https://exercism.org/tracks/c", platform: "Exercism", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "embedded" },
+    { title: "IoT Device Labs — MIT OCW Coursework", url: "https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/", platform: "MIT OCW", difficulty: "Intermediate", estimatedTime: "120+ min", domain: "engineering" },
   ],
   "production-engineer": [
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
@@ -2652,7 +2729,7 @@ const TOPIC_PRACTICE = {
     { title: "Kaggle — Intro to ML", url: "https://www.kaggle.com/learn/intro-to-machine-learning", platform: "Kaggle", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "ai-ml" },
   ],
   "bioinformatics-engineer": [
-    { title: "Exercism Python Track", url: "https://exercism.org/tracks/python", platform: "Exercism", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "bioinformatics" },
+    { title: "Rosalind — Bioinformatics Problem Solving", url: "https://rosalind.info/problems/locations/", platform: "Rosalind", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "bioinformatics" },
   ],
   "infrastructure-automation": [
     { title: "Play with Docker Labs", url: "https://labs.play-with-docker.com/", platform: "Play with Docker", difficulty: "Beginner-Intermediate", estimatedTime: "30-60 min", domain: "devops" },
@@ -2661,7 +2738,7 @@ const TOPIC_PRACTICE = {
     { title: "Hugging Face NLP Course", url: "https://huggingface.co/learn/nlp-course", platform: "Hugging Face", difficulty: "Intermediate", estimatedTime: "120+ min", domain: "ai-ml" },
   ],
   "embedded-systems": [
-    { title: "Exercism C Track", url: "https://exercism.org/tracks/c", platform: "Exercism", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: "embedded" },
+    { title: "Embedded Systems — MIT OCW Coursework", url: "https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/", platform: "MIT OCW", difficulty: "Intermediate", estimatedTime: "120+ min", domain: "engineering" },
   ],
   "pcb-design": [
     { title: "Altium Designer Tutorials", url: "https://www.altium.com/documentation/altium-designer/", platform: "Altium", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
@@ -2685,7 +2762,7 @@ const TOPIC_PRACTICE = {
     { title: "freeCodeCamp — Relational Database", url: "https://www.freecodecamp.org/learn/relational-database/", platform: "freeCodeCamp", difficulty: "Beginner", estimatedTime: "300+ min", domain: "sql-database" },
   ],
   "vlsi-design": [
-    { title: "ChipVerify Verilog Tutorials", url: "https://www.chipverify.com/verilog/verilog-tutorial.php", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
+    { title: "ChipVerify Verilog Tutorials", url: "https://chipverify.com/verilog/verilog-tutorial", platform: "ChipVerify", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "quantity-surveyor": [
     { title: "Autodesk Learning", url: "https://www.autodesk.com/learning/", platform: "Autodesk", difficulty: "Beginner-Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
@@ -2694,7 +2771,7 @@ const TOPIC_PRACTICE = {
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "solutions-engineer": [
-    { title: "AWS Skill Builder Labs", url: "https://skillbuilder.aws/", platform: "AWS Skill Builder", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cloud" },
+    { title: "Tech Interview Handbook — Software Engineering Interview Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", platform: "Tech Interview Handbook", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "professional" },
   ],
   "freelance-software-developer": [
     { title: "GitHub Showcase", url: "https://github.com/", platform: "GitHub", difficulty: "All levels", estimatedTime: "60-120 min", domain: "programming" },
@@ -2718,7 +2795,7 @@ const TOPIC_PRACTICE = {
     { title: "Kaggle — Intro to Computer Vision", url: "https://www.kaggle.com/learn/computer-vision", platform: "Kaggle", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "ai-ml" },
   ],
   "network-security": [
-    { title: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", platform: "PortSwigger", difficulty: "Beginner-Advanced", estimatedTime: "60-120 min", domain: "cybersecurity" },
+    { title: "TryHackMe — Pre Security Path", url: "https://tryhackme.com/path/outline/presecurity", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "cybersecurity" },
   ],
   "web-application-security": [
     { title: "PortSwigger Web Security Academy", url: "https://portswigger.net/web-security", platform: "PortSwigger", difficulty: "Beginner-Advanced", estimatedTime: "60-120 min", domain: "cybersecurity" },
@@ -2727,7 +2804,7 @@ const TOPIC_PRACTICE = {
     { title: "MATLAB Onramp", url: "https://matlabacademy.mathworks.com/", platform: "MathWorks Academy", difficulty: "Beginner", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "technical-support-engineer": [
-    { title: "KillerCoda Linux Scenarios", url: "https://killercoda.com/playgrounds/scenario/linux", platform: "KillerCoda", difficulty: "Beginner-Intermediate", estimatedTime: "30-60 min", domain: "linux" },
+    { title: "Linux Journey (free course)", url: "https://linuxjourney.com/", platform: "Linux Journey", difficulty: "Beginner-Intermediate", estimatedTime: "30-60 min", domain: "linux" },
   ],
   "web3-developer": [
     { title: "CryptoZombies", url: "https://cryptozombies.io/", platform: "CryptoZombies", difficulty: "Beginner", estimatedTime: "120+ min", domain: "blockchain" },
@@ -2748,7 +2825,7 @@ const TOPIC_PRACTICE = {
     { title: "Autodesk Learning", url: "https://www.autodesk.com/learning/", platform: "Autodesk", difficulty: "Beginner-Intermediate", estimatedTime: "60-120 min", domain: "engineering" },
   ],
   "technical-consultant": [
-    { title: "AWS Skill Builder Labs", url: "https://skillbuilder.aws/", platform: "AWS Skill Builder", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "cloud" },
+    { title: "Tech Interview Handbook — Software Engineering Interview Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", platform: "Tech Interview Handbook", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: "professional" },
   ],
   "cicd": [
     { title: "GitHub Actions — Getting Started", url: "https://docs.github.com/en/actions", platform: "GitHub", difficulty: "Beginner", estimatedTime: "30-60 min", domain: "devops" },
@@ -2905,9 +2982,28 @@ const DOMAIN_KEY_GUARDS = new Map([
   ["matlab", /matlab|simul|control-systems|signal-process|mechanical|civil|electrical|chemical|aerospace|automotive|industrial|manufacturing|structural|thermodynamic|fluid-mechanics|thermal/],
   ["go", /go\b|golang/],  // Only match Go language, not generic terms
   ["programming", /c-|csharp|cpp|java|python|javascript|kotlin|swift|dart|rust|go|php|r-programming|programming/],
+  // "Arrays & Strings" is a language-agnostic programming-fundamentals topic on
+  // the career roadmaps. Its shared "strings" token let the fuzzy tier claim the
+  // Redis skill roadmap's "Strings" topic, where the correct resource is the
+  // Redis string type — not an array/string-fundamentals page.
+  ["arrays-strings", /software-engineer|full-stack|frontend-developer|backend-developer|api-developer|python|javascript|typescript|java\b|cpp|csharp|c-sharp|go\b|rust|php|dart|kotlin|swift|r-programming|computer-science|programming-languages|data-structures/],
   ["control-flow", /control-system|control-theory|control-engineering|plc|pid/],
   ["security-best-practices", /cyber|security|pentest|forensic|malware|ethical|soc-analyst/],
+  // "security" TOPIC_PRACTICE entry is pentest-specific (PortSwigger +
+  // TryHackMe). It must never claim the generic "Security" topic on
+  // non-security roadmaps like gitops or container-orchestration.
+  ["security", /cyber|pentest|forensic|malware|ethical|soc-analyst|security-|^security$|grc|iam/],
   ["web-application-attacks", /cyber|security|pentest|forensic|malware|ethical|web-application-security/],
+  // "sketch" = the Sketch DESIGN APP (ui/ux/product design), never CAD
+  // sketching — cad-designer shares the Design domain but its "Sketch Tools"
+  // topic is geometry sketching, so it is excluded by slug, not domain.
+  ["sketch", /ui-ux-designer|ux-designer|product-designer|industrial-designer|graphic-designer|web-designer|design-tools|^sketch$/],
+  // "testing" = SOFTWARE testing library (QA/sdet). materials/automotive
+  // "Testing" sections and mechanical quality-engineer are excluded.
+  ["testing", /software-testing|qa-automation|mobile-testing|sdet|software-test/],
+  // "system-design" = distributed-systems design. Solar-PV "System Design"
+  // and other physical system-design topics must not claim this library.
+  ["system-design", /software|computing|architect|system-design|backend|frontend|full-stack|web-developer|devops|cloud|sre|engineering-manager/],
   ["python-functions", /python|flask|django|fastapi/],  // Only match Python roadmaps
   ["python-classes", /python|flask|django|fastapi/],
   ["kotlin-classes-objects", /kotlin|android/],
@@ -2948,28 +3044,76 @@ const DOMAIN_KEY_GUARDS = new Map([
   ["indexes", /sql|database|db|postgres|mysql|oracle|data/],
   ["explain-plans", /sql|database|db|postgres|mysql|oracle|data/],
   ["query-optimization", /sql|database|db|postgres|mysql|oracle|data/],
+  // Devops-flavored "Configuration Management" (Ansible/Puppet/GitHub Actions).
+  // Aerospace/mechanical CM (baselines, change control) is a different
+  // discipline and must never resolve here.
+  ["configuration-management", /devops|sre|platform|cloud|infrastructure|software|backend|frontend|full-stack|data|security|network/],
+  // Software testing (unit/integration/QA) is not materials/automotive/vehicle
+  // testing: engineering roadmaps have their own "Testing" sections whose
+  // slugs would otherwise exact-match this key via section lookup.
+  ["testing", /software|frontend|backend|full-stack|web-development|web|mobile|ios|android|cross-platform|desktop|game|devops|sre|platform|qa|software-testing|cyber|pentest|security|programming|computer-science|javascript|typescript|python|java|kotlin|swift|dart|flutter|react|vue|angular|go|rust|php|csharp|cpp|node/],
+  // Software system design (scalability, Grokking) is not solar-PV/ mechanical
+  // "System Design" (sizing, layouts) — solar-engineer's System Design section
+  // must never pull the software library.
+  ["system-design", /software|frontend|backend|full-stack|web|mobile|ios|android|devops|sre|platform|cloud|data|ai|ml|machine-learning|cyber|computer-science|programming|game|software-architecture/],
 ]);
 
 function keyAllowedForRoadmap(key, domain, slug) {
   const guard = DOMAIN_KEY_GUARDS.get(key);
   if (!guard) return true;
-  return guard.test(`${domain || ""} ${slug || ""}`.toLowerCase());
+  // Normalize separators: skill categories arrive as "Design Tools" (space)
+  // while guards are written hyphenated ("design-tools") — without
+  // normalization the Sketch guard blocked the Sketch skill itself.
+  const ctx = `${domain || ""} ${slug || ""}`.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  return guard.test(ctx);
 }
 
-// Token-boundary partial match: a dataset key may only claim a topic when it
-// aligns to whole hyphen-separated tokens ("go" matches "go-patterns" but NOT
-// "algorithm-complexity"; "python" matches "python-functions"). Short keys
-// (<3 chars) never partially match — they only match exactly.
-// A key must NOT be a proper substring of the topic unless bounded by hyphens.
-function looseTopicMatch(topicSlug, key) {
-  if (!topicSlug || !key) return false;
-  if (topicSlug === key) return true;
-  if (key.length < 3) return false;
-  return (
-    topicSlug.startsWith(`${key}-`) ||
-    topicSlug.endsWith(`-${key}`) ||
-    topicSlug.includes(`-${key}-`)
-  );
+// Directional head-token match: "a is b, or a is a compound whose HEAD token
+// is b" ("react-hooks" → "react"; "python-functions" → "python").
+// The old symmetric version also matched TAILS ("penetration-testing" →
+// "testing"), which let pentest labs claim the frontend "Testing" topic and
+// load-testing claim generic testing topics. Tail matches are no longer
+// allowed — they are coincidental, not hierarchical.
+// Generic words that, alone, never justify a reverse key→topic match (see
+// looseTopicMatch).
+const GENERIC_HEAD_TOKENS = new Set(["scaling", "deployment", "practice", "basics", "fundamentals", "management", "development", "advanced", "beginner", "introduction", "concepts", "techniques", "strategies", "patterns", "workflows"]);
+function looseTopicMatch(a, b) {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  if (b.length < 3) return false;
+  if (a.startsWith(`${b}-`)) return true;
+  // Reverse direction (key extends topic): only accept when they share a
+  // MEANINGFUL token (≥5 chars, non-generic). Token-only overlap like
+  // "deployment-scaling" ↔ "zero-downtime-restarts" sharing "restarts" must
+  // never count — "restarts" does not make a Kubernetes-style key relevant to
+  // a Rails topic. Head-adjacent extension ("deployment-forgedocker" ←
+  // "deployment") stays allowed via the head check.
+  if (b.startsWith(`${a}-`)) {
+    const keyHead = a.split("-")[0];
+    const bToks = b.split("-");
+    return bToks.some((t) => t === keyHead && t.length >= 5) || bToks.some((t) => t.length >= 5 && !GENERIC_HEAD_TOKENS.has(t));
+  }
+  return false;
+}
+
+// Tier-2 partial-match guard: a key qualifies as a "parent" of a topic only
+// when its head token is meaningful — at least 5 characters and not a generic
+// technology word. Without this, "sql-injection" matched key "sql" and pulled
+// SQL-basics practice onto SQL-injection subtopics. Generic 3–4 char tokens
+// (sql, git, css, aws, java…) match far too much: "java-patterns" → "java",
+// "css-animations" → "css", "aws-lambda" → "aws".
+const NON_MEANINGFUL_HEADS = new Set(["sql", "git", "css", "aws", "gcp", "vue", "php", "nlp", "api", "rest", "web", "app", "dev", "ops", "ui", "ux", "ai", "ml", "db", "iot", "ar", "vr", "3d", "cad", "erp", "crm"]);
+// Meaningful multi-token keys may still back topics extending them — the
+// guard is about single generic heads ("sql", "git"), not genuinely specific
+// compound heads like "data-structures" (→ DSA topics on any roadmap).
+const MEANINGFUL_COMPOUND_HEADS = new Set(["data-structures", "machine-learning", "system-design", "web-security", "best-practices"]);
+function isMeaningfulHead(key) {
+  const head = key.split("-")[0];
+  if (MEANINGFUL_COMPOUND_HEADS.has(key.split("-").slice(0, 2).join("-"))) return true;
+  return head.length >= 5 && !NON_MEANINGFUL_HEADS.has(head);
+}
+function partialParentMatch(topicSlug, key) {
+  return looseTopicMatch(topicSlug, key) && isMeaningfulHead(key);
 }
 
 // ── Discovery-tier gating ──────────────────────────────────────────────────
@@ -3001,7 +3145,23 @@ function platformGate(platform) {
 }
 
 const PLATFORM_GATES = new Map();
+// Discovery-tier allowlist — only platforms that genuinely teach almost any
+// topic in their domain. Vendor marketing/homepage-tier platforms (PMI, ASQ,
+// Google Cloud Skills Boost, Cisco NetAcad, …) are excluded: they produced
+// homepage links on unrelated topics ("Presentation Skills" → Skills Boost).
+// TOPIC_RESOURCES, the concept tier, and the curated-search tier now cover
+// what these used to (poorly) provide.
+const DISCOVERY_ALLOWED = new Set([
+  "MIT OCW",
+  "Khan Academy",
+  "NPTEL",
+  "W3Schools",
+  "MDN Web Docs",
+  "Real Python",
+  "freeCodeCamp",
+]);
 for (const p of platforms.platforms) {
+  if (!DISCOVERY_ALLOWED.has(p.name)) continue; // gate: nothing else participates
   PLATFORM_GATES.set(p.name, platformGate(p));
 }
 const BROAD_DISCOVERY_PLATFORMS = platforms.platforms.filter((p) => p.name === "MIT OCW" || p.name === "Khan Academy");
@@ -3018,15 +3178,53 @@ function normToken(t) {
 function gateHit(gate, topicSlug, sectionSlug) {
   const hay = [sectionSlug, topicSlug].filter(Boolean).join("-");
   for (const p of gate.phrases) {
-    if (hay === p || hay.startsWith(`${p}-`) || hay.includes(`-${p}-`) || hay.endsWith(`-${p}`)) return true;
+    if (hay === p || hay.startsWith(`${p}-`) || hay.includes(`-${p}-`) || hay.endsWith(`-${p}`)) return p;
   }
   const toks = new Set(`${topicSlug || ""} ${sectionSlug || ""}`.split(/[^a-z0-9]+/).filter(Boolean).map(normToken));
   for (const s0 of gate.singles) {
     const s = normToken(s0);
-    if (toks.has(s)) return true;
+    if (toks.has(s)) return s;
   }
-  return false;
+  return null;
 }
+
+// Discovery tier must never emit a bare platform homepage (§14: when a direct
+// topic page exists, use it). Map platform + matched keyword → the platform's
+// direct entry page for that subject; fall back to the platform's learning hub
+// (never the marketing root) when the keyword has no curated page.
+const DISCOVERY_DIRECT_PATHS = {
+  "MDN Web Docs": {
+    web: "/en-US/docs/Web",
+    javascript: "/en-US/docs/Web/javascript",
+    html: "/en-US/docs/Web/HTML",
+    css: "/en-US/docs/Web/CSS",
+    frontend: "/en-US/docs/Learn/Front-end_web_developer",
+    "browser-apis": "/en-US/docs/Web/API",
+  },
+  "W3Schools": {
+    html: "/html/",
+    css: "/css/",
+    javascript: "/js/",
+    sql: "/sql/",
+    python: "/python/",
+    java: "/java/",
+  },
+  "freeCodeCamp": {
+    web: "/learn/",
+    frontend: "/learn/2022/responsive-web-design/",
+    backend: "/learn/back-end-development-and-apis/",
+    "data-science": "/learn/data-analysis-with-python/",
+  },
+  "NPTEL": {
+    "computer-science": "/noc/courses/?courseType=cs",
+  },
+};
+const DISCOVERY_HUB_PATHS = {
+  "MDN Web Docs": "/en-US/docs/Web",
+  "W3Schools": "/tutorials/",
+  "freeCodeCamp": "/learn/",
+  "NPTEL": "/noc/courses/",
+};
 
 function gatedDiscoveryPlatforms(topicSlug, sectionSlug) {
   const matched = [];
@@ -3034,15 +3232,24 @@ function gatedDiscoveryPlatforms(topicSlug, sectionSlug) {
     if (p.name === "NPTEL") continue; // broad tier handled separately
     const gate = PLATFORM_GATES.get(p.name);
     if (!gate || (gate.singles.size === 0 && gate.phrases.length === 0)) continue;
-    if (gateHit(gate, topicSlug, sectionSlug)) matched.push(p);
+    const kw = gateHit(gate, topicSlug, sectionSlug);
+    if (kw !== null) matched.push({ platform: p, keyword: kw });
   }
   return matched.slice(0, 2);
 }
 
-function findBestResource(topicSlug, sectionSlug, skillSlug, careerDomain) {
+function findBestResource(topicSlug, sectionSlug, skillSlug, careerDomain, topicTitle = "", ctxExtra = "") {
   const roadOk = (key) => keyAllowedForRoadmap(key, careerDomain, skillSlug);
 
-  // 1. Exact topic match
+  // 1. Exact topic match — but a COMPOUND key ("kotlin-android-retrofit",
+  // "gitops-security") always beats a generic key of the same name
+  // ("retrofit", "security"): the generic "Security" entry must never claim
+  // the GitOps "Security" topic with pentest labs.
+  const exactCompound = skillSlug ? `${skillSlug}-${topicSlug}` : null;
+  if (exactCompound && TOPIC_RESOURCES[exactCompound] && roadOk(exactCompound)) {
+    resolutionLog.exact++;
+    return { resources: TOPIC_RESOURCES[exactCompound], scope: "exact", parentId: exactCompound };
+  }
   if (TOPIC_RESOURCES[topicSlug] && roadOk(topicSlug)) {
     resolutionLog.exact++;
     return { resources: TOPIC_RESOURCES[topicSlug], scope: "exact", parentId: null };
@@ -3067,19 +3274,43 @@ function findBestResource(topicSlug, sectionSlug, skillSlug, careerDomain) {
     }
   }
 
-  // 3. Token-boundary partial matches (domain-guarded)
+  // 2d. Concept tier — technology-aware DIRECT mapping, keyed on the node's own
+  // label, for the topics the compound-key table can never cover (cloud service
+  // sections, database-engine subsections, ML-framework topics, generic concepts).
+  //
+  // This MUST run before the loose/partial matching below and before the
+  // discovery tier: those tiers return platform LANDING pages (the "aws" entry
+  // is docs.aws.amazon.com/ + skillbuilder.aws/), so whenever they won, a node
+  // like "AWS Core Services (EC2, S3, RDS)" shipped a cloud docs homepage even
+  // though a curated direct page (the EC2 User Guide) existed — 17 roadmaps'
+  // worth of AWS/Azure/GCP service topics resolved that way. A curated page
+  // that names the exact concept always outranks a loose prefix match.
+  if (topicTitle) {
+    const conceptPicks = pickConceptResources(topicTitle, `${skillSlug || ""} ${careerDomain || ""} ${sectionSlug || ""} ${ctxExtra || ""}`);
+    if (conceptPicks.length > 0) {
+      resolutionLog.parentFallback++;
+      return { resources: conceptPicks, scope: "parent", parentId: null };
+    }
+  }
+
+  // 3. Token-boundary partial matches (domain-guarded). Forward matches get
+  // the meaningful-head guard — "sql-injection" must not inherit key "sql"
+  // (generic 3–4 char heads match far too much).
   for (const [key, res] of Object.entries(TOPIC_RESOURCES)) {
     if (!roadOk(key)) continue;
-    if (looseTopicMatch(topicSlug, key) || looseTopicMatch(key, topicSlug)) {
+    if (partialParentMatch(topicSlug, key) || looseTopicMatch(key, topicSlug)) {
       resolutionLog.parentFallback++;
       return { resources: res, scope: "parent", parentId: key };
     }
   }
 
-  // 2c. Try topic slug as a prefix of TOPIC_RESOURCES keys (e.g. topic 'react' matches key 'react-hooks')
+  // 2c. Try topic slug as a prefix of TOPIC_RESOURCES keys (e.g. topic 'react'
+  // matches key 'react-hooks'). HEAD direction only — tail matching is
+  // coincidental: topic 'state-management' must not claim the compound key
+  // 'terraform-state-management' (another skill's topic token).
   for (const [key, res] of Object.entries(TOPIC_RESOURCES)) {
     if (!roadOk(key)) continue;
-    if (key.startsWith(`${topicSlug}-`) || key.endsWith(`-${topicSlug}`)) {
+    if (key.startsWith(`${topicSlug}-`)) {
       resolutionLog.parentFallback++;
       return { resources: res, scope: "parent", parentId: key };
     }
@@ -3099,10 +3330,10 @@ function findBestResource(topicSlug, sectionSlug, skillSlug, careerDomain) {
     return { resources: TOPIC_RESOURCES[sectionSlug], scope: "parent", parentId: sectionSlug };
   }
 
-  // 4b. Try section-level partial match
+  // 4b. Try section-level partial match (same meaningful-head guard)
   for (const [key, res] of Object.entries(TOPIC_RESOURCES)) {
     if (!roadOk(key)) continue;
-    if (looseTopicMatch(sectionSlug, key) || looseTopicMatch(key, sectionSlug)) {
+    if (partialParentMatch(sectionSlug, key) || looseTopicMatch(key, sectionSlug)) {
       resolutionLog.parentFallback++;
       return { resources: res, scope: "parent", parentId: key };
     }
@@ -3115,9 +3346,13 @@ function findBestResource(topicSlug, sectionSlug, skillSlug, careerDomain) {
   if (discovery.length > 0) {
     resolutionLog.discovery++;
     return {
-      resources: discovery.map(p => ({
+      resources: discovery.map(({ platform: p, keyword }) => ({
         title: p.name,
-        url: p.baseUrl,
+        // Direct topic page when curated; otherwise the platform's learning
+        // hub. Never the bare marketing root.
+        url: p.name === "GeeksforGeeks"
+          ? "https://www.geeksforgeeks.org/data-structures/"
+          : p.baseUrl + (DISCOVERY_DIRECT_PATHS[p.name]?.[keyword] ?? DISCOVERY_HUB_PATHS[p.name] ?? ""),
         type: p.type,
         qualityScore: 3,
         verified: p.verified
@@ -3134,10 +3369,12 @@ function findBestResource(topicSlug, sectionSlug, skillSlug, careerDomain) {
   const isEngineering = engineeringDomains.some(d => (careerDomain||'').includes(d) || (sectionSlug||'').includes(d));
   if (isEngineering && BROAD_DISCOVERY_PLATFORMS.length > 0) {
     resolutionLog.discovery++;
+    // Deep-link to the engineering course collection — the bare ocw.mit.edu
+    // root is a homepage; /collections/engineering is the actual content hub.
     return {
       resources: BROAD_DISCOVERY_PLATFORMS.slice(0, 1).map(p => ({
-        title: p.name,
-        url: p.baseUrl,
+        title: p.name === "MIT OpenCourseWare" ? "MIT OpenCourseWare — Engineering Courses" : p.name,
+        url: p.name === "MIT OpenCourseWare" ? (MIT_OCW_DEPARTMENT_LINKS(careerDomain) || "https://ocw.mit.edu/courses/") : p.baseUrl,
         type: p.type,
         qualityScore: 2,
         verified: p.verified
@@ -3148,12 +3385,25 @@ function findBestResource(topicSlug, sectionSlug, skillSlug, careerDomain) {
   }
 
   // 7. Skill-level fallback — use the roadmap's own technology resources
-  if (skillSlug && TOPIC_RESOURCES[skillSlug]) {
+  // (roadOk check added: an unguarded skill key like "matlab" must not leak
+  // onto roadmaps the DOMAIN_KEY_GUARDS explicitly exclude it from)
+  if (skillSlug && TOPIC_RESOURCES[skillSlug] && roadOk(skillSlug)) {
     resolutionLog.skillFallback++;
     return { resources: TOPIC_RESOURCES[skillSlug], scope: "skill", parentId: skillSlug };
   }
-  // No good match found — return empty rather than assign unrelated resources.
-  // An empty resource set is better than wrong resources.
+
+  // 7b. (Concept tier moved to 4c — it must outrank the discovery hub tier.)
+  // 8. No topic-specific resource found — return EMPTY.
+  //
+  // The previous "Curated Domain Search" tier generated search-URL records
+  // (devdocs.io/#q=, scholar.google.com/scholar?q=, owasp.org/search/,
+  // docs.aws.amazon.com/search, nngroup.com/search, paperswithcode.com/search,
+  // wikipedia Special:Search). Those are search pages, not learning resources:
+  // they shipped 7,118 records (41% of the dataset), inflated exact-tier
+  // coverage, and violated the dataset's own "Direct URLs preferred over
+  // search results" rule. Empty is correct here — the client UI always renders
+  // topic-specific study-search actions (lib/search-utils.ts) for nodes
+  // without curated resources, so the learner still gets a useful path.
   resolutionLog.empty++;
   return { resources: [], scope: "empty", parentId: null };
 }
@@ -3189,10 +3439,15 @@ function isPlatformRelevant(platform, topicSlug, sectionSlug, roadmapCtx) {
     return frontendTopics.some(f => t.includes(f) || s.includes(f));
   }
   
-  // Kaggle: only for data/AI/ML topics
+  // Kaggle: only for data/AI/ML topics — never for electrical-maintenance /
+  // industrial-safety topics ("Lockout/Tagout" must not get ML notebooks).
   if (platform === "Kaggle") {
     const dataTopics = ["data", "machine-learning", "deep-learning", "python", "pandas", "numpy", "visualization", "statistic", "ai", "nlp", "computer-vision", "regression", "classification", "clustering"];
-    return dataTopics.some(d => t.includes(d) || s.includes(d));
+    if (dataTopics.some(d => t.includes(d) || s.includes(d))) {
+      const maintenanceTopics = ["lockout", "tagout", "safety-procedur", "maintenanc", "troubleshoot", "calibrat", "hazard", "ppe", "voltmeter", "multimeter", "wiring-practic", "panel"];
+      return !maintenanceTopics.some(m => t.includes(m) || s.includes(m));
+    }
+    return false;
   }
   
   // PortSwigger/TryHackMe/HackTheBox/PicoCTF/OverTheWire: only for security topics
@@ -3201,7 +3456,15 @@ function isPlatformRelevant(platform, topicSlug, sectionSlug, roadmapCtx) {
     return secTopics.some(s => t.includes(s) || sectionSlug.toLowerCase().includes(s));
   }
   
-  // All other platforms: pass through
+  // All other platforms: pass through — except MIT OCW/NPTEL, which are
+  // engineering/academic platforms and must not serve software-only topics
+  // ("API Authentication" getting OCW problem sets helps nobody).
+  if (platform === "MIT OCW" || platform === "NPTEL") {
+    const engSignals = /mechan|civil|electri|chemi|aero|biomed|material|industr|mining|agri|environment|manufact|automot|structural|thermo|fluid|power-system|control-system|embedded|fpga|vlsi|plc|pcb|circuit|signal|telecom|engineer/.test(ctx);
+    const softSignals = /design|ux|ui|graphic|marketing|business|finance|health|management|content|social|legal|educat/.test(ctx);
+    if (softSignals) return false;
+    return engSignals || /math|physics|statistic|quantum|algorithm|comput/.test(`${t} ${s} ${ctx}`);
+  }
   return true;
 }
 
@@ -3226,7 +3489,15 @@ function isCodingRoadmap(skillSlug, careerDomain) {
 function findBestPractice(topicSlug, sectionSlug, careerDomain, skillSlug) {
   const roadOk = (key) => keyAllowedForRoadmap(key, careerDomain, skillSlug);
 
-  // 1. Exact topic match
+  // 1. Exact topic match — compound key first (see findBestResource note)
+  const exactCompound = skillSlug ? `${skillSlug}-${topicSlug}` : null;
+  if (exactCompound && TOPIC_PRACTICE[exactCompound] && roadOk(exactCompound)) {
+    const resultC = TOPIC_PRACTICE[exactCompound];
+    if (!isCodingPracticeKey(exactCompound) || isCodingRoadmap(skillSlug, careerDomain)) {
+      resolutionLog.exact++;
+      return { practice: resultC, scope: "exact", parentId: exactCompound };
+    }
+  }
   if (TOPIC_PRACTICE[topicSlug] && roadOk(topicSlug)) {
     // Gate: skip generic practice keys when they match through section-title
     // collision rather than genuine topic relevance (e.g. "problem-solving"
@@ -3235,16 +3506,16 @@ function findBestPractice(topicSlug, sectionSlug, careerDomain, skillSlug) {
     if (isCodingPracticeKey(topicSlug) && !isCodingRoadmap(skillSlug, careerDomain)) {
       // Skip — generic coding practice on non-coding roadmap
     } else {
+      resolutionLog.exact++;
       return { practice: result, scope: "exact", parentId: null };
     }
-  }
-
-  // 2. Token-boundary partial match (domain-guarded)
+  }  // 2. Token-boundary partial match (domain-guarded). Forward matches
+  // (topic extends key) additionally require a meaningful key head — see
+  // partialParentMatch — so "sql-injection" can never inherit key "sql".
   for (const [key, prac] of Object.entries(TOPIC_PRACTICE)) {
     if (!roadOk(key)) continue;
-    if (looseTopicMatch(topicSlug, key) || looseTopicMatch(key, topicSlug)) {
-      // Same gate: skip coding practice on non-coding roadmaps
-      if (isCodingPracticeKey(key) && !isCodingRoadmap(skillSlug, careerDomain)) continue;
+    if (partialParentMatch(topicSlug, key) || looseTopicMatch(key, topicSlug)) {
+      // Same gate: skip coding practice on non-coding roadmaps      if (isCodingPracticeKey(key) && !isCodingRoadmap(skillSlug, careerDomain)) continue;
       return { practice: prac, scope: "parent", parentId: key };
     }
   }
@@ -3278,10 +3549,10 @@ function findBestPractice(topicSlug, sectionSlug, careerDomain, skillSlug) {
     }
   }
 
-  // 4b. Section partial match
+  // 4b. Section partial match (same meaningful-head guard as tier 2)
   for (const [key, prac] of Object.entries(TOPIC_PRACTICE)) {
     if (!roadOk(key)) continue;
-    if (looseTopicMatch(sectionSlug, key) || looseTopicMatch(key, sectionSlug)) {
+    if (partialParentMatch(sectionSlug, key) || looseTopicMatch(key, sectionSlug)) {
       if (isCodingPracticeKey(key) && !isCodingRoadmap(skillSlug, careerDomain)) continue;
       return { practice: prac, scope: "parent", parentId: key };
     }
@@ -3290,7 +3561,11 @@ function findBestPractice(topicSlug, sectionSlug, careerDomain, skillSlug) {
   // 5. Guaranteed fallback — try section token matching, then skill practice
   // Every topic should have at least 1 practice activity.
   if (skillSlug) {
-    const skillTokens = skillSlug.split(/-/).filter(t => t.length >= 3);
+    // Generic roadmap-name tokens never identify a technology — matching them
+    // let "platform-engineer" pull Kubernetes playgrounds onto "Platform
+    // Thinking" and "mechanical-engineer" pull Exercism onto "Quality Control".
+    const GENERIC_SKILL_TOKENS = new Set(["platform", "engineer", "engineering", "devops", "cloud", "web", "design", "designer", "data", "quality", "maintenance", "automation", "scripting", "general", "basics", "fundamentals", "introduction", "advanced", "tools", "ecosystem", "admin", "administrator", "analyst", "developer"]);
+    const skillTokens = skillSlug.split(/-/).filter(t => t.length >= 3 && !GENERIC_SKILL_TOKENS.has(t));
     for (const token of skillTokens) {
       if (TOPIC_PRACTICE[token] && roadOk(token)) {
         if (isCodingPracticeKey(token) && !isCodingRoadmap(skillSlug, careerDomain)) continue;
@@ -3310,25 +3585,132 @@ function findBestPractice(topicSlug, sectionSlug, careerDomain, skillSlug) {
   // 6. Guaranteed fallback — every node must have at least 1 practice item.
   // Use a domain-appropriate generic practice activity.
   const domainLower = String(careerDomain || "").toLowerCase();
+  // Infra/DevOps topics get hands-on Linux/K8s playgrounds, not coding katas.
+  // Physical-maintenance topics ("Troubleshooting Scenarios" on a mechanical
+  // roadmap) are NOT infra even when the roadmap slug looks technical.
+  const roadInfra = /devops|cloud|linux|sre|kubernetes|docker|infrastructure|monitoring|observab|network|sysadmin|system-engineer|system-admin|site-reliability|platform-engineer|virtualization/.test(domainLower + ' ' + skillSlug);
+  // "deploy|monitor|logging" are SOFT signals: a Rails "Zero-downtime restarts"
+  // or Laravel "Queues on servers" topic is web-framework work, not infra —
+  // the hard container/platform words must own infra classification.
+  const WEB_SOFT_INFRA_HEADS = /^(deployment|deploy|zero-downtime|queues?|environment|servers?|server)/;
+  const webFrameworkCtx = /javascript|typescript|node|express|django|flask|fastapi|spring|laravel|php|ruby|rails|react|vue|angular|next|frontend|backend/.test(careerDomain + ' ' + skillSlug);
+  const topicInfra = /docker|kubernetes|terraform|ansible|jenkins|shell|bash|infra|cron|hypervisor|virtualiz|\bk8s\b/.test(topicSlug) && !(WEB_SOFT_INFRA_HEADS.test(topicSlug) && webFrameworkCtx);
+  // "troubleshoot" only means physical maintenance in a PHYSICAL domain —
+  // network-administration's "Network Troubleshooting" is infra.
+  const topicPhysical = /troubleshoot|maintenanc|repair|calibrat|inspection|lockout|tagout|safety|mechan|electric|hazard/.test(topicSlug) && !/network|dns|tcp|firewall|routing|switch|vlan/.test(topicSlug);
+  const isInfra = (roadInfra || topicInfra) && !topicPhysical;
   const isSoftware = /software|programming|web|full-stack|frontend|backend|mobile|devops|cloud|data-science|machine-learning|ai|cyber|database|api|game|desktop|ios|android/.test(domainLower + ' ' + skillSlug);
   const isEngineering = /engineer|mechan|civil|electri|chemical|agri|aero|biomed|material|industr|mining|marine|textile|fpga|plc|embedded/.test(domainLower + ' ' + skillSlug);
   const isSecurity = /secur|cyber|hack|penetration|forensic|soc|grc|ethical/.test(domainLower + ' ' + skillSlug);
-  const isData = /data|analys|machine-learning|ai|ml|deep-learning|nlp/.test(domainLower + ' ' + skillSlug);
+  // "data" alone matches mechanical-engineering roadmaps ("data acquisition")
+  // and design roadmaps ("dashboard data") — require a computing-signal too.
+  const dataCtx = domainLower + ' ' + skillSlug;
+  // "ai"/"ml" must be whole words — the bare tokens substring-matched
+  // "maint**ai**nance" and pushed Kaggle onto electrical-safety topics.
+  const isData = /data|analys|machine-learning|deep-learning|\b(?:ai|ml|nlp)\b/.test(dataCtx) &&
+    /software|programming|web|full-stack|frontend|backend|mobile|devops|cloud|data-science|machine-learning|\b(?:ai|ml)\b|cyber|database|api|game|python|java|javascript|bi|analytics|statistic|scientist|engineer-ml/.test(dataCtx);
   
   if (isSecurity) {
     return { practice: [{ title: "TryHackMe — Cybersecurity Learning Paths", url: "https://tryhackme.com/", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min", domain: domainLower }], scope: "discovery", parentId: null };
+  }
+  // Infra/DevOps/Sysadmin topics beat the data and engineering branches —
+  // system-engineer's "LDAP"/"SELinux" need hands-on Linux labs, not Kaggle
+  // or MIT OCW engineering coursework.
+  if (isInfra) {
+    return { practice: [{ title: "KillerCoda — Interactive Linux & Kubernetes Playgrounds", url: "https://killercoda.com/playgrounds", platform: "KillerCoda", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: domainLower }], scope: "discovery", parentId: null };
   }
   if (isData) {
     return { practice: [{ title: "Kaggle — Interactive ML Notebooks", url: "https://www.kaggle.com/code", platform: "Kaggle", difficulty: "Intermediate", estimatedTime: "30-60 min", domain: domainLower }], scope: "discovery", parentId: null };
   }
   if (isEngineering) {
-    return { practice: [{ title: "MIT OpenCourseWare — Engineering Practice Problems", url: "https://ocw.mit.edu/collections/engineering/", platform: "MIT OCW", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: domainLower }], scope: "discovery", parentId: null };
+    return { practice: [{ title: "MIT OpenCourseWare — Engineering Courses & Practice", url: "https://ocw.mit.edu/courses/", platform: "MIT OCW", difficulty: "Intermediate", estimatedTime: "60-120 min", domain: domainLower }], scope: "discovery", parentId: null };
+  }
+  // Design topics: hands-on design prompts, not coding exercises.
+  const isDesign = /design|ux|ui|graphic|brand|illustrat/.test(domainLower + ' ' + skillSlug);
+  if (isDesign) {
+    return { practice: [{ title: "Sharpen.design — Design Challenge Generator", url: "https://sharpen.design/", platform: "Sharpen.design", difficulty: "Beginner", estimatedTime: "20-45 min", domain: domainLower }], scope: "discovery", parentId: null };
   }
   if (isSoftware) {
     return { practice: [{ title: "Exercism — Practice Programming Exercises", url: "https://exercism.org/tracks", platform: "Exercism", difficulty: "Beginner", estimatedTime: "30-60 min", domain: domainLower }], scope: "discovery", parentId: null };
   }
-  // Absolute fallback
-  return { practice: [{ title: "Exercism — Practice Programming Exercises", url: "https://exercism.org/tracks", platform: "Exercism", difficulty: "Beginner", estimatedTime: "30-60 min", domain: domainLower }], scope: "discovery", parentId: null };
+  // Absolute fallback — same domain gating as above; generic coding practice
+  // must never reach non-software roadmaps.
+  return { practice: [], scope: "empty", parentId: null };
+}
+
+// ── Root (roadmap-level) starter resources ──────────────────────────────
+// Every career/skill ROOT node (label == roadmap title) gets a small set of
+// domain-appropriate starting points. 209 of 261 roadmaps previously had an
+// empty root — the overview the learner sees first. Records are emitted at
+// skill scope with parentNodeId set ("roadmap-level pick" in the UI), so they
+// also act as the honest roadmap-wide fallback tier.
+const ROOT_STARTER_RESOURCE_SETS = [
+  { re: /security|cyber|hack|forensic|malware|grc|iam/, items: [
+    { title: "TryHackMe — Cybersecurity Learning Paths", url: "https://tryhackme.com/", type: "practice", qualityScore: 4 },
+    { title: "OWASP — Top Ten Web Application Security Risks", url: "https://owasp.org/www-project-top-ten/", type: "official-doc", qualityScore: 5 },
+  ] },
+  { re: /cloud|devops|sre|infrastructure|platform|virtualization|storage|linux|network|sysadmin|system-engineer|windows/, items: [
+    { title: "Microsoft Learn — Training Hub", url: "https://learn.microsoft.com/en-us/training/", type: "course", qualityScore: 4 },
+    { title: "KillerCoda — Interactive Linux & Kubernetes Playgrounds", url: "https://killercoda.com/playgrounds", type: "practice", qualityScore: 4 },
+  ] },
+  { re: /data|machine|\bai\b|\bml\b|analytics|statistic|llm|nlp|vision/, items: [
+    { title: "Kaggle Learn — Hands-On Data & ML Courses", url: "https://www.kaggle.com/learn/", type: "course", qualityScore: 4 },
+  ] },
+  { re: /design|ux|ui|graphic/, items: [
+    { title: "Laws of UX", url: "https://lawsofux.com/", type: "reference", qualityScore: 4 },
+    { title: "NN/g — UX Research & Design Articles", url: "https://www.nngroup.com/articles/", type: "reference", qualityScore: 4 },
+  ] },
+  { re: /engineering|mechan|civil|electri|chemi|aero|biomed|material|environment|agri|industr|manufactur|petro|polymer|corros|metall|\bbio\b|food|irrig|sustain|gis|\bbim\b|\bcad\b|\bcae\b|reliab|maintenance|hvac|automot|process|supply|quality/, ocw: true, items: [] },
+  { re: /non-it|business|finance|sales|marketing|operations|supply|\bhr\b|legal|consult|erp|sap|customer-success|technical-support|technical-writer|technical-consultant|product-owner|business-analyst/, items: [
+    { title: "U.S. BLS — Occupational Outlook Handbook", url: "https://www.bls.gov/ooh/", type: "reference", qualityScore: 4 },
+  ] },
+];
+const ROOT_DEFAULT_RESOURCES = [
+  { title: "roadmap.sh — Developer Roadmaps & Guides", url: "https://roadmap.sh/", type: "reference", qualityScore: 4 },
+  { title: "freeCodeCamp — Full Curriculum", url: "https://www.freecodecamp.org/learn/", type: "course", qualityScore: 4 },
+];
+
+function getRootStarterResources(domain, slug) {
+  // 1. The roadmap's own technology resource set, when one exists ("git",
+  // "python", "docker", …) — those ARE the roadmap-level picks.
+  if (TOPIC_RESOURCES[slug] && keyAllowedForRoadmap(slug, domain, slug)) return TOPIC_RESOURCES[slug];
+  const d = String(domain || "").toLowerCase();
+  for (const set of ROOT_STARTER_RESOURCE_SETS) {
+    if (set.re.test(d) || set.re.test(String(slug || "").toLowerCase())) {
+      if (set.ocw) {
+        const url = MIT_OCW_DEPARTMENT_LINKS(d) || "https://ocw.mit.edu/courses/";
+        return [{ title: "MIT OpenCourseWare — Departmental Course Listing", url, type: "course", qualityScore: 4 }];
+      }
+      return set.items;
+    }
+  }
+  return ROOT_DEFAULT_RESOURCES;
+}
+
+// Domain-correct MIT OCW department/course listing (probe-validated 200s).
+// Replaces the retired ocw.mit.edu/search/?... query URLs.
+function MIT_OCW_DEPARTMENT_LINKS(domainText) {
+  const d = String(domainText || "").toLowerCase();
+  if (/mechan|manufactur|industr/.test(d)) return "https://ocw.mit.edu/courses/mechanical-engineering/";
+  if (/civil|structural|construction|environment/.test(d)) return "https://ocw.mit.edu/courses/civil-and-environmental-engineering/";
+  if (/electric|electron|vlsi|pcb|embed|avion/.test(d)) return "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/";
+  if (/aero|aviation|aircraft|propul/.test(d)) return "https://ocw.mit.edu/courses/aeronautics-and-astronautics/";
+  if (/biomed|bioengineering|bioengineering|medical/.test(d)) return "https://ocw.mit.edu/courses/biological-engineering/";
+  if (/chemi|petro|polymer|process|corros|metall/.test(d)) return "https://ocw.mit.edu/courses/chemistry/";
+  return null;
+}
+
+function getRootStarterPractice(domain, slug) {
+  const d = String(domain || "").toLowerCase();
+  const ctx = `${d} ${slug}`;
+  if (TOPIC_PRACTICE[slug] && keyAllowedForRoadmap(slug, domain, slug)) return TOPIC_PRACTICE[slug];
+  if (/security|cyber|hack|forensic|malware|grc|ethical/.test(ctx)) return [{ title: "TryHackMe — Cybersecurity Learning Paths", url: "https://tryhackme.com/", platform: "TryHackMe", difficulty: "Beginner", estimatedTime: "60-120 min" }];
+  if (/cloud|devops|sre|infrastructure|platform|virtualization|storage|linux|network|sysadmin|system-engineer|windows/.test(ctx)) return [{ title: "KillerCoda — Interactive Linux & Kubernetes Playgrounds", url: "https://killercoda.com/playgrounds", platform: "KillerCoda", difficulty: "Intermediate", estimatedTime: "30-60 min" }];
+  if (/data|machine|\bai\b|\bml\b|analytics|statistic|llm|nlp|vision/.test(ctx)) return [{ title: "Kaggle — Interactive ML Notebooks", url: "https://www.kaggle.com/code", platform: "Kaggle", difficulty: "Intermediate", estimatedTime: "30-60 min" }];
+  if (/design|ux|ui|graphic/.test(ctx)) return [{ title: "Sharpen.design — Design Challenge Generator", url: "https://sharpen.design/", platform: "Sharpen.design", difficulty: "Beginner", estimatedTime: "20-45 min" }];
+  if (/engineering|mechan|civil|electri|chemi|aero|biomed|material|environment|agri|industr|manufactur|petro|polymer|corros|metall|\bbio\b|food|irrig|sustain|gis|\bbim\b|\bcad\b|\bcae\b|reliab|maintenance|hvac|automot|process|quality/.test(ctx)) { const ocw = MIT_OCW_DEPARTMENT_LINKS(ctx) || "https://ocw.mit.edu/courses/"; return [{ title: "MIT OpenCourseWare — Departmental Courses & Practice", url: ocw, platform: "MIT OCW", difficulty: "Intermediate", estimatedTime: "60-120 min" }]; }
+  if (/software|programming|web|frontend|backend|full-stack|mobile|game|desktop|ios|android|database|api|blockchain|quantum|embedded|firmware|\biot\b|robotics|automation|qa|testing|devtools|open-source|prompt/.test(ctx)) return [{ title: "Exercism — Practice Programming Exercises", url: "https://exercism.org/tracks", platform: "Exercism", difficulty: "Beginner", estimatedTime: "30-60 min" }];
+  return []; // business/non-IT roots stay without forced practice
 }
 
 function processCareerOrSkill(item, kind) {
@@ -3337,15 +3719,111 @@ function processCareerOrSkill(item, kind) {
   const domain = item.domain || item.skillCategory || "";
   const skillSlug = slug;
 
+  // ── ROOT node (label == roadmap title) — roadmap-level starter set ──
+  const rootRes = getRootStarterResources(domain, slug);
+  for (const r of rootRes) {
+    allResources.push({
+      id: genId("res"),
+      nodeId: `${kind}.${slug}`,
+      kind,
+      parentSlug: slug,
+      sectionTitle: "Overview",
+      topicTitle: title,
+      title: r.title,
+      url: r.url,
+      resourceType: r.type || "article",
+      qualityScore: r.qualityScore || 4,
+      verified: true,
+      verifiedAt: "2026-08-24",
+      scope: "skill",
+      parentNodeId: slug,
+      note: "Roadmap-level starting point",
+    });
+  }
+  const rootPrac = getRootStarterPractice(domain, slug);
+  for (const p of rootPrac) {
+    allPractice.push({
+      id: genId("prac"),
+      nodeId: `${kind}.${slug}`,
+      kind,
+      parentSlug: slug,
+      sectionTitle: "Overview",
+      topicTitle: title,
+      title: p.title,
+      url: p.url,
+      platform: p.platform,
+      difficulty: p.difficulty || "Beginner",
+      estimatedTime: p.estimatedTime || "30-60 min",
+      domain: domain || "",
+      qualityScore: 4,
+      verified: true,
+      verifiedAt: "2026-08-24",
+      scope: "skill",
+      parentNodeId: slug,
+      note: "Roadmap-level starting point",
+    });
+  }
+
   for (const section of item.sections || []) {
     const sectionSlug = slugify(section.title);
 
-    for (const topic of section.topics || []) {
-      if (typeof topic !== "string") continue;
+    // A `choice` topic is a branch point whose `options` carry real learning
+    // topics (AWS/Azure/GCP, PostgreSQL/MySQL/MongoDB, React/Angular/Vue, …).
+    // Reducing a choice to its title (the previous behaviour) dropped every
+    // option-branch topic from the resource build, so all of those nodes — 89
+    // roadmaps, ~2,200 meaningful nodes — shipped with no resource of their own.
+    const topicQueue = [];
+    for (const t of section.topics || []) {
+      if (typeof t === "string") { topicQueue.push({ topic: t, branch: "" }); continue; }
+      if (!t || !t.title) continue;
+      if (t.choice && Array.isArray(t.options) && t.options.length) {
+        for (const opt of t.options) {
+          const optTitle = typeof opt === "string" ? opt : (opt.title || "");
+          if (!optTitle) continue;
+          const optTitleSlug = slugify(optTitle);
+          const optTopics = opt && Array.isArray(opt.topics) ? opt.topics : [];
+          // The option label is itself a learning node (the tree renders it as
+          // a `subsection`), so it gets its own technology resources — UNLESS it
+          // is the roadmap itself (`docker`, `aws`, `azure`, `solidworks` name an
+          // option after their own technology). The roadmap-root record already
+          // carries those URLs, and re-emitting them under the same slug+topic
+          // produced a duplicate record for one node.
+          const isRoadmapItself =
+            optTitleSlug === slug || optTitleSlug === slugify(item.title || "");
+          if (!isRoadmapItself) topicQueue.push({ topic: optTitle, branch: optTitle });
+          for (const ot of optTopics) {
+            const label = typeof ot === "string" ? ot : ((ot && ot.title) || "");
+            if (label) topicQueue.push({ topic: label, branch: optTitle });
+          }
+        }
+        continue;
+      }
+      topicQueue.push({ topic: t.title, branch: "" });
+    }
+
+    // A choice option often repeats a label that already exists as a plain
+    // topic — the `docker`, `aws`, `azure` and `solidworks` roadmaps name their
+    // option after the roadmap itself. Both entries collapse to the SAME node
+    // id, so the second emitted a duplicate record on one node. First wins.
+    const seenTopics = new Set();
+    const dedupedTopics = [];
+    for (const e of topicQueue) {
+      const k = slugify(e.topic);
+      if (seenTopics.has(k)) continue;
+      seenTopics.add(k);
+      dedupedTopics.push(e);
+    }
+
+    for (const entry of dedupedTopics) {
+      const topic = entry.topic;
+      // Option branches name their technology ("AWS", "PyTorch"); feeding that
+      // into stack detection is what lets the concept library pick a
+      // technology-correct resource instead of a landing page.
+      const branchContext = entry.branch;
       const topicSlug = slugify(topic);
 
       // ── Resources ─────────────────────────────────────────────────────
-      const resResult = findBestResource(topicSlug, sectionSlug, skillSlug, domain);
+      const resResult = findBestResource(topicSlug, sectionSlug, skillSlug, domain, topic, branchContext);
       if (resResult.resources.length > 0) {
         for (const r of resResult.resources) {
           allResources.push({
@@ -3403,12 +3881,21 @@ function processCareerOrSkill(item, kind) {
         const isSec = /secur|cyber|hack|penetration|forensic|soc|grc|ethical/.test(ctx);
         const isData = /data|analys|machine-learning|ai|ml|deep-learning|nlp/.test(ctx);
         const isEng = /engineer|mechan|civil|electri|chemical|agri|aero|biomed|material|industr|mining|fpga|plc|embedded/.test(ctx);
+        // Infra/DevOps topics ("Scheduled Actions", "Network Troubleshooting")
+        // get hands-on playgrounds, not coding katas — same classification as
+        // findBestPractice tier 6.
+        const roadInfra2 = /devops|cloud|linux|sre|kubernetes|docker|infrastructure|monitoring|observab|network|sysadmin|system-engineer|system-admin|site-reliability|platform-engineer|virtualization/.test(ctx);
+        const topicInfra2 = /docker|kubernetes|terraform|ansible|jenkins|monitor|logging|tracing|shell|bash|deploy|infra|cron|scheduled|hypervisor|virtualiz/.test(topicSlug) && !(/^(deployment|deploy|zero-downtime|queues?|environment|servers?|server)/.test(topicSlug) && /javascript|typescript|node|express|django|flask|fastapi|spring|laravel|php|ruby|rails|react|vue|angular|next|frontend|backend/.test(`${domain || ""} ${slug}`.toLowerCase()));
+        const topicPhysical2 = /troubleshoot|maintenanc|repair|calibrat|inspection|lockout|tagout|safety|mechan|electric|hazard/.test(topicSlug);
+        const isInfra2 = (roadInfra2 || topicInfra2) && !topicPhysical2;
         const fallbackP = isSec
           ? { title: "TryHackMe — Cybersecurity Learning Paths", url: "https://tryhackme.com/", platform: "TryHackMe" }
           : isData
           ? { title: "Kaggle — Interactive ML Notebooks", url: "https://www.kaggle.com/code", platform: "Kaggle" }
+          : isInfra2
+          ? { title: "KillerCoda — Interactive Linux & Kubernetes Playgrounds", url: "https://killercoda.com/playgrounds", platform: "KillerCoda" }
           : isEng
-          ? { title: "MIT OpenCourseWare — Engineering Practice", url: "https://ocw.mit.edu/collections/engineering/", platform: "MIT OCW" }
+          ? { title: "MIT OpenCourseWare — Engineering Courses & Practice", url: "https://ocw.mit.edu/courses/", platform: "MIT OCW" }
           : { title: "Exercism — Practice Programming Exercises", url: "https://exercism.org/tracks", platform: "Exercism" };
         allPractice.push({
           id: genId("prac"),
@@ -3440,8 +3927,40 @@ function processCareerOrSkill(item, kind) {
       const inheritablePractice = pracResult.practice.length > 0;
       for (const sub of subs) {
         const subSlug = slugify(sub);
-        // Subtopics inherit parent resources (with explicit label)
-        if (inheritable) {
+        // A subtopic is its own learning node, so give it a concept-correct
+        // DIRECT resource first and only inherit the parent topic's set when the
+        // concept library has nothing for this label. Without this, 700+
+        // subtopic nodes ("Closures", "CORS", "Migrations") could only ever
+        // show whatever their parent topic happened to resolve to — usually a
+        // landing page.
+        const subConcepts = pickConceptResources(
+          sub,
+          `${skillSlug || ""} ${domain || ""} ${sectionSlug || ""} ${branchContext} ${topic}`,
+        );
+        if (subConcepts.length > 0) {
+          for (const r of subConcepts) {
+            allResources.push({
+              id: genId("res"),
+              nodeId: `${kind}.${slug}.${subSlug}`,
+              kind,
+              parentSlug: slug,
+              sectionTitle: section.title,
+              topicTitle: sub,
+              title: r.title,
+              url: r.url,
+              resourceType: r.type || "article",
+              qualityScore: r.qualityScore || 3,
+              verified: r.verified !== false,
+              verifiedAt: "2026-08-24",
+              scope: "exact",
+              parentNodeId: null,
+              note: `Concept-level resource for subtopic: ${sub}`,
+            });
+          }
+        }
+        // Subtopics inherit parent resources (with explicit label) — only when
+        // no concept-level resource of their own exists.
+        if (inheritable && subConcepts.length === 0) {
           for (const r of resResult.resources.slice(0, 2)) {
             allResources.push({
               id: genId("res"),
@@ -3491,7 +4010,330 @@ function processCareerOrSkill(item, kind) {
     }
   }
 
+  // ── Dynamically process Interview Preparation topics ──
+  if (kind === "career") {
+    // "engineer" must NOT imply tech: mechanical/solar/materials engineers
+    // interview on domain fundamentals, not LeetCode/whiteboarding. Only
+    // software/IT domains get the tech interview topic list.
+    const isTech = item.category === "it" || /software|developer|cloud|data|ai|ml|machine-learning|cyber|security|web|mobile|devops|sre|platform|game|qa|test/i.test(domain);
+    const interviewTopics = isTech
+      ? ["Fundamentals revision", "Data Structures & Algorithms", "Coding practice (LeetCode)", "Problem-solving patterns", "System design basics", "Whiteboard practice", "Behavioral questions (STAR)", "Take-home projects", "Resume & LinkedIn", "Portfolio & proof of work", "Job portals & networking", "Salary negotiation", "Offer evaluation"]
+      : ["Core concepts revision", "Mock tests & practice", "Common interview questions", "Speed & accuracy", "Case studies & aptitude", "Behavioral questions (STAR)", "Domain deep dives", "Portfolio walkthrough", "Resume & LinkedIn", "Portfolio & proof of work", "Job portals & networking", "Salary negotiation", "Offer evaluation"];
+    
+    const sectionTitle = "Interview Preparation";
+    const sectionSlug = slugify(sectionTitle);
+    
+    for (const topic of interviewTopics) {
+      const topicSlug = slugify(topic);
+      // Direct, topic-specific interview resource mapping — the generic
+      // findBestResource tiers cannot match these labels ("Fundamentals
+      // revision", "Offer evaluation"), which shipped 4,600+ resource-less
+      // interview nodes across 155 careers. Mirrors the practice builder's
+      // INTERVIEW_FALLBACKS: every URL is a direct Tech Interview Handbook /
+      // LeetCode / Brilliant page that genuinely teaches the topic.
+      // Domain-neutral interview set — IndiaBix / The Muse / GitHub Pages /
+      // LinkedIn serve every discipline. Coding-interview content (TIH,
+      // LeetCode) stays exclusive to tech careers via the isTech dispatch.
+      const NEUTRAL_INTERVIEW_RESOURCES = {
+        "core-concepts-revision": [
+          { title: "IndiaBix — Technical Interview Questions & Answers", url: "https://www.indiabix.com/technical-interview/questions-and-answers/", type: "reference", qualityScore: 4 },
+        ],
+        "common-interview-questions": [
+          { title: "IndiaBix — Technical Interview Questions & Answers", url: "https://www.indiabix.com/technical-interview/questions-and-answers/", type: "reference", qualityScore: 4 },
+        ],
+        "mock-tests-practice": [
+          { title: "IndiaBix — Online Tests for Placement Interviews", url: "https://www.indiabix.com/online-test/", type: "practice", qualityScore: 4 },
+        ],
+        "speed-accuracy": [
+          { title: "IndiaBix — Aptitude Questions & Answers", url: "https://www.indiabix.com/aptitude/questions-and-answers/", type: "practice", qualityScore: 4 },
+        ],
+        "case-studies-aptitude": [
+          { title: "IndiaBix — Aptitude Questions & Answers", url: "https://www.indiabix.com/aptitude/questions-and-answers/", type: "practice", qualityScore: 4 },
+        ],
+        "behavioral-questions-star": [
+          { title: "The Muse — STAR Interview Method", url: "https://www.themuse.com/advice/star-interview-method", type: "course", qualityScore: 4 },
+        ],
+        // Non-tech disciplines do not build software portfolios, so the neutral
+        // set must not point at GitHub Pages (a site root that also taught
+        // GitHub hosting rather than the portfolio itself).
+        "portfolio-proof-of-work": [
+          { title: "Career portfolio — Wikipedia", url: "https://en.wikipedia.org/wiki/Career_portfolio", type: "reference", qualityScore: 3 },
+        ],
+        "portfolio-walkthrough": [
+          { title: "Career portfolio — Wikipedia", url: "https://en.wikipedia.org/wiki/Career_portfolio", type: "reference", qualityScore: 3 },
+        ],
+        "resume-linkedin": [
+          { title: "LinkedIn Help — Profile Best Practices", url: "https://www.linkedin.com/help/linkedin/answer/a507508", type: "reference", qualityScore: 4 },
+        ],
+        "job-portals-networking": [
+          { title: "LinkedIn — Job Search", url: "https://www.linkedin.com/jobs/", type: "reference", qualityScore: 4 },
+        ],
+        "salary-negotiation": [
+          { title: "IndiaBix — HR Interview Questions & Answers", url: "https://www.indiabix.com/hr-interview/questions-and-answers/", type: "reference", qualityScore: 4 },
+        ],
+        "offer-evaluation": [
+          { title: "IndiaBix — HR Interview Questions & Answers", url: "https://www.indiabix.com/hr-interview/questions-and-answers/", type: "reference", qualityScore: 4 },
+        ],
+      };
+      const TECH_INTERVIEW_RESOURCES = {
+        "fundamentals-revision": [
+          { title: "Tech Interview Handbook — Coding Interview Study Plan", url: "https://www.techinterviewhandbook.org/coding-interview-study-plan/", type: "course", qualityScore: 4 },
+          { title: "Tech Interview Handbook — Best Practice Questions", url: "https://www.techinterviewhandbook.org/best-practice-questions/", type: "tutorial", qualityScore: 4 },
+        ],
+        "core-concepts-revision": [
+          { title: "Tech Interview Handbook — Coding Interview Study Plan", url: "https://www.techinterviewhandbook.org/coding-interview-study-plan/", type: "course", qualityScore: 4 },
+        ],
+        "data-structures-algorithms": [
+          { title: "Tech Interview Handbook — Algorithms Study Cheatsheet", url: "https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/", type: "reference", qualityScore: 5 },
+        ],
+        "coding-practice-leetcode": [
+          { title: "LeetCode — Top Interview 150 Study Plan", url: "https://leetcode.com/studyplan/top-interview-150/", type: "practice", qualityScore: 5 },
+        ],
+        "problem-solving-patterns": [
+          { title: "Tech Interview Handbook — Coding Interview Cheatsheet", url: "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/", type: "reference", qualityScore: 4 },
+        ],
+        "system-design-basics": [
+          { title: "Tech Interview Handbook — System Design Interview Guide", url: "https://www.techinterviewhandbook.org/system-design/", type: "course", qualityScore: 5 },
+        ],
+        "whiteboard-practice": [
+          { title: "Tech Interview Handbook — Coding Interview Cheatsheet", url: "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/", type: "reference", qualityScore: 4 },
+        ],
+        "behavioral-questions-star": [
+          { title: "Tech Interview Handbook — Behavioral Interviews", url: "https://www.techinterviewhandbook.org/behavioral-interview/", type: "course", qualityScore: 4 },
+        ],
+        "common-interview-questions": [
+          { title: "Tech Interview Handbook — Behavioral Interview Questions", url: "https://www.techinterviewhandbook.org/behavioral-interview-questions/", type: "reference", qualityScore: 4 },
+        ],
+        "take-home-projects": [
+          { title: "Tech Interview Handbook — Take-home Assignments", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", type: "reference", qualityScore: 4 },
+        ],
+        "resume-linkedin": [
+          { title: "Tech Interview Handbook — Software Engineer Resume Guide", url: "https://www.techinterviewhandbook.org/resume/", type: "course", qualityScore: 4 },
+        ],
+        "portfolio-proof-of-work": [
+          { title: "Tech Interview Handbook — Software Engineering Interview Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", type: "reference", qualityScore: 4 },
+        ],
+        "job-portals-networking": [
+          { title: "Tech Interview Handbook — Software Engineering Job Search Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", type: "reference", qualityScore: 4 },
+        ],
+        "salary-negotiation": [
+          { title: "Tech Interview Handbook — Salary Negotiation Guide", url: "https://www.techinterviewhandbook.org/negotiation/", type: "course", qualityScore: 4 },
+        ],
+        "offer-evaluation": [
+          { title: "Tech Interview Handbook — Choosing Between Companies", url: "https://www.techinterviewhandbook.org/choosing-between-companies/", type: "reference", qualityScore: 4 },
+        ],
+        "mock-tests-practice": [
+          { title: "Tech Interview Handbook — Coding Interview Cheatsheet", url: "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/", type: "reference", qualityScore: 4 },
+        ],
+        "speed-accuracy": [
+          { title: "Tech Interview Handbook — Coding Interview Cheatsheet", url: "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/", type: "reference", qualityScore: 4 },
+        ],
+        "case-studies-aptitude": [
+          { title: "Brilliant.org — Interactive Problem Solving", url: "https://brilliant.org/", type: "practice", qualityScore: 3 },
+        ],
+        "portfolio-walkthrough": [
+          { title: "Tech Interview Handbook — Software Engineering Interview Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", type: "reference", qualityScore: 4 },
+        ],
+      };
+      const INTERVIEW_RESOURCES = isTech ? TECH_INTERVIEW_RESOURCES : NEUTRAL_INTERVIEW_RESOURCES;
+      const directRes = INTERVIEW_RESOURCES[topicSlug];
+      const resResult = directRes
+        ? { resources: directRes, scope: "exact", parentId: sectionSlug }            : (topicSlug === "domain-deep-dives"
+            ? { resources: [{ title: "MIT OpenCourseWare — Courses", url: MIT_OCW_DEPARTMENT_LINKS(domain) || "https://ocw.mit.edu/courses/", type: "course", qualityScore: 4 }], scope: "discovery", parentId: null }
+            : findBestResource(topicSlug, sectionSlug, skillSlug, domain));
+      if (resResult.resources.length > 0) {
+        for (const r of resResult.resources) {
+          allResources.push({
+            id: genId("res"),
+            nodeId: `${kind}.${slug}.${topicSlug}`,
+            kind,
+            parentSlug: slug,
+            sectionTitle: sectionTitle,
+            topicTitle: topic,
+            title: r.title,
+            url: r.url,
+            resourceType: r.type || "article",
+            qualityScore: r.qualityScore || 3,
+            verified: r.verified !== false,
+            verifiedAt: "2026-08-24",
+            scope: resResult.scope,
+            parentNodeId: resResult.parentId || null,
+          });
+        }
+      }
+      const pracResult = findBestPractice(topicSlug, sectionSlug, domain, slug);
+      let practiceAdded = false;
+      if (pracResult.practice.length > 0) {
+        for (const p of pracResult.practice) {
+          if (!isPlatformRelevant(p.platform, topicSlug, sectionTitle, `${item.category || ""} ${domain || ""} ${slug}`)) continue;
+          allPractice.push({
+            id: genId("prac"),
+            nodeId: `${kind}.${slug}.${topicSlug}`,
+            kind,
+            parentSlug: slug,
+            sectionTitle: sectionTitle,
+            topicTitle: topic,
+            title: p.title,
+            url: p.url,
+            platform: p.platform,
+            difficulty: p.difficulty || "Intermediate",
+            estimatedTime: p.estimatedTime || "30-60 min",
+            domain: p.domain || "",
+            qualityScore: 4,
+            verified: true,
+            verifiedAt: "2026-08-24",
+            scope: pracResult.scope,
+            parentNodeId: pracResult.parentId || null,
+          });
+          practiceAdded = true;
+        }
+      }
+      if (!practiceAdded) {
+        // Fallback for interviews
+        const ctx = `${domain || ""} ${slug}`.toLowerCase();
+        const isTechInterview = isTech || /coding|algorithm|system-design/i.test(topic);
+        // Per-topic interview fallbacks — every URL is a direct Tech Interview
+        // Handbook / LeetCode page that actually teaches the topic.
+        const INTERVIEW_FALLBACKS = {
+          "fundamentals-revision": { title: "Tech Interview Handbook — Coding Interview Study Plan", url: "https://www.techinterviewhandbook.org/coding-interview-study-plan/", platform: "Tech Interview Handbook" },
+          "data-structures-algorithms": { title: "Tech Interview Handbook — Algorithms Study Cheatsheet", url: "https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/", platform: "Tech Interview Handbook" },
+          "coding-practice-leetcode": { title: "LeetCode — Top Interview 150", url: "https://leetcode.com/studyplan/top-interview-150/", platform: "LeetCode" },
+          "problem-solving-patterns": { title: "Tech Interview Handbook — Coding Interview Cheatsheet", url: "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/", platform: "Tech Interview Handbook" },
+          "system-design-basics": { title: "Tech Interview Handbook — System Design Interview Guide", url: "https://www.techinterviewhandbook.org/system-design/", platform: "Tech Interview Handbook" },
+          "whiteboard-practice": { title: "Tech Interview Handbook — Coding Interview Cheatsheet", url: "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/", platform: "Tech Interview Handbook" },
+          "behavioral-questions-star": { title: "Tech Interview Handbook — Behavioral Interviews", url: "https://www.techinterviewhandbook.org/behavioral-interview/", platform: "Tech Interview Handbook" },
+          "take-home-projects": { title: "Tech Interview Handbook — Software Engineering Interview Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", platform: "Tech Interview Handbook" },
+          "resume-linkedin": { title: "Tech Interview Handbook — Software Engineer Resume Guide", url: "https://www.techinterviewhandbook.org/resume/", platform: "Tech Interview Handbook" },
+          "portfolio-proof-of-work": { title: "Tech Interview Handbook — Software Engineering Interview Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", platform: "Tech Interview Handbook" },
+          "job-portals-networking": { title: "Tech Interview Handbook — Software Engineering Interview Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", platform: "Tech Interview Handbook" },
+          "salary-negotiation": { title: "Tech Interview Handbook — Negotiation Guide", url: "https://www.techinterviewhandbook.org/negotiation/", platform: "Tech Interview Handbook" },
+          "offer-evaluation": { title: "Tech Interview Handbook — Choosing Between Companies", url: "https://www.techinterviewhandbook.org/choosing-between-companies/", platform: "Tech Interview Handbook" },
+          "core-concepts-revision": { title: "Tech Interview Handbook — Coding Interview Study Plan", url: "https://www.techinterviewhandbook.org/coding-interview-study-plan/", platform: "Tech Interview Handbook" },
+          "mock-tests-practice": { title: "Tech Interview Handbook — Coding Interview Cheatsheet", url: "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/", platform: "Tech Interview Handbook" },
+          "common-interview-questions": { title: "Tech Interview Handbook — Behavioral Interview Questions", url: "https://www.techinterviewhandbook.org/behavioral-interview-questions/", platform: "Tech Interview Handbook" },
+          "speed-accuracy": { title: "Tech Interview Handbook — Coding Interview Cheatsheet", url: "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/", platform: "Tech Interview Handbook" },
+          "case-studies-aptitude": { title: "Brilliant.org — Interactive Problem Solving", url: "https://brilliant.org/", platform: "Brilliant.org" },
+          // "Domain deep dives" is handled explicitly below — its correct
+          // practice depends on the roadmap's domain.
+          "portfolio-walkthrough": { title: "Tech Interview Handbook — Software Engineering Interview Guide", url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/", platform: "Tech Interview Handbook" },
+        };
+        // "Domain deep dives" for an aircraft engineer means engineering
+        // coursework, not general aptitude puzzles — pick per-domain.
+        const isEngCtx = /engineer|mechan|civil|electri|chemical|agri|aero|biomed|material|industr|mining|fpga|plc|embedded/.test(ctx);
+        // Consulting/sales-engineering roadmaps interview like any other role.
+        let fallbackP;
+        if (topicSlug === "domain-deep-dives") {
+          fallbackP = isEngCtx
+            ? { title: "MIT OpenCourseWare — Departmental Courses", url: "https://ocw.mit.edu/courses/", platform: "MIT OCW" }
+            : { title: "NPTEL — Domain Coursework & Certifications", url: "https://nptel.ac.in/", platform: "NPTEL" };
+        } else {
+        fallbackP = INTERVIEW_FALLBACKS[topicSlug] || (/consult|solution|sales|technical-support/.test(slug)
+          ? { title: "Tech Interview Handbook — Behavioral Interviews", url: "https://www.techinterviewhandbook.org/behavioral-interview/", platform: "Tech Interview Handbook" }
+          : isTechInterview
+          ? { title: "LeetCode — Interview Preparation", url: "https://leetcode.com/explore/interview/", platform: "LeetCode" }
+          : { title: "Brilliant.org — Interactive Problem Solving", url: "https://brilliant.org/", platform: "Brilliant.org" });
+        }
+        // Per-domain override for topics whose right practice depends on the
+        // roadmap's domain ("Domain deep dives" for an aircraft engineer means
+        // engineering coursework, not general aptitude puzzles).
+        if (fallbackP === INTERVIEW_FALLBACKS["domain-deep-dives"] || (topicSlug === "domain-deep-dives" && !fallbackP)) {
+          fallbackP = isEng
+            ? { title: "MIT OpenCourseWare — Departmental Courses", url: "https://ocw.mit.edu/courses/", platform: "MIT OCW" }
+            : { title: "NPTEL — Domain Coursework & Certifications", url: "https://nptel.ac.in/", platform: "NPTEL" };
+        }
+        
+        allPractice.push({
+          id: genId("prac"),
+          nodeId: `${kind}.${slug}.${topicSlug}`,
+          kind,
+          parentSlug: slug,
+          sectionTitle: sectionTitle,
+          topicTitle: topic,
+          title: fallbackP.title,
+          url: fallbackP.url,
+          platform: fallbackP.platform,
+          difficulty: "Intermediate",
+          estimatedTime: "30-60 min",
+          domain: fallbackP.domain || domain || "",
+          qualityScore: 4,
+          verified: true,
+          verifiedAt: "2026-08-24",
+          scope: "discovery",
+          parentNodeId: null,
+          note: "Curated discovery fallback"
+        });
+      }
+    }
+  }
+
+  // ── Specializations & Interview-group nodes ─────────────────────────
+  // generate-v2's careerReadyNode() renders the career's `specializations` as
+  // real learning nodes (type `advanced`) and interviewSection() renders the
+  // interview groups ("Core Revision", "Technical Interview"/"Interview
+  // Skills", "Job Hunting") as `subsection` nodes. This builder only ever
+  // walked `sections`, so none of those nodes had a record of their own and
+  // every one of them fell back to the roadmap root — a provider homepage —
+  // and failed the directness check (180 root-level + 104 interview nodes).
+  if (kind === "career") {
+    const isTechCareer = item.category === "it";
+    const groupLabels = [
+      "Core Revision",
+      isTechCareer ? "Technical Interview" : "Interview Skills",
+      "Job Hunting",
+    ];
+    for (const g of groupLabels) {
+      const groupSlug = slugify(g);
+      const gRes = findBestResource(groupSlug, slugify("Interview Preparation"), skillSlug, domain, g, "");
+      for (const r of gRes.resources) {
+        allResources.push({
+          id: genId("res"),
+          nodeId: `${kind}.${slug}.${groupSlug}`,
+          kind,
+          parentSlug: slug,
+          sectionTitle: "Interview Preparation",
+          topicTitle: g,
+          title: r.title,
+          url: r.url,
+          resourceType: r.type || "article",
+          qualityScore: r.qualityScore || 3,
+          verified: r.verified !== false,
+          verifiedAt: "2026-08-24",
+          scope: gRes.scope,
+          parentNodeId: gRes.parentId || null,
+        });
+      }
+    }
+
+    // The tail subtree itself ("Specializations & Next Steps") plus each
+    // specialization node. Specialization entries are curated in the concept
+    // library by their exact label, so the lookup is direct rather than a
+    // keyword guess.
+    for (const spec of ["Specializations & Next Steps", ...(item.specializations || [])]) {
+      const specSlug = slugify(spec);
+      const specRes = findBestResource(specSlug, slugify("Specializations & Next Steps"), skillSlug, domain, spec, "");
+      for (const r of specRes.resources) {
+        allResources.push({
+          id: genId("res"),
+          nodeId: `${kind}.${slug}.${specSlug}`,
+          kind,
+          parentSlug: slug,
+          sectionTitle: "Specializations & Next Steps",
+          topicTitle: spec,
+          title: r.title,
+          url: r.url,
+          resourceType: r.type || "article",
+          qualityScore: r.qualityScore || 3,
+          verified: r.verified !== false,
+          verifiedAt: "2026-08-24",
+          scope: specRes.scope,
+          parentNodeId: specRes.parentId || null,
+        });
+      }
+    }
+  }
+
   // ── Certifications ──────────────────────────────────────────────────
+
   const certSlugs = CAREER_CERTIFICATIONS[slug] || [];
   for (const certSlug of certSlugs) {
     const cert = certProviders.certifications.find(c => c.id === certSlug);
@@ -3595,6 +4437,95 @@ for (const rec of uniquePractice) {
   if (rec.scope !== "discovery" && rec.scope !== "none" && isHomepageUrl(rec.url)) {
     rec.scope = "discovery";
   }
+}
+
+// ── Curated long-tail overrides ──────────────────────────────────────────
+// Nodes whose own bucket resolved to a landing/generic page (the residual
+// long tail the generic tiers could not cover) are pinned to hand-curated,
+// HTTP-verified DIRECT resources. The map is keyed exactly the way the client
+// resolver indexes buckets — `${parentSlug}::${normalizeLabel(topicTitle)}` —
+// so the curated set becomes the node's OWN bucket and the generic
+// parent/skill/discovery fallback can no longer win. Buckets that already
+// carry a direct page are left untouched, so this pass can only add coverage.
+const LONGTAIL_OVERRIDES = (() => {
+  try {
+    return JSON.parse(readFileSync(join(__dirname, "longtail-overrides.json"), "utf8")).overrides || {};
+  } catch {
+    return {};
+  }
+})();
+
+const normTopicLabel = (s) =>
+  String(s ?? "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+// Landing/listing paths that are discovery starting points, not topic pages.
+const LANDING_PATH =
+  /^\/(problemset|playgrounds|code|tracks|courses|domains|explore|learn|paths|challenges|library|catalog|browse|tutorials|questions|dashboard|training|university)?\/?$/i;
+
+function isDirectPage(url) {
+  try {
+    const u = new URL(url);
+    const p = u.pathname.replace(/\/+$/, "");
+    if (p === "") return false;
+    if (LANDING_PATH.test(p)) return false;
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function applyLongtailOverrides(records) {
+  const keys = Object.keys(LONGTAIL_OVERRIDES);
+  if (keys.length === 0) return 0;
+  const okBuckets = new Set();
+  for (const r of records) {
+    if (!isDirectPage(r.url)) continue;
+    okBuckets.add(`${r.parentSlug}::${normTopicLabel(r.topicTitle)}`);
+  }
+  const overrideKeys = new Set(keys);
+  const kept = records.filter((r) => {
+    const k = `${r.parentSlug}::${normTopicLabel(r.topicTitle)}`;
+    if (!overrideKeys.has(k)) return true;
+    // Bucket already shows a direct page — keep the existing mapping intact.
+    return okBuckets.has(k);
+  });
+  let added = 0;
+  for (const key of keys) {
+    if (okBuckets.has(key)) continue;
+    const ov = LONGTAIL_OVERRIDES[key];
+    for (const e of ov.entries) {
+      kept.push({
+        id: genId("res"),
+        nodeId: `${ov.kind}.${ov.roadmap}.${ov.nodeKey}`,
+        kind: ov.kind,
+        parentSlug: ov.roadmap,
+        sectionTitle: ov.section,
+        topicTitle: ov.label,
+        title: e.title,
+        url: e.url,
+        resourceType: e.type,
+        qualityScore: e.qualityScore,
+        verified: true,
+        verifiedAt: "2026-09-23",
+        // Curated entries are exact by default; a labelled fallback is used
+        // where the canonical page for a project/portfolio node names the
+        // technology rather than the project itself.
+        scope: e.scope || "exact",
+        parentNodeId: null,
+        note: "Curated long-tail direct resource (HTTP-verified)",
+      });
+      added++;
+    }
+  }
+  // Mutate the caller's array in place (it is a const-bound module-level list).
+  records.length = 0;
+  records.push(...kept);
+  return added;
+}
+
+const longtailAdded = applyLongtailOverrides(uniqueResources);
+if (longtailAdded > 0) {
+  console.log(`  Long-tail overrides: ${Object.keys(LONGTAIL_OVERRIDES).length} nodes · ${longtailAdded} curated records pinned as exact`);
 }
 
 // 1. resources.json

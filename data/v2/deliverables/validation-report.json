@@ -5,31 +5,31 @@
     "totalCareers": 155,
     "totalSkills": 106,
     "totalRoadmaps": 261,
-    "totalResources": 12926,
-    "totalPractice": 13047,
+    "totalResources": 16814,
+    "totalPractice": 19303,
     "totalCertifications": 63,
-    "totalSources": 210
+    "totalSources": 374
   },
   "resourceCoverage": {
-    "uniqueNodesWithResources": 7120,
-    "uniqueNodesWithExactResource": 299,
-    "uniqueNodesWithParentFallback": 3041,
-    "uniqueNodesWithPractice": 10144,
-    "uniqueNodesWithExactPractice": 154,
-    "uniqueNodesWithParentPractice": 2308
+    "uniqueNodesWithResources": 11145,
+    "uniqueNodesWithExactResource": 3102,
+    "uniqueNodesWithParentFallback": 5724,
+    "uniqueNodesWithPractice": 15260,
+    "uniqueNodesWithExactPractice": 205,
+    "uniqueNodesWithParentPractice": 2777
   },
   "qualityMetrics": {
-    "averageResourceQuality": "4.27",
-    "verifiedResources": 12926,
+    "averageResourceQuality": "4.42",
+    "verifiedResources": 16814,
     "unverifiedResources": 0,
     "domainsCovered": 2
   },
   "resolutionLog": {
-    "exact": 317,
-    "parentFallback": 1703,
-    "skillFallback": 1427,
-    "discovery": 1924,
-    "empty": 2639
+    "exact": 919,
+    "parentFallback": 4119,
+    "skillFallback": 1774,
+    "discovery": 61,
+    "empty": 5106
   },
   "acceptanceCriteria": {
     "every_topic_has_resource": true,

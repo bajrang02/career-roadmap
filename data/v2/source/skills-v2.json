@@ -215,6 +215,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "CLI expense tracker with JSON persistence",
+        "Web scraper with pagination and CSV export",
+        "Data-cleaning pipeline with pandas"
       ]
     },
     {
@@ -389,6 +394,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Vanilla-JS quiz app with localStorage",
+        "Async weather dashboard with fetch",
+        "Custom event-bus library with tests"
       ]
     },
     {
@@ -486,6 +496,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Strongly-typed API client with generics",
+        "Type-safe form validator library",
+        "CLI tool with strict-mode codebase"
       ]
     },
     {
@@ -686,6 +701,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Multi-step form with controlled components",
+        "Pagination dashboard with React Query",
+        "Themeable component library with Storybook"
       ]
     },
     {
@@ -781,6 +801,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "SSR blog with ISR and MDX",
+        "Full-stack app with server actions",
+        "SEO-optimized marketing site with metadata API"
       ]
     },
     {
@@ -892,6 +917,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "E-commerce schema with joins and indexes",
+        "Window-function analytics report suite",
+        "Query optimization exercise on slow queries"
       ]
     },
     {
@@ -1028,6 +1058,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Containerize a full-stack app with Compose",
+        "Optimized multi-stage Dockerfile build",
+        "Private registry with CI image pipeline"
       ]
     },
     {
@@ -1182,6 +1217,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Deploy a microservice stack with Helm",
+        "Autoscaling rollout with probes and HPA",
+        "Stateful app with PVCs and StatefulSets"
       ]
     },
     {
@@ -1334,6 +1374,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Serverless API with Lambda and API Gateway",
+        "Static site with S3 and CloudFront",
+        "VPC with public/private subnets and bastion"
       ]
     },
     {
@@ -1369,7 +1414,7 @@
       "rootResources": [
         {
           "title": "The Linux Documentation Project",
-          "url": "https://tldp.org/",
+          "url": "https://tldp.org/guides.html",
           "kind": "docs"
         },
         {
@@ -1447,6 +1492,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Hardened server setup with users and sudo policy",
+        "Bash automation toolkit for log rotation",
+        "Self-hosted service stack with systemd units"
       ]
     },
     {
@@ -1529,6 +1579,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Team-style feature-branch workflow exercise",
+        "Interactive rebase history cleanup",
+        "Custom hooks for lint and commit checks"
       ]
     },
     {
@@ -1569,7 +1624,7 @@
         },
         {
           "title": "SolidWorks Tutorials",
-          "url": "https://www.solidworks.com/support/self-paced-training",
+          "url": "https://www.solidworks.com/support/training",
           "kind": "course"
         }
       ],
@@ -1686,6 +1741,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Parametric part library with configurations",
+        "Full assembly with exploded BOM drawing",
+        "Sheet-metal enclosure with flat pattern"
       ]
     },
     {
@@ -1823,6 +1883,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Signal filtering and FFT analysis script",
+        "Control-system simulation with Simulink",
+        "Numerical method comparison study"
       ]
     },
     {
@@ -2095,6 +2160,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Console task manager with coroutines",
+        "REST client with serialization",
+        "Multiplatform library with expect/actual"
       ]
     },
     {
@@ -2382,6 +2452,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "iOS note app with SwiftUI and persistence",
+        "Async image loader with caching",
+        "Unit-tested model layer with protocols"
       ]
     },
     {
@@ -2621,6 +2696,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Cross-platform habit tracker with state management",
+        "REST-backed news app with routing",
+        "Custom animated onboarding flow"
       ]
     },
     {
@@ -2907,6 +2987,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Normalized analytics schema with views",
+        "Index-tuning exercise on slow plans",
+        "Stored procedures for data ingestion"
       ]
     },
     {
@@ -3139,6 +3224,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Catalog service with aggregation pipelines",
+        "Schema design for a social feed",
+        "Change-streams listener for live updates"
       ]
     },
     {
@@ -3349,6 +3439,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Cache-aside layer for an API",
+        "Rate limiter with sliding windows",
+        "Leaderboard with sorted sets"
       ]
     },
     {
@@ -3612,6 +3707,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Dynamic data-structure library with tests",
+        "File parser with manual memory management",
+        "Multi-threaded producer-consumer demo"
       ]
     },
     {
@@ -3786,6 +3886,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "STL-style container with iterators",
+        "Ray tracer with modern C++ design",
+        "Game loop with ECS architecture"
       ]
     },
     {
@@ -3947,6 +4052,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Spring Boot CRUD service with tests",
+        "Stream-based data processing app",
+        "Multithreaded file indexer"
       ]
     },
     {
@@ -4121,6 +4231,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "ASP.NET Core Web API with EF Core",
+        "Desktop app with WPF and MVVM",
+        "Background worker service with DI"
       ]
     },
     {
@@ -4231,6 +4346,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Concurrent web crawler with worker pools",
+        "REST API with chi and middleware",
+        "CLI with Cobra and tests"
       ]
     },
     {
@@ -4352,6 +4472,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "CLI grep clone with Result-based errors",
+        "Ownership-safe linked-list implementation",
+        "Tokio-based HTTP service"
       ]
     },
     {
@@ -4478,6 +4603,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "MVC blog with routing and templates",
+        "REST API with PDO and auth",
+        "Composer package with PSR-4 structure"
       ]
     },
     {
@@ -4594,6 +4724,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Console CLI with packages and tests",
+        "JSON model codegen with build_runner",
+        "Async data pipeline with streams"
       ]
     },
     {
@@ -4718,6 +4853,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Exploratory analysis report with ggplot2",
+        "Statistical model comparison study",
+        "Shiny dashboard for a dataset"
       ]
     },
     {
@@ -4836,6 +4976,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Semantic, accessible landing page",
+        "Forms with validation and ARIA",
+        "Responsive email template"
       ]
     },
     {
@@ -4969,6 +5114,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Responsive card grid with container queries",
+        "Design-token driven theme system",
+        "CSS-only interactive components"
       ]
     },
     {
@@ -5093,6 +5243,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "CRUD app with services and RxJS",
+        "Reactive forms with dynamic validation",
+        "Module-based dashboard with lazy loading"
       ]
     },
     {
@@ -5205,6 +5360,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Composition-API SPA with Pinia",
+        "Reusable component library with Vite",
+        "Real-time dashboard with WebSockets"
       ]
     },
     {
@@ -5320,6 +5480,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "REST API with middleware and auth",
+        "Rate-limited public API with docs",
+        "File-upload service with validation"
       ]
     },
     {
@@ -5435,6 +5600,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Blog with admin and ORM models",
+        "DRF-backed API with permissions",
+        "Multi-tenant app with custom middleware"
       ]
     },
     {
@@ -5540,6 +5710,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Microservice with blueprints",
+        "Jinja-rendered site with WTForms",
+        "REST API with JWT auth"
       ]
     },
     {
@@ -5654,6 +5829,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Async API with Pydantic validation",
+        "Background tasks with Celery integration",
+        "Auto-documented CRUD service"
       ]
     },
     {
@@ -5761,6 +5941,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Layered REST service with JPA",
+        "Secure API with Spring Security",
+        "Event-driven service with Kafka"
       ]
     },
     {
@@ -5884,6 +6069,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Normalized inventory schema with FKs",
+        "Replication and backup runbook demo",
+        "Performance-tuned reporting queries"
       ]
     },
     {
@@ -6006,6 +6196,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "ERD and schema for an e-commerce domain",
+        "Normalization case study 1NF→3NF",
+        "Data-warehouse star schema design"
       ]
     },
     {
@@ -6126,6 +6321,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Backup-and-restore drill with PITR",
+        "User roles and privilege audit",
+        "Slow-query log tuning exercise"
       ]
     },
     {
@@ -6270,6 +6470,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Multi-environment VPC with modules",
+        "Remote state with locking and workspaces",
+        "Drift detection and import exercise"
       ]
     },
     {
@@ -6385,6 +6590,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "GitHub Actions pipeline with tests and deploy",
+        "Blue-green deployment automation",
+        "Pipeline caching and artifact strategy"
       ]
     },
     {
@@ -6544,6 +6754,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "App Service deployment with Bicep",
+        "Functions-based serverless workflow",
+        "Hub-spoke network topology"
       ]
     },
     {
@@ -6703,6 +6918,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Cloud Run service with Cloud Build",
+        "BigQuery analytics pipeline",
+        "IAM least-privilege design"
       ]
     },
     {
@@ -6832,6 +7052,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "SLO dashboard with error budgets",
+        "Incident runbook and postmortem set",
+        "Chaos experiment on a staging service"
       ]
     },
     {
@@ -6950,6 +7175,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Ansible playbook for server provisioning",
+        "Packer golden-image pipeline",
+        "Self-service infra with templates"
       ]
     },
     {
@@ -7096,6 +7326,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Custom hash map and heap implementations",
+        "Graph algorithms problem set with tests",
+        "Complexity-optimized solution journal"
       ]
     },
     {
@@ -7223,6 +7458,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Unit test suite with mocks and fixtures",
+        "E2E suite with Playwright",
+        "Property-based testing for a parser"
       ]
     },
     {
@@ -7360,6 +7600,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Versioned REST API with OpenAPI spec",
+        "GraphQL gateway over REST services",
+        "Webhook system with retries and signatures"
       ]
     },
     {
@@ -7485,6 +7730,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "URL shortener design with capacity math",
+        "Chat service with consistency trade-offs",
+        "Design doc for a rate limiter"
       ]
     },
     {
@@ -7604,6 +7854,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Leader-election service with leases",
+        "Idempotent worker queue",
+        "Event-sourced service with snapshots"
       ]
     },
     {
@@ -7725,6 +7980,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Threat model for a web app",
+        "Fixed vulnerability report with diffs",
+        "Secure code-review checklist applied"
       ]
     },
     {
@@ -7829,6 +8089,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Custom ESLint plugin with rules",
+        "Bundle-size analyzer report",
+        "Project scaffolding CLI"
       ]
     },
     {
@@ -7993,6 +8258,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "End-to-end classifier with scikit-learn",
+        "Feature-engineering competition notebook",
+        "Model evaluation report with metrics"
       ]
     },
     {
@@ -8151,6 +8421,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "CNN image classifier with PyTorch",
+        "Transfer-learning fine-tune study",
+        "Training loop with experiment tracking"
       ]
     },
     {
@@ -8306,6 +8581,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Text classifier with TF-IDF baselines",
+        "Transformer fine-tuning for sentiment",
+        "NER pipeline with evaluation"
       ]
     },
     {
@@ -8425,6 +8705,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Object detection on a custom dataset",
+        "Image segmentation with U-Net",
+        "Real-time webcam inference demo"
       ]
     },
     {
@@ -8569,6 +8854,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Prompt-engineered content pipeline",
+        "Fine-tuned small model eval report",
+        "RAG demo with citation grounding"
       ]
     },
     {
@@ -8687,6 +8977,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "RAG service with vector store",
+        "Structured-output extraction chain",
+        "LLM evaluation harness with golden sets"
       ]
     },
     {
@@ -8804,6 +9099,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Tool-calling agent with function schemas",
+        "Multi-step planning agent with memory",
+        "Agent eval suite with task success rates"
       ]
     },
     {
@@ -8926,6 +9226,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Model registry with versioned artifacts",
+        "CI/CD for retraining pipelines",
+        "Drift monitoring with alerting"
       ]
     },
     {
@@ -9047,6 +9352,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Airflow DAG for daily ingestion",
+        "Lakehouse pipeline with dbt models",
+        "Streaming pipeline with Kafka and Flink"
       ]
     },
     {
@@ -9169,6 +9479,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Full EDA-to-insight report",
+        "A/B test analysis with power analysis",
+        "Reproducible notebook with environment pinning"
       ]
     },
     {
@@ -9326,6 +9641,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Home lab with attack/defense exercises",
+        "Vulnerability scan and triage report",
+        "Security awareness training module"
       ]
     },
     {
@@ -9484,6 +9804,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Firewall rule design with test matrix",
+        "IDS alert investigation report",
+        "VPN setup with split tunneling"
       ]
     },
     {
@@ -9642,6 +9967,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "OWASP Top 10 audit of a demo app",
+        "Fixed XSS and CSRF findings with tests",
+        "Security headers hardening guide"
       ]
     },
     {
@@ -9816,6 +10146,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Scoped pentest report on a lab VM",
+        "Privilege-escalation walkthrough writeup",
+        "Custom exploit reproducing a CVE safely"
       ]
     },
     {
@@ -9936,6 +10271,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Disk image acquisition and timeline",
+        "Memory capture analysis report",
+        "Evidence-chain-of-custody exercise"
       ]
     },
     {
@@ -10095,6 +10435,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "SIEM detection rules for a lab",
+        "Incident triage playbook",
+        "Threat-hunt hypothesis report"
       ]
     },
     {
@@ -10216,6 +10561,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "SSO with SAML and OIDC",
+        "Role-based access control design",
+        "Just-in-time access workflow"
       ]
     },
     {
@@ -10337,6 +10687,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "CSPM misconfiguration audit and fixes",
+        "Least-privilege IAM policy set",
+        "Encryption-at-rest design review"
       ]
     },
     {
@@ -10464,6 +10819,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Packet-capture analysis report",
+        "Subnetted office network design",
+        "Custom protocol with sockets"
       ]
     },
     {
@@ -10583,6 +10943,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Simple shell with job control",
+        "Custom syscall and kernel module",
+        "Page-replacement simulator"
       ]
     },
     {
@@ -10738,6 +11103,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Bare-metal LED and timer firmware",
+        "I2C sensor driver with HAL",
+        "FreeRTOS task-based application"
       ]
     },
     {
@@ -10885,6 +11255,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Two-layer breakout board in KiCad",
+        "Mixed-signal layout with ground planes",
+        "Board bring-up and test report"
       ]
     },
     {
@@ -11031,6 +11406,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "RTL design and testbench for a FIFO",
+        "Synthesis timing-closure report",
+        "Floorplan exercise with DRC clean output"
       ]
     },
     {
@@ -11178,6 +11558,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Line-following robot with PID",
+        "ROS2 navigation stack demo",
+        "Kinematics solver for a robot arm"
       ]
     },
     {
@@ -11295,6 +11680,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Ladder-logic motor control circuit",
+        "PLC traffic-light sequencing lab",
+        "HMI panel integrated with a PLC"
       ]
     },
     {
@@ -11453,6 +11843,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "PID-tuned temperature controller sim",
+        "Root-locus stability study",
+        "State-space controller design"
       ]
     },
     {
@@ -11599,6 +11994,11 @@
           ],
           "subtopics": {}
         }
+      ],
+      "portfolioProjects": [
+        "Blinking LED with clock dividers in Verilog",
+        "UART transmitter and receiver IP",
+        "Simulation-vs-hardware debug report"
       ]
     },
     {
@@ -13028,6 +13428,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Prometheus + Grafana stack for a service",
+        "Structured logging with trace correlation",
+        "Alert rules with on-call runbook"
       ]
     },
     {
@@ -14263,6 +14668,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Argo CD-managed staging environment",
+        "Declarative drift remediation workflow",
+        "Multi-cluster rollout strategy"
       ]
     },
     {
@@ -14295,7 +14705,7 @@
       "rootResources": [
         {
           "title": "Ansible Documentation",
-          "url": "https://docs.ansible.com/",
+          "url": "https://docs.ansible.com/ansible/latest/playbook_guide/index.html",
           "provider": "Ansible",
           "type": "Official Documentation",
           "kind": "docs"
@@ -15398,6 +15808,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Idempotent Ansible role library",
+        "Config drift detection with tests",
+        "Secret management with Vault"
       ]
     },
     {
@@ -16463,6 +16878,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Multi-service deployment with manifests",
+        "Rolling update with canary analysis",
+        "Cluster resource-quota governance"
       ]
     },
     {
@@ -16503,7 +16923,7 @@
         },
         {
           "title": "Kotlin Official",
-          "url": "https://kotlinlang.org/",
+          "url": "https://kotlinlang.org/docs/getting-started.html",
           "provider": "JetBrains",
           "type": "Official Documentation",
           "kind": "docs"
@@ -18017,6 +18437,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Android notes app with Room",
+        "Retrofit + Coroutines weather app",
+        "Compose UI with state hoisting"
       ]
     },
     {
@@ -19183,6 +19608,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "iOS list app with SwiftData",
+        "Networking layer with async/await",
+        "SwiftUI animation showcase"
       ]
     },
     {
@@ -19214,7 +19644,7 @@
       "rootResources": [
         {
           "title": "React Native Docs",
-          "url": "https://reactnative.dev/",
+          "url": "https://reactnative.dev/docs/getting-started",
           "provider": "Meta",
           "type": "Official Documentation",
           "kind": "docs"
@@ -20146,6 +20576,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Cross-platform todo app with Expo",
+        "Push-notification enabled app",
+        "Offline-first sync prototype"
       ]
     },
     {
@@ -20179,7 +20614,7 @@
       "rootResources": [
         {
           "title": "Appium Docs",
-          "url": "https://appium.io/docs/",
+          "url": "https://appium.io/docs/en/latest/",
           "provider": "Appium",
           "type": "Official Documentation",
           "kind": "docs"
@@ -20957,6 +21392,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Appium test suite for a demo app",
+        "Screenshot-diff visual regression setup",
+        "Device-farm compatibility matrix run"
       ]
     },
     {
@@ -21727,6 +22167,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Multi-VPC peering topology",
+        "Load-balancer failover design",
+        "Hybrid DNS resolution setup"
       ]
     },
     {
@@ -21761,7 +22206,7 @@
       "rootResources": [
         {
           "title": "CWNP",
-          "url": "https://www.cwnp.com/",
+          "url": "https://www.cwnp.com/certifications/",
           "provider": "CWNP",
           "type": "Reference",
           "kind": "reference"
@@ -22545,6 +22990,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Wi-Fi site survey with heatmap",
+        "RF interference analysis report",
+        "Mesh network capacity plan"
       ]
     },
     {
@@ -23320,6 +23770,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "MQTT sensor network with broker",
+        "CoAP constrained-device demo",
+        "Edge-to-cloud telemetry pipeline"
       ]
     },
     {
@@ -23352,7 +23807,7 @@
       "rootResources": [
         {
           "title": "CS:APP",
-          "url": "https://csapp.cs.cmu.edu/",
+          "url": "https://csapp.cs.cmu.edu/3e/home.html",
           "provider": "CMU",
           "type": "Reference",
           "kind": "reference"
@@ -24404,6 +24859,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Single-cycle CPU simulator",
+        "Cache hierarchy benchmark study",
+        "Pipelined datapath design exercise"
       ]
     },
     {
@@ -25221,6 +25681,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "KVM host with scripted VM provisioning",
+        "Nested-virtualization lab",
+        "Snapshot-and-restore DR exercise"
       ]
     },
     {
@@ -26159,6 +26624,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Flame-graph driven optimization case",
+        "Load-test with latency SLO report",
+        "Memory-leak triage writeup"
       ]
     },
     {
@@ -26191,9 +26661,9 @@
       ],
       "rootResources": [
         {
-          "title": "Embedded Linux Wiki",
-          "url": "https://elinux.org/",
-          "provider": "eLinux",
+          "title": "Embedded Linux training — Bootlin",
+          "url": "https://bootlin.com/training/embedded-linux/",
+          "provider": "Bootlin",
           "type": "Community",
           "kind": "community"
         }
@@ -27096,6 +27566,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Custom Yocto image for a board",
+        "Device-tree modification exercise",
+        "Buildroot system with init scripts"
       ]
     },
     {
@@ -27130,7 +27605,7 @@
       "rootResources": [
         {
           "title": "Cisco Networking Academy",
-          "url": "https://www.netacad.com/",
+          "url": "https://www.netacad.com/courses/networking",
           "provider": "Cisco",
           "type": "Course",
           "kind": "course"
@@ -27452,6 +27927,11 @@
             }
           ]
         }
+      ],
+      "portfolioProjects": [
+        "Office LAN with VLANs and DHCP",
+        "Monitoring stack for network devices",
+        "Backup and restore of router configs"
       ]
     },
     {
@@ -27473,7 +27953,222 @@
         "RubyMine",
         "PostgreSQL"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Ruby Language Essentials",
+          "topics": [
+            "Ruby Syntax & Variables",
+            "Collections: Arrays & Hashes",
+            "Blocks, Procs & Lambdas",
+            "Classes, Modules & Mixins",
+            "Error Handling & Exceptions",
+            "Functional Ruby: map/reduce"
+          ],
+          "subtopics": {
+            "Ruby Syntax & Variables": [
+              "Naming & style conventions",
+              "String interpolation",
+              "Symbols vs strings",
+              "Truthiness & nil"
+            ],
+            "Collections: Arrays & Hashes": [
+              "Enumerable methods",
+              "Hash default values",
+              "Sets"
+            ],
+            "Blocks, Procs & Lambdas": [
+              "Yield & block arguments",
+              "Proc vs lambda semantics",
+              "Closures"
+            ],
+            "Classes, Modules & Mixins": [
+              "Inheritance & super",
+              "attr_accessor",
+              "Modules as namespaces",
+              "Comparable & Enumerable mixins"
+            ],
+            "Error Handling & Exceptions": [
+              "begin/rescue/ensure",
+              "Custom exceptions",
+              "retry strategies"
+            ],
+            "Functional Ruby: map/reduce": [
+              "Chaining enumerables",
+              "Lazy enumerators"
+            ]
+          }
+        },
+        {
+          "title": "Rails Fundamentals",
+          "topics": [
+            "MVC Architecture",
+            "Rails Project Anatomy",
+            "Routing & RESTful Resources",
+            "Controllers & Strong Parameters",
+            "Views, Layouts & Partials",
+            "Rails Console & Generators"
+          ],
+          "subtopics": {
+            "MVC Architecture": [
+              "Request lifecycle",
+              "Fat model vs fat controller",
+              "Separation of concerns"
+            ],
+            "Rails Project Anatomy": [
+              "Convention over configuration",
+              "Gemfile & bundler",
+              "Environments & secrets"
+            ],
+            "Routing & RESTful Resources": [
+              "resources & nested routes",
+              "Named route helpers",
+              "Route constraints"
+            ],
+            "Controllers & Strong Parameters": [
+              "Filters & callbacks",
+              "Permitted params",
+              "Flash messages"
+            ],
+            "Views, Layouts & Partials": [
+              "ERB templates",
+              "View helpers",
+              "Content for & layouts"
+            ],
+            "Rails Console & Generators": [
+              "Sandbox console",
+              "Scaffold & model generators",
+              "Rake tasks"
+            ]
+          }
+        },
+        {
+          "title": "Data & ActiveRecord",
+          "topics": [
+            "Migrations & Schema Design",
+            "ActiveRecord Models",
+            "Associations",
+            "Query Interface & Scopes",
+            "Validations & Callbacks",
+            "N+1 & Query Optimization"
+          ],
+          "subtopics": {
+            "Migrations & Schema Design": [
+              "create/change_table",
+              "Indexes & foreign keys",
+              "Rollback strategies"
+            ],
+            "ActiveRecord Models": [
+              "CRUD operations",
+              "Attribute API",
+              "Enum columns"
+            ],
+            "Associations": [
+              "has_many / belongs_to",
+              "has_many :through",
+              "Polymorphic associations"
+            ],
+            "Query Interface & Scopes": [
+              "where/order/limit",
+              "Reusable scopes",
+              "Raw SQL escape hatches"
+            ],
+            "Validations & Callbacks": [
+              "Built-in validators",
+              "Contextual validations",
+              "Callback pitfalls"
+            ],
+            "N+1 & Query Optimization": [
+              "includes & eager loading",
+              "bullet gem",
+              "Database indexes"
+            ]
+          }
+        },
+        {
+          "title": "Full-Stack Rails",
+          "topics": [
+            "Hotwire: Turbo & Stimulus",
+            "Authentication (has_secure_password & Devise)",
+            "Authorization with Pundit",
+            "Background Jobs with Sidekiq",
+            "Action Mailer",
+            "API Mode & Jbuilder"
+          ],
+          "subtopics": {
+            "Hotwire: Turbo & Stimulus": [
+              "Turbo Frames & Streams",
+              "Stimulus controllers",
+              "SPA-like UX without a JS framework"
+            ],
+            "Authentication (has_secure_password & Devise)": [
+              "Session management",
+              "Password reset flows",
+              "OmniAuth"
+            ],
+            "Authorization with Pundit": [
+              "Policies & policy scopes",
+              "Permit checks"
+            ],
+            "Background Jobs with Sidekiq": [
+              "ActiveJob adapters",
+              "Job retries & scheduling",
+              "Sidekiq monitoring"
+            ],
+            "Action Mailer": [
+              "Mailer previews",
+              "Delivery methods"
+            ],
+            "API Mode & Jbuilder": [
+              "JSON responses",
+              "Versioned APIs",
+              "Serializers"
+            ]
+          }
+        },
+        {
+          "title": "Testing & Shipping",
+          "topics": [
+            "Minitest & RSpec",
+            "Fixtures & Factories",
+            "Request & System Tests",
+            "Caching Strategies",
+            "Deployment & Scaling",
+            "Performance Profiling"
+          ],
+          "subtopics": {
+            "Minitest & RSpec": [
+              "Model & controller specs",
+              "Mocks & stubs"
+            ],
+            "Fixtures & Factories": [
+              "FactoryBot traits",
+              "Sequences"
+            ],
+            "Request & System Tests": [
+              "Capybara basics",
+              "JS-driven tests"
+            ],
+            "Caching Strategies": [
+              "Fragment caching",
+              "Memcached/Redis"
+            ],
+            "Deployment & Scaling": [
+              "Kamal or container deploys",
+              "Zero-downtime restarts",
+              "Log & error monitoring"
+            ],
+            "Performance Profiling": [
+              "rack-mini-profiler",
+              "Slow query analysis"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Rails blog with CRUD and auth",
+        "API-only app with token auth",
+        "Background jobs with Sidekiq"
+      ]
     },
     {
       "slug": "laravel",
@@ -27494,7 +28189,173 @@
         "PHPStorm",
         "MySQL"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "PHP for Laravel",
+          "topics": [
+            "Modern PHP Basics",
+            "Composer & Autoloading",
+            "Namespaces & Classes",
+            "Interfaces & Traits",
+            "PHP 8+ Features"
+          ],
+          "subtopics": {
+            "Modern PHP Basics": [
+              "Typed properties",
+              "Arrow functions",
+              "Null coalescing"
+            ],
+            "Composer & Autoloading": [
+              "PSR-4",
+              "require vs require-dev",
+              "Scripts"
+            ],
+            "Namespaces & Classes": [
+              "Autoload discipline",
+              "Abstract classes"
+            ],
+            "Interfaces & Traits": [
+              "Contracts",
+              "Trait composition"
+            ],
+            "PHP 8+ Features": [
+              "Enums",
+              "Readonly properties",
+              "Named arguments",
+              "Match expressions"
+            ]
+          }
+        },
+        {
+          "title": "Laravel Fundamentals",
+          "topics": [
+            "Project Structure & Request Lifecycle",
+            "Routing & Controllers",
+            "Blade Templating",
+            "Migrations & Eloquent Models",
+            "Eloquent Relationships",
+            "Validation & Forms"
+          ],
+          "subtopics": {
+            "Project Structure & Request Lifecycle": [
+              "Service container basics",
+              "Providers",
+              "Facades"
+            ],
+            "Routing & Controllers": [
+              "Route model binding",
+              "Resource controllers",
+              "Middleware"
+            ],
+            "Blade Templating": [
+              "Directives & components",
+              "Layouts & stacks",
+              "Blade components & slots"
+            ],
+            "Migrations & Eloquent Models": [
+              "Schema builder",
+              "Fillable & guarded",
+              "Casts"
+            ],
+            "Eloquent Relationships": [
+              "hasOne/hasMany/belongsToMany",
+              "Eager loading (N+1)",
+              "Polymorphic relations"
+            ],
+            "Validation & Forms": [
+              "Form requests",
+              "Custom rules",
+              "Old input & errors"
+            ]
+          }
+        },
+        {
+          "title": "Application Features",
+          "topics": [
+            "Authentication (Breeze/Fortify)",
+            "Authorization: Gates & Policies",
+            "File Storage & Uploads",
+            "Notifications & Mail",
+            "Queues & Jobs",
+            "Events & Listeners"
+          ],
+          "subtopics": {
+            "Authentication (Breeze/Fortify)": [
+              "Scaffolding",
+              "Password resets",
+              "Socialite OAuth"
+            ],
+            "Authorization: Gates & Policies": [
+              "Policy methods",
+              "Blade @can"
+            ],
+            "File Storage & Uploads": [
+              "Storage disks",
+              "Local vs S3",
+              "Image interventions"
+            ],
+            "Notifications & Mail": [
+              "Mailables",
+              "Database & queue channels"
+            ],
+            "Queues & Jobs": [
+              "Database vs Redis drivers",
+              "Failed jobs & retries",
+              "Horizon"
+            ],
+            "Events & Listeners": [
+              "Model events",
+              "Broadcasting basics"
+            ]
+          }
+        },
+        {
+          "title": "APIs & Advanced Patterns",
+          "topics": [
+            "REST APIs with Laravel",
+            "Sanctum Authentication",
+            "Testing (Pest & PHPUnit)",
+            "Service Layer & Repositories",
+            "Caching & Performance",
+            "Deployment (Forge/Docker)"
+          ],
+          "subtopics": {
+            "REST APIs with Laravel": [
+              "API resources",
+              "Versioning",
+              "Rate limiting"
+            ],
+            "Sanctum Authentication": [
+              "Token & SPA auth",
+              "Abilities"
+            ],
+            "Testing (Pest & PHPUnit)": [
+              "Feature tests",
+              "Factories & seeders",
+              "HTTP test helpers"
+            ],
+            "Service Layer & Repositories": [
+              "Extracting business logic",
+              "Actions & DTOs"
+            ],
+            "Caching & Performance": [
+              "Route/config caching",
+              "Eager loading discipline",
+              "Debugbar & Telescope"
+            ],
+            "Deployment (Forge/Docker)": [
+              "Zero-downtime deploys",
+              "Queues on servers",
+              "Environment management"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Laravel CRUD with Eloquent",
+        "API with Sanctum auth",
+        "Queued email pipeline"
+      ]
     },
     {
       "slug": "tableau",
@@ -27515,7 +28376,171 @@
         "Tableau Server",
         "Tableau Prep"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Tableau Fundamentals",
+          "topics": [
+            "Connecting to Data Sources",
+            "The Tableau Interface",
+            "Dimensions vs Measures",
+            "Discrete vs Continuous",
+            "Workbook, Sheet & Dashboard Anatomy",
+            "Data Types & Field Roles"
+          ],
+          "subtopics": {
+            "Connecting to Data Sources": [
+              "Files vs servers",
+              "Live vs extract",
+              "Data source best practices"
+            ],
+            "The Tableau Interface": [
+              "Shelves & cards",
+              "Marks card",
+              "Show Me gallery"
+            ],
+            "Dimensions vs Measures": [
+              "Aggregation behavior",
+              "Convert roles"
+            ],
+            "Discrete vs Continuous": [
+              "Blue vs green pills",
+              "Axis vs header"
+            ],
+            "Workbook, Sheet & Dashboard Anatomy": [
+              "Sheets & story points",
+              "Dashboard zones"
+            ],
+            "Data Types & Field Roles": [
+              "Geographic fields",
+              "Calculated field intro"
+            ]
+          }
+        },
+        {
+          "title": "Core Visual Analytics",
+          "topics": [
+            "Bar, Line & Area Charts",
+            "Scatter Plots & Trend Lines",
+            "Maps & Geographic Analysis",
+            "Heatmaps & Highlight Tables",
+            "Tree maps, Bubbles & Packed Charts",
+            "Small Multiples & Faceting"
+          ],
+          "subtopics": {
+            "Bar, Line & Area Charts": [
+              "Sorted bars",
+              "Dual-axis lines",
+              "Reference bands"
+            ],
+            "Scatter Plots & Trend Lines": [
+              "Correlation views",
+              "Clusters"
+            ],
+            "Maps & Geographic Analysis": [
+              "Symbol vs filled maps",
+              "Custom territories",
+              "Map layers"
+            ],
+            "Heatmaps & Highlight Tables": [
+              "Color encoding",
+              "Stepped color"
+            ],
+            "Tree maps, Bubbles & Packed Charts": [
+              "When hierarchies help",
+              "Part-to-whole choices"
+            ],
+            "Small Multiples & Faceting": [
+              "Row/column repetition",
+              "Slope graphs"
+            ]
+          }
+        },
+        {
+          "title": "Calculations & Data Shaping",
+          "topics": [
+            "Calculated Fields",
+            "Table Calculations",
+            "LOD Expressions (FIXED, INCLUDE, EXCLUDE)",
+            "Parameters & Dynamic Inputs",
+            "Filters & Filter Order",
+            "Sets & Bins"
+          ],
+          "subtopics": {
+            "Calculated Fields": [
+              "String/date/number functions",
+              "IF & CASE logic"
+            ],
+            "Table Calculations": [
+              "Running totals",
+              "Rank & percent of total",
+              "Addressing & partitioning"
+            ],
+            "LOD Expressions (FIXED, INCLUDE, EXCLUDE)": [
+              "FIXED aggregations",
+              "Cohort analysis",
+              "LOD vs table calc"
+            ],
+            "Parameters & Dynamic Inputs": [
+              "Parameter actions",
+              "Dynamic dimension swap"
+            ],
+            "Filters & Filter Order": [
+              "Extract/context/dimension filters",
+              "Top N via sets"
+            ],
+            "Sets & Bins": [
+              "Conditional sets",
+              "Combined sets",
+              "Histograms"
+            ]
+          }
+        },
+        {
+          "title": "Dashboards & Storytelling",
+          "topics": [
+            "Dashboard Layout & Objects",
+            "Interactive Actions (Filter, Highlight, URL)",
+            "Device Layouts & Responsiveness",
+            "Performance Optimization",
+            "Story Points",
+            "Publishing & Sharing (Tableau Public/Server)"
+          ],
+          "subtopics": {
+            "Dashboard Layout & Objects": [
+              "Containers & padding",
+              "Tiled vs floating"
+            ],
+            "Interactive Actions (Filter, Highlight, URL)": [
+              "Cross-filtering",
+              "Set actions",
+              "Parameter actions"
+            ],
+            "Device Layouts & Responsiveness": [
+              "Phone vs desktop layouts",
+              "Auto layout"
+            ],
+            "Performance Optimization": [
+              "Extract filters",
+              "Context filters",
+              "Workbook audits"
+            ],
+            "Story Points": [
+              "Narrative structure",
+              "Annotations"
+            ],
+            "Publishing & Sharing (Tableau Public/Server)": [
+              "Public portfolios",
+              "Server permissions",
+              "Scheduled extracts"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Interactive sales dashboard",
+        "KPI tracker with calculated fields",
+        "Data-story workbook with filters"
+      ]
     },
     {
       "slug": "power-bi",
@@ -27536,7 +28561,166 @@
         "Power BI Service",
         "DAX"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Power BI Foundations",
+          "topics": [
+            "Power BI Desktop, Service & Mobile",
+            "Connecting to Data Sources",
+            "Power Query: Import & Transform",
+            "Data Types & Table Shapes",
+            "Query Groups & Applied Steps",
+            "Load vs DirectQuery"
+          ],
+          "subtopics": {
+            "Power BI Desktop, Service & Mobile": [
+              "Workspace concepts",
+              "Reports vs dashboards"
+            ],
+            "Connecting to Data Sources": [
+              "Files, SQL, web, OData",
+              "Gateway basics"
+            ],
+            "Power Query: Import & Transform": [
+              "M overview",
+              "Merge vs append",
+              "Pivot & unpivot"
+            ],
+            "Data Types & Table Shapes": [
+              "Star schema intro",
+              "Fact vs dimension tables"
+            ],
+            "Query Groups & Applied Steps": [
+              "Step folding",
+              "Renaming & documenting"
+            ],
+            "Load vs DirectQuery": [
+              "Trade-offs",
+              "Composite models"
+            ]
+          }
+        },
+        {
+          "title": "Data Modeling",
+          "topics": [
+            "Star Schema Design",
+            "Relationships & Cardinality",
+            "Dimension Design (Date Tables)",
+            "Calculated Columns vs Measures",
+            "Model View Hygiene",
+            "Row-Level Security Basics"
+          ],
+          "subtopics": {
+            "Star Schema Design": [
+              "Conformed dimensions",
+              "Snowflake vs star"
+            ],
+            "Relationships & Cardinality": [
+              "One-to-many",
+              "Bi-directional cautions",
+              "Cross-filter direction"
+            ],
+            "Dimension Design (Date Tables)": [
+              "Mark as date table",
+              "Fiscal calendars"
+            ],
+            "Calculated Columns vs Measures": [
+              "Row context vs filter context",
+              "Memory implications"
+            ],
+            "Model View Hygiene": [
+              "Naming conventions",
+              "Hiding keys",
+              "Display folders"
+            ],
+            "Row-Level Security Basics": [
+              "Static & dynamic RLS",
+              "Testing roles"
+            ]
+          }
+        },
+        {
+          "title": "DAX & Measures",
+          "topics": [
+            "DAX Syntax Essentials",
+            "Aggregation Measures",
+            "CALCULATE & Filter Context",
+            "Time Intelligence (YTD, MTD, SPLY)",
+            "Iterator Functions (SUMX, RANKX)",
+            "Variables & Readable DAX"
+          ],
+          "subtopics": {
+            "DAX Syntax Essentials": [
+              "Measures vs columns",
+              "Evaluation order"
+            ],
+            "Aggregation Measures": [
+              "Implicit vs explicit",
+              "DISTINCTCOUNT"
+            ],
+            "CALCULATE & Filter Context": [
+              "Filter modifiers",
+              "ALL/ALLEXCEPT",
+              "Context transition"
+            ],
+            "Time Intelligence (YTD, MTD, SPLY)": [
+              "TOTALYTD & friends",
+              "Custom calendars"
+            ],
+            "Iterator Functions (SUMX, RANKX)": [
+              "Row-by-row logic",
+              "Ranking patterns"
+            ],
+            "Variables & Readable DAX": [
+              "VAR/RETURN",
+              "Debugging measures"
+            ]
+          }
+        },
+        {
+          "title": "Reports, Visualization & Distribution",
+          "topics": [
+            "Core Visuals & When to Use Them",
+            "Report Design & Theme Customization",
+            "Cross-Filtering & Drillthrough",
+            "Bookmarks & Buttons",
+            "Paginated Report Basics",
+            "Publishing, Workspaces & Refresh Scheduling"
+          ],
+          "subtopics": {
+            "Core Visuals & When to Use Them": [
+              "Matrix & KPI cards",
+              "Conditional formatting"
+            ],
+            "Report Design & Theme Customization": [
+              "JSON themes",
+              "Accessibility in visuals"
+            ],
+            "Cross-Filtering & Drillthrough": [
+              "Edit interactions",
+              "Tooltip pages"
+            ],
+            "Bookmarks & Buttons": [
+              "Selection pane",
+              "Page navigation"
+            ],
+            "Paginated Report Basics": [
+              "Report Builder",
+              "Subscriptions"
+            ],
+            "Publishing, Workspaces & Refresh Scheduling": [
+              "App distribution",
+              "Incremental refresh",
+              "Sensitivity labels"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Star-schema model with DAX measures",
+        "Executive dashboard with bookmarks",
+        "Row-level security implementation"
+      ]
     },
     {
       "slug": "statistics",
@@ -27558,7 +28742,162 @@
         "SPSS",
         "Excel"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Descriptive Statistics",
+          "topics": [
+            "Types of Data & Measurement Scales",
+            "Central Tendency",
+            "Spread & Dispersion",
+            "Distributions & Shape",
+            "Visualization: Histograms & Box Plots",
+            "Z-Scores & Standardization"
+          ],
+          "subtopics": {
+            "Types of Data & Measurement Scales": [
+              "Nominal/ordinal/interval/ratio",
+              "Discrete vs continuous"
+            ],
+            "Central Tendency": [
+              "Mean, median, mode",
+              "When medians beat means"
+            ],
+            "Spread & Dispersion": [
+              "Range, IQR, variance, SD",
+              "Coefficient of variation"
+            ],
+            "Distributions & Shape": [
+              "Skewness & kurtosis",
+              "Modality"
+            ],
+            "Visualization: Histograms & Box Plots": [
+              "Binwidth choices",
+              "Outlier detection"
+            ],
+            "Z-Scores & Standardization": [
+              "Standard normal",
+              "Comparing across scales"
+            ]
+          }
+        },
+        {
+          "title": "Probability Foundations",
+          "topics": [
+            "Probability Rules & Axioms",
+            "Conditional Probability",
+            "Bayes' Theorem",
+            "Random Variables",
+            "Common Distributions (Normal, Binomial, Poisson)",
+            "Law of Large Numbers & CLT"
+          ],
+          "subtopics": {
+            "Probability Rules & Axioms": [
+              "Addition & multiplication rules",
+              "Complements & independence"
+            ],
+            "Conditional Probability": [
+              "Tree diagrams",
+              "Joint & marginal probabilities"
+            ],
+            "Bayes' Theorem": [
+              "Prior & posterior",
+              "Base-rate practice"
+            ],
+            "Random Variables": [
+              "PMF/PDF/CDF",
+              "Expected value & variance"
+            ],
+            "Common Distributions (Normal, Binomial, Poisson)": [
+              "Parameters & intuition",
+              "Real-world mapping"
+            ],
+            "Law of Large Numbers & CLT": [
+              "Sampling distributions",
+              "Standard error"
+            ]
+          }
+        },
+        {
+          "title": "Inferential Statistics",
+          "topics": [
+            "Sampling Methods & Bias",
+            "Confidence Intervals",
+            "Hypothesis Testing Framework",
+            "t-Tests & Paired Tests",
+            "Chi-Square Tests",
+            "ANOVA"
+          ],
+          "subtopics": {
+            "Sampling Methods & Bias": [
+              "Random & stratified sampling",
+              "Selection & survivorship bias"
+            ],
+            "Confidence Intervals": [
+              "Interpretation pitfalls",
+              "Margin of error"
+            ],
+            "Hypothesis Testing Framework": [
+              "Null/alternative",
+              "p-values & significance",
+              "Type I vs II errors & power"
+            ],
+            "t-Tests & Paired Tests": [
+              "One/two-sample",
+              "Assumptions & checks"
+            ],
+            "Chi-Square Tests": [
+              "Goodness of fit",
+              "Independence on contingency tables"
+            ],
+            "ANOVA": [
+              "One-way & post-hoc",
+              "Assumptions"
+            ]
+          }
+        },
+        {
+          "title": "Relationships & Regression",
+          "topics": [
+            "Correlation",
+            "Simple Linear Regression",
+            "Multiple Regression",
+            "Residuals & Model Fit (R², RMSE)",
+            "Logistic Regression (Intro)",
+            "Non-parametric Methods (Intro)"
+          ],
+          "subtopics": {
+            "Correlation": [
+              "Pearson vs Spearman",
+              "Correlation ≠ causation"
+            ],
+            "Simple Linear Regression": [
+              "Least squares intuition",
+              "Interpretation of coefficients"
+            ],
+            "Multiple Regression": [
+              "Confounding & multicollinearity",
+              "Variable selection basics"
+            ],
+            "Residuals & Model Fit (R², RMSE)": [
+              "Diagnostics plots",
+              "Heteroscedasticity"
+            ],
+            "Logistic Regression (Intro)": [
+              "Odds ratios",
+              "Classification threshold"
+            ],
+            "Non-parametric Methods (Intro)": [
+              "Mann-Whitney & Wilcoxon",
+              "When to avoid normality"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Hypothesis-testing case study",
+        "Regression analysis with diagnostics",
+        "Bayesian inference mini-project"
+      ]
     },
     {
       "slug": "figma",
@@ -27578,7 +28917,129 @@
         "Figma",
         " FigJam"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Figma Foundations",
+          "topics": [
+            "Interface Tour: Canvas, Panels & Toolbar",
+            "Frames, Groups & Auto Layout",
+            "Shapes, Vector Tools & Boolean Ops",
+            "Type, Color Styles & Variables",
+            "Grids, Guides & Alignment",
+            "Page & File Organization"
+          ],
+          "subtopics": {
+            "Interface Tour: Canvas, Panels & Toolbar": [
+              "Design vs prototype tabs",
+              "Zoom & navigation"
+            ],
+            "Frames, Groups & Auto Layout": [
+              "Auto layout nesting",
+              "Constraints & resizing",
+              "Spacing & padding"
+            ],
+            "Shapes, Vector Tools & Boolean Ops": [
+              "Pen tool basics",
+              "Corner radius & strokes"
+            ],
+            "Type, Color Styles & Variables": [
+              "Text styles",
+              "Color styles & variables",
+              "Mode switching (light/dark)"
+            ],
+            "Grids, Guides & Alignment": [
+              "Layout grids",
+              "Smart selection & distribute"
+            ],
+            "Page & File Organization": [
+              "Naming conventions",
+              "Section covers",
+              "Team libraries intro"
+            ]
+          }
+        },
+        {
+          "title": "Design Systems in Figma",
+          "topics": [
+            "Components & Instances",
+            "Component Properties & Variants",
+            "Nested Components",
+            "Publishing Team Libraries",
+            "Reusable Iconography",
+            "Documentation Pages"
+          ],
+          "subtopics": {
+            "Components & Instances": [
+              "Main vs instance",
+              "Overriding properties"
+            ],
+            "Component Properties & Variants": [
+              "Boolean, text, instance-swap",
+              "Variant grouping"
+            ],
+            "Nested Components": [
+              "Slots & containers",
+              "Auto layout composition"
+            ],
+            "Publishing Team Libraries": [
+              "Versioning & updates",
+              "Library announcements"
+            ],
+            "Reusable Iconography": [
+              "Icon grids",
+              "Consistent stroke weights"
+            ],
+            "Documentation Pages": [
+              "Annotating usage",
+              "Do/don't examples"
+            ]
+          }
+        },
+        {
+          "title": "Prototyping & Handoff",
+          "topics": [
+            "Prototype Flows & Interactions",
+            "Smart Animate & Micro-interactions",
+            "Overflow Scrolling & Device Frames",
+            "Comments & Collaboration",
+            "Dev Mode & Handoff",
+            "Sharing & Exporting Assets"
+          ],
+          "subtopics": {
+            "Prototype Flows & Interactions": [
+              "Triggers & actions",
+              "Multiple flows"
+            ],
+            "Smart Animate & Micro-interactions": [
+              "Easing & duration",
+              "Component-level animation"
+            ],
+            "Overflow Scrolling & Device Frames": [
+              "Scroll behavior",
+              "Fixed headers"
+            ],
+            "Comments & Collaboration": [
+              "Threads & resolutions",
+              "Branching & merging"
+            ],
+            "Dev Mode & Handoff": [
+              "Inspect styles",
+              "Code snippets",
+              "Ready-for-dev markers"
+            ],
+            "Sharing & Exporting Assets": [
+              "Export presets",
+              "SVG/PNG scales",
+              "Link permissions"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Responsive web design file with variants",
+        "Interactive prototype with flows",
+        "Reusable component library"
+      ]
     },
     {
       "slug": "adobe-xd",
@@ -27598,7 +29059,122 @@
         "Adobe XD",
         "Creative Cloud"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Adobe XD Foundations",
+          "topics": [
+            "Interface & Canvas Basics",
+            "Artboards & Grids",
+            "Shapes, Lines & Boolean Operations",
+            "Text, Colors & Character Styles",
+            "Assets Panel & Components",
+            "Repeat Grid"
+          ],
+          "subtopics": {
+            "Interface & Canvas Basics": [
+              "Design/prototype modes",
+              "Zoom & pan"
+            ],
+            "Artboards & Grids": [
+              "Custom sizes",
+              "Layout grids"
+            ],
+            "Shapes, Lines & Boolean Operations": [
+              "Combine/minus/intersect",
+              "Corner styling"
+            ],
+            "Text, Colors & Character Styles": [
+              "Reusable styles",
+              "Linked assets"
+            ],
+            "Assets Panel & Components": [
+              "Component states",
+              "Overriding instances"
+            ],
+            "Repeat Grid": [
+              "Lists from data",
+              "Nested repeat grids"
+            ]
+          }
+        },
+        {
+          "title": "Prototyping & Sharing",
+          "topics": [
+            "Prototype Wiring & Triggers",
+            "Auto-Animate",
+            "Voice Prototyping (Legacy)",
+            "Component States in Prototypes",
+            "Preview & Shared Links",
+            "Spec Export & Handoff"
+          ],
+          "subtopics": {
+            "Prototype Wiring & Triggers": [
+              "Tap/drag/timer",
+              "Transitions & easing"
+            ],
+            "Auto-Animate": [
+              "Matching layers",
+              "Micro-interactions"
+            ],
+            "Voice Prototyping (Legacy)": [
+              "Speech triggers — legacy feature awareness"
+            ],
+            "Component States in Prototypes": [
+              "Hover & toggle states"
+            ],
+            "Preview & Shared Links": [
+              "Device preview",
+              "Commenting on shared links"
+            ],
+            "Spec Export & Handoff": [
+              "Design specs",
+              "Asset export for developers"
+            ]
+          }
+        },
+        {
+          "title": "Career Context: XD in 2026",
+          "topics": [
+            "Adobe's Shift to Figma: What Ended & What Still Works",
+            "Migrating XD Files to Figma",
+            "Maintaining Legacy XD Design Systems",
+            "Choosing XD vs Figma for New Work",
+            "Translating XD Skills to Modern Tools",
+            "Portfolio Presentation of XD Projects"
+          ],
+          "subtopics": {
+            "Adobe's Shift to Figma: What Ended & What Still Works": [
+              "New-feature development ended in Adobe's pivot to Figma",
+              "Existing installs still open & edit files"
+            ],
+            "Migrating XD Files to Figma": [
+              "Figma XD importer",
+              "Manual rebuild priorities"
+            ],
+            "Maintaining Legacy XD Design Systems": [
+              "Component audit",
+              "Documentation handover"
+            ],
+            "Choosing XD vs Figma for New Work": [
+              "Team & plugin considerations",
+              "Cost & platform reality"
+            ],
+            "Translating XD Skills to Modern Tools": [
+              "Auto layout ↔ repeat grid",
+              "Components ↔ states mapping"
+            ],
+            "Portfolio Presentation of XD Projects": [
+              "Case-study framing",
+              "Process artifacts"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Multi-screen app prototype",
+        "Auto-animated micro-interactions",
+        "Design handoff package"
+      ]
     },
     {
       "slug": "sketch",
@@ -27618,7 +29194,89 @@
         "Sketch",
         "InVision"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Sketch Foundations",
+          "topics": [
+            "Mac App Interface & Canvas",
+            "Artboards & Templates",
+            "Shapes, Vectors & Boolean Ops",
+            "Text & Styling (Shadows, Fills, Borders)",
+            "Symbols & Libraries",
+            "Layout Grids & Guides"
+          ],
+          "subtopics": {
+            "Mac App Interface & Canvas": [
+              "Inspector & layer list",
+              "Vector mode vs canvas mode"
+            ],
+            "Artboards & Templates": [
+              "Responsive artboards",
+              "Template library"
+            ],
+            "Shapes, Vectors & Boolean Ops": [
+              "Vector editing",
+              "Scissors & join",
+              "Masking shapes"
+            ],
+            "Text & Styling (Shadows, Fills, Borders)": [
+              "Shared styles",
+              "Text on path basics"
+            ],
+            "Symbols & Libraries": [
+              "Symbol sources & instances",
+              "Nested symbols",
+              "Shared libraries across files"
+            ],
+            "Layout Grids & Guides": [
+              "Grid settings",
+              "Smart guides"
+            ]
+          }
+        },
+        {
+          "title": "Design & Prototyping",
+          "topics": [
+            "Reusable Styles & Variables",
+            "Components with Overrides",
+            "Hotspots & Prototype Links",
+            "Preview & Cloud Sharing",
+            "Plugin Ecosystem Essentials",
+            "Handoff to Developers"
+          ],
+          "subtopics": {
+            "Reusable Styles & Variables": [
+              "Color variables",
+              "Consistent theming"
+            ],
+            "Components with Overrides": [
+              "Instance overrides",
+              "Symbol scaling"
+            ],
+            "Hotspots & Prototype Links": [
+              "Fixed headers",
+              "Scrollable areas"
+            ],
+            "Preview & Cloud Sharing": [
+              "Sketch Cloud documents",
+              "Workspace collaboration"
+            ],
+            "Plugin Ecosystem Essentials": [
+              "Must-have plugins",
+              "Plugin safety & updates"
+            ],
+            "Handoff to Developers": [
+              "Inspect mode",
+              "Export presets & slices"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Mobile app UI kit with symbols",
+        "Vector illustration set",
+        "Design-system library file"
+      ]
     },
     {
       "slug": "blender",
@@ -27638,7 +29296,164 @@
         "Blender",
         "Substance Painter"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Blender Foundations",
+          "topics": [
+            "Interface & Navigation",
+            "Objects, Origins & Transforms",
+            "Collections & Scene Organization",
+            "Materials & Shading Basics",
+            "Lighting Fundamentals",
+            "Render Engine Tour (EEVEE & Cycles)"
+          ],
+          "subtopics": {
+            "Interface & Navigation": [
+              "Viewport navigation",
+              "Workspaces",
+              "Editor areas"
+            ],
+            "Objects, Origins & Transforms": [
+              "Pivot points",
+              "Snap & proportional editing",
+              "Parenting"
+            ],
+            "Collections & Scene Organization": [
+              "Outliner discipline",
+              "Hide/visibility flags"
+            ],
+            "Materials & Shading Basics": [
+              "Principled BSDF",
+              "Base color/metallic/roughness"
+            ],
+            "Lighting Fundamentals": [
+              "Three-point setup",
+              "Area/sun/HDRI lights"
+            ],
+            "Render Engine Tour (EEVEE & Cycles)": [
+              "Realtime vs path tracing",
+              "Sampling & noise"
+            ]
+          }
+        },
+        {
+          "title": "Modeling",
+          "topics": [
+            "Mesh Primitives & Edit Mode",
+            "Extrude, Inset & Bevel",
+            "Modifiers Overview",
+            "Subdivision & Retopology Basics",
+            "Curves & Surfaces",
+            "Sculpting Essentials"
+          ],
+          "subtopics": {
+            "Mesh Primitives & Edit Mode": [
+              "Vertices/edges/faces",
+              "Selection methods"
+            ],
+            "Extrude, Inset & Bevel": [
+              "Edge flows",
+              "Support loops"
+            ],
+            "Modifiers Overview": [
+              "Mirror & array",
+              "Solidify & weight normals"
+            ],
+            "Subdivision & Retopology Basics": [
+              "Subsurf shading",
+              "Quads vs tris"
+            ],
+            "Curves & Surfaces": [
+              "Bezier paths",
+              "Convert to mesh"
+            ],
+            "Sculpting Essentials": [
+              "Dyntopo vs multires",
+              "Core brushes",
+              "Masks"
+            ]
+          }
+        },
+        {
+          "title": "Materials, Textures & Animation",
+          "topics": [
+            "UV Unwrapping",
+            "Texture Painting & Image Textures",
+            "Shader Nodes Deep-Dive",
+            "Keyframe Animation",
+            "Graph Editor & Interpolation",
+            "Cameras & Output Settings"
+          ],
+          "subtopics": {
+            "UV Unwrapping": [
+              "Seams & packing",
+              "UDIM intro"
+            ],
+            "Texture Painting & Image Textures": [
+              "PBR maps",
+              "Normal & roughness maps"
+            ],
+            "Shader Nodes Deep-Dive": [
+              "Mix & math nodes",
+              "Procedural textures"
+            ],
+            "Keyframe Animation": [
+              "Insert keyframes",
+              "Dope sheet"
+            ],
+            "Graph Editor & Interpolation": [
+              "F-curve shaping",
+              "Ease & bounce"
+            ],
+            "Cameras & Output Settings": [
+              "Focal length & depth of field",
+              "Resolution & codecs"
+            ]
+          }
+        },
+        {
+          "title": "Projects & Portfolio",
+          "topics": [
+            "Hard-Surface Model Project",
+            "Character Sculpt Project",
+            "Product Visualization Project",
+            "Short Animated Loop Project",
+            "Scene Assembly & Compositing",
+            "Export for Games/Web (glTF)"
+          ],
+          "subtopics": {
+            "Hard-Surface Model Project": [
+              "Reference gathering",
+              "Clean topology"
+            ],
+            "Character Sculpt Project": [
+              "Blocking to refine",
+              "Clothing basics"
+            ],
+            "Product Visualization Project": [
+              "Studio lighting",
+              "Material realism"
+            ],
+            "Short Animated Loop Project": [
+              "Story planning",
+              "Render management"
+            ],
+            "Scene Assembly & Compositing": [
+              "Node compositing",
+              "Color management"
+            ],
+            "Export for Games/Web (glTF)": [
+              "PBR presets",
+              "Optimization"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Hard-surface model with bevels",
+        "Textured and lit product render",
+        "Short turntable animation"
+      ]
     },
     {
       "slug": "photoshop",
@@ -27658,7 +29473,161 @@
         "Photoshop",
         "Creative Cloud"
       ],
-      "sections": []
+      "sections": [
+        {
+          "title": "Photoshop Foundations",
+          "topics": [
+            "Interface, Workspace & Navigation",
+            "Image Size, Resolution & Cropping",
+            "Layers & Layer Management",
+            "Selections: Marquee, Lasso & Magic Wand",
+            "Masking: Pixel & Vector",
+            "Color Modes & Adjustments"
+          ],
+          "subtopics": {
+            "Interface, Workspace & Navigation": [
+              "Panels & tool presets",
+              "Zoom & hand shortcuts"
+            ],
+            "Image Size, Resolution & Cropping": [
+              "Resample vs resize",
+              "Content-aware crop"
+            ],
+            "Layers & Layer Management": [
+              "Groups & smart objects",
+              "Blend modes overview"
+            ],
+            "Selections: Marquee, Lasso & Magic Wand": [
+              "Refine edge",
+              "Select & mask workspace"
+            ],
+            "Masking: Pixel & Vector": [
+              "Non-destructive workflow",
+              "Clipping masks"
+            ],
+            "Color Modes & Adjustments": [
+              "RGB vs CMYK",
+              "Curves & levels"
+            ]
+          }
+        },
+        {
+          "title": "Photo Editing & Retouching",
+          "topics": [
+            "Tonal & Color Correction",
+            "Healing, Cloning & Patching",
+            "Dodge & Burn",
+            "Frequency Separation (Intro)",
+            "Camera Raw Workflow",
+            "Sharpening & Noise Reduction"
+          ],
+          "subtopics": {
+            "Tonal & Color Correction": [
+              "White balance",
+              "HSL & selective color"
+            ],
+            "Healing, Cloning & Patching": [
+              "Spot healing",
+              "Clone source settings"
+            ],
+            "Dodge & Burn": [
+              "Non-destructive technique",
+              "Portrait & product use"
+            ],
+            "Frequency Separation (Intro)": [
+              "Skin texture basics",
+              "Ethics of retouching"
+            ],
+            "Camera Raw Workflow": [
+              "Profiles & presets",
+              "Batch processing"
+            ],
+            "Sharpening & Noise Reduction": [
+              "Output sharpening",
+              "High-pass method"
+            ]
+          }
+        },
+        {
+          "title": "Design & Compositing",
+          "topics": [
+            "Text & Typography Tools",
+            "Shapes & Smart Objects",
+            "Pen Tool Mastery",
+            "Layer Effects & Styles",
+            "Compositing Multiple Images",
+            "Generative AI Features (Responsible Use)"
+          ],
+          "subtopics": {
+            "Text & Typography Tools": [
+              "Paragraph vs point text",
+              "Type on a path"
+            ],
+            "Shapes & Smart Objects": [
+              "Editable vector shapes",
+              "Smart filter workflows"
+            ],
+            "Pen Tool Mastery": [
+              "Anchor points & handles",
+              "Precise cutouts"
+            ],
+            "Layer Effects & Styles": [
+              "Strokes & shadows",
+              "Reusable styles"
+            ],
+            "Compositing Multiple Images": [
+              "Matched lighting & color",
+              "Perspective & scale"
+            ],
+            "Generative AI Features (Responsible Use)": [
+              "Fill & expand",
+              "Disclosure & licensing considerations"
+            ]
+          }
+        },
+        {
+          "title": "Output & Automation",
+          "topics": [
+            "Export: Save for Web & Export As",
+            "Print Production Basics",
+            "Actions & Batch Processing",
+            "Smart Objects & Non-Destructive Editing",
+            "PSD/PSB File Hygiene",
+            "Integration with Illustrator & Figma"
+          ],
+          "subtopics": {
+            "Export: Save for Web & Export As": [
+              "Format choices",
+              "Metadata handling"
+            ],
+            "Print Production Basics": [
+              "Bleed & DPI",
+              "Proofing"
+            ],
+            "Actions & Batch Processing": [
+              "Recording actions",
+              "Droplets"
+            ],
+            "Smart Objects & Non-Destructive Editing": [
+              "Linked vs embedded",
+              "Filter re-editing"
+            ],
+            "PSD/PSB File Hygiene": [
+              "Layer naming",
+              "Versioning"
+            ],
+            "Integration with Illustrator & Figma": [
+              "Copy/paste fidelity",
+              "Asset handoff"
+            ]
+          }
+        }
+      ],
+      "portfolioProjects": [
+        "Non-destructive photo retouch",
+        "Composite artwork with masks",
+        "Social-media template pack"
+      ]
     }
   ]
 }

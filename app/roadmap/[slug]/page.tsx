@@ -21,6 +21,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${career.title} Roadmap`,
     description: `${career.tagline} — an interactive ${career.difficulty.toLowerCase()}-level career roadmap with ${career.topicCount} topics, ${career.projectCount} projects and interview preparation.`,
+    // Canonical must point at THIS roadmap, not the inherited root "/" —
+    // otherwise every roadmap page tells crawlers it's a duplicate of the
+    // homepage and gets dropped from the index.
+    alternates: { canonical: `/roadmap/${slug}` },
     openGraph: {
       title: `${career.title} Roadmap`,
       description: career.tagline,

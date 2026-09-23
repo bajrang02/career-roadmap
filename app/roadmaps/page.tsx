@@ -1,12 +1,14 @@
 import { Suspense } from "react";
+import type { Metadata } from "next";
 import { SKILL_COUNT, TOTAL_TOPICS, listRoadmaps } from "@/lib/data-catalog";
 import { RoadmapsBrowser } from "@/components/careers/roadmaps-browser";
 import { BrowserSkeleton } from "@/components/careers/browser-skeleton";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Every learning roadmap",
   description:
     "Browse every career path and skill roadmap in one place — search by name, category or domain.",
+  alternates: { canonical: "/roadmaps" },
 };
 
 export default function RoadmapsPage() {

@@ -66,7 +66,7 @@ type TabId = "overview" | "resources" | "practice" | "projects" | "certification
 /** Phone: each tab sizes to its own label and the strip scrolls, so nothing is
  *  sliced mid-word. Tablet and up: the tabs share the row evenly again. */
 const TAB_CLS =
-  "shrink-0 snap-start whitespace-nowrap px-3 text-xs sm:min-w-[72px] sm:flex-1 sm:shrink sm:px-1 sm:text-[13px]";
+  "shrink-0 snap-start whitespace-nowrap px-3 py-2.5 text-xs sm:min-w-[72px] sm:flex-1 sm:shrink sm:px-1 sm:py-1.5 sm:text-[13px]";
 
 // ── Shared atoms ─────────────────────────────────────────────────────────────
 
@@ -272,16 +272,36 @@ function PracticeCard({ item }: { item: PracticeItem }) {
           ))}
         </div>
       )}
-      <div className="mt-3">
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex max-w-full items-center gap-1.5 rounded-lg bg-brand-600 px-3.5 py-2 text-xs font-semibold text-white transition hover:bg-brand-500"
-        >
-          <PlayCircle className="h-3.5 w-3.5 shrink-0" /> Practice now
-        </a>
-      </div>
+      {/* guided task: the activity is inside the card, so there is nothing to
+          link out to — never render a dead "Practice now" button */}
+      {item.task && (item.steps?.length ?? 0) > 0 && (
+        <ol className="mt-2.5 space-y-1.5 pl-1">
+          {item.steps!.map((s, i) => (
+            <li key={i} className="flex gap-2 text-[13px] leading-relaxed text-slate-600 dark:text-slate-300">
+              <span className="mt-0.5 flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-brand-500/10 text-[10.5px] font-bold text-brand-700 dark:bg-brand-500/20 dark:text-brand-300">
+                {i + 1}
+              </span>
+              <span className="min-w-0 [overflow-wrap:anywhere]">{s}</span>
+            </li>
+          ))}
+        </ol>
+      )}
+      {item.url ? (
+        <div className="mt-3">
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex max-w-full items-center gap-1.5 rounded-lg bg-brand-600 px-3.5 py-2 text-xs font-semibold text-white transition hover:bg-brand-500"
+          >
+            <PlayCircle className="h-3.5 w-3.5 shrink-0" /> Practice now
+          </a>
+        </div>
+      ) : (
+        <p className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg bg-slate-50 px-2.5 py-1.5 text-[11.5px] font-medium text-slate-500 dark:bg-slate-700/40 dark:text-slate-400">
+          <ListChecks className="h-3.5 w-3.5 shrink-0" /> Self-contained task — no external link needed
+        </p>
+      )}
     </div>
   );
 }
@@ -334,9 +354,19 @@ function CertificationCard({ cert }: { cert: CertificationView }) {
   const costCls =
     cert.costLabel === "FREE"
       ? "bg-emerald-500/10 text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-300"
-      : cert.costLabel === "PAID EXAM"
+      : cert.costLabel === "PAID EXAM" || cert.costLabel === "PAID CERTIFICATION"
         ? "bg-amber-500/10 text-amber-700 dark:bg-amber-500/20 dark:text-amber-300"
         : "bg-sky-500/10 text-sky-700 dark:bg-sky-500/20 dark:text-sky-300";
+  // Credential family is deliberately visible: a licence exam, a course
+  // certificate and a vendor certification must never look interchangeable.
+  const typeCls =
+    cert.credentialType === "license_exam"
+      ? "border-indigo-200 bg-indigo-50 text-indigo-700 dark:border-indigo-500/30 dark:bg-indigo-500/15 dark:text-indigo-300"
+      : cert.credentialType === "course_certificate" ||
+          cert.credentialType === "training_certificate" ||
+          cert.credentialType === "digital_badge"
+        ? "border-slate-200 bg-slate-50 text-slate-600 dark:border-slate-600 dark:bg-slate-700/50 dark:text-slate-300"
+        : "border-brand-200 bg-brand-50 text-brand-700 dark:border-brand-500/30 dark:bg-brand-500/15 dark:text-brand-300";
   return (
     <div className="min-w-0 rounded-xl border border-slate-100 bg-white p-4 dark:border-slate-700/60 dark:bg-slate-800/60">
       <div className="flex items-start gap-3">
@@ -351,6 +381,9 @@ function CertificationCard({ cert }: { cert: CertificationView }) {
             <span className="font-medium text-slate-600 dark:text-slate-300">{cert.level}</span>
           </p>
           <div className="mt-2 flex flex-wrap gap-1.5">
+            <span className={cn("rounded-full border px-2 py-0.5 text-[10.5px] font-semibold", typeCls)}>
+              {cert.credentialTypeLabel}
+            </span>
             <span className={cn("rounded-full px-2 py-0.5 text-[10.5px] font-bold uppercase tracking-wide", costCls)}>
               {cert.costLabel}
             </span>
@@ -361,16 +394,19 @@ function CertificationCard({ cert }: { cert: CertificationView }) {
             )}
             {cert.validity && (
               <span className="rounded-full border border-slate-200 px-2 py-0.5 text-[10.5px] font-semibold text-slate-500 dark:border-slate-600 dark:text-slate-400">
-                Validity: {cert.validity}
+                Renewal: {cert.validity}
               </span>
             )}
           </div>
+          {cert.costDetail && (
+            <p className="mt-1.5 text-[11.5px] text-slate-500 dark:text-slate-400">{cert.costDetail}</p>
+          )}
           {cert.description && (
             <p className="mt-2 text-[13px] leading-relaxed text-slate-600 [overflow-wrap:anywhere] dark:text-slate-300">{cert.description}</p>
           )}
           {cert.validates.length > 0 && (
             <div className="mt-2.5 flex flex-wrap gap-1.5">
-              {cert.validates.slice(0, 4).map((v) => (
+              {cert.validates.slice(0, 6).map((v) => (
                 <span key={v} className="rounded-md border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-medium text-slate-600 dark:border-slate-600 dark:bg-slate-700/50 dark:text-slate-300">
                   {v}
                 </span>
@@ -420,6 +456,28 @@ function CertificationCard({ cert }: { cert: CertificationView }) {
                 </div>
               )}
             </div>
+          )}
+          {(cert.examName || cert.prerequisites.length > 0 || cert.eligibility) && (
+            <dl className="mt-3 space-y-1.5 rounded-lg border border-slate-100 bg-slate-50/70 p-2.5 text-[12px] dark:border-slate-700/60 dark:bg-slate-800/50">
+              {cert.examName && (
+                <div className="flex gap-2">
+                  <dt className="shrink-0 font-semibold text-slate-500 dark:text-slate-400">Exam</dt>
+                  <dd className="min-w-0 text-slate-700 dark:text-slate-200">{cert.examName}</dd>
+                </div>
+              )}
+              {cert.eligibility && (
+                <div className="flex gap-2">
+                  <dt className="shrink-0 font-semibold text-slate-500 dark:text-slate-400">Eligibility</dt>
+                  <dd className="min-w-0 text-slate-700 dark:text-slate-200">{cert.eligibility}</dd>
+                </div>
+              )}
+              {cert.prerequisites.length > 0 && (
+                <div className="flex gap-2">
+                  <dt className="shrink-0 font-semibold text-slate-500 dark:text-slate-400">Prerequisites</dt>
+                  <dd className="min-w-0 text-slate-700 dark:text-slate-200">{cert.prerequisites.join(" · ")}</dd>
+                </div>
+              )}
+            </dl>
           )}
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <DiffBadge difficulty={cert.difficulty} />
@@ -577,6 +635,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   const certCount = details?.certifications.length ?? 0;
 
   const [tab, setTab] = useState<TabId>("overview");
+
   // Projects / Certifications tabs only exist when content exists — when a
   // selection changes and the current tab disappears, fall back to Overview.
   useEffect(() => {
@@ -1150,7 +1209,7 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
             </p>
           </div>
           {details.practice.items.map((p) => (
-            <PracticeCard key={p.url} item={p} />
+            <PracticeCard key={p.url ?? p.title} item={p} />
           ))}
         </>
       ) : (
@@ -1181,11 +1240,15 @@ export const NodeDetailsSidebar = memo(function NodeDetailsSidebar({
   ) : null;
 
   // ── certifications tab ────────────────────────────────────────────────────
+  // Deliberately unfiltered: the credential-type and cost badges on every card
+  // already carry the comparison a student needs, and the largest section is
+  // 24 cards. A filter row here was prototyped and dropped because switching it
+  // could not be verified against the mobile sheet in this environment.
   const certificationsContent = details ? (
     <div className="space-y-3 p-4 sm:p-5">
       {details.certifications.length > 1 && (
         <p className="text-[13px] text-slate-500 dark:text-slate-400">
-          Credentials recognized for this area — compare level and cost before committing.
+          Credentials recognized for this area — compare type, level and cost before committing.
         </p>
       )}
       {details.certifications.map((c) => (

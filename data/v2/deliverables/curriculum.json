@@ -4,16 +4,16 @@
   "description": "Curriculum reference linking all resources, practice, and certifications to curriculum nodes.",
   "totalCareers": 155,
   "totalSkills": 106,
-  "totalTopics": 12926,
+  "totalTopics": 16814,
   "resourceCounts": {
-    "exact": 426,
-    "parentFallback": 4518,
-    "skillFallback": 2129,
-    "discovery": 5853
+    "exact": 3468,
+    "parentFallback": 7586,
+    "skillFallback": 3096,
+    "discovery": 2664
   },
   "practiceCounts": {
-    "exact": 169,
-    "parentFallback": 2721,
+    "exact": 229,
+    "parentFallback": 2985,
     "none": 0
   },
   "certificationCounts": {

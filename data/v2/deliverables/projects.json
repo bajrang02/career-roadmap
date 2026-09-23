@@ -257,5 +257,1925 @@
         "Sequential Control"
       ]
     }
+  ],
+  "adobe-xd": [
+    {
+      "title": "Adobe Xd Comprehensive Design System",
+      "description": "Create a fully functional, reusable design system and component library in Adobe Xd.",
+      "difficulty": "Advanced",
+      "duration": "8-12 hours",
+      "skills": [
+        "Adobe Xd",
+        "Prototyping",
+        "Design Systems"
+      ]
+    },
+    {
+      "title": "Adobe Xd Mobile App Redesign",
+      "description": "Redesign a popular mobile application focusing on UX improvements using Adobe Xd.",
+      "difficulty": "Intermediate",
+      "duration": "5-8 hours",
+      "skills": [
+        "Adobe Xd",
+        "UX/UI",
+        "Wireframing"
+      ]
+    }
+  ],
+  "aerodynamics-engineer": [
+    {
+      "title": "Advanced Aerodynamics Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Aerodynamics Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Aerodynamics Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Aerodynamics Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Aerodynamics Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Aerodynamics Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "ai-agents": [
+    {
+      "title": "End-to-End Ai Agents Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Ai Agents.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Ai Agents",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Ai Agents Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Ai Agents techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Ai Agents",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "aircraft-design-engineer": [
+    {
+      "title": "End-to-End Aircraft Design Engineer Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Aircraft Design Engineer.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Aircraft Design Engineer",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Aircraft Design Engineer Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Aircraft Design Engineer techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Aircraft Design Engineer",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "angular": [
+    {
+      "title": "Angular E-Commerce Architecture",
+      "description": "Build a complete e-commerce solution using core Angular principles, featuring routing, state management, and API integration.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Angular",
+        "Architecture",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Angular Real-time Dashboard",
+      "description": "Develop a real-time analytics dashboard with live data updates leveraging Angular best practices.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Angular",
+        "Real-time",
+        "UI/UX"
+      ]
+    }
+  ],
+  "api-development": [
+    {
+      "title": "Api Development E-Commerce Architecture",
+      "description": "Build a complete e-commerce solution using core Api Development principles, featuring routing, state management, and API integration.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Api Development",
+        "Architecture",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Api Development Real-time Dashboard",
+      "description": "Develop a real-time analytics dashboard with live data updates leveraging Api Development best practices.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Api Development",
+        "Real-time",
+        "UI/UX"
+      ]
+    }
+  ],
+  "avionics-engineer": [
+    {
+      "title": "Advanced Avionics Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Avionics Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Avionics Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Avionics Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Avionics Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Avionics Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "aws": [
+    {
+      "title": "Scalable Aws Infrastructure",
+      "description": "Design and provision a highly available, fault-tolerant infrastructure setup using Aws.",
+      "difficulty": "Advanced",
+      "duration": "12-18 hours",
+      "skills": [
+        "Aws",
+        "Infrastructure as Code",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Aws Automated Deployment Pipeline",
+      "description": "Create a fully automated CI/CD pipeline showcasing core Aws deployment strategies.",
+      "difficulty": "Intermediate",
+      "duration": "6-10 hours",
+      "skills": [
+        "Aws",
+        "Automation",
+        "Deployment"
+      ]
+    }
+  ],
+  "azure": [
+    {
+      "title": "Scalable Azure Infrastructure",
+      "description": "Design and provision a highly available, fault-tolerant infrastructure setup using Azure.",
+      "difficulty": "Advanced",
+      "duration": "12-18 hours",
+      "skills": [
+        "Azure",
+        "Infrastructure as Code",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Azure Automated Deployment Pipeline",
+      "description": "Create a fully automated CI/CD pipeline showcasing core Azure deployment strategies.",
+      "difficulty": "Intermediate",
+      "duration": "6-10 hours",
+      "skills": [
+        "Azure",
+        "Automation",
+        "Deployment"
+      ]
+    }
+  ],
+  "bim-specialist": [
+    {
+      "title": "Advanced Bim Specialist System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Bim Specialist concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Bim Specialist",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Bim Specialist Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Bim Specialist principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Bim Specialist",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "biomaterials-engineer": [
+    {
+      "title": "Advanced Biomaterials Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Biomaterials Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Biomaterials Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Biomaterials Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Biomaterials Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Biomaterials Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "bioprocess-engineer": [
+    {
+      "title": "Advanced Bioprocess Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Bioprocess Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Bioprocess Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Bioprocess Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Bioprocess Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Bioprocess Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "biosystems-engineer": [
+    {
+      "title": "Advanced Biosystems Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Biosystems Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Biosystems Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Biosystems Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Biosystems Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Biosystems Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "blender": [
+    {
+      "title": "Blender Comprehensive Design System",
+      "description": "Create a fully functional, reusable design system and component library in Blender.",
+      "difficulty": "Advanced",
+      "duration": "8-12 hours",
+      "skills": [
+        "Blender",
+        "Prototyping",
+        "Design Systems"
+      ]
+    },
+    {
+      "title": "Blender Mobile App Redesign",
+      "description": "Redesign a popular mobile application focusing on UX improvements using Blender.",
+      "difficulty": "Intermediate",
+      "duration": "5-8 hours",
+      "skills": [
+        "Blender",
+        "UX/UI",
+        "Wireframing"
+      ]
+    }
+  ],
+  "c": [
+    {
+      "title": "Advanced C System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced C concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "C",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "C Real-world Application",
+      "description": "Solve a realistic industry problem by applying core C principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "C",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "cad-designer": [
+    {
+      "title": "Cad Designer Comprehensive Design System",
+      "description": "Create a fully functional, reusable design system and component library in Cad Designer.",
+      "difficulty": "Advanced",
+      "duration": "8-12 hours",
+      "skills": [
+        "Cad Designer",
+        "Prototyping",
+        "Design Systems"
+      ]
+    },
+    {
+      "title": "Cad Designer Mobile App Redesign",
+      "description": "Redesign a popular mobile application focusing on UX improvements using Cad Designer.",
+      "difficulty": "Intermediate",
+      "duration": "5-8 hours",
+      "skills": [
+        "Cad Designer",
+        "UX/UI",
+        "Wireframing"
+      ]
+    }
+  ],
+  "cicd": [
+    {
+      "title": "Scalable Cicd Infrastructure",
+      "description": "Design and provision a highly available, fault-tolerant infrastructure setup using Cicd.",
+      "difficulty": "Advanced",
+      "duration": "12-18 hours",
+      "skills": [
+        "Cicd",
+        "Infrastructure as Code",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Cicd Automated Deployment Pipeline",
+      "description": "Create a fully automated CI/CD pipeline showcasing core Cicd deployment strategies.",
+      "difficulty": "Intermediate",
+      "duration": "6-10 hours",
+      "skills": [
+        "Cicd",
+        "Automation",
+        "Deployment"
+      ]
+    }
+  ],
+  "clinical-engineer": [
+    {
+      "title": "Advanced Clinical Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Clinical Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Clinical Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Clinical Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Clinical Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Clinical Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "cloud-networking": [
+    {
+      "title": "Scalable Cloud Networking Infrastructure",
+      "description": "Design and provision a highly available, fault-tolerant infrastructure setup using Cloud Networking.",
+      "difficulty": "Advanced",
+      "duration": "12-18 hours",
+      "skills": [
+        "Cloud Networking",
+        "Infrastructure as Code",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Cloud Networking Automated Deployment Pipeline",
+      "description": "Create a fully automated CI/CD pipeline showcasing core Cloud Networking deployment strategies.",
+      "difficulty": "Intermediate",
+      "duration": "6-10 hours",
+      "skills": [
+        "Cloud Networking",
+        "Automation",
+        "Deployment"
+      ]
+    }
+  ],
+  "cloud-security": [
+    {
+      "title": "Scalable Cloud Security Infrastructure",
+      "description": "Design and provision a highly available, fault-tolerant infrastructure setup using Cloud Security.",
+      "difficulty": "Advanced",
+      "duration": "12-18 hours",
+      "skills": [
+        "Cloud Security",
+        "Infrastructure as Code",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Cloud Security Automated Deployment Pipeline",
+      "description": "Create a fully automated CI/CD pipeline showcasing core Cloud Security deployment strategies.",
+      "difficulty": "Intermediate",
+      "duration": "6-10 hours",
+      "skills": [
+        "Cloud Security",
+        "Automation",
+        "Deployment"
+      ]
+    }
+  ],
+  "computer-architecture": [
+    {
+      "title": "Advanced Computer Architecture System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Computer Architecture concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Computer Architecture",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Computer Architecture Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Computer Architecture principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Computer Architecture",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "computer-networks": [
+    {
+      "title": "Advanced Computer Networks System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Computer Networks concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Computer Networks",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Computer Networks Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Computer Networks principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Computer Networks",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "computer-vision": [
+    {
+      "title": "End-to-End Computer Vision Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Computer Vision.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Computer Vision",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Computer Vision Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Computer Vision techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Computer Vision",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "configuration-management": [
+    {
+      "title": "Advanced Configuration Management System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Configuration Management concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Configuration Management",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Configuration Management Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Configuration Management principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Configuration Management",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "container-orchestration": [
+    {
+      "title": "End-to-End Container Orchestration Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Container Orchestration.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Container Orchestration",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Container Orchestration Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Container Orchestration techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Container Orchestration",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "control-systems": [
+    {
+      "title": "Advanced Control Systems System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Control Systems concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Control Systems",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Control Systems Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Control Systems principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Control Systems",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "corrosion-engineer": [
+    {
+      "title": "Advanced Corrosion Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Corrosion Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Corrosion Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Corrosion Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Corrosion Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Corrosion Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "cpp": [
+    {
+      "title": "Advanced Cpp System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Cpp concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Cpp",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Cpp Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Cpp principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Cpp",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "csharp": [
+    {
+      "title": "Advanced Csharp System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Csharp concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Csharp",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Csharp Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Csharp principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Csharp",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "css": [
+    {
+      "title": "Advanced Css System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Css concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Css",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Css Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Css principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Css",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "cybersecurity-fundamentals": [
+    {
+      "title": "Cybersecurity Fundamentals Threat Assessment",
+      "description": "Conduct a comprehensive security audit and vulnerability assessment utilizing Cybersecurity Fundamentals methodologies.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Cybersecurity Fundamentals",
+        "Auditing",
+        "Threat Modeling"
+      ]
+    },
+    {
+      "title": "Secure Cybersecurity Fundamentals Implementation",
+      "description": "Implement and configure a secure architecture adhering to Cybersecurity Fundamentals standards.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Cybersecurity Fundamentals",
+        "Hardening",
+        "Compliance"
+      ]
+    }
+  ],
+  "dart": [
+    {
+      "title": "Advanced Dart System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Dart concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Dart",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Dart Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Dart principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Dart",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "data-engineering": [
+    {
+      "title": "End-to-End Data Engineering Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Data Engineering.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Data Engineering",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Data Engineering Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Data Engineering techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Data Engineering",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "data-science": [
+    {
+      "title": "End-to-End Data Science Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Data Science.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Data Science",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Data Science Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Data Science techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Data Science",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "data-structures-algorithms": [
+    {
+      "title": "End-to-End Data Structures Algorithms Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Data Structures Algorithms.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Data Structures Algorithms",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Data Structures Algorithms Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Data Structures Algorithms techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Data Structures Algorithms",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "database-administration": [
+    {
+      "title": "End-to-End Database Administration Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Database Administration.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Database Administration",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Database Administration Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Database Administration techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Database Administration",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "database-design": [
+    {
+      "title": "End-to-End Database Design Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Database Design.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Database Design",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Database Design Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Database Design techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Database Design",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "deep-learning": [
+    {
+      "title": "End-to-End Deep Learning Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Deep Learning.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Deep Learning",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Deep Learning Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Deep Learning techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Deep Learning",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "devtools": [
+    {
+      "title": "Advanced Devtools System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Devtools concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Devtools",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Devtools Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Devtools principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Devtools",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "digital-forensics": [
+    {
+      "title": "Digital Forensics Threat Assessment",
+      "description": "Conduct a comprehensive security audit and vulnerability assessment utilizing Digital Forensics methodologies.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Digital Forensics",
+        "Auditing",
+        "Threat Modeling"
+      ]
+    },
+    {
+      "title": "Secure Digital Forensics Implementation",
+      "description": "Implement and configure a secure architecture adhering to Digital Forensics standards.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Digital Forensics",
+        "Hardening",
+        "Compliance"
+      ]
+    }
+  ],
+  "distributed-systems": [
+    {
+      "title": "Advanced Distributed Systems System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Distributed Systems concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Distributed Systems",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Distributed Systems Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Distributed Systems principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Distributed Systems",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "django": [
+    {
+      "title": "Django E-Commerce Architecture",
+      "description": "Build a complete e-commerce solution using core Django principles, featuring routing, state management, and API integration.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Django",
+        "Architecture",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Django Real-time Dashboard",
+      "description": "Develop a real-time analytics dashboard with live data updates leveraging Django best practices.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Django",
+        "Real-time",
+        "UI/UX"
+      ]
+    }
+  ],
+  "embedded-linux": [
+    {
+      "title": "Advanced Embedded Linux System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Embedded Linux concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Embedded Linux",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Embedded Linux Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Embedded Linux principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Embedded Linux",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "embedded-systems": [
+    {
+      "title": "Advanced Embedded Systems System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Embedded Systems concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Embedded Systems",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Embedded Systems Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Embedded Systems principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Embedded Systems",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "ethical-hacking": [
+    {
+      "title": "Ethical Hacking Threat Assessment",
+      "description": "Conduct a comprehensive security audit and vulnerability assessment utilizing Ethical Hacking methodologies.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Ethical Hacking",
+        "Auditing",
+        "Threat Modeling"
+      ]
+    },
+    {
+      "title": "Secure Ethical Hacking Implementation",
+      "description": "Implement and configure a secure architecture adhering to Ethical Hacking standards.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Ethical Hacking",
+        "Hardening",
+        "Compliance"
+      ]
+    }
+  ],
+  "express": [
+    {
+      "title": "Express E-Commerce Architecture",
+      "description": "Build a complete e-commerce solution using core Express principles, featuring routing, state management, and API integration.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Express",
+        "Architecture",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Express Real-time Dashboard",
+      "description": "Develop a real-time analytics dashboard with live data updates leveraging Express best practices.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Express",
+        "Real-time",
+        "UI/UX"
+      ]
+    }
+  ],
+  "fastapi": [
+    {
+      "title": "Fastapi E-Commerce Architecture",
+      "description": "Build a complete e-commerce solution using core Fastapi principles, featuring routing, state management, and API integration.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Fastapi",
+        "Architecture",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Fastapi Real-time Dashboard",
+      "description": "Develop a real-time analytics dashboard with live data updates leveraging Fastapi best practices.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Fastapi",
+        "Real-time",
+        "UI/UX"
+      ]
+    }
+  ],
+  "figma": [
+    {
+      "title": "Figma Comprehensive Design System",
+      "description": "Create a fully functional, reusable design system and component library in Figma.",
+      "difficulty": "Advanced",
+      "duration": "8-12 hours",
+      "skills": [
+        "Figma",
+        "Prototyping",
+        "Design Systems"
+      ]
+    },
+    {
+      "title": "Figma Mobile App Redesign",
+      "description": "Redesign a popular mobile application focusing on UX improvements using Figma.",
+      "difficulty": "Intermediate",
+      "duration": "5-8 hours",
+      "skills": [
+        "Figma",
+        "UX/UI",
+        "Wireframing"
+      ]
+    }
+  ],
+  "flask": [
+    {
+      "title": "Flask E-Commerce Architecture",
+      "description": "Build a complete e-commerce solution using core Flask principles, featuring routing, state management, and API integration.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Flask",
+        "Architecture",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Flask Real-time Dashboard",
+      "description": "Develop a real-time analytics dashboard with live data updates leveraging Flask best practices.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Flask",
+        "Real-time",
+        "UI/UX"
+      ]
+    }
+  ],
+  "flutter": [
+    {
+      "title": "Advanced Flutter System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Flutter concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Flutter",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Flutter Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Flutter principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Flutter",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "food-process-engineer": [
+    {
+      "title": "Advanced Food Process Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Food Process Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Food Process Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Food Process Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Food Process Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Food Process Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "fpga-design": [
+    {
+      "title": "Fpga Design Comprehensive Design System",
+      "description": "Create a fully functional, reusable design system and component library in Fpga Design.",
+      "difficulty": "Advanced",
+      "duration": "8-12 hours",
+      "skills": [
+        "Fpga Design",
+        "Prototyping",
+        "Design Systems"
+      ]
+    },
+    {
+      "title": "Fpga Design Mobile App Redesign",
+      "description": "Redesign a popular mobile application focusing on UX improvements using Fpga Design.",
+      "difficulty": "Intermediate",
+      "duration": "5-8 hours",
+      "skills": [
+        "Fpga Design",
+        "UX/UI",
+        "Wireframing"
+      ]
+    }
+  ],
+  "gcp": [
+    {
+      "title": "Scalable Gcp Infrastructure",
+      "description": "Design and provision a highly available, fault-tolerant infrastructure setup using Gcp.",
+      "difficulty": "Advanced",
+      "duration": "12-18 hours",
+      "skills": [
+        "Gcp",
+        "Infrastructure as Code",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Gcp Automated Deployment Pipeline",
+      "description": "Create a fully automated CI/CD pipeline showcasing core Gcp deployment strategies.",
+      "difficulty": "Intermediate",
+      "duration": "6-10 hours",
+      "skills": [
+        "Gcp",
+        "Automation",
+        "Deployment"
+      ]
+    }
+  ],
+  "generative-ai": [
+    {
+      "title": "End-to-End Generative Ai Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Generative Ai.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Generative Ai",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Generative Ai Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Generative Ai techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Generative Ai",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "git": [
+    {
+      "title": "Advanced Git System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Git concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Git",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Git Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Git principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Git",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "gitops": [
+    {
+      "title": "Scalable Gitops Infrastructure",
+      "description": "Design and provision a highly available, fault-tolerant infrastructure setup using Gitops.",
+      "difficulty": "Advanced",
+      "duration": "12-18 hours",
+      "skills": [
+        "Gitops",
+        "Infrastructure as Code",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Gitops Automated Deployment Pipeline",
+      "description": "Create a fully automated CI/CD pipeline showcasing core Gitops deployment strategies.",
+      "difficulty": "Intermediate",
+      "duration": "6-10 hours",
+      "skills": [
+        "Gitops",
+        "Automation",
+        "Deployment"
+      ]
+    }
+  ],
+  "go": [
+    {
+      "title": "Advanced Go System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Go concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Go",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Go Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Go principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Go",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "html": [
+    {
+      "title": "End-to-End Html Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Html.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Html",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Html Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Html techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Html",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "identity-access-management": [
+    {
+      "title": "Identity Access Management Threat Assessment",
+      "description": "Conduct a comprehensive security audit and vulnerability assessment utilizing Identity Access Management methodologies.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Identity Access Management",
+        "Auditing",
+        "Threat Modeling"
+      ]
+    },
+    {
+      "title": "Secure Identity Access Management Implementation",
+      "description": "Implement and configure a secure architecture adhering to Identity Access Management standards.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Identity Access Management",
+        "Hardening",
+        "Compliance"
+      ]
+    }
+  ],
+  "industrial-designer": [
+    {
+      "title": "Industrial Designer Comprehensive Design System",
+      "description": "Create a fully functional, reusable design system and component library in Industrial Designer.",
+      "difficulty": "Advanced",
+      "duration": "8-12 hours",
+      "skills": [
+        "Industrial Designer",
+        "Prototyping",
+        "Design Systems"
+      ]
+    },
+    {
+      "title": "Industrial Designer Mobile App Redesign",
+      "description": "Redesign a popular mobile application focusing on UX improvements using Industrial Designer.",
+      "difficulty": "Intermediate",
+      "duration": "5-8 hours",
+      "skills": [
+        "Industrial Designer",
+        "UX/UI",
+        "Wireframing"
+      ]
+    }
+  ],
+  "infrastructure-automation": [
+    {
+      "title": "Scalable Infrastructure Automation Infrastructure",
+      "description": "Design and provision a highly available, fault-tolerant infrastructure setup using Infrastructure Automation.",
+      "difficulty": "Advanced",
+      "duration": "12-18 hours",
+      "skills": [
+        "Infrastructure Automation",
+        "Infrastructure as Code",
+        "Scalability"
+      ]
+    },
+    {
+      "title": "Infrastructure Automation Automated Deployment Pipeline",
+      "description": "Create a fully automated CI/CD pipeline showcasing core Infrastructure Automation deployment strategies.",
+      "difficulty": "Intermediate",
+      "duration": "6-10 hours",
+      "skills": [
+        "Infrastructure Automation",
+        "Automation",
+        "Deployment"
+      ]
+    }
+  ],
+  "iot-networking": [
+    {
+      "title": "Advanced Iot Networking System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Iot Networking concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Iot Networking",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Iot Networking Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Iot Networking principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Iot Networking",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "irrigation-engineer": [
+    {
+      "title": "Advanced Irrigation Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Irrigation Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Irrigation Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Irrigation Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Irrigation Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Irrigation Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "java": [
+    {
+      "title": "Advanced Java System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Java concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Java",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Java Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Java principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Java",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "kotlin-android": [
+    {
+      "title": "Advanced Kotlin Android System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Kotlin Android concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Kotlin Android",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Kotlin Android Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Kotlin Android principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Kotlin Android",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "kotlin": [
+    {
+      "title": "Advanced Kotlin System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Kotlin concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Kotlin",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Kotlin Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Kotlin principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Kotlin",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "laravel": [
+    {
+      "title": "Laravel E-Commerce Architecture",
+      "description": "Build a complete e-commerce solution using core Laravel principles, featuring routing, state management, and API integration.",
+      "difficulty": "Advanced",
+      "duration": "10-15 hours",
+      "skills": [
+        "Laravel",
+        "Architecture",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Laravel Real-time Dashboard",
+      "description": "Develop a real-time analytics dashboard with live data updates leveraging Laravel best practices.",
+      "difficulty": "Intermediate",
+      "duration": "5-10 hours",
+      "skills": [
+        "Laravel",
+        "Real-time",
+        "UI/UX"
+      ]
+    }
+  ],
+  "linux": [
+    {
+      "title": "Advanced Linux System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Linux concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Linux",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Linux Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Linux principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Linux",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "llm-engineering": [
+    {
+      "title": "End-to-End Llm Engineering Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Llm Engineering.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Llm Engineering",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Llm Engineering Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Llm Engineering techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Llm Engineering",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "machine-learning": [
+    {
+      "title": "End-to-End Machine Learning Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Machine Learning.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Machine Learning",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Machine Learning Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Machine Learning techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Machine Learning",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "manufacturing-data-analyst": [
+    {
+      "title": "End-to-End Manufacturing Data Analyst Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Manufacturing Data Analyst.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Manufacturing Data Analyst",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Manufacturing Data Analyst Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Manufacturing Data Analyst techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Manufacturing Data Analyst",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "materials-scientist": [
+    {
+      "title": "Advanced Materials Scientist System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Materials Scientist concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Materials Scientist",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Materials Scientist Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Materials Scientist principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Materials Scientist",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "matlab": [
+    {
+      "title": "Advanced Matlab System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Matlab concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Matlab",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Matlab Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Matlab principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Matlab",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "medical-device-engineer": [
+    {
+      "title": "Advanced Medical Device Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Medical Device Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Medical Device Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Medical Device Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Medical Device Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Medical Device Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "medical-imaging-engineer": [
+    {
+      "title": "Advanced Medical Imaging Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Medical Imaging Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Medical Imaging Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Medical Imaging Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Medical Imaging Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Medical Imaging Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "metallurgical-engineer": [
+    {
+      "title": "Advanced Metallurgical Engineer System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Metallurgical Engineer concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Metallurgical Engineer",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Metallurgical Engineer Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Metallurgical Engineer principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Metallurgical Engineer",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "mlops": [
+    {
+      "title": "End-to-End Mlops Pipeline",
+      "description": "Construct a robust data pipeline incorporating ingestion, transformation, and deployment using Mlops.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Mlops",
+        "Data Engineering",
+        "MLOps"
+      ]
+    },
+    {
+      "title": "Mlops Predictive Model",
+      "description": "Train and evaluate a predictive model based on real-world datasets utilizing Mlops techniques.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Mlops",
+        "Modeling",
+        "Evaluation"
+      ]
+    }
+  ],
+  "mobile-testing": [
+    {
+      "title": "Advanced Mobile Testing System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Mobile Testing concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Mobile Testing",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Mobile Testing Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Mobile Testing principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Mobile Testing",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "mongodb": [
+    {
+      "title": "Advanced Mongodb System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Mongodb concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Mongodb",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Mongodb Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Mongodb principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Mongodb",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
+  ],
+  "monitoring-observability": [
+    {
+      "title": "Advanced Monitoring Observability System Design",
+      "description": "Design, document, and implement a complex system utilizing advanced Monitoring Observability concepts.",
+      "difficulty": "Advanced",
+      "duration": "15-20 hours",
+      "skills": [
+        "Monitoring Observability",
+        "System Architecture",
+        "Optimization"
+      ]
+    },
+    {
+      "title": "Monitoring Observability Real-world Application",
+      "description": "Solve a realistic industry problem by applying core Monitoring Observability principles and tools.",
+      "difficulty": "Intermediate",
+      "duration": "8-12 hours",
+      "skills": [
+        "Monitoring Observability",
+        "Problem Solving",
+        "Implementation"
+      ]
+    }
   ]
 }

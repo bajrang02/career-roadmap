@@ -443,7 +443,10 @@ export function RoadmapViewer({
       1 // never zoom past 100%
     );
 
-    const targetKBounded = Math.max(0.2, targetK);
+    // Smart Focus: maintain readable node size. Instead of zooming the entire 
+    // branch out to 0.2x, cap the focus-zoom at 0.85x so text stays readable,
+    // and rely on the pan (x,y) shift to bring the branch into view.
+    const targetKBounded = Math.max(0.85, targetK);
 
     setViewport({
       x: usableW / 2 - (bounds.x + bounds.width / 2) * targetKBounded,

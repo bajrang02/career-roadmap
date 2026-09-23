@@ -23,6 +23,7 @@
 import { useEffect, useState } from "react";
 import type {
   Certification,
+  CertificationCost,
   CertificationLink,
   CertificationView,
   NodeDetails,
@@ -115,39 +116,94 @@ function toLinkArray(v: unknown): CertificationLink[] {
  * catalog says so, and free preparation is only claimed when explicitly
  * flagged (rich records) — otherwise we stay silent rather than mislead.
  */
+/** Human labels for the credential families we ship. */
+const CREDENTIAL_TYPE_LABELS: Record<string, string> = {
+  professional_certification: "Professional certification",
+  vendor_certification: "Vendor certification",
+  industry_certification: "Industry certification",
+  professional_credential: "Professional credential",
+  license_exam: "License / exam",
+  academic_credential: "Academic credential",
+  course_certificate: "Course certificate",
+  training_certificate: "Training certificate",
+  digital_badge: "Digital badge",
+  micro_credential: "Micro-credential",
+};
+
+/**
+ * Cost label derived ONLY from the verified priceStatus. Free preparation
+ * material must never make a paid exam look free.
+ */
+function resolveCostLabel(cert: Certification): CertificationCost {
+  const status = cert.priceStatus;
+  const legacyFree = cert.type === "free" || /^free$/i.test(String(cert.cost ?? ""));
+  const legacyPaid = cert.type === "paid" || /^(\$|paid|varies)/i.test(String(cert.cost ?? ""));
+
+  if (status === "free") return "FREE";
+  if (status === "membership_required") return "MEMBERSHIP REQUIRED";
+  if (status === "varies") return "COST VARIES";
+  if (status === "unknown") return "SEE PROVIDER";
+  if (status === "freemium") return "COST VARIES";
+  if (status === "paid") return cert.examRequired === false ? "PAID CERTIFICATION" : "PAID EXAM";
+  // legacy records without a priceStatus
+  if (legacyFree) return "FREE";
+  if (legacyPaid) return "PAID EXAM";
+  return "SEE PROVIDER";
+}
+
 export function normalizeCertification(cert: Certification | undefined | null): CertificationView | null {
   if (!cert || typeof cert.id !== "string" || typeof cert.name !== "string") return null;
+
   const officialUrl =
-    typeof cert.url === "string" && /^https?:\/\//i.test(cert.url) ? cert.url : "";
+    typeof cert.officialUrl === "string" && /^https?:\/\//i.test(cert.officialUrl)
+      ? cert.officialUrl
+      : typeof cert.url === "string" && /^https?:\/\//i.test(cert.url)
+        ? cert.url
+        : "";
 
-  const isFreeCredential = cert.type === "free" || /^free$/i.test(String(cert.cost ?? ""));
-  // Rich future schema may flag prep freedom; the current simple catalog does
-  // not, so freePrep stays false unless explicitly proven.
   const explicitFreePrep = Array.isArray(cert.prep) && cert.prep.some((p) => (p as { free?: boolean })?.free === true);
-  const costLabel: CertificationView["costLabel"] = isFreeCredential
-    ? "FREE"
-    : explicitFreePrep
-      ? "FREE PREPARATION"
-      : "PAID EXAM";
 
+  const rawLevel = cert.level ?? cert.difficulty;
   const level =
-    cert.difficulty === "Beginner" ? "Foundational" : cert.difficulty === "Advanced" ? "Expert" : "Intermediate";
+    rawLevel === "Beginner" ? "Foundational" : rawLevel === "Advanced" ? "Expert" : "Intermediate";
+
+  const credentialType = (cert.credentialType ?? "professional_certification") as CertificationView["credentialType"];
 
   return {
     id: cert.id,
     name: cert.name,
     provider: typeof cert.provider === "string" && cert.provider ? cert.provider : "—",
+    credentialType,
+    credentialTypeLabel: CREDENTIAL_TYPE_LABELS[credentialType] ?? "Certification",
     level,
     officialUrl,
+    verificationUrl:
+      typeof cert.verificationUrl === "string" && /^https?:\/\//i.test(cert.verificationUrl)
+        ? cert.verificationUrl
+        : undefined,
     description: typeof cert.description === "string" ? cert.description : "",
-    costLabel: isFreeCredential ? "FREE" : cert.cost && !/^free/i.test(cert.cost) ? "PAID CERTIFICATION" : costLabel,
-    costDetail: typeof cert.cost === "string" ? cert.cost : undefined,
-    validity: typeof cert.validity === "string" ? cert.validity : undefined,
+    costLabel: resolveCostLabel(cert),
+    costDetail:
+      typeof cert.priceDetails === "string" && cert.priceDetails
+        ? cert.priceDetails
+        : typeof cert.cost === "string"
+          ? cert.cost
+          : undefined,
+    validity:
+      typeof cert.renewalPeriod === "string" && cert.renewalPeriod
+        ? cert.renewalPeriod
+        : typeof cert.validity === "string"
+          ? cert.validity
+          : undefined,
     freePrep: explicitFreePrep,
-    difficulty: cert.difficulty,
+    difficulty: rawLevel,
     validates: toStringArray((cert as unknown as { skills?: unknown }).skills ?? []),
     prep: toLinkArray(cert.prep),
     practiceLinks: toLinkArray(cert.practice),
+    examRequired: cert.examRequired === true,
+    examName: typeof cert.examName === "string" && cert.examName ? cert.examName : undefined,
+    prerequisites: toStringArray(cert.prerequisites),
+    eligibility: typeof cert.eligibility === "string" && cert.eligibility ? cert.eligibility : undefined,
   };
 }
 
@@ -250,20 +306,30 @@ export async function resolveTopicDetails(
   }
   mergedResources.sort((a, b) => Number(b.isOfficial ?? false) - Number(a.isOfficial ?? false));
 
-  // practice: embedded first (curated per-node), then resolved
+  // practice: embedded first (curated per-node tasks + platform links), then
+  // resolved platform records. A self-contained task (task: true) has no URL by
+  // design — it must still render, so the URL requirement only applies to
+  // link-backed items.
   const mergedPractice: PracticeItem[] = [];
-  const seenPracticeUrls = new Set<string>();
+  const seenPracticeKeys = new Set<string>();
   for (const p of [...(d.practice ?? []), ...resolvedPrac.items]) {
-    if (!p || typeof p.url !== "string" || seenPracticeUrls.has(p.url)) continue;
-    seenPracticeUrls.add(p.url);
+    if (!p || typeof p.title !== "string" || !p.title.trim()) continue;
+    const isTask = (p as { task?: unknown }).task === true;
+    const url = typeof p.url === "string" && /^https?:\/\//i.test(p.url) ? p.url : undefined;
+    if (!isTask && !url) continue;
+    const dedupeKey = url ?? `task::${p.title.trim().toLowerCase()}`;
+    if (seenPracticeKeys.has(dedupeKey)) continue;
+    seenPracticeKeys.add(dedupeKey);
+    const steps = toStringArray((p as { steps?: unknown }).steps);
     mergedPractice.push({
       title: p.title,
-      platform: p.platform || "Practice platform",
-      url: p.url,
+      platform: p.platform || (isTask ? "Guided task" : "Practice platform"),
+      url,
       difficulty: p.difficulty ?? "Intermediate",
       estimatedTime: p.estimatedTime ?? "30–60 min",
       skills: toStringArray(p.skills),
       description: typeof p.description === "string" && p.description.trim() ? p.description : p.title,
+      ...(isTask ? { task: true as const, ...(steps.length ? { steps } : {}) } : {}),
     });
   }
 

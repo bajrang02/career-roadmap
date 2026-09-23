@@ -99,6 +99,13 @@ const config: Config = {
           locked: "#e2e8f0",
         },
       },
+      borderRadius: {
+        6: "6px",
+        10: "10px",
+        14: "14px",
+        18: "18px",
+        999: "9999px",
+      },
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],

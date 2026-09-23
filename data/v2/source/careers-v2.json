@@ -11414,13 +11414,13 @@
               "resources": [
                 {
                   "title": "fast.ai Practical Deep Learning",
-                  "url": "https://course.fast.ai/",
+                  "url": "https://course.fast.ai/Lessons/lesson1.html",
                   "kind": "course",
                   "provider": "fast.ai"
                 },
                 {
                   "title": "Deep Learning Book (Goodfellow)",
-                  "url": "https://www.deeplearningbook.org/",
+                  "url": "https://www.deeplearningbook.org/contents/intro.html",
                   "kind": "article",
                   "provider": "Ian Goodfellow"
                 },
@@ -11435,7 +11435,7 @@
                 {
                   "title": "fast.ai Practical Deep Learning",
                   "platform": "fast.ai",
-                  "url": "https://course.fast.ai/",
+                  "url": "https://course.fast.ai/Lessons/lesson1.html",
                   "difficulty": "Intermediate",
                   "estimatedTime": "120+ min"
                 }
@@ -12453,7 +12453,7 @@
         },
         {
           "title": "Fast.ai Practical Deep Learning",
-          "url": "https://course.fast.ai/",
+          "url": "https://course.fast.ai/Lessons/lesson1.html",
           "kind": "course"
         }
       ],
@@ -30077,7 +30077,7 @@
         },
         {
           "title": "Engineering Toolbox",
-          "url": "https://www.engineeringtoolbox.com/",
+          "url": "https://www.engineeringtoolbox.com/saturated-steam-properties-d_457.html",
           "kind": "cheatsheet"
         }
       ],
@@ -30340,7 +30340,7 @@
               "resources": [
                 {
                   "title": "MIT OpenCourseWare — Thermodynamics",
-                  "url": "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/",
+                  "url": "https://ocw.mit.edu/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/",
                   "kind": "course",
                   "provider": "MIT OCW"
                 },
@@ -31158,7 +31158,7 @@
               "resources": [
                 {
                   "title": "MIT OpenCourseWare — Heat Transfer",
-                  "url": "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/",
+                  "url": "https://ocw.mit.edu/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/",
                   "kind": "course",
                   "provider": "MIT OCW"
                 }
@@ -33279,7 +33279,7 @@
       "rootResources": [
         {
           "title": "MIT OpenCourseWare — Civil Engineering",
-          "url": "https://ocw.mit.edu/",
+          "url": "https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/",
           "kind": "course"
         },
         {
@@ -39167,7 +39167,7 @@
       "rootResources": [
         {
           "title": "MIT OCW — Chemical Engineering",
-          "url": "https://ocw.mit.edu/",
+          "url": "https://ocw.mit.edu/courses/10-302-transport-processes-fall-2004/",
           "kind": "course"
         },
         {
@@ -39246,7 +39246,7 @@
               "resources": [
                 {
                   "title": "MIT OpenCourseWare — Thermodynamics",
-                  "url": "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/",
+                  "url": "https://ocw.mit.edu/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/",
                   "kind": "course",
                   "provider": "MIT OCW"
                 },
@@ -39364,7 +39364,7 @@
               "resources": [
                 {
                   "title": "MIT OpenCourseWare — Heat Transfer",
-                  "url": "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/",
+                  "url": "https://ocw.mit.edu/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/",
                   "kind": "course",
                   "provider": "MIT OCW"
                 }
@@ -42213,7 +42213,7 @@
       "rootResources": [
         {
           "title": "MIT OCW — Aerospace Engineering",
-          "url": "https://ocw.mit.edu/",
+          "url": "https://ocw.mit.edu/courses/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/",
           "kind": "course"
         },
         {
@@ -45211,7 +45211,7 @@
         },
         {
           "title": "MIT OCW — Operations Research",
-          "url": "https://ocw.mit.edu/",
+          "url": "https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/",
           "kind": "course"
         }
       ],
@@ -48088,12 +48088,12 @@
       "rootResources": [
         {
           "title": "MIT OCW — Materials Science",
-          "url": "https://ocw.mit.edu/",
+          "url": "https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/",
           "kind": "course"
         },
         {
           "title": "ASM International",
-          "url": "https://www.asminternational.org/",
+          "url": "https://www.asminternational.org/learn",
           "kind": "docs"
         }
       ],
@@ -50844,7 +50844,7 @@
       "rootResources": [
         {
           "title": "EPA Resources",
-          "url": "https://www.epa.gov/",
+          "url": "https://www.epa.gov/environmental-topics",
           "kind": "docs"
         },
         {
@@ -53588,7 +53588,7 @@
       "rootResources": [
         {
           "title": "MIT OCW — Biomedical Engineering",
-          "url": "https://ocw.mit.edu/",
+          "url": "https://ocw.mit.edu/courses/2-782j-design-of-medical-devices-and-implants-spring-2006/",
           "kind": "course"
         },
         {
@@ -56388,7 +56388,7 @@
         },
         {
           "title": "FAO — Food and Agriculture Organization Engineering Resources",
-          "url": "https://www.fao.org/agriculture/crops/crops/en/",
+          "url": "https://www.fao.org/land-water/land/en/",
           "kind": "article"
         }
       ],
@@ -228159,7 +228159,7 @@
               "resources": [
                 {
                   "title": "MIT OpenCourseWare — Heat Transfer",
-                  "url": "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/",
+                  "url": "https://ocw.mit.edu/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/",
                   "kind": "course",
                   "provider": "MIT OCW"
                 }
@@ -311719,7 +311719,13 @@
         "MATLAB",
         "AutoCAD"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Process flow diagram for a chemical plant unit",
+        "Heat and mass balance calculation for a distillation train",
+        "PID control loop tuning study for a reactor",
+        "HAZOP-style safety review of a unit operation"
+      ]
     },
     {
       "slug": "process-safety-engineer",
@@ -311741,7 +311747,13 @@
         "PHA-Pro",
         "Canary"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "HAZOP study report for a chemical process",
+        "Pressure relief valve sizing calculation",
+        "Layer of Protection Analysis (LOPA) for a critical unit",
+        "Fire and explosion hazard map for a facility"
+      ]
     },
     {
       "slug": "petrochemical-engineer",
@@ -311762,7 +311774,13 @@
         "UniSim",
         "Pro/II"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Distillation column design package",
+        "Pump and piping hydraulic calculation set",
+        "Refinery process simulation study",
+        "Turnaround maintenance schedule plan"
+      ]
     },
     {
       "slug": "bioprocess-engineer",
@@ -311784,7 +311802,13 @@
         "BioSolve",
         "MATLAB"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Bioreactor design and scale-up study",
+        "Fermentation process development plan",
+        "Downstream purification train design",
+        "CIP/SIP sterilization validation protocol"
+      ]
     },
     {
       "slug": "aerodynamics-engineer",
@@ -311806,7 +311830,13 @@
         "OpenFOAM",
         "XFOIL"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Airfoil CFD study with validation",
+        "Wind tunnel test plan and results report",
+        "Wing drag-reduction optimization study",
+        "Vehicle aerodynamics package analysis"
+      ]
     },
     {
       "slug": "propulsion-engineer",
@@ -311828,7 +311858,13 @@
         "GasTurb",
         "CFD Tools"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Rocket nozzle design calculation set",
+        "Turbofan engine cycle analysis",
+        "Propellant sizing and burn-time study",
+        "Static fire thrust-stand test plan"
+      ]
     },
     {
       "slug": "avionics-engineer",
@@ -311850,7 +311886,13 @@
         "LabVIEW",
         "Altium"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "ARINC 429 databus integration design",
+        "Flight instrument panel integration plan",
+        "DO-178C software design assurance plan",
+        "Multi-sensor fusion demonstration rig"
+      ]
     },
     {
       "slug": "aircraft-design-engineer",
@@ -311872,7 +311914,13 @@
         "NX",
         "VORPIC"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Conceptual aircraft design report",
+        "Weight and balance study for a light aircraft",
+        "Wing structure sizing calculation",
+        "Flight performance envelope calculation"
+      ]
     },
     {
       "slug": "supply-chain-engineer",
@@ -311894,7 +311942,13 @@
         "Oracle SCM",
         "Tableau"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Demand forecasting model for a product line",
+        "Warehouse network optimization study",
+        "Inventory policy simulation with safety stock",
+        "Supplier performance scorecard system"
+      ]
     },
     {
       "slug": "operations-research-analyst",
@@ -311918,7 +311972,13 @@
         "CPLEX",
         "Gurobi"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Linear programming optimization model",
+        "Queueing simulation for a service system",
+        "Shift scheduling optimization model",
+        "Network flow model for a logistics problem"
+      ]
     },
     {
       "slug": "reliability-engineer",
@@ -311940,7 +312000,13 @@
         "ReliaSoft",
         "Minitab"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "FMEA for a mechanical system",
+        "Weibull failure data analysis report",
+        "Reliability block diagram for a production line",
+        "RCM-based maintenance plan"
+      ]
     },
     {
       "slug": "metallurgical-engineer",
@@ -311962,7 +312028,13 @@
         "XRD",
         "JMatPro"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Heat treatment study with hardness data",
+        "Microstructure analysis report",
+        "Alloy selection matrix for a component",
+        "Failure analysis of a fractured part"
+      ]
     },
     {
       "slug": "materials-scientist",
@@ -311985,7 +312057,13 @@
         "COMSOL",
         "DFT Software"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Tensile test data analysis report",
+        "Phase diagram study for an alloy system",
+        "Materials selection study for a product",
+        "Crystal structure modeling exercise"
+      ]
     },
     {
       "slug": "corrosion-engineer",
@@ -312006,7 +312084,13 @@
         "Corrosion Modeling Software",
         "Electrochemistry Equipment"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Corrosion rate monitoring plan",
+        "Cathodic protection system design",
+        "Coating selection study for a marine environment",
+        "Failure analysis of a corroded component"
+      ]
     },
     {
       "slug": "polymer-engineer",
@@ -312028,7 +312112,13 @@
         "Rheometer",
         "DSC"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Injection molding process simulation",
+        "Polymer selection matrix for an application",
+        "Extrusion process trial report",
+        "Plastics recycling process study"
+      ]
     },
     {
       "slug": "medical-device-engineer",
@@ -312050,7 +312140,13 @@
         "MATLAB",
         "CAD"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Design history file for a Class II device",
+        "Risk management file per ISO 14971",
+        "Verification and validation test plan",
+        "Biocompatibility evaluation report"
+      ]
     },
     {
       "slug": "clinical-engineer",
@@ -312071,7 +312167,13 @@
         "Equipment Management Software",
         "Test Equipment"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Medical equipment maintenance program",
+        "Device recall and field-action plan",
+        "Equipment procurement evaluation report",
+        "Regulatory compliance audit of a device fleet"
+      ]
     },
     {
       "slug": "biomaterials-engineer",
@@ -312093,7 +312195,13 @@
         "Material Testing Equipment",
         "Cell Culture"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Implant material selection study",
+        "Biocompatibility test plan",
+        "In-vitro degradation study",
+        "Surface modification experiment report"
+      ]
     },
     {
       "slug": "medical-imaging-engineer",
@@ -312116,7 +312224,13 @@
         "Image Processing Tools",
         "DICOM Software"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "DICOM processing pipeline",
+        "Image reconstruction demonstration",
+        "QA phantom testing plan",
+        "Image segmentation model study"
+      ]
     },
     {
       "slug": "irrigation-engineer",
@@ -312138,7 +312252,13 @@
         "EPANET",
         "Irrigation Design Software"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Drip irrigation system design for a field",
+        "Pump and mainline sizing calculation",
+        "Irrigation scheduling optimization plan",
+        "Field water use audit report"
+      ]
     },
     {
       "slug": "precision-agriculture-specialist",
@@ -312161,7 +312281,13 @@
         "Drone Software",
         "Farm Management Software"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Sensor-based field monitoring plan",
+        "Yield map analysis report",
+        "Variable-rate application prescription",
+        "Drone survey and crop health workflow"
+      ]
     },
     {
       "slug": "food-process-engineer",
@@ -312183,7 +312309,13 @@
         "HACCP Tools",
         "MATLAB"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Pasteurization process validation study",
+        "Food plant layout with hygiene zoning",
+        "Packaging line optimization study",
+        "Shelf-life study with test protocol"
+      ]
     },
     {
       "slug": "biosystems-engineer",
@@ -312205,7 +312337,13 @@
         "Simulation Software",
         "Lab Equipment"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Greenhouse climate control design",
+        "On-farm wastewater treatment design",
+        "Biomass energy system feasibility study",
+        "Livestock building ventilation design"
+      ]
     },
     {
       "slug": "sustainability-engineer",
@@ -312227,7 +312365,13 @@
         "Energy Modeling",
         "CAD"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Lifecycle assessment (LCA) of a product",
+        "Carbon footprint reduction roadmap",
+        "Facility energy audit with savings plan",
+        "Circular economy redesign case study"
+      ]
     },
     {
       "slug": "manufacturing-data-analyst",
@@ -312249,7 +312393,13 @@
         "Tableau",
         "SAP"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "OEE dashboard for a production line",
+        "Downtime Pareto analysis report",
+        "SPC control chart implementation",
+        "Predictive maintenance model on sensor data"
+      ]
     },
     {
       "slug": "product-designer",
@@ -312271,7 +312421,13 @@
         "SolidWorks",
         "KeyShot"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "End-to-end product design case study",
+        "Usability test report with findings",
+        "Design system component contribution",
+        "Interactive high-fidelity prototype"
+      ]
     },
     {
       "slug": "industrial-designer",
@@ -312293,7 +312449,13 @@
         "Alias",
         "KeyShot"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Product form study from sketch to CAD",
+        "Color, material and finish (CMF) board",
+        "Ergonomics study for a handheld product",
+        "Physical concept model portfolio"
+      ]
     },
     {
       "slug": "cad-designer",
@@ -312315,7 +312477,13 @@
         "SolidWorks",
         "CATIA"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "Parametric part library with templates",
+        "Full assembly drawing package",
+        "GD&T dimensioned drawing set",
+        "Legacy drawing conversion and cleanup project"
+      ]
     },
     {
       "slug": "bim-specialist",
@@ -312337,7 +312505,13 @@
         "Navisworks",
         "BIM 360"
       ],
-      "sections": []
+      "sections": [],
+      "portfolioProjects": [
+        "BIM model for a small building project",
+        "Clash detection and resolution report",
+        "4D construction schedule from a BIM model",
+        "As-built model documentation package"
+      ]
     }
   ]
 }

@@ -51,8 +51,8 @@
       {"title": "Scikit-learn Documentation", "url": "https://scikit-learn.org/stable/", "kind": "docs"}
     ],
     "deep-learning": [
-      {"title": "Fast.ai Practical Deep Learning", "url": "https://course.fast.ai/", "kind": "course"},
-      {"title": "Deep Learning Book (Goodfellow)", "url": "https://www.deeplearningbook.org/", "kind": "book"}
+      {"title": "Fast.ai Practical Deep Learning", "url": "https://course.fast.ai/Lessons/lesson1.html", "kind": "course"},
+      {"title": "Deep Learning Book (Goodfellow)", "url": "https://www.deeplearningbook.org/contents/intro.html", "kind": "book"}
     ],
     "python-for-data-science": [
       {"title": "Python Data Science Handbook", "url": "https://jakevdp.github.io/PythonDataScienceHandbook/", "kind": "book"},
@@ -79,12 +79,12 @@
       {"title": "MIT OCW Linear Algebra (Strang)", "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/", "kind": "course"}
     ],
     "thermodynamics": [
-      {"title": "MIT OCW Thermodynamics", "url": "https://ocw.mit.edu/courses/2-005-thermal-fluids-engineering-i-fall-2011/", "kind": "course"},
-      {"title": "Engineering Toolbox — Thermodynamics", "url": "https://www.engineeringtoolbox.com/", "kind": "cheatsheet"}
+      {"title": "MIT OCW Thermodynamics", "url": "https://ocw.mit.edu/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/", "kind": "course"},
+      {"title": "Engineering Toolbox — Saturated Steam Properties", "url": "https://www.engineeringtoolbox.com/saturated-steam-properties-d_457.html", "kind": "cheatsheet"}
     ],
     "solidworks-tutorials": [
       {"title": "SolidWorks Documentation", "url": "https://help.solidworks.com/", "kind": "docs"},
-      {"title": "SolidWorks Tutorials", "url": "https://www.solidworks.com/support/self-paced-training", "kind": "course"}
+      {"title": "SolidWorks Tutorials", "url": "https://www.solidworks.com/support/training", "kind": "course"}
     ],
     "ansys-tutorials": [
       {"title": "ANSYS Learning Hub", "url": "https://innovationspace.ansys.com/", "kind": "course"},
@@ -103,7 +103,7 @@
       {"title": "ByteByteGo System Design", "url": "https://blog.bytebytego.com/", "kind": "article"}
     ],
     "operating-systems": [
-      {"title": "MIT OCW 6.828 Operating Systems", "url": "https://ocw.mit.edu/courses/6-s081-operating-system-engineering-fall-2020/", "kind": "course"},
+      {"title": "MIT OCW 6.828 Operating Systems", "url": "https://pdos.csail.mit.edu/6.S081/2020/schedule.html", "kind": "course"},
       {"title": "Operating Systems: Three Easy Pieces", "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/", "kind": "book"}
     ],
     "computer-networking": [
@@ -112,14 +112,14 @@
     ],
     "water-treatment": [
       {"title": "EPA Water Treatment", "url": "https://www.epa.gov/dwreginfo", "kind": "docs"},
-      {"title": "MIT OCW Water Treatment", "url": "https://ocw.mit.edu/", "kind": "course"}
+      {"title": "MIT OCW Water and Wastewater Treatment Engineering", "url": "https://ocw.mit.edu/courses/1-85-water-and-wastewater-treatment-engineering-spring-2006/", "kind": "course"}
     ],
     "structural-analysis": [
-      {"title": "MIT OCW Structural Analysis", "url": "https://ocw.mit.edu/", "kind": "course"},
-      {"title": "Engineering Toolbox — Structural", "url": "https://www.engineeringtoolbox.com/", "kind": "cheatsheet"}
+      {"title": "MIT OCW Solid Mechanics", "url": "https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/", "kind": "course"},
+      {"title": "Engineering Toolbox — Young's Modulus of Elasticity", "url": "https://www.engineeringtoolbox.com/young-modulus-d_417.html", "kind": "cheatsheet"}
     ],
     "biomechanics": [
-      {"title": "MIT OCW Biomechanics", "url": "https://ocw.mit.edu/", "kind": "course"},
+      {"title": "MIT OCW Biomaterials-Tissue Interactions", "url": "https://ocw.mit.edu/courses/20-441j-biomaterials-tissue-interactions-fall-2009/", "kind": "course"},
       {"title": "IEEE EMBS Resources", "url": "https://www.embs.org/", "kind": "docs"}
     ],
     "cryptography-fundamentals": [
@@ -143,15 +143,15 @@
       {"title": "JavaScript.info Promises", "url": "https://javascript.info/promise-basics", "kind": "docs"}
     ],
     "hvac-systems": [
-      {"title": "ASHRAE Resources", "url": "https://www.ashrae.org/", "kind": "docs"},
-      {"title": "HVAC Learning — HVAC School", "url": "https://www.hvacrschool.com/", "kind": "article"}
+      {"title": "ASHRAE Resources", "url": "https://www.ashrae.org/technical-resources", "kind": "docs"},
+      {"title": "HVAC Learning — HVAC School", "url": "https://www.hvacrschool.com/tech-tips/", "kind": "article"}
     ],
     "fe-exam-preparation": [
       {"title": "NCEES FE Exam Information", "url": "https://ncees.org/fe-exam/", "kind": "docs"},
       {"title": "PrepFE — FE Exam Practice", "url": "https://prepfe.com/", "kind": "practice"}
     ],
     "plc-programming": [
-      {"title": "PLCdev Training", "url": "https://www.plcdev.com/plc_training", "kind": "course"},
+      {"title": "PLCdev Training", "url": "https://control.com/textbook/programmable-logic-controllers/", "kind": "course"},
       {"title": "Allen Bradley PLC Tutorial", "url": "https://www.theautomationblog.com/", "kind": "article"}
     ]
   }

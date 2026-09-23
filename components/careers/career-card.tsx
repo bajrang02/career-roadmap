@@ -47,7 +47,6 @@ export function CareerCard({
         >
           {entry.icon}
         </span>
-        <ArrowUpRight className="h-4 w-4 text-slate-300 transition-all duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-brand-500" />
       </div>
 
       <h3 className="font-display mt-3 line-clamp-1 text-[15px] font-semibold text-slate-900 dark:text-white">
@@ -99,6 +98,14 @@ export function CareerCard({
               className="h-full rounded-full bg-gradient-to-r from-brand-500 to-violet-500"
             />
           </div>
+        </div>
+      )}
+      {!started && (
+        <div className="mt-4 flex items-center justify-between pt-1">
+          <span className="text-[13px] font-semibold text-brand-600 transition-colors group-hover:text-brand-700 dark:text-brand-400 dark:group-hover:text-brand-300">
+            View Roadmap
+          </span>
+          <ArrowUpRight className="h-4 w-4 text-brand-600/50 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-brand-600 dark:text-brand-400/50 dark:group-hover:text-brand-400" />
         </div>
       )}
     </Link>
